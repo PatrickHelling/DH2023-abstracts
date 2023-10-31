@@ -2,7 +2,7 @@
 
 Contributions to the DH-Conference "Collaboration as Opportunity" 2023 at the University of Graz, Austria, 10-14 July 2023
 
-Conference-Webite: [https://dhd2023.dig-hum.de/](https://dh2023.adho.org/)
+Conference-Webite: [https://dh2023.adho.org/](https://dh2023.adho.org/)
 
 Book of Abstracts: https://doi.org/10.5281/zenodo.7961821
 
@@ -13,16 +13,16 @@ This repository contains
 - the set of TEI encoded XML files of all contributions (folder: XML-files)
 - the set of individual PDF files of all contributions (folder: PDF-files)
 - the set of individual poster presentations (folder: poster PDF-files)
-- a comprehensive publication list, containing all metadata and DOIs of all contributions (file: package_DHd2022.csv)
-- a comprehensive publication list, containing all metadata and DOIs of all poster presentations (file: package_poster_DHd2022.csv)
+- a comprehensive publication list, containing all metadata and DOIs of all contributions (file: DH2023.csv)
+- a comprehensive publication list, containing all metadata and DOIs of all poster presentations (file: DH2023_poster.csv)
 
-All contributions and poster presentations are published on zenodo: https://zenodo.org/communities/dhd/?page=1&size=20
+All contributions and poster presentations are published on zenodo: https://zenodo.org/communities/dh2023graz
 
 - Scripts for the creation of metadata for the abstracts: https://github.com/reborg789/zenodup
 - Scripts for the creation of individual PDF-files: https://github.com/PatrickHelling/DHd_BoA-separated
 - Scripts for the automatic upload and publication on Zenodo of all individual contributions: https://github.com/cceh/zenodup 
 
-# Documentation package_DHd2022.csv
+# Documentation DH2023.csv
 
 - access_right: defines the rights for accessing the publication
 - communities: identifier of communities to which the contribution is assigned on zenodo
@@ -39,16 +39,15 @@ All contributions and poster presentations are published on zenodo: https://zeno
 - licence: standardized licence for DHd-contributions
 - prereserve_doi: persistent identifier that was prereserved while uploading publication to zenodo
 - publication_date: date of publication of the original book of abstracts
-- publication_type: type of publication on zenodo
 - related_identifier: DOI of the Book of Abstracts | If poster presentation: DOI of the poster presentation
+- publication_type: type of publication on zenodo
 - title: title of contribution
 - upload_type: type of upload
 - conceptdoi: persistent identifier of all versions of a publication (points to the earliest version)
 - files: files that are part of an individual publication
-- format: format of presentation at the conference
-- xml_id: Identifier of a contribution in XML-file
+- language: language of the text
 
-# Documentation package_poster_DHd2022.csv
+# Documentation DH2023_poster.csv
 
 - access_right: defines the rights for accessing the publication
 - communities: identifier of communities to which the contribution is assigned on zenodo
@@ -70,13 +69,6 @@ All contributions and poster presentations are published on zenodo: https://zeno
 - upload_type: type of upload
 - conceptdoi: persistent identifier of all versions of a publication (points to the earliest version)
 - files: files that are part of an individual publication
-
-See also contributions of all other DHd-Conferences:
-
-- DHd2014: https://github.com/DHd-Verband/DHd-Abstracts-2014
-- DHd2015: https://github.com/DHd-Verband/DHd-Abstracts-2015
-- DHd2016: https://github.com/DHd-Verband/DHd-Abstracts-2016
-- DHd2017: https://github.com/DHd-Verband/DHd-Abstracts-2017
 - DHd2018: https://github.com/DHd-Verband/DHd-Abstracts-2018
 - DHd2019: https://github.com/DHd-Verband/DHd-Abstracts-2019
 - DHd2020: https://github.com/DHd-Verband/DHd-Abstracts-2020
