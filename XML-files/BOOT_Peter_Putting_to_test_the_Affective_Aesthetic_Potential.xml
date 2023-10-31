@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Putting to test the Affective-Aesthetic Potential</title>
+                <author n="BootPeterBOOT_Peter_Putting_to_test_the_Affective_Aesthetic_Potential.xml"><persName ref="https://orcid.org/0000-0002-7399-3539" n="BootPeter">
+                        <surname>Boot</surname>
+                        <forename>Peter</forename>
+                    </persName><affiliation>Huygens Institute for the History and Culture of the
+                        Netherlands</affiliation><email>peter.boot@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoolenMarijnBOOT_Peter_Putting_to_test_the_Affective_Aesthetic_Potential.xml"><persName ref="https://orcid.org/0000-0002-0301-2029" n="KoolenMarijn">
+                        <surname>Koolen</surname>
+                        <forename>Marijn</forename>
+                    </persName><affiliation>Huygens Institute for the History and Culture of the Netherlands;
+                        DHLab, KNAW Humanities Cluster</affiliation><email>marijn.koolen@di.huc.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MussmanOleBOOT_Peter_Putting_to_test_the_Affective_Aesthetic_Potential.xml"><persName ref="https://orcid.org/0000-0002-3803-4287" n="MussmanOle">
+                        <surname>Mussman</surname>
+                        <forename>Ole</forename>
+                    </persName><affiliation>Netherlands eScience Center</affiliation><email>o.mussmann@esciencecenter.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchnoberCarstenBOOT_Peter_Putting_to_test_the_Affective_Aesthetic_Potential.xml"><persName ref="https://orcid.org/0000-0001-9139-1577" n="SchnoberCarsten">
+                        <surname>Schnober</surname>
+                        <forename>Carsten</forename>
+                    </persName><affiliation>Netherlands eScience Center</affiliation><email>c.schnober@esciencecenter.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanHageWillemBOOT_Peter_Putting_to_test_the_Affective_Aesthetic_Potential.xml"><persName ref="https://orcid.org/0000-0002-6478-3003" n="vanHageWillem">
+                        <surname>van Hage</surname>
+                        <forename>Willem</forename>
+                    </persName><affiliation>Netherlands eScience Center</affiliation><email>w.vanhage@esciencecenter.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanZundertJorisBOOT_Peter_Putting_to_test_the_Affective_Aesthetic_Potential.xml"><persName ref="https://orcid.org/0000-0003-3862-7602" n="vanZundertJoris">
+                        <surname>van Zundert</surname>
+                        <forename>Joris</forename>
+                    </persName><affiliation>Huygens Institute for the History and Culture of the Netherlands;
+                        DHLab, KNAW Humanities Cluster</affiliation><email>joris.van.zundert@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We test the Aesthetic-Affective Potential (AAP), a word-embedding-based predictor for the perceived beauty of words. In a SentiArt context, AAP has also been shown to predict readers' liking of narrative passages. We investigate AAP and valence in the context of a large Dutch corpus of novels and their reviews.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>valence</term>
+                    <term>literary studies</term>
+                    <term>aesthetic-affective potential</term>
+                    <term>reviews</term>
+                    <term>ratings</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>natural language processing</term>
+                    <term>social media analysis and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>We investigate the Affective-Aesthetic Potential
+                    (AAP), a psycholinguistic word measure meant to represent the beauty of words
+                    (Jacobs 2017). Jacobs and Kinder (2020) show that the average AAP value predicts
+                    how well readers like passages in novels. In this paper, we investigate the
+                    AAP's potential in the context of a corpus ca. 11.000 Dutch-language fiction
+                    books for which we have text and sometimes reviews and ratings.</p>
+                <p>The AAP was introduced by Jacobs (2017). At the basis
+                    of its computation are two lists of 62 seed words (positive and negative). The
+                    AP represents the semantic distance to the seed words. Jacobs presents the seed
+                    words as 'tentative' but apparently, they have not been revised since. The
+                    SentiArt framework (Jacobs 2019, Jacobs and Kinder 2020) expands on this
+                    approach. Here, a vector space model is computed using word2vec. From seed
+                    words, values are computed for various (approximations of) psycholinguistic
+                    variables. We focus on valence and AAP. </p>
+                <p>We present some computational experiments around
+                    valence and AAP in the context of our corpus. All reported results are
+                    tentative; we will recompute them before the conference with a larger corpus of
+                    books and reviews.</p>
+            </div>
+            <div type="div1">
+                <head>Computation of AAP and Valence ratings</head>
+                <p>We compute SentiArt valence and AAP values as
+                    follows:</p>
+                <list type="unordered">
+                    <item>We use word2vec to create word embeddings from the complete text of our
+                        novels (931M words).</item>
+                    <item>We translate the AAP seed words into Dutch. </item>
+                    <item>We compute AAP values following Jacobs and Kinder (2020).</item>
+                </list>
+                <p>Our data are available at:
+                    https://github.com/impact-and-fiction/putting-to-test-aap. </p>
+            </div>
+            <div type="div1">
+                <head>SentiArt-predicted vs. empirical values of valence</head>
+                <p>Jacobs gives valence and AAP values for Dutch words.
+                    We test SentiArt's usability by comparing Jacobs' valences with those
+                    established empirically by Moors et al. (2013) and with the words in the LiLaH
+                    sentiment lexicon (Ljubešić et al. 2020). </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="11.332986111111111cm" url="Pictures/57cf7d719c8bc2a0b1864f296732d762.png" rend="inline"/>
+                    <head>Figure 1. The SentiArt valence and Moors et al.
+                    valence scores of individual words.</head>
+                </figure>
+                <p>Figure 1 presents the SentiArt valences with
+                    corresponding scores from Moors et al. The correlation is substantial (0.70).
+                    However, there are many words with a low score on one scale but high on the
+                    other. The results on the LiLaH lexicon (Figure 2, not discussed here) are
+                    similar. Further study is needed to find out what this might mean in application
+                    scenarios. </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="11.752791666666667cm" url="Pictures/90b3cf03c3d5c5d57eedd94e1f18e6fd.png" rend="inline"/>
+                    <head>Figure 2. Distribution of SentiArt scores for 4490
+                    words in the LiLaH dataset, differentiated by their binary valence in LiLaH.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>AAP values based on Wikipedia corpus vs. values based on literary
+                    corpus</head>
+                <p>Jacob's Dutch AAP values were computed on Wikipedia
+                    word embeddings. We use word embeddings based on our novel corpus. Figure 3
+                    shows that the embeddings based on novels give a larger amplitude of scores than
+                    those based on Wikipedia, suggesting that in novels, much of the vocabulary is
+                    more associated with emotion words than in Wikipedia. This provides a good
+                    reason to work with the book embeddings-based variables in our further analyses. </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="13.347347222222222cm" url="Pictures/e2e3d129d22dfba9b2c1f39099d6f2cd.png" rend="inline"/>
+                    <head>Figure 3. SentiArt AAP scores based Wikipedia (Y-axis)
+                    and on our novels.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Relation of AAP to valence over the course of a single work of fiction</head>
+                <p>Many of the AAP seed words are clearly related to
+                    valence (e.g. good, bad). It is to be expected that valence and AAP values are
+                    closely aligned. To test this, we plot both over the course of one novel (Figure
+                    4). It appears both constructs are very similar indeed (correlation 0.85). We
+                    will look further into the locations where the AAP and valence patterns differ. </p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="12.401902777777778cm" url="Pictures/bac1ed017f3b5bcdb40c6e95910402c7.png" rend="inline"/>
+                    <head>Figure 4. Moving averages of AAP and (SentiArt-based)
+                    valence.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Correlation between book level AAP and user ratings</head>
+                <p>Jacobs and Kinder (2020) report that AAP values for
+                    segments of a long story predict liking by readers. We investigate whether this
+                    relation still exists at the book level, by computing the correlation between
+                    book-level averaged AAP and readers' ratings, for books for which we have both
+                    text and reviews (670 books). We use the 'Lens' method described by Jacobs and
+                    Kinder. </p>
+                <p>The correlation is -.11, and therefore weakly
+                    negative, contrary to our expectation. Figure 5 plots the values. </p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="10.960805555555556cm" url="Pictures/d108cb0297a034d33ed4e7827f4ee81a.png" rend="inline"/>
+                    <head>Figure 5. Average rating vs. average AAP value per
+                    book. The size of each dot represents the number of reviews.</head>
+                </figure>
+                <p>There are a number of potential explanations for the
+                    absence of a relationship. Are only the last sections of the book important? Are
+                    ratings cognitive rather than affective? Should we control for genre? Should we
+                    look at fractal-based patterns (Gao et al. 2016)? We will come back to this at
+                    the conference. </p>
+            </div>
+            <div type="div1">
+                <head>Correlation between book level AAP and stylistic impact</head>
+                <p>As AAP should be particularly sensitive to the
+                    aesthetic component, we compute the correlation between book-level averaged AAP
+                    and the stylistic impact expressed in user reviews for that book (Boot and
+                    Koolen 2020).</p>
+                <figure>
+                    <graphic n="1006" width="16.002cm" height="13.440833333333334cm" url="Pictures/0c5fc88aa4b0808648cb4326653ce380.png" rend="inline"/>
+                    <head>Figure 6. Average stylistic impact vs. average AAP
+                    value per book (n=670).</head>
+                </figure>
+                <p>We plot the result in Figure 6. We find no significant
+                    correlation (r = 0.08, p = 0.14). We look for explanations based on a.o. the
+                    suggestions above. </p>
+            </div>
+            <div type="div1">
+                <head>Discussion and conclusion</head>
+                <p>Based on our results up to now we can say that the AAP
+                    represents an interesting approach to the study of literary response, but more
+                    work is needed. Apart from what we already noted above this includes: </p>
+                <list type="unordered">
+                    <item>As indicated by Jacobs &amp; Kinder (2020), the AAP methodology is not
+                        designed for long texts. We should look deeper into what AAP can do for
+                        longer text.</item>
+                    <item>AAP values are based on lists of positive and negative seed words. Does it
+                        make sense that words with a large negative AAP value neutralize ones with
+                        large positive values? Do positive and negative affects cancel out each
+                        other in literary texts? This is especially relevant given the somewhat
+                        arbitrary definition of AAP in Jacobs (2017).</item>
+                    <item>Following Jacobs, we have used only words in the top and bottom
+                        percentiles of the AAP value range (the "Lens" method). However, the impact
+                        of this choice needs to be investigated both empirically and
+                        analytically.</item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Boot, Peter </author>(2017): “A Database of Online Book Response
+                        and the Nature of the Literary Thriller”, in: In Conference Proceedings <hi rend="italic">DH2017</hi>. </bibl>
+                    <bibl>
+                        <author>Boot, Peter</author> / <author>Koolen, Marijn</author> (2020): “Captivating,
+                            splendid or instructive?: Assessing the impact of reading in online book
+                            reviews”, in: 
+                        <hi rend="italic">Scientific Study of Literature</hi>
+                        , 
+                        <hi rend="italic">10, </hi>
+                        1, 35-63.
+                    </bibl>
+                    <bibl><author>Gao, J., et al. </author>(2016). “A multiscale theory for the
+                        dynamical evolution of sentiment in novels”, in: <hi rend="italic">2016
+                            International Conference on Behavioral, Economic and Socio-cultural
+                            Computing (BESC)</hi>, IEEE. </bibl>
+                    <bibl><author>Jacobs, Arthur M. </author>(2017): “Quantifying the beauty of
+                        words: a neurocognitive poetics perspective”, in: <hi rend="italic">Frontiers in Human Neuroscience</hi>, <hi rend="italic">11</hi>, 622. </bibl>
+                    <bibl><author>Jacobs, Arthur M. </author>(2019): “Sentiment analysis for
+                        words and fiction characters from the perspective of computational (Neuro-)
+                        poetics”, in: <hi rend="italic">Frontiers in Robotics and AI</hi> 6. DOI:
+                        /10.3389/frobt.2019.00053 </bibl>
+                    <bibl><author>Jacobs, Arthur M.</author> / <author>Kinder, Annette</author> (2020):
+                        “Computing the affective-aesthetic potential of literary texts”, in: <hi rend="italic">AI</hi> 1, 1: 11-27. </bibl>
+                    <bibl><author>Koolen, Marijn</author> / <author>Boot, Peter</author> / <author>Van Zundert, Joris J.</author> (2020): “Online Book Reviews and the Computational Modelling of Reading
+                        Impact”, in: <hi rend="italic">Proceedings http://ceur-ws.org</hi>. </bibl>
+                    <bibl><author>Ljubešić, Nikola</author> / <author>Markov, Ilia</author> / <author>Fišer, Darja</author> / <author>Daelemans, Walter</author> (2020): “The lilah emotion lexicon of croatian,
+                        dutch and Slovene”, in: In <hi rend="italic">Proceedings of the Third
+                            Workshop on Computational Modeling of People's Opinions, Personality,
+                            and Emotion's in Social Media</hi> : 153-157. </bibl>
+                    <bibl><author>Moors, Agnes</author> / <author>De Houwer, Jan</author> / <author>Hermans, Dirk</author> / <author>Wanmaker, Sabine</author> / <author>Van Schie, Kevin</author> / <author>Van Harmelen, Anne Laura</author> / <author>...</author> / <author>Brysbaert, Marc</author> (2013): “Norms of valence, arousal, dominance, and age of
+                        acquisition for 4,300 Dutch words”, in: <hi rend="italic">Behavior research
+                            methods 45, </hi>1: 169-177. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

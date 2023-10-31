@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Using ECCO-BERT and the Historical Thesaurus of English to
+                        Explore Concepts and Agency in Historical Writing</title>
+                    <title type="sub">Interpreting the Eighteenth-century Luxury Debate</title>
+                </title>
+                <author n="LiimattaAatuRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="LiimattaAatu">
+                        <surname>Liimatta</surname>
+                        <forename>Aatu</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>aatu.liimatta@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MkelEetuRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="MkelEetu">
+                        <surname>Mäkelä</surname>
+                        <forename>Eetu</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>eetu.makela@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GinterFilipRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="GinterFilip">
+                        <surname>Ginter</surname>
+                        <forename>Filip</forename>
+                    </persName><affiliation>University of Turku</affiliation><email>figint@utu.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RastasIiroRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="RastasIiro">
+                        <surname>Rastas</surname>
+                        <forename>Iiro</forename>
+                    </persName><affiliation>University of Turku</affiliation><email>iitara@utu.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TihonenIiroRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="TihonenIiro">
+                        <surname>Tihonen</surname>
+                        <forename>Iiro</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>iiro.tiihonen@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZhangJinbinRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="ZhangJinbin">
+                        <surname>Zhang</surname>
+                        <forename>Jinbin</forename>
+                    </persName><affiliation>Aalto University</affiliation><email>jinbin.zhang@aalto.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PivovarovaLidiaRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="PivovarovaLidia">
+                        <surname>Pivovarova</surname>
+                        <forename>Lidia</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>lidia.pivovarova@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TolonenMikkoRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="TolonenMikko">
+                        <surname>Tolonen</surname>
+                        <forename>Mikko</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>mikko.tolonen@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KMiljaRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="KMilja">
+                        <surname>K</surname>
+                        <forename>Milja</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>kaledriina@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BabbarRohitRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="BabbarRohit">
+                        <surname>Babbar</surname>
+                        <forename>Rohit</forename>
+                    </persName><affiliation>Aalto University</affiliation><email>rohit.babbar@aalto.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WangRuilinRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="WangRuilin">
+                        <surname>Wang</surname>
+                        <forename>Ruilin</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>ruilin.wang@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SilyTanjaRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="SilyTanja">
+                        <surname>Säily</surname>
+                        <forename>Tanja</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>tanja.saily@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RyanYannCiarnRYAN_Yann_Ciar_n_Using_ECCO_BERT_and_the_Historical_Thesauru.xml"><persName n="RyanYannCiarn">
+                        <surname>Ryan</surname>
+                        <forename>Yann Ciarán</forename>
+                    </persName><affiliation>University of Helsinki</affiliation><email>yann.ryan@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper combines text reuse detection (using software developed for protein string detection) with genre classification based on the Bert transformer model, to understand changing patterns of genre and intextuality in a large dataset of eighteenth century British and Irish texts.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>This paper combines text reuse detection (using software developed for protein string detection) with genre classification based on the Bert transformer model, to understand changing patterns of genre and intextuality in a large dataset of eighteenth century British and Irish texts.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>bert</term>
+                    <term>ecco</term>
+                    <term>historiography</term>
+                    <term>historical thesaurus</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>bibliographic analysis</term>
+                    <term>cultural analytics</term>
+                    <term>natural language processing</term>
+                    <term>Book and print history</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <head>Introduction</head>
+            <p>This paper introduces a new method to determine meanings in
+                historical texts. It relies on a context-aware language model, using Transformer
+                architecture. As a case study, we use the method to understand more about the
+                eighteenth-century ‘luxury debate’. At this time, the growth and acceptance of
+                commercial society and an increase of the availability of luxury goods from overseas
+                meant that the dominant discourse shifted from seeing luxury as a corrupt force to
+                something more complex. Using this new method, we focus on two very specific
+                meanings of luxury and their change over time: luxury as a ‘disease’ and as
+                something ‘productive’. The results show that the average value of luxury in this
+                latter category increased over the century, suggesting a change in the way authors
+                wrote about the concept. </p>
+            <div>
+                <head>Related work</head>
+            </div>
+            <div>
+                <p>This method builds on existing computational approaches
+                    to understanding semantic meaning in texts, but updates them with the use of a
+                    trained-from-scratch BERT Transformer model. Many existing approaches to
+                    semantic representations focus the distributional hypothesis, which compares the
+                    contexts and distributions of words to determine semantic similarities (de Bolla
+                    et. al. 2020). However, these general models have been criticised for lacking
+                    the specificity needed by historians (Wevers &amp; Koolen, 2020). Particularly
+                    relevant to this paper is the work done to disambiguate word senses to a set of
+                    higher-level classes or categories, usually derived from large semantic
+                    dictionaries (Ciaramit et al 2003,  Piao et. al 2017; Robinson et. al 2022).
+                    BERT transformer models have also previously been used to detect shifts in
+                    historical language meaning (Martinc et al., 2020, Montariol et al., 2021). </p>
+                <p>Data and Methods</p>
+                <p>The paper primarily uses two resources: the ECCO-Bert
+                    language model created by the TurkuNLP group and the Historical Thesaurus of
+                    English (HTE). ECCO-Bert is a dedicated BERT model trained from scratch on a
+                    large collection of mostly-English-language texts, Eighteenth Century
+                    Collections Online (Rastas et. al. 2022). The second resource, the HTE, is a
+                    thesaurus compiled over four decades by experts, derived from the Oxford English
+                    Dictionary (Kay et. al, 2023). It has a detailed semantic structure, meaning
+                    each word in the thesaurus is contained within a hierarchical set of categories,
+                    each representing a more fine-grained group of connected words. Each word in the
+                    thesaurus is assigned a first and last date of known usage.</p>
+                <p>As Robinson et. al (2022), we assume that a given
+                    semantic category can be referred to by the lexical items contained within it.
+                    The concept of 'ill health,' for example, might be represented by the words <hi rend="italic">sickness</hi>, <hi rend="italic">plague</hi>, <hi rend="italic">ailment</hi>, and so forth. The proposed method extracts
+                    senses from the representations of words as found in ECCO-BERT, using references
+                    from the HTE. This is done by removing a ‘seed’ word of interest from a sequence
+                    of text, and using the model to generate the most likely replacements, along
+                    with probability scores. For a given word, first the top
+                    <hi rend="italic">k </hi>replacement words were generated,
+                    using the BERT model masked language task, resulting in a representation of that
+                    word. In the next step, this representation was compared to the lemmas
+                    representing each semantic category, filtered to only include lemmas in the HTE
+                    from within the set of target dates (1700–1800). The confidence score for each
+                    category is the sum of the model probabilities of a subset of the words from the
+                    representation which are found within the subcategory lemmas. </p>
+            </div>
+            <div>
+                <head>Results</head>
+                <p>As a preliminary study, this method was applied to each
+                    instance of a single word from the ECCO dataset, <hi rend="italic">luxury</hi>.
+                    Luxury in the eighteenth century, wrote Berg and Eger (2003) “[...] gradually
+                    lost its former associations with corruption and vice, and came to include
+                    production, trade and the civilising impact of superfluous commodities.” Tracing
+                    the key semantic categories for instances of the word <hi rend="italic">luxury</hi> allows us to better understand this changing attitude over
+                    time. Using the method, we extracted category scores for all instances of the
+                    word luxury in the ECCO dataset. In many cases, the method was able to derive
+                    sensible and meaningful semantic categories for these words. This is most
+                    apparent in the aggregate, as seen in the results from the top ten below (Table
+                    1).  </p>
+                <figure>
+                    <graphic n="1001" width="15.910277777777777cm" height="5.891388888888889cm" url="Pictures/35bb66857371bd54c4f0768aa0918a16.png" rend="inline"/>
+                </figure>
+                <p>Column N in this table is a sum of the confidence
+                    scores produced by the method explained above, essentially ranking the top
+                    semantic categories for all instances of the word luxury in our dataset. Of
+                    particular relevance are two from this list:
+                    <hi rend="bold"> the world -&gt; action or operation -&gt; advantage -&gt; usefulness </hi>and
+                    <hi rend="bold"> the world</hi> -&gt; <hi rend="bold">health and disease -&gt; ill health -&gt; a disease</hi>.  </p>
+                <p>These two categories are good proxies for the two
+                    dominant and opposing views of luxury: something corrupting and responsible for
+                    moral decline; or something productive and useful. Examples of high-scoring
+                    instances are given in Figure 1 below. </p>
+                <figure>
+                    <graphic n="1002" width="7.504544444444444cm" height="4.180772222222222cm" url="Pictures/31ce5203fdf76688899cf0c9bb563edf.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="7.503583333333333cm" height="4.180236111111111cm" url="Pictures/932600d763ffb871862419e4444f49d6.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 1: examples of high-scoring instances of the word
+                        luxury in ECCO texts in the semantic category ‘usefulness’ (left) and
+                        ‘disease’ (right). Left is from a letter by Oliver Goldsmith, who wrote
+                        extensively on the upsides of luxury, and right is from a work called
+                        Beauties of History, taken from a section devoted to luxury and its
+                        ills.</hi></head>
+                </figure>
+                <p>To understand more about how these views of luxury
+                    changed over time, we graphed the average value of each for each year of the
+                    century (Figure 2).</p>
+                <figure>
+                    <graphic n="1004" width="14.11111111111111cm" height="11.500555555555556cm" url="Pictures/fcf86b961f4a6864c702a092ff882397.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 2: Average value of the semantic category for the word
+                        luxury, across the eighteenth century.</hi></head>
+                </figure>
+                <p>Though noisy, this points to a fairly flat average use
+                    of the word <hi rend="italic">luxury</hi> within the ‘disease’ semantic category
+                    and an increase over time of the ‘usefulness’ category. This is an interesting
+                    finding and shows that there is a real statistical background to the idea that
+                    the prevailing view of luxury became less negative over time. The new usage is
+                    not just a general ‘positive vs negative’, but a shift towards a very specific
+                    semantic meaning of something being productive and useful. </p>
+            </div>
+            <div>
+                <head>Conclusion</head>
+                <p/>
+                <p>In conclusion, this paper proposes a method for
+                    determining layered meanings in a historically-aware manner using large language
+                    models and a widely-used semantic classification system. The proposed method is
+                    applied to the word <hi rend="italic">luxury</hi> found in a dataset of over 30
+                    million pages of early modern English to trace the evolution of its meaning over
+                    time and the differences in use between authors. This combination of the
+                    statistical, context-aware Transformer model, and the expert semantic resource
+                    of the HTE shows great promise, and in future work we aim to use the method over
+                    a wide range of concepts and semantically-varying terms. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Berg, M., &amp; Eger, E. </author>(2003). The rise and fall of
+                        the luxury debates. In M. Berg &amp; E. Eger (Eds.), <hi rend="italic">Luxury in the Eighteenth Century</hi> (pp. 7–27). Palgrave Macmillan
+                        UK. https://doi.org/10.1057/9780230508279_2 </bibl>
+                    <bibl><author>Bolla, P. D., Jones, E., Nulty,
+                            P., Recchia, G., &amp; Regan, J. </author>(2020). The idea of liberty,
+                        1600–1800: A distributional concept analysis. <hi rend="italic">Journal of
+                            the History of Ideas</hi>, <hi rend="italic">81</hi>(3), 381–406.
+                        https://doi.org/10.1353/jhi.2020.0023 </bibl>
+                    <bibl><author>Ciaramita, M., &amp; Johnson,
+                            M. </author>(2003). Supersense tagging of unknown nouns in wordnet. <hi rend="italic">Proceedings of the 2003 Conference on Empirical Methods in
+                            Natural Language Processing</hi>, 168–175.
+                        https://aclanthology.org/W03-1022 </bibl>
+                    <bibl><author>de Bolla, P. </author>(2020). The
+                        evolution of aesthetic concepts 1700–1800. In K. Axelsson, C. Flodin, &amp;
+                        M. Pirholt (Eds.), <hi rend="italic">Beyond autonomy in eighteenth-century
+                            British and German aesthetics</hi>. Routledge. </bibl>
+                    <bibl><author>Martinc, M., Kralj Novak, P.,
+                            &amp; Pollak, S. </author>(2020). Leveraging contextual embeddings for
+                        detecting diachronic semantic shift. <hi rend="italic">Proceedings of the
+                            Twelfth Language Resources and Evaluation Conference</hi>, 4811–4819.
+                        https://aclanthology.org/2020.lrec-1.592 </bibl>
+                    <bibl><author>Montariol, S., Martinc, M.,
+                            &amp; Pivovarova, L. </author>(2021). Scalable and interpretable semantic
+                        change detection. <hi rend="italic">Proceedings of the 2021 Conference of
+                            the North American Chapter of the Association for Computational
+                            Linguistics: Human Language Technologies</hi>, 4642–4652.
+                        https://doi.org/10.18653/v1/2021.naacl-main.369 </bibl>
+                    <bibl><author>Piao, S., Dallachy, F., Baron,
+                            A., Demmen, J., Wattam, S., Durkin, P., McCracken, J., Rayson, P., &amp;
+                            Alexander, M. </author>(2017). A time-sensitive historical thesaurus-based
+                        semantic tagger for deep semantic annotation. <hi rend="italic">Computer
+                            Speech &amp; Language</hi>, <hi rend="italic">46</hi>, 113–135.
+                        https://doi.org/10.1016/j.csl.2017.04.010 </bibl>
+                    <bibl><author>Rastas, I., Ciarán Ryan, Y.,
+                            Tiihonen, I., Qaraei, M., Repo, L., Babbar, R., Mäkelä, E., Tolonen, M.,
+                            &amp; Ginter, F. </author>(2022). Explainable publication year prediction of
+                        eighteenth century texts with the bert model. <hi rend="italic">Proceedings
+                            of the 3rd Workshop on Computational Approaches to Historical Language
+                            Change</hi>, 68–77. https://doi.org/10.18653/v1/2022.lchange-1.7 </bibl>
+                    <bibl><author>Robinson, J. A., &amp; Weeds,
+                            J. </author>(2022). Cognitive sociolinguistic variation in the old bailey
+                        voices corpus: The case for a new concept ‐led framework. <hi rend="italic">Transactions of the Philological Society</hi>, <hi rend="italic">120</hi>(3), 399–426. https://doi.org/10.1111/1467-968X.12250 </bibl>
+                    <bibl><author>Wevers, M., &amp; Koolen, M.
+                        </author>(2020). Digital begriffsgeschichte: Tracing semantic change using word
+                        embeddings. <hi rend="italic">Historical Methods: A Journal of Quantitative
+                            and Interdisciplinary History</hi>, <hi rend="italic">53</hi>(4),
+                        226–243. https://doi.org/10.1080/01615440.2020.1760157 </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

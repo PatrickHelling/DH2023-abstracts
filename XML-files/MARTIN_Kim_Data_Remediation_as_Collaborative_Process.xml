@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Data Remediation as Collaborative Process</title>
+                <author n="MartinKimMARTIN_Kim_Data_Remediation_as_Collaborative_Process.xml"><persName n="MartinKim">
+                        <surname>Martin</surname>
+                        <forename>Kim</forename>
+                    </persName><affiliation>University of Guelph, Canada</affiliation><email>kmarti20@uoguelph.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BrownSusanMARTIN_Kim_Data_Remediation_as_Collaborative_Process.xml"><persName ref="https://orcid.org/0000-0002-0267-7344" n="BrownSusan">
+                        <surname>Brown</surname>
+                        <forename>Susan</forename>
+                    </persName><affiliation>University of Guelph, Canada</affiliation><email>sbrown@uoguelph.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper utilizes the concept of remediation (of research conceptualization, of data, and by interfaces) to describe the processes developed by Linked Infrastructure for Networked Cultural Scholarship (LINCS), a Canadian infrastructure project for mobilizing Canadian scholarship through the creation, dissemination, and use of linked open data (LOD).
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>This paper utilizes the concept of remediation (of research conceptualization, of data, and by interfaces) to describe the processes developed by Linked Infrastructure for Networked Cultural Scholarship (LINCS), a Canadian infrastructure project for mobilizing Canadian scholarship through the creation, dissemination, and use of linked open data (LOD).
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>linked data</term>
+                    <term>remediation</term>
+                    <term>collaboration</term>
+                    <term>semantic web</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>user experience design and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Design studies</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Linked Infrastructure for Networked Cultural Scholarship (LINCS) is mobilizing Canadian scholarship through the creation, dissemination, and use of linked open data (LOD). The project goal is to allow users from fields including history, communications, music, performance, and literary studies to interweave their research material meaningfully with data from cultural data publishers (galleries, museums, archives, libraries, presses) in order to transform how it is possible to engage with culture on the Semantic Web. As the project prepares to launch in 2023, this paper reflects on the activities of core LINCS project members as forms of remediation. Not only does the project work towards what may provocatively be understood as “[t]he action of remedying or correcting” (OED) a variety of differently formatted datasets into a findable, accessible, interoperable, and reusable (FAIR) state (Wilkison et al), but the results of this reworking allow for researchers and the public to remediate their knowledge through new methods of connection, visualization, and annotation. </p>
+            <p>This paper will reflect on three instances of dataset remediation within LINCS, using this term as a keyword for exploring the possibilities of LOD for the humanities, drawing on various senses of remediation from ecology (Shepherd), media studies (Bolter and Grusin), and digital humanities (Schuster and Dunn), and on the concept of (meta)data remediation (Groat; Radio and Hanrath). We demonstrate how a dataset enters the LINCS conversion workflow, becomes a part of the LINCS triplestore, and is then accessed by researchers through a variety of interfaces. The remediation of these diverse source datasets, on advertisements, paintings, and literary history, will demonstrate the ways in which these three processes of remediation are crucial to the creation of LOD through LINCS, and to the improvement of the data environment or ecosystem.</p>
+            <p>The first process occurs before any data is exchanged: the remediation of research conceptualization. The LINCS Research Board Chair, Ontologist, Project Manager, and Data Interface Developer meet with the leads of each research project for a data intake interview. During these conversations, researchers often comment that questions from the LINCS team about intent, granularity, audience, difference, and provenance change the way they conceptualize their projects. Although this result is unintentional, eliciting the context that is needed for the LINCS team to understand how best to map and convert these datasets initiates a process of rethinking everything from research questions to publication of project results. </p>
+            <p>The second process of remediation occurs as researchers’ datasets go through the LINCS workflow for conversion to LOD. Through ontology and vocabulary mappings, reconciliation against authorities and conversion to LOD, the LINCS team works both to understand the needs of individual researchers and to bring this understanding to aligning their data with our core ontology, CIDOC-CRM, or ways of extending the CIDOC base, to ensure compatibility across datasets and with LINCS tools. LINCS source datasets differ in form (structured, XML and natural language data) as well as in granularity, precision, domain, language, historical period, geopolitical location, and epistemology, in addition to researchers’ own identities and disciplinary methodologies. Datasets therefore require quite generalized ontological structures that can accommodate these differences. The granular and nuanced complexities of human artifacts and human subjectivities, including the varied and interdependent, imbricated and intersectional (Crenshaw) facets of identity, given CIDOC’s structure, manifest in vocabularies, which means that remediation of the data is being distributed across two different types of structure, which has implications for how the data can be used and accessed. </p>
+            <p>Finally, LINCS must create interfaces that mediate among these myriad perspectives and multiple worldviews, providing space for debates, difference, and contextualized and situated knowledge (Haraway) on the Semantic Web. As an infrastructure project funded to leverage as far as possible existing DH tools and platforms, LINCS has been challenged to make space for the desires of different research projects while adapting platforms to be usable by a broad audience and multiple projects. However, the technology stack is so complex that it is a challenge to make LOD usable for research, for reasons related to expertise, implementation, and infrastructure (Sanderson). Enabling users to make connections between data points across the Semantic Web is challenging, given the complexity of the data, meaning that the comfort of traditional media forms (images of paintings or print advertisements, for example) provides an important means of grounding the user within a novel and at times disorienting web interaction. We will demonstrate our attempts to overcome this complexity by showcasing how LINCS researchers are using LOD through two interfaces: the Context Browser plugin and our instance of ResearchSpace.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bolter, J. David</author> / <author>Grusin, Richard</author> 
+                         (1999): 
+                        <hi rend="italic">Remediation : Understanding New Media</hi>
+                        . Cambridge, Mass: MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Crenshaw, Kimberlé</author> (1989): “Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics,” in 
+                        <hi rend="italic">University of Chicago Legal Forum</hi>, 1989, 1.
+                    </bibl>
+                    <bibl>
+                        <author>Groat, Greta</author>
+                         (2009): 
+                        <hi rend="italic">Future Directions in Metadata Remediation for Metadata Aggregators. </hi>
+                        Digital Library Federation.
+                    </bibl>
+                    <bibl>
+                        <author>Haraway, Donna</author> (1988): “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,” in 
+                        <hi rend="italic">Feminist Studies</hi> 14,3: 575–99. 
+                        <ref target="https://doi.org/10.2307/3178066">https://doi.org/10.2307/3178066</ref>. 
+                    </bibl>
+                    <bibl>
+                        <author>Radio, Erik</author> / <author>Hanrath, Scott</author> 
+                         (2016): "Measuring the Impact and Effectiveness of Transitioning to a Linked Data Vocabulary," in 
+                        <hi rend="italic">Journal of Library Metadata</hi>
+                         16,2: 80-94.
+                    </bibl>
+                    <bibl><author>"remediation, n."</author> 
+                        <hi rend="italic">OED Online</hi>. Oxford University Press, September 2022. Web. 4 November 2022.
+                    </bibl>
+                    <bibl><author>“ResearchSpace.”</author> 
+                        <hi rend="italic">The British Museum</hi>
+                        <ref target="https://www.zotero.org/google-docs/?rKiyyy">, https://researchspace.org/.</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Sheppard, Laurel M.</author> (2003): “Remediation,” in 
+                        <hi rend="italic">Environmental Encyclopedia</hi>, ed. Marci Bortman et al, vol. 2, 3rd ed. Gale. 1191-1192.
+                    </bibl>
+                    <bibl>
+                        <author>Sanderson, Robert</author> (2018): “Shout It Out: LOUD.” EuropeanaTech Keynote Address, 2018. https://www.youtube.com/watch?v=r4afi8mGVAY. 
+                    </bibl>
+                    <bibl>
+                        <author>Schuster, Kristen</author> / <author>Dunn, Stuart</author>  (2020): “Introduction,” in 
+                        <hi rend="italic">Routledge International Handbook of Research Methods in Digital Humanities</hi>. Edited by Kristen Schuster and Stuart Dunn. Routledge.
+                    </bibl>
+                    <bibl>
+                        <author>Wilkinson, Mark et al.</author> (2016): "The FAIR Guiding Principles for Scientific Data Management and Stewardship," in 
+                        <hi rend="italic">Scientific Data</hi> 3.1 (15 March 2016): 160018. doi:10.1038/SDATA.2016.18.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

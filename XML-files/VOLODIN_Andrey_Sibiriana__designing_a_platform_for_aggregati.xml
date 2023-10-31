@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sibiriana: designing a platform for aggregation of the historical and cultural heritage of the Angara-Yenisei macroregion</title>
+                <author n="VolodinAndreyVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="VolodinAndrey">
+                        <surname>Volodin</surname>
+                        <forename>Andrey</forename>
+                    </persName><affiliation>Siberian Federal University &amp; Moscow State Unversity, Russian Federation</affiliation><email>volodin@hist.msu.ru</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SenotrusovaPolinaVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="SenotrusovaPolina">
+                        <surname>Senotrusova</surname>
+                        <forename>Polina</forename>
+                    </persName><affiliation>Siberian Federal University, Russian Federation</affiliation><email>psenotrusova@sfu-kras.ru</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AntamoshkinOleslavVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="AntamoshkinOleslav">
+                        <surname>Antamoshkin</surname>
+                        <forename>Oleslav</forename>
+                    </persName><affiliation>Siberian Federal University, Russian Federation</affiliation><email>oantamoskin@sfu-kras.ru</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KizhnerInnaVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="KizhnerInna">
+                        <surname>Kizhner</surname>
+                        <forename>Inna</forename>
+                    </persName><affiliation>Siberian Federal University, Russian Federation &amp; Haifa University, Israel</affiliation><email>inna.kizhner@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RumyantzevMaksimVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="RumyantzevMaksim">
+                        <surname>Rumyantzev</surname>
+                        <forename>Maksim</forename>
+                    </persName><affiliation>Siberian Federal University, Russian Federation</affiliation><email>mrumyantsev@sfu-kras.ru</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PikovNikitaVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="PikovNikita">
+                        <surname>Pikov</surname>
+                        <forename>Nikita</forename>
+                    </persName><affiliation>Siberian Federal University, Russian Federation</affiliation><email>npikov@sfu-kras.ru</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GruzdevAndreyVOLODIN_Andrey_Sibiriana__designing_a_platform_for_aggregati.xml"><persName n="GruzdevAndrey">
+                        <surname>Gruzdev</surname>
+                        <forename>Andrey</forename>
+                    </persName><affiliation>Siberian Federal University, Russian Federation</affiliation><email>agruzdev@sfu-kras.ru</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In 2023, Digital Humanities Research Institute at Siberian Federal University starts a working prototype of a research digital infrastructure for the aggregation, preservation, dissemination of Siberian historical and cultural heritage for historical, literary, ethnographic, art history and other kinds of research at the intersection of the humanities and computer sciences — Siberiana.online.
+                The aim of the project is to launch a long-term initiative for digitization, analysis, and curation of the different collections of historical, cultural, and natural heritage of the Central Siberia (so-called Angara-Yenisei macro-region).
+                The project is designed for research and education needs of the digital humanists at Siberian Federal University and world over, because Siberian artifacts and collections evoke a steady interest in the current literature.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>In 2023, Digital Humanities Research Institute at Siberian Federal University starts a working prototype of a research digital infrastructure for the aggregation, preservation, dissemination of Siberian historical and cultural heritage for historical, literary, ethnographic, art history and other kinds of research at the intersection of the humanities and computer sciences — Siberiana.online.
+                The aim of the project is to launch a long-term initiative for digitization, analysis, and curation of the different collections of historical, cultural, and natural heritage of the Central Siberia (so-called Angara-Yenisei macro-region).
+                The project is designed for research and education needs of the digital humanists at Siberian Federal University and world over, because Siberian artifacts and collections evoke a steady interest in the current literature.
+            </p></abstract>
+            <textClass>                
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>cultural heritage</term>
+                    <term>digitalization</term>
+                    <term>data curation</term>
+                    <term>cultural data presentation</term>
+                    <term>digital positioning of the region</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>linked (open) data</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Anthropology</term>
+                    <term>Archaeology</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In 2023, Digital Humanities Research Institute at Siberian Federal University starts a working prototype of a research digital infrastructure for the aggregation, preservation, dissemination of Siberian historical and cultural heritage for historical, literary, ethnographic, art history and other kinds of research at the intersection of the humanities and computer sciences 
+                — Siberiana.online. 
+            </p>
+            <p>The aim of the project is to launch a long-term initiative for digitization, analysis, and curation of the different collections of cultural heritage of the Central Siberia (so-called Angara-Yenisei macroregion). </p>
+            <p>The project is designed for research and education needs of the digital humanists at Siberian Federal University and world over, because judging by the current literature Siberian artifacts and collections evoke a steady interest (Kizhner et al, 2021). </p>
+            <p>We took several online resources for benchmarks. Europeana </p>
+            <p>(pro.europeana.eu) is the benchmark for metadata organization, Wikidata (wikidata.org) gives good examples for data identification and linking open data, Global Digital Heritage </p>
+            <p>(GlobalDigitalHeritage.org) is the reference point for cultural and historical objects presentation, and PhotoGrammar (PhotoGrammar.org) is the example we’re focusing on successfully combination of retrieval, analysis, and mapping of the artifacts in different collections. </p>
+            <p>The main aim of Siberiana (or 
+                <hi rend="italic">Sibiriana, or Сибириана)</hi> includes three relatively independent tasks. 
+            </p>
+            <p>The first task is to create the research aggregator of historical and cultural heritage of the huge Krasnoyarsk region. This task needs to pose many questions concerning semantic meta descriptions, open licenses, facet classification, fuzzy sets, ontologies, up to machine learning. The other task is to open the project for crowdsourcing, to invite students, volunteers, independent researchers for digitalization, moderation, editing, quality control, and data curation. The third task is to present a "business card" of the region, to lead the positioning of the region through cultural heritage: it starts from the 200
+                <hi rend="superscript">th</hi> anniversary of the Yenisei province of Russian Empire (in 2022) to the 400
+                <hi rend="superscript">th</hi> anniversary of Krasnoyarsk city (in 2028). This task gives an extra opportunity for interaction with holders of historical and cultural heritage, for creation of thematic research collections, and it gives challenges for formulating automatic selection goals (Kizhner et al, 2021). 
+            </p>
+            <p>The consortium of Russian Digital Humanities initiatives was created to unite museums, libraries, archives with researchers and data scientists and engineers in developing such complex tasks of 
+                <hi rend="italic">Siberiana</hi>. 
+            </p>
+            <p>Now, tools have been developed for aggregation and representation of already digitized data (annotated images, electronic copies of historical documents, 3D/VR/AR/MR models). Various methods and standards for digitizing objects of historical, cultural, and natural heritage are described for the platform needs. Expert support and usability analysis is an important component of each of the stages of project creation. Intelligent technologies for processing large collections of data, texts, images, 3D-models are under development. Examples of best practices are collected that can be included and scaled for the tasks of 
+                <hi rend="italic">Siberiana</hi>. 
+            </p>
+            <p>For the prototype stage of 
+                <hi rend="italic">Siberiana</hi>, several types of collections were selected, guaranteed to be complete, amenable to a complete description, and in demand in research, and at the same time, they are quite diverse, so it would be possible to find out to what extent different essences of the historical and cultural heritage can be brought to a common denominator. They are the following: 
+            </p>
+            <p>Collection types (1): archaeological artifacts </p>
+            <p><figure><graphic n="1001" width="12.506866666666667cm" height="8.653252777777778cm" url="Pictures/7f5ad8115cf05aca0469cc02ffeb02f4.jpg" rend="inline"/></figure></p>
+            <p>Collection types (2): text corpus of “Minusinsk Library” (1901) </p>
+            <p>Collection types (3): aggregation of open digital copies </p>
+            <p><figure><graphic n="1003" width="13.949283333333334cm" height="6.553652777777778cm" url="Pictures/4dc9f8cdba13b46e7475f6147dff736c.jpg" rend="inline"/></figure></p>
+            <p>Collection types (4): postcards </p>
+            <p><figure><graphic n="1004" width="14.084730555555556cm" height="7.03905cm" url="Pictures/2c64f1bb36c339d2190b06da1a932421.jpg" rend="inline"/></figure></p>
+            <p>Collection types (5): cartographic (with the possibility of GIS implementation) </p>
+            <p><figure><graphic n="1005" width="10.155372222222223cm" height="6.986016666666667cm" url="Pictures/28bb77aff51d01e8ff6d268cd77c8ec6.jpg" rend="inline"/></figure></p>
+            <p>Collection types (6): herbaria </p>
+            <p><figure><graphic n="1006" width="12.318547222222222cm" height="7.1624888888888885cm" url="Pictures/0985172e22e6bc797863cfc8df70832b.jpg" rend="inline"/></figure></p>
+            <p>Collection types (7): minerals </p>
+            <p><figure><graphic n="1007" width="12.474077777777778cm" height="8.441422222222222cm" url="Pictures/f9ef71d5d164f4e7140c16d4b2aeed8f.jpg" rend="inline"/></figure></p>
+            <p>For the prototype reasons of 
+                <hi rend="italic">Siberiana</hi>, the following database fields for faceted classification were the obligatory: what (object type), when (time period), where (location), where it is stored (institution), as well as copyright or open license information. 
+            </p>
+            <p>Siberiana is plotting as a digital model of the historical, cultural, and natural heritage of the Angara-Yenisei macro-region. Our goal is to unlock the potential of this heritage resources in two dimensions. For all types of users: it's to make such content easily accessible, visually well-presented, conveniently organized, and for researchers: it’s to provide a wide coverage of collections, valuable services for exploratory data analysis, to give a platform for collecting specific research data for a significant agenda (Kizhner et al, 2022). </p>
+            <p>Thus, historical, cultural, and natural heritage should be understood as a resource that allows people to make life interesting, rich, valuable, and in some respects socially significant.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kizhner, Inna</author> / <author>Terras, Melissa</author> / <author>Manovich, Lev</author> / <author>Orekhov, Boris</author> / <author>Kim, Igor</author> / <author>Rumyantsev, Maxim</author> / <author>Bonch-Osmolovskaya, Anastasia</author>  (2022): “The history and context of the Digital Humanities in Russia”, in: Global Debates in the Digital Humanities (Eds Domenico Fiormonte, Sukanta Chaudhuri). University of Minnesota Press: 55-70.
+                    </bibl>
+                    <bibl>
+                        <author>Kizhner, Inna</author> / <author>Terras, Melissa</author> / <author>Rumyantsev, Maxim</author> / <author>Khokhlova, Valentina</author> / <author>Demeshkova, Elisaveta</author> / <author>Rudov, Ivan</author> / <author>Afanasieva, Julia</author>  (2021): “Digital cultural colonialism: measuring bias in aggregated digitized content held in Google Arts and Culture”, in: Digital Scholarship in the Humanities, V. 36, Is. 3: 607–640.
+                    </bibl>
+                    <bibl>
+                        <author>Kizhner, Inna</author> / <author>Terras, Melissa</author> / <author>Rumyantsev, Maxim</author> / <author>Sycheva, Kristina</author> / <author>Rudov, Ivan</author>  (2019): “Accessing Russian culture online: The scope of digitization in museums across Russia”, in: Digital Scholarship in the Humanities, V. 34, Is. 2: 350–367.
+                    </bibl>
+                    <bibl>
+                        <author>“Siberiana”.</author> Aggregator of historical and cultural heritage of the Yenisei Siberia. URL: 
+                        <ref target="https://siberiana.online/">https://siberiana.online/</ref> [30.04.2023]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

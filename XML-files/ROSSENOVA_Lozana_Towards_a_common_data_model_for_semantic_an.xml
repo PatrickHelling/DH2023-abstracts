@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards a common data model for semantic annotation of digital media: A new FOSS toolchain</title>
+                <author n="RossenovaLozanaROSSENOVA_Lozana_Towards_a_common_data_model_for_semantic_an.xml"><persName ref="https://orcid.org/0000-0002-5190-1867" n="RossenovaLozana">
+                        <surname>Rossenova</surname>
+                        <forename>Lozana</forename>
+                    </persName><affiliation>TIB – Leibniz Information Centre for Science and Technology, Germany</affiliation><email>lozana.rossenova@tib.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SohmenLuciaROSSENOVA_Lozana_Towards_a_common_data_model_for_semantic_an.xml"><persName n="SohmenLucia">
+                        <surname>Sohmen</surname>
+                        <forename>Lucia</forename>
+                    </persName><affiliation>TIB – Leibniz Information Centre for Science and Technology, Germany</affiliation><email>lucia.sohmen@tib.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DuchesnePaulROSSENOVA_Lozana_Towards_a_common_data_model_for_semantic_an.xml"><persName n="DuchesnePaul">
+                        <surname>Duchesne</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>TIB – Leibniz Information Centre for Science and Technology, Germany</affiliation><email>paul.duchesne@tib.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GntherLukasROSSENOVA_Lozana_Towards_a_common_data_model_for_semantic_an.xml"><persName n="GntherLukas">
+                        <surname>Günther</surname>
+                        <forename>Lukas</forename>
+                    </persName><affiliation>TIB – Leibniz Information Centre for Science and Technology, Germany</affiliation><email>lukas.guenther@tib.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchubertZoeROSSENOVA_Lozana_Towards_a_common_data_model_for_semantic_an.xml"><persName n="SchubertZoe">
+                        <surname>Schubert</surname>
+                        <forename>Zoe</forename>
+                    </persName><affiliation>TIB – Leibniz Information Centre for Science and Technology, Germany</affiliation><email>zoe.schubert@tib.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BluemelInaROSSENOVA_Lozana_Towards_a_common_data_model_for_semantic_an.xml"><persName ref="https://orcid.org/0000-0002-3075-7640" n="BluemelIna">
+                        <surname>Bluemel</surname>
+                        <forename>Ina</forename>
+                    </persName><affiliation>TIB – Leibniz Information Centre for Science and Technology, Germany</affiliation><email>ina.bluemel@tib.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this poster we present the ongoing development of an integrated free and open source toolchain for semantic annotation of digitised cultural heritage. The toolchain development involves the specification of a common data model that aims to increase interoperability across diverse datasets and to enable new collaborative research approaches.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>FAIR data and software</term>
+                    <term>Linked Open Data</term>
+                    <term>Research Data Management</term>
+                    <term>2D and 3D Media</term>
+                    <term>Annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>Computer science</term>
+                    <term>Cultural studies</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p>Traditionally, the development of metadata standards and collection management systems has focused on the management of the separations between analog objects, their descriptive surrogates and the creation of finding aids (Hurley 2005). But born-digital artifacts, such as various media files and software applications, and their associated metadata records are created, managed, and used in the same environment. Describing the ever-expanding range of significant properties of these artifacts (Laurenson 2014), tracking data provenance (Rossenova et al. 2019), and allowing collaborative research and annotation can prove particularly challenging to traditional relational database systems and their information architecture models (Hurley 2005; Wiedemann 2019), which separate schema from content, depend on fixed vocabularies and categorizations, and tend to remain siloed and closed off to external audiences. In the field of cultural heritage and the digital humanities, 2D- and 3D-digital representations of cultural assets are particularly heterogeneous in formats and structure (Blümel / Wessel 2019), hence standardized access and visualisation tools fail to meet new research objectives and institutional requirements. To bridge the gaps across traditional data management tools and media-rendering environments, at TIB’s Open Science Lab we have developed a suite of tools as part of a larger national effort which involves the partnership between several research, library and cultural institutions (Altenhöner et al. 2020). In this poster we present our current development of an integrated FOSS (Free and Open Source Software) toolchain (Rossenova et al. 2022) that consists of three main components: 1) OpenRefine – for data reconciliation and batch upload (Sterner 2019); 2) Wikibase – for linked open data storage (Alípio et al. 2019); and 3) Kompakkt – for rendering and annotating 3D models, and other 2D and AV media files (Eide et al. 2019). All components of the toolchain feature graphical user interfaces aiming to lower the barrier of participation in the semantic web for a wide range of practitioners and researchers. The toolchain is envisioned as a collaborative environment with different levels of read/write access, wherein groups of researchers can work collaboratively on data upload and annotation with clear data provenance. In addition, we have placed particular emphasis on an open, community-oriented and agile development process.</p>
+                <p>Our toolchain follows FAIR principles, and adopts common standards like PIDs and the W3C annotation model, but the integration of the tools also depends on the application of a common data model that needs to accommodate a range of knowledge domains involved in the study of cultural heritage objects. This model facilitates linking media objects and annotations, and their cultural context (including historical people and places, geo-location and digital-capture-technology metadata), to the broader semantic web and various national and international authority records (GND, Getty’s AAT, VIAF and more). The poster presentation will focus on the development of the common data model and how it aims to improve interoperability between datasets of digitised cultural objects. The presentation will be of interest to DH researchers, librarians and digital curators who manage research datasets containing diverse media files, and want to learn more about the possibilities of linked open data, open source software and collaborative annotation workflows.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alípio, Samantha</author> / <author>Abdulai, Mohammed S.</author> / <author>Burnett, Georgina</author> / <author>Shick, Dan</author>  (2021): “Wikibase: the Software for Open Data projects”, in: 
+                        <hi rend="italic">Wikimedia Tech News</hi>. <ref target="https://tech-news.wikimedia.de/en/2021/04/14/wikibase-the-software-for-open-data-projects/">https://tech-news.wikimedia.de/en/2021/04/14/wikibase-the-software-for-open-data-projects/</ref> [14.01.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Altenhöner, Reinhard</author> / <author>Blümel, Ina</author> / <author>Boehm, Franziska</author> / <author>Bove, Jens</author> / <author>Bicher, Katrin</author> / <author>Bracht, Christian</author> / <author>Ortrun Brand, Dieckmann, Lisa</author> / <author>Effinger, Maria</author> / <author>Hagener, Malte</author> / <author>Hammes, Andrea</author> / <author>Heller, Lambert</author> / <author>Kailus, Angela</author> / <author>Kohle, Hubertus</author> / <author>Ludwig, Jens</author> / <author>Münzmay, Andreas</author> / <author>Pittroff, Sarah</author> / <author>Razum, Matthias</author> / <author>Röwenstrunk, Daniel</author> / <author>Sack, Harald</author> / <author>Simon, Holger</author> / <author>Schmidt, Dörte</author> / <author>Schrade , Torsten</author> / <author>Walzel, Annika-Valeska</author> / <author>Wiermann, Barbara</author>  (2020): “NFDI4Culture - Consortium for research data on material and immaterial cultural heritage”, in: 
+                        <hi rend="italic">Research Ideas and Outcomes</hi> 6: e57036. DOI: 10.3897/rio.6.e57036.
+                    </bibl>
+                    <bibl>
+                        <author>Blümel, Ina</author> / <author>Wessel, Raoul</author>  (2019): “DDB goes 3D”. 
+                        <hi rend="italic">Zenodo</hi>. DOI: 10.5281/zenodo.5579159.
+                    </bibl>
+                    <bibl>
+                        <author>Eide, Øyvind</author> / <author>Schubert, Zoe</author> / <author>Türkoğlu, Enes</author> / <author>Wieners, Jan G.</author> / <author>Niebes, Kai</author>  (2019): “The intangibility of tangible objects: re-telling artefact stories through spatial multimedia annotations and 3D objects”, in: 
+                        <hi rend="italic">ICOM Kyoto 2019, 25th ICOM General Conference: Museums as Cultural Hubs: The Future of Tradition, Kyoto</hi>. DOI: 10.5281/zenodo.3878966.
+                    </bibl>
+                    <bibl>
+                        <author>Hurley, Chris</author> (2005): “Parallel Provenance” <ref target="https://www.descriptionguy.com/images/WEBSITE/parallel-provenance.pdf">https://www.descriptionguy.com/images/WEBSITE/parallel-provenance.pdf</ref> [14.01.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Laurenson, Pip</author> (2014): “Old Media, New Media? Significant difference and the conservation of software based art”, in: Graham, B. (ed.) New Collecting: Exhibiting and Audiences after New Media Art. Farnham, Surrey, England; Burlington, Vermont: Ashgate: 73–96.
+                    </bibl>
+                    <bibl>
+                        <author>Rossenova, Lozana</author> / <author>de Wild, Karin</author> / <author>Espenschied, Dragan</author>  (2019): “Provenance for Internet Art: Using the W3C PROV data model”, in: 
+                        <hi rend="italic">Proceedings of 16th International Conference on Digital Preservation iPRES 2019,</hi> Sept 16–20, 2019 Amsterdam, The Netherlands.
+                    </bibl>
+                    <bibl>
+                        <author>Rossenova, Lozana</author> / <author>Schubert, Zoe</author> / <author>Vock, Richard</author> / <author>Blümel, Ina</author>  (2022): “Beyond the render silo - Semantically annotating 3D data within an integrated knowledge graph and 3D-rendering toolchain”, in: 
+                        <hi rend="italic">DHd 2022 Kulturen des digitalen Gedächtnisses. 8. Tagung des Verbands “Digital Humanities im deutschsprachigen Raum”,</hi> Potsdam. DOI: 10.5281/zenodo.6328155.
+                    </bibl>
+                    <bibl>
+                        <author>Sterner, Elizabeth</author> (2019): “Cleaning Collections Data Using OpenRefine”, in: 
+                        <hi rend="italic">Issues in Science and Technology Librarianship</hi> 92. DOI: 10.29173/istl30.
+                    </bibl>
+                    <bibl>
+                        <author>Wiedeman, Gregory</author> (2019): “The Historical Hazards of Finding Aids”, in: 
+                        <hi rend="italic">University Libraries Faculty Scholarship</hi> 124. <ref target="https://scholarsarchive.library.albany.edu/ulib_fac_scholar/124">https://scholarsarchive.library.albany.edu/ulib_fac_scholar/124</ref> [14.01.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

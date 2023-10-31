@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Toward establishing the standard digital public history framework:
+                    information platform for Japanese historical materials</title>
+                <author n="KamedaAkihiroKAMEDA_Akihiro_Toward_establishing_the_standard_digital_publ.xml"><persName ref="https://orcid.org/0000-0002-5439-6456" n="KamedaAkihiro">
+                        <surname>Kameda</surname>
+                        <forename>Akihiro</forename>
+                    </persName><affiliation>National Museum of Japanese History, Japan</affiliation><email>cm3ak@outlook.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GotoMakotoKAMEDA_Akihiro_Toward_establishing_the_standard_digital_publ.xml"><persName ref="https://orcid.org/0000-0002-9473-7673" n="GotoMakoto">
+                        <surname>Goto</surname>
+                        <forename>Makoto</forename>
+                    </persName><affiliation>National Museum of Japanese History, Japan</affiliation><email>m-goto@rekihaku.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This report describes the methodology of public history practice based on a data infrastructure system for historical materials in Japan. We especially want to discuss activities of surveying, cataloging, and digitizing materials, and curation, classification, filtering, and publication of data, utilizing our data infrastructure.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Public History</term>
+                    <term>Design of Research Process</term>
+                    <term>Data publication</term>
+                    <term>Privacy and Personality Rights</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This report describes the methodology of public history
+                practice based on a data infrastructure system for historical materials in Japan. In
+                the 2020s, researchers, local governments, and industries started collaborating to
+                conduct historical research, primarily through preserving and understanding local
+                historical materials. Although the term “public history” has a multifaceted meaning
+                worldwide, we define public history as an attempt to conduct research not only with
+                professional historians but also with non-professional researchers and citizens.
+                Some digital archives, such as Japan Disasters Digital Archive [Gerster et al.
+                2022], have educational functions for citizens. Still, we want them to be not only
+                recipients but also co-creators of historical knowledge. Specifically, we realize
+                this with a data infrastructure system named “khirin,” which stores, connects, and
+                publishes historical materials with various representations and formats like RDF,
+                IIIF, and TEI.</p>
+            <figure>
+                <graphic n="1001" width="15.000111111111112cm" height="7.475361111111111cm" url="Pictures/c645f7bbc04c4aa3bb24337473ca15d8.png" rend="inline"/>
+                <head>Fig. 1 Comprehensive research on data handling around the
+                “khirin”</head>
+            </figure>
+            <p>Using khirin as a hub, we have been discussing and solving
+                various problems related to historical collaborations (Fig. 1). In Japan, there are
+                many historical materials in each local area, even in the houses or private storages
+                of local citizens. The first process of our methodology is surveying and cataloging,
+                in other words, registering historical materials stored in such places. We first go
+                there, gather historical materials information, and catalog them. Building a network
+                between local governments or universities is helpful in the activity, and we
+                collaborate with Siryo-net(literally translated as Network for Historical Materials
+                http://siryo-net.jp/). The second process is digitization and curation of them. This
+                process can be subdivided into the types described in Fig. 2. The third process is
+                data classification, filtering, and publication (Fig. 3). In this process, we must
+                assess copyrights, and privacy and personality rights of materials. Then, as a
+                fourth process, we finally research with that data. Historians tend to read the
+                original material directly and, based on the contents, search related materials or
+                research papers; Researchers in other domains, such as informatics, linguistics, or
+                seismology, tend to extract information from contents or metadata in terms of their
+                interest first; Citizens generally wants to grasp the whole image of the area,
+                specific person, or cultural heritage, and translated or visual materials help their
+                understandings. Therefore, we must prepare data for practical uses: 4.1 Data for
+                historians, 4.2 Data for researchers other than historians, and 4.3 Data for
+                citizens. Machine-readable data created in Step 2, adhering to international
+                standards, enables flexible and swift data transformation, presentation, and
+                curation for specific purposes. The fifth step is making the research results
+                reusable by archiving result materials in khirin. We suppose three types of results:
+                5.1 Outputs, 5.2 Outcomes, and 5.3 Impacts; these terms are used in the context of
+                research impact assessment [Hinrichs-Krapels et al. 2016]. Each type of result has a
+                corresponding style of representation: paper publication, exhibition, and news
+                articles, respectively. All the processes and khirin as facilitation platforms for
+                these processes will be examined in historical research practices regarding
+                integrity in historical studies and the inclusion of researchers in other domains
+                and citizens.</p>
+            <figure>
+                <graphic n="1002" width="15.000111111111112cm" height="7.8105cm" url="Pictures/cc4f981383666a0337516af9ab6d2413.png" rend="inline"/>
+                <head>Fig. 2 Digitization and Curation</head>
+            </figure>
+            <figure>
+                <graphic n="1003" width="15.000111111111112cm" height="6.536972222222222cm" url="Pictures/8282887ed8185da4c30a193793ac7427.png" rend="inline"/>
+                <head>Fig. 3 Data Classification, Filtering, and Publication</head>
+            </figure>
+            <p>Khirin inputs, outputs, and represents information for
+                each process. To practice public history, we must prepare sufficient open data
+                available for citizens to conduct research. Going further back the processes, not
+                only directly human-readable data but also machine-readable data compiled and
+                visualized from the perspective of meaning and statistics will play an essential
+                role in helping citizens understand historical materials. While working on
+                collaborative projects between academia, local government, and industry, we still
+                implement public history using khirin. Therefore, to create a collaborative approach
+                with the public and to make the process of opening up the data to the public more
+                efficient, we would like to discuss the possibilities based on each piece of data.
+                From Data Management Plan (DMP) templates to FAIR Implementation Profiles checklists
+                [Schultes et al. 2020], we plan to adopt a documentation-based assessment of whether
+                the system and data can support research activities.</p>
+            <p>Khirin was not merely created as a database system but as
+                an information hub for comprehensive historical research. While we have completed
+                the implementation of the system, the process of data input, utilization, and
+                evaluation is still in its early stages and will be addressed moving forward. The
+                methodology proposed above will also update the way of thinking and analyzing in the
+                historical research process and establish the standard digital public history
+                framework.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Gerster, J., Boret S. P., Morimoto, R., Gordon, A., Shibayama, A. </author>(2022):
+                        The potential of disaster digital archives in disaster education: The case
+                        of the Japan disasters digital archive (JDA) and its geo-location function,
+                        International Journal of Disaster Risk Reduction, Volume 77, DOI:
+                        10.1016/j.ijdrr.2022.103085 </bibl>
+                    <bibl>
+                        <author>Hinrichs-Krapels, S., Grant, J.</author> (2016): “Exploring the
+                        effectiveness, efficiency and equity (3e’s) of research and research impact
+                        assessment”. <hi rend="italic">Palgrave Communications</hi> 2, 16090. DOI:
+                        10.1057/palcomms.2016.90 </bibl>
+                    <bibl>
+                        <author>Schultes, E., Magagna, B., Hettne, K.M., Pergl, R.,
+                            Suchánek, M., Kuhn, T.</author> (2020): “Reusable FAIR Implementation
+                        Profiles as Accelerators of FAIR Convergence”. In: Grossmann, G., Ram, S.
+                        (eds) <hi rend="italic">Advances in Conceptual Modeling</hi>. ER 2020.
+                        Lecture Notes in Computer Science, vol 12584. Springer, Cham. DOI:
+                        10.1007/978-3-030-65847-2_13 </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

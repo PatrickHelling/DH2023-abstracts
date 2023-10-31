@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An introduction to Transkribus: how to use Handwritten Text Recognition in research and teaching</title>
+                <author n="MansuttiSaraMANSUTTI_Sara_An_introduction_to_Transkribus__how_to_use_Han.xml"><persName n="MansuttiSara">
+                        <surname>Mansutti</surname>
+                        <forename>Sara</forename>
+                    </persName><affiliation>READ COOP, Austria</affiliation><email>s.mansutti@readcoop.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The tutorial provides a practical introduction to Transkribus, a comprehensive platform for the digitisation, AI-powered text recognition, transcription and searching of historical documents. The participants will learn how to run the layout analysis (also for tables and complex layouts) and train and apply Handwritten Text Recognition AI-models to automatically generate machine-readable transcriptions of images of text. In the end, they will have a general understanding of the potential of Handwritten Text Recognition to open new research questions and how Transkribus can be used to collaborate, involve volunteers and teach in DH and History classes.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handwritten Text Recognition</term>
+                    <term>manuscripts</term>
+                    <term>archives</term>
+                    <term>artifician intelligence</term>
+                    <term>education</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Book and print history</term>
+                    <term>Education/ pedagogy</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Brief description</head>
+                <p>The tutorial provides a practical introduction to Transkribus, a comprehensive platform for the digitisation, AI-powered text recognition, transcription and searching of historical documents. The participants will learn how to run the layout analysis (also for tables and complex layouts) and train and apply Text Recognition AI-models to automatically generate machine-readable transcriptions of images of text. In the end, they will have a general understanding of the potential of Handwritten Text Recognition to open new research questions and how Transkribus can be used to collaborate, involve volunteers and teach in DH and History classes.</p>
+            </div>
+            <div>
+                <head>Instructor</head>
+                <p>Sara Mansutti works as Education Manager at READ-COOP, the European cooperative society maintaining and further developing the Transkribus platform. She holds a M.A. in Italian Philology and Literature from the University of Udine and is now pursuing a PhD in Digital Humanities at University College Cork. Her research interests include early modern history, archival studies, and Digital Humanities, in particular, combining Handwritten Text Recognition and crowdsourcing.</p>
+            </div>
+            <div>
+                <head>Target audience</head>
+                <p>The tutorial is open to researchers, teachers and students working with handwritten and printed primary sources, with interest in understanding if Handwritten Text Recognition and Transkribus can help them to produce reliable automatic transcriptions, enrich them with tags, search and extract data, and answer new research questions.</p>
+            </div>
+            <div>
+                <head>Requirements</head>
+                <p>No previous knowledge of the platform is required. The tutorial will be combined with hands-on sessions: to fully enjoy them, the participants are advised to bring their own laptop and prepare in advance a folder with about ten images of handwritten/printed documents on which they would like to apply Text Recognition.</p>
+            </div>
+            <div>
+                <head>Outline</head>
+                <p>The study of our written past has often been limited by the difficulty of reading handwritten documents and the considerable amount of time required to transcribe them manually. These factors have often prevented the study of large collections of manuscripts and archival documents as well as limited the discoverability only to the published ones. Over the last 30 years, libraries and archives have massively digitized their collections and made them available online, providing access to a large number of written items, regardless of users’ location and time. However, the way of exploring and studying them has not changed: instead of reading the manuscript in the library’s reading room, the user can now read a digitized image of it on their screen. What Handwritten Text Recognition is making possible is to automatically make these images of text searchable and readable, not only for a human but also for a machine. The potential is enormous both for analysing these texts with digital techniques and for opening new research questions.</p>
+                <p>In recent years, Transkribus has emerged as a comprehensible and user-oriented platform that allows everyone to apply Handwritten Text Recognition and train customised AI models. It was developed within the Horizon 2020 “READ” EU project by a consortium of leading research groups from all over Europe, headed by the University of Innsbruck, and is now sustained and further developed by the READ-COOP European Cooperative Society.</p>
+                <p>Besides the technology, however, the core of Transkribus has been its user community, to such an extent that Transkribus has been defined as a community of practices. Many users collaborate with the team to test, improve and suggest new features, lead workshops, support new users, share their positive and negative experiences with the platform, and make their AI models public so that other users can apply them to their documents. Collaboration is at the heart of Transkribus, and this tutorial aims to show not only the many features available but also how the platform can be used as a collaborative tool.</p>
+                <p>The workshop will begin with an introduction to Handwritten Text Recognition. Afterwards, the main features of the Transkribus platform will be presented and explained: manually and automatically running the layout analysis of the pages; training baselines models to detect complex layouts; training and applying AI models to automatically transcribe handwritten and printed texts; evaluating and computing the accuracy of a model; working with tables; enriching transcriptions with textual and structural tags; exporting the documents in various formats.</p>
+                <p>Explanations will be alternated with hands-on sessions where participants will work on their own documents within Transkribus.</p>
+                <p>Finally, the tutorial will present how Trankribus can be used in the classroom as a teaching tool to explain how Text Recognition works, teach palaeography, engage students in reading historical primary sources, and show them how digital tools can be integrated into historical research. Some teaching projects already using Transkribus will be mentioned, and the recently redesigned Transkribus Learn platform will be explained and tested with the participants.</p>
+            </div>
+            <div>
+                <head>Learning outcomes</head>
+                <p>By the end of the tutorial, participants will:</p>
+                <p>- Develop an understanding of what Automatic Text Recognition is and how it works;</p>
+                <p>- Practise with Transkribus and learn how to: run the layout and textual recognition; train baseline and text recognition models; enrich transcriptions with structural and textual tags; export the documents in different formats (including TEI);</p>
+                <p>- Understand the opportunities that Automatic Text Recognition can offer to answer new types of research questions;</p>
+                <p>- Explore the possibility of using Transkribus to engage volunteers and students.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Muehlberger, Guenter</author> / <author>Seaward, Louise</author> / <author>Terras, Melissa</author> / <author>Oliveira, Sofia Ares</author> / <author>Bosch, Vicente</author> / <author>Bryan, Maximilian</author> / <author>Colutto, Sebastian</author> / <author>Déjean, Hervé</author> / <author>Diem, Markus</author> / <author>Fiel, Stefan</author> / <author>Gatos, Basilis</author> / <author>Greinoecker, Albert</author> / <author>Grüning, Tobias</author> / <author>Hackl, Guenter</author> / <author>Haukkovaara. Vili</author> / <author>Heyer, Gerhard</author> / <author>Hirvonen Lauri</author> / <author>Hodel, Tobias</author> / <author>Jokinen, Matti</author> / <author>Kahle, Philip</author> / <author>Kallio, Mario</author> / <author>Kaplan, Frederic</author> / <author>Kleber, Florian</author> / <author>Labahn, Roger</author> / <author>Lang, Eva Maria</author> / <author>Laube, Sören</author> / <author>Leifert, Gundram</author> / <author>Louloudis, Georgios</author> / <author>McNicholl, Rory</author> / <author>Meunier, Jean-Luc</author> / <author>Michael, Johannes,</author> / <author>Mühlbauer, Elena</author> / <author>Philipp, Nathanael</author> / <author>Pratikakis, Ioannis</author> / <author>Puigcerver Pérez, Joan</author> / <author>Putz, Hannelore</author> / <author>Retsinas, George</author> / <author>Romero, Verónica</author> / <author>Sablatnig, Robert</author> / <author>Sánchez, Joan Andreu</author> / <author>Schofield, Philip</author> / <author>Sfikas, Giorgos</author> / <author>Sieber, Christian</author> / <author>Stamatopoulos, Nikolaos</author> / <author>Strauß, Tobias</author> / <author>Terbul, Tamara</author> / <author>Toselli, Alejandro Héctor</author> / <author>Ulreich, Berthold</author> / <author>Villegas, Mauricio</author> / <author>Vidal, Enrique</author> / <author>Walcher, Johanna</author> / <author>Weidemann, Max</author> / <author>Wurster, Herbert</author> / <author>Zagoris, Konstantinos</author>  (2019): “Transforming scholarship in the archives through handwritten text recognition: Transkribus as a case study” in 
+                        <hi rend="italic">Journal of Documentation</hi> 75, 5: 954-976. DOI: 10.1108/JD-07-2018-0114.
+                    </bibl>
+                    <bibl>
+                        <author>Romein, C. Annemieke</author> / <author>Kemman, Max</author> / <author>Birkholz, Julie M.</author> / <author>Baker, James Baker</author> / <author>De Gruijter, Michel</author> / <author>Meroño-Peñuela, Albert</author> / <author>Ries, Thorsten</author> / <author>Ros, Ruben</author> / <author>Scagliola, Stefania</author>  (2020): “
+                        State of the Field: Digital History” in 
+                        <hi rend="italic">History</hi>
+                        , 105: 291-312. DOI: 10.1111/1468-229X.12969.
+                    </bibl>
+                    <bibl>
+                        <author>Terras, Melissa</author> (2022): “The role of the library when computers can read: Critically adopting Handwritten Text Recognition (HTR) technologies to support research”, in Hervieux, Sandy / Wheatley, Amanda (eds): 
+                        <hi rend="italic">The Rise of AI: Implications and Applications of Artificial Intelligence in Academic Libraries</hi>. Atlanta: ACRL - Association of College &amp; Research Libraries 137-148.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

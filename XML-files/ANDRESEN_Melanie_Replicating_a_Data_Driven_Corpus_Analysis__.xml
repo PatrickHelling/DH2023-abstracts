@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Replicating a Data-Driven Corpus Analysis: The Example of Academic Language</title>
+                <author n="AndresenMelanieANDRESEN_Melanie_Replicating_a_Data_Driven_Corpus_Analysis__.xml"><persName ref="https://orcid.org/0000-0002-3913-1273" n="AndresenMelanie">
+                        <surname>Andresen</surname>
+                        <forename>Melanie</forename>
+                    </persName><affiliation>Universität Stuttgart, Germany</affiliation><email>melanie.andresen@ims.uni-stuttgart.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PichlerAxelANDRESEN_Melanie_Replicating_a_Data_Driven_Corpus_Analysis__.xml"><persName n="PichlerAxel">
+                        <surname>Pichler</surname>
+                        <forename>Axel</forename>
+                    </persName><affiliation>Universität Stuttgart, Germany</affiliation><email>axel.pichler@ts.uni-stuttgart.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Replication studies are generally considered an important way of checking the generalizability of research results. However, in the humanities they are still comparatively rare. We argue that data-driven studies in particular are in need of replication and demonstrate the need in a case study on German academic language.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>replication</term>
+                    <term>data-driven research</term>
+                    <term>academic language</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Replication studies are generally considered an important way of checking the generalizability of research results (see for instance Berez-Kroeker et al. 2018; Schöch et al. 2020). However, in the humanities they are still comparatively rare. We argue that data-driven studies in particular are in need of replication. While theory-driven studies derive a hypothesis based on a specific theory and thus can provide good reasons for their hypothesis prior to the empirical study, data-driven studies start with the data and relate the results to theory and previous research post-hoc (Kitchin 2014). In doing so, they work abductively and infer the best explanation for the patterns revealed (Wadepuhl 2016, Gerstorfer 2020). This way, they are especially prone to inadequate explanations and overgeneralization.</p>
+            <p>As an example, we present a (partial) replication of the data-driven study in (Andresen 2022). This study looks into the differences in the German academic languages of literary studies and linguistics. Two corpora of 30 PhD theses per discipline are compared to each other, considering tokens, parts of speech and syntax as well as several types of sequences of these features. For the replication, we focus on the comparison of the parts-of-speech distribution. The comparison is performed by training a machine learning classifier based on the support vector machine algorithm (SVM) that learns to distinguish the two disciplines based on their parts-of-speech distribution. The SVM provides coefficients that express how useful each feature was for the classification task. All parts of speech are ranked by these coefficients and the most helpful features, i.e., those with the largest differences between the disciplines, are presented and related to possible reasons for the differences. </p>
+            <p>Following in the typology of (Porte 2012: 8), we present an approximate replication study as we change the variable text type: Instead of PhD thesis we analyze a corpus of journal papers from the same two disciplines, literary studies and linguistics. We use a corpus of 45 papers per discipline with 626,316 tokens in total. Except for this change, we stick to the methodology of the original study and compare the results. </p>
+            <p>When comparing the coefficients of the two studies, there is only a moderate correlation with a Pearson’s r of 0.55. This indicates that there are some substantial differences between the results of the two studies. Table 1 shows the ranking of the most helpful features in the replication study with the rank in the original study in parentheses. Some of the results are quite stable: Literary studies uses more proper nouns (NE), possessive pronouns (PPOSAT) and personal pronouns (PPER). This is related to the high importance of humans in the discipline, be it as authors or literary characters. Also, the high frequency of numbers in linguistics is very stable and explainable by more quantitative research in the discipline. However, other features display very different trends in the replication study: For instance, finite modal verbs (VMFIN) and infinite full verbs (VVINF) have even changed sides and are now indicators of literary studies. This indicates that the conclusions drawn in Andresen (2022) regarding verbal patterns in the disciplines might only apply to the text type PhD thesis or not generalize beyond the specific corpus at all. </p>
+            <table xml:id="d10e164">
+                <head>Table 1: The 15 part-of-speech tags (tagset: STTS, Schiller et al. 1999) with the highest SVM coefficients (C=500). Rank in the original study indicated in parentheses. Tags highlighted in bold have changed sides compared to the original study.</head>
+                <row>
+                    <cell>Rank</cell>
+                    <cell>
+                        <hi rend="bold">Literary Studies</hi>
+                    </cell>
+                    <cell>Score</cell>
+                    <cell>Linguistics</cell>
+                </row>
+                <row>
+                    <cell>1</cell>
+                    <cell/>
+                    <cell>-40.11</cell>
+                    <cell>
+                        CARD (↑3)
+                    </cell>
+                </row>
+                <row>
+                    <cell>2</cell>
+                    <cell>
+                        NE (↓1)
+                    </cell>
+                    <cell>36.95</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>3</cell>
+                    <cell/>
+                    <cell>-29.41</cell>
+                    <cell>
+                        FM (↑25)
+                    </cell>
+                </row>
+                <row>
+                    <cell>4</cell>
+                    <cell/>
+                    <cell>-28.46</cell>
+                    <cell>
+                        APPRART (↑29)
+                    </cell>
+                </row>
+                <row>
+                    <cell>5</cell>
+                    <cell/>
+                    <cell>-24.14</cell>
+                    <cell>
+                        <hi rend="bold">APPR (↑35)</hi>
+                    </cell>
+                </row>
+                <row>
+                    <cell>6</cell>
+                    <cell/>
+                    <cell>-22.14</cell>
+                    <cell>
+                        VVPP (↑12)
+                    </cell>
+                </row>
+                <row>
+                    <cell>7</cell>
+                    <cell>ART (–)</cell>
+                    <cell>20.83</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>8</cell>
+                    <cell>
+                        PRELS (↑13)
+                    </cell>
+                    <cell>20.53</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>9</cell>
+                    <cell>
+                        ADV (↑16)
+                    </cell>
+                    <cell>19.96</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>10</cell>
+                    <cell>
+                        PPOSAT (↓4)
+                    </cell>
+                    <cell>18.97</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>11</cell>
+                    <cell>
+                        <hi rend="bold">VVINF (↑19)</hi>
+                    </cell>
+                    <cell>18.50</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>12</cell>
+                    <cell/>
+                    <cell>-18.10</cell>
+                    <cell>
+                        XY(↑20)
+                    </cell>
+                </row>
+                <row>
+                    <cell>13</cell>
+                    <cell>
+                        PPER (↓5)
+                    </cell>
+                    <cell>16.66</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>14</cell>
+                    <cell/>
+                    <cell>-15.99</cell>
+                    <cell>
+                        TRUNC (↑22)
+                    </cell>
+                </row>
+                <row>
+                    <cell>15</cell>
+                    <cell>
+                        <hi rend="bold">VMFIN (↑18)</hi>
+                    </cell>
+                    <cell>14.31</cell>
+                    <cell/>
+                </row>
+            </table>
+            <p>In sum, our replication study shows that by changing the text type that represents academic language, some results of the original study can be confirmed while others are in fact inverted. This raises the question of the status of abductively obtained (hypo)theses in data-driven research. Is such a (hypo)thesis to be discarded as a consequence of a replication study that does not have the same experimental prerequisites or to be specified according to the new experimental conditions? We argue that replication studies should be performed more frequently in the digital humanities (and beyond) if the aim of a study is to allow for generalizations. Especially the status of data-driven results as generating hypotheses should be taken more seriously. If our results are not rooted in a theory that justifies them, gives them plausibility and is formulated in a way that makes it possible to be falsified, we might be tempted to overgeneralize interpretations. It would therefore be desirable for data-driven results to be backed up by additional studies which on the one hand evaluate these hypotheses deductively and on the other hand test their range.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Andresen, Melanie</author> (2022): Datengeleitete Sprachbeschreibung mit syntaktischen Annotationen. Eine Korpusanalyse am Beispiel der germanistischen Wissenschaftssprachen. (= Korpuslinguistik und interdisziplinäre Perspektiven auf Sprache (CLIP) 10) Tübingen: Narr Francke Attempto.
+                    </bibl>
+                    <bibl>
+                        <author>Berez-Kroeker, Andrea L. et al.</author> (2018): "Reproducible research in linguistics: A position statement on data citation and attribution in our field", in: Linguistics 56 (1): 1–18. 
+                        <ref target="https://doi.org/10.1515/ling-2017-0032">10.1515/ling-2017-0032</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Gerstorfer, Dominik</author> (2020): "Entdecken und Rechtfertigen in den Digital Humanities" in: Reiter, Nils / Pichler, Axel / Kuhn, Jonas (eds.): Reflektierte algorithmische Textanalyse: Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt. De Gruyter 107–124. 
+                        <ref target="https://doi.org/10.1515/9783110693973">10.1515/9783110693973</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Kitchin, Rob</author> (2014): "Big Data, new epistemologies and paradigm shifts", in: Big Data &amp; Society 1 (1): 1–12. 
+                        <ref target="https://doi.org/10.1177/2053951714528481">10.1177/2053951714528481</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Porte, Graeme</author> (2012): "Introduction" in: Porte, Graeme (ed.): Replication research in applied linguistics (= The Cambridge applied linguistics series). Cambridge, New York: Cambridge University Press 1–17.
+                    </bibl>
+                    <bibl>
+                        <author>Schiller, Anne</author> / 
+                        <author>Teufel, Simone</author> / 
+                        <author>Thielen, Christine</author> / 
+                        <author>Stöckert, Christine</author> (1999): Guidelines für das Tagging deutscher Textcorpora mit STTS (kleines und großes Tagset). 
+                        <ref target="http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf">http://www.sfs.uni-tuebingen.de/resources/stts-1999.pdf</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> / 
+                        <author>Dalen-Oskam, Karina van</author> / 
+                        <author>Antoniak, Maria</author> / 
+                        <author>Jannidis, Fotis</author> / 
+                        <author>Mimno, David</author> (2020): Replication and Computational Literary Studies. in: Digital Humanities 2020 (DH2020), Book of Abstracts. 
+                        <ref target="https://doi.org/10.5281/zenodo.3893427">https://doi.org/10.5281/zenodo.3893427</ref> [letzter Zugriff 25. August 2020].
+                    </bibl>
+                    <bibl>
+                        <author>Wadephul, Christian</author> (2016): "Führt Big Data zur abduktiven Wende in den Wissenschaften?", in: Berliner Debatte Initial 27 (4): 37–49.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

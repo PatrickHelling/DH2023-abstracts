@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitization of the Inscriptions on the Monuments of Armenian Cultural
+                    Heritage in Nagorno-Karabakh Region</title>
+                <author n="TamrazyanHamestTAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml"><persName n="TamrazyanHamest">
+                        <surname>Tamrazyan</surname>
+                        <forename>Hamest</forename>
+                    </persName><affiliation>EPFL, Switzerland</affiliation><email>hamest.tamrazyan@epfl.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Digital Humanities Institute is currently prototyping methods to offer rapid deployment of DH technology in situations of crisis. The aim of this project is to collect, systematize and digitize the inscriptions on the monuments of Armenian cultural heritage in Nagorno-Karabakh. 3D models will be built when possible.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>The Digital Humanities Institute is currently prototyping methods to offer rapid deployment of DH technology in situations of crisis. The aim of this project is to collect, systematize and digitize the inscriptions on the monuments of Armenian cultural heritage in Nagorno-Karabakh. 3D models will be built when possible.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital epigraphy</term>
+                    <term>inscriptions</term>
+                    <term>cultural heritage</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>History</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Armenian cultural heritage in Artsakh <ref target="#TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn1" n="1"/> is in danger after explicit threats of irreversible destruction coordinated
+                by Azerbaijan authorities <ref target="#TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn2" n="2"/>. As part of a series of actions coordinated by the École Polytechnique
+                Fédérale de Lausanne, the Digital Humanities Institute is currently prototyping
+                methods to offer rapid deployment of DH technology in situations of crisis when a
+                good network of local partners can be identified and coordinated. The expertise
+                permits developing a rapid action in the Nagorno-Karabakh region where heritage is
+                in danger. As part of these actions, the aim of this project is to collect,
+                systematize and digitize the inscriptions on the monuments of Armenian cultural
+                heritage in Nagorno-Karabakh. 3D models will be built when possible. This digitized
+                data will help not only to preserve the invaluable inscriptions, but also can be
+                used for further investigations, research. </p>
+            <p>Armenian inscriptions have long been regarded as valuable materials in various
+                academic fields within Armenian studies. However, despite numerous recent projects
+                digitizing inscriptions in ancient languages such as Greek, Latin, Persian, and
+                Hindi, the resources and methods of Digital Epigraphy have not yet been applied to
+                Armenian inscriptions properly. This project is one of the first steps in this
+                direction. It helps to point out the methodological issues which are specific to the
+                application of information technologies to Armenian epigraphy. We assume that the
+                computational approach is going to change the way Armenian epigraphy is studied, to
+                the extent of renovating the discipline on the basis of new, unexplored questions. </p>
+            <p>During the first phase of the project, an important network of partners in Armenia
+                and Artsakh was established, including the State Service for the Protection of the
+                Historical Environment of the Republic of Artsakh and several photographers and
+                epigraphers. With the help of these partners, our team has collected, systematized,
+                and digitized over two hundred inscriptions from this region. This data will be used
+                to create a single searchable database of Armenian inscriptions of Artsakh with
+                essential information such as the language data including diplomatic and
+                interpretive transcriptions, the translation into English; the location of the
+                inscription on the monument (if applicable); geographical and chronological data;
+                the type of monument and the type of inscription. The database will also include
+                historical background information, bibliographic references, and photographs.</p>
+            <p>For these purposes a software tool being developed by researchers under the name
+                DHAnnoto to automatically extract all the graphical information from the historical
+                land registers has been used <ref target="#TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn3" n="3"/>. This tool uses Wikidata tagging systems to automatically extract
+                information and link it to appropriate WikiData tags as a detailed information
+                reference. With this tool's search functions, targeted queries for specific words in
+                inscription texts in English or Armenian and specific metadata can be carried out.
+                The search results are presented with photos or drawings, and data can be exported
+                in XML according to Epidoc guidelines. </p>
+            <p>The immediate challenges faced so far are the need to edit texts of inscriptions upon
+                published editions (Karapetian S.1997; Karapetian S. 2007; Karapetian S.2017;
+                Barkhudarian S. 1982), transcribe newly discovered or previously ignored
+                inscriptions, and develop a full critical apparatus containing information about the
+                previous two tasks. The lack of the photographic documents of desired quality in
+                some cases and the lack of the opportunity to retrieve new photographic evidence of
+                the monuments in most cases does not allow to revise and edit the existing texts
+                upon autopsy, or transcribe the newly discovered ones with the required accuracy and
+                “academic conviction”. To address these challenges, a comprehensive critical
+                apparatus is being developed that will allow us to complete the edited text
+                effectively and give the potential user the possibility of comparing the full
+                information from various sources or editions.</p>
+            <p>One of the biggest challenges faced not only by this project but by the digital
+                epigraphic community in general is the creation of Linked Open Data (Geser, G. 2016,
+                pp.248-249). The work of the EAGLE project <ref target="#TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn4" n="4"/> stands out as an example, which developed a collection of SKOS vocabulary to
+                enable cross-lingual reference of essential epigraphic information ideas, but
+                Armenian is not included in the list of languages (Orlandi S. et al. 2014) . To
+                achieve this goal, first, in collaboration with the Yerevan Brusov State University
+                of Languages and Social Sciences and the Epigraphy.info <ref target="#TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn5" n="5"/> we are working on the SKOS vocabulary (EAGLE project) by a) translating into
+                Armenian the terms included in this vocabulary and b) adding new terms typical to
+                Armenian epigraphy. Second, we are utilizing the EpiOnt ontologies and developing
+                new properties and classes specific to Armenian epigraphy to model the epigraphic
+                objects in the database. This will enable to share and ingest inscriptions described
+                using this model into ontological and graph databases or as linked data (Linked Open
+                Data) to increase the visibility of these inscriptions and generate interest in
+                cultural heritage. </p>
+            <p>Using our experience of the rapid deployment of Digital Humanities technology in
+                times of crisis we can help to preserve the epigraphic heritage, not just in
+                Nagorno-Karabakh but also in Ukraine. The war poses a significant threat to the
+                Armenian epigraphic heritage, with many historical sites, including Armenian
+                churches and cemeteries, being shelled. Given the ongoing war in Ukraine, we are
+                expanding our project to include the digitization of the Armenian epigraphic
+                heritage in Ukraine as well. </p>
+            <div>
+                <p>Finally, this collection of digitized inscriptions can serve as the basis for
+                    compiling the first Armenian corpus of inscriptions compatible with existing
+                    standards. Our ultimate goal is to expand this database to include Armenian
+                    epigraphic heritage from all over the world, making these inscriptions
+                    accessible to a wider audience and promoting cultural awareness and
+                    understanding. We hope to ensure that these inscriptions are preserved for
+                    future generations and not lost to history.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn1">
+                     A toponym used by the local Armenians to refer to
+                        Nagorno-Karabagh territory
+                </note><note n="2" xml:id="TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn2">
+                     the European Parliament resolution on the destruction
+                        of cultural heritage in Nagorno-Karabakh(2022/2582(RSP
+                        <hi rend="italic">)) </hi>dated 09.03.20022 
+                </note><note n="3" xml:id="TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn3">
+                    <hi rend="italic">ANNUAL REPORT 2021College of
+                            Humanities,</hi>École Polytechnique Fédérale
+                            de Lausanne,
+                            https://issuu.com/epfl-flash/docs/epf_cdh_ra2021_final_web2
+                </note><note n="4" xml:id="TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn4">
+                    
+                        https://www.eagle-network.eu/resources/vocabularies/
+                </note><note n="5" xml:id="TAMRAZYAN_Hamest_DIGITIZATION_OF_THE_INSCRIPTIONS_ON_THE_MON.xml_ftn5">
+                     https://epigraphy.info/ontologies_wg/
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><hi rend="bold">Abrahamyan, A.G. </hi>(1973). “Hayoc‘ gir ev grč‘ut‘yun”, Erevan:
+                            Erevani Hamalsarani Hratarakč‘ut‘yun.</bibl>
+                    <bibl><hi rend="bold">Barkhudarian S.</hi>, "Corpus of Armenian Epigraphy", Issue 5,
+                            Yerevan, 1982</bibl>
+                    <bibl><lb/><hi rend="bold">Elliott T., Bodard G., Cayless H. et al.
+                            </hi>(2006-2021), EpiDoc: Epigraphic Documents in TEI XML. Online
+                            material, available: 
+                        <ref target="http://epidoc.stoa.org/">http://epidoc.stoa.org/</ref>
+                        .</bibl>
+                    <bibl><lb/><hi rend="bold">Greenwood, T. </hi>( 2014). "Armenian Epigraphy".
+                            In Armenian Philology in the Modern Era. Leiden, The Netherlands: Brill.
+                            doi: <ref target="https://doi.org/10.1163/9789004270961_005">https://doi.org/10.1163/9789004270961_005</ref></bibl>
+                    <bibl><hi rend="bold">Geser,
+                                G. </hi>(2016). Towards a Web of Archaeological Linked Open Data
+                            (ARIADNE WP15 Study. V1.0, 6 October 2016). Salzburg Research, Austria.
+                            Retrieved from <ref target="http://www.                             ariadne-infrastructure.eu/content/download/8392/49194/version/2/file/ARIADNE_archaeo-                             logical_LOD_study_10-2016.pdf">http://www.                             ariadne-infrastructure.eu/content/download/8392/49194/version/2/file/ARIADNE_archaeo-                             logical_LOD_study_10-2016.pdf</ref>, 2017/12/03.</bibl>
+                    <bibl><hi rend="bold">Karapetian S.</hi>, (1997). “Armenian Lapidary Inscriptions of
+                            Boon-Aghvank”, Yerevan.</bibl>
+                    <bibl><hi rend="bold">Karapetian S.</hi>, (2007). “Northern Artsakh”,
+                        Yerevan.</bibl>
+                    <bibl><hi rend="bold">Karapetian S.</hi>, (2017). “Azerbaijan out of civilization”, Yerevan. </bibl>
+                    <bibl><hi rend="bold">Orlandi S. / Santucci R. / Casarosa V. / Liuzzo P. M. </hi>(2014).
+                            “Information technologies for epigraphy and cultural heritage”.
+                            Proceedings of the first EAGLE international conference
+                            <ref target="https://archiv.ub.uni-heidelberg.de/propylaeumdok/volltexte/2015/2337">https://archiv.ub.uni-heidelberg.de/propylaeumdok/volltexte/2015/2337</ref></bibl>
+                    
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

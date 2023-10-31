@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Words Shape Characters: A Case Study of Correspondence Analysis on Characters’ Words in <hi rend="italic">The Tale of Genji</hi></title>
+                <author n="TakeuchiAyanoTAKEUCHI_Ayano_Words_Shape_Characters__A_Case_Study_of_Corre.xml"><persName n="TakeuchiAyano">
+                        <surname>Takeuchi</surname>
+                        <forename>Ayano</forename>
+                    </persName><affiliation>National Institute for Japanese Language and Linguistics, Japan</affiliation><email>ayano.takeuch@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OgisoToshinobuTAKEUCHI_Ayano_Words_Shape_Characters__A_Case_Study_of_Corre.xml"><persName ref="https://orcid.org/0000-0002-4775-143X" n="OgisoToshinobu">
+                        <surname>Ogiso</surname>
+                        <forename>Toshinobu</forename>
+                    </persName><affiliation>National Institute for Japanese Language and Linguistics, Japan</affiliation><email>togiso@ninjal.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The current study investigates characters’ words in the oldest extant Japanese novel The Tale of Genji, which was written in the 11th century during the Heian period (794-1192), by utilizing correspondence analysis.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>correspondence analysis</term>
+                    <term>Japanese literature</term>
+                    <term>corpus</term>
+                    <term>speaker information</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>rhetorical analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Asian studies</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The current study investigates characters’ words in the oldest extant Japanese novel 
+                <hi rend="italic">The Tale of Genji</hi>, which was written in the 11th century during the Heian period (794-1192), by utilizing correspondence analysis. It was previously impossible to thoroughly investigate characters’ words in the tale as well as other literary works written in the Heian period through quantitative methods. This was due to the lack of corpora annotated with speaker information throughout each work. Therefore, most previous research such as Sato (2014) investigates characters’ words through a qualitative analysis. Kondo (2015), on the other hand, uses n-gram analysis to investigate short poems composed by characters in the tale, yet her analysis does not include other forms of characters’ words, such as conversation, inner speech, and letter. The National Institute for Japanese Language and Linguistics has recently released the speaker information for Heian literary works contained in the Heian Period Series within the Corpus of Historical Japanese (henceforth the Heian Period Series of CHJ). It is now possible to analyze characters’ words through quantitative methods.
+            </p>
+            <p>In our study, we employ correspondence analysis to identify tendencies in 
+                the use of adjectives in characters’ words in 
+                <hi rend="italic">The Tale of Genji</hi>. Correspondence analysis, which is, as stated in Greenacre (2021), helpful for research that deals with categorical data, detects patterns inherent in data and visually represent them in scatterplots. This technique is thus utilized in investigating literary texts to find stylistic variations in different works of the same author over time as well as closeness/remoteness in style among various authors (e.g., Tabata 2002).
+            </p>
+            <p>Data and Method</p>
+            <p>We utilize the data for 
+                <hi rend="italic">The Tale of Geji</hi> included in the Heian Period Series of CHJ, which contains 445,711 tokens, among which 151,199 tokens are considered to be characters’ words and assigned with the speaker information. This speaker information includes three types of information: the speaker’s name, various names that the given speaker is referred to in each work, and gender. For our study, we use the speaker’s name and gender. To process the data and create a correspondence plot, we utilize Python and mca package in Python.
+            </p>
+            <p>Analysis and Results</p>
+            <p>We investigate 34 emotive adjectives that occur most frequently in characters’ words in the tale to determine how they are used among four categories: the priest, the nun, the male lay person, and the female lay person. The data provided below is analyzed using correspondence analysis.</p>
+            <figure>
+                <graphic n="1001" width="9.00981111111111cm" height="15.917297222222222cm" url="Pictures/d77ab64fa93662af51d5a862fd076084.png" rend="inline"/>
+                <head>Table 1: Frequencies of emotive adjectives in each category</head>
+            </figure>
+            <p>The resulting correspondence plot is provided in Figure 1.</p>
+            <figure>
+                <graphic n="1002" width="12.584533333333333cm" height="9.968302777777778cm" url="Pictures/35894f1098bb4cb2b3d715b4b86c851a.jpg" rend="inline"/>
+                <head>Figure 1. A correspondence plot between four categories of characters in 
+                <hi rend="italic">The Tale of Genji</hi> and adjectives</head>
+            </figure>
+            <p>The correspondence plot in Figure 1 overall explains 84.3% of the variation in the data—Factor 1 explains 63.8% and Factor 2 20.5%. In this figure, P refers to the priest, N to the nun, M-LP to the male lay person, and F-LP to the female lay person. For Factor 1, N and F-LP are placed on the right side of the origin while P and M-LP are placed on the left side of the origin. Therefore, Factor 1 shows the male-female difference and Factor 2 shows the lay person-non lay person difference.</p>
+            <p> Though most adjectives are relatively close to the origin, some adjectives are further away from it, which means they are strongly associated with a speaker category or characters categorized in a certain group. For example, 
+                <hi rend="italic">koishii</hi> (to miss) is strongly associated with M-LB whereas 
+                <hi rend="italic">ui</hi> (melancholy) and 
+                <hi rend="italic">utatei</hi> (pitiable) are with F-LB. Interestingly, these associations are in fact pointed out in Takeuchi (2022), which performs collocation network analysis with 
+                <hi rend="italic">omou</hi> (to think/feel) for its node on 
+                <hi rend="italic">The Kokin Wakashu</hi>, the first imperial anthology of short poems, compiled during the Heian period, which is considered to be the norm of this period. As such, this analysis indicates that characters in the tale may embody the gender ideology in their language use.
+            </p>
+            <p>Conclusion</p>
+            <p>In this study, we present the results from correspondence analysis on characters’ words in 
+                <hi rend="italic">The Tale of Genji</hi> focusing on high-frequency emotive adjectives. This analysis suggests that characters classified in certain categories use certain adjectives for preference in compared to other characters, which may stem from gender ideology in the Heian period. Thus, analyzing words produced by characters may reveal how they are shaped through their own words.
+            </p>
+            <p><hi rend="bold">Acknowledgement:</hi> This research was supported by the NINJAL collaborative research project “Extending the Diachronic Corpus through an Open Co-construction Environment”.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Greenacre, Michael.</author> (2021): 
+                        <hi rend="italic">Correspondence Analysis in Practice</hi> (Third edition). Boca Raton,FL: CRC Press.
+                    </bibl>
+                    <bibl>
+                        <author>Kondo, Miyuki.</author> (2015): 
+                        <hi rend="italic">Ochoo Waka Kenkyuu no Hoohoo</hi>. Tokyo: Kasamashoin.
+                    </bibl>
+                    <bibl>
+                        <author>National Institute for Japanese Language and Linguistics</author> (2016): "Corpus of Historical Japanese, Heian Period Series." (Short Unit Word data 1.1 / Long Unit Word data 1.1) 
+                        <ref target="https://clrd.ninjal.ac.jp/chj/heian.html">https://clrd.ninjal.ac.jp/chj/heian.html</ref> (accessed October, 23, 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Sato, Sekiko.</author> (2014): “Genji Monogatari ni okeru Sukuse to Josee: Sukuse no Yoorei wo Chuushinni”, in: Sasaki, Mizue (Ed.): 
+                        <hi rend="italic">Nihongo to Gender</hi>. Tokyo: Hituzi Syobo 109-120
+                    </bibl>
+                    <bibl>
+                        <author>Tabata, Tomoji.</author> (2002): “Investigating Stylistic Variation in Dickens through Correspondence Analysis of Word-Class Distribution” in: 
+                        <hi rend="italic">English Corpus Linguistics in Japan</hi>, 38: 165-182.
+                    </bibl>
+                    <bibl>
+                        <author>Takeuchi, Ayano.</author> (2022): 
+                        <hi rend="italic">A Case Study on the Kokin Wakashu through the Lens of Data Visualization: Gender Differences in the Poems</hi> [Poster]. Symposium on Japanese Diachronic Corpora 2022, 22 March, The National Institute for Japanese Language and Linguistics, Japan.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

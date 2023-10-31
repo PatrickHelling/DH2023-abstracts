@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Visualizing and Analyzing Voting Records from Historical Documents</title>
+                <author n="CantareiraGabrielDiasCANTAREIRA_Gabriel_Visualizing_and_Analyzing_Voting_Records_.xml"><persName ref="https://orcid.org/0000-0002-5257-4925" n="CantareiraGabrielDias">
+                        <surname>Cantareira</surname>
+                        <forename>Gabriel Dias</forename>
+                    </persName><affiliation>King's College London, United Kingdom</affiliation><email>gabriel.dias_cantareira@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ColeNicholasCANTAREIRA_Gabriel_Visualizing_and_Analyzing_Voting_Records_.xml"><persName ref="https://orcid.org/0000-0002-6676-5343" n="ColeNicholas">
+                        <surname>Cole</surname>
+                        <forename>Nicholas</forename>
+                    </persName><affiliation>Oxford University</affiliation><email>nicholas.cole@history.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AbdulRahmanAlfieCANTAREIRA_Gabriel_Visualizing_and_Analyzing_Voting_Records_.xml"><persName ref="https://orcid.org/0000-0002-6257-876X" n="AbdulRahmanAlfie">
+                        <surname>Abdul-Rahman</surname>
+                        <forename>Alfie</forename>
+                    </persName><affiliation>King's College London, United Kingdom</affiliation><email>alfie.abdulrahman@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this submission, we present a set of tools for analyzing voting historical records for consitutional conventions extending the Quill research platform and discuss challenges in interacting with this data, focusing on selecting appropriate sampling, dealing with incomplete data, and building an analytical model.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Voting</term>
+                    <term>Dimensionality Reduction</term>
+                    <term>Timelines</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The Quill Project (Cole et al. 2017) is a research initiative that investigates
+                    text analysis and data visualization with the aim of assisting users in
+                    understanding modern foundational legal texts and constitutional conventions.
+                    Quill contains multiple well-organized datasets built on an event-based
+                    structure, representing the negotiation of legal texts during legislative
+                    drafting for constitutional conventions - processes that can last for several
+                    months or years. As each discussed text is the result of hundreds of amendments
+                    proposed by several actors over an extended period of time, visual presentation
+                    and navigation can become quite difficult.</p>
+                <p>In this submission, we expand the Quill platform to add features focused on
+                    extracting meaningful knowledge from what Quill classifies as decisions: changes
+                    or additions that required voting by the attending participants, to which votes
+                    and outcome are documented. For each decision, it is possible to track people
+                    involved, how they voted, and which other events are related to it. This
+                    information can be used to explore the historical context for behavior observed
+                    in voting data. We can subdivide our course of action and challenges into three
+                    tasks: finding appropriate time windows for observation, dealing with missing or
+                    incomplete data, and building an analytical model to observe relevant features
+                    and draw conclusions.</p>
+            </div>
+            <div type="div1">
+                <head>Finding Appropriate Time Windows</head>
+                <p>While the use of visualization techniques to observe voting behavior and
+                    political positioning is relatively well-established (da Silva et al. 2018),
+                    most existing approaches assume there is a semantically appropriate temporal
+                    sampling structure available, i.e., time windows to observe and compare voting
+                    records are already well defined by historical context. We argue that it is
+                    important for a visualization system to be able to work in both directions:
+                    users can employ their expertise to select historically relevant dates to
+                    observe, but should also be able to use the system to identify noteworthy
+                    behavior that could then be traced back to historical events. In the same
+                    manner, the size and number of samples to visualize is also important: when
+                    visualizing relationships between voters, the entire timespan of the dataset
+                    could be viewed as a single sample, but changes that occur inside this timespan
+                    will not be easily observable; alternatively, using every single decision as an
+                    individual sample would result in hundreds of visualizations to be compared,
+                    which is impractical. Therefore, our aim is to aid users in selecting a low
+                    number of samples that contain a high amount of variance to one another.</p>
+                <p>We navigate through this matter using two approaches: the first is to generate a
+                    summarized representation of the whole timeline as to when decisions occur and
+                    which type they belong to. Users may interact with them and obtain further
+                    details, which can also be used to filter the data to be visualized. The second
+                    approach is to estimate overall behavior changes over time: groups of people
+                    that voted in agreement but started to vote in opposition, and vice-versa. This
+                    is done by comparing the differences in pairwise relationships between each
+                    voter, using the decisions within the selected time windows as multiple
+                    dimensions.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="6.69925cm" url="Pictures/8ad0278246511da18b35093a0846f715.png" rend="inline"/>
+                    
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="12.855222222222222cm" url="Pictures/575a2908a9caa2235e10cd8b26620a6f.png" rend="inline"/>
+                    
+                </figure>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="13.096875cm" url="Pictures/2fa161a51ba034ab5cd801aa21371528.png" rend="inline"/>
+                    
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Dealing With Missing or Incomplete Data</head>
+                <p>A fundamental challenge in working with historical records is data inconsistency.
+                    Records can be incomplete or noisy, either due to being lost to time, damaged,
+                    or never being kept in the first place. In Quill voting records, not all
+                    decisions contain recorded votes. Many of them are identified as anonymous, to
+                    which no votes were publicly cast. For others, minutes and drafted documents may
+                    reveal causes for such absence, such as a decision being an unanimous agreement
+                    without a need for casting individual votes.</p>
+                <p>In the sense of observing relationships between voters, decisions with no
+                    recorded votes offer no data for visualization. However, we can still use their
+                    metadata and related information to provide context and insights to users.
+                    Showing the distribution between anonymous and non-anonymous voting can provide
+                    insights into periods of contention; cross-referencing decision outcomes to the
+                    person that made the proposal can hint at the overall popularity of different
+                    people. There is also relevant information in outliers: a vote may look atypical
+                    for a person or group for a variety of reasons, and data errors are a
+                    possibility.</p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="5.254625cm" url="Pictures/4318283b2eaf1477ed362eb84cc78cdc.png" rend="inline"/>
+                    
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Building an Analytical Model</head>
+                <p>Once time windows of interest are found and samples are defined, we can then
+                    observe them further using computational methods. For this application, we use
+                    Principal Component Analysis (PCA) to display all voters as dots in a
+                    scatterplot. A PCA projection aims to encode the maximum possible amount of
+                    covariance within each dimension without distortion, showing trends and
+                    correlation between data points as explicitly as possible. This means voters
+                    with similar behavior during the selected time window will be shown close
+                    together, while dissimilar voters will be shown far apart.</p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="7.395986111111111cm" url="Pictures/7ad144d017b258674beb731ec484dbd4.png" rend="inline"/>
+                    
+                </figure>
+                <p>There are other projection techniques that can be used in this application –
+                    particularly, non-linear methods such as t-SNE and UMAP (Espadoto et al. 2019)
+                    can generate accurate neighborhood representations from complex data. However,
+                    as PCA is a linear transformation, we can use its features to gather information
+                    on the actual meaning of geometric positioning for data: coefficients from PCA
+                    analysis inform the influence of each decision on the visualization’s axes, and
+                    an explanation can be given for the position of voters in the scatterplot.</p>
+                <figure>
+                    <graphic n="1006" width="16.002cm" height="4.690180555555555cm" url="Pictures/3482de0dc619e577fda16012e7c08cd9.png" rend="inline"/>
+                    
+                </figure>
+                <p>To enhance this visualization, we can superpose another projection from a
+                    different time window and observe changes between the two. Voters with the most
+                    expressive changes can be quickly identified, and details on their behavior can
+                    be further explored. Normally, two distinct PCA projections do not have
+                    comparable spaces; we employ Procrustes analysis to adapt the second projection
+                    to the first as much as possible, aiming to highlight differences between the
+                    two.</p>
+                <figure>
+                    <graphic n="1007" width="16.002cm" height="13.954125cm" url="Pictures/6dd989c813a6ef3d296145e80ee814b0.png" rend="inline"/>
+                    
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>Voting records may offer important knowledge on relationships and trends among
+                    people or organizations in historical data, and visualization tools provide
+                    powerful means to navigate through their features. In this submission, we
+                    present tools to be used in this context and discuss their application in the
+                    Quill platform, discussing sampling, data availability and presentation.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Cole, Nicholas</author> / <author>Abdul-Rahman, Alfie</author> / <author>Mallon, Grace</author> 
+                        (2017): “Quill: A framework for constructing negotiated texts-with a case
+                        study on the us constitutional convention of 1787”. <hi rend="italic">2017
+                            ACM/IEEE Joint Conference on Digital Libraries</hi> (JCDL): 1-10. IEEE. </bibl>
+                    <bibl>
+                        <author>da Silva, Rodrigo N. M.</author> / <author>Spritzer, André S.</author> / <author>Freitas, Carla M. D. S.</author> (2018):
+                        “Visualization of roll call data for supporting analyses of political
+                        profiles”.
+                        <hi rend="italic"> 31st SIBGRAPI Conference on Graphics, Patterns and Images</hi>
+                        (SIBGRAPI): 150-157. IEEE. </bibl>
+                    <bibl>
+                        <author>Espadoto, Matheus</author> / <author>Martins, Rafael M.</author> / <author>Kerren, Andreas</author> / <author>Hirata, Nina S. T.</author> / <author>Telea, Alexandru C.</author>  (2019): “Toward a
+                        quantitative survey of dimension reduction techniques”.
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics </hi>27,
+                        3: 2153-2173. IEEE. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

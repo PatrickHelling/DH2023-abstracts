@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Turning the Carniolan regional assembly proceedings into an enriched historical corpus</title>
+                <author n="MaroltMatijaMAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml"><persName ref="https://orcid.org/0000-0002-0619-8789" n="MaroltMatija">
+                        <surname>Marolt</surname>
+                        <forename>Matija</forename>
+                    </persName><affiliation>University of Ljubljana, Slovenia</affiliation><email>matija.marolt@fri.uni-lj.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GapariJureMAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml"><persName n="GapariJure">
+                        <surname>Gašparič</surname>
+                        <forename>Jure</forename>
+                    </persName><affiliation>Institute of Contemporary History, Slovenia</affiliation><email>Jure.Gasparic@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MundjarAleksanderMAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml"><persName n="MundjarAleksander">
+                        <surname>Mundjar</surname>
+                        <forename>Aleksander</forename>
+                    </persName><affiliation>University of Ljubljana, Slovenia</affiliation><email>am9973@student.uni-lj.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KaviAlenkaMAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml"><persName n="KaviAlenka">
+                        <surname>Kavčič</surname>
+                        <forename>Alenka</forename>
+                    </persName><affiliation>University of Ljubljana, Slovenia</affiliation><email>alenka.kavcic@fri.uni-lj.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FierDarjaMAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml"><persName ref="https://orcid.org/0000-0002-9956-1689" n="FierDarja">
+                        <surname>Fišer</surname>
+                        <forename>Darja</forename>
+                    </persName><affiliation>Institute of Contemporary History, Slovenia</affiliation><email>Darja.Fiser@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PanurAndrejMAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml"><persName n="PanurAndrej">
+                        <surname>Pančur</surname>
+                        <forename>Andrej</forename>
+                    </persName><affiliation>Institute of Contemporary History, Slovenia</affiliation><email>andrej.pancur@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present the development of a richly annotated corpus of historical proceedings of the Carniolan Regional Assembly, which was the highest legislative body of the autonomy of the Carniola Herzogtum of the Habsburg Empire. We focus on the procedure used to convert the OCRed scans into Parla-CLARIN TEI encoded documents.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>parliamentary proceedings</term>
+                    <term>historical analysis</term>
+                    <term>digital corpora</term>
+                    <term>TEI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Parliamentary proceedings reflect the political, societal, and cultural Zeitgeist of a certain period and are as such an invaluable source for a broad range of DH research questions (Blaxhill and Beelen 2016, Blätte et al. 2020, Müller-Hansen et al. 2021). While contemporary parliamentary corpora have been compiled, annotated and made available for a number of languages through projects such as ParlaMint (Erjavec et al., 2022), similar resources with historical data remain rare (Puren et al., 2022). They are essential, however, as in the past two decades the focus of research on parliamentary discussions has shifted from the history of politics to the history of the political. Conceptual history (Begriffsgeschichte) has become increasingly relevant for the understanding of the society and its processes: how certain political concepts have been introduced, used, and understood (Koselleck, 2006). Such in-depth historical analysis, connected with the speech act theory, is of major importance for political history. In this framework, language is not just a tool used for describing the world, but also a significant part of the world that it co-creates (Hampsher-Monk, 1998). </p>
+                <p>In this abstract, we present the development of a richly annotated corpus of historical proceedings of the Krainer Landtag (The Carniolan Regional Assembly), which was the highest legislative body of the autonomy of the Carniola Herzogtum of the Habsburg Empire. It was introduced with the February patent (February 26, 1861) when the Austrian part of the Empire entered the second constitutional period and ended with the onset of the first world war, comprising altogether 12 parliamentary terms. The Assembly, which was initially composed of 37 delegates and was in 1908 extended to 50 delegates, adopted laws that were within its jurisdiction, which included agriculture, public buildings, charitable institutions, municipal, church and school matters, matters related to the provision of harness, provision and accommodation of the military, the regional budget, and until 1873 appointed delegates to the central parliament in Vienna (Reichsrat). </p>
+            </div>
+            <div type="div1">
+                <head>Procedure
+                </head>
+                <p>We collected the scanned and OCR processed pdf documents from the The Digital Library of Slovenia - dLib.si. The documents span the period from 1861 to 1913 (903 pdfs, 42746 pages) and include the assembly meeting proceedings (694 pdfs, 15353 pages), as well as supplementary materials (laws, budgets etc.). The documents are bilingual, in Slovenian and German, depending on the speaker. German was first typeset in the Gothic script and later on in Latin. </p>
+                <p>We first separated the meeting notes from the supplementary materials, as the latter often contain complex layouts (tables etc.), which will be addressed in our future work. We assessed the quality of OCR and found it to be acceptable on most documents (around 2% character error rate, a bit worse for German written in Gothic). Although there were some outlier pages where OCR performed poorly, especially when characters from neighbouring pages were visible in the scans, these pages were also included for further processing, but we plan to automatically detect such cases and perform OCR on them again with appropriate preprocessing.</p>
+                <p>On a subset of debates spanning 15 years, we devised a set of rules coded in a Python script to detect layout, find headings and text segments, deal with hyphenated words, assign text to speakers, detect events and extract meeting metadata including the date and hour of the beginning/end of each meeting, its agenda and a list of attendants with their titles. We used the Lingua Python library for language detection at sentence level. For lemmatization and part-of-speech tagging, we used Trankit
+                    <ref target="#MAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml_ftn1" n="1"/> for both languages. We first tried the CLASSLA Slovenian fork
+                    <ref target="#MAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml_ftn2" n="2"/> for lemmatization of Slovenian words and assessed PoS tagging accuracy of both lemmatizers. On a small sample of 3400 words (8 pages of text), CLASSLA performed only 0.5% better than Trankit. The lemmatization F1 scores were at 94.4% and 93.9%, respectively. The results are around 5% worse than for modern-day Slovenian, as the used Slovenian language is quite different (more archaic) to modern-day Slovenian on which the NLP tools were trained.
+                </p>
+                <p>After fine-tuning the set of rules, we applied them to the entire corpus and made adjustments to handle the changes in document formatting that occurred during the years. Altogether, the processed documents contain over 44.000 segments, over 540.000 sentences (roughly 58% in Slovenian and 42% in German) and approximately 10M words. Earlier debates were predominantly in German, while the language shifted towards Slovenian in the latest years.</p>
+                <p>We output the documents in the modified TEI XML format according to the schema compliant with Parla-CLARIN (Erjavec and Pančur, 2022). The developed corpus will enable us to identify types of changes that occur in political language in a certain political, national and partisan context (Ihalainen et al. 2016) and so provide new and innovative source-based fundamentals to re-think the political life in the multinational Habsburg empire. When completed, the entire corpus will be made available in the CLARIN.SI repository and importantly contribute to the availability of comparable, interoperable collections of parliamentary debates for diachronic, multilingual and transnational research.</p>
+                <figure>
+                    <graphic n="1001" width="16.51cm" height="12.170833333333333cm" url="Pictures/2bd47a3ccc2c59db2ba6c0bb8ba70aad.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.51cm" height="8.632472222222223cm" url="Pictures/c71531353d641082d9bf672697105260.png" rend="inline"/>
+                    <head>Figure 1: A short excerpt from the proceedings dated 3.10.1868 in PDF and TEI format. </head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>The work was supported by the Slovenian Research Agency research programmes P6-0436:</p>
+                <p>Digital Humanities: resources, tools and methods (2022–2027) and P6-0281: Political History (2022–2027) and the DARIAH-SI research infrastructure (2022-2027).</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="MAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml_ftn1">
+                         https://github.com/nlp-uoregon/trankit
+                    </note><note n="2" xml:id="MAROLT_Matija_Turning_the_Carniolan_regional_assembly_procee.xml_ftn2">
+                         https://github.com/clarinsi/classla
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Blaxill, L., &amp; Beelen, K.</author> (2016). A Feminized Language of Democracy? The Representation of Women at Westminster since 1945. Twentieth Century British History, 27(3), pp. 412–449 .
+                    </bibl>
+                    <bibl>
+                        <author>Blätte, A., Gehlhar, S., &amp; Leonhardt, C.</author> (2020). The Europeanization of Parliamentary Debates on Migration in Austria, France, Germany, and the Netherlands. 66–74.
+                    </bibl>
+                    <bibl>
+                        <author>Erjavec, T., Ogrodniczuk, M., Osenova, P. et al.</author> (2022). The ParlaMint corpora of parliamentary proceedings. Lang Resources &amp; Evaluation, https://doi.org/10.1007/s10579-021-09574-0
+                    </bibl>
+                    <bibl>
+                        <author>Erjavec, T. and Pančur A.</author> (2022). Parla-CLARIN: A TEI Schema for Corpora of Parliamentary Proceedings https://clarin-eric.github.io/parla-clarin/ (accessed 12 October 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Hampsher-Monk, J.</author> (1998). “Speech Act, Languages or Conceptual History?” In History of Concepts, Comparative Perspectives, 37–50. Amsterdam: Amsterdam University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Ihalainen, P., Ilie, C. and Palonen, K., eds.</author> (2016). Parliament and Parliamentarism: A Comparative History of a European Concept. New York: Berghahn Books.
+                    </bibl>
+                    <bibl>
+                        <author>Koselleck, R.</author> (2006). Begriffsgeschichten: Studien zur Semantik und Pragmatik der politischen und sozialen Sprache. Frankfurt am Main: Suhrkamp Verlag.
+                    </bibl>
+                    <bibl>
+                        <author>Müller-Hansen, F., Callaghan, M. W., Lee, Y. T., Leipprand, A., Flachsland, C., &amp; Minx, J. C.</author> (2021). Who cares about coal? Analyzing 70 years of German parliamentary debates on coal with dynamic topic modeling. Energy Research &amp; Social Science, 72, 101869.
+                    </bibl>
+                    <bibl>
+                        <author>Puren, M.A., Vernus, P., Pellet, A., Bourgeois, N.</author> (2022). Extracting and providing online access to annotated and semantically enriched historical data. The AGODA project. Digital Humanities Conference 2022 Book of abstracts.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

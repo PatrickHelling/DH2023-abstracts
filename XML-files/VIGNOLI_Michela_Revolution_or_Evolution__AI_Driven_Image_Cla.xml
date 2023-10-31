@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revolution or Evolution? AI-Driven Image Classification of Historical Prints</title>
+                <author n="VignoliMichelaVIGNOLI_Michela_Revolution_or_Evolution__AI_Driven_Image_Cla.xml"><persName ref="https://orcid.org/0000-0002-9495-5697" n="VignoliMichela">
+                        <surname>Vignoli</surname>
+                        <forename>Michela</forename>
+                    </persName><affiliation>AIT Austrian Institute of Technology, Austria</affiliation><email>michela.vignoli@ait.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GruberDorisVIGNOLI_Michela_Revolution_or_Evolution__AI_Driven_Image_Cla.xml"><persName ref="https://orcid.org/0000-0002-0512-100X" n="GruberDoris">
+                        <surname>Gruber</surname>
+                        <forename>Doris</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>doris.gruber@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SimonRainerVIGNOLI_Michela_Revolution_or_Evolution__AI_Driven_Image_Cla.xml"><persName ref="https://orcid.org/0000-0002-4116-9684" n="SimonRainer">
+                        <surname>Simon</surname>
+                        <forename>Rainer</forename>
+                    </persName><affiliation>AIT Austrian Institute of Technology, Austria</affiliation><email>rainer.simon@ait.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Artificial Intelligence (AI) technologies open up new possibilities for processing digitised historical corpora. We discuss whether AI presents a revolutionary or evolutionary impetus to the field. The argumentation builds on our experiences on image classification of early modern prints during the project Ottoman Nature in Travelogues (ONiT).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>artificial intelligence</term>
+                    <term>computer vision</term>
+                    <term>book history</term>
+                    <term>image classification</term>
+                    <term>early modern prints</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>image processing and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Artificial Intelligence (AI) technologies such as Deep Learning and Transfer Learning are rapidly advancing text and image classification in many disciplines (e.g., Lucas et al. 2022, Huang et al. 2022, Kumar et al. 2020). With the progressing digitisation of cultural heritage, AI increasingly finds applications in arts and humanities disciplines as well (Cetinic et al. 2019, Saleh / Elgammal 2016). It is evident that AI technologies open new possibilities for processing and analysing large, heterogeneous historical data corpora in a semi-automated way (Im et al. 2022). But do they have the potential to “overturn intellectual legacies” and to revolutionise the field?</p>
+            <p>In the project Ottoman Nature in Travelogues (ONiT 2023) we strive to leverage the application of AI technologies to historical research by developing an interdisciplinary methodological framework for the semi-automated, AI-driven analysis of text–image relations. Our object of study is a large multilingual corpus of travelogues printed 1501–1850 (Rörden et al. 2020) that contains representations of Ottoman “nature” (i.e., flora, fauna, landscapes) both in text and image. This short presentation focuses on our first results achieved for improving image classification of historical prints (i.e., mostly woodcuts, engravings, and etchings). We present our approach to robustly identify and classify key image types in our corpus and discuss challenges and lessons learned during this process.</p>
+            <p>Despite the availability of numerous well-working pretrained image classification and object detection algorithms (e.g., Wightman 2023, Redmon / Farhadi 2018), there are specific challenges related to historical images that we need to address. Most of today’s image classification algorithms are trained on modern photographic content from large benchmark databases (Im et al. 2022: 5871). As our image data mostly consists of prints, the pretrained algorithms cannot be used out of the box.</p>
+            <p>To address this challenge, we created an annotated dataset for fine-tuning an existing model (“Transfer Learning”, Gullapalli et al. 2021). We explored two approaches: One using a simpler training dataset annotated with multiple labels (“multi-label image classification”, van Strien 2020); and a second one using a more enriched training dataset annotated additionally with the bounding box locations of the objects to be detected (“object detection”, Smirnov / Eguizabal 2018).</p>
+            <p>The challenge was to select and annotate enough images with distinct examples per class-label to obtain a viable training data set. Since our data contained many duplicates and images lacking good resolution, we had to deal with bias and class imbalance. A second, perhaps bigger, challenge was of methodological nature. Annotations for historical research are usually very detailed, whereas an AI training dataset should only include annotations of distinct visual features to yield useful results. To create a working AI training dataset, we had to adapt our methodology and develop an understanding for visually distinct representations of “nature” as opposed to ones that might require interpretation. We manually labelled a subset of 409 images from our 16th century data with an ICONCLASS-based classification terminology and prepared the training dataset in an iterative review process (ICONCLASS 2023). In total, we annotated 234 representations of animals (on 57% of the images), 177 plants/vegetation (on 43% of the images), 167 landscapes (on 40% of the images), and 22 maps (on 5% of the images). For the object detection task, we enriched our annotated dataset with bounding boxes for each object of the annotated classes (Fig. 1).</p>
+            <p>First tests indicate that our approach can provide improved solutions for identifying images containing “nature” representations in our corpus. Our experiments suggest that AI will not overcome the disciplinary canons of DH. Rather, by adopting AI technologies we engage in an interdisciplinary process leading to the development of conventions, practices, vocabularies, and trained models suited to computational humanities (Piotrowski 2020, 10-12). Interdisciplinary collaboration between the humanities and AI developers is indeed the key opportunity for bridging the tension between the numerical modelling that is needed to apply AI, and the interpretive methods for analysing the narratives in historical sources. We should refrain from thinking of AI technologies as mere tools to increase the amount of data and the speed with which it can be processed. We have to critically assess our methods for collecting, annotating, and organising data as they have a decisive impact on both performance and bias of our AI classification tools (Smits / Wevers 2022). Finally, we also need to consider the impact that algorithms, models, and quantifications have on our methods and hermeneutics (van Zundert 2015) and implement ethical AI solutions (Johnson et al. 2022).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Cetinic, Eva</author>
+                         / 
+                        <author>Lipic, Tomislav</author>
+                         / 
+                        <author>Grgic, Sonja</author>
+                         (2019): “A Deep Learning Perspective on Beauty, Sentiment, and Remembrance of Art”, in: 
+                        <hi rend="italic">IEEE Access</hi>
+                         7: 73694–73710. DOI: 10.1109/ACCESS.2019.2921101.
+                    </bibl>
+                    <bibl>
+                        <author>Gullapalli, Ujwal</author>
+                         / 
+                        <author>Chen, Lei</author>
+                         / 
+                        <author>Xiong, Jinbo</author>
+                         (2021): “Image Classification with Transfer Learning and FastAI”, in: Xiong, Jinbo / Wu, Shaoen / Peng, Changgen / Tian, Youliang (eds.): 
+                        <hi rend="italic">Mobile Multimedia Communications</hi>
+                        . Cham: Springer International Publishing 796–806. DOI: 10.1007/978-3-030-89814-4_59.
+                    </bibl>
+                    <bibl>
+                        <author>Huang, Guan-Hua</author>
+                         / 
+                        <author>Fu, Qi-Jia</author>
+                         / 
+                        <author>Gu, Ming-Zhang</author>
+                         / 
+                        <author>Lu, Nan-Han</author>
+                         / 
+                        <author>Liu, Kuo-Ying</author>
+                         / 
+                        <author>Chen, Tai-Been</author>
+                         (2022): “Deep Transfer Learning for the Multilabel Classification of Chest X-ray Images”, in: 
+                        <hi rend="italic">Diagnostics</hi>
+                         12 (6): 1457. DOI: 10.3390/diagnostics12061457.
+                    </bibl>
+                    <bibl>
+                        <author>ICONCLASS</author>
+                         (2023).
+                        <hi rend="italic">Iconclass Illustrated Edition</hi>
+                        . <ref target="https://iconclass.org/">https://iconclass.org/</ref> [11.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Im, Chanjong</author>
+                         / 
+                        <author>Kim, Yongho</author>
+                         / 
+                        <author>Mandl, Thomas</author>
+                         (2022): “Deep learning for historical books: classification of printing technology for digitized images”, in: 
+                        <hi rend="italic">Multimedia Tools and Applications</hi>
+                         81 (4): 5867–5888. DOI: 10.1007/s11042-021-11754-7.
+                    </bibl>
+                    <bibl>
+                        <author>Johnson, Marina</author>
+                         / 
+                        <author>Albizri, Abdullah</author>
+                         / 
+                        <author>Harfouche, Antoine</author>
+                         / 
+                        <author>Fosso-Wamba, Samuel</author>
+                         (2022): “Integrating human knowledge into artificial intelligence for complex and ill-structured problems: Informed artificial intelligence”, in: 
+                        <hi rend="italic">International Journal of Information Management</hi>
+                         64: 102479. DOI: 10.1016/j.ijinfomgt.2022.102479.
+                    </bibl>
+                    <bibl>
+                        <author>Kumar, Pakhee</author>
+                         / 
+                        <author>Ofli, Ferda</author>
+                         / 
+                        <author>Imran, Muhammad</author>
+                         / 
+                        <author>Castillo, Carlos</author>
+                         (2020): “Detection of Disaster-Affected Cultural Heritage Sites from Social Media Images Using Deep Learning Techniques”, in: 
+                        <hi rend="italic">Journal on Computing and Cultural Heritage</hi>
+                         13 (3): 1–31. DOI: 10.1145/3383314.
+                    </bibl>
+                    <bibl>
+                        <author>Lucas, Luis</author>
+                         / 
+                        <author>Tomás, David</author>
+                         / 
+                        <author>Garcia-Rodriguez, Jose</author>
+                         (2022): “Exploiting the Relationship Between Visual and Textual Features in Social Networks for Image Classification with Zero-Shot Deep Learning”, in: Sanjurjo González, Hugo / Pastor López, Iker / García Bringas, Pablo / Quintián, Héctor / Corchado, Emilio (eds.): 
+                        <hi rend="italic">16th International Conference on Soft Computing Models in Industrial and Environmental Applications (SOCO 2021)</hi>
+                        . Cham: Springer International Publishing 369–378. DOI: 10.1007/978-3-030-87869-6_35.
+                    </bibl>
+                    <bibl>
+                        <author>ONiT</author>
+                        (2023). 
+                        <hi rend="italic">Ottoman Nature in Travelogues</hi>
+                        . <ref target="https://onit.oeaw.ac.at/">https://onit.oeaw.ac.at/</ref> [11.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Piotrowski, Michael</author>
+                         (2020): “Ain’t No Way Around It: Why We Need to Be Clear About What We Mean by ‘Digital Humanities’”, in: SocArXiv. April 14. S. p. <ref target="https://osf.io/d2kb6">https://osf.io/d2kb6</ref> [11.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Redmon, Joseph</author>
+                         / 
+                        <author>Farhadi, Ali</author>
+                         (2018): “YOLOv3: An Incremental Improvement”, in: ArXiv. April 8. S. p. <ref target="https://arxiv.org/abs/1804.02767">https://arxiv.org/abs/1804.02767</ref> [11.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Rörden, Jan</author>
+                         / 
+                        <author>Gruber, Doris</author>
+                         / 
+                        <author>Krickl, Martin</author>
+                         / 
+                        <author>Haslhofer, Bernhard</author>
+                         (2020): “Identifying Historical Travelogues in Large Text Corpora Using Machine Learning” in: Sundqvist, Anneli / Berget, Gerd / Nolin, Jan / Skjerdingstad, Kjell Ivar (eds.): 
+                        <hi rend="italic">Sustainable Digital Communities</hi>
+                        . Cham: Springer International Publishing 801–815. DOI: 10.1007/978-3-030-43687-2_67.
+                    </bibl>
+                    <bibl>
+                        <author>Saleh, Babak</author>
+                         / 
+                        <author>Elgammal, Ahmed</author>
+                         (2016): “Large-scale Classification of Fine-Art Paintings: Learning The Right Metric on The Right Feature”, in: 
+                        <hi rend="italic">International Journal for Digital Art History</hi>
+                         2. DOI: 10.11588/DAH.2016.2.23376.
+                    </bibl>
+                    <bibl>
+                        <author>Seydlitz, Melchior von </author>
+                        (1580):
+                        <hi rend="italic">Gründtliche Beschreibung Der Wallfart nach dem heiligen Lande [...]. </hi>
+                        Görlitz: Ambrosius Fritsch. <ref target="http://data.onb.ac.at/rep/1062FBA6">http://data.onb.ac.at/rep/1062FBA6</ref> [11.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Smirnov, Stanislav</author>
+                         / 
+                        <author>Eguizabal, Alma</author>
+                         (2018): “Deep learning for object detection in fine-art paintings”, in: 
+                        <hi rend="italic">2018 Metrology for Archaeology and Cultural Heritage (MetroArchaeo)</hi>
+                        . Cassino FR, Italy: IEEE. 45–49. DOI: 10.1109/MetroArchaeo43810.2018.9089828.
+                    </bibl>
+                    <bibl>
+                        <author>Smits, Thomas</author>
+                         / 
+                        <author>Wevers, Melvin</author>
+                         (2022): “The agency of computer vision models as optical instruments”, in: 
+                        <hi rend="italic">Visual Communication</hi>
+                         21 (2): 329–349. DOI: 10.1177/1470357221992097.
+                    </bibl>
+                    <bibl>
+                        <author>van Strien, Daniel</author>
+                         (2020): “Image labeling vs classification models”, in: 
+                        <hi rend="italic">Daniel van Strien</hi>
+                        . October 12. <ref target="https://danielvanstrien.xyz/models/labels/loss%20functions/2020/10/12/labelling_vs_classification_models.html">https://danielvanstrien.xyz/models/labels/loss%20functions/2020/10/12/labelling_vs_classification_models.html</ref> [11.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Van Zundert, Joris J.</author>
+                         (2015): “Screwmeneutics and Hermenumericals: The Computationality of Hermeneutics” in: Schreibman, Susan / Siemens, Ray / Unsworth, John (eds.): 
+                        <hi rend="italic">A New Companion to Digital Humanities</hi>
+                        . Chichester, UK: John Wiley &amp; Sons, Ltd 331–347. DOI: 10.1002/9781118680605.ch23.
+                    </bibl>
+                    <bibl>
+                        <author>Wightman, Ross</author>
+                         (2023): “PyTorch Image Models”, in: GitHub. April 6. <ref target="https://github.com/rwightman/pytorch-image-models">https://github.com/rwightman/pytorch-image-models</ref> [11.04.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

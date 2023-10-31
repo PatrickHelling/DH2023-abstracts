@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building a digital edition from archived social media
+                        content</title>
+                <author n="KurzmeierMichaelKURZMEIER_Michael_Building_a_digital_edition_from_archived_s.xml"><persName ref="https://orcid.org/0000-0003-4925-5197" n="KurzmeierMichael">
+                        <surname>Kurzmeier</surname>
+                        <forename>Michael</forename>
+                    </persName><affiliation>University College Cork, Ireland</affiliation><email>mkurzmeier@ucc.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OSullivanJamesKURZMEIER_Michael_Building_a_digital_edition_from_archived_s.xml"><persName ref="https://orcid.org/0000-0002-4214-9933" n="OSullivanJames">
+                        <surname>O'Sullivan</surname>
+                        <forename>James</forename>
+                    </persName><affiliation>University College Cork, Ireland</affiliation><email>james.osullivan@ucc.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PiddMikeKURZMEIER_Michael_Building_a_digital_edition_from_archived_s.xml"><persName ref="https://orcid.org/0000-0002-2132-3410" n="PiddMike">
+                        <surname>Pidd</surname>
+                        <forename>Mike</forename>
+                    </persName><affiliation>University of Sheffield</affiliation><email>m.pidd@sheffield.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MurphyOrlaKURZMEIER_Michael_Building_a_digital_edition_from_archived_s.xml"><persName n="MurphyOrla">
+                        <surname>Murphy</surname>
+                        <forename>Orla</forename>
+                    </persName><affiliation>University College Cork, Ireland</affiliation><email>o.murphy@ucc.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WesselsBridgetteKURZMEIER_Michael_Building_a_digital_edition_from_archived_s.xml"><persName ref="https://orcid.org/0000-0002-2794-2116" n="WesselsBridgette">
+                        <surname>Wessels</surname>
+                        <forename>Bridgette</forename>
+                    </persName><affiliation>University of Glasgow</affiliation><email>bridgette.wessels@glasgow.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WhittleSophieKURZMEIER_Michael_Building_a_digital_edition_from_archived_s.xml"><persName n="WhittleSophie">
+                        <surname>Whittle</surname>
+                        <forename>Sophie</forename>
+                    </persName><affiliation>University of Sheffield</affiliation><email>sophie.whittle@sheffield.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This short presentation offers insight into the development process of a digital edition of archived social media. The presentation will outline general design choices and provide insight into the schema development as well as outline challenges.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital Scholarly Edition</term>
+                    <term>Social Media</term>
+                    <term>Markup</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>electronic literature production and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Building a digital edition from archived social media content presents specific
+                technical challenges. Such an edition requires input from colleagues experienced in
+                web archiving, data ethics and rights as well as a novel set of encoding elements.
+                Additionally, building such an edition also requires editors to engage with the
+                platform politics of their respective sources. This short presentation will present
+                the current state and design process of such an edition of archived social media
+                content. The presentation will cover both technical and platform-specific challenges
+                encountered. </p>
+            <p>To facilitate an edition that is, in the sense of Patrick Sahle, “a critical
+                representation of historic documents” (2016), specific adjustments to the digital
+                medium are necessary. First, as digital media is in constant flux, archiving needs
+                to provide a stabilizing function in order to preserve the content as it appeared at
+                one or multiple points in time. Second, as digital methods have great influence on
+                the amount and format of extracted data, these methods must also be well documented
+                in the encoding process. The presentation will outline the process of developing
+                such an encoding schema which allows for detailed descriptions of multiple data
+                sources and data acquisition methods. Through the extended documentation of the
+                source, social media content is transformed from a live data stream to a static,
+                annotatable object in an edition. By providing multiple versions of the same object,
+                changes in network interactions such as likes and quotes, but also changes in the
+                object, such as edits, can be represented.</p>
+            <p>Digital editions are positioned between drawing from archived material, and being an
+                archive themselves (Dillen 2019, 266). A digital edition of archived social media
+                data operates within the economic and ideological tensions that characterize
+                information capitalism. These tensions are evident in platform politics, such as
+                Twitter prohibiting the use of deleted Tweets, a practice which presents significant
+                challenges to a critical edition of archived social media content. Furthermore,
+                social media platforms in general are “unarchivable by design”, pursuing a
+                “monopolization of the public record” (Ben-David 2020). These practices have
+                far-reaching effects, including amongst others a loss of significance of traditional
+                archives to a constant state of uncertainty on the side of researchers. These
+                described characteristics are present on a technical as well as conceptual level.
+                Engagement with these described problems in the context of creating a social media
+                edition serves to illustrate the challenges posed by a platformized Internet and the
+                current state of attempts to negotiate them. These challenges offer ample
+                opportunity for collaboration, including disciplines such as web archiving and
+                platform studies.</p>
+            <p>In conclusion, this short presentation offers insight into the development process of
+                a digital edition of archived social media. The presentation will outline general
+                design choices and provide insight into the schema development. Further, the
+                presentation will position such an edition in the larger context of platformized
+                social media and illustrate the challenges presented by platform politics and poor
+                data access. </p>
+            <p>Acknowledgements: This research is part of C21 Editions: Scholarly Editing and
+                Publishing in the Digital Age, a three-year international collaboration jointly
+                funded by the Arts &amp; Humanities Research Council (AH/W001489/1) and Irish
+                Research Council (IRC/W001489/1).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Ben-David, Anat</author>. 2020. “Counter-Archiving Facebook.”
+                            <hi rend="italic">European Journal of Communication</hi>
+                        , May, 026732312092206.
+                        <ref target="https://doi.org/10.1177/0267323120922069"/>. </bibl>
+                    <bibl>
+                        <author>Sahle, Patrick</author>. 2016. “What Is a Scholarly Digital
+                        Edition?” In <hi rend="italic">Digital Scholarly Editing:
+                            Theories and Practices</hi>
+                        , edited by Matthew James Driscoll and Elena
+                            Pierazzo, 19–40. Open Book Publishers.
+                        <ref target="https://doi.org/10.11647/OBP.0095.02"/>. </bibl>
+                    <bibl>
+                        <author>Dillen, Wout</author>. 2019. “On Edited Archives and Archived
+                        Editions.” <hi rend="italic">International Journal of Digital
+                            Humanities</hi>
+                        
+                        1 (2): 263–77. 
+                        <ref target="https://doi.org/10.1007/s42803-019-00018-4">https://doi.org/10.1007/s42803-019-00018-4</ref>
+                        .
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

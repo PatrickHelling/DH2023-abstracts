@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>It Takes a Village: Building an Infrastructure for 3D Scholarly
+                    Editions</title>
+                <author n="PapadopoulosCostasPAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName ref="https://orcid.org/0000-0003-1072-5198" n="PapadopoulosCostas">
+                        <surname>Papadopoulos</surname>
+                        <forename>Costas</forename>
+                    </persName><affiliation>Maastricht University, Netherlands, The</affiliation><email>k.papadopoulos@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchreibmanSusanPAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName ref="https://orcid.org/0000-0002-8782-0794" n="SchreibmanSusan">
+                        <surname>Schreibman</surname>
+                        <forename>Susan</forename>
+                    </persName><affiliation>Maastricht University, Netherlands, The</affiliation><email>susan.schreibman@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GillikinSchoueriKellyPAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName n="GillikinSchoueriKelly">
+                        <surname>Gillikin Schoueri</surname>
+                        <forename>Kelly</forename>
+                    </persName><affiliation>Maastricht University, Netherlands, The</affiliation><email>k.gillikinschoueri@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CopeJamiePAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName n="CopeJamie">
+                        <surname>Cope</surname>
+                        <forename>Jamie</forename>
+                    </persName><affiliation>Smithsonian Institution</affiliation><email>CopeG@si.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BlundellJonPAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName ref="https://orcid.org/0000-0003-2493-9912" n="BlundellJon">
+                        <surname>Blundell</surname>
+                        <forename>Jon</forename>
+                    </persName><affiliation>Smithsonian Institution</affiliation><email>BlundellJ@si.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OgawaJunPAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName n="OgawaJun">
+                        <surname>Ogawa</surname>
+                        <forename>Jun</forename>
+                    </persName><affiliation>Center for Open Data in the Humanities, University of
+                        Tokyo</affiliation><email>htjk6513khbk@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NagasakiKiyonoriPAPADOPOULOS_Costas_It_Takes_a_Village__Building_an_Infrastr.xml"><persName ref="https://orcid.org/0000-0002-5485-0567" n="NagasakiKiyonori">
+                        <surname>Nagasaki</surname>
+                        <forename>Kiyonori</forename>
+                    </persName><affiliation>International Institute for Digital Humanities, University of
+                        Tokyo</affiliation><email>nagasaki@dhii.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This panel will explore the various aspects of what is involved, not only in conceiving and building a 3D infrastructure, but in creating 3D Scholarly editions and developing the viewers that allow stories to be created around them. It will also explore issues around training the community of the infrastructure.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>3D scholarly editions</term>
+                    <term>digital infrastructure</term>
+                    <term>digital storytelling</term>
+                    <term>training</term>
+                    <term>collaboration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Archaeology</term>
+                    <term>Art history</term>
+                    <term>Humanities computing</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The rationale for the creation and development of digital scholarly editions has
+                    been to use available technologies to present, analyse, and augment the text; to
+                    contextualise it, to illuminate it; at times to allow the public to collaborate
+                    in its creation; to view the text in terms of patterns demonstrating connections
+                    not easily visible to the human eye. In short, to create a knowledge site for
+                    research and dissemination (Apollon et al. 2014; Sutherland 1997; Driscoll and
+                    Pierazzo 2016; Pierazzo 2015). Typically, we think of the text at the centre of
+                    these editions in semantic terms: a novel, a poem, a document. But what happens
+                    when we think of the text as a 3D model: be it an individual object (e.g., a
+                    sculpture or an artefact) or a complex scene (an archaeological site or a city).
+                    Of course, we are not the first to describe texts this way. In 1999 DF McKenzie
+                    described the panoply of objects that could be open to the kinds of intensive
+                    bibliographical study (transmission, production, and reception) that textual
+                    scholars have traditionally reserved for print and manuscript traditions, ‘as
+                    verbal, visual, oral and numeric data’ (McKenzie 1999, 13).</p>
+                <p>Thus, for the infrastructure under development by the PURE3D project, the 3D
+                    model is the focal point for the editions being created: annotated and glossed
+                    multimodally (text, images, video as well as other models) with the apparatus
+                    displayed within the same information space as the model itself. Different 3D
+                    viewers are utilised to serve different audiences: from more publicly focussed
+                    narrative-based viewers (e.g., Smithsonian Voyager developed by the Smithsonian)
+                    to more scholarly information-based viewers (developed by PURE3D). Viewers
+                    reside within an infrastructure that also provides a preservation layer so that
+                    all the assets of the edition (as well as preservation versions of the models)
+                    can be securely stored for long term use and reuse.  </p>
+                <p>In the title of this panel, we write that it takes a village to create the
+                    infrastructure. The collaboration spans three continents, with the main project
+                    team in The Netherlands, utilising a viewer developed by The Smithsonian
+                    Institution (Washington DC), being informed by colleagues creating their own
+                    editions in Japan, in addition to a range of heritage institutions creating
+                    editions in The Netherlands. </p>
+                <p>This panel will explore the various aspects of what is involved, not only in
+                    conceiving and building the infrastructure, but in creating the 3D editions and
+                    developing the viewers that allow stories to be created around them. It will
+                    also explore issues of training, also a key to the development of the
+                    infrastructure, as the requirements for creating 3D DSEs, conceptually,
+                    methodologically, and technically, are quite different from what we have been
+                    training for over the past 20+ years for more traditional text-based editions. </p>
+                <p><hi rend="bold">Paper 1: What is a 3D Digital Scholarly Edition?</hi><lb/></p>
+                <p>Susan Schreibman, Maastricht University </p>
+                <p>In 2016 Patrick Sahle advocated that Scholarly Digital Editions not be restricted
+                    to literary texts but rather ‘cover all cultural artefacts from the past that
+                    need critical examination in order to become useful sources for research in the
+                    humanities’ (Sahle 2016, 22). </p>
+                <p>Thus the goal of these editions is to move beyond how we typically interact with
+                    3D models (for example on Sketchfab or via museum databases) as ‘twirly
+                    objects’, albeit with metadata, to models that exist within a knowledge site,
+                    e.g., a Digital Scholarly Edition; what Derrida (Derrida and Prenowitz 1995, 10)
+                    and the earliest textual editors of web-based scholarship called the archive,
+                    what Deleuze and Guattari (1987, 4) called an assemblage, in which the textual
+                    and contextual are interwoven within the same viewing environment  (Gabler 2010,
+                    46) thus providing an environment for the communication of 3D scholarship to
+                    enjoy the same intellectual rigour as more traditional editions based on primary
+                    text-sources. </p>
+                <p>Several virtual world projects have followed the paradigm of what we call 3D
+                    Scholarly Editions, providing contextual information, in the form of in-world
+                    textual and multimedia annotations, including VSim (Snyder 2014, Sullivan and
+                    Snyder 2017), the <ref target="http://idialab.org/virtual-middletown-living-museum-in-blue-mars/">Virtual Middletown Living Museum Project</ref> and <ref target="http://vcg.isti.cnr.it/cross/">The Visionary Cross Project</ref>.
+                    This paper will explore issues surrounding the creation and the sustainability
+                    of 3D scholarly editions, and hence the inspiration to create an infrastructure
+                    to lessen the burden (economically and intellectually) for editors wishing to
+                    create and sustain such scholarship.  </p>
+                <p><hi rend="bold">Paper 2: Building an Infrastructure for 3D Scholarship</hi><lb/></p>
+                <p>Costas Papadopoulos, Maastricht University </p>
+                <p>PURE3D, an infrastructure for the publication and preservation of 3D scholarship,
+                    funded by Platform Digitale Infrastructuur - Social Sciences &amp; Humanities,
+                    is establishing a framework in which 3D scholarship and heritage will be
+                    published and preserved in the form of 3D Scholarly Editions (3DSEs) (Schreibman
+                    and Papadopoulos, 2019; Papadopoulos and Schreibman, 2019). At the same time,
+                    emphasis is placed on the preservation not only of the 3D models, but of all of
+                    its associated information (e.g., annotations, apparatus etc.) following the
+                    FAIR principles. PURE3D is also developing models for the evaluation of 3D
+                    scholarship, aligning with the recent Declaration on Research Assessment (DORA)
+                    and <ref target="https://coara.eu/app/uploads/2022/09/2022_07_19_rra_agreement_final.pdf">The EU Agreement on Reforming Research Assessment</ref>.  </p>
+                <p>The development of the PURE3D infrastructure is informed by six pilot partners,
+                    representing both academic researchers and heritage institutions, providing a
+                    range of 3D models from a collection of individual objects to more complex
+                    cityscapes. Following an iterative design thinking methodology, development is
+                    informed by workshops, focus groups, and training, which in turn, informs the
+                    conceptualisation and creation of 3D narratives. The goal of PURE3D is not to
+                    reinvent the wheel, but draw from successful attempts in infrastructure
+                    development, such as collaborating with The Smithsonian by implementing Voyager
+                    Story and Voyager Explorer as one of the 3D editing and viewing environments.
+                    This collaboration has also served to inform development of Voyager while
+                    expanding its community of practice. This paper will reflect on the
+                    collaborative process of development and will address opportunities and
+                    challenges.   </p>
+                <p><hi rend="bold">Paper 3: At the Front End: The Smithsonian Voyager - Crafting
+                        Engaging Digital Experiences</hi><lb/></p>
+                <p>Jamie Cope, Smithsonian Institution</p>
+                <p>Jon Blundell, Smithsonian Institution </p>
+                <p>Cultural heritage objects are rarely presented in a vacuum. In a physical museum
+                    great care is taken to display, provide context, and guide visitors through an
+                    educational experience. Online 3D viewing experiences should not be different: 
+                    to provide a meaningful and memorable virtual visit, construction of narratives
+                    to provide users with multimodal contextualisation, interactivity, and affective
+                    experiences is equally important. To this end, The Smithsonian developed the
+                    Voyager suite of web components that provide authors and viewers of 3D
+                    narratives with the functionalities to develop and consume such experiences.
+                    Voyager is divided into two main components: Story, the content authoring
+                    interface and Explorer, the user-facing interface, which can support augmented
+                    reality viewing on compatible mobile devices. Voyager story enables users,
+                    including curators and content experts, to author 3D narratives by means of: 1)
+                    Annotation; 2) Articles; and, 3) Guided Tours.</p>
+                <p>In developing PURE3D, Voyager is one of the authoring/viewing components for
+                    developing 3D scholarly editions. Through this collaboration, Voyager had the
+                    opportunity to reflect not only on storytelling features but also on the kinds
+                    of audiences that could benefit from the platform as PURE3D works with a wide
+                    variety of stakeholders, not only museum curators - which have been the primary
+                    audience for Voyager Story, but also researchers, including architectural
+                    historians, archaeologists, art historians, and 3D modellers. This paper will
+                    present the narrative affordances of the Voyager suite and will reflect on the
+                    lessons learnt from the collaboration with multiple and diverse stakeholders and
+                    the PURE3D infrastructure.   </p>
+                <p><hi rend="bold">Paper 4: Training the Community: Theoretical &amp;
+                        Methodological Considerations</hi><lb/></p>
+                <p>Kelly Gillikin-Schoueri, Maastricht University <lb/></p>
+                <p>Even if an environment is developed in which
+                    researchers, curators, and archivists can create 3DSEs, the conceptual
+                    underpinning of these editions is extremely different from other forms of
+                    knowledge creation, including creating metadata for 3D models (eg as part of an
+                    institutional database) to XML-based DSEs. Therefore, training is an integral
+                    part of the 3D infrastructure so that editors can curate annotations and
+                    apparatus in ways that directly interact with the 3D model. Thus, as part of the
+                    PURE3D project activities, a series of iterative training modules for various
+                    stakeholder groups (including bachelor’s students, public-sector heritage
+                    professionals and academics) have been developed utilising Smithsonian’s Voyager
+                    with a two-fold objective:</p>
+                <p>1. To conceptualise 3D scholarly editions as a novel form of scholarly
+                    communication;</p>
+                <p>2. To teach competency in developing a 3D scholarly edition within Voyager
+                    Story.</p>
+                <p>The training materials have been developed through an interactive and
+                    collaborative design cycle. Learning how to use the software has been relatively
+                    easy to teach. But even for those who have a background in more traditional
+                    text-based editing, what has proved challenging is a change in mindset as to how
+                    to edit an edition in which the ‘textual’ centre is a 3D model which
+                    necessitates an annotative focus on place-based location originating from the
+                    physicality of the model. This paper will explore these challenges, as well as
+                    the solutions now part of the suite of training materials used, as well as
+                    future plans for making these materials publicly accessible. </p>
+                <p><hi rend="bold">Paper 5: The First Editions: Crafting Engaging Digital
+                        Experiences </hi><lb/></p>
+                <p> Jun Ogawa, University of Tokyo </p>
+                <p>Kiyonori Nagasaki, University of Tokyo</p>
+                <p>Susan Schreibman, Maastricht University </p>
+                <p>This paper focuses on the intellectual, conceptual, and methodological decisions
+                    to be considered in constructing a 3D DSE. At present, there are some 20
+                    editions within the PURE3D infrastructure using models as different as Buddhist
+                    statues, the Roman Imperial Fora, a battlefield in Dublin from the Easter 1916
+                    Rising, a musical instrument called the Hurdy Gurdy, a Benin Bronze, a coal
+                    mining lamp, and a modern statue, and buildings from 18th century Netherlands,
+                    among others. </p>
+                <p>Despite the fact that these objects are so different in the physical world,
+                    within the context of the editing environment, in this case Smithsonian Voyager,
+                    they share common issues in narrating and annotating to create scaffolding
+                    around the 3D model appropriate to the audience the editor is targeting. As the
+                    3D model maintains a central role in the edition, the narrative must begin and
+                    end with the spatiality of the object being annotated. This means that all the
+                    data included in the edition, even what we might consider background knowledge,
+                    needs, somehow, to be connected to a specific location on the model, in addition
+                    to issues present in more traditional editions, including what is selected for
+                    annotation and how it is communicated. 　</p>
+                <p>3D DSEs have the potential to open up spatial and temporal opportunities for new
+                    forms of scholarly communication foregrounding the material and sensorial within
+                    a 3D environment. These prototype editions have much to teach us about the
+                    opportunities for this exciting new form of scholarship, geared to a wide
+                    variety of audiences.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Apollon, D., Bélisle, C., &amp; Régnier, P.</author> (2014). 
+                        <hi rend="italic">Digital critical edition</hi>
+                        s. Urbana: University of Illinois Press.
+                    </bibl>
+                    <bibl>
+                        <author>Deleuze, G., &amp; Guattari, F.</author> (1987). 
+                        <hi rend="italic">A thousand plateaus: Capitalism and
+                            schizophrenia</hi>
+                        . London: University of Minnesota Press.
+                    </bibl>
+                    <bibl>
+                        <author>Derrida, J. &amp; Prenowitz, E.</author> (1995). Archive fever: A Freudian impression. 
+                        <hi rend="italic">Diacritics</hi>
+                         25(2), 9–63. 
+                        <ref target="http://www.jstor.org/stable/465144">http://www.jstor.org/stable/465144</ref>
+                           
+                    </bibl>
+                    <bibl>
+                        <author>Driscoll, M., &amp; Pierazzo, E.</author> (2016). 
+                        <hi rend="italic">Digital scholarly editing: Theories
+                            and practices</hi>
+                        . Cambridge: Open Book Publishers.
+                    </bibl>
+                    <bibl>
+                        <author>Gabler, H.W.</author> (2010). Theorizing the digital scholarly edition. 
+                        <hi rend="italic">Literature Compass</hi>
+                        , 7, pp. 43–56. 
+                        <ref target="https://doi.org/10.1111/j.1741-4113.2009.00675.x">https://doi.org/10.1111/j.1741-4113.2009.00675.x</ref>
+                    </bibl>
+                    <bibl>
+                        <author>McKenzie, D. F.</author> (1999). 
+                        <hi rend="italic">Bibliography and the sociology of
+                            texts</hi>
+                        . Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Papadopoulos, C. and Schreibman, S.</author> (2019). Towards 3D Scholarly Editions: The Battle of Mount Street Bridge. 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
+                        . 13(1). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/13/1/000415/000415.html">http://www.digitalhumanities.org/dhq/vol/13/1/000415/000415.html</ref>
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Pierazzo, E.</author> (2015). 
+                        <hi rend="italic">Digital scholarly editing:
+                            Theories, models and methods</hi>
+                        . New York: Ashgate.
+                    </bibl>
+                    <bibl>
+                        <author>Sahle, P.</author> (2016). What is a scholarly digital edition. In M. Driscoll &amp; E. Pierazzo (Eds), 
+                        <hi rend="italic">Digital scholarly editing: Theories
+                            and practices</hi>
+                         (pp. 20–39). Cambridge: Open Book Publishers.
+                    </bibl>
+                    <bibl>
+                        <author>Schreibman, S., Papadopoulos, C.</author> (2019) Textuality in 3D: three-dimensional (re)constructions as digital scholarly editions. 
+                        <hi rend="italic">International Journal of Digital
+                            Humanities</hi>
+                        , 1, 221–233. 
+                        <ref target="https://doi.org/10.1007/s42803-019-00024-6">https://doi.org/10.1007/s42803-019-00024-6</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Snyder, L. M.</author> (2014). VSim: Scholarly Annotations in Real-Time 3D Environments. In P. Schmitz, L. Pearce, and Q. Dombrowski (Eds) 
+                        <hi rend="italic">DH-CASE II: Collaborative
+                            Annotations on Shared Environments: Metadata, Tools and Techniques in
+                            the Digital Humanities (DH-CASE 2014)</hi>
+                        , ACM, New York, NY, USA, Article 2, 8 pages. 
+                        <ref target="http://dx.doi.org/10.1145/2657480.2657483">http://dx.doi.org/10.1145/2657480.2657483</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Sullivan, E. A., and Snyder, L.M.</author> (2017). Digital Karnak: An Experiment in Publication and Peer Review of Interactive, Three-Dimensional Content. 
+                        <hi rend="italic">Journal of the Society of
+                            Architectural Historians</hi>
+                         76(4), 464-482.
+                        <ref target="https://doi.org/10.1525/jsah.2017.76.4.464">https://doi.org/10.1525/jsah.2017.76.4.464</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Sutherland, K.</author> (1997). <hi rend="italic">Electronic text:
+                            Investigations in method and theory</hi>. Oxford: Clarendon Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitizing Suzette: Creating a Framework for the Collaborative Analysis of an Historical French Textbook</title>
+                <author n="WestbrookJohnWESTBROOK_John_Digitizing_Suzette__Creating_a_Framework_for_.xml"><persName ref="https://orcid.org/0000-0003-2945-7285" n="WestbrookJohn">
+                        <surname>Westbrook</surname>
+                        <forename>John</forename>
+                    </persName><affiliation>Bucknell University, United States of America</affiliation><email>jwestbro@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JakackiDianeWESTBROOK_John_Digitizing_Suzette__Creating_a_Framework_for_.xml"><persName ref="https://orcid.org/0000-0002-7836-1223" n="JakackiDiane">
+                        <surname>Jakacki</surname>
+                        <forename>Diane</forename>
+                    </persName><affiliation>Bucknell University, United States of America</affiliation><email>dkj004@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HeintzelmanRebeccaWESTBROOK_John_Digitizing_Suzette__Creating_a_Framework_for_.xml"><persName n="HeintzelmanRebecca">
+                        <surname>Heintzelman</surname>
+                        <forename>Rebecca</forename>
+                    </persName><affiliation>Bucknell University, United States of America</affiliation><email>rm036@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HarnoodJuliyaWESTBROOK_John_Digitizing_Suzette__Creating_a_Framework_for_.xml"><persName n="HarnoodJuliya">
+                        <surname>Harnood</surname>
+                        <forename>Juliya</forename>
+                    </persName><affiliation>Bucknell University, United States of America</affiliation><email>jh062@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present a collaborative framework using digital tools to analyze and present an important but neglected French belle-époque girls primary school reader, Marie Robert Halt’s Suzette. Using our open data model, researchers can explore major themes (gender, class, etc.) and disciplinary topics (biology, cuisine, etc.) and propose new analytical frames,</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Textbooks</term>
+                    <term>Text Encoding and Analysis</term>
+                    <term>Cuisine</term>
+                    <term>France</term>
+                    <term>Historical Data Analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>semantic analysis</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Education/ pedagogy</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In 1885, Marie Robert Halt published one of the best-selling textbooks of Third Republic France: 
+                <hi rend="italic">Suzette: Livre de Lecture Courante à l’Usage des Jeunes Filles</hi>.  She wrote her reader for girls aged 9-11 attending the free, secular, and compulsory mass primary schools created by the French educational reformers in the early 1880s. For the first time, children of the urban and rural working classes studied not only moral education (which replaced religious education), reading, writing, and arithmetic, but also history, geography, industry, and the natural and physical sciences. Girls further studied domestic economy, from barnyard management and horticulture to cooking and sewing. Through the story of the eponymous character’s intellectual and practical education (she takes over the role of homemaker following her mother’s death), 
+                <hi rend="italic">Suzette</hi> covers the entirety of the new curriculum. With over a million and a half copies distributed between 1888 and WWI (Jung 2021), each of which could be read by multiple cohorts of students, 
+                <hi rend="italic">Suzette</hi> provides an important window onto the cultural history of girl’s popular education in belle époque France. Aside from some mentions in histories of girls’ education in France (Clark 1984), it has not received the sustained attention it deserves. We hope to demonstrate the unrealized opportunities for collaboration amongst scholars and students in the digital humanities that 
+                <hi rend="italic">Suzette</hi> offers.
+            </p>
+            <p>Until now, most DH projects concerned with historical textbooks have focused on ensuring access to digitized versions of these texts and, to a lesser degree, transcription. The Bibliothèque Nationale in Paris, the Musée National d’éducation in Rouen, and the Georg Eckert Institut have extensive digital collections of historical textbooks. Scholars have begun to use new approaches to these sources, elucidating the common structural elements of textbooks (Stahn et al. 2016), or extracting the knowledge models they contain (Alpizar-Chacon/ Sosnovsky 2021). The opportunity, as we see it, is to use digital humanities methods, tools, and modes of production to create an onramp from digital copies to an analysis that contributes more broadly to the historical conversation and allow more voices to contribute to it. Xavier Riondet has recently analyzed how the textbooks of the Third Republic participated in such a “fabrique du commun” or creation of the commons (Riondet 2020). Dr. Julien Schuh’s team at Modap has applied AI analytical tools to large data sets of historical textbooks (Jung 2022; Schuh
+                <ref target="https://www.zotero.org/google-docs/?3YvywS">)</ref>. Complementing these global approaches, our team, led by principal investigators John Westbrook and Diane Jakacki, has set out to construct a richly annotated digital edition of this teacher’s text. 
+            </p>
+            <p>We are working with the teacher’s edition of this textbook, giving researchers a complex view of the pedagogical goals of Third Republic mass education and their ideological context. This structurally and thematically rich text contains the narrative of the student edition with engravings that either underscore important narrative moments or illustrate object lessons in a variety of disciplines, from history and geography to biology or home economics. The student text includes learning prompts for each chapter and a glossary. The teacher’s edition supplements these with a series of comprehension questions and with model answers to the learning prompts. These are keyed to a curricular “classification“, which maps each chapter onto the national curriculum. </p>
+            <p>By turning this pedagogical artifact into our own enriched pedagogical text, we have given a team of students at Bucknell the opportunity to explore collaborative research using DH tools, including TEI encoding, analysis, and annotation and GIS mapping. Our project provides both a platform and a model for further exploration and development in a classroom setting. We worked to create a robust schema for the structural and semantic encoding of the text that will allow students and researchers to navigate it in a variety of ways (Westbrook et al. 2021) They can compare the student and teacher versions of the text. Leveraging the easy integration of Linked Open Data afforded by the Linked Academic Editing Framework (https://www.leaf-vre.org/), they can explore a place via our gazetteer or, using our prosopography, analyze how historical characters according to role, period, or origin. </p>
+            <p>Our project, in parallel to the work of Stahn, Hennicke, and De Luca (2016), provides a shared, customized TEI schema for treating historical textbooks allowing scholars to contribute to our analysis of 
+                <hi rend="italic">Suzette</hi> and to expand the corpus to other pedagogical texts. This framework supports collaboration from students and researchers interested in the histories of French (girls) education, of pedagogy, and of gender, and more generally, the social history of Third Republic France. The encyclopedic nature of the textbook allows students and researchers to explore broad themes, such as gender, class, or national identity, from multiple disciplinary perspectives. We invite researchers to revise this framework to allow for an expanded cross-national corpus of historical textbooks. Benedict Anderson argued for education’s central role in the creation of imagined communities informing national identities. Comparative analysis of textbooks used in early mass education allows for a better understanding of this process of creating a national culture. 
+            </p>
+            <p>Focusing more closely on specific disciplines, researchers can investigate how different academic subjects, from moral education or natural science, to geography and domestic economy, constructed, conveyed, and/or complicated discourses around topics such as colonialism, political or economic ideals, or culinary identity. At DH2023 we intend to present one example: our work on culinary themes within the text and our model for tagging food production, from acquisition to transformation to distribution. Through our research, we have developed a data model and vocabulary to analyze culinary events, whether the production of a festive meal within the reader’s narrative or a recipe provided within the teacher’s text. In the spirit of collaboration, and in the context of a long presentation, we intend to integrate a short interactive exploration of our site for the audience. In these ways we hope to encourage scholars interested in either our topic or approach to work with us. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alpizar-Chacon, I.</author> / <author>Sosnovsky, S.</author>  (2021) “Knowledge Models from Pdf Textbooks,” 
+                        <hi rend="italic">New Review in Hypermedia and Multimedia</hi>, 27(1), pp. 128–176. doi: 10.1080/13614568.2021.1889692.
+                    </bibl>
+                    <bibl>
+                        <author>Anderson, B. R. O. G.</author> (1983): 
+                        <hi rend="italic">Imagined communities: reflections on the origin and spread of nationalism</hi>. London: Verso.
+                    </bibl>
+                    <bibl>
+                        <author>Brown, Susan</author> / <author>Jakacki, Diane</author> / <author>Cummings, James</author> / <author>Ilovan, Mihaela</author> / <author>Black, Carolyn</author>  (2022): “The Linked Editing Academic Framework: Creating an Editorial Environment for Collaborative Scholarship and Publication." Digital Humanities Conference, Tokyo, Japan, July 2022. 
+                    </bibl>
+                    <bibl>
+                        <author>Clark, L. L. </author>(1984): 
+                        <hi rend="italic">Schooling the daughters of marianne : textbooks and the socialization of girls in modern french primary schools</hi>. Albany, N.Y.: State University of New York.
+                    </bibl>
+                    <bibl>
+                        <author>Halt, Marie Robert </author>(1889): 
+                        <hi rend="italic">Suzette: livre de lecture courante à l’usage des jeunes filles: morale, lec̨ons de choses, économie domestique, ménage, cuisine, couture: ouvrage illustré de 250 gravures dans le texte et accompagné de sujets proposés pour exercices écrits et oraux.</hi> Paris: Paul Delaplane.
+                    </bibl>
+                    <bibl>
+                        <author>Jung, Laurence </author>(2021): 
+                        <hi rend="italic">Marie Robert Halt, une écrivaine de son t</hi>emps
+                        <hi rend="underline">,</hi> Le Blog Gallica, 
+                    </bibl>
+                    <bibl>
+                        <ref target="https://gallica.bnf.fr/blog/23032021/marie-robert-halt-une-ecrivaine-de-son-temps">https://gallica.bnf.fr/blog/23032021/marie-robert-halt-une-ecrivaine-de-son-temps</ref> [06.12.2021]. 
+                    </bibl>
+                    <bibl>
+                        <author>Jung, Laurence </author>(2022): 
+                        <hi rend="italic">Les Romans scolaires de la Troisième République passés au crible des outils d’intelligence artificielle</hi>, Carnet de la recherche à la Bibliothèque nationale de France, 
+                        <ref target="https://bnf.hypotheses.org/11405">https://bnf.hypotheses.org/11405</ref> [09.15.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Riondet, Xavier</author> (2020): 
+                        <hi rend="italic">La Fabrique du ‘commun’ dans les manuels scolaires de la IIIe République</hi>, Carnet de la recherche à la Bibliothèque nationale de France, 
+                        <ref target="https://bnf.hypotheses.org/9348">https://bnf.hypotheses.org/9348</ref> [09.15.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Schuh, Julien</author>: 
+                        <hi rend="italic">Cas d’étude : les romans scolaires de la IIIe République</hi>, 
+                        <ref target="https://modoap.huma-num.fr/romans_scolaires/index.php">https://modoap.huma-num.fr/romans_scolaires/index.php</ref> [09.15.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Stahn, L.L.</author> / <author>Hennicke, S</author> / <author>De Luca, E.W.</author>  (2016): “Using TEI for textbook research” in: 
+                        <hi rend="italic">Proceedings of the Workshop on Language Technology Resources and Tools for Digital Humanities (LT4DH)</hi>: 181-186 
+                        <ref target="https://aclanthology.org/W16-4024.pdf">https://aclanthology.org/W16-4024.pdf</ref> [01.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Westbrook, John</author> / <author>Jakacki, Diane</author> / <author>Heintzelmann, Rebecca</author> / <author>Harnood, Juliya</author> / <author>Haber,Sarah</author>  (2021): “Suzette’s Object Lessons or Pedagogy Cubed.” TEI 2021 Annual Meeting. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

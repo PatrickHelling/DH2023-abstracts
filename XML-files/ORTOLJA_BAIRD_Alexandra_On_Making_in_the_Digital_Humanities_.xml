@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley</title>
+                <author n="OrtoljaBairdAlexandraORTOLJA_BAIRD_Alexandra_On_Making_in_the_Digital_Humanities_.xml"><persName n="OrtoljaBairdAlexandra">
+                        <surname>Ortolja-Baird</surname>
+                        <forename>Alexandra</forename>
+                    </persName><affiliation>University of Portsmouth, United Kingdom</affiliation><email>alexandra.ortolja-baird@port.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RockwellGeoffreyORTOLJA_BAIRD_Alexandra_On_Making_in_the_Digital_Humanities_.xml"><persName ref="https://orcid.org/0000-0001-7430-4742" n="RockwellGeoffrey">
+                        <surname>Rockwell</surname>
+                        <forename>Geoffrey</forename>
+                    </persName><affiliation>University of Alberta, Canada</affiliation><email>grockwel@ualberta.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NyhanJulianneORTOLJA_BAIRD_Alexandra_On_Making_in_the_Digital_Humanities_.xml"><persName n="NyhanJulianne">
+                        <surname>Nyhan</surname>
+                        <forename>Julianne</forename>
+                    </persName><affiliation>University Collegel London/ TU Darmstadt</affiliation><email>j.nyhan@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BradleyJohnORTOLJA_BAIRD_Alexandra_On_Making_in_the_Digital_Humanities_.xml"><persName n="BradleyJohn">
+                        <surname>Bradley</surname>
+                        <forename>John</forename>
+                    </persName><affiliation>King's College London</affiliation><email>john.bradley@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CiulaArianaORTOLJA_BAIRD_Alexandra_On_Making_in_the_Digital_Humanities_.xml"><persName n="CiulaAriana">
+                        <surname>Ciula</surname>
+                        <forename>Ariana</forename>
+                    </persName><affiliation>King's College London</affiliation><email>arianna.ciula@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BrounDauvitORTOLJA_BAIRD_Alexandra_On_Making_in_the_Digital_Humanities_.xml"><persName n="BrounDauvit">
+                        <surname>Broun</surname>
+                        <forename>Dauvit</forename>
+                    </persName><affiliation>University of Glasgow</affiliation><email>dauvit.broun@glasgow.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Drawing on our forthcoming edited collection, On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley, this panel will bring together papers on the practices of making in the digital humanities organised around and inspired by the interdisciplinary career of John Bradley.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>DH methods</term>
+                    <term>DH collaboration</term>
+                    <term>applied DH</term>
+                    <term>interdisciplinarity</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Panel Overview</head>
+                <p>The making of digital scholarly artefacts has distinguished the digital humanities since, according to some genealogies of the field, Father Busa decided to use information processing technology as an alternative way to make concordances in the late 1940s (Jones 2016; Nyhan and Passarotti 2019). One story we tell about the digital humanities is that it is a field that values practices of making digital artefacts as scholarship. Yet we rarely hear from the hybrid teams who make these artefacts about the messy business of making together. For all of digital humanities’ attention to the artefacts it makes, and its computational techniques of making, it has given less attention to the processes, actors, ecologies, histories and ideologies of making. Drawing on our forthcoming edited collection, On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley, this panel will bring together papers on the practices of making in the digital humanities, organised around and inspired by the interdisciplinary career of John Bradley. In so doing, the panel places the conference theme “collaboration as opportunity” at its heart, exploring the processes, negotiations and challenges of collaboration, creativity and making in interdisciplinary DH settings.</p>
+                <p>The papers offer situated, self-reflective perspectives on the development of scholarly work in hybrid teams within DH, from which we learn more of the cultural, technical, critical, human and historical contexts and processes that shape the field. The papers combine technical reflections about how to best use computing for a particular task with critical reflections on the very nature of making. This reveals a number of themes:</p>
+                <p>1. 
+                    <hi rend="italic">Projects have primacy</hi>: Making in DH is often conceived as something that takes place in a project. Yet while the project has primacy in the poiesis of DH, the unit of a project is at once both distinct from the wider discipline and constitutive of it.
+                    <lb/>2. 
+                    <hi rend="italic">Making involves people</hi>: Making digital artefacts requires diverse skills. Most projects are developed by teams trained in different traditions who must communicate across their disciplines. This has also led to the emergence of a hybrid DH specialist who bridges disciplines but does not fit comfortably in traditional departments.
+                    <lb/>3. 
+                    <hi rend="italic">Making shifts praxis</hi>: What is the relationship between making and theory in DH? The papers describe how theories of humanities phenomena led to and tested design decisions.
+                    <lb/>4. 
+                    <hi rend="italic">Making is collaborative and more than programming:</hi> What matters in DH is the breadth of possible contributions through making, and recognition that it is not discourse alone that is scholarship.
+                    <lb/>5. 
+                    <hi rend="italic">Making involves maintaining</hi>: As many early DH centres and associated projects have begun to disappear, sustainability is paramount. Many projects are experimenting with new forms of infrastructure to sustain digital scholarship, while others have themselves become infrastructure thus revealing how tools make projects possible.
+                    <lb/>6. 
+                    <hi rend="italic">Making is neither neutral nor without history</hi>: Each project discussed has ist own history of making. We need to confront how making is shaped by complex and sometimes problematic historical entanglements, like the colonial origins of the western museum and the information biases that have shaped ist collections.
+                    <lb/>7. 
+                    <hi rend="italic">Making takes change</hi>: Digital resources are typically built on a stack of computing infrastructure, making them sensitive to changes in that underlying computing. DH takes advantage of new solutions in computing, but it is also potentially distracted by fashions in computing that may or may not survive. 
+                </p>
+                <figure>
+                    <graphic n="1001" width="7.831666666666667cm" height="11.7475cm" url="Pictures/92f7eeb9ca5754e29921e8e6d3276709.jpg" rend="inline"/>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Panel Papers</head>
+                <p><hi rend="bold">1. Alexandra Ortolja-Baird, Geoffrey Rockwell, Julianne Nyhan</hi><lb/><hi rend="italic">Introduction to On Making in the Digital Humanities</hi></p>
+                <p><lb/>Making in the digital humanities is increasingly understood to be a rich, complex and sometimes even dark process, that can be used to create or imagine lost and new worlds, to sometimes reamplifying the worst tendencies of the digitally mediated world we already have, as well as offer new spaces for the inclusion and agency of communities and individuals previously excluded. In this panel, we will position making as a category of analysis and discussion. Making is a core and longstanding activity of the digital humanities that functions as a lens through which to explore many pressing questions of the wider field, including ist interrelationship with the humanities, while navigating dimensions that range from the individual contribution to the large-scale project. Seeking to contribute to ongoing conversations about this, we will explore synthesis literature from emerging, established and retired scholars who can offer rich and situated insights into the processes and entanglements of making in the digital humanities by asking the following questions: what is digital humanities making? How does making involve people? Where does making happen? What are the current challenges of making? And what is the future of making? The overarching contextualizations presented in this paper will be further illuminated, and indeed, problematised through the papers that follow.
+                </p>
+                <p><lb/><hi rend="bold">2. Ariana Ciula (co-authored with James Smithies)</hi><lb/><hi rend="italic">Sustainability and modelling at King’s Digital Lab: between tradition and innovation</hi></p>
+                <p><lb/>During his career at King’s College London (1997-2016), Bradley developed, made directly, or contributed to the making of an impressive array of humanities computing or digital humanities (DH) projects. This panel contribution reflects on the challenges of keeping alive the final products of Bradley’s (and other colleagues) making efforts, as well as some of the key processes that underpinned his remarkable work along two interconnected strands:
+                    <lb/>– the pathways to human, technical, political and financial sustainability that the King’s Digital Lab (KDL) has undertaken since its establishment in 2015;
+                    <lb/>– an overview of the expert processes via which modelling activities undertaken by the KDL team continue to provide the keys to tailored yet scalable technical solutions affecting data storage and infrastructure, as well as user interfaces, data entry, and publication (cfr. Pasin and Bradley 2015).
+                </p>
+                <p><lb/>A multi-layered picture of KDL socio-technical environment will emerge – as it has evolved from its legacy of making and as it continues to identify and design practical approaches to sustain itself. A complex and multifaceted interplay between innovation and tradition is evoked, affected by the socio-technical settings within which KDL operates, and permeable to institutional changes as well as to individual and collective approaches to making. As for systems and data, the KDL team’s language and practices around modelling (as a non-neutral praxis of making) have evolved and continue to change but remain at the core of its contribution to the epistemology of DH.
+                </p>
+                <p><hi rend="bold">3. John Bradley</hi><lb/><hi rend="italic">Digital Humanities: Keeping the Tent Bigger</hi></p>
+                <p><lb/>In much of the academic world these days, and indeed perhaps for the public in general, the Digital Humanities (DH) seems to have come to mean a specific type of research work: centred on big data and their associated statistical techniques. Over many years, however, my own career has illustrated that the DH encompasses a broad range of quite different kinds of research activities, including, for me personally, two kinds of what is conventionally thought of as “making” in the DH—software development and resource building—as well as some work applying statistical techniques to texts. Perhaps as a consequence, I believe that those within the DH itself, and those that provide research infrastructure to support it, would benefit from resisting the pressure to think about only one kind of research activity as DH. In my talk I will examine the four different kinds of research work that I was actually was involved in during my DH involvement since the 1980s, and consider in what differing ways they all might represent research in the Digital Humanities. All four of them involve the making of something, but the nature of these made things differ considerably, and the relationship between the maker and the made and between the made and the broader Digital Humanities world differs too.
+                </p>
+                <p><hi rend="bold">4. Dauvit Broun (co-authored with Joanna Tucker)</hi><lb/><hi rend="italic">The People of Medieval Scotland database as history</hi></p>
+                <p><lb/>My contribution to the panel (based on the chapter written jointly with Joanna Tucker) will discuss the online database People of Medieval Scotland (
+                    <ref target="https://www.poms.ac.uk">www.poms.ac.uk</ref>) (PoMS) as an example of a non-narrative, non-lineal, decentred history, showing how John Bradley’s ‘factoid’ prosopography enabled a new approach to understanding medieval transactional documents. This provides an example of how the process of making a DH resource collaboratively can involve rethinking the raw material of a humanities discipline, enriching our critical understanding of it as data. In this case this also led to fundamental questions about the relationship of online digital research tools to history as a discipline, asking whether it is an end in itself, rather than a means to an end, moving away from history writing as the apex of historical activity. We conclude that factoid databases such as PoMS can prompt a healthy re-examination of how we ‘experience’ the people from the past, and the role of historians (and other collaborators) in facilitating this experience.
+                </p>
+                <p><lb/><hi rend="bold">5. Julianne Nyhan</hi><lb/><hi rend="italic">The place of the ‘techie’ in histories of the Digital Humanities</hi></p>
+                <p><lb/>Reflecting on his career, John Bradley wrote how:
+                    <lb/>. . . most institutions view the kind of technical contributions which [the Department of Digital Humanities, King’s College London] makes as a kind of support work – perhaps, in extreme cases, as similar to what is done to the academic’s car by his garage mechanics. From this position arises, I believe, the application of the diminutive term ‘techie’ by some to describe those individuals doing this kind of work. (Bradley 2011, 11)
+                </p>
+                <p>Digital humanities (DH) often categorises itself as an interdisciplinary and collaborative field that has been built by a wide range of actors, including technical experts, information professionals, curators, members of the general public and academics. Nevertheless, the contributions of some individuals, like the technical experts referred to in the quote from Bradley above, have sometimes been overlooked or held in lower esteem than the contributions of academics (e.g. Griffin and Hayler 2018). Perhaps unsurprisingly, then, histories of Digital Humanities have often foregrounded successful academics, techniques and technologies, while neglecting the contributions of other categories of DH collaborator or co-worker, like Research Software Engineers. Yet, Mahoney has argued: 
+                    <hi rend="bold">“</hi>Whatever one wants to say about such abstractions as the Turing machine, it is hard to know how physical computers and the systems running on them could be anything other than socially constructed. Computing has no nature. It is what it is because people have made it so
+                    <hi rend="bold">”</hi> (Mahoney 2011, 109). Here I argue that the writing of inclusive studies of the history of DH should be a priority for those who wish to understand how DH ‘people’, across the piste, have helped to make computing, and in turn the Digital Humanities, 
+                    <hi rend="bold">“</hi>so
+                    <hi rend="bold">”</hi>.
+                </p>
+                <p><hi rend="bold">6. Geoffrey Rockwell</hi><lb/><hi rend="italic">Thinking-Through Making with Stéfan Sinclair</hi></p>
+                <p><lb/>What is the play and constraints of making software things in the digital humanities? Starting with HyperPo, Stéfan Sinclair wove the making of text analysis and visualization tools into his research. Voyant Tools (voyant-tools.org) evolved out HyperPo which, as the name suggested, was an experiment with the potential of hypertext together with reflections on OuLiPo, the loose French group that worked with constraints in writing. Working on HyperPo and later Voyant, Sinclair reflected on the play and constraints of thinking-through tools. In this final presentation Rockwell will reflect back on the collaborative play and constraint in making. Specifically he will discuss:
+                    <lb/>– Thinking-through tools as a form of play where prototypes are hypotheses tested differently in the making and later in use.
+                    <lb/>– Constraints in making and the problems around sharing, maintaining, and explaining tool projects.
+                    <lb/>–  Spyral, the notebook programming extension to Voyant that Stéfan developed for replication and reflection back on making. Spyral was designed both for replications, but also so that others new to programming could transition from using Voyant to extending it.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bradley, John and Harold Short</author> (2005). “Texts into Databases: The evolving field of new-style prosopography”, 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 20 (Suppl.): 3–24.
+                    </bibl>
+                    <bibl>
+                        <author>Bradley, J.</author> (2011). “No Job for Techies: Technical contributions to research in the digital humanities”. In 
+                        <hi rend="italic">Collaborative Research in the Digital Humanities</hi>, edited by Marilyn Deegan and Willard McCarty, Farnham: Ashgate. 11–26.
+                    </bibl>
+                    <bibl>
+                        <author>Bradley, John</author> (2019). “Digital Tools in the Humanities: Some fundamental provocations?”, 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 34: 13–20.
+                    </bibl>
+                    <bibl>
+                        <author>Ciula, Arianna, Øyvind Eide, Cristina Marras and Patrick Sahle</author> (eds) (2018). “Models and Modelling between Digital &amp; Humanities: A multidisciplinary perspective”, 
+                        <hi rend="italic">Historical Social Research </hi>31 (Suppl.).
+                    </bibl>
+                    <bibl>
+                        <author>Dunne, A. and F. Raby</author> (2013). 
+                        <hi rend="italic">Speculative Everything: Design, Fiction, and Social Dreamin</hi>g. Cambridge, Massachusetts, MIT Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Galey, A. and S. Ruecker</author> (2010). “How a prototype argues”, Literary and Linguistic Computing. 25(4): 405-424. 
+                    </bibl>
+                    <bibl>
+                        <author>Gooding, David</author> (2003). “Varying the Cognitive Span: Experimentation, visualization, and computation”. In 
+                        <hi rend="italic">The Philosophy of Scientific Experimentation</hi>, edited by Hans Radder, Pittsburgh, PA: University of Pittsburgh Press. 255–84.
+                    </bibl>
+                    <bibl>
+                        <author>Gray, Jonathan, Carolin Gerlitz and Liliana Bounegru</author> (2018). “Data Infrastructure Literacy”, 
+                        <hi rend="italic">Big Data &amp; Society</hi> 5(2). https://doi.org/10.1177/2053951718786316.
+                    </bibl>
+                    <bibl>
+                        <author>Griffin, G and MS Hayler</author> (2018). “Collaboration in Digital Humanities Research – Persisting silences”, 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 12. 
+                    </bibl>
+                    <bibl>
+                        <author>Latour, Bruno and Steve Woolgar</author> (1979). 
+                        <hi rend="italic">Laboratory Life: The social construction of scientific facts</hi>. Princeton, NJ: Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Mahoney, Michael Sean</author> (2011). 
+                        <hi rend="italic">Histories of Computing</hi>, edited by Thomas Haigh. Cambridge, MA: Harvard University Press. 
+                    </bibl>
+                    <bibl>
+                        <author>McCarty, Willard</author> (2005). 
+                        <hi rend="italic">Humanities Computing</hi>. Basingstoke: Palgrave Macmillan.
+                    </bibl>
+                    <bibl>
+                        <author>Nyhan, Julianne and Andrew Flinn</author> (2018). 
+                        <hi rend="italic">Computation and the Humanities: Towards an oral history of digital humanities</hi>. Cham: Springer.
+                    </bibl>
+                    <bibl>
+                        <author>Pasin, Michele and John Bradley</author> (2015). “Factoid-Based Prosopography and Computer Ontologies: Towards an integrated approach”, 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 30(1): 86–97.
+                    </bibl>
+                    <bibl>
+                        <author>Pickering, Andrew</author> (1995). 
+                        <hi rend="italic">The Mangle of Practice: Time, agency, and science</hi>. Chicago, IL: University of Chicago Press.
+                    </bibl>
+                    <bibl>
+                        <author>Resch, Gabby, Dan Southwick, Isaac Record and Matt Ratto</author> (2018). “Thinking as Handwork: Critical making with humanistic concerns”. In 
+                        <hi rend="italic">Making Things and Drawing Boundaries: Experiments in the digital humanities</hi>, edited by Jentery Sayers. Minneapolis, MN: University of Minnesota Press. 149–61.
+                    </bibl>
+                    <bibl>
+                        <author>Short, Harold, Julianne Nyhan, Anne Welsh and Jessica Salmon</author> (2012). “‘Collaboration Must be Fundamental or It’s Not Going to Work’: An oral history conversation between Harold Short and Julianne Nyhan”, 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 6(3). Accessed 5 September 2022. http:// www.digitalhumanities.org/dhq/vol/6/3/000133/000133.html.
+                    </bibl>
+                    <bibl>
+                        <author>Smithies, James and Arianna Ciula</author> (2020). “Humans in the Loop: Epistemology &amp; method in King’s Digital Lab”. In 
+                        <hi rend="italic">Routledge International Handbook of Research Methods in Digital Humanities</hi>, edited by Kristen Schuster and Stuart Dunn. Abingdon: Routledge. 155–72.
+                    </bibl>
+                    <bibl>
+                        <author>Smithies, James, Anna Maria Sichani, Carina Westling, Pam Mellen and Arianna Ciula</author> (2019). “Managing 100 Digital Humanities Projects: Digital scholarship &amp; archiving in King’s Digital Lab”, 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 13(1). Accessed 5 September 2022. http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html.
+                    </bibl>
+                    <bibl>
+                        <author>Thompson Klein, Julie</author> (2017). “The Boundary Work of Making in Digital Humanities”. In 
+                        <hi rend="italic">Debates in the Digital</hi> Humanities, edited by Jentery Sayers. Minneapolis, MN: University of Minnesota Press. 21–31.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Labs for Labs: a participatory workshop on digital lab practices in the humanities and social sciences</title>
+                <author n="KellyAodhnKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0000-0002-1387-751X" n="KellyAodhn">
+                        <surname>Kelly</surname>
+                        <forename>Aodhán</forename>
+                    </persName><affiliation>Maastricht University, Netherlands, The</affiliation><email>a.kelly@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CiulaAriannaKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0000-0003-4247-1073" n="CiulaArianna">
+                        <surname>Ciula</surname>
+                        <forename>Arianna</forename>
+                    </persName><affiliation>King's College London</affiliation><email>arianna.ciula@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FerraroGinestraKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0000-0001-8573-1432" n="FerraroGinestra">
+                        <surname>Ferraro</surname>
+                        <forename>Ginestra</forename>
+                    </persName><affiliation>King's College London</affiliation><email>ginestra.ferraro@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FrissenThomKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0000-0001-9451-6048" n="FrissenThom">
+                        <surname>Frissen</surname>
+                        <forename>Thom</forename>
+                    </persName><affiliation>King's College London</affiliation><email>t.frissen@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PapadopoulosCostasKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0000-0003-1072-5198" n="PapadopoulosCostas">
+                        <surname>Papadopoulos</surname>
+                        <forename>Costas</forename>
+                    </persName><affiliation>King's College London</affiliation><email>k.papadopoulos@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RasterhoffClaartjeKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0000-0001-6484-5561" n="RasterhoffClaartje">
+                        <surname>Rasterhoff</surname>
+                        <forename>Claartje</forename>
+                    </persName><affiliation>King's College London</affiliation><email>c.rasterhoff@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MellenPamelaKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName ref="https://orcid.org/0009-0004-8368-1426" n="MellenPamela">
+                        <surname>Mellen</surname>
+                        <forename>Pamela</forename>
+                    </persName><affiliation>King's College London</affiliation><email>pamela.mellen@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NolGeoffroyKELLY_Aodh_n_Labs_for_Labs__a_participatory_workshop_on_digi.xml"><persName n="NolGeoffroy">
+                        <surname>Noël</surname>
+                        <forename>Geoffroy</forename>
+                    </persName><affiliation>King's College London</affiliation><email>geoffroy.noel@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This workshop is a participant-led knowledge sharing platform for digitally-oriented labs in the humanities and social sciences. The workshop will provide the opportunity to share experiences and learn from others on the intellectual and operational function of labs, and to exchange good practices for successful and sustainable digital labs.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital humanities</term>
+                    <term>labs</term>
+                    <term>knowledge exchange</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Brief description</head>
+                <p>This is a half-day workshop designed as a participant-led knowledge sharing platform for digitally-oriented labs in the humanities and social sciences. Individuals managing labs (e.g., directors and software engineers), those affiliated to labs (e.g., project coordinators, researchers, educators. etc.), those who make use of labs (teaching staff, researchers etc.), or who have an interest in developing a new digital lab or expanding existing ones, are welcome to participate. The workshop will provide the opportunity to share experiences and learn from others on both the intellectual and operational function of labs, aiming to exchange good practices for successful and sustainable digital labs. The workshop will also begin the co-drafting of a manifesto for such digital labs. Two existing labs of differing scales and levels of maturity will lead the facilitation of the workshop: 
+                    <hi rend="bold">The Plant </hi>(Playground and Laboratory for New Technologies) at the Faculty of Arts and Social Sciences, Maastricht University and 
+                    <hi rend="bold">King’s Digital Lab </hi>(KDL), Faculty of Arts and Humanities, King’s College London.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Background</head>
+                <p>Labs are becoming increasingly embedded in digital scholarship in the humanities. According to El Khatib et al. (2020) a lab is “a hub for digital scholarship that facilitates and provides both physical and virtual space for collaboration, access to tools and resources, and services for researchers broadly defined, including students, faculty, and staff from across campus and citizen scholars from the local community.” </p>
+                <p>As with many elements of digital scholarship there are different applications of the associated infrastructure and labels used to describe them, such as labs or centres. There are also more epistemic questions as to whether digital labs act as producers of research subjects or containers for them (Malazita et al 2020). El Khatib et al. (2020) divide digital scholarship centres into two categories “commons-type”, which are service driven, and “lab- or makerspace-type”,which are research-driven and faculty-directed (El Khatib et al. 2020: 12). Pawlicka-Deger (2020) created a typology: “the center-type lab, the techno-science lab, the work station-type lab, the social challenges-centric lab, and virtual lab”, arguing that there has been a shift from laboratories as physical places towards more conceptual ones. </p>
+                <p>Regardless of the terms we use for such infrastructure, and their exact orientation, there is a certain amount of common ground on the positioning of digital labs within the research workflow, while emphasising their vibrant and innovative nature as well as differences based on local contexts (El Khatib 2020: 13). Alongside the enthusiasm in the uptake of digital approaches to humanities scholarship, such infrastructures also face many challenges that to a large extent mirror the complexity of the socio-technical environments that labs inhabit (Smithies / Ciula: 2020, Ciula / Smithies: forthcoming). There is a high volume of abandoned and discarded projects (Antonijevic 2015: 148) and a degree of obsolescence both in terms of their outputs and for their existence as a whole. Much of this has to do with how sustainability approaches are defined (Smithies et al. 2019) and how expectations for the future are formed and managed. There are also a multiplicity of matters relating to the physical space they occupy and technology they host, alongside various intellectual matters concerning their role and identity in knowledge creation. For example, conventional academic systems and established norms have repeatedly failed to adapt to the newer roles that emerge alongside labs, such as Research Technology Professionals and Alt-Acs, who perform crucial work in often precarious roles with poor recognition (Ciula 2022, Papadopoulos / Reilly 2020, Pawlicka-Deger 2022).</p>
+                <p>Despite these issues, structural and good practice guidance for labs is rather limited, and this stands to reason given the diverse variety of ambitions, settings, and contexts in which they operate. However, with substantial investment in digital infrastructure, the rapid pace of technological change and a shifting scholarly landscape, including reforms in research assessment and the recognition of atypical outputs, comes a strong need for exchange and collective learning between labs. </p>
+                <p>This workshop aims to contribute to this by addressing challenges and reflecting on  (more/less successful) strategies for dealing with them through the following topics: </p>
+            </div>
+            <div type="div1">
+                <head>Topics
+                    <lb/></head>
+                <p><hi rend="bold">Future visions and imaginaries</hi></p>
+                <list type="unordered">
+                    <item>What is the future direction and role of digital labs? </item>
+                    <item>How will such infrastructures function and how will they be governed?</item>
+                    <item> How should lab spaces look in ten years? </item>
+                </list>
+                <p><hi rend="bold">Lab lifecycles</hi></p>
+                <list type="unordered">
+                    <item>What are the different resources, processes, and systems required to enable the sustainable establishment, growth, and expansion of labs so as to avoid obsolescence?</item>
+                </list>
+                <p><hi rend="bold">Good practices in lab management</hi></p>
+                <list type="unordered">
+                    <item>How to best support, enable, and facilitate research?</item>
+                    <item>How to motivate and inspire researchers and educators to use such infrastructures?</item>
+                    <item>How to create collaborative and inclusive spaces?</item>
+                    <item>How to manage expectations and align lab visions with those of the institutions they are embedded in from faculty to College level? </item>
+                    <item>How can collaborations be established and sustained? </item>
+                    <item>What does fair growth look like for such labs?</item>
+                </list>
+                <p><hi rend="bold">Roles and recognition</hi></p>
+                <list type="unordered">
+                    <item>What is the status quo of labour and roles, developers, software engineers, and Alt-Acs in such labs? How is their work recognised and rewarded? What structures and systems need to be put in place to support such roles while enabling their development and career pathways? </item>
+                </list>
+                <p><hi rend="bold">Evaluating successes and failures</hi></p>
+                <list type="unordered">
+                    <item>What counts as success for a digital lab?</item>
+                    <item>How can failures be prevented or used to inform future practices and directions? </item>
+                    <item>How can successes and failures be evaluated? </item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Format</head>
+                <p>Half day workshop, total: 3.5 hours</p>
+                <p><hi rend="bold">PART 1: Lightning papers: Sharing Knowledge, Wisdoms, and Practices </hi></p>
+                <list type="unordered">
+                    <item>Lightning paper session (75 mins)
+                        <list type="unordered">
+                            <item>5-7 minutes per paper (c. 6 papers)</item>
+                            <item>c.30 min discussion</item>
+                        </list></item>
+                </list>
+                <p>Break 15 minutes</p>
+                <p><hi rend="bold">PART 2: Design Thinking Activity: Good Practices for Sustainable, Inclusive, and Collaborative labs </hi></p>
+                <list type="unordered">
+                    <item>Brainstorming (e.g. mind mapping/empathy mapping) in small groups divided based on the above topics (45 mins)</item>
+                    <item>Convergence phase (60min)
+                        <list type="unordered">
+                            <item>Round of Presentations of the findings per topic</item>
+                            <item>Drafting a Lab Manifesto</item>
+                        </list></item>
+                </list>
+                <p><lb/>Closing remarks (15 mins)
+                </p>
+            </div>
+            <div type="div1">
+                <head>Call for participants</head>
+                <p>Participants are welcome to submit in advance a 5-7 minute lightning talk giving the perspective of their own lab experience relating to the key topics of the workshop (deadline 17th of May 2023), from which a selection will be made. The facilitators will actively seek participation from existing labs through mailing lists and direct communications.</p>
+            </div>
+            <div type="div1">
+                <head>Outcomes</head>
+                <p>The intended outcomes of this workshop are to create a peer-led learning opportunity for people connected to digital labs, and to explore opportunities for future collaboration and community building. Depending on the interest this could potentially evolve into an informal network or a special interest group. The exercise to create a draft Lab Manifesto has further potential to be developed into a white paper on digital labs in the humanities and social sciences.</p>
+            </div>
+            <div type="div1">
+                <head>Organisers</head>
+                <p><hi rend="bold">Arianna Ciula</hi></p>
+                <p><ref target="mailto:arianna.ciula@kcl.ac.uk">arianna.ciula@kcl.ac.uk</ref> 
+                </p>
+                <p><ref target="https://orcid.org/0000-0003-4247-1073">https://orcid.org/0000-0003-4247-1073</ref> 
+                </p>
+                <p>Arianna Ciula is Director and Senior Research Software Analyst at King's Digital Lab (King's College London, UK). She has broad experience in digital humanities research and teaching, research management, and digital research infrastructures. She holds a PhD in Manuscript and Book Studies (digital palaeography, University of Siena) and an MA in Applied Computing in the Humanities (King’s College London). </p>
+                <p><hi rend="bold">Ginestra Ferraro</hi></p>
+                <p><ref target="mailto:ginestra.ferraro@kcl.ac.uk">ginestra.ferraro@kcl.ac.uk</ref></p>
+                <p><ref target="https://orcid.org/0000-0001-8573-1432">https://orcid.org/0000-0001-8573-1432</ref> 
+                </p>
+                <p>Ginestra Ferraro was Senior Research Software UI/UX designer at King's Digital Lab (King's College London, UK) up until March 2023 and now works as lead UI UX designer in the commercial sector. She holds an MSc in Computer Science and her contribution in the lab is to establish and consolidate the role UI/UX design plays in the research and development of digital tools, with a particular interest in accessibility.</p>
+                <p><hi rend="bold">Thom Frissen</hi></p>
+                <p><ref target="mailto:t.frissen@maastrichtuniversity.nl">t.frissen@maastrichtuniversity.nl</ref> 
+                </p>
+                <p><ref target="https://orcid.org/">https://orcid.org/ 0000-0001-9451-6048</ref></p>
+                <p>Thomas Frissen is Assistant Professor in Digital Technology and Society and co-founder of the Plant at Maastricht University. His current research concentrates on the spread dynamics of (extreme) conspiracy theories, fake news, and memes in the online information ecosystem. Thomas uses a research toolbox that consists of both classical as well as computational social scientific research methods.</p>
+                <p><hi rend="bold">Aodhán Kelly </hi></p>
+                <p><ref target="mailto:a.kelly@maastrichtuniversity.nl">a.kelly@maastrichtuniversity.nl</ref> 
+                </p>
+                <p><ref target="https://orcid.org/0000-0002-1387-751X">https://orcid.org/0000-0002-1387-751X</ref> 
+                </p>
+                <p>Aodhán Kelly is Postdoc and co-founder of The Plant at Maastricht University. He has a PhD in Digital Humanities from the University of Antwerp and completed a PostDoc in technology enhanced learning at Open Universiteit. His research looks at the role of digitalisation in scholarship, education and cultural heritage with focus on digital scholarly editions, technological innovation in higher education and a broader focus on digital inclusivity. </p>
+                <p><hi rend="bold">Pamela Mellen</hi></p>
+                <p><ref target="mailto:pamela.mellen@kcl.ac.uk">pamela.mellen@kcl.ac.uk</ref></p>
+                <p><ref target="https://orcid.org/0009-0004-8368-1426">https://orcid.org/0009-0004-8368-1426</ref> 
+                </p>
+                <p>Pamela Mellen is the Research Software Lab Manager at the King's Digital Lab. Her focus is on alignment between the Lab and the wider institutional and funder strategies. This includes positioning the Lab within the context of other HEI research facilities and research software engineering teams. She has broad experience in research and project management in multiple disciplines. </p>
+                <p>Geoffroy Noël</p>
+                <p><ref target="mailto:geoffroy.noel@kcl.ac.uk">geoffroy.noel@kcl.ac.uk</ref> 
+                </p>
+                <p><ref target="https://kclpure.kcl.ac.uk/portal/en/persons/geoffroy-noel(205ebbc9-54e7-4f91-97cc-d056ede05fa0)/publications.html">https://kclpure.kcl.ac.uk/portal/en/persons/geoffroy-noel(205ebbc9-54e7-4f91-97cc-d056ede05fa0)/publications.html</ref> 
+                </p>
+                <p>Geoffroy Noël is a Senior Research Software Engineer at King's Digital Lab (King's College London). He has been working as a full stack developer on a large number of Digital Humanities projects at KCL since 2009. He has a BSc as an Analyst Programmer in Business Computing and an MSc in Intelligent Technologies. Besides research tooling and digital methods his additional interests are modelling and knowledge representation, critical AI and digital scholarly editions.</p>
+                <p>Costas Papadopoulos</p>
+                <p><ref target="mailto:k.papadopoulos@maastrichtuniversity.nl">k.papadopoulos@maastrichtuniversity.nl</ref> 
+                </p>
+                <p><ref target="https://orcid.org/0000-0003-1072-5198">https://orcid.org/0000-0003-1072-5198</ref></p>
+                <p>Costas Papadopoulos is an Assistant Professor in Digital Humanities and Culture Studies at Maastricht University. He is co-founder and the coordinator of the Executive Cooperative Group of The Plant. His work has its roots in archaeology, digital humanities, and museum and heritage studies. He is PI of PURE3D which is developing an Infrastructure for the Publication and Preservation of 3D Scholarship.</p>
+                <p><hi rend="bold">Claartje Rasterhoff</hi></p>
+                <p><ref target="mailto:c.rasterhoff@maastrichtuniversity.nl">c.rasterhoff@maastrichtuniversity.nl</ref> 
+                </p>
+                <p><ref target="https://orcid.org/0000-0001-6484-5561">https://orcid.org/0000-0001-6484-5561</ref> 
+                </p>
+                <p>Claartje Rasterhoff is Assistant Professor in Cultural Policy and Management, and director of the Maastricht Centre for Arts and Culture, Heritage and Conservation (MACCH) at Maastricht University. She is co-founder and member of The Plant, and previously coordinated a digital humanities Lab at the University of Amsterdam. Her work centres on digital history, cultural policy research and transdisciplinary collaborations. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Antonijević, Smiljana</author> (2015): Amongst Digital Humanists. An Ethnographic Study of Digital Knowledge Production. Palgrave Macmillan.
+                    </bibl>
+                    <bibl>
+                        <author>Ciula, Arianna</author> (2022): “What does the role of Research Technology Professional mean to King’s Digital Lab?”. Blog Series: 
+                        <ref target="https://kdl.kcl.ac.uk/blog/rtp-rse/">https://kdl.kcl.ac.uk/blog/rtp-rse/</ref> 
+                    </bibl>
+                    <bibl>
+                        <author>Ciula, Arianna, Smithies, James</author> (forthcoming): “Sustainability and modelling at King’s Digital Lab: between tradition and innovation” in Julianne Nyhan, Geoffrey Rockwell, Stéfan Sinclair, and Alexandra Ortolja-Baird (Eds): On Making in the Digital Humanities: The scholarship of digital humanities development in honour of John Bradley. UCL Press.
+                    </bibl>
+                    <bibl>
+                        <author>El Khatib, Randa, Arbuckle, Alyssa, Siemens, Lynne, Siemens, Ray, Winter, Caroline</author> (2020): “An “Open Lab?” The Electronic Textual Cultures Lab in the Evolving Digital Humanities Landscape” in: Digital Humanities Quarterly, 14:3.  
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/14/3/000480/000480.html">http://www.digitalhumanities.org/dhq/vol/14/3/000480/000480.html</ref> 
+                    </bibl>
+                    <bibl>
+                        <author>Malazita, James W., Teboul, Ezra J. and Rafeh, Hined</author> (2020): “Digital Humanities as Epistemic Cultures: How DH Labs Make Knowledge, Objects, and Subjects” in: Digital Humanities Quarterly, 14:3. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/14/3/000465/000465.html">http://www.digitalhumanities.org/dhq/vol/14/3/000465/000465.html</ref> 
+                    </bibl>
+                    <bibl>
+                        <author>Papadopoulos, Costas, Reilly, Paul </author>(2020): “The digital humanist: Contested status within contesting futures” in: Digital Scholarship in the Humanities, 35:1, 127–145, 
+                        <ref target="https://doi.org/10.1093/llc/fqy080">https://doi.org/10.1093/llc/fqy08</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Pawlicka-Deger, Urszula</author> (2022): “Digital humanities needs equality between humanists and technicians”. Blogpost: Times Higher Education. 
+                        <ref target="https://www.timeshighereducation.com/blog/digital-humanities-needs-equality-between-humanists-and-technicians">https://www.timeshighereducation.com/blog/digital-humanities-needs-equality-between-humanists-and-technicians</ref> 
+                    </bibl>
+                    <bibl>
+                        <author>Pawlicka-Deger, Urszula</author> (2020):  “The Laboratory Turn: Exploring Discourses, Landscapes, and Models of Humanities Labs” in Digital Humanities Quarterly, 14:3. 
+                        <ref target="http://digitalhumanities.org/dhq/vol/14/3/000466/000466.html">http://digitalhumanities.org/dhq/vol/14/3/000466/000466.html</ref> 
+                    </bibl>
+                    <bibl>
+                        <author>Smithies, J., Westling, C., Sichani, A.M., Mellen, P. and Ciula. A.</author> (2019): “Managing 100 Digital Humanities Projects: Digital Scholarship &amp; Archiving in King’sDigital Lab.” in Digital Humanities Quarterly, 13.1. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html">http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html</ref> 
+                    </bibl>
+                    <bibl>
+                        <author>Smithies, James, Ciula, Arianna</author> (2020): “<ref target="https://kclpure.kcl.ac.uk/portal/en/publications/humans-in-the-loop(a075aeef-a2d1-4968-a57d-b3903a8c2676).html">Humans in thee Loop: Epistemology &amp; Method in King’s Digital Lab</ref>” in: Schuster, Kristen. &amp; Dunn, Stuart. (eds.) Routledge international handbook of research methods in digital humanities. 
+                        <ref target="https://kclpure.kcl.ac.uk/portal/en/publishers/routlege(34d0c72f-d159-4d3e-b2f6-91ceb23eb602).html">Routledge</ref>: 155-172.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

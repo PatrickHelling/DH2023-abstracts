@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Becoming the digital humanities as discourse(s) of subjectivation </title>
+                <author n="PetzCindarellaPETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml"><persName n="PetzCindarella">
+                        <surname>Petz</surname>
+                        <forename>Cindarella</forename>
+                    </persName><affiliation>Leibniz Institute of European History Mainz (IEG),
+                        Germany</affiliation><email>petz@ieg-mainz.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution argues to describe the discussions within the digital humanities (DH) discipline as a subjectivation discourse following the contention of Michel Foucault. This allows us to reframe the negotiation processes within the DH as a means to formally establish its disciplinary in/dependence, and as such provides and creates agency for the subjects of the discourse(s).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>DH historiography</term>
+                    <term>meta reflections</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>meta-criticism (reflections on digital humanities and humanities
+                        computing)</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Sociology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The digital humanities (DH) since their nominal conception in the early 2000s <ref target="#PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn1" n="1"/> can be characterized by their near-constant discussion of what the DH are
+                    <ref target="#PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn2" n="2"/>, what they can be, and to which extent. <ref target="#PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn3" n="3"/> This discussion revolves around the struggle to find a common definition and
+                purpose of what has been described at the same time as a field encompassing
+                heterogenous humanities’ fields (DH as an “umbrella term”, e.g., Terras 2011;
+                Kirschenbaum 2012), a sub-discipline of their respective mother fields, a
+                meta-discipline (e.g., König 2021), a toolbox of methodologies (e.g., Jannidis et
+                al. 2017), or a workflow even (such as of a digitization process). <ref target="#PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn4" n="4"/></p>
+            <p>This contribution argues to reframe these negotiation processes of external and
+                intra-community discussions of the DH – concerning what belongs (not) to the DH, the
+                negotiation of their framework(s), modes of operation, and place within/outside the
+                established disciplines (including the im/permanence of their institutions, be it
+                physical centers or immaterial working groups) — as a subjectivation discourse
+                following the conception of Michel Foucault. <ref target="#PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn5" n="5"/></p>
+            <div>
+                <head>The Foucauldian subject </head>
+                <p>Foucault’s concept of subjectivation describes the process of (re)forming an
+                    individual to a subject: this subject is created by power relations, and in turn
+                    is able to create its own power relations (compare to e.g., Foucault 1987;
+                    Vogelmann 2017, p. 11). However, this doesn’t produce an “anthropological
+                    constant” (Schrage 2008, p. 4125): the relational power dependencies of subjects
+                    are influenced by their socio-historical context(s) as the “realm of
+                    potentiality of its existence” (Campos 2015, p. 113). As such, the subject
+                    itself is subjected to change within a discourse. </p>
+                <p>Foucault ([1969] 1973) interpreted the participation in discourses and their
+                    relational power dependencies as “practices of subjectivation” (“ <hi rend="italic">Praxis der Subjektivierung</hi>”). The participation of
+                    individuals in discourses revolve around power (i.e., the individual shapes what
+                    is acceptable content in negotiation processes in the discourse) and position
+                    (i.e., the individual positions themselves into/against the group of dis-
+                    course), which allows for a means of agency of the individual (compare, e.g., to
+                    Wiede 2020). Foucault regarded the membership in these discourses as a form of
+                    reduction of complexity: the participation practices are based on time-dependent
+                    epistles (the so-called “truths,” which are subject to change over time), which
+                    are part of the socio-historical context(s), and are structured by a distinct
+                    set of rules (practices called “technologies of self”). These set the possible
+                    range of behavior in the discourse, and thus provide finite limits to complex
+                    interactions, thereby reducing complexity. <ref target="#PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn6" n="6"/> These practices are subject to constant calibration in the discourse
+                    community, and hence change. The discourse emerges out of the practices of
+                    subjectivation of individuals, which at the same time are influenced by the
+                    practices already existing within the discourse in an iterative, cyclical
+                    process. In his later work, Foucault differentiated more between the possible
+                    degrees of surrender of the subject to the discourse, taking into account more
+                    variation of behavior. </p>
+            </div>
+            <div>
+                <head>Subjectivation discourse(s) of the DH </head>
+                <p>This contribution argues that many discussions in the DH can be characterized as
+                    such discourse(s) of subjectivation – based on a meta-study of the discussions
+                    on their definition – in order to become a subject in the Foucauldian sense and
+                    to establish a means of agency. This process thus enables the DH to become an
+                    independent field, of which individuals position themselves to be a/part of.
+                    These specific practices of subjectivation of individuals in this discourse
+                    would then involve for example, publishing in specific DH journals,
+                    participating in discussions about DH, or declaring to be a ‘digital humanist’
+                    in the DH community, through which the individual researcher becomes part of the
+                    DH discourse(s). They therefore subject themselves to a particular set of rules,
+                    the “technologies of self”: practices that are considered to belong to the DH,
+                    such as DH-specific requirements for good scientific practice (e.g., method
+                    criticism, algorithmic criticism, FAIR data principles), or certain research
+                    behaviors, such as collaborative work or experimentation as ‘ideal’ ways of
+                    working. </p>
+                <p>The socio-historical context(s) of the subjectivation discourses of the DH can be
+                    seen as the ongoing digitalization of society and of the sciences, and the shift
+                    in focus to their potential for research. It can be argued that the DH emerged
+                    as an ‘update’ of what was previously known as ‘humanities computing,’ against a
+                    backdrop of much easier access to technical infrastructure and resources, such
+                    as the internet, and the spread of computers. The digitalization can be framed
+                    as a regulative normalization through which entities are transformed into
+                    subjects (compare to Foucault 1999; Schrage 2008, p. 4125). </p>
+                <p>Foucault pointed to the changing epistles in the discourses, which are evident as
+                    well in the discourses of DH. So far, no unified answer – or singular practice
+                    in the Foucauldian sense – has been found in the last decades that would yet
+                    remain uncontested, e.g., as to how the DH can be defined. Instead, they are
+                    subjected to a high degree of change, following the Foucauldian idea of the
+                    constant calibration of practices in negotiation processes within the
+                    subjectivation discourses. These can be framed as permanent self-assurance and
+                    self-actualization of the values, goals, and nature of the DH themselves, and as
+                    form part of the subjectivation of the DH, and their members within. </p>
+                <p>This contribution argues that discussions of the nature and place of the DH act
+                    as a means of formally establishing the disciplinary in/dependence of the DH,
+                    and as such provide and create agency for the subjects of the discourse(s). </p>
+            </div>
+            <div>
+                <head>Outlook</head>
+                <p>Also part of these discussions is the question on the future of the DH in the
+                    face of the problems of the contemporary world hat have gained traction in
+                    recent years: raising questions of inclusion (e.g., postcolonial DH and the
+                    exclusion of the Global South in the digitalization efforts of the last decades
+                    of the ‘Global North’), representation (e.g., LGBTQ+ perspectives of a queer DH,
+                    or absences in archives, a question becoming more urgent in the phase of eased
+                    access to digital &amp; retro-digitized resources), and quests resulting from
+                    climate change (e.g., green DH, and questions of sustainability of the
+                    digitalization of the humanities). Even the theme of this DH 2023 conference on
+                    the revolutionariness of the DH fits well with this development on the
+                    “presentism” of the DH, when asking about the potential of DH to contribute to
+                    current political events (questioning responsibility and privilege) and to
+                    building a new future. This up-to-dateness can be seen as part of the DH’s
+                    self-perception as modern and future oriented – or in other words, digital – and
+                    as part of a self-actualization of the subjectivation discourse(s) in the DH.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn1">
+                    The first note of the term ’digital humanities’
+                            is usually credited to Blackwell’s “A Companion to digital humanities”
+                            edited by Schreibman et al., but it has been stressed that a seminar at
+                            the University of Virginia’s English Department by Johanna Drucker and
+                            John Unsworth already bore that name in 2001 (Drucker and Unsworth 2002;
+                            compare to Allington et al. 2016; Crymble 2021, p. 29). The introduction
+                            of the term ‘DH’ effectively renamed what has been previously known as
+                            ’humanities and computing’ or ’computing in the humanities’, shifting
+                            focus to the possibilities resulting from access to personal computers
+                            and the internet, and the mass digitization projects of the turn of the
+                            millennia.
+                </note><note n="2" xml:id="PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn2">
+                    As exemplified by the “Day of Digital Humanities” Conference sport coming up with a new definition collected among its participants, or as in the consequent influx of digital humanities readers and introductory works, exemplarily here Schreibman et al. (2004), Terras (2011) or Sahle (2015). 
+                </note><note n="3" xml:id="PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn3">
+                    Consequently, the Call of the DH Graz 2023 also fits this discourse on the future extent of the DH concerning their revolutionary power(s). 
+                </note><note n="4" xml:id="PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn4">
+                    This overview remains necessarily uncomplete. For a more extensive discussion compare also to chapter 2 and 6 on defining and becoming the DH of Petz (2022). 
+                </note><note n="5" xml:id="PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn5">
+                    The following draws in large parts of the chapter 6, esp. 6.1 in Petz (2022, pp. 163–4). 
+                </note><note n="6" xml:id="PETZ_Cindarella__Becoming_the_digital_humanities_as_discours.xml_ftn6">
+                        An illustrative example for the “technologies of self” would be practices that produce or restrict femininity in sports (Thorpe 2008). 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Allington, Daniel, Brouilette, Sarah, and Columbia, David</author>. 2016.
+                        “Neoliberal Tools (and Archives): A Political History of Digital
+                        Humanities.” Los Angeles Review of Books (website).
+                        https://lareviewofbooks.org/article/neoliberal-
+                        tools-archives-political-history-digital-humanities/. </bibl>
+                    <bibl><author>Campos, Samuel</author>. 2015. “Subjekte der Praxis – Praxis der Subjekte.
+                        Subjektivierung als Perspektive musikpädagogischer Unterrichtsforschung,”
+                        edited by Anne Niessen and Jens Knigge, 111–123. Musikpädagogische Forschung
+                        36. Münster; New York: Waxmann. doi:10.25656/01:12617. </bibl>
+                    <bibl><author>Crymble, Adam</author>. 2021. Technology and the Historian. Transformation in the
+                        Digital Age. Urbana, Chicago, Springfield: University of Illinois Press. </bibl>
+                    <bibl><author>Drucker, Johanna and Unsworth, John</author>. 2002. “Final Report for Digital
+                        Humanities Curriculum Seminar.” IATH. The Institute for Advanced Technology
+                        in the Humanities (website). http://www.iath.virginia.edu/hcs/dhcs/toc.html. </bibl>
+                    <bibl><author>Foucault, Michel</author>. (1969) 1973. Archäologie des Wissens. FRENCH: ”L’ARCHE
+                        <hi rend="superscript"> ́</hi>OLOGIE
+                        DU SAVOIR”, GALLIMARD, PARIS. Frankfurt a. Main: Suhrkamp. </bibl>
+                    <bibl><author>Foucault, Michel</author>. 1987. “Das Subjekt und die Macht.” Widerspruch: Beiträge
+                        zu sozialistischer Politik 7 (14): 5–7. doi:10.5169/seals-652072. </bibl>
+                    <bibl><author>Foucault, Michel</author>. 1999. In Verteidigung der Gesellschaft. Vorlesungen am
+                        Collège de France (1975–1976). Frankfurt a. Main: Suhrkamp. </bibl>
+                    <bibl><author>Jannidis, Fotis, Kohle, Hubertus, and Rehbein, Malte</author>, eds. 2017. Digital
+                        Humanities: Eine Einführung. Stuttgart: J. B. Metzler. </bibl>
+                    <bibl><author>Kirschenbaum, Matthew</author>. 2012. “Digital Humanities As/Is a Tactical Term.”
+                        In Debates in the Digital Humanities 2012, edited by Mathew K. Gold.
+                        Minneapolis London: University of Minnesota Press.
+                        https://dhdebates.gc.cuny. edu / read / untitled - 88c11800 - 9446 - 469b -
+                        a3be - 3fdb36bfbd1e / section / c0b0a8ee-95f0-4a9c-9451-e8ad168e3db5. </bibl>
+                    <bibl><author>König, Mareike</author>. 2021. “Die Digitale Transformation als reflexiver turn.
+                        Einführende Literatur zur digital Geschichte im Überblick.” Neue Politische
+                        Literatur 66:37– 60. doi:10.1007/s42520-020-00322-2. </bibl>
+                    <bibl><author>Petz, Cindarella</author>. 2022. “On Combining Network Research and Computational
+                        Methods on Historical Research Questions and its Implications for the
+                        Digital Humanities.” Dissertation, Technical University of Munich.
+                        http://mediatum. ub.tum.de/node?id=1624881. </bibl>
+                    <bibl><author>Sahle, Patrick</author>. 2015. “Digital Humanities? Gibt’s doch gar nicht!” In
+                        Grenzen und Möglichkeiten der Digital Humanities, edited by Constanze Baum
+                        and Thomas Stäcker. (= Sonderband der Zeitschrift für digitale
+                        Geisteswissenschaften) PDF Format ohne Paginierung. doi:10.17175/sb001_004. </bibl>
+                    <bibl><author>Schrage, Dominik</author>. 2008. “Subjektivierung durch Normalisierung: zur
+                        Aktualisierung eines poststrukturalistischen Konzepts,” edited by
+                        Kai-Siegbert Rehberg, 4120– 4129. Teilbd. 1 u. 2. Frankfurt a. Main: Campus
+                        Verlag. https://nbn-resolv ing.org/urn:nbn:de:0168-ssoar-155104. </bibl>
+                    <bibl><author>Schreibman, Susan, Siemens, Ray, and Unsworth, John</author>, eds. 2004. A
+                        Companion to Digital Humanities. Oxford: Blackwell.
+                        http://www.digitalhumanities. org/companion/. </bibl>
+                    <bibl><author>Terras, Melissa</author>. 2011. “Peering Inside the Big Tent: Digital Humanities
+                        and the Crisis of Inclusion.” Melissa Terras (blog).
+                        http://melissaterras.blogspot.
+                        com/2011/07/peering-inside-big-tent-digital.html. </bibl>
+                    <bibl><author>Thorpe, Holly</author>. 2008. “Foucault, Technologies of Self, and the Media:
+                        Discourses of Femininity in Snowboarding Culture.” Journal of Sport and
+                        Social Issues 32 (2): 199–229. doi:10.1177/0193723508315206. </bibl>
+                    <bibl><author>Vogelmann, Frieder</author>. 2017. Foucault lesen. Springer Essentials.</bibl>
+                    <bibl><author>Wiede, Wiebke</author>. 2020. “Subject und Subjektivierung.” Version 3.0,
+                        Docupedia-Zeitgeschichte (website). doi:10.14765/zzf.dok-2075. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

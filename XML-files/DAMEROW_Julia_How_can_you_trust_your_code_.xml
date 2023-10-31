@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>How can you trust your code?</title>
+                <author n="DamerowJuliaDAMEROW_Julia_How_can_you_trust_your_code_.xml"><persName n="DamerowJulia">
+                        <surname>Damerow</surname>
+                        <forename>Julia</forename>
+                    </persName><affiliation/><email>jdamerow@asu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VoglMalteDAMEROW_Julia_How_can_you_trust_your_code_.xml"><persName n="VoglMalte">
+                        <surname>Vogl</surname>
+                        <forename>Malte</forename>
+                    </persName><affiliation/><email>mvogl@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoeserRebeccaSuttonDAMEROW_Julia_How_can_you_trust_your_code_.xml"><persName ref="https://orcid.org/0000-0002-8762-8057" n="KoeserRebeccaSutton">
+                        <surname>Koeser</surname>
+                        <forename>Rebecca Sutton</forename>
+                    </persName><affiliation/><email>rebecca.s.koeser@princeton.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CastiesRobertDAMEROW_Julia_How_can_you_trust_your_code_.xml"><persName n="CastiesRobert">
+                        <surname>Casties</surname>
+                        <forename>Robert</forename>
+                    </persName><affiliation/><email>casties@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This full-day workshop discusses the question of trustworthiness of code developed for Digital Humanities projects.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>ADHO SIG Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>SIG Workshop</term>
+                    <term>software development</term>
+                    <term>code quality</term>
+                    <term>community</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This full-day workshop discusses the question of trustworthiness of code developed for Digital Humanities projects. Every programmer makes mistakes. These mistakes usually manifest as bugs in the code. Sometimes bugs cause a decrease in performance or interface glitches, ranging from slight annoyances to the inability to use a piece of software. In the case of research software, however, bugs can lead to inaccurate or plainly wrong research results. This begs the questions: how do we know that our code has bugs (or is bug-free)? And what do we do if we suspect that the code we are using has bugs? What are the implications of this situation when using tools developed by other people? How can we trust them to develop code that produces accurate results? What can we do about all of this?</p>
+            <p>The issue about code quality goes hand in hand with the question about reusability of code and reproducibility of research results. All too often, the wheel gets reinvented because of code that is too outdated, too poor in quality, or simply not available to be reused and built upon. How can we encourage tool reuse in the digital humanities? And how can we design and evaluate ways to overcome reproducibility barriers?</p>
+            <p>This workshop will discuss these questions and more. The workshop participants will split into smaller breakout groups each discussing a specific aspect of the overall issue of code quality and trustworthiness. Each group is expected to take detailed notes of their discussion with the goal to consolidate all of them into a white paper. </p>
+            <p>Tentative workshop schedule:</p>
+            <list type="unordered">
+                <item>Introduction of participants and workshop organization (30min)</item>
+                <item>Discussion of subtopics to be discussed in breakout groups (20min)
+                    <list type="unordered">
+                        <item>Presentation of prepared subtopics</item>
+                        <item>Gathering of additional subtopics</item>
+                    </list></item>
+                <item>Short break (10min)</item>
+                <item>Breakout groups to discuss subtopics (50min)</item>
+                <item>Short break (10min)</item>
+                <item>Breakout groups to discuss subtopics (50min)
+                    <list type="unordered">
+                        <item>Participants will regroup to discuss different subtopics</item>
+                    </list></item>
+                <item>Summary of first workshop half (10min)</item>
+                <item>Lunch break (1hr)</item>
+                <item>Breakout groups to discuss subtopics (50min)</item>
+                <item>Short break (10min)</item>
+                <item>Plenary discussion of general outline of white paper (30min)</item>
+                <item>Breakout into pairs to flush out sections of white paper (45min)</item>
+                <item>Plenary discussion of next steps and outcomes (15min)</item>
+            </list>
+            <p>List of suggested subtopics:</p>
+            <list type="unordered">
+                <item>Potential effects of bad code on research output in DH</item>
+                <item>Reuse of code and the reproducibility crisis</item>
+                <item>Code quality and academic incentives</item>
+                <item>Plurality of languages (and their idiomatic patterns)</item>
+                <item>Data collection as source for error and bias</item>
+            </list>
+        </body>
+    </text></TEI>

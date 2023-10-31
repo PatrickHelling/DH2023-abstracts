@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration within a shared digital paradigm: opportunities and outcomes</title>
+                <author n="DeBastianiChiaraDE_BASTIANI_Chiara_Collaboration_within_a_shared_digital_par.xml"><persName n="DeBastianiChiara">
+                        <surname>De Bastiani</surname>
+                        <forename>Chiara</forename>
+                    </persName><affiliation>Università Ca'Foscari Venezia, Italy</affiliation><email>chiara.debastiani@unive.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FabbrisGiuliaDE_BASTIANI_Chiara_Collaboration_within_a_shared_digital_par.xml"><persName n="FabbrisGiulia">
+                        <surname>Fabbris</surname>
+                        <forename>Giulia</forename>
+                    </persName><affiliation>Università Ca'Foscari Venezia, Italy</affiliation><email>giulia.fabbris@unive.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We are presenting the results of mutual collaboration within two different, but related, projects in the field of cultural heritage digitization. Shared outcomes of our mutual collaboration include the valorization of cultural heritage items and experimental work on enriching a visualization application with a functionality to annotate graphs.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Cultural Heritage digitization</term>
+                    <term>LOD</term>
+                    <term>graph annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>Humanities computing</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>With this poster, we aim to present a case study on the benefits of mutual collaboration in ongoing research about digitization of Cultural Heritage in Italy, which is being carried out through two distinct, but intertwined, PON (Piano Operativo Nazionale) projects (Ministero dell’Università e della Ricerca 2014-2020). The aim of this case study is twofold: on the one hand, we will argue that both projects add value to the Italian Cultural Heritage resources by inserting them in a digital paradigm, ensuring dissemination and reuse of the data within the panorama of Cultural Heritage Digitization. On the other hand, we aim to connect a SPARQL Endpoint with an annotation and visualization app, to enable further annotation of the SPARQL data retrieved and to complement the application with a functionality designed for annotating and enriching graphs, cf. Figure 1.</p>
+            <p>More specifically, we are retrieving and analyzing digital Italian resources and Germanic Cultural Heritage resources in the Veneto region to link and systematize them in a digital environment, and make them available to both a scientific and a non-scientific audience, e.g. cultural tourism. The users can adapt their research according to their needs thanks to a user-friendly interface, (cf. http://murucaracconta.muruca.cloud/), which will be adapted to our platform with its developers at Net7.</p>
+            <p>In more detail, the first project aims at creating a knowledge graph of Germanic Cultural Heritage artifacts in the Veneto region, reusing top-level and specific ontologies such as CIDOC-CRM (Bekiari et al. 2021, V7.2.1) , ArCo (Carriero et al., 2019) CIDOC-FRBRoo (Bekiari et al., 2015, V2.4) and Bibframe Vocabulary 2.0 (Library of congress) and using cataloging metadata complying with the EDM standards (Europeana Foundation, 2017, V2.4), to make them searchable through a SPARQL Endpoint (Gearon et al., 2013). The aim of the second research project is to create a platform with two applications integrated, one for the visualization and the other for the annotation of the resources. The data available will be retrieved from existing repositories through APIs, ensuring the reuse of information and, thanks to the addition of uniform tags, their interoperability.</p>
+            <p>The resources are designed both for academic and non-academic users. Scholars can have access to the APIs, XML files and IIIFs, when the original source provides them. The tourist can find information on a specific topic related to the Italian CH. Moreover, the model can be further reused by researchers and applied to existing ontologies and derived SPARQL queries. The retrieved data will be available from two different visualization interfaces, which have as a first common goal the valorization of Italian Cultural Heritage by inserting it in a digital paradigm. In fact, the projects are in line with the Italian National Digitalization Plan (Ministero della Cultura 2022-2023), whose purpose is to create a cultural ecosystem based on digital methods in order to strengthen existing digitalization projects and offer public policies and rules to operate in a common vision.</p>
+            <p>In fact, the online availability of resources is not enough, they need to be integrated in formally coherent, supplementable and reusable representations (Gagliardi/Guarino 2021). As a second goal of our mutual collaboration case study, we will present the results of experimental work, with the aim of enriching the visualization and annotation application with a specific functionality to further annotate and enrich data retrieved from SPARQL queries operated in the SPARQL endpoint created within the first project. For this, we are collaborating with Net7, a non-academic partner institution that operates in the DH field.</p>
+            <p>Summarizing, the shared outcomes from mutual collaboration are (1) scientific, since the projects allow to add value to existing cultural data and improve access to the resources because items divided in different heterogeneous platforms will be available in one single place and become interoperable; (2) social, since different types of users will benefit from the resources developed; (3) economical, thanks to the collaboration with partner non-academic institutions (Net7), which enhances the creation of professional profiles with interdisciplinary competences.</p>
+            <p>Finally, the development of a common digitization paradigm is a shared desideratum within the wider DH community, and efforts to harmonize metadata standards and enhance collaboration have proven fruitful in sustaining and expanding the functionality of information retrieval and modeling, and in supporting the management of complex digital data aggregates (cf. Doerr/Stear 2011, Wickett et al. 2013). Therefore, we argue that the shared outcomes stemming from the collaboration within the two projects are consistent with both national and international requirements in the digitization of Cultural Heritage.</p>
+            <figure>
+                <graphic n="1001" width="15.994944444444444cm" height="16.81515277777778cm" url="Pictures/4761da2b9cc028e635693379ba67cbd2.png" rend="inline"/>
+                <head>Figure 1- The Workflow</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bekiari, Chrysoula</author> / <author>Bruseker, George</author> / <author>Canning, Erin</author> / <author>Doerr, Martin</author> / <author>Michon, Philippe</author> / <author>Ore, Christian-Emil</author> / <author>Stead, Stephen</author> / <author>Velios, Athanasios</author>  (2022): Definition of the CIDOC Conceptual Reference Model, Version 7.1.2.
+                    </bibl>
+                    <bibl>
+                        <author>Bekiari, Chryssoula</author> / <author>Doerr, Martin</author> / <author>Le Bœuf, Patrick</author> / <author>Riva, Pat</author>  (2015): FRBR, object-oriented definition and mapping from FRBRER, FRAD and FRSAD, approved by IFLA, Version 2.4. 
+                    </bibl>
+                    <bibl>
+                        <author>Carriero, Valentina Anita</author> / <author>Gangemi, Aldo</author> / <author>Mancinelli, Maria Letizia</author> / <author>Marinucci, Ludovica</author> / <author>Nuzzolese, Andrea Giovanni</author> / <author>Presutti, Valentina</author> / <author>Veninata, Chiara</author>  (2019): “ArCo: The Italian Cultural Heritage Knowledge Graph”, In: The Semantic Web – ISWC 2019. ISWC 2019. Lecture Notes in Computer Science, vol 11779. Springer, Cham. https://doi.org/10.1007/978-3-030-30796-7_311779:36–52 
+                    </bibl>
+                    <bibl>
+                        <author>Doerr, Martin</author> / <author>Stead, Stephen</author>  (2011): “Harmonized models for the Digital World: CIDOC CRM, FRBROO, CRMDig and Europeana EDM”. In Tutorial. 15th International Conference on Theory and Practice of Digital Libraries –TPDL. Abstract. https://cidoc-crm.org/Resources/harmonized-models-for-the-digital-world-cidoc-crm-frbroo-crmdig-edm. 
+                    </bibl>
+                    <bibl>
+                        <author>Europeana Foundation</author>: Europeana Mapping Guidelines, Version 2.4, https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Mapping_Guidelines_v2.4_102017.pdf 
+                    </bibl>
+                    <bibl>
+                        <author>Gagliardi, Gloria</author> / <author>Guarino, Massimo</author>  (2021): “Risorse e applicazioni computazionali per l’accesso ai beni culturali: il Corpus CHerIDesCo”. CHIMERA: Revista De Corpus De Lenguas Romances Y Estudios Lingüísticos, 8: 25-43. https://revistas.uam.es/chimera/article/view/13625/13639 
+                    </bibl>
+                    <bibl>
+                        <author>Gearon, Paula</author> / <author>Passant, Alexandre</author> / <author>Polleres, Axel</author>  (2013): SPARQL 1.1 Update, W3C Recommendation, 21 March 2013, http://www.w3.org/TR/2013/REC-sparql11-update-20130321. Latest version available at http://www.w3.org/TR/sparql11-update. 
+                    </bibl>
+                    <bibl>
+                        <author>Wickett, Karen M.</author> / <author>Isaac, Antoine</author> / <author>Fenlon, Katrina S.</author> / <author>Doerr, Martin</author> / <author>Meghini, Carlo</author> / <author>Palmer, Carole L.</author> / <author>Jett, Jacob</author>  (2013): Modeling Cultural Collections for Digital Aggregation and Exchange Environments, CIRSS TECHNICAL REPORT 201310-1 OCTOBER, 2013
+                    </bibl>
+                    <bibl>
+                        <author>Library of congress</author>: Bibliographic Framework Initiative, Bibframe Vocabulary 2.0, https://www.loc.gov/bibframe/implementation/ 
+                    </bibl>
+                    <bibl>
+                        <author>Ministero della Cultura</author> (2022-2023): Linee guida per l’acquisizione, la circolazione e il riuso delle riproduzioni dei beni culturali in ambiente digitale, https://docs.italia.it/italia/icdp/icdp-pnd-circolazione-riuso-docs/it/consultazione/index.html 
+                    </bibl>
+                    <bibl>
+                        <author>Ministero dell’Università e della Ricerca</author> (2014-2020): Piano Operativo Nazionale PON, Asse IV Innovazione, http://www.ponricerca.gov.it/opportunita/react-eu-contratti-di-ricerca-innovazione-e-green/
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

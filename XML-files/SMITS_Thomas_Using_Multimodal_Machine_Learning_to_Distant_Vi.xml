@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Using Multimodal Machine Learning to Distant View the Illustrated World of
+                    the <hi rend="italic">Illustrated London News</hi>, 1842-1900</title>
+                <author n="SmitsThomasSMITS_Thomas_Using_Multimodal_Machine_Learning_to_Distant_Vi.xml"><persName ref="https://orcid.org/0000-0001-8579-824X" n="SmitsThomas">
+                        <surname>Smits</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>thomas.smits@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LeeBenSMITS_Thomas_Using_Multimodal_Machine_Learning_to_Distant_Vi.xml"><persName ref="https://orcid.org/0000-0002-1677-6386" n="LeeBen">
+                        <surname>Lee</surname>
+                        <forename>Ben</forename>
+                    </persName><affiliation>University of Washington, USA</affiliation><email>bcgl@cs.washington.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FyfePaulSMITS_Thomas_Using_Multimodal_Machine_Learning_to_Distant_Vi.xml"><persName ref="https://orcid.org/0000-0001-9481-0730" n="FyfePaul">
+                        <surname>Fyfe</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>North Carolina State University, USA</affiliation><email>paul.fyfe@ncsu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper applies multimodal machine learning (CLIP) to distant view the Illustrated London News. After extracting a sample of 874 illustrations, we use CLIP to identify maps and images of steamships. Without task- or data-specific training, CLIP can be used to quickly explore and analyze historical visual data at scale.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>multimodal machine learning</term>
+                    <term>distant viewing</term>
+                    <term>illustrations</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>mixed-media analysis</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>On 14 May 1842, the publication of the first issue of the weekly periodical
+                Illustrated London News (ILN) helped usher in the age of visual mass media. For the
+                first time in history, a periodical not only regularly described current events but
+                also used illustrations to depict them. The ILN quickly became a staple of Victorian
+                life, achieving a circulation of 300.000 copies by1863 (Smits, 2020). Researchers
+                have analyzed its pages to study British identity (McKendry, 1994; Sinnema, 1998),
+                the British Empire (Boyer, 2002; Smits, 2017), new technology (Dobraszczyk, 2005;
+                Fyfe, 2013), and many other topics. While the visual world of the ILN was marked by
+                the sheer number of illustrations it published, the majority of these studies depend
+                on close reading of a select number of illustrations. This paper shows that recently
+                developed multimodal machine learning models can be used to ‘distant view’ (Arnold
+                and Tilton, 2019) the visual world of the ILN. It presents the first two steps of
+                our larger project Distant Viewing the Illustrated London News: (1) we use the
+                Newspaper Navigator model to extract visual content from the digitized pages of the
+                periodical; and (2) apply the multimodal machine learning model CLIP to identify
+                images of ‘steamships’ and ‘the army’ in a sample of 874 illustrations. We also use
+                the model to quickly add metadata to this sample, identifying all the maps in the
+                874 images.</p>
+            <p>Historians have used computer vision techniques to analyze collections of digitized
+                images (Wevers and Smits, 2020). Because they were trained to identify a select
+                number of objects in modern high-definition photographs, applying these techniques
+                to nineteenth-century line engravings presents a ‘formidable challenge’ (Fyfe and
+                Ge, 2018). Recently introduced multimodal machine learning models are optimized to
+                connect texts to images and vice versa. As a result, even without task- or
+                data-specific training, multimodal models can be applied to a wide variety of ‘text
+                to image’ and ‘image to text’ classification tasks in heterogeneous datasets
+                (Radford et al., 2021).</p>
+            <p>In the first step of our project, we produced a sample of Gale’s Illustrated London
+                News Historical Archive. We selected two issues per year between 1842 and 1900, when
+                the publication largely switched from publishing illustrations to photographs. We
+                extracted visual content from these 1151 pages by feeding them through the Newspaper
+                Navigator (NN) model (Lee et al., 2020), which was trained on early
+                twentieth-century digitized newspapers to recognize seven categories (ads, comics,
+                editorial cartoons, headlines, illustrations, maps, and photographs). While NN
+                reliably identified illustrations, it frequently misclassified them. For our sample,
+                we combined 874 illustrations, which were classified as comics, editorial cartoons,
+                illustrations, maps, and photographs.</p>
+            <p>Subsequently, we applied CLIP (Radford et al., 2021) to extract embeddings of the 874
+                images. CLIP connects images to text(s) by calculating the cosine similarity between
+                images and textual embeddings. This means that we can link our 874 illustrations to
+                any textual prompt, enabling us to use textual queries to search for visual
+                concepts. Concerning the text-to-image task, we can search for straightforward
+                visual concepts, such as ‘a steamship’ (Figure 1). However, because CLIP has learned
+                to connect text to images, we can also retrieve more complex visual concepts, such
+                as ‘an image of the army’ (Figure 2). Without having to (manually) add metadata,
+                CLIP allows us to search a large collection of images in the same way that OCR
+                allows keyword searches in large collections of texts. Earlier work showed that CLIP
+                can also be used to quickly add metadata to images (Smits and Kestemont, 2021).
+                Hoping to analyze the imperial geography of the ILN in a later stage of our project,
+                we connected the 874 images to the prompt ‘a map’ (Figure 3). Because the Newspaper
+                Navigator model also searches for maps, we can compare its performance to CLIP.
+                While both models identified the same four true positives, the application of NN led
+                to 34 false positives.</p>
+            <p>Combing the OLR capabilities of NN with CLIP allows us to distant view the
+                illustrated world of the ILN. In future work, we will improve the performance of NN
+                by retraining it on the pages of the ILN and further explore the capabilities of
+                CLIP by testing its performance on an annotated set of illustrations. More
+                generally, this paper demonstrated the so-called zero-shot capability of multimodal
+                machine learning models on heterogeneous historical visual data (Smits and Wevers,
+                2023). Without task- or data-specific training, CLIP can be used to quickly explore
+                and analyze historical visual data at scale.</p>
+            <figure>
+                <graphic n="1001" url="Pictures/5e70ff9f4a154b71bdc038d0c2d66fa2.png" rend="inline"/>
+                <head>Fig 1: Top-4 cosine similarity scores (0.324/0.312/0.306/0.306) for the prompt
+                    ‘a steamship’ in our sample.</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="8.246180555555556cm" url="Pictures/dea1ed76203fc17408eb80200bfa835f.png" rend="inline"/>
+                <head>Fig 2: Top-4 cosine similarity scores (0.299/0.297/0.289/0.285) for the prompt
+                    ‘an image of the army’ in our sample.</head>
+            </figure>
+            <figure>
+                <graphic n="1003" width="15.212091666666666cm" height="8.424333333333333cm" url="Pictures/da309a964fb7e384a8d3068131366977.png" rend="inline"/>
+                <head>Fig 3: Connecting the 874 images in our sample to the prompt ‘a map’.</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold T and Tilton L</author>
+                         (2019) Distant viewing: analyzing large visual corpora. 
+                        <hi rend="italic">Digital Scholarship in the
+                            Humanities</hi>
+                         34(Supplement_1). Oxford Academic: i3–i16. DOI: 10.1093/llc/fqz013.
+                    </bibl>
+                    <bibl>
+                        <author>Boyer D</author> (2002) Picturing the Other: Images of Burmans in
+                            Imperial Britain. Victorian Periodicals Review 35(3): 214–226 
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Codell J</author>
+                         (2006) Imperial Differences and Culture Clashes in Victorian Periodicals’ Visuals: The Case of Punch. 
+                        <hi rend="italic">Victorian Periodicals Review</hi>
+                         39(4): 410–428.
+                    </bibl>
+                    <bibl>
+                        <author>Dobraszczyk P </author>(2005) Sewers, Wood Engraving and the Sublime:
+                            Picturing London’s Main Drainage System in the ‘Illustrated London
+                            News’, 1859-62. Victorian Periodicals Review 38(4): 349–378 
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Fyfe P </author>(2013)
+                        Illustrating the Accident:
+                            Railways and the Catastrophic Picturesque in The Illustrated London
+                            News. Victorian Periodicals Review 46(1): 61–91 
+                        . 
+                    </bibl>
+                    <bibl>
+                        <author>Fyfe P and Ge Q </author>(2018) Image Analytics and the Nineteenth-Century
+                            Illustrated Newspaper. Journal of Cultural Analytics. DOI:
+                            10.22148/16.026 
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Lee BCG, Mears J, Jakeway E, et al. </author>(2020) The Newspaper Navigator Dataset: Extracting and 
+                        Analyzing
+                         Visual Content from 16 
+                        Million
+                         Historic Newspaper Pages in Chronicling America. arXiv:2005.01583 [cs]. Available at: http://arxiv.org/abs/2005.01583 (accessed 9 May 2020).
+                    </bibl>
+                    <bibl>
+                        <author>McKendry V </author>(1994) The ‘Illustrated London News’ and the
+                            Invention of Tradition. Victorian Periodicals Review 27(1): 1–24. 
+                    </bibl>
+                    <bibl>
+                        <author>Radford A, Kim JW, Hallacy C, et al. </author>(2021) Learning transferable
+                            visual models from natural language supervision. In: International
+                            Conference on Machine Learning, 2021, pp. 8748–8763. PMLR. 
+                    </bibl>
+                    <bibl>
+                        <author>Sinnema P </author>(1998) Dynamics of the Pictured Page. Representing the Nation in the Illustrated London News. 
+                        Aldershot
+                        : Ashgate
+                    </bibl>
+                    <bibl>
+                        <author>Smits T </author>(2017) Looking for The Illustrated London News in
+                            Australian Digital Newspapers. Media History 23(1): 80–99. DOI:
+                            https://doi.org/10.1080/13688804.2016.1196585.
+                    </bibl>
+                    <bibl>
+                        <author>Smits T </author>(2020) The European Illustrated Press and the Emergence of a
+                            Transnational Visual Culture of the News, 1842–1870. London:
+                            Routledge.
+                    </bibl>
+                    <bibl>
+                        <author>Smits T and Kestemont M </author>(2021) Towards Multimodal Computational Humanities. Using CLIP to 
+                        Analyze
+                         Late-Nineteenth Century Magic Lantern Slides. In: Proceedings of the Conference on Computational Humanities Research 2021 (eds M 
+                        Ehrmann
+                        , F 
+                        Karsdorp
+                        , M 
+                        Wevers
+                        , et al.), Amsterdam, the
+                            Netherlands, 17 November 2021, pp. 149–158. CEUR Workshop Proceedings.
+                            CEUR. Available at: http://ceur-ws.org/Vol-2989/#short_paper23 (accessed
+                            29 October 2021).
+                    </bibl>
+                    <bibl>
+                        <author>Smits T and Wevers M </author>(2023) A multimodal turn in Digital Humanities.
+                            Using contrastive machine learning models to explore, enrich, and
+                            analyze digital visual historical collections. Digital Scholarship in
+                            the Humanities: fqad008. DOI: 10.1093/
+                        llc
+                        /fqad008.
+                    </bibl>
+                    <bibl>
+                        <author>Wevers M and Smits T</author>
+                         (2020) The Visual Digital Turn. Using Neural Networks to Study Historical Images. Digital Scholarship in the Humanities 35(1): 194–207. DOI: https://doi.org/10.1093/llc/fqy085.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

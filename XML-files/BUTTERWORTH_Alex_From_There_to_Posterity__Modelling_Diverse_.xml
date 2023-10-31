@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From There to Posterity: Modelling Diverse Itineraries of Scientific Instruments</title>
+                <author n="MiddleSarahBUTTERWORTH_Alex_From_There_to_Posterity__Modelling_Diverse_.xml"><persName n="MiddleSarah">
+                        <surname>Middle</surname>
+                        <forename>Sarah</forename>
+                    </persName><affiliation>National Museum of Scotland, United Kingdom</affiliation><email>s.middle@nms.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ButterworthAlexBUTTERWORTH_Alex_From_There_to_Posterity__Modelling_Diverse_.xml"><persName n="ButterworthAlex">
+                        <surname>Butterworth</surname>
+                        <forename>Alex</forename>
+                    </persName><affiliation>University of Sussex, United Kingdom</affiliation><email>a.butterworth@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HiggittRebekahBUTTERWORTH_Alex_From_There_to_Posterity__Modelling_Diverse_.xml"><persName ref="https://orcid.org/0000-0001-9387-4150" n="HiggittRebekah">
+                        <surname>Higgitt</surname>
+                        <forename>Rebekah</forename>
+                    </persName><affiliation>National Museum of Scotland, United Kingdom</affiliation><email>r.higgitt@nms.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The scientific instruments of the C18th/19th centuries are complex, consequent artefacts, encoding experimental possibilities, older craft knowledge and, frequently, colonial control. Surviving examples are often uniquely well-travelled: globally, locally and within collections. The paper considers the used of Linked Open Data to trace their physical and conceptual itineraries over time.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>museum collections</term>
+                    <term>material culture</term>
+                    <term>object biographies</term>
+                    <term>knowledge graph</term>
+                    <term>scientific instruments</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>linked (open) data</term>
+                    <term>Galleries and museum studies</term>
+                    <term>History of science</term>
+                    <term>Humanities computing</term>
+                    <term>Literacy</term>
+                    <term>composition</term>
+                    <term>and creative writing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>It is reasonable to claim that there are few types of historical artefact more complex or consequent than the scientific instruments of the eighteenth and nineteenth centuries. In them are encoded generations of craft knowledge, while individually and in combination they enabled new vistas of knowledge production, real and figurative, through measurement, observation and experiment. Beyond the confines of the laboratory, these activities supported global navigation, expeditionary exploration and colonial surveying, often in support of imperial ambitions. One strand of the ‘Tools of Knowledge’ research project (introduced below) investigates some insights that may be derived from a mapping of the physical and conceptual itineraries of 
+                instruments that supported such activities, now held in public museum collections, as traces through the dataspace of a knowledge graph: a semantic representation of their contexts of creation, trade, use, and preservation. 
+            </p>
+            <p>Such journeys have been conventionally referred to as ‘object biographies’, a term introduced by Kopytoff (1986) in a social anthropology context, and since adopted in archaeology (Gosden &amp; Marshall, 1999) and museum studies (Alberti, 2005). The term ‘object itinerary’ offers a variant and more nuanced construction, implying both a more continuous trajectory without the fixed events of birth and death (Fontijn, 2013). An itinerary may look back to the formation of the materials from which the object was constructed, or forward to its future receptions or remediations; it may encompass multiple kinds of utility, categorisation or role in an assemblage. Following the proposition by Dunn et al. (2019) that such itineraries may be represented as Linked Open Data, our work investigates the practical implications of such an approach, in terms of data modelling requirements, the design of interfaces for their exploration, and the implications for the subversion of colonial narratives.</p>
+            <p>In addition to a brief overview of the concept of object itineraries, our presentation will introduce the project ‘Tools of Knowledge: Modelling the Creative Communities of the Scientific Instrument Trade, 1550-1914’ and present our data modelling approach. At the core of this project is the remodelling of an extraordinary legacy database, 
+                <hi rend="italic">Scientific Instrument Makers, Observations and Notes</hi> (
+                <hi rend="italic">SIMON</hi>), which is currently only available as a Microsoft Access database on-site at Royal Museums Greenwich. 
+                <hi rend="italic">SIMON</hi> contains an unprecedented level of detail in the information it holds on scientific instrument makers during this period. Its remodelling will allow open, online, access and will increase the discoverability of the rich data it contains, with an emphasis on revealing relationships between the people described within it and the potential to incorporate complementary data sources.
+            </p>
+            <p>Using a bespoke event-based ontology, aligned to CIDOC CRM
+                <ref target="#BUTTERWORTH_Alex_From_There_to_Posterity__Modelling_Diverse_.xml_ftn1" n="1"/> (where possible), our model explores the cognitive world within which such instruments were created, as well as the social and cultural worlds of their makers, including their family and business relationships, their guild membership and mobilities. The resulting dataset is augmented with data from diverse sources; these include catalogues from collaborating and partner institutions, including National Museums Scotland, the Whipple Museum (University of Cambridge), Royal Museums Greenwich, and the Science Museum. We additionally incorporate specific datasets that trace individual instruments (e.g., Admiralty records of marine chronometers) in extreme detail at a global scale. Taken together, this data offers new perspectives on the history of a trade that sits at the intersection of multiple engines of historical change.
+            </p>
+            <p>Following an explanation of our data modelling process, our presentation will demonstrate how this approach might be taken further, through the application of a more nuanced model to a series of case studies. Objects selected for this purpose include:</p>
+            <list type="unordered">
+                <item>the astronomical regulator clock (Howse &amp; Hutchinson, 1969) that accompanied Captain Cook on his First Voyage, 1768-1771, and played a critical role in observations across the globe (data provided by National Museums Scotland)</item>
+                <item>a chronometer that enabled the calculation of longitude on multiple Royal Navy expeditions during the 1900s, as it moved from ship to ship (and hand to hand), and through frequent periods of repair and maintenance by specific technicians (data provided by Royal Museums Greenwich)</item>
+                <item>an assemblage of navigational and surveying instruments that facilitated global exploration, before their status changed from operational instruments to cultural heritage objects and they were acquired by National Museums Scotland in 1911 (data provided by National Museums Scotland)</item>
+            </list>
+            <p>While the scientific instruments presented in these case studies depended on human actors for their creation, maintenance and use, those people were in turn shaped by these objects, revealing the co-dependence of the human and technological. As such, this type of digital representation reckons with the instrument’s capacity for subjective agency (Daston and Galison, 2007), revealing both the individual object’s specificity and its position within other actor networks and assemblages (Latour, 1988, de Landa, 2006). The nature of these human-instrument interactions and the people involved differed depending on where they occurred, with the effectiveness (or otherwise) of instruments, especially while mobile, having a significant impact on their accuracy and the trustworthiness accorded to their readings. A further dimension is added, therefore, through consideration of the various places and spaces involved throughout the object’s itinerary (Middle et al., 2022). Simultaneously, our approach has required the representation of multiple and potentially compounded types of uncertainties: the approximate dates; the probable ports of call; the ambiguous implications of European exploration; the fragmentary records of museum display.</p>
+            <p>Conscientiously curated data, modelled with an unusual level of detail and nuance, additionally allows us to re-situate cultural heritage objects in relation to colonial narratives. The navigational and surveying instruments used in our case studies were developed and produced with the goal of facilitating access to colonial territories and were often used as a demonstration of power to intimidate colonised people. Such aspects have historically been downplayed, or even obscured by museums, in favour of a narrative that emphasises scientific development. Detailed digital models of these objects’ itineraries instead provide a multiplicity of perspectives on their creation of scientific knowledge, and the events that led to their later acquisition by collections. Our proposed ‘storytelling’ approach helps capture the imagination and increase understanding by new and diverse audiences.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BUTTERWORTH_Alex_From_There_to_Posterity__Modelling_Diverse_.xml_ftn1">
+                     https://cidoc-crm.org/
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Alberti, S.J.M.M. </author>(2005). Objects and the Museum. 
+                        <hi rend="italic">Isis</hi>, 
+                        <hi rend="italic">96</hi>(4), 559–571. https://doi.org/10.1086/498593
+                    </bibl>
+                    <bibl><author>Daston, L.</author> / <author>Galison, P.</author> (2007). 
+                        <hi rend="italic">Objectivity</hi>. Princeton University Press
+                    </bibl>
+                    <bibl><author>De Landa, M. </author>(2006). 
+                        <hi rend="italic">A New Philosophy of Society: Assemblage Theory and Social Complexity</hi>. London: Continuum.
+                    </bibl>
+                    <bibl><author>Dunn, S.</author> / <author>Earl, G.</author> / <author>Foka, A.</author> / <author>Wootton, W.</author> (2019). Spatial Narratives in Museums and Online: The Birth of the Digital Object Itinerary. In T. Giannini &amp; J. P. Bowen (Eds.), 
+                        <hi rend="italic">Museums and Digital Culture: New Perspectives and Research</hi> (pp. 253-271). Springer International Publishing. https://doi.org/10.1007/978-3-319-97457-6_12
+                    </bibl>
+                    <bibl><author>Fontijn, D. </author>(2013). Cultural biographies and itineraries of things—Second thoughts. In H. P. Hahn &amp; H. Weiss (Eds.), 
+                        <hi rend="italic">Mobility, Meaning and Transformations of Things: Shifting contexts of material culture through time and space</hi> (pp. 183–195). Oxbow Books. https://doi.org/10.2307/j.ctvh1dn08
+                    </bibl>
+                    <bibl><author>Gosden, C.</author> / <author>Marshall, Y.</author> (1999). The cultural biography of objects. 
+                        <hi rend="italic">World Archaeology</hi>, 
+                        <hi rend="italic">31</hi>(2), 169–178. 
+                        <ref target="https://doi.org/10.1080/00438243.1999.9980439">https://doi.org/10.1080/00438243.1999.9980439</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Howse, D. / Hutchinson, B. </hi>(1969). The Saga of the Shelton clocks. 
+                        <hi rend="italic">Antiquarian Horology</hi>
+                        , 281-298.
+                    </bibl>
+                    <bibl><author>Kopytoff, I. </author>(1986). The cultural biography of things: Commoditization as process. In A. Appadurai (Ed.), 
+                        <hi rend="italic">The social life of things: Commodities in cultural perspective</hi> (pp. 64–91). Cambridge University Press. https://doi.org/10.1017/CBO9780511819582.004
+                    </bibl>
+                    <bibl><author>Latour, B. </author>(1988). 
+                        <hi rend="italic">The Pasteurisation of France</hi>. Harvard University Press
+                    </bibl>
+                    <bibl><author>Middle, S.,</author> / <author>Horne, R.</author> / <author>McMeekin, D.</author> / <author>Zuanni, C.,</author> / <author>Butterworth, A.</author> (2022). Geographies of Place in Digital Art History. 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing, 16</hi>(1), 94-109. 
+                        <ref target="https://doi.org/10.3366/ijhac.2022.0279">https://doi.org/10.3366/ijhac.2022.0279</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

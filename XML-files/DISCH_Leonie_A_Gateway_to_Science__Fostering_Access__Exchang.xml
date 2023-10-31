@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Gateway to Science: Fostering Access, Exchange, and Use of Social Science
+                    and Humanities Research Through a Digital Discovery Platform</title>
+                <author n="BlotireEmilieDISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml"><persName n="BlotireEmilie">
+                        <surname>Blotière</surname>
+                        <forename>Emilie</forename>
+                    </persName><affiliation>Huma-Num (CNRS), France</affiliation><email>emilie.blotiere@huma-num.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DischLeonieDISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml"><persName n="DischLeonie">
+                        <surname>Disch</surname>
+                        <forename>Leonie</forename>
+                    </persName><affiliation>Know-Center GmbH, Austria</affiliation><email>ldisch@know-center.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BreitfussGertDISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml"><persName n="BreitfussGert">
+                        <surname>Breitfuss</surname>
+                        <forename>Gert</forename>
+                    </persName><affiliation>Know-Center GmbH, Austria</affiliation><email>gbreitfuss@know-center.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CuparDrahomiraDISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml"><persName ref="https://orcid.org/0000-0001-5810-5786" n="CuparDrahomira">
+                        <surname>Cupar</surname>
+                        <forename>Drahomira</forename>
+                    </persName><affiliation>University of Zadar, Croatia</affiliation><email>drahomira.cupar@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StojanovskiJadrankaDISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml"><persName n="StojanovskiJadranka">
+                        <surname>Stojanovski</surname>
+                        <forename>Jadranka</forename>
+                    </persName><affiliation>University of Zadar, Croatia; Ruđer Bošković Institute,
+                        Croatia</affiliation><email>jadranka.stojanovski@irb.hr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Digital access to social sciences and humanities (SSH) research resources is necessary to enable broad use. For this purpose, a discovery platform for SSH resources was created. This paper describes its development, based on user, economic, and computer science research methods, and illustrates how such a platform supports social exchange.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>social sciences and humanities</term>
+                    <term>open science</term>
+                    <term>discovery platform</term>
+                    <term>multilingual</term>
+                    <term>research data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>digital ecologies and digital communities creation management and
+                        analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Sociology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Digital access to Social Sciences and Humanities (SSH)
+                research resources is necessary to enable wide-scale use and reuse. However,
+                regarding the access and usage of digital SSH research resources, we have identified
+                - based on analyses and literature - the following challenges at the current state
+                for SSH communities are:</p>
+            <p>1) No single access point allows SSH researchers to
+                explore, find, access, and reuse materials such as literature, data, projects, and
+                researcher profiles at the European level (competitor analyses; Breitfuss et al.,
+                2022; Dumouchel et al., 2020b) → <hi rend="bold">Low visibility of SSH research
+                    results</hi>. </p>
+            <p>2) SSH researchers have comparatively little experience
+                and skills in using digital services/tools/platforms (user requirement analyses;
+                Dumouchel et al., 2020a; Dumouchel et al., 2020b) → <hi rend="bold">Lack of digital
+                    literacy in the SSH community</hi>. </p>
+            <p>3) Other potential users of SSH research (SMEs,
+                journalists, citizens, policymakers) struggle to leverage these resources
+                (Ross-Hellauer et al., 2022) → <hi rend="bold">Low usage of SSH research results
+                    outside academia (SMEs, journalists, citizens, policymakers)</hi>. </p>
+            <p>4) SSH research is not seen as "valuable" (Olmos-Peñuela
+                et al., 2014) → <hi rend="bold">Low perceived impact on SSH research</hi>. </p>
+            <p>Because of these challenges, a clear need for a digital
+                open science platform that targets them is apparent. Such a platform should also be
+                openly accessible so that anyone can access these resources. Based on the motivation
+                to address these challenges, the European GoTriple discovery platform<ref target="#DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn1" n="1"/> dedicated to the
+                SSH data including researchers' profiles and research projects, open to the whole
+                scientific community and other socio-economic actors and citizens, was created.
+                GoTriple responds to requests from SSH researchers to foster interdisciplinarity and
+                enhance collaborations. The platform makes more than four million publications and
+                datasets available from leading European aggregators, local repositories in less
+                represented languages, more than three million researchers’ profiles, and more than
+                20,000 research projects.</p>
+            <p>Five innovative services complement this approach by
+                making available a trust building system, a recommender system, a visualisation
+                tool, an open annotation tool and a crowdfunding service. Based on a co-design
+                approach, the multicultural and multilingual GoTriple platform is indexing research
+                data available in ten languages (Croatian, English, French, German, Greek, Italian,
+                Polish, Portuguese, Spanish and Ukrainian) and in Slovenian by the end of the
+                year.</p>
+            <p>To that extent, multilingualism is a core aspect of the
+                platform. English as a lingua franca within scholarship is threatening the use of
+                other languages which are especially relevant in the SSH disciplines dealing with
+                locally relevant research. The widespread use of English in scholarly communication
+                tends to marginalize non-English works and to make these works more difficult to
+                access by most researchers. From the perspective of open science, GoTriple is
+                promoting equity, diversity, inclusivity principles and closer connections to each
+                language.</p>
+            <p>The TRIPLE consortium, consisting of 21 partners from 14
+                European countries<ref target="#DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn3" n="3"/>,
+                developed an interoperable multilingual discovery service for SSH research fields to
+                enable scientists to make research results findable by searching in their own
+                language and to make research results in different European languages available. A
+                machine learning methodology was developed to train the search engine by documents
+                in each language and a controlled vocabulary was created to deliver a TRIPLE
+                thesaurus, currently composed of more than 4,000 concepts with labels in each of the
+                27 SSH disciplines (according to the MORESS categories<ref target="#DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn4" n="4"/>),
+                in the eleven languages. The thesaurus was a prerequisite to align the vocabularies
+                in the languages and for instance to find Greek documents with polish keywords. The
+                GoTriple Vocabulary was initially based on the Library of Congress Subject
+                    Heading<ref target="#DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn5" n="5"/> (LCSH) and used
+                primarily by the annotation service of GoTriple platform. The constitution of the
+                textual training dataset of SSH sources can be reused for training machine learning
+                and artificial intelligence algorithms. This corpus currently comprises more than
+                250,000 documents and has been tested in production for the implementation of the
+                automatic classification service in GoTriple. For less represented languages in the
+                scholarly literature such as Croatian, Polish, Ukrainian and Slovenian, the research
+                community of these countries were solicited to contribute to finding relevant
+                documents to train the system and appropriately translate the defined concepts. The
+                solution is a publicly available SSH vocabulary, published in an open format (e.g.,
+                SKOS). The eleven included languages are expandable. It can be integrated into
+                various types of platforms (via JSON/database file import or more dynamically by
+                using the API that will be developed). The classification process is unique:
+                algorithms for automatic classification and translation and human-curated
+                classification and translation. Standardisation is necessary to offer efficient,
+                useful, and updated vocabularies. This work is notably valuable to increase the
+                impact and foster the reuse of research for the SSH communities worldwide.</p>
+            <p>To advance research, it is also necessary to improve the
+                means of collaboration between the scientific community and society, which too often
+                remains impervious to scientific work and, more particularly, to SSH. One way to
+                increase the impact of SSH research in society is to directly involve citizens in
+                research projects to make them actors. The OPERAS<ref target="#DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn6" n="6"/> crowdfunding service
+                is addressing this issue by introducing non-funded projects to a large audience.
+                This service is integrated into the platform by giving direct and easy access to
+                both researchers and contributors. </p>
+            <p>Users' requirements are evolving fast, and there is a
+                strong need from the research community to provide scalable services. The challenge
+                of innovation is to ensure sustainability. This will require efforts and
+                collaboration of the consortium not only to maintain the platform in the long term
+                but also to improve its services by indexing new repositories, reinforcing the
+                coverage of some languages, and maintaining integrated services. To reach this
+                needed long-term sustainability the project applied Alan Cooper’s interaction design
+                principles, namely <hi rend="italic">desirability</hi>, <hi rend="italic">feasibility</hi>, and <hi rend="italic">viability</hi>, in developing a
+                suitable platform Business Model (BM) (Cooper at al., 2007). The developed business
+                model is backed up by a suitable governance model and a well elaborated business
+                plan. </p>
+            <!--
+            <p style="text-align: left; ">
+                <hi rend="superscript" xml:space="preserve">1 </hi>The TRIPLE EU-funded project
+                (Targeting Researchers through Innovative Practices and Linked Exploration) started
+                in Oct. 2019 under the framework H2020-INFRAESOC-2019-1 and under the 86420 GA
+                number. </p>
+            <p style="text-align: left; ">
+                <hi rend="superscript" xml:space="preserve">2 </hi>https://gotriple.eu </p>
+            <p style="text-align: left; ">
+                <hi rend="superscript" xml:space="preserve">3 </hi>Austria, Belgium, Croatia, Czech
+                Republic, France, Germany, Greece, Italy, Netherlands, Norway, Poland, Portugal,
+                Slovenia, United-Kingdom </p>
+            <p style="text-align: left; ">
+                <hi rend="superscript" xml:space="preserve">4 </hi>https://project.gotriple.eu/wp-content/uploads/2020/12/MORESS-categories-for-GOTRIPLE-2020_12.pdf </p>
+            <p>
+                <hi rend="superscript">5</hi>
+                <hi style="font-size:10pt">https://id.loc.gov/authorities/subjects.html</hi>
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="superscript">6</hi>
+                <hi style="font-size:10pt">Research Infrastructure supporting open scholarly
+                    communication in the social sciences and humanities (SSH) in the European
+                    Research Area - https://www.operas-eu.org/</hi>
+            </p>
+            -->
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn1">The TRIPLE EU-funded
+                        project (Targeting Researchers through Innovative Practices and Linked
+                        Exploration) started in Oct. 2019 under the framework H2020-INFRAESOC-2019-1
+                        and under the 86420 GA number. https://gotriple.eu</note><note n="3" xml:id="DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn3">Austria, Belgium, Croatia, Czech Republic, France, Germany, Greece, Italy,
+                        Netherlands, Norway, Poland, Portugal, Slovenia, United-Kingdom</note><note n="4" xml:id="DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn4">https://project.gotriple.eu/wp-content/uploads/2020/12/MORESS-categories-for-GOTRIPLE-2020_12.pdf</note><note n="5" xml:id="DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn5">https://id.loc.gov/authorities/subjects.html</note><note n="6" xml:id="DISCH_Leonie_A_Gateway_to_Science__Fostering_Access__Exchang.xml_ftn6">Research Infrastructure supporting open scholarly
+                        communication in the social sciences and humanities (SSH) in the European
+                        Research Area - https://www.operas-eu.org/</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Cooper, A.</author> / <author>Reimann, R.</author> / <author>Cronin, D.</author>  (2007): About
+                        face 3: the essentials of interaction design. John Wiley &amp; Sons. DOI
+                        10.5555/1406522 </bibl>
+                    <bibl>
+                        <author>Dumouchel, S.</author> / <author>Blotière, E.</author> / <author>Breitfuss, G.</author> / <author>Chen, Y.</author> / <author>Donato, F. D.</author> / <author>Eskevich, M.</author> / <author>...</author> / <author>Toth-Czifra, E.</author>  (2020a):
+                        “GOTRIPLE: a user-centric process to develop a discovery platform”. In:
+                        Information, 11(12), 563.DOI 10.3390/info11120563 </bibl>
+                    <bibl>
+                        <author>Dumouchel, S.</author> / <author>Blotière, E.</author> / <author>Barbot, L.</author> / <author>Breitfuss, G.</author> / <author>Chen, Y.</author> / <author>Di Donato, F.</author> / <author>...</author> / <author>Pohle, S.</author>  (2020b): “TRIPLE
+                        project: building a discovery platform to enhance collaboration”. In: ITM
+                        Web of Conferences (Vol. 33, p. 03005). EDP Sciences. DOI
+                        10.5281/zenodo.3925735 </bibl>
+                    <bibl>
+                        <author>Olmos-Peñuela, J.</author> / <author>Benneworth, P.</author> / <author>Castro-Martinez, E.</author> (2014):
+                        “Are ‘STEM from Mars and SSH from Venus’?: Challenging disciplinary
+                        stereotypes of research’s social value”. In: Science and Public Policy,
+                        41(3), 384-400.DOI 10.1016/j.respol.2018.07. </bibl>
+                    <bibl>
+                        <author>Ross-Hellauer, T.</author> / <author>Reichmann, S.</author> / <author>Cole, N. L.</author> / <author>Fessl, A.</author> / <author>Klebel, T.</author> / <author>Pontika, N.</author>  (2022): “Dynamics of cumulative
+                        advantage and threats to equity in open science: a scoping review”. In:
+                        Royal Society open science, 9(1), 211032.DOI 10.1098/rsos.211032 </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

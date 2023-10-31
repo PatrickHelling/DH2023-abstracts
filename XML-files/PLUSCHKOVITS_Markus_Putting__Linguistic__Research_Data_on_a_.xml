@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Putting (Linguistic) Research Data on a Map – The DiÖ <hi rend="italic">Sprachatlas</hi> Tool</title>
+                <author n="PluschkovitsMarkusPLUSCHKOVITS_Markus_Putting__Linguistic__Research_Data_on_a_.xml"><persName ref="https://orcid.org/0000-0003-1213-9985" n="PluschkovitsMarkus">
+                        <surname>Pluschkovits</surname>
+                        <forename>Markus</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>markus.pluschkovits@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BalJakobPLUSCHKOVITS_Markus_Putting__Linguistic__Research_Data_on_a_.xml"><persName n="BalJakob">
+                        <surname>Bal</surname>
+                        <forename>Jakob</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>jakob.peter.bal@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The DiÖ Sprachatlas tool is a dynamic map creation tool which uses the corpus of a large-scale variationist linguistics project as its source. By utlizing an API, it creates maps on negligible cost. Additionally, it offers a method of making the total corpus transparent and accessible.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Dialectology</term>
+                    <term>Language Maps</term>
+                    <term>APIs</term>
+                    <term>Visualization</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>open access methods</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Ever since the project of the mapping of (German)
+                    linguistic data was started in the early 19<hi rend="superscript">th</hi> century (cf. Rabanus 2005: 346), and arguably reached an early high point with the <hi rend="italic">Sprachatlas des Deutschen Reichs</hi> under the lead of Georg Wenker, putting linguistic data on a map has become a staple of variationist linguistics. The advent of digitalization has had huge implications for not only the production of linguistic maps and atlases (which are often associated with considerable workloads, cf. eg. Rabanus 2005: 345), but also on the reception of them, allowing mere readers of an atlas or map to become users of a powerful tool.</p>
+            <p>The <hi rend="italic">Sprachatlas</hi> of the Special Research Programme<hi rend="italic">Deutsch in Österreich</hi> (‘German in Austria’, henceforth DiÖ) aspires to be such a tool. The <hi rend="italic">Sprachatlas</hi>, which is currently being developed and will be
+                    completed by the end of 2023, aims to be one of the tools by which the language
+                    data collected by DiÖ will be made accessible – not only to other researchers,
+                    but to the general public as well. The data collected by DiÖ is diverse, with
+                    the language data collected ranging from urban to rural locations, native German
+                    speakers to German as a second/third language speakers, older as well as younger
+                    speakers, and with speakers from a variety of educational levels. Additionally,
+                    a variety of settings was employed for the data collection, ranging from
+                    computer-assisted language production experiments to conversations between peers
+                    in absence of a researcher, to capture different levels of formality. Overall,
+                    the data was gathered with the intention to investigate the variety, change,
+                    perception and contact of the different varieties of German in Austria (for
+                    further information, see e.g. Budin et al. 2018).</p>
+            <p>This corpus and its associated metadata, like the
+                    annotations used for linguistic research, form the basis of the DiÖ<hi rend="italic">Sprachatlas</hi>. The <hi rend="italic">Sprachatlas</hi> utilizes an API (= Application Programming Interface) to directly load and chart the research data from the DiÖ database to the user interface. Users can not only listen to the recordings made in the different localities, but can also search for specific tokens, tags, or settings. They can also filter for specific parameters of informants (e.g. age, gender). Furthermore, they can create legends with complex queries, which enable them to map their own research questions using the DiÖ data, which can be queried for specific annotations and filtered by a variety of parameters, like the aforementioned informant parameters. By utilizing an API to map the data, the cost of the production of individual, custom maps is virtually non-existent. In addition to this explorative (cf. Pamperl 2017: 92) or documentative (Girnth 2010: 101) approach to data visualization, pre-defined maps compliment the tool. It therefore doubles as a traditional linguistic atlas where commented maps can be browsed, and the data mapped on it can be listened to. These pre-defined maps will be created using the same method of creating legends with different parameters, with the parameters being saved on our servers.</p>
+            <p>Whilst the <hi rend="italic">Sprachatlas</hi> is not alone in trying to create dynamic maps to chart linguistic research data (other examples include, for example, the Scots Syntax Atlas, the interactive map of the VerbaAlpina project, or LiÖ, the Lexikalisches Informationssystem Österreich [‘Lexical Information System Austria’]), we see great potential in the freedom afforded to its users. The API allows for fully customizable queries on nearly the entirety of the DiÖ-corpus, based on annotations, tokens, settings and the likes, with options for filtering according to informant features such as age or gender, or setting. </p>
+            <p>The development of the <hi rend="italic">Sprachatlas</hi> is open source, and the code will be published on the DiÖ Github repositories (see DiÖ 2022). As of now, the repository is not publicly available yet, as the data the API accesses has not been anonymized. Development will be done by the end of 2023, where the <hi rend="italic">Sprachatlas</hi> will be publicly launched. The main framework used for development is Vue.js (You 2020).</p>
+            <p>We believe that employing an API for the creation of
+                    dynamic, linguistic maps has several advantages. It does not only make it
+                    possible to create a nearly infinite number of maps based on custom parameters
+                    at comparatively little cost to us, it also makes the linguistic research of the
+                    project more transparent: by utilizing the annotations used by our researchers,
+                    and making them chartable on a map, the research data becomes more accessible
+                    and open in accordance with the philosophy of open science (cf. European
+                    Commission 2016: 33–35).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Budin, Gerhard / Elspaß, Stephan / Lenz,
+                            Alexandra N. / Newerkla, Stefan Michael / Ziegler, Arne</hi> (2018): “Der
+                            Spezialforschungsbereich ‘Deutsch in Österreich (DiÖ). Variation –
+                            Kontakt – Perzeption‘“, in:
+                        <hi rend="italic">Zeitschrift für germanistische
+                            Linguistik</hi>
+                         46, 2: 300–398 
+                        <ref target="https://doi-org.uaccess.univie.ac.at/10.1515/zgl-2018-0017">https://doi-org.uaccess.univie.ac.at/10.1515/zgl-2018-0017</ref>
+                         [03.11.2022].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">DiÖ</hi> (2022): 
+                        <hi rend="italic">Github Repositories of the Special
+                            Research Programme Deutsch in Österreich (‘German in Austria‘)</hi>
+                        . Github Repository 
+                        <ref target="https://github.com/german-in-austria">https://github.com/german-in-austria</ref>
+                         [06.04.2023].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">European Commission </hi>(2022): 
+                        <hi rend="italic">Open innovation, Open Science, open
+                            to the world. A vision for Europe</hi>
+                        . European Commission, Directorate-General for
+                            Research and Innovation. 
+                        <ref target="https://dx.doi.org/10.2777/061652">https://dx.doi.org/10.2777/061652</ref>
+                         [03.11.2022].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Girnth, Heiko </hi>(2010): “Mapping Language Data”, in: Lameli, Alfred / Kehrein, Roland / Rabanus, Stefan (eds.): 
+                        <hi rend="italic">Language and Space: An
+                            International Handbook of Linguistic Variation Volume 2</hi>
+                        . Berlin: de Gruyter, 98–121.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pamperl, Beate </hi>(2017): "Visualisierungen in den
+                            Digital Humanities - ein Überblick", in:
+                        <hi rend="italic">Maske und Kothurn</hi>
+                         63, 1: 90–98.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rabanus, Stefan </hi>(2005): “Sprachkartographie des Deutschen: Von Schmeller bis zum Digitalen Wenker-Atlas“, in: Di Meola, Claudio / Hornung, Antonie / Rega, Lorenza (eds.): 
+                        <hi rend="italic">Perspektiven Eins. Akten der 1.
+                            Tagung Deutsche Sprachwissenschaft in Italien (Rom, 6.-7. Februar
+                            2004).</hi>
+                        Rom: Istituto Italiano di Studi Germanici,
+                            345–363.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">You, Evan </hi>(2020): 
+                        <hi rend="italic">Vue.Js. The Progressive JavaScript
+                            Framwork</hi>.
+                        <ref target="https://vuejs.org">https://vuejs.org</ref>
+                         [03.11.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

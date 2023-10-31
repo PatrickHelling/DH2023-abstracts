@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Let data sing the Uyghur Twelve Muqam: A text mining on lyrics</title>
+                <author n="KaiLimaiYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="KaiLimai">
+                        <surname>Kai</surname>
+                        <forename>Limai</forename>
+                    </persName><affiliation>School of Information Resource Management, Research Center for
+                        Digital Humanities, Renmin University of China, China, People's Republic
+                        of</affiliation><email>kalima@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YangZekunYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName ref="https://orcid.org/0000-0003-4040-8476" n="YangZekun">
+                        <surname>Yang</surname>
+                        <forename>Zekun</forename>
+                    </persName><affiliation>School of Information Resource Management, Research Center for
+                        Digital Humanities, Renmin University of China, China, People's Republic
+                        of</affiliation><email>zekunyang@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FengHuilingYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="FengHuiling">
+                        <surname>Feng</surname>
+                        <forename>Huiling</forename>
+                    </persName><affiliation>School of Information Resource Management, Research Center for
+                        Digital Humanities, Renmin University of China, China, People's Republic
+                        of</affiliation><email>fhl@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LiuYuenanYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="LiuYuenan">
+                        <surname>Liu</surname>
+                        <forename>Yuenan</forename>
+                    </persName><affiliation>School of Information Resource Management, Research Center for
+                        Digital Humanities, Renmin University of China, China, People's Republic
+                        of</affiliation><email>liuyuenan@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LiangJihongYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="LiangJihong">
+                        <surname>Liang</surname>
+                        <forename>Jihong</forename>
+                    </persName><affiliation>School of Information Resource Management, Research Center for
+                        Digital Humanities, Renmin University of China, China, People's Republic
+                        of</affiliation><email>liangjihong@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YangHuilinYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="YangHuilin">
+                        <surname>Yang</surname>
+                        <forename>Huilin</forename>
+                    </persName><affiliation>Centre for European Studies/Centre for EU Studies, Renmin
+                        University of China, China, People's Republic of</affiliation><email>yanghuilin@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YanJinYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="YanJin">
+                        <surname>Yan</surname>
+                        <forename>Jin</forename>
+                    </persName><affiliation>Centre for European Studies/Centre for EU Studies, Renmin
+                        University of China, China, People's Republic of</affiliation><email>yanjin@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HuangYanfenYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="HuangYanfen">
+                        <surname>Huang</surname>
+                        <forename>Yanfen</forename>
+                    </persName><affiliation>Centre for European Studies/Centre for EU Studies, Renmin
+                        University of China, China, People's Republic of</affiliation><email>huangyf@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GuanKongwenYANG_Zekun_Let_data_sing_the_Uyghur_Twelve_Muqam__A_text_min.xml"><persName n="GuanKongwen">
+                        <surname>Guan</surname>
+                        <forename>Kongwen</forename>
+                    </persName><affiliation>Centre for European Studies/Centre for EU Studies, Renmin
+                        University of China, China, People's Republic of</affiliation><email>gkw9122@ruc.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Uyghur Twelve Muqam is an Intangible Heritage of Humanity. The project “Let data sing the Uyghur Twelve Muqam” aims at using text mining methods to study Muqam lyrics. This paper demonstrates the preliminary results of the project, including topic modeling, sentiment analysis, and social network analysis on Muqam lyrics.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Uyghur Twelve Muqam</term>
+                    <term>Text Mining</term>
+                    <term>Uyghur Culture</term>
+                    <term>Digital Humanities</term>
+                    <term>Natural Language Processing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>natural language processing</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>Asian studies</term>
+                    <term>Cultural studies</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>Originated in the 4th century, Uyghur Twelve Muqam is
+                        an artistic treasure created by the Uyghur people, which integrates songs,
+                        dances, and instrumental performances (Han &amp; Xiao, 2017a; Harris, 2008;
+                        Tursun et al., 2019). The Uyghur Muqam of Xinjiang was designated as an
+                        Intangible Heritage of Humanity by UNESCO in 2005. Previous research on
+                        Uyghur Twelve Muqam mainly focuses on its history, origin, rhythm, tone,
+                        structure, notation, dance, lyrics, and characters (Anderson, 2012; Han
+                        &amp; Xiao, 2017a; Han &amp; Xiao, 2017b; Imin et al., 2019; Light, 1998).
+                        However, digital humanities methodology has not been applied to study the
+                        Uyghur Twelve Muqam.</p>
+                <p>Thus, we start the project “Let data sing the Uyghur
+                    Twelve Muqam”, which applies text mining methods to gain deeper insights into
+                    Muqam lyrics. This paper demonstrates the preliminary results, which discover
+                    new insights beyond existing qualitative research on Muqam, including new Muqam
+                    poem topics, sentiment styles of individual poets, and topic similarity among
+                    poets.</p>
+            </div>
+            <div>
+                <head>Method</head>
+                <p>We conduct topic modeling, sentiment analysis, and
+                    social network analysis to analyze Muqam lyrics. The techniques used and the
+                    common techniques shared among the three text mining approaches are shown in
+                    Figure 1.</p>
+                <figure>
+                    <graphic n="1001" width="9.489722222222222cm" height="10.017125cm" url="Pictures/67ef4bd8805b867b7f419367064a306e.png" rend="inline"/>
+                    <head>Figure 1: Text Mining Methods Used in the Project</head>
+                </figure>
+                <lb/>
+            </div>
+            <div>
+                <head>Corpus</head>
+                <p>The Chinese-translated Muqam lyrics corpus is
+                        gathered from two Uyghur Twelve Muqam books (Dawamat, 1997; Li &amp; Meng,
+                        2008). The corpus contains twelve sets of Muqam, each composed of three
+                        parts, each part is further separated into two to thirteen smaller parts,
+                        and each smaller part contains one to five poems. Figure 2 shows the
+                        structure of a Muqam.</p>
+                <figure>
+                    <graphic n="1002" width="10.693613888888889cm" height="10.638252777777778cm" url="Pictures/4708ddbb03aeaf694772ab2f2a31c0fb.png" rend="inline"/>
+                    <head>Figure 2: The Structure of the Muqam </head>
+                </figure>
+                <lb/>
+            </div>
+            <div>
+                <head>Preliminary Experimental Results</head>
+                <p>Next, we demonstrate the preliminary results of
+                        mining Uyghur Twelve Muqam lyrics using topic modeling, sentiment analysis,
+                        and social network analysis.</p>
+                <div>
+                    <head>Topic Modeling</head>
+                    <p>We apply the statistical topic model Latent
+                            Dirichlet Allocation (LDA) to extract topics of semantically related
+                            words in Muqam poems, instead of manually identifying topics. We first
+                            preprocess the Muqam text using tokenization and POS tagging methods in
+                            the Python package Jieba, and keep only the nouns and adjectives in the
+                            poems for topic modeling. Then, we use the Python package scikit-learn
+                            to conduct LDA. By calculating the elbow point based on perplexity
+                            (shown in Figure 3), we set the number of topics of LDA to eight. Figure
+                            4 shows the eight topics identified. Among the eight topics, four are
+                            already identified by previous research, which are love, cry, disaster,
+                            and faith (Zhou, 1995). The other four topics, including appearance,
+                            wine, kingdom, and garden, are newly discovered by our research.</p>
+                    <figure>
+                        <graphic n="1003" width="14.65086111111111cm" height="8.214430555555555cm" url="Pictures/1feabf46d153bd9856a49b3f9140dfca.png" rend="inline"/>
+                        <head>Figure 3: Perplexity of LDA </head>
+                    </figure>
+                    <figure>
+                        <graphic n="1004" width="16.002cm" height="11.752791666666667cm" url="Pictures/fdebfb2e45b0b717adbe97c95030ec52.png" rend="inline"/>
+                        <head>Figure 4: Topic Modeling of Uyghur Twelve Muqam</head>
+                    </figure>
+                    <lb/>
+                </div>
+                <div>
+                    <head>Sentiment Analysis</head>
+                    <p>Sentiment analysis identifies emotion from texts.
+                            Previous Muqam research studies the sentiment difference among different
+                            parts of Muqam, while the sentiment difference among different poets has
+                            not been investigated. Thus, we employ the Python package baidu-aip to
+                            directly calculate the sentiment of each poem and analyze the sentiment
+                            distribution of poets. The number and percentage of positive poems
+                            written by each of the Muqam poets are shown in Figure 5. We could
+                            observe that among the 41 poets, 31 prefer to write comedies, and only
+                            five write more tragedies.</p>
+                    <figure>
+                        <graphic n="1005" width="14.65086111111111cm" height="18.473208333333332cm" url="Pictures/75822417bf64307cc3936fbb0a5639f7.jpeg" rend="inline"/>
+                        <head>Figure 5: Sentiment Distribution of Muqam Poets</head>
+                    </figure>
+                    <lb/>
+                </div>
+                <div>
+                    <head>Social Network Analysis</head>
+                    <p>Social network analysis measures relationships
+                            between social actors. While previous research focuses on analyzing
+                            Muqam poets individually (Zhou, 2006), social network analysis could
+                            discover the topic similarity relationship between multiple poets. We
+                            select nouns that appear more than ten times in Muqam poems, calculate
+                            the noun co-occurrence between poets, and visualize the co-occurrence
+                            relationship using a social network via Gephi. Figure 6 shows the noun
+                            co-occurrence network between Muqam poets. The thicker the lines in the
+                            graph, the greater number of nouns shared by the two poets. We could
+                            observe that many poets share similar nouns and topics in their
+                            poems.</p>
+                    <figure>
+                        <graphic n="1006" width="14.65086111111111cm" height="14.65086111111111cm" url="Pictures/c1b4199ec006ac1bb110c5071d7d47c6.png" rend="inline"/>
+                        <head>Figure 6: Noun Co-Occurrence Graph Between Muqam Poets</head>
+                    </figure>
+                    <lb/>
+                </div>
+            </div>
+            <div>
+                <head>Conclusion and Future Work</head>
+                <p>In this paper, we introduce the preliminary results
+                        of our project “Let data sing the Uyghur Twelve Muqam”. Based on text
+                        mining, we discover Muqam poem topics, sentiment styles of individual poets,
+                        and topic similarity among poets that have not been discovered by previous
+                        qualitative Muqam research. In the next phase of the project, we will
+                        develop natural language processing tools for Uyghur, and use these
+                        self-developed tools to analyze the Uyghur version of Muqam poems.</p>
+                <p>Zekun Yang is the corresponding author and can be
+                    contacted at <ref target="mailto:zekunyang@ruc.edu.cn">zekunyang@ruc.edu.cn</ref></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Anderson, Elise</author>
+                         (2012): “The Construction of Āmānnisā Khan as a Uyghur Musical Culture Hero”, in: 
+                        <hi rend="italic">Asian Music</hi>
+                         43,1: 64-90.
+                    </bibl>
+                    <bibl>
+                        <author>Dawamat, Tumur (Eds.)</author> / <author>Xinjiang Uygur Autonomous Region Twelve Muqam Research Society</author> / <author>Xinjiang Uygur Autonomous Region Classical Literature Research Society</author> 
+                         (1997): 
+                        <hi rend="italic">Uyghur Twelve Muqam</hi>
+                        . China Encyclopedia Publishing House.
+                    </bibl>
+                    <bibl>
+                        <author>Han, Yunxia</author> / <author>Xiao, Xuejun</author> 
+                         (2017a): “Summary of The Twelve Muqam study (1949-2015) (1) (Chinese)” in: 
+                        <hi rend="italic">Journal of Xinjiang Arts
+                            University</hi>
+                         15, 1:8–25.
+                    </bibl>
+                    <bibl>
+                        <author>Han, Yunxia</author> / <author>Xiao, Xuejun</author> 
+                         (2017b): “Summary of The Twelve Muqam study (1949-2015) (2) (Chinese)” in: 
+                        <hi rend="italic">Journal of Xinjiang Arts
+                            University</hi>
+                         15, 2:1–10.
+                    </bibl>
+                    <bibl>
+                        <author>Harris, Rachel</author> (2008):
+                        <hi rend="italic">The making of a musical canon in
+                            Chinese Central Asia: the Uyghur Twelve Muqam</hi>.
+                         Ashgate Publishing, Ltd.
+                    </bibl>
+                    <bibl>
+                        <author>Imin, Nurbiye</author> / <author>Tudaji, Rehemitulla</author> / <author>Juma, Osman</author> 
+                         (2019): “Study on China's Uyghur Twelve Muqam in the Past 40 Years of Reform and Opening up”, in: 
+                        <hi rend="italic">Third International Conference on
+                            Art Studies: Science, Experience, Education</hi>
+                        , Moscow, Russia, October 2019 :78-80. DOI:
+                            10.2991/icassee-19.2019.15
+                    </bibl>
+                    <bibl>
+                        <author>Li, Dongming</author> / <author>Meng, Xing</author> 
+                         (Eds.) (2008): 
+                        <hi rend="italic">Twelve Muqam Lyrics (1st ed.).</hi>
+                         Xinjiang People’s Publishing House.
+                    </bibl>
+                    <bibl>
+                        <author>Light, Nathan</author>
+                         (1998): 
+                        <hi rend="italic">Slippery paths: the performance and
+                            canonization of Turkic literature and Uyghur Muqam song in Islam and
+                            modernity</hi>
+                        . Ph.D. Thesis, Indiana University.
+                    </bibl>
+                    <bibl>
+                        <author>Tursun, Guzelnur</author> / <author>Tudaji, Rehemitulla</author> / <author>Juma, Osman</author> 
+                         (2019): “Overview of China's Uyghur Twelve Muqam in the Past 40 Years of Reform and Opening up”. in: 
+                        <hi rend="italic">Third International Conference on
+                            Art Studies: Science, Experience, Education</hi>
+                        , Moscow, Russia, October 2019 :78-80. DOI: 10.2991/icassee-19.2019.35  
+                    </bibl>
+                    <bibl>
+                        <author>Zhou, Ji </author>
+                        (1995): “Ten topics in the Uyghur Twelve Muqam (Continued 1) (Chinese)”, in: 
+                        <hi rend="italic">Journal of Xinjiang Normal
+                            University (Edition of Philosophy and Social Science)</hi>
+                        , 2: 14–25.
+                    </bibl>
+                    <bibl>
+                        <author>Zhou, Ji</author>
+                         (2006): “A review of Uyghur Muqam research in the 20th century (Chinese)”. in: 
+                        <hi rend="italic">Journal of Xinjiang Arts
+                            University</hi>
+                        , 4, 11–17.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

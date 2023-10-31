@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>An Undue Burden: Race, Gender, and Mobility in Digital Humanities Conferences</title>
+                <author n="SiddiquiNabeelSIDDIQUI_Nabeel_An_Undue_Burden__Race__Gender__and_Mobility_.xml"><persName n="SiddiquiNabeel">
+                        <surname>Siddiqui</surname>
+                        <forename>Nabeel</forename>
+                    </persName><affiliation>Susquehanna University, United States of America</affiliation><email>nabeel88@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This project draws on the Index of DH Conferences compiled by Scott Weingart, Matthew Lincoln, and Nickoal Eichmann-Kalwara that covers approximately 60 years of DH conferences, 7300 presentations, 8650 different authors, 1850 institutions, and 8 countries (Lincoln et al., 2021). The objective was to assess how the burden of conference travel— represented by a measure of distance traversed—differs based on race, gender, work type (keynote, paper, workshop, and poster), and previous authorship.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>mapping</term>
+                    <term>conferences</term>
+                    <term>statistics</term>
+                    <term>GIS</term>
+                    <term>identity</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>Library &amp; information science</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In academia, the conference is a ubiquitous entity. We are inundated with their calls for papers, deadlines, schedules, and travel requirements. Yet, while conferences appear routine, there has been minimal research regarding them as sites of knowledge production. This presentation draws attention to Digital Humanities (DH) conferences as locationss of neoliberal production that contribute to the current emphasis on self-monitoring, creativity, and flexibility under late capitalism. Moreover, it makes evident how conference attendance disproportionately affects marginalized scholars and hinders collaborations.</p>
+            <p>This study examines how distance traveled for conference attendance differs based on race, gender, work type, previous authorship, and author's country using the Index of DH Conferences, which covers approximately 60 years and includes 7300 presentations, 8650 different authors, 1850 institutions, and 8 countries. It utilizes a reverse geocoding API to calculate the distance between the location of each author's institutional affiliation and the conference destination. When location could not be determined through these parameters, attempts were made to determine location by city affiliation or national affiliation. A generalized linear model (negative binomial with a log-link function) was selected to analyze the model, as overdispersion in the data was observed. The project used distance as the response variable and predictors such as race, gender, previous presentations, work type, authorship order, and author's country. Standardized parameters were obtained by fitting the model to a standardized version of the dataset. 95% Confidence Intervals (CIs) and p-values were calculated using a Wald z-distribution approximation. The Nagelkerke's R-squared was 0.18, indicating a moderate explanatory power of the model. The results showed that male gender was statistically significant and positively related to distance, as were previous presentations and low authorship order. Over 80 countries were examined as predictors, and most demonstrated statistically significant negative values, suggesting a general unwillingness of presenters to travel long distances.</p>
+            <p>The findings of this study call attention to the significant negative impact of conference location and heteronormative-masculinity on marginalized scholars in the field of Digital Humanities. The results indicate that individuals from certain countries and inferred females face additional hurdles in terms of distance travel for conference attendance. These often-imperceptible barriers can result in a lack of representation of diverse groups of scholars in the DH community. After providing an overview of the findings along with their limitations, this presentation discusses practical steps that digital humanities organizations can take to renew their desire for inclusion and collaboration.</p>
+        </body>
+    </text></TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration with citizens and its revolutionary potential in the digital humanities</title>
+                <author n="HeinischBarbaraHEINISCH_Barbara_Collaboration_with_citizens_and_its_revolut.xml"><persName n="HeinischBarbara">
+                        <surname>Heinisch</surname>
+                        <forename>Barbara</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>barbara.heinisch@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Collaboration with members of the public in (digital) humanities research enjoys increasing popularity. Researchers may recruit participants on citizen science platforms. Based on the analysis of citizen science platforms and drawing from the literature on citizen science, this conceptual paper highlights the revolutionary potential of citizen science in the digital humanities, which may open up new ways of collaboration beyond academia.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>citizen science</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>crowdsourcing</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Collaboration with members of the public in (digital) humanities research enjoys increasing popularity in many disciplines, including lexicography, history or art. The contributions of citizens to the digital humanities in the form of citizen science (ECSA 2020) include data collection, transcription or annotation. </p>
+            <p>Based on the nature of a project, researchers may resort to the recruitment of participants on dedicated citizen science platforms. These platforms are particularly suitable for crowdsourcing small tasks that can be completed by a large number of people. These citizen science platforms usually feature different citizen science projects to which volunteers may contribute online. These include global platforms (
+                <hi rend="italic">SciStarter, Zooniverse</hi>), European (
+                <hi rend="italic">EU-Citizen.Science),</hi> national (
+                <hi rend="italic">Bürger schaffen Wissen, Österreich forscht, Schweiz forscht</hi>) or specialised platforms featuring only citizen science projects from a certain discipline, such as 
+                <hi rend="italic">LanguageARC</hi> (Fiumara et al. 2020) for linguistics, 
+                <hi rend="italic">ARTigo</hi> (Bry / Schefels 2016) for art history or 
+                <hi rend="italic">MicroPasts</hi> (Bonacchi et al. 2019)
+                 for archaeology and heritage projects. In addition, there are platforms in the field of citizen science that rather focus on a certain type of activity, such as transcription and translation (
+                <hi rend="italic">FromThePage</hi>) or data collection with georeferencing (
+                <hi rend="italic">SPOTTERON</hi>). 
+            </p>
+            <p>Based on the analysis of these general and specialised citizen science platforms featuring projects that are rather crowdsourcing and collaborative projects (Bonney et al. 2009) and drawing from the literature on citizen science, this conceptual paper highlights the transformative and revolutionary potential of citizen science in the digital humanities, which may open up new ways of collaboration beyond academia. Nevertheless, it also assesses the risks and boundaries of citizen science in the digital humanities.</p>
+            <p>The revolutionary potential of citizen science can be found in opening up science, democratising science (Irwin 1995; Scanlon / Herodotou 2022), allowing for the consideration of a diversity of epistemologies in research (Jaeger et al. 2022), improving scientific literacy and education (Ceccaroni et al. 2017; Queiruga-Dios et al. 2020), increasing trust in science and having transformative potential to reach the Sustainable Development Goals (Fritz et al. 2019). However, this transformative potential can only be realised to a limited extent on the aforementioned citizen science platforms. This is due to the nature of the platforms which already predetermines the type of collaboration with participants. Digital humanities projects on these platforms often focus on activities in the form of microtasks that can easily be done online alone from home and do usually not require much interaction between the researchers and participants. However, specialised digital humanities platforms have the advantage that they are specifically targeted towards the needs of the projects. This might decrease anonymity, increase the feeling of belonging among the participants and create a more engaged community that is contributing for a longer period of time or more frequently over the course of the project. However, this would need to be investigated further.</p>
+            <p>There are also risks and limitations associated with conducting citizen science (on these platforms). These include questions related to law, ethics, research integrity, copyright, citizen scholarship, FAIR data, sustainability, power relations, volunteer work and actual societal impact of digital humanities projects that draw on members of the public in their research.</p>
+            <p>While this conceptual paper identifies some revolutionary potential of citizen science in the digital humanities focussing on citizen science platforms, it also highlights that not all digital humanities projects are suited for the engagement of members of the public. Furthermore, it emphasises that citizen science platforms predetermine the ways of collaboration with the public, while providing access to a larger number of potential contributors.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        
+                        
+                        <author>Bonacchi, Chiara</author> / <author>Bevan, Andrew</author> / <author>Keinan-Schoonbaert, Adi</author> / <author>Pett, Daniel</author> / <author>Wexler, Jennifer</author>  (2019): “Participation in heritage crowdsourcing”, in: Museum Management and Curatorship 34, 2: 166–182. 
+                    </bibl>
+                    <bibl>
+                        <author>Bonney, Rick</author> / <author>Ballard, Heidi</author> / <author>Jordan, Rebecca</author> / <author>McCallie, Ellen</author> / <author>Phillips, Tina</author> / <author>Shirk, Jennifer</author> / <author>Wilderman, Candie C.</author>  (2009): 
+                        <hi rend="italic">Public Participation in Scientific Research: Defining the Field and Assessing Its Potential for Informal Science Education. A CAISE Inquiry Group Report</hi>. Center for Advancement of Informal Science Education. 
+                        <ref target="http://files.eric.ed.gov/fulltext/ED519688.pdf">http://files.eric.ed.gov/fulltext/ED519688.pdf</ref>.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Bry, Francois</author> / <author>Schefels, Clemens</author> (2016): 
+                        <hi rend="italic">An Analysis of the ARTigo Gaming Ecosystem With a Purpose</hi>, 1–10. 
+                        <ref target="https://www.en.pms.ifi.lmu.de/publications/PMS-FB/PMS-FB-2016-6/PMS-FB-2016-6-paper.pdf">https://www.en.pms.ifi.lmu.de/publications/PMS-FB/PMS-FB-2016-6/PMS-FB-2016-6-paper.pdf</ref>.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Ceccaroni, Luigi</author> / <author>Bowser, Anne</author> / <author>Brenton, Peter</author>  (2017): “Civic Education and Citizen Science”, in: Ceccaroni, Luigi / Piera, Jaume (eds.): 
+                        <hi rend="italic">Analyzing the role of citizen science in modern research</hi>. Hershey PA, Information Science Reference, 1–23.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>ECSA</author> (2020): 
+                        <hi rend="italic">ECSA’s characteristics of citizen science</hi>. 
+                        <ref target="https://ecsa.citizen-science.net/sites/default/files/ecsa_characteristics_of_citizen_science_-_v1_final.pdf">https://ecsa.citizen-science.net/sites/default/files/ecsa_characteristics_of_citizen_science_-_v1_final.pdf</ref>.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Fiumara, James</author> / <author>Cieri, Christopher</author> / <author>Wright, Jonathan</author> / <author>Liberman, Mark</author>  (2020): “LanguageARC: Developing Language Resources Through Citizen Linguistics”, in: 
+                        <hi rend="italic">Proceedings of the LREC 2020 Workshop “Citizen Linguistics in Language Resource Development”</hi>. Language Resources and Evaluation Conference (LREC 2020), Marseille, 11–16 May 2020, 1–6.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Fritz, Steffen</author> / <author>See, Linda</author> / <author>Carlson, Tyler</author> / <author>Haklay, Mordechai</author> / <author>Oliver, Jessie L.</author> / <author>Fraisl, Dilek</author> / <author>Mondardini, Rosy</author> / <author>Brocklehurst, Martin</author> / <author>Shanley, Lea A.</author> / <author>Schade, Sven</author> / <author>Wehn, Uta</author> / <author>Abrate, Tommaso</author> / <author>Anstee, Janet</author> / <author>Arnold, Stephan</author> / <author>Billot, Matthew</author> / <author>Campbell, Jillian</author> / <author>Espey, Jessica</author> / <author>Gold, Margaret</author> / <author>Hager, Gerid</author> / <author>He, Shan</author> / <author>Hepburn, Libby</author> / <author>Hsu, Angel</author> / <author>Long, Deborah</author> / <author>Masó, Joan</author> / <author>McCallum, Ian</author> / <author>Muniafu, Maina</author> / <author>Moorthy, Inian</author> / <author>Obersteiner, Michael</author> / <author>Parker, Alison J.</author> / <author>Weisspflug, Maike</author> / <author>West, Sarah</author>  (2019): “Citizen science and the United Nations Sustainable Development Goals”, in: Nature Sustainability 2, 10: 922–930.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Irwin, Alan</author> (1995): 
+                        <hi rend="italic">Citizen science. A study of people, expertise and sustainable development</hi>. London [u.a.], Routledge.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Jaeger, Johannes</author> / <author>Masselot, Camille</author> / <author>Greshake Tzovaras, Bastian</author> / <author>Senabre Hidalgo, Enric</author> / <author>Haklay, Muki</author> / <author>Santolini, Marc</author>  (2022): 
+                        <hi rend="italic">An Epistemology for Democratic Citizen Science</hi>. 
+                        <ref target="https://doi.org/10.31219/osf.io/j62sb">https://doi.org/10.31219/osf.io/j62sb</ref>.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Queiruga-Dios, Miguel Ángel</author> / <author>López-Iñesta, Emilia</author> / <author>Diez-Ojeda, María</author> / <author>Sáiz-Manzanares, María Consuelo</author> / <author>Vázquez Dorrío, José Benito</author>  (2020): “Citizen Science for Scientific Literacy and the Attainment of Sustainable Development Goals in Formal Education”, in: Sustainability 12, 10: 1–18.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Scanlon, Eileen</author> / <author>Herodotou, Christothea</author>  (2022): “Advancing the Democratization of Research: Citizen Science”, in: Kizilcec, René F. (ed.): 
+                        <hi rend="italic">Proceedings of the Ninth ACM Conference on Learning Scale</hi>, New York City, Association for Computing Machinery, 280–283.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

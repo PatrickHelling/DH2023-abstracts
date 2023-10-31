@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The digital edition as a nexus of documents and data for historical research: the example of the Imperial Diet records of 1576</title>
+                <author n="BleierRomanBLEIER_Roman_The_digital_edition_as_a_nexus_of_documents_and.xml"><persName ref="https://orcid.org/0000-0003-4674-1042" n="BleierRoman">
+                        <surname>Bleier</surname>
+                        <forename>Roman</forename>
+                    </persName><affiliation>University of Graz, Austria; Historical Commission at the Bavarian Academy of Sciences and Humanities</affiliation><email>roman.bleier@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OrtliebEvaBLEIER_Roman_The_digital_edition_as_a_nexus_of_documents_and.xml"><persName n="OrtliebEva">
+                        <surname>Ortlieb</surname>
+                        <forename>Eva</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>eva.ortlieb@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZeilingerFlorianBLEIER_Roman_The_digital_edition_as_a_nexus_of_documents_and.xml"><persName n="ZeilingerFlorian">
+                        <surname>Zeilinger</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>Historical Commission at the Bavarian Academy of Sciences and Humanities</affiliation><email>florian.zeilinger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The short paper will discuss the data that was generated during the editing of the records of the Imperial Diet of 1576. In a case study we will use data from our manuscript database and from the edited texts to analyse different dates and events mentioned in the records.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital edition</term>
+                    <term>early modern period</term>
+                    <term>Imperial Diet</term>
+                    <term>timeline</term>
+                    <term>parliamentary data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Political assemblies are viewed and documented through a media lens, sometimes resulting in a great amount of written material. In the early modern period, the Imperial Diet (<hi rend="italic">Reichstag</hi>) played a central role in the constitutional structure of the Holy Roman Empire and had a significant impact on European politics. The Imperial Diets of the 16th century were usually held at intervals of several years in different places and over several weeks. Documents resulting from these events have been continuously edited by the Historical Commission at the Bavarian Academy of Sciences (HiKo) since the 19th century (Wolgast 2005). Since 2018, a collaborative project of the HiKo and the University of Graz developed the first digital scholarly edition of the Imperial Diet’s records of 1576 (RTA 1576). The edition and its data are stored in the GAMS, the digital asset management system developed and maintained at the Center for Information Modelling (ZIM) in Graz (Stigler / Steiner 2018).</p>
+            <p>The Imperial Diet of 1576 was a major European event. Emperor Maximilian II and more than 200 representatives of the imperial estates (<hi rend="italic">Reichsstände</hi>) met in Regensburg to discuss and decide on the political fate of (Eastern) Central Europe. Records from this event include documents exchanged during the negotiations (<hi rend="italic">Verhandlungsakten</hi>), minutes and reports. In editing the RTA 1576, the same high editing standards are applied and the same types of texts have been edited as in previous editions, supplemented by some reports and more minutes, as it is mainly these sources that document the interaction and decision-making at the Diet which are in the focus of current research. In addition, for the first time a database of surviving manuscripts (archival documentation) lists the corresponding central archival holdings at the level of files. This makes the selection of sources for the transcription more transparent. The archival documentation holds metadata of about 10,000 documents from 34 archives stored in TEI/XML format, the selection made in order to depict the diversity of the empire - geographically as well as in terms of estates and confessions. The transcriptions of the central documents were enriched with TEI/XML markup to allow a more in depth study of the event (Bleier / Zeilinger / Vogeler 2022).</p>
+            <p>The edition is developed as an assertive edition (Vogeler 2019), a scholarly representation of the historical documents in which the information on facts is asserted by the transcription. Following the digital paradigm, central information is provided as structured data and allows the user/reader to make use of the edition in a way that was not possible with print editions. The idea behind the project is to offer more data (dates, names, topics,) than a classic edition can and tools as a basis for answering a wider variety of research questions. The digital format also allows for visual representations, the most important of which is a timeline.</p>
+            <p>The timeline represents dates from the archival documentation, the edited texts and indexes providing further information. The dates include the arrival of persons, days of ceremonial events, of official and informal meetings mentioned in texts as well as days documents were issued, arrived, were submitted as a basis for negotiations and read to those who had to decide. Starting from the timeline, users will be able, for example, to find out about meetings and to compare different minutes and reports about them across the entire edition. What was protocolled by whom in which way? What persons were involved in which meetings and which topics were discussed? Further research questions not necessarily focusing on the Diet as a political meeting may also be envisaged, for example, how long did it take for a letter to arrive in Regensburg, when was it recorded, submitted and read and what does this tell us about chancery practices and postal routes?</p>
+            <p>In the short paper we will give an overview of the data generated during the editing process, present our methods and some results of the analysis. We will then discuss our timeline visualisation and its potential to answer different research questions.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Bleier, Roman / Zeilinger, Florian / Vogeler, Georg</hi> (2022): “From Early Modern Deliberation to the Semantic Web”, in: Matti La Mela / Fredrik Norén / Eero Hyvönen (eds.): 
+                        <hi rend="italic">Proceedings of the Digital Parliamentary Data in Action (DiPaDa) Workshop 2022</hi>
+                        : 86–100 
+                        <ref target="http://ceur-ws.org/Vol-3133/">http://ceur-ws.org/Vol-3133</ref>
+                         [20.4.2023].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Haug-Moritz, Gabriele</hi> (2021): “Deliberieren. Zur ständisch-parlamentarischen Beratungskultur im Lateineuropa des 16. Jahrhunderts”, in: 
+                        <hi rend="italic">Historisches Jahrbuch</hi>
+                         141: 114–155.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stigler, Johannes H. / Steiner, Elisabeth</hi> (2018): “GAMS – Eine Infrastruktur zur Langzeitarchivierung und Publikation geisteswissenschaftlicher Forschungsdaten”, in: 
+                        <hi rend="italic">Mitteilungen der Vereinigung Österreichischer Bibliothekarinnen und Bibliothekare</hi>
+                         71, 1: 207–216. DOI: 10.31263/voebm.v71i1.1992.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Thaller, Manfred</hi> (2005): “Reproduktion, Erschließung, Edition, Interpretation: Ihre Beziehungen in einer digitalen Welt”, in: Brigitte Merta / Andrea Sommerlechner / Herwig Weigl (eds.): 
+                        <hi rend="italic">Vom Nutzen des Edierens: Akten des internationalen Kongresses zum 150-jährigen Bestehen des Instituts für Österreichische Geschichtsforschung</hi>
+                        , Wien 205–227.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vogeler, Georg</hi> (2019): “The ‘assertive edition’. On the consequences of digital methods in scholarly editing for historians”, in: 
+                        <hi rend="italic">International Journal of Digital Humanities </hi>
+                        1: 309–322. DOI: 10.1007/s42803-019-00025-5.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vogeler, Georg / Pollin, Christopher / Bleier, Roman</hi> (2022): “„Ich glaube, Fakt ist...“: Der geschichtswissenschaftliche Zugang zum digitalen Edieren”, in: Karoline Dominika Döring / Stefan Haas / Mareike König / Jörg Wettlaufer (eds.): 
+                        <hi rend="italic">Digital History: Konzepte, Methoden und Kritiken Digitaler Geschichtswissenschaft</hi>
+                        , Berlin, Boston. DOI: 10.1515/9783110757101-010.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wolgast, Eike</hi> (2005): “Die Geschichte der Reichstage ist die Geschichte der Regierung von Deutschland…”, in: 
+                        <hi rend="italic">Akademie Aktuell</hi>
+                         13, 1: 39–44. <ref target="https://badw.de/fileadmin/pub/akademieAktuell/2005/13/15_wolgast.pdf">https://badw.de/fileadmin/pub/akademieAktuell/2005/13/15_wolgast.pdf</ref> [20.4.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

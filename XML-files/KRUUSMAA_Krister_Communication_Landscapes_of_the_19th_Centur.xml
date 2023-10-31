@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Communication Landscapes of the 19th Century: The Speed, Geographical
+                    Coverage and Content of News in the <hi rend="italic">Rigasche
+                    Zeitung</hi></title>
+                <author n="KruusmaaKristerKRUUSMAA_Krister_Communication_Landscapes_of_the_19th_Centur.xml"><persName n="KruusmaaKrister">
+                        <surname>Kruusmaa</surname>
+                        <forename>Krister</forename>
+                    </persName><affiliation>National Library of Estonia</affiliation><email>krister.kruusmaa@hotmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In 19th century newspapers, news were almost always accompanied by the content’s date and place of origin.Using these data from a vast corpus of digitized newspapers (ca 300 000 articles) and topic modelling, this presentation aims to map the European press network as seen from the Baltics.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>newspapers</term>
+                    <term>19th century</term>
+                    <term>text mining</term>
+                    <term>topic modelling</term>
+                    <term>spatial analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>History</term>
+                    <term>Central/Eastern European Studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Before modern communication networks, the source of each piece of information was
+                    given explicit emphasis. Pre-20 <hi rend="superscript">th</hi> century
+                    newspapers were essentially a chain of messages, each one accompanied by its
+                    date and place of origin (Slauter 2012). These pieces of information which I
+                    call <hi rend="bold">place-date headings</hi>, served as both a structuring
+                    element and an indication of trustworthiness, allowing readers to contextualize
+                    information that may have passed through many ports and towns before reaching
+                    them. </p>
+                <p>Although the circulation of news is a rapidly growing area of interest in
+                    historical research, existing methods mainly rely on text reuse detection. <ref target="#KRUUSMAA_Krister_Communication_Landscapes_of_the_19th_Centur.xml_ftn1" n="1"/> While this method is useful for analysing the long-term circulation and
+                    spread of textual motifs, it also has its limitations. Firstly, it requires high
+                    computational resources, and secondly, there is currently no easy way to apply
+                    text reuse across language borders. Although place-date headings can offer
+                    solutions to both problems and some studies have used them (Castellanos et al.
+                    2020, Oiva et al. 2020, Ryan 2018), there is still significant potential for
+                    further exploration and systematization. This presentation aims to use a large
+                    corpus of German-language newspapers to map the 19th-century European
+                    communication network as seen from the Baltic provinces of the Russian Empire,
+                    showcasing the value of this approach (Kruusmaa &amp; Vanamölder 2023). </p>
+            </div>
+            <div type="div1">
+                <head>Data and methods</head>
+                <p>The corpus consists of 18,499 issues of the German-language newspaper <hi rend="italic">Rigasche Zeitung</hi> published between 1802-1888. <ref target="#KRUUSMAA_Krister_Communication_Landscapes_of_the_19th_Centur.xml_ftn2" n="2"/> Published in Riga, one of the principal economic centres of the Baltic
+                    Sea, it was arguably the most important daily periodical in the Baltic provinces
+                    of the Russian empire. It primarily catered to the German-speaking elites of the
+                    region but also strongly influenced the emerging local press in Estonian and
+                    Latvian languages. </p>
+                <p>Because of their relatively standardized nature, place-date headings in the
+                    corpus can be captured with regular expressions. They require attention to OCR
+                    and spelling variations but do not need training data and are easily adjustable
+                    to eliminate false positives. This is a considerable advantage compared to NER,
+                    which can require requires a large amount of annotations and can still yield
+                    unsatisfactory results due to OCR errors and the difficulties of training a
+                    model to fit historical text.</p>
+                <p>Using regular expressions, I detected over 200 000 place-date pairs in the
+                    corpus. I verified all the place names that occur at least 20 times (350
+                    different locations) and linked them to coordinates. I then compared the dates
+                    to the newspaper’s publication dates to calculate the time it took for a given
+                    news item to reach Riga. The resulting data allows us to examine, for example,
+                    how the average time for news from New York or Istanbul to reach Riga gradually
+                    decreased during the century (see Fig. 1). I also applied a recent method,
+                    top2vec (Angelov 2020), to model the underlying topics of the sections that
+                    follow the place names and dates.</p>
+                <figure>
+                    <graphic n="1001" width="15.998472222222222cm" height="7.9551388888888885cm" url="Pictures/b3c15438b1c1f2ee50bf8aff4c084583.png" rend="inline"/>
+                    <head>Figure 1: News speed from given locations (shown with a rolling average of
+                        3 years)</head>
+                </figure>
+                <p>The analysis reveals long-term changes in the history of communications. Firstly,
+                    the geographical distribution of the news and their speed reflects Riga’s close
+                    connection to the German cultural and economic sphere. The travel time of news
+                    can be visualized intuitively with map transformations that stretch distance
+                    based on the average speed of news (see Fig. 2). The most frequently mentioned
+                    places of origin are found in German areas, while locations in the Russian
+                    empire are mostly limited to St. Petersburg, the imperial capital, and some
+                    other Russian cities trailing far behind. News from European overseas colonies,
+                    the United States and Asia also make up a reasonable part of the news.</p>
+                <p>Long-term analysis also makes it possible to observe the impact that the
+                    introduction of railway transport and telegraph networks had on Riga in the
+                    early 1860s. This is reflected in the speed of news which drops to just a few
+                    days for many distant locations. It also affects the geographic distribution of
+                    news, as commerce and communication become increasingly centred on a small
+                    number of interconnected metropolises. In 1870-1890 for example, half of the
+                    information in the newspaper comes only from four places: Paris, London, St.
+                    Petersburg and Vienna.</p>
+            </div>
+            <div type="div1">
+                <head>Applications to historical research</head>
+                <p>While place-date headings provide insight into long-term changes, they also allow
+                    us to examine specific historical events by providing an overview of the source
+                    of news. In a case study on the Crimean War (1853-1856), I demonstrate their
+                    potential when combined with topic modelling. Among the 385 topics identified in
+                    the corpus, four have a direct connection to the war, labeled as <hi rend="italic">war events</hi>, <hi rend="italic">navy</hi>, <hi rend="italic">recruitment</hi>, and <hi rend="italic">reinforcement</hi>.
+                    The temporal distribution of these topics closely matches developments in the
+                    war. </p>
+                <figure>
+                    <graphic n="1002" width="11.049cm" height="10.31875cm" url="Pictures/dee64bf4e767a1ead207f20f859f76bd.png" rend="inline"/>
+                    <head>Figure 2: Spatial visualiszation of time for news to reach Riga, in the
+                        pre-industrial period, 1802–1859</head>
+                </figure>
+                <p>Examining the place-date headings of news in these topics reveals that residents
+                    of Riga relied mainly on sources from Western Europe for information about the
+                    war. Paris and London, the capitals of Russia's rival powers in the war, were
+                    the main sources of significant news. Throughout the conflict, England and
+                    France invested heavily in communication with the war zone and had greater press
+                    freedom than Russia, which struggled with slow connections to its borderlands
+                    and attempted to censor any war news in the domestic press. Readers in Riga were
+                    aware of their reliance on their adversaries' information sphere, as Western
+                    news about the war were occasionally accompanied by editorial comments
+                    attempting to refute the information.</p>
+                <p>Place-date headings provide a straightforward and effective means of studying
+                    news circulation. They are an integral part of a newspaper's structure, enabling
+                    analysis with minimal computational costs and across languages. They are useful
+                    for uncovering both long-term changes in the communication networks used by the
+                    press and for studying the circulation dynamics of specific events.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KRUUSMAA_Krister_Communication_Landscapes_of_the_19th_Centur.xml_ftn1">
+                         See the bibliography for several recent research
+                            projects on this topic.
+                    </note><note n="2" xml:id="KRUUSMAA_Krister_Communication_Landscapes_of_the_19th_Centur.xml_ftn2">
+                        <hi rend="italic">Rigasche Zeitung </hi>was
+                            actually published in 1778-1889 and 1907-1915, but only the issues from
+                            1802-1888 have been digitized and made available by the National Library
+                            of Latvia. 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Angelov, Dimo</author> (2020): “Top2Vec: Distributed
+                        Representations of Topics”. arXiv. <ref target="https://doi.org/10.48550/arXiv.2008.09470">https://doi.org/10.48550/arXiv.2008.09470</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Castellanos Rueda, Rocío</author> / <author>Priani Saisó, Ernesto</author> / <author>Martínez Domínguez, Laura</author>  (2020): ““Si los telegramas no mienten”. Origen y
+                        circulación de las noticias de la explosión del Maine en la prensa mexicana,
+                        febrero 1898”, in: <hi rend="italic">Revista de Historia de América</hi>
+                        159, 255–287. </bibl>
+                    <bibl>
+                        <author>Kruusmaa, Krister</author> / <author>Vanamölder, Kaarel</author>  (2023):
+                        “Positioning Riga in the 19th century news network. Tracing international
+                        news flows in the <hi rend="italic">Rigasche Zeitung</hi> newspaper,
+                        1802–1888“, in:
+                        <hi rend="italic"> Acta Historica Tallinnensia</hi> 29,
+                        1. Source code: <ref target="https://github.com/krkryger/rigasche-zeitung">https://github.com/krkryger/rigasche-zeitung</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Oiva, Mila</author> / <author>Nivala, Asko</author> / <author>Salmi, Hannu</author> / <author>Latva, Otto</author> / <author>Jalava, Marja</author> / <author>Keck, Jana</author> / <author>Martínez Domínguez, Laura</author> / <author>Parker, James</author>  (2020): “Spreading News in 1904. The Media Coverage of
+                        Nikolay Bobrikov’s Shooting”, in: <hi rend="italic">Media History</hi> 26,
+                        4: 391–407. </bibl>
+                    <bibl>
+                        <author>Ryan, Yann Ciarán</author> (2018): ““More Difficult from Dublin
+                        than from Dieppe”: Ireland and Britain in a European Network of
+                        Communication”, in <hi rend="italic">Media History</hi> 24, 3–4: 458–476. </bibl>
+                    <bibl>
+                        <author>Slauter, Will</author> (2012): “The paragraph as information
+                        technology. How news traveled in the eighteenth-century Atlantic world”, in:
+                            <hi rend="italic">Annales. Histoire, Sciences Sociales</hi> 67, 2:
+                        253–278. </bibl>
+                    <bibl>Computational History and the Transformation of
+                        Public Discourse in Finland, 1640–1910 ( <ref target="http://comhis.fi/clusters/info/about">http://comhis.fi/clusters/info/about</ref>) </bibl>
+                    <bibl>Information Flows across the Baltic Sea:
+                        Swedish-language press as a cultural mediator, 1771–1918 ( <ref target="https://textreuse.sls.fi/">https://textreuse.sls.fi/</ref>) </bibl>
+                    <bibl>Oceanic Exchanges ( <ref target="https://oceanicexchanges.org/">https://oceanicexchanges.org/</ref>) </bibl>
+                    <bibl>Viral Texts ( <ref target="https://viraltexts.org/">https://viraltexts.org/</ref>) </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enabling Participatory Data Perspectives for Image Archives
+                        through a Linked Art Workflow</title>
+                <author n="RaemyJulienAntoineRAEMY_Julien_Antoine_Enabling_Participatory_Data_Perspective.xml"><persName ref="https://orcid.org/0000-0002-4711-5759" n="RaemyJulienAntoine">
+                        <surname>Raemy</surname>
+                        <forename>Julien Antoine</forename>
+                    </persName><affiliation>Digital Humanities Lab, University of Basel,
+                        Switzerland</affiliation><email>julien.raemy@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrayTanyaRAEMY_Julien_Antoine_Enabling_Participatory_Data_Perspective.xml"><persName ref="https://orcid.org/0000-0003-1561-7364" n="GrayTanya">
+                        <surname>Gray</surname>
+                        <forename>Tanya</forename>
+                    </persName><affiliation>Centre for Digital Scholarship, University of Oxford, United
+                        Kingdom</affiliation><email>tanya.gray@humanities.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CollinsonAlwynRAEMY_Julien_Antoine_Enabling_Participatory_Data_Perspective.xml"><persName ref="https://orcid.org/0000-0003-2021-5052" n="CollinsonAlwyn">
+                        <surname>Collinson</surname>
+                        <forename>Alwyn</forename>
+                    </persName><affiliation>Centre for Digital Scholarship, University of Oxford, United
+                        Kingdom</affiliation><email>alwyn.collinson@humanities.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PageKevinRRAEMY_Julien_Antoine_Enabling_Participatory_Data_Perspective.xml"><persName ref="https://orcid.org/0000-0002-1668-6540" n="PageKevinR">
+                        <surname>Page</surname>
+                        <forename>Kevin R.</forename>
+                    </persName><affiliation>Oxford e-Research Centre, University of Oxford, United
+                        Kingdom</affiliation><email>kevin.page@oerc.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>A collaboration between the Linked Art II project and Participatory Knowledge Practices in Analogue and Digital Image Archives (PIA) has led to a reconfigurable Python-based workflow to transform cultural heritage data, initially photographic collections, into Linked Open Usable Data, as a foundation for varied participatory interfaces supporting scholarship and beyond.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Collaboration</term>
+                    <term>Cultural Heritage</term>
+                    <term>Linked Art</term>
+                    <term>Linked Open Usable Data</term>
+                    <term>Workflow</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Anthropology</term>
+                    <term>Computer science</term>
+                    <term>Cultural studies</term>
+                    <term>Galleries and museum studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction and Context </head>
+                <p>The University of Basel and the Bern Academy of the Arts, initiated in February
+                    2021 a four-year research project called <ref target="https://about.participatory-archives.ch/">Participatory Knowledge
+                        Practices in Analogue and Digital Image Archives</ref> (PIA). PIA studies
+                    three representative collections from the archive of the Swiss Society for
+                    Folklore Studies (SSFS): The <hi rend="italic">Atlas of Swiss Folklore</hi>
+                    (cartography), <hi rend="italic">Ernst Brunner</hi> (photojournalism) and <hi rend="italic">Family Kreis</hi> (vernacular photography), developing
+                    interfaces to enable the indexing and use of these archival materials. </p>
+                <p>PIA is a collaborative endeavour aiming to encourage participation, both within
+                    its interdisciplinary team and amongst users, whether scholars or the wider
+                    public, as well as with peer institutions and communities in the cultural
+                    heritage field. In developing participatory interfaces, PIA aims to increase the
+                    use of image archives by production of knowledge with and through these invested
+                    communities. This brings an expectation of multiple interfaces to interact with
+                    three combined collections, reflecting diverse perspectives in scholarship and
+                    other use. To this end, community-developed <ref target="https://linked.art/loud">Linked Open Usable Data</ref> (LOUD)
+                    (Newbury 2018; Sanderson 2018) specifications will be deployed for flexible and
+                    repurposable access to PIA’s content and associated metadata, specifically: the
+                        <ref target="https://iiif.io/">International Image Interoperability
+                        Framework</ref> (IIIF) (Raemy / Demleitner 2022); and <ref target="https://linked.art/">Linked Art</ref> (Page et al. 2020), an RDF
+                    application profile (JSON-LD) based on <ref target="https://www.cidoc-crm.org/">CIDOC-CRM</ref> to describe object-based cultural heritage (Newbury 2018;
+                    Sanderson 2019). </p>
+                <p>Alongside an existing PIA-bespoke JSON API, a <ref target="https://data.participatory-archives.ch/">Linked Art API</ref> will
+                    provide an additional entry point for developers and scholars, as a means of
+                    conveying semantically enriched events and as a benchmark against other
+                    collections leveraging this model. </p>
+                <p>Building upon their participation in the Linked Art community, PIA has
+                    collaborated <ref target="https://linked.art/community/projects/linkedartii/">with the University of Oxford</ref> to design and implement a workflow
+                    transforming their cultural heritage collection data into Linked Art. For the
+                    already digitised Family Kreis and Ernst Brunner collections, <ref target="https://github.com/Participatory-Image-Archives/linkedart/">templates</ref> have been created for the different object types. The data
+                    characteristics associated with the object types, and cataloguing practice
+                    within each sub-collection, are encapsulated within these templates. </p>
+            </div>
+            <div type="div1">
+                <head>Workflow Implementation </head>
+                <p>To generate a Linked Art representation for the combined PIA collection <ref target="https://github.com/tgra/Linked-Art-Collection-Data-Workflow">a data
+                        transformation workflow</ref> has been implemented through which the PIA
+                    templates are encoded in Python for each object type. </p>
+                <p>In the general case, the workflow (Figure 1) provides a software process for
+                    transforming photographic collection data into the Linked Art format that will: </p>
+                <p>1. Query the PIA JSON API for collection data</p>
+                <p>2. Map collection data to an intermediate JSON data format</p>
+                <p>3. Transform the intermediate JSON data format to Linked Art JSON-LD</p>
+                <p><figure>
+                        <graphic url="Pictures/113ea852d06a06b7217a7d7253066f34.png"/>
+                        <head>Figure 1. The Linked Art transformation workflow with numeric workflow
+                            steps indicated.</head>
+                    </figure></p>
+                <p>An intermediate JSON data format is used so that the transformation step can be
+                    reused with different collection data sources. The intermediate JSON data files
+                    are transformed to a Linked Art representation of the PIA templates for the
+                    photographic object types. Using the Python library <ref target="https://github.com/thegetty/crom">Cromulent</ref> to create basic
+                    Linked Art representations, the Python functions encode larger building
+                    block-type representations of the photographic object types, e.g., name, web
+                    page, and digital service. Together, the functions encode the photographic
+                    object types as defined in the PIA templates and offer the opportunity for reuse
+                    with photographic object types in other collection data, as well as for
+                    different cultural heritage objects that share the same properties. </p>
+            </div>
+            <div type="div1">
+                <head>Challenges and Future Work </head>
+                <p>In a situation common to many collecting institutions, the digital systems used
+                    to maintain catalogues and other records do not remain unchanged indefinitely;
+                    planning and preparation for such migrations may take months or years. At PIA
+                    migration to a new data model and API was planned, to be realised after
+                    implementation of the Linked Art workflow. This presented both a challenge, but
+                    also an opportunity: to design a workflow which can be reconfigured and reused
+                    with different data sources and APIs (Figure 2). </p>
+                <p>In this scenario a new datasource query script and associated data mapping script
+                    can be written to generate the intermediate JSON format; the later stage
+                    transformation script creating Linked Art JSON-LD does not need to be modified.
+                    If new data sources also introduce new object types, then the workflow can be
+                    similarly extended to introduce new object data mappings, and/or new Linked Art
+                    patterns, while retaining the stages and cohesion of the overall workflow. </p>
+                <p>In this way the adaptability and extensibility of our workflow pattern presents
+                    not only a solution to the specific situation of PIA, but also a future
+                    opportunity to test and extend the workflow to transform the data of other
+                    collections to Linked Art. </p>
+                <p><figure>
+                        <graphic url="Pictures/0c791a2868c4f91db1cd6f371bd6b1a2.png"/>
+                        <head>Figure 2. PIA Linked Art data workflow designed for reuse with
+                            different data sources and object types.</head>
+                    </figure></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Newbury, David</author> (2018): ‘LOUD: Linked Open Usable Data
+                        and linked.art’, in 2018 CIDOC Conference. CIDOC Annual Conference,
+                        Heraklion, Greece: International Council of Museums, pp. 1–11. <ref target="https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf">https://cidoc.mini.icom.museum/wp-content/uploads/sites/6/2021/03/CIDOC2018_paper_153.pdf</ref> [01.04.2023]. </bibl>
+                    <bibl><author>Page, Kevin R.</author> / <author>Delmas-Glass, Emmanuelle</author> / <author>Beaudet, David</author> / <author>Norling, Samantha</author> / <author>Rother, Lynn</author> / <author>Hänsli, Thomas</author>  (2020): ‘Linked
+                        Art: Networking Digital Collections and Scholarship’, in DH2020 Book of
+                        Abstracts. Digital Humanities 2020, Online, pp. 504–509. <ref target="https://dh2020.adho.org/wp-content/uploads/2020/07/139_LinkedArtNetworkingDigitalCollectionsandScholarship.html">https://dh2020.adho.org/wp-content/uploads/2020/07/139_LinkedArtNetworkingDigitalCollectionsandScholarship.html</ref> [01.04.2023]. </bibl>
+                    <bibl><author>Raemy, Julien Antoine</author> / <author>Demleitner, Adrian</author>  (2023):
+                        ‘Implementation of the IIIF Presentation API 3.0 based on Software Support:
+                        Use Case of an Incremental IIIF Deployment within a Citizen Science
+                        Project’, in Digital Heritage. Progress in Cultural Heritage: Documentation,
+                        Preservation, and Protection. Cham: Springer International Publishing
+                        (Lecture Notes in Computer Science). Unpublished paper presented at the
+                        International Conference on Digital Heritage, Limassol, Cyprus, November
+                        7-11, 2022.</bibl>
+                    <bibl><author>Sanderson, Robert</author> (2018): ‘Shout it Out: LOUD’.
+                        EuropeanaTech Conference 2018, Rotterdam, the Netherlands, 15 May. <ref target="https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018">https://www.slideshare.net/Europeana/shout-it-out-loud-by-rob-sanderson-europeanatech-conference-2018</ref> [01.04.2023]. </bibl>
+                    <bibl><author>Sanderson, Robert</author> (2019): ‘Keynote: Standards and
+                        Communities: Connected People, Consistent Data, Usable Applications’, in
+                        2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL). 2019 ACM/IEEE
+                        Joint Conference on Digital Libraries (JCDL), Urbana-Champaign, Illinois,
+                        USA: IEEE, p. 28. DOI: <ref target="https://doi.org/10.1109/JCDL.2019.00009">10.1109/JCDL.2019.00009</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

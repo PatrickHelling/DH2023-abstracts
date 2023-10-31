@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Word Clouds with Spatial Stable Word Positions across
+                        Multiple Text Witnesses </title>
+                <author n="DhneJanisP_CKELMANN_Marcus__Word_Clouds_with_Spatial_Stable_Word_Posi.xml"><persName ref="https://orcid.org/0000-0002-9009-4148" n="DhneJanis">
+                        <surname>Dähne</surname>
+                        <forename>Janis</forename>
+                    </persName><affiliation>Martin Luther University Halle-Wittenberg, Germany</affiliation><email>janis.daehne@informatik.uni-halle.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PckelmannMarcusP_CKELMANN_Marcus__Word_Clouds_with_Spatial_Stable_Word_Posi.xml"><persName ref="https://orcid.org/0000-0001-8718-1198" n="PckelmannMarcus">
+                        <surname>Pöckelmann</surname>
+                        <forename>Marcus</forename>
+                    </persName><affiliation>Martin Luther University Halle-Wittenberg, Germany</affiliation><email>marcus.poeckelmann@informatik.uni-halle.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RitterJrgP_CKELMANN_Marcus__Word_Clouds_with_Spatial_Stable_Word_Posi.xml"><persName ref="https://orcid.org/0000-0003-3080-7801" n="RitterJrg">
+                        <surname>Ritter</surname>
+                        <forename>Jörg</forename>
+                    </persName><affiliation>Martin Luther University Halle-Wittenberg, Germany</affiliation><email>joerg.ritter@informatik.uni-halle.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper we tackle the improvement of so called spatial stable word clouds. Specifically the improvements target the performance, layout and a generalization to synchronize clouds for multiple, collated text witnesses. This allows the spatial stable word clouds to be used in interactive applications and especially in tools for scholarly editions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Word Cloud</term>
+                    <term>Visualisation</term>
+                    <term>Interactiv</term>
+                    <term>Distant Reading</term>
+                    <term>Scholarly Edition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>user experience design and analysis</term>
+                    <term>Computer science</term>
+                    <term>Design studies</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Word clouds are a common and widespread visualization technique [1][2], with
+                    prominent layout algorithms like Wordle [3], and can be seen as a
+                    distant-reading tool. Word clouds usually represent the supposedly most
+                    meaningful words of a text, according to some criteria, e.g., word length,
+                    part-of-speech tags, frequency (occurrences), etc. To be able to apply word
+                    clouds to larger text witnesses, the word clouds must be restricted to the top X
+                    words. Especially if the word clouds have to be dynamically regenerated when the
+                    criteria change. The number X should be specified by the user as a
+                    parameter.</p>
+                <p>Another criterion, especially for interactive applications, is to define a
+                    selection window of a desired length that restricts the words displayed to those
+                    within the selection window. The window can be moved over the text to restrict
+                    the scope of the word cloud to the desired segments. The word cloud changes when
+                    the window is moved, as different words need to be displayed. This raises a
+                    problem when the same words occur in successive word clouds. To track the
+                    relevance of words throughout the text, each word should be in the same place in
+                    all successive clouds while moving the window, i.e., the clouds should be
+                    spatial stable. The few approaches [4][5][6] known in literature to generate
+                    stable word clouds are discussed in full detail by Herold et at. [9], which also
+                    introduces a first algorithm to keep word positions spatial stable in one
+                    cloud.</p>
+                <p>This paper describes how the approach in [9] can be generalized to multiple word
+                    clouds, allowing it to be used for comparing multiple text witnesses in
+                    scholarly editions. Our generalization ensures that the same word is always
+                    placed at the same position across all clouds even if the selection window is
+                    moved. We call this property synchronous. We also describe how to improve the
+                    necessary calculations that allow us to use multiple clouds interactively.</p>
+                <p>We have integrated our approach into LERA [7][8], a collation tool for scholarly
+                    editions <ref target="#P_CKELMANN_Marcus__Word_Clouds_with_Spatial_Stable_Word_Posi.xml_ftn1" n="1"/>. LERA can be used to discover and inspect changes among text witnesses
+                    and we think our stable word clouds can facilitate this process. </p>
+            </div>
+            <div type="div1">
+                <head>Previous state</head>
+                <p>A simple solution to guarantee spatial stable word positions would be to reserve
+                    a separate position for each unique word. This is not practical as the available
+                    drawing space is limited. However, it is possible to identify groups of words
+                    that never occur together at the same time and thus can share the same
+                    position.</p>
+                <p>Identifying such groups is achieved in [9] by building a word-segment occurrence
+                    matrix, merging consecutive segment vectors in order to represent the selection
+                    window and finally identifying orthogonal word vectors that indicate that the
+                    corresponding words never occur together within the selection window. This
+                    former approach was originally integrated in LERA [9], see Fig. 1, but has some
+                    issues. It does not take into account the actual word dimensions, thus cannot
+                    guarantee an overlap-free layout. Another limitation is, that it can only handle
+                    a single text witness. For multiple text witnesses the words might appear at a
+                    different positions in each cloud, breaking spatial stability across the word
+                    clouds. Finally, the runtimes are too slow for interactive applications,
+                    especially for multiple text witnesses.</p>
+                <p><figure>
+                        <graphic url="Pictures/78e477acec2e115ee16f9208d619147a.png"/>
+                        <head><hi rend="bold">Figure 1</hi>. Spatial stable word cloud for the
+                            single text witness “Aus der Knabenzeit” by Karl Gutzkows (edition of
+                            1852) for three different selection windows (beginning, middle and end
+                            of the text). The words stay (e.g. <hi rend="italic">Knaben</hi>, <hi rend="italic">red</hi>) and reappear (e.g. <hi rend="italic">Pferd</hi>, <hi rend="italic">blue</hi>) at fixed positions.
+                        </head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Improving the spatial stable clouds</head>
+                <p>A major improvement in runtime was achieved by utilizing bitsets/bit-vectors for
+                    the word vectors in the occurrence matrix. This is possible since only the
+                    occurrence of a word in each segment has to be stored. The orthogonal check for
+                    two bitset word vectors is very efficient as it uses bitwise operations and we
+                    further optimized it, by returning a negative result as fast as we encounter two
+                    non-orthogonal bytes. The groups can now be understood as the bitwise <hi rend="italic">OR</hi> of the vectors of all words within a group. </p>
+                <p>We also improved the runtime of creating the groups described in [9] by removing
+                    some checks and instead reordering the word vector positions in the occurrence
+                    matrix. In our implementation, we used word frequencies as a criterion for word
+                    relevance, as this is most useful for our applications and it allows for another
+                    optimization. We precalculate a matrix whose columns represent the cumulative
+                    frequencies of a word, so that we can calculate the frequency of a word for any
+                    window size in one operation.</p>
+                <p>The layout of the clouds is also improved by ensuring that no word overlaps can
+                    occur, allowing for an even more compact layout. This is achieved by measuring
+                    all words with their required font sizes beforehand in the browser. An accurate
+                    bounding box for a group is than determined by the largest bounding box of its
+                    members. To get an upper bound on the required space for the words we declared a
+                    maximum font size for the words. This would change the semantics of the cloud,
+                    as the font size correlates with the frequency (or some other measure). We
+                    compensated for that by introducing a color scale that is used for frequencies
+                    above some threshold. This is in contrast to other word clouds that normally
+                    uses colors randomly to better distinct words but do not carry any additional
+                    information.</p>
+                <p>Finally, we generalized the spatial stable word clouds for multiple text
+                    witnesses by making them synchronous., i.e., words occurring in more than one
+                    text witness are always placed at the same position across all word clouds, even
+                    if the selection window is moved, see Fig. 2. This makes it easier to visually
+                    track a word across word clouds. We achieved this by taking all word vectors of
+                    all texts into account during the process of creating groups. However, we still
+                    need to process information for every text individually, e.g., top X words, in
+                    order for every word cloud to be used on its own. All steps are optimized in a
+                    way that all interactions with the clouds, like moving the selection window or
+                    changing the size of the selection window can be done interactively.</p>
+                <p><figure>
+                        <graphic url="Pictures/4e89fafbae320e8047c94dfdc2fc9a7e.png"/>
+                        <head><hi rend="bold">Figure 2</hi>. Spatial stable word clouds can now
+                            share word positions across multiple text witnesses, in this case for
+                            three editions of “Histoire des deux Indes”. The prominent words are
+                            “les” and “des” (by frequency) for an interactively adjustable selection
+                            window of 5 segments, starting at row seven in the text alignment, only
+                            the top 30 words in this window by frequency are used. Note that all
+                            words, that occur in multiple clouds, are at the same positions.</head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>The stable word clouds presented in this paper allow to effectively track changes
+                    in the relevance of words throughout a text, even across multiple text
+                    witnesses. In combination with a collation tool for providing the data basis and
+                    a selection tool, the synchronous spatial stable clouds provide a novel
+                    distant-reading approach to analyze and visualize text changes for scholarly
+                    editions. The improvements presented here make the approach so efficient that it
+                    can be used in interactive applications. An interactive demo version of the
+                    entire system can be found at: <ref target="https://lera.uzi.uni-halle.de/">https://lera.uzi.uni-halle.de</ref>. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="P_CKELMANN_Marcus__Word_Clouds_with_Spatial_Stable_Word_Posi.xml_ftn1"> Homepage of LERA: <ref target="https://lera.uzi.uni-halle.de/">https://lera.uzi.uni-halle.de</ref>
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Seifert, C., Kump, B., Kienreich, W., Granitzer, G.,
+                            Granitzer, M.</author> (2008): <hi rend="italic">On the beauty and usability
+                            of tag clouds</hi>. In: 2008 12th International Conference Information
+                        Visualisation. pp. 17–25. IEEE. <ref target="https://doi.org/10.1109/IV.2008.89">https://doi.org/10.1109/IV.2008.89</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Lohmann, S., Ziegler, J., Tetzlaff, L.</author> (2009): <hi rend="italic">Comparison of tag cloud layouts: </hi>
+                        <hi rend="italic">Task-related performance and visual </hi>
+                        <hi rend="italic">performance and visual exploration</hi>. In: Gross, T.,
+                        Gulliksen, J., Kotzé, P., Oestreicher, L., Palanque, P., Prates, R.O.,
+                        Winckler, M. (eds.) INTERACT 2009. LNCS, vol. 5726, pp. 392–404. Springer,
+                        Heidelberg. 
+                        <ref target="https://doi.org/10.1007/978-3-642-03655-2_43">https://doi.org/10.1007/978-3-642-03655-2_43</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Feinberg, J.</author> (2010): <hi rend="italic">Wordle</hi>. In:
+                        Steele, J., Iliinsky, N. (eds.) Beautiful Visualization Looking at Data
+                        Through the Eyes of Experts. O’Reilly Media, Newton </bibl>
+                    <bibl>
+                        <author>Cui, W., Wu, Y., Liu, S., Wei, F., Zhou, M.X., Qu, H.</author>
+                        (2010): <hi rend="italic">Context preserving dynamic word cloud
+                            visualization</hi>. In: 2010 IEEE Pacific Visualization Symposium
+                        (PacificVis), pp. 121–128. IEEE. <ref target="https://doi.org/10.1109/MCG.2010.102">https://doi.org/10.1109/MCG.2010.102</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Castella, Q., Sutton, C.</author> (2014): <hi rend="italic">Word
+                            storms: multiples of word clouds for visual comparison of
+                        documents</hi>. In: Proceedings of the 23rd International Conference on
+                        World Wide Web, pp. 665–676. ACM. <ref target="https://doi.org/10.1145/2566486.2567977">https://doi.org/10.1145/2566486.2567977</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Silva e Silva, L.G., Assunção, R.M. </author>
+                        (2018): 
+                        <hi rend="bold">Cowords: a probabilistic model for multiple word
+                            clouds</hi>. J. Appl. Stat. 45(15), 2697–2717. 
+                        <ref target="https://doi.org/10.1080/02664763.2018.1435633">https://doi.org/10.1080/02664763.2018.1435633</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Bremer, T.,Molitor, P., Pöckelmann, M., Ritter, J., Schütz
+                            S.</author> (2015): <hi rend="italic">Zum Einsatz digitaler Methoden bei der
+                            Erstellung und Nutzung genetischer Editionen gedruckter Texte mit
+                            verschiedenen Fassungen - Das Fallbeispiel der Histoire philosphique des
+                            deux Indes von Guillaume Thomas Raynal</hi>. In: Editio, R. v.
+                        Nutt-Kofoth, B. Plachta and W. Woesler (eds), Volume 29, Issue 1, pp. 29–51.
+                            <ref target="https://doi.org/10.1515/editio-2015-004">https://doi.org/10.1515/editio-2015-004</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Pöckelmann, M., </author>
+                        <author>Medek, A., Ritter, J., Molitor, P.</author> (2022): <hi rend="italic">LERA — an interactive platform for synoptical
+                            representations of multiple text witnesses</hi>. In: Digital Scholarship
+                        in the Humanities, Volume 38, Issue 1, pp. 330–346. <ref target="https://doi.org/10.1093/llc/fqac021">https://doi.org/10.1093/llc/fqac021</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Herold, E., Pöckelmann, M., Berg, C., Ritter, R., Hall,
+                            M.M.</author> (2019): <hi rend="italic">Stable Word-Clouds for Visualising
+                            Text-Changes Over Time</hi>. International Conference on Theory and
+                        Practice of Digital Libraries, TPDL2019, Oslo. Springer, Cham. pp. 224-237.
+                            
+                        <ref target="https://doi.org/10.1007/978-3-030-30760-8_20">https://doi.org/10.1007/978-3-030-30760-8_20</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

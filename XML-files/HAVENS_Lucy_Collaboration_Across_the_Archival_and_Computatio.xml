@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration Across the Archival and Computational Sciences to Address Legacies of Gender Bias in Descriptive Metadata</title>
+                <author n="HavensLucyHAVENS_Lucy_Collaboration_Across_the_Archival_and_Computatio.xml"><persName ref="https://orcid.org/0000-0001-8158-6039" n="HavensLucy">
+                        <surname>Havens</surname>
+                        <forename>Lucy</forename>
+                    </persName><affiliation>School of Informatics; University of Edinburgh, United Kingdom</affiliation><email>lucy.havens@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HoskerRachelHAVENS_Lucy_Collaboration_Across_the_Archival_and_Computatio.xml"><persName ref="https://orcid.org/0000-0001-6330-2717" n="HoskerRachel">
+                        <surname>Hosker</surname>
+                        <forename>Rachel</forename>
+                    </persName><affiliation>Heritage Collections; University of Edinburgh, United Kingdom</affiliation><email>rachel.hosker@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlexBeatriceHAVENS_Lucy_Collaboration_Across_the_Archival_and_Computatio.xml"><persName ref="https://orcid.org/0000-0002-7279-1476" n="AlexBeatrice">
+                        <surname>Alex</surname>
+                        <forename>Beatrice</forename>
+                    </persName><affiliation>School of Informatics; Edinburgh Futures Institute; School of Literatures, Languages and Cultures; University of Edinburgh, United Kingdom</affiliation><email>balex@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BachBenjaminHAVENS_Lucy_Collaboration_Across_the_Archival_and_Computatio.xml"><persName ref="https://orcid.org/0000-0002-9201-7744" n="BachBenjamin">
+                        <surname>Bach</surname>
+                        <forename>Benjamin</forename>
+                    </persName><affiliation>School of Informatics; University of Edinburgh, United Kingdom</affiliation><email>bbach@inf.ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TerrasMelissaHAVENS_Lucy_Collaboration_Across_the_Archival_and_Computatio.xml"><persName ref="https://orcid.org/0000-0001-6496-3197" n="TerrasMelissa">
+                        <surname>Terras</surname>
+                        <forename>Melissa</forename>
+                    </persName><affiliation>College of Arts, Humanities and Social Sciences; University of Edinburgh, United Kingdom</affiliation><email>mterras@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This presentation reports on a case study investigating how Natural Language Processing technologies can support the measurement and evaluation of gender bias in archival catalogs. Furthermore, we demonstrate how Humanistic approaches can upend legacies of gender-based oppression that most computational approaches to date uphold when working with data at scale.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>archives</term>
+                    <term>descriptive metadata</term>
+                    <term>gender</term>
+                    <term>bias</term>
+                    <term>natural language processing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Gender and sexuality studies</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This presentation reports on a case study investigating how Natural Language Processing, a field that applies computational methods such as Machine Learning to human-written texts, can support the measurement and evaluation of gender biased language in archival catalogs. Working with English descriptions from the catalog metadata of the University of Edinburgh’s Archives, we created an annotated dataset and classification models that identify gender biases in the descriptions. Conducted with archival data, the case study holds relevance across Galleries, Libraries, Archives, and Museums (GLAM), particularly for institutions with catalog descriptions in English. In addition to bringing Natural Language Processing (NLP) methods to Archives, we identified opportunities to bring Archival Science methods, such as Cultural Humility (Tai, 2021) and Feminist Standpoint Appraisal (Caswell, 2022), to NLP. Through this two-way disciplinary exchange, we demonstrate how Humanistic approaches to bias and uncertainty can upend legacies of gender-based oppression that most computational approaches to date uphold when working with data at scale.</p>
+            <div type="div1">
+                <head>Literature Review</head>
+                <p>Since the end of the 20th century, GLAM have seen growing resistance to claims of neutrality that characterized previous centuries’ collection and documentation practices (Duff and Harris, 2002). Consequently, catalogers, librarians, archivists, and curators have begun to revisit descriptions of heritage items in their institutions’ catalogs, looking for instances of omissions and misrepresentations to address through revisions or additions. Revisiting descriptions is a daunting task, however. GLAM catalogs are large and ever-growing: institutions always have a backlog of new items to document so visitors can discover them with catalog search queries. Computational methods, particularly Machine Learning (ML) models, offer ways to lighten the burden of manual labor required to revise and add to catalog descriptions (Greenburg, Spurgin, and Crystal, 2005; Harper, 2016; Padilla, 2019; Cordell, 2020).</p>
+                <p>However, ML disciplines’ approach to dataset curation largely reflects pre-20th century GLAM approaches. ML researchers and practitioners create datasets primarily based on which data are readily available in large quantities (Raji et al., 2021; Rogers, 2021). Concepts of bias are overly simplified and uncertainty is largely hidden, leading to biased ML models with harmful consequences, particularly for groups of people who already have a history of experiencing marginalization (Sweeney, 2013; Blodgett et al., 2020; Stańczak and Augenstein, 2021). Recently, more critical approaches to dataset and model creation encourage interdisciplinary collaboration and greater transparency in documentation practices to address the harmful biases of ML models (Crawford, 2017; Mitchell et al., 2018; Havens et al., 2020; Bender et al., 2021). The longer history of classification in the GLAM sector has much to offer the younger ML disciplines.</p>
+            </div>
+            <div type="div1">
+                <head>Methods</head>
+                <p>This presentation will report the results of our case study creating classification models that measure gender biases in metadata descriptions, specifically those of the Archives’ catalog of Heritage Collections (HC) at the University of Edinburgh (Heritage Collections, n.d.). The Archives mainly contains material written in English, however other languages (see Figure 1) and non-textual material are also documented in its catalog. The Archives’ need to measure and evaluate gender biased language across its entire catalog motivated us to take an atypical approach to bias research in NLP. Rather than trying to remove or fix gender biased language, we aim to identify it, arguing that biases are inherent to all language and should be made more transparent to the reader. This approach aligns with the subjective nature of cataloging that Bowker and Star (1999), Duff and Harris (2002), Cook (2011), and Adler (2016) describe; and implements the interdisciplinary collaboration that Jo and Gebru (2020), McGillivray et al. (2020), and Devinney et al. (2022) call for in computational research.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="6.914444444444444cm" url="Pictures/5463909d1b240d02bfd392a95bdae25c.png" rend="inline"/>
+                    <head>Figure 1. Languages of material documented in the Archives catalog. Most of the HC’s Archives are material written in English (i.e., news articles, manuscripts such as letters, lecture notes, degree awards), however other languages also appear in the Archives (as well as non-textual material such as photographs, sketches, and architectural plans). </head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="5.053541666666667cm" url="Pictures/78ff23dfc09abc5938265468d33f69ef.png" rend="inline"/>
+                    <head>Figure 2. Using the brat rapid annotation tool for manual annotation. Annotators labeled text spans of one or more words with the brat rapid annotation tool (Stenetorp et al., 2011) using eleven labels that were color coded by label category: yellow was Linguistic, blue was Contextual, and green was Person Name. </head>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="7.828138888888889cm" url="Pictures/5003f9825b4b95b4ba73f830ea310657.png" rend="inline"/>
+                    <head>Figure 3. Annotated dataset summary. Five annotators annotated a corpus of 399,957 words across 11,888 descriptions in 245 fonds (collections), resulting in a total of 55,260 annotations. The annotated dataset represents 10% of the entire Archives catalog. Non-binary and Empowering both have a count of zero. (Figure reproduced with author permission from Havens et al., 2022.)</head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="3.5454166666666667cm" url="Pictures/f952064eb60f8e5429ba73d94df9acf4.png" rend="inline"/>
+                    <head>Figure 4. Grammatical gender associations of the Stereotype label. The proportions of each annotator’s labels for the Contextual category that are associated with masculine (blue), feminine (orange), or multiple genders (red), or an unclear association (turquoise). Note: The Person Name annotation category includes the label “Non-binary,” however annotators did not find text in the selection of archival metadata descriptions they read that used explicitly non-binary referents, so no name in our data has a “Non-binary” annotation.</head>
+                </figure>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="2.682875cm" url="Pictures/18dfcea1139d6f0d1ec682e2777bd751.png" rend="inline"/>
+                    <head>Figure 5. Classification model performance on the Linguistic category of labels. Models’ performance as measured with standard NLP metrics (false positive, true positive, false negative, and true negative) on the Linguistic category, which contains the Gendered Pronoun, Gendered Role, and Generalization labels. Green indicates correctly applied or unapplied labels; red indicates mistakenly applied or missed labels.</head>
+                </figure>
+                <p>The case study consists of four steps: define types of gender bias; create a dataset annotated for gender biases (see Figures 2 and 3); create NLP models that identify gender biases in language; and analyze the results to study how gender biases manifest in descriptive metadata. An interdisciplinary literature review and participatory action research informed our definitions of types of gender biased language, which guided five annotators in labeling archival metadata descriptions (Havens et al., 2022). Following a supervised approach to training NLP models, we applied several algorithms to the annotated data, training token, sequence, and document classification models to identify the gender biased language that had been annotated manually. We used traditional ML models (Scikit learn, 2023) due to documented biases in Deep Learning models (Tan and Celis, 2019; Sharma et al. 2020). The models classify gendered terms (e.g., “she,” “Sir”) to quantify gender representation across a catalog, as well as gender biased language (e.g., someone referred to only as “his wife”) to indicate how descriptive language may misrepresent or exclude people. Figure 4 provides an example of the analysis possible with our models’ output. Our presentation will report further detail on the performance of the classification models, including evaluation with NLP metrics (see Figure 5) and members of HC.</p>
+            </div>
+            <div type="div1">
+                <head>Discussion</head>
+                <p>We aim to create NLP models that support HC’s effort to mitigate gender bias in its Archives’ catalog’s descriptive metadata. The process of applying NLP methods to archival descriptions highlighted opportunities for GLAM as well as limitations with NLP methods. For instance, grammatical gender in text does not correspond one-to-one with gender identities, so communications about model findings must clearly explain the uncertainty around gender in language. ML offers promising tools for supporting GLAM documentation practices, and approaches from Archival Science and the Humanities more broadly offer ways to address the complexities of data that are missing from ML. Through the collaborative creation of gender bias classification models, we illustrate the urgency of prioritizing Humanities’ ways of thinking in ML research, complementing Digital Humanities with Humanistic Computation.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bender, Emily M.</author> / <author>Friedman, Batya</author> / <author>McMillan-Major, Angelina</author> (2021): “A Guide for Writing Data Statements in Natural Language Processing” <ref target="http://techpolicylab.uw.edu/data-statements/">http://techpolicylab.uw.edu/data-statements/</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Devlin, Jacob</author> / <author>Chang, Ming-Wei</author> / <author>Lee, Kenton</author> / <author>Toutanova, Kristina</author> (2023): “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding”. arXiv.org. DOI: 10.48550/arxiv.1810.04805.
+                    </bibl>
+                    <bibl>
+                        <author>Blodgett, Su Lin</author> / <author>Barocas, Solon</author> / <author>Daumé III, Hal</author> / <author>Wallach, Hanna</author>  (2020): “Language (Technology) Is Power: A Critical Survey of ‘Bias’ in NLP”, in: 
+                        <hi rend="italic">Association for Computational Linguistics (ed.): Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</hi>, Online, July 2020: 5454–76. DOI: 10.18653/v1/2020.acl-main.485.
+                    </bibl>
+                    <bibl>
+                        <author>Caswell, Michelle</author> (2019): “Dusting for Fingerprints: Introducing Feminist Standpoint Appraisal”, in: 
+                        <hi rend="italic">Journal of Critical Library and Information Studies</hi> 3, 2, October 2020. DOI: 10.24242/jclis.v3i2.113.
+                    </bibl>
+                    <bibl>
+                        <author>Cordell, Ryan</author> (2020): “Machine Learning + Libraries: A Report on the State of the Field”, Library of Congress <ref target="https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf?loclr=blogsig">https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf?loclr=blogsig</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Devinney, Hannah</author> / <author>Björklund, Jenny</author> / <author>Björklund, Henrik</author>  (2022): “Theories of ‘Gender’ in NLP Bias Research”, in: 
+                        <hi rend="italic">Association for Computing Machinery (ed.): FAccT ’22: ACM Conference on Fairness, Accountability, and Transparency,</hi> June 2022: 2083–2101. DOI: 10.1145/3531146.3534627.
+                    </bibl>
+                    <bibl>
+                        <author>Duff, Wendy M.</author> / <author>Harris, Verne</author>  (2002): “Stories and Names: Archival Description as Narrating Records and Constructing Meanings”, in: 
+                        <hi rend="italic">Archival Science</hi> 2, September 2002: 263–85. DOI: 10.1007/BF02435625.
+                    </bibl>
+                    <bibl>
+                        <author>Greenburg, Jane</author> / <author>Spurgin, Kristina</author> / <author>Crystal, Abe</author> / <author>Cronquist, Michelle</author> / <author>Wilson, Amanda</author>  (2005): “Final Report for the AMeGA (Automatic Metadata Generation Applications) Project”. Library of Congress <ref target="https://www.loc.gov/catdir/bibcontrol/lc_amega_final_report.pdf">https://www.loc.gov/catdir/bibcontrol/lc_amega_final_report.pdf</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Harper, Corey A</author> (2016): “Metadata Analytics, Visualization, and Optimization: Experiments in Statistical Analysis of the Digital Public Library of America (DPLA)”, in: 
+                        <hi rend="italic">Code{4}Lib Journal</hi> 33, July 2016 <ref target="http://journal.code4lib.org/articles/11752">http://journal.code4lib.org/articles/11752</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Havens, Lucy</author> / <author>Terras, Melissa</author> / <author>Bach, Benjamin</author> / <author>Alex, Beatrice</author> (2020): “Situated Data, Situated Systems: A Methodology to Engage with Power Relations in Natural Language Processing Research”, in: 
+                        <hi rend="italic">Association for Computational Linguistics (ed.): Proceedings of the Second Workshop on Gender Bias in Natural Language Processing</hi>, Barcelona, Spain (Online), 2020: 107–24. <ref target="https://aclanthology.org/2020.gebnlp-1.10">https://aclanthology.org/2020.gebnlp-1.10</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Havens, Lucy</author> / <author>Terras, Melissa</author> / <author>Bach, Benjamin</author> / <author>Alex, Beatrice</author>  (2022): “Uncertainty and Inclusivity in Gender Bias Annotation: An Annotation Taxonomy and Annotated Datasets of British English Text”, in: 
+                        <hi rend="italic">Association for Computational Linguistics (ed.): Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing (GeBNLP)</hi>, Seattle, WA, July 2022: 30–57. DOI: 10.18653/v1/2022.gebnlp-1.4.
+                    </bibl>
+                    <bibl>
+                        <author>Heritage Collections, University of Edinburgh</author>. 
+                        <hi rend="italic">Archives Online</hi>. <ref target="archives.collections.ed.ac.uk">archives.collections.ed.ac.uk</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Jo, Eun Seo</author> / <author>Gebru, Timnit</author>  (2020): “Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning”, in: 
+                        <hi rend="italic">Association for Computing Machinery (ed.): FAT* ’20: Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency</hi>: New York, NY, January 2020: 306–16. DOI: 10.1145/3351095.3372829.
+                    </bibl>
+                    <bibl>
+                        <author>McGillivray, Barbara</author> / <author>Beavan, David</author> / <author>Ciula, Arianna</author> / <author>Colavizza, Giovanni</author> / <author>Cummings, James</author> / <author>De Roure, David</author> / <author>Farquhar, Adam</author> / <author>Hengchen, Simon</author> / <author>Lang, Anouk</author> / <author>Loxley, James</author> / <author>Goudarouli, Eirini</author> / <author>Nanni, Federico</author> / <author>Nini, Andrea</author> / <author>Nyhan, Julianne</author> / <author>Osborne, Nicola</author> / <author>Poibeau, Thierry</author> / <author>Ridge, Mia</author> / <author>Ranade, Sonia</author> / <author>Smithies, James</author> / <author>Terras, Melissa</author> / <author>Vlachidis, Andreas</author> / <author>Wilcox, Pip</author>  (2020): “The Challenges and Prospects of the Intersection of Humanities and Data Science: A White Paper from The Alan Turing Institute”, 
+                        <hi rend="italic">Figshare</hi>. DOI: 10.6084/m9.figshare.12732164.
+                    </bibl>
+                    <bibl>
+                        <author>Padilla, Thomas</author> (2019): “Responsible Operations: Data Science, Machine Learning, and AI in Libraries”, 
+                        <hi rend="italic">OCLC Research</hi>. DOI: 10.25333/xk7z-9g97.
+                    </bibl>
+                    <bibl>
+                        <author>Rogers, Anna</author> (2021): “Changing the World by Changing the Data”, in: 
+                        <hi rend="italic">Association for Computational Linguistics (ed).: Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing</hi> 1, Long Papers, Online, August 2021: 2182–94. DOI: 10.18653/v1/2021.acl-long.170.
+                    </bibl>
+                    <bibl>
+                        <author>Pedregosa, Fabian</author> / <author>Varoquaux, Gaël</author> / <author>Gramfort, Alexandre</author> / <author>Michel, Vincent</author> / <author>Thirion, Bertrand</author> / <author>Grisel, Olivier</author> / <author>Blondel, Mathieu</author> / <author>Prettenhofer, Peter</author> / <author>Weiss, Ron</author> / <author>Dubourg, Vincent</author> / <author>Vanderplas, Jake</author> / <author>Passos, Alexandre</author> / <author>Cournapeau, David</author> / <author>Brucher, Matthieu</author> / <author>Perrot, Matthieu</author> / <author>Duchesnay, Édouard</author>  (2011): “Scikit-learn: Machine Learning Research in Python”, in: 
+                        <hi rend="italic">Association for Computing Machinery (ed.): The Journal of Machine Learning Research</hi> 12, 85: 2825–2830. DOI: 10.5555/1953048.2078195. 
+                    </bibl>
+                    <bibl>
+                        <author>Raji, Deborah</author> / <author>Denton, Emily</author> / <author>Bender, Emily M.</author> / <author>Hanna, Alex</author> / <author>Paullada, Amandalynne</author>  (2021): “AI and the Everything in the Whole Wide World Benchmark”, in: 
+                        <hi rend="italic">Curran (ed.): Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks,</hi> Online: 2–20. DOI: 10.48550/arXiv.2111.15366.
+                    </bibl>
+                    <bibl>
+                        <author>Stenetorp, Pontus</author> / <author>Goran, Topić</author> / <author>Pyysalo, Sampo</author> / <author>Ohta, Tomoko</author> / <author>Kim, Jin-Dong</author> / <author>Tsujii, Jun’ichi</author>  (2011): “BioNLP Shared Task 2011: Supporting Resources”, in: 
+                        <hi rend="italic">Association for Computational Linguistics (ed.): Proceedings of BioNLP Shared Task 2011 Workshop,</hi> Portland, OR, June 2011: 112–120 <ref target="https://aclanthology.org/W11-1816">https://aclanthology.org/W11-1816</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Sharma, Shanya</author> / <author>Dey, Manan</author> / <author>Sinha, Koustuv</author>  (2021): “Evaluating Gender Bias in Natural Language Inference”, in: 
+                        <hi rend="italic">Curran Associates, Inc. (ed.): NeurIPS 2020 Workshop on Dataset Curation and Security</hi>, Online. DOI: 10.48550/arXiv.2105.05541. 
+                    </bibl>
+                    <bibl>Stańczak, Karolina, and Isabelle Augenstein (2021) “A Survey on Gender Bias in Natural Language Processing”, in: 
+                        <hi rend="italic">arXiv.org</hi>. DOI: 10.48550/arXiv.2112.14168.
+                    </bibl>
+                    <bibl>
+                        <author>Sweeney, Latanya</author> (2013): “Discrimination in online ad delivery”, in: 
+                        <hi rend="italic">Association for Computing Machinery (ed.): Communications of the ACM</hi> 56, 5: 44–54. DOI: 10.1145/2447976.2447990.
+                    </bibl>
+                    <bibl>
+                        <author>Tai, Jessica</author> (2021): “Cultural Humility as a Framework for Anti-Oppressive Archival Description”, in 
+                        <hi rend="italic">Journal of Critical Library and Information Studies</hi> 3, 2, October 2021. DOI: 10.24242/jclis.v3i2.120.
+                    </bibl>
+                    <bibl>
+                        <author>Tan, Yi Chern</author> / <author>Celis, L. Elisa</author>  (2019): “Assessing Social and Intersectional Biases in Contextualized Word Representations”, in: 
+                        <hi rend="italic">Wallach, H / Larochelle, H. / Beygelzimer A. / d'Alché-Buc, F. / Fox, E. / Garnett, R. (ed.): Advances in Neural Information Processing Systems </hi>32. DOI: 10.48550/arXiv.1911.01485
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

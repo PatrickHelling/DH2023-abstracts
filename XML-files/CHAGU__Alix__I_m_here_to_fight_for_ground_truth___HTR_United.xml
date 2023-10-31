@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>“I’m here to fight for ground truth”: HTR-United, a solution towards a common for HTR training data</title>
+                <author n="ChaguAlixCHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml"><persName ref="https://orcid.org/0000-0002-0136-4434" n="ChaguAlix">
+                        <surname>Chagué</surname>
+                        <forename>Alix</forename>
+                    </persName><affiliation>ALMAnaCH, Inria, France; Université de Montréal, Montréal, Canada</affiliation><email>alix.chague@inria.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ClriceThibaultCHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml"><persName ref="https://orcid.org/0000-0003-1852-9204" n="ClriceThibault">
+                        <surname>Clérice</surname>
+                        <forename>Thibault</forename>
+                    </persName><affiliation>Centre Jean Mabillon, PSL-Ecole nationales des chartes; ALMAnaCH, Inria, France</affiliation><email>clerice.thibault@algorythme.net</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The improvement of the automatic transcription of manuscripts relies on an easier access to training data of good quality (ground truth). HTR-United offers a solution to find and document such datasets, potentially creating a common. We present the set-up of this ecosystem and its main outcomes.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handwritten Text Recognition</term>
+                    <term>ground truth</term>
+                    <term>datasets</term>
+                    <term>commons</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The growth of computation power and rise of artificial intelligence (in particular Deep Learning) allowed for the development of automatic text recognition, both on printed texts (OCR) and handwritten ones (HTR). Such technologies can now make millions of images of texts from various periods of time, held in patrimonial institutions, available for further search and processing.</p>
+            <p>HTR became more accessible when user friendly interfaces started to be developed: namely Transkribus from 2015 (Muehlberger et al. 2019) and eScriptorium from 2019 (Kiessling et al. 2019). In the case of HTR and old prints though, one of the hurdles remaining to be overcome is the access to robust models capable of recognizing coherent texts despite the multiple variations in handwriting or fonts. Such models usually necessitate users to produce large amounts of manual transcriptions considered as perfect -called ground truth-, which is a costly task. It requires a good understanding of the way deep learning functions, skills in paleography, and time. An easy way to reduce the costs of creating the training data to obtain a model is to rely on the data produced by other projects. Unfortunately, they are hard to find and not always published, because there is no incentive to put in this extra effort, neither for their publication nor for their documentation.</p>
+            <p>HTR-United is a collaborative initiative whose main purpose is to improve the findability of these open datasets, covering as many periods, scripts and languages as possible. Through this initiative, we support the creation a public catalog of dataset descriptions, contributed by individuals volunteering their own datasets. In general, descriptions are submitted as a YAML file filled with the help of a form available on HTR-United website (Figure 1)
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn1" n="1"/>. Raising awareness on the necessity to correctly document such shared datasets, HTR-United favors the implementation of the FAIR principles in the specific case of text recognition training datasets (Chagué / Clérice 2022b). The catalog
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn2" n="2"/> can be browsed using filters (script, language, type of font, period, etc.) and offer means to easily cite a dataset (Figure 2).
+            </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="5.152319444444444cm" url="Pictures/13487e5f24833dd3b494dc936fa71ca5.png" rend="inline"/>
+                <head><hi rend="bold">Figure 1:</hi> (a) Excerpt of the form to record the description of a new dataset; (b) YAML content generated by the form; (c) YAML description of a dataset submitted to HTR-United with Github.
+                </head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="14.528830555555556cm" height="6.824147222222222cm" url="Pictures/4d85ab487191aa4caa41b9352bd4f1b4.png" rend="inline"/>
+                <head><hi rend="bold">Figure 2:</hi> View of records in the catalog: records can be seen in their own page (a) or browsed in the catalog, including after using filters (b).
+                </head>
+            </figure>
+
+            <p>The initiative is set up as an ecosystem of public Github repositories
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn3" n="3"/>, which guarantees the existence of precious versioning features for an ever-evolving catalog, transparency from all the parties as well as the possibility for us to rely on minimalistic developments. For example, anytime a dataset description is validated by our team, a Github Action processes all the existing descriptions in order to generate a new version of the catalog in the form of a pivot YAML file
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn4" n="4"/>: the catalog is never directly edited manually which reduces the risks of introducing errors. While a repository is dedicated to gathering all the descriptions feeding the catalog, another one hosts the specifications of the schema used to control the conformity of the descriptions
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn5" n="5"/>. Anyone can open a discussion to suggest the addition of new features in the specifications, or access the details of the arguments having led to the modification of the schema. Additionally, we aim to provide and maintain a suite of tools, available locally or through Github Actions and continuous integration, which help control, document and manage dataset on the short and long term, specifically in heavily collaborative contexts
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn6" n="6"/>.
+            </p>
+            <p>During the DH2023 conference, we would like to introduce HTR-United to the international DH community by presenting how the ecosystem is organized, how contributors can submit new entries to the catalog as well as the stakes of contributing to such an initiative. HTR-United can be useful for the entire community of users of HTR technologies as the datasets listed in the catalog cover more and more languages or writing systems.</p>
+            <p>We would like to present some of the most interesting outcomes of such a collaborative catalog. First, various generic models for HTR were trained thanks to having access to a great variety of ground truth datasets
+                <ref target="#CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn7" n="7"/>, which are of tremendous importance for the successful development of HTR for the humanities and the cultural institutions. The existence of such models allows smaller institutions or groups of researchers to quickly train robust models by simply fine-tuning generic models instead of starting from scratch (Chagué et al. 2021). Secondly, one of the most exciting aspects of possessing such a space for exchanging information about ground truth datasets is the fact that it creates opportunities to pave the way towards a (international) standardization of transcription practices in the context of ground truth creation.
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn1">
+                     See 
+                        <ref target="https://htr-united.github.io/document-your-data.html">https://htr-united.github.io/document-your-data.html</ref> (27/04/2023).
+                    
+                </note><note n="2" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn2">
+                     See 
+                        <ref target="https://htr-united.github.io/catalog.html">https://htr-united.github.io/catalog.html</ref> (27/04/2023).
+                    
+                </note><note n="3" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn3">
+                     See 
+                        <ref target="https://github.com/HTR-United">https://github.com/HTR-United</ref> (27/04/2023).
+                    
+                </note><note n="4" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn4">
+                     See in particular 
+                        <ref target="https://github.com/HTR-United/htr-united/blob/master/htr-united.yml">https://github.com/HTR-United/htr-united/blob/master/htr-united.yml</ref> (27/04/2023).
+                    
+                </note><note n="5" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn5">
+                     See 
+                        <ref target="https://github.com/HTR-United/schema">https://github.com/HTR-United/schema</ref> (27/04/2023).
+                    
+                </note><note n="6" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn6">
+                     See 
+                        <ref target="https://htr-united.github.io/actions.html">https://htr-united.github.io/actions.html</ref> (27/04/2023).
+                    
+                </note><note n="7" xml:id="CHAGU__Alix__I_m_here_to_fight_for_ground_truth___HTR_United.xml_ftn7">
+                     See the CREMMA Medieval model (Pinche 2023), the Manu McFrench models (Chagué / Clérice 2022a) and other experiments on large training datasets such as Hodel et al. (Hodel et al. 2021).
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl> <author>Chagué, Alix</author> / <author>Clérice, Thibault</author> (2022a). 
+                        <hi rend="italic">HTR-United—Manu McFrench V1 (Manuscripts of Modern and Contemporaneous French)</hi>. 
+                        <ref target="https://doi.org/10.5281/zenodo.6657809">https://doi.org/10.5281/zenodo.6657809</ref> (27/04/2023)
+                    </bibl>
+                    <bibl><author>Chagué, Alix</author> / <author>Clérice, Thibault</author> (2022b, June 23). 
+                        <hi rend="italic">Sharing HTR datasets with standardized metadata: The HTR-United initiative</hi>. Documents anciens et reconnaissance automatique des écritures manuscrites. 
+                        <ref target="https://inria.hal.science/hal-03703989">https://inria.hal.science/hal-03703989</ref> (27/04/2023)
+                    </bibl>
+                    <bibl><author>Chagué, Alix</author> / <author>Clérice, Thibault</author> / <author>Romary, Laurent</author> (2021, November 15). 
+                        <hi rend="italic">HTR-United: Mutualisons la vérité de terrain !</hi> DHNord2021 - Publier, partager, réutiliser les données de la recherche : les data papers et leurs enjeux. 
+                        <ref target="https://hal.science/hal-03398740">https://hal.science/hal-03398740</ref> (27/04/2023)
+                    </bibl>
+                    <bibl><author>Hodel, Tobias</author> / <author>Schoch, David</author> / <author>Schneider, Christa</author> / <author>Purcell, Jake</author> (2021). 
+                        <hi rend="italic">General Models for Handwritten Text Recognition: Feasibility and State-of-the Art. German Kurrent as an Example</hi> (No. 0). 
+                        <hi rend="italic">7</hi>(0), Article 0. 
+                        <ref target="https://doi.org/10.5334/johd.46">https://doi.org/10.5334/johd.46</ref> (27/04/2023)
+                    </bibl>
+                    <bibl><author>Kiessling, Benjamin</author> / <author>Tissot, Robin</author> / <author>Stokes, Peter</author> / <author>Stökl Ben Ezra, Daniel</author> (2019). eScriptorium: An Open Source Platform for Historical Document Analysis. 
+                        <hi rend="italic">2019 International Conference on Document Analysis and Recognition Workshops (ICDARW)</hi>, 
+                        <hi rend="italic">2</hi>, 19–19. 
+                        <ref target="https://doi.org/10.1109/ICDARW.2019.10032">https://doi.org/10.1109/ICDARW.2019.10032</ref> (27/04/2023)
+                    </bibl>
+                    <bibl><author>Muehlberger, Guenter</author> / <author>et al.</author> (2019). Transforming scholarship in the archives through handwritten text recognition: Transkribus as a case study. 
+                        <hi rend="italic">Journal of Documentation</hi>, 
+                        <hi rend="italic">75</hi>(5), 954–976. 
+                        <ref target="https://doi.org/10.1108/JD-07-2018-0114">https://doi.org/10.1108/JD-07-2018-0114</ref> (27/04/2023)
+                    </bibl>
+                    <bibl><author>Pinche, Ariane </author>(2023). 
+                        <hi rend="italic">Generic HTR Models for Medieval Manuscripts. The CREMMALab Project</hi>. 
+                        <ref target="https://hal.science/hal-03837519">https://hal.science/hal-03837519</ref> (27/04/2023)
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

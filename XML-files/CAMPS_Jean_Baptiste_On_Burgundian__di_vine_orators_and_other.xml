@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Burgundian (di)vine orators and other impostors:
+                        Stylometry of Late Medieval Rhetoricians</title>
+                <author n="CampsJeanBaptisteCAMPS_Jean_Baptiste_On_Burgundian__di_vine_orators_and_other.xml"><persName ref="https://orcid.org/0000-0003-0385-7037" n="CampsJeanBaptiste">
+                        <surname>Camps</surname>
+                        <forename>Jean-Baptiste</forename>
+                    </persName><affiliation>École nationale des chartes | Université PSL, France</affiliation><email>jean-baptiste.camps@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SalvatiBenedettaCAMPS_Jean_Baptiste_On_Burgundian__di_vine_orators_and_other.xml"><persName ref="https://orcid.org/0000-0002-9921-1769" n="SalvatiBenedetta">
+                        <surname>Salvati</surname>
+                        <forename>Benedetta</forename>
+                    </persName><affiliation>École nationale des chartes | Université PSL, France; Université de
+                        Lausanne, Suisse</affiliation><email>benedetta.salvati@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Widespread in the Middle Ages, anonymity is the hallmark of heraldic literature. Only rarely indeed do heralds claim ownership, and, when they do, they generally use a pseudonym.This paper intends to answer the question of whether or not two pieces of topical poetry can be ascribed to Nicaise Ladam, herald of arms of the Burgundian-Habsburgs' House.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Stylometry</term>
+                    <term>Medieval French Literature</term>
+                    <term>Rhetoricians</term>
+                    <term>15th century</term>
+                    <term>16th century</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>Philology</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>The attribution of medieval texts poses specific challenges. Many texts are
+                    anonymous or of dubious authorship. Very often, there is no known candidate for
+                    the authorship of a given text. In many other cases, there is only one single
+                    known candidate (or only one that can actually be tested), and the task becomes
+                    one of authorship verification. Widespread in the Middle Ages, anonymity is the
+                    hallmark of heraldic literature. Only rarely indeed do heralds claim ownership
+                    over their works, and, when they do, they generally use a pseudonym (Couhault
+                    2020), which makes it difficult to identify the authors.</p>
+                <p>This paper intends to answer the question of whether or not the two pieces of
+                    topical poetry, <hi rend="italic">Le blazon des armes de Lalaing</hi> (1509),
+                    and <hi rend="italic">L’epitaphe de Jehan de Luxembourg</hi> (1508-1509 ca.),
+                    attested in the MS Paris, BnF, fr. 5229, at the folios 143r-144v and 150r-v,
+                    undoubtedly two works of an herald of arms, can be ascribed to Nicaise Ladam,
+                        <hi rend="italic">chroniqueur-poète</hi> and herald of arms of the
+                    Burgundian-Habsburgs’ House. The first poem is signed by <hi rend="italic">Luxembourg le herault</hi>, while the running title of the second one
+                    attributes the epitaph to the <hi rend="italic">Songeur de Bapasmes</hi>, both
+                    known to be the pen names of Nicaise (Ladam 1975; Lemaire and Tourneux 2001;
+                    Couhault 2020), who was born in Bapaume in 1465. In order to compare the results
+                    on those two pieces, we include a third anonymous one, <hi rend="italic">Or a
+                        permis la divine puissance</hi> (1524-1546 ca.), for which there are no
+                    suspicions of Ladam’s authorship. </p>
+            </div>
+            <div type="div1">
+                <head>Preparing the
+                    corpus </head>
+                <p>Writing among heralds is very poorly recorded. Not many French-speaking officers
+                    apart from Ladam seem indeed to have practised rhymed eloquence, which has been
+                    a major constraint in establishing our corpus. In the absence of documentation,
+                    we therefore gave priority to Burgundian contemporary authors, such as J.
+                    Molinet, <hi rend="italic">indiciaire</hi> and official historiographer of the
+                    dukes of Burgundy (Devaux 1996; Frieden 2013), whose dialect and poetic
+                    institutes could correspond to the ones of the Anonymous of MS 5229, as well as
+                    French rhetoricians, namely G. Crétin, who has practised different forms of
+                    topical writing, including funeral lamentation and eulogy, genres to which the
+                    two poems mentioned above belong. </p>
+                <p>The texts included in the corpus have been acquired using handwritten text
+                    recognition ( <hi rend="smallcaps">cer</hi> of 2.26% on test set) and <hi rend="smallcaps">ocr</hi>, and have then been carefully corrected and
+                    critically edited. As for the Ladam’s ones, they have been edited by B. Salvati,
+                    as a part of her digital scholarly edition of <hi rend="italic">Chronique
+                        abrégée</hi> (1488-1546) (Salvati 2020); the other ones have been taken from
+                    the critical reference editions, which we later emended where necessary (see
+                    Table 3 in appendix). We removed inserts in prose or in Latin from the texts.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Method </head>
+                <p>Due to manuscript based transmission, authorial idiolect in the documents is
+                    mixed with the linguistic particularities of the successive scribes. It is
+                    particularly true of spelling, probably the less stable element in the
+                    tradition. For this reason, we experiment not only with traditional stylometric
+                    features such as affixes (Sapkota et al. 2015), but we also use lemmatised
+                    function words and part-of-speech trigrams (Camps, Clérice, and Pinche
+                    2021).</p>
+                <p>Dealing with short texts (as is often the case with occasional poetry) of
+                    variable lengths is also an issue to which there are no convenient solutions. To
+                    have a minimum sample size of 1000 words, we aggregate all poems of the same
+                    author, and then take samples of 1000 words each.</p>
+                <p>We use two different type of supervised analyses:</p>
+                <list type="unordered">
+                    <item>Linear support-vector machines, trained to recognise the style of each
+                        author. To handle the differences in training corpus size, we use
+                        downsampling and class weights (Lemaı̂tre, Nogueira, and Aridas
+                        2017);</item>
+                    <item>a generalised-impostors method (Koppel and Winter 2014; Kestemont et al.
+                        2016), following the implementation provided by M. Eder (Eder, Rybicki, and
+                        Kestemont 2016).</item>
+                </list>
+                <table xml:id="d57e244">
+                    <head><hi rend="bold">Table 1. </hi>F1 Score for leave-one-out evaluation of the
+                        SVM models for each feature type </head>
+                    <row role="label">
+                        <cell>Author</cell>
+                        <cell rend="bold">affixes</cell>
+                        <cell rend="bold">lemma (full)</cell>
+                        <cell rend="bold">lemma (fw)</cell>
+                        <cell rend="bold">POS</cell>
+                        <cell rend="italic">Support</cell>
+                    </row>
+                    <row>
+                        <cell>Cretin</cell>
+                        <cell>1.00</cell>
+                        <cell>1.00</cell>
+                        <cell>0.83</cell>
+                        <cell>0.94</cell>
+                        <cell>16</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>0.99</cell>
+                        <cell>0.99</cell>
+                        <cell>0.94</cell>
+                        <cell>0.96</cell>
+                        <cell>37</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>0.96</cell>
+                        <cell>0.96</cell>
+                        <cell>0.83</cell>
+                        <cell>0.96</cell>
+                        <cell>12</cell>
+                    </row>
+                    <row>
+                        <cell rend="italic">macro av.</cell>
+                        <cell>0.98</cell>
+                        <cell>0.98</cell>
+                        <cell>0.87</cell>
+                        <cell>0.95</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rend="italic">weighted av.</cell>
+                        <cell>0.98</cell>
+                        <cell>0.98</cell>
+                        <cell>0.90</cell>
+                        <cell>0.95</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>All in all, affixes and lemma, closely followed by POS, seem to be the most
+                    efficient features, when used in isolation. If only the score is considered,
+                    they seem like the natural choice, but, when we look at the features with the
+                    highest coefficients in the classification models, the results are somewhat
+                    different (fig. 1). Some of them, such as the word ending <hi rend="bold">y</hi>
+                    after <hi rend="bold">u</hi>, seem indeed more likely to indicate copyists’
+                    scribal habits, rather than authorial style features. </p>
+                <p>Such bias also contaminates the POS: for instance, the rarer spelling for the
+                    definite article <hi rend="italic">ung</hi>, is erroneously interpreted by the
+                    tagger as demonstrative, causing biased pseudo-features. In addition, lemmas
+                    themselves seem to retain a lot of thematic and generic features. For instance,
+                    the sting ( <hi rend="italic">dart</hi>), frequently associated to the
+                    representations of Death in funeral poetry, to which the major part of Ladam’s
+                    chosen pieces belong, or the overuse of the second-person pronoun ( <hi rend="italic">tu</hi>). </p>
+                <p>For these reasons, selected function words, though less performing, seem like the
+                    less biased feature (the other, harder to implement, alternative would be to
+                    correct annotation and perform spelling normalisation). We decide to continue on
+                    using only function words.</p>
+                <p>Globally, the imbalance of the training corpus is a substantial obstacle, and the
+                    problem is to some extent an open set question, which makes the impostors
+                    approach an interesting alternative. The impostors method was first optimised
+                    through the procedure implemented by (Eder, Rybicki, and Kestemont 2016). In the
+                    leave-one-out training, the range of unreliable values were contained between
+                    0.28 and 0.55.</p>
+                    <figure>
+                        <graphic url="Pictures/7a0411f7ac3a82589aebfbe2c92e272c.png"/>
+                    </figure>
+                    <figure>
+                        <graphic url="Pictures/56305d6ad6a18878b8bdb328b882b738.png"/>
+                    </figure>
+                    <figure>
+                        <graphic url="Pictures/e7196023ffcaae18cbb0f2676d095809.png"/>
+                    </figure>
+                    <figure>
+                        <graphic url="Pictures/3d5dfb88fa2f43b5a64e676af1384a3b.png"/>
+                        <head><hi rend="bold">Figure 1:</hi> Coefficients for the Ladam models based on
+                            affixes, lemmas, POS 3-grams as well as lemmatised function words </head>
+                    </figure>
+                   
+            </div>
+            <div type="div1">
+                <head>Results and
+                    discussion </head>
+                <table xml:id="d57e444">
+                    <head><hi rend="bold">Table 2:</hi> Coefficients of the pieces to be attributed
+                        based on the SVM models (value above 0 in bold), and impostors method (value
+                        above P2 are in bold; dubious values between P1 and P2 in italics)) </head>
+                   
+                    <row>
+                        <cell/>
+                        <cell>Cretin</cell>
+                        <cell>Ladam</cell>
+                        <cell>Molinet</cell>
+                        <cell>SVM pred</cell>
+                        <cell>Cretin</cell>
+                        <cell>Ladam</cell>
+                        <cell>Molinet</cell>
+                        <cell>Impost. pred</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Or a…</cell>
+                        <cell>-0.61</cell>
+                        <cell rend="italic">0.04</cell>
+                        <cell>-0.48</cell>
+                        <cell>Ladam?</cell>
+                        <cell rend="bold">0.55</cell>
+                        <cell rend="bold">0.65</cell>
+                        <cell>0.24</cell>
+                        <cell rend="italic">Contradictory</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Blazon</cell>
+                        <cell>-0.39</cell>
+                        <cell>-0.38</cell>
+                        <cell>-0.29</cell>
+                        <cell rend="italic">None</cell>
+                        <cell rend="italic">0.40</cell>
+                        <cell rend="bold">0.83</cell>
+                        <cell rend="italic">0.32</cell>
+                        <cell>Ladam?</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Epitaphe</cell>
+                        <cell>-0.73</cell>
+                        <cell rend="bold">0.43</cell>
+                        <cell>-0.68</cell>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">0.39</cell>
+                        <cell rend="bold">0.79</cell>
+                        <cell>0.06</cell>
+                        <cell>Ladam?</cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>If Ladam is the most likely candidate inside the set for the <hi rend="italic">Blazon</hi> and <hi rend="italic">Epitaphe</hi>, the results are a bit more
+                    conclusive regarding the second. Could he be the author of only this piece?
+                    Nonetheless, the results are to be taken with caution, as the scores are
+                    partially contradictory between themselves. Current results make it likely that
+                        <hi rend="italic">Or a…</hi> is indeed not of Ladam, and maybe even the <hi rend="italic">Blazon</hi>, whose style seem somewhere between the three
+                    authors but inside the style of neither of them. </p>
+            </div>
+            <div type="div1">
+                <head>Future research </head>
+                <p>To avoid scribal biases, even when a normalisation such as lemmatisation is
+                    performed, it will be necessary to correct annotation errors. Our results tend
+                    indeed to show that these errors are not random and uniform, but are subject to
+                    biases when, for instance, a rare scribal spelling is encountered by the
+                    lemmatiser, creating issues in attribution. In itself, automated normalisation
+                    might not be sufficient to handle this.</p>
+                <p>Secondly, given the partially contradictory results of the two methods, it will
+                    be necessary to improve their results by enriching the dataset. For the
+                    impostors’ method, the inclusion of more imposters is necessary to reach a
+                    really ‘open set’ approach. For the SVM, the addition of more samples, or, of
+                    additional features seem necessary. That’s why, in the future, we plan to also
+                    integrate features of the poetic style, who sometimes have been shown to be the
+                    best performing feature for the analysis of poetry (Plecháč, Bobenhausen, and
+                    Hammerich 2018). In particular, the alternation of verses of varying length, the
+                    schema of verse-ending rhymes, the presence of internal rhymes and the place of
+                    caesura are features worthy of encoding and analysing, especially since some
+                    patterns are already suspected to be strong authorial markers (for instance, the
+                    presence of internal rhymes is suspected to be a feature of Ladam’s style).</p>
+            </div>
+            <div type="div1">
+                <head>Data
+                    and materials availability </head>
+                <p>Supervised analyses were made with SuperStyl ( <ref target="https://github.com/SupervisedStylometry/SuperStyl/">https://github.com/SupervisedStylometry/SuperStyl/</ref>) and the
+                    impostors’ implementation is based on <hi rend="italic">Stylo</hi> R package.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Appendix: Composition of the corpus </head>
+                <table xml:id="d57e638">
+                    <head><hi rend="bold">Table 3: </hi>List of the texts of the corpus </head>
+                    <row role="label">
+                        <cell rend="bold">Author</cell>
+                        <cell rend="bold">Genre</cell>
+                        <cell rend="bold">Date</cell>
+                        <cell rend="bold">Title</cell>
+                        <cell rend="bold">Nb. words</cell>
+                        <cell rend="bold">Source</cell>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>lament</cell>
+                        <cell>ca. 1496</cell>
+                        <cell rend="italic">Deploration sur le trepas de feu Okegan</cell>
+                        <cell>2847</cell>
+                        <cell>(Crétin 1864)</cell>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>lament</cell>
+                        <cell>3901</cell>
+                        <cell rend="italic">Plainte sur le trespas de messire Guillaume de
+                            Byssipat</cell>
+                        <cell>3901</cell>
+                        <cell>(Cretin 1932)</cell>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>lament</cell>
+                        <cell>1335</cell>
+                        <cell rend="italic">Plainte sur le trespas de Jehan Braconnier</cell>
+                        <cell>1335</cell>
+                        <cell>(Cretin 1932)</cell>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>lament</cell>
+                        <cell>7763</cell>
+                        <cell rend="italic">L’apparition du Mareschal sans reproche</cell>
+                        <cell>7763</cell>
+                        <cell>(Cretin 1932)</cell>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1498-1501</cell>
+                        <cell rend="italic">La Rescription des femmes de Paris</cell>
+                        <cell>153</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>epistle</cell>
+                        <cell>1515</cell>
+                        <cell rend="italic">Ad illustrissimum seigneur monseigneur Franciscum
+                            valescorum</cell>
+                        <cell>680</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Crétin</cell>
+                        <cell>rhymed chronicle</cell>
+                        <cell>1515-25</cell>
+                        <cell rend="italic">Chronique françoyse</cell>
+                        <cell>443</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1492</cell>
+                        <cell rend="italic">Le Doeul d’Arras</cell>
+                        <cell>509</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1492</cell>
+                        <cell rend="italic">Rescription aux Allemantz</cell>
+                        <cell>319</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1494</cell>
+                        <cell rend="italic">L’Epytaphe de Philippes de Criefvecoeur</cell>
+                        <cell>2073</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>prayer poem</cell>
+                        <cell>1495</cell>
+                        <cell rend="italic">De Job</cell>
+                        <cell>757</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">voyage</cell>
+                        <cell>1498</cell>
+                        <cell rend="italic">Recreation de la paix faicte à Paris</cell>
+                        <cell>858</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1498</cell>
+                        <cell rend="italic">Où est Jubal et Tubal, les chanteurs ?</cell>
+                        <cell>278</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">voyage</cell>
+                        <cell>1499</cell>
+                        <cell rend="italic">Rescription à Hesdin, Aire et Bethune</cell>
+                        <cell>498</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>royal entry</cell>
+                        <cell>1503</cell>
+                        <cell rend="italic">Le retour de nostre seigneur</cell>
+                        <cell>551</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1504</cell>
+                        <cell rend="italic">Epitaphe dudict feu bastard de Bourgongne</cell>
+                        <cell>2251</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1504</cell>
+                        <cell rend="italic">Epitaphe de Philibert duc de Savoie</cell>
+                        <cell>331</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">voyage</cell>
+                        <cell>1504</cell>
+                        <cell rend="italic">Le voiaige de Philippes prinche des
+                            Hespaignes</cell>
+                        <cell>422</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">dit</cell>
+                        <cell>1505</cell>
+                        <cell rend="italic">Le vergyer d’Austrice</cell>
+                        <cell>948</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1506</cell>
+                        <cell rend="italic">Description de la couronne du roy
+                            Philippes</cell>
+                        <cell>803</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1506</cell>
+                        <cell rend="italic">Deploration sur la mort dudit roy Philippe de
+                            Castille</cell>
+                        <cell>5122</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1506</cell>
+                        <cell rend="italic">Epitaphe de maistre Alexandre Agricola</cell>
+                        <cell>250</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>474</cell>
+                        <cell rend="italic">Epitaphe de Philippes de Bouzenton</cell>
+                        <cell>2688</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1506</cell>
+                        <cell rend="italic">Le Confort du Pasteureau d’Austrice</cell>
+                        <cell>2688</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1507</cell>
+                        <cell rend="italic">Alliance faicte à Calaix pour Charles
+                            d’Austrice</cell>
+                        <cell>425</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1508</cell>
+                        <cell rend="italic">L’Attente de paix refformee</cell>
+                        <cell>842</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1508</cell>
+                        <cell rend="italic">Sacre legat du siege apostolicque</cell>
+                        <cell>230</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>prayer poem</cell>
+                        <cell>1508</cell>
+                        <cell rend="italic">Conditor alme siderum</cell>
+                        <cell>943</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1508</cell>
+                        <cell rend="italic">L’an mil cincq cens et huict pour vray</cell>
+                        <cell>242</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">dit</cell>
+                        <cell>1508</cell>
+                        <cell rend="italic">Constumes seignouralles de Bappalmes</cell>
+                        <cell>1415</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1513</cell>
+                        <cell rend="italic">Recoeul de France et d’Angleterre</cell>
+                        <cell>1105</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>royal entry</cell>
+                        <cell>1514</cell>
+                        <cell rend="italic">L’entree et couronnement du roy Franchois
+                            premier</cell>
+                        <cell>655</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>royal entry</cell>
+                        <cell>1514</cell>
+                        <cell rend="italic">L’entree de Charles roy de Castille en
+                            Anvers</cell>
+                        <cell>966</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1516</cell>
+                        <cell rend="italic">L’Epitaphe de Ferdinand d’Aragon</cell>
+                        <cell>5333</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">dit</cell>
+                        <cell>1517</cell>
+                        <cell rend="italic">Chasteaulx en Espaigne</cell>
+                        <cell>2504</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell>lament</cell>
+                        <cell>1518</cell>
+                        <cell rend="italic">Epytaphe de Maximilien d’Austrice</cell>
+                        <cell>661</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Ladam</cell>
+                        <cell rend="italic">voyage</cell>
+                        <cell>1535</cell>
+                        <cell rend="italic">Le voyage de La Goulette</cell>
+                        <cell>1994</cell>
+                        <cell>(Salvati 2020)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1467</cell>
+                        <cell rend="italic">Le Trosne d’Honneur</cell>
+                        <cell>1538</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>occasional poem</cell>
+                        <cell>1475</cell>
+                        <cell rend="italic">Le Temple de Mars</cell>
+                        <cell>1691</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1482</cell>
+                        <cell rend="italic">La complainte pour le trespas de Marie de
+                            Bourgogne</cell>
+                        <cell>3047</cell>
+                        <cell>(Becker 1902)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1483</cell>
+                        <cell rend="italic">Epitaphe de Josse de Lalaing</cell>
+                        <cell>859</cell>
+                        <cell>(Thiry 1973)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1486</cell>
+                        <cell rend="italic">L’arbre de Bourgogne</cell>
+                        <cell>1204</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1489</cell>
+                        <cell rend="italic">Epitaphe de Simon Marmyon</cell>
+                        <cell>340</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1493</cell>
+                        <cell rend="italic">La mort Federicq empereur</cell>
+                        <cell>1290</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>a. 1500</cell>
+                        <cell rend="italic">Le miroir de vie</cell>
+                        <cell>2013</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1500</cell>
+                        <cell rend="italic">Lamentables regrés pour le trespas d’Albert duc
+                            de Zassen</cell>
+                        <cell>736</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1502</cell>
+                        <cell rend="italic">Epitaphe de monseigneur Henry de Berghes</cell>
+                        <cell>428</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1504</cell>
+                        <cell rend="italic">Au comte Englebert de Nassau</cell>
+                        <cell>896</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>Molinet</cell>
+                        <cell>lament</cell>
+                        <cell>1506</cell>
+                        <cell rend="italic">L’Epitaphe du duc Philippe de Bourgogne</cell>
+                        <cell>322</cell>
+                        <cell>(Dupire 1939)</cell>
+                    </row>
+                    <row>
+                        <cell>O. St-Gelais</cell>
+                        <cell>epistle</cell>
+                        <cell>1496</cell>
+                        <cell rend="italic">Espitre de Dido à Enée</cell>
+                        <cell>2929</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>O. St-Gelais</cell>
+                        <cell>lament</cell>
+                        <cell>1498</cell>
+                        <cell rend="italic">Epitaphe de Charles VIII</cell>
+                        <cell>465</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>O. St-Gelais</cell>
+                        <cell>lament</cell>
+                        <cell>1498</cell>
+                        <cell rend="italic">Complainte de Charles VIII</cell>
+                        <cell>3879</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>O. St-Gelais</cell>
+                        <cell>Allegoric poem</cell>
+                        <cell>1492</cell>
+                        <cell rend="italic">Le Séjour d’honneur</cell>
+                        <cell>888</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>O. St-Gelais</cell>
+                        <cell>translation/epics</cell>
+                        <cell>1498</cell>
+                        <cell>
+                            <hi rend="italic">Énéide</hi> - beg. </cell>
+                        <cell>10028</cell>
+                        <cell/>
+                    </row>
+                </table>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Becker, Philipp August</author>. 1902. “Autobiographisches von
+                        Jehan Molinet.” <hi rend="italic">Zeitschfrift Für Romanische
+                            Philologie</hi> 26 (6): 641–51. <ref target="https://doi.org/doi:10.1515/zrph.1902.26.6.641">https://doi.org/doi:10.1515/zrph.1902.26.6.641</ref>. </bibl>
+                    <bibl>
+                        <author>Camps, Jean-Baptiste, Thibault Clérice, and Ariane
+                            Pinche</author>. 2021. “Noisy Medieval Data, from Digitized Manuscript to
+                        Stylometric Analysis: Evaluating Paul Meyer’s Hagiographic Hypothesis.” <hi rend="italic">Digital Scholarship in the Humanities</hi> 36
+                        (Supplement_2): ii49–ii71. <ref target="https://doi.org/10.1093/llc/fqab033">https://doi.org/10.1093/llc/fqab033</ref>. </bibl>
+                    <bibl>
+                        <author>Couhault, Pierre</author>. 2020. <hi rend="italic">L’Étoffe Des
+                            Hérauts. L’office d’armes Dans L’Europe Des Habsbourg à La
+                            Renaissance</hi>. Classiques Garnier. </bibl>
+                    <bibl>
+                        <author>Cretin, Guillaume</author>. 1932. <hi rend="italic">Œuvres
+                            Poétiques, éd</hi>. Edited by Kathleen Chesney. Paris. </bibl>
+                    <bibl>
+                        <author>Crétin, Guillaume</author>. 1864. <hi rend="italic">Déploration
+                            de Guillaume Crétin Sur Le Trépas de Jean Okeghem: Musicien, Premier
+                            Chapelain Du Roi de France et Trésorier de Saint-Martin de Tours, Remise
+                            Au Jour</hi>. A. Claudin. </bibl>
+                    <bibl>
+                        <author>Devaux, Jean</author>. 1996. <hi rend="italic">Jean Molinet,
+                            Indiciaire Bourguignon</hi>. Champion. </bibl>
+                    <bibl>
+                        <author>Dupire, Noël</author>. 1939. <hi rend="italic">Les Faictz et
+                            Dictz de Jean Molinet</hi>. Société des anciens textes français. </bibl>
+                    <bibl>
+                        <author>Eder, Maciej, Jan Rybicki, and Mike Kestemont</author>. 2016.
+                        “Stylometry with R: A Package for Computational Text Analysis.” <hi rend="italic">R Journal</hi> 8 (1): 107–21. <ref target="https://journal.r-project.org/archive/2016/RJ-2016-007/index.html">https://journal.r-project.org/archive/2016/RJ-2016-007/index.html</ref>. </bibl>
+                    <bibl>
+                        <author>Frieden, Philippe</author>. 2013. <hi rend="italic">La Lettre et
+                            Le Miroir: écrire L’histoire d’actualité Selon Jean Molinet</hi>. Honoré
+                        Champion. </bibl>
+                    <bibl>
+                        <author>Kestemont, Mike, Justin Stover, Moshe Koppel, Folgert
+                            Karsdorp, and Walter Daelemans</author>. 2016. “Authenticating the Writings
+                        of Julius Caesar.” <hi rend="italic">Expert Systems with Applications</hi>
+                        63: 86–96. </bibl>
+                    <bibl>
+                        <author>Koppel, Moshe, and Yaron Winter</author>. 2014. “Determining If
+                        Two Documents Are Written by the Same Author.” <hi rend="italic">Journal of
+                            the Association for Information Science and Technology</hi> 65 (1):
+                        178–87. </bibl>
+                    <bibl>
+                        <author>Ladam, Nicaise</author>. 1975. <hi rend="italic">Mémoire et
+                            épitaphe de Ferdinand d’Aragon: édition Critique Par Claude Thiry</hi>.
+                        Les Belles Lettres. </bibl>
+                    <bibl>
+                        <author>Lemaire, Jacques Charles, and André Tourneux</author>. 2001. <hi rend="italic">Le Mémoire de L’aigle et de La Salamandre de Nicaise
+                            Ladam, Roi d’armes de Charles Quint</hi>. Peeters. </bibl>
+                    <bibl>
+                        <author>Lemaı̂tre, Guillaume, Fernando Nogueira, and Christos K
+                            Aridas</author>. 2017. “Imbalanced-Learn: A Python Toolbox to Tackle the
+                        Curse of Imbalanced Datasets in Machine Learning.” <hi rend="italic">The
+                            Journal of Machine Learning Research</hi> 18 (1): 559–63. </bibl>
+                    <bibl>
+                        <author>Plecháč, Petr, Klemens Bobenhausen, and Benjamin
+                            Hammerich</author>. 2018. “Versification and Authorship Attribution. A Pilot
+                        Study on Czech, German, Spanish, and English Poetry.” <hi rend="italic">Studia Metrica et Poetica</hi> 5 (2): 29–54. </bibl>
+                    <bibl>
+                        <author>Salvati, Benedetta</author>. 2020. “Édition Critique Numérique
+                        de La Chronique Abrégée: Œuvres et Recueil (1488-1546) de Nicaise Ladam.”
+                        Thèse en préparation, Université Paris Sciences &amp; Lettres. </bibl>
+                    <bibl>
+                        <author>Sapkota, Upendra, Steven Bethard, Manuel Montes, and Thamar
+                            Solorio</author>. 2015. “Not All Character N-Grams Are Created Equal: A
+                        Study in Authorship Attribution.” In <hi rend="italic">Proceedings of the
+                            2015 Conference of the North American Chapter of the Association for
+                            Computational Linguistics: Human Language Technologies</hi>, 93–102. </bibl>
+                    <bibl>
+                        <author>Thiry, Claude</author>. 1973. “Un inédit de Jean Molinet:
+                        l’épitaphe de Josse de Lalaing, sire de Montigny (1483).” <hi rend="italic">Bulletin de La Commission Royale d’Histoire</hi> 139 (1): 29–66.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

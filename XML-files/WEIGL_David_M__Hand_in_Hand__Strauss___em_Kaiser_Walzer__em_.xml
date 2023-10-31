@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hand in Hand: Strauss’ <hi rend="italic">Kaiser Walzer</hi> as a case study of interdisciplinary collaboration in digital musicology </title>
+                <author n="VanderHartChandaWEIGL_David_M__Hand_in_Hand__Strauss___em_Kaiser_Walzer__em_.xml"><persName ref="https://orcid.org/0000-0002-2055-273X" n="VanderHartChanda">
+                        <surname>VanderHart</surname>
+                        <forename>Chanda</forename>
+                    </persName><affiliation>mdw - University of Music and Performing Arts Vienna, Austria</affiliation><email>vanderhart@mdw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NurmikkoFullerTerhiWEIGL_David_M__Hand_in_Hand__Strauss___em_Kaiser_Walzer__em_.xml"><persName ref="https://orcid.org/0000-0002-0688-3006" n="NurmikkoFullerTerhi">
+                        <surname>Nurmikko-Fuller</surname>
+                        <forename>Terhi</forename>
+                    </persName><affiliation>Australian National University</affiliation><email>Terhi.Nurmikko-Fuller@anu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WeiglDavidMWEIGL_David_M__Hand_in_Hand__Strauss___em_Kaiser_Walzer__em_.xml"><persName ref="https://orcid.org/0000-0003-1502-1528" n="WeiglDavidM">
+                        <surname>Weigl</surname>
+                        <forename>David M.</forename>
+                    </persName><affiliation>mdw - University of Music and Performing Arts Vienna, Austria</affiliation><email>weigl@mdw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Composed to mark Franz Joseph’s state visit to Wilhelm II, Strauss’ Kaiser Walzer (Emperor Waltz) provokes the question: which Emperor was it for? We investigate this in a case study of interdisciplinary collaboration in digital musicology, employing a FAIR data multimedia corpus associated with the Vienna Philharmonic’s New Year’s Concerts.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>Composed to mark Franz Joseph’s state visit to Wilhelm II, Strauss’ Kaiser Walzer (Emperor Waltz) provokes the question: which Emperor was it for? We investigate this in a case study of interdisciplinary collaboration in digital musicology, employing a FAIR data multimedia corpus associated with the Vienna Philharmonic’s New Year’s Concerts.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital musicology</term>
+                    <term>linked data</term>
+                    <term>multimedia</term>
+                    <term>digital scholarly communication</term>
+                    <term>music history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>linked (open) data</term>
+                    <term>music and sound digitization</term>
+                    <term>encoding</term>
+                    <term>and analysis</term>
+                    <term>open access methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Art history</term>
+                    <term>Humanities computing</term>
+                    <term>Media studies</term>
+                    <term>Musicology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p>Johann Strauss II wrote 
+                    <hi rend="italic">Kaiser Walzer</hi> (Emperor Waltz), one of his most well-known and frequently discussed instrumental works in 1889. The work, composed on the occasion of Austrian Franz Joseph’s visit to Prussian Wilhelm II and one year after the Austrian emperor's jubilee, has long provoked the question: which of the two Emperors was the waltz for? Originally titled “Hand in Hand” by Simrock, Strauss’ publisher, ostensibly to flatter both emperors, it was first performed in Berlin on 21 October. (Rubey 1994) The original cover of the piano edition bore the illustration of the Austrian Imperial Crown. The work opens with a march, a Prussian nod, but includes three waltzes, a Viennese trademark. In this short presentation we engage with this question using novel digital musicology techniques. Specifically, we employ empirical evidence in the form of performance recordings, audio feature data, score encodings, and collected scholarly discourse drawn from a multi-modal FAIR data corpus generated by the Signature Sound Vienna project (Weigl et al. 2022).
+                </p>
+                <p>Impassioned arguments for the waltz’ intended dedicatee have long been made on either side, citing evidence both historical and musical (Endler 1998; Rubey 1994; Ritter 1892; Suchet 2015). It was arranged by both Schoenberg in 1921 to wistfully look back to a bygone Austrian monarchy, and rebranded as part of Nazi propaganda to glorify unified 
+                    <hi rend="italic">Deutschtum</hi> with an added, openly jingoistic text for the third waltz. Musical elements perceived as (stereo)typically Prussian (i.e., “martial”: dotted rhythms, heavy downwards beats, percussive snare licks, downwards musical impetus to which a person would march) and Viennese (i.e. “sentimental” / “waltz-like”: rubato-filled melodic lines, lightness of sound, early second and late third beats in ¾ time to which a person would waltz) have been cited to support either side of the discussion. Even the extra-musical cultural context is ambiguous and changes over time; films from 
+                    <hi rend="italic">The Last Emperor </hi>to three titled 
+                    <hi rend="italic">Emperor Waltz </hi>give the work varied implications (Lang 2014). 
+                </p>
+                <p>Engaging with this rich background of scholarly discourse and socio-political context, we turn to an extensive collection of recordings spanning some 80 years of performances, adding a historically underutilised source of evidence to standard score analysis (Cook 2013). Through close and distant listening, can we illuminate shifting perceptions of the waltz’s essential character, by both performers and audiences? Do the performances more saliently evoke, as John Suchet (2015) argues, “the character of Emperor Franz Josef; a military man, but a quiet one,” or emphasise purportedly German values inherent in the composition’s form, as program notes from the Vienna Philharmonic’s New Year’s Concerts in 
+                    <hi rend="italic">Anschluss</hi> times persistently claim; “a symphonic waltz ….intended for the German emperor” (Schneider 1939/1940). By interlinking score encodings with aligned performance recording collections we are examining broader interpretative changes over time. When comparing aspects (e.g. temporal profiles, dynamics, timbre, mastering) of recordings by the Vienna and Berlin Philharmonics, one might assume that Berlin would adopt a more Prussian, militaristic style and Vienna highlight the carefree, waltz-like 
+                    <hi rend="italic">Schwung</hi>. However, comparing performances in the Vienna Philharmonic’s New Year’s Concerts in the 1950s and 1960s to those by either orchestra since the 1980s, there appears to be a noticeable diminishment of more martial musical elements over time. 
+                </p>
+                <p>Our case study demonstrates the opportunities presented by interdisciplinary collaboration within the context of digital musicology, adding new dimensions to musicological scholarship, mutually informing and benefiting from advancements in music informatics research. The corpus and tooling developed as part of Signature Sound Vienna facilitate close and distant listening, score analysis and annotation. To encourage and engage in digital scholarly communication, our findings are captured as Web Annotations (Sanderson et al. 2017) – Linked Data structures upon our digitised evidence materials. To explicitly identify and relate (sections of) different performances, each of which contribute in their own way to our assertions, we apply the Music Annotation Ontology (Lewis et al. 2022) to abstract away from annotating on the ‘surface’ of our digital artefacts (e.g., timed intervals of audio signals), instead targeting abstracted musical objects individually manifested within these different artefacts. This is the first application of this model to performance- rather than score-based music research. </p>
+                <p>The approach exemplified by our case study enables disparate media to interconnect with scholarly discourse, providing musicologists the means to discover, track, record and share research outputs. We contribute to the ongoing debate about Strauss’ composition by grounding our findings within an empirical framework, linking claims from historical reception documents to evidence within our digital corpus. The focus on FAIR data management enables the corpus and all connected research objects to be used as a jumping-off point for further investigations. Though presented in the context of classical music performance analysis, wider applications to the arts and humanities are envisioned wherever objects of interest are most appropriately understood in connection with their surrounding layers of discourse and analysis. </p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>This research was funded in whole, or in part, by the Austrian Science Fund (FWF) [P 34664-G]. For the purpose of open access, the author has applied a CC BY public copyright licence to any Author Accepted Manuscript version arising from this submission. We gratefully acknowledge the collaboration of our colleagues in the Signature Sound Vienna project: Werner Goebl, Markus Grassl, Delilah Rammler, Fritz Trümpi, and Matthäus Pescoller. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Cook, Nicholas</author> (2013): 
+                        <hi rend="italic">Beyond the Score: Music as Performance</hi>. New York: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Endler, Franz</author> (1998): 
+                        <hi rend="italic">Johann Strauss: Um die Welt im Dreivierteltakt</hi>. Vienna, Munich: Amalthea.
+                    </bibl>
+                    <bibl>
+                        <author>Lang, Zoë Alexis</author> (2014): 
+                        <hi rend="italic">The Legacy of Johann Strauss: Political Influence and Twentieth-Century Identity</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Lewis, David</author> / <author>Shibata, Elisabete</author> / <author>Saccomano, Mark</author> / <author>Rosendahl, Lisa</author> / <author>Kepper, Johannes</author> / <author>Hankinson, Andrew</author> / <author>Siegert, Christine</author> / <author>Page, Kevin</author>  (2022): “A model for annotating musical versions and arrangements across multiple documents and media.” In Association for Computing Machinery (ed.): Proceedings of the 9th International Conference on Digital Libraries for Musicology (DLfM '22). New York, USA: 10–18. DOI: 
+                        10.1145/3543882.3543891 
+                    </bibl>
+                    <bibl>
+                        <author>Ritter, William</author> (1892): 
+                        <hi rend="italic">Les dernières oeuvres de Johann Strauss</hi>. Ghent: A. Siffer.
+                    </bibl>
+                    <bibl>
+                        <author>Rubey, Norbert</author> (1994): 
+                        <hi rend="italic">Johann Strauss (Sohn): Geschichte in Musik</hi>. Vienna.
+                    </bibl>
+                    <bibl>
+                        <author>Sanderson, Robert</author> / <author>Ciccarese, Paolo</author> / <author>Young, Benjamin</author>  (Eds.) (2017). 
+                        <hi rend="italic">Web Annotation Data Model</hi> (W3C Recommendation). <ref target="https://www.w3.org/TR/annotation-model/">https://www.w3.org/TR/annotation-model/</ref> [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Schneider, Constantin</author> (1939/1940): “Außerordentliches Konzert,” 
+                        <hi rend="italic">Philharmonische Konzerte, 80. Saison</hi>. Wienbibliothek, L172806. Vienna
+                    </bibl>
+                    <bibl>
+                        <author>Suchet, John</author> (2015): 
+                        <hi rend="italic">The Last Waltz</hi>. London: Elliot and Thompson.
+                    </bibl>
+                    <bibl>
+                        <author>Weigl, David M.</author> / <author>VanderHart, Chanda</author> / <author>Pescoller, Matthäus</author> / <author>Rammler, Delilah</author> / <author>Grassl, Markus</author> / <author>Trümpi, Fritz</author> / <author>Goebl, Werner</author>  (2022): “The Vienna Philharmonic Orchestra’s New Year’s Concerts: Building a FAIR Data Corpus for Musicology.” In Association for Computing Machinery (ed.): 
+                        <hi rend="italic">Proceedings of the 9th International Conference on Digital Libraries for Musicology</hi>, New York, NY: 36–40 DOI: 10.1145/3543882.3543892
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

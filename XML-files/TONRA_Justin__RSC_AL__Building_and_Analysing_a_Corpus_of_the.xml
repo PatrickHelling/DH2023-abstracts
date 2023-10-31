@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ÚRSCÉAL: Building and Analysing a Corpus of the early Irish-language
+                    Novel.</title>
+                <author n="TonraJustinTONRA_Justin__RSC_AL__Building_and_Analysing_a_Corpus_of_the.xml"><persName ref="https://orcid.org/0000-0002-2579-4367" n="TonraJustin">
+                        <surname>Tonra</surname>
+                        <forename>Justin</forename>
+                    </persName><affiliation>University of Galway, Ireland</affiliation><email>justin.tonra@universityofgalway.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This presentation describes the development and analysis of a corpus of the early Irish-language novel: one that strengthens existing resources for the comparative computational analysis of Europe’s multilingual literary history and clears a path for dedicated computational analysis of the early novel tradition in Irish.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>corpus</term>
+                    <term>Irish-language</term>
+                    <term>novels</term>
+                    <term>TEI</term>
+                    <term>ELTeC</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <p> ÚRSCEAL is a project to build an open-access TEI-encoded collection of the
+                    Irish-language novel for inclusion in the European Literary Text Collection
+                    (ELTeC), the state-of-the-art and standards-led multilingual corpus of the
+                    European novel (1840-1920) (Schöch et al. 2021). ELTeC provides a collection of
+                    novel corpora that are comparable in nature, scope, and quality across several
+                    European languages: an essential condition for the creation of multilingual
+                    tools and methods of computational literary analysis. To date, twenty European
+                    languages are represented in ELTeC, but Irish is not. This short presentation
+                    reports on the challenges and opportunities of developing an Irish-language
+                    corpus for ELTeC and considers questions for preliminary computational analysis
+                    of the collection. </p>
+
+                <p>ÚRSCÉAL’s contribution to ELTeC solves a gap by completing and submitting a
+                    collection of the Irish-language novel collection to the corpus, providing the
+                    data and motivation for computational literary analysis of the Irish-language
+                    novel and its European comparators. Moreover, it seeks to remedy broader gaps in
+                    the availability of crucial texts from the early Irish-language novel tradition
+                    by publishing new and accurate digital texts in a range of accessible formats
+                    and examining the potential for developing an expanded corpus of the
+                    Irish-language novel beyond 1920.</p>
+
+                <p> Compared to other European languages, the tradition of the novel in Irish begins
+                    relatively late: in 1901. Renowned for a rich oral literary culture, the
+                    development of an Irish-language prose culture was delayed until the beginning
+                    of the twentieth century owing to a variety of complex and interlinked causes
+                    which lie in “the turbulent disjunctions of Irish colonial history” (O’Leary
+                    1994). Warfare, famine, and penal legislation to suppress the use of Irish led
+                    to such an impoverished bibliographical culture that many of the founding
+                    authors of the late nineteenth-century Gaelic Revival movement had never read a
+                    book in the Irish language. </p>
+
+                <p>Irish, thus, is an outlier in the linguistic history of the European novel, but
+                    that uniqueness offers analytical opportunities of its own: how does a
+                    newly-developing novel culture compare to the more mature traditions of its
+                    European neighbours? How does it reflect its encounters with novels in English
+                    and other languages, as well as its own vernacular literature in established
+                    forms such as poetry? The presentation considers how computational analyses
+                    might be deployed to address these research questions.</p>
+
+                <p> Many of these computational analyses have been used by colleagues from
+                    South-Eastern Europe during and after COST Action CA16204 Distant Reading for
+                    European Literary History. Computational analysis of novel collections from
+                    Romania, Serbia, and Croatia prove instructive for making preliminary
+                    assessments of representative national novel corpora, while a study exploring
+                    titling practices in literary discourse which examined Romanian, Serbian,
+                    Slovenian, and Ukrainian collections alongside those of more culturally
+                    hegemonic Western European languages deliveres a model for genuine comparative
+                    multilingual analysis of the European novel (Patras et al. 2019; Stanković et
+                    al. 2022; Krstev et al. 2019; Primorac 2019; Marinescu 2019; Patras et al.
+                    2021). </p>
+                <p> This short presentation provides a report on the development of an important new
+                    resource that will act as a model, describing opportunities and challenges, for
+                    others who wish to a build a corpus in a minority or minoritised language. At
+                    the same time, it links to the broader collaborative development of ELTeC and,
+                    in considering questions for computational analysis of the collection,
+                    demonstrates fruitful exchanges and collaborations with South-Eastern European
+                    colleagues and their research, while offering advice for initial computational
+                    analysis of similar corpora. The opportunities presented by these collaborations
+                    will strengthen ELTeC as the basis for comparative analysis of the European
+                    novel and clear a path for dedicated computational analysis of the early
+                    tradition of the novel in Irish. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Krstev, Cvetana, et al.</author> (2019): “Analysis of the First
+                        Serbian Literature Corpus of the Late 19th and Early 20th Century with the
+                        TXM Platform”, in: Pálko, Gábor (ed.): <hi rend="italic">DH_Budapest_2019</hi>, 2019, 36–37
+                        <ref target="http://elte-dh.hu/wp-content/uploads/2019/09/DH_BP_2019-Abstract-Booklet.pdf">http://elte-dh.hu/wp-content/uploads/2019/09/DH_BP_2019-Abstract-Booklet.pdf</ref>. </bibl>
+                    <bibl>
+                        <author>Marinescu, Luiza</author> (2019): “From Close to Distant Reading
+                        of 100 Romanian Novels”, in: <hi rend="italic">Studia Ubb Philologia</hi>
+                        LXIV, 2: 239–50. DOI: 10.24193/subbphilo.2019.2.19. </bibl>
+                    <bibl>
+                        <author>O’Leary, Philip</author> (1994): <hi rend="italic">The Prose
+                            Literature of the Gaelic Revival, 1881-1921: Ideology and
+                            Innovation</hi>. University Park: Pennsylvania State University Press. </bibl>
+                    <bibl>
+                        <author>Patras, Roxana et al.</author> (2019): “The Splendors and
+                        Mist(Eries) of Romanian Digital Literary Studies: A State-of-the-Art Just
+                        before Horizons 2020 Closes Off”, in: <hi rend="italic">Hermeneia</hi> 23:
+                        207–22. </bibl>
+                    <bibl>
+                        <author>Patras, Roxana et al.</author> (2021): “Thresholds to the ‘Great
+                        Unread’: Titling Practices in Eleven ELTeC Collections”, in: <hi rend="italic">Interférences Littéraires/Literaire Interferenties</hi>
+                        25: 163–87. </bibl>
+                    <bibl>
+                        <author>Primorac, Antonija</author> (2019): “Infrastructural Challenges
+                        for Large Scale Digital Text Corpora: A View From the European Margins”,
+                        Humanities, Arts and Culture Data Summit and DARIAH Beyond Europe workshop,
+                        National Library of Australia, Canberra, 2019
+                        <ref target="https://www.humanities.org.au/special-event-1903/">https://www.humanities.org.au/special-event-1903/</ref>. </bibl>
+                    <bibl>
+                        <author>Schöch, Christof, et al.</author> (2021): “Creating the European
+                        Literary Text Collection (ELTeC): Challenges and Perspectives”, in: <hi rend="italic">Modern Languages Open</hi> 1: 1-19. DOI:
+                        10.3828/mlo.v0i0.364. </bibl>
+                    <bibl>
+                        <author>Stanković, Ranka, et al.</author> (2022): “Distant Reading in
+                        Digital Humanities: Case Study on the Serbian Part of the ELTeC Collection”,
+                        in: European Language Resources Association (ed.): <hi rend="italic">Proceedings of the Language Resources and Evaluation Conference</hi>,
+                        2022, 3337–45 <ref target="https://aclanthology.org/2022.lrec-1.356">https://aclanthology.org/2022.lrec-1.356</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

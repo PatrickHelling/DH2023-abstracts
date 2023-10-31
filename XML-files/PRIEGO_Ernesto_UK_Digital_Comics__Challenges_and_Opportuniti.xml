@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>UK Digital Comics: Challenges and Opportunities of a Collaborative Doctoral Partnership. A Co-designed Comic Poster </title>
+                <author n="PriegoErnestoPRIEGO_Ernesto_UK_Digital_Comics__Challenges_and_Opportuniti.xml"><persName ref="https://orcid.org/0000-0003-4418-369X" n="PriegoErnesto">
+                        <surname>Priego</surname>
+                        <forename>Ernesto</forename>
+                    </persName><affiliation>City, University of London, United Kingdom</affiliation><email>Ernesto.Priego.1@city.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BerubeLindaPRIEGO_Ernesto_UK_Digital_Comics__Challenges_and_Opportuniti.xml"><persName ref="https://orcid.org/0000-0002-1046-8569" n="BerubeLinda">
+                        <surname>Berube</surname>
+                        <forename>Linda</forename>
+                    </persName><affiliation>City, University of London, United Kingdom</affiliation><email>linda.berube@city.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="delaMoraFranciscoPRIEGO_Ernesto_UK_Digital_Comics__Challenges_and_Opportuniti.xml"><persName ref="https://orcid.org/0000-0003-4539-7278" n="delaMoraFrancisco">
+                        <surname>de la Mora</surname>
+                        <forename>Francisco</forename>
+                    </persName><affiliation>Symbola Comics, United Kingdom</affiliation><email>franciscodelam@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CookeIanPRIEGO_Ernesto_UK_Digital_Comics__Challenges_and_Opportuniti.xml"><persName ref="https://orcid.org/0000-0002-7000-2306" n="CookeIan">
+                        <surname>Cooke</surname>
+                        <forename>Ian</forename>
+                    </persName><affiliation>British Library, United Kingdom</affiliation><email>ian.cooke@bl.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MakriStephannPRIEGO_Ernesto_UK_Digital_Comics__Challenges_and_Opportuniti.xml"><persName ref="https://orcid.org/0000-0002-5817-4893" n="MakriStephann">
+                        <surname>Makri</surname>
+                        <forename>Stephann</forename>
+                    </persName><affiliation>City, University of London, United Kingdom</affiliation><email>stephann@city.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WisdomStellaPRIEGO_Ernesto_UK_Digital_Comics__Challenges_and_Opportuniti.xml"><persName ref="https://orcid.org/0000-0003-2452-1196" n="WisdomStella">
+                        <surname>Wisdom</surname>
+                        <forename>Stella</forename>
+                    </persName><affiliation>British Library, United Kingdom</affiliation><email>stella.wisdom@bl.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster presents, in comics form, the perspectives of those involved in the Collaborative Doctoral Partnership 'Understanding UK digital comics information and publishing practices: From creation to consumption'. The poster aims to share insights into the challenges and opportunities of inter-institutional research and its collaborative methods.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>comics</term>
+                    <term>user-centred research</term>
+                    <term>collaborative projects</term>
+                    <term>digital reading</term>
+                    <term>libraries</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>electronic literature production and analysis</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>user experience design and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Cultural studies</term>
+                    <term>Design studies</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Collaborative Doctoral Partnerships (CDPs) are funded collaborative research studentships awarded competitively by the UK Arts and Humanities Research Council (AHRC) to a museum, library, archive or heritage organization, or group of such organisations to allocate to collaborative projects. As part of this programme, the British Library (BL) and City, University of London (City) announced in May 2019 the offer of a fully-funded PhD studentship on the theme of 'Understanding UK digital comics information and publishing practices: From creation to consumption'. This CDP opportunity was the result of the mutual interests and existing collaborations between two academics at the Centre for Human-Computer Interaction Design at City and two librarians at the BL (British Library 2019).</p>
+            <p>The CDP was to engage with the theme from a User Experience (UX) perspective, with the aim of informing requirements for comics collection management, digital preservation, and content strategy development. In this sense, the partnership sought to integrate digital humanities/digital scholarship areas of interest and methods with those of user-centred research, therefore offering an opportunity for a researcher to engage with comics publishers, as well as readers, to gain new insight into the motivation, methods, and behaviour in creating, distributing, collecting, and reading digital comics.</p>
+            <p>One initial insight from the research was that while print comics have by no means been completely supplanted by digital comics (in fact a significant number of participants interviewed voiced a preference for print), reading on digital devices has indeed become popular enough for most publishers to provide access through ebook and app technology (Berube 2022). Given the paucity of empirical qualitative studies of digital comics readers, this doctoral project seeks to encourage a tradition in such research by offering a deeper understanding of the reader perspective. The data collected has raised number of issues around the reading of digital comics that bear further study: the manoeuvres between platforms, browsers, devices, and apps to get the reading experience to adhere to their preferences indicate that readers approach the digital environment with “cognitive maps”, that is preconceived mental models for what that experience should be (Berube et al 2022).</p>
+            <p>The CDP had only started when the team had to continue collaborating against the background of a global pandemic and, to date, economic, political and environmental crises. What has it been like to be part of this collaboration? What can other teams learn from our experiences?</p>
+            <p>The poster presents in comics form, the perspectives of those involved in this CDP, the doctoral researcher and their team of supervisors, with the aim of sharing insights into the challenges and opportunities of inter-disciplinary, inter-institutional research, and of the methods employed in such research, in practice. By practically engaging with the media-specificity of the comics medium, the poster is presented as a specific form of digital humanities research output. In doing so, it also presents a summary of the research findings to date.</p>
+            <p>The poster has been created following co-design methodologies, involving the artist and the participants in the creative and authoring process (Priego 2021; Priego et al 2022), and will be presented at the conference on both print and digital outputs for online sharing. By co-designing a poster in comics form, the team engaged in practice with some of the guiding research questions of the collaborative doctoral partnership by participating in the process of creating a printed comic via digital methods simultaneously designed for digital delivery.</p>
+            <p>As a Digital Humanities project and output, the poster will be the result of ‘hacking' and 'yacking' (Nowviskie 2014). In this sense the poster seeks to participate in an informative and pedagogical manner in scholarly conversations about the opportunities -but also the many challenges- of collaboration in digital humanities projects including the roles of PhDs, PhD supervisors, funders, libraries, and universities. The poster will be available online by the start of the conference with the DOI 
+                <ref target="https://doi.org/10.6084/m9.figshare.22717675">https://doi.org/10.6084/m9.figshare.22717675</ref>.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Berube, Linda</author> (2022): UK Digital Comics: More of the same but different? [1]. 18 July 2022. Digital Scholarship blog. Available at 
+                        <ref target="https://blogs.bl.uk/digital-scholarship/2022/07/uk-digital-comics-more-of-the-same-but-different.html">https://blogs.bl.uk/digital-scholarship/2022/07/uk-digital-comics-more-of-the-same-but-different.html</ref>. Accessed 31 October 2022.
+                    </bibl>
+                    <bibl>
+                        <author>Berube, Linda; Priego, Ernesto; Cooke, Ian; Wisdom, Stella; &amp; Makri, Stephann</author> (2022): “My Heart Goes Boom Boom!”: Understanding the Experience of Reading Digital Comics. Paper presented at the On the Margins: Hypertext, Electronic Literature, Digital Humanities, 15-16 Dec 2022, London, UK. Available at 
+                        <ref target="https://openaccess.city.ac.uk/id/eprint/30126/">https://openaccess.city.ac.uk/id/eprint/30126/</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>British Library</author> (2019): New AHRC CDP PhD studentships available at the British Library. British Library News. 19 February 2019. Available at 
+                        <ref target="https://www.bl.uk/news/2019/february/ahrc-cdp-2019">https://www.bl.uk/news/2019/february/ahrc-cdp-2019</ref>. Accessed 31 October 2022.
+                    </bibl>
+                    <bibl>
+                        <author>Nowviskie, Bethany </author>(2014): On the Origin of “Hack” and “Yack”. Journal of Digital Humanities. Vol. 3, No. 2 Summer 2014. Available at 
+                        <ref target="http://journalofdigitalhumanities.org/3-2/on-the-origin-of-hack-and-yack-by-bethany-nowviskie">http://journalofdigitalhumanities.org/3-2/on-the-origin-of-hack-and-yack-by-bethany-nowviskie</ref>. Accessed 31 October 2022.
+                    </bibl>
+                    <bibl>
+                        <author>Priego, Ernesto </author>(2021): Social Distancing while Blind: A Co-Designed COVID-19 Rapid Response Comic. Graphic Medicine Review, 1(1): 2, pp. 1–6; available at 
+                        <ref target="https://openaccess.city.ac.uk/id/eprint/26435/">https://openaccess.city.ac.uk/id/eprint/26435/</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Priego, Ernesto; Perez, Natalia; de la Mora, Francisco</author> (2022): "Living with Covid" While Clinically Vulnerable: A Real-Life Story. figshare. Poster. 
+                        <ref target="https://doi.org/10.6084/m9.figshare.19322825.v3">https://doi.org/10.6084/m9.figshare.19322825.v3</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Priego, Ernesto; Berube, Linda; de la Mora, Francisco; Cooke, I; Makri, Stephann, &amp; Wisdom, Stella</author> (2023): UK Digital Comics: Challenges and Opportunities of a Collaborative Doctoral Partnership. A Co-designed Comic Poster [Poster], available at 
+                        <ref target="https://doi.org/10.6084/m9.figshare.22717675">https://doi.org/10.6084/m9.figshare.22717675</ref> from 10 July 2023. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

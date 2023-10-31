@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>OstData – Building a Research Data Service for Enabling
+                        Interdisciplinarity and Regional Collaboration in Central, East, and
+                        Southeast European Studies</title>
+                <author n="FrankIngoFRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml"><persName ref="https://orcid.org/0000-0003-0372-3637" n="FrankIngo">
+                        <surname>Frank</surname>
+                        <forename>Ingo</forename>
+                    </persName><affiliation>Leibniz Institute for East and Southeast European Studies,
+                        Regensburg, Germany</affiliation><email>frank@ios-regensburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>OstData is a research data service for Central, East, and Southeast European Studies. Based on its fine-grained metadata schema and faceted classification system, the research data repository and discovery system enables interdisciplinary collaboration as opportunity and fosters networking of national and international research communities, research infrastructures, and funders.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Research Data Repository</term>
+                    <term>Metadata</term>
+                    <term>Southeast European Studies</term>
+                    <term>Interdisciplinarity</term>
+                    <term>Collaboration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>OstData is a research data service for Central, East, and Southeast European
+                    Studies. It is being developed in a joint project funded by the German Research
+                    Foundation (DFG) <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn1" n="1"/>. The poster demonstrates how our metadata schema supports
+                    interdisciplinary research by enabling detailed descriptions of what methods
+                    were applied to create research data. </p>
+            </div>
+            <div type="div1">
+                <head>Profile and Objectives</head>
+                <p>OstData supports the publication of research data from multi- and
+                    interdisciplinary research on the following countries (see also map in fig. 1):
+                    Albania, Belarus, Bosnia-Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic,
+                    Estonia, Finland, Hungary, Kosovo, Latvia, Lithuania, Modern Greece, Moldavia,
+                    Montenegro, North Macedonia, Poland, Romania, Russia, Serbia, Slovakia,
+                    Slovenia, Ukraine. </p>
+                <p><figure>
+                        <graphic url="Pictures/272da313c05e81edf087ed2d5a017abe.png"/>
+                        <head><hi rend="bold">Fig. 1.</hi> Regional coverage of the OstData research
+                            data service </head>
+                    </figure></p>
+                <p>Research on the regions of Central, East, and Southeast Europe is conducted
+                    within humanities and social sciences, especially in relation to the following
+                    disciplines: Archaeology, Economics, Ethnology/Anthropology, Historical
+                    Sciences, Linguistics and Literature, Political Science, Sociology.</p>
+                <p>The most relevant objectives of OstData as seen from the perspective of research
+                    infrastructure are</p>
+                <list type="unordered">
+                    <item>to provide a metadata schema for the description of research data, thus
+                        enabling these to be searched and re-used,</item>
+                    <item>to integrate institutional research data repositories <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn2" n="2"/> by ingesting metadata for its central search platform, </item>
+                    <item>to enable publication and archiving of research data by providing a
+                        reliable infrastructure and the necessary incentives, and</item>
+                    <item>to operate an accessible, user-friendly, and structured search interface
+                        for research data originating from Germany.</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Approach and Methods</head>
+                <p>According to the following definition of interdisciplinarity, interdisciplinary
+                    research is not only characterized by applying a method or theory from one
+                    discipline in another discipline, but also by reusing data created in another
+                    disciplinary setting.</p>
+                <quote>
+                    <hi rend="italic">Interdisciplinarity (ID)</hi> is typically characterized by
+                    integration of information, data, methods, tools, concepts, and/or theories from
+                    two or more disciplines or bodies of specialized knowledge. Proactive focusing,
+                    blending, and linking of disciplinary inputs foster a more holistic
+                    understanding of a question, topic, theme, or problem by individuals or teams.
+                    (Klein, 2014, p. 15) </quote>
+                <p>Unfortunately, research data repositories are not very well suited to the
+                    information needs of interdisciplinary researchers. Metadata about published
+                    research data often lacks methodological information about the creation of
+                    research data and the theoretical and disciplinary context in which the data
+                    were created. In order to support researchers in finding relevant research
+                    output in form of research data to be (re)used in their interdisciplinary
+                    research, information system have to provide interdisciplinary perspectives on
+                    data and the tools and methods which were used to create the data. <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn3" n="3"/></p>
+                <p>The OstData metadata schema (ODMS) is based on essential elements of the DataCite
+                    metadata schema (DataCite Metadata Working Group, 2021) and extends it with
+                    additional fields to enable researchers to describe their research data in more
+                    detail with a focus on the subject of the data and the methods which were used
+                    to create the data. As an application profile (Heery / Patel, 2000) it also
+                    reuses properties from the Data Catalog Vocabulary (DCAT) (Albertoni et al.,
+                    2020). In order to support interdisciplinary research data management, the ODMS
+                    follows a faceted classification approach. To support especially
+                    interdisciplinary researchers, the ODMS provides so-called zones and subzones
+                    for discipline/domain-specific information, whereat the zone ‘Subject Indexing’
+                    and the zone ‘Discipline-specific Indexing’ with the additional subzones for the
+                    social sciences, digital editions, and linguistics are most important.</p>
+                <p>In combination with the zone ‘Subject Indexing’ the zone ‘Discipline-specific
+                    Indexing’ allows a kind of phenomenon-based knowledge organization (Szostak et
+                    al., 2016). Different disciplinary classification systems and thesauruses are
+                    used in order to grasp various disciplinary perspectives (see table 1 for
+                    details).</p>
+                <p><figure>
+                        <graphic url="Pictures/d2b2f969db436fec71894d35b7fe37f9.png"/>
+                        <head><hi rend="bold">Table 1.</hi>Zones and subzones in the OstData
+                            metadata schema (ODMS) with a selection of metadata fields </head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Results and Outlook</head>
+                <p>Based on its metadata schema OstData provides a faceted classification system
+                    (see fig. 2 showing the faceted navigation
+                    system currently in its final development stage) including amongst others the
+                    Taxonomy of Digital Research Activities in the Humanities (TaDiRAH) <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn4" n="4"/> and the DDI Controlled Vocabularies (Jaaskelainen et al., 2010) for
+                    granular methodological description of research data. </p>
+                <p><figure>
+                        <graphic url="Pictures/e483b7e3e17247ee9f9f23b843ba3644.png"/>
+                        <head><hi rend="bold">Fig. 2.</hi> Web design (sketch) for the faceted
+                            navigation system of the OstData discovery system to be deployed on <ref target="http://www.ostdata.de/">http://www.ostdata.de/</ref></head>
+                    </figure></p>
+                <p>OstData permits metadata curators to use different classification systems and
+                    thesauri to describe objects of research and data collection methods. Thereby,
+                    researchers can retrieve research data from their disciplinary perspectives.
+                    Furthermore, researchers from different disciplinary backgrounds get the
+                    opportunity to find and integrate data from other disciplinary contexts into
+                    their interdisciplinary research. <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn5" n="5"/></p>
+                <p>In the long run, OstData wants to foster networking of national and international
+                    research communities, research infrastructures, funders, etc. During its ongoing
+                    development, we work on opportunities for the continuous <hi rend="italic">FAIR</hi>ification <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn6" n="6"/> and <hi rend="italic">FRBR</hi>ization <ref target="#FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn7" n="7"/> of research data published and provided via the OstData
+                    research data service. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn1">The project is a
+                        collaboration between the Bavarian State Library (BSB), the Collegium
+                        Carolinum – Research Institute for the History of the Czech Lands and
+                        Slovakia (CC), the Leibniz Institute for the History and Culture of Eastern
+                        Europe (GWZO), the Herder Institute for Historical Research on East Central
+                        Europe (HI), and the Leibniz Institute for East and Southeast European
+                        Studies (IOS) supported by the DFG grant number 413708228 in the DFG program
+                            <hi rend="italic">Research data and software (Scientific Library
+                            Services and Information Systems)</hi>: <ref target="https://gepris.dfg.de/gepris/projekt/413708228?language=en">https://gepris.dfg.de/gepris/projekt/413708228?language=en</ref>
+                    </note><note n="2" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn2">IOS’s LaMBDa research data portal is currently being
+                            integrated in OstData’s infrastructure: <ref target="https://lambda.ios-regensburg.de/">https://lambda.ios-regensburg.de/</ref>
+                        </note><note n="3" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn3">The FAIR principles R2 and F1 (cf.
+                        Wilkinson et al., 2016) are most relevant for that purpose.</note><note n="4" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn4">See an interactive visualization of the
+                        taxonomy: <ref target="https://tadirah.info/pages/Browser.html">https://tadirah.info/pages/Browser.html</ref>
+                    </note><note n="5" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn5">See our
+                        presentation <hi rend="italic">Inter- und transdisziplinäres
+                            Forschungsdatenmanagement in der Ost-, Ostmittel- und
+                            Süudosteuropaforschung</hi> (Štanzel et al., 2021) at the FORGE 2021
+                        conference for some more details about the zones and subzones in the
+                        metadata schema: <ref target="https://doi.org/10.5281/zenodo.5519305">https://doi.org/10.5281/zenodo.5519305</ref>
+                        (slides) </note><note n="6" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn6">See for example
+                        our recent workshop material on making legacy data FAIR by means of RDF Data
+                        Cube Vocabulary and SKOS: <ref target="https://www.osmikon.de/forschungsdaten/digitales-praxislabor-geschichtswissenschaft">https://www.osmikon.de/forschungsdaten/digitales-praxislabor-geschichtswissenschaft</ref> &amp; <ref target="https://github.com/ingofrank/digitales-praxislabor-geschichtswissenschaft">https://github.com/ingofrank/digitales-praxislabor-geschichtswissenschaft</ref>
+                    </note><note n="7" xml:id="FRANK_Ingo_OstData___Building_a_Research_Data_Service_for_En.xml_ftn7">See our working paper (Frank / Štanzel, 2022) where we apply the
+                        conceptual framework of FRBR to the domain of research data
+                        management.</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Albertoni, R.</author> et al. (eds) (2020). Data Catalog
+                        Vocabulary (DCAT) – Version 2. W3C Recommendation. <ref target="https://www.w3.org/TR/vocab-dcat-2/">https://www.w3.org/TR/vocab-dcat-2/</ref>. </bibl>
+                    <bibl>
+                        <author>DataCite Metadata Working Group.</author> (2021). DataCite
+                        Metadata Schema Documentation for the Publication and Citation of Research
+                        Data and Other Research Outputs. DOI: <ref target="https://doi.org/10.14454/3w3z-sa82">10.14454/3w3z-sa82</ref>. </bibl>
+                    <bibl>
+                        <author>Frank, Ingo</author> / <author>Štanzel, Arnošt</author>
+                        (2022). Forschungsdaten in ihrer Granularität beschreiben. Zenodo. DOI: <ref target="https://doi.org/10.5281/zenodo.6951770">10.5281/zenodo.6951770</ref>. </bibl>
+                    <bibl>
+                        <author>Heery, Rachel</author> / <author>Patel, Manjula</author>
+                        (2000). Application Profiles: Mixing and Matching Metadata Schemas. <hi rend="italic">Ariadne</hi>, (25). <ref target="http://www.ariadne.ac.uk/issue/25/app-profiles/">http://www.ariadne.ac.uk/issue/25/app-profiles/</ref>. </bibl>
+                    <bibl>
+                        <author>Jaaskelainen, Taina</author> / <author>Moschner,
+                            Meinhard</author> / <author>Wackerow, Joachim</author> (2010).
+                        Controlled Vocabularies for DDI 3: Enhancing Machine-Actionability. <hi rend="italic">IASSIST Quarterly</hi>, 33(1-2). DOI: <ref target="https://doi.org/10.29173/iq649">10.29173/iq649</ref>. </bibl>
+                    <bibl>
+                        <author>Klein, Julie Thompson</author> (2014). <hi rend="italic">Interdisciplining Digital Humanities</hi>. University of Michigan
+                        Press. DOI: <ref target="https://doi.org/10.3998/dh.12869322.0001.001">10.3998/dh.12869322.0001.001</ref>. </bibl>
+                    <bibl>
+                        <author>Štanzel, Arnošt</author> et al. (2021). Inter- und
+                        transdisziplinäres Forschungsdatenmanagement in der Ost-, Ostmittel- und
+                        Südosteuropaforschung. In Helling, Patrick / Speer, Andreas / Eide, Øyvind
+                        (eds), <hi rend="italic">FORGE 2021: Forschungsdaten in </hi>
+                        <hi rend="italic">d</hi>
+                        <hi rend="italic">en Geisteswissenschaften – Mapping the Landscape –
+                            Geisteswissenschaftliches Forschungsdatenmanagement </hi>
+                        <hi rend="italic">zwischen lokalen und globalen, generischen und
+                            spezifischen Lösungen (FORGE 2021)</hi>. Zenodo. DOI: <ref target="https:/doi.org/10.5281/zenodo.5379653">10.5281/zenodo.5379653</ref>. </bibl>
+                    <bibl>
+                        <author>Szostak, Rick</author> / <author>Gnoli, Claudio</author> /
+                            <author>López-Huertas, Maria</author> (2016). <hi rend="italic">Interdisciplinary Knowledge Organization</hi>. Springer International
+                        Publishing. DOI: <ref target="https://doi.org/10.1007/978-3-319-30148-8">10.1007/978-3-319-30148-8</ref>. </bibl>
+                    <bibl>
+                        <author>Wilkinson, Mark D.</author> et al. (2016). The FAIR Guiding
+                        Principles for scientific data management and stewardship. <hi rend="italic">Scientific Data</hi>, 3(160018). DOI: <ref target="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

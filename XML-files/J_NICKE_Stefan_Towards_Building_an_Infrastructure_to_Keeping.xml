@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards Building an Infrastructure to Keeping Alive and Conveying the Memories of Victims of Nazi Persecution</title>
+                <author n="JnickeStefanJ_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml"><persName n="JnickeStefan">
+                        <surname>Jänicke</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>University of Southern Denmark, Denmark</affiliation><email>stjaenicke@imada.sdu.dk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster will introduce and share the first results of the Horizon Europe project MEMORISE, which creates a framework to preserve and enhance Heritage related to Nazi Persecution by virtualizing and linking multimodal data resources and by developing and offering novel digital technologies for accessing, exploring and engaging with HNP.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Heritage on Nazi Persecution</term>
+                    <term>Diary visualization</term>
+                    <term>Narration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>user experience design and analysis</term>
+                    <term>virtual and augmented reality creation</term>
+                    <term>systems</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    <term>Design studies</term>
+                    <term>Education/ pedagogy</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>On July 10, 2021, Esther Bejarano, one of the few remaining survivors of Nazi persecution and a voice against racism and antisemitism, passed away at the age of 96.<ref target="#J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn1" n="1"/>She played a significant role in keeping the memory of the Holocaust alive by sharing her experiences with younger generations, and explained her motivation as follows<ref target="#J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn2" n="2"/>: "It is my revenge that I go to the schools, that I tell people what happened back then. So that nothing like that can ever happen again." As time moves on and contemporary witnesses disappear, it becomes increasingly important to develop new ways of communicating and passing on the memory and legacy of the Holocaust.</p>
+            <p>Memories on Nazi persecution are preserved i8un various types of data resources. These include diaries, often written by prisoners during their incarceration in a concentration camp, in which individual experiences of the victims are reported in a chronological order with a close distance from the time when experiences were made by the author.</p>
+            <p>In a prototype project, a diary exploration interface (Khulusi et al., 2022) has been developed, which provides access to a corpus of ten German diaries of prisoners of the former Bergen-Belsen concentration camp through a calendar visualization that can be seen in Figure 1. It provides new perspectives such as a collective memory, because diaries can be read in parallel, i.e., one can see what different authors write in the same days or time periods. In addition, A set of diaries can be selected to get insight on how particular groups (e.g., women or men, prisoners from the same barrack) experienced life in the concentration camp. Through sentiment analysis, the changing mood of prisoners can be inspected across time, and a particular concept can be constructed as a set of keywords, and it can be investigated, when prisoners refer to them.</p>
+            <p><figure>
+                    <graphic url="Pictures/b7938c3afe825fcaac8f008f3c46c1e4.png"/>
+                    <head>Calendar view shows collective mood of Bergen-Belsen prisoners</head>
+                </figure></p>
+            <div type="div1">
+                <head>The Horizon Europe MEMORISE project</head>
+                <p>The MEMORISE project expands the basic idea of the Bergen-Belsen diary project to a large scale, including more resources and resource types like letters and testimonies that capture memories of eyewitnesses, or registers like death records, deportation statistics and historical photographs that provide important contextual information to these memories. MEMORISE creates a framework to preserve and enhance this Heritage related to Nazi Persecution (HNP) by virtualizing and linking multimodal HNP data resources and by developing and offering novel digital technologies to the general public for accessing, exploring and engaging with HNP. The heart of MEMORISE is an HNP infrastructure to assist memorial sites and archives in processing 80,000+ HNP content items to make them persistently accessible to the public. Semi-automated AI-based services are central to our data processing pipeline to feed Dutch, English and German HNP materials into the HNP infrastructure.
+                </p>
+                <p>MEMORISE develops a suite of digital tools for presenting, narrating and engaging with HNP data, some of which are inspired by related projects. Our web-based HNP platform for unguided exploration uses a map as an entry point, similar The Holocaust by Bullets<ref target="#J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn3" n="3"/>or the Verbrannte Orte<ref target="#J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn4" n="4"/>projects. Our map will provide layers for different types of places of interest, and we will extract and display relations among them, including the display of transportation networks like provided in the Holocaust Deportation Database.<ref target="#J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn5" n="5"/> The MEMORISE map will allow for zooming to particular places, where users can explore detailed information. On the one hand, MEMORISE will create and include contemporary 3D models of memorial sites with optional 3D reconstructions of destroyed infrastructure, and we geo-reference historical places mentioned (e.g., places within a concentration camp site). This provides not only the basis for enhanced on-site experiences through extended reality (XR), it also facilitates virtual visitations of memorial sites. On the other hand, one of the core ideas of MEMORISE is to connect the places of Nazi persecution with memories of eyewitnesses, similar to the Danish Jews in Theresienstadt<ref target="#J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn6" n="6"/>project, which allows users to browse and read testimonies arranged on 2D maps of the ghetto. A current MEMORISE prototype, the development of a 3D model of the Bernburg Euthanasia Center for narration purposes, exemplifies our intention to expand this idea. We created a contemporary 3D model of the facility (see Figure 2), which was cleaned and annotated with points of interest (POIs). We develop additional layers to show historical photographs and not yet existent infrastructure. The POIs serve to guide through the model and to narrate historical developments of the Euthanasia center. Narrations offered are a curated guided tour, the story of victims and the story from persecutors, based on more than 200 testimonies from people who worked for the Euthanasia center in the 1940s in different functions. An HNP reader is currently developed that will support comparative readings of such historical, personal documents.</p>
+                <p><figure>
+                        <graphic url="Pictures/ba23ea546165e60e48f334431b9d5056.png"/>
+                        <head>Contemporary 3D model of the gas chamber and the dissection room of the Bernburg Euthanasia Center</head>
+                    </figure></p>
+                <p>In addition to designing on-site and virtual learning interfaces to support general public users in interacting with HNP contents in new ways, MEMORISE will generate individualized experiences for these interfaces by developing a user model and an AI engine for individualized content based on user behavior and preferences. Further aims of MEMORISE are defining (1) a solid social media concept to integrate general public reflections, and (2) an educational concept to tailor experiences for different stakeholder groups.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn1">
+                        
+                        <ref target="https://apnews.com/article/europe-race-and-ethnicity-racial-injustice-37e24a0f1ca3e2693ba6311c6d82f406">https://apnews.com/article/europe-race-and-ethnicity-racial-injustice-37e24a0f1ca3e2693ba6311c6d82f406</ref>
+                    </note><note n="2" xml:id="J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn2">
+                        
+                        <ref target="https://www.bbc.com/news/world-europe-57791259">https://www.bbc.com/news/world-europe-57791259</ref>
+                    </note><note n="3" xml:id="J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn3">
+                            
+                            <ref target="https://www.yahadmap.org/en/#map/">https://www.yahadmap.org/en/#map/</ref>
+                        </note><note n="4" xml:id="J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn4">
+                            
+                            <ref target="https://verbrannte-orte.de/">https://verbrannte-orte.de/</ref>
+                        </note><note n="5" xml:id="J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn5">
+                            
+                            <ref target="https://deportation.yadvashem.org/">https://deportation.yadvashem.org/</ref>
+                        </note><note n="6" xml:id="J_NICKE_Stefan_Towards_Building_an_Infrastructure_to_Keeping.xml_ftn6">
+                            
+                            <ref target="https://www.danskejoederitheresienstadt.org/?lang=en">https://www.danskejoederitheresienstadt.org/?lang=en</ref>
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Khulusi, Richard</author> / <author>Billib, Stephanie</author> / <author>Jänicke, Stefan</author> (2022): “Exploring Life in Concentration Camps through a Visual Analysis of Prisoners’ Diaries”, in: 
+                        <hi rend="italic">Information</hi>13(2):54.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

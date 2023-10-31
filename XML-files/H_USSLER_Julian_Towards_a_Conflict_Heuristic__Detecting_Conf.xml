@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards a Conflict Heuristic. Detecting Conflict in Literary Texts By
+                    Adapting Word Embedding Based Sentiment Analysis</title>
+                <author n="HulerJulianH_USSLER_Julian_Towards_a_Conflict_Heuristic__Detecting_Conf.xml"><persName ref="https://orcid.org/0000-0001-7490-8570" n="HulerJulian">
+                        <surname>Häußler</surname>
+                        <forename>Julian</forename>
+                    </persName><affiliation>Technische Universität Darmstadt, Germany</affiliation><email>julian.haeussler@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GiusEvelynH_USSLER_Julian_Towards_a_Conflict_Heuristic__Detecting_Conf.xml"><persName ref="https://orcid.org/0000-0001-8888-8419" n="GiusEvelyn">
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName><affiliation>Technische Universität Darmstadt, Germany</affiliation><email>evelyn.gius@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>To detect conflicts in literary texts, this short paper adapts word embedding based sentiment analysis for assigning conflict values to texts. This heuristic approach is able to output relevant verb phrases of a corpus of German novels from the Romantic period and indicate first trends in the corpus.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sentiment Analysis</term>
+                    <term>Word Embedding Models</term>
+                    <term>Romantic Literature</term>
+                    <term>Conflict</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>cultural analytics</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Conflict in the German Romantic Period</head>
+                <p>With the aim of detecting conflicts in literary texts, this short paper adapts a
+                    successful implementation of word embedding based sentiment analysis for
+                    assigning conflict values to texts. In literary studies, the concept of conflict
+                    is used in a variety of contexts ranging from analyzing conflicts between
+                    characters over describing epochs with regard to their dealing with conflicts in
+                    the society to discussing poetological issues. While working towards a broader
+                    understanding of conflict for literary texts, we here focus on conflict between
+                    characters according to Glasl’s notion of social conflict (see Glasl 2011). More
+                    specifically, we aim at identifying texts and passages with comparatively high
+                    and low representations of conflictuality since in Glasl’s conflict notion the
+                    very perception of a situation as conflictual is crucial. A corpus of 115 German
+                    novels from the Romantic period (see Schumacher et al. 2022) served as the base
+                    for developing the three approaches described here. The analysis was then
+                    performed on a sub-corpus of 26 novels from the core Romantic period
+                    (1792–1833). Of these, all verb phrases were extracted, as they constitute a
+                    coherent analysis unit, on which the conflict values were calculated.</p>
+            </div>
+            <div type="div1">
+                <head>Three Approaches to the Representation of Conflict</head>
+                <p>The first approach implements a word embedding based sentiment analysis as
+                    introduced by Jacobs in the <hi rend="italic">SentiArt</hi> project (see e.g.
+                    Jacobs 2019). In <hi rend="italic">SentiArt</hi>, emotion bearing label words
+                    are chosen to represent the extreme ends of a valence and an arousal spectrum.
+                    The sentiment value for word x in a text then is calculated by retrieving the
+                    cosine similarity values of word x to each label word in a word embedding model
+                    (we use Word2Vec) and subtracting the mean of similarities for the negative
+                    labels from the mean for the positive labels. Our approach follows the emotion
+                    model by Yu et al. 2016 (which is based on Russell 1980) and focuses on the
+                    intersections of the four sentiment poles (top/bottom valence/arousal). We
+                    translated its label words into German and localized them with regard to the
+                    language of the corpus. Finally, mean sentiment values for each verb phrase were
+                    calculated. </p>
+                <p>To tackle the notion of conflict directly, in the second approach a list of label
+                    words for the opposing concepts of conflict and harmony was established based on
+                    a German word field dictionary (Dornseiff 2004). Then, words from this
+                    preselection not in the Romantic corpus as well as words with an overall
+                    frequency lower than 100 (as low-frequency words make unreliable word vectors,
+                    see Řehůřek 2022) were filtered out. The mean conflict value was finally
+                    calculated in the same way as the sentiment values in the previous approach.</p>
+                <p>To also consider conflict representation from a literary source, a third approach
+                    selects label words from a conflict annotation effort of five German prose
+                    narratives. Based on this, a conflict dictionary, containing information on how
+                    indicative a word is for a tag was created by weighting the annotated words. The
+                    words that were most indicative of conflict were selected as label words for
+                    high conflict whereas the words that signaled conflict resolution for low
+                    conflict. All label words were lemmatized and those below the frequency
+                    threshold of 100 were filtered out. This conflict value finally was computed in
+                    the same way as the previous values. <ref target="#H_USSLER_Julian_Towards_a_Conflict_Heuristic__Detecting_Conf.xml_ftn1" n="1"/></p>
+            </div>
+            <div type="div1">
+                <head>Comparison and First Results</head>
+                <p>For analyzing the conflictuality of the texts in our corpus, we determined the
+                    share of verb phrases that belong to the 10% phrases with the highest degree for
+                    each of the three approaches throughout the corpus. For each text, we then
+                    normalized the value according to the length of the text.</p>
+                <p>First results show that all three approaches identified verb phrases with a
+                    high/low relation to conflict and thus seem to be a viable heuristic for the
+                    representation of conflict in literary texts. Moreover, while there is a
+                    considerable amount of novels containing verb phrases at the intersection of
+                    both high arousal and negative valence (‘angry texts’) or both low arousal and
+                    positive valence (‘relaxed texts’), there are only very few cases of verb
+                    phrases that combine low arousal and negative valence (‘boring texts’) or high
+                    arousal and positive valence (‘delighted texts’). By combining the three
+                    approaches into one value, we also found that the frequency of verb phrases with
+                    high conflict representation seems to increase throughout the romantic period
+                    (see Figure 1) which might point to the poetological relevance of conflicts in
+                    early romanticism.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.632697222222221cm" url="Pictures/dad36d551a0c00e9b135781a4c384a9f.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 1</hi>: <hi rend="italic">Ratio of high conflict
+                            verb phrases in core corpus of romantic novels</hi>.</head>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="H_USSLER_Julian_Towards_a_Conflict_Heuristic__Detecting_Conf.xml_ftn1">
+                         The Jupyter Notebooks used for the analysis will be
+                            published under https://github.com/forTEXT.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dornseiff, Franz</author> / <author>Wiegand, Ernst</author>  (2004): <hi rend="italic">Der Deutsche Wortschatz Nach Sachgruppen</hi>. 8., Völlig
+                        neu bearbeitete und mit einem vollständigen alphabetischen Zugriffsregister
+                        versehenen Aufl. Berlin; New York: De Gruyter. </bibl>
+                    <bibl>
+                        <author>Glasl, Friedrich</author> (2011): <hi rend="italic">Konfliktmanagement: Ein Handbuch für Führungskräfte, Beraterinnen und
+                            Berater</hi>. Bern: Haupt. </bibl>
+                    <bibl>
+                        <author>Jacobs, Arthur M.</author> (2019): “Sentiment Analysis for Words
+                        and Fiction Characters From the Perspective of Computational
+                        (Neuro-)Poetics”, in: <hi rend="italic">Frontiers in Robotics and AI</hi> 6,
+                        53. DOI: 10.3389/frobt.2019.00053. </bibl>
+                    <bibl>
+                        <author>Řehůřek, Radim</author> (2022): “Gensim: Topic Modelling for
+                        Humans”, in: <hi rend="italic">Gensim</hi>
+                        <ref target="https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html">https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html</ref>
+                        [27.10. 2022]. </bibl>
+                    <bibl>
+                        <author>Russell, James A.</author> (1980): “A Circumplex Model of
+                        Affect”, in: <hi rend="italic">Journal of Personality and Social
+                            Psychology</hi> 39, 6: 1161–78. DOI: 10.1037/h0077714. </bibl>
+                    <bibl>
+                        <author>Schumacher, Mareike</author> / <author>Uglanova, Inna</author> / <author>Gius, Evelyn</author> 
+                        (2022): “d-Romane-Romantik (d-RoRo)” in: <hi rend="italic">Zenodo</hi>. DOI:
+                        10.5281/ZENODO.7215170 [19.10.2022]. </bibl>
+                    <bibl>
+                        <author>Yu, Liang-Chih</author> / <author>Lee, Lung-Hao</author> / <author>Hao, Shuai</author> / <author>Wang, Jin</author> / <author>He, Yunchao</author> / <author>Hu, Jun</author> / <author>Lai, K. Robert</author> / <author>Xuejie, Zhang</author>  (2016):
+                        “Building Chinese Affective Resources in Valence-Arousal Dimensions”, in:
+                        Association for Computational Linguistics (ed.): <hi rend="italic">Proceedings of the 2016 Conference of the North American Chapter of the
+                            Association for Computational Linguistics: Human Language
+                            Technologies</hi>, San Diego, California: 540–545. DOI:
+                        10.18653/v1/N16-1066. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

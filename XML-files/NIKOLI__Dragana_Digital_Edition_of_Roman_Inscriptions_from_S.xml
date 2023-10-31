@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Roman Inscriptions from Serbia: A Work in Progress</title>
+                <author n="NikoliDraganaNIKOLI__Dragana_Digital_Edition_of_Roman_Inscriptions_from_S.xml"><persName n="NikoliDragana">
+                        <surname>Nikolić</surname>
+                        <forename>Dragana</forename>
+                    </persName><affiliation>Institute for Balkan Studies, Serbian Academy of Sciences and Arts, Serbia</affiliation><email>dragana.grbic@bi.sanu.ac.rs</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Institute for Balkan Studies of the Serbian Academy of Sciences and Arts runs a project of digitisation of Roman Inscriptions from the territory of Serbia, that will be encoded in EpiDoc TEI-XML and published in an open, digital archive of Latin and Greek inscriptions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>EpiDoc</term>
+                    <term>Roman inscriptions</term>
+                    <term>epigraphy</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Archaeology</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Institute for Balkan Studies of the Serbian Academy of Sciences and Arts runs a project of digitisation of Roman Inscriptions from the territory of Serbia, that are intended for publication in an open, digital archive of Latin and Greek inscriptions. The project aims to create a knowledge-base about the ancient Roman epigraphic heritage in Serbia, offering a specialist, innovative approach to scientific data that is at the same time cultural heritage. It departs from a practical need to systematise the knowledge on the Roman period in Serbia and it focuses on interdisciplinary research and critical editing of the Roman inscriptions, that represent the most eloquent, most important sources for studying the ancient past of this region. The land covered by the present-day Republic of Serbia covered the parts of the territories of several Roman provinces (the largest part of Upper Moesia, south of Lower Pannonia, eastern part of Dalmatia, westernmost part of the Thrace, including also one tiny corner of Dacia). This region was positioned at the crossroad of important ancient communication axes that linked eastern and western parts of the Roman world; a contact-zone of Latinophone and Hellenophone provinces, a zone that linked Danubian 
+                <hi rend="italic">limes</hi> with the hinterland — the heart of the Balkans. It was a homeland to different heterogeneous native peoples that came under the Roman rule and left traces only through the Roman monuments, by adopting the Greco-Roman culture and, consequently, the “epigraphic habit”. 
+            </p>
+            <p>The primary goal of the project is to encode editions of inscriptions using EpiDoc TEI-XML, that is the leading international standard in digital epigraphy. The work involves all traditional methods of the disciplines involved, such as gathering, digitising and updating the existing epigraphic documentation, compiling new records, scanning photographs, films and publications, the fieldwork as an important aspect of the project, given that performing autopsies and making digital photographs of the monuments, and the hands-on work on the text of the corpus which involves the results of previous two steps and, finally, EpiDoc encoding and publication. The project has a solid foundation in the country’s epigraphic tradition which is of high quality, but the project will go beyond digitising the existing editions — it sets out to prepare a new up-to-date corpus that will be born digital and available in English and in Serbian. The edition will be richly annotated by semantically marking-up diverse occurrences in the epigraphic texts and it will be equipped with commentaries (both linguistic and historical), metadata and digital photographs, as well as links to the relevant records in other important online resources (such as EDH, Pleiades, Trismegistos, PIR, etc.). </p>
+            <p>The project will also attempt at bridging the gap between archaeological, epigraphic-historical, and philological research by cross-fertilization between the disciplines that will be enhanced by using cutting-edge digital technologies. Namely, it envisages the development of the Digital Atlas of Roman settlements and archaeological localities in Serbia which will accompany and complement the epigraphic database. It will contain records about the settlements, localities, architectural structures, communications, ancient landscapes, rivers.</p>
+            <p>The project’s intention is to foster the building of know-how, transferring it to other researchers and institutions in the Republic of Serbia, as well as its clear orientation towards advocating the use of open data and open software, as well as strengthening the competitive advantages of regional and international collaboration.</p>
+        </body>
+    </text></TEI>

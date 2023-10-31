@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tracing the Shift to “Objectivity” in German Encyclopedias of the Long Nineteenth Century</title>
+                <author n="HagenThoraHAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml"><persName n="HagenThora">
+                        <surname>Hagen</surname>
+                        <forename>Thora</forename>
+                    </persName><affiliation>University of Würzburg</affiliation><email>thora.hagen@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KonleLeonardHAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml"><persName ref="https://orcid.org/0000-0001-5833-0414" n="KonleLeonard">
+                        <surname>Konle</surname>
+                        <forename>Leonard</forename>
+                    </persName><affiliation>University of Würzburg</affiliation><email>leonard.konle@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KetzanErikHAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml"><persName n="KetzanErik">
+                        <surname>Ketzan</surname>
+                        <forename>Erik</forename>
+                    </persName><affiliation>Trinity College Dublin</affiliation><email>KETZANE@tcd.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JannidisFotisHAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml"><persName n="JannidisFotis">
+                        <surname>Jannidis</surname>
+                        <forename>Fotis</forename>
+                    </persName><affiliation>University of Würzburg</affiliation><email>fotis.jannidis@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WittAndreasHAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml"><persName n="WittAndreas">
+                        <surname>Witt</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>University of Cologne, Leibniz Institute for the German Language</affiliation><email>witt@ids-mannheim.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper presents experiments on tracing the shift toward “objectivity” in encyclopedias of the long nineteenth century, as discussed by scholars, via query of surface features (personal pronoun, exclamation points, and interjections) and emotion analysis. We report a decline in these personal and emotive, and thus less “objective”, textual characteristics.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>comparative corpus analysis</term>
+                    <term>sentiment analysis</term>
+                    <term>encyclopedia</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>European encyclopedias of the long nineteenth century can be seen as transitional texts between those of the Enlightenment, and encyclopedias of the 20th century and today, which strive to complete the Enlightenment's project of “impartial scientific objectivity.” Though it may be unattainable, objectivity is and has been an important goal of the European encyclopedia (Loveland 2019).
+                </p>
+                <p>This article seeks to examine historical encyclopedias in the light of objectivity in order to contribute to the broader field of encyclopedia studies. We present experiments to observe this shift toward greater objectivity in six TEI-annotated German encyclopedias from 1809 to 1911 (299,907 encyclopedia entries, 27,378,000 word tokens) from the EncycNet project (Hagen et al. 2020). 
+                    We consider two dimensions of non-objectivity in particular: emotions and personal interpretation (Chen 2008). Table 1 presents the corpus, with entries classified into four groups (Hagen et al. 2022).
+                    <ref target="#HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn0" n="1"/> The DH study of encyclopedias is growing as the texts become available digitally (e.g. Grabus et al. 2019), with these experiments adding new knowledge.
+                </p>
+                <p><figure>
+                        <graphic url="Pictures/a2db9ace844b35533f08c79d0483868f.png"/>
+                        <head>Table 1: Encyclopedia corpus.</head>
+                    </figure></p>
+                <p>The encyclopedias in our corpus are different in terms of content selection, depth of the concepts discussed (entry length), and presentation of content. All of these internal differences are potentially confounding variables in our experiments. For emotion detection, we used a sample of around 250 entries per encyclopedia that are 2000 to 4000 tokens long, as shorter entries tend to follow a different style. Randomly sampling or using all entries could have skewed the results due to different mean entry lengths.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Experiments</head>
+                <div type="div2">
+                    <head>Surface Level Features</head>
+                    <p>As Loveland writes, “In the seventeenth and eighteenth centuries, many researchers used first-person singular pronouns to narrate their scientific observations and experiments” (76). Loveland meant scientists generally, but later, “[b]y around 1900 [...] a consensus had emerged making encyclopedias off-limits to personal disclosures, explicit opinions, passionate language, and playfulness” (81). These suggest textual surface features which may be queried. For all queries, we attempted to remove direct and indirect speech from the results, as it caused a number of false positives which do not reflect the sentiment of the authors.
+                    </p>
+                    <p>We first query the first person pronoun 
+                        <hi rend="italic">ich</hi>(German: I), which can be seen as a marker of an opinionated statement and, therefore, objectivity (Chen 2008). The pronoun emphasizes the individual authorship of entries, but that eventually disappeared as encyclopedias became written in a style which erased individual “voices” as part of a more objective tone. Examples from entries are “shall I say,” “I conclude with” (
+                        <hi rend="italic">Brockhaus 1809</hi>). Figure 1 implies a declining trend in the disappearance of first-person narration. Still, the earliest and highest results are only ~1%, suggesting that I was not a strong feature of long nineteenth-century German encyclopedias.
+                    </p>
+                    <p><figure>
+                            <graphic url="Pictures/f06c647d3c7827beceb6f776e110b968.png"/>
+                            <head>Figure 1: Occurrences of the first person singular, ich, relative to the amount of entries per encyclopedia.</head>
+                        </figure></p>
+                    <p>Exclamation points suggest emotion and individual expression, rather than anonymous objectivity. Querying this punctuation mark also indicates a steady decline (Figure 2). The 
+                        <hi rend="italic">DamenConvLex</hi>, written for women, is a clear outlier, which is not surprising due to the “liveliness” and “romantic representation” intended by its editors (Ketzan et al. 2022). False positives, identified through manual inspection, were excluded with additional queries to approximate a precision of 1.0 for all results (e.g. to indicate surface areas: “100 ! M.”).
+                    </p>
+                    <p><figure>
+                            <graphic url="Pictures/c03d7d394c7a6062fd8958a07b2db073.png"/>
+                            <head>Figure 2: Occurrences of exclamation points relative to the amount of entries per encyclopedia.</head>
+                        </figure></p>
+                    <p>Interjections are a class of words whose function, per Crystal (2008), is “purely emotive, e.g. Yuk! Strewth!” For identifying interjections, we tagged all entries with spaCy,
+                        <ref target="#HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn1" n="2"/> and counted tokens tagged as “ITJ”. False positives took the form of abbreviations, which were excluded with regular expressions, as in the previous experiment. Examples of interjections include 
+                        <hi rend="italic">yes</hi> or 
+                        <hi rend="italic">indeed</hi>: “one tenth, one eighth, indeed probably one fourth” (
+                        <hi rend="italic">Brockhaus 1809</hi>). A decline can be observed for interjections, but it is not clear whether they can indicate subjectiveness in this case, since the overall occurrences are quite low.
+                    </p>
+                    <p><figure>
+                            <graphic url="Pictures/cade37aceb8ab1abba380eaf8a2a611f.png"/>
+                            <head>Figure 3: Occurrences of interjections relative to the amount of entries per encyclopedia.</head>
+                        </figure></p>
+                </div>
+                <div type="div2">
+                    <head>Emotion Detection</head>
+                    <p>The more literary tone of earlier encyclopedias which Loveland alludes to, full of “explicit opinions, passionate language, and playfulness,” may be investigated by sentiment analysis, and indeed, we report that emotional language goes down in the texts over the course of the century.
+                    </p>
+                    <p>In our sentiment analysis of the encyclopedia texts, we rely on existing models, choosing an emotion focused model trained on German poetry from 1859-1911 (Konle et al. 2022).
+                        <ref target="#HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn4" n="3"/> Lacking annotations for evaluation, we manually checked samples for their plausibility and found comprehensible predictions. Although poems and encyclopedias are quite different text types, their publication periods roughly coincide, which may explain the reasonable results. Figure 4 reports our results as a constant decline of emotion in encyclopedias over time; Figure 5 shows the distribution of emotions.
+                    </p>
+                    <p><figure>
+                            <graphic url="Pictures/6ab4be8861db320f9492cd183d2a8e4b.png"/>
+                            <head>Figure 4: Share of sentences containing at least one emotion per encyclopedia.</head>
+                        </figure></p>
+                    <p><figure>
+                            <graphic url="Pictures/098b366067c602bdc3cda305b20f3f28.png"/>
+                            <head>Figure 5: Share of sentences containing an emotion per encyclopedia.</head>
+                        </figure></p>
+                    <p>The extensive 
+                        <hi rend="italic">Meyers</hi> encyclopedia deviates from the others through an increased proportion of Joy. The most prominent outlier is the 
+                        <hi rend="italic">DamenConvLex</hi> with reduced Anger and large proportions of Love, Joy, and Sadness. Again, as this is an encyclopedia intended for women, this result merits further investigation.
+                    </p>
+                    <p>The model erroneously associates certain word groups with emotions because they have high co-occurrences in the training material (e.g. “mother”, “child” indicate Love). It also does not distinguish between carriers of emotions. As our goal is to investigate objectivity, it is highly relevant whether the expressed emotion is attached to the author of the text or the entity discussed.</p>
+                    <p>While these problems are well known in sentiment analysis, the third issue is of conceptual nature and arises from the tension between emotion detection and objectivity. For example, there are sentences in various encyclopedias which describe the disease Cholera. In one text, the symptoms of the disease are described objectively,
+                        <ref target="#HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn2" n="4"/> yet in another text, the effects of Cholera are described in figurative language.
+                        <ref target="#HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn3" n="5"/> Both were tagged as “Sadness” by the model, but this small example illustrates the limitations of our emotion detection method for the goal of tracing objectivity.
+                    </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Conclusions and Future Work</head>
+                <p>We presented methods to detect objectivity in encyclopedia entries through textual markers and the detection of emotions with a pre-trained model. While both methods can reveal subjective statements, they both have room for improvements. The former will require more reliable exclusion of speech acts, and the latter a clear distinction between descriptions of a third person's emotions and emotional statements by the authors. This challenge especially could pose a new task in the field of sentiment analysis. In conclusion, the methods presented so far only suggest broad trends towards detecting objectiveness in encyclopedias, however more experiments and statistical validation are necessary to strengthen the results. More features of a text that might identify polarizing statements should be explored; this could be making cognitive bias in text visible, for example through hedge words. Other aspects could be the usage of tenses, tables, or figurative speech. 
+                    Lastly, future work could explore the triangular constellation between science, public discourse, and the encyclopedia as a mediator from the former to the latter, by applying objectivity detection to other sources such as scientific texts and newspaper articles.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn0">Classified entries include entries with more than 20 tokens. As not all entries could be found in Wikidata, around 30-40% of entries per encyclopedia remain unclassified for now. The percentages in Table 1 only include classified entries.</note><note n="2" xml:id="HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn1">
+                            <ref target="https://spacy.io/">https://spacy.io/</ref>
+                        </note><note n="3" xml:id="HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn4">
+                            We also tested german-sentiment-bert (Guhr et al. 2020) with negative results.
+                        </note><note n="4" xml:id="HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn2">
+                            <hi rend="italic">Damen Conversations Lexikon</hi>: “Das Krankheitsbild ist im Allgemeinen folgender Art : Nach kurzem Uebelbefinden und Störungen der Verdauung, besonders mehrtägigem unbedeutenden und leichten Abweichen entsteht heftiges Erbrechen und Absonderung schleimiger Theile in bedeutender Menge.”
+                        </note><note n="5" xml:id="HAGEN_Thora_Marisa_Tracing_the_Shift_to__Objectivity__in_Ger.xml_ftn3">
+                            <hi rend="italic">Brockhaus 1837</hi>: “Zeigt das Übel gleich von Anfang einen bösartigen Charakter, so macht es den Menschen schon im Beginn zum lebendigen Leichname; der ganze Körper wird starr und steif, eisig kalt und blau gefärbt, das bläulichrothe oder blaugraue Antlitz verräth das tiefste Leiden, und die obigen Erscheinungen treten mit erhöhter Heftigkeit ein.”
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Chen, W. </author>(2008): “Dimensions of Subjectivity in Natural Language”, in: 
+                        <hi rend="italic">Proceedings of ACL-08: HLT, Short Papers (Companion Volume)</hi>: 13-16.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Crystal, D.</author> (2008): 
+                        <hi rend="italic">A Dictionary of Linguistics and Phonetics</hi>. Sixth Edition. Malden, MA: Blackwell Publishing.
+                    </bibl>
+                    <bibl>
+                        <author>Grabus, S.</author> / <author>Greenberg, J.</author> / <author>Logan, P.</author> / <author>Boone, J.</author>  (2019): “Representing Aboutness: Automatically Indexing 19th-Century Encyclopedia Britannica Entries”, in: 
+                        <hi rend="italic">NASKO</hi> 7: 138-148.
+                    </bibl>
+                    <bibl>
+                        <author>Guhr, O.</author> / <author>Schumann, A. K.</author> / <author>Bahrmann, F.</author> / <author>Böhme, H. J.</author> (2020): “Training a broad-coverage German sentiment classification model for dialog systems”, in: 
+                        <hi rend="italic">Proceedings of The 12th Language Resources and Evaluation Conference</hi>: 1627-1632.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Hagen, T.</author> / <author>Ketzan, E.</author> / <author>Jannidis, F.</author> / <author>Witt, A.</author>  (2020): “Twenty-Two Historical Encyclopedias Encoded in TEI: A New Resource for the Digital Humanities”, in: 
+                        <hi rend="italic">Proceedings of </hi>
+                        <hi rend="italic">LaTeCH-CLfL 2020: 4th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Hagen, T.</author> / <author>Jannidis, F.</author> / <author>Witt, A.</author>  (2022): “Word Sense Alignment and Disambiguation for Historical Encyclopedias”, in: 
+                        <hi rend="italic">Proceedings of the </hi>
+                        <hi rend="italic">6th international conference on Graphs and Networks in the Humanities</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Ketzan, E.</author> / <author>Hagen, T.</author> / <author>Jannidis, F.</author> / <author>Witt, A.</author>  (2022): “Quantitative Analysis of Gendered Assumptions in a Nineteenth-Century Women’s Encyclopedia”, in: 
+                        <hi rend="italic">Book of Abstracts, </hi>
+                        <hi rend="italic">2022 Digital Humanities conference</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Konle, L.</author> / <author>Krönke, M.</author> / <author>Winko, S.</author> / <author>Jannidis, F.</author>  (2022): “Emotions and Literary Periods”, in: 
+                        <hi rend="italic">Book of Abstracts, </hi>
+                        <hi rend="italic">2022 Digital Humanities conference</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Loveland, J.</author> (2019): 
+                        <hi rend="italic">The European Encyclopedia</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

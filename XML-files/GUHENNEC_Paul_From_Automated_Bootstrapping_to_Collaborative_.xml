@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From Automated Bootstrapping to Collaborative Editing: A Framework for 4D City Reconstruction</title>
+                <author n="VaientiBeatriceGUHENNEC_Paul_From_Automated_Bootstrapping_to_Collaborative_.xml"><persName ref="https://orcid.org/0000-0002-2379-2974" n="VaientiBeatrice">
+                        <surname>Vaienti</surname>
+                        <forename>Beatrice</forename>
+                    </persName><affiliation>Digital Humanities Laboratory, EPFL, Switzerland</affiliation><email>beatrice.vaienti@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GuhennecPaulGUHENNEC_Paul_From_Automated_Bootstrapping_to_Collaborative_.xml"><persName ref="https://orcid.org/0000-0002-5490-5249" n="GuhennecPaul">
+                        <surname>Guhennec</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>Digital Humanities Laboratory, EPFL, Switzerland</affiliation><email>paul.guhennec@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DupertuisDidierGUHENNEC_Paul_From_Automated_Bootstrapping_to_Collaborative_.xml"><persName ref="https://orcid.org/0000-0001-9518-6167" n="DupertuisDidier">
+                        <surname>Dupertuis</surname>
+                        <forename>Didier</forename>
+                    </persName><affiliation>Digital Humanities Laboratory, EPFL, Switzerland</affiliation><email>didier.dupertuis@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PetitpierreRmiGUHENNEC_Paul_From_Automated_Bootstrapping_to_Collaborative_.xml"><persName ref="https://orcid.org/0000-0001-9138-6727" n="PetitpierreRmi">
+                        <surname>Petitpierre</surname>
+                        <forename>Rémi</forename>
+                    </persName><affiliation>Institute for Area and Global Studies, EPFL, Switerzland</affiliation><email>remi.petitpierre@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We propose a framework for the construction of 4D scientific models for cities of the past. It leverages both the use of computational methods for bootstrapping, and a collaborative interface for visualisation and edition. This permits to continuously enrich the model and dynamically update it through procedural modelling.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>4D cities</term>
+                    <term>urban reconstruction</term>
+                    <term>collaborative editing</term>
+                    <term>procedural modelling</term>
+                    <term>automatic map vectorisation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Archaeology</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Many 3D cultural heritage reconstruction approaches aim to study how to integrate historical accuracy and informativeness in an interoperable manner. This is in fact a challenge that is well identified but not yet fully resolved (Münster et al. 1996). Reconstructions on an urban scale, however, may profit from the scalability and adaptability of digital twin representation standards developed in contemporary urban science (Gröger and Plümer 2012, Xu et al. 2021, Ledoux et al. 2019). We recently proposed a format combining the advantages of both approaches, in the form of an extension to the CityJSON standard (Vaienti et al. 2022).</p>
+                <p>We now apply this format to tackle two main challenges. On the one hand, to create a seamless automatic pipeline to bootstrap the 3D model’s creation (Fig. 1), and on the other to propose a set of tools to make the model editable. This way, the generated model stops being the final output of the reconstruction process, but rather becomes the starting point of an ever-growing collaborative collection of information. </p>
+                <p>Those two challenges are intertwined: the different steps of the pipeline (Fig. 2) are common to both the initial generation phase and the continuous updating of the reconstruction, as new information is added. </p>
+                <p>To illustrate our pipeline’s genericity, we consider two case studies: Jerusalem and Lausanne. By using many of the most common city-scale sources – cartographic and cadastral surveys, historical models, and remote sensing data –, we prove our pipeline’s versatility in handling different urban environments and various source typologies. For Jerusalem, we work with 10 georeferenced historical maps, representing the growth of the city’s built area between 1841 and 1938 (Fig. 3). We combine this with a secondary source indicating the building material, the roof type, and the floor number in 1948. For Lausanne, we use a pointcloud from a 17th century scale model of the city (Fig. 4), a LiDAR model of the current city, one secondary source with the floor number around 1800, and three georeferenced cadastral series from 1721 to 1888.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="5.783791666666667cm" url="Pictures/ca74b76776ebfc13f5952cf972736cb5.png" rend="inline"/>
+                    <head>Figure 1. Jerusalems's diachronic model (1841, 1883, 1926), rendered with Blender</head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="21.582944444444443cm" url="Pictures/b74c870d0c09a05f27e197f2215db8ba.png" rend="inline"/>
+                    <head>Figure 2. Scheme of the initial bootstrap and subsequent lifecycle of the model</head>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="22.644805555555557cm" url="Pictures/dde9485405e2bce7e3db480df98ae8de.png" rend="inline"/>
+                    <head>Figure 3. Automatically vectorised buildings from 10 maps of Jerusalem (1841-1938)</head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="8.951736111111112cm" url="Pictures/d912ff35e20c6580c5bd67acb0ae2904.png" rend="inline"/>
+                    <head>Figure 4. Pointcloud of the 17th-century Lausanne scale model</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Pipeline structure: from a scanned map to an interoperable 3D model </head>
+                <p>The pipeline’s initial phase is extracting 2D vectorial representations from the input data. Being aware of the heterogeneity of available sources on historical cities, we illustrate two different preprocessing scenarios. </p>
+                <p>When starting with maps, the first step is to convert the historical map into vector footprints (Fig. 5). We use a convolutional neural network-based automated technique for segmenting building contours (Petitpierre et al. 2021). To extract the surfaces, we complete the polygon edges using differential path extrapolation and Dijkstra's shortest path finding algorithm (Dijkstra 1959). The vectorisation itself is specially optimised for procedural modelling, as to keep the number of vertices low (Douglas and Peucker 1973) and ensure that nodes are shared by neighbouring polygons. The latter makes any later adjustments easier and prevents the model from showing slits. While needed for large-scale cities (10,681 polygons were extracted in Jerusalem, across 10 maps), automatic map vectorisation can be circumvented for smaller cities, like for 17th-century Lausanne where the 781 geometries are manually redrawn using an orthophoto of the pointcloud.</p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="10.530416666666667cm" url="Pictures/96a9bea94a12240cafcf5c73d49fb1d8.png" rend="inline"/>
+                    <head>Figure 5. Automatically vectorised buildings from the 1831 cadastre of Lausanne</head>
+                </figure>
+                <p>Following the lightweight structure of the CityJSON format, the vector outputs produced by the vectorisation of various sources are then combined into a single file where each geometry is supported by attributes. The method used for the filling of attributes is tightly linked to the sources and type of information to be encoded. Instead of being tabularly saved in shapefiles, information is now encoded in CityJSON’s tree structure. In the case of Jerusalem, we can complete the information regarding the material, floor number, roof type, and date of appearance by combining primary and secondary cartographic sources, whereas in Lausanne, the information regarding parcel ownership and floor number is directly extracted from cadastres and census data. </p>
+                <p>The procedural modelling modules compute the 3D geometry, taking as input the building’s footprint and related geometric attributes to select which script to run (e.g. the type of roof to model) and to determine the parameter values to employ (e.g. the roof slope). These scripts are developed using the CadQuery Python library for 3D CAD modelling, an open-source solution which permits to seamlessly integrate the modelling inside of the main pipeline, instead of relying on proprietary softwares. The editability of the model is made possible by a web platform we developed, on top of the preexisting Ninja CityJSON viewer (Vitalis et al. 2020). It permits viewing the 3D model, inspecting attributes and their 
+                    <hi rend="italic">meta</hi>- and 
+                    <hi rend="italic">paradata</hi>, as well as modifying them. Once geometric attributes have been changed, the user relaunches the procedural modelling with the new information and dynamically updates the 3D geometry of the CityObject and the list of vertices of the CityJSON file.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Conclusion: Towards a shared and evolutive 3D model </head>
+                <p>Thanks to its capacity to combine several sources (varying in nature, information type, and degree of detail) into a single data model, our method offers pathways for diachronic or synchronic urban studies and is transposable to other cities. More crucially, our approach provides an infrastructure for city-scale reconstruction by encouraging collaboration with Humanities scholars with diverse skills, regardless of their 3D modelling background, enabling for the continual expansion of databases on historical cities. </p>
+                <p>The priority we place on metadata and paradata in this CityJSON extension ensures the scientificity of the model: by never losing the breadcrumb trail to sources, 3D models’ conjectural nature is acknowledged, and their luring potential is restrained. Furthermore, complete control over the open- source set of tools presented ensures methodological transparency and re-adaptability to different projects. The systematic storage of metadata also enables the investigation of methodological issues such as, for example, the spatial coverage of extracted knowledge; interpretation conflicts or overlaps between multiple sources; or, more broadly, the research potential for 3D models to act as information aggregators.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dijkstra, Edsger W.</author> (1959): “A Note on Two Problems in Connexion with Graphs”, in: 
+                        <hi rend="italic">Numerische Mathematik</hi>, 1:269-271.
+                    </bibl>
+                    <bibl>
+                        <author>Douglas, David H.</author> / <author>Peucker, Thomas K.</author>  (1973): “Algorithms for the Reduction of the Number of Points Required to Represent a Digitized Line or its Caricature”, in: 
+                        <hi rend="italic">Cartographica: The International Journal for Geographic Information and Geovisualization</hi>, 10(2):112–122.
+                    </bibl>
+                    <bibl>
+                        <author>Gröger, Gerhard</author> / <author>Plümer, Lutz</author>  (2012): “CityGML – Interoperable Semantic 3D City Models”, in: 
+                        <hi rend="italic">ISPRS Journal of Photogrammetry and Remote Sensing</hi>, 71, 12-33.
+                    </bibl>
+                    <bibl>
+                        <author>Ledoux, Hugo</author> / <author>Ohori, Ken</author> / <author>Kumar, Kavisha</author> / <author>Dukai, Balázs</author> / <author>Labetski, Anna</author> / <author>Vitalis, Stelios</author>  (2019): “CityJSON: a compact and easy-to-use encoding of the CityGML data model”, in: 
+                        <hi rend="italic">Open Geospatial Data Software and Standards</hi>, 4:4. 
+                    </bibl>
+                    <bibl>
+                        <author>Münster, Sander</author> / <author>Kuroczyński, Piotr</author> / <author>Pfarr-Harfst, Mieke</author> / <author>Grellert, Marc</author> / <author>Lengyel, Dominik</author>  (2015): “Future Research Challenged for a Computer-Based Interpretative 3D Reconstruction of Cultural Heritage - A German Community’s View”, in: 
+                        <hi rend="italic">ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences</hi>, II-5/W3: 207-213.
+                    </bibl>
+                    <bibl>
+                        <author>Petitpierre, Rémi</author> / <author>Kaplan, Frédéric</author> / <author>di Lenardo, Isabella</author>  (2021): “Generic Semantic Segmentation of Historical Maps”, in: CHR 2021: Computational Humanities Research Conference, 
+                        <hi rend="italic">CEUR Workshop Proceedings</hi>, 11.
+                    </bibl>
+                    <bibl>
+                        <author>Vaienti, Beatrice</author> / <author>Guhennec, Paul</author> / <author>di Lenardo, Isabella</author>  (2022): “A data structure for Scientific Models of Historical Cities: Extending the CityJSON Format”, in: Association for Computing Machinery, 
+                        <hi rend="italic">Proceedings of the 6th ACM SIGSPATIAL International Workshop on Geospatial Humanities</hi>, Seattle, WA, USA.
+                    </bibl>
+                    <bibl>
+                        <author>Vitalis, Stelios</author> / <author>Labetski, Anna</author> / <author>Boersma, F.</author> / <author>Dahle, Felix</author> / <author>Li, X.</author> / <author>Ohoro, Ken</author> / <author>Ledoux, Hugo</author> / <author>Stoter, Jantien</author>  (2020): “CityJSON + Web = Ninja”, in: 
+                        <hi rend="italic">ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences</hi>, VI-4/W1-2020:167–173.
+                    </bibl>
+                    <bibl>
+                        <author>Xu, Zhen</author> / <author>Qi, Mingzhu</author> / <author>Wu, Yingying</author> / <author>Hao, Xintian</author> / <author>Yang, Yajun</author>  (2021): “City Information Modeling: State of the Art”, in: Applied Sciences, 11(19).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

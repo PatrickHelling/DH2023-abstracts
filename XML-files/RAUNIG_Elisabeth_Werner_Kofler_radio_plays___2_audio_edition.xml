@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Werner Kofler radio plays - 2 audio editions and their dissemination</title>
+                <author n="RaunigElisabethRAUNIG_Elisabeth_Werner_Kofler_radio_plays___2_audio_edition.xml"><persName ref="https://orcid.org/0009-0007-9019-8215" n="RaunigElisabeth">
+                        <surname>Raunig</surname>
+                        <forename>Elisabeth</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>elisabeth.raunig@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KlugHelmutWRAUNIG_Elisabeth_Werner_Kofler_radio_plays___2_audio_edition.xml"><persName n="KlugHelmutW">
+                        <surname>Klug</surname>
+                        <forename>Helmut W.</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>helmut.klug@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This Poster presents a TEI model for radio plays and how we distributed our digital audio edition of 2 of Werner Koflers radio plays on the research platform: www.wernerkofler.at.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Radio plays</term>
+                    <term>digital audio edition</term>
+                    <term>Werner Kofler</term>
+                    <term>audio plays</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Radio plays are a vital part of literary studies and a new field in digital humanities. Radio plays are plays that are solely written and produced for the dissemination via radio stations. Werner Kofler, an important contemporary Austrian author, published 24 such plays. Unfortunately, they did not find their way into the Werner Kofler research, nor the general literary research yet. The Project <hi rend="italic">Kofler intermedial </hi>aimed to correct the absence of this important part of Austrian literature, by providing 15 of the 24 radio plays including their metadata on a web platform as well as a digital scholarly audio edition of two of the radio plays.<lb/><lb/>With the audio edition, however, we are (still) entering uncharted territory, our edition is the first digitally published interactive edition of a radio play. The project therefore offered the chance to experiment with the publication medium in an unprejudiced way against a clear background of scholarly edition theory. Based on Bernhart's definition of the term audio edition (Bernhart 2013: 122), we focus on the juxtaposition of text vs. audio data and the interaction of the Internet as a publication medium regarding both the sources and the users. Some questions we tried to answer were: how can we connect the digital text with the audio file without IIIF technology? Which data model can represent two very different audio plays of Werner Kofler and maybe function as a general model for other audio plays? How can we annotate audio plays and how can we disseminate them?
+                <lb/><lb/>Digital Humanities methods offer the solution for interacting with the audio file and provide the user with a more detailed view on the material. With digital methods it is possible to provide not only the script of the radio play but also the audio file itself. In the Project 
+                <hi rend="italic">Kofler Intermedial</hi> we went a step further and offered the user five text versions of the radio play: the script of the radio play (digital transcript of the script, Typoskript), the transcript of the radio play file (Renotat), a normalised reader friendly text version (Lesetext), the facsimile of the script, and additionally the audio file of the radio play (Audio).
+                    <lb/>All these text versions and their meta data are collected and annotated in one XML file, using the TEI standard. The TEI guidelines offer the solution of how to annotate Radio plays. The normalised reader friendly text version is treated as a play using the module ‘performance text’. The annotation of the transcript of the script follows established annotation models for manuscripts, and the transcript of the audio file is annotated according to the recommendations of Modul 8 ‘transkriptions of speech’. All these annotations are represented on the website in different synopses: reading version/Audio, Script/Facsimile, audio/audio transcript in 2 versions, synopsis of the two transcripts, the reading version and audio.
+                <lb/><lb/>The project 
+                <hi rend="italic">Kofler intermedial</hi> provides material for radio play research, which has long since moved away from a script-based analysis towards media studies-oriented investigations of the auditory signs and sound events of radio play realizations. The conference poster presents two project outcomes. The first is a general model for audio plays that is suitable for heterogeneous audio plays – it also is one of the first solutions for digital radio play editions. The second is the experimental website for the dissemination of the digital scholarly audio editions.<lb/></p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bernhart, Toni</author>
+                         (2013): “Audioedition. Auf dem Weg zu einer Theorie”, in: Anne Bohnenkam (eds.): 
+                        <hi rend="italic">Medienwandel / Medienwechsel in der Editionswissenschaft (Beihefte zu editio, 35)</hi>
+                        . Berlin, Boston: de Gruyter 120–128.
+                    </bibl>
+                    <bibl>
+                        <author>Döhl, Reinhard</author>
+                         (1982): “Hörspielphilologie?”, in: 
+                        <hi rend="italic">Jahrbuch der Dt. Schillergesellschaft</hi>
+                        , Nr. 26/1982: 489–511.
+                    </bibl>
+                    <bibl>
+                        <author>Harig, Ludwig</author>
+                         (2008): “Gesammelte Werke. Bd. III: Stimmen aus dem Irgendwo. Hörspiele”, Publ. by Benno Rech (eds.). München 466.
+                    </bibl>
+                    <bibl>
+                        <author>Huwiler, Elke</author>
+                         (2005): “Storytelling by Sound. A Theoretical Frame for Radio Drama Analysis”, in: 
+                        <hi rend="italic">The Radio Journal International Studies in Broadcast and Audio Media</hi>
+                        , 3/1: 45–59.
+                    </bibl>
+                    <bibl>
+                        <author>Krebs, Sonja Viktoria</author>
+                         (2018): “Kritische Audio-Edition. Interdisziplinäre Fachtagung an der Bergischen Universität Wupperta. 12.–14. 7. 2018”, in: 
+                        <hi rend="italic">editio 32</hi>
+                        : 220–223.
+                    </bibl>
+                    <bibl>
+                        <author>Lugbauer, Eva</author>
+                         (2012): 
+                        <hi rend="italic">Die Hörspiele von Werner Kofler</hi>
+                        . Univ. Dipl., Wien 
+                    </bibl>
+                    <bibl>
+                        <author>Mütherig, Vera</author>
+                         (2020): “Dokumente hören. Editions- und literaturwissenschaftliche Herausforderungen akustischer Texte”, in: Mira Berghöfer et. al. (eds.): 
+                        <hi rend="italic">(un)documented. Was bleibt vom Dokument in der Edition? (Beihefte zu editio, 48)</hi>
+                        . Berlin, Boston: de Gruyter: 181–196.
+                    </bibl>
+                    <bibl>
+                        <author>Nutt-Kofoth, Rüdiger</author>
+                         (2019): “Plurimedialität, Intermedialität, Transmedialität. Theoretische, methodische und praktische Implikationen einer Text-Ton-Film-Edition von Alfred Döblins Berlin-Alexanderplatz-Werkkomplex (1929–1931)”, in: Thomas Betzwieser, Markus Schneider  (eds.) 
+                        <hi rend="italic">Aufführung und Edition</hi>
+                        (Beihefte zu editio, 46). Berlin, Boston: de Gruyter 2019: 183–194.
+                    </bibl>
+                    <bibl>
+                        <author>Raunig, Elisabeth</author> / <author>Klug, Helmut W.</author> 
+                         (2022): “Der dramatisierte Schundroman - Hörspieledition”, in: Wolfgang Straub and Claudia Dürr (eds.). 
+                        <hi rend="italic">Werner Kofler: Forschungsplattform</hi>
+                        . <ref target="hdl.handle.net/11471/1050.10.9">hdl.handle.net/11471/1050.10.9</ref> [20.4.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Raunig, Elisabeth</author> / <author>Klug, Helmut W.</author> 
+                         (2022): “Unruhe - Hörspieledition”, in: Wolfgang Straub and Claudia Dürr (eds.). 
+                        <hi rend="italic">Werner Kofler: Forschungsplattform</hi>
+                        . <ref target="hdl.handle.net/11471/1050.10.10">hdl.handle.net/11471/1050.10.10</ref> [20.4.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Straub, Wolfgang</author> / <author>Dürr, Claudia</author> 
+                         (2019): 
+                        <hi rend="italic">Werner Kofler: Kommentar zur Werkausgabe</hi>
+                        . <ref target="http://wernerkofler.at">http://wernerkofler.at</ref> [20.4.2023]
+                    </bibl>
+                    <bibl>
+                        <author>TEI Consortium</author>
+                         (2022): “Guidelines for Electronic Text Encoding and Interchange”. Version 4.4.0. Last updated on 19th April 2022. <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</ref>
+                    </bibl>
+                    <bibl>
+                        <author>TEI Consortium</author>
+                         (2022): “Guidelines for Electronic Text Encoding and Interchange, Part 7: Performance Texts”, in: 
+                        <hi rend="italic">P5: Guidelines for Electronic Text Encoding and Interchange.</hi>
+                         Version 4.4.0. Last updated on 19th April 2022. <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/DR.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/DR.html</ref>
+                    </bibl>
+                    <bibl>
+                        <author>TEI Consortium</author>
+                         (2022): “Guidelines for Electronic Text Encoding and Interchange, Part 8: Transcriptions of Speech”, in: 
+                        <hi rend="italic">P5: Guidelines for Electronic Text Encoding and Interchange.</hi>
+                         Version 4.4.0. Last updated on 19th April 2022.
+                        <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/TS.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/TS.html</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Toller, Ernst</author>
+                         (2015): 
+                        <hi rend="italic">Sämtliche Werke, Kritische Ausgabe. Bd. 5: Lyrik, Erzählungen, Hörspiele, Film.</hi>
+                         Göttingen.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

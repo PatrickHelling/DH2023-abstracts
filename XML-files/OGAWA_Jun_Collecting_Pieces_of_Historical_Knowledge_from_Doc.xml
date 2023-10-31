@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collecting Pieces of Historical Knowledge from Documents: Introduction of
+                    HIMIKO (Historical Micro Knowledge and Ontology)</title>
+                <author n="OgawaJunOGAWA_Jun_Collecting_Pieces_of_Historical_Knowledge_from_Doc.xml"><persName n="OgawaJun">
+                        <surname>Ogawa</surname>
+                        <forename>Jun</forename>
+                    </persName><affiliation>ROIS-DS Center for Open Data in the Humanities, Japan</affiliation><email>htjk6513khbk@yahoo.co.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OhmukaiIkkiOGAWA_Jun_Collecting_Pieces_of_Historical_Knowledge_from_Doc.xml"><persName ref="https://orcid.org/0000-0002-3276-3753" n="OhmukaiIkki">
+                        <surname>Ohmukai</surname>
+                        <forename>Ikki</forename>
+                    </persName><affiliation>Graduate School of Humanities and Sociology, The University of
+                        Tokyo</affiliation><email>i2k@l.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NakamuraSatoruOGAWA_Jun_Collecting_Pieces_of_Historical_Knowledge_from_Doc.xml"><persName ref="https://orcid.org/0000-0001-8245-7925" n="NakamuraSatoru">
+                        <surname>Nakamura</surname>
+                        <forename>Satoru</forename>
+                    </persName><affiliation>Historiographical Institute, The University of Tokyo</affiliation><email>nakamura@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KitamotoAsanobuOGAWA_Jun_Collecting_Pieces_of_Historical_Knowledge_from_Doc.xml"><persName ref="https://orcid.org/0000-0002-1517-7795" n="KitamotoAsanobu">
+                        <surname>Kitamoto</surname>
+                        <forename>Asanobu</forename>
+                    </persName><affiliation>ROIS-DS Center for Open Data in the Humanities, Japan</affiliation><email>kitamoto@nii.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We propose HIMIKO (Historical Micro Knowledge and Ontology) as a package containing a model and editing system for collecting pieces of historical knowledge scattered in the documents. The model enables help historians to construct document-based Historical Linked Data and brings a new perspective on the digital analysis of historical data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital history</term>
+                    <term>linked data</term>
+                    <term>ontology</term>
+                    <term>historical documents</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>linked (open) data</term>
+                    <term>semantic analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">Historical knowledge representation and HIMOKO</hi></p>
+            <p>Historical knowledge is made from various information extracted from various sources.
+                This fact makes it difficult to develop a versatile data model for historical
+                knowledge representation and must be the reason why models proposed in the field of
+                digital history tend to be limited to specific areas, such as Factoid for
+                prosopography [1], Knowledge Claims for Chinese literature [2], DEPCHA for
+                accounting [3], etc. In this context, we propose HIMIKO ( <hi rend="bold">Hi</hi>storical <hi rend="bold">Mi</hi>cro <hi rend="bold">K</hi>nowledge and <hi rend="bold">O</hi>ntology) as a potential
+                versatile model for Historical Linked Data. The ‘micro-knowledge’ is a basic data
+                unit representing a specific statement in a document mentioning historical
+                situations, actions, or states of affairs. </p>
+            <p><hi rend="bold">HIMIKO Model</hi></p>
+            <p>HIMIKO should effectively collect pieces of knowledge represented in various
+                documents, semantically organize, and link them to universal and unique entities
+                existing outside of the documents. The last part of the process, which is the
+                linking between the inside and outside of the documents, has been already realized
+                by many studies. They annotate entities in documents and link them to external
+                counterparts by using semantic web technologies [4]. On the other hand, they have
+                hardly organized internal semantic relations within a document, which we call
+                ‘intra-knowledge’. It is this problem that HIMIKO works through: how specific
+                historical phenomena were represented in a particular document, who or what is
+                mentioned, which word or image is used to represent certain objects or concepts, or
+                with what kind of causal or temporal relations statements are connected? Fig. 1 is
+                the data created with HIMIKO. </p>
+            <figure>
+                <graphic n="1001" width="14.032388888888889cm" height="6.928733333333334cm" url="Pictures/01d724f940a3565b324eb603488dfe79.jpeg" rend="inline"/>
+                <head>Fig. 1: Data constructed with HIMIKO model (Image of the manuscript is taken
+                    from British Library MS Viewer: <ref target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_10084_f011r">http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_10084_f011r</ref></head>
+            </figure>
+            <p>The basic structure resembles Factoid, which structures the biographical data based
+                on primary sources. While referring to it, HIMIKO achieves a more elaborate
+                description of intra-knowledge in two points: firstly, word and character level
+                structuring guarantees high referentiality to the primary source descriptions, and
+                secondly, as we semantically connect and nest micro-knowledge resources, the whole
+                semantic structure of the document can be preserved as data. </p>
+            <p>Such a document-based model enables us to deal with, not only the biographical data
+                concerning mainly persons and places, but also any pieces of information written in
+                sources, such as a mention of small objects or concepts, descriptions about the
+                natural condition or spatial arrangement, or verbs used to represent historical
+                events, and their semantic relationships. One example demonstrating the advantage of
+                this model is the visualization in Fig. 2. </p>
+            <figure>
+                <graphic n="1002" width="15.000111111111112cm" height="6.588125cm" url="Pictures/377b92f01196b1e78fbb1bf96543bf07.png" rend="inline"/>
+                <head>Fig. 2: Visualization of text and network based on HIMIKO data</head>
+            </figure>
+            <p>The network contains various entities mentioned in the document, such as statements,
+                persons, organizations, places, concepts, and objects. These elements are
+                semantically connected, and the network as a whole shows the outline of the semantic
+                structure of the document. Since each node on the network is linked to a specific
+                word or sentence in the text, it is possible to search the text from the network and
+                vice versa. Obviously, it is possible to explore the data quite in detail with
+                SPARQL queries, for example, “What is the verb frequently used in the statements
+                mentioning any specific person?”, or “Which concept or object is mentioned together
+                with some specific place in same statements?” Being able to ask these questions by
+                using linked data technologies must bring new possibilities for digital historical
+                analysis. </p>
+            <p><hi rend="bold">Data construction workflow of HIMIKO</hi></p>
+            <p>To effectively construct a large amount of data, we are now developing HIMIKO Editor
+                and setting a workflow (Fig. 3) for the entire process. HIMIKO Editor consists of
+                two separate sub-editors: Entity　Editor is for annotating entities and accordingly
+                editing the XML text file, while Micro Knowledge Editor is used to describe
+                intra-knowledge in the form of RDF, linking it to external knowledge [5]. </p>
+            <figure>
+                <graphic n="1003" width="15.000111111111112cm" height="9.31686111111111cm" url="Pictures/a5c50d7785f8ea7042636d1f106aaffc.jpeg" rend="inline"/>
+                <head>Fig. 3: Image of HIMIKO data construction workflow</head>
+            </figure>
+            <p>We have put two sets of documents to the editor and tried
+                to construct micro-knowledge data. One is Caesar's <hi rend="italic">De Bello
+                    Gallico</hi>, and the other is the diary documents provided by the Shibusawa
+                Eiichi Diary website [6]. As a result, even though these two documents greatly
+                differ in terms of their language, genre, and style of writing, we found that the
+                model and the editor could be equally applied to both. This proves that HIMIKO has
+                the potential to be a versatile data model for collecting pieces of historical
+                knowledge from various documents and connecting them to broader knowledge both
+                within and without the documents. Furthermore, as HIMIKO provides a package
+                containing both the model and the editing system to make the data construction
+                process much closer to normal reading activities, it would help historians without
+                digital skills to produce highly sophisticated, structured data without much
+                difficulty and encourage them to participate in the research of digital history.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>‘The Factoid Prosopography Ontology’</author>, Factoid
+                        Prosopography, <ref target="https://www.kcl.ac.uk/factoid-prosopography/ontology">https://www.kcl.ac.uk/factoid-prosopography/ontology</ref>, (accessed:
+                        November 4, 2022). </bibl>
+                    <bibl><author>‘Semantic annotation’</author>, Chinese Text Project, <ref target="https://ctext.org/instructions/annotation">https://ctext.org/instructions/annotation</ref>, (accessed: November 4,
+                        2022). </bibl>
+                    <bibl><author>‘Bookkeeping Ontology for Historical Accounts’</author>,
+                        DEPCHA: Digital Edition Publishing Cooperative for Historical Accounts, <ref target="http://gams.uni-graz.at/archive/objects/o:depcha.bookkeeping/methods/sdef:Ontology/get">http://gams.uni-graz.at/archive/objects/o:depcha.bookkeeping/methods/sdef:Ontology/get</ref>,
+                        (accessed: November 4, 2022). </bibl>
+                    <bibl>Even the editors for this purpose have been developed. The most famous
+                        example of those must be <author>Recogito</author> ( <ref target="https://recogito.pelagios.org/">https://recogito.pelagios.org/</ref>). </bibl>
+                    <bibl>We present this editor at DH Budapest 2022. <ref target="https://elte-dh.hu/en/dh_budapest_2022-dariah-days-conference-program/">https://elte-dh.hu/en/dh_budapest_2022-dariah-days-conference-program/</ref>. </bibl>
+                    <bibl><author>[6] Shibusawa Eiichi
+                        Diary</author>, <ref target="https://shibusawa-dlab.github.io/app1/en">https://shibusawa-dlab.github.io/app1/en</ref>, (accessed: November 4,
+                        2022). </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

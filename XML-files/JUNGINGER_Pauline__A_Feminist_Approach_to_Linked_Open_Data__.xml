@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Feminist Approach to Linked Open Data: Making the Women Film Pioneers Project FAIR </title>
+                <author n="JungingerPaulineJUNGINGER_Pauline__A_Feminist_Approach_to_Linked_Open_Data__.xml"><persName ref="https://orcid.org/0000-0003-3899-1674" n="JungingerPauline">
+                        <surname>Junginger</surname>
+                        <forename>Pauline</forename>
+                    </persName><affiliation>Philipps-Universität Marburg, Germany</affiliation><email>pauline.junginger@uni-marburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The goal of this project is to create structured metadata for the Women Film Pioneers Project (WFPP), enrich it with authority data, and link it in a sustainable way to other datasets on women film pioneers. The poster outlines the methodological approach of the project and presents preliminary results.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>metadata</term>
+                    <term>linked open data</term>
+                    <term>feminist theory</term>
+                    <term>digital film history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>linked (open) data</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Feminist studies</term>
+                    <term>Film and cinema arts studies</term>
+                    <term>History</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The 
+                    <hi rend="italic">Women Film Pioneers Project </hi>(WFPP) is an established online resource for research on women in early cinema. The project focuses on telling individual stories of women film pioneers and making blind spots visible in order to draw attention to the major role played by women in the early days of film history (Gaines et al. n.d.). Initially conceived in the early 1990s as a classic book project, in 2013 the WFPP was published as a digital platform with three primary goals: to make research findings available, to stimulate further research, and to challenge traditional film historical narratives that fail to mention women's contributions. However, although structured metadata is central to making research data and digital publications visible, accessible, and reusable (Baca 2016; Flanders / Jannidis 2018), WFPP's application of metadata has been very limited. Therefore, my project aims to create structured metadata for the WFPP, enrich it with authority data, and link it in a sustainable way to other datasets on women film pioneers.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Related work</head>
+                <p>In addition to feminist film historiography, the digital humanities are a central point of reference for this project, particularly approaches that address accessibility of text as data, digital publishing, categorization practices, and metadata (Blaney et al. 2021; Flanders / Jannidis 2018). In order to make metadata interoperable in the sense of the FAIR data principles, it can be made available as Linked Open Data (Schmidt et al. 2022). In the field of film heritage institutions, the modeling of film data as Linked Open Data has been discussed for several years (Heftberger 2019), including case studies with Wikidata (Heftberger / Duchesne 2020). </p>
+            </div>
+            <div type="div1">
+                <head>Methodology</head>
+                <p>While the initial goal of the project was to develop a thesaurus tailored to the needs of WFPP’s staff and users, it became clear as the project progressed that a more promising approach would be to focus on reusing existing thesauri to make the data FAIR. This conceptual shift from developing a project-specific thesaurus to opening up the collection by sustainably linking disparate datasets on women film pioneers had several implications for the project's methodological design. First, the nine categories initially identified for modeling the thesaurus (person, film work, occupation, place, technique, institution, film genre, theme, and publication) were reduced to four categories relevant to the structured collection of filmographies: person, film work, institution, and place. By creating FAIR metadata using the WFPP filmographies as an example, the project explores how the FAIR principles can be applied in feminist film historiography. Second, whereas the initial concept included a manual text analysis and annotation with CATMA to build the thesaurus in a bottom-up approach, the filmographic data is now extracted using Named Entity Recognition and then modeled as LOD. Third, an important step in the methodology is to analyze and evaluate existing thesauri and authority files such as the Getty Art &amp; Architecture Thesaurus (AAT), Friend of a Friend (FOAF), Virtual International Authority File (VIAF), Gemeinsame Normdatei (GND), and Wikidata regarding their usability for feminist film historiography. </p>
+            </div>
+            <div type="div1">
+                <head>Critical reflection</head>
+                <p>From a feminist perspective, when working with Linked Open Data, it is important to ask what assumptions, biases, and power relations are inscribed in Semantic Web technologies as well as in authority files and vocabularies. Furthermore, it also involves an examination of the epistemic conditions of a structured data approach and a reflection on the specific requirements of feminist film historiography for applying the FAIR data principles. How can the plurality of feminist film historiography be accounted for when modeling research data as LOD requires categorization and standardization, and thus a reduction of complexity? How can we incorporate feminist values into the design of categories if we assume that classification practices are never neutral but always entangled with political attitudes and values (Bowker / Star 1999; Drabinski 2013; D'Ignazio / Klein 2020)? In the context of feminist film historiography, we also have to ask how the numerous blind spots and knowledge gaps that exist due to lost sources and the limited documentation of "feminized labor" (Hill 2016: 5) can be represented in data-based approaches (Dang 2020).</p>
+                <p>This poster outlines the methodological approach of the project and presents preliminary results.</p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>This project is carried out within the framework of the BMBF-funded research group “Aesthetics of Access. Visualizing Research Data on Women in Film History (DAVIF)”.
+                    <ref target="#JUNGINGER_Pauline__A_Feminist_Approach_to_Linked_Open_Data__.xml_ftn1" n="1"/></p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="JUNGINGER_Pauline__A_Feminist_Approach_to_Linked_Open_Data__.xml_ftn1"> Project website: https://www.uni-marburg.de/en/fb09/institutes/media-studies/research/research-projects/davif [01.05.2023].</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Baca, Murtha </author>(2016): “Intro to Metadata”, in: Baca, Murtha (ed.): 
+                        <hi rend="italic">Introduction to Metadata.</hi>
+                         3rd ed. Los Angeles: Getty Publications. <ref target="http://www.getty.edu/publications/intrometadata">http://www.getty.edu/publications/intrometadata</ref> [07.07.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Blaney, Jonathan</author> /
+                        <author>Winters, Jane</author> /
+                        <author>Milligan, Sarah</author> /
+                        <author>Steer, Martin</author>
+                         (2021): 
+                        <hi rend="italic">Doing digital history.</hi> Manchester: Manchester University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Bowker, Geoffrey C.</author> /
+                        <author>Star, Susan Leigh</author>
+                         (1999): 
+                        <hi rend="italic">Sorting Things Out: Classification and its Consequences.</hi> Cambridge: MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Dang, Sarah-Mai</author> (2020): “Unknowable Facts and Digital Databases: Reflections on the Women Film Pioneers Project and Women in Film History”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
+                         14, 4 <ref target="http://www.digitalhumanities.org/dhq/vol/14/4/000528/000528.html">http://www.digitalhumanities.org/dhq/vol/14/4/000528/000528.html</ref> [04.11.2022]
+                    </bibl>
+                    <bibl>
+                        <author>D’Ignazio, Catherine</author> /
+                        <author>Klein, Lauren F.</author>
+                         (2020): 
+                        <hi rend="italic">Data Feminism</hi>. Cambridge: MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Drabinski, Emily</author> (2013): “Queering the Catalog: Queer Theory and the Politics of Correction”, in: 
+                        <hi rend="italic">The Library Quarterly</hi> 83, 2: 94–111. DOI: 10.1086/669547.
+                    </bibl>
+                    <bibl>
+                        <author>Flanders, Julia</author> /
+                        <author>Jannidis, Fotis</author>
+                         (eds.) (2018): 
+                        <hi rend="italic">The Shape of Data in the Digital Humanities: Modeling Texts and Text-based Resources</hi>. London: Routledge. DOI: 10.4324/9781315552941.
+                    </bibl>
+                    <bibl>
+                        <author>Gaines, Jane</author> /
+                        <author>Vatsal, Radha</author> /
+                        <author>Dall’Asta, Monica</author> (eds): 
+                        <hi rend="italic">Women Film Pioneers Project</hi>. New York: Columbia University Libraries <ref target="https://wfpp.columbia.edu/">https://wfpp.columbia.edu/</ref> [04.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Heftberger, Adelheid</author> (2019): “Building Resources Together – Linked Open Data for Film Archives”, in: 
+                        <hi rend="italic">Journal of Film Preservation </hi>101: 65-73 <ref target="https://www.proquest.com/docview/2317838940/abstract/B700AB2C594C4879PQ/1">https://www.proquest.com/docview/2317838940/abstract/B700AB2C594C4879PQ/1</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Heftberger, Adelheid</author> / <author>Duchesne, Paul</author>  (2020): “Cataloguing Practices in the Age of Linked Open Data: Wikidata and Wikibase for Film Archives”, in: International Federation of Film Archives (ed.): 
+                        <hi rend="italic">E-Resources</hi> <ref target="https://www.fiafnet.org/pages/E-Resources/Cataloguing-Practices-Linked-Open-Data.html">https://www.fiafnet.org/pages/E-Resources/Cataloguing-Practices-Linked-Open-Data.html</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Hill, Erin</author> (2016): 
+                        <hi rend="italic">Never Done: A History of Women’s Work in Media Production</hi>. New Brunswick: Rutgers University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Sophie C.</author> / <author>Thiery, Florian</author> / <author>Trognitz, Martina</author>  (2022): “Practices of Linked Open Data in Archaeology and Their Realisation in Wikidata”, in: 
+                        <hi rend="italic">Digital</hi> 2, 3: 333–64. DOI: 10.3390/digital2030019.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

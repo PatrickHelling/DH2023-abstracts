@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LEAF: Developing Streamlined Digital Scholarly Workflows with the Linked
+                    Editing Academic Framework</title>
+                <author n="JakackiDianeKatherineJAKACKI_Diane_Katherine_LEAF__Developing_Streamlined_Digital.xml"><persName ref="https://orcid.org/0000-0002-7836-1223" n="JakackiDianeKatherine">
+                        <surname>Jakacki</surname>
+                        <forename>Diane Katherine</forename>
+                    </persName><affiliation>Bucknell University, United States of America</affiliation><email>dkj004@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BrownSusanJAKACKI_Diane_Katherine_LEAF__Developing_Streamlined_Digital.xml"><persName ref="https://orcid.org/0000-0002-0267-7344" n="BrownSusan">
+                        <surname>Brown</surname>
+                        <forename>Susan</forename>
+                    </persName><affiliation>University of Guelph, Canada</affiliation><email>sbrown@uoguelph.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CummingsJamesJAKACKI_Diane_Katherine_LEAF__Developing_Streamlined_Digital.xml"><persName ref="https://orcid.org/0000-0002-6686-3728" n="CummingsJames">
+                        <surname>Cummings</surname>
+                        <forename>James</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>James.Cummings@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="IlovanMihaelaJAKACKI_Diane_Katherine_LEAF__Developing_Streamlined_Digital.xml"><persName n="IlovanMihaela">
+                        <surname>Ilovan</surname>
+                        <forename>Mihaela</forename>
+                    </persName><affiliation>University of Alberta, Canada</affiliation><email>ilovan@ualberta.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MilioRachelJAKACKI_Diane_Katherine_LEAF__Developing_Streamlined_Digital.xml"><persName n="MilioRachel">
+                        <surname>Milio</surname>
+                        <forename>Rachel</forename>
+                    </persName><affiliation>Bucknell University, United States of America</affiliation><email>rtm012@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this half-day workshop, participants will learn how to use different components of the Linked Editing Academic Framework (LEAF) digital scholarship production platform: encoding and annotating texts, entity tagging and reconciliation, coordinating different types of media files into compound objects and galleries, managing metadata and workflow tracking, and producing a simple collection of objects. Using sample text and image objects, with the possibility of experimenting with their own materials, participants will come away with an understanding of how LEAF supports collaborative digital scholarly production in an open-source, open-access web environment.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>TEI-XML</term>
+                    <term>web-based editor</term>
+                    <term>RDF</term>
+                    <term>named entity recognition</term>
+                    <term>linked open data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Cultural studies</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>In this half-day workshop, participants will learn how
+                    to use different components of the Linked Editing Academic Framework (LEAF)
+                    digital scholarship production platform: encoding and annotating texts, entity
+                    tagging and reconciliation, coordinating different types of media files into
+                    compound objects and galleries, managing metadata and workflow tracking, and
+                    producing a simple collection of objects. Using sample text and image objects,
+                    with the possibility of experimenting with their own materials, participants
+                    will come away with an understanding of how LEAF supports collaborative digital
+                    scholarly production in an open-source, open-access web environment, connected
+                    to a linked data infrastructure</p>
+            </div>
+            <div type="div1">
+                <head>Concept</head>
+                <p>This workshop, which is aimed at both digital
+                    humanities researchers and institutional library and information technology
+                    administrators interested in instituting efficient scholarly production,
+                    research data repository, and publication workflows, will offer participants the
+                    chance to experiment with model research projects in LEAF. The workshop will
+                    combine demonstration and hands-on activities to cover:</p>
+                <list type="ordered">
+                    <item>the basics: LEAF navigation, menus, user dashboards (hands-on);</item>
+                    <item>metadata: overview of its importance, and how to create it
+                        (hands-on); </item>
+                    <item>scholarly curation: uploading an image and or text to being a thematic
+                        collection; </item>
+                    <item>born-digital scholarship: creating a document (hands-on);</item>
+                    <item>semantic markup and linked data identifiers: editing, semi-automated
+                        entity tagging and reconciliation (hands-on) using the LEAF-Writer TEI (XML)
+                        and RDF editor (available embedded in LEAF or as a standalone
+                        editor); </item>
+                    <item>tracking work: adding a workflow stamp and communicating with
+                        collaborators (hands-on);</item>
+                    <item>project creation: creating a home page for a simple object-driven web
+                        collection (hands-on);</item>
+                    <item>linked data conversion: making data findable, accessible, interoperable
+                        and reusable (FAIR) using the Linked Infrastructure for Networked Cultural
+                        Scholarship (LINCS) (demo)</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Background</head>
+                <p>The Linked Editing Academic Framework virtual research
+                    environment (LEAF) is a flexible collaborative platform that enables scholars to
+                    create, publish, and preserve digital editions, born-digital scholarship,
+                    digital collections, and virtual exhibits – of texts, images, audio files, and
+                    videos. </p>
+                <p>LEAF tackles the challenges faced by many in the DH
+                    community who undertake and maintain complex research projects, whether as part
+                    of a solo or small team edition or a large-scale multi-institutional collection:
+                    the need to ensure that these projects remain operational and available to
+                    editorial teams and audiences, at the same time encouraging new participants who
+                    may or may not have digital experience to create new knowledge in dynamic and
+                    iterative contexts.</p>
+                <p>Adhering to the FAIR principles for enabling the reuse
+                    of data (Findable, Accessible, Interoperable, and Reusable), LEAF uses
+                    open-source software, open-access platforms, and open international standards
+                    for best practices in text-encoding (TEI-XML) and web annotation (RDF), in a
+                    Drupal 9 Islandora 2 content management and preservation system. Perhaps most
+                    compelling for the ADHO community, LEAF is designed to promote sustainability by
+                    aiming at a broad user base through bridging gaps between scholars who have
+                    coding and encoding experience, and those who do not. LEAF gives broader
+                    communities of researchers, teachers, and students the opportunity to take part
+                    in digital knowledge production and open collaboration. The workshop will end
+                    with an open discussion about pursuing such forms of open knowledge production
+                    and collaboration. </p>
+                <p>LEAF emerges from a collaboration to extend the
+                    Canadian Writing Research Collaboratory (CWRC) virtual research environment that
+                    has, since 2016, supported dozens of projects, including projects produced by
+                    scholars and students new to digital scholarship.  It is being developed, with
+                    Bucknell University and Newcastle University as founding partners, at the
+                    Universities of Alberta and Guelph. LEAF will roll out its enhancement of CWRC’s
+                    functionality through collaborative software development in 2023 through
+                    multiple instances of the modular LEAF platform in Canada, the US, and UK.</p>
+                <p>LEAF’s sister project, the Linked Infrastructure for
+                    Networked Cultural Scholarship (LINCS), is dedicated to interlinking humanistic
+                    research and cultural heritage data across the Semantic Web. LINCS supports the
+                    development and mobilization of a suite of tools to create, search, and
+                    visualize Linked Open Data (LOD). LEAF and LEAF-Writer create an accessible
+                    on-ramp for LEAF users to be able to generate linked data from metadata, text,
+                    and prosopographical information to contribute to the Semantic Web. Entity IDs
+                    captured in LEAF-Writer can in turn create Web Annotations using RDF. LEAF users
+                    will therefore be able to push to LINCS linked data based on their projects’
+                    metadata, markup, and annotations.</p>
+            </div>
+            <div type="div1">
+                <head>Features And Functions To Be Explored In Workshop</head>
+                <p>Working on their own laptops (no software installation
+                    is required), participants will experience various aspects of LEAF’s
+                    functionality:</p>
+                <list type="unordered">
+                    <item>Simple Drupal collection development</item>
+                    <item>Object locking/unlocking</item>
+                    <item>Workflow tracking documentation</item>
+                    <item>Rich text-encoding in the LEAF-Writer editor that creates both XML and/or
+                        RDF</item>
+                    <item>Entity tagging in NERVE, the Named Entity Recognition Vetting Environment
+                        (NERVE is a named entity recognition tool developed by the Linked
+                        Infrastructure for Networked Cultural Scholarship (LINCS) project);</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Workshop Outline</head>
+                <p>The workshop will be managed as follows (3 hours plus
+                    breaks):</p>
+                <div type="div2">
+                    <head>Introductions of participants, concepts, and VRE (15 minutes)</head>
+                </div>
+                <div type="div2">
+                    <head>Set up participants with individual LEAF project spaces (15
+                        minutes)</head>
+                    <div type="div3">
+                        <head>Digital production phase, part 1 (90 minutes)</head>
+                        <list type="unordered">
+                            <item>Uploading a variety of project materials including text, image,
+                                compound objects, citations, and associating metadata with
+                                each</item>
+                            <item>Encoding and annotating text objects using TEI and RDF
+                                (LEAF-Writer)</item>
+                        </list>
+                        <p>BREAK (Time TBD) </p>
+                    </div>
+                    <div type="div3">
+                        <head>Digital Production phase, part 2 (40 minutes)</head>
+                        <list type="unordered">
+                            <item>Using NERVE to recognize, process, and associate named entities
+                                with external authorities <list type="unordered">
+                                    <item>Creating a model project </item>
+                                    <item>Producing published versions of those materials using
+                                        Drupal blocks</item>
+                                </list></item>
+                            <item>LINCS demo, forthcoming LEAF development (e.g. Handwritten Text
+                                Recognition), wrap-up (20 minutes)</item>
+                        </list>
+                    </div>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Special Requirements</head>
+                <p>Because LEAF is web-based and open-source no special
+                    software or subscription is required. Participants will need a laptop and
+                    wireless internet access. </p>
+            </div>
+            <div type="div1">
+                <head>Statement Of Commitment To Diversity</head>
+                <p>Workshop materials will be provided in multiple
+                    languages, and attention to diversity will be given the the selection of sample
+                    texts and images to ensure that a range of genders, races, and nationalities are
+                    represented. Participants are also welcome to bring their own content. LEAF and
+                    its tools are designed to meet accessibility standards as well as to make tools
+                    more readily usable by a broader and more diverse user base than is typical in
+                    the digital humanities.</p>
+            </div>
+            <div type="div1">
+                <head>Workshop Leaders (Including Research Interests Pertaining to Workshop)</head>
+                <p><hi rend="bold">Susan Brown</hi> (University of Guelph) Professor, Canada
+                    Research Chair in Collaborative Digital Scholarship. Her work explores intersectional feminism, literary history, semantic
+                        technologies, and online knowledge infrastructures. She directs the
+                    Orlando Project, the Canadian Writing Research Collaboratory, and the Linked
+                    Infrastructure for Networked Cultural Scholarship. </p>
+                <p><hi rend="bold">Diane Jakacki</hi> (Bucknell University) Digital Scholarship
+                    Coordinator, associated faculty in Comparative &amp; Digital Humanities. At
+                    Bucknell and through the Mellon Foundation-funded Liberal Arts Based Digital
+                    (LAB) Editions Publishing Cooperative project, she works with faculty, students,
+                    and their collaborators within and beyond Bucknell to develop and implement an
+                    array of text-centric multicultural and multilingual research projects. She is
+                    lead investigator of the LAB Cooperative, REED London, and currently serves as
+                    the chair of the TEI’s Board of Directors. </p>
+                <p><hi rend="bold">James Cummings</hi> (Newcastle University) Senior Lecturer in
+                    Late Medieval Literature and Digital Humanities. His interests include the use
+                    of digital technology for scholarly editing and also late-medieval performance.
+                    He has a long history of involvement with the Consortium of the Text Encoding
+                    Initiative and is currently an elected member to the TEI’s Board of Directors.
+                    He is currently leading projects on both HTR to TEI workflows and digital
+                    pedagogy, as well as a sub-project at Newcastle using LEAF.  <lb/><hi rend="bold">Mihaela Ilovan</hi> (Canadian Writing Research Collaboratory)
+                    Assistant Director. A librarian and digital humanist by formation, she is the
+                    technical project manager for the development of the LEAF Virtual Research
+                    Environment and the coordinator for LEAF data ingestion and mapping. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Berners-Lee, Tim, et al</author> (2001): “The Semantic Web,” in
+                        Scientific American, 284, 5: 28–37. </bibl>
+                    <bibl>
+                        <author>Brown, Susan</author> (2014):  “Scaling Up Collaboration Online:
+                        Towards a Collaboratory for Research on Canadian Writing,” in <hi rend="italic">International Journal of Canadian Studies</hi> 48: 233-51. </bibl>
+                    <bibl>
+                        <author>Brown, Susan</author> / <author>Simpson, John</author>  (2015): “An Entity By Any
+                        Other Name: Linked Open Data as a Basis for a Decentered, Dynamic Scholarly
+                        Publishing Ecology | Scholarly and Research Communication. 6,2.
+                        <ref target="https://src-online.ca/index.php/src/article/view/212">https://src-online.ca/index.php/src/article/view/212</ref>.  </bibl>
+                    <bibl>
+                        <author>Brown, Susan</author> / <author>Simpson, John</author> / <author>the INKE Research Group</author> / <author>the CWRC project team</author>  (2015): “The Changing Culture of Humanities
+                        Scholarship: Iteration, Recursion, and Versions in Scholarly Collaboration
+                        Environments; Special Issue on "Building Partnerships to Transform Scholarly
+                        Publishing," in
+                        <hi rend="italic">Scholarly and Research Communication </hi>5.4.
+                            <ref target="https://src-online.ca/index.php/src/article/view/191">https://src-online.ca/index.php/src/article/view/191</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Brown, Susan</author> / <author>Cummings, James</author> / <author>Frizzera, Luciano</author> / <author>Ilovan, Mihaela</author> / <author>Jakacki, Diane</author> / <author>Milio, Rachel</author> (2022):
+                        “Engaging TEI Editors Through LEAF-Writer,” at the TEI 2022 Annual Meeting.  </bibl>
+                    <bibl>
+                        <author>Canning, Erin</author> / <author>Brown, Susan</author> / <author>Roger, Sarah</author> / <author>Martin, Kim</author>  (2022): “The Power to Structure: Making Meaning from Metadata
+                        through Ontologies,” in <hi rend="italic">Kula</hi> 6.3. </bibl>
+                    <bibl>
+                        <author>Cope, Bill, et al.</author>, eds (2011): <hi rend="italic">Towards a Semantic Web: Connecting Knowledge in Academic Research</hi>.
+                        Chandos Publishing. </bibl>
+                    <bibl>
+                        <author>Cummings, James</author> (2019): “Opening the Book: Data Models
+                        and Distractions in Digital Scholarly Editing.” <hi rend="italic">International Journal of Digital Humanities</hi>. 1, 179-193 (2019) </bibl>
+                    <bibl>
+                        <author>Cummings, James</author> / <author>Flex, Valentina</author> / <author>Healey, Alexandra</author> / <author>Jakacki, Diane</author> / <author>Johnson, Ian</author> / <author>Pirmann,  Carrie</author>  (2022): “Evolving
+                        Hands: HTR and TEI Workflows for cultural institutions,” at the TEI 2022
+                        Annual Meeting. </bibl>
+                    <bibl>
+                        <author>Eide, Øyvind</author> (2014): “Ontologies, Data Modeling, and
+                        TEI.” <hi rend="italic">Journal of the Text Encoding Initiative</hi>, no.
+                        Issue 8, Issue 8, Dec. 2014. <hi rend="italic">journals.openedition.org</hi>, <ref target="https://doi.org/10.4000/jtei.1191">https://doi.org/10.4000/jtei.1191</ref>. </bibl>
+                    <bibl>
+                        <author>Jakacki, Diane</author> / <author>Brown, Susan</author> / <author>Cummings, James</author> / <author>Ilovan, Mihaela</author>  (2022): “The Linked Editing Academic Framework: Creating an
+                        Editorial Environment for Collaborative Scholarship and Publication," at the
+                        Digital Humanities 2022 Annual Meeting.
+                        <ref target="https://youtu.be/jyCXRrfh5vk">https://youtu.be/jyCXRrfh5vk</ref>. </bibl>
+                    <bibl>Islandora Digital Asset Management:
+                        <ref target="https://ww.islandora.ca">https://ww.islandora.ca</ref>. </bibl>
+                    <bibl>LEAF-Writer Commons:
+                        <ref target="https://leaf-writer.leaf-vre.org/">https://leaf-writer.leaf-vre.org/</ref></bibl>
+                    <bibl>LEAF-Writer Commons documentation:
+                        <ref target="https://portal.lincsproject.ca/docs/tools/leaf-writer/leaf-writer-documentation">https://portal.lincsproject.ca/docs/tools/leaf-writer/leaf-writer-documentation</ref></bibl>
+                    <bibl>Linked Infrastructure for Networked Cultural
+                        Scholarship (LINCS) project. <ref target="https://lincsproject.ca">https://lincsproject.ca</ref>.</bibl>
+                    <bibl>NERVE (Named Entity Recognition Vetting
+                        Environment.
+                        <ref target="https://portal.lincsproject.ca/docs/tools/nerve/">https://portal.lincsproject.ca/docs/tools/nerve/</ref>.</bibl>
+                    <bibl>Text Encoding Initiative (TEI).
+                        <ref target="https://tei-c.org/">https://tei-c.org/</ref></bibl>
+                    <bibl>The Resource Description Framework (RDF).
+                        <ref target="https://www.w3.org/RDF/">https://www.w3.org/RDF/</ref></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>How Corpus Analysis Helps Operationalize Research Questions and Entices Literary Scholars to Learn Programming</title>
+                <author n="CinkovSilvieCINKOV__Silvie_How_Corpus_Analysis_Helps_Operationalize_Rese.xml"><persName ref="https://orcid.org/0000-0003-4526-3915" n="CinkovSilvie">
+                        <surname>Cinková</surname>
+                        <forename>Silvie</forename>
+                    </persName><affiliation>Charles University, Faculty of Mathematics and Physics, Czech Republic</affiliation><email>cinkova@ufal.mff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CvrekVclavCINKOV__Silvie_How_Corpus_Analysis_Helps_Operationalize_Rese.xml"><persName ref="https://orcid.org/0000-0003-3977-2393" n="CvrekVclav">
+                        <surname>Cvrček</surname>
+                        <forename>Václav</forename>
+                    </persName><affiliation>Charles University, Faculty of Arts, Czech Republic</affiliation><email>vaclav.cvrcek@ff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JanssenMaartenCINKOV__Silvie_How_Corpus_Analysis_Helps_Operationalize_Rese.xml"><persName ref="https://orcid.org/0000-0003-0272-6318" n="JanssenMaarten">
+                        <surname>Janssen</surname>
+                        <forename>Maarten</forename>
+                    </persName><affiliation>Charles University, Faculty of Mathematics and Physics, Czech Republic</affiliation><email>janssen@ufal.mff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KenMichalCINKOV__Silvie_How_Corpus_Analysis_Helps_Operationalize_Rese.xml"><persName ref="https://orcid.org/0000-0002-8492-263X" n="KenMichal">
+                        <surname>Křen</surname>
+                        <forename>Michal</forename>
+                    </persName><affiliation>Charles University, Faculty of Arts, Czech Republic</affiliation><email>michal.kren@ff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Skills Gap Analysis, a recent survey among scholars describes the current distribution of (self-attested) practical text-processing skills and scholars’ despair from the necessary skillset, as well as a perceived absence of “an entry point in(to) CLS education”.
+We argue that corpus analysis is the entry point and why.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>information extraction</term>
+                    <term>corpus analysis</term>
+                    <term>DH pedagogy</term>
+                    <term>Computational Literary Studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The 
+                <hi rend="italic">Skills Gap Analysis</hi>, a recent survey among scholars of all academic stages 
+                (Rossum / Šeļa 2022), describes the current distribution of (self-attested) practical text-processing skills and the corresponding education supplies in the Computational Literary Studies (CLS), stating that “[...] involvement in a computational field and corresponding methodological knowledge often are paired in current practice” (p. 7). 
+            </p>
+            <p>The most desired skills included corpus building and text modeling, contrasted to remarkably low scores for corpus analysis and annotation. The respondents apparently do not recognize corpus queries as an information extraction method, which implies that they would not reach beyond the bag-of-words approach with the advanced analytical methods they fancy to use. At the same time, the survey revealed despair from overwhelming skill requirements and the perceived absence of “an entry point or structured path in(to) CLS education” (p. 48). </p>
+            <p>We argue that corpus analysis is the most natural entry point into CLS education and spotlight it as the “missing link” between an interested scholar and a reasonably proficient text-miner, for the following reasons:</p>
+            <list type="ordered">
+                <item>It integrates methodological as well as implementation consideration straight in the initial research design: 
+                    <hi rend="italic">which </hi><hi rend="italic">concepts</hi><hi rend="italic"> am I going to extract for analysis</hi>? 
+                    <hi rend="italic">How do I </hi><hi rend="italic">operationalize</hi><hi rend="italic"> them</hi>? 
+                </item>
+                <item>It generates concrete automation desires and hence naturally specifies the relevant computational skills – typically boiling down to deploying a few data-analytical Python or R libraries – a curriculum manageable even through MOOCs. </item>
+                <item>It encourages further learning: a corpus query language it is in fact programming, yet its operational command turns out to be a low-hanging fruit for most scholars. </item>
+            </list>
+            <p>This is what we had observed in previous setups and intentionally promoted to the leading principle of our 3-day CLS Infra Training School Data and Annotation 
+                (Cinková et al. 2022) in the following building blocks: 
+            </p>
+            <list type="ordered">
+                <item>conceptualization and operationalization of a research question, </item>
+                <item>building and editing a TEI-XML annotated corpus,</item>
+                <item>automatic parsing with Universal Dependencies (Marneffe et al. 2014),</item>
+                <item>understanding the UD annotation scheme,</item>
+                <item>implementation of the initially operationalized concepts into corpus query languages: CQL (Evert / CWB Development Team 2022; Machálek 2020) for linear search and Grew (Guillaume 2021) for tree search,</item>
+                <item>Filtering and aggregation to frequency tables with CQL,</item>
+                <item>Using elementary statistics to estimate differences in frequencies. </item>
+            </list>
+            <p>Most of the hands-on work by the students was done using TEITOK 
+                (Janssen 2018). TEITOK is an online corpus environment for (potentially) heavily annotated TEI/XML documents, sporting a GUI to create, annotate, correct, visualize, and search these TEI documents in a number of different ways and run NLP chains over the TEI files, without having to look at the underlying XML code (although the source code is always accessible). The interface has been fine-tuned over time in response to feedback from the many projects using TEITOK 
+                (Janssen 2021) and has proven user-friendly for people with limited computational background. 
+            </p>
+            <p>In the corpus-building and annotation part, each student used source documents according to their own choice that they had been asked to produce for the class. The files could be in any of the 80+ languages for which a UDPipe 
+                (Straka / Straková 2022) language model exists. The students learned the basics of TEI-XML using the built-in XML editor in TEITOK (ACE). 
+            </p>
+            <p>To explain the conceptualization and operationalization of research questions, we simulated research of Shakespeare’s dramas in DraCor, drawing on the actual research on Shakespeare’s style presented in 
+                <hi rend="italic">Think On My Words</hi>, a popular book by David Crystal 
+                (Crystal 2008), and on the seminal work on Language registers by Douglas Biber 
+                (Biber / Conrad 2009). The students were discussing concepts such as 
+                <hi rend="italic">narrativity</hi> vs. 
+                <hi rend="italic">descriptivity</hi> and how to operationalize them through their linguistic manifestation in texts (e.g., frequency of verbs vs. nouns).
+            </p>
+            <p>Once the students found out which linguistic information they would need in order to operationalize various rhetorical and stylistic concepts, we explained the fundamental principles of UD for morphology and syntax and let them express their operationalizations more formally with UD tags.</p>
+            <p>Only then we presented the query languages, focusing on CQL but introducing tree search with Grew as a way to abstract away from the word order. The students learned to use wildcards as well as to formulate constraints on order and number of elements within the queried sequence. In self-paced sessions, they had the opportunity to fiddle with their own corpora in their languages. </p>
+            <p>Finally, they learned to use the simple web-based statistical calculators QuitaUp 
+                (Cvrček / Čech / Kubát 2020) and Calc 
+                (Cvrček 2021) to compare word frequencies e.g., to extract key words or calculate the precision and reliability of a random sample. 
+            </p>
+            <p>The building blocks in this teaching setup are for the most part not innovative on their own, but together they create synergy. They spotlight the research questions, presenting corpus building and proper markup as mere means to an end rather than research in its own right. The intimate experience with automatically tagged corpora also teaches the students to deal with noise, and the cumbersome operationalization of abstract concepts teaches them that it is more appropriate to document the way a concept is operationalized, with all its evident limitations (e. g. narrativity based on the ratio of verbs and nouns), than pretending to have a universal grasp of it. The fact that all this NLP is done while keeping the TEI annotation that is of clear relevance within any DH project, makes it an integrated experience rather than additional work.</p>
+            <p>Although it might seem that promoting information extraction with corpus linguistic methods within the DH community is like bringing owls to Athens and the bespoke Skills Gap survey an anomaly, we have had many interactions with scholars whose main concern with a corpus was the TEI encoding of rather vaguely conceived “NLP features” (implicitly boiling down to named entity recognition), but never its searchability. Hence, the CLS Infra survey confirmed our impression gathered throughout the years rather than becoming a sudden inspiration, and we have drawn pedagogical conclusions from it. </p>
+            <p>Supported by H2020 101004984 — CLS INFRA.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Biber, Douglas</author> / 
+                        <author>Conrad, Susan</author> (2009): 
+                        <hi rend="italic">Register, Genre, and Style</hi>. (= Cambridge Textbooks in Linguistics) Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Cinková, Silvie</author> / 
+                        <author>Cvrček, Václav</author> / 
+                        <author>Janssen, Maarten</author> / 
+                        <author>Křen, Michal</author> (2022): 
+                        <hi rend="italic">CLS-Infra Training School on Data and Annotation</hi>. Prague, Czech Republic. https://campus.dariah.eu/resource/events/cls-infra-training-school-on-data-and-annotation. [18.11.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Crystal, David</author> (2008): 
+                        <hi rend="italic">Think On My Words: Exploring Shakespeare’s Language</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Cvrček, Václav</author> (2021): 
+                        <hi rend="italic">Calc: Corpus Calculator</hi>. <ref target="https://korpus.cz/calc/">https://korpus.cz/calc/</ref> [18.11.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Cvrček, Václav</author> / 
+                        <author>Čech, Radek</author> / 
+                        <author>Kubát, Miroslav</author> (2020): 
+                        <hi rend="italic">QuitaUp – a tool for quantitative stylometric analysis.</hi> Czech National Corpus and University of Ostrava. <ref target="https://korpus.cz/quitaup/">https://korpus.cz/quitaup/</ref> [18.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Evert, Stephanie</author> / 
+                        <author>CWB Development Team</author> (2022): 
+                        <hi rend="italic">The IMS Open Corpus Workbench (CWB) CQP Interface and Query Language Manual</hi>. (= CWB Version 3.5).
+                    </bibl>
+                    <bibl>
+                        <author>Guillaume, Bruno</author> (2021): 
+                        <hi rend="italic">Graph Matching and Graph Rewriting: GREW tools for corpus exploration, maintenance and conversion</hi>. in: 
+                        <hi rend="italic">EACL 2021 - 16th conference of the European Chapter of the Association for Computational Linguistics</hi>. Kiev, Ukraine (online).
+                    </bibl>
+                    <bibl>
+                        <author>Janssen, Maarten</author> (2018): 
+                        <hi rend="italic">Adding Words to Manuscripts: From PagesXML to TEITOK</hi>. in: 
+                        <hi rend="italic">TPDL 2018: Digital Libraries for Open Knowledge</hi> (= Lecture Notes in Computer Science). Universidade do Porto: Springer International Publishing. 152–157. (= Lecture Notes in Computer Science).
+                    </bibl>
+                    <bibl>
+                        <author>Janssen, Maarten</author> (2021): 
+                        <hi rend="italic">Integrating TEITOK and KonText/PMLTQ at LINDAT</hi>. in: 
+                        <hi rend="italic">Selected Papers from the CLARIN Annual Conference 2020</hi> (= Linköping Electronic Conference Proceedings). Linköping, Sweden: Linköping University Electronic Press, Linköpings universitet. 104–110. (= Linköping Electronic Conference Proceedings).
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Machálek, Tomáš</author> (2020): 
+                        <hi rend="italic">KonText: Advanced and Flexible Corpus Query Interface</hi>. in: 
+                        <hi rend="italic">Proceedings of the Twelfth Language Resources and Evaluation Conference</hi>. Marseille, France: European Language Resources Association. 7003–7008. https://www.aclweb.org/anthology/2020.lrec-1.865.
+                    </bibl>
+                    <bibl>
+                        <author>Marneffe, M.-C</author> / 
+                        <author>Dozat, T.</author> / 
+                        <author>Silveira, N.</author> / 
+                        <author>Haverinen, K.</author> / 
+                        <author>Ginter, F.</author> / 
+                        <author>Nivre, Joakim</author> / 
+                        <author>Manning, C.D.</author> (2014): "Universal Stanford Dependencies: A cross-linguistic typology", in: 
+                        <hi rend="italic">Proceedings of the 9Th International Conference on Language Resources and Evaluation (LREC)</hi>: 4585–4592.
+                    </bibl>
+                    <bibl>
+                        <author>Rossum, Lisanne M. van</author> / 
+                        <author>Šeļa, Artjoms</author> (2022): "CLS INFRA D4.1 Skills Gap Analysis", 10.5281/zenodo.6421513.
+                    </bibl>
+                    <bibl>
+                        <author>Straka, Milan</author> / 
+                        <author>Straková, Jana</author> (2022): 
+                        <hi rend="italic">UDPipe 2</hi>. <ref target="http://hdl.handle.net/11234/1-4816">http://hdl.handle.net/11234/1-4816</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

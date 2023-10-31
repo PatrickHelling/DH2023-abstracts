@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exploring genderlect markers in a corpus of Nineteenth century Spanish novels</title>
+                <author n="BermdezSabelHelenaBERM_DEZ_SABEL_Helena_Exploring_genderlect_markers_in_a_corp.xml"><persName ref="https://orcid.org/0000-0002-8627-1367" n="BermdezSabelHelena">
+                        <surname>Bermúdez Sabel</surname>
+                        <forename>Helena</forename>
+                    </persName><affiliation>Université de Neuchâtel, Switzerland</affiliation><email>helena.b.sabel@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This study teases out gender-specific linguistic features in fiction writing by carrying out a stylometric analysis of 81 Spanish novels written between 1840 and 1919.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>genderlect</term>
+                    <term>sociolinguistics</term>
+                    <term>stylometry</term>
+                    <term>spanish novels</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>Gender and sexuality studies</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Gender has been studied profusely in Sociolinguistics due to its relevance in social structure, and the fact that women and men use language differently is largely proven (Eakins and Eakins, 1978; Eckert, 1989; Hobbs, 1990; e.g. Cheshire, 1997). However, gender-based variation regarding literary writing style has received little attention from a sociolinguistics perspective, except for studies whose focus was a specific author or work (e.g. Costello, 1980; Kamuf, 1980; Miller, 1988; Hamdan, 2011). In this paper I will tease out certain gender-specific linguistic features in fiction writing by implementing a stylometric analysis of 86 Spanish novels written between 1840 and 1919.
+                    <ref target="#BERM_DEZ_SABEL_Helena_Exploring_genderlect_markers_in_a_corp.xml_ftn1" n="1"/> The goal is to test whether trends detected in Contemporary history (post-1945) concerning linguistic change and the role of women are observed in 19th century Spain. The authors belong to a stable sociolinguistic stratification and as such the following sociolinguistic principle is expected: men would use a higher frequency of nonstandard forms than women, unless in change from above, that is, a conscious change with social repercussion, in which women favour the incoming prestige form (Labov, 1990, p.213).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Methodology</head>
+                <p>I first conducted a quantitative analysis to identify chronolect markers, that is, linguistic elements specific to a given period in comparison to another. The corpus was divided in four periods spanning twenty years each. The presence of distinctive markers of a later period in an earlier one can be interpreted as innovative uses, and likewise, distinctive markers of the earlier periods can be read as conservative uses when present in later periods. Once the chronolect markers were teased out, the next step was to verify the specificity of those elements throughout a gender-based diachronic comparison to attest whether the sociolinguistic principle mentioned above applies. </p>
+                <p>Firstly, lemma and part-of-speech frequencies were calculated by conducting a set of analyses based on Zeta (Schöch et al., 2018), a measure of distinctiveness whose initial formula was developed by Burrows (2002). This type of measures produces a preferred and avoided list of words by one dataset in comparison to another dataset, and they have already been used in gender-based studies with literary corpora (e.g. Rybicki, 2016; Weidman and O’Sullivan, 2018).</p>
+            </div>
+            <div type="div1">
+                <head>Findings and Discussion</head>
+                <p>The comparison of the novels written between 1840 and 1859 with those written from 1900 to 1919 reveal that honorifics are a crucial period marker with 
+                    <hi rend="italic">vos</hi> being the most distinct word of the first period and 
+                    <hi rend="italic">usted</hi> of the later (both forms designate the receiver in a communicative act). Considering these results, I calculated the specificity index (Lafon, 1984) of the conservative form 
+                    <hi rend="italic">vos</hi> and the innovative form 
+                    <hi rend="italic">usted</hi> in the different subcorpora divided by genre and period. The innovative form 
+                    <hi rend="italic">usted</hi> is specific in the first two decades to female writing while 
+                    <hi rend="italic">vos</hi> is underrepresented. These findings can be used to explore the linguistic change related to these honorifics, since we can argue that the analysed corpus reflects the expected behaviour: women authors favoured the innovative form earlier than men which suggests that the generalisation of 
+                    <hi rend="italic">usted</hi> had already covert prestige before the second half of the 19th century (this means that even if 
+                    <hi rend="italic">usted</hi> was a nonstandard form in certain registers, its replacement of 
+                    <hi rend="italic">vos</hi> was highly valued). The diachronic study carried out by Blayer (2001) addressing honorifics, based on theatre plays, reports the progressive decline of 
+                    <hi rend="italic">vos</hi> in the 19th century which is consistent with the findings of the current study. However, her analysis makes no reference to the gender of either the playwright or the plays’ characters.
+                </p>
+                <p>In addition, the results derived from a gender-based stylometric analysis using Zeta measures can be put in relation with corpus linguistics studies carried out in other languages. There are many similarities between the distinctive semantic fields for women authors found in this Spanish novel corpus with those teased out in the study of English novels (1840s–1990s) by Weidman and O’Sullivan (2018). </p>
+                <p>Concerning the use of epistemic adverbs, a relation can also be established between the results obtained in this study and those in Pennebaker (2011): he reports the use of what he calls “certainty words” (like always or absolutely) as a female stylistic trait in English; similarly, 
+                    <hi rend="italic">jamás</hi> (‘never’) and 
+                    <hi rend="italic">siempre</hi> (‘always’) are overrepresented in the female author corpus of Spanish novels.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Future work</head>
+                <p>In order to carry out a comprehensive sociolinguistic analysis of the use of 
+                    <hi rend="italic">vos/usted</hi>, I would need to establish socio-pragmatic categories (who talks to whom) as in Blayer (2001). However, Blayer (2001) does not differentiate whether the speaker is a man or a woman, thus it is not possible to trace from her results whether authors were implementing a gender-based linguistic characterisation of the speakers. The specific analysis of character language by gender also needs to be addressed in the studied novel corpus.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BERM_DEZ_SABEL_Helena_Exploring_genderlect_markers_in_a_corp.xml_ftn1"> The analysed corpus corresponds to the Spanish section of the 
+                        <hi rend="italic">European Literary Text Collection</hi> (ELTeC-spa, https://distantreading.github.io/ELTeC/spa/index.html) excluding American authors.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Blayer, I. M. F.</author>
+                        
+                        (2001). (1) Las formas de tratamiento en el español peninsular: un estudio diacrónico. 
+                        <hi rend="italic">Signum: Estudos da Linguagem</hi>
+                        , 
+                        4
+                        (1), pp. 27–58. 
+                        DOI: 
+                        10.5433/2237-4876.2001v4n1p27.
+                    </bibl>
+                    <bibl>
+                        <author>Burrows, J.</author>
+                        
+                        (2002). ‘Delta’: A Measure of Stylistic Difference and a Guide to Likely Authorship. 
+                        <hi rend="italic">Literary and Linguistic Computing</hi>
+                        , 
+                        17
+                        (3), pp. 267–87. 
+                        DOI: 
+                        10.1093/llc/17.3.267.
+                    </bibl>
+                    <bibl>
+                        <author>Cheshire, J.</author>
+                        
+                        (1997). Linguistic Variation and Social Function. In Coupland, N. and Jaworski, A. (eds), 
+                        <hi rend="italic">Sociolinguistics: A Reader</hi>
+                        . Modern Linguistics Series. London: Macmillan Education UK, pp. 185–98. 
+                        DOI: 
+                        10.1007/978-1-349-25582-5_16.
+                    </bibl>
+                    <bibl>
+                        <author>Costello, B.</author>
+                        
+                        (1980). The “Feminine” Language of Marianne Moore. In McConnell-Ginet, S.Borker, R.and Furman, N. (eds), 
+                        <hi rend="italic">Women and Language in Literature and Society</hi>
+                        . New York: Praeger, pp. 239–57.
+                    </bibl>
+                    <bibl>
+                        <author>Eakins, B. W. and Eakins, R. G.</author>
+                        
+                        (1978). 
+                        <hi rend="italic">Sex Differences in Human Communication</hi>
+                        . Houghton Mifflin.
+                    </bibl>
+                    <bibl>
+                        <author>Eckert, P.</author>
+                        
+                        (1989). The Whole Woman: Sex and Gender Differences in Variation. 
+                        <hi rend="italic">Language Variation and Change</hi>
+                        , 
+                        1
+                        (3), pp. 245–67. 
+                        DOI: 
+                        10.1017/S095439450000017X.
+                    </bibl>
+                    <bibl>
+                        <author>Hamdan, S.</author>
+                        
+                        (2011). Identifying the Linguistic Genderlects of the Style of Writing of Arab Male and Female Novelists. 
+                        <hi rend="italic">Journal of Education Culture and Society</hi>
+                        , 
+                        2011
+                        (2), pp. 55–63. 
+                        DOI: 
+                        10.15503/jecs20112-55-63.
+                    </bibl>
+                    <bibl>
+                        <author>Hobbs, D. R.</author>
+                        
+                        (1990). 
+                        <hi rend="italic">Gender-Based Strategies in Issuing Directives in Mexican Spanish</hi>
+                        . [Doctoral Thesis Thesis]. Austin, Texas: University of Texas at Austin.
+                    </bibl>
+                    <bibl>
+                        <author>Kamuf, P.</author>
+                        
+                        (1980). Writing like a Woman. In McConnell-Ginet, S.Borker, R.and Furman, N. (eds), 
+                        <hi rend="italic">Women and Language in Literature and Society</hi>
+                        . New York: Praeger, pp. 284–99.
+                    </bibl>
+                    <bibl>
+                        <author>Labov, W.</author>
+                        
+                        (1990). The Intersection of Sex and Social Class in the Course of Linguistic Change. 
+                        <hi rend="italic">Language Variation and Change</hi>
+                        , 
+                        2
+                        (2), pp. 205–54. 
+                        DOI: 
+                        10.1017/S0954394500000338.
+                    </bibl>
+                    <bibl>
+                        <author>Lafon, P.</author>
+                        
+                        (1984). 
+                        <hi rend="italic">Dépouillements et statistiques en lexicométrie</hi>
+                        . Genève, Paris: Slatkine.
+                    </bibl>
+                    <bibl>
+                        <author>Miller, N. K.</author>
+                        
+                        (1988). Women’s Autobiography in France: For a Dialectics of Identification. In Brodzki, B.Schenck, C.and Furman, N. (eds), 
+                        <hi rend="italic">Life/Lines: Theorizing Women’s Autobiography</hi>
+                        . Ithaca: Cornell University Press, pp. 45–61.
+                    </bibl>
+                    <bibl>
+                        <author>Pennebaker, J. W.</author>
+                        
+                        (2011). 
+                        <hi rend="italic">The Secret Life of Pronouns: What Our Words Say About Us</hi>
+                        . Bloomsbury USA.
+                    </bibl>
+                    <bibl>
+                        <author>Rybicki, J.</author>
+                        
+                        (2016). Vive La Différence: Tracing the (Authorial) Gender Signal by Multivariate Analysis of Word Frequencies. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        31
+                        (4), pp. 746–61. 
+                        DOI: 
+                        10.1093/llc/fqv023.
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, C. et al.</author>
+                        
+                        (2018). Burrows’ Zeta: Exploring and Evaluating Variants and Parameters. In 
+                        <hi rend="italic">DH 2018</hi>
+                        . <ref target="https://dh2018.adho.org/burrows-zeta-exploring-and-evaluating-variants-and-parameters/">https://dh2018.adho.org/burrows-zeta-exploring-and-evaluating-variants-and-parameters/</ref>
+                        [12/11/2022]
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Weidman, S. G. and O’Sullivan, J.</author>
+                        
+                        (2018). The Limits of Distinctive Words: Re-Evaluating Literature’s Gender Marker Debate. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        33
+                        (2), pp. 374–90. 
+                        DOI: 
+                        10.1093/llc/fqx017.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

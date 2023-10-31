@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Transhistorical Resonance: Medieval Chinese Scholarship as Data</title>
+                <author n="BudakNicholasAndrewBUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml"><persName ref="https://orcid.org/0000-0002-4542-0899" n="BudakNicholasAndrew">
+                        <surname>Budak</surname>
+                        <forename>Nicholas Andrew</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>budak@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RomingerGianDuriBUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml"><persName ref="https://orcid.org/0000-0002-0952-2783" n="RomingerGianDuri">
+                        <surname>Rominger</surname>
+                        <forename>Gian Duri</forename>
+                    </persName><affiliation>Princeton University, United States of America</affiliation><email>gianr@princeton.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Can we use NLP to extract information about long-dead languages from secondary sources more than a millennium old? This presentation explores the curation of a dataset based on the Jingdian Shiwen (c. 583), a monumental commentary including over 50,000 phonological annotations on ancient Chinese texts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>chinese</term>
+                    <term>nlp</term>
+                    <term>phonology</term>
+                    <term>ancient</term>
+                    <term>commentary</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Asian studies</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>One of the core issues for building Natural Language Processing (NLP) models for
+                historical languages remains the lack of annotated datasets — often despite the long
+                scholastic and exegetical traditions for these languages and their associated texts.
+                    <ref target="#BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn1" n="1"/> Specifically, annotating sufficient data can be a labor-intensive and
+                error-prone process for researchers and students. Historical secondary sources offer
+                an intriguing source of semi-structured data in the form of commentaries,
+                dictionaries, and other collaborative scholarly work. This presentation focuses
+                specifically on medieval Chinese annotation work for Old Chinese, a language that
+                lost its last native speakers millennia ago. </p>
+            <p>Our project , a collaboration between a software
+                    engineer and a philologist, is a continuation of the work of Lu Deming (d.
+                630), author of the <hi rend="italic">Jingdian Shiwen </hi>(c.
+                583), an exegetical work that provides phonological and semantic annotations on the
+                ancient classics. <ref target="#BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn2" n="2"/> Providing some 55,000 annotations-in-context across a selection of 16 ancient classics, the<hi rend="italic">Jingdian Shiwen</hi>exemplifies Lu's meticulous style of commentary. While
+                    the<hi rend="italic">Jingdian Shiwen</hi>provides the invaluable context words that dictionaries lack, it keeps its length manageable by excerpting only a few characters around the annotation target, which can be interpreted as a very early form of textual compression. </p>
+            <p>As the<hi rend="italic">Jingdian Shiwen</hi>incorporates material from 230 different sources of
+                    previous commentaries from the Han, Wei-Jin, and Six Dynasties periods (from
+                    1<hi rend="superscript">st</hi>century to 6<hi rend="superscript">th</hi>century CE),<ref target="#BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn3" n="3"/>it further provides insights into the scholastic
+                    background available to and epistemological assumptions of a medieval annotator.
+                    This includes Lu Deming's focus on the canon of traditional learning, which
+                    features classical works stemming largely from the pre-imperial and early Han
+                    periods (before 1<hi rend="superscript">st</hi>century BCE). This source material ranges from the<hi rend="italic">Classic of Poetry</hi> (<hi rend="italic">Shijing</hi>) and historical chronicles (the<hi rend="italic">Chunqiu</hi>with its commentaries) to dictionary entries (the<hi rend="italic">Erya</hi>).</p>
+            <p>Lu's annotations focus on the correct reading for a
+                    given Chinese character, often including commentary on its meaning and
+                    appearance in other works. The meticulous, highly-structured annotation text is
+                    particularly well-suited to parsing using modern NLP methods. For this purpose,
+                    we assemble an NLP pipeline that can parse, segment, and label the various
+                    phonological, semantic, and paratextual components within each annotation. We
+                    utilize a novel combination of deterministic methods for segmenting the text
+                    based on “marker characters” followed by carefully-applied machine learning
+                    models to label spans and relationships within each annotation. The output is a
+                    dataset of glosses and pronunciations in context as well as a network of
+                    citations and references situated in the academic landscape of early medieval
+                    China.</p>
+            <p>Curating a dataset of attested pronunciations with
+                    context is particularly important to address a major hurdle for Chinese NLP:
+                    characters that signify different words depending on context (Liu, Lu, and
+                    Neubig 2017). This issue is more difficult for premodern Chinese, and especially
+                    for texts from before the stabilization of orthography, when multiple different
+                    characters could be used to write the same word.<ref target="#BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn4" n="4"/> All of the texts Lu annotated fall into this category, and active debates remain about meaning and pronunciation across the corpus.</p>
+            <p>By curating and publishing an open dataset derived from
+                    the<hi rend="italic">Jingdian Shiwen</hi>, along with the code and models used to generate it,
+                    we invite collaboration from digital humanists and philologists alike. Our data
+                    is published in the JSON-lines format to ensure it is simple to consume for
+                    downstream applications that might add even more richness to the data, e.g. by
+                    transforming it into a fully-annotated TEI corpus. Our approach further
+                    highlights the debates around how the ancient classics were read, spoken, and
+                    experienced, as well as the tensions inherent in the annotation process itself,
+                    especially for texts that allow for a plurality of readings.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn1">
+                     For problems of under-resourced languages and the overt focus on English in
+                        Digital Humanities more broadly, compare Dombrowski, and Burns forthcoming.
+                        At the same time, for possibilities of domain-specific NLP models, compare
+                        Bamman forthcoming.
+                </note><note n="2" xml:id="BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn2">
+                     See, for example, Lu 2013. We use the digitized version from the Kanseki
+                        Repository, available at Wittern 2015. Note that this material is available
+                        under a CC-BY-SA license. For an analysis of the phonological material
+                        presented in the <hi rend="italic">Jingdian Shiwen</hi>, see, for example,
+                        Luo 2012; or Yue 2017. 
+                </note><note n="3" xml:id="BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn3">
+                     For a larger summary of the historical context of the <hi rend="italic">Jingdian Shiwen</hi>, see Mair 1986, 168; and Honey 2021, 215-221. 
+                </note><note n="4" xml:id="BUDAK_Nicholas_Andrew_Transhistorical_Resonance__Medieval_Ch.xml_ftn4">
+                     For overviews of the development of the Chinese writing system in antiquity,
+                        see Qiu, Mattos, and Norman 2000; Boltz 2003; and Galambos 2006.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Bamman, David.</author> Forthcoming. “LitBank: Born-Literary
+                        Natural Language Processing.”Iin <hi rend="italic">Computational
+                            Humanities</hi>, ed. Jessica Marie Johnson, David Mimno, and Lauren
+                        Tilton. Minneapolis: University of Minnesota Press. </bibl>
+                    <bibl><author>Boltz, William G. </author>2003.
+                        <hi rend="italic">The Origin and the Development of the Chinese Writing System. </hi>New
+                        Haven: American Oriental Society. </bibl>
+                    <bibl><author>Dombrowski, Quinn, and Patrick Burns</author>. Forthcoming.
+                        "Language is not a Default Setting: Countering Digital Humanities’ English
+                        Problem." In <hi rend="italic">Debates in the Digital Humanities 2022</hi>,
+                        ed. Matthew Gold and Lauren Klein. Minneapolis: University of Minnesota
+                        Press. </bibl>
+                    <bibl><author>Galambos, Imre.</author> 2006. <hi rend="italic">Orthography
+                            of Early Chinese Writing: Evidence from Newly Excavated
+                        Manuscripts</hi>. Budapest: Department of East Asian Studies, Eötvös Loránd
+                        University. </bibl>
+                    <bibl><author>Honey, David B.</author> 2021. <hi rend="italic">A History of
+                            Chinese Classical Scholarship, Volume III: Northern and Southern
+                            Dynasties, Sui, and Early Tang: The Decline of Factual Philology and the
+                            Rise of Speculative Hermeneutics</hi>. Washington: Academica Press. </bibl>
+                    <bibl><author>Liu, Frederick, Han Lu, and Graham Neubig</author>. 2017.
+                        "Handling Homographs in Neural Machine Translation," <hi rend="italic">arXiv</hi> (preprint)
+                        <hi rend="italic">, </hi>arXiv:1708.06510. </bibl>
+                    <bibl><author>Lu, Deming </author><hi rend="SimSun">陸德明</hi>. 2013. <hi rend="italic">Jingdian Shiwen</hi>
+                        <hi rend="SimSun">經典釋文</hi>. Shanghai:
+                        Shanghai guji chubanshe <hi rend="SimSun">上海古籍出版社</hi>. </bibl>
+                    <bibl><author>Luo, Changpei </author><hi rend="SimSun">羅常培</hi>. 2012. <hi rend="italic">Jingdian Shiwen yinqie
+                            kao</hi>
+                        <hi rend="SimSun">經典釋文音切考</hi>. Beijing:
+                        Zhonghua shuju <hi rend="SimSun">中華書局</hi>. </bibl>
+                    <bibl><author>Mair, Victor H. </author>1986. " <hi rend="italic">Tzu-shu</hi>
+                        <hi rend="SimSun">字書</hi> or <hi rend="italic">tzu-tien</hi>
+                        <hi rend="SimSun">字典</hi> (dictionaries)." In
+                            <hi rend="italic">The Indiana Companion to Traditional Chinese
+                            Literature (Volume 2)</hi>, ed. William H. Nienhauser, Jr., Charles
+                        Hartman, and Scott W. Galer, 165-171. Bloomington, Ind.: Indiana University
+                        Press. </bibl>
+                    <bibl><author>Qiu, Xigui, Gilbert Louis Mattos, and Jerry Norman.</author>
+                        2000. <hi rend="italic">Chinese Writing. </hi>Berkeley:
+                        Society for the Study of Early China. </bibl>
+                    <bibl><author>Wittern, Christian.</author> 2015.  “KR1g0003: <hi rend="SimSun">經典釋文</hi> / SBCK.” <hi rend="italic">GitHub</hi>. Last modified August 22, 2022. <ref target="https://github.com/kanripo/KR1g0003">https://github.com/kanripo/KR1g0003</ref>. </bibl>
+                    <bibl>
+                        <author>Yue, Limin </author><hi rend="SimSun">岳利民</hi>. 2017. <hi rend="italic">‘Jingdian Shiwen’ yinqie
+                            de yinyi pipei yanjiu</hi>
+                        <hi rend="SimSun">《經典釋文》音切的音義匹配研究</hi>.
+                        Chengdu: Ba Shu shushe <hi rend="SimSun">巴蜀書社</hi>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

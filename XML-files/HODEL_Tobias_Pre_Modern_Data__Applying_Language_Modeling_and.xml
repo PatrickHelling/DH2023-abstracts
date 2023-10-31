@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pre-Modern Data: Applying Language Modeling and Named Entity Recognition on
+                    Criminal Records in the City of Bern </title>
+                <author n="HodelTobiasHODEL_Tobias_Pre_Modern_Data__Applying_Language_Modeling_and.xml"><persName ref="https://orcid.org/0000-0002-2071-6407" n="HodelTobias">
+                        <surname>Hodel</surname>
+                        <forename>Tobias</forename>
+                    </persName><affiliation>University of Bern, Switzerland</affiliation><email>tobias.hodel@unibe.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PradaZieglerIsmailHODEL_Tobias_Pre_Modern_Data__Applying_Language_Modeling_and.xml"><persName ref="https://orcid.org/0000-0003-4229-8688" n="PradaZieglerIsmail">
+                        <surname>Prada Ziegler</surname>
+                        <forename>Ismail</forename>
+                    </persName><affiliation>University of Bern, Switzerland; University of Basel,
+                        Switzerland</affiliation><email>ismail.prada@unibe.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchneiderChristaHODEL_Tobias_Pre_Modern_Data__Applying_Language_Modeling_and.xml"><persName ref="https://orcid.org/0000-0001-9741-0601" n="SchneiderChrista">
+                        <surname>Schneider</surname>
+                        <forename>Christa</forename>
+                    </persName><affiliation>University of Bern, Switzerland; Paris Lodron Universität Salzburg,
+                        Austria</affiliation><email>christa.schneider@unibe.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>How can NLP technologies be applied and measured on pre-modern documents? Based on a large handwritten dataset from the tower of Bern, we tested available language models and taggers, showcasing that specific forms of representation and identification need to be found. Relying on cooperation to further improve information retrieval.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Text Recognition</term>
+                    <term>Named Entity Recognition</term>
+                    <term>Language Model</term>
+                    <term>Pre-Modern Documents</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The end of the Middle Ages and the beginning of Early
+                Modern times see an up-swing in the production and use of administrative documents
+                in most parts of Europe. One typical example of frequently produced documents is
+                trial records. In the Early Modern time, some criminals were brought for trial to
+                the Tower of Bern (part of today’s Switzerland), and a multitude of protocols for
+                these trials was collected in the so-called tower books. </p>
+            <p>Even though these protocols are today available to the
+                public, systematic research from a historical, linguistic, or jurisprudential
+                perspective is still missing. Reasons for the absence of research may be due to the
+                size of the corpus (approx. 300'000 pages, State Archive of Bern: B IX 423 - B XI
+                587) and certainly also because of the type of handwriting used in the documents - a
+                form of German Kurrent - that cannot be described as very regular due to the
+                circumstances of the writing process (often as part of an ongoing interrogation, in
+                a tower, sometimes at night or in winter). Furthermore, the documents are not
+                legible for modern readers. </p>
+            <p>From a scholarly point of view, the documents are of high
+                interest from different perspectives, which makes the lack of research even more
+                regrettable. There is only very little research on early forms of the written
+                language (pre-standard) in Switzerland (Haas 2000: 109-138). Since these records
+                also contain the usage of words originating in Alemannic dialects, we understand the
+                collection of crucial to be able to understand parts of the language history in
+                early modern Switzerland. Besides the linguistic issues, the collection also allows
+                to address historical questions, covering specific cases such as witchcraft,
+                persecution of homosexuals, etc., but also broader questions, like the geographic
+                origin of the delinquents and their social background and circumstances or reasons
+                for such prosecutions and its consequences to name but a few (Schwerhoff 2011). </p>
+            <p>In a first step, we applied Handwritten Text Recognition,
+                utilizing large models that were built on several thousands of pages of similarly
+                written documents (available on Transkribus:
+                https://readcoop.eu/model/german-kurrent-16th-18th/, for the application of general
+                models, see also (Hodel et al. 2021)). Parts of
+                the automatically transcribed texts were corrected and tagged for named entities.
+                Only through the combination of other (openly available, (Binz-Wohlhauser / Dorthe 2022) ) material and
+                in-house produced data from similar sources (minutes from Engelberg), a language
+                model could be built that supported the training of a NER tagger (language model and
+                tagger were built using the FLAIR framework (Akbik et
+                    al. 2019) ). </p>
+            <table xml:id="d132e193">
+                <head>Table 1. Results on the NER task, based on different types of data augmentation.</head>
+                <row>
+                    <cell/>
+                    <cell>
+                        Pre-cision
+                    </cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell>Recall</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                    <cell>F1</cell>
+                    <cell/>
+                    <cell/>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>Model</cell>
+                    <cell>
+                        Micro-Avg
+                    </cell>
+                    <cell>PER</cell>
+                    <cell>LOC</cell>
+                    <cell>ORG</cell>
+                    <cell>
+                        Micro-Avg
+                    </cell>
+                    <cell>PER</cell>
+                    <cell>LOC</cell>
+                    <cell>ORG</cell>
+                    <cell>
+                        Micro-Avg
+                    </cell>
+                    <cell>PER</cell>
+                    <cell>LOC</cell>
+                    <cell>ORG</cell>
+                </row>
+                <row>
+                    <cell>
+                        Only sentences
+                    </cell>
+                    <cell>80.07%</cell>
+                    <cell>79.69%</cell>
+                    <cell>90.41%</cell>
+                    <cell>24.59%</cell>
+                    <cell>83.50%</cell>
+                    <cell>87.29%</cell>
+                    <cell>83.83%</cell>
+                    <cell>39.47%</cell>
+                    <cell>81.75%</cell>
+                    <cell>83.31%</cell>
+                    <cell>86.99%</cell>
+                    <cell>30.30%</cell>
+                </row>
+                <row>
+                    <cell>
+                        Augmenta-tion method 1
+                    </cell>
+                    <cell>81.21%</cell>
+                    <cell>82.46%</cell>
+                    <cell>88.51%</cell>
+                    <cell>28.81%</cell>
+                    <cell>83.99%</cell>
+                    <cell>88.51%</cell>
+                    <cell>83.02%</cell>
+                    <cell>44.74%</cell>
+                    <cell>82.57%</cell>
+                    <cell>85.38%</cell>
+                    <cell>85.67%</cell>
+                    <cell>35.05%</cell>
+                </row>
+                <row>
+                    <cell>
+                        Augmenta-tion method 2 
+                    </cell>
+                    <cell>81.29%</cell>
+                    <cell>82.11%</cell>
+                    <cell>89.97%</cell>
+                    <cell>25.42%</cell>
+                    <cell>82.89%</cell>
+                    <cell>87.53%</cell>
+                    <cell>82.21%</cell>
+                    <cell>39.47%</cell>
+                    <cell>82.08%</cell>
+                    <cell>84.73%</cell>
+                    <cell>85.92%</cell>
+                    <cell>30.93%</cell>
+                </row>
+                <row>
+                    <cell>
+                        Augmenta-tion method 3
+                    </cell>
+                    <cell>80.02%</cell>
+                    <cell>79.96%</cell>
+                    <cell>88.95%</cell>
+                    <cell>31.75%</cell>
+                    <cell>83.74%</cell>
+                    <cell>87.78%</cell>
+                    <cell>82.48%</cell>
+                    <cell>52.63%</cell>
+                    <cell>81.84%</cell>
+                    <cell>83.68%</cell>
+                    <cell>85.59%</cell>
+                    <cell>39.60%</cell>
+                </row>
+                <row>
+                    <cell>
+                        Augmenta-tion method 4
+                    </cell>
+                    <cell>80.51%</cell>
+                    <cell>82.48%</cell>
+                    <cell>87.10%</cell>
+                    <cell>30.65%</cell>
+                    <cell>81.78%</cell>
+                    <cell>86.31%</cell>
+                    <cell>80.05%</cell>
+                    <cell>50.00%</cell>
+                    <cell>81.14%</cell>
+                    <cell>84.35%</cell>
+                    <cell>83.43%</cell>
+                    <cell>38.00%</cell>
+                </row>
+            </table>
+            
+            <p>The success of the tagger has not only been measured on a
+                test set derived from the material, but also on uncorrected automatic transcription,
+                recognized by the HTR. On corrected text we get state-of-the art results compared to
+                similar datasets (Chastang / Aguilar / Tannier 2021;
+                    Torres Aguilar / Stutzmann 2021) with a F1-score of 0.8257 on the three
+                categories “PERSON”, “PLACE”, “ORGANISATION”. Since different forms of embeddings
+                (fasttext, BERT, and from scratch language models) were tested, using different
+                parameters (hidden size of embeddings, combination of input for language models
+                etc.), we can report about strategies to build domain as well as time specific
+                taggers. </p>
+            <p>Generally speaking, it is possible to apply NLP
+                methodologies based on deep learning to pre-modern documents (for French, as an
+                example, see (Gabay et al. 2022; Cafiero et al.
+                    2021) ). Similar to larger datasets containing modern languages, the hidden
+                size of the neural network improves the results, be it only slightly. But the need
+                to have large datasets for training of specific language models available remains.
+                Only little attention has been brought so far to pre-modern documents, which in
+                consequence led to a lack of available language models. </p>
+            <p>As the first results, from a linguistic as well as a
+                historical perspective, we can assume that there was an “office language” in use
+                that was intermingled with interferences of the historic Bernese Swiss German
+                dialect. Furthermore, person and place names in the documents hint at lower classes
+                that mainly were on trial, but with a sizable spatial background (especially from
+                the North, Southern Germany and the Alsace), demonstrating the movements of esp.
+                lower class people.</p>
+            <p>At this stage in particular, NLP for pre-modern documents
+                still needs to be described as in its infancy and with a rather specialized data
+                set, not building on any previous language models or taggers, we needed to rely on
+                open research data that allowed for the enlargement of available training,
+                validation, and test material. </p>
+            <p><lb/>The result of this paper is not only the experiences gained, but also another
+                openly available dataset (partly tagged, currently in publication) and a published
+                tagger (Prada 2022). By making aware of our results that clearly demonstrate that
+                larger datasets result in more precise models, we hope to further push other
+                projects and institutions to publish their available data of pre-modern documents or
+                even proper language models. Only through collaboration and communication of
+                available data can improvements be made in the long run. At the same time, we strive
+                for more communication about the re-usage of data sets to push from that perspective
+                for the explainability of language models. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Akbik, Alan</author> / <author>Bergmann, Tanja</author> / <author>Blythe, Duncan</author> / <author>Rasul, Kashif</author> / <author>Schweter, Stefan</author> / <author>Vollgraf, Roland</author> (2019). «FLAIR: An
+                        Easy-to-Use Framework for State-of-the-Art NLP». In <hi rend="italic">Proceedings of the 2019 Conference of the North American Chapter of the
+                            Association for Computational Linguistics (Demonstrations)</hi>, 54–59.
+                        Minneapolis, Minnesota: Association for Computational Linguistics.
+                        https://doi.org/10.18653/v1/N19-4010. </bibl>
+                    <bibl><author>Binz-Wohlhauser, Rita</author> / <author>Dorthe, Lionel</author> (2022). <hi rend="italic">Freiburger Hexenprozesse 15.–18. Jahrhundert. Die
+                            Rechtsquellen des Kantons Freiburg. Erster Teil: Stadtrechte. Zweite
+                            Reihe: Das Recht der Stadt Freiburg.</hi> Bd. 1. Teilband. Sammlung
+                        Schweizerischer Rechtsquellen. Basel: Schwabe. SSRQ FR I/2/8. </bibl>
+                    <bibl><author>Cafiero, Florian</author> / <author>Clérice, Thibault</author> / <author>Fièvre, Paul</author> / <author>Gabay, Simon</author> / <author>Camps, Jean-Baptiste</author> (2021). «Corpus and Models for
+                        Lemmatisation and POS-tagging of Classical French Theatre». <hi rend="italic">Journal of Data Mining &amp; Digital Humanities</hi> 2021
+                        (Februar). https://doi.org/10.46298/jdmdh.6485. </bibl>
+                    <bibl><author>Chastang, Pierre</author> / <author>Torres Aguilar, Sergio</author> / <author>Tannier, Xavier</author> (2021). «A Named Entity Recognition Model for Medieval Latin
+                        Charters». <hi rend="italic">Digital Humanities Quarterly</hi> 15 (4).
+                        http://www.digitalhumanities.org/dhq/vol/15/4/000574/000574.html. </bibl>
+                    <bibl><author>Gabay, Simon</author> / <author>Ortiz Suarez, Pedro</author> / <author>Bartz, Alexandre</author> / <author>Chagué, Alix</author> / <author>Bawden, Rachel</author> / <author>Gambette, Philippe</author> / <author>Sagot, Benoît</author> (2022). «From FreEM to D’AlemBERT». In <hi rend="italic">13th Language
+                            Resources and Evaluation Conference - LREC 2022</hi>, European Language
+                        Resources Association, Jun 2022, Marseille, France. pp.3367-3374. <ref target="https://hal.inria.fr/hal-03596653">https://hal.inria.fr/hal-03596653</ref>
+                        <ref target="https://www.zotero.org/google-docs/?cMCE0W">.</ref>
+                    </bibl>
+                    <bibl><author>Haas, Walter </author>(2000). «Kurze Geschichte der deutschen
+                        Schriftsprache in der Schweiz». In: Bickel, Hans and Schläpfer, Robert
+                        (ed.): Die viersprachige Schweiz. Aarau, Frankfurt am Main, Salzburg,
+                        Sauerländer: 109-138.</bibl>
+                    <bibl><author>Hodel, Tobias</author> / <author>Schoch, David</author> / <author>Schneider, Christa</author> / <author>Purcell, Jake</author> (2021). «General Models for Handwritten Text
+                        Recognition: Feasibility and State-of-the Art. German Kurrent as an
+                        Example». <hi rend="italic">Journal of Open Humanities Data</hi>, Journal of
+                        Open Humanities Data, 7. https://doi.org/10.5334/johd.46. </bibl>
+                    <bibl><author>Prada, Ismail </author>(2022). «dh-unibe/turmbuecher-ner-v1».
+                        Huggingface. https://huggingface.co/dh-unibe/turmbuecher-ner-v1.</bibl>
+                    <bibl><author>Schwerhoff, Gerd </author>(2011). <hi rend="italic">Historische Kriminalitätsforschung</hi>. 1. Aufl. Frankfurt am Main:
+                        Campus Verlag. </bibl>
+                    <bibl><author>Torres Aguilar, Sergio</author> / <author>Stutzmann, Dominique</author>  (2021).
+                        «Named Entity Recognition for French medieval charters». In <hi rend="italic">Workshop on Natural Language Processing for Digital
+                            Humanities</hi>. Workshop on Natural Language Processing for Digital
+                        Humanities Proceedings of the Workshop. Helsinki, Finland.
+                        https://hal.archives-ouvertes.fr/hal-03503055. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

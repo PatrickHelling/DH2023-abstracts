@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Implicit Gender Inequality in Children’s Picture Books: Evidence from a Text
+                    Mining Analysis of 200 Bestselling Chinese and British Titles</title>
+                <author n="LiYiLI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml"><persName ref="https://orcid.org/0000-0001-7363-4387" n="LiYi">
+                        <surname>Li</surname>
+                        <forename>Yi</forename>
+                    </persName><affiliation>School of Literatures, Languages and Cultures, University of
+                        Edinburgh, United Kingdom</affiliation><email>s2127837@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TerrasMelissaLI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml"><persName ref="https://orcid.org/0000-0001-6496-3197" n="TerrasMelissa">
+                        <surname>Terras</surname>
+                        <forename>Melissa</forename>
+                    </persName><affiliation>College of Arts, Humanities and Social Sciences, University of
+                        Edinburgh, United Kingdom</affiliation><email>m.terras@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LiYongningLI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml"><persName ref="https://orcid.org/0000-0002-4964-2464" n="LiYongning">
+                        <surname>Li</surname>
+                        <forename>Yongning</forename>
+                    </persName><affiliation>School of Systems Science, Beijing Normal University</affiliation><email>lee9512@163.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper compares the gender narratives in children’s picture books in the UK and China, with the full text of a pipeline of 200 bestselling picture books from 2010 to 2020. We applied Term Frequency and Sentiment Analysis, to examine the invisible gender stereotypes in 200 picture book texts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Gender Equality</term>
+                    <term>Children's Picture Books</term>
+                    <term>Term Frequency</term>
+                    <term>Sentiment Analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Gender and sexuality studies</term>
+                    <term>Media studies</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Background</head>
+                <p>As the primary resource for preschool children, picture books, and their gender
+                    narratives, can unconsciously shape and change children’s perceptions of sex
+                    roles and gender identity (Bleakley et al., 1988; Connor &amp; Serbin, 1978;
+                    Latima, 2020). However, existing studies show concerning trends in the
+                    representation of gender inequality in modern picture books, such as the
+                    overwhelming number of male main characters and traditional gender stereotypes
+                    of vocations, personalities and habits (Casey et al., 2021; Hamilton et al.,
+                    2006; Lee &amp; Chin, 2019; Terras, 2018). It is therefore important for
+                    children’s picture books to have diverse gender descriptions and improved equal
+                    gender representations. </p>
+                <p>Since the second Feminist Movement in the 1960s, gender equality in UK children’s
+                    picture books have been continuously examined yet slowly improved (Adams et al.,
+                    2011; Allen et al., 1993; Capuzza, 2020; Hamilton et al., 2006). Similar studies
+                    have been far less common in China, as the Chinese picture book market only
+                    developed from the start of the 21 <hi rend="superscript">st</hi> Century (Xiao,
+                    2021). One study has shown the existence of the traditional gender biases in
+                    Chinese picture books (Liu &amp; Chen, 2018). Based on the research gap between
+                    these two countries, this study will (1) investigate gender representations and
+                    narratives in picture books, (2) compare the similarities and differences
+                    between bestselling British and Chinese picture books texts from 2010 to 2020.
+                    We do so by applying text mining techniques to analyse gender narratives within
+                    picture book texts themselves. This follows on from our 2022 study where we
+                    analysed publisher’s descriptions of texts, rather than full text mining of the
+                    book’s content (Li et al., 2022). </p>
+            </div>
+            <div>
+                <head>Method</head>
+                <div>
+                    <head>Data Corpus</head>
+                    <p>We collected lists of bestselling books from <hi rend="italic">The
+                            Bookseller</hi> and <hi rend="italic">The Publisher</hi>: publishing
+                        trade magazines in the UK and China. We ascertained the best-selling 10
+                        British and Chinese titles in 2010- 2020, to compile a 200-title booklist.
+                        We then procured a physical copy of all titles, and manually transcribed
+                        machine processable text of all title content to enable text analysis. Our
+                        resulting corpora contain 310,000 Chinese characters and 80,000 English
+                        words. All data and texts in this process were only used for analysis and
+                        research, complying with the text and data mining copyright exceptions
+                        (Kelly, 2016). </p>
+                    <table xml:id="d189e219">
+                        <head><hi rend="italic">Table 1. </hi><hi rend="bold">Table of British and Chinese Bestselling Children’s Book
+                                Data</hi></head>
+                        <row>
+                            <cell>
+                                <hi rend="bold">Data source</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Data description</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Manually Transcribed Data
+                                    Details</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="bold">The Bookseller</hi>
+                            </cell>
+                            <cell>
+                                Weekly top10 children's pre-school or
+                                    picture book list in English from 2011 to 2015. Top 20
+                                    children's pre-school or picture books list in weekly issue
+                                    since 2016
+                            </cell>
+                            <cell>
+                                <p>316,458 Chinese characters <ref target="#LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn1" n="1"/>; </p>
+                                <p>10,598 Chinese words</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="bold">The Publisher (Open Book)/ Dangdang.com</hi>
+                            </cell>
+                            <cell>
+                                Weekly top10 children's pre-school or
+                                    picture book list in Chinese from 2013 to 2015. Monthly top 20
+                                    children's books list since then; No data available on 2010 -
+                                    2012
+                            </cell>
+                            <cell>
+                                <p>79,352 English words</p>
+                            </cell>
+                        </row>
+                    </table>
+                </div>
+                <div>
+                    <head>Full Text Data Analysis</head>
+                    <p>We examined the popularity of gendered words by using established text mining
+                        techniques – including word segmentation and term frequency - in the
+                        transcribed texts of the 200 picture books, comparing gender-related words.
+                        First, we split the Chinese corpus and English corpus into two wordlists
+                        using word segmentation. We did not use a stopwords list as they normally
+                        include pronouns that indicate gender (Rao &amp; Taboada, 2021). In English,
+                        we split sentences by recognising the space between words, while in Chinese
+                        text, we applied Jieba package (precise mode) to split words
+                        (BREEZEGEOGRAPHY, 2018). This generated two wordlists (Chinese and English)
+                        of all unique words with their frequencies, and we ranked the words’
+                        popularity by frequency to produce the top 100 wordlist. Second, we manually
+                        marked gendered words (those which contains gender features) from two
+                        wordlists and manually classified all gender words into four groups (see
+                        Table 2). We finally calculated the number of categories and frequencies of
+                        all masculine and feminine words and presented them as below, as well as the
+                        number of gender words in the top 100 wordlists, to compare how linguistic
+                        narratives indicate gender separately in Chinese and English texts. </p>
+                    <table xml:id="d189e309">
+                        <head><hi rend="italic">Table 2. </hi><hi rend="bold">Gendered Words Classification for Text Mining (both
+                                English and Chinese)</hi></head>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <hi rend="bold">Female</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Male</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="bold">Pronouns</hi>
+                            </cell>
+                            <cell>
+                                She/her/<hi rend="SimSun">她</hi>
+                            </cell>
+                            <cell>
+                                He/his/him/<hi rend="SimSun">他</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="bold">Nouns</hi>
+                            </cell>
+                            <cell>
+                                Mrs/<hi rend="SimSun">女士</hi>, witch/<hi rend="SimSun">女巫</hi>, princess/<hi rend="SimSun">公主</hi>,etc.,
+                            </cell>
+                            <cell>
+                                Mr/<hi rend="SimSun">先生</hi>, Captain/<hi rend="SimSun">队长</hi>, King/<hi rend="SimSun">国王</hi>,etc.,
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="bold">Family identities</hi>
+                            </cell>
+                            <cell>
+                                Mum (<hi rend="SimSun">妈妈</hi>), grandma
+                                        (<hi rend="SimSun">奶奶</hi>/<hi rend="SimSun">姥姥</hi>),
+                                        Aunt(<hi rend="SimSun">阿姨</hi>), etc.,
+                            </cell>
+                            <cell>
+                                Dad (<hi rend="SimSun">爸爸</hi>), grandpa
+                                        (<hi rend="SimSun">爷爷</hi>/<hi rend="SimSun">姥爷</hi>), uncle
+                                        (<hi rend="SimSun">叔叔</hi>), etc.,
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <hi rend="bold">Names (of characters)</hi>
+                            </cell>
+                            <cell>
+                                Peppa, Spinderella, <hi rend="SimSun">卡门</hi>(Carmen), <hi rend="SimSun">歪歪兔</hi>(Wobbly Rabbit)
+                                    , etc.,
+                            </cell>
+                            <cell>
+                                Wally, Alfie, <hi rend="SimSun">嘎嘎</hi>(Gaga), <hi rend="SimSun">约瑟</hi>(Joseph), etc.,
+                            </cell>
+                        </row>
+                    </table>
+                    <p>Note: We classified all gendered words in two corpora into five groups. This
+                        table provides some examples.</p>
+                    <p>Previous studies have tested sentiment analysis to examine the gender biases
+                        in social media, such as film synopsis (Bhaskaran &amp; Bhallamudi, 2019;
+                        Pair et al., 2021; Park &amp; Woo, 2019; Ramadi et al., 2022; Xu et al.,
+                        2019; Zhang et al., 2022). We applied sentiment analysis on our texts to
+                        detect emotional differences in gender narratives. Firstly, we separated the
+                        corpora into a list of individual sentences by grammar, such as full stops,
+                        question marks, exclamation etc., and applied TextBlob <ref target="#LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn2" n="2"/>and Paddlehub <ref target="#LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn3" n="3"/> on each sentence. The two packages are based on machine learning
+                        techniques, providing English and Chinese sentiment analysis. We then
+                        categorised all sentences by gender into four groups - female sentences,
+                        male sentences, mixed gender sentences (including both male and female) and
+                        gender-neutral sentences. A final average and median value of sentences in
+                        each group are presented and compared between two corpora below. </p>
+                </div>
+            </div>
+            <div>
+                <head>Results</head>
+                <p>Figure 1 shows the gender of authors and illustrators of 200 bestselling titles.
+                    The preference for male words in the book texts of the top 200 picture books
+                    exists in both British and Chinese titles (see in Table 3&amp;4). However, the
+                    contrast between gender is sharper in the Chinese corpus than the British.</p>
+                <figure>
+                    <graphic n="1001" width="14.11111111111111cm" height="9.771944444444445cm" url="Pictures/47f97d0c3a70879fdfddcf6f57cb54c9.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 1.</hi><hi rend="bold"> Gender Coded for Authors and Illustrators Top 200 Picture Books</hi></head>
+                </figure>
+                <table xml:id="d189e517">
+                    <head><hi rend="italic">Table 3. </hi><hi rend="bold">Categories and Total Frequency of Gendered Words</hi></head>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rend="bold">China</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">The UK</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Male</cell>
+                        <cell>Female</cell>
+                        <cell>Male</cell>
+                        <cell>Female</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Pronoun</hi>
+                        </cell>
+                        <cell>3 <ref target="#LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn4" n="4"/>/1,195 </cell>
+                        <cell>1/241</cell>
+                        <cell>3/1,404</cell>
+                        <cell>3/1,370</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Identity</hi>
+                        </cell>
+                        <cell>24/465</cell>
+                        <cell>25/627</cell>
+                        <cell>7/167</cell>
+                        <cell>11/222</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Nouns</hi>
+                        </cell>
+                        <cell>43/303</cell>
+                        <cell>31/93</cell>
+                        <cell>24/382</cell>
+                        <cell>14/438</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Names</hi>
+                        </cell>
+                        <cell>151/1,894</cell>
+                        <cell>33/460</cell>
+                        <cell>100/935</cell>
+                        <cell>49/474</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Animals</hi>
+                        </cell>
+                        <cell>3/52</cell>
+                        <cell>1/9</cell>
+                        <cell>1/1</cell>
+                        <cell>2/56</cell>
+                    </row>
+                </table>
+                <p> Note: This table provides statistics with (1) the number of gendered words in
+                    that category (left) and (2) the frequency of all words in that category
+                    (right); the red mark is the female dominance in that category. </p>
+                <table xml:id="d189e676">
+                    <head><hi rend="italic">Table 4. </hi><hi rend="bold"> Top30 Gender Words in British and Chinese Corpora (respectively)</hi></head>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Rank</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">The UK titles</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">Chinese titles</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">Rank</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">The UK titles</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">Chinese titles</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">1</hi>
+                        </cell>
+                        <cell>he</cell>
+                        <cell>
+                            <hi rend="SimSun">他</hi> 
+                            (he)
+                        </cell>
+                        <cell>16</cell>
+                        <cell>
+                            Scrooge (cha*) </cell>
+                        <cell>
+                            <hi rend="SimSun">哥哥</hi>
+                            (big brother)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">2</hi>
+                        </cell>
+                        <cell>she</cell>
+                        <cell>
+                            <hi rend="SimSun">妈妈
+                                </hi>(mum)
+                        </cell>
+                        <cell>17</cell>
+                        <cell>
+                            Danny 
+                            (cha*)
+                        </cell>
+                        <cell>
+                            <hi rend="SimSun">迪克</hi>
+                            (Dickie, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">3</hi>
+                        </cell>
+                        <cell>his</cell>
+                        <cell>
+                            <hi rend="SimSun">她
+                                </hi>(she)
+                        </cell>
+                        <cell>18</cell>
+                        <cell>grandpa</cell>
+                        <cell>
+                            <hi rend="SimSun">佩罗</hi>
+                            (Peiluo, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">4</hi>
+                        </cell>
+                        <cell>her</cell>
+                        <cell>
+                            <p><hi rend="SimSun">霸王龙</hi></p>
+                            <p>(Bawanglong, cha*) </p>
+                        </cell>
+                        <cell>19</cell>
+                        <cell>girl</cell>
+                        <cell>
+                            <hi rend="SimSun">大脚怪</hi>
+                            (Dajiaoguai,cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">5</hi>
+                        </cell>
+                        <cell>mum</cell>
+                        <cell>
+                            <hi rend="SimSun">爸爸 </hi>
+                            (dad)
+                        </cell>
+                        <cell>20</cell>
+                        <cell>
+                            Mickey (cha*) </cell>
+                        <cell>
+                            <hi rend="SimSun">小兔</hi>
+                            (Xiaotu,cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">6</hi>
+                        </cell>
+                        <cell>Peppa</cell>
+                        <cell>
+                            <hi rend="SimSun">卡梅利多</hi>
+                            (Camilido, cha*)
+                        </cell>
+                        <cell>21</cell>
+                        <cell>granny</cell>
+                        <cell>
+                            <hi rend="SimSun">小弟</hi>
+                            (little brother)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">7</hi>
+                        </cell>
+                        <cell>him</cell>
+                        <cell>
+                            <hi rend="SimSun">卡门
+                                </hi>(Carmen, cha*)
+                        </cell>
+                        <cell>22</cell>
+                        <cell>Elsa (cha*)</cell>
+                        <cell>
+                            <hi rend="SimSun">罗西娜
+                                </hi>(Rosina, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">8</hi>
+                        </cell>
+                        <cell>
+                            George
+                        </cell>
+                        <cell>
+                            <hi rend="SimSun">豌豆射手 </hi>
+                            (Pea shooter, cha*)
+                        </cell>
+                        <cell>23</cell>
+                        <cell>princess</cell>
+                        <cell>
+                            <hi rend="SimSun">布瓦</hi>
+                            (Buwa,cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">9</hi>
+                        </cell>
+                        <cell>Mr</cell>
+                        <cell>
+                            <hi rend="SimSun">贝里奥</hi> ( Beleo)
+                        </cell>
+                        <cell>24</cell>
+                        <cell>sister</cell>
+                        <cell>
+                            <hi rend="SimSun">朗朗</hi>
+                            (Langlang, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">10</hi>
+                        </cell>
+                        <cell>Wally (cha*)</cell>
+                        <cell>
+                            <hi rend="SimSun">歪歪兔
+                                </hi>(Waiwaitu, cha*)
+                        </cell>
+                        <cell>25</cell>
+                        <cell>Anna (cha*)</cell>
+                        <cell>
+                            <hi rend="SimSun">维克托</hi>
+                            (Victor, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">11</hi>
+                        </cell>
+                        <cell>Miss</cell>
+                        <cell>
+                            <hi rend="SimSun">威威龙</hi>
+                            (Weiweilong,cha*)
+                        </cell>
+                        <cell>26</cell>
+                        <cell>Minion (cha*)</cell>
+                        <cell>
+                            <hi rend="SimSun">英雄</hi>
+                            (hero)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">12</hi>
+                        </cell>
+                        <cell>witch</cell>
+                        <cell>
+                            <hi rend="SimSun">卡梅拉
+                                </hi>(Carmela, cha*)
+                        </cell>
+                        <cell>27</cell>
+                        <cell>fairies</cell>
+                        <cell>
+                            <hi rend="SimSun">大嘴花</hi>
+                            (Dazuihua,cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">13</hi>
+                        </cell>
+                        <cell>dad</cell>
+                        <cell>
+                            <hi rend="SimSun">爷爷</hi>
+                            (Grandpa)
+                        </cell>
+                        <cell>28</cell>
+                        <cell>Harry (cha*)</cell>
+                        <cell>
+                            <hi rend="SimSun">小熊</hi>
+                            (Xiaoxiong, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">14</hi>
+                        </cell>
+                        <cell>
+                            Queen
+                        </cell>
+                        <cell>
+                            <hi rend="SimSun">柯尔克</hi>
+                            (Kolk, cha*)
+                        </cell>
+                        <cell>29</cell>
+                        <cell>man</cell>
+                        <cell>
+                            <hi rend="SimSun">甲龙</hi>
+                            (Jialong, cha*)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">15</hi>
+                        </cell>
+                        <cell>wizard</cell>
+                        <cell>
+                            <hi rend="SimSun">先生</hi>
+                            (Sir)
+                        </cell>
+                        <cell>30</cell>
+                        <cell>Minnie (cha*)</cell>
+                        <cell>
+                            <hi rend="SimSun">小黑</hi>
+                            (Xiaohei,cha*)
+                        </cell>
+                    </row>
+                </table>
+                <p> Note: ‘Cha*’ represents the word is a name of character in the book texts, all
+                    names in the corpora have been manually coded and aligned with the gender in the
+                    books. Red marks as female words. </p>
+                <table xml:id="d189e1322">
+                    <head><hi rend="italic">Table 5. </hi><hi rend="bold"> Common Gender Words in Top 30 Gender Wordlists</hi></head>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Word in Common</hi>
+                        </cell>
+                        <cell>
+                            <p><hi rend="bold">Rank </hi></p>
+                            <p><hi rend="bold">in English Corpus</hi></p>
+                        </cell>
+                        <cell>
+                            <p><hi rend="bold">Rank </hi></p>
+                            <p><hi rend="bold">in Chinese Corpus</hi></p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">He (him/himself/his)</hi>
+                        </cell>
+                        <cell>
+                            1/1
+                        </cell>
+                        <cell>
+                            1/1
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">She (her/herself)</hi>
+                        </cell>
+                        <cell>
+                            2/2
+                        </cell>
+                        <cell>
+                            3/9
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Mum</hi>
+                        </cell>
+                        <cell>
+                            5/43
+                        </cell>
+                        <cell>
+                            2/3
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Dad</hi>
+                        </cell>
+                        <cell>
+                            13/96
+                        </cell>
+                        <cell>
+                            5/13
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Mr</hi>
+                        </cell>
+                        <cell>
+                            9/78
+                        </cell>
+                        <cell>
+                            15/108
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Grandpa</hi>
+                        </cell>
+                        <cell>
+                            18/156
+                        </cell>
+                        <cell>
+                            13/94
+                        </cell>
+                    </row>
+                </table>
+                <p> Note: The first number in each box is the rank of the word in the gender
+                    wordlist; the second number is the rank of the word in the whole wordlist, it
+                    represents the importance of the gender words in the full texts. </p>
+                <figure>
+                    <graphic n="1002" width="16.016941666666668cm" height="11.24095cm" url="Pictures/9d65331c8b2ea36067b3873f8533b18b.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 2. </hi><hi rend="bold">Frequencies of Common Top Gender Words in the UK and Chinese
+                            Corpora</hi></head>
+                </figure>
+                <p>Table 6 shows the sentiment change by gender narratives in British and Chinese
+                    picture book texts. In general, the British corpus is more gender neutral than
+                    the Chinese corpus, and the narratives are more positive when the sentence
+                    includes both male and female words. However, the algorithm and model in the
+                    packages we used are black boxes, and the results require more explanations with
+                    further qualitative analysis. </p>
+                <table xml:id="d189e1507">
+                    <head><hi rend="italic">Table 6.</hi><hi rend="bold"> Sentiment Score for Gender Narratives the UK and Chinese Titles</hi></head>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rend="bold">The UK</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">Chinese</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Median</cell>
+                        <cell>Average</cell>
+                        <cell>Number</cell>
+                        <cell>Median</cell>
+                        <cell>Average</cell>
+                        <cell>Number</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Male </hi>
+                        </cell>
+                        <cell>0</cell>
+                        <cell>0.04</cell>
+                        <cell>1680</cell>
+                        <cell>0.052</cell>
+                        <cell>0.058</cell>
+                        <cell>2302</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Female </hi>
+                        </cell>
+                        <cell>0</cell>
+                        <cell>0.06</cell>
+                        <cell>1192</cell>
+                        <cell>0.2462</cell>
+                        <cell>0.15</cell>
+                        <cell>655</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Male and female</hi>
+                        </cell>
+                        <cell>0</cell>
+                        <cell>0.097</cell>
+                        <cell>1864</cell>
+                        <cell>0.4594</cell>
+                        <cell>0.24</cell>
+                        <cell>347</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">Gender Neutral</hi>
+                        </cell>
+                        <cell>0</cell>
+                        <cell>0.04</cell>
+                        <cell>3421</cell>
+                        <cell>-0.0642</cell>
+                        <cell>-0.04</cell>
+                        <cell>6951</cell>
+                    </row>
+                </table>
+                <p> Note: This table provide the results for sentiment analysis from the packages
+                    used, the scores are between [-1;1] <ref target="#LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn5" n="5"/><hi rend="italic">. Median means the median value of sentiment score in that
+                        group, average means the average sentiment score of sentences in that group,
+                        number represents the number of sentences with the gender category in the
+                        left box.</hi></p>
+            </div>
+            <div>
+                <head>Discussion</head>
+                <p>This study indicates that gender inequality exists in both publishing contexts,
+                    with the male dominance being more pronounced in Chinese bestselling
+                    picture-book titles than in British. There are not only more female words (in
+                    more word categories) of British picture books, but the overall gap between two
+                    genders is smaller than in the Chinese texts. However, this study is only an
+                    experimental analysis of 200 best-selling books and cannot represent the whole
+                    picture book market in two countries. Besides, the sentiment analysis technique
+                    is based on deep learning with hidden algorithms, meaning the results are
+                    dependable on the package we used and may cause classification problems. We
+                    still hope the final sentiment scores can provide additional evidence for a
+                    deeper discourse analysis. Further research will expand the dataset and add
+                    publication dates as a variable, as well as applying other methods such as
+                    relationship extraction, text similarity and network analysis.</p>
+            </div>
+            <div>
+                <head>Conclusion</head>
+                <p> The computational analysis of fully transcribed texts analysed the implicit
+                    gender stereotypes and the preference towards male representation in British and
+                    Chinese bestselling children’s picture books in the last decade. Although male
+                    dominance still exists in both corpora, the British titles showed areas of
+                    equality, such as the ratio of female words in the British corpus. Future work
+                    will include applying these text mining methods to other languages and different
+                    children’s book categories, to reflect gender inequality within published texts
+                    from a data-based perspective. Our research provides a method which will be
+                    applicable to others wishing to compare and contrast gender-related differences
+                    in individual book markets, which will also be useful to translation studies.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn1">
+                                         Words are made of characters in
+                                            Chinese and are not fixed as English words, normally, a
+                                            Chinese word includes two or three characters.
+                                    </note><note n="2" xml:id="LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn2">
+                             Available online:
+                                https://github.com/sloria/TextBlob
+                        </note><note n="3" xml:id="LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn3">
+                             Available online:
+                                https://github.com/PaddlePaddle/PaddleHub
+                        </note><note n="4" xml:id="LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn4">
+                                 The pronouns are three words like she, her
+                                    and herself, rather than one, but they all represent women.
+                            </note><note n="5" xml:id="LI_Yi_Implicit_Gender_Inequality_in_Children_s_Picture_Books.xml_ftn5">
+                         TextBlob sentiment package reports sentiment score
+                            for English text between [-1:1], from negative to positive; while Paddle
+                            hub reports the results for Chinese text between [0:1] from negative to
+                            positive. In this study, we standardised the results from Paddle hub in
+                            Chinese to [-1:1] to better compare the results in two corpora.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Adams, M., Walker, C., &amp; O’connell, P. </author>(2011). Invisible or Involved Fathers? A Content Analysis of Representations of Parenting in Young Children’s Picturebooks in the UK. Sex Roles, 65(3–4), 259–270. http://dx.doi.org.ezproxy.is.ed.ac.uk/10.1007/s11199-011-0011-8</bibl>
+                    <bibl><author>Allen, A. M., Allen, D. N., &amp; Sigler, G. </author>(1993). Changes in Sex-Role Stereotyping in Caldecott Medal Award Picture Books 1938—1988. Journal of Research in Childhood Education, 7(2), 67–73. https://doi.org/10.1080/02568549309594842</bibl>
+                    <bibl><author>Bhaskaran, J., &amp; Bhallamudi, I. </author>(2019). Good Secretaries, Bad Truck Drivers? Occupational Gender Stereotypes in Sentiment Analysis. ArXiv:1906.10256 [Cs]. http://arxiv.org/abs/1906.10256</bibl>
+                    <bibl><author>Bleakley, M. E., Westerberg, V., &amp; Hopkins, K. D. </author>(1988). The Effect of Character Sex on Story Interest and Comprehension in Children. American Educational Research Journal, 25(1), 145–155. https://doi.org/10.2307/1163164</bibl>
+                    <bibl><author>Breezegeography. </author>(2018, January 25). How to Segment Chinese Texts: Putting in Spaces with Jieba. VB Geography. https://breezegeography.wordpress.com/2018/01/25/how-to-segment-chinese-texts-putting-in-spaces-with-jieba/</bibl>
+                    <bibl><author>Capuzza, J. C. </author>(2020). “T” is for “transgender”: An analysis of children’s picture books featuring transgender protagonists and narrators. Journal of Children and Media, 14(3), 324–342. https://doi.org/10.1080/17482798.2019.1705866</bibl>
+                    <bibl><author>Casey, K., Novick, K., &amp; Lourenco, S. F. </author>(2021). Sixty years of gender representation in children’s books: Conditions associated with overrepresentation of male versus female protagonists. PLOS ONE, 16(12), e0260566. https://doi.org/10.1371/journal.pone.0260566</bibl>
+                    <bibl><author>Connor, J. M., &amp; Serbin, L. A. </author>(1978). Children’s responses to stories with male and female characters. Sex Roles, 4(5), 637–645. https://doi.org/10.1007/BF00287329</bibl>
+                    <bibl><author>Hamilton, M. C., Anderson, D., Broaddus, M., &amp; Young, K. </author>(2006). Gender Stereotyping and Under-representation of Female Characters in 200 Popular Children’s Picture Books: A Twenty-first Century Update. Sex Roles, 55(11), 757–765. https://doi.org/10.1007/s11199-006-9128-6</bibl>
+                    <bibl><author>Kelly, J. </author>(2016). The text and data mining copyright exception: Benefits and implications for UK higher education. Jisc. https://www.jisc.ac.uk/guides/text-and-data-mining-copyright-exception</bibl>
+                    <bibl><author>Latima, M. </author>(2020). Picture Books Should Have More Diversity. Canadian Children’s Book News, 43(2), 21–22.</bibl>
+                    <bibl><author>Lee, J. F. K., &amp; Chin, A. C. O. </author>(2019). Are females and males equitably represented? A study of early readers. Linguistics and Education, 49, 52–61. https://doi.org/10.1016/j.linged.2018.12.003</bibl>
+                    <bibl><author>Li, Y., Terras, M., &amp; Li, Y. </author>(2022, July 22). Gender and Cultural Diversity in Chinese Children’s Picture Books: A Data-led Analysis of Bestselling Modern Titles. Alliance of Digital Humanities Organizations. https://confit.atlas.jp/guide/event/dh2022/subject/SP4-01-160/detail</bibl>
+                    <bibl><author>Liu, X., &amp; Chen, S. </author>(2018). The phenomenon and analysis of gender bias in early reading promotion——Analysis of ‘must read picture books for boys and girls’ <hi rend="SimSun">早期阅读推广中的性别偏见现象及分析——对“男孩/女孩必读绘本”的分析</hi>. Library Theory and Practice, 12, 17–20.</bibl>
+                    <bibl><author>Pair, E., Vicas, N., Weber, A. M., Meausoone, V., Zou, J., Njuguna, A., &amp; Darmstadt, G. L. </author>(2021). Quantification of Gender Bias and Sentiment Toward Political Leaders Over 20 Years of Kenyan News Using Natural Language Processing. Frontiers in Psychology, 12. https://www.frontiersin.org/articles/10.3389/fpsyg.2021.712646</bibl>
+                    <bibl><author>Park, S., &amp; Woo, J. </author>(2019). Gender Classification Using Sentiment Analysis and Deep Learning in a Health Web Forum. Applied Sciences, 9(6), 1249-. https://doi.org/10.3390/app906124</bibl>
+                    <bibl><author>Ramadi, K. B., Mehta, R., He, D., Chao, S., Chu, Z., Atun, R., &amp; Nguyen, F. T. </author>(2022). Grass-roots entrepreneurship complements traditional top-down innovation in lung and breast cancer. Npj Digital Medicine, 5(1), Article 1. https://doi.org/10.1038/s41746-021-00545-x</bibl>
+                    <bibl><author>Rao, P., &amp; Taboada, M. </author>(2021). Gender Bias in the News: A Scalable Topic Modelling and Visualization Framework. Frontiers in Artificial Intelligence, 4. https://www.frontiersin.org/articles/10.3389/frai.2021.664737</bibl>
+                    <bibl><author>Terras, M. </author>(2018). Picture-Book Professors: Academia and Children’s Literature. Cambridge University Press.</bibl>
+                    <bibl><author>Xiao,  ci. </author>(2021). <hi rend="SimSun">蒲蒲兰</hi>: <hi rend="SimSun">突破“黄金十年</hi>” Poplar Picture Books: Breakthrough the Golden decade. The Publisher, 02, 30–31.</bibl>
+                    <bibl><author>Xu, H., Zhang, Z., Wu, L., &amp; Wang, C.-J. </author>(2019). The Cinderella Complex: Word embeddings reveal gender stereotypes in movies and books. PLOS ONE, 14(11), e0225385. https://doi.org/10.1371/journal.pone.0225385</bibl>
+                    <bibl><author>Zhang, L., Li, Y.-N., Peng, T.-Q., &amp; Wu, Y. </author>(2022). Dynamics of the social construction of knowledge: An empirical study of Zhihu in China. EPJ Data Science, 11(1), Article 1. https://doi.org/10.1140/epjds/s13688-022-00346-6</bibl>                   
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

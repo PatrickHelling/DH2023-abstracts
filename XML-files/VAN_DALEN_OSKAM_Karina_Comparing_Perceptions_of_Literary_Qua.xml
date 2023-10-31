@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Comparing Perceptions of Literary Quality</title>
+                <author n="vanDalenOskamKarinaVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName ref="https://orcid.org/0000-0001-7697-4512" n="vanDalenOskamKarina">
+                        <surname>van Dalen-Oskam</surname>
+                        <forename>Karina</forename>
+                    </persName><affiliation>Huygens ING - KNAW, Netherlands, The</affiliation><email>karina.van.dalen@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GroesBasVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName n="GroesBas">
+                        <surname>Groes</surname>
+                        <forename>Bas</forename>
+                    </persName><affiliation>University of Wolverhampton, UK</affiliation><email>S.Groes@wlv.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ByrneAidanVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName n="ByrneAidan">
+                        <surname>Byrne</surname>
+                        <forename>Aidan</forename>
+                    </persName><affiliation>University of Wolverhampton, UK</affiliation><email>A.Byrne2@wlv.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HarveyPeterVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName n="HarveyPeter">
+                        <surname>Harvey</surname>
+                        <forename>Peter</forename>
+                    </persName><affiliation>Independent scholar</affiliation><email>pete@peterharveydigital.co.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LeguinaAdrianVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName n="LeguinaAdrian">
+                        <surname>Leguina</surname>
+                        <forename>Adrian</forename>
+                    </persName><affiliation>Loughborough University, UK</affiliation><email>A.Leguina@lboro.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MercerTomVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName n="MercerTom">
+                        <surname>Mercer</surname>
+                        <forename>Tom</forename>
+                    </persName><affiliation>University of Wolverhampton, UK</affiliation><email>t.mercer2@wlv.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WiltonDemiMaeVAN_DALEN_OSKAM_Karina_Comparing_Perceptions_of_Literary_Qua.xml"><persName n="WiltonDemiMae">
+                        <surname>Wilton</surname>
+                        <forename>Demi-Mae</forename>
+                    </persName><affiliation>University of Wolverhampton, UK</affiliation><email>D.Wilton@wlv.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present a comparison of the results of the projects Novel Perceptions (2021-2023, United Kingdom) and The Riddle of Literary Quality (2012-2019, Netherlands), both combining a computational analysis of a corpus of 400 novels with the outcomes of a large survey in which readers shared their opinions about these novels.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computational literary studies</term>
+                    <term>sociology of art</term>
+                    <term>computational linguistics</term>
+                    <term>psychology</term>
+                    <term>canon formation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>text mining and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Do readers from different time periods, countries, language areas, or backgrounds have different ideas about what a written text must look like to be considered as having high literary quality? Just a glance at literary history shows that different genres flourished in different times and that genres had different levels of literary prestige (cf. e.g. Underwood 2019). But what if we take a synchronic approach? In this short paper we will present the first results of a comparison between perceptions of literary quality in the United Kingdom and the Netherlands, hoping that this will ultimately lead to comparisons with more countries in Europe and beyond.</p>
+            <p>The AHRC-funded project Novel Perceptions: Towards an Inclusive Canon (2021 – 2023) at the University of Wolverhampton (UK) was inspired by the Dutch project The Riddle of Literary Quality that ran from 2012 – 2019 (cf. Van Dalen-Oskam 2023). In both projects, a large online survey asked readers to browse a list of 400 recent novels to indicate which ones they had read. It then invited them to share their opinion about the overall quality and the literary quality of books they had read and books they had not read but did have an opinion about. In a free field they could explain their rating. The Dutch National Reader Survey ran in 2013. The UK Big Book Review ran from November 2020 to October 2022; it is still available as The 2020 Reader Review on a different platform.</p>
+            <p>In both projects, an analysis of the responses of the readers (and non-readers) was confronted with the results of a computational linguistic analysis of the corpus of 400 novels. These analyses also took into account the genre label that publishers attributed to the novels, the gender of the author(s), and whether the novel was a translation or not, and personal information we gathered from the respondents (age, gender, education level, and for the UK respondents also ethnicity and class). In this way, we could not only establish which linguistic features may play a role in the mostly unconscious processes that make readers evaluate a novel as either highly literary or not so very literary, but also which contextual features may have influenced their’ opinions. </p>
+            <p>Dutch readers in 2013 were biased against female authors of novels labelled as Literary (General) fiction; a first glance at the results of the UK survey suggests that UK readers in 2020-2022 seemed to be less biased. There is agreement, however, about a genre hierarchy. In both countries, Romance novels received the lowest scores for literary quality, and general/literary fiction the highest, with suspense novels in-between. At the time of writing this abstract, the linguistic analysis of the 400 English-language novels was not completed yet. The big question there will be whether the English-language corpus shows a comparable trend as the Dutch-language corpus, namely that the higher the score for literary quality, the more difficult and complex the language of a novel is. In our short paper, we will uncover the results of the same analyses for the UK and close with some final remarks about how the data will be shared (cf. Eder et al. 2022) and which plans will by then have been developed for comparable projects in other countries.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Eder, Maciej</author> / <author>Lensink, Saskia</author> / <author>van Zundert, Joris</author> / <author>van Dalen-Oskam, Karina</author>  (2022). “Replicating The Riddle of Literary Quality: The litRiddle package for R”, in: 
+                        <hi rend="italic">Digital Humanities 2022 Conference Abstracts. The University of Tokyo, Japan, 25–29 July 2022</hi>, p. 636-637 https://dh2022.dhii.asia/dh2022bookofabsts.pdf (Last accessed 29 April 2023).
+                    </bibl>
+                    <bibl>
+                        <author>Novel Perceptions</author> website: http://novel-perceptions.thememorynetwork.com/ (Last accessed 29 April 2023)
+                    </bibl>
+                    <bibl>
+                        <author>The Riddle of Literary Quality</author> project website: https://literaryquality.huygens.knaw.nl/ (Last accessed 29 April 2023)
+                    </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2019). 
+                        <hi rend="italic">Distant Horizons. Digital Evidence and Literary Change.</hi> Chicago and London: The University of Chicago Press.
+                    </bibl>
+                    <bibl>
+                        <author>UK Big Book Survey</author> website: https://survey.bigbookreview.co.uk/, https://nquire.org.uk/
+                    </bibl>
+                    <bibl>mission/the-2020-reader-review/contribute (Last accessed 29 April 2023)</bibl>
+                    <bibl>
+                        <author>van Dalen-Oskam, Karina</author> (2023). 
+                        <hi rend="italic">The Riddle of Literary Quality: A Computational Approach</hi>. Amsterdam: Amsterdam University Press, 2023 (to be published June 2023).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

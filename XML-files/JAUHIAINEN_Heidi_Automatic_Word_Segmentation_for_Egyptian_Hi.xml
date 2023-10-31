@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Automatic Word Segmentation for Egyptian Hieroglyphic Texts</title>
+                <author n="JauhiainenHeidiJAUHIAINEN_Heidi_Automatic_Word_Segmentation_for_Egyptian_Hi.xml"><persName n="JauhiainenHeidi">
+                        <surname>Jauhiainen</surname>
+                        <forename>Heidi</forename>
+                    </persName><affiliation>University of Helsinki, Finland</affiliation><email>heidi.jauhiainen@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JauhiainenTommiJAUHIAINEN_Heidi_Automatic_Word_Segmentation_for_Egyptian_Hi.xml"><persName n="JauhiainenTommi">
+                        <surname>Jauhiainen</surname>
+                        <forename>Tommi</forename>
+                    </persName><affiliation>University of Helsinki, Finland</affiliation><email>tommi.jauhiainen@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The scarcity of machine-readable corpora for Egyptian hieroglyphic texts hinders the digital study of ancient Egyptian texts. Computer-assisted transliteration of the texts will speed up producing such texts and the first step is to find word-boundaries. We present a method for the automatic segmentation of hieroglyphic texts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Word segmentation</term>
+                    <term>hieroglyphic texts</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In order to use digital methods for researching texts, machine-readable texts are
+                needed. Assyriology, for example, has freely downloadable corpora of
+                machine-readable texts, such as Open Richly Annotated Cuneiform Corpus (ORACC). The
+                scarcity of similar corpora for Egyptian hieroglyphic texts hinders the digital
+                study of ancient Egypt using textual sources. </p>
+            <p>There is a tradition in Egyptology of using encoding to produce properly positioned
+                hieroglyphs for print (Fig. 1). Various versions of the encoding have been used when
+                publishing texts in books, the so-called Manuel de Codage (MdC) being the most often
+                used. The encoding uses letter-number combinations from the Gardiner list, a
+                standard reference list for Ancient Egyptian hieroglyphs (Gardiner 1957), where
+                letters refer to various categories of signs and numbers to signs within the
+                category (Fig. 1). The encoded texts, which are used for producing pictures of
+                hieroglyphic texts, are machine-readable. However, Egyptologists cannot usually
+                “read” the encoding, which explains why these have not been considered important
+                enough to publish or even to keep. When Egyptologists encode texts, the various
+                hieroglyphic text editors offer them the possibility of writing many signs using the
+                transliteration they are more familiar with. Transliteration is always an
+                interpretation of the text, and producing it is a slow endeavor requiring checking
+                dictionaries and sign lists. Computer-assisted transliteration of hieroglyphic texts
+                will speed up producing such texts for digital methods, which is our future aim.</p>
+            <figure>
+                <graphic n="1001" width="15.920861111111112cm" height="3.5842222222222224cm" url="Pictures/80eb7e178fc04bfe0e46445e1b944f1b.png" rend="inline"/>
+                <head>Figure 1: A segmented hieroglyphic sentence with encoding (MdC),
+                    transliteration alternatives for each sign, transliteration of the sentence, and
+                    translation. C = classifier (without phonetic value).</head>
+            </figure>
+            <p>As the word boundaries are not natively indicated in a hieroglyphic text, the first
+                task is word segmentation. Word segmentation methods used for Chinese and Japanese
+                texts have been tested on texts written with cuneiform signs (Homburg / Chiarcos
+                2016). The best-performing methods in that study were based on dictionaries. We have
+                already generated language models of words from two available corpora of
+                machine-readable hieroglyphic texts. Thesaurus Linguae Aegyptiae (TLA) includes a
+                collection of texts where c. 280,000 Egyptian encoded words have been aligned with
+                their transliteration counterparts (Richter et al. 2018; Schweitzer 2021). The
+                second source is the Ramses Transliteration Corpus (RTC) published in 2021 with
+                almost 500,000 encoded words (Rosmorduc 2021). These language models can be used
+                with the aforementioned dictionary-based methods.</p>
+            <p>The RTC consists of encoded hieroglyphic sentences, each on its own line, and
+                respective transliteration lines in another file. Since the RTC data was originally
+                collected in the Ramses Project (Polis / Winand, 2013) and is available for word
+                searches online, it contains, in addition to sentences without word boundaries, also
+                separate versions where the encoded words have been separated with underscores.</p>
+            <p>We began by testing the best method Homburg and Chiarcos found: MaxMatch. MaxMatch
+                provided an F-score of 65.05 in their Middle Babylonian cuneiform test set. Our
+                implementation of MaxMatch gained an F-score of 65.95 on the RTC validation
+                partition. Next, we created three versions of their prefix/suffix algorithm. Their
+                algorithm only predicts separation after the character under scrutiny, and for that,
+                we got an F-score of 36.28. We also implemented a version that predicted a break
+                before the current character (37.60). Finally, we modified the algorithm so that
+                instead of characters, we were focusing on between the characters and arrived at an
+                F-score of 50.47.</p>
+            <p>Then we implemented the bigram method described by Homburg and Chiarcos and, to a
+                small surprise, arrived at an F-score of 75.09, which is clearly higher than for the
+                other algorithms and quite the opposite from Hamburg and Chiarcos's findings. As
+                bigrams fared so well, we implemented a similar system that used sign 4-grams and
+                arrived at an F-score of 48.06. These findings were in line with our previous
+                experiences with character n-gram-based language models from our language
+                identification experiments. Following our HeLI method (Jauhiainen et al. 2016), we
+                created a back-off scheme to start from 4-grams with the ability to back off to
+                bigrams, to our improved prefix/suffix method, and even to the simple probability of
+                separation. This back-off scheme proved very efficient, providing an F-score of
+                86.25, which is clearly better than the 65.05 that was achieved by Homburg and
+                Chiarcos for Middle Babylonian.</p>
+            <p>The source code of the segmentation method will be released with an open-source
+                license. A segmentation tool will also be published for others to use on their
+                texts.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alstola, Tero</author> / <author>Zaia, Shana</author> / <author>Sahala, Aleksi</author> / <author>Jauhiainen, Heidi</author> / <author>Svärd, Saana</author> / <author>Lindén, Krister</author> (2019): “Aššur and His Friends: A Statistical
+                        Analysis of Neo-Assyrian Texts”, in: <hi rend="italic">Journal of Cuneiform
+                            Studies</hi>, Vol. 71: 159–180. </bibl>
+                    <bibl><author>Gardiner, Alan H. </author>(1957): <hi rend="italic">Egyptian Grammar: Being an
+                            Introduction to the Study of Hieroglyphs</hi>. Oxford: Griffith
+                        Institute <hi rend="italic">.</hi>
+                    </bibl>
+                    <bibl><author>Homburg, Timo</author> / <author>Chiarcos, Christian</author> (2016): “Word Segmentation for
+                        Akkadian Cuneiform”, in:</bibl>
+                    <bibl>
+                        <hi rend="italic">Proceedings of the Tenth International Conference on
+                            Language Resources and Evaluation (LREC'16).</hi> <ref target="https://aclanthology.org/L16-1642.pdf">https://aclanthology.org/L16-1642.pdf</ref> [27.04.2023]. </bibl>
+                    <bibl><author>Polis, Stephane</author> / <author>Winand, Jean</author> (2013): “The Ramses Project: Methodology
+                        and Practices in the Annotation of Late Egyptian Texts”, in: Hafeman,
+                        Ingelore (ed.): <hi rend="italic">Perspektiven einer corpusbasierten
+                            historischen Linguistik und Philologie</hi>. Berlin:
+                        Berlin-Brandenburgische Akademie der Wissenschaften 81–108. </bibl>
+                    <bibl><author>Rosmorduc, Serge </author>(2021): “Ramses automated translitteration software”, in:
+                            <hi rend="italic">Lingua Aegyptia</hi> (2021-06-15, Vol. 28, 233–257).
+                        Zenodo. <ref target="https://doi.org/10.5281/zenodo.4954597">https://doi.org/10.5281/zenodo.4954597</ref> [27.04.2023]. </bibl>
+                    <bibl><author>Schweitzer, Simon </author>(2021): <hi rend="italic">AES - Ancient Egyptian
+                            Sentences; Corpus of Ancient Egyptian sentences for corpus-linguistic
+                            research</hi>. GitHub. <ref target="https://github.com/simondschweitzer/aes">https://github.com/simondschweitzer/aes</ref>
+                        [27.04.2023]. </bibl>
+                    <bibl><author>Svärd, Saana</author> / <author>Alstola, Tero</author> / <author>Jauhiainen, Heidi</author> / <author>Sahala, Aleksi</author> / <author>Lindén, Krister</author> (2020): “Fear in Akkadian Texts: New Digital Perspectives on
+                        Lexical Semantics”, in: Hsu, Shih-Wei / Llop-Raduà, Jaume (eds.): <hi rend="italic">The Expression of Emotions in Ancient Egypt and
+                            Mesopotamia</hi>. Leiden: Brill 470–502. </bibl>
+                    <bibl><author>Richter, Tonio S.</author> / <author>Hafemann, Ingelore</author> / <author>Fischer-Elfert, Hans-Werner</author> / <author>Dils, Peter (eds.)</author> (2018): <hi rend="italic">Teilauszug der Datenbank des
+                            Vorhabens ‘Strukturen und Transformationen des Wortschatzes der
+                            ägyptischen Sprache’ vom Januar 2018</hi>. Akademienvorhaben Strukturen
+                        und Transformationen des Wortschatzes der ägyptischen Sprache. Text- und
+                        Wissenskultur im alten Ägypten. <ref target="urn:nbn:de:kobv:b4-opus4-29190">urn:nbn:de:kobv:b4-opus4-29190</ref>
+                        [27.04.2023]. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

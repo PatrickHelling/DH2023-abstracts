@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SylLab – software for semi-automatic stylometric analysis for poetry</title>
+                <author n="RykowskaAleksandraRYKOWSKA_Aleksandra_SylLab___software_for_semi_automatic_sty.xml"><persName n="RykowskaAleksandra">
+                        <surname>Rykowska</surname>
+                        <forename>Aleksandra</forename>
+                    </persName><affiliation>Jagiellonian University in Kraków, Poland</affiliation><email>aleksandra.rykowska@student.uj.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster presents a new software for semi-automatic stylometric analysis of poetry, especially Polish accentual-syllabic verse poetry. Starting from the versological and phonetic analysis of each verse, the program helps to establish the mood of a given poem based on the characteristic and number of phones constructing the text.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computer analysis of poetry</term>
+                    <term>sentiment analysis</term>
+                    <term>stylometry</term>
+                    <term>versification</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>electronic literature production and analysis</term>
+                    <term>Computer science</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>By focusing on the quantitative ratios of the different types of speech sounds in a poem, it is not so much possible to establish the authorship of the text (which remains a potential topic for future research), but it allows us to determine the mood of a poem. </p>
+            <p>Considering the semantics of a poem, all attempts to determine the mood of a poem using stylometric methods operate on words using a ‘bag-of-words method’ (e.g., Kao and Jurafsky, 2015) and it is worth noticing that the forementioned study using word-based methods did not provide any successful results. The most intriguing work seems to confirm the ‘semantic halo’ of verse theory (Šeļa et al., 2022), which supports the conjecture that differences at the phonetic level for the poems with the same versification system (and having the same semantic halo) will differ in the mood when differences at the phonetical level are observed in them. Knowing this might then lead to the research question – if the meter imposes a certain topic to the poem, then the differences regarding the mood of a poem might be visible on the phonetic level of the text.</p>
+            <p>The idea is based on Maria Dłuska’s (manual and non-computational) method of dealing with Polish accentual-syllabic verse poetry (Dłuska, 2001). On the basis of the steps she initially proposed for the analysis, an algorithm was established, which was then used to prepare the SylLab computer program that automates most of the steps involved in a similar analysis of a poem. The program is prepared in the Eclipse environment, in the object-oriented programming language Java. The program interface is divided into 6 tabs, each of them responsible for a different stage of the verse analysis.</p>
+            <p>The program operates on texts written both orthographically and phonetically, but because of its focus on the sound layer of the text, the most accurate results are obtained when working on text already transcribed into the IPA alphabet. Although the program automatically transcribes the orthographically written text, due to the redundancy of certain features and phonetic similarities in the further steps of the analysis, the transcription generated by the program is subjected to manual analysis by a human operator to detect and eliminate all inconsistencies if necessary. </p>
+            <p>The next step that the program performs is to divide the words in each line into syllables. The program calculates the sonority trait of the speech sounds. They are then divided into classes, each annotated with a given sonority value - the syllable boundary runs where there is a sharp rise or fall in the sonority value for the speech sounds present in the piece (Śledziński, 2016). A tilde mark separates all syllables. Further on, the program marks stressed syllables and displays a diagram of the rhythmic structure of the analysed poem. The program considers word boundaries and marks the syllables accented according to the rules of Polish accentuation, where the accent is persistent and paroxytonic in most words (Wiśniewski, 2007). A list of proclitics and enclitics has also been created, which, when detected by the program, are 'attached' in the analysis to the following word due to them not having their own stress. The results of the versological analysis of the works are saved to text files (as a plain text and in JSON format), which is a prelude to the creation of the planned corpus of Polish poetry annotated in terms of versification. </p>
+            <p>The program further determines the characteristics of the individual speech sounds. The most important features here are if they are opened/closed and palatalised. According to Dłuska's original analysis, closed and palatal sounds and their accumulation in work have a significant impact on the mood of the poem - a predominance of closed and palatal speech sounds is associated with the poem's positive valence. In contrast, a higher proportion of opened and not palatalised sounds is associated with its gloomy mood. The program then generates a CSV-encoded file with the results of the quantitative analysis of the speech sounds included in the poem, together with an indication of where each speech sound is located in the poem and the sums of different classes of sounds in order to compare the results with the reference corpus.</p>
+            <p>The program presented here is just a promising seed of what results it could present once its functionality is developed with more advanced information technologies, such as the use of machine learning and NLP techniques.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dłuska, M.</author> (2001): „Kazimierz Wierzyński «Gdzie nie posieją mnie»”, in 
+                        <hi rend="italic">Liryka polska. Interpretacje,</hi> edited by Jan Prokop, Janusz Sławiński, 293–319, Gdańsk: słowo/obraz terytoria.
+                    </bibl>
+                    <bibl>
+                        <author>Kao T., and Jurafsky D.</author> (2015): “A computational analysis of poetic style: Imagism and its influence on modern professional and amateur poetry”, in 
+                        <hi rend="italic">Linguistic Issues in Language Technology</hi>, volume 12 - Literature Lifts up Computational Linguistics, CSLI Publications.
+                    </bibl>
+                    <bibl>
+                        <author>Šeļa A, Plecháč P., and Lassche A.</author> (2022): “Semantics of European poetry is shaped by conservative forces: The relationship between poetic meter and meaning in accentual-syllabic verse”, PLoS ONE 17(4): e0266556.
+                    </bibl>
+                    <bibl>
+                        <author>Śledziński, D.</author> (2016): „Tworzenie reguł dla programu dzielącego tekst w języku polskim na sylaby”, Biuletyn Polskiego Towarzystwa Językoznawczego, vol. 72: 151-161.
+                    </bibl>
+                    <bibl>
+                        <author>Wiśniewski, M.</author> (2007): „Zarys fonetyki i fonologii współczesnego języka polskiego”, Toruń: Wydawnictwo Uniwersytetu Mikołaja Kopernika.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

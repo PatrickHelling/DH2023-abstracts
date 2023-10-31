@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>It’s not in the text: creating meaning through graph-based digital commentaries</title>
+                <author n="CarloniMassimilianoCARLONI_Massimiliano_It_s_not_in_the_text__creating_meaning_.xml"><persName ref="https://orcid.org/0000-0003-2208-5108" n="CarloniMassimiliano">
+                        <surname>Carloni</surname>
+                        <forename>Massimiliano</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage, Österreichische Akademie der Wissenschaften, Austria</affiliation><email>massimiliano.carloni@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster presents the proposal for a web-based tool designed to create graph-based digital commentaries. The tool is based on the Web Annotation Data Model and allows collaboration of several users in the preparation of a commentary.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital commentaries</term>
+                    <term>digital editions</term>
+                    <term>semantic technologies</term>
+                    <term>Web Annotation Data Model</term>
+                    <term>collaboration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Commentaries have been an integral part of scholarship for centuries. Even one of the oldest preserved Greek papyri (the ‘Derveni papyrus’, 4th century BCE) contains a commentary on an Orphic poem. The very term ‘commentary’ originated in the Alexandrian (cf. Greek 
+                <hi rend="italic">hypomnema</hi>) and Roman philological traditions. For many people who approach an object—be it a text, an image, or even a piece of music—a commentary is the first stop to better understand the features and context of the item considered.
+            </p>
+            <p>However, commentary is a genre difficult to define, since it can take many different forms (from a simple annotation to an interpretive essay on a section of a text). Moreover, it has not enjoyed much success in recent years. Although numerous contributions have helped to reconsider the form of commentary from a theoretical perspective (Most 1999, Kraus / Stray 2016), a commentary is often seen as a genre with too many constraints for more modern methodological approaches. Some modern tools for digital annotation are available and widely used (like https://web.hypothes.is), but their purpose is more general or they do not meet all scholarly needs. In the field of digital humanities, more recent studies have proposed technical solutions for digital annotation (e.g., Koolen / Boot 2020) and projects are being carried out on specific texts or corpora. However, the main focus remains on the form of the digital edition, and the possibility of creating notes to a text is often relegated to only partially satisfactory solutions (Vogeler 2021).</p>
+            <p>This poster presents the proposal for a web-based tool designed to create graph-based digital commentaries. It aims to show how the form of scholarly commentary can play a key role in the application of editorial and exegetical techniques in digital humanities projects. It can bridge the gap between the linguistic form (or forms) of a text and the representation of its content, allowing for the development of argumentative strands that are not restricted to single passages of the examined text or to its linear succession. In this way, it can become a powerful tool to enable the vision of the ‘assertive edition’ described by Vogeler (2019). Moreover, the commentary can help link the text to external entities: passages from other works, stylistic and rhetorical concepts, places, people and characters, historical events. Thus, it can support the idea of the text as a graph, and indeed act as a mediator between the text and the ‘Giant Global Graph’ (on the implications of which see, e.g., Segaran et al. 2009: 261-269).</p>
+            <p>This contribution will focus on two main aspects: (1) the requirements that a data model should meet; (2) the features the proposed tool will require, with particular attention to the editorial workflow that should be implemented. Since the project is still under development, the goal of this poster is not only to provide (provisional) conclusions, but also, and more importantly, to offer insights for discussion and stimulate conversation on these topics.</p>
+            <p>The technical solution proposed is based on the Web Annotation Data Model (Web Annotation Working Group 2017). This model has several advantages over similar alternatives: the annotation becomes the central element, separated from the actual source and (optionally) from the body of the annotation itself. This facilitates the creation of links between already existing resources and allows for better interoperability (also aided by this model’s compliance with RDF). More recent developments in the model are also taken into account, in view of a possible integration with the NLP Interchange Format (LD4TL 2021).</p>
+            <p>The project presented in the poster also describes how a collaborative approach to commentaries would be made possible by a digital tool. This tool will rely on a workflow inspired by centralized version control systems, where the phase of discussion is separated from the actual ‘commit’ to the source, thus avoiding the accumulation of questions and answers in the commentary itself (a phenomenon often seen in other collaborative endeavors). At the same time, it will allow the visualization and comparison of alternative annotations, each marked with provenance metadata and other contextual information.</p>
+            <p>While being a proposed solution to a specific problem, this tool might also help us redefine common assumptions about text in digital editorial practices. From the perspective of commentary, the text is no longer simply a unique, unchanging entity, possibly encoded in a standard format, but the result of the encounter between its linguistic form (or forms) and a group of readers who comment on it, identify its salient features, and extract meaning from it.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Koolen, Marijin</author> / <author>Boot, Peter</author> (eds.) (2020): “Facilitating Reusable Third-Party Annotations in Digital Editions”, in: Nantke, Julia / Schlupkothen, Frederik (eds.): 
+                        <hi rend="italic">Annotations in Scholarly Editions and Research. Functions, Differentiation, Systematization</hi>. Berlin: de Gruyter 177–199. DOI: 10.1515/9783110689112-009.
+                    </bibl>
+                    <bibl>
+                        <author>Kraus, Christina S.</author> / <author>Stray, Christopher</author>  (eds.) (2015): 
+                        <hi rend="italic">Classical Commentaries: Explorations in a Scholarly Genre</hi>. Oxford: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <author>LD4LT</author> (2021): “Towards a Consolidated LOD Vocabulary for Linguistic Annotations.” <ref target="https://github.com/ld4lt/linguistic-annotation/tree/5593c8e38478fc965ff988a5312f21539627ebac">https://github.com/ld4lt/linguistic-annotation/tree/5593c8e38478fc965ff988a5312f21539627ebac</ref> [11.04.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Most, Glenn W.</author> (ed.) (1999): 
+                        <hi rend="italic">Commentaries / Kommentare</hi>. Göttingen: Vandenhoeck &amp; Ruprecht.
+                    </bibl>
+                    <bibl>
+                        <author>Segaran, Toby</author> / <author>Evans, Colin</author> / <author>Taylor, Jamie</author>  (2009): 
+                        <hi rend="italic">Programming the Semantic Web</hi>. Sebastopol, CA: O’Reilly.
+                    </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2019): “The ‘Assertive Edition’”, in: 
+                        <hi rend="italic">International Journal of Digital Humanities</hi> 1, 2: 309–22. DOI: 10.1007/s42803-019-00025-5.
+                    </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2021): “‘Standing-off Trees and Graphs’: On the Affordance of Technologies for the Assertive Edition”, in: Spadini, Elena / Tomasi, Francesca / Vogeler, Georg (eds.): 
+                        <hi rend="italic">Graph Data-Models and Semantic Web Technologies in Scholarly Digital Editing</hi>. Norderstedt: Books on Demand 73–94.
+                    </bibl>
+                    <bibl>
+                        <author>Web Annotation Working Group</author> (2017): “Web Annotation Data Model” <ref target="https://www.w3.org/TR/annotation-model">https://www.w3.org/TR/annotation-model</ref> [11.04.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

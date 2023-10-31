@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publication networks in Romanian-German journals</title>
+                <author n="DobbenerSofieDOBBENER_Sofie_Publication_networks_in_Romanian_German_journ.xml"><persName n="DobbenerSofie">
+                        <surname>Dobbener</surname>
+                        <forename>Sofie</forename>
+                    </persName><affiliation>Carl von Ossietzky Universität Oldenburg, Germany</affiliation><email>sofie.dobbener@uol.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Based on a network analysis of publications in Romanian-German literary journals of the interwar period, the journalistic cooperation of the different German-speaking regions in Romania as well as with other literary fields is illuminated. Likewise, it serves as an indication of the position of the individual magazines in fieldinternal conflicts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>romanian-german literary journal</term>
+                    <term>network analysis</term>
+                    <term>field theory</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Literary studies</term>
+                    <term>Sociology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The literary scene in Romania after World War I is influenced by pluriculturalism and plurilingualism due to large Hungarian- and German-speaking minorities in the newly formed Greater Romania. Especially for the interwar period, German-language literary journals are assigned by research to have a decisive importance in the generation of literary publicity and literary promotion for the German-speaking minorities (cf. Engel 2013), who were present in Romania mainly in the regions of Transylvania, Banat, Bukovina and the Old Kingdom. But there is disagreement in Romanian-German research about the degree of literary collaboration – especially regarding the different German-speaking regions. While some speak of an independent development of the regions (e.g., cf. Motzan 1997), others emphasize increased literary exchange and joint work in a field with similar effects (e.g., cf. Engel 2013). </p>
+            <p>In this context, the Romanian literary scene is examined on the basis of field theory, as established by the French sociologist Pierre Bourdieu (1999) and adapted for different literatures in subsequent research. Romanian-German literary journals have so far been analysed from a field-theoretical perspective only with analogous methods and with a regional focus on individual analyses. Reference should be made to Corbea-Hoişie's consideration of the Czernowitz cultural scene (1994) as well as specifically of the literary journals 
+                <hi rend="italic">Der Nerv</hi> (2000, 2003, 2011) and 
+                <hi rend="italic">Die Gemeinschaft</hi> (2005). Analyses of Transylvanian-Saxon literary journals were proposed by the researchers Bican (2013), Dácz (2020) and Hegyi (2020).
+            </p>
+            <p>To look more closely at the relations between agents in the literary world, Sapiro (2019) proposes a field-theoretical use of network analysis, a computational approach has not been implemented yet. Sapiro hypothesizes that the division of actors, who position themselves along two axes into dominant versus dominated and autonomous (free literary production) versus heteronomous (external influences, e.g., religious, political or economic), is accompanied by specific contact patterns. Depending on the pole at which the respective actors are located, they seek or avoid contact with actors at certain other poles. Therefore, network analysis can be used to make conclusions about the positions of actors. The poster submitted here aims to test this theoretical assumption by examining Romanian-German literary journals. Therefore, the created network graph represents their published authors according to their publication strength and clustered by communities. </p>
+            <p>In the period between the end of World War I and the early 1930s, the production of Romanian-German literary journals peaked. For this reason, the corpus consists of literary journals from 1919 to 1929 and contains 12 journals from all four regions, in which a rounded total of 1200 authors with 2900 contributions were published. Based on a network analysis with the program 
+                <hi rend="italic">Gephi</hi>, it can be explored whether there were overlaps in publication, i.e., exchange processes, between the different German-speaking regions, and which authors and journals were the most central in the literary scene. As such, the nodes consist of the published authors and the journals that publish them, with undirected edges between the individuals and the publishing medium. The respective weight of the edges is determined according to three parameters forming an average value: 1) the number of contributions per author, 2) the word count of their contributions and 3) the page count. The detailed breakdown makes it possible to filter out essential actors in the field, while considering different ways in which they asserted themselves, e. g., through many publications in only one journal versus some publications in several journals. It also takes into account the specifics of different literary forms and includes the strategies some journals employed to compensate for the relative brevity of lyric texts in comparison to narratives e. g. by publishing several poems of the same author in one volume. 
+            </p>
+            <p>Applying a community detection algorithm on the dataset clusters the nodes in communities and thus illustrates whether the author clusters of the respective journals overlap according to specific parameters, such as their publication region or possibly programmatic parallels, that might indicate that these journals are located at the same or cooperating poles, or whether primarily separation processes in terms of a lack of publication overlaps are evident. With the help of network centrality, key authors and journals are filtered out of the network. Using the different weights mentioned above, it is tested whether the selection varies greatly depending on the parameters. </p>
+            <p>This case study brings together field theory and computational network analysis on the example of Romanian-German literary journals. It serves as an exploratory approach for follow-up considerations in the sociology of literature.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bourdieu, Pierre</author> (1999): 
+                        <hi rend="italic">Die Regeln der Kunst: Genese und Struktur des literarischen Feldes.</hi> Frankfurt am Main: Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <author>Corbea-Hoişie, Andrei</author> (1994): „Expressionismus in Czernowitz“, in: Amann, Klaus / Wallas, Armin A. (eds.): 
+                        <hi rend="italic">Expressionismus in Österreich: Die Literatur und die Künste</hi>. Wien, Köln, Weimar: Böhlau 322–341.
+                    </bibl>
+                    <bibl>
+                        <author>Corbea-Hoişie, Andrei</author> (2000): „‚Deutschsprachige Judendichtung‘ aus Czernowitz“, in: Gaisbauer, Hubert (ed.): 
+                        <hi rend="italic">Unverloren – Trotz allem</hi>. Wien: Mandelbaum 62–81.
+                    </bibl>
+                    <bibl>
+                        <author>Corbea-Hoişie, Andrei</author> (2003): 
+                        <hi rend="italic">Czernowitzer Geschichten: Über eine städtische Kultur in Mittelosteuropa</hi>. Wien, Köln, Weimar: Böhlau. 
+                    </bibl>
+                    <bibl>
+                        <author>Corbea-Hoişie, Andrei</author> (2005): „Die Czernowitzer ‚Gemeinschaft‘ (1928–1930): Zur Bestandaufnahme des ‚kulturellen Feldes‘ deutscher Sprache in der Bukowina der Zwischenkriegszeit“, in: 
+                        <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte </hi>79: 634–652. DOI: 10.1007/BF03374608.
+                    </bibl>
+                    <bibl>
+                        <author>Corbea-Hoişie, Andrei</author> (2011): „Ein Presseskandal des Jahres 1919 und die Czernowitzer Zivilisationsliteraten“, in: 
+                        <hi rend="italic">Sprachkunst: Beiträge zur Literaturwissenschaft</hi> 62: 321–338. DOI: 10.1553/spk42_2.
+                    </bibl>
+                    <bibl>
+                        <author>Dácz, Enikő</author> (2020): „Horizonterweiterungen: ‚Die Karpathen‘, ‚Das Ziel‘ und ‚Das Neue Ziel‘“, in: Dácz, Enikő / Jakabházi, Réka (eds.): 
+                        <hi rend="italic">Literarische Rauminszenierungen in Zentraleuropa: Kronstadt/Braşov/Brassó in der ersten Hälfte des 20. Jahrhunderts</hi>. Regensburg: Friedrich Pustet 89–110.
+                    </bibl>
+                    <bibl>
+                        <author>Engel, Walter</author> (2013): 
+                        <hi rend="italic">Blickpunkt Banat: Beiträge zur rumäniendeutschen Literatur und Kultur: Studien </hi>– 
+                        <hi rend="italic">Aufsätze </hi>– 
+                        <hi rend="italic">Gespräche </hi>– 
+                        <hi rend="italic">Rezensionen (1968</hi>–
+                        <hi rend="italic">2012)</hi>. München: Landsmannschaft der Banater Schwaben. 
+                    </bibl>
+                    <bibl>
+                        <author>Hegyi, Noemi</author> (2020): „Raumkonstruktionen in ‚Klingsor‘ in den 1920er-Jahren“, in: Dácz, Enikő / Jakabházi, Réka (eds.): 
+                        <hi rend="italic">Literarische Rauminszenierungen in Zentraleuropa: Kronstadt/Braşov/Brassó in der ersten Hälfte des 20. Jahrhunderts</hi>. Regensburg: Friedrich Pustet 111–135.
+                    </bibl>
+                    <bibl>
+                        <author>Motzan, Peter</author> (1997): „Die Szenerien des Randes: Region, Insel, Minderheit. Die deutsche(n) Literatur(en) in Rumänien nach 1918 – ein kompilatorisches Beschreibungsmodell“, in: Grunewald, Eckhard / Sienerth, Stefan (eds.): 
+                        <hi rend="italic"> Deutsche Literatur im östlichen und südöstlichen Europa</hi>. München: Südostdeutsches Kulturwerk 73–102. 
+                    </bibl>
+                    <bibl>
+                        <author>Sapiro, Gisèle</author> (2019): „Netzwerke, Institution(en) und Feld“, in: Knapp, Lore (ed.): 
+                        <hi rend="italic">Literarische Netzwerke im 18. Jahrhundert: Mit den Übersetzungen zweier Aufsätze von Latour und Sapiro</hi>. Bielefeld: Aisthesis 207–222. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

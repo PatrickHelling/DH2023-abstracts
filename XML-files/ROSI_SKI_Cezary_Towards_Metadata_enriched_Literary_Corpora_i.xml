@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards Metadata-enriched Literary Corpora in Line with FAIR Principles: 19/20MetaPNC</title>
+                <author n="RosiskiCezaryROSI_SKI_Cezary_Towards_Metadata_enriched_Literary_Corpora_i.xml"><persName ref="https://orcid.org/0000-0002-6136-7186" n="RosiskiCezary">
+                        <surname>Rosiński</surname>
+                        <forename>Cezary</forename>
+                    </persName><affiliation>The Institute of Literary Research of the Polish Academy of Sciences, Poland</affiliation><email>cezary.rosinski@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KarliskaAgnieszkaROSI_SKI_Cezary_Towards_Metadata_enriched_Literary_Corpora_i.xml"><persName ref="https://orcid.org/0000-0002-4846-7086" n="KarliskaAgnieszka">
+                        <surname>Karlińska</surname>
+                        <forename>Agnieszka</forename>
+                    </persName><affiliation>NASK National Research Institute</affiliation><email>agnieszka.karlinska@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KubisMarekROSI_SKI_Cezary_Towards_Metadata_enriched_Literary_Corpora_i.xml"><persName ref="https://orcid.org/0000-0002-2016-2598" n="KubisMarek">
+                        <surname>Kubis</surname>
+                        <forename>Marek</forename>
+                    </persName><affiliation>Adam Mickiewicz University in Poznan, Poland</affiliation><email>marek.kubis@amu.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HubarPatrykROSI_SKI_Cezary_Towards_Metadata_enriched_Literary_Corpora_i.xml"><persName ref="https://orcid.org/0000-0001-5582-2042" n="HubarPatryk">
+                        <surname>Hubar</surname>
+                        <forename>Patryk</forename>
+                    </persName><affiliation>The Institute of Literary Research of the Polish Academy of Sciences, Poland</affiliation><email>patryk.hubar@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WieczorekJanROSI_SKI_Cezary_Towards_Metadata_enriched_Literary_Corpora_i.xml"><persName ref="https://orcid.org/0000-0001-8709-7754" n="WieczorekJan">
+                        <surname>Wieczorek</surname>
+                        <forename>Jan</forename>
+                    </persName><affiliation>Wroclaw University of Science and Technology, Poland</affiliation><email>jan.wieczorek@pwr.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We aim to introduce a comprehensive workflow for the enrichment and linking the metadata of a literary corpus, including an implementation of FAIR principles, which have been developed in the field of scientific data management. We will present the practical application of the workflow using a corpus of Polish novels.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>literary corpora</term>
+                    <term>metadata enrichment</term>
+                    <term>FAIR principles</term>
+                    <term>Linked Open Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>We aim to introduce a comprehensive workflow for the enrichment and linking the metadata of a literary corpus, including an implementation of FAIR principles, which have been developed in the field of scientific data management. The metadata compiled following the proposed workflow enables the evaluation of the corpus representativeness and its balancing according to different features. The proposed formula is very adaptable and open to new applications by easy extension of the metadata schema and, as a consequence, the corpus is highly customisable to the possibly wide spectrum of research questions and theoretical frameworks. We will present the application of the workflow in practice using the example of 19/20MetaPNC, a corpus of Polish novels first published in book form between 1864 and 1939.</p>
+            <p>The practice of building corpora for literary research is relatively new, and model procedures for designing collections of literary texts or describing them with metadata have not yet been developed. Procedures founded in experience derived from linguistic corpora cannot be applied uncritically in this case, as the functions and expectations of literary and linguistic corpora are distinct.</p>
+            <p>In Poland, there is no representative and balanced corpus of novels. Most Polish literary corpora were designed for particular research projects, have not been robustly described with metadata and do not meet the criteria of interoperability and reusability. Evaluation of existing corpora shows a common lack of metadata verification. This is caused, on the one hand, by an over-reliance on institutional sources of metadata and the assumption that they should be accurate, and, on the other hand, by the lack of possibility to compare and validate metadata with other sources (the lack or insufficient use of LOD leads to isolation of sources).</p>
+            <p>For the purpose of building the 19/20MetaPNC corpus, we collected 5326 texts from four sources: the ELTeC corpus, the Wolne Lektury website, the Polish edition of the Wikisource project and the Polona digital library. The texts were imported into the CoNLL-U Plus format. We corrected OCR errors and carried out diachronic normalisation. Our goal was to create a representative corpus of Polish prose for the purpose of conducting spatial-diachronic literary research (Karlińska et al 2022). Therefore, we described this dataset with a rich set of metadata, which we used to balance version 1.0 of the 19/20MetaPNC corpus (Fig. 1).</p>
+            <figure>
+                <graphic n="1001" width="15.951966666666667cm" height="11.072772222222222cm" url="Pictures/47d6b38ac7ae66528bfe65e428755ed3.png" rend="inline"/>
+                <head>Figure 1: Mosaic diagram of the relationships between the characteristics of the novels in 19/20MetaPNC.</head>
+            </figure>
+            <p>The original metadata that come with the source texts were supplemented both in automatic and manual manner. We linked texts to metadata from library catalogues, using the services of the National Library of Poland, and then enriched the entities with permanent identifiers (PIDs) of widely used databases: VIAF, Wikidata, and Geonames. Simultaneously, the collection of texts was manually annotated, which covered the time of the novel’s action and also verified for original language and genre.</p>
+            <p>The metadata with which we have used to describe the corpus eludes the traditional model of archiving and sharing collections, which are well-known from domain bibliographies or library catalogues. None of the commonly used bibliographic data formats is capacious enough to capture information crucial to our research, such as the geographical coordinates of the places described in the novel.</p>
+            <p>However, neither the arbitrary format of metadata notation that we adopted, nor other available formats allow for the scientific reuse of a literary corpus. Our goal is to devise a procedure that can be easily adapted to other kinds of literary research. In order to fulfil this, it is necessary to provide both a universal, open and flexible way of adding further metadata categories, corresponding to current research needs, and to propose methods of structuring them in such a way that they are intuitive for subsequent researchers unaware of the previous shape of the metadata.</p>
+            <p>For this purpose, we propose a workflow for the meta-description of the corpus, which is based on state-of-the-art solutions in line with FAIR principles for making data available on the Internet. We propose the use of the Resource Description Framework (RDF) metadata format and the open-source Wikibase software, enabling the storing and sharing of data compatible with Linked Open Data. We use the Wikidata service as a graph database, thus giving a wide spectrum of possibilities for developing links with interdisciplinary datasets, e.g. VIAF, Worldcat, Library of Congress, ISNI. We provide a Semantic Web-ready solution for creating interchangeable and machine-readable metadata for literary corpora description, particularly tailored to the needs of a diverse scientific community.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Herrmann, Berenika</author> / <author>Lauer, Gerhard</author>  (2018): 
+                        “Korpusliteraturwissenschaft. Zur Konzeption und Praxis am Beispiel eines Korpus zur literarischen Moderne”,
+                        
+                           
+                             in:
+                        <hi rend="italic">Osnabrücker Beiträge zur Sprachtheorie</hi> 92: 127–56.
+                    </bibl>
+                    <bibl>
+                        <author>Karlińska, Agnieszka</author> / <author>Rosiński, Cezary</author> / <author>Wieczorek, Jan</author> / <author>Hubar, Patryk</author> / <author>Kocoń, Jan</author> / <author>Kubis, Marek</author> / <author>Woźniak, Stanisław</author> / <author>Margraf, Arkadiusz</author> / <author>Walentynowicz, Wiktor</author>  (2022): 
+                        “Towards a Contextualised Spatial-Diachronic History of Literature: Mapping Emotional Representations of the City and the Country in Polish Fiction from 1864 to 1939”,
+                           
+                             in: 
+                        <hi rend="italic">Proceedings of the 6th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>, 
+                        <hi rend="italic">International Conference on Computational Linguistics</hi>, 115–25.
+                    </bibl>
+                    <bibl>
+                        <author>Lindemann, David</author> (2021): 
+                        “LOD-ification of Bibliographical Data Using Free Software: CLB-LOD Wikibase”
+                        
+                        <ref target="https://doi.org/10.5281/zenodo.7250730">https://doi.org/10.5281/zenodo.7250730</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> / <author>Patraș, Roxana</author> / <author>Santos, Diana</author> / <author>Erjavec, Tomaž</author>  (2021): 
+                        “Creating the European Literary Text Collection (ELTeC): Challenges and Perspectives”,
+                        
+                        
+                             in: 
+                        <hi rend="italic">Modern Languages Open</hi> 
+                        <ref target="https://doi.org/10.3828/mlo.v0i0.364">https://doi.org/10.3828/mlo.v0i0.364</ref> [28.04.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

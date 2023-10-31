@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration in Practice: Data Comics in Learning Management Systems</title>
+                <author n="KnigshoferElisabethW_NSCHE_Katharina_Collaboration_in_Practice__Data_Comics_in_.xml"><persName n="KnigshoferElisabeth">
+                        <surname>Königshofer</surname>
+                        <forename>Elisabeth</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage, Austria</affiliation><email>elisabeth.koenigshofer@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WnscheKatharinaW_NSCHE_Katharina_Collaboration_in_Practice__Data_Comics_in_.xml"><persName n="WnscheKatharina">
+                        <surname>Wünsche</surname>
+                        <forename>Katharina</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage, Austria</affiliation><email>katharina.wuensche@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Comics are becoming increasingly popular among researchers for the communication of scientific findings. Our goal is to investigate and nurture their potential as an educational tool in tutorials by running user tests and evaluating the amount of retained knowledge compared to other ways of presentation such as screencasts and articles.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Data comics</term>
+                    <term>LMS</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>user experience design and analysis</term>
+                    <term>Cognitive sciences and psychology</term>
+                    <term>Communication studies</term>
+                    <term>Education/ pedagogy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Comics have enjoyed great popularity for quite some time, not only among fans of superheroes and Mickey Mouse, but more recently also among researchers as a medium for communicating scientific findings in the form of (data) comics (Bach et al. 2018, Bach et al. 2017, Zhao et al. 2015, Wang et al. 2021, Bouchard et al. 2018). They have become a staple tool in teaching (visual) literacy in educational settings for their engaging visuals, effective interaction of image and text, and increased information retention in learners (Short et al. 2013). While some researchers have already described the use of comics in interactive systems (McCloud, Dylan et al. 2016), our goal is to investigate and nurture the potential of data comics as educational tool in tutorials on the ACDH-CH self-study platform HowTo which is a self-paced learning platform aimed at ACDH-CH researchers and the Austrian Digital Humanities community and has been created as part of the DiTAH - Digital Transformation of Austrian Humanities - project. In our project, we argue that a collaboration in merging data representation and didactics lays the groundwork for successful science communication.</p>
+            <p>Combining the flexibility of 2-dimensional spatial layout of infographics and the linearity of narration inherent to videos and live presentations (Bach et el. 2018), comics offer unique possibilities for the presentation of data but also for the representation of interaction within a system (Short et al. 2013). Recent studies on data comics have identified that the interplay of text, image, panel structure and sequence (Data Comics 2021) can enhance user-friendly science communication, depending on the comic design (Bach et al. 2018). Sequential art and using ‘imagery as communicator’ (Eisner 1985: 13) supports understanding of complex problems. However, learners need to be trained in visual literacy to be able to extract information successfully. Therefore, we argue that data comics make use of familiar visual cues to transport meaning.</p>
+            <p>In our case study, we will investigate how data comics can affect and improve learning outcomes and knowledge retention in the ACDH-CH’s Learning Management System (LMS) HowTo (ACDH-CH 2022). We will use learning materials created for the ACDH-CH Dylen project which investigates diachronic dynamics of Austrian German lexicographic networks in authentic language data (Wissik et al. 2021). First, these materials are transformed into a number of learning paths and learning objectives to enable users to expand their knowledge on the project, following Bloom’s revised taxonomy (from passively remembering and understanding to actively applying and evaluating learning objectives) (Armstrong 2010). These learning paths include a screencast, an article-style tutorial and data comics following different patterns. Second, we run a series of user tests to understand which and how much information is retained, depending on the chosen learning path. We generate a number of tutorials that allow users to choose their preferred mode of learning (text, video, data comic) and track how much of the presented knowledge is retained in each medium. We do so by conducting multiple user tests with focus groups and online questionnaires, using both quantitative and qualitative methods. Using the web analytics tool Matomo (Matomo 2022), statistical information such as the number of clicks and the amount of time users spend on each of the tutorials will be evaluated as well. Our findings will be used to improve the quality of the tutorials in the HowTo platform and, based on our findings, we aim to create guidelines for the HowTo community. Given that our poster presentation will at the same time be a data comic, we would like to conduct an in-person field test at the DH2023 where we will present our findings and invite visitors to participate in our research via their mobile devices.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Armstrong, Patricia</author> (2010): “Bloom’s Taxonomy”, Vanderbilt University Center for Teaching 
+                        <ref target="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/</ref> [02.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Austrian Centre for Digital Humanties and Cultural Heritage (ACDH-CH)</author> (2022): HowTo. 
+                        <ref target="https://howto.acdh.oeaw.ac.at/">https://howto.acdh.oeaw.ac.at/</ref> [28.04.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Bach, Benjamin</author> / <author>Henry Riche, Nathalie</author> / <author>Carpendale, Sheelagh</author> / <author>Pfister, Hanspeter</author>  (2017): “The Emerging Genre of Data Comics” in: 
+                        <hi rend="italic">IEEE Computer Graphics and Applications</hi> 38, 6-13. DOI: 10.1109/MCG.2017.33.
+                    </bibl>
+                    <bibl>
+                        <author>Bach, Benjamin</author> / <author>Wang, Zezhong</author> / <author>Farinella, Matteo</author> / <author>Murray-Rust, Dave</author> / <author>Henry Riche, Nathalie</author>  (2018): “Design Patterns for Data Comics”, in: Association for Computing Machinery (CHI ’18): 
+                        <hi rend="italic">Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, </hi>New York, NY, USA, 1–12. DOI: 10.1145/3173574.3173612.
+                    </bibl>
+                    <bibl>
+                        <author>Bouchard, Frédéric</author> / <author>Sansoulet, Julie</author> / <author>Fritz, Michael</author> / <author>Malenfant-Lepage, Julie</author> / <author>Nieuwendam, Alexandre</author> / <author>Paquette, Michel</author> / <author>Harbor, Jon</author>  (2018). “Frozen-Ground Cartoons: Permafrost comics as an innovative tool for polar outreach, education, and engagement”, Polar Record, 54(5-6), 366-372. DOI: 10.1017/S0032247418000633 
+                    </bibl>
+                    <bibl>
+                        <author>Data Comics </author>(2021): “3 Essential Features of Good Comics” 
+                        <ref target="https://www.datacomics.net/2021/07/25/3-essential-features-of-good-comics/">https://www.datacomics.net/2021/07/25/3-essential-features-of-good-comics/</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Dylan, Thomas</author> / <author>Wallace, Jayne</author> / <author>Blythe, Mark</author> / <author>Thomas, James</author>  (2016): “Paper Street View: A Guided Tour of Design and Making Using Comics”, in: Association for Computing Machinery Systems (DIS '16): 
+                        <hi rend="italic">Proceedings of the 2016 ACM Conference on Designing Interactive</hi>, New York, NY, USA, 334–346. DOI: 10.1145/2901790.2901904.
+                    </bibl>
+                    <bibl>
+                        <author>Eisner, Will</author> (1985): 
+                        <hi rend="italic">Comics and Sequential Art.</hi> Poorhouse Press.
+                    </bibl>
+                    <bibl>Matomo (2022) 
+                        <ref target="https://matomo.org/">https://matomo.org/</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>McCloud, Scott</author>: 
+                        <hi rend="italic">Google Chrome: Behind the Open Source Browser Project.</hi>
+                        <ref target="https://www.google.com/googlebooks/chrome/">https://www.google.com/googlebooks/chrome/</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Short, Jeremy</author> / <author>Randolph-Seng, Brandon</author> / <author>McKenny, Aaron</author>  (2013). “Graphic Presentation: An Empirical Examination of the Graphic Novel Approach to Communicate Business Concepts”, in: 
+                        <hi rend="italic">Business Communication Quarterly</hi> 76, 273-303. DOI: 10.1177/1080569913482574.
+                    </bibl>
+                    <bibl>
+                        <author>Wang, Zezhong</author> / <author>Ritchie, Jacob</author> / <author>Zhou, Jingtao</author> / <author>Chevalier, Fanny</author> / <author>Bach, Benjamin</author>  (2021): "Data Comics for Reporting Controlled User Studies in Human-Computer Interaction", in: 
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics</hi> 27, 2: 967-977. DOI: 10.1109/TVCG.2020.3030433.
+                    </bibl>
+                    <bibl>
+                        <author>Wissik, Tanja</author> / <author>Neidhardt, Julia</author> / <author>Baumann, Andreas</author> / <author>Wünsche, Katharina</author> / <author>Kirnbauer, Martin</author> / <author>Pirker, Hannes</author> / <author>Marakasova, Anna</author> / <author>Sertkan, Mete</author> / <author>Hofmann, Klaus</author> / <author>Cetin, Asil</author>  (2021): Dylen. 
+                        <ref target="https://dylen.acdh.oeaw.ac.at/about/">https://dylen.acdh.oeaw.ac.at/about/</ref> [28.04.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Zhao, Zhenpeng</author> / <author>Marr, Rachael</author> / <author>Elmqvist, Niklas</author>  (2015): 
+                        <hi rend="italic">Data comics: Sequential art for data-driven storytelling.</hi> University of Maryland: HCIL Technical Report HCIL-2015-15.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

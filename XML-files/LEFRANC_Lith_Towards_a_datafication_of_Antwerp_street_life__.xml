@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards a datafication of Antwerp street life? Co-creating a dataset of
+                    100.000+ pages of handwritten police reports (1876-1945)</title>
+                <author n="LefrancLithLEFRANC_Lith_Towards_a_datafication_of_Antwerp_street_life__.xml"><persName ref="https://orcid.org/0000-0002-6860-552X" n="LefrancLith">
+                        <surname>Lefranc</surname>
+                        <forename>Lith</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>lith.lefranc@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster presents the collaborative creation of a dataset of 100.000+ pages of handwritten police reports as a successful example of large-scale digitisation initiatives by small-scale research projects. It shows efficient solutions for applying Handwritten Text Recognition techniques on challenging historical documents and for bypassing noisy training material.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>handwritten text recognition</term>
+                    <term>social history</term>
+                    <term>collaboration</term>
+                    <term>dataset</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>crowdsourcing</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Since the 1960s, when the so-called ‘new social
+                historians’ started questioning mainstream historical narratives and experiences,
+                new historical sources such as police and judicial sources came under scrutiny,
+                putting the spotlight on social groups and ‘people without history’ who have left
+                almost no paper trail of their own (Thompson 1963; Wolf 1982). These historical
+                documents have been valuable for a myriad of approaches which are not necessarily
+                crime-related: working-class history, the history of mentalities, gender and
+                sexuality history, youth and family history, <hi rend="italic">Alltagsgeschichte</hi>, and so on. Up until today, qualitative methodological
+                approaches have dominated this research area, emphasising thick description and
+                case-based research. Only recently, social historians have been discovering the
+                potential of data-driven approaches towards criminal records (e.g. Van den Heuvel
+                2020; Saygi / Yasunaga 2021). One of the most straightforward explanations for this
+                lag is the lack of machine-readable data. Nineteenth-century bureaucratisation
+                processes have left historians of the modern period with an abundance of archival
+                material, but only the tip of the iceberg is digitally available, let alone
+                searchable. Grand digitisation initiatives such as Old Bailey Online remain scarce
+                because they require a lot of time, money, and labour (Hitchcock et al. 2012). In
+                response, crowdsourcing platforms have been popping up like mushrooms, but these are
+                often ill-suited for researchers with limited means such as PhDs.  </p>
+            <p>Over the past few years, the technique of Handwritten Text
+                Recognition (HTR) – made accessible through e.g. Transkribus and eScriptorium –
+                improved greatly, which broke new ground for small-scale research projects
+                (Muehlberger et al. 2019; Kiessling et al. 2019). In this poster, I will present a
+                dataset of approximately 100.000 HTRed pages of local police reports from the city
+                of Antwerp (1876-1945). Apart from the dataset specifics, I will show the challenges
+                for HTR-training, which relied on both gold standard expert transcriptions, and
+                semi-gold standard material provided by undergraduate students. Both collections
+                will be scrutinised, and solutions will be examined for bypassing noisy training
+                data. I hope that this presentation not only encourages qualitative social
+                historians to test their hypotheses on ‘big data’, but also inspires them to step by
+                step unlock more underexplored paper archives for data-driven research.  </p>
+            <div type="div1">
+                <head>Dataset specifics</head>
+                <div type="div2">
+                    <head>Incident books</head>
+                    <p>From the 1860s onwards Antwerp police officers
+                        were obliged to write a daily report after patrolling their respective
+                        neighbourhoods in the so-called ‘incident books’. One of the major
+                        historiographical benefits is the fact that these reports not only document
+                        prosecuted crimes, but non-prosecuted misdemeanours and other irregularities
+                        as well. Therefore, they give a very extensive account of all sorts of
+                        happenings on the Antwerp streets, such as neighbourhood quarrels, monkey
+                        tricks, lost children… The serial character of the incident books ensures a
+                        consistent registration of who (gender, profession, age, place of residence
+                        and birth) was when (date and time of day) and where (address) doing what
+                        (detailed description of incident) (see image below). </p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="8.198555555555556cm" url="Pictures/487bab31453d2993389b0d2e36d2d0be.png" rend="inline"/>
+                        
+                    </figure>
+                </div>
+                <div type="div2">
+                    <head>Space and time</head>
+                    <p>The dataset consists of 326 books which date from
+                        1876 to 1945 and are located within 11 different police districts. The data
+                        is not spread evenly throughout space and time. Most pages contain police
+                        reports dedicated to the third and the sixth district (predominantly
+                        bourgeois districts), and the page number increases during the 1930s and the
+                        Second World War (a period of increasing police surveillance). </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>HTR-training results</head>
+                <p>The incident books were very challenging for
+                    HTR-training because they contain numerous different handwritings and are
+                    written in French as well as Dutch. Furthermore, the difficult and irregular
+                    layout of the reports made segmentation very time-consuming. I have worked with
+                    two different training sets: gold standard expert transcriptions, and semi-gold
+                    standard material provided by undergraduates. The former consists of 326 pages
+                    selected randomly from each incident book and the latter contains several
+                    samples (in total 3000 pages).   </p>
+                <p>Despite the imperfect undergraduate work, the models
+                    trained on all the material performed best, but unfortunately only led up to a
+                    (still unsatisfactory) character error rate (CER) of 9.3%. After systematically
+                    analysing the word and character errors of this model, I managed to improve the
+                    CER up to 6.3% by eliminating skewed text and signature marks. Finally, I
+                    switched to a more relaxed evaluation of the model by lowercasing all text and
+                    excluding interpunction and redundant spacing characters.</p>
+                <p>The fully HTRed dataset consists of about 30,5 million
+                    words and will soon be published in open-access format.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kiessling, Benjamin</author> et al. (2019): “eScriptorium: An
+                        Open Source Platform for Historical Document Analysis”, in: International
+                        Conference on Document Analysis and Recognition Workshops (ICDARW), 2:
+                        19–24. </bibl>
+                    <bibl>
+                        <author>Hitchcock, Tim</author> et al. (2012): The Old Bailey
+                        Proceedings Online, 1674-1913, <ref target="https://www.oldbaileyonline.org">https://www.oldbaileyonline.org</ref> [4.11.2022]; </bibl>
+                    <bibl>
+                        <author>Muehlberger, Guenter</author> et al. (2019): “Transforming
+                        scholarship in the archives through handwritten text recognition:
+                        Transkribus as a case study”, I,: Journal of Documentation 75, 5: 954–976. </bibl>
+                    <bibl>
+                        <author>Saygi, Gamze</author> / <author>Yasunaga, Marie</author>  (2021): “The digital
+                        urban experience of a lost city using mixed methods to depict the historical
+                        street life of Edo/Tokyo”, in: Magazén 2, 2: 193-224. </bibl>
+                    <bibl>
+                        <author>Thompson, Edward Palmer</author> (1963): The Making of the
+                        English Working Class. London: Victor Gollancz Ltd. </bibl>
+                    <bibl>
+                        <author>van den Heuvel, D.</author> et al. (2020): “Capturing gendered
+                        mobility and street use in the historical city: a new methodological
+                        approach”, in: Cultural and Social History 17, 4: 515–536. </bibl>
+                    <bibl>
+                        <author>Wolf, Eric</author> (1982): Europe and the People without
+                        History. Berkeley: University of California Press. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

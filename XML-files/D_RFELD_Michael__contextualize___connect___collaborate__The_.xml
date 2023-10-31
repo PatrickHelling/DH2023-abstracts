@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> contextualize - connect - collaborate: The Architecture Research Stage as an Experimental Pilot Project </title>
+                <author n="DrfeldMichaelD_RFELD_Michael__contextualize___connect___collaborate__The_.xml"><persName n="DrfeldMichael">
+                        <surname>Dürfeld</surname>
+                        <forename>Michael</forename>
+                    </persName><affiliation>Technische Universität Berlin</affiliation><email>michael.duerfeld@tu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ListFerdinandD_RFELD_Michael__contextualize___connect___collaborate__The_.xml"><persName n="ListFerdinand">
+                        <surname>List</surname>
+                        <forename>Ferdinand</forename>
+                    </persName><affiliation>Universität der Künste Berlin</affiliation><email>f.list@udk-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SteinChristianD_RFELD_Michael__contextualize___connect___collaborate__The_.xml"><persName n="SteinChristian">
+                        <surname>Stein</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>Humboldt-Universität zu Berlin</affiliation><email>christian.stein@hu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RahmanZeadD_RFELD_Michael__contextualize___connect___collaborate__The_.xml"><persName n="RahmanZead">
+                        <surname>Rahman</surname>
+                        <forename>Zead</forename>
+                    </persName><affiliation>Technische Universität Berlin</affiliation><email>zead.rahman@tu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DiasRenataD_RFELD_Michael__contextualize___connect___collaborate__The_.xml"><persName n="DiasRenata">
+                        <surname>Dias</surname>
+                        <forename>Renata</forename>
+                    </persName><affiliation>Universität der Künste Berlin</affiliation><email>realdias@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>ARS is a networking platform for architecture research that enables new interdisciplinary collaborations. The presentation outlines the infrastructural need for a platform like ARS and explains the underlying collaboration model relying on graph-technology. A showcase of the prototype displays and discusses learnings from first user tests and the development process.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Collaboration</term>
+                    <term>Architecture Research</term>
+                    <term>Actor Network Platform</term>
+                    <term>Graphtechnology</term>
+                    <term>Experimental Pilot Project</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital ecologies and digital communities creation management and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Demands associated with scientific communication are currently undergoing considerable change. The need for researchers to share their findings openly and actively network and collaborate with other researchers on a self-organised level is part of a comprehensive institutional transformation which is still developing its infrastructures. Digital technologies provide new options here that accommodate a changing knowledge culture and can open up new connectivity and working modes.</p>
+            <div type="div1">
+                <head>Collaborative architecture research</head>
+                <p>The<hi rend="italic"> Architecture Research Stage - ARS</hi> (www.architectureresearchstage.de) develops and tests such a networking platform for architecture research. Architecture research is faced with a considerable challenge in this respect, as it develops in a multitude of different and, indeed, unrelated disciplines. These include disciplines shaped by humanistic and social science, such as architecture history, architecture theory and urban sociology, scientifically characterised disciplines such as building chemistry and building physics, engineering disciplines such as structural design and architecture acoustics and, indeed, design disciplines. Moreover, this research is not confined to academic area, being also encountered in architecture offices and engineering businesses and in industry as a whole. However, the potential inherent in architecture research is, as evident in architecture practice, to be found in the synthesis created through collecting and uniting knowledge from these different disciplines. The aim of ARS is to expand specialised scientific communication in academia into interdisciplinary research collaboration that reaches out to non-academic areas. ARS therefore explicitly addresses all those involved in architecture research, whether in academic or non-academic areas, individually or collectively, and regardless of whether they themselves produce, publish, present, discuss or manage research output as professionals, students or interested members of the lay community.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Infrastructural requirement</head>
+                <p>If such collaborative architecture research is to be promoted, an infrastructure is required that allows all researchers in the aforementioned areas to network both themselves and their research on a productive level and build their own community. Only this can create the sustainable momentum needed for self-organisation of the research community. An appropriate infrastructure that addresses the specific needs of researchers in architecture has to date been noticeably absent. Existing repositories and technical information services primarily aggregate and archive research results, but they fail to offer any satisfactory functions for networking. It is the so-called academic network platforms, such as Academia.edu and ResearchGate, that react to this need and have found their market niche here. That said, they do not meet open access standards, nor do they observe FAIR Data Principles or guarantee long-term storage of data. If the research community does not wish to become dependent on private sector oriented platforms or software systems, it must develop networking platforms itself that address specific disciplines.</p>
+            </div>
+            <div type="div1">
+                <head>Collaboration model</head>
+                <p>ARS provides an overarching model and an active networking infrastructure for collaborative architecture research. In addition to publications and data, the contexts of architecture research are generated, networked and rendered visible on a common web-based platform for the first time. On the basis of an actor model for interdisciplinary collaboration, respective creative contexts are described and evaluated independently by researchers and complemented through alternatives, wishes and needs. Drawing on the actor-network theory of Bruno Latour (Latour and Woolgar 1979) and the network theory of Harrison White (White 2008), human and non-human influencing factors on the research process are collected under the actor heading. Drawing on preceding research of interdisciplinary research contexts (Dürfeld et al. 2021), eleven different actor classes were identified as relevant in this context: people, organizations, topics, methods, sources, events, tasks, tools, places, times and money. These actors are united through specific semantically formulated relations that enable comparative modelling, analysis and planning of complex research contexts.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Implementation</head>
+                <p>Core element of ARS is the 
+                    <hi rend="italic">plusPublication</hi> that connect research output with their specific creation context. The 
+                    <hi rend="italic">plusPublications</hi> are compiled by researchers themselves and, consequently, always provide information on their own creation. This includes which tools and methods were applied, which people were involved in discussions, which organizations supported the research, which sources were drawn upon, which events influenced the research process, which places was work conducted in, which tasks needed to be realised and how much time and money were available (Fig.1). Research outputs and research contexts are automatically networked through graph technology based on the Neo4j open-source graph database. The architecture research actor network is depicted through a searchable image-based, variable interface. An 
+                    <hi rend="italic">Actor Card</hi> was developed as a central image element for this purpose. This card contains and visually depicts all information relating to the actor (Fig.2). Different views enable individual and specific viewing of the network (Fig.3-5).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Added value</head>
+                <p>The added value ARS provides is to be found in five central areas: (1) increasing the visibility of one's own research and networking with architecture researchers through presentation on an innovative research platform, (2) customised location of cooperation partners for new projects, (3) publication and finding of detailed, evaluated research data, (4) reflection on one's own approach to research through the identification of repetitions, gaps and patterns and (5) participation in an active architecture research community. Central functions of the experimental pilot project sponsored by the German Research Foundation (
+                    <hi rend="italic">Deutsche Forschungsgemeinschaft</hi>) over three years (2021-2024) are the development, testing and evaluation of ARS. The findings serve as a decision-making tool for national and international expansion in a follow-up project. It is a joint project involving the Technische Universität Berlin and the Universität der Künste Berlin, along with the participation of academic and non-academic cooperation partners in Berlin-Brandenburg.
+                </p>
+                <p>The lecture aims to outline the fundamental concept, present application prototypes with initial data records from the cooperation partners and discuss experience and insights from the first user tests and the development process.</p>
+                <p><figure>
+                        <graphic url="Pictures/ffde1bc28d1e26d0db6f1538245c837f.jpg"/>
+                        <head>Fig.1: ARS - plusPublication, ARS Project 2022, CC by 4.0</head>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/d207abe7be10dbf0d1a5baab10c9fce2.jpg"/>
+                        <head>Fig.2: ARS - Actor Card, ARS Project 2022, CC by 4.0</head>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/8d0167264c225de94f9befbbe5d6978e.png"/>
+                        <head>Fig.3: ARS - Stage View, ARS Project 2023, CC by 4.0</head>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/47542741e09dcc50347dfa69d4fcbf9d.png"/>
+                        <head>Fig.4: ARS - Actor View, ARS Project 2023, CC by 4.0</head>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/26903ec46b413e5843a55d5fbc303196.png"/>
+                        <head>Fig.5: ARS - Modelling View, ARS Project 2023, CC by 4.0</head>
+                    </figure></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Dürfeld, Michael</author> / <author>Schultz, Anika</author> / <author>Stein, Christian</author> / <author>Thomack, Benjamin</author> / <author>Zeissig, Nadia</author> (2021): "Kollaborative Architekturforschung als Programm einer Architekturwissenschaft", in: Almarza Anwandter, Juan / Bovelet, Jan / Dürfeld, Michael / Froschauer, Eva Maria / Neubert, Christine / Schneider, Peter I. / Weckherlin, Gernot (eds.): 
+                        <hi rend="italic">Architekturwissenschaft. Vom Suffix zur Agenda</hi>
+                        <hi rend="italic">.</hi> Berlin: Universitätsverlag der TU Berlin 210-233.
+                    </bibl>
+                    <bibl><author>Latour, Bruno</author> / <author>Woolgar, Steven</author> (1979): 
+                        <hi rend="italic">Laboratory Life: The Construction of Scientific Facts</hi>. Beverly Hills: Sage Publications.
+                    </bibl>
+                    <bibl><author>White, Harrison C. </author>(2008): 
+                        <hi rend="italic">Identity and Control: How Social Formations Emerge</hi>. Princeton: University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

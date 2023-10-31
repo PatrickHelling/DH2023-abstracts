@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Buddhist Murals of Kucha on the Northern Silk Road. A Follow
+                        Up on Semi Automated Annotation Using RCNNs.</title>
+                <author n="RadischErikRADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml"><persName n="RadischErik">
+                        <surname>Radisch</surname>
+                        <forename>Erik</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities in Leipzig,
+                        Germany</affiliation><email>radisch@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Last Year, I have presented our first experiments, which tested, if it is possible to use RCNNs for semi-automated annotation in our project. As those experiments were very promising, we now want to present our prototype of semi-automated annotation using RCNNs, which is currently under developement.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>RCNN</term>
+                    <term>Annotation</term>
+                    <term>Pictures</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Archaeology</term>
+                    <term>Art history</term>
+                    <term>Asian studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Buddhist cave complexes in the region of Kucha, located on the northern Silk Road
+                (in the Xinjiang Uyghur Autonomous Region, China) house impressive wall paintings
+                dating approximately from the 5thto 10thcenturies. The first evidence of a past
+                Buddhist culture was discovered at the beginning of the 20th century. It was a
+                sensation when various Buddhist cave complexes were discovered. At that time, the
+                first photographs of the actual state of the caves were taken and pieces of the
+                paintings were extracted from the caves by western expeditions and transferred to
+                the respective national museums. Sales and losses due to war led to the fact that
+                nowadays fragments of the murals are spread all over the world, making it very
+                difficult to assign it to the individual caves of origin (Further information:
+                Yaldiz 1987; Popova 2008; Dreyer 2015).</p>
+            <p>Our project has taken on the task of documenting and describing the murals <hi rend="italic">in situ</hi>and the individual pieces available worldwide and,
+                with the help of historical photographs, of virtually reinserting them into their
+                original context. <ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn1" n="1"/></p>
+            <p>We make use of modern possibilities of the Digital Humanities in that not only an
+                extensive textual description of individual scenes is carried out, but also the
+                pictorial contents of the painted representations are recorded and enriched with
+                digital methods. For this purpose, the digital image annotation tool Annotorious
+                    <ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn2" n="2"/>(see figure1) is used to annotate the content with a taxonomy comprising
+                about 1,000 entries. The generated research data is freely available online. <ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn3" n="3"/> The pictorial annotation not only enables non-experts to recognise the
+                identified pictorial elements, it also serves as evidenceand warrants traceability
+                vis-à-vis other researchers, since the proof must be provided directly in the image.
+                The focus is not on creating a completely annotated corpus, but rather on describing
+                all elements that are or could be important for an identification ofthe
+                respectivescenes. </p>
+            <p><figure>
+                    <graphic url="Pictures/8f400e17cb83c6ae4e748a13ed8c2e8d.png"/>
+                    <head>Figure 1: Annotating a Monkey with Annotorious</head>
+                </figure></p>
+            <p>However, annotating is a very extensive and time-consuming task. Many objects have to
+                be annotated repeatedly because they appear in many images in changing contexts.
+                Also, there are sometimes several images of a painting from different perspectives
+                or times available.</p>
+            <p>Thus, there is a great need to at least semi automate the process of annotating
+                similar or same objects. However, transferring annotations is difficult. Even if
+                photographs of the same objects are available, changed viewpoints and different
+                lenses may cause the photographs to be distorted. It is hardly possible to perform
+                this task automatically using conventional computer vision methods.</p>
+            <p>For this reason, the project trained region based convolutional neural networks
+                (RCNNs) <ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn4" n="4"/>using the annotations already made, in order
+                to be able to perform at least parts of the annotation process semi-automatically in
+                the future. </p>
+            <p>So far, RCNNs have been used in the Digital Humanities mainly to identify, locate and
+                order objects in images (see for example: Howanitz et al. 2019; Arnold/Tilton 2019;
+                Duhaime 2019; Helm et al. 2021). Their use for semi-automated annotation was first
+                tested by the author in a poster presentation at the DH-Conference of last year.
+                    <ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn0" n="5"/> The large number of annotations
+                made our project perfect for such an endeavour: Nearly 10,000 polygons already
+                exist, which have been used in a total of nearly 11,500 annotations (a polygon can
+                be linked to several elements of the taxonomy). Some objects have been annotated
+                over 500 times. </p>
+            <p>However, there are also some problems to be considered. For example, there are two
+                fundamentally different types of imagery: Photographs (historical and modern) and
+                drawings of some paintings. Since these categories of images are very different,
+                they were also separated for the training.</p>
+            <p>The experiments of the last years poster presentation have showed, that the mAP <hi rend="sub">IoU=0.75</hi><hi rend="sub"><ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn5" n="6"/></hi>could be increased up to 0.599 for drawings, which is a satisfactory result for
+                a semi-automatic annotation. Photographs performed worse, mainly due to the bad
+                state of preservation of the paintings and also due to the limited number of
+                photographs. (Radisch 2022). To evaluate the experiments, the poster and those test
+                images which are freely available can be viewed online. <ref target="#RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn6" n="7"/></p>
+            <p><figure>
+                    <graphic url="Pictures/2aa0930e41f18fd8a4b028eb59bec23c.png"/>
+                    <head>Figure 2: Example for RCNN-output.</head>
+                </figure></p>
+            <p>Currently, we are conducting some more experiments, mainly on photos, to improve
+                their performance. However, though results are promising, one problem still remains.
+                Even the best results although they looked already like a comparable annotation had
+                fuzzy edges (see figure 2). This does not meet the standards of our project; it
+                actually could even increase the work of an annotator if annotations have to be
+                corrected manually. This problem was hence addressed in the implementation of a
+                first prototype. The functionality is the following: If a user wants to make a new
+                annotation, he or she can look up proposed annotations, which where found by the
+                RCNN. The user can directly accept or reject these annotations. He or she also has
+                the possibility to modify the proposed annotation by moving single points. To
+                address the fuzziness, the user also has the option to use a tool that automatically
+                aligns all points of an annotation to the closest contours in the picture. This
+                significantly reduces the fuzziness as seen in figure 3. </p>
+            <p><figure>
+                    <graphic url="Pictures/f04e0e0c7cba2c11f54000b05955e7f2.png"/>
+                    <head>Figure 3: Pre- and post example for contour allign.</head>
+                </figure></p>
+            <p>Whether the newly implemented semi-automated workflow can really safe time stillhas
+                to be determined. The newly implemented prototype therefore tracks the time a user
+                needs to annotate both manually and with the help of the proposed semi-automated
+                work flow described above. Both, the results of this time assessment and the
+                prototype of our workflow will be presented in our poster. </p>
+            <div type="div1">
+                <head/>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn1">
+                    <ref target="https://www.saw-leipzig.de/de/projekte/wissenschaftliche-bearbeitung-der-buddhistischen-hoehlenmalereien-in-der-kucha-region-der-noerdlichen-seidenstrasse/introduction/kucha-murals">https://www.saw-leipzig.de/de/projekte/wissenschaftliche-bearbeitung-der-buddhistischen-hoehlenmalereien-in-der-kucha-region-der-noerdlichen-seidenstrasse/introduction/kucha-murals</ref>. The Project has its own series «Leipzig Kucha Studies». The first book is:
+                    Konczak-Nagel/Zin 2020. </note><note n="2" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn2">
+                    <ref target="https://recogito.github.io/annotorious/">https://recogito.github.io/annotorious/</ref>
+                </note><note n="3" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn3">
+                    <ref target="https://kuchatest.saw-leipzig.de/">https://kuchatest.saw-leipzig.de/</ref>
+                </note><note n="4" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn4">The project uses for this purpose
+                    detectron2 (Wu et al. 2019).</note><note n="5" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn0">There is also another project, following
+                    a similar approach: (Kipke et al. 2022).</note><note n="6" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn5">This measurement indicates the Mean
+                        Average Precision at a minimum matching of a region with the gold standard
+                        of 75%.</note><note n="7" xml:id="RADISCH_Erik__Buddhist_Murals_of_Kucha_on_the_Northern_Silk_.xml_ftn6">
+                    <ref target="https://github.com/erikradisch/examplePics/">https://github.com/erikradisch/examplePics/</ref>
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold, T. and Tilton, L. </author>(2019). Distant viewing:
+                        analyzing large visual corpora, Digital Scholarship in the Humanities 36(1),
+                        DOI: <ref target="http://dx.doi.org/10.1093/digitalsh/fqz013">10.1093/digitalsh/fqz013</ref>. </bibl>
+                    <bibl>
+                        <author>Dreyer, C.</author>(2015). <hi rend="italic">Abenteuer
+                            Seidenstraße: Die Berliner Turfan-Expeditionen 1902–1914</hi>. Leipzig:
+                        Seemann. </bibl>
+                    <bibl>
+                        <author>Duhaime, D. </author>(2019). PixPlot. <ref target="https://github.com/YaleDHLab/pix-plot">https://github.com/YaleDHLab/pix-plot</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Helm, W., Schmideler, S., Im, C., Mandl, T., Kollmann, S.
+                            and Müller, L. </author>(2021). Wie sich die Bilder ähneln. Vom Zufallsfund
+                        zur systematischen Forschung im Bereich der automatisierten
+                        Bildähnlichkeitssuche. In Burghardt, M., Dieckmann, L., Steyer, T., Trilcke,
+                        P., Walkowski, N.-O., Weis, J. and Wuttke, U. (2021). Fabrikation von
+                        Erkenntnis: Experimente in den Digital Humanities. DOI: <ref target="http://10.26298/melusina.8f8w-y749-wsdb">10.26298/melusina.8f8w-y749-wsdb</ref>. </bibl>
+                    <bibl>
+                        <author>Howanitz, G., Bermeitinger, B., Radisch, E., Gassner, S.,
+                            Rehbein, M. and Handschuh, S. </author>(2019, July 11). Deep Watching -
+                        Towards New Methods of Analyzing Visual Media. In Cultural Studies. Digital
+                        Humanities 2019 (DH2019), Utrecht, Netherlands. <ref target="https://zenodo.org/record/3326470#.Y2Of_L7MIzk">https://zenodo.org/record/3326470#.Y2Of_L7MIzk</ref>. </bibl>
+                    <bibl>
+                        <author>Kipke, M., Brinkmeyer, L., Bagayoko, S., Schmidt-Thieme, L. </author>
+                        and 
+                        <author>Langner, M. </author>(2022)Deep Level Annotation for Painter
+                        Attribution on Greek Vases utilizing Object Detection. InSUMAC '22:
+                        Proceedings of the 4th ACM International workshop on Structuring and
+                        Understanding of Multimedia heritAge Contents. October 2022. <ref target="https://doi.org/10.1145/3552464.3555684">https://doi.org/10.1145/3552464.3555684</ref> (Pp. 23–31). </bibl>
+                    <bibl>
+                        <author>Konczak-Nagel, I. and Zin, M. </author>(2020). Essays and
+                        Studies in the Art of Kucha (Leipzig Kucha Studies 1). New Delhi: Dev
+                        Publishers. </bibl>
+                    <bibl>
+                        <author>Popova, I. F. </author>(ed.) (2008). <hi rend="italic">Russian
+                            Expeditions to Central Asia at the Turn of the 20th Century: Collected
+                            Articles</hi>. St Petersburg: Slavia Publishers. </bibl>
+                    <bibl>
+                        <author>Radisch, E. </author>(2022, July 28). Buddhist Murals of Kucha
+                        on the Northern Silk Road. An Approach to Semi-Automated Annotation, Digital
+                        Humanities 2022 (DH2022), Tokyo, Japan. <ref target="https://dh2022.dhii.asia/dh2022bookofabsts.pdf">https://dh2022.dhii.asia/dh2022bookofabsts.pdf</ref>(pp. 678-679). </bibl>
+                    <bibl>
+                        <author>Wu, Y., Kirillov, A., Massa, F., Lo, W. and Girshick, R.
+                        </author>(2019). Detectron2, <ref target="https://github.com/facebookresearch/detectron2">https://github.com/facebookresearch/detectron2</ref>. </bibl>
+                    <bibl>
+                        <author>Yaldiz, M.</author>(1987). <hi rend="italic">Archäologie und
+                            Kunstgeschichte Chinesisch-Zentralasiens (Xinjiang)</hi>. Leiden: Brill,
+                        Handbuch der Orientalistik, Abteilung 7, Kunst und Archäologie, Band 3,
+                        Innerasien. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

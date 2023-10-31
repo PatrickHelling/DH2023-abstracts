@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A speculative design for future handwritten text recognition: HTR use, and its impact on historical research and the digital record. </title>
+                <author n="NockelsJoeNOCKELS_Joseph_Hiliary_A_speculative_design_for_future_handw.xml"><persName ref="https://orcid.org/0000-0002-4577-6596" n="NockelsJoe">
+                        <surname>Nockels</surname>
+                        <forename>Joe</forename>
+                    </persName><affiliation>School of Languages, Literatures and Cultures, University of Edinburgh; National Library of Scotland, United Kingdom, Scotland</affiliation><email>j.h.nockels@sms.ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TerrasMelissaNOCKELS_Joseph_Hiliary_A_speculative_design_for_future_handw.xml"><persName ref="https://orcid.org/0000-0001-6496-3197" n="TerrasMelissa">
+                        <surname>Terras</surname>
+                        <forename>Melissa</forename>
+                    </persName><affiliation>Design Informatics, Edinburgh College of Art, University of Edinburgh, Scotland</affiliation><email>m.terras@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GoodingPaulNOCKELS_Joseph_Hiliary_A_speculative_design_for_future_handw.xml"><persName ref="https://orcid.org/0000-0003-1044-509X" n="GoodingPaul">
+                        <surname>Gooding</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>Information Studies, College of Arts, University of Glasgow</affiliation><email>paul.gooding@glasgow.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>With image-to-text character recognition now possible, this paper presents a speculative design of handwritten text recognition (HTR): asking what impact it may have on the historical method in the near-future? Through this speculative approach, we present a minimal design for the development of HTR, using evidence collected from a grounded theory study.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital Cultural Heritage</term>
+                    <term>Handwritten Text Recognition</term>
+                    <term>Grounded Theory</term>
+                    <term>Speculative Design</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Design studies</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div><head>Introduction</head>
+            <p>We present a speculative design of handwritten text recognition (HTR), a form of automatic image-to-text recognition, resulting in plain text files of historical materials which can be presented in a variety of formats (Muehlberger et. al 2019). HTR is beginning to shift historical methods and practice, from sampling data to exhaustive interrogation of primary sources (Muehlberger et al. 2019). The aspiration of recognising the hands of people from various backgrounds, nationalities, professions, and education, with equal competence, surety and speed, has largely been realised (although this remains to be seen for marginalised communities). However, questions of equity, diversity and inclusion in the technology and tools of HTR are yet to be properly addressed. This paper will adopt a speculative design approach to imagine a minimal HTR design, informing how collaboration and inclusivity are approached in the next stage of its development. </p></div>
+            <div><head>Research Context</head>
+            <p>HTR is impacting current historical methods, including the ways in which scholars research, analyse and interpret the past (Anderson 2004). This technology is opening up archives, allowing for the study of neglected and endangered language materials, ranging from Kazakh (Toiganbayeva et al., 2022; Nurseitov et al., 2022), Devanagari scripts (Yashoda et al., 2018), to 15th century Vietnamese ChuNom handwriting (Vu et al., 2021). HTR improvements have coincided with the proliferation of language registers and dictionaries, made accessible to researchers (Abdallah et al., 2020). This has led HTR to transcribe text where OCR has failed, dealing with cursive scripts, diacritics and unpredictable spacing (Alrehali et al., 2020). </p></div>
+ <div>           
+                <head>Methodology</head>
+            <p>Foundational evidence was collected using a grounded theory method (GTM), grouping and categorising emerging themes in relevant texts (Glaser and Strauss 1967). Materials were first collected through a purposive sampling, beginning with Rosenzweig’s discussion of how digital technologies would lead to an abundance of data: resulting in the need for new search and research strategies (2003). Reiterative sampling process continued, until saturation was reached (Charmaz 2006). A total of 120 works were collected. </p>
+            <p>These works informed our analysis of where HTR currently performs well. The technology has the potential to make historical resources more equitable, allowing for audiences to be mutually empowered. That said, HTR could easily be applied to well-known archives, risking the cementation of hegemonic archival structures and the re-inscription of colonial perspectives (Risam 2019). Through a more nuanced application, institutions could instead name instances of oppression when seen, framing their collections more inclusively and sensitively (Chew 2021). Therefore, our GTM provides a clear indication that HTR is likely to teem with diverse political, legal, and cultural investments and controversies, as with other digital methods (Thylstrup 2019). HTR's impact on intellectual property rights also emerged from our study, problematizing simplistic 'first use' provisions used by content holding institutions, due to the sharing of training data and models. How to credit work without limiting future innovation is considered, bypassing traditional intermediaries in publishing and making datasets usable for a broader audience.</p>
+            <p>What followed was an evidence-based speculative design of the future of HTR. Speculative design can be seen as a way of rethinking assumptions about the role of a product in daily life and primarily acts to stimulate discussion (Lukens / Disalvo, 2011: 38-40). It has been described as a ‘perceptual bridge’, allowing developers to better engage their audience and inform decisions surrounding a product’s use, aesthetic and function (Auger 2013: 11-12). As such, HTR’s current design and usage was questioned, generating new connections (Galloway / Caudwell, 2018: 96).</p>
+            <p>From this, emerged an analysis of how HTR could be compatible with minimal computing approaches (Matsumoto et al. 2005). How might HTR retain its most fundamental functions, eliminating nonessential portions, to increase its accessibility and limit its cost? We also considered the feasibility of this, while retaining digitisation standards. Minimal design was cited as a way to provide oppressed groups greater ownership over their histories: presenting the capability of scanning, transcribing and publishing their own records on their own terms. By extension, such a HTR design could allow the Digital Humanities to better theorise notions of race, gender, class and environment (Galina 2013). In this way, HTR emerges as a form of 'cultware' (Kent 2008), bringing together discussions of how groups in different cultural settings, with varying philosophies about information and digital technology, can benefit from such a tool. </p>
+            <p>To achieve this, it is necessary for humanities researchers and information professions to cohere around using HTR. This is likely to see regional hubs of expertise collaborate across 'trading zones' (Kemman 2021). Projects which rely on digital technologies often attempt to address problems in need of an array of expertise, or require a scale of work above the individual researcher (McCarty 2016). Therefore, this speculative approach lays out how developers and humanities scholars can form new networks of scholarly collaboration to best use and develop technologies like HTR. </p></div>
+            <div>
+                <head>Conclusion</head>
+            <p>In this work, we provide an evidence-based speculative design of how HTR may impact historical research and the digital record in the near-future. Our first aim was to highlight the current work being done with HTR, returning favourable results in recognising texts of different languages, many endangered. This paper also discusses how a cautious and judicious curating of resulting data is still needed and desirable (Guldi / Armitage, 2014: 105), ensuring that institutions move away from literary, historical and cultural canons.</p>
+            <p>Using a GTM method, a speculative design of HTR is given in the form of a minimal computing approach. This highlights how HTR can become an impetus for collaboration across cultural settings and disciplines.  That said, if HTR is to embody such values, then a critical appraisal of the technology’s development and use is needed. We recommend that the scholarly community focus on greater training, strengthening repositories of relevant data, building infrastructure surrounding HTR; the ethical implications of the tool, creating standards for preservation and sharing practices, and exploring opportunities in embedding HTR with other machine learning tools. As such, we demonstrate that speculative design methods have much to offer the Digital Humanities, as a means to elucidate the affordances of different technologies. </p></div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Abdallah, A. / Hamada, M. / Nurseitov, D </hi>(2020): “Attention-based fully gated cnn-bgru for russian handwritten text”, in:
+                        <hi rend="italic"> Journal of Imaging</hi>
+                        6: 141-150.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Alrehali, B. / Alsaedi, N. / Alahmadi, H. / Abid, N </hi>(2020): “Historical Arabic Manuscripts Text Recognition Using Convolutional Neural Network.”
+                        <hi rend="italic">Paper presented at IEEE 6</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic"> Conference on Data Science and Machine Learning Applications (CDMA), 4-5 March, 2020, Riyahd, Saudi Arabia. DOI:</hi>
+                        <ref target="https://doi.org/10.1109/CDMA47397.2020.00012">https://doi.org/10.1109/CDMA47397.2020.00012</ref>
+                        <hi rend="underline">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Anderson, I.G </hi>(2004): “Are you being Served? Historians and the Search for Primary Sources”, in: 
+                        <hi rend="italic">Archivaria</hi>
+                        58: 1-20.                                                                                             
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Auger, J </hi>(2013): “Speculative design: crafting the speculation”, in: 
+                        <hi rend="italic">Digital Creativity</hi>
+                         24: 11-35. DOI: https://doi.org/10.1080/14626268.2013.767276.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Charmaz, Kathy </hi>(2006):
+                        <hi rend="italic">Constructing Grounded Theory: A Practical Guide through Qualitative Analysis</hi>
+                        . Thousand Oaks, CA.: Sage Publications, Inc. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Conway, P </hi>(2013): “Preserving Imperfection: Assessing the Incidence of Digital Imaging Error in HathiTrust”, in:
+                        <hi rend="italic">Digital Technology and Culture</hi>
+                        42: 17–30.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cordell, Ryan </hi>(2017): ““Q i-jtb the Raven”: Taking Dirty OCR Seriously”, in:
+                        <hi rend="italic"> Book History John Hopkins University Press</hi>
+                        20, 1: 188-225.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Crymble, A </hi>(2021):
+                        <hi rend="italic">Technology and the Historian</hi>
+                        . Chicago: University of Illinois Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Galina, Isabel </hi>(2013): “Is There Anybody Out There? Building a Global Digital Humanities Community”. Paper presented at 
+                        <hi rend="italic">DH2013, July, 2013, University of Nebraska-Lincoln,</hi>
+                        <ref target="https://www.academia.edu/515787/Is_there_anybody_out_there_Discovering_new_DH_practitioners_in_other_countries">https://www.academia.edu/515787/Is_there_anybody_out_there_Discovering_new_DH_practitioners_in_other_countries</ref>
+                        [30.03.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chew, Carissa </hi>(2021):
+                        <hi rend="italic">Equalities, Diversity and Inclusion Internship Final Report 2020-2021</hi>
+                        . National Library of Scotland. 1-78. 
+                        <ref target="https://natlibscotland.sharepoint.com/:w:/r/sites/ProjectsHub/_layouts/15/doc2.aspx?sourcedoc=%7BFE7AC920-C092-4DFA-B5F4-AC7BE46431A5%7D&amp;file=EDI%20Internship%20Final%20Report%202020-21.docx&amp;action=default&amp;mobileredirect=true&amp;DefaultItemOpen=1">https://natlibscotland.sharepoint.com/:w:/r/sites/ProjectsHub/_layouts/15/doc2.aspx?sourcedoc=%7BFE7AC920-C092-4DFA-B5F4-AC7BE46431A5%7D&amp;file=EDI%20Internship%20Final%20Report%202020-21.docx&amp;action=default&amp;mobileredirect=true&amp;DefaultItemOpen=1</ref>
+                         [28.03.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Galloway, A. / Caudwell, C </hi>(2018): “Speculative design as research method”, in: Coombs, G. / McNamara, A. / Sade, G (eds.):
+                        <hi rend="italic">Undesign</hi>
+                        . London: Routledge 85-96.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Glaser, Barney / Strauss, Anselm </hi>(1967):
+                        <hi rend="italic">The Discovery of Grounded Theory Strategies for Qualitative Research</hi>
+                        . Mill Valley, CA: Sociology Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Guldi, J., Armitage, A </hi>(2014):
+                        <hi rend="italic">The History Manifesto</hi>
+                        . Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kemman, M </hi>(2021):
+                        <hi rend="italic">Trading Zones of Digital History</hi>
+                        . Berlin/Boston: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kent, Michael </hi>(2008): “Cultware constructing the matrix of internet access”, in: Brabazon, Tara (ed.): 
+                        <hi rend="italic">The Revolution Will Not Be Downloaded: Dissent in the Digital Age.</hi>
+                        Oxford: Chandos Publishing 89-99. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Matsumoto, N. / Fujii, H. / Goan, M. / Okada, M </hi>(2005): “Minimal design strategy for embodied communication agents.” Paper presented 
+                        <hi rend="italic">at IEEE International Workshop on Robot and Human Interactive Communication, 2005, Kobe, Japan</hi>
+                        . DOI: 
+                        <ref target="https://doi.org/10.1109/ROMAN.2005.1513801">https://doi.org/10.1109/ROMAN.2005.1513801</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McCarty, Willard </hi>(2016): “Collaborative Research in the Digital Humanities”, in: Deegan, Marilyn / McCarty, W (eds.): 
+                        <hi rend="italic">Collaborative Research in the Digital Humanities</hi>
+                        . London: Routledge 1-10.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Muehlberger, G. / Seaward, L. / Terras, M. / Ares Oliveira, S. / Bosch, V. / Bryan, M. / Colutto, S. / Dejean, H. / Diem, M. / Fiel, S. / Gatos, B. / Greinoecker, A. / Gruning, T. / Hackl, G. / Haukkoyaara, V. / Heyer, G. / Hirvonen, L. / Hodel, T. / Jokinen, M. / Kahle, P. / Kallio, M. / Kaplan, F. / Kleber, F. / Labahn, R. / Lang, E.M. / Laube, S. / Leifert, G. / Louloudis, G. / McNicholl, R. / Meunier, J.L. / Michael, J. / Muhlbauer, E. / Philipp, N. / Pratikakis, I. / Puigcerver Perez, J. / Putz, H. / Retsinas, G. / Romero, V. / Sablatnig, R. / Sanchez, J.A. / Schofield, P. / Sfikas, G. / Sieber, C. / Stamatopoulos, N. / Strauss, T. / Terbul, T. / Toselli, A.H. / Ulreich, B. / Villegas, M. / Vidal, E. / Walcher, J. / Weidemann, M. / Wurster, H. / Zagoris, K </hi>(2019): “Transforming scholarship in the archives through handwriting text recognition, Transkribus as a case study”, in:
+                        <hi rend="italic">emerald publishing</hi>
+                         75, 50: 960-970.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nurseitov, D. / Bostanbekov, K. / Kurmankhojayev, D. / Alimova, A. / Abdallah, A. / Tolegenov, R </hi>(2021): “Handwritten kazakh and russian (hkr) database for text recognition”, in:
+                        <hi rend="italic">Multimedia Tools and Applications</hi>
+                        1: 1-23. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lukens, J. / Disalvo, C </hi>(2011): “Speculative Design and Technological Fluency”, in: 
+                        <hi rend="italic">International Journal of Learning and Media</hi>
+                        3: 23-40. DOI:
+                        <ref target="https://doi.org/10.1162/IJLM_a_00080">https://doi.org/10.1162/IJLM_a_00080</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Risam, R. </hi>(2019):
+                        <hi rend="italic">New Digital Worlds - Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy</hi>
+                        . Evanston, Illinois: Northwestern University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Romein, C.A. / Kemman, M. / Birkholz, J.M. / Baker, J. / De Gruijter, M. / Merono-Penuela, A. / Ries, T. / Ros, R. /Scagliola, S </hi>(2020): “State of the Field: Digital History”, in:
+                        <hi rend="italic">Journal of the Historical Association</hi>
+                        . 
+                        <ref target="https://onlinelibrary.wiley.com/doi/full/10.1111/1468-229X.12969">https://onlinelibrary.wiley.com/doi/full/10.1111/1468-229X.12969</ref>
+                         [25.03.2023]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rosenzweig, R </hi>(2003): “Scarcity or Abundance? Preserving the Past in a Digital Era”, in:
+                        <hi rend="italic">The American Historical Review</hi>
+                         1083: 735-762.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Thylstrup, Nanna Bonde </hi>(2019):
+                        <hi rend="italic">The Politics of Mass Digitization</hi>
+                        . Cambridge: MIT Press.
+                    </bibl>
+                    <bibl>
+                        Toiganbayeva, Nazgul / 
+                        <ref target="https://arxiv.org/search/cs?searchtype=author&amp;query=Kasem%2C+M"><hi rend="bold">Kasem, Mahmoud / </hi></ref>
+                        <ref target="https://arxiv.org/search/cs?searchtype=author&amp;query=Abdimanap%2C+G"><hi rend="bold">Abdimanap, Galymzhan / </hi></ref>
+                        <ref target="https://arxiv.org/search/cs?searchtype=author&amp;query=Bostanbekov%2C+K"><hi rend="bold">Bostanbekov, Kairat /</hi></ref>
+                        <ref target="https://arxiv.org/search/cs?searchtype=author&amp;query=Abdallah%2C+A"><hi rend="bold">Abdallah, Abdelrahman / </hi></ref>
+                        <ref target="https://arxiv.org/search/cs?searchtype=author&amp;query=Alimova%2C+A"><hi rend="bold">Alimova, Anel / </hi></ref>
+                        <ref target="https://arxiv.org/search/cs?searchtype=author&amp;query=Nurseitov%2C+D"><hi rend="bold">Nurseitov, Daniyar </hi></ref>
+                        (2022): “KOHTD: Kazakh Offline Handwritten Text Dataset”, in 
+                        <hi rend="italic">Signal Processing: Image Communication</hi>
+                        108: 1-28.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Tu Vu, M. / Le, V.L. / Beurton-Aimar, M </hi>(2021):  “IHR-NomDB: The Old Degraded Vietnamese Handwritten Script Archive Database”, in: Lopresti, D. / Uchida, S. (eds.) 
+                        <hi rend="italic">Document Analysis and Recognition - ICDAR 2021, Lecture Notes in Computer Science</hi>
+                        . Cham, Switzerland: Springer International Publishing, Cham, Switzerland 85-99.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Yashoda, M. / Niranjan, S. K. / Manjunath Aradhya, V. N. </hi>(2018): “eLL: Enhanced Linked List - An Approach for Handwritten Text Segmentation.”
+                    </bibl>
+                    <bibl>
+                         Paper presented at the 
+                        <hi rend="italic">Fourth International Conference Information Systems Design and Intelligent Applications, 15-17 June, 2017, Da Nang, Vietnam</hi>
+                        . <ref target="https://link.springer.com/chapter/10.1007/978-981-10-7512-4_86">https://link.springer.com/chapter/10.1007/978-981-10-7512-4_86</ref> [30.03.2023]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

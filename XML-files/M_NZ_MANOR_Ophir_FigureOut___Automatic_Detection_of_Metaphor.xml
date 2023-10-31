@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FigureOut - Automatic Detection of Metaphors in Hebrew Across the Eras </title>
+                <author n="MnzManorOphirM_NZ_MANOR_Ophir_FigureOut___Automatic_Detection_of_Metaphor.xml"><persName n="MnzManorOphir">
+                        <surname>Münz-Manor</surname>
+                        <forename>Ophir</forename>
+                    </persName><affiliation>The Open University of Israel, Israel</affiliation><email>ophirmm@openu.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TokerMichaelM_NZ_MANOR_Ophir_FigureOut___Automatic_Detection_of_Metaphor.xml"><persName n="TokerMichael">
+                        <surname>Toker</surname>
+                        <forename>Michael</forename>
+                    </persName><affiliation>Technion - Israel Institue of Technologhy</affiliation><email>tok@campus.technion.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MishaliOrenM_NZ_MANOR_Ophir_FigureOut___Automatic_Detection_of_Metaphor.xml"><persName n="MishaliOren">
+                        <surname>Mishali</surname>
+                        <forename>Oren</forename>
+                    </persName><affiliation>Technion - Israel Institue of Technologhy</affiliation><email>oren.mishali@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KimmelfeldBennyM_NZ_MANOR_Ophir_FigureOut___Automatic_Detection_of_Metaphor.xml"><persName n="KimmelfeldBenny">
+                        <surname>Kimmelfeld</surname>
+                        <forename>Benny</forename>
+                    </persName><affiliation>Technion - Israel Institue of Technologhy</affiliation><email>bennyk@cs.technion.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BelinkovYonatanM_NZ_MANOR_Ophir_FigureOut___Automatic_Detection_of_Metaphor.xml"><persName n="BelinkovYonatan">
+                        <surname>Belinkov</surname>
+                        <forename>Yonatan</forename>
+                    </persName><affiliation>Technion - Israel Institue of Technologhy</affiliation><email>belinkov@technion.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CohenAdirM_NZ_MANOR_Ophir_FigureOut___Automatic_Detection_of_Metaphor.xml"><persName n="CohenAdir">
+                        <surname>Cohen</surname>
+                        <forename>Adir</forename>
+                    </persName><affiliation>Technion - Israel Institue of Technologhy</affiliation><email>adircohen@campus.technion.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster introduces a new, challenging dataset in Hebrew and it seeks to extend automatic metaphor detection capabilities in pre-modern Hebrew. In the poster, we present the major literary characteristics of the corpus, the computational approaches and methods we use and our results.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>NLP</term>
+                    <term>Computational Literary Studies</term>
+                    <term>Metaphor</term>
+                    <term>Deep Machine Learning</term>
+                    <term>Annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>rhetorical analysis</term>
+                    <term>semantic analysis</term>
+                    <term>Computer science</term>
+                    <term>Literary studies</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The ability to distinguish between figurative and literal language is essential for computers to better understand text in a natural language. This ability is crucial for many tasks, such as sentiment analysis, machine translation and summarization. At the same time, the differentiation between the figurative and the literal is a major interpretative task for scholars of literature, especially of poetry. While several machine learning models for this task have been developed, most of them focus on modern non-poetic texts, and as far as we know none of them deals with Hebrew. In this project we fill this gap by developing tools for the automatic detection of figurative language in Hebrew poetry. We focus specifically on metaphors in a corpus of poems that were written in the Galilee between the fifth and eighth century of the common era. The metaphors in the poems were annotated manually by the literary experts and we use them in order to train our models and validate their results.</p>
+            <p>A metaphor is a figure of speech in which a word or phrase is used to refer to an object or action that differs from its literal meaning. A statement such as "The warrior has a heart made of stone" does not refer to the word stone in the literal sense. The word stone is used to describe the warrior's emotionlessness, which is characterized by the stone. Recent advances in NLP that were driven by the transformer architecture (Vaswani et al., 2017), show very promising results on the metaphor detection task in English and in other European languages. These models are typically based on pretrained models, which are trained on a large dataset, then fine-tuned for the specific task. Virtually every NLP task is now able to be solved with a high degree of accuracy by fine-tuning a transformer model.</p>
+            <p>In view of the fact that Hebrew is a morphologically-rich language, NLP in Hebrew is more challenging than that in languages with simpler morphologies (Tsarfaty, et al., 2019). Several transformer-based models have been pre-trained on Hebrew, but these models have been trained on a relatively small dataset compared to English (18 GB vs 160 GB). Token classification can be accomplished using a trained encoder, such as BERT (Devlin et al.,
+                    <lb/>2018), that was pre-trained on masked language modeling on a large corpus and then fine-tuned on a small labeled dataset. For Hebrew, we are using AlephBert (Seker et al., 2021) and finetuning it for metaphor detection using the aforementioned labeled dataset. We consider additional alternatives, one of them is to fine-tune BEREL (Shmidman et al., 2022), which was pretrained on Rabbinic Hebrew that is more similar to ours, although its corpus was much smaller (220M compared to 1.9B in AlephBert). Our hypothesis is that the BEREL model produces better results since it was trained in a language that is more similar to Piyyut than modern Hebrew. As previously noted, the task is challenging and we obtain a score of 48.3 F1 on it.
+                </p>
+            <p>The project introduces a new, challenging dataset in Hebrew and it seeks to extend automatic metaphor detection capabilities in pre-modern Hebrew. In the poster, we present the major literary characteristics of the corpus, the computational approaches and methods we use, and the results together with error analysis.</p>
+            <p>Finally, FigureOut is a collaborative project of literary scholars specializing in medieval Hebrew poetry and computer scientists who specializes in NLP and deep machine learning. We envision the humanities and computational connection not merely as practical one where one “side” needs a solution and the “other” provides it. We strongly believe that both teams bring to the table their background and expertise but at the same time a deep desire to understand the premises, procedures and methods of each discipline. For us, this approach is the most appropriate way to build a bridge between the two fields and to truly expand the knowledge and methods of both of them. By so doing we seek to bolster the Digital Humanities and in particular Computational Literary Studies and exemplify the great potential of real, deep interdisciplinary collaboration.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Devlin, Jacob</author> / <author>Chang , Ming-Wei</author> / <author>Lee, Kenton</author> / <author>Toutanova , Kristina</author> 
+                        (2018): “Bert: Pre-training of deep bidirectional transformers for language understanding”, <ref target="https://arxiv.org/pdf/1810.04805.pdf">https://arxiv.org/pdf/1810.04805.pdf</ref> [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Vaswani, Ashish</author> / <author>Shazeer, Noam</author> / <author>Parmar, Niki</author> / <author>Uszkoreit, Jakob</author> / <author>Jones, Llion</author> / <author>Gomez, Aidan N</author> / <author>Kaiser, Łukasz</author> / <author>Polosukhin, Illia</author> 
+                        (2017): “Attention is all you need”, in:
+                        <hi rend="italic">Advances in Neural Information Processing Systems</hi>
+                        , 30.
+                    </bibl>
+                    <bibl>
+                        <author>Tsarfaty, Reut</author> / <author>Seker, Amit</author> / <author>Sadde, Shoval</author> / <author>Klein, Stav</author> 
+                        (2019): “What’s wrong with hebrew nlp? and how to make it right”, <ref target="https://arxiv.org/pdf/1908.05453.pdf">https://arxiv.org/pdf/1908.05453.pdf</ref> [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Seker, Amit</author> / <author>Bandel, Elron</author> / <author>Bareket, Dan</author> / <author>Brusilovsky, Idan</author> / <author>Shaked, Refael Greenfeld</author> / <author>Tsarfaty, Reut</author> 
+                        (2021): “Alephbert: A hebrew large pre-trained language model to start-off your hebrew nlp application with”, <ref target="https://arxiv.org/pdf/2104.04052.pdf">https://arxiv.org/pdf/2104.04052.pdf</ref> [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Shmidman, Avi</author> / <author>Guedalia, Joshua</author> / <author>Shmidman, Shaltiel</author> / <author>Shmidman, Cheyn Shmuel</author> / <author>Handel, Eli</author> / <author>Koppel, Moshe</author> 
+                        (2022): “Introducing berel: Bert embeddings for rabbinic-encoded language”, <ref target="https://arxiv.org/pdf/2208.01875.pdf">https://arxiv.org/pdf/2208.01875.pdf</ref> [25.04.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Using Digital Tools to Create Modern Multi-Search Engine for Polish Historical Dictionaries</title>
+                <author n="RodekEwaRODEK_Ewa_Using_Digital_Tools_to_Create_Modern_Multi_Search_.xml"><persName n="RodekEwa">
+                        <surname>Rodek</surname>
+                        <forename>Ewa</forename>
+                    </persName><affiliation>Institute of Polish Language Polish Academy of Sciences, Poland</affiliation><email>ewa.rodek@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>I will present the project of building a database of historical Polish lexicons. The most important dictionaries with Middle Polish material will be digitized in steps: HTR recognition, XML tagging, morphosyntactic tagging. We intend to prepare the API that could be connected with sources of Middle Polish or Latin used in Poland.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>historical lexycography</term>
+                    <term>dictionary</term>
+                    <term>multi-search engine</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>natural language processing</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Linguistics</term>
+                    <term>Central/Eastern European Studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Thanks to the increasing resources of digital libraries, diachronic linguists have access to historical lexicographic works. However, due to many factors, including the dispersion of sources and erroneous bibliographic metadata making it difficult to find the most appropriate edition of dictionary for research, the vocabulary recorded in old dictionaries has not been fully revealed. Above all, the lack of a searchable text layer for image files of the aforementioned dictionaries means that the material cannot be conveniently and optimally used by researchers. </p>
+            <p>Therefore, seeing the need to digitise Polish historical lexicographic works our team of researchers have prepared a project for the deep digitisation of the three most important dictionaries with Polish material for the Middle Polish era: <hi rend="italic">Thesaurus latino-polono-graecus</hi> (1643) by Grzegorz Knapiusz (<ref target="https://crispa.uw.edu.pl/object/files/416379/display/Default">https://crispa.uw.edu.pl/object/files/416379/display/Default</ref>), <hi rend="italic">Nowy dykcjonarz to jest mownik polsko-niemiecko-francuski </hi>(1764) by Michał A. Trotz (<ref target="https://www.dbc.wroc.pl/dlibra/doccontent?id=7138">https://www.dbc.wroc.pl/dlibra/doccontent?id=7138</ref>) and <hi rend="italic">Forytarz języka polskiego</hi> (1674) by Jan Ernesti (online version not available). These works are ground-breaking for this period in the history of the Polish language, with the most mature work and complex structure, and were a point of reference for many later imitators.</p>
+            <p>This deep digitisation (also called digitization of the third level) will consist of several stages. The first stage of deep digitisation will be the automatic recognition of old prints using the HTR method. This will require specially trained models adapted to multilingual material, including text printed in Latin and Greek fonts. The next step will be xml tagging of the dictionary micro- and macrostructure in the TEI format. The final stage of digitisation work will be morphosyntactic tagging of the Polish vocabulary contained therein. This proceeding will enable data standardisation and obtaining database files, making it possible to search individual headwords as well as fragments of headword articles in the future. On this material we will develop a multi-search engine suitable for research in lexicography, pragmatics or translation studies. We would like this to be the beginning of a larger database of historical Polish lexicons, to which more dictionaries can be added. This also fits in with the concept of a dictionary understood as a corpus (Żmigrodzki 2005).</p>
+            <p>Moreover, the creation of an API for this service will allow its integration with various resources. As a trial experimental application of this API the project will involve connecting  the created lexicon database with the Electronic Dictionary of the Polish Language of the 17th and 18th Centuries (e-SXVII, <ref target="https://sxvii.pl">sxvii.pl</ref>, Bronikowska et al. 2020). The integration will include the creation of a list of Polish lexemes contained in the digitised material, which will be used to complete the e-SXVII index. Also we will create a connection with the editorial panel of this dictionary to give the editors the opportunity to supplement e-SXVII with information from digitised sources. We would also like to try out the automatic transfer of some of the entries from the digitised dictionaries to e-SXVII. Other resources with which such a lexical database can be linked are The Electronic Corpus of 17th- and 18th-century Polish Texts (<ref target="http://www.korba.edu.pl">korba.edu.pl</ref>) or eLexicon of the Polish Medieval Latin (<ref target="https://elexicon.scriptores.pl">elexicon.scriptores.pl</ref>).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bronikowska, Renata</author> / <author>Majdak Magdalena</author> / <author>Wieczorek, Aleksandra</author> / <author>Żółtak, Mateusz</author> 
+                         (2020): “
+                        <ref target="https://euralex2020.gr/wp-content/uploads/2020/11/EURALEX2020_ProceedingsBook-p471-475.pdf">The Electronic Dictionary of the 17th- and 18th-century Polish - towards the open formula asset of the historical vocabulary</ref>
+                        ”, in: Gavriilidou, Zoe / Mitsiaki, Maria / Fliatouras, Asimakis (ed.):
+                         
+                        <hi rend="italic">Proceedings of the XIX EURALEX Congress: Lexicography for Inclusion</hi>
+                        , vol. I, Democritus University of Thrace: 471-475.
+                    </bibl>
+                    <bibl>
+                        <author>Ogrodniczuk, Maciej</author> / <author>Gruszczyński, Włodzimierz</author> 
+                         (2019): “
+                        <ref target="https://doi.org/10.1007/978-3-030-34058-2_13">Connecting Data for Digital Libraries: The Library, the Dictionary and the Corpus</ref>
+                        ”, in: Jatowt, Adam / Maeda, Akira / Syn, Sue Yeon (ed.):
+                         
+                        <hi rend="italic">Digital Libraries at the Crossroads of Digital Information for the Future. ICADL 2019. Lecture Notes in Computer Science</hi>
+                        , vol. 11853. Springer, Cham: 125-138.
+                    </bibl>
+                    <bibl>
+                        <author>Żmigrodzki, Piotr</author>
+                         (2005): „Słownik jako korpus tekstów – korpus tekstów jako słownik. Perspektywy polskiej leksykografii naukowej”, in: 
+                        <hi rend="italic">Poradnik Językowy</hi>
+                         6: 3-14.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

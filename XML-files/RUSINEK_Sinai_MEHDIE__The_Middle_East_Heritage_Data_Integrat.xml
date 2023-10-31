@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MEHDIE: The Middle East Heritage Data Integration Endeavor</title>
+                <author n="RusinekSinaiRUSINEK_Sinai_MEHDIE__The_Middle_East_Heritage_Data_Integrat.xml"><persName ref="https://orcid.org/0000-0003-1043-7954" n="RusinekSinai">
+                        <surname>Rusinek</surname>
+                        <forename>Sinai</forename>
+                    </persName><affiliation>Haifa University, Israel</affiliation><email>sinai.rusinek@mail.huji.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SagiTomerRUSINEK_Sinai_MEHDIE__The_Middle_East_Heritage_Data_Integrat.xml"><persName ref="https://orcid.org/0000-0002-8916-0128" n="SagiTomer">
+                        <surname>Sagi</surname>
+                        <forename>Tomer</forename>
+                    </persName><affiliation>Haifa University, Israel</affiliation><email>tsagi@cs.aau.dk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZagaMoranRUSINEK_Sinai_MEHDIE__The_Middle_East_Heritage_Data_Integrat.xml"><persName ref="https://orcid.org/0000-0002-2197-116X" n="ZagaMoran">
+                        <surname>Zaga</surname>
+                        <forename>Moran</forename>
+                    </persName><affiliation>Haifa University, Israel</affiliation><email>moran82@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LevEfraimRUSINEK_Sinai_MEHDIE__The_Middle_East_Heritage_Data_Integrat.xml"><persName n="LevEfraim">
+                        <surname>Lev</surname>
+                        <forename>Efraim</forename>
+                    </persName><affiliation>Haifa University, Israel</affiliation><email>elev@univ.haifa.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MosheLaveeRUSINEK_Sinai_MEHDIE__The_Middle_East_Heritage_Data_Integrat.xml"><persName n="MosheLavee">
+                        <surname>Moshe</surname>
+                        <forename>Lavee</forename>
+                    </persName><affiliation>Haifa University, Israel</affiliation><email>mlavee@univ.haifa.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We are building a multi-modal entity resolution tool that utilizes the spatial, temporal, and textual information about a pair of place records to help identify the semantic relation between them. We plan to share our progress towards the integration of knowledge sources related to the history of the Middle East.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>entity matching</term>
+                    <term>multilinguality</term>
+                    <term>gazetteers</term>
+                    <term>transliteration</term>
+                    <term>toponyms</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>linked (open) data</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="italic">MEHDIE</hi>, <hi rend="italic">the Middle East Heritage Data
+                    Integration Endeavour</hi> is a project at Haifa University and Aalborg
+                University, dedicated to facilitating semantic integration of knowledge sources
+                related to the history of the Middle East, using innovative data integration
+                methods. </p>
+            <p>The multi-modal entity resolution tool we are developing
+                will utilise spatial (geo-coordinates), temporal (dates/periods) and textual
+                information about a pair of place/person records to help identify the semantic
+                relationship between them. In the demonstration we present tools related to spatial
+                data, which we hope to integrate into the <hi rend="italic">World Historical
+                    Gazetteer</hi> (Grossner and Mostern 2021) system to enhance its capabilities
+                for inter-dataset matching. The poster will address our workflows for data
+                extraction and assembly, as well as the results of matching experiments between
+                various datasets . We describe how we leverage the linguistic affinities and
+                continuities between the domain languages and various textual matching techniques. </p>
+            <figure>
+                <graphic n="1001" width="15.955786111111111cm" height="5.952258333333333cm" url="Pictures/e8e29bb2e1a61b101b881dc0dac8c6b0.png" rend="inline"/>
+                
+            </figure>
+            <p>In figure 1 we see the interface of the <hi rend="italic">MEHDIE</hi> clone of the World Historical Gazetteer, with the added option to
+                match two datasets against each other, in this case a dataset of the Hebrew toponyms
+                from Benjamin of Tudela’s travelog collected in the framework of the <hi rend="italic">TraveLab</hi> project (Rusinek and Shalit 2022), and <hi rend="italic">Damast</hi> Multilingual Dataset from the Dhimmis and &amp;
+                Muslims project (Franke and Kock 2023).  Also visible in the figure are the
+                confidence measure and the explanation of the matching methods that yielded the
+                candidate.  </p>
+            <p>The mission to connect data on the Middle eastern history
+                domain is faced with special challenges: the scarcity of vowels in Semitic scripts,
+                the indeterminacy of pronunciation and transliteration of written toponyms, and
+                varying practices of naming and classifying places.</p>
+            <p>A common way to identify places, their locations and other
+                information about them is to reconcile the source place names with unique
+                identifiers from an external Gazetteer. <hi rend="italic">Geonames</hi> and the <hi rend="italic">Getty Thesaurus of geographic names</hi> are two such resources,
+                but they contain few, if any, toponyms in the Semitic scripts relevant to the
+                sources of Middle Eastern History. Even Wikidata, which is essentially multilingual,
+                shows low recall when matching against them. Such general gazetteers may include
+                contemporary Arabic, Hebrew or Syriac forms that denote major, well known cities,
+                but very little historic variants of the lesser known settlements. <lb/>With this
+                obstacle in mind, one may turn to transliteration. The similarity between semitic
+                languages, however, means that direct transliteration between semitic languages
+                would be much more efficient in creating candidates for matching that
+                transliteration into Latin script languages.  </p>
+            <p>The example in figure 2 is a telling illustration for
+                this:</p>
+            <p>The Hebrew toponym for the city of Bilbeis on the Nile’s
+                delta (spelled “Bilbays” in Adler’s translation of Benjamin of Tudela) was mentioned
+                in the 19th century edition of Benjamin of Tudela’s itinerary in the Hebrew form בלביש. In contemporary Hebrew it is
+                spelled בילביס, with an additional
+                vowel and a different letter to represent the final consonant. Wikidata currently
+                includes a Hebrew alternative variant without the additional vowel, but not a
+                variant with the more archaic letter ‘ ש’ (Wikidata contributors, "Q393495").  </p>
+            <figure>
+                <graphic n="1002" width="15.955786111111111cm" height="14.808966666666667cm" url="Pictures/6395495d5e65b366c96faee803456577.png" rend="inline"/>
+               
+            </figure>
+            <p>Using the transliteration tool in our system to match
+                against Arabic datasets such as <hi rend="italic">Usaybia</hi>, <hi rend="italic">Damast</hi>, <hi rend="italic">‘Al-Ṯurayya gazetteer</hi> (Romanov and Seydi,
+                2019) and from a dataset of toponyms from Yaqut al-Hamawi’s Mu 'jam  ul-Buldān, we
+                could easily find the match thanks to the transliteration of the Hebrew form to the
+                Arabic form بلبيس, one of two possible
+                transliterations. This shows the power of transliteration between semitic languages
+                that reduces, rather than adds ambiguity: Neither Arabic nor Hebrew explicate the
+                sound that is expressed in English by the first i and the e in the name. Therefore,
+                transliteration to latin script could not deduce an acceptable transliteration.  </p>
+            <p>Several projects have been dedicated in recent years to
+                the aggregation of geographic and prosopographic data on Middle Eastern History. The
+                    <hi rend="italic">Historical Middle East Data Alliance (Hist-ME)</hi> was
+                initiated by Nathan P. Gibson at the <hi rend="italic">Linked Pasts 2021</hi>
+                conference with a joint vision of connecting intra-religious and monolingual silos
+                of disconnected data into a linked contextual wealth of knowledge. The system we are
+                developing at <hi rend="italic">MEHDI</hi> facilitates collaboration between <hi rend="italic">Hist-ME</hi>’s partners towards this vision. </p>
+            <p>The advantages of intra-domain
+                    transliteration for matching opens a meta-discussion on approaches for linked
+                    open data and the preference of a “bottom-up” intra-domain strategy over a
+                    centralised one. The results of our work with the different datasets of Hist-ME
+                    member projects may also constitute an argument in favour of intra-domain
+                    collaboration. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Carlson, Thomas A</author> (2022). <hi rend="italic">Historical
+                            Index of the Medieval Middle East (HIMME), a digital history
+                            project</hi>. <ref target="https://medievalmideast.org/">https://medievalmideast.org</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Franke, M., &amp; Koch, S</hi> (2023). “Damast: A visual
+                            analysis approach for religious history research”. In <hi rend="italic">Proceedings of the 18th International Joint Conference on Computer
+                                Vision, Imaging and Computer Graphics Theory and Applications
+                                (VISIGRAPP 2023)</hi> - Volume 3: IVAPP, pages 40-52. DOI:
+                            10.5220/0011609700003417 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gibson, Nathan P</hi> (Ed.). (2020). <hi rend="italic">Communities of knowledge: Interreligious networks of scholars in Ibn Abi </hi><hi rend="italic">Usaybiʿa’s</hi><hi rend="italic"> history of the physicians</hi>. Version 0.6.0-dev. Munich: Usaybia.net. <ref target="https://usaybia.net/">https://usaybia.net</ref>. DOI: 10.5281/zenodo.3975505. </bibl>
+                    <bibl>
+                        <hi rend="bold">Grossner, Karl / Mostern, Ruth</hi> (2021). “Linked
+                            Places in World Historical Gazetteer”. In <hi rend="italic">Proceedings
+                                of the 5th ACM SIGSPATIAL International Workshop on Geospatial
+                                Humanities (</hi><hi rend="italic">GeoHumanities</hi><hi rend="italic"> '21)</hi> (pp. 40-43).
+                            Association for Computing Machinery. DOI: 10.1145/3486187.3490203 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Romanov, Maxim / Seydi, Masoumeh</hi>
+                            (2019). “Al-Ṯurayya, the Gazetteer and the Geospatial Model of the Early
+                            Islamic World”. In
+                            <hi rend="italic">Digital Humanities 2019 Conference Papers </hi>(9–12
+                            July 2019), Utrecht University. 
+                        <ref target="http://clariah.nl/files/dh2019/boa/0909.html">clariah.nl/files/dh2019/boa/0909.html</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rusinek, Sinai / Shalit, Gil</hi> (2002). <hi rend="italic">TraveLab: A multilingual mapped edition of Benjamin of </hi><hi rend="italic">Tudela's</hi><hi rend="italic"> travelogue</hi>. <ref target="https://teipublisher.info/exist/apps/TraveLab/index.html">https://teipublisher.info/exist/apps/TraveLab/index.html</ref>
+                    </bibl>
+                    <bibl>Wikidata contributors (2002). “Q393495.
+                        Wikidata”. Retrieved November 4, 2022, from <ref target="https://www.wikidata.org/w/index.php?title=Q393495&amp;oldid=1710404536">https://www.wikidata.org/w/index.php?title=Q393495&amp;oldid=1710404536</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

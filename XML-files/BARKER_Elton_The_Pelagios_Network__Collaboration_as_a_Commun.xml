@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Pelagios Network: Collaboration as a Community of Practice </title>
+                <author n="BarkerEltonBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="BarkerElton">
+                        <surname>Barker</surname>
+                        <forename>Elton</forename>
+                    </persName><affiliation>The Open University, United Kingdom</affiliation><email>elton.barker@open.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GheldofTomBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="GheldofTom">
+                        <surname>Gheldof</surname>
+                        <forename>Tom</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>Tom.Gheldof@KULeuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GordinShaiBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0002-8359-382X" n="GordinShai">
+                        <surname>Gordin</surname>
+                        <forename>Shai</forename>
+                    </persName><affiliation>Ariel University, Israel</affiliation><email>shygordin@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LewisOrlyBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="LewisOrly">
+                        <surname>Lewis</surname>
+                        <forename>Orly</forename>
+                    </persName><affiliation>Hebrew University of Jerusalem</affiliation><email>orly.lewis@mail.huji.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NuryElisaBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0003-4688-6567" n="NuryElisa">
+                        <surname>Nury</surname>
+                        <forename>Elisa</forename>
+                    </persName><affiliation>SIB Swiss Institute of Bioinformatics, Switzerland</affiliation><email>Elisa.Nury@sib.swiss</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VitaleValeriaBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0002-9695-0240" n="VitaleValeria">
+                        <surname>Vitale</surname>
+                        <forename>Valeria</forename>
+                    </persName><affiliation>University of Sheffield, United Kingdom</affiliation><email>v.vitale@sheffield.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SimonRainerBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0002-4116-9684" n="SimonRainer">
+                        <surname>Simon</surname>
+                        <forename>Rainer</forename>
+                    </persName><affiliation>rainersimon.io</affiliation><email>rainer@rainersimon.io</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="McDonoughKatherineBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0001-7506-1025" n="McDonoughKatherine">
+                        <surname>McDonough</surname>
+                        <forename>Katherine</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>kmcdonough@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChenAnneBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="ChenAnne">
+                        <surname>Chen</surname>
+                        <forename>Anne</forename>
+                    </persName><affiliation>Bard College, USA</affiliation><email>achen@bard.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WilliamsMirandaBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0003-1256-4383" n="WilliamsMiranda">
+                        <surname>Williams</surname>
+                        <forename>Miranda</forename>
+                    </persName><affiliation>Oxford University</affiliation><email>miranda.williams@classics.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlmohamadAdnanBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName ref="https://orcid.org/0000-0001-5646-569X" n="AlmohamadAdnan">
+                        <surname>Almohamad</surname>
+                        <forename>Adnan</forename>
+                    </persName><affiliation>Bard College Kingston, New York</affiliation><email>almohamad@bbk.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MiddleSarahBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="MiddleSarah">
+                        <surname>Middle</surname>
+                        <forename>Sarah</forename>
+                    </persName><affiliation>National Museums Scotland, United Kingdom</affiliation><email>s.middle@nms.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HayDuncanBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="HayDuncan">
+                        <surname>Hay</surname>
+                        <forename>Duncan</forename>
+                    </persName><affiliation>University of Sussex</affiliation><email>dh418@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ButterworthAlexBARKER_Elton_The_Pelagios_Network__Collaboration_as_a_Commun.xml"><persName n="ButterworthAlex">
+                        <surname>Butterworth</surname>
+                        <forename>Alex</forename>
+                    </persName><affiliation>University of Sussex</affiliation><email>A.Butterworth@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This panel discusses the Pelagios Network, a decade-long collaboration that has been developing methods, tools and communities for linking Humanities resources online. Our discussion will focus on managing a series of collaborative tensions between decentralisation and coordination, sustainability and development, and individual needs and community growth.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>collaboration</term>
+                    <term>co-creation</term>
+                    <term>community</term>
+                    <term>LOD</term>
+                    <term>annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In this panel we discuss the Pelagios Network
+                    (https://pelagios.org/), a decade-long collaboration that has been developing
+                    methods, tools and communities for linking Humanities resources online.</p>
+            <p>From its establishment in 2011, Pelagios has used collaboration as
+                    the means to transform the practice of Linked Open Data (LOD). In contrast to
+                    other initiatives that have promoted complex, if robust, ontologies for
+                    producing LOD, Pelagios phases 1-2 developed — in collaboration with popular
+                    ancient Mediterranean data providers — a lightweight method of connecting
+                    heterogeneous resources based on the semantic annotation of place references and
+                    their alignment to gazetteer URIs (Vitale et al. 2021). To extend this method to
+                    other disciplines lacking the maturity of such a specialist environment,
+                    Pelagios 3-5 developed the annotation tool, Recogito
+                    (https://recogito.pelagios.org/), which empowers the domain expert to
+                    semantically annotate materials without need for technical know-how (Simon et
+                    al. 2017). Finally, Pelagios 6-8 coordinated a "small grant" programme that
+                    supported the conceptual articulation of Humanities LOD ("Working Groups") and
+                    the development of common tools ("Resource Development Grants"), which succeeded
+                    in extending the Pelagios method into knowledge domains from the global South
+                    (Kahn et al. 2021). Ultimately, this growing and maturing community has been
+                    realised in the foundation of a formal voluntary, and free, organisation: the
+                    Pelagios Network Association.</p>
+            <p>This panel is a demonstration of the decentralised collaborative
+                    principle at the heart of Pelagios. The Pelagios Network is formed of equal and
+                    interdependent Partners who, via a process of a formally-agreed plan, come
+                    together on a regular bi-monthly basis to coordinate work according to
+                    thematically-focused Activities — currently: annotation, gazetteers, registry,
+                    and visualisation. The five panellists represent Partner projects or
+                    institutions who have been contributing to this endeavour in various ways; the
+                    opportunities afforded by Pelagios's collaborative framework that we showcase
+                    here range from the low-hanging fruit of sharing knowledge to more complex
+                    interactions through which Partners are continuing to develop tools and
+                    infrastructure. Two speakers discuss the opportunity for collaborative
+                    problem-solving (Chen) and the sharing of not only knowledge but also data, best
+                    practice, and standards (Ghelfdof). Three speakers discuss the opportunity for
+                    developing tools in the round (and thus avoid reinventing the wheel), whether in
+                    the adaptation of a common toolset to different projects (Nury), the development
+                    of machine-learning techniques to existing software (Vitale), or the application
+                    of tools from one domain to another (Gordin). The final speaker (Middle)
+                    reflects on the set of continuing challenges facing the widespread adoption of
+                    LOD in the Humanities — namely, how rich, heterogeneous datasets, with huge
+                    research potential, can be managed and published in a form that is flexible,
+                    scalable, interoperable, and sustainable — and the opportunities afforded by
+                    working collectively under the Pelagios umbrella.</p>
+            <p>Together, we emphasise a ground-up,
+                co-creation approach where collaboration is conceived as a community of practice.
+                Critical in our discussion will be the identification and consideration of core
+                issues, specifically the challenge of addressing and managing a series of tensions
+                between decentralisation and coordination, development and sustainability, and
+                individual needs versus community growth.</p>
+            <div>
+                <p><hi rend="bold">By-products of project development as collaborative opportunity : Arabic
+                        vocabulary equivalents in cultural heritage terminology as LOD</hi></p>
+                <p>Anne Chen [presenter] (Bard College),
+                    achen@bard.edu</p>
+                <p>Miranda Williams (Oxford University),
+                    miranda.williams@classics.ox.ac.uk</p>
+                <p>This paper argues that foregrounding the “struggle” of interpretive decision-making in the lead-up to a target output (publication or otherwise) presents previously unanticipated collaborative opportunities with the potential to benefit future humanities research more broadly. Traditional humanities research has been a rather solitary pursuit: a single scholar collects thematically related content, reads past scholarship, makes editorial or interpretive decisions, and then (hopefully) synthesises the products for publication in an article or book. It is only in the rather mature stages of research — either in the context of a final publication, or else in a conference presentation (often in the lead-up to publication) — that there has traditionally been an opportunity for interfacing with a broader research community. How often have humanities scholars unnecessarily reinvented the wheel or else worked at cross-purposes thanks to this traditional research structure? </p>
+                <p>With the introduction of digital methodologies into humanities
+                        disciplines, one of the not-so-often reflected-upon benefits is the fact
+                        that a sense of “strangeness” or destabilisation in the “how-to” of research
+                        has necessitated repeated consultation with a broader community long before
+                        project completion. The Pelagios Network, with its international membership
+                        and online meeting structure, has created a thriving community of practice
+                        for in-process collaborative problem-solving. As an illustrative case study,
+                        this presentation draws on a collaborative endeavour — the formalisation and
+                        unification of independent project efforts in Arabic vocabulary
+                        disambiguation for cultural heritage descriptors — an effort conceived
+                        thanks to regular network-partner reporting on work-in-progress via the
+                        Pelagios Network’s linked-data Annotation activity.</p>
+                <div>
+                <p><hi rend="bold">Expanding the TM Places gazetteer in the Pelagios (Linked Pasts) Network</hi></p>
+                <p>Tom Gheldof (KU Leuven), Tom.Gheldof@KULeuven.be</p>
+                <p>Trismegistos (TM,
+                        https://www.trismegistos.org/) has a longstanding collaboration with
+                        Pelagios that is exemplary for the importance of sharing data and knowledge
+                        across partners, projects, and domains. To scale-up and improve the TM
+                        Places gazetteer, we exchanged data with partners in the Pelagios Gazetteer Activity.<ref target="https://pelagios.org/activities/gazetteers/"> </ref>An initial helpful tool was Peripleo
+                    (https://github.com/pelagios/peripleo),
+                     a map interface that visualised connections between different projects based on their place references. Not only could users query this LOD graph; it also allowed researchers to easily view errors or disambiguate place names. This resulted in a further expansion of TM Places with links to other gazetteers, beyond our pre-existing collaborations with Pleiades
+                    (https://pleiades.stoa.org/)
+                     and EDH
+                    (https://edh.ub.uni-heidelberg.de/). </p>
+                <p>As a next step to share geographical data, we launched
+                        the TM<ref target="https://www.trismegistos.org/dataservices/georelations/documentation/"> </ref>GeoRelations API (part of the TM Data Services,
+                    https://www.trismegistos.org/dataservices/georelations/documentation/
+                    ), enabling users to query multiple gazetteers. By including links to modern place names, TM Places can also be combined with other gazetteers to form a larger data set of historical place names (e.g., data sets collected in the Pelagios Registry Activity). To
+                    further grow TM, the Pelagios Network, as well as the Linked Pasts ecosystem
+                    that it has initiated, provides an optimum infrastructure, precisely because it
+                    is based on the exchange and development of best practices, standards, and
+                    expertise (see
+                    https://medium.com/pelagios/from-linking-places-to-a-linked-pasts-network-ebc974f5b342).
+                    Specifically, collaboration with Partners in the Registry Activity and further
+                    development of PeripleoLite — an adaptable LOD visualisation tool
+                    (https://github.com/britishlibrary/peripleo) — will help us continue to ensure
+                    the usability and value of TM. </p>
+                <p><hi rend="bold">MARK16: visualising manuscripts and their repositories with</hi><hi rend="italic ">Peripleo</hi></p>
+                <p>Elisa Nury [presenter] (SIB Swiss Institute of
+                        Bioinformatics), Elisa.Nury@sib.swiss </p>
+                <p>Claire Clivaz (SIB Swiss Institute of Bioinformatics),
+                        Claire.Clivaz@sib.swiss </p>
+                <p>Silvano Aldà (SIB Swiss Institute of Bioinformatics),
+                        Silvano.Alda@sib.swiss</p>
+                <p>To create a geographic data visualisation for the MARK16
+                        project, the critical question facing us has been: what tool and data format
+                        can we use that can be implemented within a short deadline and a limited
+                        budget, while still being able to display complex research data? The
+                        Pelagios Network is grounding MARK16 into the broader community of practices
+                        around Humanities Linked Open Data and Historical GIS.</p>
+                <p>MARK16 is focused on the last chapter of Mark’s Gospel, an
+                        enigma in New Testament textual criticism (Clivaz 2019). The Virtual
+                        Research Environment created for this five-year SNSF project includes four
+                        parts, among which <hi rend="italic">Dataviz</hi> displays the manuscripts
+                        and their repositories on a map. The main part is a <hi rend="italic">Manuscript</hi><hi rend="italic"> Room</hi> which currently holds 57
+                        manuscripts with images and transcriptions ( <ref target="https://mr-mark16.sib.swiss">https://mr-mark16.sib.swiss</ref>).</p>
+                <p>MARK16 Dataviz is using the new <hi rend="italic">PeripleoLite</hi> javascript viewer (Simon et al. 2016, 2022). Our
+                        dataset of 36 places linked to 57 manuscripts necessitated adjustments to
+                        the faceted search of <hi rend="italic">PeripleoLite</hi>
+                        (https://dataviz-mark16.sib.swiss). To showcase the libraries who
+                        participated in MARK16, while also being able to search the manuscripts, we
+                        benefited from the help of its creator Rainer Simon. Preparing the
+                        visualisation has raised interesting questions for us: what is the physical
+                        anchor to the world of a library that exists purely in a digital format?
+                        What happens when physical objects are shared in different places, as for
+                        the Gothic manuscript Got 1? As we discuss our Dataviz with the Pelagios
+                        Visualisation Activity, we are also contributing to the tool co-creation
+                        process. </p>
+                <p><hi rend="bold">Sustainability through sharing: the many lives of Recogito</hi></p>
+                <p>Valeria Vitale [presenter] (University
+                    of Sheffield), v.vitale@sheffield.ac.uk</p>
+                <p>Rainer Simon (The Austrian Institute of
+                    Technology), aboutgeo@gmail.com</p>
+                <p>Katherine McDonough (The Alan Turing
+                    Institute), kmcdonough@turing.ac.uk</p>
+                <p>Recogito and Peripleo, the online tools developed by
+                        Pelagios, have proven highly popular in Humanities research and pedagogy
+                        (Dunn and Vitale 2021). However, when core Pelagios funding ended in 2019,
+                        the question of how to maintain these tools or develop others was critical
+                        for the community that formed the Pelagios Network (Kahn et al. 2021). The
+                        path to achieving long-term self-sustainability has been to encourage as
+                        many open customisations as possible, specifically to:</p>
+                <list type="unordered">
+                    <item>generate a library of reusable “modules”;</item>
+                    <item>foster a community of developers;</item>
+                    <item>inspire researchers about the potential of Recogito
+                            and Peripleo beyond their main versions.</item>
+                </list>
+                <p>As shown by projects like MARK16, this “diffused strategy” has generated a number of new applications sharing a common methodology. Here, we focus on the <hi rend="italic">Machines Reading Maps </hi>project (Chiang et al. 2021). MRM aims to apply machine
+                        learning (ML) and semantic technologies to identify, gather, and make
+                        available text on maps. Recogito was initially proposed as a means to create
+                        gold-standard annotations to evaluate the ML algorithm, but we quickly
+                        realised that the potential was much higher, and that Recogito could become
+                        a powerful way to investigate maps from a semiotic perspective. The new
+                        Recogito has been informed by MRM research questions, and has in turn shaped
+                        the research. The MRM-specific version of Recogito has already been adopted
+                        by other projects, both within and outside academia, where new applications
+                        in community mapping are being explored, including volunteer transcription
+                        of historical maps in collaboration with the National Library of Scotland.
+                        (See
+                        https://github.com/machines-reading-maps/Tutorials-Newsletters/wiki/Edinburgh-Map-Transcription-Event:-Annotation-Guidelines-for-the-Public.)</p>
+                <p><hi rend="bold">Machine learning of ancient scripts and languages through collaboration</hi></p>
+                <p>Shai Gordin (Ariel University), shygordin@gmail.com </p>
+                <p>Orly Lewis (Hebrew University of Jerusalem),
+                        orly.lewis@mail.huji.ac.il</p>
+                <p>One of the central characteristics of Digital Humanities
+                        is the multitude of projects that involve intense collaboration across
+                        disciplines. It is much less common to find collaborative research networks
+                        like Pelagios. In this talk we consider how Pelagios's collaborative model
+                        has the potential to revolutionise the way in which we computationally study
+                        ancient languages.</p>
+                <p>Originally established to bring together scholars around
+                        the common theme of historical places and spaces, Pelagios has evolved into
+                        an interdisciplinary virtual space for those who study the ancient and
+                        pre-modern world from a multitude of computational perspectives. One of its
+                        main tools, Recogito, has shown great promise in the collaborative labelling
+                        of data for machine learning purposes, such as in the Machines Reading Maps
+                        project. From the Near East to the Mediterranean, texts and inscriptions in
+                        cuneiform and ancient alphabets share similar challenges not only in their
+                        digitization — which requires specialised optical character recognition
+                        models — but also in the philological nature of their study. Among the
+                        largest corpora, those of Greek and Akkadian share similar types of genres
+                        and reconstruction methods. But how available are these sources for advanced
+                        methods like machine learning models? Can we use knowledge from one language
+                        to improve these models for better results in the other, also called
+                        transfer learning? Can we handle the bias in models trained on limited or
+                        fragmentary corpora? These are just some of the challenges going forward
+                        that we will be addressing through shared annotation and corpus building
+                        under the umbrella of the Pelagios network.</p>
+                <p><hi rend="bold">Identifying community requirements for Linked Humanities Data infrastructures</hi></p>
+                <p>Sarah Middle (National Museums
+                    Scotland), s.middle@nms.ac.uk </p>
+                <p>Duncan Hay (University of Sussex),
+                    dh418@sussex.ac.uk </p>
+                <p>Alex Butterworth (University of
+                    Sussex), A.Butterworth@sussex.ac.uk</p>
+                <p>It is likely that the application of LOD approaches to
+                        the Humanities will result in large, rich, heterogeneous datasets with huge
+                        research potential, but in turn raise a considerable challenge: how can
+                        these datasets be managed and published in forms that are flexible,
+                        scalable, interoperable and, critically, usable and sustainable? Several
+                        infrastructures exist that aim to address this issue, but each come with
+                        challenges of their own, including the balance between the need for
+                        off-the-shelf front-end solutions and for APIs that can support custom user
+                        interfaces, including explorable data visualisations.</p>
+                <p>Having faced these challenges in our use of Arches
+                    (https://www.archesproject.org/)
+                     for the Tools of Knowledge
+                    (https://toolsofknowledge.org/) project database, we
+                        sought to harness the knowledge and experience of the Pelagios and Linked
+                        Pasts communities to establish requirements for an optimum system. As a
+                        foundation for this research, we are organising an activity at the annual
+                        Linked Pasts symposium (https://www.seadda.eu/?p=180, December 2022) to
+                        generate discussion around the topic, which will take place both
+                        asynchronously and in person. Our results will form the basis of a white
+                        paper, to be shared with the Pelagios community for further input and
+                        refinement.</p>
+                <p>Our contribution to this panel will take a speculative
+                        design approach to our findings, envisaging a potential future system for
+                        managing and publishing large, heterogeneous Linked Humanities Data, which
+                        meets this community's needs. In addition, we propose to reflect upon our
+                        experiences of engaging in community-led, collaborative research, as well as
+                        the learning opportunities provided by knowledge sharing among the Pelagios
+                        Network.</p>
+            </div></div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Chiang, Y., Li,
+                            Z., Kim, J., Holmes-Wong, D., McDonough, K., Simon, R., Vitale, V.</author>
+                        (2021). <hi rend="italic">Machines Reading Maps</hi>. <ref target="https://machines-reading-maps.github.io">https://machines-reading-maps.github.io</ref>
+                    </bibl>
+                    <bibl><author>Clivaz, C.</author>
+                        (2019). The Impact of Digital Research: Thinking about the MARK16 Project.
+                             
+                        <hi rend="italic">Open Theology</hi>
+                         5/1 (2019), pp. 1-12. <ref target="https://doi.org/10.1515/opth-2019-0001">https://doi.org/10.1515/opth-2019-0001</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Depauw, M.</hi> (2019). Trismegistos: optimizing interoperability for texts from the ancient world. In: 
+                        <hi rend="italic">Crossing Experiences in Digital Epigraphy: From
+                                Practice to Discipline</hi>
+                        . Poland: De Gruyter Open Poland, 2019, pp. 193-20.  
+                        <ref target="https://doi.org/10.1515/9783110607208-016">https://doi.org/10.1515/9783110607208-016</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Depauw, M. &amp; Gheldof, T.</hi> (2014). Trismegistos. An interdisciplinary platform for ancient world texts and related information. 
+                        <hi rend="italic">Theory and Practice of Digital Libraries</hi>
+                        : 
+                        <hi rend="italic">TPDL 2013 Selected Workshops</hi>
+                         (Communications in Computer and Information Science 416), Cham: Springer 2014, pp. 40–52.
+                         
+                        <ref target="https://doi.org/10.1007/978-3-319-08425-1_5">https://doi.org/10.1007/978-3-319-08425-1_5</ref>
+                         
+                         
+                    </bibl>
+                    <bibl><author>Dunn, S., &amp;
+                            Vitale, V.</author> (2021). Linking text and maps: Annotation as a critical
+                        tool for teaching in the Spatial Humanities.  <hi rend="italic">Literary
+                            Geographies</hi>,  <hi rend="italic">7</hi>(2), 292-310. <ref target="https://www.literarygeographies.net/index.php/LitGeogs/article/view/253">https://www.literarygeographies.net/index.php/LitGeogs/article/view/253</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gheldof, T. &amp; Pietowski, F.</hi>
+                            (2018). Trismegistos Data Services: Digital tools for ancient world LOD
+                            networks. Linked Pasts IV, Dec 2018, Mainz, Germany.
+                        <ref target="https://hal.archives-ouvertes.fr/hal-01955745">https://hal.archives-ouvertes.fr/hal-01955745</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kahn, K., Isaksen, L., Barker, E., Simon, R., de Soto, P., and Vitale, V.</hi> (2021). Pelagios – Connecting histories of place. Part II: from community to association. 
+                        <hi rend="italic">International Journal of Humanities and </hi><hi rend="italic">Arts Computing</hi>
+                         15(1-2), pp.85-100.
+                        <ref target="https://doi.org/10.3366/ijhac.2021.0263">https://doi.org/10.3366/ijhac.2021.0263</ref>
+                    </bibl>
+                    <bibl><author>Monier, M., and Nury, E.</author> (2022). The SNSF MARK16
+                        Project. The first virtual research environment focused on a biblical
+                        chapter. <hi rend="italic">Poster presented at the 2022 DARIAH-CH study
+                            day</hi>
+                         (Mendrisio, 20.10.22).  
+                        <ref target="https://zenodo.org/record/7248296">https://zenodo.org/record/7248296</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Simon, R., Isaksen, L., Barker, E., and Cañamares, P. de S.</hi> (2016). Peripleo: a tool for exploring heterogeneous data through the dimensions of space and time. 
+                        <hi rend="italic">The Code4Lib Journal</hi>
+                         31. 
+                        <ref target="https://journal.code4lib.org/articles/11144">https://journal.code4lib.org/articles/11144</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Simon, R., Barker, E., Isaksen, L., and Cañamares, P. de S.</hi> (2017).	 Linked Data annotation without the pointy brackets: introducing Recogito 2. 
+                        <hi rend="italic">Journal of Map &amp; Geography Libraries</hi>
+                         13(1), pp.111-32. 
+                        <ref target="https://doi.org/10.1080/15420353.2017.1307303">https://doi.org/10.1080/15420353.2017.1307303</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Simon, R., Gadd, S., Rees, G., and Isaksen, L.</hi> (2022). Peripleo. 
+                        <ref target="https://doi.org/10.23636/sd7c-k310">https://doi.org/10.23636/sd7c-k310</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vitale, V., de Soto, P., R. Simon, Barker, E., Isaksen, L., and Kahn, R.</hi> (2021). Pelagios – Connecting histories of place. Part I: methods and tools. 
+                        <hi rend="italic">International Journal of Humanities and Arts
+                                Computing</hi>
+                         15(1-2), pp. 5-32.
+                        <ref target="https://doi.org/10.3366/ijhac.2021.0260">https://doi.org/10.3366/ijhac.2021.0260</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

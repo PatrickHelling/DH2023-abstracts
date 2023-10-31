@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Probabilistic Modeling of Chronological Dates to Serve
+                        Machines and Scholars</title>
+                <author n="HabringAndreasNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0002-1201-5782" n="HabringAndreas">
+                        <surname>Habring</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>andreas.habring@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NicolaouAnguelosNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0003-3818-8718" n="NicolaouAnguelos">
+                        <surname>Nicolaou</surname>
+                        <forename>Anguelos</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>anguelos.nicolaou@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LugerDanielNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0003-1778-4908" n="LugerDaniel">
+                        <surname>Luger</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>daniel.luger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AtzenhoferBaumgartnerFlorianNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0001-8157-8629" n="AtzenhoferBaumgartnerFlorian">
+                        <surname>Atzenhofer-Baumgartner</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>florian.atzenhofer-baumgartner@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LammingerFlorianNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0002-1310-6352" n="LammingerFlorian">
+                        <surname>Lamminger</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>florian.lamminger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DeckerFranziskaNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0001-7994-1388" n="DeckerFranziska">
+                        <surname>Decker</surname>
+                        <forename>Franziska</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>franziska.decker@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AounSandyNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName n="AounSandy">
+                        <surname>Aoun</surname>
+                        <forename>Sandy</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>sandy.aoun@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KovcsTamsNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0002-3913-2946" n="KovcsTams">
+                        <surname>Kovács</surname>
+                        <forename>Tamás</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>tamas.kovacs@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VogelerGeorgNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0002-1726-1712" n="VogelerGeorg">
+                        <surname>Vogeler</surname>
+                        <forename>Georg</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>georg.vogeler@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HollerMartinNICOLAOU_Anguelos_Probabilistic_Modeling_of_Chronological_Da.xml"><persName ref="https://orcid.org/0000-0002-2895-2375" n="HollerMartin">
+                        <surname>Holler</surname>
+                        <forename>Martin</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>martin.holler@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present a modeling of document dates such that it can allow scholars to express uncertainty when annotating data, act as a differentiable loss function for training models and allow for unbiased interpretable performance evaluation under uncertainty.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Dating</term>
+                    <term>Machine learning</term>
+                    <term>Diplomatics</term>
+                    <term>statistics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>data modeling</term>
+                    <term>Book and print history</term>
+                    <term>Computer science</term>
+                    <term>Library &amp; information science</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Probabilistic Modeling of Chronological Dates to Serve Machines and
+                    Scholars</head>
+                <p>We present an approach for modeling dates of creation of documents which allows
+                    scholars to express uncertainty when annotating data, acts as a differentiable
+                    loss function for training models and enables unbiased interpretable performance
+                    evaluation under uncertainty.</p>
+                <p>Finding an appropriate date to a historical document is a task of digital
+                    diplomatics (Gervers, 2000; Gervers and Margolin, 2003; Feuerverger et al.,
+                    2005; Tilahun et al., 2012; Tilahun et al., 2014). Specifically Stokes, 2015
+                    provides an analysis of the intricacies in modeling dates in the case of medieval documents. In this context, the time of
+                    creation and its uncertainty can be suggested by scholars as well as machine learning
+                    models. A framework that allows to compare two different estimates over timing a document
+                    in a way that agreement between two opinions can be meaningfully quantified is needed
+                    in order to train neural networks that estimate dates, evaluate the performance of
+                    such &gt;neural networks, or even analyse quantitatively the consensus among scholars. On
+                    top of that, from a machine learning perspective, timing documents can be approached in
+                    very different ways: choosing from a set of time periods (classification) (Cloppet et
+                    al., 2016), predicting a time span (regression) (Seuret et al., 2021), etc. These approaches
+                    produce incomparable outputs and in order to decide which one performs best, a method
+                    of quantitatively comparing them is necessary. The core problem is how uncertainty
+                    in &gt;a prediction is expressed, whether it is by humans or algorithms. The most
+                    straight forward way for an expert to describe an ambiguous date is a pair of "not before"
+                    and "not after" limits. While this also allows to express exact time-points by
+                    setting "not before" and "not after" to be identical, it is not clear whether this format is
+                    optimal for machine learning as well. Furthermore, defining an objective similarity
+                    measurement between pairs of "not before" and "not after" is not trivial especially if the
+                    ranges are interpreted as plausibility. Moreover, even more delicate formats may occur, such
+                    as knowing only a day without the corresponding year (Thaller, 2020).</p>
+                <p>We propose to model all forms of expressing an opinion on a documents date as
+                    Probability Density Functions (PDF) over time. Figuratively speaking, each point in
+                    time is</p>
+                <figure>
+                    <graphic url="Pictures/24de226d7f9adf63ed6975577aff6107.png"/>
+                    <head>Figure 1. Intersection of closed form PDF’s as a quantification of
+                        agreement</head>
+                </figure>
+                <p>assigned a probability of being the time of writing of the given document. This
+                    probability can be 100% on a specific day and 0% at any other day, in the case
+                    of knowing the exact day of writing, it can be evenly spread across an interval,
+                    in the case of knowing only a time span, or it can be any other distribution,
+                    e.g., normally distributed around a certain time point. We also propose to
+                    quantify agreement between two options by a suitable distance measure between
+                    the PDF’s. One possibility to achieve this is the Wasserstein distance (Frogner
+                    et al., 2015). As an alternative, one can also measure the surface where the
+                    PDF’s overlap. While both possibilities can accommodate any kind of PDF over
+                    time, the two major ways of expressing ambiguity is "not before, not after"
+                    which we model as a uniform distribution and "around then" which we model as a
+                    Gaussian distribution. In Figure 1 these two ways of expressing ambiguity are
+                    illustrated. Both can be represented by a pair of numbers, start and end point
+                    in the case of a time span and mean and standard deviation in the Gaussian case,
+                    and both can also accommodate a fixed point in time as long as there is a
+                    minimum meaningful time-interval (dt) defined. In order to obtain a
+                    differentiable loss function for training a machine learning method, any form of
+                    PDF can be convolved with a Gaussian kernel while introducing negligible
+                    distortions from an information theory perspective. In the context of
+                    performance evaluation for point predictions, it makes more sense to define any
+                    moment in the interval defined by scholars as 100% plausible. One way to achieve
+                    this (which is also applicable for "around then" intervals from scholars) is to
+                    integrate a delta peak (modeling the point prediction), or any other PDF
+                    modeling a more nuanced prediction, against a density function renormalized to
+                    have at least one maximum of 100%.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Cloppet, F., Eglin, V., Stutzmann, D., Vincent, N., et al.</author> (2016).
+                        Icfhr2016 competition on <lb/>the classification of medieval handwritings in
+                        latin script. 2016 15th International <lb/>Conference on Frontiers in
+                        Handwriting Recognition (ICFHR), 590–595. </bibl>
+                    <bibl><author>Feuerverger, A., Hall, P., Tilahun, G., &amp; Gervers, M.</author> (2005). Distance
+                        measures and <lb/>smoothing methodology for imputing features of documents.
+                        Journal of Computational <lb/>and Graphical Statistics 14, 14, 255–262. </bibl>
+                    <bibl><author>Frogner, C., Zhang, C., Mobahi, H., Araya, M., &amp; Poggio, T. A.</author> (2015).
+                        Learning with a <lb/>Wasserstein loss. Advances in neural information
+                        processing systems, 28. <lb/>
+                    </bibl>
+                    <bibl><author>Gervers, M. (Ed.).</author> (2000). Dating undated Medieval Charters. Boydell
+                        Pr.</bibl>
+                    <bibl><author>Gervers, M., &amp; Margolin, M.</author> (2003). Application of Computerized
+                        Analyses in Dating <lb/>Procedures for Medieval Charters. Le Médiéviste et
+                        l’ordinateur, 42 <ref target="http://lemo.irht.cnrs.fr/42/mo42_01.htm">http://lemo.irht.cnrs.fr/42/mo42_01.htm</ref>
+                    </bibl>
+                    <bibl><author>Seuret, M., Nicolaou, A., Rodrıguez-Salas, D., Weichselbaumer, N.,
+                        Stutzmann, D., <lb/>Mayr, M., Maier, A., &amp; Christlein, V.</author> (2021). Icdar
+                        2021 competition on historical <lb/>document classification. International
+                        Conference on Document Analysis and Recognition, <lb/>618–634. </bibl>
+                    <bibl><author>Stokes, P.</author> (2015). The problem of digital dating: A model for uncertainty
+                        in medieval <lb/>documents. Digital Humanities 2015 Book of Abstracts.
+                        http://peterstokes.org/pubs/Stokes_digital_dating.pdf </bibl>
+                    <bibl><author>Thaller, M.</author> (2020). On vagueness and uncertainty in historical data.
+                        Retrieved October <lb/>26, 2022, from <ref target="https://ivorytower.hypotheses.org/88">https://ivorytower.hypotheses.org/88</ref>
+                    </bibl>
+                    <bibl><author>Tilahun, G., Feuerverger, A., &amp; Gervers, M.</author> (2012). Dating medieval
+                        English charters. <lb/>The Annals of Applied Statistics, 6(4), 1615–1640
+                            <ref target="https://doi.org/10.1214/12-%20AOAS566">https://doi.org/10.1214/12-%20AOAS566</ref>
+                    </bibl>
+                    <bibl><author>Tilahun, G., Gervers, M., &amp; Feuerverger, A.</author> (2014). Statistical
+                        methods for applying <lb/>chronology to undated English medieval documents.
+                        In A. Ambrosio, S. Barret, &amp; G. Vogeler (Eds.), Digital diplomatics (pp.
+                        211–224). Böhlau Verlag. <ref target="https://doi.org/10.7788/boehlau.9783412217020.211">https://doi.org/10.7788/boehlau.9783412217020.211</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

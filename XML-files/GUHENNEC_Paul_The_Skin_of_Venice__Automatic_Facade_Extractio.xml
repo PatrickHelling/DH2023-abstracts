@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Skin of Venice: Automatic Facade Extraction from Point Clouds.</title>
+                <author n="GuhennecPaulGUHENNEC_Paul_The_Skin_of_Venice__Automatic_Facade_Extractio.xml"><persName ref="https://orcid.org/0000-0002-5490-5249" n="GuhennecPaul">
+                        <surname>Guhennec</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>Digital Humanities Laboratory, EPFL, Switzerland</affiliation><email>paul.guhennec@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="diLenardoIsabellaGUHENNEC_Paul_The_Skin_of_Venice__Automatic_Facade_Extractio.xml"><persName n="diLenardoIsabella">
+                        <surname>di Lenardo</surname>
+                        <forename>Isabella</forename>
+                    </persName><affiliation>Institute for Area and Global Studies, EPFL,
+                        Switzerland</affiliation><email>isabella.dilenardo@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We propose a method to extract orthogonal views of facades from photogrammetric models of cities. This method was applied to extract all facades of the city of Venice. The result images open up new areas of research in architectural history.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>architectural history</term>
+                    <term>orthophotos</term>
+                    <term>distant seeing</term>
+                    <term>artistic propagation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>image processing and analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Archaeology</term>
+                    <term>Art history</term>
+                    <term>Geography and geo-humanities</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Facades as objects of study</head>
+                <p>While recent years have seen the flourishing of a digital art history (Bonfait et
+                    al. 2021), the intersection between architectural history and ”distant viewing”
+                    within Digital Humanities remains mostly an open ground. In particular, a
+                    large-scale compositional study of buildings based on the analysis of the
+                    distribution of elements on the fa ̧cade is still unexplored. </p>
+                <p>Such comparative analysis of facades would, though, be particularly valuable, for
+                    they are key descriptive elements to understand the evolutionary palimpsest of a
+                    building, as if they were the historical ’skin’ of its construction (Savorra
+                    2006, Radding and Clark 1992). Facades also act also, often, as an indicator of
+                    the articulation of interior spaces (Trinanato 1948). Furthermore, the
+                    grammatical analysis of the facade permits its constitutive elements to be
+                    defined separately as key chronological and stylistic signs from which to infer
+                    information on its location, temporality, construction method and, of course,
+                    authorship (Zevi 1949, Zevi 1973).</p>
+                <p>Considering the articulation of the facade elements as a ”discourse” – in which
+                    what is relevant is not only the element in itself but its position and
+                    relationship with the other elements – stems from a long tradition in
+                    architectural theory (Guadet 1904). Whether at the micro-scale of elements of a
+                    single facade, or with the larger-scale comparison of different neighbourhoods,
+                    cities or landscapes, across time and space, the identification of constitutive
+                    elements of facades and their “grammatical reading” would be particularly suited
+                    to a computational approach (Mitchell 1994).</p>
+            </div>
+            <div type="div1">
+                <head>An automated method for orthophoto generation</head>
+                <p>These considerations call for a set of homogeneous representations of facades,
+                    free from disparities in perspectives and points of view, from which visual
+                    elements can be automatically extracted and onto which comparative analyses can
+                    be conducted at scale. Orthogonal views of facades are one possible homogeneous
+                    solution. The so-called orthophoto is a representation of the facade as if drawn
+                    on a plane with all points equally distant to the virtual camera, and is as such
+                    analogous to an orthographic drawn elevation. Producing orthophotos from
+                    photogrammetric surveys is a time-consuming effort and can hardly be envisioned
+                    for the city-scale analyses we suggest. Instead we propose an approach which
+                    automatically generates orthophotos by combining an input pointcloud with
+                    footprint geometries. </p>
+                <p>The pointcloud we apply our method to covers the full city of Venice, and was
+                    obtained through photogrammetry on airborne images (Fig. 1). The footprint
+                    geometries are provided by the City of Venice open data portal, along with the
+                    geometries of canals and of the street network. We determine for each line
+                    segment in the footprints whether they spatially intersect with those canal and
+                    street geometries; this permits us to identify which segments correspond
+                    canal-side or street-side facades (Fig. 2). Each point in the point cloud is
+                    then labelled with the facade it belongs to (if any). To account for the depth
+                    of the facade (which is flattened in any orthophoto), we allow for a small
+                    buffer around the facade segment. </p>
+                <p>At the end of this process, a set of 3D coloured points is associated to each
+                    facade segment. This set needs to be rotated around the <hi rend="italic">z</hi>-axis, so that the plotting plane of the photo is properly orthogonal to
+                    the vision axis. Applying Principal Component Analysis to the set of points
+                    permits us to identify the dominant axes, and as such to reduce points from
+                    three dimensions ( <hi rend="italic">x, y, z</hi>) to two ( <hi rend="italic">x’, z</hi>). The orthophoto is finally obtained by scatter plotting the
+                    points in these reprojected coordinates. </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.33273611111111cm" url="Pictures/1db72668c8ae0e78a790afd09e582588.png" rend="inline"/>
+                    <head>Figure 1. Photogrammetric model of Venice obtained from airborne imagery</head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="9.233958333333334cm" url="Pictures/83f17343e138127bbf3acef9d6819400.png" rend="inline"/>
+                    <head>Figure 2. Distribution of canal-side (in blue) and street-side (in red) facades
+                    on the main island of Venice.</head>
+                </figure>
+                <p>In this way, the facade orthophotos of more than 8,000 buildings were extracted,
+                    forming the first complete set of the facades of the city. As an example, the
+                    orthophotos of the 156 facades in direct contact with the Canal Grande are shown
+                    in (Fig. 3), ordered by height. The applicability of our method to smaller-scale
+                    pointclouds was also successfully tested on a denser photogrammetric model made
+                    from street-level images (Fig. 4). This complementarity of scale and densities
+                    is valuable, as photogrammetric campaigns can be more easily conducted on site
+                    to overcome local occlusions or lower point density in the airborne model. </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="9.597319444444445cm" url="Pictures/8d53bd85872f8d441fec38fdaa25fbd6.png" rend="inline"/>
+                    <head>Figure 3. Orthophotos of 156 facades on the Canal
+                        Grande obtained following the automatic division of a city-scale
+                        photogrammetric model.</head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="12.975166666666667cm" url="Pictures/a85de9fc3b4e7f926f92c9efe4c4b652.png" rend="inline"/>
+                    <head>Figure 4. Automatically produced orthophotos of four
+                        buildings from a pointcloud obtained by street-level photogrammetry of the
+                        Campo Santa Margherita</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Research perspectives: Venetian architectural history at the
+                    large-scale</head>
+                <p>This proposed pipeline makes possible, for the first time, the extraction of
+                    orthophotos for all the facades of a city. Applied to Venice, the creation of
+                    such very large homogeneous facade corpora opens up new avenues of research for
+                    its architectural history. </p>
+                <p>A first study could consist in the exhaustive analysis of dimensions across the
+                    city, considering not only the landmarks of the city but also the larger mass of
+                    buildings considered ‘minor’. Dimensional analysis makes it possible to
+                    recognise any proportional specificities of the best-known buildings, but above
+                    all to comparatively assess the dimensional structure (e.g. the number of
+                    storeys and the ratio between the height and width of facades) of the entire
+                    urban fabric in an attempt to understand its statistical dimensional
+                    distribution and more broadly, some of the fundamental characteristics of the
+                    Venetian urban space. </p>
+                <p>The facade orthophotos can also be
+                    input into a subsequent segmentation algorithm through which individual elements
+                    are identified and extracted (Murtiyoso et al. 2021). From there, another
+                    possible approach is the geometric-proportional analysis of the facade as a
+                    complex syntax of these individual elements. This classic methodology of facade
+                    analysis has also been attempted for the vernacular architecture of Venetian <hi rend="italic">palazzetti</hi> (Goy 1989). This type of analysis is
+                    particularly interesting when attempting to reread the iconic architecture of
+                    large buildings as a repertoire of prototypical forms that can be redistributed
+                    to the architecture of the outlying lagoon landscape. The segmentation of the
+                    facades elements of the 8,657 buildings in the city would allow a comprehensive
+                    computational approach to assess the propagation of certain architectural
+                    motifs, as well as the density and popularity of certain rules of geometric
+                    proportionality among Venetian facades. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bonfait, Olivier</author> / <author>Courtin, Antoine</author> / <author>Klammt, Anne</author> 
+                        (2021): “Humanités Numériques : de nouveaux récits en histoire de l’art ?
+                        Introduction”, in:
+                        <hi rend="italic">Histoire de l’art, </hi>87: 5-16. </bibl>
+                    <bibl>
+                        <author>Goy, Richard</author> (1989): <hi rend="italic">Venetian
+                            Vernacular Architecture: Traditional Housing in the Venetian
+                        Lagoon</hi>. Cambridge: Cambridge University Press. </bibl>
+                    <bibl>
+                        <author>Guadet, Julien</author> (1904): <hi rend="italic">Éléments et
+                            Théorie de l’Architecture. Cours Professé à l’École Nationale et
+                            Spéciale des Beaux-Arts</hi>. Paris: Aulanier. </bibl>
+                    <bibl>
+                        <author>Mitchell, William J.</author> (1994): <hi rend="italic">The
+                            Logic of Architecture</hi>. Cambridge: MIT Press. </bibl>
+                    <bibl>
+                        <author>Murtiyoso, Arnadi</author> / <author>Lhenry, C.</author> / <author>Landes, Tania</author> / <author>Grussenmeyer, Pierre</author> / <author>Alby, Emmanuel</author>  (2021): “Semantic
+                        Segmentation for Building Facade 3D Point Cloud from 2D Orthophoto Images
+                        using Transfer Learning”, in: <hi rend="italic">The International Archives
+                            of the Photogrammetry, Remote Sensing and Spatial Information
+                            Sciences</hi>, XLIII-B2-2021:201–206. </bibl>
+                    <bibl>
+                        <author>Radding, Charles M.</author> / <author>Clark, William W.</author>  (1992): <hi rend="italic">Medieval Architecture, Medieval Learning: Builders and
+                            Masters in the Age of Romanesque and Gothic</hi>. New Haven: Yale
+                        University Press. </bibl>
+                    <bibl>
+                        <author>Savorra, Massimiliano</author> (2006): <hi rend="italic">Storia
+                            Visiva dell’Architettura Italiana, 1400-1700</hi>. Milano: Electa. </bibl>
+                    <bibl>
+                        <author>Trincanato, Egle Renata</author> (1948): <hi rend="italic">Venezia Minore</hi>. Venezia: Fillipi editore. </bibl>
+                    <bibl>
+                        <author>Zevi, Bruno</author> (1949): <hi rend="italic">Saper Vedere
+                            l’Architettura: Saggio sull’Interpretazione Spaziale
+                            dell’Architettura</hi>. Torino: Einaudi. </bibl>
+                    <bibl>
+                        <author>Zevi, Bruno</author> (1973): <hi rend="italic">Il Linguaggio
+                            Moderno dell’Architettura: Guida al Codice Anticlassico</hi>. Torino:
+                        Einaudi. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

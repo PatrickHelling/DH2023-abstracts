@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Connecting Places In the World Historical Gazetteer</title>
+                <author n="GrossnerKarlGROSSNER_Karl_Connecting_Places_In_the_World_Historical_Gaze.xml"><persName ref="https://orcid.org/0000-0002-4066-8297" n="GrossnerKarl">
+                        <surname>Grossner</surname>
+                        <forename>Karl</forename>
+                    </persName><affiliation>University of Pittsburgh, United States of America</affiliation><email>karl@kgeographer.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MosternRuthGROSSNER_Karl_Connecting_Places_In_the_World_Historical_Gaze.xml"><persName ref="https://orcid.org/0000-0001-8219-7174" n="MosternRuth">
+                        <surname>Mostern</surname>
+                        <forename>Ruth</forename>
+                    </persName><affiliation>University of Pittsburgh, United States of America</affiliation><email>rmostern@pitt.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MichalewiczNathanGROSSNER_Karl_Connecting_Places_In_the_World_Historical_Gaze.xml"><persName ref="https://orcid.org/0000-0002-0049-9206" n="MichalewiczNathan">
+                        <surname>Michalewicz</surname>
+                        <forename>Nathan</forename>
+                    </persName><affiliation>University of Pittsburgh, United States of America</affiliation><email>nkm33@pitt.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StraubAlexandraGROSSNER_Karl_Connecting_Places_In_the_World_Historical_Gaze.xml"><persName n="StraubAlexandra">
+                        <surname>Straub</surname>
+                        <forename>Alexandra</forename>
+                    </persName><affiliation>University of Pittsburgh, United States of America</affiliation><email>als512@pitt.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster describes the World Historical Gazetteer project software platform (WHG), with a particular focus on its collection-building features. The WHG is linking and providing access to records of historical place attestations contributed by researchers working in numerous fields within the humanities and social sciences.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>gazetteers</term>
+                    <term>place</term>
+                    <term>linked data</term>
+                    <term>pedagogy</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The World Historical Gazetteer (WHG) project (Mostern and Grossner, 2023), initially launched in mid-2020, is linking and providing multiple forms of access to records of historical place attestations—i.e. historical gazetteer data—contributed by researchers working in numerous fields within the humanities and social sciences. The WHG web software platform is intended to become an essential and permanent component of global Digital Humanities infrastructure. At this writing the system holds nearly 2 million attestation records for over 1.6 million distinct places. Of these, roughly 80,000 are temporally scoped. The remainder are drawn from modern sources, forming a core that is developing increasing temporal depth as new dataset contributions are received. While there do exist comprehensive modern gazetteer resources and historical gazetteers dedicated to particular regions and periods, the WHG is distinctive in having several attributes 
+                <hi rend="underline">in combination</hi>: 1) global geographic coverage; 2) structured, granular temporal information; 3) records drawn from historical sources by researchers; 4) multiple attestations for a given place are linked by contributors, using embedded tools; 5) faceted record-level search across datasets; 6) machine access via an application programming interface (API).
+            </p>
+            <p>The WHG also provides reconciliation services useful in the creation and enhancement of specialist gazetteers developed in the course of Spatial Humanities research on any number of topics, and serves as a publication venue for smaller projects wishing to provide dynamic record-level access to their place data.</p>
+            <p>The Collection feature in WHG allows registered users to create and publish groups of records about places that are connected in some way. Named 
+                <hi rend="italic">Dataset Collections</hi> link multiple contributed datasets, bringing together all of their place records in a unified presentation for search, mapping, and export, for use in for example georeferencing of historical source material concerning a given region. The connection between places in a Dataset Collection might simply be their lying within a contiguous historical region—or, as in the existing Dutch Global History collection of (to date) six datasets, belonging to a colonial empire. Several similar collections are in an early stage of development, including for the historical Middle East, colonial era Latin America, and Central Eurasia. The Dataset Collection feature allows communities of researchers to build gazetteer resources 
+                <hi rend="underline">within the WHG platform</hi>, specialized for regions of particular concern to them—linking their place records directly with each other, and with records found in non-project place data resources like the Getty Thesaurus of Geographic Names (TGN), Wikidata, and several national libraries.
+            </p>
+            <p>This poster will also present the use cases and functionality of a significant extension in ongoing development, the 
+                <hi rend="italic">Place Collection</hi>. These typically are motivated by explicating an historical theme or concept and can comprise, in any combination, individual records drawn from one or several datasets. Early exemplars include a collection of places visited in the 18c travels of Olaudah Equiano, a freed slave, sailor, and abolitionist. Another is composed of the places relevant to Hernan Cortes’ Conquest of the Aztec Empire. Importantly, some or all of the places in a Place Collection can be annotated with basic information about why they are included, such as relevant dates, and the nature of the relationship, e.g. waypoint, battle site, port, and so on. A Place Collection can also include a short explanatory essay, links to external web resources, and images. The creation of such authored Place Collections can be an effective teaching exercise at secondary and college levels and will also provide a venue for enhanced data publication for historical scholars from many disciplines. 
+            </p>
+            <p>Over the past two years, the WHG project has established significant ongoing partnerships, both internally at University of Pittsburgh and internationally, with the Humanities Cluster of the Royal Dutch Academies (KNAW-HuC). Several member organizations within the Pitt’s University Center for International Studies (UCIS), including the Asian Studies Center, Center for Russian, East European, and Eurasian Studies, and the Center for Latin American Studies have strong interest in extending WHG features and functions to support their particular interests for research and teaching, and are supporting data and software development towards those ends. </p>
+            <p>There are currently several dozen data contributions in queue, at some stage of the WHG accessioning pipeline from strong interest to imminent indexing. Their aggregated coverage includes all continents. </p>
+            <p>The project team was honored to be voted “Best DH Tool or Suite of Tools” in the 2021 DH Awards. This growing momentum of interest and support indicates that the prospects for becoming an increasingly important and sustained piece of DH software infrastructure are excellent.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Mostern, Ruth</author> / 
+                        <author>Grossner, Karl</author> (2023): 
+                        <hi rend="italic">World Historical Gazetteer, </hi>
+                        <ref target="https://whgazetteer.org">https://whgazetteer.org</ref>, last accessed 01 April 2023.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

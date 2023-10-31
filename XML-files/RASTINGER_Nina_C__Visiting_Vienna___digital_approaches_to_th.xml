@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Visiting Vienna – digital approaches to the (semi-)automatic analysis and
+                    mapping of the arrival lists found in the "Wien[n]erisches Diarium"</title>
+                <author n="RastingerNinaCRASTINGER_Nina_C__Visiting_Vienna___digital_approaches_to_th.xml"><persName ref="https://orcid.org/0000-0002-3235-5063" n="RastingerNinaC">
+                        <surname>Rastinger</surname>
+                        <forename>Nina C.</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage
+                        (Austrian Academy of Sciences)</affiliation><email>ninaclaudia.rastinger@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The contribution utilizes the information density of the arrival lists published in the 18th century newspaper “Wien[n]erisches Diarium” with the help of digital, (semi‑)automatic methods: high-quality full texts are created with Transkribus and the entities named herein (e.g. points of entry/lodging) are extracted, geocoded and visualized on historical city maps.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Historical Newspapers</term>
+                    <term>Arrival Lists</term>
+                    <term>Text Mining</term>
+                    <term>Named Entity Recognition</term>
+                    <term>Mapping</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>While in present-day Vienna, passing the city limits and thus entering the city
+                    usually goes unnoticed, 'city' and 'country' seem to be much more separated in
+                    the early modern period: on the one hand, people entering a city had to use
+                    specific entry points at the city walls in the form of city gates, and on the
+                    other hand, their arrival was controlled and comprehensively documented by
+                    authorities. From a contemporary perspective, this practice can be deemed lost:
+                    “Today, the cultural practice and the experience of entering a city through a
+                    gate has become foreign to us, or even faded completely from memory” (Jütte
+                    2014).</p>
+                <p>All the more valuable are textual witnesses of early modern arrival practices
+                    that have survived to the present day and allow researchers insight into the
+                    visitor history of specific cities – as, in the case of Vienna, the
+                    “Wien[n]erisches Diarium”: the periodical, which was founded in 1703 and renamed
+                    “Wiener Zeitung” in 1780, included a list of upper class arrivals (“Ankunfft
+                    derer Hoch= und niederen Stands=Personen”) in each of its bi-weekly issues until
+                    1725. This section, whose contents the newspaper publishers received through an
+                    imperial privilege, was at the time followed with particular interest by readers
+                    (Fischer 2019: 142) and can still be considered highly relevant today. After
+                    all, each of the approximately 2250 arrival lists printed in the “Diarium”
+                    showcases a high information density and thus a high knowledge potential, as the
+                    following exemplary annotated and mapped list entry demonstrates:</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="11.2395cm" url="Pictures/da9981ef11e04095b17269981cb57890.png" rend="inline"/>
+                    <head>Figure 1: Exemplary arrival list entry, annotated for named entities and
+                        visualized on Schimmer's (1847) replication of the “Steinhausenplan”
+                        (1710)</head>
+                </figure>
+                <p>Not only are readers informed about which high-ranking
+                    persons arrived in Vienna on a certain day, but they also learn – in addition to
+                    occupation and title details – about the city gate used by the arriving persons,
+                    their previous place of stay and their place of lodging. The aim of the City of
+                    Vienna funded project “Visiting Vienna” (2022–2023, PI: Nina C. Rastinger) which
+                    is presented here is to (semi‑)automatically analyse this wealth of information
+                    with the help of digital methods.</p>
+            </div>
+            <div type="div1">
+                <head>Full text digitization</head>
+                <p>For this purpose, first, a high quality full text
+                    collection is created: in addition to the issues already available in the
+                    DIGITARIUM (Resch &amp; Kampkaspar 2020, https://digitarium.acdh.oeaw.ac.at),
+                    all list facsimiles available in ANNO (AustriaN Newspapers Online,
+                    https://anno.onb.ac.at, cf. Kann &amp; Hintersonnleitner 2015) are fed into
+                    Transkribus (https://readcoop.eu/de/transkribus), where they are subjected to an
+                    automatic layout analysis and transcribed via the AI model "German Fraktur 18th
+                    Century – WrDiarium_M9"
+                    (www.readcoop.eu/de/modelle/german-kurrent-18th-century), which was developed at
+                    the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)
+                    especially for the historical “Wiener Zeitung”. Additionally, manual corrections
+                    are made where necessary.</p>
+            </div>
+            <div type="div1">
+                <head>Semantic Enrichment</head>
+                <p>Based on this first step, the high quality full texts
+                    are then semantically enriched by identifying and annotating the entities named
+                    in them (e.g. persons, points of entry, places of lodging). Due to the strong
+                    graphematic variation (e.g. “Kärnther=Thor”, “Cärntner=Thor”) but consistent
+                    (syntactic) structure of the textual material, a rule-based approach is taken
+                    for this task of Named Entity Recognition and Classification (NERC). In the
+                    context of the first ‘Vienna Time Machine’ project, this approach has already
+                    proven successful for the death lists of the “Diarium” (Resch, Rastinger &amp;
+                    Kirchmair 2022).</p>
+            </div>
+            <div type="div1">
+                <head>Data Modeling and Visualization</head>
+                <p>Once the arrival lists are enriched with sufficient
+                    semantic mark-up, the data can be modelled as a knowledge graph using the W3C
+                    standard Resource Description Framework (RDF, https://www.w3.org/RDF) as well as
+                    the CIDOC Conceptual Reference Model (CRM, https://www.cidoc-crm.org) and
+                    transferred into a geographic information system (GIS), concretely ArcGIS. While
+                    the former aspect ensures the interoperability and complex searchability of the
+                    data, the latter step makes it possible to visualize the routes of those
+                    arriving in Vienna on historical city maps, like the so-called ‘Steinhausenplan’
+                    (1710), which has already been georeferenced by the City of Vienna:</p>
+                <figure>
+                    <graphic n="1002" width="12.043833333333334cm" height="7.4198611111111115cm" url="Pictures/a095bad182a4df3712061e5272faef90.jpeg" rend="inline"/>
+                    <head> Figure 2: Exemplary visualization of Wednesday arrivals from 1710 on the
+                        city map</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>Following this approach, the paper and project title "Visiting Vienna" can be
+                    read in two ways: (Semi‑)automatic transcription and NERC processes in
+                    combination with interactive maps (e.g. ArcGIS Story Maps) do not only make
+                    arrivals of historic persons traceable in time and space, but also enable
+                    interested time travellers from the present to enter early modern Vienna
+                    themselves. Hence, in line with the vision of the European initiative TIME
+                    MACHINE (https://www.timemachine.eu), new connections between events, people and
+                    places are established over time and the development of a local ‘Vienna Time
+                    Machine’ is significantly advanced.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Esri</author>
+                        (ed.):
+                        <hi rend="italic">ArcGIS.</hi>
+                        https://www.arcgis.com
+                            (22.
+                        04
+                        .2
+                        3
+                        ).
+                    </bibl>
+                    <bibl>
+                        <author>Austrian National Library </author>
+                        (ed.): 
+                        <hi rend="italic">AustriaN
+                            Newspaper</hi>
+                        <hi rend="italic">s</hi>
+                        <hi rend="italic"> Online (ANNO)</hi>
+                        . https://anno.onb.ac.at
+                            (22.
+                        04
+                        .2
+                        3
+                        ).
+                    </bibl>
+                    <bibl>
+                        <author>Fischer, Nora </author>
+                        (2019): 
+                        “ Von Orten im
+                            Wien[n]erischen Diarium. Anmerkungen zu den Voraussetzungen einer
+                            Annotation von Ortsnamen
+                        <hi rend="italic">Wiener
+                            Geschichtsblätter</hi>
+                         74, 2: 137–149.
+                    </bibl>
+                    <bibl>
+                        <author>Jütte, Daniel</author>
+                        (2014): “
+                            Entering a city: on a
+                            lost early modern practice
+                        <hi rend="italic">Urban History</hi>
+                         41
+                        , 
+                        2
+                        : 
+                        204–227.
+                    </bibl>
+                    <bibl>
+                        <author>Kann, Bettina</author> / <author>Hintersonnleitner, Michael</author> 
+                        (2015): 
+                        “ Volltextsuche in historischen Texten. Erfahrungen
+                            aus den Projekten der Österreichischen Nationalbibliothek
+                        , in: 
+                        <hi rend="italic">BIBLIOTHEK – Forschung
+                            und Praxis</hi>
+                         39, 73–79. DOI: 10.1515/bfp-2015-0004
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Resch, Claudia</author> / <author>Kampkaspar, Dario</author> 
+                        (eds.) (2022): 
+                        <hi rend="italic">DIGITARIUM</hi>
+                        .
+                            https://digitarium.acdh.oeaw.ac.at (22.
+                        04
+                        .2
+                        3
+                        ).
+                    </bibl>
+                    <bibl>
+                        <author>Resch, Claudia</author> / <author>Rastinger, Nina C.</author> / <author>Kirchmair, Thomas</author> 
+                        (2022): 
+                        “ Die historische Wiener Zeitung und ihre
+                            Sterbelisten als Fundament einer Vienna Time Machine: Digitale Ansätze
+                            zur automatischen Identifikation von Toponymen
+                        <hi rend="italic">Wiener Digitale
+                            Revue</hi>
+                         4. 
+                        DOI:
+                            10.25365/wdr-04-03-04.
+                    </bibl>
+                    <bibl>
+                        <author>Steinhausen, Werner Arnold</author>
+                         (1710): 
+                        <hi rend="italic">Historical map of
+                            Vienna</hi>
+                        . 
+                        https://www.wien.gv.at/kultur/kulturgut/plaene/steinhausen.html
+                            (22.
+                        04
+                        .2
+                        3
+                        ).
+                    </bibl>
+                    <bibl>
+                        <author>Schimmer, Gustav Adolph </author>(1847): <hi rend="italic">Reproduction of the
+                            city map by Werner Arnold Steinhausen</hi>
+                        .
+                         http://wais.wien.gv.at//archive.xhtml?id=Stueck++842296CA-B8D3-4679-8C5D-
+                        92B6790D44BClanm08sch#Stueck__842296CA-B8D3-4679-8C5D-92B6790D44BClanm08sch
+                            (22.
+                        04
+                        .2
+                        3
+                        ).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

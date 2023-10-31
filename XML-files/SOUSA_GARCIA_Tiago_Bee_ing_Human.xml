@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bee-ing Human</title>
+                <author n="GSBaluSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName n="GSBalu">
+                        <surname>G S</surname>
+                        <forename>Balu</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>Balu.G-S@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HoggBennettSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName ref="https://orcid.org/0000-0002-9446-3115" n="HoggBennett">
+                        <surname>Hogg</surname>
+                        <forename>Bennett</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>bennett.hogg@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NityanandaVivekSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName ref="https://orcid.org/0000-0002-2878-2425" n="NityanandaVivek">
+                        <surname>Nityananda</surname>
+                        <forename>Vivek</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>Vivek.Nityananda@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SmithOliviaSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName n="SmithOlivia">
+                        <surname>Smith</surname>
+                        <forename>Olivia</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>Olivia.Smith2@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SousaGarciaTiagoSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName ref="https://orcid.org/0000-0001-5694-7285" n="SousaGarciaTiago">
+                        <surname>Sousa Garcia</surname>
+                        <forename>Tiago</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>tiago.sousa-garcia@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RichardsJenniferSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName n="RichardsJennifer">
+                        <surname>Richards</surname>
+                        <forename>Jennifer</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>jennifer.richards@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WilliamsonMagnusSOUSA_GARCIA_Tiago_Bee_ing_Human.xml"><persName ref="https://orcid.org/0000-0002-1746-7905" n="WilliamsonMagnus">
+                        <surname>Williamson</surname>
+                        <forename>Magnus</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>magnus.williamson@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Bee-ing Human is an interdisciplinary project that brings together researchers from the Humanities (Literary Studies, Musicology), Biology (Insect Behaviour), and research software engineers to study the role of emotions in Bees. We depart from a seventeenth-century apiary book (Butler, The Feminine Monarchy of Bees) to produce a new work in the digital space that will reflect on both the early modern knowledge and interpretation of bee behaviour, and the latest scientific research.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital edition</term>
+                    <term>interdisciplinarity</term>
+                    <term>music</term>
+                    <term>early modern</term>
+                    <term>science</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>public humanities collaborations and methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Book and print history</term>
+                    <term>History of science</term>
+                    <term>Literary studies</term>
+                    <term>Musicology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="italic">Bee-ing</hi> Human is an interdisciplinary research project
+                gathering researchers and practitioners from literary studies, musicology, digital
+                humanities and biology (animal behaviour). It centres on a seventeenth-century
+                apiculture book, Charles Butler's <hi rend="italic">The feminine monarchie or the
+                    history of bees</hi>, using it both as an object of study and as a departure
+                point to contrast the early modern knowledge and culture around bees and beekeeping
+                with the latest research in animal behaviour and emotion. </p>
+            <p><hi rend="italic">The Feminine Monarchie</hi> was published three times during
+                Butler’s lifetime: in 1609, in 1623, and in 1634. There are significant and
+                interesting differences between all three editions: 1623 expands the text of the
+                1609 edition in several respects and, most significantly, it includes a song
+                (‘Melissomelos or Bee’s Madrigal‘) composed by Butler and inspired by the sounds of
+                the beehive. 1634 by and large repeats the content of 1623, but it does so using a
+                completely new orthography devised by Butler himself which attempts to encode
+                phonetic English — the title now becomes <hi rend="italic">The femininʻ monarchiʻ,
+                    or the histori of beeʻs</hi>. Butler’s influence on English apiculture is
+                significant, and he is often called ‘The Father of English Beekeeping’ (Morse /
+                Hooper 1985: 61). The Feminine Monarchie has been republished often well into the
+                20th century, with the most recent edition in 2017 (Owen 2017). </p>
+            <p>Literary scholars will study and edit Butler's original
+                text, musicologists will study the compositions included in Butler's writing, as
+                well as respond with new compositions and reinterpretations of the sound of bees and
+                research results; biologists, inspired by Butler's book, will work on the emotional
+                states of bees, and digital humanists will create the final output, a ‘digital bee
+                book’ for the 21st century, that will gather all the material and research produced
+                during the project, as well as create digital experiments to communicate the
+                research methods employed by the different disciplines. Alongside this disciplinary
+                research, we will record, document, and present our own interdisciplinary process,
+                as bees with different roles working together for the good of the colony.</p>
+            <p>The main output of <hi rend="italic">Bee-ing Human</hi>
+                will be the ‘digital bee book,’ which is also the focus of our poster. The ‘digital
+                bee book’ will capture and publish the research of the four different strands of
+                this project in a digital platform that will be, itself, a site of experimentation
+                on how to present research from disparate disciplines to a wider audience. </p>
+            <p>The digital bee book will contain: a) a scholarly edition
+                of Butler’s <hi rend="italic">Feminine Monarchie</hi>, b) research outputs from all
+                strands of the project, c) digital experiments in recreating and presenting the
+                results from laboratory work, and interacting with the research produced by the
+                literary, musicological, and creative components of the project; and finally, d) a
+                record of the interdisciplinary work of the project itself, including recordings,
+                reflections, and provocative thoughts originating from our regular project
+                workshops. </p>
+            <p>The website will be built in Svelte with all interactivity
+                handled in browser. The digital edition component will be encoded in TEI and made
+                web-ready using CETEIcean, with the musical portions encoded in MEI, engraved into
+                SVG using Verovio, with playback by a JS MIDI player like MIDIjs. The workflow for
+                textual editing was to transcribe the text and convert it into a basic TEI file.
+                After transcription and conversion, we began the collation phase recorded directly
+                in TEI. The other strands of the project work concurrently and autonomously. The
+                project team meets monthly to share progress, conduct a cross-disciplinary
+                discussion with the intent of cross-pollinating research. Notes and thoughts from
+                these meetings will be available on the final portal as part of the
+                interdisciplinarity strand of the project.</p>
+            <p>In this poster we will give an overview of the project and
+                our research so far. We will focus on the initial attempts at creating a compelling
+                and accessible Digital Bee Book, as well as the methodologies and workflows that we
+                used to edit and present the Feminine Monarchy of Bees. The poster will include a
+                description of the project, an illustration of the interdisciplinary workflow, an
+                illustration of the editorial workflow, an illustration of the technology stack, and
+                screenshots of various draft interfaces. We will present our initial experiments
+                with design and user experience, reflecting on the extent to which we were able to
+                adequately reconcile the various research strands into a coherent platform.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Morse, Roger</author> / <author>Hooper Ted</author> (1985): <hi rend="italic">The Illustrated Encyclopedia of
+                            Beekeeping</hi>, E.P. Dutton, Inc. </bibl>
+                    <bibl><author>Owen, John </author>(2017): <hi rend="italic">The feminine monarchie or the history of bees by Charles
+                            Butler (1623) ; edited with an introduction and notes by John Owen</hi>,
+                        Northern Bee Books </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

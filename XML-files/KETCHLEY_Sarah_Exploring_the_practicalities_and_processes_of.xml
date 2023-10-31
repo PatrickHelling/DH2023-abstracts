@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exploring the practicalities and processes of developing a collaborative group space in a platform for text mining: Gale Digital Scholar Lab</title>
+                <author n="KetchleySarahKETCHLEY_Sarah_Exploring_the_practicalities_and_processes_of.xml"><persName ref="https://orcid.org/0000-0002-0803-4147" n="KetchleySarah">
+                        <surname>Ketchley</surname>
+                        <forename>Sarah</forename>
+                    </persName><affiliation>University of Washington, United States of America; Gale, a Cengage Company</affiliation><email>ketchley@uw.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BowdenRebeccaKETCHLEY_Sarah_Exploring_the_practicalities_and_processes_of.xml"><persName n="BowdenRebecca">
+                        <surname>Bowden</surname>
+                        <forename>Rebecca</forename>
+                    </persName><affiliation>Gale, a Cengage Company</affiliation><email>Rebecca.bowden@cengage.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster will describe the process of planning, UX testing and developing a workspace for groups who wish to work collaboratively in Gale Digital Scholar Lab, a platform for text mining and analysis. It will detail key learning outcomes, including feedback from an initial cohort of classroom users.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Product development</term>
+                    <term>collaboration</term>
+                    <term>project management</term>
+                    <term>text mining tool</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>user experience design and analysis</term>
+                    <term>Education/ pedagogy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Gale has a long history of developing digital resources including research databases and digitized archival collections to support scholarly research. In September 2018, the company created Gale Digital Scholar Lab as a resource for researchers and students to engage with archives in a new way – analyzing hundreds of thousands of documents in minutes. Since its initial release, the Lab has undergone an iterative process of development and refinement, including major milestones such as a platform migration at the end of 2021, and the introduction of user-requested features such as text cleaning, file upload and pre-curated datasets. Recognizing that the platform provides a pathway into digital humanities for those new to the field, the DH team at Gale developed a comprehensive ‘Learning Center’ including written instructions, brief videos and annotated images to streamline the workflow for new users. The platform has been used extensively for both graduate and undergraduate classroom teaching in subjects as diverse as history, media studies, English, Middle Eastern studies and informatics. </p>
+            <p>The latest upgrade, slated for release in early 2023, will be the introduction of a collaborative workspace within the platform. This has been high on the list of development priorities based on conversations with faculty and student users, particularly those who wish to provide a teambased learning experience within their classrooms. </p>
+            <p>This poster will describe the development impetus, workflow and practical considerations for planning and implementing a major new platform feature. It will discuss:</p>
+            <p> ● Discovery research, to ensure that we understood user requirements and how best to create a successful user experience.</p>
+            <p> ● Roadmap planning and development, to map out the project, establish milestones and work closely with cross-functional teams in order to implement realistic expectations. </p>
+            <p>● UX development, to create both low and high fidelity prototypes, followed by close collaboration with users to validate and refine those prototypes. </p>
+            <p>● Agile workflow, the iterative nature of development and the value of retrospectives. </p>
+            <p>We will also highlight the project management skills which play an integral role in the successful completion of multi-team development efforts at each phase of the Lab’s development, which include developing effective communication strategies alongside critical thinking skills, time management, team building and emotional intelligence. </p>
+            <p>The collaborative group workspace within the Lab will be trialed during a Winter 2023 Informatics class at the University of Washington. 35 undergraduate and graduate students will work in collaborative groups to build digital exhibits based on a research question they develop on a particular primary source archive or dataset. The poster will discuss the student and educator classroom experience, and feedback offered to Gale to inform post-release refinements.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Besette, Lee</author> (2012): “Challenges in Digital Humanities”, in:
+                        <hi rend="italic"> Inside Higher Ed.</hi>
+                        <ref target="https://www.insidehighered.com/blogs/college-ready-writing/challenges-digital-humanities">https://www.insidehighered.com/blogs/college-ready-writing/challenges-digital-humanities</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <hi rend="italic">Gale Digital Scholar Lab: for Digital Humanities &amp; Scholarship</hi>. (n.d.): 
+                        <ref target="https://www.gale.com/intl/primary-sources/digital-scholar-lab">https://www.gale.com/intl/primary-sources/digital-scholar-lab</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Gratton, Lynda</author> / <author>Erickson, Tamara J.</author>  (2016), in: “Eight Ways to Build Collaborative Teams.” Harvard Business Review. 
+                        <ref target="http://hbr.org/2007/11/eight-ways-to-build-collaborative-teams">hbr.org/2007/11/eight-ways-to-build-collaborative-teams</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Ketchley, Sarah</author> / <author>Waligora, Margaret</author> / <author>Gervais, Lindsey</author> / <author>Perla Kurtz, Wendy</author> / <author>Piggott, Thomas</author> / <author>Cormier, Marc</author>  (2022): “Building the Digital Scholar Lab - A Retrospective”, in: IDEAH. DOI: 
+                        <ref target="http://doi.org/10.21428/f1f23564.c51aea2e">10.21428/f1f23564.c51aea2e</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Kuniavsky, Mike</author> (2003), in: 
+                        <hi rend="italic">Observing the User Experience</hi>. Elsevier, USA.
+                    </bibl>
+                    <bibl>
+                        <author>Mandell, Laura</author> / <author>Grumbach, Elizabeth</author>  (2015): "The Business of Digital Humanities: Capitalism and Enlightenment", in: 
+                        <hi rend="italic">Scholarly and Research Communication</hi> 6(4). 
+                        <ref target="http://doi.org/10.22230/src.2015v6n4a226">DOI: 10.22230/src.2015v6n4a226
+                        </ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Savonick, Danica</author> / <author>Tagliaferri, Lisa</author>  (2017): “Building a Student-Centered (Digital) Learning Community With Undergraduates”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, 011(3). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/11/3/000306/000306.html">http://www.digitalhumanities.org/dhq/vol/11/3/000306/000306.html</ref> [15.03.2023]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Siemens, L</hi><hi rend="bold">ynne</hi> (2011): “The Balance between On-line and In-person Interactions: Methods for the Development of Digital Humanities Collaboration”, in: 
+                        
+                        <hi rend="italic">Digital Studies/le Champ Numèrique</hi>
+                        , 2(1). DOI: 
+                        <ref target="HYPERLINK">10.16995/dscn.259</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

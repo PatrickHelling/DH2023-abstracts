@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Providing Digital Answers to Disciplinary Questions with Graph Literary
+                    Exploration Machine</title>
+                <author n="MarylMaciejMARYL_Maciej_Providing_Digital_Answers_to_Disciplinary_Quest.xml"><persName ref="https://orcid.org/0000-0002-2639-041X" n="MarylMaciej">
+                        <surname>Maryl</surname>
+                        <forename>Maciej</forename>
+                    </persName><affiliation>Institute of Literary Research of the Polish Academy of
+                        Sciences</affiliation><email>maciej.maryl@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KarliskaAgnieszkaMARYL_Maciej_Providing_Digital_Answers_to_Disciplinary_Quest.xml"><persName ref="https://orcid.org/0000-0002-4846-7086" n="KarliskaAgnieszka">
+                        <surname>Karlińska</surname>
+                        <forename>Agnieszka</forename>
+                    </persName><affiliation>NASK National Research Institute</affiliation><email>agnieszka.karlinska@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WalentynowiczWiktorMARYL_Maciej_Providing_Digital_Answers_to_Disciplinary_Quest.xml"><persName ref="https://orcid.org/0000-0002-7672-8642" n="WalentynowiczWiktor">
+                        <surname>Walentynowicz</surname>
+                        <forename>Wiktor</forename>
+                    </persName><affiliation>Wrocław University of Science and Technology</affiliation><email>wiktor.walentynowicz@pwr.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WalkowiakTomaszMARYL_Maciej_Providing_Digital_Answers_to_Disciplinary_Quest.xml"><persName ref="https://orcid.org/0000-0002-7749-4251" n="WalkowiakTomasz">
+                        <surname>Walkowiak</surname>
+                        <forename>Tomasz</forename>
+                    </persName><affiliation>Wrocław University of Science and Technology</affiliation><email>tomasz.walkowiak@pwr.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Graph Literary Exploration Machine (GoLEM) is a new web-based application for literary scholars. The tool allows for named entity relationship analysis, terminology mining, and topic modeling. A strong emphasis is put on the visualisation of results as graphs, time series, maps or scatter plots.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>distant reading; concept mining; named entity recognition; topic
+                        modelling; web service</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>natural language processing</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This paper introduces Graph Literary Exploration Machine
+                (GoLEM), a new web-based application for literary scholars, which will become fully
+                operational by the end of 2023 ( <ref target="https://ws.clarin-pl.eu/GoLEM">https://ws.clarin-pl.eu/GoLEM</ref>). GoLEM has been developed through close
+                cooperation between literary researchers and computational linguists to tailor the
+                tool to the specificity of literary studies at large and to the current debates and
+                trends in humanities research. We will demonstrate a beta version of the
+                application, discussing its theoretical and methodological considerations, as well
+                as its architecture and applications. </p>
+            <p>GoLEM addresses the criticism towards Digital Humanities
+                (DH), in particular computational literary studies, revolving around the gap between
+                the development of methods and tools and the use of their potential to formulate new
+                research questions or discover new phenomena, reductionism, ahistoricism and
+                disregard for the socio-cultural circumstances (Bode, 2017). Responding to the call
+                arising from the above criticism, to embed computational analyses within broader
+                disciplinary contexts and knowledge (Underwood, 2019), the cooperation between the
+                researchers and IT professionals was driven by challenges and hypotheses created in
+                a particular disciplinary context, what differs it from its more universal
+                predecessor LEM (Maryl et al, 2018).</p>
+            <p>The application brings together tools offered by CLARIN-PL
+                and the resources and tools developed in the ongoing DARIAH-Lab project. They are
+                combined in a comprehensive workflow attuned to the needs of literary scholars
+                deriving from specific research questions and the underlying theoretical frameworks,
+                in particular the study of “travelling” concepts (Bal, 2002), cultural analysis,
+                historical semantics, philosophy of science or sociology of knowledge.</p>
+            <figure>
+                <graphic n="1001" width="17.611141666666665cm" height="9.104525cm" url="Pictures/c8914a05d06fbd3062016785154fac65.png" rend="block"/>
+                <head>Fig.1 GoLEM workflow</head>
+            </figure>
+            <p>The workflow consists of three components allowing for the
+                identification of constellations of terms and concepts and the comparison of their
+                flows over time and space:</p>
+            <list type="ordered">
+                <item><hi rend="bold">Named entity relationship analysis component </hi>performs
+                    the tasks of named entity extraction based on a system using pre-trained
+                    language models in Transformer technology (Devlin et al., 2019; Conneau et al.,
+                    2020), named entity disambiguation with available knowledge bases and linking
+                    entities with relations based on a neural network-based classification system.
+                    GoLEM extracts named entities and determines the occurrence of relationships of
+                    a given type based on contexts in which they are located. </item>
+                <item><hi rend="bold">Terminology mining component </hi>uses
+                    pattern search methods to extract terminologies described in knowledge bases. It
+                    also performs statistical analysis of changes in the meaning of terms between
+                    subcorpora. </item>
+                <item><hi rend="bold">Topic modelling component</hi> allows topic identification,
+                    keyphrase extraction and stylometric comparison. In addition to the LDA
+                    technique, semi-supervised topic modelling and contextual topic modelling that
+                    uses pre-trained representations of language to support topic modelling (Bianchi
+                    et al., 2021a; Bianchi et al., 2021b) are implemented. </item>
+            </list>
+            <p>GoLEM allows for research designs aimed at showing how the
+                reception of a given author has evolved, reconstructing the terminology networks of
+                selected scholars, grasping differences in their understanding of key concepts,
+                analysing the semantic field of a selected term and exploring the links between
+                authors based on the topics discussed in their papers. Figure 2 shows the results of
+                topic modelling of 1000 texts from 24 Polish anthologies with a literary studies
+                profile, which was performed on the basis of a controlled list of literary terms
+                (due to the space limit and exemplary nature of those figures, we are not
+                elaborating here on sources and interpretation of the results interpretation).
+                Figure 3 provides a chronological visualisation of the results. An interactive
+                visualisation of those results could be found at <ref target="https://ws.clarin-pl.eu/GoLEM/topic/">https://ws.clarin-pl.eu/GoLEM/topic/</ref>. </p>
+            <figure>
+                <graphic n="1002" width="15.92cm" height="7.584722222222222cm" url="Pictures/a35c9ec5632af85fbd82c9cc0dfb4289.png" rend="inline"/>
+                <head>Fig.2 Example of topics generated by GoLEM</head>
+            </figure>
+            <figure>
+                <graphic n="1003" width="15.966022222222222cm" height="5.5430222222222225cm" url="Pictures/6555f9399c86bf0608cf1f23a282bc5d.png" rend="inline"/>
+                <head>Fig.3 The same group of topics represented chronologically</head>
+            </figure>
+            <p>A strong emphasis is put on the visualisation of results
+                in GoLEM, e.g. as graphs, time series, maps or scatter plots, which allow to take
+                into account local circumstances and to trace the impact of historical and spatial
+                factors on the dynamics of literary processes. GoLEM also allows for determining and
+                visualising relationships between named entities in the corpus. Fig.4 shows the
+                Gephi-made visualisation of co-appearance relationships of persons in the corpus. </p>
+            <figure>
+                <graphic n="1004" width="15.92cm" height="15.910277777777777cm" url="Pictures/3cebb7a0570650f647021d1e595e7521.png" rend="inline"/>
+                <head>Fig.4 Clustered visualisation of persons from the literary-studies
+                    anthologies</head>
+            </figure>
+            <p>GoLEM stands out from other web-based text analysis tools
+                thanks to its close relation between uploaded texts and their metadata: users can
+                add metadata to documents in bulk, filter texts by metadata and group texts based on
+                metadata or keyword searches to perform comparative analyses of subcorpora.
+                Moreover, GoLEM takes into account different levels of user experience, from basic
+                to expert. The system also allows user intervention and iterative adaptation of
+                individual sub-processes of the processing pipeline.</p>
+            <div>
+                <head>Acknowledgements</head>
+                <p>This work was conducted in the project <hi rend="italic">DARIAH-PL: digital research infrastructure for arts &amp;
+                        humanities</hi>, Polish Smart Growth Operational Programme 2014-2020
+                    #POIR.04.02.00-00-D006/20. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bal, M.</author> (2002) <hi rend="italic">Travelling Concepts in
+                            the Humanities. A Rough Guide</hi>. Toronto. </bibl>
+                    <bibl>
+                        <author>Bianchi, F.</author> / <author>Terragni, S.</author> / <author>and Hovy, D.</author>  (2021a).
+                        “Pre-training is a Hot Topic: Contextualized Document Embeddings Improve
+                        Topic Coherence”, in <hi rend="italic">Proceedings of the 59th Annual
+                            Meeting of the ACL</hi>, Volume 2: 759–766. </bibl>
+                    <bibl>
+                        <author>Bianchi, F.</author> / <author>Terragni, S.</author> / <author>Hovy, D.</author> / <author>Nozza, D.</author> / <author>Fersini, E.</author>  (2021b) “Cross-lingual Contextualized Topic Models with
+                        Zero-shot Learning”. In <hi rend="italic">Proceedings of the 16th Conference
+                            of the European Chapter of the ACL,</hi>1676–1683. </bibl>
+                    <bibl>
+                        <author>Bode, K</author> (2017) “The equivalence of “close” and
+                        “distant” reading; or, toward a new object for data rich literary history”
+                            <hi rend="italic">MLQ</hi>, 78: 77–106. </bibl>
+                    <bibl>
+                        <author>Conneau, A.</author> / <author>Khandelwal, K.</author> / <author>et al</author>  (2020).
+                        “Unsupervised Cross-lingual Representation Learning at Scale”, in <hi rend="italic">Proceedings of the 58th Annual Meeting of the ACL</hi>:
+                        8440–8451. </bibl>
+                    <bibl>
+                        <author>Devlin, J.</author> / <author>Chang, M.</author> / <author>Lee K.</author> / <author>Toutanova, K.</author>  (2019)
+                        “BERT: Pre-training of Deep Bidirectional Transformers for Language
+                        Understanding”, in <hi rend="italic">Proceedings of the 2019 Conference of
+                            the North American Chapter of ACL</hi>, Minneapolis, Minnesota:
+                        4171–4186 <hi rend="italic">.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Maryl, M.</author> / <author>Piasecki, M.</author> / <author>Walkowiak, T.</author>  (2018) “ <ref target="http://www.ep.liu.se/ecp/147/011/ecp17147011.pdf">Literary
+                            Exploration Machine A Web-Based Application for Textual Scholars</ref>”,
+                        in <hi rend="italic">Selected Papers from the CLARIN Annual Conference
+                            2017</hi>. Linköping, 128–44. </bibl>
+                    <bibl>
+                        <author>Underwood, T</author>. (2019) <hi rend="italic">Distant
+                            Horizons: Digital Evidence and Literary Change</hi>., Chicago, IL.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

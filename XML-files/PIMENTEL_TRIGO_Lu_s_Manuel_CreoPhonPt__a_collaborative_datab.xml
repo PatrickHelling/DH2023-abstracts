@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CreoPhonPt: a collaborative database saving Portuguese creoles from digital obliteration</title>
+                <author n="SousaeSilvaCarlosRogrioPIMENTEL_TRIGO_Lu_s_Manuel_CreoPhonPt__a_collaborative_datab.xml"><persName ref="https://orcid.org/0000-0002-0599-2155" n="SousaeSilvaCarlosRogrio">
+                        <surname>Sousa e Silva</surname>
+                        <forename>Carlos Rogério</forename>
+                    </persName><affiliation>Centro de Linguística da Universidade do Porto, Portugal</affiliation><email>silvacarlosrogerio@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PimentelTrigoLusManuelPIMENTEL_TRIGO_Lu_s_Manuel_CreoPhonPt__a_collaborative_datab.xml"><persName ref="https://orcid.org/0000-0002-3772-7081" n="PimentelTrigoLusManuel">
+                        <surname>Pimentel Trigo</surname>
+                        <forename>Luís Manuel</forename>
+                    </persName><affiliation>Center for Digital Humanities and Innovation - Faculdade de Letras Universidade do Porto, Portugal</affiliation><email>ltrigo@letras.up.pt</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>CreoPhon is a pilot database that, for now, only includes Portuguesebased creoles (CreoPhonPt). Its mission is to collect sound phonological data about these languages systematically, to put together a findable, accessible, interoperable, and reusable dataset, and to, by using these data, produce studies that describe so-called “creole phonology” and spread it among the scientific community and the general public.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Portuguese Creoles</term>
+                    <term>Phonology</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>natural language processing</term>
+                    <term>African and African American Studies</term>
+                    <term>Asian studies</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>While the vast majority of Portuguese-based creoles are considered endangered languages (Lewis, 2013), the linguistic literature about these languages is sparse, scarce, and, many times in closed access (Cardoso et al. 2015). To solve this issue, APiCS- Atlas of Pidgin and Creole Language Structures (Michaelis et al. 2013)- has been created. However, on the one hand, the sample of Portuguese-based creoles still leaves room for expansion. On the other hand, the phonological features of creoles are disproportionately present in comparison to syntax or semantics, which keeps phonology as the most understudied in creolistics (Smith 2008). For these reasons, we felt the need to create CreoPhon.</p>
+            <p>CreoPhon is a pilot database that, for now, only includes Portuguesebased creoles (CreoPhonPt). Its mission is to collect sound phonological data about these languages systematically, to put together a findable, accessible, interoperable, and reusable dataset, and to, by using these data, produce studies that describe so-called “creole phonology” and spread it among the scientific community and the general public.</p>
+            <p>Although the idea and its early stages of development were the responsibility of one linguist, the project expanded rapidly. First, collaboration with a data scientist was necessary to perform data transformation and management. After that, as the need for more data points increased, CreoPhonPt also became an educational opportunity. During the Phonology seminar (MA), students had practical data collection sessions and data transformation tutorials, while applying their phonological knowledge and contributing to the project.</p>
+            <p>Data collection and transformation were always performed according to a protocol written by the leading researchers. The collection of phonological inventories was discarded because it is highly dependent on the theoretical orientations of the field linguists (Kiparsky 2018). Students were asked to collect 200-words Swadesh lists (Swadesh 1955) of a given Portuguese creole of their choice with phonetic transcription, along with the cognates and translation. Then, in spreadsheets, they performed some manual annotation, like syllable division and some phonological processes. Finally, they could transform and visualize the data according to their own research interests.</p>
+            <p>Today, CreoPhonPt is comprised of 18 phonologically informed Swadesh lists representing each non-extinct Portuguese creole. It is a ready-to-use tool for advanced research either in phonology or historical linguistics. Nevertheless, it can also be used beyond Academia for the creation of orthographic norms for creoles, which are known as an important means of language conservation and revitalization (Rutkowska 2017).</p>
+            <p>Beyond linguistics, this database is also conceived as an opportunity for interdisciplinary studies and collaboration. As creoles are a consequence of unique situations of contact, their birth and development can never be fully understood without historical, geographical, ethnological, and genetic data (Hagemeijer / Rocha 2019), whose inclusion of part of the plans for CreoPhon expansion in the near future.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Cardoso, Hugo</author> / <author>Hagemeijer, Tjerk</author> / <author>Alexandre, Nelia</author>  (2015): “Crioulos de base lexical portuguesa”. In 
+                        <hi rend="italic">Manuel des anthologies, corpus et textes romans</hi>, 670–692. Mouton deGruyter. 
+                    </bibl>
+                    <bibl>
+                        <author>Hagemeijer, Tjerk</author> / <author>Rocha, Jorge</author>  (2019): Creole languages and genes: the case of sao tome and principe. 
+                        <hi rend="italic">Faits de Langues </hi>49(1). 167 – 182.
+                    </bibl>
+                    <bibl>
+                        <author>Kiparsky, Paul</author> (2018): 
+                        <hi rend="italic">Formal and empirical issues in phonological typology </hi>54–106. Berlin, Boston: De Gruyter Mouton. Lewis, M. Paul (ed.). 2013. 
+                        <hi rend="italic">Ethnologue: Languages of the world</hi>. Dallas, TX, USA: SIL International seventeenth edn. 
+                        <ref target="https://researchr.org/publication/ethnologue">https://researchr.org/ </ref>
+                        <ref target="https://researchr.org/publication/ethnologue">publication/ethnologue</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Michaelis, Susanne Maria</author> / <author>Maurer, Philippe</author> / <author>Haspelmath, Martin</author> / <author>Huber, Magnus,</author>  eds. (2013): 
+                        <hi rend="italic">Apics online</hi>. Leipzig: Max Planck Institute for Evolutionary Anthropology. 
+                        <ref target="https://apics-online.info/">https://apics-online.info/</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Rutkowska, Hanna</author> (2017): 
+                        <hi rend="italic">Chapter 11: Orthography </hi>200–217. Berlin, Boston: De Gruyter Mouton.
+                    </bibl>
+                    <bibl>
+                        <author>Smith, Norval</author> (2008): 
+                        <hi rend="italic">Creole phonology </hi>chap. 5, 98–129. John Wiley Sons, Ltd. 
+                    </bibl>
+                    <bibl>
+                        <author>Swadesh, Morris</author> (1955): Towards greater accuracy in lexicostatistic dating. 
+                        <hi rend="italic">International Journal of American Linguistics </hi>21(2). 121–137.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

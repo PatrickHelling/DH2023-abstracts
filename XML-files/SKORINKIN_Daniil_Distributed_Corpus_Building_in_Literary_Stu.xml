@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Distributed Corpus Building in Literary Studies: The DraCor Example</title>
+                <author n="GiovanniniLucaSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0003-2444-7192" n="GiovanniniLuca">
+                        <surname>Giovannini</surname>
+                        <forename>Luca</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>giovannini@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SkorinkinDaniilSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0002-1845-9974" n="SkorinkinDaniil">
+                        <surname>Skorinkin</surname>
+                        <forename>Daniil</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>skorinkin@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TrilckePeerSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0002-1421-4320" n="TrilckePeer">
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>trilcke@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BrnerIngoSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0001-8294-2541" n="BrnerIngo">
+                        <surname>Börner</surname>
+                        <forename>Ingo</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>ingo.boerner@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FischerFrankSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0003-2419-6629" n="FischerFrank">
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName><affiliation>Freie Universität Berlin</affiliation><email>fr.fischer@fu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DudarJuliaSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0001-5545-9562" n="DudarJulia">
+                        <surname>Dudar</surname>
+                        <forename>Julia</forename>
+                    </persName><affiliation>Universität Trier</affiliation><email>dudar@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MillingCarstenSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0003-0553-7512" n="MillingCarsten">
+                        <surname>Milling</surname>
+                        <forename>Carsten</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>milling@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PozkaPetrSKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml"><persName ref="https://orcid.org/0000-0001-6980-9148" n="PozkaPetr">
+                        <surname>Pořízka</surname>
+                        <forename>Petr</forename>
+                    </persName><affiliation>Palacký University Olomouc</affiliation><email>petr.porizka@upol.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The multilingual DraCor platform (https://www.dracor.org) represents a valuable resource for literature and theatre scholars, allowing them to host, access and analyse thousands of plays from Antiquity to the XX century. After briefly presenting the workflow for the ingestion of new plays into our ecosystem, we focus on the collaborative side of our endeavours, demonstrating how external scholars can benefit from a range of tools and guides to easily prepare and submit their own collections. As a showcase of the process, we present three corpora currently in production, focusing respectively on Ukrainian, Czech, and Early Modern English literature.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>TEI</term>
+                    <term>corpus-building</term>
+                    <term>drama</term>
+                    <term>collaboration</term>
+                    <term>DraCor</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>crowdsourcing</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Literary studies</term>
+                    <term>Performance Studies: Dance</term>
+                    <term>Theatre</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introducing DraCor </head>
+                <p>The DraCor project, based on the concept of “Programmable Corpora” (Fischer et
+                    al. 2019), is an open platform as well as a growing network of resources for
+                    hosting, accessing, and analysing theatre plays. Presently including 15 corpora
+                    in 10 different languages, totalling about 3000 works, it provides scholars not
+                    only with a wealth of TEI-encoded digital texts, but also with applications and
+                    tools for various research purposes – ranging from the computation of textual
+                    network metrics via extraction functions to SPARQL queries and speech
+                    distribution statistics.</p>
+                <figure>
+                    <graphic n="1001" width="15.92cm" height="7.231944444444444cm" url="Pictures/778d2b9242b44d44ef113b3a99776e75.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 1. DraCor homepage (</hi><ref target="http://www.dracor.org"> www.dracor.org </ref><hi rend="italic">)</hi></head>
+                </figure>
+                <p>Since its corpora are created either by aggregating formally heterogeneous texts
+                    from different sources or by transforming existing collections, there’s no
+                    standard path for the ingestion of dramatic texts into DraCor. An overview of
+                    the main pipelines is presented in Figure 2. While the current workflow poses
+                    some technical challenges in terms of corpus homogenisation, which are currently
+                    being tackled through the prototyping of several tools, it also highlights the
+                    collaborative, community-driven nature of our endeavours. </p>
+                <p> Indeed, by relying on the general TEI-P5 model for dramatic texts, with minimal
+                    enhancements, DraCor strives to facilitate contributions by external scholars
+                    who want to onboard their corpora onto its ecosystem. Adopting a distributed and
+                    decentralised corpus building approach, we aim at building a community of
+                    practice around the project, bringing together domain (e.g. literary scholars)
+                    and technical experts (developers) to contribute to the growth of our
+                    collections. </p>
+                <p>To achieve this aim, we are currently developing tools and resources to make the
+                    corpus-building process as transparent and intuitive as possible, while
+                    establishing some standards in terms of ontologies, metadata treatment,
+                    editorial conventions and scripts. On one side, we are working on formalising
+                    our know-how by producing some guidelines and tutorials. <ref target="#SKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml_ftn1" n="1"/> On the other side, we are currently developing a lightweight Markdown
+                    language for semi-automatic conversion of raw texts into basic DraCor XMLs ( <hi rend="italic">EzDrama</hi>), <ref target="#SKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml_ftn2" n="2"/> catering to the needs of scholars without technical background and
+                    empowering them to easily prepare new texts for onboarding. </p>
+                <figure>
+                    <graphic n="1002" width="15.92cm" height="5.503333333333333cm" url="Pictures/bfd092f2e0f46838ff47dc4cbe804e97.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 2. DraCor onboarding pipeline.</hi></head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Examples of Collaborative Corpus Building </head>
+                <p>From its inception, the DraCor project has been open to small and large corpora
+                    of plays from any linguistic and cultural background, encouraging external
+                    scholars to prepare and submit their own texts. While the first, prototypical
+                    corpora, such as the German and the Russian ones, were built by the DraCor team,
+                    soon new collections were born out of community-driven efforts. Early examples
+                    included the Spanish, Hungarian, and Alsatian corpora – with the latter being
+                    notable for its low-resources approach (Ruiz Fabo et al. 2022). Thanks to the
+                    guidelines and the scripts previously described, the pipeline for onboarding has
+                    now been refined, allowing for efficient distributed work on multiple sets of
+                    texts. As a showcase, we present here some corpora currently in production.</p>
+                <p>Originating from a collection of heterogeneous online sources without previous
+                    markup, the Ukrainian Drama Corpus (UDraCor) has represented a test ground for
+                    the development and deployment of the <hi rend="italic">EzDrama</hi> conversion
+                    script. At the same time, UDraCor has shown again the strengths of a
+                    community-based corpus-building approach, insofar as it has involved scholars
+                    specialising in Ukrainian studies and volunteers in the text collection and
+                    encoding phases. </p>
+                <p>A similar approach has been followed in the development of the Czech Drama Corpus
+                    (CzeDraCor), started with the pilot encoding of 10 plays by Karel and Josef
+                    Čapek. In this case, funding from CLS INFRA has allowed a research fellow to
+                    work full-time on the project. After collecting the plays’ texts and checking
+                    them against standard scholarly Čapek editions, they will be processed through
+                    the <hi rend="italic">EzDrama</hi> parser and manually revised before
+                    integration into DraCor. </p>
+                <p>While maintaining a non-Anglocentric approach, the DraCor project is also looking
+                    forward to extending its English-language collections. Accordingly, we are
+                    processing about 800 plays from the Early Print collection (EPDraCor) through a
+                    semi-automated workflow including XSLT transformations, metadata enrichment
+                    through OpenRefine and rounds of manual correction to solve character
+                    identification issues (using our prototypical “Who-Is-@who” disambiguation tool
+                        <ref target="#SKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml_ftn3" n="3"/>). </p>
+                <p>While these three corpora are still being assembled, plans for new additions to
+                    the DraCor library (in Polish and Hebrew) are already being discussed, and
+                    further proposals are welcome. Accordingly, we hope to use this DH2023
+                    conference as a platform for showcasing the open nature of DraCor and inviting
+                    colleagues from all backgrounds to consider contributing to it.</p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgments </head>
+                <p>In the context of CLS INFRA ( <ref target="https://clsinfra.io/">
+                        https://clsinfra.io/ </ref>), DraCor has received funding from the European
+                    Union's Horizon 2020 program (grant agreement No. 101004984). Bohdan Tokarskyi
+                    (University of Potsdam) helped to establish an initial list of 152 Ukrainian
+                    plays (1813–1948) for UDraCor. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="SKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml_ftn1">
+                        <ref target="https://dracor.org/doc/tutorials">
+                                https://dracor.org/doc/tutorials </ref>
+                    </note><note n="2" xml:id="SKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml_ftn2">
+                        <ref target="https://github.com/dracor-org/ezdrama">
+                                https://github.com/dracor-org/ezdrama </ref>
+                    </note><note n="3" xml:id="SKORINKIN_Daniil_Distributed_Corpus_Building_in_Literary_Stu.xml_ftn3">
+                         See the repository (<ref target="https://github.com/dracor-org/epdracor-whois">
+                                https://github.com/dracor-org/epdracor-whois </ref>) and the interface (<ref target="https://dracor-org.github.io/epdracor-whois">
+                                https://dracor-org.github.io/epdracor-whois </ref>). 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Fischer, Frank</author> / <author>Ingo Börner</author> / <author>Mathias Göbel</author> / <author>Angelika Hechtl</author> / <author>Christopher Kittel</author> / <author>Carsten Milling</author> / <author>Peer Trilcke</author> 
+                        (2019): Programmable Corpora: Introducing DraCor, an Infrastructure for the
+                        Research on European Drama. <hi rend="italic">Proceedings of DH2019:
+                            Complexities</hi>, Utrecht, The Netherlands, July 2019. <ref target="https://doi.org/10.5281/zenodo.4284002">
+                            https://doi.org/10.5281/zenodo.4284002 </ref> [29.04.2023]. </bibl>
+                    <bibl><author>Ruiz Fabo, Pablo</author> / <author>Delphine Bernhard</author> / <author>Andrew Briand</author> / <author>Carole Werner</author>  (2022): Computational drama analysis from almost zero
+                        electronic text: The case of Alsatian theater. <hi rend="italic">Computational Drama Analysis: Achievements and Opportunitie</hi>s,
+                        Cologne, Germany, September 2022. <ref target="https://hal.archives-ouvertes.fr/hal-03762377">
+                            https://hal.archives-ouvertes.fr/hal-03762377 </ref> [29.04.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

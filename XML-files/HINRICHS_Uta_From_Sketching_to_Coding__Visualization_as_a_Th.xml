@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From Sketching to Coding: Visualization as a Thinking Process</title>
+                <author n="HinrichsUtaHINRICHS_Uta_From_Sketching_to_Coding__Visualization_as_a_Th.xml"><persName ref="https://orcid.org/0000-0001-7494-0941" n="HinrichsUta">
+                        <surname>Hinrichs</surname>
+                        <forename>Uta</forename>
+                    </persName><affiliation>University of Edinburgh, United Kingdom</affiliation><email>uhinrich@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WindhagerFlorianHINRICHS_Uta_From_Sketching_to_Coding__Visualization_as_a_Th.xml"><persName n="WindhagerFlorian">
+                        <surname>Windhager</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>Danube University Krems, Austria</affiliation><email>florian.windhager@donau-uni.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ElAssadyMennatallahHINRICHS_Uta_From_Sketching_to_Coding__Visualization_as_a_Th.xml"><persName n="ElAssadyMennatallah">
+                        <surname>El-Assady</surname>
+                        <forename>Mennatallah</forename>
+                    </persName><affiliation>ETH Zurich, Switzerland</affiliation><email>melassady@ai.ethz.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlexanderEricHINRICHS_Uta_From_Sketching_to_Coding__Visualization_as_a_Th.xml"><persName n="AlexanderEric">
+                        <surname>Alexander</surname>
+                        <forename>Eric</forename>
+                    </persName><affiliation>Carleton College, US</affiliation><email>ealexander@carleton.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BradleyAdamHINRICHS_Uta_From_Sketching_to_Coding__Visualization_as_a_Th.xml"><persName n="BradleyAdam">
+                        <surname>Bradley</surname>
+                        <forename>Adam</forename>
+                    </persName><affiliation>Uncharted Software Inc.</affiliation><email>abradley@uncharted.software</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BludauMarkJanHINRICHS_Uta_From_Sketching_to_Coding__Visualization_as_a_Th.xml"><persName ref="https://orcid.org/0000-0001-6300-8833" n="BludauMarkJan">
+                        <surname>Bludau</surname>
+                        <forename>Mark-Jan</forename>
+                    </persName><affiliation>University of Applied Sciences, Potsdam, Germany</affiliation><email>mark-jan.bludau@fh-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This workshop will explore strategies for teaching visualization literacy - from sketching to creating visualizations using computational tools. Led by instructors from the humanities, visual analytics, design, and computer science, sessions will discuss different methodologies and challenges of teaching visualization to audiences with varied technical and disciplinary expertise and goals.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>data visualization</term>
+                    <term>visualization process</term>
+                    <term>visualization literacy</term>
+                    <term>sketching</term>
+                    <term>digital humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Computer science</term>
+                    <term>Design studies</term>
+                    <term>Education/ pedagogy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Discussions of data visualization or visual analytics in the (digital) humanities often focus on relevant software tools. When it comes to teaching approaches to creating and interpreting visualizations, however, we need to stress the theory and decision-making processes that feed into the resulting visual representations. This workshop will explore and discuss strategies for teaching visualization literacy - from sketching by hand to creating visualizations using computational tools. Led by instructors from the humanities, visual analytics, design, and computer science, sessions will cover different methodologies and challenges of teaching visualization to audiences with varied technical and disciplinary expertise and goals. </p>
+            </div>
+            <div type="div1">
+                <head>About the Workshop</head>
+                <p>This hands-on workshop will walk participants through visualization exercises, reflecting on how tools (both analog and digital) can enhance but also constrain our thinking. We will present visualization as a thinking process, rather than as an end product; as a way to engage critically with data that is more about process than it is about outcomes (Hinrichs et al., 2019). In an increasingly visual and data-driven society, we must promote visualization as a discourse in order for it to be applied and interpreted responsibly. We will highlight critique as a pedagogical technique (Gray, 2013), as well as a method for spotting and mitigating miscommunication and misinterpretation. Encompassing interactive introductions to visualization theory, visualization creation, and design activities, this workshop will provide opportunities to discuss topics related to engaging with visualization within and beyond academic settings. Participants will be invited to share their own experiences of utilizing visualization as part of their own research and teaching, including visualization tools and hands-on activities. As such, the workshop will help build a shared resource for visualization tools, exercises, and teaching materials for promoting visualization into (digital) humanities research and teaching. </p>
+                <div type="div2">
+                    <head>Target Audience
+                    </head>
+                    <p>The workshop is open to participants at all levels of expertise/experience in visualization, including:</p>
+                    <list type="unordered">
+                        <item>DH researchers already teaching or wanting to teach visualization.</item>
+                        <item>DH researchers interested in applying visualization as part of their research practice.</item>
+                    </list>
+                    <p>Given the wide applicability of visualization to research and teaching, we anticipate an audience of 20–25 participants. </p>
+                </div>
+                <div type="div2">
+                    <head>Mode of Attendance</head>
+                    <p>We are prepared to run the workshop in hybrid format, although in-person mode will provide a richer experience. </p>
+                </div>
+                <div type="div2">
+                    <head>Technical Requirements
+                    </head>
+                    <p>In terms of technical requirements, we will require a seminar-style room with tables. In order to facilitate a hybrid workshop mode, we will require A/V support (i.e., camera and microphone to stream in-person discussions to online participants). Participants are expected to bring their own laptops with administrative rights, so they can install visualization tools we will use during the workshop. The list of tools that we will explore during the workshop will be made available to participants prior and/or during the workshop. </p>
+                </div>
+                <div type="div2">
+                    <head>Workshop Schedule
+                    </head>
+                    <p>This will be a half-day workshop. Our workshop schedule and objectives are outlined below.</p>
+                    <p><hi rend="bold">Introduction [30 min.]</hi></p>
+                    <p>This first session will follow the style of an interactive lecture. We will cover the following topics:</p>
+                    <list type="unordered">
+                        <item>Establishing a theoretical foundation for creating visualizations</item>
+                        <item>Defining visualization literacy</item>
+                        <item>Employing critique as a pedagogical method </item>
+                    </list>
+                    <p>The objective of this first part of the workshop is to provide participants with an overview of existing theories and principles that guide the creation of visual representations of data, drawing from different areas of visualization research, design, and (digital) humanities (e.g., Lauren Klein &amp; Catherine D’Ignazio, Giorgia Lupi, Jacques Bertin, Colin Ware, Edward Tufte, Johanna Drucker, Isabelle Mireilles and Alberto Cairo). </p>
+                    <p><hi rend="bold">Hands-on Approaches to Teaching and Creating [1.5 hours]. </hi></p>
+                    <p>In the second session, participants are invited to engage in two hands-on visualization activities involving both analog and digital tools:</p>
+                    <list type="unordered">
+                        <item>Sketching Visualizations. From representations of small datasets to brainstorming and ideation for big data problems, sketching techniques are valuable for quickly conveying and testing new ideas. Participants will take part in an activity that asks them to use pen and paper to design—and then redesign—visualizations tailored to different data, tasks, and audiences.
+                        </item>
+                        <item>Computationally Rendering Visualizations. Computational approaches provide flexibility for visualizing large-scale, multi-faceted datasets. Participants will gain experience in matching data and tasks to various visual representations afforded by out-of-the-box software.
+                        </item>
+                    </list>
+                    <p>The objective of this second part of the workshop is to introduce participants to two orthogonal approaches to creating visualizations — a constructive approach using pen and paper that can facilitate ideation and critical exploration of how to visually represent data at a small scale, and a computational approach that enables the design of interactive visualizations at a large scale. Sample data will be provided.</p>
+                    <p><hi rend="bold">Discussion - Implementing Teaching &amp; Engagement Approaches [1 hour]. </hi></p>
+                    <p>The third part of the workshop will briefly highlight additional opportunities for engaging visualization in a classroom, such as through visualization programming libraries. Workshop organizers will initiate discussions by sharing their own teaching approaches and the challenges encountered before opening up discussions to all workshop participants. Topics covered include:</p>
+                    <list type="unordered">
+                        <item>Strategies for ideation, creation, and critical interpretation</item>
+                        <item>Designing assignments and syllabi</item>
+                        <item>Open discussion of participants’ past instruction experiences and approaches</item>
+                    </list>
+                    <p>The main objective of this session is to provide an opportunity for broader discussion among participants. We will create a shared set of resources (readings, activity descriptions, visual materials, etc.) that participants and others may draw from and expand on even after the workshop.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bertin, Jaque </author> 
+                        (2010). Semiology of Graphics. 
+                        ESRI Press; 1st edition.
+                    </bibl>
+                    <bibl>
+                        <author>Cairo, Alberto </author>
+                        (2012). The Functional Art. New Riders, 2012.
+                    </bibl>
+                    <bibl>
+                        <author>Drucker, Johanna </author>
+                        (2011). Humanities Approaches to Graphical Display. Digital Humanities Quarterly. 5(1). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Gray, Collin M. </author>
+                        (2013). Informal peer critique and the negotiation of habitus in a design studio. Art, Design &amp; Communication in Higher Education, 12(2), pp. 195–209. 
+                        <ref target="http://dx.doi.org/10.1386/adch.12.2.195_1">10.1386/adch.12.2.195_1</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Hinrichs, Uta, Forlini, Stefania, Moynihan, Bridget </author>
+                        (2019). In Defense of Sandcastles: Research Thinking through Visualization in Digital Humanities. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>, Volume 34, Issue Supplement_1, pp. I80–i99. 
+                        <ref target="https://doi.org/10.1093/llc/fqy051">https://doi.org/10.1093/llc/fqy051</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Klein, Lauren &amp; D’Ignazio, Catherine </author>
+                        (2020). Data Feminism. MIT Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Lupi, Giorgia</author>
+                        . Data Humanism. http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold
+                    </bibl>
+                    <bibl>
+                        <author>Mirelles, Isabelle </author>
+                        (2013). Design for Information. Rockport Publishers.
+                    </bibl>
+                    <bibl>
+                        <author>Munzner, Tamara </author>
+                        (2014). Visualization Analysis &amp; Design. A K Peters/CRC Press.
+                    </bibl>
+                    <bibl>
+                        <author>Tufte, Edward </author>
+                        (2001). The Visual Display of Quantitative Information. Graphics Press USA; 2nd edition.</bibl>
+                    <bibl>
+                        <author>Ware, Colin </author>
+                        (2004). Information Visualization: Perception for Design. Morgan Kaufmann.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

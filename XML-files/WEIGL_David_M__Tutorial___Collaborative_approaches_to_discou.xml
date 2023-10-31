@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tutorial - Collaborative approaches to discourse: Music scholarship using
+                    performance recordings and Linked Data annotations</title>
+                <author n="LewisDavidWEIGL_David_M__Tutorial___Collaborative_approaches_to_discou.xml"><persName ref="https://orcid.org/0000-0003-4151-0499" n="LewisDavid">
+                        <surname>Lewis</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Oxford e-Research Centre, University of Oxford</affiliation><email>david.lewis@oerc.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PageKevinWEIGL_David_M__Tutorial___Collaborative_approaches_to_discou.xml"><persName ref="https://orcid.org/0000-0002-1668-6540" n="PageKevin">
+                        <surname>Page</surname>
+                        <forename>Kevin</forename>
+                    </persName><affiliation>Oxford e-Research Centre, University of Oxford</affiliation><email>kevin.page@oerc.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VanderHartChandaWEIGL_David_M__Tutorial___Collaborative_approaches_to_discou.xml"><persName ref="https://orcid.org/0000-0002-2055-273X" n="VanderHartChanda">
+                        <surname>VanderHart</surname>
+                        <forename>Chanda</forename>
+                    </persName><affiliation>mdw - University of Music and Performing Arts Vienna,
+                        Austria</affiliation><email>vanderhart@mdw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WeiglDavidMWEIGL_David_M__Tutorial___Collaborative_approaches_to_discou.xml"><persName ref="https://orcid.org/0000-0003-1502-1528" n="WeiglDavidM">
+                        <surname>Weigl</surname>
+                        <forename>David M.</forename>
+                    </persName><affiliation>mdw - University of Music and Performing Arts Vienna,
+                        Austria</affiliation><email>weigl@mdw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Participants are invited to explore modelling and annotation through exercises demonstrating music research conducted in Oxford and Vienna. After hands-on ontology design exercises with pen and paper, they are introduced to cutting-edge digital tooling and led through research processes of an ongoing project investigating the Vienna Philharmonic’s New Year’s Concerts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Data Modelling</term>
+                    <term>Digital Musicology</term>
+                    <term>Multimedia</term>
+                    <term>Music Performance</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>music and sound digitization</term>
+                    <term>encoding</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Media studies</term>
+                    <term>Musicology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>In the arts and humanities, the evidence on which we
+                    build our discourse comes in a multitude of forms and formats – not just text,
+                    but a wide range of images, sound and video recordings and specialised
+                    information formats. The elements that we discuss are often concepts and ideas
+                    that this evidential material may embody and exemplify, but which are not wholly
+                    contained by that material. For example, a musical theme can occur multiple
+                    times in a piece, in multiple forms and, for each of those occurrences, will be
+                    found in recordings and scores made from different versions of the work. </p>
+                <p>Traditionally concerned almost exclusively with score
+                    study and the deification of the text, musicological analyses increasingly
+                    consider a wider set of properties, particularly those of performance. These
+                    include musical structures at many different levels of abstraction, including
+                    performance study, interpretation, questions of agency, socio-political and
+                    historical contexts and other forms of extra-musical evidence (such as reception
+                    history and prior musicological scholarship). Current work in musicology shares
+                    this need to incorporate broader aspects and contexts into the analysis of
+                    objects of interest, beyond the traditional narrow focus on ‘text’, with various
+                    branches of the humanities. </p>
+                <p>The study of these facets, alongside their complex
+                    interactions, is enriched by scholarly collaboration across disciplinary
+                    boundaries and requires a suitably flexible, rhizomatic approach to modelling.
+                    Where models such as FRBR address issues of abstraction at the level of the work
+                    or book, there has been little explicit work on the equivalent for internal
+                    musical structures. Building on technical and conceptual standards, we have
+                    developed a Linked Data model that supports the annotation of units of musical
+                    content at the level of abstraction appropriate to that annotation. Our model
+                    was devised in close collaboration between musicologists and digital modelling
+                    experts through intensive workshopping, implementation and testing. </p>
+                <p>By building this model using Linked Data, we enable
+                    both evidence components, as well as scholarly observations and assertions
+                    established through music research to be distinctly expressed, addressed, and
+                    interconnected. These properties allow the created data to be examined,
+                    reassessed, and reinterpreted in an ongoing scholarly conversation, inviting
+                    lively collaboration as well as contributions from diverging perspectives.  </p>
+                <p>Our development of the Music Annotation Ontology arose
+                    from the Beethoven in the House project, which examines music in multiple
+                    arrangements – particularly nineteenth century concert music adapted by
+                    contemporaries for a home environment. In the first part of our tutorial, we use
+                    practical group exercises to explore the semantics of music annotation, based on
+                    the project’s use cases. We go beyond models that indicate co-ordination of ‘the
+                    same content’ in different media to ask questions about the sorts of
+                    relationships and concepts that scholars and performers might want to talk
+                    about.</p>
+                <p>In the second part of the tutorial, we challenge
+                    participants to employ the model in hands-on exercises focussed on recorded
+                    music materials from the New Year’s Concerts of the Vienna Philharmonics,
+                    providing a glimpse into the methods developed within Signature Sound Vienna, an
+                    ongoing research project at the mdw – University of Music and Performing Arts
+                    Vienna. During this exercise, participants will make use of software tooling
+                    supporting close listening and mark-up of aligned collections of performance
+                    recordings. The resulting annotations feed into the Linked Data model introduced
+                    in the first half of the tutorial, allowing participants to compare and contrast
+                    their discoveries with those of their colleagues, demonstrating how this
+                    approach facilitates a collective scholarly discourse. </p>
+                <p>Beyond the context of classical music study in which
+                    it is demonstrated, the presented model has wider applications to the arts and
+                    humanities wherever objects of interest are most appropriately understood in
+                    connection with their surrounding layers of discourse and analysis. Having
+                    explored the model and its application, the tutorial will close with a
+                    discussion of these extended scenarios, motivated by attendees’ own projects and
+                    research.</p>
+            </div>
+            <div type="div1">
+                <head>Tutorial audience</head>
+                <p>The tutorial will be a practical exploration of Linked
+                    Data modelling and annotation as applied to multimedia materials. </p>
+                <p>The tutorial will use musical materials describing
+                    performances, which are of particular interest to musicologists, but from which
+                    general principles can be applied to other fields involving performance and/or
+                    using multimedia sources. No specialist musical knowledge is required, although
+                    an interest and enthusiasm for music performance is welcomed!</p>
+                <p>The tutorial will be viable with a group size up to
+                    approximately 20 attendees, based on past experience of modelling workshops at
+                    DH and elsewhere. We would expect the number of registrations to be in the range
+                    of 15-20.</p>
+                <p>Special requirements for technical support: the
+                    instructors will require an audio/video setup capable of displaying material
+                    from their laptops <hi rend="italic">and</hi> playing music from their laptops
+                    through a speaker system to the audience. Attendees should expect to bring
+                    laptops <hi rend="italic">and headphones</hi>. The digital tools used during
+                    hands on sessions will be web-based, and will be re-usable by participants in
+                    other project contexts. </p>
+            </div>
+            <div type="div1">
+                <head>Outline schedule</head>
+                <p>This half-day workshop is divided into two parts, with
+                    a break in between.</p>
+                <div type="div2">
+                    <head>Part 1. Modelling music annotation to accommodate multiple versions, media
+                        and performances (90 mins)</head>
+                    <p>Presentation: Motivation and worked example</p>
+                    <p>Group exercise 1: ontology design</p>
+                    <p>Group exercise 2: instance data testing</p>
+                    <p>Presentation: The music annotation model</p>
+                </div>
+                <div type="div2">
+                    <head>Part 2. Applying the model for studying performance (90 mins)</head>
+                    <p>Presentation: Setting out some research
+                        questions</p>
+                    <p>Group exercise 1: Exploring music performance
+                        through recordings</p>
+                    <p>Group exercise 2: Exploring musical style through
+                        recordings</p>
+                    <p>Presentation: Expanding the scope</p>
+                    <p>Questions and feedback</p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Instructors</head>
+                <p><hi rend="bold">David Lewis</hi> is a researcher at the University of Oxford
+                    e-Research Centre and lecturer in Computer Science at Goldsmiths, University of
+                    London. Trained in historical musicology at Kings College London, he has spent
+                    the last 20 years researching on a wide variety of digital musicology and
+                    digital humanities projects, currently the ‘Beethoven in the House’ project. He
+                    is particularly interested in digital approaches to music that remain sensitive
+                    to its historical, theoretical and social context. David has taught on the
+                    Digital Humanities at Oxford Summer School since 2015, on DH summer schools in
+                    Philadelphia and Bonn, and on workshops and tutorials at the DH and Music
+                    Encoding conferences. <ref target="mailto:david.lewis@oerc.ox.ac.uk">david.lewis@oerc.ox.ac.uk</ref></p>
+                <p><hi rend="bold">Dr. Kevin Page</hi> is a Senior Research and Associate Faculty
+                    at the University of Oxford e-Research Centre, where he is the UK principal
+                    investigator of the ‘Beethoven in the House’ research project, previously
+                    ‘Unlocking Musicology’ and a co-investigator of ‘Digital Delius’. His research
+                    on computational methods for the organisation and analysis of music and musical
+                    information has, for several years, aligned with an interest in their use for
+                    digital musicology. In 2014 Kevin co-founded the international Digital Libraries
+                    for Musicology conference, and has led the Digital Musicology course at the
+                    Digital Humanities at Oxford Summer School since instigating it in 2015. At
+                    Oxford he teaches Digital Musicology and Linked Data courses as part of the
+                    Masters programme in Digital Scholarship. </p>
+                <p><ref target="https://eng.ox.ac.uk/people/kevin-page/">https://eng.ox.ac.uk/people/kevin-page/</ref> / <ref target="mailto:kevin.page@oerc.ox.ac.uk">kevin.page@oerc.ox.ac.uk</ref></p>
+                <p><hi rend="bold">Chanda VanderHart, PhD</hi> is a musicologist &amp; pianist
+                    working in three departments at the mdw – University of Music and Performing
+                    Arts Vienna (Department of Music Acoustics – Wiener Klangstil (IWK); Lecturer
+                    Institute for Musicology and Performance Studies (IMI) and Senior Lecturer at
+                    the Anton Bruckner Institute of the mdw- University for Music and Performing
+                    Arts Vienna. She is currently a research assistant for the FWF project
+                    “Signature Sound Vienna”, completing the monograph “Lieder and Performance in
+                    19th Century Vienna; Contexts and Perspectives” and teaching graduate level
+                    musicology courses focused on music, performance and their shifting cultural
+                    currencies at the institute for musicology. VanderHart has four performance
+                    degrees from the USA, Italy and Austria and a PhD in historical musicology. <ref target="https://iwk.mdw.ac.at/chanda-vanderhart/">https://iwk.mdw.ac.at/chanda-vanderhart/</ref> / <ref target="mailto:vanderhart@mdw.ac.at">vanderhart@mdw.ac.at</ref></p>
+                <p><hi rend="bold">David M. Weigl, PhD</hi> is a Postdoctoral Research Associate at
+                    the Dept. of Music Acoustics – Wiener Klangstil at the mdw – University of Music
+                    and Performing Arts Vienna, and principal investigator of Signature Sound
+                    Vienna, a research project funded by the Austrian Science Fund. With a PhD in
+                    Information Studies from McGill University, he has conducted postdoctoral
+                    research at mdw and at the University of Oxford e-Research Centre applying
+                    semantic technologies in music industry and music scholarship contexts. He has
+                    taught on the Digital Humanities at Oxford Summer School since 2015, the Edirom
+                    Summer School in 2019, and has (co-)organised and presented workshops and
+                    tutorials at the Joint Conference for Digital Libraries, and at the
+                    International Society for Music Information Retrieval, Music Encoding, and the
+                    Extended and International Semantic Web conferences. </p>
+                <p><ref target="https://iwk.mdw.ac.at/david-weigl/">https://iwk.mdw.ac.at/david-weigl/</ref> / <ref target="mailto:weigl@mdw.ac.at">weigl@mdw.ac.at</ref></p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>This tutorial is supported by the following projects:
+                    ‘Beethoven in the House: Digital Studies of Domestic Music Arrangements,’ a
+                    UK-Germany collaboration funded in the UK by the Arts and Humanities Research
+                    Council (AHRC) project number AH/T01279X/1 and in Germany by the Deutsche
+                    Forschungsgemeinschaft (DFG, German Research Foundation), project number
+                    429039809; 'The UK Software Sustainability Institute: Phase 3', funded by the UK
+                    Engineering and Physical Sciences Research Council (EPSRC) project number
+                    EP/S021779/1; and, 'Quantifying the signature sound of the Vienna Philharmonic's
+                    New Year's Concerts (Signature Sound Vienna),’ funded by the Austrian Science
+                    Fund (FWF) (P 34664-G). </p>
+            </div>
+        </body>
+    </text></TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revolution through collaboration? An attempt to familiarize „old guards“ with DH</title>
+                <author n="NunnChristopherAlexanderNUNN_Christopher_Alexander_Revolution_through_collaboration_.xml"><persName ref="https://orcid.org/0000-0001-7208-8636" n="NunnChristopherAlexander">
+                        <surname>Nunn</surname>
+                        <forename>Christopher Alexander</forename>
+                    </persName><affiliation>TheoLab, Heidelberg University, Germany</affiliation><email>christopher.nunn@theologie.uni-heidelberg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanOorschotFrederikeNUNN_Christopher_Alexander_Revolution_through_collaboration_.xml"><persName ref="https://orcid.org/0000-0003-4359-8949" n="vanOorschotFrederike">
+                        <surname>van Oorschot</surname>
+                        <forename>Frederike</forename>
+                    </persName><affiliation>TheoLab, Heidelberg University, Germany</affiliation><email>frederike.van.oorschot@fest-heidelberg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FuckerSelinaNUNN_Christopher_Alexander_Revolution_through_collaboration_.xml"><persName ref="https://orcid.org/0000-0001-8728-3485" n="FuckerSelina">
+                        <surname>Fucker</surname>
+                        <forename>Selina</forename>
+                    </persName><affiliation>TheoLab, Heidelberg University, Germany</affiliation><email>selina.fucker@stud.uni-heidelberg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This short presentation will provide insight into the process of developing the Computational Theology Compendium. It aims to enable theologians to explore the potential of DH approaches for their respective disciplines. Challenges such as the unfamiliar collaborative working style or finding a common terminology will be addressed.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Computational Theology</term>
+                    <term>Interdisciplinarity</term>
+                    <term>Collaborative Working</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>With Roberto Busa and the 
+                    <hi rend="italic">Index Thomisticus</hi>, the often cited legendary origin of the 
+                    <hi rend="italic">Digital Humanities</hi> (Jones 2016) can be located in Theology. Since then, however, the use of DH approaches in Theology has been relatively absent, especially in comparison to neighboring disciplines in the humanities. Theological researchers usually understand DH as the creation of digital editions or even identify it with Internet searches (of course, there are exceptions, e.g., Phillips et al. 2019: 36). 
+                </p>
+                <p>Therefore, we are planning a 
+                    <hi rend="italic">Compendium of Computational Theology</hi> to show that DH can contribute significantly more to the routines of theological research. The rough structure of the compendium is quickly described: In the first part, members of the DH community show potentials and pitfalls of different methods, approaches and research practices of DH. In the second part, players from different theological disciplines receive the input from the DH community and have the task of exploring the potential for their specific discipline. It quickly became clear that such an endeavor would involve various challenges that led directly into the conference theme. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Applicability</head>
+                <p>If you present the use of computational methods as a new scientific revolution, you are quickly placed in a niche: Much too technical, this is not adaptable, not very innovative, just a fashion, etc. Such views are far from extinct in the humanities (e.g., Da 2019). It is therefore important to foreground the concrete application reference to demonstrate that it is not about digitization for its own sake, but rather to focus on discipline-specific questions that could not be addressed without the use of DH, or only at great expense. Technical terms must be explained in a glossary or annotated index to break down barriers. This way you might also convince the 
+                    <hi rend="italic">old guards</hi>, who are necessary to finally reach the students. Without them, DH cannot be established in the long run, and the lonely revolutionary lacks peers with whom the often collaborative techniques of DH can only be realized.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Collaboration</head>
+                <p>The collaborative ways of working in the DH community are usually rather unfamiliar to theologians and demand new skills from them. This is reflected in our compendium as well. They cannot simply draw from their prior knowledge and stay on their own in the library, but must engage with specific proposals from the DH community, discuss and, if necessary, adapt their own draft in a workshop with the other authors. The result is thus the great achievement of a community and not a juxtaposition of individual papers.</p>
+            </div>
+            <div type="div1">
+                <head>Interdisciplinarity</head>
+                <p>DH is not the only big tent. Theology also has numerous disciplines that require the use of a wide variety of methods (Dalferth 2006). By examining the potential of DH for each theological discipline, it becomes clear that not every method is suitable for every field. Through the compendium, theologians can also specifically examine which DH approaches might even make sense for their discipline.</p>
+            </div>
+            <div type="div1">
+                <head>Dialogue</head>
+                <p>In this interdisciplinary as well as international exchange, a major challenge already lies in finding a common language. This already starts with the title: As a 
+                    <hi rend="italic">Digital Humanist</hi> it would be obvious to call the interaction of Theology and DH 
+                    <hi rend="italic">Digital Theology</hi>, as it is practiced analogously, e.g., in 
+                    <hi rend="italic">Digital Classics</hi>. The term 
+                    <hi rend="italic">computational</hi> is also subject of controversy. Lang 2020 has pointed out the risk that the term promotes toxic masculinity. Therefore, it is important to clearly define how we use the term 
+                    <hi rend="italic">Computational Theology</hi> and why we have chosen it. Indeed, 
+                    <hi rend="italic">Digital Theology</hi> not only refers to the scholarly exploration of its research objects using digital methods, but rather the term is associated with media revolution (Haberer 2015) that takes into account different levels of connection between Digitalisation and Theology and can include, e.g., the recording of theological podcasts (on the range of meanings of this term see van Oorschot 2020: 164-165). To distinguish ourselves from this broad spectrum of meanings, we created the term 
+                    <hi rend="italic">Computational Theology</hi> to denote the use of computational methods in theological research in analogy to 
+                    <hi rend="italic">Computational Humanities</hi>, which foregrounds the technical aspect to distinguish itself from 
+                    <hi rend="italic">Digital Humanities</hi> (Piotrowski 2020). The term is tailored to the compendium's primary audience, theologians, so as not to raise false expectations. However, a dedicated contribution on the genesis and definition of the term also takes into account other associations of the term that the DH community might have in mind, while making it clear that we do not exclude anyone.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dalferth, Ingolf</author> (2006): Eine Wissenschaft oder viele? Die Einheit evangelischer Theologie in der Sicht ihrer Disziplinen, in: Forum Theologische Literaturzeitung 17, Leipzig: Evangelische Verlagsanstalt.
+                    </bibl>
+                    <bibl>
+                        <author>Haberer, Johanna</author> (2015): Digitale Theologie: Gott und die Medienrevolution der Gegenwart, Munich: Kösel.
+                    </bibl>
+                    <bibl>
+                        <author>Jones, Steven E.</author> (2016): Roberto Busa, S. J., and the Emergence of Humanities Computing: The Priest and the Punched Cards, New York / London: Taylor &amp; Francis.
+                    </bibl>
+                    <bibl>
+                        <author>Lang, Sarah</author> (2020): “The Computational Humanities and Toxic Masculinity? A (long) reflection“, in: LTeX Ninja’ing and the Digital Humanities, <ref target="https://latex-ninja.com/2020/04/19/the-computational-humanities-and-toxic-masculinity-a-long-reflection">https://latex-ninja.com/2020/04/19/the-computational-humanities-and-toxic-masculinity-a-long-reflection</ref> [27.04.2023]. 
+                    </bibl>
+                    <bibl>
+                        <author>Da, Nan Z.</author> (2019): “The Digital Humanities debacle“, in: The Chronicle of Higher Education, <ref target="https://www.chronicle.com/article/the-digital-humanities-debacle">https://www.chronicle.com/article/the-digital-humanities-debacle</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>van Oorschot, Frederike</author> (2020): Digital theology: Systematisch-theologische Perspektiven auf ein entstehendes Forschungsfeld, in: Verkündigung und Forschung 65, 2: 162-171. DOI:10.14315/vf-2020-650213.
+                    </bibl>
+                    <bibl>
+                        <author>Philipps, Peter</author> / <author>Schiefelbein-Guerrero, Kyle</author> / <author>Kurlberg, Jonas</author>  (2019): Defining Digital Theology. Digital Humanities, Digital Religion and the Particular Work of the CODEC Research Centre and Network, in: Open Theology 5, 1: 29-43. DOI:10.1515/opth-2019-0003.
+                    </bibl>
+                    <bibl>
+                        <author>Piotrowski, Michael</author> (2020): “Ain’t No Way Around It: Why We Need to Be Clear About What We Mean by 'Digital Humanities‘”, in: SocArXiv. DOI:10.31235/osf.io/d2kb6. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

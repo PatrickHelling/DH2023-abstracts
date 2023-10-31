@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maximising the Power of Semantic Textual Data: CASTEMO Data Collection and
+                    the InkVisitor Application</title>
+                <author n="ZbralDavidZB_RAL_David_Maximising_the_Power_of_Semantic_Textual_Data__.xml"><persName ref="https://orcid.org/0000-0002-7903-2069" n="ZbralDavid">
+                        <surname>Zbíral</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Masaryk University, Czech Republic</affiliation><email>david.zbiral@mail.muni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ShawRobertLJZB_RAL_David_Maximising_the_Power_of_Semantic_Textual_Data__.xml"><persName ref="https://orcid.org/0000-0003-0164-8100" n="ShawRobertLJ">
+                        <surname>Shaw</surname>
+                        <forename>Robert L. J.</forename>
+                    </persName><affiliation>Masaryk University, Czech Republic</affiliation><email>robert.shaw@mail.muni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HampejsTomZB_RAL_David_Maximising_the_Power_of_Semantic_Textual_Data__.xml"><persName ref="https://orcid.org/0000-0002-9571-4748" n="HampejsTom">
+                        <surname>Hampejs</surname>
+                        <forename>Tomáš</forename>
+                    </persName><affiliation>Masaryk University, Czech Republic</affiliation><email>tomas.hampejs@mail.muni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MertelAdamZB_RAL_David_Maximising_the_Power_of_Semantic_Textual_Data__.xml"><persName ref="https://orcid.org/0000-0002-3634-1857" n="MertelAdam">
+                        <surname>Mertel</surname>
+                        <forename>Adam</forename>
+                    </persName><affiliation>Masaryk University, Czech Republic</affiliation><email>mertel.adam@mail.muni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper, we present Computer-Assisted Semantic Text Modelling (CASTEMO), a novel but now well-developed approach to transformation of textual resources into rich, structured data stored in JSON-based document databases, and the related InkVisitor research environment.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>data encoding; data modelling; text modelling; textual resources;
+                        computer-assisted data collection</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Anthropology</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Outline</head>
+                <p>In this paper, we present Computer-Assisted Semantic
+                    Text Modelling (CASTEMO), a novel but now well-developed approach to
+                    transformation of textual resources into rich structured data, CASTEMO knowledge
+                    graphs, stored in JSON-based document databases (Zbíral et al. 2022). We also
+                    present the open-source InkVisitor research environment which assists in CASTEMO
+                    data collection workflow (Zbíral et al. 2023). Both the workflow and the
+                    environment were developed within the ERC-funded Dissident Networks Project
+                    (DISSINET, https://dissinet.cz), but are now made available to use by other
+                    researchers and projects.</p>
+                <p>The CASTEMO data collection approach aims to preserve
+                    the rich qualitative texture of texts and at the same time produce structured
+                    data suitable for computational analysis. It preserves the contextual
+                    embeddedness of knowledge and the natural features of human knowledge, such as
+                    conflicting evidence and information given in a non-indicative modality, e.g.
+                    questions and conditional sentences. It thus answers a significant challenge in
+                    the digital study of texts, where a decision must often be taken to prefer
+                    extracting content or analysing discursive features, as well as whether to focus
+                    on distant or close reading. With CASTEMO, these levels can be readily
+                    interwoven into “scalable reading”.</p>
+                <p>This presentation introduces the essential data
+                    modelling principles of CASTEMO, as well as its use cases and advantages for
+                    certain types of study. It also introduces the InkVisitor research
+                    environment.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.293805555555556cm" url="Pictures/86a8bd6a8442311fac3009cd50b099d1.png" rend="inline"/>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>CASTEMO principles and comparisons</head>
+                <p>CASTEMO is based on widespread ideas, such as
+                    knowledge graphs, semantic data (e.g. Semantic Web), Linked Data, and the
+                    syntactic structure of natural-language sentences. It sits within a wider family
+                    of statement-based approaches to data collection, and we acknowledge convergent
+                    developments within that field, most prominently Roberto Franzosi’s Quantitative
+                    Narrative Analysis (Franzosi 2009).</p>
+                <p>Nevertheless, the DISSINET project has followed its
+                    own path in the development of CASTEMO to model textual data in a way that
+                    captures not only information from the text, but also the precise discursive
+                    context via which this information is conveyed. It preserves the order and
+                    syntactic embeddedness of information; the textual embeddedness of information
+                    (i.e. who is speaking, to whom, and in what context); the original language and
+                    expression; and the distinction between epistemic levels, allowing for editorial
+                    annotation beyond the text. At its core, written clauses are captured via
+                    statements following the natural syntactic “subject-predicate-object1-object2”
+                    structure, which relate entities of two basic kinds: types (Action types and
+                    Concepts) and individual entities (Persons, Groups, Events, Objects, Beings,
+                    Locations, Resources, Territories/Texts, and Statements themselves). Individual
+                    entities are extended through properties (e.g. to capture place, time, and other
+                    adverbs and adverbials; adjectives; appositions; etc.), while the whole data
+                    structure is interwoven into a knowledge graph through a network of semantic and
+                    ontological relations (e.g. synonym, superclass, classification, identification,
+                    nominal equivalent of a verb, etc.) (Zbíral et al. 2022). With CASTEMO, it is
+                    possible to capture most of what natural language can express, and do so in the
+                    form of structured data.</p>
+                <p>For digital humanists, CASTEMO offers a time-intensive
+                    but powerful alternative to (1) text mining (Jockers, 2013; Jockers and
+                    Underwood, 2015), which often fails to answer fine-grained questions, and (2)
+                    data collection and modelling approach enacted by Computer-Assisted Qualitative
+                    Data Analysis Software (CAQDAS) such as ATLAS.ti (Friese 2019). CASTEMO can be
+                    considered especially for research projects which are comparatively data-driven
+                    (source-driven), and language and narrative perspective matters a lot in them.
+                    CASTEMO offers far more ontological depth and flexibility for precisely
+                    capturing textual semantics and the contextual features of discourse than
+                    existing statement-based data modelling strategies known to us, even those, like
+                    Quantitative Narrative Analysis (Franzosi 2009), which were explicitly designed
+                    for the purpose.</p>
+            </div>
+            <div type="div1">
+                <head>InkVisitor as a platform for CASTEMO data collection</head>
+                <p>As an approach, CASTEMO is not tied to any particular
+                    software: it can even be pursued using spreadsheets. However, to allow users
+                    take full advantage of all the features provided within the CASTEMO data model
+                    in a user-friendly manner, the DISSINET team have launched InkVisitor (Zbíral et
+                    al. 2023), an open-source web-based research environment for the manual entry of
+                    complex structured data from textual resources following CASTEMO principles.
+                    InkVisitor serves as a data-entry front-end for RethinkDB JSON-based research
+                    databases.</p>
+            </div>
+            <div type="div1">
+                <head>Discussion and conclusions</head>
+                <p>CASTEMO is of course not the ideal workflow for every
+                    digital humanist studying texts. For instance, if one is only focusing on an
+                    exact set of hypotheses, is less interested in discursive aspects of the text,
+                    and/or is happy to decide on the reliability of data and the impact of
+                    confounding factors at the point of collection, then CASTEMO’s nuance and
+                    tendency towards maximalism may lead to inefficiency. To others, however,
+                    CASTEMO and its implementation via InkVisitor will provide a suitable ontology
+                    and workflow for modelling the complexity of written language. Digital humanists
+                    interested in quantitatively analysing textual information in the precise
+                    context of its production and looking at the discursive framing of content will
+                    find a highly relevant feature set adapted to their needs.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Franzosi, Roberto</author> (2009): <hi rend="italic">Quantitative Narrative Analysis</hi>. Thousand Oaks: Sage. </bibl>
+                    <bibl>
+                        <author>Friese, Susanne</author> (2019):
+                        <hi rend="italic">Qualitative Data Analysis with ATLAS.ti. </hi>Third
+                        Edition. Thousand Oaks: Sage. </bibl>
+                    <bibl>
+                        <author>Jockers, Matthew Lee </author>(2013): <hi rend="italic">Macroanalysis: Digital Methods and Literary History</hi>.
+                        Champaign: University of Illinois Press. </bibl>
+                    <bibl>
+                        <author>Jockers, Matthew Lee</author> / <author>Underwood, Ted</author>  (2015):
+                        Text-Mining the Humanities, in: Schreibman, Susan / Siemens, Ray / Unsworth,
+                        John (eds.): <hi rend="italic">A New Companion to Digital Humanities</hi>.
+                        Second Edition. Chichester: Wiley &amp; Blackwell, 291–306. </bibl>
+                    <bibl>
+                        <author>Zbíral, David</author> / <author>Mertel, Adam</author> / <author>Hanák, Petr</author> / <author>Mertel, Ján</author> / <author>Ondrejka, Peter</author> / <author>Hampejs, Tomáš</author> / <author>Shaw, Robert L. J.</author>  (2023):
+                        InkVisitor 1.3. GitHub. Accessed April 28, 2023.
+                        https://github.com/DISSINET/InkVisitor/. </bibl>
+                    <bibl>
+                        <author>Zbíral, David</author> / <author>Shaw, Robert L. J.</author> / <author>Hampejs, Tomáš</author> / <author>Mertel, Adam</author>  (2022): Model the source first! Towards
+                        Computer-Assisted Semantic Text Modelling and source criticism 2.0. Zenodo.
+                        Last modified August 6, 2022. Accessed April 28, 2023.
+                        https://doi.org/10.5281/zenodo.6963579. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

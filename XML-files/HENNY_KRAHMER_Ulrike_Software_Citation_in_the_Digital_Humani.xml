@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Software Citation in the Digital Humanities</title>
+                <author n="JettkaDanielHENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml"><persName n="JettkaDaniel">
+                        <surname>Jettka</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>University of Paderborn, Germany</affiliation><email>daniel.jettka@uni-paderborn.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HennyKrahmerUlrikeHENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml"><persName n="HennyKrahmerUlrike">
+                        <surname>Henny-Krahmer</surname>
+                        <forename>Ulrike</forename>
+                    </persName><affiliation>University of Rostock, Germany</affiliation><email>ulrike.henny-krahmer@uni-rostock.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FergerAnneHENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml"><persName n="FergerAnne">
+                        <surname>Ferger</surname>
+                        <forename>Anne</forename>
+                    </persName><affiliation>University of Paderborn, Germany</affiliation><email>anne.ferger@uni-paderborn.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlvaresFreireFernandaHENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml"><persName n="AlvaresFreireFernanda">
+                        <surname>Alvares Freire</surname>
+                        <forename>Fernanda</forename>
+                    </persName><affiliation>University of Rostock, Germany</affiliation><email>fernanda.freire@uni-rostock.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In contemporary humanities research, software plays a central role in the acquisition, enrichment, analysis, and publication of digital data. This paper aims at measuring the current practice of citation of software in DH conference abstracts and to foster the sustainable and scholarly use of software.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>citation</term>
+                    <term>RSE</term>
+                    <term>sustainability</term>
+                    <term>software</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>In contemporary humanities research and DH particularly, the use, adaption, and development of software plays a central role in acquiring, enriching, analyzing, and publishing research data. Published software is, in principle, citable, like published datasets or classic text publications, and should be referenced appropriately for good scientific practice to make software discoverable, make research results transparent, and give credit to software developers (Smith et al. 2016, Lamprecht et al. 2020).</p>
+                <p>This contribution reviews the practice of software citation in the DH.
+                    <ref target="#HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn1" n="1"/> The analysis is based on DH conference abstracts and anannotation model developed from existing software citation recommendations (for preliminary work see Henny-Krahmer/Jettka 2021, 2022). Through semi-automatic annotation and analysis, software citations are examined in the abstracts (and the information given or omitted with the citations).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Recommendations for software citation</head>
+                <p>Recommendations for software citation already exist, including Jackson (n.d.), Smith et al. (2016), Chue Hong et al. (2019a, 2019b), Druskat (2021a, 2021b) on software citation in particular, and Anzt et al. (2021) and Jettka/Henny-Krahmer (2022), amongst others, as general guides for sustainable software development. They suggest what references to software in scholarly texts should contain, especially in the form of bibliographic citations. Recommendations for software citations also come from general citation styles (including MLA or APA) or from developers themselves. In line with the existing software citation principles, we formulate the following criteria to characterize mentions of research software in DH abstracts, modeled as a TEI taxonomy and available on GitHub (see Jettka et al. 2022 and Henny-Krahmer/Jettka 2021 for details):</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Bib.Soft:</hi> bibliography entry for the software itself
+                    </item>
+                    <item><hi rend="bold">Bib.Ref: </hi>bibliography entry for reference publication
+                        about the software, e.g. journal article, book, manual
+                    </item>
+                    <item><hi rend="bold">Name.Only:</hi> software name only
+                    </item>
+                    <item><hi rend="bold">Agent</hi>: developers/responsible persons are named
+                    </item>
+                    <item><hi rend="bold">URL</hi>: citation contains a URL to the software itself
+                    </item>
+                    <item><hi rend="bold">PID</hi>: citation contains a persistent identifier for the software itself
+                    </item>
+                    <item><hi rend="bold">Ver</hi>: citation indicates a specific software version
+                    </item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Data and Methods</head>
+                <div type="div2">
+                    <head>Corpus</head>
+                    <p>The corpus analyzed comprises volumes of DH conference abstracts from 2015
+                        –2020, which are accessible on GitHub or the ADHO conference pages in TEI format.
+                        <ref target="#HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn2" n="2"/>There are 1,887 abstracts for panels, workshops, posters, and talks (approx. 2.7 million tokens and 100k types), of which we randomly selected 156 abstracts for manual annotation, making sure all languages (English, Spanish, French, German, Italian, Portuguese) and all relevant years are included.
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>Annotation of software citations</head>
+                    <p>We opted for semi-automatic annotation to examine the citation modes as closely as possible.
+                        <ref target="#HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn3" n="3"/> Of the selected abstracts, 87 contained software citations, and 69 contained none. When annotating software citations, we broadly define software as any type of computer program, including desktop and web applications, server software, plugins, and extensions and sets of scripts.
+                        <ref target="#HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn4" n="4"/> Using the TEI taxonomy, software citations were annotated in the TEI files of the DH abstracts (see Fig. 1), and the cited software was collected in a central index of software names.
+                    </p>
+                    <p><figure>
+                            <graphic url="Pictures/33a22ce60b52348ca881b22a1afaf345.png"/>
+                            <head>Fig. 1: Example of annotated software citation</head>
+                        </figure></p>
+                    <p>Citation types (except for Name.Only) are not exclusive, and multiple citation types can be associated with one specific software. For example, a software may have been cited in a paper with both Bib.Soft and Bib.Ref. The software list, TEI taxonomy, annotated TEI documents, the RELAX NG schema that the annotated documents can be validated with, and the analysis data are available in Jettka et al. (2022).</p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Results and Discussion</head>
+                <p>Software is often cited multiple times in an abstract but understandably not fully cited at each of its mentions. Thus the presence of citation components for each software is counted once per paper rather than per citation (e.g., if a URL is used as a software citation once in the paper, this criterion is counted as met). The distribution (see Fig. 2) is based on a total of n=266, representing the single-counted citations of a particular software in a particular paper.</p>
+                <p><figure>
+                        <graphic url="Pictures/51099f066aafe942f3c1ebd1b79a80bc.png"/>
+                        <head>Fig. 2: Frequency of software citations</head>
+                    </figure></p>
+                <p>The results show that in 187 (70.3%) cases where software is mentioned, none of the considered citation methods is used. The most frequent method is citing a reference publication about the software (23.31%), often providing a URL to the software or a website about the software (19.55%). Direct, long-term citation via bibliographic records for the software or using a persistent identifier is relatively rare. Software versions are also rarely given, and the people who developed the software are not properly credited. There seems to be only little to no change in the awareness of the need for sustainable citation of research software and the citation practice over the years (see Fig. 3). Significant statements, however, require a larger-scale study.</p>
+                <p><figure>
+                        <graphic url="Pictures/d9454e1d74eedec55ce4aaa3e43f8097.png"/>
+                        <head>Fig. 3: Relative frequency of software citations per year</head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>This paper presented criteria for analyzing software citations in the DH abstracts of 2015
+                    –2020 which were formulated and represented in the form of a TEI taxonomy. Based on the taxonomy, semi-automatic annotation of the software and their citations in the DH abstracts was carried out.
+                </p>
+                <p>The present software citation practice in the DH clearly points to a need for improvement, both with regard to the use of bibliographic entries for research software itself and the use of persistent identifiers, as well as with regard to the naming of responsible persons and institutions, whose achievements should be recognized accordingly. There is still a need for action both on the part of citation practice, i.e., users, and on the part of citation recommendations for software projects, i.e., developers and operators, and publishers who provide citation guidelines.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn1"> See Howison/Bullard (2016) for a similar study on software citation in biological research publications.</note><note n="2" xml:id="HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn2">
+                                The 
+                                <ref target="https://github.com/ADHO/dh2015">2015</ref>, 
+                                <ref target="https://github.com/ADHO/dh2016">2016</ref>, 
+                                <ref target="https://github.com/ADHO/dh2018">2018</ref> abstracts were originally published on ADHO's GitHub page (
+                                <ref target="https://github.com/ADHO/">https://github.com/ADHO/</ref>, licensed under CC BY), 
+                                <ref target="https://staticweb.hum.uu.nl/dh2019/dh2019.adho.org/programme/book-of-abstracts/">2019</ref> and 
+                                <ref target="https://dh2020.adho.org/abstracts/">2020</ref> on the respective conference pages. They were, however, retrieved in TEI format from the ToolXtractor's GitHub page: 
+                                <ref target="https://github.com/lehkost/ToolXtractor">https://github.com/lehkost/ToolXtractor</ref> (licensed under Apache 2.0). We did not include 2017 abstracts, as they were not directly available in TEI format.
+                            </note><note n="3" xml:id="HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn3"> Complementary to manual annotation, we used ToolXtractor (Barbot et al. 2019; 2021), based on a manually created software list, to find potential software citations that were only considered after manual post-processing. Additionally to manual approaches, there are fully automatic ones to detect software mentions (see, for instance, Krüger/Schindler (2020), Zarei et al. (2022)), which we did not use.</note><note n="4" xml:id="HENNY_KRAHMER_Ulrike_Software_Citation_in_the_Digital_Humani.xml_ftn4"> For more specific definitions of research software see Hettrick et al. (2014) and Homburg et al. (2020).</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Anzt, Hartwig</author> / <author>Bach, Felix</author> / <author>Druskat, Stephan</author> / <author>Löffler, Frank</author> / <author>Loewe, Axel</author> / <author>Renard, Bernhard Y.</author> / <author>Seemann, Gunnar</author> / <author>Struck, Alexander et al.</author> (2021): “An environment for sustainable research software in Germany and beyond: current state, open challenges, and call for action [version 2; peer review: 2 approved].” 
+                        <hi rend="italic">F1000Research</hi> 9:295. 
+                        <ref target="https://doi.org/10.12688/f1000research.23224.2">https://doi.org/10.12688/f1000research.23224.2</ref>.
+                    </bibl>
+                    <bibl><author>Barbot, Laure</author> / <author>Fischer, Frank</author> / <author>Moranville, Yoann</author> / <author>Pozdniakov, Ivan</author> (2019). “Which DH Tools Are Actually Used in Research?” 
+                        <hi rend="italic">weltliteratur.net. A Black Market for the Digital Humanities.</hi>
+                        <ref target="https://weltliteratur.net/dh-tools-used-in-research/">https://weltliteratur.net/dh-tools-used-in-research/</ref> [last accessed: 17.04.2023].
+                    </bibl>
+                    <bibl><author>Barbot, Laure</author> / <author>Fischer, Frank</author> / <author>Moranville, Yoann</author> (2021). “ToolXtractor.” 
+                        <hi rend="italic">GitHub.com.</hi>
+                        https://github.com/lehkost/ToolXtractor [last accessed: 17.04.2023].
+                    </bibl>
+                    <bibl><author>Chue Hong, Neil</author> (ed.) (2019a): “Software Citation Checklist for Authors” (Version 0.9.0). 
+                        <hi rend="italic">Zenodo</hi>. 
+                        <ref target="http://doi.org/10.5281/zenodo.3479199">http://doi.org/10.5281/zenodo.3479199</ref>.
+                    </bibl>
+                    <bibl><author>Chue Hong, Neil</author> (ed.) (2019b): "Software Citation Checklist for Developers" (Version 0.9.0). 
+                        <hi rend="italic">Zenodo</hi>. 
+                        <ref target="http://doi.org/10.5281/zenodo.3482769">http://doi.org/10.5281/zenodo.3482769</ref>.
+                    </bibl>
+                    <bibl><author>Druskat, Stephan </author>(2021a): “Research software citation for researchers.” 
+                        <hi rend="italic">Research Software Citation. Cite and Make Citable!</hi> (Version 1.1). 
+                        <ref target="https://cite.research-software.org/researchers/">https://cite.research-software.org/researchers/</ref> [last accessed: 04.11.2022].
+                    </bibl>
+                    <bibl><author>Druskat, Stephan </author>(2021b): “Research software citation for developers.” 
+                        <hi rend="italic">Research Software Citation. Cite and Make Citable!</hi> (Version 1.1). 
+                        <ref target="https://cite.research-software.org/developers/">https://cite.research-software.org/developers/</ref> [last accessed: 04.11.2022].
+                    </bibl>
+                    <bibl><author>Henny-Krahmer, Ulrike</author> / <author>Jettka, Daniel</author> (2021): “Softwarezitation in den Digital Humanities.” (Version 0.1). 
+                        <hi rend="italic">Zenodo.</hi>
+                        <ref target="http://doi.org/10.5281/zenodo.5106">http://doi.org/10.5281/zenodo.5106</ref>.
+                    </bibl>
+                    <bibl><author>Henny-Krahmer, Ulrike</author> / <author>Jettka, Daniel</author> (2022): “Softwarezitation als Technik der Wissenschaftskultur. Vom Umgang mit Forschungssoftware in den Digital Humanities.” In: 
+                        <hi rend="italic">DHd2022. Konferenzabstracts.</hi>
+                        <ref target="https://doi.org/10.5281/zenodo.6328046.">https://doi.org/10.5281/zenodo.6328046.</ref>
+                    </bibl>
+                    <bibl><author>Hettrick, Simon</author> / <author>Antonioletti, Mario</author> / <author>Carr, Les</author> / <author>Chue Hong, Neil</author> / <author>Crouch, Stephen</author> / <author>De Roure, David</author> / <author>Emsley, Iain et al.</author> (2014): “UK Research Software Survey 2014.” 
+                        <hi rend="italic">Zenodo</hi>. 
+                        <ref target="https://doi.org/10.5281/zenodo.14809">https://doi.org/10.5281/zenodo.14809</ref>.
+                    </bibl>
+                    <bibl><author>Homburg, Timo</author> / <author>Klammt, Anne</author> / <author>Mara, Hubert</author> / <author>Schmid, Clemens</author> / <author>Schmidt, Sophie C.</author> / <author>Thiery, Florian</author> / <author>Trognitz, Martina</author> (2020): “Diskussionsbeitrag - Handreichung zur Rezension von Forschungssoftware in den Altertumswissenschaften / Impulse - Recommendations for the review of archaeological research software.” 
+                        <hi rend="italic">GitHub</hi>. 
+                        <ref target="https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft.htm">https://research-squirrel-engineers.github.io/Impuls_SoftwareRezensionen_DGUF/Draft.htm</ref> [last accessed: 04.11.2022].
+                    </bibl>
+                    <bibl><author>Howison, James</author> / <author>Bullard, Julia</author> (2016): “Software in the scientific literature: Problems with seeing, finding, and using software mentioned in the biology literature.” 
+                        <hi rend="italic">Journal of the Association for Information Science and Technology (JASIST)</hi> 67 (9): 2137-2155. 
+                        <ref target="https://doi.org/10.1002/asi.23538">https://doi.org/10.1002/asi.23538</ref>.
+                    </bibl>
+                    <bibl><author>Jackson, Mike </author>(n. d.): “How to cite and describe software.” In: 
+                        <hi rend="italic">Software and research: The Software Sustainability Institute’s Blog</hi>. 
+                        <ref target="https://www.software.ac.uk/how-cite-and-describe-software">https://www.software.ac.uk/how-cite-and-describe-software</ref> [last accessed: 04.11.2021].
+                    </bibl>
+                    <bibl><author>Jettka, Daniel</author> / <author>Henny-Krahmer, Ulrike</author> (2022): “Leitfaden für die nachhaltige Entwicklung und Nutzung von Forschungssoftware.” 
+                        <hi rend="italic">NFDI4Culture Handreichung</hi> (Version 1.0.0). 
+                        <ref target="https://docs.nfdi4culture.de/ta3-sustainable-research-software">https://docs.nfdi4culture.de/ta3-sustainable-research-software</ref> [last accessed: 04.11.2022]. 
+                        <ref target="https://doi.org/10.5281/zenodo.7194401">https://doi.org/10.5281/zenodo.7194401</ref>.
+                    </bibl>
+                    <bibl><author>Jettka, Daniel</author> / <author>Henny-Krahmer, Ulrike</author> / <author>Ferger, Anne</author> / <author>Alvares Freire, Fernanda</author> (2022): “
+                        Software citation in the Digital Humanities.” (Version 0.1) GitHub.com. 
+                        <ref target="https://github.com/DH-RSE/software-citation">https://github.com/DH-RSE/software-citation</ref> [last accessed: 04.11.2022].
+                    </bibl>
+                    <bibl><author>Krüger, Frank and David Schindler </author>(2020): “A Literature Review on Methods for the Extraction of Usage Statements of Software and Data.” 
+                        <hi rend="italic">Computing in Science &amp; Engineering</hi> 22 (1): 26-38. 
+                        <ref target="https://doi.org/10.1109/MCSE.2019.2943847">https://doi.org/10.1109/MCSE.2019.2943847</ref>.
+                    </bibl>
+                    <bibl><author>Lamprecht, Anna-Lena</author> / <author>Garcia, Leyla</author> / <author>Kuzak, Mateusz</author> / <author>Martinez, Carlos</author> / <author>Arcila, Ricardo</author> / <author>Del Pico, Eva M.</author> / <author>Dominguez Del Angel, Victoria et al.</author> (2020): “Towards FAIR principles for research software.” 
+                        <hi rend="italic">Data Science</hi> 3 (1): 37–59. 
+                        <ref target="https://doi.org/10.3233/DS-190026">https://doi.org/10.3233/DS-190026</ref>.
+                    </bibl>
+                    <bibl><author>Smith, Arfon M.</author> / <author>Katz, Daniel S.</author> / <author>Niemeyer, Kyle E.</author> / <author>FORCE11 Software Citation Working Group</author> (2016): “Software citation principles.” 
+                        <hi rend="italic">PeerJ Computer Science</hi> 2:e86. 
+                        <ref target="http://dx.doi.org/10.7717/peerj-cs.86">http://dx.doi.org/10.7717/peerj-cs.86</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zarei, Alireza / Seung-Bin, Yim / Fischer, Frank / Ďurčo, Matej / Wieder, Phillipp </hi>(2022): “Measuring the Use of Tools and Software in the Digital Humanities: A Machine-Learning Approach for Extracting Software Mentions from Scholarly Articles.” In: 
+                        <hi rend="italic">DH 2022. Conference Abstracts</hi>
+                        . 
+                        <ref target="https://dh2022.dhii.asia/abstracts/files/FISCHER_Frank_Measuring_the_Use_of_Tools_and_Software_in_the.html">https://dh2022.dhii.asia/abstracts/files/FISCHER_Frank_Measuring_the_Use_of_Tools_and_Software_in_the.html</ref>
+                        [last accessed: 04.11.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Social Justice in the Digital Humanities Community of Practice </title>
+                <author n="SchreibmanSusanSCHREIBMAN_Susan_Social_Justice_in_the_Digital_Humanities_Co.xml"><persName ref="https://orcid.org/0000-0002-8782-0794" n="SchreibmanSusan">
+                        <surname>Schreibman</surname>
+                        <forename>Susan</forename>
+                    </persName><affiliation>Maastricht University, Netherlands, The</affiliation><email>susan.schreibman@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PapadopoulosCostasSCHREIBMAN_Susan_Social_Justice_in_the_Digital_Humanities_Co.xml"><persName ref="https://orcid.org/0000-0003-1072-5198" n="PapadopoulosCostas">
+                        <surname>Papadopoulos</surname>
+                        <forename>Costas</forename>
+                    </persName><affiliation>Maastricht University, Netherlands, The</affiliation><email>k.papadopoulos@maastrichtuniversity.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PingHuangMarianneSCHREIBMAN_Susan_Social_Justice_in_the_Digital_Humanities_Co.xml"><persName ref="https://orcid.org/0000-0002-1819-0741" n="PingHuangMarianne">
+                        <surname>Ping Huang</surname>
+                        <forename>Marianne</forename>
+                    </persName><affiliation>Aarhus University</affiliation><email>mph@cc.au.dk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ScholgerWalterSCHREIBMAN_Susan_Social_Justice_in_the_Digital_Humanities_Co.xml"><persName n="ScholgerWalter">
+                        <surname>Scholger</surname>
+                        <forename>Walter</forename>
+                    </persName><affiliation>University of Graz</affiliation><email>walter.scholger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KuzmanlogarKoraljkaSCHREIBMAN_Susan_Social_Justice_in_the_Digital_Humanities_Co.xml"><persName ref="https://orcid.org/0000-0002-7810-0453" n="KuzmanlogarKoraljka">
+                        <surname>Kuzman Šlogar</surname>
+                        <forename>Koraljka</forename>
+                    </persName><affiliation>Institute of Ethnology and Folklore Research</affiliation><email>koraljkak@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Issues of Social Justice, broadly conceived, are increasingly being included as a component in digital humanities scholarship or are the reason d'etre of the research itself. Equally, issues of ethics, privacy, and copyright are taking on greater prominence in DH scholarship. This short paper focuses on the creation of a course for the #dariahTeach platform, Social Justice in the Digital Humanities: Diversifying the Curriculum.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>social justice</term>
+                    <term>decolonising the curriculum</term>
+                    <term>postcolonial pedagogy</term>
+                    <term>decolonial pedogogy</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>Education/ pedagogy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Issues of Social Justice, broadly conceived, are
+                    increasingly being included as a component in digital humanities scholarship or
+                    are the<hi rend="italic">raison</hi><hi rend="italic">d'etre</hi>of the research itself. Equally, issues of ethics, privacy, and copyright are taking on greater prominence in DH scholarship. This short paper focuses on the creation of a course for the #dariahTeach platform, <hi rend="italic">Social Justice in the Digital Humanities: Diversifying the Curriculum. </hi></p>
+            <p>The inspiration for this course came out of the
+                    initiatives underway to diversify the curriculum, and the growing body of
+                    scholarship in the digital humanities in the area. #dariahTeach has already
+                    included several case studies which speak to diversifying initiatives as part of
+                    existing courses (eg<hi rend="italic">Storytelling for Digital Narratives
+                    and Blended Spaces, Introduction to Design Thinking and Maker Culture</hi>), and it was felt that the time was ripe to develop
+                    a course which focuses on social justice in the digital humanities. Previous
+                    case studies include Jennifer Roberts-Smith’s interview which highlights the
+                    creation and use of technologies for the<hi rend="italic">Digital Histories for Oral </hi><hi rend="italic">Reconciliation</hi>project, which centres on the Nova Scotia Home for Colored Children; how digital modalities are being harnessed by artists in the developing world to preserve their work and reach dispersed audiences, as in the case of storytellers in Sierra Leone (Digital Orality) ; or how digital collections can bring to the fore heretofore marginalised voices from the past (DH: Origin Stories, Rhizomatic Narrative, Archives that Matter). </p>
+            <p>The goal of this new research is twofold: to create an interactive online community-driven course which highlights existing work in the area as well as to stimulate future scholarship featuring projects, pedagogy, and processes from around the globe through a series of case studies, augmented by theory and concepts (e.g., social justice, postcolonial and decolonial theory, diversifying the curriculum initiatives, data feminism) punctuated by quizzes and more reflective, maker-based exercises, with a robust bibliography and a registry of social justice projects in the DH.  Current case studies include projects which give voice to the incarcerated in the United States, a collaborative of practitioners seeking to integrate social justice practices and concepts into their teaching, a LGBTQ+ ontology to facilitate discovery for Swedish fiction, coding in XML for social justice, a big data repository that mines social justice themes, and a joint archival/engineering project remapping South Africa’s District Six. </p>
+            <p>This paper will provide the opportunity to problematize some of the issues and challenges of working within a social justice framework, highlight existing best practice, as well as discuss issues of ethics, privacy, and copyright, which differ depending on, not on the legal, but a moral framework on a case-by-case basis. This additional duty of care when developing and disseminating content created by or about marginalised, indigenous or minority populations, and/or those whose ethics and traditions differ from dominant western values will also be highlighted. And lastly, how these considerations should be considered when doing research in reparative ways when dealing with contested histories and/or material cultures will also be discussed. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Arday, Jason, Dina Zoe Belluigi  &amp; Dave Thomas </hi>(2021). Attempting to break the chain: reimaging inclusive pedagogy and decolonising the curriculum within the academy. 
+                        <hi rend="italic">Educational Philosophy and
+                            Theory</hi>
+                        , 
+                        <hi rend="italic">53</hi>
+                        (3), 298-313.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bailey, Moya. Anne Cong-Huyen, Alexis Lothian, and Amanda Phillips</hi>, “Reflections on a Movement: “TransformDH, Growing Up,” in Debates in the Digital Humanities, eds. M.K. Gold &amp; L.F. Klein, University of Minnesota Press, 2016,  
+                        <ref target="https://dhdebates.gc.cuny.edu/read/untitled/section/9cf90340-7aae-4eae-bdda-45b8b4540b6b#ch08">https://dhdebates.gc.cuny.edu/read/untitled/section/9cf90340-7aae-4eae-bdda-45b8b4540b6b#ch08</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">D'ignazio, Catherine, and Lauren F. Klein </hi>(2020). 
+                        <hi rend="italic">Data feminism</hi>
+                        . MIT Press. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Larson, Doran</hi>. "Prison Writer as Witness.” 
+                        <hi rend="italic">Digital Humanities Quarterly
+                            15</hi>
+                        , no. 3 (2021): 0-11. Accessed April 26, 2023. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/15/3/000571/000571.html">http://www.digitalhumanities.org/dhq/vol/15/3/000571/000571.html</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Llewellyn, Kristina R. and Jennifer J. Llewellyn</hi>. 2015. “A Restorative Approach to Learning: Relational Theory as Feminist Pedagogy in Universities.” Feminist Pedagogy in Higher Education, edited by Tracy Penny Light, Jane Nicholas, and Renee Bondy, Wilfrid Laurier UP, 11-31. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Morford Ashley Caranto, Arun Jacob and Kush Patel </hi>(2021). 
+                        <ref target="https://www.digitalstudies.org/articles/10.16995/dscn.379/">“Pedagogy of the Digitally Oppressed:
+                                Futurities, Imaginings, Responsibilities, and Ethics for
+                                Anti-colonial DH Praxis,”</ref>
+                        <hi rend="italic">Digital Studies/Le champ
+                            numérique</hi>
+                        , Vol. 10, no. 1. pp. 20-37.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nieves, Angel David </hi>(2018). 
+                        <hi rend="italic">DH as “Disruptive Information”
+                            for Restorative Social Justice: Virtual Heritage and 3D Reconstruction
+                            of South Africa’s Township Histories</hi>
+                        . In D. Kim &amp; J. Stommel (Eds.),
+                            Disrupting the Digital Humanities (pp. 117-142).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rawson, Katie and Trevor Muños </hi>(2019).
+                            “Against Cleaning.” In Debates in the Digital Humanities
+                        edited by Gold M. K. &amp; L.F. Klein. Minneapolis &amp; London: University of Minnesota Press, 2019. 
+                        <ref target="https://www.google.com/url?q=https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51%23ch23&amp;sa=D&amp;source=docs&amp;ust=1682767724969878&amp;usg=AOvVaw35JY7Gf0Ulnowc1JM5YsPA">https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Risam, Roopika </hi>(2015). Revising History and
+                            Re-authoring the Left in the Postcolonial Digital Archive. Studies in
+                            Media Communication, 33:3, 245-263, DOI:
+                            10.1080/15295036.2016.1183801
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Shome, Raka </hi>(2016) When postcolonial studies
+                            meets media studies, Critical
+                        <hi rend="italic"> Studies in Media Communication</hi>
+                         33.3 (2016): 245-263.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Exploring topics surrounding migration in Austrian historical newspapers.</title>
+                    <title type="sub">Topic modelling of historical newspapers</title>
+                </title>
+                <author n="KruiLucijaKRU_I__Lucija_Exploring_topics_surrounding_migration_in_Aust.xml"><persName n="KruiLucija">
+                        <surname>Krušić</surname>
+                        <forename>Lucija</forename>
+                    </persName><affiliation>Institute Centre for Information Modelling- Austrian Centre for Digital Humanities, University of Graz, Austria</affiliation><email>lucija.krusic@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution deals with Dynamic Topic Modelling of Austrian historical newspapers (found in the ANNO Corpus), focusing on the time period from the 18th to the mid-20th Century. The aim of the investigation is to uncover the development of the topic surrounding migration from and via Southeast Europe to Austria.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>This contribution deals with Dynamic Topic Modelling of Austrian historical newspapers (found in the ANNO Corpus), focusing on the time period from the 18th to the mid-20th Century. The aim of the investigation is to uncover the development of the topic surrounding migration from and via Southeast Europe to Austria.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Migration</term>
+                    <term>Topic Modelling</term>
+                    <term>Historical Corpora</term>
+                    <term>Machine Learning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Following the “refugee crisis” of 2015, migration has become a widely researched topic in the fields of Natural Language Processing (NLP) and Topic Modelling (Heidenreich et al 2019). The focus of Topic Modelling is the automatic detection of hidden thematic structures in texts (Blei 2012). Recently, in the field of Digital Humanities, Dynamic Topic Modelling (DTM) has been used to explore the development of topics in historical newspapers (Marjanen et al 2020). Unlike traditional probabilistic topic models, this method takes into account the temporal dynamics of data, thus enabling the analysis of the evolution of topics over time. </p>
+            <p> This contribution will propose the methodology of Dynamic Topic Modelling of Austrian newspapers published in the period between mid- 19<hi rend="superscript">th</hi> and mid-20<hi rend="superscript">th</hi> century, with a focus on the development and variation of topics surrounding migration from Southeast Europe to Austria. The aim of this work is to discover which terms are connected with migration and migrant groups and how those terms and contexts change and develop in the newspapers, with evolving political and societal circumstances. The newspapers selected are part of the publicly available ANNO corpus (Österreichische Nationalbibliothek, 2021). Taking into account a larger timespan might facilitate a deeper understanding of the past and current climate towards migrants in Austria.</p>
+            <p>Bishof and Rupnow (2017) establish a historical base of understanding of migration in Austria over the past three centuries. They see the start of this historical observation in late Habsburg era - and it continues up to the so-called refugee crisis of 2015 (Kohler 2017). </p>
+            <p>             So far, Topic Modelling of migration discourse in German has been conducted on contemporary (Heidenreich et al 2019; Czymara / Klingeren 2021; Erhard et al 2022) and historical newspapers (Obichler / Pfanzelter 2021), utilizing traditional topic models. This study adds to that body of research, by preforming DTM, which enables the investigation of the development of topic surrounding migration in a larger time frame. Furthermore,  the contribution levarages BERTopic (Grootendorst 2022), a transformer-based topic modelling technique for DTM, which outpreforms traditional probabilistic methods by taking into account the context of the words in a sentence. </p>
+            <p>Uncovering the topics related to migration in Austrian newspapers is the first step in a topic-specific corpus building process (Obichler / Pfanzelter, 2021). The topic-specific corpus of migration from and via South-east Europe to Austria will be the basis of the investigation of sentiments towards the topic of migration and migrants in the Austrian newspapers in different time periods by using Sentiment Analysis, the automatic detection sentiments and opinions in texts (Liu 2012). The goal of the research is both to contribute to the growing fields of Topic Modelling and Sentiment Analysis in German Digital Humanities, as well as to shed light on the representations of migrants in Austrian media in different time periods</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bischof, Günter</author> / <author>Dirk Rupnow</author> 
+                        . (2017): “Preface.” in:  Bischof, Günter / Rupnow, Dirk (eds.): 
+                        <hi rend="italic">Migration in Austria</hi>
+                        . University of New Orleans Press. 13–22. JSTOR, <ref target="https://doi.org/10.2307/j.ctt1t89kvv.3">https://doi.org/10.2307/j.ctt1t89kvv.3</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Blei, D.M</author>
+                        . (2012): “Probabilistic Topic Models”, in: 
+                        <hi rend="italic">Communications of the ACM</hi>
+                        , 55: 77-84. 
+                        <ref target="http://dx.doi.org/10.1145/2133806.2133826">http://dx.doi.org/10.1145/2133806.2133826</ref>
+                         [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Czymara, C. S.</author> / <author>Klingeren, M. van</author> 
+                        . (2019): "New perspective? Comparing frame occurrence in online and traditional news media reporting on Europe’s “Migration Crisis”", in: 
+                        <hi rend="italic">Communications</hi>
+                         47,1: 136-162 
+                        <ref target="https://doi.org/10.1515/commun-2019-0188">https://doi.org/10.1515/commun-2019-0188</ref>
+                        [28.4.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Erhard, L .</author> / <author>Heiberger, R.H.</author> / <author>Windzio, M.</author> 
+                         (2022): “Diverse Effects of Mass Media on Concerns about Immigration: New Evidence from Germany, 2001–2016”, in:
+                        <hi rend="italic">European Sociological Review</hi>
+                         38, 4:629–647 
+                        <ref target="https://doi.org/10.1093/esr/jcab063">https://doi.org/10.1093/esr/jcab063</ref>
+                         [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Grootendorst, M.</author>
+                         (2022): “BERTopic: Neural topic modeling with a class-based TF-IDF procedure” in: 
+                        <hi rend="italic">arXiv</hi>
+                        .<ref target="arXiv:2203.05794">arXiv:2203.05794</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Heidenreich, T.</author> / <author>Lind, F.</author> / <author>Eberl, J.M.</author> / <author>Boomgaarden, H.G.</author> 
+                         (2019): “Media Framing Dynamics of the ‘European Refugee Crisis’: A Comparative Topic Modelling Approach”, in:
+                        <hi rend="italic">Journal of Refugee Studies</hi>
+                        , 32:172–182. 
+                        <ref target="https://doi.org/10.1093/jrs/fez025">https://doi.org/10.1093/jrs/fez025</ref>
+                         28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Kohler M.</author>
+                         (2017): “Austrian public Opinion in the "Refugee Crisis in:  Bischof, Günter / Rupnow, Dirk (eds.): 
+                        <hi rend="italic">Migration in Austria</hi>
+                        . University of New Orleans Press. 257–279. JSTOR, <ref target="https://doi.org/10.2307/j.ctt1t89kvv.3">https://doi.org/10.2307/j.ctt1t89kvv.3</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Liu, B. </author>
+                        (2012): “Sentiment analysis and opinion mining: Synthesis Lectures on Human Language Technologies”. Toronto: Morgan &amp; Claypool.
+                    </bibl>
+                    <bibl>
+                        <author>Marjanen, J.</author> / <author> Zosa, E.</author> / <author>Hengchen, S.</author> / <author>Pivovara, L.</author> / <author>Tolonen, M</author> 
+                        . (2020): “Topic modelling discourse dynamics in historical newspapers”. in: 
+                        <hi rend="italic">arXiv</hi>
+                        . <ref target="arXiv:2011.10428">arXiv:2011.10428</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Oberbichler, S.</author> / <author>Pfanzelter, E</author> 
+                        . (2021): “Topic-specific corpus building: A step towards a representative newspaper corpus on the topic of return migration using text mining methods”, in:
+                        <hi rend="italic">Journal of Digital History</hi>
+                        1,1: 74-98. 
+                        <ref target="https://doi.org/10.1515/jdh-2021-1003">https://doi.org/10.1515/jdh-2021-1003</ref>
+                         [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Rheindorf, M.</author> / <author>Wodak, R.</author> 
+                         (2018): “Borders, Fences, and Limits—Protecting Austria From Refugees: Metadiscursive Negotiation of Meaning in the Current Refugee Crisis” in:
+                        <hi rend="italic">Journal of Immigrant &amp; Refugee Studies</hi>
+                         1, 2: 15-38.
+                    </bibl>
+                    <bibl>
+                        <author>Österreichische Nationalbibliothek</author>.
+                         (2021): „ANNO Historische Zeitungen und Zeitschriften“.
+                        <ref target="https://anno.onb.ac.at/">https://anno.onb.ac.at/</ref>
+                         [28.04.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

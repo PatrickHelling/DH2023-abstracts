@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Humanistic NLP: Bridging the Gap Between Digital Humanities and Natural Language Processing</title>
+                <author n="TasovacTomaTASOVAC_Toma_Humanistic_NLP__Bridging_the_Gap_Between_Digita.xml"><persName ref="https://orcid.org/0000-0002-3919-993X" n="TasovacToma">
+                        <surname>Tasovac</surname>
+                        <forename>Toma</forename>
+                    </persName><affiliation>Belgrade Center for Digital Humanities</affiliation><email>ttasovac@humanistika.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ErmolaevNataliaTASOVAC_Toma_Humanistic_NLP__Bridging_the_Gap_Between_Digita.xml"><persName ref="https://orcid.org/0000-0002-0984-7799" n="ErmolaevNatalia">
+                        <surname>Ermolaev</surname>
+                        <forename>Natalia</forename>
+                    </persName><affiliation>Center for Digital Humanities at Princeton</affiliation><email>nataliae@princeton.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JancoAndrewTASOVAC_Toma_Humanistic_NLP__Bridging_the_Gap_Between_Digita.xml"><persName ref="https://orcid.org/0000-0002-8872-9474" n="JancoAndrew">
+                        <surname>Janco</surname>
+                        <forename>Andrew</forename>
+                    </persName><affiliation>University of Pennsylvania</affiliation><email>apjanco@upenn.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LassnerDavidTASOVAC_Toma_Humanistic_NLP__Bridging_the_Gap_Between_Digita.xml"><persName ref="https://orcid.org/0000-0001-9013-0834" n="LassnerDavid">
+                        <surname>Lassner</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Technische Universität Berlin</affiliation><email>lassner@tu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BudakNickTASOVAC_Toma_Humanistic_NLP__Bridging_the_Gap_Between_Digita.xml"><persName ref="https://orcid.org/0000-0002-4542-0899" n="BudakNick">
+                        <surname>Budak</surname>
+                        <forename>Nick</forename>
+                    </persName><affiliation>Stanford University</affiliation><email>budak@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Humanistic NLP articulates the multiple challenges facing interactions between NLP and humanities research and offers solutions to bridge this gap. Not merely an application of NLP in DH, it should be considered as an opportunity to engage more humanist scholars in the development and critical appraisal of NLP language resources.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>NLP</term>
+                    <term>DH</term>
+                    <term>pedagogy</term>
+                    <term>humanities</term>
+                    <term>interdisciplinarity</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>natural language processing</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>There was a time — in the sixties and seventies, during the early days of humanities computing and the heyday of Chomskian linguistics — where natural language processing (NLP) more or less made sense to your average humanities scholar. This was because NLP was to a large extent rule-based. Computer scientists and linguists built complex systems on top of explicit rules (and exceptions) that would, in theory at least, cover all the grammatical and syntactical structures of a natural language. Тhe dominant approach in NLP these days has nothing to do with explicit rules; instead, it is based on statistical models. Statistical NLP infers rules from existing texts and annotations by converting words into vectors in a multidimensional space. These — to the human mind — impenetrable models are used to make predictions on new data. This works fairly well for certain types of tasks. But they also feel a bit like magic (Tasovac and Ermolaev 2022).</p>
+            <p>Most humanists come to quantitative, statistical and machine-learning methods with a healthy dose of skepticism to begin with: we are trained to recognize that context is everything, that meaning is always irreducibly complex, that texts are often inherently contradictory, and that there is no such thing as ideology-free space. So it should come as no surprise that humanists are especially sensitive to the challenges of power dynamics, data availability, and domain specificity, as well as structural and representational bias in statistical language models based on large datasets (see Bender et al 2021; Bamman et al. 2019; del Rio Riande 2022; Klein 2022)</p>
+            <p>In this paper, we present Humanistic NLP as an interdisciplinary framework which aims to articulate the multiple challenges facing present-day interactions between NLP and humanities research, with the goal of finding solutions to bridge this gap. We will first analyze the epistemological, conceptual, technical and socio-cultural obstacles that stand in the way of a wider use of NLP methods in Digital Humanities: the fundamental clash of positivist and empirical traditions in linguistics with the hermeneutic traditions typical for the humanities; the differences in rule-based and statistical approaches to NLP and how they relate to humanistic perspectives on language, structure and meaning; as well as the relationship between textual formats (plain text, XML), tools that can process them and the kinds of questions that can be asked about such texts, while paying special attention to the difficulties presented by the black-box machine-learning models (i.e. models which are created directly from data by an algorithm) to the humanistic production of knowledge.</p>
+            <p>Taking into account the significant contributions of other research projects in this domain (Bamman 2020; Bamman 2022; Wilken et al. 2022; Mcgillivray et al. 2020; Underwood 2019)  we’ll introduce the concept of Humanistic NLP as an area of applied, translational research aimed at the development of theories, tools, and processes that enable the use of NLP frameworks by humanist scholars in specific use cases.  We’ll argue that to support humanists working on domain-specific (for instance, literary) datasets and/or language varieties (historical or dialectal) which have no robust NLP support, we need to 1) raise their awareness about both the potential and the pitfalls of machine-learning in NLP; and 2) teach them very specific skills and workflows so that they can independently collect and annotate data, train and evaluate language models and experiment with transfer learning in their own work.</p>
+            <p>We tested this approach in a series of workshops under the banner of the NEH Institute for Advanced Topics in the Digital Humanities “New Languages for NLP”  (Janco and Ermolaev 2022). Between the summer of 2021 and the spring of 2022, we worked with 10 language teams (Classical Arabic, Old Chinese, Kanbun, Kannada, Ottoman Turkish, Quechua, Russian literature of the 19th century, Tigrinya, Yiddish and Yoruba) to help them create language models for lesser-resourced and/or domain-specific languages using the spaCy NLP framework (spaCy 2022).</p>
+            <p>In our paper, we will analyze the pedagogical approaches we adopted and practical solutions we implemented in order to make our students’ learning process as effective as possible. We will discuss the major challenges we have encountered, including text acquisition and corpus compilation, OCR quality, data curation, unreliability of linguistic terminology (such as “sentences” and “paragraphs”) as well as morphological complexity, all of which have impacted the nature and the success of the teams’ language models. We will also address the importance of team building in such interdisciplinary enterprises, where individual disciplinary expertise needs to be matched with social and communication skills especially when it comes to managing and supporting annotators.</p>
+            <p>Humanistic NLP shouldn't be thought of as merely an application of NLP tools in the humanistic domains, but as an opportunity to engage more humanist scholars in the development and critical appraisal of NLP language resources. Substantive discussions across the disciplinary boundaries of the humanities and data and computer science may at times feel insurmountable. But, in the spirit of this year's topic of DH2023 — collaboration as opportunity 
+                <hi rend="italic">and</hi> revolutions — we hope to contribute with some ideas on how to communicate and learn from each other in the age of intense academic overspecialization in order to prevent our segregated disciplines from turning us into methodological, epistemological and ideological loners.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Bender, E. M., Gebru, T., McMillan-Major, A., &amp; Shmitchell, S. </author>(2021) On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? In 
+                        <hi rend="italic">Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</hi> (pp. 610-623).
+                    </bibl>
+                    <bibl><author>Bamman, D., Popat S., and Shen S. </author>(2019) An annotated dataset of literary entities. In 
+                        <hi rend="italic">Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</hi>, Volume 1 (Long and Short Papers), pages 2138–2144, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1220. URL https://www.aclweb.org/anthology/N19-1220.
+                    </bibl>
+                    <bibl><author>Bamman, D. </author>(2020) “LitBank: Born-Literary Natural Language Processing.” In 
+                        <hi rend="italic">Debates in the Digital Humanities: Computational Humanities</hi>, edited by Jessica Marie Johnson et al.
+                    </bibl>
+                    <bibl><author>Bamman, D. </author>(2022) Book NLP 
+                        <ref target="https://github.com/dbamman/book-nlp">https://github.com/dbamman/book-nlp</ref>
+                    </bibl>
+                    <bibl><author>del Rio Riande, Gimena. </author>(2022). On Spanish-Speaking Parrots. 
+                        <hi rend="italic">Startwords</hi>, 3. https://doi.org/10.5281/zenodo.6567850
+                    </bibl>
+                    <bibl><author>Gebru, T., Morgenstern J., Vecchione B., Wortman Vaughan, J., Wallach H., Daumeé III, H., and Crawford, K. </author>(2018). Datasheets for datasets. arXiv preprint arXiv:1803.09010</bibl>
+                    <bibl>Janco, A. and Ermolaev, N. (2022) New Languages for NLP. 
+                        <ref target="https://newnlp.princeton.edu/">https://newnlp.princeton.edu/</ref>
+                    </bibl>
+                    <bibl><author>Klein, L. </author>(2022) “Are Large Language Models Our Limit Case?” 
+                        <hi rend="italic">Startwords</hi>, 3. 
+                        <ref target="https://doi.org/10.5281/zenodo.6567985">https://doi.org/10.5281/zenodo.6567985</ref>
+                    </bibl>
+                    <bibl><author>Jo, E.S. and Gebru T.</author>  (2020) “Lessons from Archives: Strategies for Collecting Sociocultural Data in Machine Learning.” In 
+                        <hi rend="italic">FAT* '20: Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency</hi>, 306–316. doi: 10.1145/3351095.3372829. 
+                    </bibl>
+                    <bibl><author>Mcgillivray, B., Poibeau, T. and Ruiz, P. </author>(2020) “Digital Humanities and Natural Language Processing: ‘Je t’aime... Moi non plus.’” 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, 14(2). 
+                    </bibl>
+                    <bibl><author>spaCy</author> (2022) spaCy: Industrial-Strength Natural Language Processing in Python. 
+                        <ref target="https://spacy.io/">https://spacy.io/</ref> 
+                    </bibl>
+                    <bibl><author>Tasovac, T. and Ermolaev, N. </author>(2022) “Introduction.” In 
+                        <hi rend="italic">Startwords 3.</hi>
+                        <ref target="https://startwords.cdh.princeton.edu/issues/3/">https://startwords.cdh.princeton.edu/issues/3/</ref> 
+                    </bibl>
+                    <bibl><author>Underwood, T.</author>  (2019)  “Do humanists need BERT? Neural models have set a new standard for language understanding. Can they also help us reason about history?” 
+                        <ref target="https://tedunderwood.com/2019/07/15/do-humanists-need-bert/">https://tedunderwood.com/2019/07/15/do-humanists-need-bert/</ref>
+                    </bibl>
+                    <bibl><author>Wilkens, M., Mimno, D., Walsh, M., Thalken, R. </author>(2022) BERT for Humanists Project. 
+                        <ref target="http://www.bertforhumanists.org/">http://www.bertforhumanists.org/</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

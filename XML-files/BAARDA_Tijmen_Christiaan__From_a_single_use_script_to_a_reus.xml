@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> From a single-use script to a reusable Python package: assisting researchers in creating FAIR software </title>
+                <author n="vanBoheemenJelteBAARDA_Tijmen_Christiaan__From_a_single_use_script_to_a_reus.xml"><persName ref="https://orcid.org/0000-0002-2802-3242" n="vanBoheemenJelte">
+                        <surname>van Boheemen</surname>
+                        <forename>Jelte</forename>
+                    </persName><affiliation>Utrecht University, Netherlands, The</affiliation><email>j.vanboheemen@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BaardaTijmenChristiaanBAARDA_Tijmen_Christiaan__From_a_single_use_script_to_a_reus.xml"><persName ref="https://orcid.org/0000-0002-2577-4948" n="BaardaTijmenChristiaan">
+                        <surname>Baarda</surname>
+                        <forename>Tijmen Christiaan</forename>
+                    </persName><affiliation>Utrecht University, Netherlands, The</affiliation><email>t.c.baarda@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>As it becomes more common for individual researchers in the humanities to write their own pieces of software, it becomes more pressing that this software is created and published in a sustainable way. This poster proposes a step-by-step plan to assist researchers to create FAIR software.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>FAIR software</term>
+                    <term>open access</term>
+                    <term>code reusability</term>
+                    <term>code literacy</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>copyright</term>
+                    <term>licensing</term>
+                    <term>and permissions standards</term>
+                    <term>systems</term>
+                    <term>and processes</term>
+                    <term>digital archiving</term>
+                    <term>open access methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Recently, it has become more and more common that individual researchers in the humanities create pieces of software to support their research. Research councils today often require all output to be available in open access, which implies that output in the form of software should be available as open source software. However, for various reasons, publishing source code itself is generally not enough to allow others to replicate the research results or to reuse it for their own purposes. In this poster presentation, we want to show that with the right professional but low-key technical support, researchers who write their own software can be enabled to make it useful for others as much as for themselves.</p>
+            <p>To promote the long-term value of research software, the international FAIR for Research Software working group (FAIR4RS) recently published a set of principles for making software FAIR, which stands for Findable, Accessible, Interoperable and Reusable (Barker et al: 2022). Making software FAIR according to these principles entails a number of formal requirements. Some of these, such as assigning a unique identifier and publishing it with a proper open source license, are more or less trivial to implement. Other principles, such as the requirement of providing good documentation and interoperability using commonly-used data formats and programming interfaces, is less obvious to implement for those who do not write software on a daily basis and in collaboration with others.</p>
+            <p>This poster will present a detailed step-by-step plan for collaboration with researchers to make their software FAIR, along with a number of examples from the Research Software Lab, part of the Centre for Digital Humanities at Utrecht University where we assisted researchers to make their smaller and larger pieces of software useful for a larger audience, adhering to the FAIR principles. Many researchers are used to writing computer programs but may not be very well introduced to common software engineering procedures. They can adapt their software with relatively little additional efforts from both the side of the researcher and the side of the technical support staff. Bleeker et al. (2022) have shown that while the importance of code literacy in the field of digital humanities is clear, many scholars believe their own is lacking. We believe that the proposed collaboration between researchers and technical support can contribute to the overall level of code literacy in the humanities.</p>
+            <p>At the Research Software Lab, we collaborate with researchers by providing advice, technical support and writing software. During the last decade, the Research Software Lab has mainly been developing software at the request of researchers, often in the form of web applications. In the recent years, it has become more and more common for researchers in the humanities to write their own software. We actively encourage the researchers in their efforts, but we also assist them not only in writing the software, but also to preserve it for future use. In our poster, we give a detailed step-by-step plan showing how we assist and stimulate researchers in this process.</p>
+            <p>In this poster, we identify three types of research software we encounter in our Lab: standalone research scripts, reusable libraries, and (web-)applications. Research scripts are often published and citable, but lack documentation and licenses which makes them reusable. On the other hand, large and complex applications often contain pieces of code that may be of use in other projects as well, and it is difficult to cite specific parts of the application. In the Lab, we help researchers to transform their research scripts as well as parts of existing web applications into reusable libraries. Thanks to the infrastructure that the Lab provides, the pieces of software we develop or maintain are preserved in a sustainable way and can be picked up by other researchers even after the original research project is discontinued. We offer insight into this process for both existing and new projects. We are convinced that FAIR research software is a reachable goal for any researcher who cares about the sustainability of their software, provided that the research institution provides the right technical support infrastructure.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Barker, Michelle</author> / <author>Chue Hong, Neil P.</author> / <author>Katz, Daniel S.</author> / <author>Lamprecht, Anna-Lena</author> / <author>Martinez-Ortiz, Carlos</author> / <author>Psomopoulos, Fotis</author> / <author>Harrow, Jennifer</author> / <author>Jael Castro, Leyla</author> / <author>Gruenpeter, Morane</author> / <author>Martinez, Paula Andrea</author> / <author>Honeyman, Tom</author>  (2022): “Introducing the FAIR Principles for research software”, in 
+                        <hi rend="italic">Scientific Data</hi> 9. <ref target="https://doi.org/10.1038/s41597-022-01710-x">https://doi.org/10.1038/s41597-022-01710-x</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Bleeker, Elli</author> / <author>Koolen, Marijn</author> / <author>Beelen, Kaspar</author> / <author>Melgar, Liliana</author> / <author>van Zundert, Joris</author> / <author>Chambers, Sally</author>  (2022): “A Game of Persistence, Self-doubt, and Curiosity: Surveying Code Literacy in Digital Humanities”, in 
+                        <hi rend="italic">DH Benelux Journal</hi> 4: 1-28. <ref target="https://doi.org/10.17613/03ds-9973">https://doi.org/10.17613/03ds-9973</ref> [01.05.2023]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Link Visions Together: Visualizing Geographies of Late Qing and Republican
+                    China</title>
+                <author n="CheQunCHE_Qun_Link_Visions_Together__Visualizing_Geographies_of_La.xml"><persName n="CheQun">
+                        <surname>Che</surname>
+                        <forename>Qun</forename>
+                    </persName><affiliation>Shanghai Jiao Tong University, China, People's Republic
+                        of</affiliation><email>chequn@sjtu.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LinNungyaoCHE_Qun_Link_Visions_Together__Visualizing_Geographies_of_La.xml"><persName n="LinNungyao">
+                        <surname>Lin</surname>
+                        <forename>Nungyao</forename>
+                    </persName><affiliation>Taipei Palace Museum, Taiwan</affiliation><email>nungyao@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChenShihPeiCHE_Qun_Link_Visions_Together__Visualizing_Geographies_of_La.xml"><persName ref="https://orcid.org/0000-0001-5930-4736" n="ChenShihPei">
+                        <surname>Chen</surname>
+                        <forename>Shih-Pei</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science</affiliation><email>schen@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YehCalvinCHE_Qun_Link_Visions_Together__Visualizing_Geographies_of_La.xml"><persName n="YehCalvin">
+                        <surname>Yeh</surname>
+                        <forename>Calvin</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science</affiliation><email>cyeh@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper aims to elucidate the origin and metadata of land surveying maps, which meticulously document the landforms and features of various regions across mainland China between 1895 and 1944. Additionally, the digitization process of this research will be outlined. Furthermore, this paper will introduce the user interface of CHMap from two perspectives: firstly, CHMap as a platform for land survey maps, and secondly, CHMap as a tool for linking maps and images from disparate eras and sources.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Historical Maps; WMTS; IIIF; Land Survey Maps</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    <term>History of science</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p> Since the late 19th century, the Qing, the Beiyang, and the subsequent Nanjing
+                    Nationalist government of China began systematically conducting land surveying
+                    and mapping across the state. The land surveying was based on the triangular
+                    projection, a western imported technology. It was conducted on a large scale
+                    (1/50,000 &amp; 1/25,000) that provides in detail the street outlines of towns
+                    and cities. Around the same time, Japan used similar methods to carry out
+                    cartographic work in the Far East, including China, resulting in the first known
+                    set of systematic, large-scale coverage, high-precision maps of significant
+                    China territory.</p>
+                <p> This paper will explain the origin and metadata, and digitization of this set of
+                    maps. Then introduce the user interface of CHMap from two aspects: CHMap as a
+                    carrier of land survey maps and as a tool for linking maps and images from
+                    different eras and sources. </p>
+            </div>
+            <div>
+                <head>The origin and digitization process of land surveying maps</head>
+                <p> According to the <hi rend="italic">Comprehensive Index of Chinese Mainland
+                        Atlases</hi>, it is currently known that this set of land surveying maps
+                    contains four parts: 4,088 1/50,000 maps of mainland China, 754 1/25,000 maps of
+                    Manchuria, 1689 1/25,000 and 2295 1/50,000 maps of mainland China. The former
+                    three parts have been published by Kagakusion. The last set collected by
+                    Academia Sinica has been partially digitized and released through WMTS (Web Map
+                    Tile Service) for users to load and read from GIS software. </p>
+                <p> So far, what has been digitized is the <hi rend="italic">Chinese Mainland
+                        Atlases (1:50,000).</hi> From 1986 to 1998, this atlas was published with
+                    black and white photocopies and contains 4088 maps with metadata including when
+                    and who conducted the survey and platemaking. This set of maps records in detail
+                    the landforms and features of parts of mainland China from 1895 to 1944,
+                    including mountains and lakes, traffic routes, administrative division
+                    boundaries, crops, windmills, watermills, soil worship, ancestral halls,
+                    temples, and cultural relics. The map’s content is very informative and makes it
+                    precious historical material for studying natural and social changes during
+                    Republican China. </p>
+            </div>
+            <div>
+                <head>CHMap as the Carrier of Land Survey Maps</head>
+                <p> CHMap is developed based on leaflet.js, an open-source JavaScript library of web
+                    map applications, eligible for the long-term operation of this project. Leaflet
+                    allows for essential map display functions, such as dragging, zooming,
+                    referencing third-party resources, etc. We published the georeferenced digital
+                    maps through WMTS and then loaded them into the CHMap user interface, thus
+                    forming the prototype of CHMap.</p>
+                <p>The architecture of CHMap provides data-to-software and data-to-web connectivity,
+                    distinguished from API’s software-to-software model. It breaks the traditional
+                    user-to-software model while lowering the threshold for user participation and
+                    has good scalability, which prompts us to consider the possibility of
+                    incorporating more image ontologies into CHMap for comparative research. We
+                    expect that CHMap can not only achieve efficient, cross-platform, and
+                    barrier-free sharing of these maps but also provide a digital ecosystem to help
+                    users connect to more external data and share the data served or processed by
+                    the CHMap platform with third-party platforms or software, to realize the use of
+                    geography as a bridge to communicate images and data of different sources.</p>
+                <p>For this purpose, we have collected many external open map layers published in
+                    the form of WMTS, such as the land survey maps released by Academia Sinica,
+                    historical maps of China's dynasties, the CHGIS historical maps, etc. In
+                    addition, we have developed a "query by location" function for CHMap. It allows
+                    users to place a marker, search for if any external open maps exist according to
+                    the marker’s location, and reference them to the CHMap interface.</p>
+            </div>
+            <div>
+                <head>CHMap as a Tool for Linking Visions</head>
+                <p>We expect CHMap can promote the sharing and interoperability of geographic data
+                    and image resources, connect more external data, and meet the needs of
+                    personalized and customized spatial cognition. For geographic data, we have
+                    adopted the WMTS; and in the area of image resources, we have seen IIIF 's
+                    Emergence. With the framework, images can be referenced and interoperable across
+                    platforms.</p>
+                <p> Images of the IIIF standard can be referenced to the CHMap platform. With IIIF
+                    Viewer, users can view metadata and spatially process them. We divide IIIF
+                    images into two categories: maps and pictures other than maps, such as books,
+                    manuscripts, newspapers, paintings, etc., which may have spatial geographic
+                    information but cannot be georeferenced like maps. For the former, CHMap
+                    provides a georeferencing tool; for the latter, the tool also supports setting
+                    them in the place their spatial attributes claim. The spatially processed images
+                    on the CHMap platform can be saved locally in the format of GeoIIIF JSON, sent
+                    to the third party’s server, or shared with other software and platforms that
+                    support the standard. </p>
+                <p>By opening up to mainstream standard images, maps, and application
+                    interoperability frameworks, CHMap enables users to place images, maps, and
+                    personal data scattered in various collection institutions worldwide on one
+                    platform for comparative research. At the same time, CHMap supports data
+                    transfer and seamless connection with other software or related platforms. In
+                    this way, we expect CHMap to serve as a link in the interoperability of
+                    distributed image and geographic information data.</p>
+            </div>
+            <div>
+                <head>Spatial Epistemology: A Case of the Application of CHMap</head>
+                <p> Since 2014, Dep. III of MPIWG has developed a set of research tools, “LoGaRT,”
+                    for Chinese local gazetteers, which can assist scholars in using these materials
+                    through a holistic lens. In 2018, MPIWG invited four scholars to jointly
+                    participate in a research project—using LoGaRT to explore image materials in
+                    local gazetteers, including cityscapes, rituals, artifacts, astrological charts,
+                    hydrology, and modern surveying maps to explore specific topics of indigenous
+                    knowledge in history.</p>
+                <p> CHMap’s incorporation of local gazetteer images differs from the typical
+                    historical image display method. First, due to the inherent regional
+                    characteristics of local gazetteers, these images naturally have coordinates
+                    information so that they can be geolocated and generate geographic
+                    visualization. CHMap is equipped with 4088 Maps, which can serve as a control
+                    group or baseline for scholars to comparatively observe these images of
+                    different periods and social and cultural backgrounds and explore people's
+                    understanding and presentation of their own living spaces in different periods.
+                    It can be conveniently found on CHMap that the spatial description of Shaoxing
+                    City in the 17 <hi rend="superscript">th</hi>-century local gazetteer and the
+                    land survey map in the early 20th century. Comparing the two can deepen the
+                    researchers' cognition and understanding of diachronic locality. It can be
+                    combined with personalized spatial geographic data applicable to CHMap and image
+                    data from other sources to better understand research objects' spatial
+                    commonality or heterogeneity. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="SimSun">张晓虹,王均.中国近代测绘机构与地图管理</hi>[M].<hi rend="SimSun">历史地理</hi>:18<hi rend="SimSun">辑,上海:上海人民出版社</hi>,2002. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">任玉雪,邓发晖.《中国大陆五万分之一地图集成》所收地图来源分析</hi>[J].<hi rend="SimSun">历史地理研究</hi>,2020,40(3):132-142+156. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">中国地図資料研究会,陸地測量部.中国大陸五万分の一地図集成</hi>:8<hi rend="SimSun">巻</hi>[M]<hi rend="SimSun">東京:科学書院</hi>, 1986-1998. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">中国地図資料研究会,陸地測量部.中国大陸二万五千分の一地図集成</hi>[M].<hi rend="SimSun">東京:科学書院</hi>,1989-1993. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">中国地図資料研究会,陸地測量部.旧満州五万分の一地図集成</hi>[M].<hi rend="SimSun">東京:科学書院</hi>,1985. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">科学書院.中国大陸五万分の一地図集成総合索引</hi>[M]. <hi rend="SimSun">東京:科学書院</hi>,1994. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">外邦図について</hi>[EB/OL].[2021-03-15].
+                        https://www.lib.ocha.ac.jp/gaihouzu/gaihozuocha.html. </bibl>
+                    <bibl>
+                        <author>Tanak A.</author> Imperial Japanese army map collection at
+                        University of Washington [EB/OL]. The 26th annual conference of the EAJRS,
+                            <ref target="https://www.google.com/maps/place/%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80+%E3%83%A9%E3%82%A4%E3%83%87%E3%83%B3/@52.109718,4.4356216,10z/data=%214m2%213m1%211s0x47c5c68b88c9d753:0x74076352baf3fe49?hl=ja"> Leiden </ref> , The Netherlands, 16–19 September 2015.
+                        [2021-03-15].https://www.eajrs.net/files/happyo/tanaka_azusa_15.pdf. </bibl>
+                    <bibl>
+                        <author>Kobayashi S.</author> Japanese mapping of Asia-Pacific areas,
+                        1873-1945: an overview [J]. <hi rend="italic">Cross-currents: East Asian
+                            history and culture review</hi> 1, 2012(1): 137-171. </bibl>
+                    <bibl>
+                        <author>Stuart S, Sanderson R, Cramer T.</author> The International
+                        Image Interoperability Framework (IIIF): a community &amp; technology
+                        approach for web-based images[J]. <hi rend="italic">Archiving
+                            conference</hi> , 2015(1): 16-21. </bibl>
+                    <bibl> Explore illuminated manuscripts from the national libraries of the UK and
+                        France[EB/OL].[2021-03-15].
+                        https://www.bl.uk/medieval-english-french-manuscripts. </bibl>
+                    <bibl> Explore 800 medieval manuscripts of France and
+                        England[EB/OL]. [2021-03-15]. https://manuscrits-france-angleterre.org/polonsky/en/content/accueil-en?mode=desktop. </bibl>
+                    <bibl>
+                        <author>Fleet C, Kimberly C K, Přidal Petr</author>. Georeferencer:
+                        crowdsourced georeferencing for map library collections[J]. D-Lib
+                        magazine,2012,18: 52. </bibl>
+                    <bibl>
+                        <author>Marx K, Engels F.</author> Selected works in three
+                        volumes：Vol.1[M]. Moscow: Progress, 1969:32. </bibl>
+                    <bibl>
+                        <hi rend="SimSun">盛宁.人文困惑与反思——西方后现代主义思潮批判</hi>[M].<hi rend="SimSun">北京:三联书店</hi>,1997:75. </bibl>
+                    <bibl>
+                        <author>Warf B.</author> Space and Social Theory in Geography[M].
+                        Smelser N J, Baltes P B. International encyclopedia of the social &amp;
+                        behavioral sciences, Amsterdam,New York: Elsevier, 2001:82-88. </bibl>
+                    <bibl>
+                        <author>Lefebvre, H. Nicholson-Smith D</author>,trans.. The production
+                        of space[M]. Oxford: Blackwell, 1991:117. </bibl>
+                    <bibl>
+                        <author>Bruno B.</author> Nonplaces: an anecdoted topography of
+                        contemporary French theory[J]. Diacritics, 2003,33:117-139. </bibl>
+                    <bibl>
+                        <author>Bleakly D R</author>. Long-term spatial data preservation and
+                        archiving: what are the issues[R].SAND report,2002:107. </bibl>
+                    <bibl>
+                        <author>LoGaRT</author>: Local Gazetteers Research Tools[EB/OL].
+                        [2021-03-15].https://www.mpiwg-berlin.mpg.de/research/projects/logart-local-gazetteers-research-tools。
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

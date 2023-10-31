@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Large Language Models and NER: better results with less work</title>
+                <author n="ThalkenRosamondElizabethTHALKEN_Rosamond_Elizabeth_Large_Language_Models_and_NER__be.xml"><persName n="ThalkenRosamondElizabeth">
+                        <surname>Thalken</surname>
+                        <forename>Rosamond Elizabeth</forename>
+                    </persName><affiliation>Cornell University, United States of America</affiliation><email>ret85@cornell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WilkensMatthewTHALKEN_Rosamond_Elizabeth_Large_Language_Models_and_NER__be.xml"><persName n="WilkensMatthew">
+                        <surname>Wilkens</surname>
+                        <forename>Matthew</forename>
+                    </persName><affiliation>Cornell University, United States of America</affiliation><email>wilkens@cornell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MimnoDavidTHALKEN_Rosamond_Elizabeth_Large_Language_Models_and_NER__be.xml"><persName n="MimnoDavid">
+                        <surname>Mimno</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Cornell University, United States of America</affiliation><email>mimno@cornell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Our work considers how new advances in pretrained text-to-text generation models might make named entity recognition more accurate, flexible, and streamlined for the digital humanist. We provide an example of how text-to-text generative models can identify mentions of characters, authors, and book names within Goodreads book reviews.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>language models</term>
+                    <term>text generation</term>
+                    <term>book reviews</term>
+                    <term>named entity recognition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>social media analysis and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Computer science</term>
+                    <term>Library &amp; information science</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Computational text analysis often hinges on identifying a key concept – a named entity, sentiment value, or writing style – in unformatted text. To identify these concepts, digital humanists tend to use rule-based or annotation-heavy methods, but the complexity and variability of humanities sources make authority lists and regular expressions insufficient. Commonly used named entity recognition (NER) tools from natural language processing, like Stanford NER, offer greater power but only recognize static categories of entities based on fixed collections of labeled data; they cannot easily adapt to unknown entity types or unfamiliar language patterns. These methods can lead to wasted effort and bias against data that does not fit within predetermined categories.</p>
+            <p>Our work considers how advances in neural language models might make NER more accurate, flexible, and streamlined for the digital humanist. We provide an example of how text-to-text generative models can identify mentions of characters, authors, and book names within Goodreads book reviews, and compare our results to other named entity recognizers. The methods from our immediate project will allow fellow researchers to better parse book reviews for entities of interest, but it will also demonstrate how text-to-text generative models might be used to creatively classify objects of interest in other humanist work. </p>
+            <p>Text-to-text generation is a recent advancement in language modeling and deep learning where a model takes a segment of text as input and outputs text without constraint (Raffel et al. 2020).  These large language models are pretrained on an enormous amount of text, but can be finetuned on a specific dataset and to learn a given task, like NER. Digital humanists have engaged with text generative models, especially GPT-3, to creatively generate poetry or imitate a writer’s style (Elkins and Chun 2020, Hua and Raley 2020). Other work has used text generation to organize and describe narratives, such as identifying heroes and villains in plots or speeches (
+                
+                    Stammbach
+                 et al. 2022).
+            </p>
+            <p>The procedure we follow for generating a corpus-specific NER system takes only a few simple steps. We first create a spreadsheet with two columns: one for text input examples and the other for the output we want to generate for each example. Second, we "finetune" a pretrained language model using those example pairs. Finally, we use the finetuned model to annotate new examples.</p>
+            <p>We begin with an example in historical biodiversity literature. The inputs are paragraphs from botanical descriptions and the outputs are strings formatted to identify Latin names of plant species mentioned in the input text. We then finetune a generative language model (T5). A real example of input and generated text is in table 1. </p>
+            <p>In this biodiversity example, we found that not only was the model able to identify key entities, but it was also able to expand abbreviated names. In table 1, two plant names occur – with the same genus – making it possible to correctly resolve that the “C.” in the second name is an abbreviation for “Chrisops.” In book reviews, reviewers may reference a character by their nickname or an author by their last name, and given enough context, a generative text model could infer the full name, making it easier to organize and find information in reviews. </p>
+            <table xml:id="d320e201">
+                <head>Table 1: Example of text generation for plant names. </head>
+                <row>
+                    <cell>Input Text (name bolded)</cell>
+                    <cell>Generated Text</cell>
+                </row>
+                <row>
+                    <cell>I took the following note when I saw the type in Genoa, a single specimen: “very like signifer Wk, only face altogether yellow; first abdominal segment yellow. May be only a paler variety  
+                        <hi rend="bold">Chrysops dispar (Fab)</hi>. I believe  
+                        <hi rend="bold">C. impar Rond</hi>.
+                    </cell>
+                    <cell>Genus = Chrisops, Epithet = dispar, Author = Fab; Genus = Chrisops, Epithet = impar, Author = Rond</cell>
+                </row>
+            </table>
+            <p>Although the output appears to be carefully formatted into named data fields, it is in fact generated by the model as an unconstrained string. The "Genus = ..." format is generated because we provided strings in this format during model finetuning. It is possible to train the model to produce any similar structured format 
+                <hi rend="italic">without requiring any additional coding</hi>. In a book review, we can add categorization to clarify whether the reviewer is discussing an author or a character. The generated text would provide information about who is mentioned in the review, but we could use formatting categories to compare how entities are discussed within their higher-level categorical roles, like “author” or “character.”
+            </p>
+            <p>Compared to previous entity annotation systems, text-to-text generation systems offer more sophisticated results with less required technical skill. Researchers will be more able to combine their specialist knowledge of a collection with the generalization potential of language models trained on massive collections of text.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Elkins, Katherine</author> / <author>Chun, Jon</author>  
+                            (2020): “Can GPT-3 Pass a Writer’s Turing Test?” in 
+                            <hi rend="italic">Journal of Cultural Analytics</hi>
+                            .
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Hua, Minh</author> / <author>Raley, Rita</author>  
+                            (2020): “Playing 
+                            With
+                             Unicorns: AI Dungeon and Citizen NLP
+                            ,
+                            ” 
+                            <hi rend="italic">Digital Humanities Quarterly</hi>
+                            .
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Raffel, Colin</author> / <author>Shazeer, Noam</author> / <author>Roberts, Adam</author> / <author>Lee, Katherine</author> / <author>Narang, Sharan</author> / <author>Matena, Michael</author> / <author>Zhou, Yanqi</author> / <author>Li, Wei</author> / <author>Liu, Peter J.</author> 
+                        (2020): “Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,” in 
+                        <hi rend="italic">JMLR</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Stammbach, Dominik</author> / <author>Antoniak, Maria</author> / <author>Ash, Elliott</author> 
+                             (2022): “Heroes, Villains, and Victims, and GPT-3: Automated Extraction of Character Roles Without Training Data.” In 
+                            <hi rend="italic">Proceedings of the 4th Workshop of Narrative Understanding</hi>
+                            .
+                        
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Named Entity Recognition in Pre-modern Arabic Biographical Texts</title>
+                <author n="IshidaYuriISHIDA_Yuri_Named_Entity_Recognition_in_Pre_modern_Arabic_Bi.xml"><persName ref="https://orcid.org/0000-0002-5463-3722" n="IshidaYuri">
+                        <surname>Ishida</surname>
+                        <forename>Yuri</forename>
+                    </persName><affiliation>Okayama University, Japan</affiliation><email>ishidayuri@okayama-u.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BabaKensukeISHIDA_Yuri_Named_Entity_Recognition_in_Pre_modern_Arabic_Bi.xml"><persName ref="https://orcid.org/0000-0002-8118-0175" n="BabaKensuke">
+                        <surname>Baba</surname>
+                        <forename>Kensuke</forename>
+                    </persName><affiliation>Fukuoka Institute of Technology, Japan</affiliation><email>k-baba@fit.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BabaTakahiroISHIDA_Yuri_Named_Entity_Recognition_in_Pre_modern_Arabic_Bi.xml"><persName ref="https://orcid.org/0000-0001-7910-2728" n="BabaTakahiro">
+                        <surname>Baba</surname>
+                        <forename>Takahiro</forename>
+                    </persName><affiliation>Kurume Institute of Technology, Japan</affiliation><email>baba.takahiro@kurume-it.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This study aims to extract people’s names from pre-modern Arabic texts. The proposed dictionary-based model eliminates the influence of foreign words and extracts both first names and surnames from three selected corpora. It resolves two fundamental problems faced while performing Named Entity Recognition in Modern Standard Arabic studies.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Islamic Studies</term>
+                    <term>Arabic</term>
+                    <term>Prosopography</term>
+                    <term>Named Entity Recognition</term>
+                    <term>Natural Language Processing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>natural language processing</term>
+                    <term>Asian studies</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">1. Introduction</hi></p>
+            <p>This study aims to extract people’s names from biographies written by Muslim scholars in the 17th and 18th centuries. Arabic is one of the six official languages of the United Nations and has a native population of approximately 500 million, making it the fourth-largest language in the world. However, the peculiarity of its grammatical features, such as homonyms, has made Natural Language Processing (NLP) in this language difficult. Research on this topic includes studies by Zayed &amp; El-Beltagy (2015), who performed Named Entity Recognition (NER) on tweets in Arabic, and Aldumaykhi et al. (2022), who performed NER on newspaper articles published in Saudi Arabia. However, these studies focus on Modern Standard Arabic (MSA), which was established in the late 19th and early 20th centuries. Thus, the application of NER to pre-modern texts requires the development of a new suitable system. Most Arabic NLP research has been conducted on MSA, with the exception of the studies by Salah &amp; Binti Zakaria (2018) and Alsaaran &amp; Alrabiah (2021), who considered classical Arabic, from the 7th to 11th century. However, given that the center of science in the pre-modern period was an Islamic cultural area, the development of NLP techniques for pre-modern Arabic texts has the potential to offer new insights into the current historical perspective, which is primarily based on Western language literature.</p>
+            <p>2. Research Target</p>
+            <p>Biographies composed by Muslim scholars in the 17th and 18th centuries were selected as pre-modern Arabic texts to be investigated in this paper. These were selected for their potential to provide insights into the formation and development of Islamism, which had a major impact on contemporary society, dating back to the period of the Arabian Peninsula in the Haramayn (the two cities of Makkah and Madinah). Romanov (2013) studied the places of origin of scholars between the 7th and 12th centuries and concluded that, despite being the birthplace of Islam and the destination of its pilgrimages, Haramayn was no longer a center of scholarship after the 9th century. Muslim scholars traveled to Damascus, Baghdad, Isfahan, and Cordoba after this point in time. However, the works of Voll (1975) pointed out that this tradition changed in the 17th and 18th centuries—Muslim scholars gathered once again in the Haramayn, and it formed the prototype of Islamism. In other words, the movement of scholars has changed from traveling around to going direct. Explicit statistical demonstration of this change is expected to reinforce the argument that the altered nature of the scholarly movement was a major factor behind the emergence of highly exclusive Islamic extremism.</p>
+            <p>3. Method</p>
+            <p> Three biographical corpora were used in this study. For scholars of the 11th century Hijrah (1592–1688 AD), (1) Khulāṣat al-athār composed by Muḥammad Amīn ibn Faḍl Allāh al-Muḥibbī (1651-1699), and (2) Fawāʼid al-irtiḥāl composed by Muṣṭafā Ibn-Fatḥallāh al-Ḥamawī (1633/34–1711-12) were selected. For scholars of the 12th century Hijrah (1689–1785 AD), (3) Silk al-durar composed by Muḥammad Khalīl al-Murādī (d. 1791) was selected.</p>
+            <p>Abdallah et al. (2012) showed the supremacy of integrating the rule-based system and the Machine-learning approach. Focusing on the formatted text for biographies, we set some rules. For example, dates follow after the word “dafn (buried).” Regarding machine learning, by manual annotation of the three biographies above, we improve the recent successful Arabic NERs; Stanza, CAMeL, and hatmimoha/Arabic.</p>
+            <p><hi rend="bold">4. Conclusions</hi></p>
+            <p>The primary contributions of this study are twofold. Firstly, our NER helps historical studies by filling the lack between classical Arabic corpora, represented by CANERCorpus and KSUCCA, and MSA corpora, represented by the ANERCorp corpus and the AQMAR corpus. The three biographies we deal with are rich in information about historical events and personal networks. The analysis of the results of NER enables accurate tracking of the migration of scholars who shaped Islamism.</p>
+            <p>Secondly, the integrating of the rule-based system and the Machine-learning approach is a challenge for higher performances for Arabic NER. Aldumaykhi et al. (2022), the latest studies in MSA, adopt the merging and voting system based on the results of Stanza, CAMeL, and hatmimoha/Arabic. However, we utilize the character of well-formatted biography text by introducing a rule-based system.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Abdallah, Sherief</author> / <author>Shaalan, Khaled</author> / <author>Shoaib, Muhammad</author>  (2012): “Integrating Rule-Based System with Classification for Arabic Named Entity Recognition”, in: Gelbukh, Alexander (eds): 13th International Conference 
+                        <hi rend="italic">Computational Linguistics and Intelligent Text Processing</hi>, New Delhi, India, March 11-17, 2012: Part 1, 311–322. DOI: 10.1007/978-3-642-28604-9_26.
+                    </bibl>
+                    <bibl>
+                        <author>Aldumaykhi, Abdullah</author> / <author>Otai, Saadand</author> / <author>Alsudais, Abdulkareem</author>  (2022): “Comparing Open Arabic Named Entity Recognition Tools”, in: 
+                        <hi rend="italic">arXiv</hi>. DOI: 10.48550/arXiv.2205.05857.
+                    </bibl>
+                    <bibl>
+                        <author>Alsaaran, Norah</author> / <author>AlRabiah, Maha</author>  (2021): “Classical Arabic Named Entity Recognition Using Variant Deep Neural Network Architectures and BERT” in: 
+                        <hi rend="italic">IEEE Access</hi> 9: 91537–91547. DOI: 10.1109/ACCESS.2021.3092261.
+                    </bibl>
+                    <bibl>
+                        <author>Omnia Zayed and Samhaa El-Beltagy</author> (2015): “Named Entity Recognition of Persons’ Names in Arabic Tweets”, in: 
+                        <hi rend="italic">Proceedings of the International Conference Recent Advances in Natural Language Processing</hi>: 731–738 <ref target="https://aclanthology.org/R15-1093">https://aclanthology.org/R15-1093</ref> [28. 04. 2023].
+                    </bibl>
+                    <bibl>
+                        <author>Romanov, Maxim G.</author> (2013): Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunni World (661–1300 CE). Ph.D. thesis, University of Michigan <ref target="https://hdl.handle.net/2027.42/102300">https://hdl.handle.net/2027.42/102300</ref> [28. 04. 2023].
+                    </bibl>
+                    <bibl>
+                        <author>Salah, Ramzi Esmail</author> / <author>Zakaria, Lailatul Qadri Binti</author>  (2018): “Building the Classical Arabic Named Entity Recognition Corpus (CANERCorpus)”, in: 
+                        <hi rend="italic">2018 Fourth International Conference on Information Retrieval and Knowledge Management (CAMP)</hi>: 1–8. DOI: 10.1109/INFRKM.2018.8464820.
+                    </bibl>
+                    <bibl>
+                        <author>Voll, John</author> (1975): “Muḥammad Ḥayyā al-Sindī and Muḥammad ibn ʻAbd al-Wahhāb: An Analysis of an Intellectual Group in Eighteenth-Century Madīna”, in: 
+                        <hi rend="italic">Bulletin of the School of Oriental and African Studies</hi> 38, 1: 32–39. DOI: 10.1017/S0041977X00047017.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

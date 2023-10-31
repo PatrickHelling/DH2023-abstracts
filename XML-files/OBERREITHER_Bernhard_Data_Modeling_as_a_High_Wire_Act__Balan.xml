@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Data Modeling as a High-Wire Act. Balancing Requirements, Juggling Vocabularies, and not Falling (Short of Established Best Practice)</title>
+                <author n="OberreitherBernhardOBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml"><persName n="OberreitherBernhard">
+                        <surname>Oberreither</surname>
+                        <forename>Bernhard</forename>
+                    </persName><affiliation>ACDH-CH, ÖAW, Austria</affiliation><email>bernhard.oberreither@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster will reflect on significant waypoints in the course of creating the data model for SemanticKraus – a project concerned with integrating different Karl Kraus-related research data, converting it into Linked Data, and by doing so linking past and future Kraus research to the Semantic Web.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Karl Kraus</term>
+                    <term>Semantic Web</term>
+                    <term>RDF</term>
+                    <term>Edition data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>linked (open) data</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The 
+                <hi rend="italic">SemanticKraus</hi> project aims to provide a resource for shared register and other data from three projects in the field of digital Karl Kraus research: the online editions of 
+                <hi rend="italic">Die Fackel</hi>,
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn1" n="1"/> the 
+                <hi rend="italic">Karl Kraus Legal Papers</hi>,
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn2" n="2"/> and 
+                <hi rend="italic">Dritte Walpurgisnacht</hi>.
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn3" n="3"/> The final product is to be an RDF dataset created according to FAIR principles
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn4" n="4"/> which combines the biographical and bibliographical data of these projects and makes these data equally accessible to human exploration and machine query via a GUI as well as a SPARQL endpoint. In addition, the technical foundations will be laid for future expansion of the dataset through the participation of other projects from this or neighboring research areas. The vision of the project is to connect Kraus research to the Linked Data cloud, laying the groundwork for future data sharing and data integration among Kraus researchers. This way, the project wants to account for the frequently raised call for open, sustainable, and reusable edition data (see, e.g., Kamzelak 2016; Wettlaufer 2018).
+            </p>
+            <p>However, until that point is reached, a number of challenges need to be faced: such as the common problem of having to integrate (in this case: three) different data sources with different database models and data fields. The central challenge, however, is to create an appropriate data model for this diverse data. On the one hand, the 
+                <hi rend="italic">SemanticKraus</hi> data model must do justice to a manifold and very complex subject: The core data set of the project, for example, is a text index of 
+                <hi rend="italic">Die Fackel online</hi>. The structure of the individual issues of this journal is characterized by nested texts, comments on as well as extensive citations of texts, and other complications. In addition, the structure of the journal changed profoundly several times in the course of its existence (1899–1936) due to multiple thematic reorientations (see, e.g., Krolop 2006, Stieg 2022); this alone poses a challenge to any representation of its contents. While one wants to do justice to this matter, at the same time, however, the model must maintain a balance between specificity and standardization – all with regard to the future usability of the data and the further applicability of the data model. This dichotomy needs to be reconciled: On the one hand, Semantic Web ontologies are seen as a possibility to represent considerations and concepts that are regarded as specifically humanities-related (see, e.g., Ciotti 2014, Tomasi 2018) – thus theoretically making the most complex matter representable at the smallest granularity. On the other hand, reuse of widely shared, necessarily less specific standards is considered best practice in the Semantic Web, and with good reason; this, after all, is why the 
+                <hi rend="italic">SemanticKraus</hi> data model as much as possible adopts common and proven vocabularies (such as CIDOC crm,
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn5" n="5"/> FRBRoo,
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn6" n="6"/> PRESSoo,
+                <ref target="#OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn7" n="7"/> etc.). 
+            </p>
+            <p>In the course of evaluating said standards, another question arises: How far can/should one welcome the fact that looking through the lens of an ontology may open a new, possibly fruitful and pragmatic, but also: possibly misleading perspective on our data?</p>
+            <p>The poster proposed here for DH2023 will try to answer these questions by highlighting central waypoints in the course of creating the 
+                <hi rend="italic">SemanticKraus</hi> data model – such as decisions on the implementation of different ontologies, on the treatment of specific data, on basic modeling principles – and convey the balancing act involved. The presentation of the poster will provide an insight into the development of the data model, cast the lessons learned into theses and by doing so stimulate discussion of issues central to the field of data modeling in the Semantic Web, especially regarding edition data. Furthermore, it aims to highlight future opportunities for participation and exchange for researchers and projects of a similar focus.
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn1">
+                     fackel.oeaw.ac.at
+                </note><note n="2" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn2">
+                     kraus.wienbibliothek.at
+                </note><note n="3" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn3">
+                     kraus1933.ace.oeaw.ac.at
+                </note><note n="4" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn4">
+                     go-fair.org/fair-principles
+                </note><note n="5" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn5">
+                     cidoc-crm.org
+                </note><note n="6" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn6">
+                     cidoc-crm.org/frbroo
+                </note><note n="7" xml:id="OBERREITHER_Bernhard_Data_Modeling_as_a_High_Wire_Act__Balan.xml_ftn7">
+                     cidoc-crm.org/pressoo
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ciotti, Fabio</author>
+                         (2014): “Digital Literary and Cultural Studies: State of the Art and Perspectives”, in: Between 4, 8. DOI: 10.13125/2039-6597/1392 
+                    </bibl>
+                    <bibl>
+                        <author>Kamzelak, Roland S.</author>
+                         (2016): “Digitale Editionen im Semantic Web. Chancen und Grenzen von Normdaten, FRBR und RDF”, in: Richts, Kristina / Stadler, Peter (eds.):
+                        <hi rend="italic">“Ei, dem alten Herrn zoll' ich Achtung gern”. </hi>
+                        Festschrift für Joachim Veit zum 60. Geburtstag. München: Allitera 423–435. 
+                        <ref target="https://musiconn.qucosa.de/en/api/qucosa%3A23339/attachment/ATT-0/">https://musiconn.qucosa.de/en/api/qucosa%3A23339/attachment/ATT-0/</ref>
+                         [26.04.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Krolop, Kurt</author>
+                         (2006): “Vom “Kampfblatt” zur “Kriegsfackel”. Die Werdejahre des ‘Antimediums’”, in: Lunzer, Heinz / Lunzer-Talós, Victoria / Patka, Markus G. (eds.):
+                        <hi rend="italic">“Was wir umbringen”. </hi>
+                        ‘Die Fackel’ von Karl Kraus. Wien: Mandelbaum 9–31.
+                    </bibl>
+                    <bibl>
+                        <author>Stieg, Gerald</author>
+                         (2022): “Die Fackel”, in Prager, Katharina / Ganahl, Simon (eds.):
+                        <hi rend="italic">Karl Kraus-Handbuch. </hi>
+                        Leben – Werk – Wirkung. Berlin: Metzler 103–122.
+                    </bibl>
+                    <bibl>
+                        <author>Tomasi, Francesca</author>
+                         (2018): “Modelling in the Digital Humanities: Conceptual Data Models and Knowledge Organization in the Cultural Heritage Domain”, in:
+                        <hi rend="italic">Historical Social Research, Supplement</hi>
+                         31, 170-179. DOI: 10.12759/hsr.suppl.31.2018.170-179 
+                    </bibl>
+                    <bibl>
+                        <author>Wettlaufer, Jörg</author>
+                         (2018): “Der nächste Schritt? Semantic Web und digitale Editionen”, in: Kamzelak, Roland S., and Steyer, Timo (eds.):
+                        <hi rend="italic">Digitale Metamorphose: Digital Humanities und Editionswissenschaft</hi>
+                         (
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>
+                        special edition 2). DOI: 10.17175/sb03
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

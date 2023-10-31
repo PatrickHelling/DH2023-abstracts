@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Documenting Workflows for HTR to TEI Conversions for Cultural
+                        Institutions: The Evolving Hands Project</title>
+                <author n="CummingsJamesCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName ref="https://orcid.org/0000-0002-6686-3728" n="CummingsJames">
+                        <surname>Cummings</surname>
+                        <forename>James</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>james.cummings@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HealeyAlexandraCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName n="HealeyAlexandra">
+                        <surname>Healey</surname>
+                        <forename>Alexandra</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>Alexandra.Healey@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JakackiDianeCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName ref="https://orcid.org/0000-0002-7836-1223" n="JakackiDiane">
+                        <surname>Jakacki</surname>
+                        <forename>Diane</forename>
+                    </persName><affiliation>Bucknell University, USA</affiliation><email>dkj004@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FlexValentinaCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName n="FlexValentina">
+                        <surname>Flex</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>valentina.flex@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JeffreyEvieCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName n="JeffreyEvie">
+                        <surname>Jeffrey</surname>
+                        <forename>Evie</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>e.jeffrey2@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PirmannCarrieCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName n="PirmannCarrie">
+                        <surname>Pirmann</surname>
+                        <forename>Carrie</forename>
+                    </persName><affiliation>Bucknell University, USA</affiliation><email>cmp016@bucknell.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JohnsonIanCUMMINGS_James_Documenting_Workflows_for_HTR_to_TEI_Conversi.xml"><persName ref="https://orcid.org/0000-0002-4851-4073" n="JohnsonIan">
+                        <surname>Johnson</surname>
+                        <forename>Ian</forename>
+                    </persName><affiliation>Newcastle University, United Kingdom</affiliation><email>ian.johnson@newcastle.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This proposed short paper will look at the work of the Evolving Hands project which is undertaking three case studies to demonstrate ways TEI-based HTR workflows can be iteratively incorporated into curation by under-resourced cultural institutions. We will present all the case studies but focus on the Gertrude Bell Archive.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>TEI XML</term>
+                    <term>Handwritten Text Recognition</term>
+                    <term>HTR</term>
+                    <term>Libraries</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>History</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Background</head>
+                <p>This short paper will look at the work of the <ref target="https://research.ncl.ac.uk/evolvinghands/"> Evolving Hands </ref>project which is undertaking three case studies
+                        ranging across document forms to demonstrate how TEI-based Handwritten Text
+                        Recognition (HTR) workflows can be iteratively incorporated into curation by
+                        under-resourced cultural institutions. The case studies include materials
+                        that range from: 19th-20th century handwritten letters from the <hi rend="italic">UNESCO Gertrude Bell Archive</hi>, 18th century German, 20th century French
+                        correspondence, and a range of printed materials from the 19th century
+                        onward in English and French. A joint case study converts legacy complex
+                        printed material of the <hi rend="italic">Records of Early English Drama</hi>project. By covering a wide variety of periods and
+                        document forms the project has a real opportunity to foster responsible and
+                        responsive support for cultural institutions. Smaller cultural institutions
+                        often do not have the resource for the investigation of different methods in
+                        what remains a swiftly changing field of content enhancement. The short
+                        paper will introduce the project and report on the work done so far, but
+                        focus more intently on the Newcastle University Case Study on the Gertrude
+                        Bell Archive (given the limited time) and the methodologies used. </p>
+            </div>
+            <div type="div1">
+                <head>Newcastle University Case Study -- The Gertude Bell Archive</head>
+                <p>This case study uses Newcastle Special
+                        Collection's<hi rend="italic">UNESCO Gertrude Bell Archive</hi>(<ref target="http://gertrudebell.ncl.ac.uk/">http://gertrudebell.ncl.ac.uk/</ref>), which document the activities of the explorer,
+                        archaeologist, and political agent who was instrumental in establishing the
+                        Kingdom of Iraq in 1921. (Barr 2012, Bell 1927, Richmond 1937, and Dodge
+                        2003) Bell is the subject of plays, documentaries, feature films, and
+                        recently was nominated as a BBC 20th Century Icon. (c.f. Barry 2017, Marozzi
+                        2015, and Sluglett 2007) A <ref target="https://research.ncl.ac.uk/gertrudebell/"> separate centenary
+                        project </ref>is digitizing and cataloguing her archive of diaries,
+                        letters, and photographs. Piggybacking on that, we have trained an HTR base
+                        model of Bell’s hand and applied it to carefully-selected content which has
+                        then been enriched in Transkribus to provide rich insights into political
+                        events in 1921. We are using the Transkribus platform’s tagging feature to
+                        enhance the initial HTR transcriptions from which we generate (and then
+                        further up-convert) TEI P5 XML. The outputs from this will be displayed on
+                        the new Gertrude Bell research website, eventually alongside digital images
+                        presented using a IIIF viewer. (c.f. Kudella 2019) </p>
+                <p> </p>
+            </div>
+            <div type="div1">
+                <head>Bucknell University Case Study -- Scholarly Production at Scale</head>
+                <p>The Bucknell case study centres on processes used across multiple discrete
+                    projects by staff with a range of digital experience. These projects represent
+                    different models for testing the HTR to TEI conversion process. Their sources
+                    are drawn from Bucknell's Special Collections and research of faculty working
+                    with archives in the US, UK, Europe, and Asia. They include scribal hands, life
+                    papers, correspondence, and semi-legible typed government files from 1700-1990
+                    and are in English, French, German, and Maithili. This case study is directly
+                    benefiting multiple projects at the university, and this workflow is optimised
+                    for sharing with smaller cultural institutions around the world.</p>
+                <p> </p>
+            </div>
+            <div type="div1">
+                <head>Joint Newcastle/Bucknell Case Study -- Transforming REED Print
+                    Collections</head>
+                <p>Cummings (AHRC PI) and Jakacki (NEH PI) have
+                        collaborated on a case study converting collections produced by the Records
+                        of Early English Drama (<ref target="http://reed.utoronto.ca/"> http://reed.utoronto.ca </ref>) project that has published since 1979 edited
+                        documentary records of pre-1642 performance in premodern England, Scotland
+                        and Wales. However, the semantic information provided in the print
+                        collections, through the use of special symbols and formatting, is lost in
+                        OCR. Earlier tests using HTR by Jakacki and Cummings demonstrated that these
+                        distinctions can be preserved with HTR to TEI workflows. The project is
+                        documenting shared workflows for consistent upconversion into viable
+                        materials ready to enter the REED project's digital publication workflow.
+                        (c.f Chagué et al 2022) This has the potential to be of use for all the
+                        other REED legacy print volumes (well over 20,000 pages of rich scholarly
+                        material). </p>
+            </div>
+            <div type="div1">
+                <head>Project Methodology</head>
+                <p>The project methodology, being based on individual case studies, takes a similar
+                    approach across different forms of work but also has intentional differences. In
+                    each case Transkribus is being used for HTR, though other providers of HTR were
+                    tested. (c.f. Stokes et al 2021) The generated text output is converted to TEI
+                    either through the basic Transkribus conversion or through standalone XSLT
+                    stylesheets. (c.f. Nockels et al 2022) However, it is the differences in
+                    methodology which are more interesting. In the Gertrude Bell case study the
+                    Transkribus Web/Lite version has been used to provide as much tagging as
+                    possible through that interface, in the Bucknell versions the desktop version
+                    has been used but additional tagging provided in Oxygen. The REED case study
+                    uses Transkribus Web/Lite and more detailed up-conversion stylesheets to protect
+                    formatting-based structures.</p>
+                <p>Overall the project is documenting these workflows in easy to understand how-to
+                    guides alongside other materials such as conversion scripts to make it easier
+                    for under-resourced cultural institutions to undertake such endeavours
+                    themselves.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Barr, J.</author> A Line in the Sand. Simon and Schuster Ltd,
+                        2012.</bibl>
+                    <bibl><author>Berry, H.</author> "Gertrude Bell: Pioneer, Anti-Suffragist,
+                        Feminist Icon?", In: Gertrude Bell and Iraq: A Life and Legacy, ed. by Paul
+                        Collins and Charles Tripp, Oxford University Press, 2017.</bibl>
+                    <bibl><author>Bell, F.</author> The Letters of Gertrude Bell (Vols 1 &amp;
+                        2). Ernest Benn, 1927.</bibl>
+                    <bibl><author>Chagué, A., Scheithauer, H., Terriel, L., Chiffoleau, F.,
+                            Tadjo-Takianpi Y.</author> “Take a sip of TEI and relax: a proposition for
+                        an end-to-end workflow to enrich and publish data created with automatic
+                        text recognition”. Digital Humanities 2022 : Responding to Asian Diversity,
+                        ADHO; University of Tokyo, Jul 2022, Tokyo, Japan.
+                        https://hal.inria.fr/hal-03739767 </bibl>
+                    <bibl><author>Gertrude Bell Website</author>:
+                        https://research.ncl.ac.uk/gertrudebell/ </bibl>
+                    <bibl><author>Dodge, T.</author> Inventing Iraq: The Failure of Nation
+                        Building and a History Denied. University of Columbia Press, 2003.</bibl>
+                    <bibl><author>Kudella, C. &amp; Göbel, M., Veentjer, U., Sikora, U.</author>
+                        “Combining TEI and IIIF in a Virtual Research Environment”, 2019 IIIF
+                        Conference - Göttingen, 2019.
+                        https://iiif.io/event/2019/goettingen/program/71/ </bibl>
+                    <bibl><author>Marozzi, J.</author> Baghdad: City of Peace, City of Blood.
+                        Penguin, 2015.</bibl>
+                    <bibl><author>Nockels, J., Gooding, P., Ames, S. et al.</author>
+                        ‘Understanding the application of handwritten text recognition technology in
+                        heritage contexts: a systematic review of Transkribus in published
+                        research’. Arch Sci 22, 367–392 (2022).
+                        https://doi.org/10.1007/s10502-022-09397-0 </bibl>
+                    <bibl><author>Richmond, E.</author> The Earlier Letters of Gertrude Bell.
+                        Ernest Benn, 1937.</bibl>
+                    <bibl><author>Sluglett, P.</author> Britain in Iraq: Contriving King and
+                        Country. I.B. Tauris, 2007.</bibl>
+                    <bibl><author>Stokes, P.A., Kiessling, B., Stökl Ben Ezra, D., Tissot,
+                            R., Gargem, H.</author> ‘The eScriptorium VRE for Manuscript Cultures.
+                        Ancient Manuscripts and Virtual Research Environments’, ed. Claire Clivaz
+                        and Garrick V. Allen. Special issue of Classics@18 (2021).</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

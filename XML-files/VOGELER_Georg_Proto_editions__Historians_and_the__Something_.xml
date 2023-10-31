@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Proto-editions: Historians and the "Something between digital image and digital scholarly edition"</title>
+                <author n="VogelerGeorgVOGELER_Georg_Proto_editions__Historians_and_the__Something_.xml"><persName ref="https://orcid.org/0000-0002-1726-1712" n="VogelerGeorg">
+                        <surname>Vogeler</surname>
+                        <forename>Georg</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>georg.vogeler@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The paper discusses forms of digital representation of texts that become only available through digital means, in particular the combined publication of digital images and structured data, which I suggest to call "proto-edition".</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital scholarly edition</term>
+                    <term>digital visual surrogates</term>
+                    <term>structured data</term>
+                    <term>history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This position paper suggests identifying a specific form of scholarly edition coming into existence by the digital transformation of this scholarly practice, the “proto-edition”. It starts with the obvious observation that digital reproduction has become everyday practice in the archives. It is also consensus that simple publication of visual surrogates is not sufficient as a scholarly edition. However, the community of scholarly editors is aware of the fact that digital methods extend the scope of editorial work towards the archive and digital reproduction. It has even sparked a discussion on terminology (Price 2009, Sahle 2007, van Hulle 2009, Eggert 2017, Dillen 2019): how much of the digital scholarly edition is a database, an archive, an exhibit, a project?</p>
+            <p>For philological work, the difference between the visual reproduction and the transcription is obvious. For historians the situation is different. Text has a different quality there: it is not the main subject of research, but a medium to convey information about human activities and beliefs in the past. They consider texts as information carrier for historical observations. This can, of course be information on specific wordings, but most of it is information conveyed through the text. The text itself is somehow transparent. This has led Kaplan &amp; di Leonardo (2017) to the interpretation that archival records are just a form of data representation that can be converted into digital forms, a "simple" re-documentation (Pédauque 2007): census records, a land register, account books etc. should be converted into those databases which the clerks and officials writing them down in the past would have used, if technology would have been available.</p>
+            <p>This is a simplified view of historians and, in general, humanities work. DH is aware that tracing scholarly interpretations to their source is crucial, and the modeling work influences our perception of the "original" information significantly. However, it is a correct view that historians create databases from their sources. Manfred Thaller's 
+                <hi rend="italic">kleio</hi> is probably the best-known example of a DH approach to this: a database able to record features of the source that help to document data capturing decisions of the scholar.
+            </p>
+            <p>Historical method respects the philological sincerity when handling text, but it aims for the information one can extract from the text. This leads to a specific form of digital scholarly editions, I called "assertive" edition (Vogeler 2019). However, the preference of historians for information reduces the interest in text as sequence of codepoints (or less technical: the sequence of symbols representing a coherent linguistic item), if this is just additional work. I would like to argue that the combination of visual reproduction and structured data representation of the content conveyed is similar to a scholarly edition, but not a scholarly edition in the proper sense - i.e. a "proto-edition" (Vogeler 2022).</p>
+            <p>The proto-edition is part of a pragmatic discourse on publishing in particular historical records: medievalists realised that the practice of deep engagement with a text is too time consuming to use it as a method for the publication of the increasing number of records preserved in the European archives since the 14th century. To address this "problem of the mass", Ivan Hlavacek (2006), Olivier Guyotjeannin (2005), and Benoit Tock (2008) suggested to publish (digital) images with deep descriptions of the content, e.g. following the practice of calendaring, a practice established in the medievalist community already in the 19th century to inform historians about the main "facts" reported in the records. These abstracts, digests, 
+                <hi rend="italic">regesta</hi> are sufficient for most of the historians to build their arguments on. However, historians had to rely on the reputation of the people creating the calendars and could not dive deeper. Digital reproduction changes this significantly as adding an image of the record to the abstract is a minor economic effort. The digital surrogate empowers the experts to judge on their own.
+            </p>
+            <p>The proto-edition shares with the critical scholarly edition its rigor: when the scholarly editors work on creating a completely consistent and reliable transcription, following best practices and discussion every minor philological detail, the "proto-editors" are engaged in the reliable and consistent representation of the content of a document. They try to use fixed terminology of re-occurring activities, pay attention to the identification of persons and places mentioned, are careful about alternative interpretations, and refer to scholarly literature discussing the document. They document their practice. In the digital world, they pay attention to re-usable data models, e.g. referring to upper level ontologies like the CIDOC-CRM, or incorporating the ideas of the Records in Context model. They don't rely on the archival description only, but they consider the document as a historical source in the research discourse to which the proto-edition is considered a contribution.</p>
+            <p>Calling this an edition (and even a "Proto-edition") raises the question: An edition without text, how can that be? There is a conceptual answer to this: With Patrick Sahle's pluralistic view (Sahle 2013), text can be perceived as a visual item. Or less elaborate: a photograph of manuscript, a book, or an inscription is certainly a text. Europeana has categorized the digital surrogates as TEXT since long. The visual item shares many features of other representations of text: One can transform it into other forms, e.g. by reading it aloud, can understand it, and can reflect on its form (as rhythm and rhyme, as narrative etc.). The proto-edition seems to be a topic for historians only. However, already the layout has semantics as it is reflected in the SegmOnto proposal by Gabay et al. (2021). Christoph Flüeler (2015) connected manuscript descriptions to scholarly editions by the depth of the description.</p>
+            <p>Finally, the proto-edition has to make its case in relationship to modern machine learning based methods to handle archival records in large numbers. Dominque Stutzmann has pointed out correctly at the IMC 2019 that for pure HTR and NLP based representations of texts, the term "artificial edition" would be a good fit: The representation created by the machine is not comparable to any kind of human intervention. Scheithauer et al. (2021) have already proposed encoding practices to record this. Even if accuracy is high - in terms of the previous evaluation of the methods – it is still carries a different bias than any human representation: While the machine uses models based on pre-existing human interpretations and unsupervised representations of other corpora, the human selection and interpretation represents the research interest and the creativity of the scholar, being part of a scholarly community. The proto-edition shares, and that is important, with the scholarly edition the human interaction with the historical texts.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dillen, Wout</author> (2019). „On Edited Archives and Archived Editions“, in: 
+                        <hi rend="italic">International Journal of Digital Humanities</hi> 1, Nr. 2: 263–77. DOI: 10.1007/s42803-019-00018-4.
+                    </bibl>
+                    <bibl>
+                        <author>Eggert, Paul</author> (2017). „The archival impulse and the editorial impulse“. In: 
+                        <hi rend="italic">Advances in digital scholarly editing. Papers presented at the DiXiT conferences in the Hague, Cologne, and Antwerp</hi>, ed. by Peter Boot, Anna Cappellotto, Wout Dillen, Franz Fischer, Adhoan Kelly, Alexander Mertgens, Anna-Maria Sichani, Elena Spadini, and Dirk Van Hulle. Leiden: Sidestone Press.: 121–24.
+                    </bibl>
+                    <bibl>
+                        <author>Flüeler, Christoph.</author> (2015) “Digital Manuscripts as Critical Edition”, in: 
+                        <hi rend="italic">The Schoenberg Institute for Manuscript Studies - Blog</hi>. 
+                        <ref target="http://schoenberginstitute.org/2015/06/30/digital-manuscripts-as-critical-edition/">http://schoenberginstitute.org/2015/06/30/digital-manuscripts-as-critical-edition/</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gabay</hi><hi rend="bold">, Simon / Camps, Jean-Baptiste / </hi><hi rend="bold">Pinche</hi><hi rend="bold">, Ariane / Jahan, Claire</hi> (2021). SegmOnto: common vocabulary and practices for analysing the layout of manuscripts (and more). 
+                            <hi rend="italic">1st International Workshop on Computational </hi><hi rend="italic">Paleography</hi><hi rend="italic"> (IWCP@ICDAR 2021)</hi>, Lausanne, Switzerland. (hal-03336528)
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Guyotjeannin, Olivier</author> (2005). „Éditions diplomatiques et recherche historique: Quelque remarques sur le cas français (XIXe-XXe siècles)“, in: 
+                        <hi rend="italic">Vom Nutzen des Edierens</hi>, ed. by Brigitte Merta, Andrea Sommerlechner, und Herwig Weigl. MIÖG Erg. Bd.47. Wien: Oldenbourg:303–12.
+                    </bibl>
+                    <bibl>
+                        <author>Hlaváček, Ivan</author> (2006). „Das Problem der Masse: Das Spätmittelalter“, in: 
+                        <hi rend="italic">Archiv für Diplomatik, Schriftgeschichte, Siegel- und Wappenkunde</hi> 52: 371–93.
+                    </bibl>
+                    <bibl>
+                        <author>Kaplan, Frédéric</author> / <author>Isabella di Leonardo</author>  (2017). „Big Data of the Past“, in: 
+                        <hi rend="italic">Frontiers in Digital Humanities</hi> 4. DOI: 10.3389/fdigh.2017.00012.
+                    </bibl>
+                    <bibl>
+                        <author>Pédauque, Roger T.</author> (collective) (2007). 
+                        <hi rend="italic">La redocumentarisation du monde</hi>. Toulouse: Cépaduès.
+                    </bibl>
+                    <bibl>
+                        <author>Price, Kenneth M.</author> (2009). „Edition, Project, Database, Archive, Thematic Research Collection: What’s in a Name?“, in: 
+                        <author>Digital Humanities Quarterly</author> 3, Nr. 3. 
+                        <ref target="http://digitalhumanities.org:8081/dhq/vol/3/3/000053/000053.html">http://digitalhumanities.org:8081/dhq/vol/3/3/000053/000053.html</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Sahle, Patrick</author> (2013). 
+                        <hi rend="italic">Digitale Editionsformen: zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels. Teil 3: Textbegriffe und Recodierung</hi>. Schriften des Instituts für Dokumentologie und Editorik 9. Norderstedt: BoD, Books on Demand.
+                    </bibl>
+                    <bibl>
+                        <author>Sahle, Patrick</author> (2007). „Digitales Archiv - Digitale Edition. Anmerkungen zur Begriffsklärung“, in: 
+                        <hi rend="italic">Literatur und Literaturwissenschaft auf dem Weg zu den neuen Medien. Eine Standortbestimmung</hi>, ed. by Michael Stolz. Norderstedt: Books on Demand: 64–84.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scheithauer</hi><hi rend="bold">, </hi><hi rend="bold">Hugo / </hi><hi rend="bold">Chagué</hi><hi rend="bold">, </hi><hi rend="bold">Alix</hi><hi rend="bold">/ </hi><hi rend="bold">Romary</hi>, 
+                        <hi rend="bold">Laurent </hi>(2021)
+                        . “From eScriptorium to TEI Publisher. Brace your digital scholarly edition!”, Berlin, France. (
+                        <ref target="https://inria.hal.science/hal-03538115">hal-03538115</ref>
+                        )
+                    </bibl>
+                    <bibl>
+                        <author>Tock, Benoît-Michel</author> (2008). „Rev. of: B. Merta, A. Sommerlechner, H. Weigl (Hg.): Vom Nutzen des Edierens“, in: 
+                        <hi rend="italic">Francia Recensio</hi>, Nr. 1. 
+                        <ref target="https://perspectivia.net/receive/ploneimport2_mods_00007748">https://perspectivia.net/receive/ploneimport2_mods_00007748</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Van Hulle, Dirk</author> (2009). „Editie en/of Archief: modern manuscripten in een digitale architectuur“, in: Verslagen en Mededelingen van de Koninklijke Academie voor Nederlandse Taal- en Letterkunde 119, Nr. 2: 163–78.
+                    </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2019). „The ‘Assertive Edition’“. 
+                        <hi rend="italic">International Journal of Digital Humanities</hi> 1, Nr. 2: 309–22. DOI: 10.1007/s42803-019-00025-5.
+                    </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2022). „Edition – Protoedition – Reproduktion : Der digitale Wandel“, in: 
+                        <hi rend="italic">Geschichte in Wissenschaft und Unterricht</hi> 73, Nr. 9/10: 498–511.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

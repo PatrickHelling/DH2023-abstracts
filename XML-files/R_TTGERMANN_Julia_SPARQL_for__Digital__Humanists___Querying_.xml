@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SPARQL for (Digital) Humanists – Querying Wikidata and the
+                    MiMoTextBase</title>
+                <author n="RttgermannJuliaR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0002-1918-8117" n="RttgermannJulia">
+                        <surname>Röttgermann</surname>
+                        <forename>Julia</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>roettger@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DuanTinghuiR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0002-3324-0938" n="DuanTinghui">
+                        <surname>Duan</surname>
+                        <forename>Tinghui</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>duan@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HinzmannMariaR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0001-7199-1436" n="HinzmannMaria">
+                        <surname>Hinzmann</surname>
+                        <forename>Maria</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>hinzmannm@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KleeAnneR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0002-1532-2649" n="KleeAnne">
+                        <surname>Klee</surname>
+                        <forename>Anne</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>klee@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KonstanciakJohannaR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0003-0159-6144" n="KonstanciakJohanna">
+                        <surname>Konstanciak</surname>
+                        <forename>Johanna</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>konstanciak@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchchChristofR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0002-4557-2753" n="SchchChristof">
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>schoech@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SteffesMoritzR_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml"><persName ref="https://orcid.org/0000-0002-4355-3209" n="SteffesMoritz">
+                        <surname>Steffes</surname>
+                        <forename>Moritz</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Trier University,
+                        Germany</affiliation><email>steffesm@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The workshop aims to share theoretical and practical knowledge about modeling data in the humanities and especially literary history in the paradigm of Linked Open Data, to introduce the syntax of the query language SPARQL, and to demonstrate the advantages of modeling and providing data as knowledge graphs.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>linked (open) data</term>
+                    <term>SPARQL</term>
+                    <term>Literary history</term>
+                    <term>Wikidata</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>text mining and analysis</term>
+                    <term>Informatics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Not only in cultural and memory institutions, but also
+                    in DH projects, an increasing uptake of the Linked Open Data paradigm is
+                    currently visible. How can data be presented in a way that is open, easily
+                    accessible, interoperably linked, machine-readable and available in the
+                    long-term? In the project " <ref target="https://www.mimotext.uni-trier.de/en">Mining and Modeling Text</ref>", we have chosen the open and free software
+                    Wikibase, which includes its own SPARQL endpoint and is used by a growing number
+                    of research projects besides Wikidata. <ref target="#R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn1" n="1"/></p>
+                <p>The workshop aims to share theoretical and practical
+                    knowledge about modeling data in the humanities and especially literary history
+                    in the paradigm of Linked Open Data, to introduce the syntax of the query
+                    language SPARQL, and to demonstrate the advantages of modeling and providing
+                    data as knowledge graphs. <ref target="#R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn2" n="2"/> The focus is on teaching SPARQL in theoretical and practical sessions.
+                    Participants should gain the competence to understand the structure of SPARQL
+                    and to write both simple and moderately complex queries on their own. </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="18.76072222222222cm" url="Pictures/23dfd018fde30c58d4c16075f080ba74.png" rend="inline"/>
+                </figure>
+                <p>Fig. 1: Which thematic concepts are represented in the
+                    French novel 1751-1800? Query: <ref target="https://tinyurl.com/2fgqotp7">https://tinyurl.com/2fgqotp7</ref>. </p>
+            </div>
+            <div type="div1">
+                <head>Linked Open Data for the Humanities</head>
+                <p>We can observe that there is an increasing interest in
+                    the DH community to publish data in the form of Linked Open Data and to link it
+                    with the Semantic Web (Hogan et al. 2021; Nešić et al. 2021; Thornton et al.
+                    2021; Alves 2022; Dörpinghaus 2022; Ohmukai / Yamada 2022; Zhao 2022). The
+                    project "Mining and Modeling Text" also aims at aggregating data from different
+                    information sources and linking them to further resources in the sense of the
+                    Linked Open Data paradigm (Schöch et al. 2022). The advantages of the complex
+                    process of mining and modeling the data only become clear in the diverse and
+                    flexible query options and can therefore not be separated from SPARQL.</p>
+                <p>SPARQL (SPARQL Protocol and RDF Query Language) is a
+                    graph-based query language for RDF (Resource Description Framework) published by
+                    the <ref target="https://www.w3.org/TR/rdf-sparql-query/">W3C</ref> in 2008. RDF
+                    is a data model used to represent resources on the World Wide Web. It is the
+                    central standard of the W3C, representing semantic data in the characteristic
+                    triple structure composed of subject-predicate-object. Starting from a single
+                    triple, the structure of a knowledge graph will be explained in the workshop and
+                    the "translation" of research questions in natural language into the SPARQL
+                    syntax will be practiced. </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="9.001125cm" url="Pictures/184989ed4b0981abe0a9bb62bba2e7d4.png" rend="inline"/>
+                    <head>Fig. 2: Triple structure consisting of subject-predicate-object, here an example
+                    for a literary work ("Candide") from the MiMoTextBase: <ref target="http://data.mimotext.uni-trier.de/wiki/Item:Q1022">http://data.mimotext.uni-trier.de/wiki/Item:Q1022</ref>. </head>
+                </figure>
+                <p>The SPARQL query language is composed of several
+                    building blocks: <hi rend="italic">pattern matching</hi> (filtering of the
+                    dataset), <hi rend="italic">solution modifier</hi> (processing of intermediate
+                    results) &amp; <hi rend="italic">output </hi>(output as
+                    table or graph; Arenas et al. 2010: 282). SPARQL allows users to identify new
+                    patterns in the data by recombining data sets and to formulate hypothesis-driven
+                    queries. The strengths of this query language, along with the structuring of
+                    knowledge using RDF triples, will be demonstrated through application examples
+                    during the workshop. </p>
+                <p>SPARQL queries are often issued within a single
+                    knowledge graph. However, it is also possible to query across multiple knowledge
+                    graphs, so-called federated queries (Prud'hommeaux / Buil-Aranda 2013). Here,
+                    the full potential of Linked Open Data becomes evident, as multiple datasets can
+                    be intelligently combined and insights can be gained from the combination of
+                    multiple graphs. Furthermore, redundancies between the different graphs can be
+                    avoided through these links, because in the sense of Linked Open Data, the
+                    collected knowledge of other graphs can be accessed. In the workshop, federated
+                    queries with Wikidata will be introduced and it will be shown to what extent
+                    benefits can be derived from these links.</p>
+            </div>
+            <div type="div1">
+                <head>Workshop concept</head>
+                <p>The workshop covers basic knowledge and possibilities
+                    offered by the Linked Open Data paradigm. The multilingual knowledge graph <ref target="https://data.mimotext.uni-trier.de">MiMoTextBase</ref> on the domain
+                    of 18th century French literature created in the project as well as Wikidata
+                    will serve as illustrative examples. </p>
+            </div>
+            <div type="div1">
+                <head>Learning Goals</head>
+                <p>The workshop aims to provide practical knowledge: How
+                    to write SPARQL queries? How to combine more than one knowledge base? What
+                    benefit can a knowledge graph offer regarding questions of literary history in
+                    particular and the humanities in general?</p>
+                <p>In the half-day workshop, the multilingual knowledge
+                    graph <ref target="https://data.mimotext.uni-trier.de">MiMoTextBase</ref>
+                    (Hinzmann et al. 2022a) of the project "Mining and Modeling Text" is introduced
+                    and usage scenarios are presented and visualized. In addition, participants will
+                    learn the basics of the query language SPARQL and formulate their own queries. </p>
+                <p>Specific learning objectives are the acquisition of
+                    basic knowledge about Semantic Web and RDF, Linked Open Data, Wikidata Graph;
+                    deeper knowledge about SPARQL and the ability to formulate own SPARQL queries;
+                    familiarization with the software Wikibase and exploration of the visualization
+                    possibilities.</p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="9.001125cm" url="Pictures/34d4d1bfde060f41631ffbc078dc0d1a.png" rend="inline"/>
+                </figure>
+                <p>Fig. 3: Federated queries in SPARQL allow to query
+                    several knowledge graphs simultaneously. Example: <ref target="https://tinyurl.com/28x5ajjy">https://tinyurl.com/28x5ajjy</ref>. </p>
+            </div>
+            <div type="div1">
+                <head>Target audience and requirements</head>
+                <p>The workshop is directed at digital humanities
+                    scholars with an interest in Linked Open Data and SPARQL. No special prior
+                    knowledge is necessary. Participants need a laptop and an internet
+                    connection.</p>
+            </div>
+            <div type="div1">
+                <head>Structure</head>
+                <p>The workshop consists of consecutive sessions, each of
+                    which combines input phases and practicing phases. A detailed <ref target="https://mimotext.github.io/MiMoTextBase_Tutorial/index.html">tutorial page</ref> will be made available on GitHub Pages in advance. The
+                    participants (and all other interested parties) will be given access to it and
+                    it can also be useful in the follow-up for in-depth study (Hinzmann et al.
+                    2022b). </p>
+                <p>The workshop itself will focus on three blocks in
+                    which the formulation of SPARQL queries will be practiced in an alternation of
+                    short impulses and more detailed hands-on sessions (for details see the schedule
+                    in the appendix). The three sections each have a different focus and are based
+                    on each other. In this way, even participants with no previous knowledge are
+                    gradually introduced to increasingly complex queries. The level of difficulty
+                    also progresses within the individual blocks, so that the focus will be on the
+                    individual writing and adaptation of sample queries and the clarification of all
+                    questions that arise in the process.</p>
+                <p>1. The first part focuses on queries about literary
+                    works. With regard to SPARQL, the central principles (such as writing simple
+                    triple patterns and possibilities of combining several triple patterns into
+                    increasingly complex queries) are dealt with here first. The benefit of such
+                    combination possibilities becomes particularly clear with the focus on the
+                    domain of the French Enlightenment novel given by the MiMoTextBase.</p>
+                <p>2. In the second part, we focus on Wikidata as the
+                    largest public knowledge graph, which can also be understood as a hub (Neubert
+                    2017), and on authors as entities. Authors are relevant in all disciplines of
+                    the humanities and are an important hinge between different knowledge graphs.
+                    Related to the SPARQL syntax, we go a step further and integrate functions like
+                    OPTIONAL and FILTER to extend the range of query possibilities. A start is made
+                    here with queries to authors of the MiMoText domain. In the next step, the
+                    participants can explore the data of other person entities that are of interest
+                    to them in Wikidata.</p>
+                <p>3. The third part links the previous two parts on
+                    several levels. The focus is on 'federated queries', where we will concentrate
+                    on queries that span MiMoTextBase and Wikidata. The more detailed look at
+                    authors and literary works will be continued and deepened here. In this
+                    concluding part, the importance of standards and shared data models (ontologies
+                    or 'entity schemata') as well as the linking of resources will become
+                    particularly clear. <ref target="#R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn3" n="3"/> All authors within the MiMoTextBase, for which there are also Wikidata
+                    items, are linked to them via the property "exact match", which provides
+                    additional information and opens up various query options. <ref target="#R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn4" n="4"/> The Wikibase infrastructure also offers various exploration and
+                    visualization options, which are introduced as examples (marker clusters for
+                    geo-data, timelines for birth dates, etc.). </p>
+                <p>In the concluding discussion, we want to open a space
+                    for a critical perspective on developments in the area of the Semantic Web, for
+                    example, the question of which monopolization forces and market forces have an
+                    influence (van Hooland / Verborgh 2014: 247-48; Singhal 2012). Finally, the most
+                    important application possibilities and questions will be summarized and further
+                    resources (DuCharme 2013; Lincoln 2015; van Hooland / Verborgh 2014; Blaney
+                    2017) as well as possibilities for cooperation will be addressed.</p>
+            </div>
+            <div type="div1">
+                <head>Appendix</head>
+                <div type="div2">
+                    <head>Workshop organization</head>
+                    <p>Maximum number of participants: 25. We need a room
+                        with WiFi and a projector. We would like to offer a hybrid scenario if that
+                        is possible.</p>
+                </div>
+                <div type="div2">
+                    <head>Workshop procedure (4h)</head>
+                    <table xml:id="d288e447">
+                        <row>
+                            <cell>
+                                <p>10 min. </p>
+                                <p>20 min. </p>
+                            </cell>
+                            <cell>
+                                <p>Welcome (introduction possibly via mentimeter)</p>
+                                <p>Introduction: input on Semantic Web, RDF, Linked Open Data for
+                                    literary history using the Mining and Modeling Text project as
+                                    an example. Wikidata &amp; Wikibase Ecosystem, Multilingual
+                                    Graph.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>20 min.</cell>
+                            <cell>
+                                <p>SPARQL Part 1 (MiMoTextBase):</p>
+                                <p>(a) Input on SPARQL basics (interactive phase), SPARQL syntax,
+                                    data visualization possibilities in Wikibase.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>35 min.</cell>
+                            <cell>(b) Practical part: Adapting existing
+                                and formulating simple, own SPARQL queries on the MiMoTextBase
+                                (breakout session or group work).</cell>
+                        </row>
+                        <row>
+                            <cell>(15 min.)</cell>
+                            <cell>Break </cell>
+                        </row>
+                        <row>
+                            <cell>20 min.</cell>
+                            <cell>
+                                <p>SPARQL Part 2 (Wikidata):</p>
+                                <p>(a) Input: More advanced elements of SPARQL syntax such as GROUP
+                                    BY and FILTER; data model for authors on Wikidata.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>35 min.</cell>
+                            <cell>(b) Practice: formulating slightly more
+                                complex queries on Wikidata. </cell>
+                        </row>
+                        <row>
+                            <cell>(15 min.)</cell>
+                            <cell>Break</cell>
+                        </row>
+                        <row>
+                            <cell>20 min.</cell>
+                            <cell>
+                                <p>SPARQL Part 3 (Federated Queries):</p>
+                                <p>(a) Input: Advanced SPARQL queries: federated queries, defining
+                                    prefixes, marker clusters and co.</p>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>35 min.</cell>
+                            <cell>(b) Practice: Using federated queries
+                                and Co.</cell>
+                        </row>
+                        <row>
+                            <cell>15 min.</cell>
+                            <cell>Concluding discussion and recommending
+                                further resources</cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="div2">
+                    <head>Acknowledgements</head>
+                    <p>"Mining and Modeling Text" (Trier University,
+                        Trier Center for Digital Humanities) is funded by the Rhineland-Palatinate
+                        Research Initiative 2019-2023.</p>
+                </div>
+                <div type="div2">
+                    <head>Contributors</head>
+                    <p>The workshop will be conducted by members of the
+                        Linked Open Data project "Mining and Modeling Text". The interdisciplinary
+                        project has its own <ref target="https://tinyurl.com/2fgqotp7">SPARQL
+                            endpoint</ref> within the infrastructure of a Wikibase instance. </p>
+                    <list type="unordered">
+                        <item>Tinghui Duan (duan@uni-trier.de; Trier Center for Digital Humanities),
+                            research interests: Computational Literary Studies and Computational
+                            Linguistics.</item>
+                        <item>Maria Hinzmann (hinzmannm@uni-trier.de; Trier Center for Digital
+                            Humanities | History Department / Digital Humanities; University of
+                            Wuppertal), research interests: Digital Literary and Cultural Studies,
+                            Linked Open Data.</item>
+                        <item>Anne Klee (klee@uni-trier.de; Trier Center for Digital Humanities),
+                            research interests: Digital Text Processing; Digital
+                            Lexicography.</item>
+                        <item>Johanna Konstanciak (konstanciak@uni-trier.de; Trier Center for
+                            Digital Humanities), research interests: Digital Text Processing;
+                            XML/Web-Technologies.</item>
+                        <item>Julia Röttgermann (roettger@uni-trier.de; Trier Center for Digital
+                            Humanities), research interests: French literature, Linked Open Data,
+                            Text mining.</item>
+                        <item>Christof Schöch (schoech@uni-trier.de; Trier Center for Digital
+                            Humanities), research interests: Computational Literary Studies.</item>
+                    </list>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn1">
+                         Some current examples of research projects
+                            that use Wikibase: Enslaved (Zhou et al. 2020), ArtBase (Rhizome 2021),
+                            Fact Grid (Simons 2022; cf. Brunner 2022). 
+                    </note><note n="2" xml:id="R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn2">
+                         For an introduction to knowledge graphs see
+                            Hogan et al. 2021.
+                    </note><note n="3" xml:id="R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn3">
+                         This linkage corresponds to the 5th star in
+                            Berners-Lee's (2006) Linked Open Data model.
+                    </note><note n="4" xml:id="R_TTGERMANN_Julia_SPARQL_for__Digital__Humanists___Querying_.xml_ftn4">
+                         Cf. the corresponding query on the
+                            MiMoTextBase: <ref target="https://tinyurl.com/2cg2nhuq">https://tinyurl.com/2cg2nhuq.</ref>
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alves, Daniel</author> (ed.) (2022): "IJHAC: A Journal of
+                        Digital Humanities. Special Issue: Linked Open Data in the Arts and the
+                        Humanities", in: IJHAC 16 (1): <ref target="https://www.euppublishing.com/doi/epdf/10.3366/ijhac.2022.0271">https://www.euppublishing.com/doi/epdf/10.3366/ijhac.2022.0271</ref>
+                        [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Arenas, Marcelo</author> / <author>Gutierrez, Claudio</author> / <author>Pérez, Jorge</author> 
+                        (2010): "On the Semantics of SPARQL", in: de Virgilio, Roberto /
+                        Giunchiglia, Fausto / Tanca, Letizia (eds.): <hi rend="italic">Semantic Web
+                            Information Management: A Model-Based Perspective</hi>. Berlin,
+                        Heidelberg: Springer 281–307. DOI: <ref target="https://doi.org/10.1007/978-3-642-04329-1_13"> </ref>
+                        <ref target="https://doi.org/10.1007/978-3-642-04329-1_13">10.1007/978-3-642-04329-1_13</ref>. </bibl>
+                    <bibl>
+                        <author>Berners-Lee, Tim </author>(2006): <hi rend="italic">Linked Data – Design Issues</hi>. 27. Juli 2006.  <ref target="https://www.w3.org/DesignIssues/LinkedData.html">https://www.w3.org/DesignIssues/LinkedData.html</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Blaney, Jonathan</author> (2017): “Introduction to the
+                        Principles of Linked Open Data.”, in: <hi rend="italic">Programming
+                            Historian</hi>. DOI: <ref target="https://doi.org/10.46430/phen0068">10.46430/phen0068</ref>. </bibl>
+                    <bibl>
+                        <author>Brunner, Katharina</author> (2022): FactGrid wants to become
+                        part of the Wikidata federation ecosystem – FactGrid. <ref target="https://blog.factgrid.de/archives/2922">https://blog.factgrid.de/archives/2922</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Dörpinghaus, Jens</author> (2022): "Wissensgraphen:
+                        Interdisziplinäre Perspektiven für Linked Data in den Geistes- und
+                        Sozialwissenschaften", in: <hi rend="italic">Zeitschrift für digitale
+                            Geisteswissenschaften</hi> 07. DOI: <ref target="https://doi.org/10.17175/2022_011"> </ref>
+                        <ref target="https://doi.org/10.17175/2022_011">10.17175/2022_011</ref>. </bibl>
+                    <bibl>
+                        <author>DuCharme, Bob</author> (2013): <hi rend="italic">Learning
+                            SPARQL</hi>. Sebastopol, United States: O’Reilly Media. </bibl>
+                    <bibl>
+                        <author>Hinzmann, Maria</author> / <author>Klee, Anne</author> / <author>Konstanciak, Johanna</author> / <author>Röttgermann, Julia</author> / <author>Schöch, Christof</author> / <author>Steffes, Moritz</author>  (2022a):
+                            <hi rend="italic">MiMoTextBase</hi>. <ref target="https://data.mimotext.uni-trier.de">https://data.mimotext.uni-trier.de</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Hinzmann, Maria</author> / <author>Klee, Anne</author> / <author>Konstanciak, Johanna</author> / <author>Röttgermann, Julia</author> / <author>Schöch, Christof</author> / <author>Steffes, Moritz</author>  (2022b):
+                            <hi rend="italic">MiMoTextBase Tutorial</hi>. <ref target="https://mimotext.github.io/MiMoTextBase_Tutorial/">https://mimotext.github.io/MiMoTextBase_Tutorial/</ref>
+                        [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Hogan, Aidan et al</author>. (2021): "Knowledge Graphs", in: <hi rend="italic">Synthesis Lectures on Data, Semantics, and Knowledge</hi>
+                        12 (2): 1–257. DOI: <ref target="https://doi.org/10.2200/S01125ED1V01Y202109DSK022"> </ref>
+                        <ref target="https://doi.org/10.2200/S01125ED1V01Y202109DSK022">10.2200/S01125ED1V01Y202109DSK022</ref>. </bibl>
+                    <bibl>
+                        <author>Hooland, Seth van</author> / <author>Verborgh, Ruben</author>  (2014): <hi rend="italic">Linked Data for Libraries, Archives and Museums: How to
+                            clean, link and publish your metadata</hi>. London: Facet Publishing. </bibl>
+                    <bibl>
+                        <author>Ikonić Nešić, Milica</author> / <author>Stanković, Ranka</author> / <author>Rujević, Biljana</author>  (2021): "Serbian ELTeC Sub-Collection in Wikidata", in: <hi rend="italic">Infotheca</hi> 21 (2): 60–86. DOI: <ref target="https://doi.org/10.18485/infotheca.2021.21.2.4"> </ref>
+                        <ref target="https://doi.org/10.18485/infotheca.2021.21.2.4">10.18485/infotheca.2021.21.2.4</ref>. </bibl>
+                    <bibl>
+                        <author>Lincoln, Matthew</author> (2015): "Using SPARQL to access Linked
+                        Open Data", in: <hi rend="italic">The Programming Historian</hi>. DOI: <ref target="https://doi.org/10.46430/phen0047"> </ref>
+                        <ref target="https://doi.org/10.46430/phen0047">10.46430/phen0047</ref>. </bibl>
+                    <bibl>
+                        <author>Neubert, Joachim</author> (2017): “Wikidata as a Linking Hub for
+                        Knowledge Organization Systems? Integrating an Authority Mapping into
+                        Wikidata and Learning Lessons for KOS Mappings.” in: <hi rend="italic">Proceedings of the 17th European NKOS workshop</hi>. <ref target="http://ceur-ws.org/Vol-1937/paper2.pdf">http://ceur-ws.org/Vol-1937/paper2.pdf</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Ohmukai, Ikki</author> / <author>Yamada, Taizo</author>  (eds.) (2022):
+                        <hi rend="italic"> Digital Humanities 2022. Conference Abstracts. Responding to Asian Diversity.</hi>
+                        Tokyo: ADHO.  <ref target="https://dh2022.dhii.asia/dh2022bookofabsts.pdf">https://dh2022.dhii.asia/dh2022bookofabsts.pdf</ref>. [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Prud’hommeaux, Eric</author> / <author>Buil-Aranda, Carlos</author>  (2013):
+                        SPARQL 1.1 Federated Query, in: <hi rend="italic">W3C Recommendation</hi>.
+                        <ref target="https://www.w3.org/TR/sparql11-federated-query/">https://www.w3.org/TR/sparql11-federated-query/</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Rhizome</author> (2021): “The ArtBase Relaunches: Welcome to
+                        Linked Open Data”. <hi rend="italic">Rhizome. </hi>
+                            <ref target="http://rhizome.org/editorial/2021/apr/26/the-artbase-relaunches-welcome-to-linked-open-data/">http://rhizome.org/editorial/2021/apr/26/the-artbase-relaunches-welcome-to-linked-open-data/</ref>
+                        [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Sack, Harald</author> / <author>Alam, Mehwish</author>  (2020): <hi rend="italic">Knowledge Graphs</hi>. Potsdam.  <ref target="https://open.hpi.de/courses/knowledgegraphs2020">https://open.hpi.de/courses/knowledgegraphs2020</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> / <author>Hinzmann, Maria</author> / <author>Röttgermann, Julia</author> / <author>Klee, Anne</author> / <author>Dietz, Katharina</author>  (2022): "Smart Modelling for Literary
+                        History", in: <hi rend="italic">IJHAC: International Journal of Humanities
+                            and Arts Computing [Special issue on Linked Open Data]</hi> 16 (1):
+                        78–93. DOI: <ref target="https://doi.org/10.3366/ijhac.2022.0278"> </ref>
+                        <ref target="https://doi.org/10.3366/ijhac.2022.0278">10.3366/ijhac.2022.0278</ref>. </bibl>
+                    <bibl>
+                        <author>Simons, Olaf</author> (2022): <hi rend="italic">FactGrid</hi>.
+                        Forschungszentrum Gotha der Universität Erfurt. <ref target="https://doi.org/database.factgrid.de,">database.factgrid.de</ref>
+                         [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Singhal, Amit</author> (2012): “Introducing the Knowledge Graph:
+                        things, not strings.” in: <hi rend="italic">Google (blog)</hi>. <ref target="https://blog.google/products/search/introducing-knowledge-graph-things-not/">https://blog.google/products/search/introducing-knowledge-graph-things-not/</ref>
+                        [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Thornton, Katherine</author> / <author>Seals-Nutt, Kenneth</author> / <author>Van Renmoortel, Marianne</author> / <author>Birkholz, Julie M.</author> / <author>De Potter, Pieterjan</author>  (2021):
+                        “Linking Women Editors of Periodicals to the Wikidata Knowledge Graph”, in:
+                            <hi rend="italic">Semantic Web journal</hi> Special Issue Cultural
+                        Heritage 2021. <ref target="http://www.semantic-web-journal.net/content/linking-women-editors-periodicals-wikidata-knowledge-graph">http://www.semantic-web-journal.net/content/linking-women-editors-periodicals-wikidata-knowledge-graph</ref>.
+                        [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Zhao, Fudie</author> (2022): “How to Critically Utilise Wikidata
+                        - A Systematic Review of Wikidata in DH Projects”. in: Ohmukai, Ikki /
+                        Yamada, Taizo (eds.):
+                        <hi rend="italic">Digital Humanities 2022 - Conference Abstracts. </hi>The
+                        University of Tokyo, Japan: DH2022 Local Organizing Committee. 608–610.
+                            <ref target="https://dh2022.dhii.asia/dh2022bookofabsts.pdf">https://dh2022.dhii.asia/dh2022bookofabsts.pdf</ref> [20.04.2023]. </bibl>
+                    <bibl>
+                        <author>Zhou, Lu</author> / <author>Shimizu, Cogan</author> / <author>Hitzler, Pascal</author> / <author>Sheill, Alicia M.</author> / <author>Estrecha, Seila G.</author> / <author>Foley, Catherine</author> / <author>Tarr, Duncan</author> / <author>Rehberger, Dean</author>  (2020): “The Enslaved Dataset: A Real-world Complex Ontology
+                        Alignment Benchmark using Wikibase.” in: <hi rend="italic">Proceedings of
+                            the 29th ACM International Conference on Information &amp; Knowledge
+                            Management</hi>. New York, NY, USA: Association for Computing Machinery.
+                        3197–3204. DOI: <ref target="https://doi.org/10.1145/3340531.3412768"> </ref>
+                        <ref target="https://doi.org/10.1145/3340531.3412768">10.1145/3340531.3412768</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

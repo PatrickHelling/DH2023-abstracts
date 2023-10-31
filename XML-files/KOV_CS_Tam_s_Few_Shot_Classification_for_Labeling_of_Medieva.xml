@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Few Shot Classification for Labeling of Medieval and Early Modern Charter Texts</title>
+                <author n="KovcsTamsKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0002-3913-2946" n="KovcsTams">
+                        <surname>Kovács</surname>
+                        <forename>Tamás</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>tamas.kovacs@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AounSandyKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName n="AounSandy">
+                        <surname>Aoun</surname>
+                        <forename>Sandy</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>sandy.aoun@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VogelerGeorgKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0002-1726-1712" n="VogelerGeorg">
+                        <surname>Vogeler</surname>
+                        <forename>Georg</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>georg.vogeler@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NicolaouAnguelosKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0003-3818-8718" n="NicolaouAnguelos">
+                        <surname>Nicolaou</surname>
+                        <forename>Anguelos</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>anguelos.nicolaou@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LugerDanielKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0003-1778-4908" n="LugerDaniel">
+                        <surname>Luger</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>daniel.luger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AtzenhoferBaumgartnerFlorianKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0001-8157-8629" n="AtzenhoferBaumgartnerFlorian">
+                        <surname>Atzenhofer-Baumgartner</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>florian.atzenhofer-baumgartner@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LammingerFlorianKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0002-1310-6352" n="LammingerFlorian">
+                        <surname>Lamminger</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>florian.lamminger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DeckerFranziskaKOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml"><persName ref="https://orcid.org/0000-0001-7994-1388" n="DeckerFranziska">
+                        <surname>Decker</surname>
+                        <forename>Franziska</forename>
+                    </persName><affiliation>Universität Graz, Austria</affiliation><email>franziska.decker@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Our strategy to support filtering the descriptive texts and the transcriptions in Monasterium.net seeks to assign semantic categories for the legal acts they record, such as confiscation, donation, or property sale.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>medieval history</term>
+                    <term>charter</term>
+                    <term>classification</term>
+                    <term>few-shot classification</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>natural language processing</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head/>
+                <p>The Monasterium.net
+                    <ref target="#KOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml_ftn0" n="1"/> comprises more than 600,000 charters from the Middle Ages and Early Modern Era, originating from diverse European regions and languages. These records provide comprehensive insights into various facets of life during historical periods that pertain to particular occurrences of legal proceedings. The approach we are taking to facilitate the filtration of descriptive texts and transcriptions in Monasterium.net involves the allocation of semantic categories to the legal acts documented therein, including but not limited to confiscation, donation, and property sale. The aim of the model is to exhibit efficient and effective generalization to novel, unobserved instances within identical categories. The unsupervised learning algorithm is utilized for the task of classifying data without any labeled training samples and an indeterminate number of categories. The main objective of the model is to dynamically allocate instances to an indeterminate set of potential categories. This model must leverage the intrinsic information of the labels.
+                </p>
+                <p>Text classification is a widely used technique with numerous applications, such as document categorization, sentiment analysis, and others (Joachims 1998; Sebastiani 2002; Yang / Pedersen 1997)
+                    . Numerous methodologies are available for addressing this fundamental issue; however, a significant proportion of them necessitate substantial quantities of annotated data to be effective (Kowsari et al. 2019). Gathering annotations for a particular use case is frequently one of the most costly components of any machine learning undertaking. The need for methods that optimize limited data sets is becoming more prevalent.</p>
+                <p>Over the past decade, the field of Computer Vision has adopted a popular technique for zero-shot learning: utilizing featurizers to integrate images and all possible class labels into their associated latent representations (Lampert / Nickisch / Harmeling 2009; Socher et al. 2013). This approach allows for the development of a linear projection that aligns image and label embeddings using a training set based on a sample of given labels. Consequently, any label (seen or unseen) and any image can be embedded within the same latent space, enabling the measurement of the distance between them. Although this method has proven effective in Computer Vision, it is not directly applicable to Natural Language Processing.</p>
+                <p>Natural Language Processing (NLP) relies on advanced embedding techniques that encode both data and class names within a single space using a unified model, thereby eliminating the need for data-intensive alignment phases. Pooled word vectors, for example, have been extensively utilized for years (Veeranna et al. 2016)
+                    . Recent advancements in sentence embedding models, such as various Sentence BERT models, have facilitated the generation of sequence and label embeddings by fine-tuning pooled multilingual sequence representations for greater conceptual complexity (Reimers / Gurevych 2019; Lavi / Medentsiy / Graus 2021). However, these models were not developed to understand single-word representations like label names, and our label embeddings would not be discernible in other word-level embedding techniques such as GloVE or Word2vec (Mikolov et al. 2013; Pennington / Socher / Manning 2014). This highlights the distinctive challenges and techniques required in NLP compared to Computer Vision when dealing with embeddings and the alignment of data and class labels.</p>
+                <p>Labeled examples are necessary to identify an intersection between the sequence model and word2vec label representations. A small subset of Monasterium offers a comprehensive representation of legal acts through historical abstracts. Our methodology employs these abstracts to construct a word2vec model, using the most frequent words (excluding stop-words) from the word2vec dictionary of the abstracts as labels. Subsequently, the algorithm generates an intermediate least-squares projection matrix for given label embeddings, based on their corresponding data embeddings. Through the application of a variation of L2 regularization, the weights are shifted toward the identity matrix, rather than reducing their norm. The projection matrix ultimately provides dimensionality reduction by implementing an additional transformation to the pre-trained Sentence BERT embeddings of both sequences and labels, yielding appropriate text classification. To further augment classification performance, especially in cases of limited labeled data, we integrate the concept of prototypical few-shot classification. This approach empowers our model to effectively generalize to new classes, even when presented with a limited number of labeled examples. By amalgamating projection matrix-based dimensionality reduction and pre-trained Sentence BERT embeddings with prototypical few-shot classification, we can establish a more robust and effective text classification model capable of handling limited labeled data and performing optimally across various legal acts represented in the Monasterium dataset.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KOV_CS_Tam_s_Few_Shot_Classification_for_Labeling_of_Medieva.xml_ftn0">
+                        <ref target="https://www.monasterium.net">https://www.monasterium.net</ref>
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Joachims, Thorsten</author> (1998): 
+                        <hi rend="italic">Text categorization with Support Vector Machines: Learning with many relevant features</hi>. in: Nédellec, Claire / Rouveirol, Céline (eds.): 
+                        <hi rend="italic">Machine Learning: ECML-98</hi>. Berlin, Heidelberg: Springer. 137–142.
+                    </bibl>
+                    <bibl>
+                        <author>Kowsari, Kamran</author> / 
+                        <author>Jafari Meimandi, Kiana</author> / 
+                        <author>Heidarysafa, Mojtaba</author> / 
+                        <author>Mendu, Sanjana</author> / 
+                        <author>Barnes, Laura</author> / 
+                        <author>Brown, Donald</author> (2019): "Text Classification Algorithms: A Survey", in: 
+                        <hi rend="italic">Information</hi> 10 (4): 150. 
+                        <ref target="https://doi.org/10.3390/info10040150">10.3390/info10040150</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Lampert, Christoph H.</author> / 
+                        <author>Nickisch, Hannes</author> / 
+                        <author>Harmeling, Stefan</author> (2009): 
+                        <hi rend="italic">Learning to detect unseen object classes by between-class attribute transfer</hi>. in: 
+                        <hi rend="italic">2009 IEEE Conference on Computer Vision and Pattern Recognition</hi>. 951–958.
+                    </bibl>
+                    <bibl>
+                        <author>Lavi, Dor</author> / 
+                        <author>Medentsiy, Volodymyr</author> / 
+                        <author>Graus, David</author> (2021): 
+                        <hi rend="italic">conSultantBERT: Fine-tuned Siamese Sentence-BERT for Matching Jobs and Job Seekers</hi>. arXiv. 
+                        <ref target="http://arxiv.org/abs/2109.06501">http://arxiv.org/abs/2109.06501</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Mikolov, Tomas</author> / 
+                        <author>Chen, Kai</author> / 
+                        <author>Corrado, Greg</author> / 
+                        <author>Dean, Jeffrey</author> (2013): 
+                        <hi rend="italic">Efficient Estimation of Word Representations in Vector Space</hi>. arXiv. 
+                        <ref target="http://arxiv.org/abs/1301.3781">http://arxiv.org/abs/1301.3781</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Pennington, Jeffrey</author> / 
+                        <author>Socher, Richard</author> / 
+                        <author>Manning, Christopher</author> (2014): 
+                        <hi rend="italic">Glove: Global Vectors for Word Representation</hi>. in: 
+                        <hi rend="italic">Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</hi>. Doha, Qatar: Association for Computational Linguistics. 1532–1543. 
+                        <ref target="http://aclweb.org/anthology/D14-1162">http://aclweb.org/anthology/D14-1162</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Reimers, Nils</author> / 
+                        <author>Gurevych, Iryna</author> (2019): 
+                        <hi rend="italic">Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks</hi>. arXiv. 
+                        <ref target="http://arxiv.org/abs/1908.10084">http://arxiv.org/abs/1908.10084</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Sebastiani, Fabrizio</author> (2002): "Machine Learning in Automated Text Categorization", in: 
+                        <hi rend="italic">ACM Computing Surveys</hi> 34 (1): 1–47. 
+                        <ref target="https://doi.org/10.1145/505282.505283">10.1145/505282.505283</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Socher, Richard</author> / 
+                        <author>Ganjoo, Milind</author> / 
+                        <author>Manning, Christopher D</author> / 
+                        <author>Ng, Andrew</author> (2013): 
+                        <hi rend="italic">Zero-shot learning through cross-modal transfer</hi>. in: Burges, C.J. / Bottou, L. / Welling, M. / Ghahramani, Z. / Weinberger, K.Q. (eds.): 
+                        <hi rend="italic">Advances in neural information processing systems</hi>. Curran Associates, Inc.
+                    </bibl>
+                    <bibl>
+                        <author>Veeranna, Sappadla Prateek</author> / 
+                        <author>Nam, Jinseok</author> / 
+                        <author>Mencıa, Eneldo Loza</author> / 
+                        <author>Furnkranz, Johannes</author> (2016): "Using Semantic Similarity for Multi-Label Zero-Shot Classiﬁcation of Text Documents", in: 
+                        <hi rend="italic">Computational Intelligence</hi>:
+                    </bibl>
+                    <bibl>
+                        <author>Yang, Yiming</author> / 
+                        <author>Pedersen, Jan O.</author> (1997): 
+                        <hi rend="italic">A Comparative Study on Feature Selection in Text Categorization</hi>. in: 
+                        <hi rend="italic">Proceedings of the Fourteenth International Conference on Machine Learning</hi> (= ICML ’97). San Francisco, CA, USA: Morgan Kaufmann Publishers Inc. 412–420.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Measuring the Uneven Digitization of Historical Literature</title>
+                <author n="EvalynLawrenceIsaacEVALYN_Lawrence_Isaac_Measuring_the_Uneven_Digitization_of_H.xml"><persName n="EvalynLawrenceIsaac">
+                        <surname>Evalyn</surname>
+                        <forename>Lawrence Isaac</forename>
+                    </persName><affiliation>Northeastern University, United States of America</affiliation><email>lawrenceevalyn@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Did the mass digitization of historical literature produce a digital archive that accurately reflects what was published in the eighteenth century? I compare four databases of English literature, manually identifying authorial gender, to show a surprising over-representation of women's writing in Eighteenth Century Collections Online and HathiTrust.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital archives</term>
+                    <term>digitization</term>
+                    <term>women's writing</term>
+                    <term>eighteenth century</term>
+                    <term>English literature</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>media archaeology</term>
+                    <term>Book and print history</term>
+                    <term>Feminist studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>As literary scholarship is increasingly mediated through
+                digital archives, it becomes important to know what subset of historical texts are
+                in fact available digitally. Uneven digitization can impact not just distant reading
+                research, which explicitly uses large collections of digital texts to draw its
+                conclusions, but also the ordinary exploratory research of scholars whose first
+                contact with historic texts is increasingly mediated through digital archives. In
+                this paper, I present a case study of uneven digitization, measuring the
+                availability of late eighteenth-century women’s writing to shed light on broader
+                processes of digital selection.</p>
+            <p>At the core of this paper is a comparison between four
+                different resources: the English Short Title Catalogue (ESTC), Eighteenth Century
+                Collections Online (ECCO), the Text Creation Partnership (TCP), and HathiTrust. For
+                each of these databases, I collect bibliographic metadata for their holdings of
+                works published in England between 1789 and 1799. These were years of intense and
+                contested print publication in England, during which the eighteenth century public
+                grappled with questions of literary value and longevity which continue to play an
+                important role today. For this eleven-year “decade,” the ESTC lists 51,090 titles in
+                its bibliographic reference database. ECCO, a collections of full-book facsimiles of
+                full books that used the ESTC as a reference list, has 26,848 works— barely more
+                than half the records listed in the ESTC. HathiTrust, a similar collection of
+                facsimiles, has 8,220 works. The smallest text repository, the ECCO-TCP collection
+                of hand-encoded transcriptions made from ECCO facsimiles, contains only 525 records:
+                an almost negligible 1% of the ESTC. Building on feminist scholarship which has
+                shown the marginalization of women’s writing in other forms of scholarly
+                infrastructure, I ask: <hi rend="italic">which</hi> half of the ESTC is in ECCO?
+                Which 1% is in the ECCO-TCP? Specifically: has women’s writing been overlooked by
+                digitization? </p>
+            <p>To find out, I manually identified an implied authorial
+                gender for all the works in my four bibliographic corpora described above. I
+                expected that each smaller corpus would be more strongly influenced by opportunities
+                for selection bias, and thus contain fewer works by women. However, this is not what
+                I find. As shown in Figure 1, male authors grow from being responsible for 49% of
+                the records in the ESTC to 76% of the records in ECCO-TCP. However, this rise in
+                male authors is accompanied by a parallel rise in <hi rend="italic">female</hi>
+                authors, from 3% in the ESTC to 22% of ECCO-TCP. Even at 22% of the ECCO-TCP, these
+                are far fewer women than are measured in bibliographies of novels and poetry.
+                Nonetheless, I contend that the low numbers of women’s works are not due to
+                digitization bias at the site of gender; instead, what mass digitization shows is
+                the preponderance of publications that are not novels or poetry. Where uneven
+                digitization occurs, it is “authorless” writing which fails to garner institutional
+                investment. This paper concludes with the new direction suggested by my findings:
+                the role of unsigned literature in the eighteenth century. Ultimately, I argue, an
+                infrastructural emphasis on a singular “author” reinforces an unhelpfully
+                individualist interpretation of cultural production. </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="15.800916666666666cm" url="Pictures/6a79e8adcbdec589aee0833e6855130f.png" rend="inline"/>
+                <head>Figure 1: Author demographics in the ESTC, ECCO,
+                HathiTrust, and ECCO-TCP, as a percentage of each resources’ records of works
+                published in England 1789-99.</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bode, Katherine</author> (2018):  <hi rend="italic">A World of
+                            Fiction: Digital Collections and the Future of Literary History</hi>.
+                        Ann Arbor: University of Michigan Press. </bibl>
+                    <bibl>
+                        <author>Centivany, Alissa</author> (2017): “The Dark History of
+                        HathiTrust”, in: <hi rend="italic">Proceedings of the 50th Annual Hawaii
+                            International Conference on Systems Science</hi>
+                        <ref target="hdl.handle.net/10125/41440">hdl.handle.net/10125/41440</ref> </bibl>
+                    <bibl>
+                        <author>D’Ignazio, Catherine</author> / <author>Klein, Lauren F.</author>  (2020): <hi rend="italic">Data Feminism</hi>. Cambridge, MA: MIT Press. </bibl>
+                    <bibl>
+                        <author>Feldman, Paula R</author> (2002): “Women Poets and Anonymity in
+                        the Romantic Era.”, in: Clery, E. J. / Franklin, Caroline / Garside, Peter
+                        (eds.): <hi rend="italic">Authorship, Commerce and the Public: Scenes of
+                            Writing 1750-1850</hi>. London: Palgrave Macmillan. </bibl>
+                    <bibl>
+                        <author>Gregg, Stephen H.</author> (2020): <hi rend="italic">Old Books
+                            and Digital Publishing: Eighteenth-Century Collections Online</hi>.
+                        Cambridge: Cambridge University Press. </bibl>
+                    <bibl>
+                        <author>Griffin, Robert J. </author>(1999): “Anonymity and Authorship”,
+                        in: <hi rend="italic">New Literary History</hi>, 30, 4: 877–95. </bibl>
+                    <bibl>
+                        <author>Griffin, Robert J.</author> (ed.)(2003): <hi rend="italic">The
+                            Faces of Anonymity: Anonymous and Pseudonymous Publication from the
+                            Sixteenth to the Twentieth Century</hi>. London: Palgrave MacMillan. </bibl>
+                    <bibl>
+                        <author>Hauswedell, Tessa</author> / <author>Nyhan, Julianne</author> / <author>Beals, M. H.</author> / <author>Terras, Melissa</author> / <author>Bell, Emily</author>  (2020): “Of global reach yet of situated
+                        contexts: an examination of the implicit and explicit selection criteria
+                        that shape digital archives of historical newspapers”, in: <hi rend="italic">Archival Science</hi> 20: 139–165. DOI:10.1007/s10502-020-09332-1 </bibl>
+                    <bibl>
+                        <author>Levy, Michelle</author> / <author>Perry, Mark</author>  (2015): “Distantly Reading
+                        the Romantic Canon: Quanitfying Gender in Current Anthologies”, in: <hi rend="italic">Women’s Writing</hi>, 22, 2: 132-155. DOI:
+                        10.1080/09699082.2015.1011836. </bibl>
+                    <bibl>
+                        <author>Mak, Bonnie</author> (2014): “Archaeology of a
+                        Digitization”, in: <hi rend="italic">Journal of the American Society for
+                            Information Science and Technology</hi> 65, 8: 1515–1526, DOI:
+                        10.1002/asi.23061. </bibl>
+                    <bibl>
+                        <author>Murphy, Kathleen S.</author> (2011): “Translating the
+                        vernacular: Indigenous and African knowledge in the eighteenth-century
+                        British Atlantic”, in: <hi rend="italic">Atlantic Studies</hi> 8, 1: 29-48.
+                        DOI: 10.1080/14788810.2011.541188. </bibl>
+                    <bibl>
+                        <author>Riddell, Allen</author> / <author>Bassett, Troy J.</author>  (2020): “What
+                        Library Digitization Leaves Out: Predicting the Availability of Digital
+                        Surrogates of English Novels.” arXiv:2009.00513v1 [cs.DL].</bibl>
+                    <bibl>
+                        <author>Singh, Amardeep</author> (2019): “Beyond the Archive
+                        Gap: The Kiplings and the Famines of British Colonial India”, in: <hi rend="italic">South Asian Review</hi> 40, 3: 237-251. DOI:
+                        10.1080/02759527.2019.1599562 </bibl>
+                    <bibl>
+                        <author>So, Richard Jean</author> (2017): “‘All Models Are
+                        Wrong’”, in: <hi rend="italic">PMLA/Publications of the Modern Language
+                            Association of America</hi> 132, 3: 668–73. DOI:
+                        10.1632/pmla.2017.132.3.668. </bibl>
+                    <bibl>
+                        <author>Spedding, Patrick</author> (2011): “‘The New Machine’:
+                        Discovering the Limits of ECCO”, in: <hi rend="italic">Eighteenth-Century
+                            Studies</hi> 44, 4: 437-453. </bibl>
+                    <bibl>
+                        <author>Wernimont, Jacqueline</author> / <author>Losh, Elizabeth Losh</author>  (eds.)(2018): <hi rend="italic">Bodies of Information: Intersectional
+                            Feminism and Digital Humanities</hi>. Minneapolis: U Minnesora P.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

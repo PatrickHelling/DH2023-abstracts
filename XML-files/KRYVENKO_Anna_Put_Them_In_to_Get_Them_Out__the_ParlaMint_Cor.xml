@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Put Them In to Get Them Out: the ParlaMint Corpora for Digital Humanities and Social Sciences Research </title>
+                <author n="FierDarjaKRYVENKO_Anna_Put_Them_In_to_Get_Them_Out__the_ParlaMint_Cor.xml"><persName ref="https://orcid.org/0000-0002-9956-1689" n="FierDarja">
+                        <surname>Fišer</surname>
+                        <forename>Darja</forename>
+                    </persName><affiliation>Institute of Contemporary History, Slovenia</affiliation><email>Darja.Fiser@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KryvenkoAnnaKRYVENKO_Anna_Put_Them_In_to_Get_Them_Out__the_ParlaMint_Cor.xml"><persName n="KryvenkoAnna">
+                        <surname>Kryvenko</surname>
+                        <forename>Anna</forename>
+                    </persName><affiliation>Institute of Contemporary History, Slovenia; NISS, Ukraine</affiliation><email>Ganna.Kryvenko@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OsenovaPetyaKRYVENKO_Anna_Put_Them_In_to_Get_Them_Out__the_ParlaMint_Cor.xml"><persName n="OsenovaPetya">
+                        <surname>Osenova</surname>
+                        <forename>Petya</forename>
+                    </persName><affiliation>Bulgarian Academy of Sciences, Bulgaria; Sofia University “St. Kl. Ohridski”, Bulgaria</affiliation><email>petya@bultreebank.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PahordeMaitiKristinaKRYVENKO_Anna_Put_Them_In_to_Get_Them_Out__the_ParlaMint_Cor.xml"><persName n="PahordeMaitiKristina">
+                        <surname>Pahor de Maiti</surname>
+                        <forename>Kristina</forename>
+                    </persName><affiliation>University of Ljubljana, Slovenia</affiliation><email>Kristina.PahordeMaiti@ff.uni-lj.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This hands-on half-day tutorial aims to explore the potential of the ParlaMint corpora – openly available collections of parliamentary records, which are uniformly sampled, annotated and rich in individual speaker and institutional group metadata. We show how the resource facilitates research into specific European parliaments and allows for transnational comparisons.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>parliamentary records</term>
+                    <term>parliamentary corpora</term>
+                    <term>linguistic annotation</term>
+                    <term>metadata</term>
+                    <term>corpus analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>concordancing and indexing</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>Communication studies</term>
+                    <term>Linguistics</term>
+                    <term>Political science</term>
+                    <term>Sociology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">1. Background and overview of the tutorial </hi></p>
+            <p>Given a growing interest in the roles and discourses of national parliaments across Europe, records of parliamentary debates have recently become a fruitful object of study in a wide range of disciplines in social sciences and humanities, including but not limited to sociology (Skubic / Fišer 2022), history (Pančur / Šorn 2016; Jarlbrink / Norén 2022), political communication (Vliegenthart / Damstra 2019) and linguistic discourse analysis (Ilie 2016, Voutilainen 2017). However, the existing corpora of parliamentary debates are often incomparable in terms of timespan, metadata and linguistic annotation, which makes comparative research very difficult if not impossible. To address this issue, the ParlaMint project was launched to make parliamentary corpora FAIR (findable, accessible, interoperable and reusable).</p>
+            <p>This half-day tutorial will introduce the audience to the ParlaMint corpora (Erjavec et al. 2023), which comprise records of 17 European national parliaments for the 2015–2019 period with almost half a billion words to date. Currently, the ParlaMint corpora are undergoing expansion with the 2021 and 2022 records for the existing parliaments and with records of additional national and regional parliaments not previously included. All these corpora are uniformly sampled, annotated and rich in comparable individual speaker and institutional group metadata including speaker name, gender, speaker role, affiliations with political parties and groups as well as coalitions or oppositions of political parties and so on. Changes in individual or group affiliations are also time-stamped if they occur in the time frame of the corpora. All the parliamentary records in the corpora are currently split into two datasets: Reference Subcorpus: from 2015 until end of 2019, and COVID Subcorpus: from 01.01.2020 onwards).</p>
+            <p>The proposed hands-on tutorial aims to motivate researchers in and outside Digital Humanities, who have no or little exposure to corpus analysis, to explore the potential of the ParlaMint corpora as an enriched and unified language resource for research into specific national parliaments and trans-nationally as well as to encourage cross-disciplinary cooperation.   </p>
+            <p><hi rend="bold">2. Relevance to the Digital Humanities community</hi> </p>
+            <p>The ParlaMint corpora are openly available as downloadable data through the CLARIN repository either as plain corpora (<ref target="http://hdl.handle.net/11356/1432">http://hdl.handle.net/11356/1432</ref>) or corpora with added linguistic annotations (<ref target="https://hdl.handle.net/11356/1431">https://hdl.handle.net/11356/1431</ref>) as well as on GitHub (<ref target="https://github.com/clarin-eric/ParlaMint">https://github.com/clarin-eric/ParlaMint</ref>), and through concordancers, e.g., (<ref target="https://www.clarin.si/noske">https://www.clarin.si/noske</ref>). The corpora can be directly queried through the concordancers or further processed through third-party text mining tools. The ParlaMint resource is designed as a sustainable initiative. Hence, the contributing partners are committed to schema and metadata improvements, corpus expansion and enrichment, as well as engagement activities (see Ogrodniczuk et al. 2022 for an overview). </p>
+            <p><hi rend="bold">3. Instructors</hi> </p>
+            <p><hi rend="bold">Petya Osenova</hi> is professor in morphology, syntax and corpus linguistics at the Sofia University “St. Kl. Ohridski” and senior researcher at the Institute of Information and Communication Technologies, Bulgarian Academy of Sciences. Her main interests are in the areas of language modeling, constraint-based linguistic theories, language resources creation, the lexicon-grammar interface, among others. Petya Osenova is part of the core team in the joint CLARIN and DARIAH infrastructure in Bulgaria – CLaDA-BG. She is the co-coordinator of the ParlaMint Project together with Maciej Ogrodniczuk from the Institute of Computer Science, Polish Academy of Sciences.  </p>
+            <p><hi rend="bold">Anna Kryvenko </hi>has a PhD in linguistics and over 15 years of university teaching experience in the fields of lexical semantics, corpus analysis and discourse studies. Her research interests include corpus approaches to social studies and metaphor in political discourse. She is currently working on her postdoc MSCA Seal of Excellence project “The Changing Discursive Semantics of EU representations: Identity, Populism, Propaganda” funded by ARRS (Slovenia). She is a contributing partner for the ParlaMint-UA corpus. </p>
+            <p><hi rend="bold"> Kristina Pahor de Maiti </hi>is a doctoral student in Linguistics at the University of Ljubljana and CY Cergy Paris University, and Research Assistant at the Institute of Contemporary History, Ljubljana. Her research interests include parliamentary discourse and computer-mediated communication, which she explores through the sociolinguistic and corpus-linguistic prism. In her doctoral research, she is focusing on the corpus-based analysis of socially unacceptable discourse online with a special emphasis on its figurative dimension.</p>
+            <p><hi rend="bold">4. Target audience and expected number of participants </hi> </p>
+            <p>This tutorial targets a broad range of scholars in Digital Humanities and social sciences interested in exploring the potential of parliamentary corpora as a language resource for studying socio-cultural phenomena. The showcases included in this tutorial might be of particular interest but are not limited to the European Studies community. No programming skills are needed and no prior experience in using language corpora or corpus querying tools is required to attend this tutorial.   </p>
+            <p>Based on the experience of delivering a version of the <hi rend="italic">Voices of the Parliament: A Corpus Approach to Parliamentary Discourse Research</hi> tutorial (https://sidih.si/20.500.12325/120), group size between 10 and 14 participants would be preferable. </p>
+            <p><hi rend="bold">5. Learning outcomes </hi></p>
+            <p>Participants will learn how to formulate corpus queries, ranging from simple search strings for word forms and lemmata to complex CQL queries. Participants will be able to analyze the extracted structures in relation to the available speaker and text metadata. They will also be made aware of caution needed to ensure adequate framing and interpretation of the results for a wide range of research questions in Digital Humanities and Social Sciences including the speech and attitude of ruling parties in comparison to the opposition, specifics of protocol across parliaments, etc. The skills developed in this tutorial can be transferred to other types of corpora and concordancers. While the demo in Part 2 of the tutorial will be conducted on the ParlaMint-GB in order to ensure all participants can follow the queries and discuss the results, participants will be encouraged to select a ParlaMint corpus of their preference to carry out the hands-on activities in Part 3 of the tutorial. </p>
+            <p><hi rend="bold">6. Requirements for technical support </hi></p>
+            <p>Conference organizers should provide an LCD projector, WIFI and a classroom suitable for pair work. Participants should bring their own laptops.</p>
+            <p><hi rend="bold">7. Timeline </hi></p>
+            <p>(3.5 hours total incl. 30 min break)</p>
+            <list type="unordered">
+                <item>Part 1 – Introduction and demo session (1,5h):</item>
+            </list>
+            <p>20 min. - Introduction and overview of the ParlaMint project.</p>
+            <p>40 min. - ParlaMint corpus content including types of metadata and linguistic annotation, their comparability potential as well as parliament and language specific limitations to cross-corpus comparability.</p>
+            <p>30 min. - Demo in exploring the Crystal NoSketch Engine concordancer and using basic corpus analysis techniques to answer research questions related to the discursive construction of socially significant concepts in the ParlaMint-GB corpus over time.          </p>
+            <list type="unordered">
+                <item>Break – 30 min.</item>
+            </list>
+            <list type="unordered">
+                <item>Part 2 – Hands-on session (1,5h):  </item>
+            </list>
+            <p>30 min. - Participants exercise in creating subcorpora, performing simple and complex queries using regular expressions for concordance analysis as well as in keyword and collocation extraction in the ParlaMint-GB corpus.  </p>
+            <p>10 min. - Participants create subcorpora in a ParlaMint corpus of their choice based on the types of the ParlaMint metadata, which correlate with their research interests.   </p>
+            <p>15 min. - Participants extract keywords from the subcorpora created by them, compare and discuss their results in pairs.   </p>
+            <p>35 min. - Participants extract collocates for one previously specified query from their subcorpora, discuss cross-corpus comparability of the results in pairs and report their findings to the rest of the group. Finally, participants give brief feedback on the applicability of the knowledge and skills acquired in this tutorial to their own research. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Erjavec, Tomaž</author> / <author>Ogrodniczuk , Maciej</author> / <author>Osenova , Petya</author> / <author>Ljubešić Nikola</author> / <author>Simov, Kiril</author> / <author>Pančur, Andrej</author> / <author>Rudolf, Michał</author> / <author>Kopp, Matyáš</author> / <author>Barkarson, Starkaður</author> / <author>Steingrímsson, Steinþór</author> / <author>Çöltekin, Çagri</author> / <author>de Does, Jesse</author> / <author>Depuydt, Katrien</author> / <author>Agnoloni, Tommaso</author> / <author>Venturi, Giulia</author> / <author>Pérez, María Calzada</author> / <author>de Macedo, Luciana D.</author> / <author>Navarretta, Costanza</author> / <author>Luxardo, Giancarlo</author> / <author>Coole, Matthew</author> / <author>Rayson, Paul</author> / <author>Morkevičius, Vaidas</author> / <author>Krilavičius, Tomas</author> / <author>Darǵis, Roberts</author> / <author>Ring, Orsolya</author> / <author>van Heusden, Ruben</author> / <author>Marx, Maarten</author> / <author>Fišer, Darja</author> 
+                        (2023):
+                        “The ParlaMint Corpora of Parliamentary Proceedings”, in:
+                        <hi rend="italic">Language Resources and Evaluation</hi>
+                        57, 1: 415-448. DOI: 10.1007/s10579-021-09574-0 <ref target="https://link.springer.com/article/10.1007/s10579-021-09574-0">https://link.springer.com/article/10.1007/s10579-021-09574-0</ref> [02.02.2023]. 
+                    </bibl>
+                    <bibl>
+                        <author>Ilie, Cornelia</author>
+                         (2016): “Parliamentary Discourse and Deliberate Rhetoric”, in: Ihalainen, Pasi / Ilie, Cornelia / Palonen, Kari (eds.):
+                        <hi rend="italic">Parliament and Parliamentarism: a Comparative History of a European Concept</hi>
+                        . New York / Oxford: Berghahn 133-145.
+                    </bibl>
+                    <bibl>
+                        <author>Jarlbrink, Johan</author> / <author>Norén, Frederik</author> 
+                        (2022): “The rise and fall of ‘propaganda’ as a positive concept: a digital reading of Swedish parliamentary records, 1867-2019”, in:
+                        <hi rend="italic">Scandinavian Journal of History</hi>
+                        . DOI: 10.1080/03468755.2022.2134202 
+                        <ref target="https://www.tandfonline.com/doi/full/10.1080/03468755.2022.2134202?scroll=top&amp;needAccess=true&amp;role=tab&amp;aria-labelledby=full-article">https://www.tandfonline.com/doi/full/10.1080/03468755.2022.2134202?scroll=top&amp;needAccess=true&amp;role=tab&amp;aria-labelledby=full-article</ref>
+                         [03.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Ogrodniczuk, Maciej</author> / <author>Osenova, Petya</author> / <author>Erjavec, Tomaž</author> / <author>Fišer, Darja</author> / <author>Ljubešic, Nikola</author> / <author>Çöltekin, Çagri</author> / <author>Kopp, Matyáš</author> / <author>Meden, Katja</author> 
+                         (2022): “ParlaMint II: The Show Must Go On”, in: 
+                        <hi rend="italic">Proceedings of the LREC 2022 ParlaCLARIN III Workshop on Creating, Enriching and Using Parliamentary Corpora</hi>
+                        , Marseille, France, 20 June 2022: 1-6 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2022/workshops/ParlaCLARINIII/2022.parlaclariniii-1.0.pdf">http://www.lrec-conf.org/proceedings/lrec2022/workshops/ParlaCLARINIII/2022.parlaclariniii-1.0.pdf</ref>
+                         [03.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Pančur, Andrej</author> / <author>Šorn, Mojca</author> 
+                         (2016): “Smart Big Data: Use of Slovenian Parliamentary Papers in Digital History”, in: 
+                        <hi rend="italic">Prispevki za novejšo zgodovino</hi>
+                         56, 3: 130-146 
+                        <ref target="https://ojs.inz.si/pnz/article/view/193">https://ojs.inz.si/pnz/article/view/193</ref>
+                         [03.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Skubic, Jure</author> / <author>Fišer, Darja</author> 
+                         (2022): “Parliamentary discourse research in sociology: Literature review”, in:
+                        <hi rend="italic">Proceedings of the Third ParlaCLARIN Workshop,</hi>
+                        Marseille, France, June 2022: 81-91 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2022/workshops/ParlaCLARINIII/pdf/2022.parlaclariniii-1.12.pdf">http://www.lrec-conf.org/proceedings/lrec2022/workshops/ParlaCLARINIII/pdf/2022.parlaclariniii-1.12.pdf</ref>
+                         [03.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Vliegenthart, Rens</author> / <author>Damstra, Alyt</author> 
+                         (2019): “Parliamentary Questions, Newspaper Coverage, and Consumer Confidence in Times of Crisis: A Cross-National Comparison”, in:
+                        <hi rend="italic">Political Communication</hi>
+                        , 36, 1: 17-35. DOI: 10.1080/10584609.2018.1478472
+                    </bibl>
+                    <bibl>
+                        <author>Voutilainen, Eero</author>
+                         (2017): „Parliamentary Records as Data for Linguistic Discourse Studies“, in:
+                        <hi rend="italic">CLARIN-PLUS Workshop “Working with Parliamentary Records”</hi>
+                        , Sofia, Bulgaria, 27-29 March 2017. 
+                        <ref target="https://www.clarin.eu/sites/default/files/1-voutilainen.pdf">https://www.clarin.eu/sites/default/files/1-voutilainen.pdf</ref>
+                         [03.11.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

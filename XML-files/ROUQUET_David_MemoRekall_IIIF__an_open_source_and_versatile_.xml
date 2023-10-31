@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MemoRekall-IIIF, an open source and versatile web application for video and digital document annotation</title>
+                <author n="HartJacobROUQUET_David_MemoRekall_IIIF__an_open_source_and_versatile_.xml"><persName n="HartJacob">
+                        <surname>Hart</surname>
+                        <forename>Jacob</forename>
+                    </persName><affiliation>Université Rennes 2</affiliation><email>jacob.dchart@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BardiotClarisseROUQUET_David_MemoRekall_IIIF__an_open_source_and_versatile_.xml"><persName n="BardiotClarisse">
+                        <surname>Bardiot</surname>
+                        <forename>Clarisse</forename>
+                    </persName><affiliation>Université Rennes 2</affiliation><email>clarisse.bardiot@univ-rennes2.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RouquetDavidROUQUET_David_MemoRekall_IIIF__an_open_source_and_versatile_.xml"><persName n="RouquetDavid">
+                        <surname>Rouquet</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Tétras Libre SARL, France</affiliation><email>david.rouquet@tetras-libre.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present our ongoing effort to develop Rekall-IIIF, a platform that aims at providing an extensible software base for all communities in need for multimedia and multimodal annotation tools. It is modular, Open Source and built on the IIIF standard (https://iiif.io/).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>annotation</term>
+                    <term>multimodal</term>
+                    <term>multimedia</term>
+                    <term>open source</term>
+                    <term>IIIF</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital archiving</term>
+                    <term>digital art production and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Digital (or digitized) documents have become a prominent material for a lot of research fields. As such, researchers need tools to enrich those documents, both to support the analytical process and to render the results of their work. The enrichment can come from automatized, AI powered processes, as well as humans in a close reading approach. The goal is to make the original content more explicit by annotating it and linking it to a multimedia context.</p>
+            <p>Such pieces of software can be characterized as multimedia and multi-modal annotation tools. As shown in the state of the art for video annotation tools (Bardiot et al. 2023), they can differ greatly regarding their supported formats, annotation modalities, cooperation features, sharing capabilities, interoperability, extensibility, etc. We believe that extensibility and interoperability are the truly key features to evaluate those tools, as illustrated in initiatives such as (Amato et al. 2022). While each of these many tools offer unique perspectives and cutting-edge features, there is a real danger of 
+                <hi rend="italic">vendor lock-in</hi> for the communities that use them. This leads to the fragmentation of annotated content in silos, only exploitable with the tools used for their respective creation. This lack of interoperability prevents nearly any kind of collaborative and incremental research.
+            </p>
+            <p>Without resolving all of these issues entirely, we believe that Open Source tools, built on standard formats and API, are a sound way to ensure interoperability, re-usability of annotated content and extensibility with new features. As such, we present our ongoing effort to develop MemoRekall-IIIF (consult the live demos and documentation at https://memorekall.com/en/memorekall-iiif-prototype/), a platform that aims at providing an extensible software base for all communities in need for multimedia and multi-modal annotation tools. It is modular, Open Source and built on the IIIF standard (https://iiif.io/). MemoRekall-IIIF is a complete re-implementation of MemoRekall (https://memorekall.com/, Bardiot 2021), a video annotation tool developed in a co-creation process between developers and digital humanities researchers. </p>
+            <p>The software currently takes the form of a fork of the widely-used IIIF-viewer Mirador (https://projectmirador.org/). We have notably added video and video annotation features to the viewer. We build upon this tool to propose an environment for the creation of 
+                <hi rend="italic">multi-modal document networks</hi>. Each document is presented as a 
+                <hi rend="italic">IIIF manifest:</hi> a lightweight, interoperable file that is interpreted by the viewer to display the associated media and annotations. An annotation can be linked to another IIIF manifest and opened directly within the environment, providing a fluid and dynamic navigation experience.
+            </p>
+            <p>While retaining many of the features of its predecessor MemoRekall (and targeting full retro compatibility), MemoRekall-IIIF proposes several notable technical and epistemological shifts: most significantly a move away from the necessary focus on a single video towards a document network perspective. The environment is being designed with extensibility in mind, leaving it open to the incremental addition of processing modules for the automated creation of annotations and network analysis. Our first phase of analysis was built upon a concrete case-study, and going forward we intend to continue the practice-led design philosophy that was so successful for MemoRekall with more case-studies and workshops with various user types.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Amato, Alba</author> / <author>Averso, Rocco</author> / <author>Branco, Dario</author> / <author>Venticinque, Salvatore</author> / <author>Renda, Guiseppina</author> / <author>Mataluna, Sabrina</author>  (2022): “Porting of Semantically annotated and geo-located images to an Interoperability Framework”, in: Barolli, Leonard (eds.): CISIS 2022, Complex, Intelligent and Software Intensive Systems, vol 497. Springer, Cham. DOI: https://doi.org/10.1007/978-3-031-08812-4_49. 
+                    </bibl>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author> (2021). Performing Arts and Digital Humanities: From Traces to Data. Hoboken: ISTE / Wiley.
+                    </bibl>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author> / <author>Rouquet, David</author> / <author>Hart, Jacob</author>  (2023): “MemoRekall-IIIF: an open-source IIIF video annotation tool for exploring historic audiovisual source materials.”, in: Journal of Digital History - Special Issue on Digital Tools. (Submitted - review in progress).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Precision Archaeology: a computational approach to archeological risk assessment</title>
+                <author n="PierdiccaRobertoPAOLANTI_Marina_Precision_Archaeology__a_computational_appro.xml"><persName ref="https://orcid.org/0000-0002-9160-834X" n="PierdiccaRoberto">
+                        <surname>Pierdicca</surname>
+                        <forename>Roberto</forename>
+                    </persName><affiliation>Università Politecnica delle Marche</affiliation><email>r.pierdicca@univpm.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="UricchioTiberioPAOLANTI_Marina_Precision_Archaeology__a_computational_appro.xml"><persName n="UricchioTiberio">
+                        <surname>Uricchio</surname>
+                        <forename>Tiberio</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>tiberio.uricchio@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TadoltiMatteoPAOLANTI_Marina_Precision_Archaeology__a_computational_appro.xml"><persName ref="https://orcid.org/0000-0001-5474-7853" n="TadoltiMatteo">
+                        <surname>Tadolti</surname>
+                        <forename>Matteo</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>m.tadolti@studenti.unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PaolantiMarinaPAOLANTI_Marina_Precision_Archaeology__a_computational_appro.xml"><persName ref="https://orcid.org/0000-0002-5523-7174" n="PaolantiMarina">
+                        <surname>Paolanti</surname>
+                        <forename>Marina</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>marina.paolanti@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FrontoniEmanuelePAOLANTI_Marina_Precision_Archaeology__a_computational_appro.xml"><persName ref="https://orcid.org/0000-0002-8893-9244" n="FrontoniEmanuele">
+                        <surname>Frontoni</surname>
+                        <forename>Emanuele</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>emanuele.frontoni@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PernaRobertoPAOLANTI_Marina_Precision_Archaeology__a_computational_appro.xml"><persName ref="https://orcid.org/0000-0002-9532-2541" n="PernaRoberto">
+                        <surname>Perna</surname>
+                        <forename>Roberto</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>roberto.perna@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this contribution it is coined and presented a new concept: "Precision Archaeology'" (PA). PA is a concept based on observing, measuring and responding to inter and intra-field variability in land. PA aims at defining a decision support system for archaeology management for optimizing returns on inputs while preserving resources.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Precision Archaeology</term>
+                    <term>Artificial Intelligence</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>cultural analytics</term>
+                    <term>media archaeology</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Archaeology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Motivation</head>
+                <p>Our cultural heritage (CH) is increasingly exposed to the risk of the massive expansion of urban settlements. In the last decades, the constant growth of modern agglomerations has threatened earlier settlement areas, resulting also in permanent destruction of any unearthed archaeological remains (Hafner 2013). In order to lower such risk and to address the modern requirement of urban expansion, in Italy it is mandatory to perform risk and potential estimation of eventual presence of archaeological remains or sites of interest. Such activity can be highly demanding in terms of coordination of multiple expertise, time and costs. It requires gathering of bibliographical elements, accurate establishment of their locations and relations (often with inaccurate or generic descriptions), subjective interpretation and historical contextual estimation (Yaworsky et al. 2020). This requires to explore new solutions and develop new quantitative tools that can help in the detection, identification of archaeological sites. One promising solution is computational archaeological risk assessment. While modeling and prediction are a long standing subject of research (Nebbia et al. 2016, Arnoldus-Huyzendveld et al. 2015), the recent statistical, machine learning (ML), and, artificial intelligence (AI) developments provide new ways to improve the quality of assessment, reduce costs and provide objectivity to the estimation.</p>
+            </div>
+            <div type="div1">
+                <head>Related Works</head>
+                <p>There exists a plethora of technical chapters, journal papers, and conference proceedings, describing decision-making approach for the automatic evaluation of archaeological risk. However, there are very few examples reported in the literature of AI-based system for tackling this issue. The state of art methodological approaches proposed are based on multivariate statistical techniques such as Logistic Regression (Wachtel et al. 2018). Recently, researchers have started to explore more complex models, based on innovative applications of statistical and spatial computing, as well as on machine learning (ML) algorithms like random forests (Castiello 2022). However, applications of ML in the domain of archaeological risk assessment are very limited in literature.</p>
+            </div>
+            <div type="div1">
+                <head>Research Gap </head>
+                <p>Archaeological applications of predictive models encounter different underlying problems. Some issues are theoretical (e.g., limited a priori consideration of the decision variability on land use, a-theoretical selection of environmental variables), others are empirical (e.g., predictor data collinearity, insufficient spatial resolution of environmental data, failure to report dissimilarities in meaningful temporal and functional sites subsets), and some are analytical (e.g., improper or incomplete statistical models).</p>
+            </div>
+            <div type="div1">
+                <head>Proposed Approach </head>
+                <p>Considering the above, we coined a new concept: “Precision Archaeology” (PA). PA is an archaeological management concept based on observing, measuring and responding to inter and intra-field variability in land. The goal of precision Archaeology research is to define a decision support system (DSS) for whole archaeology management chain with the goal of optimizing returns on inputs while preserving resources.</p>
+                <p>DSS provides digital tools that enable the addition, the definition, and analytics of archeological sites, including artefacts. At its core, by using ML to perform statistical analysis, recommendation to understand similarity, and AI to model uncertainty, it enables an objective risk estimation that lowers the dependency on subjective expert sensibility. This is enabled by exploiting approaches based on neural networks in presence of few, noisy or unbalanced datasets (Li et al. 2019).</p>
+            </div>
+            <div type="div1">
+                <head>Significance of our Approach </head>
+                <p>By coining this new concept and clarifying its scope, we are paving the way for future research to have a clearer focus and a common ground to improve potential and risk forecasting as well as establish a new method for obtaining archaeological prescription maps. In fact, our study differs from the above-mentioned ones not only in that it results in both the assessment of the environmental factors and the elaboration of a predictive map for archaeological site location, but also in the implementation of an accurate procedure for the model evaluation and validation.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnoldus-Huyzendveld, A., Citter, C., Pizziolo, G.</author> (2015): "Predictivity-postdictivity: a theoretical framework", in: 
+                        <hi rend="italic">Proceedings of the 43rd Annual Conference on Computer Applications and Quantitative Methods in Archaeology</hi>, p. 593.
+                    </bibl>
+                    <bibl>
+                        <author>Castiello, M.E.</author> (2022): 
+                        <hi rend="italic">Computational and Machine Learning Tools for Archaeological Site Modeling</hi>, Springer Nature.
+                    </bibl>
+                    <bibl>
+                        <author>Hafner, A.</author> (2013): "Archaeological cultural assets in Switzerland - a resource in the field of tension between urban sprawl and densification", in: 
+                        <hi rend="italic">NIKE-Bulletin</hi>, 28(4), pp. 20-23.
+                    </bibl>
+                    <bibl>
+                        <author>Li, J., Socher, R., Hoi, S.C.</author> (2019): "DivideMix: Learning with Noisy Labels as Semi-Supervised Learning", in: 
+                        <hi rend="italic">International Conference on Learning Representations</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Nebbia, M., Leone, A., Bockmann, R., Hddad, M., Abdouli, H., Masoud, A.M., Elkendi, N.M., Hamoud, H.M., Adam, S.S., Khatab, M.N.</author> (2016): "Developing a collaborative strategy to manage and preserve cultural heritage during the Libyan conflict: The case of the Gebel Nafusa", in: 
+                        <hi rend="italic">Journal of Archaeological Method and Theory</hi>, 23(4), pp. 971-988.
+                    </bibl>
+                    <bibl>
+                        <author>Wachtel, I., Zidon, R., Garti, S., Shelach-Lavi, G.</author> (2018): "Predictive modeling for archaeological site locations: Comparing logistic regression and maximal entropy in north Israel and northeast China", in: 
+                        <hi rend="italic">Journal of Archaeological Science</hi>, 92, pp. 28-36.
+                    </bibl>
+                    <bibl>
+                        <author>Yaworsky, P.M., Vernon, K.B., Spangler, J.D., Brewer, S.C., Codding, B.F.</author> (2020): "Advancing predictive modeling in archaeology: An evaluation of regression and machine learning methods on the Grand Staircase-Escalante National Monument", in: 
+                        <hi rend="italic">PLoS One</hi>, 15(10), e0239424.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tracing the invisible translator: stylistic differences in the Dutch translations of the oeuvre of Swedish author Henning Mankell</title>
+                <author n="WijersMartjeWIJERS_Martje_Tracing_the_invisible_translator__stylistic_di.xml"><persName n="WijersMartje">
+                        <surname>Wijers</surname>
+                        <forename>Martje</forename>
+                    </persName><affiliation>University of Amsterdam, Netherlands, The</affiliation><email>m.wijers@uva.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this stylometric study, the oeuvre of the Swedish author Henning Mankell is scrutinized and compared to the Dutch translations of his work to find out to what extent the style is influenced by the translator. The main method used is Burrows' Zeta as proposed by Rybicki (2012).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>stylometry</term>
+                    <term>translation</term>
+                    <term>Swedish</term>
+                    <term>Dutch</term>
+                    <term>computational literary studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Baker (2000) stated that very little attention has been paid to personal style of translators in translation studies, due to the persistent idea that style is a characteristic of the original text only and that the style of a good translator is invisible. Since then, some attempts have been made to investigate translator’s style from a stylometric perspective. Rybicki (2012) applied stylometric authorship attribution methods, based on the Delta procedure for authorship attribution (Burrows, 2002) to compare translations in multiple corpora containing Polish, English and French translations. The Delta method is based on the most frequent words (MFWs) in the entire corpus. This method has proven to be highly successful in authorship attribution. However, Rybicki (2012) found that the Delta method could not identify different translator clusters, as it rather clusters texts by author. From these results, it could be concluded that, based on Burrow’s delta, translators are indeed invisible when it comes to style. </p>
+            <p>However, when translations of texts by the same author are compared, translators can in some cases be detected (Rybicki 2012, Rybicki &amp; Heydel 2013). Furthermore, Rybicki (2012) proposes other stylometric methods, like Burrow’s Zeta and Iota (Burrows, 2006) to investigate translator’s style, because they focus on middle and low frequency words and might be better suited for this purpose. Although recent studies have tried to solve the problem of translator attribution, they either focus on n-grams using machine learning (Lynch &amp; Vogel 2018; Ríos-Toledo et al., 2022) or on MFWs (Fang &amp; Liu, 2022). There are no studies, to my knowledge, that have tested Rybicki’s claim that Burrow’s Zeta and Iota are useful for looking at the translator’s style. Burrow’s Zeta (Burrows, 2006; Hoover, 2022) can be used to find distinctive words or n grams between texts or groups of texts. This way, translations from one translator can be compared to translations from other translations in the same genre and by the same author. </p>
+            <p> In this computational study, the oeuvre of one single Swedish author Henning Mankell is scrutinized using stylometric methods, mainly Burrow’s zeta, and his original works are then compared to their Dutch translations to investigate to what extent the results deviate from the same analyses in translated texts and to find out to what extent the style is influenced by the translator. The work of this one specific author is chosen, because it is hypothesized that this makes it easier to detect the style of the translator. Furthermore, the language combination Swedish-Dutch has not been compared in a similar stylometric study before and because the languages are closely related it is hypothesized that the translator is particularly difficult to find compared to more distinct language combinations (Lee, 2018). </p>
+            <p> The corpus compiled for the current study consists of 32 Swedish books written by Mankell in four genres: crime-fiction (N=15), literary novels (N=11), children’s books (N=4) and non-fiction (N=2). For comparison purposes, ten books by other best-selling Swedish writers were added to the corpus. The translation corpus contains 42 translations by 14 translators of all the above-mentioned works by Henning Mankell and other Swedish writers into Dutch. </p>
+            <p> A stylometric analysis was performed on the Mankell corpus using the R package Stylo (Eder et al 2016). The Stylo package automatically compiles a list of MFWs in the entire corpus and can compare word frequency patterns in the various texts, based on various procedures for authorship attribution. The results of the cluster analysis and the principal components analysis of the Swedish corpus show that novels cluster by author and genre rather than by translator, as expected by earlier findings. However, the results from the same stylometric analyses on the translated Dutch corpus show that the distances between Mankell and other authors are much smaller compared to the Swedish corpus. This implies that some of the author-specific style traits get lost in translation. A comparative analysis of texts by a specific translator to texts by other translators using Burrow’s Zeta, returns remarkably few function words, but is able to pinpoint some individual, lexical translator traits. </p>
+            <p> Other measures, such as lexical density (Standardized Type Token Ratio) and mean sentence length (as proposed by Baker, 2000) are also applied, as well as a Zeta analysis on n-grams. The results show that the translations score systematically lower than the Swedish originals on lexical density, whereas sentences are generally longer in the Dutch translations. By combining the various measures, the translator’s style can be unveiled. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Burrows, John </hi>(2002): "‘Delta’: a measure of stylistic difference and a guide to likely authorship." 
+                        <hi rend="italic">Literary and linguistic computing</hi>
+                         17.3: 267-287.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burrows, John </hi>(2006): All the way through: testing for authorship in different frequency strata. 
+                        <hi rend="italic">Literary and Linguistic Computing</hi>
+                        , 22(1), 27-47.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Baker, Mona </hi>(2000): Towards a methodology for investigating the style of a literary translator. 
+                        <hi rend="italic">Target. International Journal of Translation Studies</hi>
+                        , 
+                        <hi rend="italic">12</hi>
+                        (2), 241-266.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eder, Maciej / Rybicki, Jan / Kestemont, Mike </hi>(2016): Stylometry with R: a package for computational text analysis. 
+                        <hi rend="italic">R Journal</hi>
+                        , 8(1): 107-21. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fang, Yu /  Liu, Haitao </hi>(2022): Seeing various adventures through a mirror: Detecting translator’s stylistic visibility in Chinese translations of Alice’s Adventure in Wonderland. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        . Volume 38, Issue 1.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lee, Changsoo </hi>(2018): Do language combinations affect translators’ stylistic visibility in translated texts?. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        <hi rend="italic">33</hi>
+                        (3), 592-603.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lynch, Gerard / Vogel, Carl </hi>(2018): The translator’s visibility: Detecting translatorial fingerprints in contemporaneous parallel translations. 
+                        <hi rend="italic">Computer Speech &amp; Language</hi>
+                        , 
+                        <hi rend="italic">52</hi>
+                        , 79-104.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mohamed, Emad / Sarwar, Raheem / Mostafa, Sayed </hi>(2022): Translator attribution for Arabic using machine learning. 
+                        <hi rend="italic">Digital Scholarship in the Humanities.</hi>
+                        13 October 2022.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ríos-Toledo, Germán / Posadas-Durán, Juan Pablo Francisco / Sidorov, Grigori &amp; Castro-Sánchez, Noé Alejandro </hi>(2022): Detection of changes in literary writing style using N-grams as style markers and supervised machine learning. 
+                        <hi rend="italic">Plos one</hi>
+                        , 
+                        <hi rend="italic">17</hi>
+                        (7).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rybicki, Jan </hi>(2012): The great mystery of the (almost) invisible translator. 
+                        <hi rend="italic">Quantitative Methods in Corpus-Based Translation Studies: A practical guide to descriptive translation research</hi>,
+                        
+                        <hi rend="italic">231</hi>.
+                        
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rybicki, Jan / Heydel, Magdalena </hi>(2013): The stylistics and stylometry of collaborative translation: Woolf’s Night and Day in Polish. 
+                        <hi rend="italic">Literary and Linguistic Computing</hi>,
+                        
+                        <hi rend="italic">28</hi>
+                        (4), 708-717.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

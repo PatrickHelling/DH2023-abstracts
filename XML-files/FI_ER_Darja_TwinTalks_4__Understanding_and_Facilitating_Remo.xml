@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TwinTalks 4: Understanding and Facilitating Remote Collaboration in DH</title>
+                <author n="FierDarjaFI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml"><persName ref="https://orcid.org/0000-0002-9956-1689" n="FierDarja">
+                        <surname>Fišer</surname>
+                        <forename>Darja</forename>
+                    </persName><affiliation>CLARIN ERIC; Utrecht University</affiliation><email>darja.fiser@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KrauwerStevenFI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml"><persName ref="https://orcid.org/0000-0002-4236-2611" n="KrauwerSteven">
+                        <surname>Krauwer</surname>
+                        <forename>Steven</forename>
+                    </persName><affiliation>CLARIN ERIC; Institute of Contemporary History</affiliation><email>steven@clarin.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChambersSallyFI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml"><persName n="ChambersSally">
+                        <surname>Chambers</surname>
+                        <forename>Sally</forename>
+                    </persName><affiliation>DARIAH-EU; Ghent Centre for Digital Humanities</affiliation><email>sally.chambers@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BernadouAgiatisFI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml"><persName ref="https://orcid.org/0000-0001-5307-7851" n="BernadouAgiatis">
+                        <surname>Bernadou</surname>
+                        <forename>Agiatis</forename>
+                    </persName><affiliation>DARIAH-EU; Digital Curation Unit, ATHENA R.C.</affiliation><email>a.benardou@dcu.gr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanderLekCiudinIuliannaFI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml"><persName ref="https://orcid.org/0000-0002-0736-0311" n="vanderLekCiudinIulianna">
+                        <surname>van der Lek-Ciudin</surname>
+                        <forename>Iulianna</forename>
+                    </persName><affiliation>CLARIN ERIC</affiliation><email>iulianna@clarin.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>While remote collaboration is not new in DH, it has had a profound impact on the DH research, education and community in the past couple of years due to the health, security and financial crises. If absorbed appropriately, it can also prove beneficial in overcoming the various environmental, geographical, mobility and other barriers in the future, making DH more resilient, inclusive and diverse. This is why the main objective of the proposed workshop is to develop a better understanding of the dynamics on the Digital Humanities work floor when researchers, teachers and/or professionals with different areas of competence engage in remote collaboration to solve humanities research questions, and to explore how education and training of humanities scholars, cultural heritage professionals and technical experts can help making remote collaboration across disciplines more efficient and effective, more creative and innovative, and more inclusive and rewarding for all participants. To this end, we invite submissions reporting on all aspects and stages of engaging in remote collaborative research and teaching in DH, including the obstacles encountered and solutions found. We are also welcoming position papers on the role of research infrastructures to better facilitate remote collaboration in DH.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>interdisciplinarity</term>
+                    <term>collaborative practices</term>
+                    <term>research</term>
+                    <term>training</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p>While remote collaboration is not new in DH, it has had a profound impact on the DH research, education and community in the past couple of years due to the health, security and financial crises. If absorbed appropriately, it can also prove beneficial in overcoming the various environmental, geographical, mobility and other barriers in the future, making DH more resilient, inclusive and diverse, and more accessible. This is why the main objective of the proposed workshop is to develop a better understanding of the dynamics on the Digital Humanities work floor when researchers, teachers and/or professionals with different areas of competence engage in remote collaboration to solve humanities research questions, and to explore how education and training of humanities scholars, cultural heritage professionals and technical experts can help making remote collaboration across disciplines more efficient and effective, more creative and innovative, and more inclusive and rewarding for all participants. To this end, 
+                    <hi rend="bold">we invite submissions reporting on all aspects and stages of engaging in remote collaborative research and teaching in DH</hi>, including the obstacles encountered and solutions found. We are also welcoming 
+                    <hi rend="bold">position papers on the role of research infrastructures to better facilitate remote collaboration in DH</hi>.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Background</head>
+                <p>Research in the Humanities in a very broad sense (including both Cultural Heritage Studies and Social Sciences) can only benefit maximally from new developments in technology if researchers and professionals with different capabilities team up. This situation is very similar to the hard sciences, where research is done in teams working on a specific problem, where everybody brings in his/her specific content and technical expertise and skills. Co-design, co-development and co-creation are the rule rather than the exception, and the proposers want to investigate how this could be supported and facilitated in the disciplines mentioned above. This endeavour is all the more difficult when conducted remotely which most research teams, lecturers and students in all parts of the world have been forced to engage in due to the pandemic, war and/or financial crisis. With this workshop, we would like to acknowledge the immense effort by the community to continue their work as best as possible but also to use it as a learning opportunity to enable more successful and more rewarding remote collaboration among members of the DH community in the future in order to overcome as many geographical, environmental, socioeconomic, political and mobility barriers as possible, thereby increasing accessibility for all, and co-creating a more inclusive, diverse and resilient DH world. In the rest of this proposal, we will use the term humanities in the broad sense described above, and digital humanities to refer to humanities research using digital data, tools and methods.</p>
+                <p>The proposed workshop is a follow-up of three previous successful TwinTalks workshops that have taken place at various DH conferences from 2019 onwards.
+                    <ref target="#FI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml_ftn1" n="1"/></p>
+                <p>Whereas in the previous workshops, the focus was on analysing what went on the work floor from the perspective of the researchers, and on identifying possible obstacles for collaboration, as well as in the day of a humanities or digital humanities educator who has experience in bridging the gap between humanities and technical skills, with this workshop we aim to gain insight into the new dynamics, communication practices and workflows of doing and teaching DH remotely, strongly influenced by the pandemic on the one hand and increasingly better access to technological facilities to support this on the other.</p>
+            </div>
+            <div type="div1">
+                <head>Objectives</head>
+                <p>The main objective of the proposed workshop is to develop a better understanding of the dynamics on the Digital Humanities work floor when researchers, teachers and/or professionals with different – but often overlapping – areas of competence engage in remote collaboration to solve humanities research questions, and to explore how education and training of humanities scholars, cultural heritage professionals and technical experts can help to make remote collaboration across disciplines more efficient and effective, more creative and innovative, and more inclusive and rewarding for all participants. To this end, we invite submissions reporting on all aspects and stages of engaging in remote collaborative research and teaching in DH, including the obstacles encountered and solutions found. We are also welcoming position papers on the role of research infrastructures to better facilitate remote collaboration in DH. The insights gained should help those involved in the education of humanities scholars, professionals and technical experts alike to develop better training programmes, tailored towards the needs of a diverse group of potential learners.</p>
+            </div>
+            <div type="div1">
+                <head>Audience</head>
+                <p>Researchers, cultural heritage professionals, educators, scientific programmers, Research Infrastructure operators and policymakers with a special interest in creating the conditions where people with humanities research skills and technical expertise (or both) can fruitfully collaborate in answering humanities research questions remotely.</p>
+            </div>
+            <div type="div1">
+                <head>Workshop Format</head>
+                <p>The programme starts with an invited talk by a prominent speaker, which will set the scene for the rest of the day. The main component of the workshop programme consists of two types of (submitted) talks:</p>
+                <list type="unordered">
+                    <item><hi rend="italic">Twin talks</hi>, i.e. talks presented by pairs or teams consisting of someone rooted primarily in humanities research (with a 
+                        <hi rend="bold">humanities research problem</hi>, i.e. not a technical problem or tool), someone with a more technical background who has contributed technical capabilities to arrive at the answers, and/or a cultural heritage professional whose collection knowledge has contributed to the development of the research corpus. Talks usually consist of three parts, followed by questions from the audience. In the first part, the humanities research question is the point of focus, while in the second part, the technical aspects of the research are highlighted. In the third part, these perspectives come together, as the team describes how the remote collaboration went, including obstacles that were encountered, and how better training and education could help to make collaboration more efficient and effective.
+                    </item>
+                    <item><hi rend="italic">Teach talks</hi> by people with experience with or interesting ideas about how 
+                        <hi rend="bold">remote cross-discipline collaboration</hi> is or can be addressed in curricula or other training activities.
+                    </item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Submissions </head>
+                <p>What we expect from the submissions for the Twin Talks track:</p>
+                <list type="unordered">
+                    <item>They are authored and presented by one or more humanities scholars and one or more digital experts</item>
+                    <item>They start from a humanities research question (i.e. not a technical question, a presentation of a tool, a platform or a data collection)</item>
+                    <item>They describe the remote research carried out jointly and its results</item>
+                    <item>They describe the technical aspects of the methods used and the results obtained</item>
+                    <item>They analyse the way the scholars and the technicians collaborated remotely, addressing issues such as (but not limited to):
+                        <list type="unordered">
+                            <item>What was easy and what was difficult, and why?</item>
+                            <item>How did the researchers, technicians or cultural heritage professionals change each other’s way of looking at things?</item>
+                            <item>Did they, for instance, make each other aware of blind spots they had?</item>
+                            <item>Did the combination of thinking from a DH research question and thinking from a technical solution lead to new insights?</item>
+                            <item>How could better training or education of scholars and digital experts make remote collaboration easier, more effective and more efficient?</item>
+                        </list></item>
+                </list>
+                <div type="div2">
+                    <head>Submission Instructions</head>
+                    <list type="unordered">
+                        <item><hi rend="bold">Format</hi>: PDF. For format instructions, see main DH conference guidelines.
+                            </item>
+                        <item><hi rend="bold">Size</hi>: Extended abstracts, size ca 4-8 pages (between 2000-4000 words), covering research questions and answers, technical aspects and collaboration experience for Twin Talks, or relevant educational experience for Teach Talks.
+                            </item>
+                        <item><hi rend="bold">Publication</hi>: The workshop proceedings will be published at CEUR-WS.
+                            </item>
+                        <item><hi rend="bold">Submission URL</hi>: EasyChair 
+                            </item>
+                    </list>
+                </div>
+                <div type="div2">
+                    <head>Important Dates</head>
+                    <list type="unordered">
+                        <item>March 15: CfP out</item>
+                        <item>May 15: Submission deadline</item>
+                        <item>June 15: Notification</item>
+                        <item>June 30: Deadline for final papers</item>
+                        <item>July 10: Workshop</item>
+                    </list>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Programme (full day)  </head>
+                <p>Morning:</p>
+                <list type="unordered">
+                    <item>Opening and introduction</item>
+                    <item>Invited talk</item>
+                    <item>Coffee break</item>
+                </list>
+                <p>TwinTalks and TeachTalks</p>
+                <p>Lunch break</p>
+                <p/>
+                <p>Afternoon:</p>
+                <list type="unordered">
+                    <item>TwinTalks and TeachTalks</item>
+                    <item>Coffee break</item>
+                    <item>Plenary round table discussion of what we can learn from the presentations</item>
+                    <item>Winding up</item>
+                    <item>Closing</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Practicalities</head>
+                <list type="unordered">
+                    <item>Expected number of participants: 35</item>
+                    <item>Technical requirements: projector plus PC or laptop with internet connection</item>
+                    <item>Expenses: funding for the invited speaker to be provided by CLARIN</item>
+                    <item>The workshop language is English</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Organisers</head>
+                <p>The workshop is a joint initiative by European SSH Research Infrastructures <ref target="http://www.clarin.eu">CLARIN-ERIC</ref> and <ref target="https://www.dariah.eu/">DARIAH-EU</ref>. </p>
+                <div type="div2">
+                    <head>Chairs and Organisers</head>
+                    <list type="unordered">
+                        <item>Steven Krauwer (CLARIN ERIC / Utrecht University, Netherlands; steven@clarin.eu)</item>
+                        <item>Darja Fišer (CLARIN ERIC / Institute of Contemporary History, Slovenia; darja.fiser@inz.si)</item>
+                        <item>Iulianna van der Lek-Ciudin (CLARIN ERIC, Netherlands; iulianna@clarin.eu)</item>
+                        <item>Sally Chambers (DARIAH-EU / Ghent Centre for Digital Humanities, Belgium, sally.chambers@dariah.eu ) </item>
+                        <item>Agiatis Benardou (DARIAH-EU / Digital Curation Unit, ATHENA R.C., Athens, Greece. agiatis.benardou@dariah.eu)</item>
+                    </list>
+                </div>
+                <div type="div2">
+                    <head>PC 
+                            Members 
+                        </head>
+                    <list type="unordered">
+                        <item>Bente Maegaard (CLARIN / University of Copenhagen, Denmark)</item>
+                        <item>Barbara McGillivray (King's College London &amp; The Alan Turing Institute, UK)</item>
+                        <item>Benjamin Wiggins (University of Manchester, UK)</item>
+                        <item>Eleni Gouli (Academy of Athens, Greece)</item>
+                        <item>Francesca Frontini (CNR, Italy &amp; CLARIN ERIC)</item>
+                        <item>Frank Uiterwaal (EHRI / NIOD / KNAW, Netherlands)</item>
+                        <item>Folgert Karsdorp (Meertens Institute, KNAW, Netherlands)</item>
+                        <item>Geoffrey Rockwell (University of Alberta, Canada)</item>
+                        <item>Hitoshi Isahara (Center for IT-Based Education, Japan)</item>
+                        <item>Koenraad De Smedt (CLARINO, University of Bergen, Norway)</item>
+                        <item>Kristen Mapes (Michigan State University, USA)</item>
+                        <item>Maciej Maryl (Polish Academy of Sciences, Poland)</item>
+                        <item>Maria Gavrilidou (Institute for Language and Speech Processing, Athens, Greece)</item>
+                        <item>Menno Van Zaanen (South African Centre for Digital Language Resources, South Africa)</item>
+                        <item>Milena Dobreva (Sofia University “St. Kliment Ohridski”, Bulgaria)</item>
+                        <item>Mikko Tolonen (University of Helsinki, Finland)</item>
+                        <item>Radim Hladik (Academy of Sciences, Czech Republic)</item>
+                        <item>Ulrike Wuttke (University of Applied Sciences Potsdam, Germany)</item>
+                        <item>Vicky Garnett (Trinity College Dublin, Ireland)</item>
+                    </list>
+                </div>
+            </div>
+           
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="FI_ER_Darja_TwinTalks_4__Understanding_and_Facilitating_Remo.xml_ftn1">
+                        <ref target="https://ceur-ws.org/Vol-2365/"><hi rend="superscript">TwinTalks 1 proceedings</hi></ref>; 
+                            <ref target="http://www.parthenos-project.eu/clarin-and-parthenos-twintalks"><hi rend="superscript">TwinTalks 1 blog</hi></ref>; 
+                            <ref target="https://ceur-ws.org/Vol-2717/"><hi rend="superscript">TwinTalks 2+3 proceedings</hi></ref>
+                    </note></div><div type="bibliogr">
+                
+            </div></back>
+    </text></TEI>

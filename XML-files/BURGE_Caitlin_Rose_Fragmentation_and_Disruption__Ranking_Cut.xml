@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmentation and Disruption: Ranking Cut-Points in Epistolary Networks at the Court of Henry VIII</title>
+                <author n="BurgeCaitlinRoseBURGE_Caitlin_Rose_Fragmentation_and_Disruption__Ranking_Cut.xml"><persName n="BurgeCaitlinRose">
+                        <surname>Burge</surname>
+                        <forename>Caitlin Rose</forename>
+                    </persName><affiliation>University of Luxembourg, Luxembourg</affiliation><email>caitlin.burge@uni.lu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper develops a mode of ranking the impact of cut-points and their removal in network analysis, considering the extent to which fragmentation and disruption can be intrepreted as new measures of power, and applying experiments to an epistolary network at the Tudor court to demonstrate potential historical application.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>This paper develops a mode of ranking the impact of cut-points and their removal in network analysis, considering the extent to which fragmentation and disruption can be intrepreted as new measures of power, and applying experiments to an epistolary network at the Tudor court to demonstrate potential historical application.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>cut-points</term>
+                    <term>networks</term>
+                    <term>letters</term>
+                    <term>power</term>
+                    <term>fragmentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>As network analysis becomes more widely utilised amongst digital humanists to study connections between actors, so too grows the desire to quantify and measure importance and power within these interaction structures. Finding actors of structural significance holds implications not only in historical networks, uncovering people linking disparate communities or sitting at the centre of information systems, but has real contemporary applications, most significantly for security and defence agencies (Ahnert et al. 2020). In his canonical paper ‘The Key Player Problem’ Stephen Borgatti separated influential actors in a network into two categories: those that would “maximally disrupt communication” or those that are “maximally connected” (Borgatti 2003: 1). In doing so, Borgatti suggested identifying cut-points – nodes which, when removed, separate one component of the network into two or more distinct components – as “the most obvious” means of finding those most likely to disrupt communication in the network (Borgatti 2003: 4).</p>
+            <p>Yet whilst 
+                <hi rend="bold">identifying</hi> cut-points has become a well-practiced aspect of network analysis, there still remains questions over 
+                <hi rend="bold">ranking</hi> these nodes, and how to quantify or measure their impact of their removal on the network. In what ways and to what extent does a cut-point fragment or disrupt a network? How many new components does their removal create, and what ‘damage’ do they cause to the main component of a network? Though Borgatti (2003) developed equations for measuring cut-point fragmentation, when using NetworkX – the coding library designed for network analysis with Python – cut-points are returned as a list, that merely identifies whether the node separates elements of a component or not, and does not measure the extent of this fragmentation, either by number of nodes separated or size of new components created. Actors are selected as cut-points whether their removal disconnects one node or one hundred. 
+            </p>
+            <p>This paper therefore develops Borgatti’s (2003) fragmentation equations into adaptable and re-usable Python code, assessing the nodes selected by the pre-existing NetworkX cut-point function in three key measurements: the number of new components created by the removal of a cut-point; the size of the remaining Giant Component, as well as the second largest component remaining in the graph; and the average length of the shortest path in the Giant Component. In measuring the impact of a cut-points removal in several different ways, these experiments not only distinguish between low-impact and high-impact removals, but also consider the myriad of ways a removal may ‘damage’ a structure (Newman et al. 2006: 556). In doing so, it moves beyond basic understandings of these cut-points as merely ‘cutting’ and demonstrates that these measures offer greater understanding not only of individual actors but the structures around them as well. Finally, comparing these rankings to commonly used network centrality measurements – degree, betweenness, and eigenvector centrality – demonstrates that these cut-point experiments are not merely a replication of existing measurements, but a valuable contribution to understandings of importance in social networks. </p>
+            <p>Applying these developed measures to a case study on epistolary networks at the court of Henry VIII between 1534 and 1540, this paper demonstrates how these quantitative experiments offer new perspectives on traditional historical narratives, using metadata collected and cleaned by Ruth and Sebastian Ahnert as part of the 
+                <hi rend="italic">Tudor Networks of Power</hi> project. Primarily, these measures offer a means to test existing historical assessments: Thomas Cromwell, Henry VIII’s chief advisor, for example, ranks first in all three outlined measures, bolstering arguments by G. R. Elton that Cromwell was the “unifying factor” of Tudor governance (Elton 1953: 223). More than this, however, by ‘confirming’ what is already known, these measures also act as a means of uncovering new avenues of potential inquiry. As Ahnert and Ahnert (2015) have shown, establishing structural roles and profiles in an epistolary network may offer insight into specific societal roles. Ranking different types of cut-point impacts similarly demonstrates specific categories of actors, and acts as a new framework through which to interrogate both the actors and the available sources. Nodes with a high-ranking in number of new components but low impact on the Giant Component are most likely accidental preservations or deliberate interceptions, such as the French merchant Jehan Lange. In contrast, nodes with a high-ranking in impact on the Giant Component who do not create multiple new components are often leaders of subgroups or key brokers in the network, such as Robert Aske, a key leader of the Pilgrimage of Grace revolution.
+            </p>
+            <p>As such these measures also offer a wider sense of the archives, and different contributions to it. Whilst recent research has demonstrated how historical networks based on archival data respond to 
+                <hi rend="bold">random</hi> removals of actors or materials (Ryan / Ahnert 2021; Carley et al. 2002), these experiments map the archives in a way that bring the contributions of writers as individuals and personalities to the fore. By applying these measures to a historical dataset and considering what this may inform us about power and influence at the Tudor court, this paper not only contributes to ongoing technical discourse around cut-points in communication networks, but points to the value this method will hold for other historical datasets and debates.
+            </p>
+            <p>This paper reflects on ‘Collaboration as Opportunity’ by considering the ways collaborating and connecting across communication structures – as a potential cut-point would – offers opportunity for influence and power. By developing adaptable and re-usable code, this paper also demonstrates the collaborative possibilities of network analysis itself, designing novel quantitative methodologies for qualitative queries.</p>
+            <p>The code used for this paper can be found at 
+                <ref target="https://gitfront.io/r/user-8399541/J6jRC6PpHWAM/CutPoint/">https://gitfront.io/r/user-8399541/J6jRC6PpHWAM/CutPoint/</ref></p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ahnert, Ruth</author> / <author>Ahnert, Sebastian E.</author>  (2015): “
+                        <hi rend="italic">Protestant Letter Networks in the Reign of Mary I: A Quantitative Approach”, in: ELH</hi> 82: 1-33.
+                    </bibl>
+                    <bibl>
+                        <author>Ahnert, Ruth</author> / <author>Ahnert, Sebastian E.</author> / <author>Coleman, Catherine Nicole</author> / <author>Weingart, Scott B.</author> (2020) 
+                        <hi rend="italic">The Network Turn: Changing Perspectives in the Humanities.</hi> Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Borgatti, Stephen P.</author> (2003): “The Key Player Problem”, in: Breiger, Ronald / Carley, Kathleen / Pattison, Philippa (eds.): 
+                        <hi rend="italic">Dynamic Social Network Modeling and Analysis: Workshop Summary and Papers.</hi> Washington: The National Academies Press. 241-252.
+                    </bibl>
+                    <bibl>
+                        <author>Carley, Kathleen M.</author> / <author>Lee, Ju-Sung</author> / <author>Krackhardt, David</author>  (2002): “Destabilizing Networks”, in: 
+                        <hi rend="italic">Connections</hi> 24, 3: 79-92.
+                    </bibl>
+                    <bibl>
+                        <author>Elton, G. R. </author>(1953): 
+                        <hi rend="italic">Tudor Revolution in Government. </hi>Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Newman, Mark</author> / <author>Watts, Duncan J.</author> / <author>Barabási, Albert-László</author>  (2006): 
+                        <hi rend="italic">The Structure and Dynamics of Networks. </hi>Princeton: Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Ryan, Yann C.</author> / <author>Ahnert, Sebastian E.</author> (2021): “The Measure of the Archive: The Robustness of Network Analysis in Early Modern Correspondence”, in: 
+                        <hi rend="italic">Journal of Cultural Analytics </hi>7: 57-88.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From unstructured texts to RDF-star-based open research data queryable by references</title>
+                <author n="AlassiSepidehALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml"><persName ref="https://orcid.org/0000-0002-5627-9501" n="AlassiSepideh">
+                        <surname>Alassi</surname>
+                        <forename>Sepideh</forename>
+                    </persName><affiliation>University of Basel, Switzerland</affiliation><email>sepideh.alassi@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Humanities textual data is full of references to persons and locations given in various languages. Researchers want to perform queries to retrieve data, in which a certain place or a person is mentioned, irrespective of the language of the text. In this paper, I present how we automatically extract named entities (geolocation information and person references) from textual data and homogenize and store them as Linked Open Data (LOD) with unique identifiers such as the GeoName ID and the GND (Gemeinsame Normdatei) number. Then the plain references in the text are substituted with standoff links to the corresponding RDF resources and the textual document is stored in RDF format. This enables humanities scholars to perform advanced SPARQL queries to collect textual resources containing specific references regardless of the language of the text. Furthermore, the relations between these named entities can be parsed from the text based on ontology definition, dependency graph of sentences, and POS tags to be added to the knowledge graph. Since the citability of the information is crucial for humanities research, this workflow adds the metadata regarding the source document of extracted information to the edges of the knowledge graph using RDF-star. This allows queries for documents containing a certain relationship between entities through SPARQL-star.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>NLP</term>
+                    <term>NER</term>
+                    <term>dependency parsing</term>
+                    <term>RDF-star</term>
+                    <term>LOD</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>linked (open) data</term>
+                    <term>natural language processing</term>
+                    <term>Computer science</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Automated extraction of information from text and its transformation into machine readable data enables efficient query of information. Strategies have been presented for extraction and linking of named entities from texts with knowledge graph individuals, and their association with grammatical units that lead to producing more coherent facts (Martinez-Rodriguez et al 2018, p.339). These strategies rely on approaches using Information Extraction to populate the Semantic Web and/or using Semantic Web resources to improve Information Extraction (Martinez-Rodriguez, et.al 2016). Projects like LODifier take the unilateral approach to populate a knowledge graph based on automatic extraction of named entities and their relations from unstructured English texts (Augenstein et all 2012). Our project takes the bilateral approach to semantically link text documents in different languages that have references in common. This would make the texts queryable by references irrespective of the language of the text. Moreover, this project attempts to extract the relations between named entities to augment the knowledge graph. Metadata such as the source of the information can be expressed as a statement about a statement using RDF-star technology; adding the metadata to the edges of the graph. This is particularly useful for citation as well as metadata-based query of data without dealing with deficits of standard RDF such as reification (Alassi, Rosenthaler 2022). This project focuses on extracting and linking three entries from unstructured texts in different languages: locations, persons, and their relations. The project workflow is described using the texts in English, German, and Persian in Figure 1. </p>
+            <figure>
+                <graphic n="1001" width="12.832355555555555cm" height="6.074805555555556cm" url="Pictures/97f2b576178270195a0b159fa0b902f0.png" rend="inline"/>
+                <head>Figure 1. Test texts.</head>
+            </figure>
+            <p>An RDF-star based ontology is defined for this project using the existing ontologies such as 
+                <hi rend="bold">foaf</hi><ref target="#ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn1" n="1"/> and 
+                <hi rend="bold">dbo</hi><ref target="#ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn2" n="2"/> by making subclasses and sub-properties, see Figure 2.
+            </p>
+            <figure>
+                <graphic n="1002" width="9.637058333333334cm" height="6.199222222222223cm" url="Pictures/9334a88651faf9052a1e376623f08945.png" rend="inline"/>
+                <head>Figure 2. Ontology.</head>
+            </figure>
+            <p>Figure 3 illustrates the first stage of the workflow where the references to locations and persons are extracted from the input texts using named entity recognition (NER) processes and pretrained language models. For each recognized entity, information required by the ontology are retrieved from Wikidata. GND numbers for persons and Geoname IDs for locations are used to unify the entities given in different languages. The results of the NER and information retrieval from Wikidata are verified and missing identifiers are added. The knowledge graph is then populated with extracted information creating resources for location and person entities. Next, references to entities are replaced in texts with standoff links to the corresponding resources using their IRIs and documents are stored with enriched textual bodies. </p>
+            <figure>
+                <graphic n="1003" width="16.51cm" height="6.879166666666666cm" url="Pictures/5ee4ca7eddbc70bff470210b6367fa8d.png" rend="inline"/>
+                <head>Figure 3. Workflow of stage 1.</head>
+            </figure>
+            <p>In this way, documents with references in common are linked, see Figure 4. Now we can query for all documents mentioning a specific person or a location. For example, a query for texts with reference to a location with name “Geneva” would return all documents in which this location is referenced in any language “Geneva”, “Genf”, “ژنو”, etc. </p>
+            <figure>
+                <graphic n="1004" width="14.194116666666666cm" height="7.608108333333333cm" url="Pictures/d79071caddf42903ea220269fe5202a3.png" rend="inline"/>
+                <head>Figure 4. Excerpt of the graph.</head>
+            </figure>
+            <p>In the second stage of the workflow (Figure 5) semantic web resources are utilized to improve extraction of the relations between named entities (locations and persons). Based on the defined ontology, dependency graphs of sentences, and part of speech (POS) tags, the relations between named entities are extracted from the text. The definitions of resource classes and predicates together with their subject and object class constraints are considered as parsing rules. For example, predicate “
+                <hi rend="bold">livedIn</hi>” has subject type 
+                <hi rend="bold">Person</hi> and object type 
+                <hi rend="bold">Location</hi>, thus, only relations are considered where subject of the sentence is a person entity, object (of proposition) is a location entity, and the lemmatized form of the verb is “live” with the proposition “in”. The gender information of persons are used for pronoun resolution. The resources representing the named entities of a sentence are put in a LIFO stack to be used for backwards resolution of personal pronouns in the succeeding sentence.
+            </p>
+            <figure>
+                <graphic n="1005" width="14.52061111111111cm" height="6.9671cm" url="Pictures/9314454bd10ea791795232976299ec82.png" rend="inline"/>
+                <head>Figure 5. Workflow of stage 2.</head>
+            </figure>
+            <p>The source document is added to the edges of the graph through 
+                <hi rend="bold">mentionedIn</hi> predicate (Figure 6). RDF-star triple below represents the source of the triple 
+                :euler :livedIn :berlin.
+            </p>
+            <p>&lt;&lt;:euler :livedIn :berlin &gt;&gt; :mentionedIn :en_swiss .</p>
+            <p>Through SPARQL-star, one can then query for documents containing a certain relationship between entities. </p>
+            <figure>
+                <graphic n="1006" width="11.352391666666668cm" height="5.523375cm" url="Pictures/a3dceb6a38473a23f00ba7de066a4a55.png" rend="inline"/>
+                <head>Figure 6. Excerpt of the RDF-star Graph.</head>
+            </figure>
+            <p>The first stage of the workflow is configurable to use either
+                <hi rend="italic"> flair</hi><ref target="#ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn3" n="3"/> or 
+                <hi rend="italic">spaCy</hi><ref target="#ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn4" n="4"/> for NER. However, spaCy is used for dependency parsing because it utilizes Stanford-type dependency terminology (de Marneffe, Manning 2016). The second stage of the workflow currently supports only English texts and will be extended to German texts.
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn1">
+                    <ref target="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</ref>.
+                    
+                </note><note n="2" xml:id="ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn2">
+                     https://www.dbpedia.org/resources/ontology/.
+                </note><note n="3" xml:id="ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn3">
+                     https://github.com/flairNLP/flair
+                </note><note n="4" xml:id="ALASSI_Sepideh_From_unstructured_texts_to_RDF_star_based_ope.xml_ftn4">
+                     https://spacy.io/
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Augenstein, I., Padó, S., Rudolph, S.</author>: LODifier: Generating linked data from unstructured text. In: The Semantic Web: Research and Applications. Volume 7295 of LNCS. Springer Berlin (2012) 210–224</bibl>
+                    <bibl><author>Alassi, Sepideh, Rosenthaler Lukas</author>, “RDF-star-based Digital Edition of Travel Journals.”, DH2022 Tokyo, 2022.</bibl>
+                    <bibl><author>Martinez-Rodriguez, Jose L., Ivan López-Arévalo, and Ana B. Rios-Alvarado</author>. "Openie-based approach for knowledge graph construction from text." Expert Systems with Applications 113 (2018): 339-355.</bibl>
+                    <bibl><author>Martinez-Rodriguez, Jose L., Aidan Hogan, and Ivan López-Arévalo</author>. "Information Extraction meets semantic web: A survey.”</bibl>
+                    <bibl><author>De Marneffe Marie-Catherine, Christopher D. Manning</author>, “Stanford typed dependencies manual”, 2016. Available at https://downloads.cs.stanford.edu/nlp/software/dependencies_manual.pdf </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

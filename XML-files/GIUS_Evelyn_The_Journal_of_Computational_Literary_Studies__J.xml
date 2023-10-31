@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Journal of Computational Literary Studies (JCLS): Community, review, and editorial workflow in an Open Access Journal </title>
+                <author n="GiusEvelynGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0001-8888-8419" n="GiusEvelyn">
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>evelyn.gius@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchchChristofGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0002-4557-2753" n="SchchChristof">
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName><affiliation>University of Trier, Germany</affiliation><email>schoech@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TrilckePeerGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0002-1421-4320" n="TrilckePeer">
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName><affiliation>University of Potsdam, Germany</affiliation><email>trilcke@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GerstorferDominikGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0002-8095-2540" n="GerstorferDominik">
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>dominik.gerstorfer@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GuhrSvenjaGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0002-7686-3609" n="GuhrSvenja">
+                        <surname>Guhr</surname>
+                        <forename>Svenja</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>svenja.guhr@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RipollElodieGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0003-4782-769X" n="RipollElodie">
+                        <surname>Ripoll</surname>
+                        <forename>Elodie</forename>
+                    </persName><affiliation>University of Trier, Germany</affiliation><email>ripoll@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SluyterGthjeHennyGIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml"><persName ref="https://orcid.org/0000-0003-2969-3237" n="SluyterGthjeHenny">
+                        <surname>Sluyter-Gäthje</surname>
+                        <forename>Henny</forename>
+                    </persName><affiliation>University of Potsdam, Germany</affiliation><email>sluytergaeth@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster reports on the experiences of launching a publisher-independent OA journal, the Journal of Computational Literary Studies (JCLS) and reflects the workflow established so far. It also discusses openess as a practice of opening up diversified communication spaces with regard to community involvement, peer reviewing, and the publishing workflow.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Open Access</term>
+                    <term>Journal</term>
+                    <term>Publishing</term>
+                    <term>Publishing Workflow</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>open access methods</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The Open Access (OA) transformation of the scholarly publishing system has not only initiated a reconceptualization of access to knowledge as well as a reorientation of the financing of scholarly publishing. It is also accompanied by new institutional forms of organization and new workflows (e.g., Wissenschaftsrat 2021). In addition to openness as access, other scenarios of openness are therefore emerging. Especially where OA publishing media are founded without the participation of established publishers, the roles, logics, and conventions of scholarly publishing can currently be renegotiated and possibly even reinvented. </p>
+                <p>On our poster, we would like to report on the work-in-progress of launching a publisher-independent OA journal in the Digital Humanities, the 
+                    <hi rend="italic">Journal of Computational Literary Studies</hi> (JCLS, cf. 
+                    <ref target="https://jcls.io/">https://jcls.io/</ref>). We will present and reflect the workflow we have established in the last two years. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>The Journal of Computational Literary Studies (JCLS)</head>
+                <p>JCLS is an international Diamond Open Access journal with no fees for either writers or readers. It provides a publication platform for work on the development, application, and critique of computational approaches to literary studies. The journal was founded at a time when Computational Literary Studies (CLS) has gained visibility in the context of the increasing differentiation of the Digital Humanities. </p>
+                <p>Institutionally, JCLS has been established as a publisher-independent journal, run in cooperation of three professorships at different universities (in the role of editors) and with an editorial board composed of 21 international experts in the field who are quite diverse in terms of geography, career stage, languages, gender, and research interests. The University and State Library Darmstadt acts) as an infrastructure partner, ensuring the long-term availability of the published articles (in PDF, XML, HTML and LaTeX) and providing the Python-based editorial management and publication system Janeway through a cooperation with the non-profit Open Library of Humanities (OLH). Janeway  is developed as open source software by OLH (Eve and Byers 2018). OLH also acts as an infrastructure partner, not as a publisher. Due to this structure, in which limited in-kind contributions come together from several sources, we are able to run JCLS as an APC-free Open Access journal. </p>
+            </div>
+            <div type="div1">
+                <head>A new community hub for Computational Literary Studies</head>
+                <p>JCLS's first call for papers was issued in Fall 2021.
+                    <ref target="#GIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml_ftn1" n="1"/> Its first rolling issue with 12 articles has been published in winter 2022. Based on our experiences so far having run through the whole publication process once, we would like to outline the aspects of community, review, and editorial workflow. We consider these aspects crucial for development and opening up in the publication system. 
+                </p>
+                <p>While traditional journals see themselves primarily as service providers, publication media are currently increasingly acting as 
+                    <hi rend="italic">community</hi> hubs. These interact with their community beyond the publication of scientific content and create event-based spaces for the community. With regard to this JCLS has, among other things, established an annual conference.
+                    <ref target="#GIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml_ftn2" n="2"/></p>
+            </div>
+            <div type="div1">
+                <head>Two-stage peer review for scientific quality assurance</head>
+                <p>There are increasing calls for a consistent switch of scientific quality assurance to open peer review (cf. Ross-Hellauer 2017 and, for DH, Burghardt et al. 2022). Nevertheless, international mechanisms of tenure and promotion in particular currently still argue in favor of double-blind peer review. JCLS has therefore opted for a double blind peer review process, following a majority vote of the editorial board. At the same time, we integrate a phase of open, collaborative review into the quality assurance process in the context of conference paper issues, which incorporates ideas of open peer review.</p>
+            </div>
+            <div type="div1">
+                <head>Collaborative online-based workflow</head>
+                <p>With JCLS, we have also taken the first steps towards an online-based workflow in which texts can be collaboratively written in a web-based LaTeX editor with Git connection based on a dedicated LaTeX template that is made available for re-use.
+                    <ref target="#GIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml_ftn3" n="3"/> Reviewers are given the opportunity to anonymously suggest changes directly in this online document. A further development of this workflow will enable direct, API-based communication between the systems for editing, reviewing, and publishing. This integrated workflow is intended as solving typical editorial problems with versioning and hurdles for collaborative text editing, as well as avoiding extra work. 
+                </p>
+                <p>In our experience with JCLS, openness proves to be a practice of opening up diversified communication spaces with regard to community involvement, peer reviewing, and the publishing workflow. By presenting these opportunities together with the challenges they bring, we also want to encourage a broad exchange about designing independent OA journals.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="GIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml_ftn1">
+                        <ref target="https://jcls.io/site/cfp21-22/">https://jcls.io/site/cfp21-22/</ref>.
+                    </note><note n="2" xml:id="GIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml_ftn2">
+                        <ref target="https://jcls.io/site/conference/">https://jcls.io/site/conference/</ref>.
+                    </note><note n="3" xml:id="GIUS_Evelyn_The_Journal_of_Computational_Literary_Studies__J.xml_ftn3">
+                        <ref target="https://github.com/Journal-of-CLS/JCLS-Template">https://github.com/Journal-of-CLS/JCLS-Template</ref>.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Burghardt, Manuel</author> et al. 2022. "Offen für alle(s)? Open Identities im Reviewprozess der DHd-Konferenz". In 
+                        <hi rend="italic">DHd2022: Kulturen des digitalen Gedächtnisses Konferenzabstracts</hi>. Potsdam, 21–24. DOI: https://doi.org/10.5281/zenodo.6328145
+                    </bibl>
+                    <bibl>
+                        <author>Eve, Martin Paul und Andy Byers</author>. 2018. “Janeway: A Scholarly Communications Platform”. In 
+                        <hi rend="italic">Insights: The UKSG Journal</hi>. https://eprints.bbk.ac.uk/id/eprint/22452/ (visited: November 1, 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Ross-Hellauer, Tony</author>. 2017. "What is open peer review? A systematic review." In 
+                        <hi rend="italic">F1000Res (6:588)</hi>. DOI: https://doi.org/10.12688/f1000research.11369.2
+                    </bibl>
+                    <bibl>
+                        <author>Wissenschaftsrat</author>. “Empfehlungen zur Transformation des wissenschaftlichen Publizierens zu Open Access.” Köln: Wissenschaftsrat, 2022. 
+                        <ref target="https://www.wissenschaftsrat.de/download/2022/9477-22.pdf">https://www.wissenschaftsrat.de/download/2022/9477-22.pdf</ref> (visited: April 20, 2023).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

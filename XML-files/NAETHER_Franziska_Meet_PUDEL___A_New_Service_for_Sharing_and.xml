@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meet PUDEL – A New Service for Sharing and Documenting Data Models</title>
+                <author n="BeckerAnjaNAETHER_Franziska_Meet_PUDEL___A_New_Service_for_Sharing_and.xml"><persName n="BeckerAnja">
+                        <surname>Becker</surname>
+                        <forename>Anja</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>becker@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GraiffCeciliaNAETHER_Franziska_Meet_PUDEL___A_New_Service_for_Sharing_and.xml"><persName n="GraiffCecilia">
+                        <surname>Graiff</surname>
+                        <forename>Cecilia</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>graiff@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GoldhahnDirkNAETHER_Franziska_Meet_PUDEL___A_New_Service_for_Sharing_and.xml"><persName n="GoldhahnDirk">
+                        <surname>Goldhahn</surname>
+                        <forename>Dirk</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>goldhahn@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KretschmerUweNAETHER_Franziska_Meet_PUDEL___A_New_Service_for_Sharing_and.xml"><persName n="KretschmerUwe">
+                        <surname>Kretschmer</surname>
+                        <forename>Uwe</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>kretschmer@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MhlederPeterNAETHER_Franziska_Meet_PUDEL___A_New_Service_for_Sharing_and.xml"><persName n="MhlederPeter">
+                        <surname>Mühleder</surname>
+                        <forename>Peter</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>muehleder@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NaetherFranziskaNAETHER_Franziska_Meet_PUDEL___A_New_Service_for_Sharing_and.xml"><persName n="NaetherFranziska">
+                        <surname>Naether</surname>
+                        <forename>Franziska</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>naether@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>PUDEL is a new service for sharing and documenting DH data models. It is developed as a free and open-source software, and can easily be included into existing DH research practices. It provides institutions, researchers and specialists with the tools for sharing and preserving their data models.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>data modeling</term>
+                    <term>publication service</term>
+                    <term>open source</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital archiving</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Creating ‘data models’ is a central activity in the Digital Humanities. On the most
+                fundamental level, the term refers to "the modeling of some segment of the world in
+                such a way to make some aspects computable, referring to creating database schemas,
+                SGML DTDs, XML schemas, ontologies etc." (Flanders / Jannidis 2015). But, despite
+                being an important step in many DH workflows, the documentation, publication and
+                reusability of these data models often does not play a central role in the general
+                research process, making the conceptual work behind the models difficult to find,
+                access and comprehend. Our goal is therefore to create a service that allows
+                researchers and DH specialists an easy way of documenting, disseminating and reusing
+                their data models: PUDEL, the Publication Service for Academic Data Models and
+                Vocabularies. The project is funded by the Initiative for Research Data Management
+                in Saxony (SaxFDM) and developed at the Saxon Academy of Sciences and Humanities in
+                Leipzig (Germany).</p>
+            <p>Existing services, like the Vocabs Service of ACDH-CH
+                    (Austrian Academy of Sciences 2023), only support the publication of data models
+                    in SKOS format, or require the data model to already be published online to be
+                    able to reference it, as it is the case with VoCoReg (Fraunhofer Society 2023).
+                    PUDEL attempts to provide a more general solution, avoiding these limitations
+                    and allowing for a more comprehensive approach for sharing data models. Based on
+                    an extended review of existing tools and by creating user stories based on real
+                    world use cases, we outlined three basic pillars for the service: simplicity,
+                    transparency and openness. Each of these concepts are reflected both in the
+                    usability as well as in the technical design of the service. Fig. 1 summarizes
+                    the main features of PUDEL.</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="7.038255555555556cm" url="Pictures/39ffc053179a5854e9d4fdc0ba58463b.jpg" rend="inline"/>
+                <head>Fig. 1: Simplified scheme of the main features of the
+                new publishing service for data models PUDEL.</head>
+            </figure>
+            <p>(1) Simplicity: The goal of PUDEL is to provide a low barrier workflow to publish and
+                search for data models. For this reason, an intuitive web interface is created as an
+                entry point for the service and various ‘middleware’ services validate data models
+                and create representations based on established best practices (Garijo /
+                Poveda-Villalón 2020; Semantic Web Deployment Working Group 2008). Additionally,
+                PUDEL supports automatic publication on the open repository Zenodo (European
+                Organization For Nuclear Research, OpenAIRE 2013). Besides user experience, PUDEL,
+                as a set of software tools, should also be ‘simple’ to maintain and update. Here,
+                PUDEL follows the approach of minimal computing (Sayers 2016) whenever possible,
+                using few resources and avoiding a complex system architecture.</p>
+            <p>(2) Transparency: An important aspect of PUDEL is the possibility to not only
+                publish, but also document the evolution of data models. PUDEL uses a Git-based file
+                storage backend, which allows users to update their data models without losing
+                access to previous versions. This versioning is also part of the stable identifiers
+                provided by PUDEL, allowing referencing a specific version of an ontology, class or
+                concept.</p>
+            <p>(3) Openness: PUDEL is oriented at the FAIR-principles for research data:
+                findability, accessibility, interoperability, and reusability. Alongside with
+                supporting the reuse by individuals, these principles facilitate machines in
+                automatically finding and using the data (Wilkinson et al. 2016). As a service,
+                PUDEL embraces openness by supporting multiple widely used data formats for data
+                models (RDF based ontologies, XML schemas) and vocabularies (SKOS, CSV-based lists).
+                In order to allow easy access for external services and tools, the OpenAPI standard
+                (OpenAPI Initiative 2022) is used to create comprehensive and standardized
+                documentations for the service. </p>
+            <p>PUDEL is developed as a free and open-source software (FOSS), making it possible for
+                institutions to run their own instance of PUDEL and allowing them to publish data
+                models within their own namespaces. Altogether, by following the above principles,
+                PUDEL is a service that can easily be included into existing DH research practices
+                and provides institutions, researchers and specialists with the tools to sharing and
+                preserving their data models.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Austrian Academy of Sciences</author>
+                        , Austrian Centre for Digital Humanities and
+                            Cultural Heritage (ACDH-CH), "Vocabs services",
+                            <ref target="https://vocabs.dariah.eu/">https://vocabs.dariah.eu/</ref> [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>European Organization For Nuclear
+                            Research, OpenAIRE</author>
+                         (2013): "Zenodo", in: CERN Publ., doi: 10.25495/7GXK-RD71, 
+                        <ref target="https://www.zenodo.org/">https://www.zenodo.org/</ref>
+                         [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Flanders, Julia</author> / <author>Jannidis, Fotis</author> 
+                         (2015): "Knowledge Organization and Data Modeling in the Humanities", 
+                        <ref target="https://nbn-resolving.org/html/urn:nbn:de:bvb:20-opus-111270">https://nbn-resolving.org/html/urn:nbn:de:bvb:20-opus-111270</ref>
+                         [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Fraunhofer Society</author>
+                        , "VoCol Service on VoCoREG",
+                            <ref target="https://www.vocoreg.com/">https://www.vocoreg.com/</ref> [25.04.2023].
+                        <author>Garijo, Daniel</author> / <author>Poveda-Villalón, María</author> 
+                         (2020): "Best Practices for Implementing FAIR Vocabularies and Ontologies on the Web", 
+                        <ref target="https://doi.org/10.48550/arXiv.2003.13084">https://doi.org/10.48550/arXiv.2003.13084</ref>
+                         [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>OpenAPI Initiative</author> (2022): "OpenAPI Specification
+                        v3.1.0", in: The Linux Foundation (Publ.),
+                        <ref target="https://spec.openapis.org/oas/latest.html">https://spec.openapis.org/oas/latest.html</ref> [25.04.2023] 
+                    </bibl>
+                    <bibl>
+                        <author>Sayers, Jentery</author>
+                         (2016): "Minimal Definitions", in: Minimal Computing Working Group of GO::DH (Publ.), 
+                        <ref target="https://go-dh.github.io/mincomp/thoughts/2016/10/02/minimal-definitions/">https://go-dh.github.io/mincomp/thoughts/2016/10/02/minimal-definitions/</ref>
+                         [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Semantic Web Deployment Working
+                            Group</author>
+                         (2008): "Best Practice Recipes for Publishing RDF Vocabularies" (Work in Progress), 
+                        <ref target="https://www.w3.org/TR/swbp-vocab-pub/">https://www.w3.org/TR/swbp-vocab-pub/</ref>
+                         [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Wilkinson, Mark D. et al.</author> (2016): "The FAIR Guiding
+                        Principles for scientific data management and stewardship", in: Sci Data 3:
+                        160018, <ref target="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</ref> [25.04.2023]. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

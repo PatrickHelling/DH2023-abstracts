@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration as Necessity: Institutional Support for Digital Humanities Research</title>
+                <author n="BlumtrittJonathanHORSTMANN_Jan_Collaboration_as_Necessity__Institutional_Supp.xml"><persName n="BlumtrittJonathan">
+                        <surname>Blumtritt</surname>
+                        <forename>Jonathan</forename>
+                    </persName><affiliation>University of Cologne, Germany</affiliation><email>jonathan.blumtritt@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GengnagelTessaHORSTMANN_Jan_Collaboration_as_Necessity__Institutional_Supp.xml"><persName ref="https://orcid.org/0000-0001-8820-5112" n="GengnagelTessa">
+                        <surname>Gengnagel</surname>
+                        <forename>Tessa</forename>
+                    </persName><affiliation>University of Cologne, Germany</affiliation><email>tessa.gengnagel@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HorstmannJanHORSTMANN_Jan_Collaboration_as_Necessity__Institutional_Supp.xml"><persName ref="https://orcid.org/0000-0001-8047-2232" n="HorstmannJan">
+                        <surname>Horstmann</surname>
+                        <forename>Jan</forename>
+                    </persName><affiliation>University of Münster, Germany</affiliation><email>jan.horstmann@uni-muenster.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NeuefeindClaesHORSTMANN_Jan_Collaboration_as_Necessity__Institutional_Supp.xml"><persName ref="https://orcid.org/0000-0002-9377-9492" n="NeuefeindClaes">
+                        <surname>Neuefeind</surname>
+                        <forename>Claes</forename>
+                    </persName><affiliation>University of Cologne, Germany</affiliation><email>c.neuefeind@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Digital Humanities research often provides opportunities for collaboration – but it just as often requires collaboration. The demands placed on DH projects in terms of technical skills and know-how are such that collaboration and a reliance on adequate research infrastructures become a necessity.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>infrastructure</term>
+                    <term>support</term>
+                    <term>sustainability</term>
+                    <term>service</term>
+                    <term>enabling</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>Digital Humanities research often provides opportunities for collaboration – but it just as often 
+                    <hi rend="italic">requires</hi> collaboration where in the past, traditional humanists would have performed a task on their own. The demands placed on DH projects in terms of technical skills and know-how are such that collaboration and a reliance on adequate research infrastructures become a necessity (cf. Anderson 2013; Deegan &amp; McCarty 2016). This development has been at the heart of the emergence of DH “labs” (cf. Pawlicka-Deger 2020) that aim to host different researchers in a shared space of experimentation.
+                </p>
+                <p>Beyond epistemological and methodological innovation, however, institutional support has to contend with different expectations: (1) the idea that researchers should be provided with a 
+                    <hi rend="bold">service</hi> upon request, (2) the assurance of 
+                    <hi rend="bold">sustainability</hi> of resources and their long-term maintenance and preservation, and (3) the 
+                    <hi rend="bold">enabling</hi> and empowering of researchers through teaching and knowledge transfer, especially where no dedicated DH departments exist.
+                </p>
+                <p>In our contribution, we will present two examples from the German context of DH competence centers (“Kompetenzzentren”) which are a type of institutionalized support that has been gaining traction in Germany over the last fifteen years (cf. Burghardt &amp; Wolff 2015). The two cases that we present are suited to contrast related yet individually implemented models for anchoring DH at universities. They also lend themselves to discussing the following overarching question: (i) What are the advantages and disadvantages of the competence center approach in relation to the three areas of interest sketched above? (ii) What are the interdependencies of such centers on other institutions at universities that can and/or should be involved in DH research, incl. libraries and existing IT infrastructures? (iii) How can the pooling of resources, tool requirements, expertise and project experience create a collaborative workspace that provides researchers, especially early career, with a training environment?</p>
+            </div>
+            <div type="div1">
+                <head>DH Competence Centers at the Universities of Münster and Cologne</head>
+                <p>The first example that we present is the Service Center for Digital Humanities (SCDH) at the University of Münster. The center is located at the University and State Library (ULB) which provides a reliable infrastructure through professional consulting and project support services. This also allows for the hiring of permanent staff members, incl. research software developers. The SCDH is able to provide technical support to research projects at the university and use this experience to offer sustainable options for generic software development and the long-term hosting of research data (cf. Schaffner &amp; Erway 2014). Since the university does not (yet) have a DH department with professorships, it has followed an embedded approach by introducing methodological DH expertise into its range of humanities research. All researchers of the university with an interest in DH methods are connected through a network of general meetings and focused group work that is organized by the Center for Digital Humanities (CDH). The solution in Münster therefore prioritizes (1) the provision of services in conjunction with the library, (2) a broad coverage of needs and requirements, and (3) the networking of interested parties at the university.</p>
+                <p>The second example is the Cologne Center for eHumanities (CCeH) at the University of Cologne. It is one of the oldest DH competence centers in Germany (next to Trier and Göttingen, cf. Burghardt and Wolff 2015) and was founded in 2009 to coordinate collaborative efforts to fund and implement DH projects. Over the years, it evolved to an institution participating in the regional coordination of project cooperations between universities (cf. Speer 2020) as well as on the national level of strategic infrastructure development (esp. in the NFDI, the National Research Data Infrastructure initiative in Germany). At the University of Cologne, the CCeH has a close relationship with the Data Center for the Humanities (DCH), which focuses on the long-term sustainability of research data management (RDM, cf. Witt et al. 2018), as well as with the Institute for Digital Humanities (IDH), which hosts two chairs, one for computational linguistics and another for DH in the humanities computing tradition, going back to the mid-1990s. The solution in Cologne therefore prioritizes (1) the tailored support of grant proposals by researchers, (2) the interlinking of institutions to meet demands of project cooperation (CCeH), RDM consulting (DCH) and research/teaching (IDH), (3) the transregional coordination with other DH efforts in the area as well as of nationwide concern.</p>
+            </div>
+            <div type="div1">
+                <head>Advantages and Disadvantages</head>
+                <p>Based on the examples given and our experiences with them, we will discuss the following preliminary findings in more detail: </p>
+                <p>(i) 
+                    <hi rend="bold">Infrastructure as necessity: </hi>Sustainable outcomes not only rely on advisory institutional support but also specific technical infrastructure. How can long-term infrastructures serve the dynamically changing needs of humanities research?
+                </p>
+                <p>(ii) 
+                    <hi rend="bold">DH centers as social contractors:</hi> Sustainability also relies on the social organization of interests in preserving a resource, both from a user and a host perspective. What role do DH centers play as social contractors in managing sustainability mandates?
+                </p>
+                <p>(iii) 
+                    <hi rend="bold">Sustainability through knowledge transfer:</hi> By pooling technological and methodological know-how, DH centers transfer knowledge between projects and people. How can these transfers be structured to foster the learning of interdisciplinary-methodological competencies?
+                </p>
+                <p>(iv) 
+                    <hi rend="bold">DH as research or as service: </hi>The provision of DH services to humanists can be an important step towards empowering research, regardless of background. It can also, however, prevent researchers from engaging with DH questions on a deeper level. How can we shape services so as to leverage them into conduits for critical thinking?
+                </p>
+                <p>(v) 
+                    <hi rend="bold">Collaboration as necessity:</hi> DH is characterized by a variety of actors and interactions. How can we organize collaborations between institutions as well as between individuals on local, regional and national levels to cover all needs?
+                </p>
+                <p>These questions should be subject to further scrutiny and contextualization, both in Germany and with regard to global practices. The cases of Münster and Cologne do, however, provide a suitable basis for initiating a discussion about the competence center model and its place within DH as well as the broader implications that it has for the way in which we structure co-operation.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Anderson, Sheila </author>(2013): “What Are Research Infrastructures?” In: I
+                        <hi rend="italic">nternational Journal of Humanities &amp; Arts Computing: A Journal of Digital Humanities</hi> 7/1-2: 4-23.
+                        <ref target="https://doi.org/10.3366/ijhac.2013.0078">https://doi.org/10.3366/ijhac.2013.0078</ref>.
+                    </bibl>
+                    <bibl><author>Burghardt, Manuel</author> / <author>Wolff, Christian</author> (2015): “Zentren für Digital Humanities in Deutschland”, in: 
+                        <hi rend="italic">Information - Wissenschaft &amp; Praxis</hi> 66/5-6: 313-326.
+                        <ref target="https://doi.org/10.1515/iwp-2015-0056">https://doi.org/10.1515/iwp-2015-0056</ref>.
+                    </bibl>
+                    <bibl><author>Deegan, Marilyn</author> / <author>McCarty, Willard</author> (eds. 2016): 
+                        <hi rend="italic">Collaborative Research in the Digital Humanities</hi>. London, New York: Routledge. 
+                    </bibl>
+                    <bibl><author>Neuefeind, Claes</author> / <author>Mathiak, Brigitte</author> / <author>Schildkamp, Philip</author> / <author>Karadkar, Unmil</author> / <author>Stigler, Johannes</author> / <author>Steiner, Elisabeth</author> / <author>Vasold, Gunter</author> / <author>Tosques, Fabio</author> / <author>Ciula, Arianna</author> / <author>Maher, Brian</author> / <author>Newton, Greg</author> / <author>Arneil, Stewart</author> / <author>Holmes, Martin</author> (2020): “Sustainability Strategies for Digital Humanities Systems”, in: Estill, Laura / Guiliano, Jennifer / Crompton, Constance (ed.): 
+                        <hi rend="italic">DH2020, »carrefours/intersections«. Book of Abstracts</hi>, Ottawa: University of Ottawa. 
+                        <ref target="https://dh2020.adho.org/wp-content/uploads/2020/07/565_SustainabilityStrategiesforDigitalHumanitiesSystems.html">https://dh2020.adho.org/wp-content/uploads/2020/07/565_SustainabilityStrategiesforDigitalHumanitiesSystems.html</ref> [24.04.2023].
+                    </bibl>
+                    <bibl><author>Pawlicka-Deger, Urszula </author>(2020): “The Laboratory Turn: Exploring Discourses, Landscapes, and Models of Humanities Labs”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 14/3.
+                        <ref target="http://digitalhumanities.org:8081/dhq/vol/14/3/000466/000466.html">http://digitalhumanities.org:8081/dhq/vol/14/3/000466/000466.html</ref> [24.04.2023].
+                    </bibl>
+                    <bibl><author>Schaffner, Jennifer</author> / <author>Erway, Ricky</author> (2014): “Does Every Research Library Need a Digital Humanities Center?” in: 
+                        <hi rend="italic">OCLC Research</hi>.
+                        <ref target="http://oclc.org/content/dam/research/publications/library/2014/oclcresearch-digital-humanities-center-2014.pdf">http://oclc.org/content/dam/research/publications/library/2014/oclcresearch-digital-humanities-center-2014.pdf</ref> [24.04.2023].
+                    </bibl>
+                    <bibl><author>Smithies, James</author> / <author>Westling, Carina</author> / <author>Sichani, Anna-Maria</author> / <author>Mellen, Pam</author> / <author>Ciula Arianna</author> (2019): “Managing 100 Digital Humanities Projects: Digital Scholarship &amp; Archiving in King’s Digital Lab” in: 
+                        <hi rend="italic">Digital Humanities Quarterly </hi>13/1.
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html">http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html</ref> [24.04.2023].
+                    </bibl>
+                    <bibl><author>Speer, Andreas </author>(2020): “Die Zentrale Koordinierungsstelle Digital Humanities” in: Löwer, Wolfgang / Dusch, Christiane (ed.): 
+                        <hi rend="italic">50 Jahre akademisches Gespräch. Festschrift für die Akademie der Wissenschaften und Künste</hi>, Paderborn: Brill Schöningh, 291-297.
+                        <ref target="https://doi.org/10.30965/9783657760893_015">https://doi.org/10.30965/9783657760893_015</ref>.
+                    </bibl>
+                    <bibl><author>Witt, Andreas</author> / <author>Blumtritt, Jonathan</author> / <author>Helling, Patrick</author> / <author>Mathiak, Brigitte</author> / <author>Rau, Felix</author> (2018): “Forschungsdatenmanagement in den Geisteswissenschaften an der Universität zu Köln” in: 
+                        <hi rend="italic">O-Bib. Das Offene Bibliotheksjournal</hi> 5/3: 104-117.
+                        <ref target="https://doi.org/10.5282/o-bib/2018H3S104-117">https://doi.org/10.5282/o-bib/2018H3S104-117</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

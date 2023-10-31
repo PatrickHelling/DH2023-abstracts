@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Philipp Gumpenhuber’s Chronicle of the Viennese Theatrical Life Between 1758 and 1763</title>
+                <author n="ZechnerIngeborgZECHNER_Ingeborg_Digital_Edition_of_Philipp_Gumpenhuber_s_Ch.xml"><persName n="ZechnerIngeborg">
+                        <surname>Zechner</surname>
+                        <forename>Ingeborg</forename>
+                    </persName><affiliation>University of Graz</affiliation><email>ingeborg.zechner@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BeierMirijamZECHNER_Ingeborg_Digital_Edition_of_Philipp_Gumpenhuber_s_Ch.xml"><persName n="BeierMirijam">
+                        <surname>Beier</surname>
+                        <forename>Mirijam</forename>
+                    </persName><affiliation>State and University Library Hamburg Carl von Ossietzky</affiliation><email>mirijam.beier@web.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GalkaSelinaZECHNER_Ingeborg_Digital_Edition_of_Philipp_Gumpenhuber_s_Ch.xml"><persName ref="https://orcid.org/0000-0003-4476-315X" n="GalkaSelina">
+                        <surname>Galka</surname>
+                        <forename>Selina</forename>
+                    </persName><affiliation>University of Graz</affiliation><email>selina.galka@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The theatrical agency of the Viennese court between 1758 and 1763 is documented by Philipp Gumpenhuber’s chronicle, an unique and exceptional source that offers insights into the theatrical, social, and political court life. The project's aim is to create a scholarly digital edition (GuDiE) of the theatre chronicles.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital edition</term>
+                    <term>event modelling</term>
+                    <term>linked data</term>
+                    <term>assertive edition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>linked (open) data</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    <term>Musicology</term>
+                    <term>Performance Studies: Dance</term>
+                    <term>Theatre</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">Research context: </hi>Networks and representational strategies of the Viennese court, one of the centers of European sociocultural life, incorporated specific agencies that took shape in the court’s various theatrical institutions. The theatrical agency of the Viennese court between 1758 and 1763 is documented by Philipp Gumpenhuber’s chronicle, an unique and exceptional source that offers insights into the theatrical, social, and political court life (see Croll 1975). The preserved part of the chronicles consists of seven volumes with a total of about 1,300 pages. The manuscripts, written mostly in French but also in Italian, are largely structured in tabular form. Over time, the volumes have been separated, and are now held by the Music Collection of the Austrian National Library (three volumes, A-Wn Mus.Hs.34580a-c) and the Theatre Collection of the Harvard University, Houghton Library, Cambridge (MA) (four volumes, US-CAh MS Thr 248-248.3). Until recently, musicological research about eighteenth-century theatres focused strongly on the musical work as a text rather than on the ‘performance’ shaped by ‘agents’ and sociocultural surroundings. The ‘performative turn’, which draws on the theoretical concepts of cultural studies, changed the perception in the field of music history and gives room for interdisciplinary ventures (see Jost 2013).
+            </p>
+            <p><hi rend="bold">Objectives: </hi>The project (which is designed as a collaboration between the disciplines musicology and digital humanities) pursues three main goals: 1.) It provides a scholarly digital edition (GuDiE) of the theatre chronicles. The resulting digital edition will make one of the most significant sources of Viennese theatrical life in the second half of the eighteenth-century broadly, openly and on a long-term basis accessible via a virtual platform. 2.) GuDiE creates curated and linked data for the interdisciplinary research community and existing prosopographical digital projects (such as VieCPro, or Theadok). 3.) GuDiE contributes a solid contextualization via a systematic scientific examination of the source via visualization techniques. The edition explores the complex interactions between sociocultural, political, representational and economic factors within eighteenth-century theatre business.
+            </p>
+            <p><hi rend="bold">Approach: </hi>Methodologically founded on contextualization via source criticism, GuDiE incorporates XML encoding on the basis of the TEI standards and embeds current theories from the field of cultural studies. GuDiE reflects the ‘performative turn’ as well as cultural theories of agency and institutional networks in the form of a scholarly digital edition via the modelling of ‘events’. The project will also follow up on the proposals, how TEI/XML and CIDOC-CRM could be accommodated (see Ore/Eide 2009, and Eide 2015), to come to better harmonization of these two data encoding standards. GuDiE will be conceived as an “assertive edition” (Vogeler 2019) by combining XML encoding with graph data. It uses technologies of the semantic web to ensure on the long-term technical connectivity with other related research data.
+            </p>
+            <p><hi rend="bold">Originality: </hi>The project will develop data models to ensure the interoperability of the event data, but also depict the complex relations of performances, works, persons and their roles and places described in the theatre chronicles. An event modeling approach will be used to model the chronicles, explicate the complicated relations between the theatrical institutions, venues, ensembles, and works and to represent dynamic aspects instead of just focusing on the individual entities (see van Hage et al. 2011: 128). Several suggestions and approaches for modelling events have been presented repeatedly in recent years, which shows that there is a special interest in the modeling of events. There is no consensus on how events should be coded and modeled in digital editions presenting historical sources. In addition, special performing arts models have been proposed. The digital edition will try to unite these approaches in order to take a special look at the complex interactions and performances and to generate illuminating visualizations based on the modeled events. Visualization techniques that go beyond simple data queries generate new knowledge and show specific patterns will be used. GuDiE will also discuss visualization techniques to represent events beyond the timeline (see e.g. Vane 2018, Hanssen 2018, Caplan 2015 and 2016, Varela 2021): dynamic visualizations and networks to describe interconnectivity between events are planned, and other visual metaphors helping to understand simultaneousness and agency have to be studied. The visualizations should show the diversity of the categories in the theatre chronicles and will not just incorporate social networks, but also e.g. networks based on genres, works and time (seasons, years). The tool set of the Digital Humanities extends the scope of a traditional historical methodology massively and will result in new insights on the topic that can be used also in a wide interdisciplinary context. The basic research accomplished in GuDiE sets the fundament for further scientific projects on European cultural history.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bonora, Paolo</author> / <author>Pompilio, Angelo</author>  (2021): “Corago in LOD. The Debut of an Opera Repository into the Linked Data arena”, in: 
+                        <hi rend="italic">JLIS.it</hi> 12: 54-72.
+                    </bibl>
+                    <bibl>
+                        <author>Caplan, Debra</author> (2015): “Notes from the Frontier: Digital Scholarship and the Future of Theatre Studies”, in: 
+                        <hi rend="italic">Theatre Journal</hi> 67 (2): 347–59.
+                    </bibl>
+                    <bibl>
+                        <author>Caplan, Debra</author> (2016): “Reassessing Obscurity: The Case for Big Data in Theatre History”, in: 
+                        <hi rend="italic">Theatre Journal</hi> 68 (4): 555–73.
+                    </bibl>
+                    <bibl>
+                        <author>Croll, Gerhard</author> (1975): “Neue Quellen zu Musik und Theater in Wien 1758 bis 1763”, in: Egg, Erich (ed.) 
+                        <hi rend="italic">Festschrift Walter Senn zum 70. Geburtstag. </hi>Munich: Musikverlag E. Katzbichler 8-12.
+                    </bibl>
+                    <bibl>
+                        <author>Eide, Øyvind</author> (2015): “Ontologies, Data Modelling, and TEI” in: 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 8 
+                        <ref target="https://doi.org/10.4000/jtei.1191">https://doi.org/10.4000/jtei.1191</ref> [27.04.2021].
+                    </bibl>
+                    <bibl>
+                        <author>Estermann, Beat</author> / <author>Frédéric Julien</author>  (2019): 
+                        <hi rend="italic">A Linked Digital Future for the Performing Arts: Leveraging Synergies along the Value Chain</hi>. Ottawa, Bern: Canadian Arts Presenting Association (CAPACOA) in cooperation with the Bern University of Applied Sciences.
+                    </bibl>
+                    <bibl>
+                        <author>Fritze, Christiane</author> / <author>Klug, Helmut W.</author> / <author>Kurz, Stephan</author>  (2020): “Events. Modellierungen und Schnittstellen” in: Schöch, Christof (ed.): 
+                        <hi rend="italic">DHd 2020: Book of Abstracts: Spielräume. Digital Humanities zwischen Modellierung und Interpretation</hi>. Paderborn: DHd 62-65.
+                    </bibl>
+                    <bibl>
+                        <author>Hanssen, Jens-Morten</author> (2018): “Digital Humanities and Theatre Studies: New Perspectives on the Early Reception of Ibsen on the German Stage” in: 
+                        <hi rend="italic">Ibsen Studies </hi>18 (2): 113–40. DOI: 10.1080/15021866.2018.1550875.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Jost, Christofer</author> (2013): "Der performative turn in der Musikforschung. Zwischen Desiderat und (teil)disziplinärem Paradigma", in: 
+                        <hi rend="italic">Musiktheorie</hi>, 28(4): 291-309.
+                    </bibl>
+                    <bibl>
+                        <author>Ore, Christian-Emil</author> / <author>Øyvind Eide</author>  (2009): “TEI and cultural heritage ontologies: Exchange of information?”, in: 
+                        <hi rend="italic">Literary &amp; Linguistic Computing</hi>s 24 (2): 161-72
+                        <ref target="https://doi.org/10.1093/llc/fqp010">https://doi.org/10.1093/llc/fqp010</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Pollin, Christopher</author> (2021): “CIDOC-Conceptual Reference Model (CRM)”, in: Klug, Helmut W. (with the collaboration of Selina Galka, and Elisabeth Steiner (eds.) 
+                        <hi rend="italic">KONDE Weißbuch</hi> <ref target="hdl.handle.net/11471/562.50.133">hdl.handle.net/11471/562.50.133</ref>. PID: o:konde.133 [27.04. 2023].
+                    </bibl>
+                    <bibl>
+                        <author>Varela, Miguel Escobar</author> (2021): 
+                        <hi rend="italic">Theater as Data: Computational Journeys into Theater Research</hi>. Ann Arbor: University of Michigan Press.
+                    </bibl>
+                    <bibl>
+                        <author>Vane, Olivia </author>(2018): “Text Visualisation Tool for Exploring Digitised Historical Documents”, in: 
+                        <hi rend="italic">Proceedings of the 2018 ACM Conference Companion Publication on Designing Interactive Systems</hi>. New York: ACM 153–58. https://doi.org/10.1145/3197391.3205428.
+                    </bibl>
+                    <bibl>
+                        <author>Van Hage, Willem</author> / <author>Malaisé, Véronique</author> / <author>Segers, Roxane</author> / <author>Hollink, Laura</author> / <author>Schreiber, Guus</author>  (2009): “The Simple Event Model Ontoloy”
+                        <ref target="https://semanticweb.cs.vu.nl/2009/11/sem/">https://semanticweb.cs.vu.nl/2009/11/sem/</ref> [27.04. 2023].
+                    </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2019): “The ‘assertive edition’: On the consequences of digital methods in scholarly editing for historians”, in: 
+                        <hi rend="italic">International Journal of Digital Humanities</hi> 1: 309-22 
+                        <ref target="https://doi.org/10.1007/s42803-019-00025-5">https://doi.org/10.1007/s42803-019-00025-5</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Weiberg, Birk</author> (2020). “Modeling Performing Arts: On the Representations of Agency”, in: 
+                        <hi rend="italic">Arti Del Spettacolo / Performing Arts</hi> 6: 50-56
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

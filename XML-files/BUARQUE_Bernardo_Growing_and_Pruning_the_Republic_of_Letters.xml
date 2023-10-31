@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Growing and Pruning the Republic of Letters: An Agent-Based Model to Build Letter Correspondence Networks </title>
+                <author n="BuarqueBernardoBUARQUE_Bernardo_Growing_and_Pruning_the_Republic_of_Letters.xml"><persName n="BuarqueBernardo">
+                        <surname>Buarque</surname>
+                        <forename>Bernardo</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>bsbuarque@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VoglMalteBUARQUE_Bernardo_Growing_and_Pruning_the_Republic_of_Letters.xml"><persName n="VoglMalte">
+                        <surname>Vogl</surname>
+                        <forename>Malte</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>mvogl@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We introduce an Agent-Based Model to reconstruct communication in the Republic of Letters. We build from earlier research modelling online forums and apply this methodology to a context where scientists exchange letters to express their findings and beliefs. We use the model to create artificial networks and compare them to empirical data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Agent-Based Model</term>
+                    <term>Socio-Epistemic Network</term>
+                    <term>Historical Correspondence</term>
+                    <term>Republic of Letters</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Communication studies</term>
+                    <term>History of science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Motivation</head>
+                <p>The growing availability of historical correspondence metadata provides the digital humanities literature with valuable resources to visualize, model, and measure past socio-epistemic relationships (van den Heuvel 2015; Edelstein et al. 2017; Hotson et al. 2019; Urena-Carrion et al. 2022). However, we still have limited information regarding the inherent biases within these correspondence datasets. In other words, as Barabasi et al. (2002: 612) write about the earlier uses of scientometrics data: "for any network, before attempting to model it, we need to understand the limitations of the data collection process and<hi rend="italic">test their effect on the quantities of interest for us</hi>." Hence, following the example set by the authors, we propose a generative model of historical letters. We introduce an Agent-Based Modelling (ABM) approach to reconstruct communication in the Republic of Letters.</p>
+            </div>
+            <div type="div1">
+                <head>Literature Review</head>
+                <p>Our model takes inspiration from two sources. First, as indicated before, we draw from earlier stochastic simulations of academic sciences. As Gilbert (1997: 91) eloquently explains, such simulations sought to reproduce the observed patterns of scientometrics "using a small number of simple assumptions." One can list several models that accurately recreate the power-law structure of citations, co-authorship, and research interest (Barabasi et al. 2002; Simkin / Roychaudhury 2007; Lafond 2015). Nonetheless, for the current contribution, we are particularly interested in random-walk models that forecast the growth of science (Shi et al. 2015; Jia et al. 2017; Iacopini et al. 2018). In other words, we take inspiration from earlier work that models scientists exploring a weighted network of people, ideas, and methods. </p>
+                <p>To construct our model, we also borrow from past research modeling online forums to study polarization and emotion contagion. Sobkowicz (2013: 3), for instance, offers a model consisting of agents and messages. In each round, the agents alternate between writing and reading each others' posts. And the author uses this simple ABM to create a "communication network from scratch using elements aimed at reproducing the flow of events in the real world." Therefore, we apply a similar methodology to a context where scientists exchange letters to express their findings and beliefs. Succinctly, we adjust their model to study historical letter correspondence. </p>
+            </div>
+            <div type="div1">
+                <head>Socio-Epistemic Networks</head>
+                <p>The basic setup for the model is a socio-epistemic network. On the social layer, scientists connect as senders and receivers of letters. And on the epistemic layer, we link ideas based on the co-occurrence of themes or the semantic similarity across letters. At last, agents also connect to topics/ideas based on their interest or the content of their previous letters. Altogether, we create a weighted multi-layered network whose edges represent the strength of association between scientists and ideas. </p>
+                <p>We create the socio-epistemic networks from the accumulated exchanged letters. Then, the ABM follows as an ego-reinforcement random walk across this network (Iacopini et al 2018; 2020). At each step, agents write new letters by exploring their local connections and choosing a receiver and a collection of topics. Hence, we use the weights of the edges to determine the chance that one agent picks a given receiver or theme. In turn, we reweight the edges at each step by the walker/sender. Thus, the socio-epistemic graph evolves by reinforcing its weights according to each new letter.</p>
+            </div>
+            <div type="div1">
+                <head>Model Summary</head>
+                <p>The model seeks to reproduce, grow, or generate artificial socio-epistemic networks representing the exchange of letters between agents. Thus, we propose a configuration model for the correspondence networks akin to a preferential attachment, small-world, or Erdos-Renyi model. But we ground our analysis on an agent-based simulation where, at each step, the agents must decide the content and the receivers of their letters. Along these lines, while our global structure follows a socio-epistemic network, it helps to describe the local agent decision as following a process similar to an extended Polya’s urn (Tria et al 2014; Casiraghi / Nanumyan 2021). </p>
+                <p>We start the ABM by creating agents and placing them into a geographical space. Then we give them a list of topics - each represented by a unique triple. And we assign them a social network or a list of people they have contacted in the past. Hence, every agent has a unique position, and they have two vectors keeping track of every letter sent and received. Besides, we give them an extra vector containing all their topics. Together, these vectors form a global socio-epistemic network, and make up the urns from which we pick the contents of the agent's future letters. </p>
+                <p>Agents have different activation rates. They have different propensities to initiate a conversation or send a letter. And when active, they first decide who to contact. Along these lines, we get a list of potential neighbors within a threshold radius. We consider social and spatial distance to make the list of neighbors, and the agent randomly selects and writes a letter to one of them. To pick the neighbor, we use a variation of Polya's urn. We create a distribution of ids based on their total letters received - their popularity - and past communication - both letters sent and received - with the focal agent. And we randomly pick one id from the distribution.</p>
+                <p>After we match senders with potential receivers, we compare their topic interests. We find the distance between their vectors of topics. And if it falls within a predetermined threshold, we continue with the simulation. Every letter has at least one topic. And we repeat the urn process to select it. Thus, we create a distribution of issues based on the intersection of interest between the receiver and sender, and we randomly pick one. After deciding on a receiver and topics, the agent can send their letters. And we need to update their global and agent variables.
+                </p>
+                <p>After every letter, we update a global time-stamped ledger table that keeps track of every document sent. Each entry includes information on senders and receivers, their locations, the topic of the letter, and the time. So, we write the complete "transaction" information. In other words, we add a new line containing the sender's and receiver's ids, their respective locations, the topic, and the time. </p>
+            </div>
+            <div type="div1">
+                <head>Calibrating the Model
+                </head>
+                <p>Our data includes letters from Central Europe around the 17th and 18th centuries. It contains available digital letters curated from several partner projects, such as LetterSampo, ePistolarium, Skillnet, and the correspSearch. Hence, our corpus corresponds to the aggregate data from all these projects, and we use it to train and test our Agent-Based Model. However, the minor details regarding each sample vary slightly from case to case, so we must adjust the model's initial conditions and parameters to fit our data input. For example, when focusing on topics or the semantic content of letters, we must rely primarily on the methods set by the LetterSampo project.</p>
+                <p>There are two top options for constructing the artificial correspondence network. First, like many earlier random walk models that predict the growth of science, we can apply the Republic of Letter as an input. We can collect every letter within a time window and use them to set up the model. And we execute the ABM to reconstruct the next 10 or 20 years of letter correspondence. In other words, we wish to use the out-of-sample prediction to test the ABM parameters and understand how well it reproduces real-world data. More importantly, we can use this approach to calibrate the parameters - e.g., the reinforcement weighting of the edges or how often agents write new letters.</p>
+                <p>Nonetheless, when using such methods, "there is a danger that the simulation would be trivial and reproduce the particular behavior without providing an insight into the generality of the mechanism involved" (Sobkowicz 2013: 2). Therefore, another complementary approach is to grow entirely new artificial letter networks – which take unique parameters and constraints.</p>
+                <p>For instance, from our available data, we can calculate the distribution of people in space, the number of letters sent and received by the agents, the most relevant topics, etc. Then, we can use this information to set up a small batch initial population following the patterns observed. Besides, we can add new cohorts of agents and ideas mimicking the exponential growth observed in many sources (Simkin / Roychowdhury 2007). At last, we can use a preferential attachment mechanism along with the ego-reinforcing random walk to evolve the correspondence network from scratch while still using our data sources to calibrate the ABM.</p>
+            </div>
+            <div type="div1">
+                <head>Model Outputs</head>
+                <p>The key idea behind the model is to grow artificial networks and use these as a benchmark, a null model to compare with the data and draw insights about historical correspondences and its archival. The model keeps track of every letter sent and received in this artificial environment. So, it outputs a "ledger" containing information about the letters - e.g., senders, receivers, addresses, and topics.</p>
+                <p>Furthermore, we can edit these to create a counterfactual database of surviving letters. For example, we can remove from the table all letters from minor agents - e.g., lesser-known people with fewer than 100 letters received. We can test what happens if we delete 10% or 25% of all letters, or we can remove all files from one place and time. We wish to measure the robustness of the network measures due to uncertainty and missing information - common issues when dealing with historical data.</p>
+            </div>
+            <div type="div1">
+                <head>Discussion</head>
+                <p>The model detailed above can contribute to the literature in different ways. First, we can use it to identify the "effect of data incompleteness on the relevant network measures" (Barabasi et al. 2002). The simulation aims to enhance our knowledge of the collection process behind the Republic of Letters. A common concern regarding historical letter data is their coverage - not all documents survive, and the ego networks usually center around a few notable individuals. Along these lines, when we remove letters from and to lesser-known agents from the ledger output, we aim to measure, at least partially, this coverage issue.</p>
+                <p>Past literature used methods from biology, like the unseen species model, to measure the size of missing documents or actors from historical resources (Kestemont et al. 2022; Wevers et al. 2022). Our contribution follows a similar direction, yet we do things slightly differently. Instead, we use an artificial society not to measure the amount of missing information but to assess how these lacking documents might impact our image of the past. We focus on historical letters and socio-epistemic networks to measure how robust our representation of past relationships is due to the missing data. We test how much the networks change in response to losing 10% or 30% of the available records.</p>
+                <p>Besides, calibrating our model against the Republic of Letters will substantiate our knowledge about the misrepresentation of the observed data. As we compare the empirical observations to a distribution of millions of alternative networks - about which we know the built-in parameters and details - we can learn about the process driving the creation, accumulation, and preservation of letters. We can, at least partially, measure the size of the sample bias and its origins. Take, for example, the underrepresentation of women in many historical sources. In our model, we can add parameters and artificially change the percentage of women in the sample, their likelihood of writing letters, and even the survivability rate of their letters. In doing so, we can create millions of alternative observations and use these to infer the data biases and their influence on our results.</p>
+                <p>The ABM can also serve as a configuration model, which we use to “discern observed features that can be expected at random from those beyond such expectations” (Casiraghi / Nanumyan 2021). In other words, we use the ABM to simulate counterfactual worlds. And these could lead to a better understanding of the factors that cause the network configurations we observe on the data.</p>
+                <p>By the same token, we can use these artificial networks to "normalize" or make the many existing social networks derived from existing correspondence data somewhat comparable. The Republic of Letters compiles many "isolated" case studies, and creating an artificial null model will serve as the foundation to generalize and compare their insights. Indeed, scholars often depend on null models like the Erdos-Renyi random graph to scale and evaluate the statistics derived from their multiple sources (Anderson et al. 1999; Faust / Skvoretz, 2002; van Wijk et al. 2010).</p>
+                <p>At last, currently, we focus the model on understanding the biases and the robustness of existing practices graphing historical networks. We want to learn more about the uncertainty around data coverage. Hence, we are not yet ready to examine the dynamics of these socio-epistemic networks. These are valuable research questions and chief concerns of the larger project of which this proposal is part - the ModelSEN. We do wish to investigate these matters in the future. Yet, to do so, we first need a successful model that can reproduce communication in the Republic of Letters. Once we have developed the ABM, we can start thinking about the diffusion of ideas through historical correspondences (Rossini 2022) or the influences of disenfranchisement on the epistemic network. Much like Sobkowicz (2013) used the communication process detailed here to grow their network and later simulate the dynamics of opinions across the artificial population, one could employ our model of communication during the Republic of Letters as the background for examining how ideas - e.g., Decarte's ideas - diffuse from one writer to another as they communicate through letters. Alternatively, like the gender example from before, we can tune the model parameters. We can artificially change the population size and structure to see how these influence knowledge dynamics. In other words, if we can effectively simulate historical correspondences, we could, in the future, simulate how our agents learn, adapt, and write about new ideas and topics.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Anderson, Brigham S.</author> / <author>Butts, Carter</author> / <author>Carley, Kathleen</author> 
+                        
+                        (1999): “The interaction of size and density with graph-level indices”, in: 
+                        <hi rend="italic">Social Networks </hi>
+                        21, 3: 239-267.
+                    </bibl>
+                    <bibl>
+                        <author>Barabasi, Albert-Laszlo</author> / <author>Jeong, Hawoong</author> / <author>Neda, Zoltan</author> / <author>Ravasz, Erzsebet</author> / <author>Schubert, Andreas</author> / <author>Vicsek, Tamas</author> 
+                        (2002): “Evolution of the social network of scientific collaborations”, in: 
+                        <hi rend="italic">Physica A: Statistical Mechanics and Its Applications </hi>
+                        311, 3-4: 590-614.
+                    </bibl>
+                    <bibl>
+                        <author>Casiraghi, Giona</author> / <author>Nanumyan, Vahan</author> 
+                        (2021): "Configuration models as an urn problem", in: 
+                        <hi rend="italic">Scientific Reports</hi>
+                        
+                        11, 1: 13416.
+                    </bibl>
+                    <bibl>
+                        <author>Edelstein, Dan</author> / <author>Findlen, Paula</author> / <author>Caserani, Giovanna</author> / <author>Winterer, Caroline</author> / <author>Coleman, Nicole</author> 
+                        
+                        (2017): “Historical research in a digital age: Reflections from the mapping the Republic of Letters project”, in: 
+                        <hi rend="italic">The American Historical Review 122</hi>
+                        , 2: 400-424.
+                    </bibl>
+                    <bibl>
+                        <author>Faust, Katherine</author> / <author>Skvoretz, John</author> 
+                        
+                        (2002): “Comparing networks across space and time, size and species”, in: 
+                        <hi rend="italic">Sociological Methodology</hi>
+                        
+                        32, 1: 
+                        267-299.
+                    </bibl>
+                    <bibl>
+                        <author>Gilbert, Nigel</author>
+                        
+                        (1997): “A simulation of the structure of academic science”, in: Sociological Research Online 2, 2: 91-105. 
+                    </bibl>
+                    <bibl>
+                        <author>Hotson, Howard</author> / <author>Walling, Thomas</author> 
+                        
+                        (2019): 
+                        <hi rend="italic">Reassembling the Republic of Letters in the Digital Age</hi>
+                        . G
+                        ö
+                        ttingen: G
+                        ö
+                        ttingen University Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Iacopini, Iacopo</author> / <author>Milojević,  Staša Milojević</author> / <author>Latora, Vito</author> 
+                        
+                        (2018): “Network dynamics of innovation processes”, in: 
+                        <hi rend="italic">Physical Review Letters</hi>
+                        
+                        120, 4: 048301. 
+                    </bibl>
+                    <bibl>
+                        <author>Iacopini, Iacopo</author> / <author>Di Bona, Gabriele</author> / <author>Ubaldi, Enrico</author> / <author>Loreto, Vittorio</author> / <author>Latora, Vito</author> 
+                        
+                        (2020): “Interacting discovery processes on complex networks”, in: 
+                        <hi rend="italic">Physical Review Letters</hi>
+                        
+                        124, 24: 248301. 
+                    </bibl>
+                    <bibl>
+                        <author>Jia, Tao</author> / <author>Wang, Dashun</author> / <author>Szymanski, Boleslaw K.</author> 
+                        
+                        (2017): “Quantifying patterns of research-interest evolution”, in: 
+                        <hi rend="italic">Nature Human Behavior </hi>
+                        1, 4: 0078. 
+                    </bibl>
+                    <bibl>
+                        <author>Kestemont, Mike</author> / <author>Karsdorp, Folgert </author> / <author>de Bruijn, Elisabeth</author> / <author>Driscoll, Matthew </author> / <author>Kapitan, Katarzyna A.</author> / <author>Ó Macháin, Pádraig </author> / <author>Sawyer, Daniel</author> / <author>Sleiderink,  Remco</author> / <author>Chao, Anne</author> 
+                        
+                        (2022):  "Forgotten books: The application of unseen species models to the survival of culture", in: 
+                        <hi rend="italic">Science </hi>
+                        375, 6582: 765-769.
+                    </bibl>
+                    <bibl>
+                        <author>Lafond, François</author>
+                        
+                        (2015): “Self-organization of knowledge economies”, in: 
+                        <hi rend="italic">Journal of Economic Dynamics and Control</hi>
+                        
+                        52: 150-165. 
+                    </bibl>
+                    <bibl>
+                        <author>Rossini, Paolo</author>
+                        
+                        (2022): “The networked origins of cartesian philosophy and science”, in: 
+                        <hi rend="italic">The Journal of the International Society for the History of Philosophy and Science</hi>
+                        
+                        12, 1
+                        <hi rend="italic">:</hi>
+                        
+                        97-120. 
+                    </bibl>
+                    <bibl>
+                        <author>Shi, Feng</author> / <author>Foster, Jacob G.</author> / <author>Evans, James A.</author> 
+                        
+                        (2015): “Weaving the fabric of science: Dynamic network models of science’s unfolding structure”, in: 
+                        <hi rend="italic">Social Networks</hi>
+                        
+                        43: 73-85. 
+                    </bibl>
+                    <bibl>
+                        <author>Simkin, Mikhail V.</author> /
+                        <author>Roychowdhury, Vwani P.</author>
+                        
+                        (2007): “A mathematical theory of citing”, in: 
+                        <hi rend="italic">Journal of the American Society for Information Science and Technology</hi>
+                        
+                        58, 11: 1661-1673.
+                    </bibl>
+                    <bibl>
+                        <author>Sobkowicz, Pawel</author>
+                        
+                        (2013): “Quantitative agent based model of user behavior in an internet discussion forum”, in: 
+                        <hi rend="italic">PLoS ONE </hi>
+                        8, 12: e80524. 
+                    </bibl>
+                    <bibl>
+                        <author>Tria, Francesca</author> / <author>Loreto, Vittorio</author> / <author>Servedio, Vito D. P.</author> / <author>Strogatz, Steven H.</author> 
+                        
+                        (2014). “The dynamics of correlated novelties”, in: Scientific Reports 4, 1: 1-8. 
+                    </bibl>
+                    <bibl>
+                        <author>Ureña-Carrion, Javier</author> / <author>Leskinen, Petri</author> / <author>Tuominen, Jouni</author> / <author>van den Heuvel, Charles</author> / <author>Hyvönen, Eero</author> / <author>Kivel ä Mikko</author> 
+                        (2022): “Communication now and then: Analyzing the Republic of Letters as a communication network”, in: 
+                        <hi rend="italic">Applied Network Science </hi>
+                        7, 26.
+                    </bibl>
+                    <bibl>
+                        <author>van den Heuvel, Charles</author>
+                        
+                        (2015): “Mapping knowledge exchange in early modern Europe: Intellectual and technological geographies and network representations”, in: International Journal of Humanities and Arts Computing 9, 1: 95-114. 
+                    </bibl>
+                    <bibl>
+                        <author>van Wijk, Bernadette C. M.</author> / <author>Stam, Cornelis J.</author> / <author>Daffertshofer, Andreas</author> 
+                        (2010): “Comparing brain networks of different size and connectivity density using graph theory”, in: 
+                        <hi rend="italic">PLoS One 5,</hi>
+                        
+                        10: e13701. 
+                    </bibl>
+                    <bibl>
+                        <author>Wever, Melvin</author> / <author>Karsdorp, Folgert</author> / <author>van Lottum, Jelle</author> 
+                        
+                        (2022): “What shall we do with the unseen sailor? Estimating the size of the Dutch East India Company using an unseen species model.” in: 
+                        <hi rend="italic">CHR 2022: Computational Humanities Research Conference</hi>
+                        , Antwerp, Belgium, December 2022: 189 197. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

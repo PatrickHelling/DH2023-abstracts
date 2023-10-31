@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Viewing Between the Lines: Representation of Age, Race, Class and Gender in
+                    the Illustrations of Dutch-Language Children’s Literature (1800-1940)</title>
+                <author n="VanderEeckenPaavoVAN_DER_EECKEN_Paavo_Viewing_Between_the_Lines__Representati.xml"><persName ref="https://orcid.org/0000-0001-9494-8932" n="VanderEeckenPaavo">
+                        <surname>Van der Eecken</surname>
+                        <forename>Paavo</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>Paavo.vandereecken@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This research in progress studies how human characters are represented along the lines of age, race, class and gender in the illustrations of historical Dutch-language children's literature (1800-1940).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Children's Literature</term>
+                    <term>Illustrations</term>
+                    <term>Bias</term>
+                    <term>Representation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>electronic literature production and analysis</term>
+                    <term>image processing and analysis</term>
+                    <term>Art history</term>
+                    <term>Gender and sexuality studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Recent debate about what to do with books that present
+                    outdated or disfavored views has shown that literary representation is a highly
+                    controversial issue. Children’s books often depict a fictional world, so one
+                    could wonder why the content of those works matters at all. The answer lies in
+                    the fact that books for children reflect specific worldviews. This turns the
+                    process of reading into a contact zone, where readers engage with different
+                    ideas about themselves and the world (Čermáková / Mahlberg 2021). It is a
+                    dynamic process, where some social norms are internalized, while others are not
+                    (Tatar 2009; Brown 2017). The books thus influence to a significant extent how
+                    (young) readers perceive reality, themselves, and others (Van den Bossche /
+                    Klomberg 2020).  </p>
+            <p>Despite the significance of representation in books for
+                    children, we are still missing key information on how it is given shape exactly.
+                    To start with, studies on biased representation are scarce for Dutch-language
+                    children’s literature. This often causes scholars to revert to research from the
+                    Anglo-Saxon world. Furthermore, scholars have focused primarily on the textual
+                    elements, with only occasional attention to the visuals (De Bodt / Kapelle
+                    2003), despite research which has shown that visual biases are particularly hard
+                    to shed (Joosen 2018; Nel 2017). Thirdly, previous studies have mainly relied on
+                    the close reading of a limited number of mostly canonical works. In doing so,
+                    they have overlooked the presence of other children’s books circulating the
+                    literary market. Lastly, the roots of those biased representations have been
+                    understudied. One often hears the argument that historical cultural artifacts
+                    were “products of their time”, but this begs the question: how well do we
+                    actually know that time period? As it turns out, we often lack the necessary
+                    knowledge to make substantiated claims.  </p>
+            <p>In this study, we strive for a better understanding of the
+                    historical evolution of representation along the lines of age, race, class, and
+                    gender. We do this by analyzing a diverse corpus of 1,000 illustrated children’s
+                    books published in Dutch from the period 1800-1940. Taking a digital approach to
+                    this question helps us to overcome the disciplinary canon and to fill in the
+                    glaring gaps that have been mentioned above. Furthermore, it allows us to
+                    analyze how results from a Dutch-speaking context compare to studies based on
+                    other language areas. In doing so, this project answers the call by Mansour and
+                    Martin for studies situated in different cultures to become conversant with one
+                    another (2020). This form of collaborative action can help provide a solid basis
+                    for the discussions on representation that are taking place in our current
+                    societies. </p>
+            <p>In the first phase of this research, a team of annotators
+                has drawn bounding boxes around all human characters present in the illustrations
+                and assigned them attributes according to their age, race, class, and gender. At a
+                surface level, this provides us with numbers on the (under)representation of certain
+                social groups in illustrated children’s literature. Our preliminary results show,
+                for example, how the gender imbalance in the illustrations, with close to two male
+                characters for every female character, in this period is analogous to the one
+                reported for English books from the start of the 21st century (Hamilton et al.
+                2006). In line with what Hamilton et al. found, this discrepancy is more pronounced
+                for middle aged characters than it is for younger ones. By the time of the
+                conference, we will complete a statistical analysis of the nominal data, where we
+                will pay close attention to the intersectional nature of those different
+                representations.  </p>
+            <p>Furthermore, we will provide an analysis of the placement
+                    of different characters, because representation goes beyond absolute numbers.
+                    The positioning of characters in the illustration, for example, plays a big role
+                    in what Goffman would call visual stereotyping (1976). By creating heat maps of
+                    the annotated bounding boxes, we will analyze how prominent certain characters
+                    are in the illustrations. Important elements in this regard are the sizes of the
+                    bounding boxes and their centrality in the picture. By analyzing those features,
+                    we can establish not only who is often portrayed in children’s literature, but
+                    also shed light on how this portrayal is given shape.  </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Brown, Molly</author> (2017): “Children’s literature matters.”,
+                        in <hi rend="italic">English Academy Review</hi> 34, 1: 8-22. </bibl>
+                    <bibl>
+                        <author>Čermáková, Anna</author> / <author>Mahlberg, Michaela</author> (2021): “Gender
+                        inequality and female body language in children’s literature.”, in <hi rend="italic">Digital Scholarship in the Humanities</hi> 36: ii72-ii77. </bibl>
+                    <bibl>
+                        <author>De Bodt, Saskia</author> / <author>Kapelle, Jeroen</author> (2003): <hi rend="italic">Prentenboeken, ideologie en illustratie</hi> 1890-1950.
+                        Ludion. </bibl>
+                    <bibl>
+                        <author>Goffman, Erving </author>(1976): <hi rend="italic">Gender
+                            Commercials. In Gender advertisements</hi>. London: Palgrave. </bibl>
+                    <bibl>
+                        <author>Hamilton, Mykol</author> / <author>Anderson, David</author> / <author>Broaddus, Michelle</author> / <author>Young, Kate</author> (2006): “Gender stereotyping and under-representation
+                        of female characters in 200 popular children’s picture books: A twenty-first
+                        century update.”, in  <hi rend="italic">Sex roles</hi> 55, 11: 757-765. </bibl>
+                    <bibl>
+                        <author>Joosen, Vanessa </author>(2018): <hi rend="italic">Adulthood in
+                            Children's Literature</hi>. Bloomsbury Publishing. </bibl>
+                    <bibl>
+                        <author>Mansour, Nadia</author> / <author>Martin, Michelle H.</author> (2020): “What Can
+                        Danish Multicultural Children’s Literature and African American Children’s
+                        Literature Learn from Each Other?”, in <hi rend="italic">Literary Histories
+                            in Dialogue. </hi>
+                        <hi rend="italic">Barnboken</hi>, 43. </bibl>
+                    <bibl>
+                        <author>Nel, Philip </author>(2017): <hi rend="italic">Was the Cat in the Hat Black? </hi>
+                        <hi rend="italic">The hidden racism of children's literature, and the need
+                            for diverse books</hi>. Oxford University Press. </bibl>
+                    <bibl>
+                        <author>Van den Bossche, Sara</author> / <author>Klomberg, Anne</author>  (2020): <hi rend="italic">Jeugdliteratuur door de lens van etnisch-culturele
+                            diversiteit</hi>. Eburon. </bibl>
+                    <bibl>
+                        <author>Tatar, Maria </author>(2009): <hi rend="italic">Enchanted
+                            hunters: The power of stories in childhood</hi>. WW Norton &amp;
+                        Company. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

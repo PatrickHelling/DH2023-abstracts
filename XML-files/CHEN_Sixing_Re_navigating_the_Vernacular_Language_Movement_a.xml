@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Re-navigating the Vernacular Language Movement and Chinese Translation
+                    Literature, 1898-1938: An Examination of Prefaces Using Topic Modeling</title>
+                <author n="ChenSixingCHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml"><persName n="ChenSixing">
+                        <surname>Chen</surname>
+                        <forename>Sixing</forename>
+                    </persName><affiliation>The University of Hong Kong, Hong Kong S.A.R. (China)</affiliation><email>chensx31@connect.hku.hk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DuKeliCHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml"><persName ref="https://orcid.org/0000-0001-7800-0682" n="DuKeli">
+                        <surname>Du</surname>
+                        <forename>Keli</forename>
+                    </persName><affiliation>Trier Center for Digital Humanities, Germany</affiliation><email>duk@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LiJinCHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml"><persName n="LiJin">
+                        <surname>Li</surname>
+                        <forename>Jin</forename>
+                    </persName><affiliation>Renmin University of China, China</affiliation><email>13671123112@163.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This project aims to re-examine the Vernacular Language Movement and Chinese Translation Literature by applying topic modeling to a preface collection. Our corpus includes 2314 prefaces of translated works in Chinese from 1894 to 1938. We can observe three different stages in the VLM.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Vernacular Language Movement</term>
+                    <term>Chinese Translation Literature</term>
+                    <term>topic modeling</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>text mining and analysis</term>
+                    <term>Asian studies</term>
+                    <term>Literary studies</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The second wave of Western learning initiated the prosperity of translation
+                    literature in modern China. Lydia Liu proposed the so-called “translated
+                    modernity” to understand the transition of Chinese society through the import,
+                    distortion, and indigenization of new words. (Liu, 1995) The first question
+                    Chinese translators had to address was which Chinese language would be suitable
+                    for translating foreign works. There are two general styles of written Chinese,
+                    Classical Chinese and Written Vernacular Chinese. The latter includes Mandarin,
+                    other dialects (such as Cantonese, Fuzhou dialect, etc.), and Romanization.
+                    There was a call for vernacular Chinese since the 1860s. The cultural status of
+                    varieties of the Chinese language changed along with the Vernacular Language
+                    Movement (VLM). This project aims to re-examine the VLM by applying topic
+                    modeling to the preface collection. Only the preface is examined because it
+                    denotes the translator’s purpose and translation strategy. </p>
+            </div>
+            <div type="div1">
+                <head>Approach</head>
+                <p>Our corpus includes 2314 prefaces of translated works in Chinese from 1894 to
+                    1938, covering around 1.08 million words. As the length of each preface varies
+                    significantly, we first arranged the prefaces by year and then combined those in
+                    the same year into one non-spaced text. Next, we split the texts into 1000-word
+                    chunks to train the topic models. Following Schofield’s instruction (Schofield
+                    et al., 2017), the most frequent function words were considered stop words and
+                    should be removed. Several topic models with different numbers of topics (20,
+                    30, 40) have been trained by using Mallet (McCallum, 2002) with or without
+                    hyperparameter optimization. We notice that several topics always appear in
+                    different topic models trained with different parameter settings. We choose the
+                    topic model with 20 topics, as the distinction between the attributes of the
+                    topics is more distinct. Topic 16 <ref target="#CHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml_ftn1" n="1"/> always contains words related to the VLM. Its top words are visualized
+                    in Fig.1. </p>
+                <figure>
+                    <graphic n="1001" width="14.65086111111111cm" height="8.276166666666667cm" url="Pictures/af1a1229caa2869c18f61e29801e4506.png" rend="inline"/>
+                    <head>Fig.1 Topic16: top topic words</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <p>Topic16 primarily addresses the VLM issues, indicating the relation between
+                    language and translation literature. Three points are observed in Topic 16.</p>
+                <p>First, Written Vernacular Chinese gradually replaced Classical Chinese as the
+                    mainstream written language. The words “<hi rend="SimSun">白话文</hi>Written Vernacular Chinese(40) <ref target="#CHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml_ftn2" n="2"/>,” “<hi rend="SimSun">国语罗马</hi>Romanization of the national language(34),” “<hi rend="SimSun">罗马字</hi>Romanized
+                    characters(32),” and “<hi rend="SimSun">国语</hi>the national language(24)” are related to Written
+                    Vernacular Chinese, which showed a high frequency over “<hi rend="SimSun">文言</hi>Classical Chinese(11)”
+                    in the topic. Notably, Romanization had been highlighted along the VLM, which is
+                    embodied in the high-frequency words such as “<hi rend="SimSun">国语罗马</hi>(34),” “<hi rend="SimSun">罗马字</hi>(32),”
+                    “<hi rend="SimSun">拉丁</hi>Latin(26).” It shows the crisis of the Chinese written system: whether
+                    Chinese characters were a hindrance to enlightening Chinese people. </p>
+                <p>Second, Mandarin distinguished itself from the VLM as it was decreed as the
+                    national language in 1909. Although other dialects were also deemed as
+                    vernacular Chinese, the frequency of “<hi rend="SimSun">方言</hi>dialect(5)” is much lower than that of
+                    “<hi rend="SimSun">国语</hi>the national language(24)” in the topic. The frequency of “<hi rend="SimSun">方言</hi>dialect” in
+                    Google Ngram Viewer was higher than that of “<hi rend="SimSun">国语</hi>the national language.” In future
+                    work, we intend to apply sentiment analysis to examine the emotion expression
+                    toward dialect and the national language to investigate whether other Han
+                    dialects were marginalized by the national language. If the answer is yes, the
+                    sentiment related to “dialect” should be negative.</p>
+                <figure>
+                    <graphic n="1002" width="14.65086111111111cm" height="10.115902777777778cm" url="Pictures/d9bde23331c550e7753742c0eb904f80.png" rend="inline"/>
+                    <head>Fig.2 Google Ngram Viewer search results of “<hi rend="SimSun">方言</hi>dialect,” “<hi rend="SimSun">国语</hi>the national
+                        language,” “<hi rend="SimSun">白话文</hi>Written Vernacular Chinese,” and “<hi rend="SimSun">文言</hi>Classical Chinese”</head>
+                </figure>
+                <p>Third, “ <hi rend="SimSun">北平</hi>Beiping,” the name of
+                    Beijing before 1949, appears in this topic. It suggests that Beijing Mandarin
+                    surpassed Nanjing Mandarin to become the basis of the national language. To
+                    verify this assumption, we plan to apply Word Embedding Models to compare the
+                    distance between “ <hi rend="SimSun">北京</hi>Beijing” and “
+                    <hi rend="SimSun">国语</hi>the national language” as
+                    well as that between “ <hi rend="SimSun">南京</hi>Nanjing”
+                    and “ <hi rend="SimSun">国语</hi>the national language” in
+                    future research. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml_ftn1">
+                         The topic16 comes from a topic model with 20
+                            topics, all of which can be found here: <ref target="https://drive.google.com/file/d/1-RzEPaKQkY1UKuab6NripNvO3K5vC1oT/view?usp=sharing">https://drive.google.com/file/d/1-RzEPaKQkY1UKuab6NripNvO3K5vC1oT/view?usp=sharing</ref>
+                    </note><note n="2" xml:id="CHEN_Sixing_Re_navigating_the_Vernacular_Language_Movement_a.xml_ftn2">
+                         The number here represents the absolute frequency
+                            of the word in topic16.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Liu, L. H.</author> (1995). <hi rend="italic">Translingual
+                            Practice: Literature, National Culture, and Translated Modernity–China,
+                            1900-1937</hi>. Stanford University Press. </bibl>
+                    <bibl>
+                        <author>McCallum, A. K.</author> (2002). Mallet: A machine learning for
+                        language toolkit. </bibl>
+                    <bibl>
+                        <author>Schofield, A., Magnusson, M. ans and Mimno, D.</author> (2017).
+                        Pulling out the stops: Rethinking stopword removal for topic models. <hi rend="italic">Proceedings of the 15th Conference of the European Chapter
+                            of the Association for Computational Linguistics: Volume 2, Short
+                            Papers</hi>. pp. 432–36. </bibl>
+                    <bibl>
+                        <author>Tang, X. and Su, Q.</author> (2022). That Slepen Al the Nyght
+                        with Open Ye! Cross-era Sequence Segmentation with Switch-memory. <hi rend="italic">Proceedings of the 60th Annual Meeting of the Association
+                            for Computational Linguistics (Volume 1: Long Papers)</hi>. Dublin,
+                        Ireland: Association for Computational Linguistics, pp. 7830–40 doi: <ref target="https://doi.org/10.18653/v1/2022.acl-long.540">10.18653/v1/2022.acl-long.540</ref>. <ref target="https://aclanthology.org/2022.acl-long.540">https://aclanthology.org/2022.acl-long.540</ref> (accessed 21 October
+                        2022). </bibl>
+                    <bibl>
+                        <author>Zhang, X., Wu, P., Cai, J. and Wang, K.</author> (2019). A
+                        Contrastive Study of Chinese Text Segmentation Tools in Marketing
+                        Notification Texts. <hi rend="italic">Journal of Physics: Conference
+                            Series</hi>, 1302(2): 022010 doi: <ref target="https://doi.org/10.1088/1742-6596/1302/2/022010">10.1088/1742-6596/1302/2/022010</ref>. <ref target="https://iopscience.iop.org/article/10.1088/1742-6596/1302/2/022010">https://iopscience.iop.org/article/10.1088/1742-6596/1302/2/022010</ref>
+                        (accessed 21 October 2022). </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

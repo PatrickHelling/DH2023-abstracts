@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><hi rend="italic">Constrained</hi>. A Computational Study of the Influence of Formal Characteristics on the Transmission of the Middle Dutch <hi rend="italic">Martijn trilogy</hi> by Jacob van Maerlant</title>
+                <author n="MoorsSofieMOORS_Sofie__em_Constrained__em___A_Computational_Study_of_t.xml"><persName n="MoorsSofie">
+                        <surname>Moors</surname>
+                        <forename>Sofie</forename>
+                    </persName><affiliation>University of Antwerp, Belgium; FWO Research Foundation - Flanders</affiliation><email>sofie.moors@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper investigates to what extent formal aspects, such as rhyme, stanza form, and text structure, might have influenced the medieval copying process. To this end, all 17 manuscripts of Jacob van Maerlant’s Martijn trilogy have been computationally aligned. A first test verified the constraining character of rhyme.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>fragmentology</term>
+                    <term>Middle Dutch literature</term>
+                    <term>digital manuscript studies</term>
+                    <term>digital collation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Research problem statement</head>
+                <p>In the Middle Ages, the transmission of texts depended on the transcription of manuscripts, with scribes making copies by hand (Driscoll 2010). This handwritten transmission affected the 
+                    <hi rend="bold">stability</hi> of texts, leading to each manuscript copy containing unique 
+                    <hi rend="bold">variants</hi> (Cerquiglini 1989). More recent philological research, or 
+                    <hi rend="bold">material philology</hi>, focuses on this variation 
+                    <hi rend="italic">as such</hi> (Nichols 1997). The interest in textual transmission has led to research into how copyists manipulate a text to their liking (Van Dalen-Oskam 2012; Kestemont 2018; Haverals / Kestemont 
+                    <hi rend="italic">forthcoming</hi>).
+                </p>
+                <p>Little research has been done on the factors and underlying mechanisms involved in this complex copying process. An aspect of transmission that deserves further empirical research is the text form. Although evidence from psycholinguistics suggests that formal features (such as rhyme, stanza form, and text structure) could have a constraining character (Rubin 1995), little is known about the influence of form on variation. Slowly, more computational research on this topic is shaping up and being published (Thaisen 2014). </p>
+                <p>In this paper I will undertake a computational investigation of the transmission of the so-called 
+                    <hi rend="italic">Martijn trilogy</hi>, a text by the famous medieval Flemish author Jacob van Maerlant (ca. 1230-1235 - ca. 1288-1300). The 
+                    <hi rend="italic">Martijn trilogy</hi> is a text in the form of a dialogue that consists of three parts (labeled M1, M2, and M3). It is remarkable that in this argumentative poem, unlike the rest of his oeuvre, Maerlant did not opt for the dominant paired rhyme scheme, but rather used his own fixed form in which he uses only two rhyme sounds per stanza of 13 verses. Previous researchers paid less attention to the ways in which Maerlant’s text was transmitted, even though it was precisely the special form of the poems that presented major challenges to copyists. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Corpus &amp; methodology </head>
+                <div type="div2">
+                    <head>Data collection &amp; preprocessing </head>
+                    <p>In this paper, I will investigate to what extent formal aspects might have influenced the written transmission of Maerlant’s <hi rend="italic">Martijn trilogy</hi>. To this end, <hi rend="bold">all 17 different manuscripts</hi>, <hi rend="bold">fragments</hi>,  and <hi rend="bold">printsbefore 1500 will be computationallyaligned</hi>. For the data collection, existing editions could be used, which were digitized using Optical Character Recognition (ABBYY FineReader software). I have assessed the possible risk of errors in the existing transcriptions by checking them manually after consulting the sources via photographs or autopsy. Subsequently, all diplomatic transcriptions were provided with 
+                        <hi rend="bold">semantic markup</hi>. In doing so, text-structuring elements such as abbreviations, whitespace, stanza structure, folio numbers, and lombardic capitals were marked in the transcription. These raw text files were converted to XML-files by using a custom programming script (TEI-MVN framework developed by Boot &amp; Brinkman).
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>Data analysis </head>
+                    <p>The alignment has been made with the Needleman-Wunsch algorithm
+                        <ref target="#MOORS_Sofie__em_Constrained__em___A_Computational_Study_of_t.xml_ftn2" n="1"/> and with the specialized software 
+                        <hi rend="italic">CollateX</hi> (Dekker / Middell 2011). For the 
+                        <hi rend="italic">CollateX</hi> input, the XML-files were converted to JSON-files, with flags added to choose whether or not to retain (the markup for) capital letters, abbreviations, and punctuation. This aligned corpus consists of about 15,500 verses and allows an automated comparison down to the individual character, word, verse, or stanza (see for an example Figure 1). 
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="12.837080555555556cm" height="5.6162222222222224cm" url="Pictures/1f23dda54fe14041dfa3ffd2c1683dfb.png" rend="inline"/>
+                        <head>Figure 1. 
+                            <hi rend="italic">Alignment at the word-level of verse line 316 of M2.</hi></head>
+                    </figure>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Preliminary findings</head>
+                <p>A first test of one of the main hypotheses, namely the correlation between the text form (and specifically the rhyming scheme) and the transmission, has been performed. The variation in the rhyming words has been contrasted quantitatively with the variation in the unaffected textual parts. The test showed that the last characters of a verse – i.e. characters that are part of the rhyming words – are less subject to (spelling) variation than other words in the text (there is a decline in the line of the graph in the last positions, see Figure 2). To test that this is not an alignment artifact, we inverted the strings. This resulted in an almost exact inversion of the initial graph, which confirms our hypothesis. For the next step, the corpus will be lemmatized to see if the rhyming words are also less subject to 
+                    <hi rend="italic">lexical </hi>variation.
+                </p>
+                <figure>
+                    <graphic n="1002" width="15.24cm" height="9.48098888888889cm" url="Pictures/46f8bf81a20227303623fa4c0e87d30c.png" rend="inline"/>
+                    <head>Figure 2. 
+                        <hi rend="italic">Graph of variation. We see this decline in all conditions: with/without abbreviations/punctuation/capitals.</hi></head>
+                </figure>
+                <p>By comparing different versions of the same text, this project empirically tests whether the data analysis is compatible with existing hypotheses (such as, for example, the idea that rhyme has a constraining character) and hopes to get a better sense of which views can be excluded.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="MOORS_Sofie__em_Constrained__em___A_Computational_Study_of_t.xml_ftn2">
+                            <ref target="https://gist.github.com/slowkow/06c6dba9180d013dfd82bec217d22eb5">https://gist.github.com/slowkow/06c6dba9180d013dfd82bec217d22eb5</ref>. Many thanks to Mike Kestemont, Wouter Haverals and Maud Goddefroy for their help in writing the code. 
+                            
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Boot, Peter</author> / <author>Brinkman, Herman</author>  (n.d.): 
+                        <hi rend="italic">Richtlijnen voor digitale diplomatische edities in de reeks ‘Middeleeuwse Verzamelhandschriften uit de Nederlanden’</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Cerquiglini, Bernard</author>
+                         (1989): 
+                        <hi rend="italic">Éloge de la variante: Histoire critique de la philologie.</hi>
+                        Paris: Seuil.
+                    </bibl>
+                    <bibl>
+                        <author>Dekker, Ronald Haentjens</author> / <author>Middell, Gregor</author> 
+                         (2011): 
+                        <hi rend="italic">Computer-Supported Collation with CollateX: Managing Textual Variance in an Environment with Varying Requirements.</hi>
+                         University of Copenhagen, Denmark.
+                    </bibl>
+                    <bibl>
+                        <author>Driscoll, Matthew James</author> (2010): “The words on the page: Thoughts on philology, old and new”, in: Quinn, Judy / Lethbridge, Emily (eds.): 
+                        <hi rend="italic">Creating the medieval saga: Versions, variability, and editorial interpretations of Old Norse saga literature</hi>. Odense: Syddansk Universitetsforlag 85-102.
+                    </bibl>
+                    <bibl>
+                        <author>Haverals, Wouter</author> / <author>Kestemont, Mike</author>  (
+                        <hi rend="italic">forthcoming</hi>): “From exemplar to copy: the scribal appropriation of a Hadewijch manuscript computationally explored”, in: 
+                        <hi rend="italic">Journal of Data Mining and Digital Humanities</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Kestemont, Mike</author> (2018): “Aan de taal kent men de hand. Talige kopiistherkenning en de scribenten van de Lancelotcompilatie”, in: 
+                        <hi rend="italic">Spiegel der Letteren</hi> 60: 157-188.
+                    </bibl>
+                    <bibl>
+                        <author>Nichols, Stephen G.</author> (1997): “Why Material Philology?”, in: 
+                        <hi rend="italic">Zeitschrift für deutsche Philologie</hi> 116: 10-30.
+                    </bibl>
+                    <bibl>
+                        <author>Rubin, David C.</author> (1995): Memory in oral traditions: The cognitive psychology of epic, ballads, and counting-out rhymes. New York: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Thaisen, Jacob</author> (2014): “Initial position in the Middle English verse line”, in: 
+                        <hi rend="italic">English Studies</hi> 95, 5: 500–513. 
+                    </bibl>
+                    <bibl>
+                        <author>Van Dalen-Oskam, Karina</author> (2012): “The secret life of scribes. Exploring fifteen manuscripts of Jacob van Maerlant’s Scolastica (1271)”, in: 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 27: 355-372.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

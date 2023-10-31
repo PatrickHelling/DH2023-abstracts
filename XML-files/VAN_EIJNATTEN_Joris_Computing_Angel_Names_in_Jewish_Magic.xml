@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Computing Angel Names in Jewish Magic</title>
+                <author n="SaarOrtalPazVAN_EIJNATTEN_Joris_Computing_Angel_Names_in_Jewish_Magic.xml"><persName ref="https://orcid.org/0000-0002-1000-0763" n="SaarOrtalPaz">
+                        <surname>Saar</surname>
+                        <forename>Ortal-Paz</forename>
+                    </persName><affiliation>Utrecht University, The Netherlands</affiliation><email>o.p.saar@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanEijnattenJorisVAN_EIJNATTEN_Joris_Computing_Angel_Names_in_Jewish_Magic.xml"><persName ref="https://orcid.org/0000-0002-8865-0002" n="vanEijnattenJoris">
+                        <surname>van Eijnatten</surname>
+                        <forename>Joris</forename>
+                    </persName><affiliation>Utrecht University, The Netherlands; Netherlands eScience
+                        Center</affiliation><email>j.vaneijnatten@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>No systematic analysis has been carried out on the nomenclature of angels in Jewish magical texts ranging in date from Late Antiquity to the modern period. Employing computational methods, we have mined a unique and substantial corpus from the Cairo Genizah, extracting from it contextualised information on angel names.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>magic</term>
+                    <term>angels</term>
+                    <term>Judaism</term>
+                    <term>digital history</term>
+                    <term>text mining</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>Magic texts from most cultural traditions mention supernatural entities, often
+                    referred to as angels and demons. Jewish magical literature (Bohak 2019) also
+                    abounds in references to such beings. The angels among them are often named and
+                    addressed directly. They are beseeched or adjured to assist in achieving the aim
+                    of the magical act. Angel names can be found in magic rituals for a broad
+                    variety of aims, ranging from healing, protection from evil, or economic success
+                    to aggressive aims, such as causing the downfall of one’s enemies. While Jewish
+                    angelology has been explored from a variety of perspectives (e.g., Olyan 1993;
+                    Reed 2020), angels in Jewish magic have received less attention. This paper
+                    applies computational methods to explore angelic nomenclature and function in a
+                    corpus of Jewish magical texts derived from the Cairo Genizah.</p>
+                <p>The Cairo Genizah preserved over 2,500 magical and mystical manuscript fragments,
+                    ranging in date from Late Antiquity to the modern period, and forms an ideal
+                    corpus for exploring angels in Jewish magic. The corpus consists of instruction
+                    manuals and recipes for performing magic rituals, as well as textual amulets
+                    that are the products of these rituals (Saar 2019). Cairo Genizah texts comprise
+                    Hebrew, Aramaic and Judaeo-Arabic (Arabic written with Hebrew script), and often
+                    a combination of the three. Almost all the texts employ the Hebrew script (א ב
+                    ג). Arabic text written in the Arabic script (ابج) is also found, but
+                    rarely.</p>
+            </div>
+            <div>
+                <head>Project aims</head>
+                <p>Over a thousand supernatural entities that can be defined as angels are named in
+                    Genizah magical texts, yet no database exists that assembles them all (see <ref target="https://elyonimvetachtonim.project.uj.edu.pl/">elyonimvetachtonim.project.uj.edu.pl/</ref> for other corpora). Furthermore, no systematic analysis has been carried
+                    out on the nomenclature of angels in Jewish magic, neither within nor outside
+                    the Genizah corpus. This paper is a first step directed towards modifying this
+                    state of affairs. </p>
+                <p>Employing computational methods, we have mined a corpus of Jewish magic texts
+                    from the Cairo Genizah, extracting from it contextualised information on angel
+                    names. We have the following research aims in mind:</p>
+                <list type="ordered">
+                    <item>Establishing a database of angel names found in Jewish magic texts from
+                        the Cairo Genizah;</item>
+                    <item>Determining the relations between specific angels or angelic
+                        groups;</item>
+                    <item>Determining whether consistent connections exist between the aims of a
+                        magic ritual and the angels that are involved in it.</item>
+                </list>
+            </div>
+            <div>
+                <head>Method</head>
+                <p>Establishing a database using an automated workflow involves a number of
+                    challenges, which we have met by employing proven, off-the-shelf digital methods
+                    and libraries (Eijnatten/Huijnen 2021). Our code is written primarily in Python
+                    script.</p>
+                <list type="ordered">
+                    <item>Transforming ancient texts, transcribed manually in an MS Word document
+                        format with inconsistent layouts, into machine readable language (based on
+                            <ref target="https://github.com/ankushshah89/python-docx2txt">docx2txt</ref>). </item>
+                    <item>Dealing with right-to-left script (using the <ref target="https://www.jetbrains.com/help/pycharm/text-direction.html">text direction feature</ref> in the IDE PyCharm). </item>
+                    <item>Generating word lists to identify angel names (employing n-grams, based on
+                        existing libraries: <ref target="https://pandas.pydata.org/">pandas</ref><hi rend="underline">,</hi><ref target="https://www.nltk.org/">nltk</ref>, <ref target="https://github.com/YontiLevin/Hebrew-Tokenizer">hebrew-tokenizer</ref>, etc). </item>
+                    <item>Working with transcriptions resulting from incomplete or illegible
+                        manuscripts, including lacunae marked by square brackets [ ] and other
+                        special characters (adding search features to the code based on <ref target="https://docs.python.org/3/library/re.html">re</ref> (regular expressions)). </item>
+                    <item>Identifying individual magic recipes using consistent start + end
+                        indicators in the texts themselves – consistency (adding simple customised
+                        search features to the script, again using regular expressions).</item>
+                    <item>Automatically identifying the aims of magic recipes (using classification
+                        techniques / machine learning based on among others <ref target="https://spacy.io/">spaCy</ref>, <ref target="https://scikit-learn.org/stable/">sklearn</ref> and <ref target="https://www.tensorflow.org/">TensorFlow</ref>). </item>
+                </list>
+            </div>
+            <div>
+                <head>Initial results</head>
+                <p>The analysis consists of two steps, one based on a test/training set of 184
+                    manually controlled documents, the other on the full dataset of 2,500+
+                    documents. The code for the automated workflow to meet each of the seven
+                    challenges mentioned above has been completed; the bulk of the transcribed
+                    corpus, stemming from a pre-digital era, has been uniformized, allowing us to
+                    perform the full analysis over the coming months. The results of the large-scale
+                    analysis using the complete extant corpus will be presented at the
+                    conference.</p>
+                <p>Our analysis of the test/training set already yielded a total of 335 different
+                    angel names (Graph 1). The findings show that angels tend to make a single
+                    appearance, suggesting that most angel names in the Genizah magical literature
+                    were created ad-hoc. Also, the vast majority of angel names do not seem to
+                    display a clear-cut connection to the aim of the magic ritual in which they are
+                    mentioned (Graph 2). For example, the angel Yofiel (from יופי, meaning beauty)
+                    could be adjured to make an individual beloved by all, but also to repel
+                    crickets from the house. In terms of the digital history methods outlined above,
+                    and based on our analysis thus far, we expect that both classic methods (e.g.
+                    raw frequencies, n-gram, collocation) and more complex clustering and
+                    classification techniques will allow us to answer each of our three research
+                    questions. </p>
+                <p>This paper is part of a larger project, in which we employ computational methods
+                    for a broad-scale survey and analysis of angels in Jewish magic and the magic of
+                    related cultures. As the results above indicate, our proposed methodology is
+                    well applicable for the study of magical texts in different languages and states
+                    of preservation. We expect our computational exploration of angel names,
+                    functions and interconnections to provide a useful tool for scholars of magic,
+                    mysticism and religion in different cultural traditions.</p>
+            </div>
+            <figure>
+                <graphic n="1001" width="15.920861111111112cm" height="8.025694444444444cm" url="Pictures/495d0bf6ae1d0ccbbb2fad38d7ceb483.png" rend="inline"/>
+                <head>Graph 1. The seamless bar graph shows a count of all angels in a test dataset
+                    of 184 manuscripts. The six highest scores are Gabriel (32), Michael (30),
+                    Ḥasdiel (14), and Raphael, Ṣuriel and Meṭaṭron (13). In this series, N is 335,
+                    the mode is 1, the median 1 and the mean 1.74.</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.988394444444445cm" height="15.097125cm" url="Pictures/3ce8d42fca71d947bee6176e13b89584.png" rend="block"/>
+
+                <head>Graph 2. A rough indication of the differences in purpose fulfilled in
+                    adjurations by the most popular angel Gabriel, based on a manually controlled
+                    test dataset of 184 manuscripts. This seems to show that there is no clear
+                    relation between angel and specific incantations.</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bohak, Gideon. </author>2019. “Jewish
+                        Amulets, Magic Bowls, and Manuals in Aramaic and Hebrew”, in: D. Frankfurter
+                        (ed.), <hi rend="italic">Guide to the Study of Ancient Magic</hi>. Leiden
+                        etc., 388–415. </bibl>
+                    <bibl>
+                        <author>Eijnatten, Joris van, and Huijnen, Pim. </author>2021.
+                        “Something Happened to the Future: Reconstructing Temporalities in Dutch
+                        Parliamentary Debate, 1814–2018”. <hi rend="italic">Contributions to the
+                            History of Concepts</hi> 16, 52–82 (awarded the 2022 Richard Deswarte
+                        Prize in Digital History). </bibl>
+                    <bibl>
+                        <author>Olyan, Saul M. </author>1993. <hi rend="italic">A Thousand
+                            Thousands Served Him: Exegesis and the Naming of Angels in Ancient
+                            Judaism</hi> (Tübingen). </bibl>
+                    <bibl>
+                        <author>Reed, Annette Yoshiko. </author>2020.
+                        <hi rend="italic">Demons, Angels, and Writing in Ancient Judaism</hi>,
+                        Cambridge. <ref target="https://doi.org/10.1017/9781139030847">https://doi.org/10.1017/9781139030847</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Saar, Ortal-Paz. </author>2019. “Genizah
+                        Magical Documents”. <hi rend="italic">Jewish History</hi> 32: 477–484. <ref target="https://doi.org/10.1007/s10835-019-09322-6">https://doi.org/10.1007/s10835-019-09322-6</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mapping spatial named entities from noisy OCR output: Epimetheus from OCR to map.</title>
+                <author n="KoudoroParfaitCarolineKOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml"><persName n="KoudoroParfaitCaroline">
+                        <surname>Koudoro-Parfait</surname>
+                        <forename>Caroline</forename>
+                    </persName><affiliation>ObTIC, Observatoire des textes des idées et des corpus, Sorbonne Université, France; STIH, Sens Texte Informatique Histoire, Sorbonne Université, France; SCAI, Sorbonne Center for Artificial Intelligence, Sorbonne Université, France</affiliation><email>caroline.parfait@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlrahabiMotasemKOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml"><persName n="AlrahabiMotasem">
+                        <surname>Alrahabi</surname>
+                        <forename>Motasem</forename>
+                    </persName><affiliation>ObTIC, Observatoire des textes des idées et des corpus, Sorbonne Université, France</affiliation><email>motasem.alrahabi@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DupontYoannKOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml"><persName n="DupontYoann">
+                        <surname>Dupont</surname>
+                        <forename>Yoann</forename>
+                    </persName><affiliation>Lattice, Langues, Textes, Traitements informatiques, Cognition, France</affiliation><email>yoa.dupont@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LejeuneGalKOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml"><persName n="LejeuneGal">
+                        <surname>Lejeune</surname>
+                        <forename>Gaël</forename>
+                    </persName><affiliation>STIH, Sens Texte Informatique Histoire, Sorbonne Université, France</affiliation><email>gael.lejeune@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RoeGlennKOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml"><persName ref="https://orcid.org/0000-0002-5611-7916" n="RoeGlenn">
+                        <surname>Roe</surname>
+                        <forename>Glenn</forename>
+                    </persName><affiliation>ObTIC, Observatoire des textes des idées et des corpus, Sorbonne Université, France</affiliation><email>glenn.roe@paris-sorbonne.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution presents the difficulties encountered and methods to overcome them when using ready-to-use tools for the elaboration of a processing chain going from OCR to NER and then to the cartographic representation of spaces mentioned in literary texts.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>This contribution presents the difficulties encountered and methods to overcome them when using ready-to-use tools for the elaboration of a processing chain going from OCR to NER and then to the cartographic representation of spaces mentioned in literary texts.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Named Entity Recognition</term>
+                    <term>Optical character recognition</term>
+                    <term>Map</term>
+                    <term>Cluster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>Literary studies</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This contribution presents both the difficulties encountered, and the methods used to overcome them, when using out-of-the-box tools for the elaboration of text-processing pipelines that go from optical character recognition (OCR) to named entity recognition (NER) and the cartographic representation of places mentioned in literary texts. NER’s significance in NLP stems from the fact that named entities (NEs) constitute the majority of search queries formulated by users, especially spatial NEs (van Strien, Daniel et al. 2020). Better identification of NEs is thus an efficient way to improve access to data in large textual corpora ((Chiron, Guillaume et al. 2017); (Linhares Pontes, Elvys et al. 2019)).</p>
+            <p>Researchers are often confronted with the difficulties of applying NLP tools – which are normally trained on clean data (Eshel, Yotam et al. 2017) – to less standardized texts such as OCR transcripts. OCR errors are commonly known as noise : insertions, deletions, and also substitutions of one or more characters by others. To overcome these difficulties, one approach is to automatically correct the OCR output. While for systematic errors automation is possible
+                <ref target="#KOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml_ftn1" n="1"/>(Stanislawek, Tomasz et al. 2019), for others it becomes difficult to achieve. Automatic correction may even produce new errors (Huynh, Vinh-Namet al. 2020).
+            </p>
+            <p>To tackle this problem, (Koudoro-Parfait, Caroline et al. 2021) and (Koudoro-Parfait, Caroline et al. 2022) produced a manual and automatic evaluation of the impact of OCR errors on NER. These analyses are based on the French corpus of the European collection of literary texts – ELTeC (Schöch, Christof et al. 2021). The authors compare the NEs obtained on this reference version to the outputs of different noisy OCR transcriptions. They demonstrate that some off-the-shelf NER tools spaCy (Honnibal, Matthew / Montani, Ines 2017)and stanza (Qi, Peng et al. 2020) can be rather robust when it comes to the variations that systems face : for example, contexts and NE contaminated (Hamdi, Ahmed et al. 2022) by different OCR errors. In the same context, (Hamdi, Ahmed et al. 2020) and (van Strien, Daniel et al. 2020) evaluate the impact of OCR noise on subsequent uses of these data. They report that the impact of OCR on NER is rather moderate unless the OCR is really of very poor quality.</p>
+            <p>As part of the development of the Pandore toolbox (Mayra Cordova, Johanna et al. 2022) by the project team Observatoire des Textes des Idées et des Corpus - ObTIC, we constructed Épiméthée
+                <ref target="#KOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml_ftn2" n="2"/>a processing pipeline that allows users to OCR the images of their texts with the French model of Tesseract (Smith, Ray 2007) and to obtain two outputs. The first is a representation of spatial NE’s geolocalized on a map. The second is a downloadable file with all the data and metadata that produced the map. Two NER tools spaCy and Flair (Akbik, Alan et al. 2019)are used to produce this output. For each NE, the tool that extracted the NE is indicated, as well as the geolocations automatically generated with the Geopy library (Esmukov, Kostya / Tigas, Mike 2018). The user can modify and correct the generated output and reuse it in the geographic information system of itschoice. The first uses showed that a majority of the NEs that had been recovered by the two NER tools were true positives, even when their form is contaminated. In order to help users to correct NER outputs, we implemented two solutions for the automatic alignment of different variants of a NE. This would allow us to group the different contaminated forms of an NE (for instance, "Saint-Nizier", "Saint-Nizier.n", "Saint-Nizierl", or, “Rhône”, “Rhone” et “Rh6ne”). The first is inspired by the work about various distances (Jaccard, Bray-Curtis, Cosine) of (Koudoro-Parfait Caroline et al. 2022), and the second uses a data clustering method ((Lin, Dekang 1998);(Green, Spence et al. 2012)) to get groups of similar NE.
+            </p>
+            <p>We consider that the clustering can be used as a decision support step (Olteanu, Alexandru L. 2013), in a use case where a user would seek to sort NEs more efficiently than occurrence-by- occurrence or even shape-by-shape processing. Ideally, the user would proceed as follows : (i) a cluster whose centroid is not an NE can be left out, (ii) a cluster whose centroid is indeed an NE can be pre-selected before being re-filtered by the user. The clustering of textual data provides a quantitative and condensed data representation (Loustau, Sébastien 2013) and could be applied to noisy data (Brunet, Camille / Loustau, Sébastien 2013). For clustering, we used the Affinity Propagation algorithm (Frey, Brenda J. / Dueck, Delbert 2007), which is interesting because it does not require a predetermined number of expected clusters. We configured the tool and the cluster method seems efficient, even if it still raises some difficulties, in a few cases the centroid is not a NE but the cluster contains NEs. Our contribution will be thus twofold : we will first present the Épiméthée tool that will be made available to the DH community and second, present an analysis of the added value for users demonstrated in our different use-cases on a corpus of 19th century French novels (Koudoro-Parfait, Caroline et al. 2021).</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml_ftn1"> Substitution of an "é" with an "e"</note><note n="2" xml:id="KOUDORO_PARFAIT_Caroline_Mapping_spatial_named_entities_from.xml_ftn2"> Prototype of Épiméthée : 
+                    <ref target="http://pp-obtic.sorbonne-universite.fr/toolbox/ocr_map">http://pp-obtic.sorbonne-universite.fr/toolbox/ocr_map</ref> [30.04.2023].
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Akbik, Alan</author> / <author>Bergmann, Tanja</author> / <author>Blythe, Duncan</author> / <author>Rasul, Kashif</author> / <author>Schweter, Stefan</author> / <author>Vollgraf, Roland</author>  (2019): 
+                        <hi rend="italic">“FLAIR: An easy-to-use framework for state-of-the-art NLP”,</hi>in: NAACL 2019, 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics (Demonstrations), pages 54–59.
+                    </bibl>
+                    <bibl>
+                        <author>Brunet, Camille</author> / <author>Loustau, Sébastien</author> (2013): 
+                        <hi rend="italic">“The algorithm of noisy k-means”</hi>, in: CoRR, abs/1308.3314.
+                    </bibl>
+                    <bibl>
+                        <author>Burnard, Lou</author> / <author>Schöch, Christof</author> / <author>Odebrecht, Carolin</author> (2021): 
+                        <hi rend="italic">“In Search of Comity: TEI for Distant Reading”</hi>, in: Journal of the Text Encoding Initiative 14. DOI: 
+                        <ref target="https://doi.org/10.4000/jtei.3500">https://doi.org/10.4000/jtei.3500</ref> [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Chiron, Guillaume</author> / <author>Doucet, Antoine</author> / <author>Coustaty, Mickaël</author> / <author>Visani, Muriel</author> / <author>Moreux, Jean-Philippe</author> (2017): 
+                        <hi rend="italic">“</hi>
+                        <hi rend="italic">Impact of OCR errors on the use of digital libraries Towards a better access to information</hi>
+                        <hi rend="italic">”</hi>, in: 2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2017 ACM/IEEE Joint Conference on Digital Libraries (JCDL), Toronto, Canada. IEEE.
+                    </bibl>
+                    <bibl>
+                        <author>Eshel, Yotam</author> / <author>Cohen, Noam</author> / <author>Radinsky, Kira</author> / <author>Markovitch, Shaul</author> / <author>Yamada, Ikuya</author> / <author>Levy, Omer</author> (2017): 
+                        <hi rend="italic">“Named entity disambiguation for noisy text”</hi>, in: Levy, Roger /Specia, Lucia, editors, the 21st Conference on Computational Natural Language Learning (CoNLL 2017), Vancouver, Canada, August 3-4, 2017, pages 58–68. Association for Computational Linguistic.
+                    </bibl>
+                    <bibl>
+                        <author>Esmukov, Kostya</author> / <author>Tigas, Mike</author> (2018): 
+                        <ref target="https://geopy.readthedocs.io/en/stable/">https://geopy.readthedocs.io/en/stable/</ref>[30.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Frey, Brenda J.</author> / <author>Dueck, Delbert</author> (2007): 
+                        <hi rend="italic">“Clustering by passing messages between data points”</hi>, in: Science, 315(5814):972–976.
+                    </bibl>
+                    <bibl>
+                        <author>Green, Spence</author> / <author>Andrews, Nicholas</author> / <author>Gormley, Matthew R.</author> / <author>Dredze, Mark</author> / <author>Manning, Christopher D.</author> (2012): 
+                        <hi rend="italic">“Entity clustering across languages”</hi>, in: the 2012 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 60–69, Montréal, Canada. Association for Computational Linguistics.
+                    </bibl>
+                    <bibl>
+                        <author>Hamdi, Ahmed</author> / <author>Jean-Caurant, Axel</author> / <author>Sidère, Nicolas</author> / <author>Coustaty, Mickaël</author> / <author>Doucet, Antoine</author> (2020): 
+                        <hi rend="italic">“Assessing and Minimizing the Impact of OCR Quality on Named Entity Recognition”</hi>in: Digital Libraries for Open Knowledge 24th International Conference on Theory and Practice of Digital Libraries, TPDL 2020, Lyon, France, August 25–27, 2020, pages 87–101.
+                    </bibl>
+                    <bibl>
+                        <author>Hamdi, Ahmed</author> / <author>Linhares Pontes, Elvys</author> / <author>Sidère, Nicolas</author> / <author>Coustaty, Mickaël</author> / <author>Doucet, Antoine</author> (2022): 
+                        <hi rend="italic">“In-Depth Analysis of the Impact of OCR Errors on Named Entity Recognition and Linking”</hi>in: Natural Language Engineering. 29(2):425–448. DOI: 10.1017/S1351324922000110.
+                    </bibl>
+                    <bibl>
+                        <author>Honnibal, Matthew</author> / <author>Montani, Ines</author> (2017): 
+                        <hi rend="italic">“spacy 2: Natural language understanding with bloom embeddings, convolutional neural networks and incremental parsing”</hi>, 7(1):411–420.
+                    </bibl>
+                    <bibl>
+                        <author>Huynh, Vinh-Nam</author> / <author>Hamdi, Ahmed</author> / <author>Doucet, Antoine</author> (2020): 
+                        <hi rend="italic">“When to Use OCR Post-correction for Named Entity Recognition?”</hi>in: 22nd International Conference on Asia-Pacific Digital Libraries, ICADL 2020, pages 33–42.
+                    </bibl>
+                    <bibl>
+                        <author>Koudoro-Parfait, Caroline</author> / <author>Lejeune, Gaël</author> / <author>Roe, Glenn</author> (2021): 
+                        <hi rend="italic">“Spatial named entity recognition in literary texts: What is the influence of OCR noise?”</hi>, in: Moncla, Ludovic /Brando, Carmen /McDonough, Katherine, editors, GeoHumanities@SIGSPATIAL 2021: the 5th ACM SIGSPATIAL International Workshop on Geospatial Humanities, Beijing, China, November 2 - 5, 2021, pages 13–21. ACM. 
+                        <ref target="https://github.com/These-SCAI2023/NER_GEO_COMPAR">https://github.com/These-SCAI2023/NER_GEO_COMPAR</ref> [30.04.2023],
+                    </bibl>
+                    <bibl>
+                        <author>Koudoro-Parfait, Caroline</author> / <author>Lejeune, Gaël</author> / <author>Buth, Ritchy</author> (2022): 
+                        <hi rend="italic">“Resolution of entity linking issues on noisy ocr output: automatic disambiguation tracks”</hi>, in: Actes de la 29e Conférence sur le Traitement Automatique des Langues Naturelles. Atelier TAL et Humanités Numériques (TAL-HN), pages 45–55.
+                    </bibl>
+                    <bibl>
+                        <author>Lin, Dekang</author> (1998): 
+                        <hi rend="italic">“Automatic retrieval and clustering of similar words”</hi>, in: COLING 1998 Volume 2: The 17th International Conference on Computational Linguistics.
+                    </bibl>
+                    <bibl>
+                        <author>Linhares Pontes, Elvys</author> / <author>Hamdi, Ahmed</author> / <author>Sidère, Nicolas</author> / <author>Doucet, Antoine</author> (2019): 
+                        <hi rend="italic">“Impact of OCR Quality on Named Entity Linking”</hi>, in: International Conference on Asia-Pacific Digital Libraries 2019, Kuala Lumpur, Malaysia.
+                    </bibl>
+                    <bibl>
+                        <author>Loustau, Sébastien </author>(2013): 
+                        <hi rend="italic">“Anisotropic oracle inequalities in noisy quantization”</hi>, 
+                        <ref target="https://arxiv.org/abs/1305.0630">https://arxiv.org/abs/1305.0630</ref>[ 27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Mayra Cordova, Johanna</author> / <author>Dupont, Yoann</author> / <author>Petkovic, Ljudmila</author> / <author>Gawley, James</author> / <author>Alrahabi, Motasem</author> / <author>Roe, Glenn</author> (2022): 
+                        <hi rend="italic">“Toolbox : une chaîne de traitement de corpus pour les humanités numériques”</hi>, in: Estève, Y., Jiménez, T., Parcollet, T., and Zanon Boito, M., editors, Traitement Automatique des Langues Naturelles, pages 11–13, Avignon, France. ATALA. 
+                        <ref target="http://pp-obtic.sorbonne-universite.fr/toolbox/">http://pp-obtic.sorbonne-universite.fr/toolbox/</ref> [30.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Olteanu, Alexandru L. </author>(2013): 
+                        <hi rend="italic">“On clustering in multiple criteria decision aid: theory and applications”</hi>, in: PhD, Télécom Bretagne, Université de Bretagne Occidentale.
+                    </bibl>
+                    <bibl>
+                        <author>Qi, Peng</author> / <author>Zhang, Yuhao</author> / <author>Zhang, Yuhui</author> / <author>Bolton, Jason</author> / <author>Manning, Christopher D.</author> (2020): “Stanza: A python natural language processing toolkit for many human languages”, in: Celikyilmaz, A. and Wen, T., editors, the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, ACL 2020, Online, July 5-10, 2020, pages 101–108. Association for Computational Linguistics.
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> / <author>Patraș, Roxana</author> / <author>Santos, Diana</author> / <author>Erjavec, Tomaž</author> (2021): “Creating the European Literary Text Collection (ELTeC): Challenges and Perspectives”, in: Modern Languages Open 1/25. DOI: 
+                        <ref target="http://doi.org/10.3828/mlo.v0i0.364">http://doi.org/10.3828/mlo.v0i0.364</ref> [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Smith, Ray </author>(2007): 
+                        <hi rend="italic">“An overview of the tesseract ocr engine”</hi>, in: Ninth international conference on document analysis and recognition (ICDAR 2007), volume 2, pages 629–633. IEEE. 
+                        <ref target="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</ref> [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Stanislawek, Tomasz</author> / <author>Wróblewska, Anna</author> / <author>Wójcicka, Alicja</author> / <author>Ziembicki, Daniel</author> / <author>Biecek, Przemyslaw</author> (2019): 
+                        <hi rend="italic">“Named entity recognition - is there a glass ceiling?”</hi>, in: the 23rd Conference on Computational Natural Language Learning (CoNLL), pages 624–633.
+                    </bibl>
+                    <bibl>
+                        <author>Strien, Daniel van</author> / <author>Beelen, Kaspar</author> / <author>Ardanuy, Mariona</author> / <author>Hosseini, Kasra</author> / <author>McGillivray, Barbara</author> / <author>Colavizza, Giovanni</author> (2020): 
+                        <hi rend="italic">“Assessing the Impact of OCR Quality on Downstream NLP Tasks”</hi>, in, the 12th International Conference on Agents and Artificial Intelligence - Volume 1: ARTIDIGH, pages 484 – 496.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

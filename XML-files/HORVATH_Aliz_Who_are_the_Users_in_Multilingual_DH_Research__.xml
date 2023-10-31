@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Who are the Users in Multilingual DH Research?: A Community Exploration</title>
+                <author n="HorvathAlizHORVATH_Aliz_Who_are_the_Users_in_Multilingual_DH_Research__.xml"><persName n="HorvathAliz">
+                        <surname>Horvath</surname>
+                        <forename>Aliz</forename>
+                    </persName><affiliation>Eötvös Loránd University, Hungary</affiliation><email>aliz.horvath06@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WagnerCosimaHORVATH_Aliz_Who_are_the_Users_in_Multilingual_DH_Research__.xml"><persName n="WagnerCosima">
+                        <surname>Wagner</surname>
+                        <forename>Cosima</forename>
+                    </persName><affiliation>Freie Universität Berlin, Germany</affiliation><email>cosima.wagner@fu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WrisleyDavidHORVATH_Aliz_Who_are_the_Users_in_Multilingual_DH_Research__.xml"><persName ref="https://orcid.org/0000-0002-0355-1487" n="WrisleyDavid">
+                        <surname>Wrisley</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>NYU Abu Dhabi, United Arab Emirates</affiliation><email>djw12@nyu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Our workshop will continue conversations about building community around multilingual DH research in non-Latin alphabets and right-to-left script languages. Participants will think through the languages, skill sets, aspirations and challenges of digital researcher personas working in these languages and scripts through a guided discussion and community co-writing experience.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>multilingualism</term>
+                    <term>multilinguality</term>
+                    <term>UX methods</term>
+                    <term>digital research infrastructures</term>
+                    <term>non-Latin scripts</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital activism and advocacy</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>user experience design and analysis</term>
+                    <term>Asian studies</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The purpose of our workshop is to continue conversations about building community around questions of multilingual DH research in non-Latin alphabets and right-to-left script languages. Participants in the workshop will have an opportunity to think through the languages, skill sets, aspirations and challenges of digital researcher personas working in these languages and scripts through a guided discussion and community co-writing experience.</p>
+            <p>We are convinced that there is a specific role to be played by the digital humanists in describing and modeling the design of workflows which assume multilinguality (and multiscriptual and multidirectional practices). This work cannot only be left to the tech industry and commercial interests alone. On the other hand, the larger community of digital humanists is not fully aware of the multilingual users and communities, nor the full complexity of the issues they face. These users are all around us, and in this workshop we want to create a space for dialogue and debate, as well as to introduce and develop further the creation of multilingual DH UX personas.</p>
+            <p>In the background of the workshop sit problems when multilingual practices conflict with the constraining functions of infrastructure, the discussion of which has been gaining ground in the critical literature. We find this to be particularly relevant for researchers who work with a combination of languages, some of which have been relatively well served by digital infrastructure, whereas others such as right-to-left (RTL) scripts or non-Latin alphabets (NLA) have been neglected (Fiormonte 2021, Ghorbaninejad et al. 2023, Golumbia 2013, Grallert 2022, Horvath 2021 and 2022, Horvath et al. (in submission), Kirmizialtin / Wrisley 2022, Spence / Brandao 2021 and Wrisley 2019). We hope to explore through discussion how these debates can inform future plans for the multilingual DH community.</p>
+            <p>The co-organizers of this workshop have been researching the utility of multilingual DH user personas and experimenting with modes of community input and open dissemination of this work. Through exercises which combine UX persona and living lab methodologies (Piller / West, 2014), the workshop at DH2023 aims to reflect on how multilingual user personas can be recreated in local environments and globally. Specifically, a portion of the workshop will be spent discussing a pre-circulated paper on multilingual DH UX personas, and then participants will evaluate and refine those personas collaboratively. </p>
+            <p>Our workshop has three main goals:</p>
+            <p> </p>
+            <p>-        Practicing the methodology of UX persona creation for the DH community;</p>
+            <p>-        Co-writing a set of best practices for mapping multilinguality in local communities;</p>
+            <p>-        Providing a venue for globally separated communities to know each other better and to learn from each other.</p>
+            <p>We are convinced that even though our collective experience of so many languages and different roles within knowledge producing environments provide us with many vantage points from which to see the question of multilingual DH, there are still many voices to be heard. Our workshop is an opportunity to continue the networking and experience sharing of DH practitioners working beyond English and European languages, while also strategizing steps forward in the coming years.</p>
+            <p>Although it will take place in English, the workshop aims to target a broad, international, multilingual audience, particularly people using or interested in non-Latin scripts in a DH context. Due to the linguistic and professional diversity and geographical embeddedness of those involved in multilingual DH, the co-organizers are also interested in hearing  global voices from parts of the academy, the tech and the knowledge sectors they have not yet reached. More specifically, this workshop invites a broad participation from librarians, researchers, academic technology specialists, research engineers, publishers, independent scholars, and anyone interested in questions of research infrastructures and how they handle humanities data in non-Latin scripts.</p>
+            <p>The workshop builds on a significant amount of momentum in the community of multilingual DH, including, but not limited to, a workshop from ADHO 2019 (<ref target="https://multilingualdh.org/en/dh2019/">https://multilingualdh.org/en/dh2019/</ref>). The 2023 iteration of the topic would also aim to bolster this otherwise highly scattered community and would especially strive to broaden the network of non-Latin script DH experts by inviting DH practitioners from the “non-Anglophone” sphere to join the conversation,bringing their experience in using and expertise in developing non-Latin script DH tools and resources. Since the effectiveness of multilingual digital research infrastructure development and implementation depends highly on the interplay and cooperation of developers, institutions, and scholars, we also invite any other organizations to send a delegate to participate in the discussion and to share their interests, issues, and challenges related to multilingual DH.</p>
+            <p><hi rend="bold">Part One</hi>: The workshop would begin with a co-writing exercise in a "pad" (such as hedgedoc.org) in which the participants describe themselves, their interests and involvements in multilingual DH, summarized by the organizers, followed by a short contextualizing presentation which situates the pre-circulated paper co-authored by the workshop organizers (Horvath et al). (30 minutes)</p>
+            <p><hi rend="bold">Part Two</hi>: The next part of the workshop would actively involve participants in a collaborative exercise of critiquing, refining and extending the UX personas inspired by a portion of the multilingual DH community (Horvath et al, 2023). Then, we would co-write a workflow for UX persona creation inspired by critical literature in the field (Adlin / Pruett 2010; Cooervits et al 2016; Hixson / Parrott 2021; Schuurman 2015; Piller / West 2014) that participants take home with them, adapting to their own environments and useful to their own local communities.  (90 minutes + 30 minute break)</p>
+            <p><hi rend="bold">Part Three</hi>: Finally, after a break and networking opportunity amongst the participants, the workshop would build on the discussion of the UX personas above, and will  include a guided discussion and brainstorming session about multilingual digital research infrastructures. It would conclude with a writing sprint to formulate actionable steps for approaching practical implementation of such requirements. This would also serve as a form of ideation for the collective writing of a future article. The organizers will make an effort in advance to identify a suitable platform for publishing this piece in a timely fashion. (75 minutes) </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Adlin, Tamara</author> / <author>Pruitt, John</author> 
+                         (2010): 
+                        <hi rend="italic">The Essential Persona Lifecycle: Your Guide to Building and Using Personas. </hi>
+                        Burlington: Morgan Kaufmann.
+                    </bibl>
+                    <bibl>
+                        <author>Coorevits, Lynn</author> / <author>Schuurman, Dimitri</author> / <author>Oelbrandt, Kathy</author> / <author>Logghe, Sara</author> 
+                         (2016): “Bringing personas to life: User experience design through interactive coupled open innovation”, in: 
+                        <hi rend="italic">Persona Studies</hi>
+                         2, 1: 97–114. DOI: 10.21153/ps2016vol2no1art534.
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Fiormonte, Domenico</author>
+                         (2021): “Taxation against Overrepresentation? The Consequences of Monolingualism for Digital Humanities”, in: Kim, Dorothy / Koh, Adeline (eds.): 
+                        <hi rend="italic">Alternative Historiographies of the Digital Humanities.</hi>
+                         Santa Barbara: Punctum Books 333–376.
+                    </bibl>
+                    <bibl>
+                        <author>Ghorbaninejad, Masoud</author> / <author>Gibson, Nathan P.</author> / <author>Wrisley, David Joseph</author> 
+                         (forthcoming): “Right-to-Left (RTL) Text: Digital Humanists plus Half a Billion Users”, in: Gold, Matthew K. / Klein, Lauren (eds.): 
+                        <hi rend="italic">Debates in the Digital Humanities 2023</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Golumbia, David</author>
+                         (2015): “Postcolonial studies, digital humanities, and the politics of language”, in: 
+                        <hi rend="italic">uncomputing</hi>
+                        , May 31, 2013. 
+                        <ref target="http://www.uncomputing.org/?p=241">http://www.uncomputing.org/?p=241</ref>
+                         [10.12.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Grallert, Till</author>
+                         (2022): "Open Arabic periodical editions: a framework for bootstrapped scholarly editions outside the Global North”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
+                         16, 2. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/16/2/000593/000593.htm">www.digitalhumanities.org/dhq/vol/16/2/000593/000593.html</ref>
+                         [10.12.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Hixson, Taylor</author> / <author>Parrott, Justin</author> 
+                         (2021): “Using UX personas to improve library GIS and data services”, in: 
+                        <hi rend="italic">Weave: Journal of Library User Experience</hi>
+                         4, 2. DOI: 10.3998/weaveux.221.
+                    </bibl>
+                    <bibl>
+                        <author>Horvath, Aliz</author>
+                          (2021): “Enhancing language inclusivity in digital humanities: towards sensitivity and multilingualism”, in: 
+                        <hi rend="italic">Modern Languages Open</hi>
+                         1, 26. DOI: 10.3828/mlo.v0i0.382
+                    </bibl>
+                    <bibl>
+                        <author>Horvath, Aliz</author>
+                         (2022): “Digital Brush Talk: Challenges and Potential Connections in East Asian Digital Research”, in: Fiormonte, Domenico / Chaudhuri, Sukanta / Ricaurte, Paola (eds.): 
+                        <hi rend="italic">Global Debates in the Digital Humanities. </hi>
+                        Minneapolis: University of Minnesota Press 127-140.
+                    </bibl>
+                    <bibl>
+                        <author>Horvath, Aliz</author> / <author>van Lit, Cornelis</author> / <author>Wagner, Cosima</author> / <author>Wrisley, David Joseph</author> 
+                         (in submission) "Centering multilingual users: thinking through UX personas in the DH community", in: 
+                        <hi rend="italic">Digital Studies / Le champ numérique</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Horvath, Aliz</author> / <author>van Lit, Cornelis</author> / <author>Wagner, Cosima</author> / <author>Wrisley, David Joseph</author> 
+                        (2023). “Six user personas for the multilingual DH community”, in: Zenodo.
+                        <ref target="https://doi.org/10.5281/zenodo.7811800"> </ref>
+                        DOI: 10.5281/zenodo.7811800. 
+                    </bibl>
+                    <bibl>
+                        <author>Kirmizialtin, Suphan</author> / <author>Wrisley, David Joseph</author> 
+                         (2022): "Automated transcription of non-Latin script periodicals: a case study in the Ottoman Turkish print archive”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
+                         16, 2. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/16/2/000577/000577.html">http://www.digitalhumanities.org/dhq/vol/16/2/000577/000577.html</ref>
+                         [10.12.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Piller, Frank</author> / <author>West, Joel</author> 
+                         (2014): “Firms, users, and innovation: an interactive model of coupled open innovation”, in Chesbrough, Henry / Vanhaverbeke, Wim / West, Joel (eds.), 
+                        <hi rend="italic">New Frontiers in Open Innovation</hi>
+                        . Oxford: Oxford Academic 29-49. DOI: 10.1093/acprof:oso/9780199682461.003.0002. 
+                    </bibl>
+                    <bibl>
+                        <author>Schuurman, Dimitri</author>
+                         (2015): 
+                        <hi rend="italic">Bridging the Gap between Open and User Innovation? Exploring the Value of Living Labs as a Means to Structure User Contribution and Manage Distributed Innovation</hi>
+                        . PhD thesis, Ghent University.
+                    </bibl>
+                    <bibl>
+                        <author>Spence, Paul</author> / <author>Brandao, Faria</author> 
+                         (2021): 
+                        <hi rend="italic">Disrupting Digital Monolingualism: A Report on Multilingualism in Digital Theory and Practice. </hi>
+                        London: Language Acts and Worldmaking Project.
+                    </bibl>
+                    <bibl>
+                        <author>Wrisley, David Joseph</author>
+                         (2019): “Enacting open scholarship in transnational contexts”, in: 
+                        <hi rend="italic">POP. Public. Open. Participatory</hi>
+                         1.
+                        <ref target="https://doi.org/10.21810/pop.2019.002"> </ref>
+                        DOI: 10.21810/pop.2019.002.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

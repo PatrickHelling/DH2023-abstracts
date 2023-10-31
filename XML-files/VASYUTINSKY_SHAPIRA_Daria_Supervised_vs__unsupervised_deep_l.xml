@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Supervised vs. unsupervised deep learning for medieval Hebrew manuscripts</title>
+                <author n="VasyutinskyShapiraDariaVASYUTINSKY_SHAPIRA_Daria_Supervised_vs__unsupervised_deep_l.xml"><persName n="VasyutinskyShapiraDaria">
+                        <surname>Vasyutinsky Shapira</surname>
+                        <forename>Daria</forename>
+                    </persName><affiliation>The Open University of Israel</affiliation><email>dariavas@post.bgu.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RabaevIrinaVASYUTINSKY_SHAPIRA_Daria_Supervised_vs__unsupervised_deep_l.xml"><persName n="RabaevIrina">
+                        <surname>Rabaev</surname>
+                        <forename>Irina</forename>
+                    </persName><affiliation>Shamoon College of Engineering, Beer-Sheva, Israel</affiliation><email>irinar@ac.sce.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlaasamReemVASYUTINSKY_SHAPIRA_Daria_Supervised_vs__unsupervised_deep_l.xml"><persName n="AlaasamReem">
+                        <surname>Alaasam</surname>
+                        <forename>Reem</forename>
+                    </persName><affiliation>Ben-Gurion University of the Negev, Israel</affiliation><email>rym@post.bgu.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ElSanaJihadVASYUTINSKY_SHAPIRA_Daria_Supervised_vs__unsupervised_deep_l.xml"><persName n="ElSanaJihad">
+                        <surname>El-Sana</surname>
+                        <forename>Jihad</forename>
+                    </persName><affiliation>Ben-Gurion University of the Negev, Israel</affiliation><email>el-sana@cs.bgu.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Paleographical features can be extracted from digitized images by applying deep machine learning. This paper presents an unsupervised deep-learning method for determining script types and modes for medieval Hebrew manuscripts. The results would be presented vs. the previously published results of supervised deep learning for the same datasets.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>Paleographical features can be extracted from digitized images by applying deep machine learning. This paper presents an unsupervised deep-learning method for determining script types and modes for medieval Hebrew manuscripts. The results would be presented vs. the previously published results of supervised deep learning for the same datasets.
+            </p></abstract>
+                
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital Hebrew paleography</term>
+                    <term>deep learning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>We present the ongoing project that aims to revolutionize our ability to access, analyze, and interpret digitized medieval Hebrew manuscripts by applying different deep machine learning techniques. We seek to facilitate access to the primary sources for deepening and transforming our understanding of medieval written Jewish cultures and cultural interferences between them. During the last few years, several software systems have been developed to access and analyze digitized manuscripts. Most of the development has been geared toward Latin scripts (Cloppet et al. 2016; Cloppet et al. 2017; Stutzmann, / Helias-Baron 2021), and much lesser work has been done for right-to-left historical documents. Among the most important are the DigiPal database on Latin paleography; the Europeana platform is connected to many libraries around Europe; the D-scribes project - a platform for Greek and Coptic papyri; Friedberg Genizah Project, which allows access to Hebrew documents from Cairo Genizah and Judeo-Arabic manuscripts; the major Ktiv project at the National Library of Israel that aims to provide connections to all collections of Hebrew manuscripts worldwide; Scripta Qumranica electronica for the Dead Sea Scrolls. The eScriptorium framework, READ, and their predecessors, Transkribus and Kraken applications, allow semi-automatic layout recognition and trainable text recognition (Shmidman et al. 2022). </p>
+            <p>The existing projects of digital Hebrew paleography work on different datasets and different kinds of manuscripts, each solving a different part of the puzzle. These projects complement each other for the final goal of recognizing the handwritten text in historical documents. They build on semi-automatic algorithms for HTR that are fine-tuned for every manuscript. We suggest that efforts be directed toward training fully automatic algorithms, and this will be achieved by combining traditional paleography with cutting-edge technologies. Deep machine learning is an efficient tool for the fully automatic extraction of different features from digitized medieval manuscripts. We will present an innovative unsupervised method of deep learning to recognize the fourteen classes of styles and modes of the medieval Hebrew script. The unsupervised deep learning algorithms will be compared to the previously achieved and published results on supervised deep machine learning models. </p>
+            <p>Our project, which includes computer scientists and digital humanists, has developed the open-access dataset of medieval Hebrew manuscripts (
+                <ref target="https://zenodo.org/record/6387471#.YxczWhCEafA">https://zenodo.org/record/6387471#.YxczWhCEafA</ref>), which is based on the Sfardata database for Hebrew paleography (
+                <ref target="https://sfardata.nli.org.il/">https://sfardata.nli.org.il/</ref>). To the best of our knowledge, this is the first dataset in Hebrew that includes samples of major Hebrew writing types and modes to address the digital paleography community. 
+            </p>
+            <p>The dataset contains 715 page-images excerpted from 171 different manuscripts that were split into training, typical test, and blind test sets (manuscripts in the blind test set are those that did not appear in the test set). </p>
+            <p>During the supervised training, the models were trained until convergence using 50K patches extracted from pages in the train set. The model was trained using the binary cross entropy loss function. The patches were extracted using the patch generation method proposed in our previous work, which extracts patches with uniform text scale and, on average, five lines in each patch. Among the models (DenseNet, AlexNet, VGG19, ResNet50, SqueezeNet), the ResNet50 outperformed all the other models on every metric, achieving an accuracy of 60%. The model is continuously improved according to the prediction given for unseen manuscripts and the corresponding feedback from a paleographer. Because manual annotation of manuscripts is time-consuming and expensive, and only a small number of manuscripts can be annotated, we are now experimenting with unsupervised learning. Using our datasets, we train a Siamese network and extract the features of the last layer to cluster the data and generate the classes without needing further annotations. In our semi-supervised/unsupervised approach, we successfully trained a Siamese network to an accuracy above 90% and generated 14 clusters. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Barakat, Berat Kurar / Droby, Ahmad / Alaasam, Reem / Madi, Boraq / Rabaev, Irina / Shammes, Raed / El-Sana, Jihad</hi>
+                         (2021): "Unsupervised deep learning for text line segmentation", in
+                         
+                        <hi rend="italic">2020 25th International Conference on Pattern Recognition (ICPR)</hi>
+                        : 2304-2311.
+                    </bibl>
+                    <bibl>
+                        <author>Beit-Arié, Malachi</author>
+                         (2021): 
+                        <hi rend="italic">Hebrew Codicology</hi>
+                        , 
+                        <ref target="http://doi.org/10.25592/uhhfdm.8849">http://doi.org/10.25592/uhhfdm.8849</ref>
+                         [26.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Cloppet, Florence</author> / <author>Eglin, Veronique</author> / <author>Helias-Baron, Marlene</author> / <author>Kieu, Cuong</author> / <author>Vincent, Nicole</author> / <author>Stutzmann, Dominique</author> 
+                         (2017): "Icdar2017 competition on the classification of medieval handwritings in Latin script", in
+                         
+                        <hi rend="italic">2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR)</hi>
+                        , 1: 1371-1376. 
+                    </bibl>
+                    <bibl>
+                        <author>Cloppet, Florence</author> / <author>Eglin, Véronique</author> / <author>Stutzmann, Dominique</author> / <author>Vincent, Nicole</author> 
+                        (2016): "ICFHR2016 competition on the classification of medieval handwritings in Latin script", in
+                         
+                        <hi rend="italic">2016 15th International Conference on Frontiers in Handwriting Recognition (ICFHR)</hi>
+                        : 590-595. 
+                    </bibl>
+                    <bibl>
+                        <author>Dhali, Maruf A.</author> / <author>He, Sheng</author> / <author>Popović, Mladen</author> / <author>Tigchelaar, Eibert</author> / <author>Schomaker, Lambert</author> 
+                         (2017): "A digital palaeographic approach towards writer identification in the dead sea scrolls", in
+                         
+                        <hi rend="italic">Proceedings of the 6th International Conference on Pattern Recognition Applications and Methods (ICPRAM) </hi>
+                        1: 693-702.
+                    </bibl>
+                    <bibl>
+                        <author>Dhali, Maruf A.</author> / <author>Nathan Jansen, Camilo</author> / <author>Willem De Wit, Jan</author> / <author>Schomaker, Lambert</author> 
+                         (2020): "Feature-extraction methods for historical manuscript dating based on writing style development."
+                         
+                        <hi rend="italic">Pattern Recognition Letters</hi>
+                         
+                        131: 413-420.
+                    </bibl>
+                    <bibl>
+                        <author>Droby, Ahmad</author> / <author>Barakat, Berat Kurar</author> / <author>Vasyutinsky Shapira, Daria</author> / <author>Rabaev, Irina</author> / <author>El-Sana, Jihad</author> 
+                         (2021): "VML-HP: Hebrew paleography dataset", in
+                         
+                        <hi rend="italic">Document Analysis and Recognition–ICDAR 2021: 16th International Conference, </hi>
+                        Proceedings, IV 16: 205-220. 
+                    </bibl>
+                    <bibl>
+                        <author>Droby, Ahmad</author> / <author>Rabaev, Irina</author> / <author>Vasyutinsky Shapira, Daria</author> / <author>Barakat, Berat Kurar</author> / <author>El-Sana, Jihad</author> 
+                         (2022): "Digital Hebrew Paleography: Script Types and Modes", in:
+                         
+                        <hi rend="italic">Journal of Imaging</hi>
+                         
+                        8, no. 5: 143.
+                    </bibl>
+                    <bibl>
+                        <author>Droby, Ahmad</author> / <author>Vasyutinsky Shapira, Daria</author> / <author>Rabaev, Irina</author> / <author>Barakat, Berat Kurar</author> / <author>El-Sana, Jihad</author> 
+                         (2022): "Hard and Soft Labeling for Hebrew Paleography: A Case Study", in
+                         
+                        <hi rend="italic">Document Analysis Systems: 15th IAPR International Workshop (DAS 2022), Proceedings</hi>
+                        : 492-506. 
+                    </bibl>
+                    <bibl>
+                        <author>Kestemont, Mike</author> / <author>Christlein, Vincent</author> / <author>Stutzmann, Dominique</author> 
+                         (2017): "Artificial paleography: computational approaches to identifying script types in medieval manuscripts", in:
+                         
+                        <hi rend="italic">Speculum</hi>
+                        92, S1: S86-S109.
+                    </bibl>
+                    <bibl>
+                        <author>Memon, Irfanullah</author> / <author>Muhammad, Ammar ul Hassan</author> / <author>Choi, Jaeyoung</author> 
+                         (2023): "Robustness of Contrastive Learning on Multilingual Font Style Classification Using Various Contrastive Loss Functions", in
+                         
+                        <hi rend="italic">Applied Sciences</hi>
+                         
+                        13, no. 6: 3635.
+                    </bibl>
+                    <bibl>
+                        <author>Schmarje, Lars</author> / <author>Santarossa, Monty</author> / <author>Schröder, Simon-Martin</author> / <author>Koch, Reinhard</author> 
+                         (2021): "A survey on semi-, self-and unsupervised learning for image classification", in
+                        <hi rend="italic"> Access</hi>
+                         
+                        9: 82146-82168.
+                    </bibl>
+                    <bibl>
+                        <author>Schor, Uri</author> / <author>Raziel-Kretzmer, Vered</author> / <author>Lavee, Moshe</author> / <author>Kuflik, Tsvi</author> 
+                         (2021) "Digital research library for multi-hierarchical interrelated texts: from ‘Tikkoun Sofrim’text production to text modeling", in
+                        Classics@ Journal
+                        : 18 issue 1, 
+                        <ref target="https://classics-at.chs.harvard.edu/classics18-schor-raziel-kretzmer-lavee-kuflik/">https://classics-at.chs.harvard.edu/classics18-schor-raziel-kretzmer-lavee-kuflik/</ref>
+                         [26.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Shmidman, Avi</author> / <author>Guedalia, Joshua</author> / <author>Shmidman, Shaltiel</author> / <author>Shmidman, Cheyn Shmuel</author> / <author>Handel, Eli</author> / <author>Koppel, Moshe</author> 
+                         (2022): "Introducing BEREL: BERT Embeddings for Rabbinic-Encoded Language", in
+                         
+                        <hi rend="italic">arXiv preprint arXiv:2208.01875</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        Sirat, Colette (2002). 
+                        <hi rend="italic">Hebrew manuscripts of the Middle Ages</hi>
+                        . Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Stökl Ben Ezra, Daniel</author> / <author>Brown-DeVost, Bronson</author> / <author>Jablonski, Pawel</author> 
+                         (2021): "Exploiting Insertion Symbols for Marginal Additions in the Recognition Process to Establish Reading Order", in
+                         
+                        <hi rend="italic">Document Analysis and Recognition–ICDAR 2021 Workshops, Proceedings, </hi>
+                        II 16: 317-324. 
+                    </bibl>
+                    <bibl>
+                        <author>Stutzmann, Dominique</author> / <author>Helias-Baron, Marlène</author> 
+                         (2021): “ICFHR 2016 Competition on the Classification of Medieval Handwritings in Latin Script-Dataset”, 
+                        <ref target="https://hal.science/hal-03355868/">https://hal.science/hal-03355868/</ref>
+                         [26/04/2023].
+                    </bibl>
+                    <bibl>
+                        <author>Vasyutinsky Shapira, Daria</author> / <author>Rabaev, Irina</author> / <author>Droby, Ahmad</author> / <author>Kurar Barakat, Berat</author> / <author>El-Sana, Jihad</author> 
+                         (2022): "Is a deep learning algorithm effective for the classification of medieval Hebrew scripts?", in:
+                         
+                        <hi rend="italic">Studies in Digital History and Hermeneutics</hi>
+                        : 349.
+                    </bibl>
+                    <bibl>
+                        Wecker, Alan J. / Schor, Uri / Elovits, Dror / Stoekl Ben Ezra, Daniel / Kuflik, Tsvi / Lavee, Moshe / Raziel-Kretzmer, Vered / Ohali, Avigail / Signoret, Lily
+                         (2019): "Tikkoun sofrim: A webapp for personalization and adaptation of crowdsourcing transcriptions", in
+                         
+                        <hi rend="italic">Adjunct Publication of the 27th Conference on User Modeling, Adaptation and Personalization</hi>
+                        : 109-110.
+                    </bibl>
+                    <bibl>
+                        <author>Yardeni, Ada</author>
+                         (1997): 
+                        <hi rend="italic">The book of Hebrew script: history, palaeography, script styles, calligraphy &amp; design</hi>
+                        . Carta Jerusalem.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

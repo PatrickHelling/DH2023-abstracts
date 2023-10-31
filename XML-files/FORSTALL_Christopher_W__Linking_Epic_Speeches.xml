@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Linking Epic Speeches</title>
+                <author n="ForstallChristopherWFORSTALL_Christopher_W__Linking_Epic_Speeches.xml"><persName n="ForstallChristopherW">
+                        <surname>Forstall</surname>
+                        <forename>Christopher W.</forename>
+                    </persName><affiliation>Mount Allison University, Canada</affiliation><email>cforstall@mta.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StaggWyattFORSTALL_Christopher_W__Linking_Epic_Speeches.xml"><persName n="StaggWyatt">
+                        <surname>Stagg</surname>
+                        <forename>Wyatt</forename>
+                    </persName><affiliation>Mount Allison University, Canada</affiliation><email>wastagg@mta.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster presents a suite of Python utilities for interacting with the DICES database of metadata on Greek and Latin epic speeches and for connecting DICES data with a broader ecosystem of linked open data for Classics.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Classics</term>
+                    <term>Epic</term>
+                    <term>narratology</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In this poster we present a suite of Python-based tools for interacting with DICES,
+                an open dataset for the diachronic study of direct speech in Greek and Latin epic
+                poetry (Forstall et al. 2022). The <hi rend="italic">dices-client</hi> package not
+                only permits programmatic search of the DICES database but more importantly supports
+                its integration within an ecosystem of linked open data (LOD). </p>
+            <p>The narrative tradition of Greco-Roman epic poetry is expansive and deeply
+                intertextual (see, e.g., Hinds 1998 and Hardie 1993). Homeric characters from the
+                eighth century BCE appeared in “sequels” by Virgil in the first century BCE and by
+                Quintus of Smyrna in the fifth century CE. The Argonauts’ quest for the golden
+                fleece was reinvented by Apollonius in Hellenistic Egypt and again by Valerius
+                Flaccus in Flavian Rome. To study the evolution of this genre thus demands a
+                similarly collaborative approach. The DICES database and the client package
+                presented here were designed to leverage existing LOD resources for digital
+                classics, facilitating analysis of the use of character speech across periods and
+                languages within a single scripting environment.</p>
+            <p>We demonstrate the search functionality of the DICES python client in comparison with
+                a more traditional web-based user interface, highlighting support for distant
+                reading approaches and presenting summary statistics of the underlying DICES
+                dataset. Then, in a constellation of short case-studies, we explore how the client’s
+                supporting modules provide direct interaction between speech records and several
+                classes of external digital tools: </p>
+            <list type="unordered">
+                <item>Speaker and addressee identities are cross-referenced against two databases of
+                    named entities: WikiData, a publicly-editable general-purpose knowledge base,
+                    and MANTO, a curated scholarly collection of mythological entities from Greek
+                    and Latin literature (Hawes / Smith 2022). </item>
+                <item>Records on textual passages can be linked to digital libraries using the
+                    Canonical Text Services protocol (Tiepmar / Heyer 2019) in order to retrieve the
+                    full text of the speech or additional metadata about the passage, work, or
+                    author. </item>
+                <item>Retrieved passages can further be processed using the natural language
+                    processing pipelines provided by the Classical Language Toolkit (CLTK),
+                    including tokenization, stemming, part-of-speech-tagging, and syntactic parsing
+                    (Burns 2019).</item>
+            </list>
+            <p>For example, we can query DICES to see how often transtextual characters such as
+                Achilles speak in epics from Homer to Quintus (Table 1). Then, from the same script
+                we can also request the text of Achilles’ speeches from the Perseus Digital Library
+                and pass them directly to CLTK to see how the swift-footed hero uses different parts
+                of speech across authors and languages (Figures 1, 2).</p>
+            <p>Drawing on the character metadata in MANTO and WikiData, we can explore direct speech
+                through the lens of relationships or other personal attributes not necessarily
+                present in the speeches themselves: for example, we can compare the language used
+                between mothers and sons across the corpus, or the conversational patterns of
+                characters destined to die at the hands of their interlocutors.</p>
+            <p>Working examples of these case studies as well as additional tutorial materials are
+                available as Jupyter Notebooks on GitHub: https://github.com/cwf2/dices-examples.
+                The DICES client itself is available at https://github.com/cwf2/dices-client.</p>
+            <table xml:id="d107e189">
+                <head>Table 1. Distribution of speeches by selected transtextual
+                    characters</head>
+                <row>
+                    <cell/>
+                    <cell>Achilles</cell>
+                    <cell>Aeneas</cell>
+                    <cell>Diomedes</cell>
+                    <cell>Helen</cell>
+                    <cell>Heracles</cell>
+                    <cell>Nestor</cell>
+                    <cell>Odysseus</cell>
+                </row>
+                <row>
+                    <cell>
+                        Apollonius,
+                        <hi rend="italic">Argonautica</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>2</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Homer,
+                        <hi rend="italic">Iliad</hi>
+                    </cell>
+                    <cell>88</cell>
+                    <cell>6</cell>
+                    <cell>26</cell>
+                    <cell>7</cell>
+                    <cell>0</cell>
+                    <cell>32</cell>
+                    <cell>27</cell>
+                </row>
+                <row>
+                    <cell>
+                        Homer,
+                        <hi rend="italic">Odyssey</hi>
+                    </cell>
+                    <cell>3</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>4</cell>
+                    <cell>1</cell>
+                    <cell>9</cell>
+                    <cell>169</cell>
+                </row>
+                <row>
+                    <cell>
+                        Lucan,
+                        <hi rend="italic">Civil War</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Nonnus,
+                        <hi rend="italic">Dionysiaca</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Ovid,
+                        <hi rend="italic">Metamorphoses</hi>
+                    </cell>
+                    <cell>5</cell>
+                    <cell>1</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                    <cell>8</cell>
+                    <cell>4</cell>
+                    <cell>3</cell>
+                </row>
+                <row>
+                    <cell>
+                        Quintus,
+                        <hi rend="italic">Posthomerica</hi>
+                    </cell>
+                    <cell>8</cell>
+                    <cell>1</cell>
+                    <cell>5</cell>
+                    <cell>2</cell>
+                    <cell>0</cell>
+                    <cell>14</cell>
+                    <cell>8</cell>
+                </row>
+                <row>
+                    <cell>
+                        Silius Italicus,
+                        <hi rend="italic">Punica</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Statius,
+                        <hi rend="italic">Achilleid</hi>
+                    </cell>
+                    <cell>7</cell>
+                    <cell>0</cell>
+                    <cell>3</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>7</cell>
+                </row>
+                <row>
+                    <cell>
+                        Statius,
+                        <hi rend="italic">Thebaid</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Theocritus,
+                        <hi rend="italic">Idylls</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>3</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Triphiodorus,
+                        <hi rend="italic">Sack of Troy</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                </row>
+                <row>
+                    <cell>
+                        Valerius Flaccus,
+                        <hi rend="italic">Argonautica</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>6</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                </row>
+                <row>
+                    <cell>
+                        Virgil,
+                        <hi rend="italic">Aeneid</hi>
+                    </cell>
+                    <cell>0</cell>
+                    <cell>70</cell>
+                    <cell>1</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                    <cell>0</cell>
+                </row>
+            </table>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="12.0015cm" url="Pictures/a0e9833690402db43b9ce1ec9ae96296.png" rend="inline"/>
+                <head>Figure 1. Achilles’ use of nouns vs. verbs in his
+                speeches, in Homer’s Iliad and Odyssey, Ovid’s Metamorphoses, and Statius’
+                Achilleid</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="12.0015cm" url="Pictures/f0050523817b3042191f460c33b032a4.png" rend="inline"/>
+                <head>Figure 2. Achilles’ use of subordinating vs. coordinating
+                conjunctions in Homer, Ovid, and Statius. We had initially expected the largest
+                difference to be between languages, but in fact, the more significant separation was
+                between the two Roman authors.</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Burns, Patrick J.</author> (2019):
+                        “Building a text analysis pipeline for classical languages”, in: Berti,
+                        Monica (ed.) <hi rend="italic">Digital Classical Philology: Ancient Greek
+                            and Latin in the Digital Revolution</hi>. Berlin: De Gruyter 159–176. </bibl>
+                    <bibl>
+                        <author>Forstall, Christopher W.</author> / <author>Finkmann, Simone</author> / <author>Verhelst, Berenice</author>  (2022): “Towards a linked open data resource for direct
+                        speech acts in Greek and Latin epic”, in: <hi rend="italic"> DSH</hi>
+                         37, 4: 972–981.
+                    </bibl>
+                    <bibl>
+                        <author>Hardie, Philip</author> (1993): <hi rend="italic">The Epic Successors of Virgil: A Study in the Dynamics of a
+                            Tradition</hi>. Cambridge: Cambridge University Press. </bibl>
+                    <bibl><author>Hawes, Greta</author> / <author>Smith, Scott</author> 
+                        (2022): “A dataset of mythical people with stable URIs.”
+                        <ref target="https://www.manto-myth.org/blog/a-dataset-of-mythical-names-with-stable-uris">https://www.manto-myth.org/blog/a-dataset-of-mythical-names-with-stable-uris</ref>
+                        [2022.11.04]</bibl>
+                    <bibl>
+                        <author>Hinds, Stephen</author> (1998): <hi rend="italic">Allusion and Intertext: Dynamics of Appropriation in Roman Poetry</hi>
+                        . Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl><author>Tiepmar, Jochen</author> / <author>Heyer, Gerhard</author>  (2019): “The Canonical Text Services in Classics and
+                        beyond”, in: Berti, Monica (ed.) <hi rend="italic">Digital Classical
+                            Philology: Ancient Greek and Latin in the Digital Revolution</hi>.
+                        Berlin: De Gruyter 95–114. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

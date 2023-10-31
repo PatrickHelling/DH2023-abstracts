@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Topo-biographies of Women, “Austria,” and Textual and Spatial Methods</title>
+                <author n="BoothAlisonBOOTH_Alison_Topo_biographies_of_Women___Austria___and_Textu.xml"><persName n="BoothAlison">
+                        <surname>Booth</surname>
+                        <forename>Alison</forename>
+                    </persName><affiliation>University of Virginia, United States of America</affiliation><email>ab6j@virginia.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>With evidence from Collective Biographies of Women, this paper selects examples of "Austria" to challenge assignment of nationality in women's biographies. The presentation advocates a mid-range approach to textual and spatial DH with awareness of intersectional feminist history and theory.  </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Women</term>
+                    <term>Prosopography</term>
+                    <term>Space</term>
+                    <term>Narrative</term>
+                    <term>Nationality</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Feminist studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Current approaches to textual DH are widely divergent, epitomized by contrasting journals, 
+                    <hi rend="italic">Cultural Analytics </hi>and 
+                    <hi rend="italic">Textual Cultures</hi>. The research in Collective Biographies of Women (CBW), a digital project in feminist literary history, is neither predictive (machine learning) nor editorial (digital editions). Our Mid-Range Reading applies to a sample corpus of nonfiction, unlike prevailing corpora of novels or online collections of major writers. CBW’s underlying bibliography inspected books beyond cataloguing data. The 1200+ English-language books, primarily 1830-1940, typically assemble 10-30 chapters each portraying one woman’s life. Collaboration and uncovering the intersectional representation of women over centuries have been principles of the project (Booth et al 2023a).
+                 </p>
+            <p>This research, an alternative to what might be called global 
+                    <hi rend="italic">versus</hi> local textual DH, also explores “conceptual topography” (
+                Gavin 2023) and “topo-biography” (Karjalainen 2015), that is, uniting studies of a nonfiction genre, biography, with narratology’s spatial turn and “literary geography” (Moretti 1998). Biography, studied as discourse mainly in European institutes, has served both advocacy for minorities and competition among nations. From the early modern period, a geographical worldview became a precondition of subjectivity (Regard 2003).  But DH mapping can place undue confidence in GIS data and current borders regarding marginal subjects and pre-modern times. Changing environment and toponyms, constraints on women’s mobility, and scarcity of records all condition such research.  </p>
+            <p>CBW offers a morphology of modern prosopographies of women. Daniel Pitti, Worthy Martin, and Booth developed a stand-aside XML schema, Biographical Elements and Structure Schema (BESS), with controlled values for 
+                    <hi rend="italic">events, discourse, </hi><hi rend="italic">topos</hi><hi rend="italic">, </hi>and other elements (Booth et al 2023b) The analysis is “mid-range,” in that teams of annotators apply controlled values for elements detected in each numbered paragraph of TEI structured text. Each stand-aside BESS analysis—separate XML document resembling an abstract—is vetted by another person. Project managers Rennie Mapp and Lloyd Sy with Booth and paid students have assembled 400 BESS analyses interconnected in the database: 8000+ female subjects and publications assigned types (e.g. “model of race,” “National, one period”) and linked to resources such as SNAC (
+                    PyzynskiPitti et al: 2023). In the process, we study the implications of categorizing people (Brown 2020; Mandell 2019).
+                 </p>
+            <p>Our conceptual topo-biography contributes to emerging efforts to decolonize a history of women, gender, and sexuality and to advocate data feminism. We un-map the globe that centered on the white Christian woman as “‘World Mother’ of to-day’” (Booth 2004: 136). To complement BESS abstractions (e.g. Vienna is tagged as 
+                    <hi rend="italic">city</hi>), we assemble spreadsheets of biographical “timepoints” (dates and latitude-longitude) for interrelated cohorts of female subjects as represented in CBW’s texts. Usage of “Austria” and “Vienna” will be examples. Thirty-two women, mostly royal, are typed “Austrian” yet belie nationality: e.g. Cymburga Duchess of Austria, Styria, Carinthia, and Carniola; Maria Theresa Queen of Hungary, whose titles include Countess of Hainaut. The title 
+                    <hi rend="italic">Women of Europe in the Fifteenth and Sixteenth Centuries </hi>disguises its concentration on royalty and nation, while the women are “of” elsewhere: Under “Russia…Poland,” “Mary of Hungary” (Higgins 1885). Queens are similarly displaced in Mahan’s chronological 
+                    <hi rend="italic">Famous Women of Vienna, </hi>a 1930 book from a Jewish publisher tracing trade in “bartered brides” (Mahan 1930: 14).
+                 </p>
+            <p>In 
+                    <hi rend="italic">A Book of Noble Women, </hi>which includes reformers and writers, a chapter on Marie Antoinette, whom the French insulted as “Austrian,” includes 
+                    <hi rend="italic">dialogue</hi> confronting the mob (
+                    <hi rend="italic">lady braving battlefield</hi>): the Queen corrects an attacking woman, “As the wife of the King of France…, I am a Frenchwoman...” A one-sentence paragraph: “The tears rolled down the woman’s dirt-stained face” (
+                    <hi rend="italic">influence, emotional effect on working women</hi>). Thus, an insurrectionist recognizes the Queen as not “the emblem of all the tyranny” in France (Wilmot-Buxton 1907: 66-68). Python queries of BESS lead us to further examine collocations of figurative language, topoi of influence, and values related to nation, race, or empire. Such distributions of BESS values will be correlated with “timepoints” in networks formed by tables of contents and typologies. This combination of approaches avoids overreliance on quantifiable verbal or spatial data, according to intersectional ideological construction of women’s biographical histories.
+                 </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bode, Katherine </author>
+                        (2017): “The Equivalence of ‘Close’ And ‘Distant’ Reading; Or, toward a New Object for Data-Rich Literary History,” in: 
+                            <hi rend="italic">Modern Language Quarterly</hi>78, 1: 77–106.
+                         
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Booth, Alison </hi>(2004): 
+                            <hi rend="italic">How to Make It as a Woman: Collective Biographical History from Victoria to the Present</hi>.  Chicago: University of Chicago Press. 
+                        
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Booth, Alison </author>(2017): “Mid-Range Reading: Not a Manifesto,” in: 
+                            <hi rend="italic">PMLA </hi>132, 3: 620-27.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Booth, Alison et al </author>(2023a): 
+                            <hi rend="italic">Collective Biographies of Women</hi>. Institute for Advanced Technology in the Humanities, University of Virginia. 
+                        <ref target="http://cbw.iath.virginia.edu/"><hi rend="underline">http://cbw.iath.virginia.edu</hi></ref>
+                        .
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Booth, Alison et al </author>(2023b): “Natural Language Guide: Biographical Elements and Structure Schema,” 
+                            <hi rend="italic">Collective Biographies of Women</hi>. http://cbw.iath.virginia.edu/exist/cbw/BESSdoc.
+                    </bibl>
+                    <bibl>
+                        <author>Brown, Susan </author>(2020): “Categorically Provisional,” in: Varieties of Digital Humanities Special Issue, 
+                            <hi rend="italic">PMLA </hi>135, 1: 165-74.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>D’Ignazio, Catherine</author> / <author>Klein, Lauren F.</author> (2020): 
+                            <hi rend="italic">Data Feminism</hi>. Cambridge, MA: MIT Press.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Gavin, Michael </author>(2023): 
+                            <hi rend="italic">Literary Mathematics</hi>. Stanford: Stanford University Press.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Higgins, Sophia Elizabeth </author>(1885). 
+                            <hi rend="italic">Women of Europe in the Fifteenth and Sixteenth Centuries. </hi>London: Hurst &amp; Blackett.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Karjalainen, P.T. </author>(2015): “On Topobiography; or, How to Write One’s Place,” in: 
+                            <hi rend="italic">NGP Yearbook </hi>44: 101–7.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Losh, Elizabeth</author> / <author>Wernimont, Jacqueline</author> (2018): 
+                            <hi rend="italic">Bodies of Information: Feminist Debates in Digital Humanities</hi>. Debates in Digital Humanities Series. Minneapolis: University of Minnesota Press.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Mahan, Dr. J. Alexander </author>(1930): 
+                            <hi rend="italic">Famous Women of Vienna</hi>. Halm and Goldmann.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Mandell, Laura </author>(2019): “Gender and Cultural Analytics: Finding or Making Stereotypes?,” in: Gold, Matthew / Klein, Lauren F. (eds.): 
+                            <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis: University of Minnesota Press 3-26.
+                        <ref target="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4#ch01"> </ref>
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, Franco </author>(1998): 
+                            <hi rend="italic">Atlas of the European Novel. </hi>London: Verso.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Ní Dhúill, Caitríona </author>(2020): “Gendered Narratives: ‘She’, ‘He’, and Their Discontents in Biography, in: 
+                            <hi rend="italic">Metabiography</hi>
+                            <hi rend="italic">: Reflecting on Biography. </hi>New York: Springer 171–209. 
+                        <ref target="https://doi.org/10.1007/978-3-030-34663-8_8"> </ref>
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Piper, Andrew </author>(2018): 
+                            <hi rend="italic">Enumerations.</hi> Chicago: University of Chicago Press.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Prince, Gerald </author>(2018): “Introduction: Geographical Narratology,” in 
+                            <hi rend="italic">Frontiers of Narrative Studies </hi>4:2: 175-77.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Propp, Vladimir </author>(1968): 
+                            <hi rend="italic">Morphology of the Folk Tale. </hi>1928. Austin: University of Texas Press.
+                         
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pyzynski, Susan/ Pitti, Daniel et al </hi>(2023): Social Networks and Archival Context. University of Virginia Library / National Records and Archives Administration. https://portal.snaccooperative.org/about.
+                        
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Regard, Frédéric </author>(2003): “Topologies of the Self: Space and Life-Writing,” in Regard, ed., 
+                            <hi rend="italic">Mapping the Self: Space, Identity, Discourse in British Auto/Biography</hi>. Saint-Etienne: Université de Saint-Etienne 15-30.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Renders, Hans</author> / <author>Veltman, David</author> (2020): 
+                            <hi rend="italic">Different Lives: Global Perspectives on Biography in Public Cultures and Societies</hi>.  Leiden: Brill.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Risam, Roopika </author>(2018): 
+                        <ref target="https://brill.com/view/title/57294"><hi rend="italic">New</hi></ref>
+                        <hi rend="italic"> Digital Worlds</hi>. Evanston, IL: Northwestern University Press.
+                        
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Underwood, Ted </author>(2019): 
+                            <hi rend="italic">Distant Horizons</hi>. Chicago: University of Chicago Press.
+                         
+                    </bibl>
+                    <bibl>
+                        <author>Wilmot-Buxton, Ethel Mary </author>(1907): 
+                            <hi rend="italic">A Book of Noble Women</hi>. London: Methuen.
+                         
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Kaleidoscopic Patterns of Protest: Qualifying and Quantifying Visual and
+                    Textual (Self-)Representations in Eastern European Protest Cultures</title>
+                <author n="HowanitzGernotHOWANITZ_Gernot_Kaleidoscopic_Patterns_of_Protest__Qualifyin.xml"><persName n="HowanitzGernot">
+                        <surname>Howanitz</surname>
+                        <forename>Gernot</forename>
+                    </persName><affiliation>U of Innsbruck, Austria</affiliation><email>gernot.howanitz@uibk.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KaltseisMagdalenaHOWANITZ_Gernot_Kaleidoscopic_Patterns_of_Protest__Qualifyin.xml"><persName n="KaltseisMagdalena">
+                        <surname>Kaltseis</surname>
+                        <forename>Magdalena</forename>
+                    </persName><affiliation>U of Innsbruck, Austria</affiliation><email>magdalena.kaltseis@uibk.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In the last ten years, massive protests against the government and/or unfair elections took place in all three Eastern Slavic countries—Russia (2011/12), Ukraine (2014), and Belarus (2020). In 2022, protesters demonstrated against Russia's invasion of Ukraine. All these protests were mainly organized via social networks, were disseminated in independent media and countered by the official state-owned media. Thus, visual (self-)representations of the protest cultures must be recognized as an integral part of the protests proper.
+Our project unites close and distant viewing to assess how kaleidoscopic patterns of protest emerge from the constant recombination of specific visual symbols such as banners, flags, slogans, or people marching in the streets. Not only are we interested in a general description of visual and textual (self-)representations of protest in Eastern Europe but we also analyze the patterns of specific protest cultures to describe their symbolic repertoire. In order to achieve this, we build a corpus of visual and textual (self-)representations of protest. We then use deep learning to identify specific symbols in the corpus. These results are utilized to (1) visualize and analyze the differences between official and user-generated content, traditional and new media, and individual countries, and (2) to select specific images and video clips for a qualitative multimodal discourse analysis.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Visual Media</term>
+                    <term>Protest Cultures</term>
+                    <term>Eastern Europe</term>
+                    <term>Distant Viewing</term>
+                    <term>Multimodal Discourse Analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>mixed-media analysis</term>
+                    <term>semantic analysis</term>
+                    <term>social media analysis and methods</term>
+                    <term>Cultural studies</term>
+                    <term>Media studies</term>
+                    <term>Central/Eastern European Studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+
+            <div>
+                <head>Motivation</head>
+                <p><lb/>This poster presentation aims to introduce the project ‘Kaleidoscopic
+                        Patterns of Protest’, which analyzes visual and textual
+                        (self-)representations of Eastern European protest cultures both
+                        qualitatively and quantitatively. This project is funded by the Austrian
+                        Academy of Sciences and starts in January 2023. <lb/><lb/>In the last ten years, massive protests against the government and/or
+                        unfair elections took place in all three Eastern Slavic countries—Russia
+                        (2011/12), Ukraine (2014), and Belarus (2020). More recently, the Russian
+                        invasion of Ukraine in February 2022 led to anti-war protests in Russia,
+                        Ukraine and Belarus as well as many other countries around the world. All
+                        these protests were mainly organized via social networks (cf. Smyth &amp;
+                        Oates 2015; Onuch 2015), disseminated in independent media and countered by
+                        the official state-owned media. Thus, visual (self-)representations of the
+                        protest cultures must be recognized as an integral part of the protests
+                        proper: Symbols and slogans are used to spread the ideas and claims of the
+                        protesting people, which is why protests can be characterized as a
+                        “communicative act” per se (Kuße 2021). In the Russian protests of 2011/12,
+                        for example, white ribbons signified an anti-governmental stance, as opposed
+                        to ‘official’ and pro-government black-orange Saint George’s ribbons. During
+                        the Maidan protests in Ukraine, symbols of nationalist and right-wing
+                        parties were present as was the flag of Europe. In Belarus, the
+                        white-red-white flag served as the main symbol of anti-government protests
+                        (cf. Gaufman 2021). This flag had been replaced by a flag similar to the old
+                        Soviet one after a controversial referendum in 1995 and had since then
+                        remained a symbol of the Belarusian opposition (cf. Bekus 2021). </p>
+            </div>
+            <div>
+                <head>Methods</head>
+                <p><lb/><lb/>In order to capture the Kaleidoscopic Patterns of Protest in Eastern
+                        Slavic countries, we zoom in on three different types of media: (1) the
+                        self-representation of different protest cultures as disseminated on blogs,
+                        YouTube channels, and social networks, (2) the official representations of
+                        the protest cultures, in state-run and independent news broadcasts, and (3)
+                        the cinematic representation of the protest cultures in feature-length
+                        documentaries. Because of these different perspectives we metaphorically
+                        speak of ‘kaleidoscopic patterns of protest’ that our project aims to make
+                        visible. In order to achieve that we combine automatic symbol recognition
+                        using artificial neural networks (R-CNN) with multimodal discourse analysis
+                        (MDA). With this approach we follow N. K. Hayles’ (2010) combination of
+                        “close”, “machine” and “hyper reading”; applied to visual media, “machine
+                        reading” becomes Arnold/Tilton’s (2019) “distant viewing”. <lb/><lb/>Relying on “distant viewing” is necessary because of the massive size
+                        of the corpus. Since February 2022 we have collected roughly 120,000 YouTube
+                        videos about Belarus, Russia and Ukraine including all available metadata—as
+                        of now, the total run time of these videos amounts to roughly two years.
+                        This video corpus is searched for nationalist symbols from Eastern Europe by
+                        a self-trained neural network. Training the network ourselves is necessary
+                        insofar as freely available pretrained networks do not bring the necessary
+                        domain-specific knowledge. The example in Fig. 1 shows how the pretrained
+                        network can describe the basic configuration of the video frame; however,
+                        the flags that are our main concern are not recognized or are recognized
+                        incorrectly. The context-specific information is thus provided by our own
+                        network, whose beta version we have already published (Howanitz/Radisch
+                        2022). <lb/></p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.212547222222222cm" url="Pictures/1f0b91954d51fb7711ab2953c9d97111.png" rend="inline"/>
+                    <head>Fig. 1: Sample frame from a YouTube video (left), annotations by a
+                        pre-trained net for panoptic segmentation (center), annotations of our
+                        self-trained net (right</head>
+                </figure>
+                <p>The results of symbol
+                        recognition are first evaluated, visualized, and then processed for MDA in
+                        MAXQDA. Finally, we use MDA to analyze selected videos to investigate the
+                        context, the actors and their roles, and the interaction of verbal and
+                        visual information. In doing so, we focus on the questions of which general
+                        patterns of visual and textual (self-)representations of protest are
+                        recognizable, which similarities and differences there are between the
+                        individual countries as well as between different media, and on the question
+                        of how protest symbols and slogans are (re-)contextualized in the respective
+                        media.</p>
+            </div>
+
+            <div>
+                <head>Goals</head>
+                <p><lb/>The aim of our project is on the one hand to provide a best practice
+                        example for the analysis of a large visual corpus. Furthermore, we explore
+                        visual and textual (self-)representations of protest cultures in Eastern
+                        Europe and investigate how images and texts are (re)used in different media
+                        and contexts. Finally, our project also provides a snapshot of different
+                        Eastern European protest cultures and answers the question of what remains
+                        of the protests after a certain period of time has passed: Especially in
+                        authoritarian states like Belarus and Russia, it cannot be assumed that
+                        state media preserve the memory of anti-government protests. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold, T.</author> / <author>Tilton, L.</author> 
+                         (2019): “Distant Viewing: Analyzing Large Visual Corpora”. DSH, fqz013, <ref target="https://doi.org/10.1093/digitalsh/fqz013">https://doi.org/10.1093/digitalsh/fqz013</ref> [last access 4 November 2022].
+                    </bibl>
+                    <bibl>
+                        <author>Gaufman, E.</author>
+                         (2021): “The gendered iconography of Belarus protest”. New Perspectives, 29(1), 80–89.
+                    </bibl>
+                    <bibl>
+                        <author>Hayles, N. K.</author>
+                         (2010): “How We Read: Close, Hyper, Machine”. ADE Bulletin, 150, 62–79.
+                    </bibl>
+                    <bibl>
+                        <author>Howanitz, G.</author> / <author>Radisch, E.</author> 
+                         (2022): “Nationalist(ic) Symbols from Eastern Europe: Deep Watching Demo Scripts”. Github.com, 21.2.2022 (v1.0.0). Online: <ref target="https://github.com/ghowa/nationalistic-symbols">https://github.com/ghowa/nationalistic-symbols</ref> [last access 4 November 2022].
+                    </bibl>
+                    <bibl>
+                        <author>Kuße, H.</author>
+                         (2021) (Ed.): 
+                        <hi rend="italic">Kommunikacija v ėpochu
+                            protestov</hi>
+                        . Berlin: Peter
+                            Lang.
+                    </bibl>
+                    <bibl>
+                        <author>Onuch, O.</author>
+                         (2015): 
+                        <hi rend="italic">EuroMaidan protests in Ukraine:
+                            social media versus social networks</hi>
+                        . Problems of
+                            Post-communism, 62(4), 217–235
+                    </bibl>
+                    <bibl>
+                        <author>Smyth, R.</author> / <author>Oates, R.</author> 
+                         (2015): 
+                        <hi rend="italic">Mind the gaps: media use and mass action in Russia. </hi>
+                        Europe-Asia Studies,
+                            67(2), 285–305.
+                    </bibl>
+                    <bibl>
+                        <author>Szostek, J.</author>
+                         (2018): The mass media and Russia’s “sphere of interests”: mechanisms of regional hegemony in Belarus and Ukraine. Geopolitics, 23(2), 307–329.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

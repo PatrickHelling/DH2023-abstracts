@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Studying Parliamentary Economization using Topic Burstiness and Entropy</title>
+                <author n="RosRubenROS_Ruben_Studying_Parliamentary_Economization_using_Topic_B.xml"><persName ref="https://orcid.org/0000-0002-5303-2861" n="RosRuben">
+                        <surname>Ros</surname>
+                        <forename>Ruben</forename>
+                    </persName><affiliation>Leiden University, The Netherlands</affiliation><email>r.s.ros@hum.leidenuniv.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper studies the process of "economization" in parliamentary records using entropy and burstiness in topic models.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>top2vec</term>
+                    <term>burstiness</term>
+                    <term>entropy</term>
+                    <term>topic models</term>
+                    <term>parliamentary data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>rhetorical analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>This paper uses topic model burstiness and entropy to study the process of “economization” in Dutch postwar Lower House debates. According to studies into the history of economic thought, the postwar decades saw the gradual advance of “the economy” as the primary object of politics, and the intrusion of other political domains by economic values and frameworks. However, the historiography of economization almost exclusively focuses on intellectuals, scientific disciplines and economic institutions (Çalışkan &amp; Callon, 2009; Mitchell, 1998; Schabas, 2009). The interaction between “economization” and democratic decision-making remains understudied.</p>
+                <p>This paper aims to contribute to this lacuna by studying the process of economization in proceedings of the Dutch Lower House in the period between 1945 and 1964. By studying the expected advance of economic language in parliament in this period, the impact of economization on democratic decision-making can be better understood.</p>
+            </div>
+            <div type="div1">
+                <head>Data</head>
+                <p>The paper uses proceedings from the Dutch Lower House. It focuses on the period between 1945 and 1967. This - early postwar - era is identified in the aforementioned literature as the prime stage for economization. The proceedings, consisting of curated reports of the speeches made in parliament, are tokenized and lemmatized. For training the topic model, speeches with fewer than ten words were pruned.</p>
+            </div>
+            <div type="div1">
+                <head>Methods</head>
+                <p>The paper uses Top2Vec, a relatively new method for topic modelling, to identify latent topics in parliamentary debates and generate document-topic distributions that can be used for subsequent analysis (See for recent examples of topic modelling in the Humanities: Viola &amp; Verheul, 2020; Marjanen et al., 2020; Van Galen &amp; Nicholson, 2018). Top2Vec generates word- and document embeddings and uses UMAP and HDBSCAN clustering to identify clusters of documents. After calculating cluster centroids, the most relevant terms for each topic are approximated using the cosine similarities between individual terms and topic/cluster centroids (Angelov, 2020).</p>
+                <p>Topic modelling is used to study the process of economization, understood first as the gradual translation of various policy areas or political topoi in economic terms. Parts of this process are likely to be captured by diachronic topic proportions since economization is likely to reflect in an overall increase in economic language. However, other - previously non-economic - discursive domains can be “economized” without a significant increase in the share of economic topics. Therefore, this paper turns to the rankings of topics to study economization. The rankings of economic topics are expected to increase, as economic language grows in speeches that are not necessarily about economic topics. This approach of looking at topic rankings has been discussed earlier as topic “burstiness”. Burstiness can be defined as the degree to which a topic appears in “bursts”. Existing work leverages this measure to detect bursty topics that indicate events, or to improve topic modelling algorithms (Doyle &amp; Elkan, 2009; Qi et al., 2014). For this study, burstiness appears as a suitable target statistic, since a declining burstiness of economic topics could be interpreted as an increase in economization.</p>
+                <p>The paper combines this analysis of economization-as-intrusion with an analysis of economization-as-singularization. In this variant, economization translates into the reification of “the economic” as an entity increasingly discussed on its own terms. From the perspective of topic modelling, this variant of economization would mean a decrease in the topic diversity of speeches maintained with economic issues. The paper therefore considers diversity measures such as relative entropy as the target metric for investigating the diversity of speeches.</p>
+            </div>
+            <div type="div1">
+                <head>Preliminary Results</head>
+                <p>Preliminary results show complex dynamics at work in the evolution of economic topics. An important first observation is the fact that burstiness, measured in the proportion of speeches in which an economic topic is ranked highest, does not fully conform to the diachronic topic proportion. Some economic topics “burst” during moments when lower ranks do not show burst, and, vice versa, lower ranks burst when the share of the first rank remains stable.</p>
+                <p>The different rankings can also be used to create speech subsets. In these subsets, diversity as measured by entropy is a good measure to extract signals of economization. The relative entropy over time show a comparable trend of modest decline for all economic topics. This is not explained by overall entropy, and thus forms a potential signal of economization, as speeches where the economy is highly ranked become less diverse and language becomes more the same.</p>
+                <p>All in all, these first investigations do not suggest a process of linear economization based on burstiness signals. However, entropy measures do show a declining diversity across economic topics. In the final paper, the results will be tested for robustness and example speeches will be used to find explanations for the patterns observed in these initial visualizations.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Angelov, D. </author>(2020). Top2Vec: Distributed Representations of Topics (arXiv:2008.09470). arXiv.
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Çalışkan, K., &amp; Callon, M. </author>(2009). Economization, part 1: Shifting attention from the economy towards processes of economization. Economy and Society, 38(3), 369–398.
+                    </bibl>
+                    <bibl>
+                        <author>Doyle, G., &amp; Elkan, C.</author> (2009). Accounting for burstiness in topic models. Proceedings of the 26th Annual International Conference on Machine Learning, 281–288.
+                    </bibl>
+                    <bibl>
+                        <author>Marjanen, J., Zosa, E., Hengchen, S., Pivovarova, L., &amp; Tolonen, M. </author>(2020). Topic modelling discourse dynamics in historical newspapers (arXiv:2011.10428). arXiv.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Mitchell, T. </author>
+                        (1998). Fixing the Economy. Cultural Studies, 12(1), 82–101.
+                    </bibl>
+                    <bibl>
+                        <author>Qi, X., Huang, Y., Chen, Z., Liu, X., Tian, J., Huang, T., &amp; Wang, H. </author>(2014). Burst-LDA: A new topic model for detecting bursty topics from stream text. Journal of Electronics (China), 31(6), 565–575.
+                    </bibl>
+                    <bibl>
+                        <author>Schabas, M.</author> (2009). Constructing “The Economy”. Philosophy of the Social Sciences, 39(1), 3–19.
+                    </bibl>
+                    <bibl>
+                        <author>Van Galen, Q., &amp; Nicholson, B. </author>(2018). In Search of America. Digital Journalism, 6(9), 1165–1185.
+                    </bibl>
+                    <bibl>
+                        <author>Viola, L., &amp; Verheul, J. </author>(2020). Mining ethnicity: Discourse-driven topic modelling of immigrant discourses in the USA, 1898. Digital Scholarship in the Humanities, 35(4), 921–943.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

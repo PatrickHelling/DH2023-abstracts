@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Student Scientometrics – What do German Students of the Humanities Cite in their Term Papers?</title>
+                <author n="HenningTimBURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml"><persName n="HenningTim">
+                        <surname>Henning</surname>
+                        <forename>Tim</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University</affiliation><email>th58qazu@studserv.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GutirrezDelaTorreSilviaEBURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml"><persName ref="https://orcid.org/0000-0001-8717-2291" n="GutirrezDelaTorreSilviaE">
+                        <surname>Gutiérrez De la Torre</surname>
+                        <forename>Silvia E.</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University</affiliation><email>silviaegt@uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BurghardtManuelBURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml"><persName ref="https://orcid.org/0000-0003-1354-9089" n="BurghardtManuel">
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University</affiliation><email>burghardt@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this short paper, we use a mix of scientometrics and DH methods to investigate a novel corpus of term papers from German students of the humanities, hoping to shed some light on undergrad citation practices.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>scientometrics</term>
+                    <term>reference mining</term>
+                    <term>citation analysis</term>
+                    <term>topic modeling</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>Citation analysis (Nicolaisen, 2007) is a common tool in scientometrics (Mingers &amp; Leydesdorff, 2005; Ivancheva, 2008; Mester, 2015), which deals with the exploration and evaluation of scientific disciplines. Scientometrics typically deals with published research (books, journal articles, conference papers) and thus naturally entails a strong focus on researchers at the PhD level or higher. This is not surprising, since scientometrics is also an important tool for evaluating individual scientists, which is an important aspect in the academic career of any scientist. At the same time there is a growing interest in the citation practices of undergraduates, although they are generally researched to understand the impact of library instruction sessions on students’ behavior (Barratt et al., 2009; Davis, 2002; Davis &amp; Cohen, 2001; Gratch, 1985; Hovde, 2000; Mohler, 2005; Robinson &amp; Schlegl, 2004; Ursin et al., 2004). We believe this area deserves more attention, as students’ papers can be seen as a mirror of different disciplines’ curricula, which can affect later academic careers and have canonization effects. In this paper, we add to the existing research by showcasing a mix of scientometrics and DH methods to investigate a novel corpus of German term papers and shed some light on the citation practices of students in German studies.</p>
+            </div>
+            <div type="div1">
+                <head>Data Acquisition and Methods </head>
+                <p>GRIN Publishing offers more than 17,848 papers accessible free of charge (data from 03.05.2022). These papers are voluntarily uploaded to the website by students. We scraped both full texts and metadata. Filtering by discipline, university, and document type, our corpus comprises 502 term papers in German studies written by Bachelor students at German universities.
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn1" n="1"/> The bibliography section was extracted using a regular expression
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn2" n="2"/>, as this method proved to be resource-efficient, time-saving, and fairly accurate (Councill et al., 2008; Wu et al., 2015). For the task of reference extraction, some out-of-the-box parsers exist. Most parsers use ML approaches and yield very good evaluation results for English papers from the natural sciences (Tkaczyk et al., 2018). However, as has been shown in previous experiments (Gutiérrez De la Torre et al., 2022; Rodrigues Alves et al., 2018), they are not suitable for a corpus of German term papers. We thus evaluated a selection of different parsers, namely: 
+                    <hi rend="italic">Anystyle</hi><ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn3" n="3"/>, 
+                    <hi rend="italic">EXparser</hi> (Hosseini et. al., 2019), and GROBID (Lopez, 2009) with F1 scores of 0.76, 0.79, and 0.67, respectively.
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn4" n="4"/> For the evaluation, a ground truth of 13 papers was created, taking into account the degree of formal, stylistic, structural, and orthographic diversity.
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn5" n="5"/> With this method, 7,133 references and 5,207 author names were extracted. Using a simple heuristic, name variations such as "Friedrich Nietzsche" and "F. W. Nietzsche" were mapped, resulting in a total of 3,610 different authors of which 3,076 appear only once in the corpus.
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn6" n="6"/> A co-authorship network is used for the analysis, where an edge represents a simultaneous mention of two authors in a bibliography. Using the OpenOrd (Martin et al., 2011) visualizing algorithm, 15 larger clusters emerged.
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn7" n="7"/> The intellectual proximity between authors in a cluster is confirmed with topic modeling using Gensim’s Mallet LDA wrapper (Rehurek &amp; Sojka, 2011; Sbalchiero &amp; Eder, 2020). The coherence value calculation suggested the use of 12-14 topics, and after a revision 11 topics were selected (see Table 1).
+                </p>
+                <table xml:id="d51e242">
+                    <head>Table 1: Topic Distribution. Note: The Topic Modelling script can be found at https://github.com/Henning-round/Student_Scientometrics/blob/main/Topic_Modelling_paper.ipynb. For an overview of (German) keyword per topic see https://github.com/Henning-round/Student_Scientometrics/blob/main/analysis/keywords.PNG.</head>
+                    <row>
+                        <cell>Dominant Topic</cell>
+                        <cell>Doc_count</cell>
+                        <cell>Total_Docs_Percentage</cell>
+                    </row>
+                    <row>
+                        <cell>Linguistics</cell>
+                        <cell>80</cell>
+                        <cell>15.94%</cell>
+                    </row>
+                    <row>
+                        <cell>Narratology</cell>
+                        <cell>65</cell>
+                        <cell>12.95%</cell>
+                    </row>
+                    <row>
+                        <cell>Families, genders and their conflicts</cell>
+                        <cell>54</cell>
+                        <cell>10.76%</cell>
+                    </row>
+                    <row>
+                        <cell>Political systems, war, and post-war literature</cell>
+                        <cell>53</cell>
+                        <cell>10.56%</cell>
+                    </row>
+                    <row>
+                        <cell>Philosophy</cell>
+                        <cell>49</cell>
+                        <cell>9.76%</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Medieval Studies
+                        </cell>
+                        <cell>48</cell>
+                        <cell>9.56%</cell>
+                    </row>
+                    <row>
+                        <cell>Lyrics</cell>
+                        <cell>48</cell>
+                        <cell>9.56%</cell>
+                    </row>
+                    <row>
+                        <cell>Study of historical sources (especially religious)</cell>
+                        <cell>33</cell>
+                        <cell>6.57%</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Theatre, Drama and Tragedy
+                        </cell>
+                        <cell>32</cell>
+                        <cell>6.37%</cell>
+                    </row>
+                    <row>
+                        <cell>Communication Sciences</cell>
+                        <cell>25</cell>
+                        <cell>4.98%</cell>
+                    </row>
+                    <row>
+                        <cell>Addressing the school and teaching system</cell>
+                        <cell>15</cell>
+                        <cell>2.99%</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <p>The result of the combined co-author-topic network in Figure 1 reveals new trends in German studies when compared to previous research (Riddell, 2014): (1) A hitherto unknown engagement with medieval studies with a 9.56% share in the cluster. (2) An interest in “gender studies” is particularly confirmed with a 10.76% share and multiple clusters. (3) However, the downward trend of Goethe-related topics (Riddell, 2014) cannot be confirmed. Rather, by appearing in the overall corpus with a relative share of 6.6% of the papers, Goethe seems to be a central and important component of the Bachelor's programme in German Studies.
+                    <ref target="#BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn8" n="8"/></p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="14.497538888888888cm" url="Pictures/0291fad9af32fb0a43bdb04f2cb81a4c.png" rend="inline"/>
+                    <head>Figure 1: Co-Author-Topic-Network. Note: for better readability download the high-resolution image from https://github.com/Henning-round/Student_Scientometrics/blob/main/analysis/topic_author_model.png</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Discussion</head>
+                <p>Two main limitations of our approach – which still is work in progress – must be taken into account: (1) Around 18% of the extracted reference strings were discarded either because they were too short to be a reference string (&lt;200 characters); too long (&gt;200); pure ISBNs (26 cases); or with no dates nor other typical reference keywords such as 
+                    <hi rend="italic">S</hi> or 
+                    <hi rend="italic">Hg </hi>(abbreviations for pages and editor in German). (2) Our normalization method allowed us to explore rich patterns, however, in further iterations we would like to apply more robust algorithms and document the differences with our heuristic. Nevertheless, these first experiments are very promising. Not only were we able to gather a vast number of authors and their co-citation networks, but we were also able to show that they correlated with certain fields and thus show unknown trends among German studies undergraduates. To our knowledge, this is the first work to computationally study term papers in German from a scientometric perspective, which is why we want to gradually eliminate the above-mentioned limitations and extend the corpus to other disciplines than just German studies.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn1">
+                         https://github.com/Henning-round/Student_Scientometrics/blob/main/metadata_works.csv
+                    </note><note n="2" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn2">
+                         https://github.com/Henning-round/Student_Scientometrics/blob/main/Extract_bibliography.ipynb
+                    </note><note n="3" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn3">
+                        <ref target="https://www.zotero.org/google-docs/?tHAblZ">https://github.com/inukshuk/anystyle</ref>
+                    </note><note n="4" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn4">
+                         https://github.com/Henning-round/Student_Scientometrics/blob/main/Evaluation_of_parsers.ipynb
+                    </note><note n="5" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn5">
+                         https://github.com/Henning-round/Student_Scientometrics/blob/main/goldstandard_paper.pdf
+                    </note><note n="6" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn6">
+                         https://github.com/Henning-round/Student_Scientometrics/blob/main/Name_normalization.ipynb
+                    </note><note n="7" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn7">
+                         https://github.com/Henning-round/Student_Scientometrics/blob/main/analysis/topic_author_model.png
+                    </note><note n="8" xml:id="BURGHARDT_Manuel_Student_Scientometrics___What_do_German_Stu.xml_ftn8">
+                        https://github.com/Henning-round/Student_Scientometrics/blob/main/Author_distribution.PNG
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Barratt, C. C., Nielsen, K., Desmet, C., &amp; Balthazor, R.</author> (2009). Collaboration is Key: Librarians and Composition Instructors Analyze Student Research and Writing. portal: Libraries and the Academy, 9(1), 37–56. </bibl>
+                    <bibl><author>Councill, I., Giles, C. L., &amp; Kan, M.-Y.</author> (2008). ParsCit: An Open-source CRF Reference String Parsing Package. Proceedings of the Sixth International Conference on Language Resources and Evaluation (LREC’08). European Language Resources Association (ELRA), Marrakech, Morocco. </bibl>
+                    <bibl><author>Davis, P. M.</author> (2002). The effect of the Web on undergraduate citation behavior: A 2000 update. College &amp; Research Libraries, 63(1), 53–60. </bibl>
+                    <bibl><author>Davis, P. M., &amp; Cohen, S. A.</author> (2001). The effect of the web on undergraduate citation behavior 1996-1999. Journal of the Association for Information Science and Technology, 52(4), 309–314. </bibl>
+                    <bibl><author>Gratch, B. G.</author> (1985). Toward a Methodology for Evaluating Research Paper Bibliographies. Research Strategies, 3(4).</bibl>
+                    <bibl><author>Gutiérrez De la Torre, S. E., Equihua, J., Niekler, A., &amp; Burghardt, M.</author> (2022). Into the bibliography jungle: Using random forests to predict dissertations’ reference section. Understanding LIterature References in Academic Full TExt at JCDL 2022, 3220, 7.</bibl>
+                    <bibl><author>Hosseini, A., Ghavimi, B., Boukhers, Z., &amp; Mayr, P.</author> (2019). EXCITE – A Toolchain to Extract, Match and Publish Open Literature References. 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL), 432–433. </bibl>
+                    <bibl><author>Hovde, K.</author> (2000). Check the citation: Library instruction and student paper bibliographies. Research Strategies, 17(1), 3–9. </bibl>
+                    <bibl><author>Ivancheva, L.</author> (2008). Scientometrics today: A methodological overview. Collnet Journal of Scientometrics and Information Management, 2(2), 47-56.</bibl>
+                    <bibl><author>Lopez, P.</author> (2009). GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications. In M. Agosti, J. Borbinha, S. Kapidakis, C. Papatheodorou, &amp; G. Tsakonas (Hrsg.), Research and Advanced Technology for Digital Libraries (Bd. 5714, S. 473–474). Springer Berlin Heidelberg. </bibl>
+                    <bibl><author>Martin, S., Brown, W. M., Klavans, R., &amp; Boyack, K. W.</author> (2011). OpenOrd: An open-source toolbox for large graph layout. 786806. </bibl>
+                    <bibl><author>Mester, G.</author> (2015). New Trends in Scientometrics. In Papers of 33rd International Scientific Conference" Science in Practice" (pp. 22-27).</bibl>
+                    <bibl><author>Mingers, J., &amp; Leydesdorff, L.</author> (2015). A review of theory and practice in scientometrics. European journal of operational research, 246(1), 1-19.</bibl>
+                    <bibl><author>Mohler, B. A.</author> (2005). Citation analysis as an assessment tool. Science &amp; Technology Libraries, 25(4), 57–64.</bibl>
+                    <bibl><author>Nicolaisen, J.</author> (2007). Citation analysis. Annual review of information science and technology, 41(1), 609-641.</bibl>
+                    <bibl><author>Rehurek, R., &amp; Sojka, P.</author> (2011). Gensim–python framework for vector space modelling. NLP Centre, Faculty of Informatics, Masaryk University, Brno, Czech Republic, 3(2), 2.</bibl>
+                    <bibl><author>Riddell, A. B.</author> (2014). How to read 22,198 journal articles: Studying the history of German studies with topic models. In M. Erlin &amp; L. Tatlock (Hrsg.), Distantreadings: Topologies of German culture in the long nineteenth century (S. 91–114). Boydell &amp; Brewer. </bibl>
+                    <bibl><author>Robinson, A. M., &amp; Schlegl, K.</author> (2004). Student bibliographies improve when professors provide enforceable guidelines for citations. portal: Libraries and the Academy, 4(2), 275–290.</bibl>
+                    <bibl><author>Rodrigues Alves, D., Colavizza, G., &amp; Kaplan, F.</author> (2018). Deep Reference Mining From Scholarly Literature in the Arts and Humanities. Frontiers in Research Metrics and Analytics, 3. https://doi.org/10.3389/frma.2018.00021</bibl>
+                    <bibl><author>Sbalchiero, S., &amp; Eder, M.</author> (2020). Topic modeling, long texts and the best number of topics. Some Problems and solutions. Quality &amp; Quantity, 54, 1095-1108.</bibl>
+                    <bibl><author>Tkaczyk, D., Collins, A., Sheridan, P., &amp; Beel, J.</author> (2018). Machine Learning vs. Rules and Out-of-the-Box vs. Retrained: An Evaluation of Open-Source Bibliographic Reference and Citation Parsers (arXiv:1802.01168). arXiv. </bibl>
+                    <bibl><author>Ursin, L. A., Lindsay, E. B., &amp; Johnson, C. M.</author> (2004). Assessing library instruction in the freshman seminar: A citation analysis study. Reference Services Review, 32(3), 284–292. </bibl>
+                    <bibl><author>Wu, J., Williams, K. M., Chen, H.-H., Khabsa, M., Caragea, C., Tuarob, S., Ororbia, A. G., Jordan, D., Mitra, P., &amp; Giles, C. L.</author> (2015). CiteSeerX: AI in a Digital Library Search Engine. AI Magazine, 36(3), 35–48.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

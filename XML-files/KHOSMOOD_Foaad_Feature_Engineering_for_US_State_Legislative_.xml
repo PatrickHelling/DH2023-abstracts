@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Feature Engineering for US State Legislative Hearings: Stance, Affiliation, Engagement and Absentees</title>
+                <author n="GraceJoshuaKHOSMOOD_Foaad_Feature_Engineering_for_US_State_Legislative_.xml"><persName n="GraceJoshua">
+                        <surname>Grace</surname>
+                        <forename>Joshua</forename>
+                    </persName><affiliation>Yale University, United States of America</affiliation><email>Josh.grace@yale.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KhosmoodFoaadKHOSMOOD_Foaad_Feature_Engineering_for_US_State_Legislative_.xml"><persName ref="https://orcid.org/0000-0003-2531-6610" n="KhosmoodFoaad">
+                        <surname>Khosmood</surname>
+                        <forename>Foaad</forename>
+                    </persName><affiliation>California Polytechnic State University, United States of America</affiliation><email>foaad@calpoly.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper presents systems to extract measures for legislators' engagement and absence during committee meetings and the stance and affiliation of non-lawmakers making public comments. We propose a system to track the affiliation of organizations in public comments and whether the organizational representative supports or opposes the bill.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>legislature</term>
+                    <term>political stance</term>
+                    <term>legislator engagement</term>
+                    <term>legislator abseneeism</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>natural language processing</term>
+                    <term>systems and information architecture and usability</term>
+                    <term>Computer science</term>
+                    <term>Political science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>In US State government legislatures, most activity occurs in committees made of lawmakers discussing bills. This paper presents systems to extract measures for legislators' engagement and absence during committee meetings and the stance and affiliation of non-lawmakers making public comments. We propose a system to track the affiliation of organizations in public comments and whether the organizational representative supports or opposes the bill under discussion. The model tracking affiliation achieves an F1 score of 0.872, while the support determination has an F1 score of 0.979. Additionally, a metric to compute legislator engagement and absenteeism is also proposed. A list of the most and least engaged legislators over one California legislative session is presented as proof of concept.</p>
+                <p>This work is a part of a larger project called AI4Reporters, which aims to improve public access to US State Legislative proceedings. Often, non-legislators, such as invited experts and public commenters, are essential to the discourse that can shape legislation. The models presented in this paper can predict the organizations that commenters are affiliated with and their position on the bill with high confidence levels. Additionally, understanding the participation of their elected representatives is vital to the public. Models are presented in this paper, to predict the absentee rates of legislators and their engagement in proceedings, which were developed in consultation with experts on the California state legislature. Code and data used in this work is available at 
+                    <ref target="https://github.com/digitaldemocracy/DH2023_Grace_Khosmood">https://github.com/digitaldemocracy/DH2023_Grace_Khosmood</ref>. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Public Commenter Organization Affiliation</head>
+                <p>To extract organization affiliation in public comments, a combination of a Stanford NER model (Finkel et al., 2005), a SpaCy NER model (Honnibal et al., 2020), and hand-crafted rules are used. To train the models, 693 comments from California Legislative hearings are manually tagged with the organizations that speakers stated affiliation to. For each comment, 100 synthetic comments are generated by replacing the original organization with a random organization registered with the California State Legislature (Blakeslee et al., 2015).</p>
+                <p>To combine the models' outputs, a set of rules is applied. If both models tag an organization, it is added to the output list. Any potential organizations left over are ignored if they are outside the first 12 words or exactly match the speaker's name, a California city, or a county name. These potential organizations are added to the output list if they can be placed in a training sentence in the organization slot and still be recognized by a model as an organization.</p>
+                <p>To evaluate model performance, 3 models are considered: the Stanford NER, SpaCy NER, and combined model. The models were tested on 193 additional public comments. The metrics are included in Table 1. </p>
+                <table xml:id="d160e187">
+                    <head>Table 1: Performance of Organization Tracker Variants</head>
+                    <row>
+                        <cell>Model Type</cell>
+                        <cell>True Positives</cell>
+                        <cell>False Negatives</cell>
+                        <cell>False Positives</cell>
+                        <cell>F1</cell>
+                    </row>
+                    <row>
+                        <cell>Stanford NER Model</cell>
+                        <cell>149</cell>
+                        <cell>45</cell>
+                        <cell>47</cell>
+                        <cell>0.764</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            SpaCy NER Model
+                        </cell>
+                        <cell>146</cell>
+                        <cell>51</cell>
+                        <cell>22</cell>
+                        <cell>0.800</cell>
+                    </row>
+                    <row>
+                        <cell>Combined Model</cell>
+                        <cell>171</cell>
+                        <cell>31</cell>
+                        <cell>19</cell>
+                        <cell>0.872</cell>
+                    </row>
+                </table>
+                <p>To demonstrate the organizational affiliation system, the 5,182 hearings with public comments from the California State Legislature 2017-2018 session were processed with the system to determine the organizations most frequently giving public comments. There were 39,258 total and 15,334 unique organizations referenced in hearings. The ten organizations with affiliates commenting on the most hearings are shown in Table 2.</p>
+                <table xml:id="d160e272">
+                    <head>Table 2: Organizations with Affiliates Commenting on the Most Hearings (2017-2018)</head>
+                    <row>
+                        <cell>Rank</cell>
+                        <cell>Organization Name</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>ACLU of California</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>California Labor Federation</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>Western Center on Law and Poverty</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>Sierra Club California</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>California Chamber of Commerce</cell>
+                    </row>
+                    <row>
+                        <cell>6</cell>
+                        <cell>California State Association of Counties</cell>
+                    </row>
+                    <row>
+                        <cell>7</cell>
+                        <cell>League of California Cities</cell>
+                    </row>
+                    <row>
+                        <cell>8</cell>
+                        <cell>California Federation of Teachers</cell>
+                    </row>
+                    <row>
+                        <cell>9</cell>
+                        <cell>California District Attorneys Association</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>State Building and Construction Trades Council</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1">
+                <head>Public Commenter Opinion</head>
+                <p>When giving public comments, commenters use phrases like ‘urge an aye vote’, ‘support this bill’, or ‘oppose this bill’ to convey their opinion to legislators. Key phrases in these comments can be tracked to model the speaker’s position on a bill. These phrases are broken into five sets, strong opposition, strong support, medium opposition, medium support, and weak support, and are listed in Table 3. The number of occurrences of the words from each of the five sets are run through a decision tree classifier to determine if the commenter supports, opposes, or is neutral on the bill. </p>
+                <p>Position tracking was evaluated using F1 scores. The same dataset of 693 comments used for organizational extraction was used to test and train the opinion classifier. Each public comment in the dataset was manually annotated with the commenter’s position on the bill. The system achieved an F1 score of 0.9786 on the separate set of 193 comments.</p>
+                <table xml:id="d160e391">
+                    <head>Table 3: Position Categories and Corresponding Phrase Lines</head>
+                    <row>
+                        <cell>Category</cell>
+                        <cell>Phrases</cell>
+                    </row>
+                    <row>
+                        <cell>Strong Opposition</cell>
+                        <cell>"oppose", "opposition", "opposing", "opposed"</cell>
+                    </row>
+                    <row>
+                        <cell>Strong Support</cell>
+                        <cell>"support", "supporting"</cell>
+                    </row>
+                    <row>
+                        <cell>Medium Opposition</cell>
+                        <cell>"no vote", "nay vote"</cell>
+                    </row>
+                    <row>
+                        <cell>Medium Support</cell>
+                        <cell>"aye vote", "yes vote"</cell>
+                    </row>
+                    <row>
+                        <cell>Weak Support</cell>
+                        <cell>"cosponsor"</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1">
+                <head>Legislator Absenteeism</head>
+                <p>Legislators are considered absent from a hearing if they do not speak during the hearings or vote verbally. At the end of most hearings, the committee secretary will call the legislator’s last name to request their vote and will indicate that the legislator voted. If a legislator is absent from the hearing, there will be no voting response to the request. So, the committee secretary’s speech is parsed to determine if a given legislator was referenced when voting. If a legislator does not speak during the meeting and is not referenced by the committee secretary, then there is a very high probability of the legislator being absent, as present legislators would be expected to perform one or both of these actions. Committee hearings where no vote is taken and hearings where more than 60% of legislators are absent are considered special sessions and are excluded from the legislators’ absent count.</p>
+            </div>
+            <div type="div1">
+                <head>Legislator Engagement</head>
+                <p>To track legislator engagement, a set of rules were developed. Engagement is modeled as detectable verbal interactions during a hearing. This allowed for text-based processing of a legislator’s dialog to track engagement. Four factors are considered to calculate engagement in the proceedings: verbally voting on a bill at the end of a hearing (equation 1), speaking during the committee (equation 2), back-and-forth conversations with non-legislators as described in (Klimashevskaia et al., 2021) (equation 3), and asking questions (equation 4). These variables were chosen after discussions with the chief of staff to a former elected member of the leadership in the California State Senate, Christine Robertson. The authors thank her for her insights. Each variable is multiplied by a constant detailed in Table 4 to scale the value. The final engagement score is calculated by summing the four scores and is detailed in equation 5.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="7.886347222222223cm" url="Pictures/dcb0d9f27ff467e48f5c41ea50fb76a0.png" rend="inline"/>
+                </figure>
+                <table xml:id="d160e475">
+                    <head>Table 4: Legislator Engagement Constants</head>
+                    <row>
+                        <cell>Name</cell>
+                        <cell>Value</cell>
+                        <cell>Effect</cell>
+                    </row>
+                    <row>
+                        <cell>α</cell>
+                        <cell>0.5</cell>
+                        <cell>Multiplier for vote score</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <p>β</p>
+                        </cell>
+                        <cell>0.0005</cell>
+                        <cell>Multiplier for speaking score</cell>
+                    </row>
+                    <row>
+                        <cell>γ</cell>
+                        <cell>0.00005</cell>
+                        <cell>Multiplier for back and forth score</cell>
+                    </row>
+                    <row>
+                        <cell>δ</cell>
+                        <cell>0.01</cell>
+                        <cell>Multiplier for question score</cell>
+                    </row>
+                </table>
+                <p>The legislator engagement score was calculated for each legislator in the 2017-2018 California State Legislative session. The ten most engaged legislators are listed in Table 5, while the ten least engaged legislators are listed in Table 6.</p>
+                <table xml:id="d160e549">
+                    <head>Table 5: Ten Most Engaged California State Legislators (2017-2018)</head>
+                    <row>
+                        <cell>Ranking</cell>
+                        <cell>Legislator Name</cell>
+                        <cell>Engagement Score</cell>
+                        <cell>Voting Score</cell>
+                        <cell>Speaking Score</cell>
+                        <cell>Back and Forth Score</cell>
+                        <cell>Question Score</cell>
+                    </row>
+                    <row>
+                        <cell>1</cell>
+                        <cell>Hannah-Beth Jackson</cell>
+                        <cell>23.621</cell>
+                        <cell>0.319</cell>
+                        <cell>3.139</cell>
+                        <cell>10.293</cell>
+                        <cell>9.87</cell>
+                    </row>
+                    <row>
+                        <cell>2</cell>
+                        <cell>Mike McGuire</cell>
+                        <cell>16.448</cell>
+                        <cell>0.196</cell>
+                        <cell>2.086</cell>
+                        <cell>9.036</cell>
+                        <cell>5.13</cell>
+                    </row>
+                    <row>
+                        <cell>3</cell>
+                        <cell>Benjamin Allen</cell>
+                        <cell>13.44</cell>
+                        <cell>0.235</cell>
+                        <cell>1.79</cell>
+                        <cell>4.875</cell>
+                        <cell>6.54</cell>
+                    </row>
+                    <row>
+                        <cell>4</cell>
+                        <cell>Ricardo Lara</cell>
+                        <cell>12.028</cell>
+                        <cell>0.138</cell>
+                        <cell>1.655</cell>
+                        <cell>5.014</cell>
+                        <cell>5.22</cell>
+                    </row>
+                    <row>
+                        <cell>5</cell>
+                        <cell>Jim Frazier</cell>
+                        <cell>11.512</cell>
+                        <cell>0.37</cell>
+                        <cell>0.841</cell>
+                        <cell>3.211</cell>
+                        <cell>7.09</cell>
+                    </row>
+                    <row>
+                        <cell>6</cell>
+                        <cell>John Moorlach</cell>
+                        <cell>11.34</cell>
+                        <cell>0.331</cell>
+                        <cell>1.082</cell>
+                        <cell>2.906</cell>
+                        <cell>7.02</cell>
+                    </row>
+                    <row>
+                        <cell>7</cell>
+                        <cell>Richard Pan</cell>
+                        <cell>11.115</cell>
+                        <cell>0.298</cell>
+                        <cell>1.321</cell>
+                        <cell>4.086</cell>
+                        <cell>5.41</cell>
+                    </row>
+                    <row>
+                        <cell>8</cell>
+                        <cell>Nancy Skinner</cell>
+                        <cell>10.604</cell>
+                        <cell>0.261</cell>
+                        <cell>1.758</cell>
+                        <cell>4.144</cell>
+                        <cell>4.44</cell>
+                    </row>
+                    <row>
+                        <cell>9</cell>
+                        <cell>Bob Wieckowski</cell>
+                        <cell>10.553</cell>
+                        <cell>0.29</cell>
+                        <cell>1.296</cell>
+                        <cell>3.887</cell>
+                        <cell>5.08</cell>
+                    </row>
+                    <row>
+                        <cell>10</cell>
+                        <cell>Jim Beall</cell>
+                        <cell>10.392</cell>
+                        <cell>0.201</cell>
+                        <cell>1.631</cell>
+                        <cell>3.33</cell>
+                        <cell>5.23</cell>
+                    </row>
+                </table>
+                <table xml:id="d160e832">
+                    <head>Table 6: Ten Least Engaged California State Legislators (2017-2018)</head>
+                    <row>
+                        <cell>Ranking</cell>
+                        <cell>Legislator Name</cell>
+                        <cell>Engagement Score</cell>
+                        <cell>Voting Score</cell>
+                        <cell>Speaking Score</cell>
+                        <cell>Back and Forth Score</cell>
+                        <cell>Question Score</cell>
+                    </row>
+                    <row>
+                        <cell>113</cell>
+                        <cell>Rob Bonta</cell>
+                        <cell>0.507</cell>
+                        <cell>0.081</cell>
+                        <cell>0.071</cell>
+                        <cell>0.114</cell>
+                        <cell>0.24</cell>
+                    </row>
+                    <row>
+                        <cell>114</cell>
+                        <cell>Raul Bocanegra</cell>
+                        <cell>0.486</cell>
+                        <cell>0.086</cell>
+                        <cell>0.083</cell>
+                        <cell>0.077</cell>
+                        <cell>0.24</cell>
+                    </row>
+                    <row>
+                        <cell>115</cell>
+                        <cell>Kevin Mullin</cell>
+                        <cell>0.446</cell>
+                        <cell>0.136</cell>
+                        <cell>0.075</cell>
+                        <cell>0.045</cell>
+                        <cell>0.19</cell>
+                    </row>
+                    <row>
+                        <cell>116</cell>
+                        <cell>Ken Cooley</cell>
+                        <cell>0.428</cell>
+                        <cell>0.19</cell>
+                        <cell>0.088</cell>
+                        <cell>0.01</cell>
+                        <cell>0.14</cell>
+                    </row>
+                    <row>
+                        <cell>117</cell>
+                        <cell>Sabrina Cervantes</cell>
+                        <cell>0.422</cell>
+                        <cell>0.304</cell>
+                        <cell>0.023</cell>
+                        <cell>0.015</cell>
+                        <cell>0.08</cell>
+                    </row>
+                    <row>
+                        <cell>118</cell>
+                        <cell>Sydney Kamlager-Dove
+                            <ref target="#KHOSMOOD_Foaad_Feature_Engineering_for_US_State_Legislative_.xml_" n="1"/>
+                        </cell>
+                        <cell>0.289</cell>
+                        <cell>0.069</cell>
+                        <cell>0.02</cell>
+                        <cell>0.04</cell>
+                        <cell>0.16</cell>
+                    </row>
+                    <row>
+                        <cell>119</cell>
+                        <cell>Jimmy Gomez</cell>
+                        <cell>0.276</cell>
+                        <cell>0.036</cell>
+                        <cell>0.026</cell>
+                        <cell>0.054</cell>
+                        <cell>0.16</cell>
+                    </row>
+                    <row>
+                        <cell>120</cell>
+                        <cell>Wendy Carrillo</cell>
+                        <cell>0.219</cell>
+                        <cell>0.086</cell>
+                        <cell>0.067</cell>
+                        <cell>0.016</cell>
+                        <cell>0.05</cell>
+                    </row>
+                    <row>
+                        <cell>121</cell>
+                        <cell>Jesse Gabriel
+                            <hi rend="superscript">1</hi>
+                        </cell>
+                        <cell>0.092</cell>
+                        <cell>0.076</cell>
+                        <cell>0.005</cell>
+                        <cell>0.011</cell>
+                        <cell>0.0</cell>
+                    </row>
+                    <row>
+                        <cell>122</cell>
+                        <cell>Luz Rivas
+                            <hi rend="superscript">1</hi>
+                        </cell>
+                        <cell>0.068</cell>
+                        <cell>0.047</cell>
+                        <cell>0.004</cell>
+                        <cell>0.008</cell>
+                        <cell>0.01</cell>
+                    </row>
+                </table>
+                <!--
+                <p rend="DH-Heading3" style="font-style: italic; ">Footnote:</p>
+                <p>1: Elected in late 2018, and served only for the last quarter of the legislative session</p>
+                -->
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KHOSMOOD_Foaad_Feature_Engineering_for_US_State_Legislative_.xml_">Elected in late 2018, and served only for the last quarter of the legislative session</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Blakeslee, Sam</author> / <author>Dekhtyar, Alex</author> / <author>Khosmood, Foaad</author> / <author>Kurfess, Franz</author> / <author>Kuboi, Toshihiro</author> / <author>Poschman, Hans</author> / <author>Prinzivalli, Giovanni</author> / <author>Robertson, Christine</author> / <author>Durst, Skylar</author> (2015): “Digital democracy project: Making government more transparent one video at a time”. Digital Humanities 2015</bibl>
+                    <bibl><author>Finkel, Jenny Rose</author> / <author>Grenager, Trond</author> / <author>Manning, Christopher D.</author> (2005): “Incorporating non-local information into information extraction systems by gibbs sampling”. In Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL’05), pages 363–370.</bibl>
+                    <bibl><author>Honnibal, Matthew</author> / <author>Montani, Ines</author> (2020): “Spacy: Industrial-strength natural language processing in python.”</bibl>
+                    <bibl><author>Klimashevskaia, Anastasiia</author> / <author>Gadgil, Richa</author> / <author>Gerrity, Thomas</author> / <author>Khosmood, Foaad</author> / <author>Gütl, Christian</author> / <author>Howe, Patrick</author> (2021): “Automatic news article generation from legislative proceedings: A phenom-based approach”. In Statistical Language and Speech Processing, pages 15–26, Cham. Springer International Publishing.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

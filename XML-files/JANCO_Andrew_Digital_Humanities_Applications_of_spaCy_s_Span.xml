@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Humanities Applications of spaCy’s Span
+                        Categorizer</title>
+                <author n="BoydAdrianeJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName n="BoydAdriane">
+                        <surname>Boyd</surname>
+                        <forename>Adriane</forename>
+                    </persName><affiliation>ExplosionAI</affiliation><email>adriane@explosion.ai</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KdrkosJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName n="Kdrkos">
+                        <surname>Kádár</surname>
+                        <forename>Ákos</forename>
+                    </persName><affiliation>ExplosionAI</affiliation><email>akos@explosion.ai</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JancoAndrewJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName ref="https://orcid.org/0000-0002-8872-9474" n="JancoAndrew">
+                        <surname>Janco</surname>
+                        <forename>Andrew</forename>
+                    </persName><affiliation>University of Pennsylvania</affiliation><email>apjanco@upenn.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LassnerDavidJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName ref="https://orcid.org/0000-0001-9013-0834" n="LassnerDavid">
+                        <surname>Lassner</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>TU Berlin</affiliation><email>lassner@tu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BudakNickJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName ref="https://orcid.org/0000-0002-4542-0899" n="BudakNick">
+                        <surname>Budak</surname>
+                        <forename>Nick</forename>
+                    </persName><affiliation>Stanford University</affiliation><email>budak@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TasovacTomaJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName ref="https://orcid.org/0000-0002-3919-993X" n="TasovacToma">
+                        <surname>Tasovac</surname>
+                        <forename>Toma</forename>
+                    </persName><affiliation>DARIAH</affiliation><email>ttasovac@humanistika.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ErmolaevNataliaJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName ref="https://orcid.org/0000-0002-0984-7799" n="ErmolaevNatalia">
+                        <surname>Ermolaev</surname>
+                        <forename>Natalia</forename>
+                    </persName><affiliation>Princeton University</affiliation><email>nataliae@princeton.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KarajgikarJajwalyaJANCO_Andrew_Digital_Humanities_Applications_of_spaCy_s_Span.xml"><persName n="KarajgikarJajwalya">
+                        <surname>Karajgikar</surname>
+                        <forename>Jajwalya</forename>
+                    </persName><affiliation>University of Pennsylvania</affiliation><email>jajk@upenn.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This 3-hour workshop will introduce span categorization as a method for the machine-annotation of text for various research tasks in the digital humanities. Participants will gain a conceptual understanding of how span categorization differs from entity recognition and complete practical exercises to train a spaCy span categorizer on the LitBank dataset.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>NLP</term>
+                    <term>NER</term>
+                    <term>spaCy</term>
+                    <term>digital editions</term>
+                    <term>text annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Digital Humanities Applications of spaCy’s Span Categorizer </head>
+                <div type="div2">
+                    <head>Brief Abstract</head>
+                    <p>This 3-hour workshop will introduce span categorization as a method for the
+                        machine-annotation of text for various research tasks in the digital
+                        humanities. Participants will gain a conceptual understanding of how span
+                        categorization differs from entity recognition and complete practical
+                        exercises to train a spaCy span categorizer on the LitBank dataset. </p>
+                </div>
+                <div type="div2">
+                    <head>Description</head>
+                    <p>Annotation is fundamental to the analysis of text. Scholars mark significant
+                        sections of a text with key ideas and phrases. By marking the text, we add
+                        information, create connections, and form interpretations. This text markup
+                        can be captured as data through systems such as TEI and used as training
+                        data for statistical language models. Automating this process makes it
+                        possible to annotate a large corpus of texts for research tasks such as
+                        creating digital editions or text mining.  </p>
+                    <p>Named entity recognition (NER) is a common method
+                            for identifying consistent entities such as the names of people, places,
+                            and organizations in a text. In our DH2019 workshop “Introduction to
+                            Natural Language Processing for DH Research with SpaCy” (<ref target="https://medium.com/@ajanco_76905/digital-humanities-spacy-workshop-bd71d69a4641"> more </ref>), we demonstrated how digital humanists could train a
+                            NER model to identify early modern place names using training data from
+                            a TEI encoded text from the Perseus Collection. </p>
+                    <p>Named entity recognition is very effective for
+                            finding clear syntactic units like proper names or place names. However,
+                            digital humanists frequently work with literary and historical materials
+                            whose names, places, and ideas have significant variations. Digitized
+                            documents contain OCR errors which adds further variation. The objects
+                            we mark in a text can also be abstract, such as allusion, metaphor, or
+                            affect. For example, the “Mapping Imagined Geographies” project (<ref target="https://maprr.iath.virginia.edu/place_based_concepts"> link </ref>) seeks to annotate place-related concepts and
+                            toponyms in poetic texts.  Many of these are imagined or metaphorical
+                            places such as “the promised land” or “the new world.” A place can play
+                            many roles in a text, such as the setting or the destination of a
+                            journey. Span categorization opens a larger vocabulary of overlapping
+                            labels and roles for the analysis of literary texts.  </p>
+                    <p>Additionally, recent work has demonstrated that the recognition of non-named
+                        entities can be a powerful tool for decolonizing historical texts. Enslaved
+                        people are often mentioned but not by name. There is key information in
+                        historical records about these people and their history. Span categorization
+                        provides the ability to find unnamed entities in a large corpus of texts. 
+                        The LitBank dataset offers annotations from literary texts with annotations
+                        for a wide range of people that are mentioned but whose proper name is not
+                        given. </p>
+                </div>
+                <div>
+                    <head>Learning Outcomes</head>
+                    <p>By the end of the workshop, participants will have:</p>
+                    <list type="unordered">
+                        <item>A conceptual understanding of natural language processing and its uses
+                            in digital humanities research.</item>
+                        <item>Be able to assess when named entity recognition or span categorization
+                            is the better tool for a research task. </item>
+                        <item>practical experience training a spaCy component for ner and
+                            spancat. </item>
+                    </list>
+                </div>
+                <div>
+                    <head>Outline </head>
+                    <list type="ordered">
+                        <item>Introduction to natural language processing and span categorization
+                            (15 minutes) </item>
+                        <item>Comparison of named entity recognition and span categorization (15
+                            minutes) </item>
+                        <item>Exercise to manually annotate literary texts using Prodigy (20
+                            minutes)</item>
+                        <item>Introduction to the LitBank dataset (10 minutes)</item>
+                        <item>Exercise to train an ner component on the Litbank data (20
+                            minutes)</item>
+                        <item>Break (10 minutes)</item>
+                        <item>Training a span categorization model with the LitBank data (20
+                            minutes)</item>
+                        <item>Compare and interpret the differing results of the two models (20
+                            minutes)</item>
+                        <item>Designing your own suggester function to improve span categorization
+                            (20 minutes)</item>
+                        <item>Use Streamlit to create a demonstration app to share your model and
+                            results (10 minutes)</item>
+                    </list>
+                    <p>[160 minutes total] </p>
+                </div>
+                <div>
+                    <head>Our collaboration</head>
+                    <p>This workshop builds on an existing collaboration
+                            between the Princeton Center for Digital Humanities and the developers
+                            of the spaCy open-source NLP library. At DH2019, the organizers offered
+                            a workshop on “Introduction to Natural Language Processing for DH
+                            Research with SpaCy” (<ref target="https://medium.com/@ajanco_76905/digital-humanities-spacy-workshop-bd71d69a4641"> more </ref>). The session was well attended and featured a
+                            valuable discussion between digital humanists and the spaCy developers.
+                            Academic research brings new problems and use cases that can inform the
+                            design of open-source tools. A tool that David Lassner created for the
+                            session was later awarded the 2021 Rahtz Prize for TEI Ingenuity. The
+                            organizers build on this experience for an NEH-funded Institute called
+                            “New Languages for NLP: Building Linguistic Diversity in the Digital
+                            Humanities.” The new languages project developed instructional materials
+                            to train digital humanists how to annotate texts and train spaCy models
+                            for the languages and domains of their research. Ines Montani, the
+                            co-founder of Explosion and core developer of spaCy participated in the
+                            workshop and gave a keynote lecture.  </p>
+                </div>
+                <div>
+                    <head>Target audience and expected number of participants</head>
+                    <p>We expect to have 20-30 participants for the workshop based on past
+                        experience.</p>
+                    <p>This is an intermediate-level workshop and participants should come with
+                        basic knowledge of Python. Participants will need to bring a laptop or
+                        tablet and keyboard with them to the session. A wifi connection is needed to
+                        connect to the cloud notebooks.   </p>
+                </div>
+                <div>
+                    <head>Technical Support</head>
+                    <p>For the workshop, we will provide virtual machines that participants can
+                        access with a browser during the workshop using their laptops or tablets.
+                        The only requirement will be an internet connected device. All materials
+                        will be shared on GitHub for later reference.   </p>
+                </div>
+                <div type="div2">
+                    <head>Organizers</head>
+                    <list type="unordered">
+                        <item><hi rend="bold">Adriane Boyd</hi> is a computational linguist who has
+                            been engaged in research since 2005, completing her PhD in 2012. She has
+                            extensive experience in quality control for linguistic annotation,
+                            parsing, and NLP for non-standard language. </item>
+                        <item><hi rend="bold">Ákos Kádár</hi> is a Machine Learning Engineer at
+                            Explosion and developer in Natural Language Processing. </item>
+                        <item><hi rend="bold">David Lassner</hi> holds a Ph.D. from the machine
+                            learning group at TU Berlin. </item>
+                        <item><hi rend="bold">Nick Budak</hi> is a Digital Library Software Developer
+                            at Stanford University. Nick enjoys imagining and implementing
+                            accessible, dynamic interfaces for digital humanities projects. His
+                            current research is in the area of computational phonology tools for Old
+                            Chinese through the DIRECT project. At Princeton, he developed backend
+                            and frontend interfaces for flagship DH projects like the Shakespeare
+                            and Company Project and Princeton Prosody Archive.  </item>
+                        <item><hi rend="bold">Natalia Ermolaev </hi>is the Associate Director of the
+                            Center for Digital Humanities at Princeton University and the Project
+                            Archivist for the Serge Prokofiev Archive at the Rare Books and
+                            Manuscript Library at Columbia University. She is a Slavist, digital
+                            humanist, and archivist. </item>
+                        <item><hi rend="bold">Toma Tasovac</hi> is President of the Board of Directors
+                            of the pan-European Digital Research Infrastructure for the Arts and
+                            Humanities (DARIAH). With an academic background in Comparative
+                            Literature and degrees from Harvard, Princeton and Trinity College
+                            Dublin, Toma's areas of scholarly expertise include historical and
+                            electronic lexicography, data modeling, digital editions, and research
+                            infrastructures.  </item>
+                        <item><hi rend="bold">Andrew Janco</hi> is a research software engineer at the
+                            University of Pennsylvania Libraries. He has organized multiple
+                            workshops connecting natural language processing and digital humanities
+                            research, including DH2019, DH Budapest, and the “New Languages for NLP”
+                            Institute. Andy currently serves as co-Vice President of the Association
+                            for Computers and the Humanities (ACH). </item>
+                        <item><hi rend="bold">Jajwalya Karajgikar</hi> is the Applied Data Science
+                            Librarian at the University of Pennsylvania Libraries. Jaj engages with
+                            researchers across disciplines interested in employing techniques for
+                            data storytelling, natural language processing, computational social
+                            sciences, data visualization, network analysis, and text mining. She
+                            works with campus partners to establish foundational programming in
+                            research computing, data literacy, and data ethics.</item>
+                    </list>
+                </div>
+            </div>
+        </body>
+    </text></TEI>

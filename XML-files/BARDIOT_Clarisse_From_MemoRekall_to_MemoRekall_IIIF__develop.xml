@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From MemoRekall to MemoRekall-IIIF: developing a video annotation web application in the context of citizen science co-creation practices</title>
+                <author n="BardiotClarisseBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="BardiotClarisse">
+                        <surname>Bardiot</surname>
+                        <forename>Clarisse</forename>
+                    </persName><affiliation>Université Rennes 2, France</affiliation><email>clarisse_bardiot@mac.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RouquetDavidBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="RouquetDavid">
+                        <surname>Rouquet</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Tetras Libre</affiliation><email>david.rouquet@tetras-libre.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MichaanAlexandreBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="MichaanAlexandre">
+                        <surname>Michaan</surname>
+                        <forename>Alexandre</forename>
+                    </persName><affiliation>Université Jean Monnet Saint Etienne, France</affiliation><email>alex.michaan@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BlinIrneBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="BlinIrne">
+                        <surname>Blin</surname>
+                        <forename>Irénée</forename>
+                    </persName><affiliation>Compagnie Cadmium</affiliation><email>ireneeblin@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MenasselMeiBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="MenasselMei">
+                        <surname>Menassel</surname>
+                        <forename>Mei</forename>
+                    </persName><affiliation>Université Polytechnique Hauts-de-France</affiliation><email>mei.menassel@uphf.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HildebrandSbastienBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="HildebrandSbastien">
+                        <surname>Hildebrand</surname>
+                        <forename>Sébastien</forename>
+                    </persName><affiliation>Université Polytechnique Hauts-de-France</affiliation><email>seb.hildebrand@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HartJacobBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="HartJacob">
+                        <surname>Hart</surname>
+                        <forename>Jacob</forename>
+                    </persName><affiliation>Université Rennes 2, France</affiliation><email>jacob.dchart@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FerrandoStefaniaBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="FerrandoStefania">
+                        <surname>Ferrando</surname>
+                        <forename>Stefania</forename>
+                    </persName><affiliation>Université Polytechnique Hauts-de-France</affiliation><email>ferrandostefania@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GraffioneCosettaBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="GraffioneCosetta">
+                        <surname>Graffione</surname>
+                        <forename>Cosetta</forename>
+                    </persName><affiliation>Compagnie Cadmium</affiliation><email>cosettagraffione@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MarrancaDanieleBARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml"><persName n="MarrancaDaniele">
+                        <surname>Marranca</surname>
+                        <forename>Daniele</forename>
+                    </persName><affiliation>Compagnie Cadmium</affiliation><email>danielemarranca@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>MemoRekall is a free and open-source web app to annotate a video enhanced by adding notes, documents, or web links. Originally conceived for the preservation and documentation of performing arts, two European citizen science projects (COSMIC and COESO) lead to broaden its uses and develop new functionalities. Both projects share the same methodological approach, based on action research and co-design. This paper will present this co-construction methodology, at the heart of MemoRekall's development from the outset, how it impacted the two new versions of MemoRekall, and its contribution to the study of collaboration in the context of citizen science projects. MemoRekall is a free and open-source web app to annotate a video enhanced by adding notes, documents, or web links. Originally conceived for the preservation and documentation of performing arts, two European citizen science projects (COSMIC and COESO) lead to broaden its uses and develop new functionalities. Both projects share the same methodological approach, based on action research and co-design. This paper will present this co-construction methodology, at the heart of MemoRekall's development from the outset, how it impacted the two new versions of MemoRekall, and its contribution to the study of collaboration in the context of citizen science projects.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>video annotation</term>
+                    <term>collaboration</term>
+                    <term>citizen science</term>
+                    <term>design thinking</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Design studies</term>
+                    <term>Media studies</term>
+                    <term>Performance Studies: Dance</term>
+                    <term>Theatre</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Video recordings, be they digitized or born-digital, are becoming one of the most significant traces and sources for researchers working in the contemporary era. They call for both commentary and additional information via supporting documents because many aspects of the video remain implicit. MemoRekall
+                <ref target="#BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn0" n="1"/>, hosted by Huma-Num, is a free and open-source web app to annotate a video enhanced by adding notes, documents, or web links. The application, therefore, makes it possible to enrich and explain a video recording by combining it with textual annotations and connections to other documentary resources. The arrangement of documentary resources and annotations creates a new document, a "capsule" that can be integrated into any web page using an embed code. MemoRekall provides a new editorialization tool, that articulates video recordings, documents, and annotations. Originally conceived for the preservation and documentation of performing arts (Bardiot, 2021), two European citizen science projects lead to broaden its uses and develop new functionalities. The two projects are COSMIC and COESO.
+            </p>
+            <p>Funded through the ERASMUS+ program, COSMIC (CO-creating and Sharing digital Methodologies In Circus Education)
+                <ref target="#BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn1" n="2"/> is a project led by the French Federation of Circus Schools (FFEC) and the European Federation of Professional Circus Schools (FEDEC). Its aim is to introduce European professional circus schools to the use of digital technology via MemoRekall in order to offer innovative teaching methods in addition to traditional educational methods.
+            </p>
+            <p>The COESO (Collaborative Engagement on Societal Issues) H2020 project
+                <ref target="#BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn2" n="3"/> facilitates participatory research in SSH. It supports ten Citizen Science pilots presenting a variety of disciplines, societal challenges, and types of engagement with citizens in different European countries. “Pilot 2”, Dancing Philosophy, involves the collaboration of a philosopher and a choreographer, and its documentation with Laban kinetography and video annotation (MemoRekall).
+            </p>
+            <p>COSMIC and COESO can be considered as citizen science co-creation practices (Grønvad et al., 2017) as they involve the collaboration of researchers, developers, artists, teachers, and students (Cavalier and Kennedy, 2016). This paper will present this collaborative process, at the heart of MemoRekall's development from the outset.</p>
+            <p>Both projects are based on labs
+                <ref target="#BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn3" n="4"/> (from 3-days to one-week duration) involving all or part of the participants working on specific tasks and goals e.g. “Improvisation of a solo starting from a word” or “Writing teaching scenarios related to teaching circus techniques”. No one is dedicated to “designing new functionalities for MemoRekall”. Instead, we use observation, interviews, and questionnaires. The existing features of MemoRekall meant some of the video analysis and annotation could not be accomplished, hence the reflections initiated to enrich them. In order to clarify, formalize, prioritize and transform these needs into features, we organized several ideation sessions during the different labs.
+            </p>
+            <p>MemoRekall is above all a writing tool. The COSMIC labs were therefore a time and a place for learning how to write with MemoRekall in the context of circus teaching. They have enabled MemoRekall to evolve to take into account the specific characteristics of the circus, which is as much a performing art as it is a top-level sport. It led to a new interface organization, the possibility of varying the playback speed, and drawing annotations. It was indeed important from an educational point of view to be able to surround an area in an image to direct the eyes there, to indicate the direction of a movement or a force, to add a specific term, etc. (Bardiot and Menassel, 2022)</p>
+            <p>Documenting the collaboration between a dancer and a philosopher during COESO with MemoRekall and Laban kinetography led to new questions. We gathered a multimodal corpus during the project or after the fact and based our study on (Boullier and Pidoux, 2021) cooperation analytics. The video could no longer be the central document of the annotation work. Instead, a network of multimodal documents that can annotate each other should be considered, as well as going beyond a descriptive analysis to support a semantic line of questioning. The new features required a complete reimplementation of the tool based on the W3C Web Annotation Recommendations and the International Image Interoperability Framework (IIIF) initiative. MemoRekall-IIIF
+                <ref target="#BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn4" n="5"/> is a prototype for multimodal annotation based on the widely-used IIIF viewer Mirador. It creates document networks that can be explored and viewed from different perspectives.
+            </p>
+            <p>Both COSMIC and COESO projects share the same methodological approach, based on action research and design thinking (Cross, 2011) of which we take up its “situated, interpretive, and user-oriented” characteristics (Burdick and Willis 2011). Designing MemoRekall means designing the conditions of interpretation of digital traces. In this design process (Caviglia et al., 2012), MemoRekall becomes a place for making and thinking, for hermeneutics and epistemology.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn0">
+                    <ref target="https://memorekall.com/">https://memorekall.com</ref>
+                </note><note n="2" xml:id="BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn1">
+                    <ref target="http://www.fedec.eu/fr/articles/5223-cosmic">http://www.fedec.eu/fr/articles/5223-cosmic</ref>
+                </note><note n="3" xml:id="BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn2">
+                    <ref target="https://cordis.europa.eu/project/id/101006325">https://cordis.europa.eu/project/id/101006325</ref>
+                </note><note n="4" xml:id="BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn3"> “Labs” is here a generic keyword that gathers different nuances as residencies and workshops. For example, 
+                    four labs were the backbone of the COSMIC project. Throughout the two years project, they brought together circus trainers, students, the MemoRekall team, and the COSMIC coordinators. The labs were therefore a time and a place for learning how to write with MemoRekall, and for questioning the proposed system and one’s own practice of circus teaching.
+                </note><note n="5" xml:id="BARDIOT_Clarisse_From_MemoRekall_to_MemoRekall_IIIF__develop.xml_ftn4">
+                    <ref target="https://memorekall.com/en/memorekall-iiif-prototype/">https://memorekall.com/en/memorekall-iiif-prototype/</ref> The prototype is presented as a poster during the conference.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author>
+                         (2021): 
+                        <hi rend="italic">Performing Arts and Digital Humanities: From Traces to Data</hi>. Hoboken: ISTE / Wiley.
+                    </bibl>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author> / 
+                        <author>Menassel, Mei</author>
+                         (2022): 
+                        <hi rend="italic">Video Annotation for Circus Education. MemoRekall and the COSMIC projet</hi>, White Paper. Rennes: Université Rennes 2 <ref target="https://hal.science/hal-03828472">https://hal.science/hal-03828472</ref> [8 April 2023].
+                    </bibl>
+                    <bibl>
+                        <author>Boullier, Dominique</author> / 
+                        <author>Pidoux, Jessica</author>
+                         (2021): 
+                        <hi rend="italic">COESO Deliverable 5.1: Cooperation Quality Assessment: Development and Implementation of the Cooperation Analytics.</hi> doi:10.5281/zenodo.5599052.
+                    </bibl>
+                    <bibl>
+                        <author>Burdick, Anne</author> /
+                        <author>Willis, Holly</author>
+                         (2011): “Digital learning, digital scholarship and design thinking”. 
+                        <hi rend="italic">Design Studies</hi>, 
+                        32(6): 546–56 doi:10.1016/j.destud.2011.07.005.
+                    </bibl>
+                    <bibl>
+                        <author>Cavalier, Darlene</author> /
+                        <author>Kennedy, Eric B.</author>
+                         (eds) (2016): 
+                        <hi rend="italic">The Rightful Place of Science: Citizen Science</hi>. Tempe, AZ: Arizona State University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Caviglia, Giorgio</author> /
+                        <author>Coleman, Nicole</author> /
+                        <author>Ciuccarelli, Paolo</author>
+                        (2012): “Communication Design and Digital Humanities. Visualizations and Interfaces for Humanities Research”. 
+                        <hi rend="italic">4th International Forum of Design as a Process Conference</hi> 
+                        <ref target="https://www.researchgate.net/publication/248702062_Communication_Design_and_Digital_Humanities_Visualizations_and_Interfaces_for_Humanities_Research">https://www.researchgate.net/publication/248702062_Communication_Design_and_Digital_Humanities_Visualizations_and_Interfaces_for_Humanities_Research</ref> [8 April 2023].
+                    </bibl>
+                    <bibl>
+                        <author>Cross, Nigel</author>
+                         (2011): 
+                        <hi rend="italic">Design Thinking: Understanding How Designers Think and Work</hi>. Oxford ; New York: Bloomsbury/Berg.
+                    </bibl>
+                    <bibl>
+                        <author>Grønvad, Jonas F.</author> /                        
+                        <author>Hvidtfeldt, Rolf</author> /
+                        <author>Pedersen, David B.</author>
+                         (2017): “Analysing co-creation in theory and in practice: A systemic review of the SSH impact literature”, Working Paper. ACCOMPLISSH  
+                        <ref target="https://www.accomplissh.eu/publications-and-deliverables">https://www.accomplissh.eu/publications-and-deliverables</ref> [8 April 2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

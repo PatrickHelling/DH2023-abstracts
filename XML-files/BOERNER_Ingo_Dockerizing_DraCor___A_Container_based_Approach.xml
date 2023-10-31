@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dockerizing DraCor – A Container-based Approach to Reproducibility in Computational Literary Studies</title>
+                <author n="BoernerIngoBOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml"><persName ref="https://orcid.org/0000-0001-8294-2541" n="BoernerIngo">
+                        <surname>Boerner</surname>
+                        <forename>Ingo</forename>
+                    </persName><affiliation>University of Potsdam, Germany</affiliation><email>ingo.boerner@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TrilckePeerBOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml"><persName ref="https://orcid.org/0000-0002-1421-4320" n="TrilckePeer">
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName><affiliation>University of Potsdam, Germany</affiliation><email>trilcke@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MillingCarstenBOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml"><persName ref="https://orcid.org/0000-0003-0553-7512" n="MillingCarsten">
+                        <surname>Milling</surname>
+                        <forename>Carsten</forename>
+                    </persName><affiliation>University of Potsdam, Germany</affiliation><email>cmil@hashtable.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FischerFrankBOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml"><persName ref="https://orcid.org/0000-0003-2419-6629" n="FischerFrank">
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName><affiliation>Freie Universität Berlin, Germany</affiliation><email>fr.fischer@fu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SluyterGthjeHennyBOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml"><persName ref="https://orcid.org/0000-0003-2969-3237" n="SluyterGthjeHenny">
+                        <surname>Sluyter-Gäthje</surname>
+                        <forename>Henny</forename>
+                    </persName><affiliation>University of Potsdam, Germany</affiliation><email>sluytergaeth@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>While the calls for reproduction studies in Computational Literary Studies (CLS) have become louder, practical aspects, especially the interplay of the components involved in the research process (code, data, environments, infrastructures, etc.) proves to be a hurdle for reproducing research. We present a way to fully reproducible research using a Docker-based approach: We exemplarily implemented it for a network-analytic study on a corpus of about 3,000 theater plays derived from the DraCor project. We demonstrate that the use of highly portable, self-contained digital artifacts (Docker images) containing runnable research environments not only allow for a full reproduction of the study, but also offer ways to implement different scenarios of repeating research (e.g. same code, different data).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Reproducibility</term>
+                    <term>Docker</term>
+                    <term>Programmable Corpora</term>
+                    <term>Computational Literary Studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Reproducibility as a Challenge for Computational Literary Studies.</head>
+                <p>While it is controversial whether reproducing research is possible at all in the Humanities (Peels and Bouter 2018), the empirical methods of Digital Humanities (DH) are particularly well suited for different types of repetitive research (cf. Schöch 2021 for a typology). Consequently, the calls for considering reproducibility in DH research in general and Computational Literary Studies (CLS) in particular have become louder (O’Sullivan 2019).</p>
+                <p>At the same time, enabling reproducibility poses a significant challenge for research projects in CLS. Even if, as is the case in best practices like e.g. Underwood (2018), Piper (2018a), and Kestemont et al. (2022), both code and data are published, the actual reproduction of the analyses performed can be almost impossible – as also Da (2019) criticized in some cases. Besides issues of FAIR data and documentation of research software, especially the interplay of the components involved in the research process (code, data, environments, infrastructures, etc.) proves to be a hurdle for reproducing research.</p>
+                <p>In the following, we report on a use case in infrastructure research conducted in the context of the project CLS INFRA. With our container-based approach, which we exemplarily implemented for a CLS study using Docker, we aim to prototypically present a way to fully reproducible research.</p>
+            </div>
+            <div type="div1">
+                <head>Using Docker to Enhance Reproducibility</head>
+                <p>Using Docker
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn1" n="1"/> in the IT industry is motivated by speeding up development cycles and the reduction of overhead when deploying applications (cf. Kane and Matthias 2018; cf. Lampert 2022 for practical DH-use).The “DevOps” approach focuses on the interplay of application development (“Dev”) and the processes that are necessary to have a tool run on a server (“Ops” for operations) and emphasizes the importance of communication between the development and the operations team. Thus Docker workflows have been introduced because they not only streamline communication processes by providing a meaningful and executable form of documentation, the 
+                    <hi rend="italic">Dockerfile</hi>, that contains the steps necessary to build a highly portable, self-contained digital artifact (
+                    <hi rend="italic">Docker image</hi>) that is easily deployed as a container; but also, Docker workflows shift the responsibility of handling software dependencies to the development team: Docker enables the people actually writing the application to specify the environment in which their software should be run.
+                </p>
+                <p>In CLS research projects we will rarely find teams of development and operation professionals that are in need of communicating better, but we would like to argue, that the attempt of reproducing research could be framed in a similar sense: On the one side, we have an individual researcher (or team) that produces a study that relies on some application that operates on data and, on the other side, researchers wanting to reproduce or verify the results. It becomes evident that some hurdles in the process of reproducing CLS research exist due to a lack of clear communication on how to run the analysis scripts and a tendency to offload the responsibility of setting up an environment in which the analysis could be executed to the reproducing party. A containerized research environment might circumvent these problems: Instead of claiming that scripts “work, at least as of today” (Piper 2018a: xii) on the machine of the developing researcher, it could be guaranteed that a container created from an image containing a runnable self-contained research environment would allow for a reproduction of the study.</p>
+            </div>
+            <div type="div1">
+                <head>Use Case: Dockerizing DraCor</head>
+                <p>We exemplify the benefits of a Docker-based research workflow by referring to our study “Detecting Small Worlds in a Corpus of Thousands of Theater Plays”
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn2" n="2"/>. In this study, we tested different operationalizations of the so-called “Small World” concept based on a multilingual “Very Big Drama Corpus” (VeBiDraCor) of almost 3,000 theater plays. The corpora available on the DraCor platform
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn3" n="3"/> are ‘living’ corpora (we are still adding more plays) which poses an additional challenge for reproducing our study. Furthermore, our analysis script (written in R) retrieves metadata and network metrics from the REST API
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn4" n="4"/> of the “programmable corpus” (Fischer et al. 2019). Thus, we had to devise a way of not only stabilizing the corpus but also this infrastructural component.
+                </p>
+                <p>DraCor provides 
+                    <hi rend="italic">Docker images</hi> for its services (API, frontend, metrics service), which allow for setting up a local DraCor environment.
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn5" n="5"/> For VeBiDraCor we set up a workflow that spins up a Docker container from a versioned bare Docker image of the DraCor database and ingests the data of the plays pulled from specified Github commits using a Python script. From this container we created a ready to use 
+                    <hi rend="italic">Docker image</hi>.
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn6" n="6"/> Because the build process is modular and documented in a 
+                    <hi rend="italic">Dockerfile</hi>, it is also possible to quickly change the API’s base image or the composition of the corpus by editing a manifest file that controls which plays from which repositories at which state are included. In a second step, we also dockerized the research environment by building on a 
+                    <hi rend="italic">Docker image</hi> of RStudio
+                    <ref target="#BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn7" n="7"/> and adding the analysis script.
+                </p>
+                <p>Starting an environment with the 
+                    <hi rend="italic">docker-compose</hi> file that documents the “pre-analysis state” would allow a researcher wanting to repeat our analysis to run the script herself/himself (same data, same code) or even change the version of the data used for the analysis, e.g. use another corpus. Thus, different scenarios of repeating research (same code, different data; different code, same data; cf. Schöch 2021) could be implemented.
+                </p>
+                <p>After we ran our final analysis inside a Docker container, we created a second image of the infrastructure, which can be used to recreate the “post-analysis state” and allows for inspection and verification of the results of our study in the same environment that we used.</p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgement</head>
+                <p>This work is part of CLS INFRA (
+                    <ref target="https://clsinfra.io">https://clsinfra.io</ref>), which is funded from the European Union's Horizon 2020 program (grant agreement No. 101004984).
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn1">
+                        <ref target="https://www.docker.com">https://www.docker.com</ref>.
+                    </note><note n="2" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn2">
+                        Preprint: <ref target="https://github.com/dracor-org/small-world-paper/blob/conference-version/Detecting_Small_World_Networks__in_a_Huge_Multilingual_Corpus_of_Theater_Plays.pdf">https://github.com/dracor-org/small-world-paper/blob/conference-version/Detecting_Small_World_Networks__in_a_Huge_Multilingual_Corpus_of_Theater_Plays.pdf</ref>.
+                    </note><note n="3" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn3">
+                        See <ref target="https://dracor.org">https://dracor.org</ref><ref target="https://dracor.org">; c</ref>orpora are hosted on Github: <ref target="https://github.com/dracor-org">https://github.com/dracor-org</ref><ref target="https://github.com/dracor-org">.</ref>
+                    </note><note n="4" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn4">
+                        <ref target="https://dracor.org/doc/api">https://dracor.org/doc/api</ref>.
+                        
+                    </note><note n="5" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn5">
+                         For a Tutorial see 
+                            <ref target="https://github.com/dracor-org/dracor-notebooks/blob/f72a7722a3ce9c3fa35ea856c81a108166c96f4d/docker/local-dracor-with-docker.ipynb">https://github.com/dracor-org/dracor-notebooks/blob/f72a7722a3ce9c3fa35ea856c81a108166c96f4d/docker/local-dracor-with-docker.ipynb</ref>. 
+                        
+                    </note><note n="6" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn6">
+                         https://github.com/dracor-org/vebidracor; Docker images: 
+                            <ref target="https://hub.docker.com/repository/docker/ingoboerner/vebidracor-api">https://hub.docker.com/repository/docker/ingoboerner/vebidracor-api</ref>.
+                        
+                    </note><note n="7" xml:id="BOERNER_Ingo_Dockerizing_DraCor___A_Container_based_Approach.xml_ftn7">
+                         We used an image of the Rocker project: https://rocker-project.org; for a guide of how to use our research environment see 
+                            <ref target="https://github.com/dracor-org/small-world-paper/tree/develop">https://github.com/dracor-org/small-world-paper/tree/develop</ref>.
+                        
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Fischer, Frank</author> / <author>Börner, Ingo</author> / <author>Göbel, Mathias</author> / <author>Hechtl, Angelika</author> / <author>Kittel, Christopher</author> / <author>Milling, Carsten</author> / <author>Trilcke, Peer</author>  (2019): “Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama”, in: 
+                        <hi rend="italic">DH2019: »Complexities«.Book of Abstracts</hi>. Utrecht. 
+                        <ref target="https://doi.org/10.5281/zenodo.4284002">https://doi.org/10.5281/zenodo.4284002</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Da, Nan Z.</author> (2019): "The Computational Case against Computational Literary Studies", in: 
+                        <hi rend="italic">Critical Inquiry</hi> 45, 3: 601-639.
+                    </bibl>
+                    <bibl>
+                        <author>Kane, Sean P.</author> / <author>Matthias, Karl</author>  (2018): 
+                        <hi rend="italic">Docker: Up and Running</hi>. O’Reilly. 
+                    </bibl>
+                    <bibl>
+                        <author>Kestemont, Mike et al.</author> (2022): "Forgotten books: supplementary materials (data and code)". 
+                        <hi rend="italic">Zenodo</hi>, February 2, 2022. 
+                        <ref target="https://doi.org/10.5281/zenodo.5947206">https://doi.org/10.5281/zenodo.5947206</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Lampert, Marcus</author> (2022): “Introduction to Docker”, in
+                        <hi rend="italic">: DHd 2022 Kulturen des digitalen Gedächtnisses. 8. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2022)</hi>, Potsdam. 
+                        <ref target="https://doi.org/10.5281/zenodo.6328077">https://doi.org/10.5281/zenodo.6328077</ref>
+                    </bibl>
+                    <bibl>
+                        <author>O’Sullivan, James</author> (2019): “The humanities have a ‘reproducibility’ problem”, in: 
+                        <hi rend="italic">Talking humanities</hi>. 
+                        <ref target="https://talkinghumanities.blogs.sas.ac.uk/2019/07/09/the-humanities-have-a-reproducibility-problem/">https://talkinghumanities.blogs.sas.ac.uk/2019/07/09/the-humanities-have-a-reproducibility-problem/</ref> [ 10/31/2022].
+                    </bibl>
+                    <bibl>
+                        <author>Peels, Rik</author> / <author>Bouter, Lex</author>  (2018): “The possibility and desirability of replication in the humanities”, in: 
+                        <hi rend="italic">Palgrave Communications</hi> 4, 1: 1–4. 
+                        <ref target="https://doi.org/10.1057/s41599-018-0149-x">https://doi.org/10.1057/s41599-018-0149-x</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Piper, Andrew</author> (2018a): 
+                        <hi rend="italic">Enumerations: Data and Literary Study</hi>. University of Chicago Press.
+                    </bibl>
+                    <bibl>
+                        <author>Piper, Andrew</author> (2018b): "Data and code for the book Enumerations: Data and Literary Study (Chicago 2018)". 
+                        <hi rend="italic">Github</hi>. 
+                        <ref target="https://github.com/piperandrew/enumerations">https://github.com/piperandrew/enumerations</ref> [10/31/2022].
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> (2021): “A Typology of Reproducible Research: Concepts, Terms, Examples”. 
+                        <hi rend="italic">Seminars on Reproducible Research</hi>, org. Kurt De Belder and Peter Verhaar. Leiden University Library, April 29, 2021. Slides: 
+                        <ref target="https://dh-trier.github.io/trr/#/">https://dh-trier.github.io/trr/#/</ref> Video: 
+                        <ref target="https://youtu.be/ugzgvWl7nAo">https://youtu.be/ugzgvWl7nAo</ref> [10/31/2022].
+                    </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2018): “Data and Code to Support Distant Horizons”. 
+                        <hi rend="italic">Zenodo</hi>, March 25, 2018. 
+                        <ref target="http://doi.org/10.5281/zenodo.1206317">http://doi.org/10.5281/zenodo.1206317</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

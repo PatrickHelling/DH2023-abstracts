@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Genetic networks: data model and visualisations</title>
+                <author n="SpadiniElenaSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName ref="https://orcid.org/0000-0002-4522-2833" n="SpadiniElena">
+                        <surname>Spadini</surname>
+                        <forename>Elena</forename>
+                    </persName><affiliation>Universität Basel, Switzerland</affiliation><email>elena.spadini@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChristenAlessioSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName n="ChristenAlessio">
+                        <surname>Christen</surname>
+                        <forename>Alessio</forename>
+                    </persName><affiliation>Université de Lausanne, Switzerland</affiliation><email>alessio.christen@unil.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PallacciValentinaSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName n="PallacciValentina">
+                        <surname>Pallacci</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>Politecnico di Milano, Italy</affiliation><email>valentina.pallacci@mail.polimi.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ElliTommasoSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName ref="https://orcid.org/0000-0002-9818-1991" n="ElliTommaso">
+                        <surname>Elli</surname>
+                        <forename>Tommaso</forename>
+                    </persName><affiliation>Politecnico di Milano, Italy</affiliation><email>tommaso.elli@polimi.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BenedettiAndreaSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName ref="https://orcid.org/0000-0001-7121-459X" n="BenedettiAndrea">
+                        <surname>Benedetti</surname>
+                        <forename>Andrea</forename>
+                    </persName><affiliation>Politecnico di Milano, Italy</affiliation><email>andrea.benedetti@polimi.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MaggettiDanielSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName n="MaggettiDaniel">
+                        <surname>Maggetti</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Université de Lausanne, Switzerland</affiliation><email>Daniel.Maggetti@unil.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MauriMicheleSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName ref="https://orcid.org/0000-0003-1189-9624" n="MauriMichele">
+                        <surname>Mauri</surname>
+                        <forename>Michele</forename>
+                    </persName><affiliation>Politecnico di Milano, Italy</affiliation><email>michele.mauri@polimi.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PtermannStphaneSPADINI_Elena_Genetic_networks__data_model_and_visualisation.xml"><persName n="PtermannStphane">
+                        <surname>Pétermann</surname>
+                        <forename>Stéphane</forename>
+                    </persName><affiliation>Université de Lausanne, Switzerland</affiliation><email>stephane.petermann@unil.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper, we introduce the concept of genetic networks to study the relationships between manuscripts and publications in genetic editing. We present a data model and its formalisation in an OWL2 ontology, as well as the corresponding data visualisations in the form of sky maps. Our case study is the literary œuvre of the Swiss writer and photographer Gustave Roud (1897-1976). We conclude with some remarks about the project workflow and the integration of data and visual modelling.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>genetic criticism</term>
+                    <term>scholarly editing</term>
+                    <term>ontology</term>
+                    <term>data visualisation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Design studies</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In this paper, we introduce the concept of genetic networks to study the relationships between manuscripts and publications in genetic criticism and scholarly editing. We present a data model and its formalisation in an OWL2 ontology, as well as the corresponding data visualisations in the form of sky maps. Our case study is the literary œuvre of the Swiss writer and photographer Gustave Roud (1897-1976). We conclude with some remarks about the project workflow and the integration of data and visual modelling.
+            </p>
+            <div type="div1">
+                <head>Genetic Networks</head>
+                <p>In the fields of genetics criticism and digital scholarly editing, modelling efforts have focused primarily on the information contained in a single document and on the comparison between documents. The Text Encoding Initiative (TEI) provides a suitable architecture to track and digitally represent the writing process happening on the page.</p>
+                <p>The concept of genetic network complements the modelling of single documents and addresses instead the relationships between them. The object of study shifts to the clustering of documents in genetic dossiers and their connection to publications. This is not something new nor specific to the digital medium: ordering materials is a crucial step when studying modern manuscripts, corresponding to the <hi rend="italic">classement des manuscrits </hi>phase in the six steps identified by De Biasi (2008). Daniel Ferrer too gave voice to the need of studying the relationships between documents: reporting on experiments on how to place and link the genetic documents in the hyperspace, he wrote: "Ce qui est sans doute à retenir de cette expérience [with the software Storyspace] […] c'est la nécessité de <hi rend="italic">nommer</hi>les liens et de prévoir des carrefours de liens" (Ferrer 2008, italics in the original).</p>
+                <p>The novelty of our proposal is to make explicit and computable the ordering of the documents through data modelling and visualisation, instead of it being a necessary but implicit step in the study of genetic materials. Furthermore, we propose the concept of network to complement and broaden that of dossier: multiple genetic dossiers may be intertwined, for example when the same diary note is reused in several writing projects or when a publication is reused and becomes part of the genetic materials for a later work.</p>
+            </div>
+            <div type="div1">
+                <head>Gustave Roud</head>
+                <p>The genesis of the literary works of the Swiss author Gustave Roud can be well represented as genetic networks. His writing practices are based on the selection and reuse of existing and sometimes previously published materials, a process that cannot be traced by looking at a single manuscript, nor at the variants between two or more witnesses.</p>
+                <p>This was one of the challenges posed by the project "Gustave Roud. Œuvres complètes" (University of Lausanne, 2017-2022, funded by the Swiss National Science Foundation). The aim of the project has been to produce a print edition of his complete works (Gustave Roud, <hi rend="italic">Œuvres complètes</hi>, dir. Claire Jaquier et Daniel Maggetti, Genève, Zoé, 2022), complemented by a web application to access the drafts and manuscripts (<ref target="https://roud.unil.ch/">
+                        https://roud.unil.ch
+                    </ref>).</p>
+                <p>The project data is stored at the Swiss National Data and Service Centre for the Humanities (DaSCH), which provides DSP (DaSCH Service Platform), a RDF-based repository for the long-term preservation and reuse of data.</p>
+            </div>
+            <div type="div1">
+                <head>The GENO ontology</head>
+                <p>As part of the project, the OWL2 GENO ontology for representing genetic networks was developed (see <ref target="https://gen-o.github.io/">https://gen-o.github.io/</ref>). In the case of Gustave Roud, modelling the data with GENO allowed us to organise a considerable amount of genetic materials enriched with a semantic structure: 202 avant-textual documents (including lists, drafts, clean versions, etc.) and 259 diary entries, linked to 93 genetic dossiers. It therefore becomes possible to make queries concerning one or more genetic dossiers and Roud's writing processes, including his reuse practices: for example, which works are rooted in the diary? Which avant-textual materials belong to a specific dossier? In what context is a specific article reused?</p>
+                <p>The first version of GENO was described by Christen and Spadini (2019) and the second version will be presented at the conference. The new version takes into account endogenetic and exogenetic materials, uses inferences to distinguish composition phases, allows to differentiate the genesis of different sections of a work, and integrates some FRBR concepts. It should be suitable to represent a larger variety of literary genesis and accommodate different levels of description.</p>
+            </div>
+            <div type="div1">
+                <head>Data Model and Data Visualisations</head>
+                <p>Once the data was modelled according to the GENO ontology, it soon became clear that we ought to find suitable visualisations to represent these complex genetic networks. To this end, the researchers involved in the project collaborated with designers from DensityDesign Lab, a laboratory of the Politecnico in Milan (<ref target="https://densitydesign.org/">https://densitydesign.org/</ref>), who created data visualisations of the genetic networks of Roud's most important publications in the form of sky maps (available at <ref target="https://roud.unil.ch/">
+                        https://roud.unil.ch
+                    </ref>; one of them is in Fig. 1).</p>
+                <p>The chosen method was participatory design, which resulted in a stimulating and satisfying collaboration for both parts. The design process included definition of design requirements, prototyping and evaluation, implementation of artefacts, and final assessments (Elli et al. in press).</p>
+                <p>The JSON-LD data for the visualisations were extracted from the full project dataset using SPARQL queries (see <ref target="https://github.com/gustaveroudproject/geneticNetworksDataViz">https://github.com/gustaveroudproject/geneticNetworksDataViz</ref>) and part of the implementation was conducted using Observable (<ref target="https://observablehq.com/@densitydesign/snodaroud">https://observablehq.com/@densitydesign/snodaroud</ref>), which facilitated communication and allowed inconsistencies in the data to be detected.</p>
+                <p>The visualisations confirm recurring structures among networks, corresponding to Roud's creative habits, such as the "marionette" structure (see, for example, <hi rend="italic">Essai pour un paradis</hi>). Furthermore, they make clear how sometimes diary notes from the same notebook are reused in different articles and then reunited when the articles are repurposed in the genesis of a single book (<hi rend="italic">Feuillets</hi>and <hi rend="italic">Campagne perdue</hi>).</p>
+                <p>The experience of the project taught us that the development of a visual model can be part of the development of a data model: the collaboration with designers and the design process then add to the iterative nature of the data modelling process itself.</p>
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>In this paper we propose the concept of literary genetic networks and we present an ontology to model them in the context of genetic editing (GENO), as well as a corresponding visualisation model. Both the ontology and the visual model can be reused, to make explicit and computable the ordering of genetic materials in other literary genesis. The workflow too, integrating data and visual modelling, might be relevant for other projects.</p>
+                <p><figure>
+                        <graphic url="Pictures/e32e821184f2252bd86aac9ed7746453.jpg"/>
+                        <head>Figure 1: Genetic network of Gustave Roud, Pour un moissonneur, 1941.</head>
+                    </figure></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Christen, Alessio</author> / <author>Spadini, Elena</author> (2019): “Modeling genetic networks. Gustave Roud’s œuvre, from diary to poetry collections”, in: 
+                        <hi rend="italic">Umanistica Digitale</hi> 7. DOI: 10.6092/issn.2532-8816/9063.
+                    </bibl>
+                    <bibl><author>De Biasi, Pierre-Marc </author>(2008): “Les six grandes étapes de la recherche en génétique des textes”, in: Crasson, Aurèle (ed.): 
+                        <hi rend="italic">L’édition du manuscrit. De l’archive de création au scriptorium numérique</hi>. Louvain-La-Neuve: Bruylant-Academia, 25–46. 
+                    </bibl>
+                    <bibl><author>Ferrer, Daniel </author>(2008): “La représentation hypertextuelle des manuscrits : quelques leçons de douze années d’expériences”, in: Crasson, Aurèle (ed.): 
+                        <hi rend="italic">L’édition du manuscrit. De l’archive de création au scriptorium numérique</hi>. Louvain-La-Neuve: Bruylant-Academia, 189–208.
+                    </bibl>
+                    <bibl><author>Elli, Tommaso</author> / <author>Benedetti, Andrea</author> / <author>Pallacci, Valentina</author> / <author>Spadini, Elena</author> / <author>Mauri, Michele</author> (in press): “Designing network visualizations for genetic literary criticism”, in 
+                        <hi rend="italic">Convergências</hi> 16.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Access &amp; Discovery of Documentary Images (ADDI): A Platform for the Exploration and Critique of Computer Vision Algorithms </title>
+                <author n="ArnoldTaylorARNOLD_Taylor_Access___Discovery_of_Documentary_Images__ADDI.xml"><persName ref="https://orcid.org/0000-0003-0576-0669" n="ArnoldTaylor">
+                        <surname>Arnold</surname>
+                        <forename>Taylor</forename>
+                    </persName><affiliation>University of Richmond, United States of America</affiliation><email>tarnold2@richmond.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TiltonLaurenARNOLD_Taylor_Access___Discovery_of_Documentary_Images__ADDI.xml"><persName ref="https://orcid.org/0000-0003-4629-8888" n="TiltonLauren">
+                        <surname>Tilton</surname>
+                        <forename>Lauren</forename>
+                    </persName><affiliation>University of Richmond, United States of America</affiliation><email>ltilton@richmond.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this presentation, we present the project Access &amp; Discovery of Documentary Images (ADDI), collaborative work that with the U.S. Library of Congress. We will discuss how current scholarship has guided our creation of a digital interface and what we have learned about computer vision through the project.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computer vision</term>
+                    <term>public humanities</term>
+                    <term>generous interfaces</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>user experience design and analysis</term>
+                    <term>Library &amp; information science</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>An important current topic in the digital and public humanities is the role that artificial intelligence can serve in the access and discovery of large, digitized collections of cultural heritage materials. There is considerable excitement about the possibilities for automated techniques to assist in the exploration archives from new angles and to engage with lesser-known aspects of large collections. At the same time, there is hesitation about the potential for algorithmic biases and the potential threat to the important knowledge conveyed through human interventions through librarians, archivists, and subject-matter experts. More work is needed to understand the possibilities and limits.</p>
+            <p>In this presentation, we present the project<hi rend="italic">Access &amp; Discovery of Documentary Images (ADDI)</hi>, collaborative work that with the U.S. Library of Congress Lab’s Computing Cultural Heritage in the Cloud (CCHC) Initiative. The initiative “pilot[s] ways to combine cutting edge technology and the collections of the largest library in the world, to support digital research at scale.” The ADDI project adapts and applies computer vision algorithms to aid in discovering and using digital collections, specifically photography. Rather than treating cultural heritage images as a monolith, whereby computational approaches are often developed and applied without attention to the form of cultural heritage in technical scholarship, ADDI pursues technical research with computer vision that considers the specificity of photography as a medium, social practice, and source of evidence for humanistic inquiry. Our project focuses on five photography collections from the early 20th century, totaling over a quarter of a million documentary photographs, all held by the Library of Congress. The project produced an open digital platform for exploring these collections using both archival metadata and automatically generated annotations from the application of computer visional algorithms.</p>
+            <p>The construction of the ADDI digital interface is guided by engagement with existing scholarship in the digital and public humanities. ADDI aims to provide what Whitelaw termed a <hi rend="italic">generous interface</hi>, a “rich, browsable interfaces that reveal the scale and complexity of digital heritage collections” (Whitelaw 2012, 2015). This was achieved through the construction of a platform that allows for search through both automatically generated metadata and archival metadata. At the same time, engagement with D’Ignazio and Klein’s concept of <hi rend="italic">Data Feminism</hi> led us to be cautious about the power dynamics of giving too much weight to annotations that were produced by algorithms originally designed by for-profit companies for specific industry applications (D’Ignazio and Klein, 2020). These cautions led us to make an interface that makes a clear separation between archival data and algorithmic data. Further, every single data element in the interface is followed by a question mark icon that provides detailed information about the source of the information. For algorithmically generated features, we provide full citations of the algorithms used to surface both possible sources of biases as well as to credit the underlying labor that went into each model.</p>
+            <p>Our project also attends to the conclusions of the whitepaper “Computer-Aided Metadata generation for Photo archives” (CAMPI). As the paper notes, the best use of computer algorithms for metadata generation is that which is “tightly integrated with a digital archival collection management system [to] … strategically leverage machine learning models without making the collection beholden to them” (Corrin et al., 2020). Our collaboration with the Library of Congress included working with to better integrate with the Library of Congress’ new API for accessing archival metadata and digitized resources. Our work is also indebted to the model carried out by the SNCC Digital Gateway Project. While most of the individuals involved in the digital archives under consideration in the ADDI project are no longer living, our project seeks to engage in a similar “transfer of informational wealth” through close collaboration with archivists at the Library of Congress (Cox et al., 2020).</p>
+            <p>Through the engagement with the existing scholarship mentioned above, the ADDI interface introduces three novel features. First, the interface allows visitors to explore the probabilistic nature of the automatically generated computer vision features through a slider that selectively turns on and off annotations based on the algorithm’s confidence in their correctness. Secondly, ADDI allows visitors to selectively fade in and out the documentary image to provide more-or-less focus on the automatically generated features, such as detected faces, poses, and objects. Finally, a set of automatically generated recommendations based on visual similarity, we also provide a set of (carefully labelled) randomly generated recommendations. These three novel features offer a paradigm shift that flips the traditional relationship between computer vision and digitized collections of culture heritage.</p>
+            <p>While typically we see computer vision as a tool for exploring digitized collection, ADDI additionally shows how cultural heritage collections can also offer a critical lens back onto computer vision algorithms themselves. Using our interface, in close collaboration with our partners at the Library of Congress Labs, we have investigated the performance of state-of-the-art computer vision algorithms for the detection of faces (Cao et al., 2018), poses (Cao et al., 2019), object detection (Woo et al, 2022), and image similarity (Douze et al, 2021). We found that the algorithms tend to have high precision but low recall; features that are detected by modern computer vision algorithms tend to be valid however there are many objects, poses, and faces that the algorithms fail to detect. Interestingly, the failure to detect all the features present in the image seems to be a result not of problems with black-and-white images or technological difference between film and born-digital materials. Rather, challenges result from differences between the relatively simple images—typically consisting of only a small number of people and a focused subject—computer vision datasets are built around and the complexity often seen in documentary photography.</p>
+            <p>We will conclude by exploring future avenues of research for our collaboration with the Library Congress, with particular focus on how the critical lens provided by the ADDI interface can offer new areas of research at the intersection of DH, public humanities, and computer science.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold, T., Ayers, N., Madron, J., Nelson, R., and Tilton, L.</author>
+                         (2020) “Visualizing a Large Spatiotemporal Collection of Historic Photography with a Generous Interface.” Presented at 5th Workshop on Visualization for the Digital Humanities (Vis4DH Workshop at IEEE VIS2020).
+                    </bibl>
+                    <bibl>
+                        <author>Arnold, T. and Tilton, L. </author>
+                        (2020) “Distant Viewing Toolkit: A Python Package for the Analysis of Visual Culture.” 
+                        <hi rend="italic">Journal of Open Source Software</hi>
+                        , 5(45), 1800.
+                    </bibl>
+                    <bibl>
+                        <author>Barz, B., &amp; Denzler, J.</author>
+                         (2019). Hierarchy-based image embeddings for semantic image retrieval. In 
+                        <hi rend="italic">2019 IEEE Winter Conference on Applications of Computer Vision (WACV)</hi>
+                         (pp. 638-647). IEEE.
+                    </bibl>
+                    <bibl>
+                        <author>Burke, R., Sonboli, N., &amp; Ordonez-Gauger, A.</author>
+                         (2018). Balanced neighborhoods for multi-sided fairness in recommendation. In 
+                        <hi rend="italic">Conference on Fairness, Accountability and Transparency</hi>
+                         (pp. 202-214), PMLR.
+                    </bibl>
+                    <bibl>
+                        <author>Cao, Q., et al.</author>
+                        (2018). VGGFace2: A dataset for recognising faces across pose and age. In 2018 13th IEEE international conference on automatic face &amp; gesture recognition (pp. 67-74). 
+                    </bibl>
+                    <bibl>
+                        <author>Cao, Z., et al.</author>
+                         (2019) "OpenPose: realtime multi-person 2D pose estimation using Part Affinity Fields." 
+                        <hi rend="italic">IEEE transactions on pattern analysis and machine intelligence</hi>
+                         43.1: 172-186.
+                    </bibl>
+                    <bibl>
+                        <author>Cox, C., Forner, K., Gartrell, J., Hogan, W., Lawson, J., Moore, I., &amp; Nelson, N.</author>
+                         (2020). Building and Transferring Movement Informational Wealth: The SNCC Digital Gateway. 
+                        <hi rend="italic">The Journal of African American History</hi>
+                        , 
+                        <hi rend="italic">105</hi>
+                        (4), 626-647.
+                    </bibl>
+                    <bibl>
+                        <author>Douze, M., Tolias, G., Pizzi, E., Papakipos, Z., Chanussot, L., Radenovic, F., Jenicek, T., Maximov, M., Leal-Taixé, L., Elezi, I. and Chum, O.,</author>
+                        (2021). “The 2021 image similarity dataset and challenge.” Computer Vision and Pattern Recognition.
+                    </bibl>
+                    <bibl>
+                        <author>D'Ignazio, C., &amp; Klein, L. F.</author>
+                         (2020). 
+                        <hi rend="italic">Data Feminism</hi>
+                        . MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Hinton, S. &amp; Whitelaw, M.</author>
+                         (2010) “Exploring the digital commons: an approach to the visualization of large heritage datasets.” In 
+                        <hi rend="italic">Proceedings of Electronic Visualization and the Arts</hi>
+                         (2010).
+                    </bibl>
+                    <bibl>
+                        <author>Corrin, J., Davis, E., Lincoln, M., Weingart, S.</author>
+                         (2020). 
+                        <hi rend="italic">CAMPI: Computer-Aided Metadata Generation for Photo archives Initiative</hi>
+                        . Carnegie Mellon University. Preprint. https://doi.org/10.1184/R1/12791807.v1
+                    </bibl>
+                    <bibl>
+                        <author>Marchionini, G.</author>
+                         “Exploratory search: from finding to understanding.” Communications of the ACM, 49(4) (2006): 41–46; Rogers, Y. (2012). HCI theory: classical, modern, and contemporary. 
+                        <hi rend="italic">Synthesis lectures on human-centered informatics</hi>
+                        , 
+                        <hi rend="italic">5</hi>
+                        (2), 1-129.
+                    </bibl>
+                    <bibl>
+                        <author>Sherratt, T. and Bagnal, K. </author>
+                        “The People Inside.” 
+                        <hi rend="italic">Seeing the Past: Experiments with Computer Vision and Augmented Reality in History</hi>
+                        , eds Kevin Kee and Timothy Compeau. University of Michigan Press, 2019: 11-31.
+                    </bibl>
+                    <bibl>
+                        <author>Whitelaw, M.</author>
+                         "Towards generous interfaces for archival collections." In 
+                        <hi rend="italic">Proceedings of International Council on Archives Congress</hi>
+                        . 2012.
+                    </bibl>
+                    <bibl>
+                        <author>Whitelaw, M.</author>
+                         "Generous interfaces for digital cultural collections." 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>
+                        , 9 no 1. 2015. 
+                    </bibl>
+                    <bibl>
+                        <author>Woo, S., Park, K., Oh, S. W., Kweon, I. S., &amp; Lee, J. Y.</author>
+                         (2022). Bridging Images and Videos: A Simple Learning Framework for Large Vocabulary Video Object Detection. In European Conference on Computer Vision (pp. 238-258). Springer, Cham.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

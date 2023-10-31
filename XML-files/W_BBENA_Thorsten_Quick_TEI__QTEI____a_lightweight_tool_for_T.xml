@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quick TEI (QTEI) - a lightweight tool for TEI documents</title>
+                <author n="ScheppMoritzW_BBENA_Thorsten_Quick_TEI__QTEI____a_lightweight_tool_for_T.xml"><persName ref="https://orcid.org/0000-0003-4237-816X" n="ScheppMoritz">
+                        <surname>Schepp</surname>
+                        <forename>Moritz</forename>
+                    </persName><affiliation>Wendig OÜ, Estonia</affiliation><email>schepp@wendig.io</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WbbenaThorstenW_BBENA_Thorsten_Quick_TEI__QTEI____a_lightweight_tool_for_T.xml"><persName ref="https://orcid.org/0000-0001-8172-6097" n="WbbenaThorsten">
+                        <surname>Wübbena</surname>
+                        <forename>Thorsten</forename>
+                    </persName><affiliation>Leibniz Institute of European History, Germany</affiliation><email>wuebbena@ieg-mainz.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Creating online representations from TEI/XML data usually requires technical knowledge in web development. In response to the need for a low-threshold solution to these requirement, we designed and developed QTEI. It is based on two core components: web browser and JavaScript.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>TEI</term>
+                    <term>lightweight-tool</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Computer science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <div>
+                    <head>
+                        Starting situation
+                    </head>
+                    <p>Over the past decades, TEI/XML has established itself as a document format for the encoding and exchange of texts in the processing and provision of textual historical sources. Various tools are available for encoding data in TEI – from simple to specialised XML editors, from open source to proprietary. With these tools, domain experts are able to carry out their scientific mark-up of the texts and enrich the documents. However, creating online representations from TEI/XML data usually requires technical knowledge in web development. This often makes the TEI workflow from TEI document to online publication “fragile”. When creating web views, there is currently a lack of simple, resource-saving but still expandable solutions to adequately counter this tendency.</p>
+                </div>
+                <div>
+                    <head>Status quo</head>
+                    <p>One possible answer to this challenge is TEI Boilerplate (https://dcl.ils.indiana.edu/teibp/). The TEI boilerplate provides immediate publishing of the material, but requires XSLT knowledge for customizations and refers to JavaScript for adding interactive functionality, which are not part of the framework. CETEIcean (https://github.com/TEIC/CETEIcean) delivers impressive TEI parsing and rendering capabilities. As a JavaScript library, it is by definition a developer tool. eXist-db is also a well-established software for publishing and working with XML content and there are modules like TEI Publisher (https://teipublisher.com/index.html) that quickly render TEI content on the platform. Setup and hosting of eXist-db requires experience with relevant server technologies. Also, in order to extend or change the representation of TEI/XML content, a first step is often to restructure the documents using XQuery. The nature of the language quickly leads to complex constructs that generate increased maintenance effort.</p>
+                </div>
+                <div>
+                    <head>
+                        Idea and implementation
+                    </head>
+                    <p>In response to the need for a low-threshold solution to the requirements outlined above, we designed and developed QTEI. To keep it relevant and in line with typical requirements, we will develop it as part of a representative research project. QTEI is based on two core components: web browser and JavaScript. The browser, as one of the most comprehensive software packages for handling XML, is widely used and easy to maintain by end users. JavaScript is often part of the solution for rendering TEI/XML anyway, and so with QTEI we propose a framework that can fully implement a interactive TEI web presence with this technology.</p>
+                    <p>Our intent is to enable operating the product in a maintenance-free way, which is why we chose to build something that would output a static page. Based on this approach, we developed a prototype as a NPM package that can be used either as an ES6 module (<ref target="https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015">https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015</ref>) in modern JavaScript or with a simple &lt;script&gt;-Tag through the use of Content Delivery Network (CDN). A development environment is integrated into QTEI, which allows to customize and extend the module, but also enables the domain expert to track changes to the TEI/XML directly in a web environment. The release as a NPM package also ensures that the library is available via the CDN unpkg.com so it can be incorporated into any project immediately. No special frontend build process is required and it is not necessary to learn a new frontend framework. The source code is licensed under the AGPL (<ref target="https://www.gnu.org/licenses/agpl-3.0.html"> https://www.gnu.org/licenses/agpl-3.0.html</ref>) and available in a GitHub repository, where the user can also find a short demo video and the documentation (https://github.com/ieg-dhr/QTEI).</p>
+                </div>
+                <div>
+                    <head>Future Work</head>
+                    <p>QTEI renders a TEI document within a web page without requiring developer knowledge. However, should basic JavaScript skills be available, then the functionaly can easily be extended by the means of plain old JavaScript functions (https://en.wikipedia.org/wiki/Plain_old_Java_object). Each of the following features could likely be implemented with less than 200 lines of code:</p>
+                    <p>●  Editor functionality either for the TEI/XML itself or in a WYSIWYG for the HTML-rendered representation</p>
+                    <p>●  Full-Text-Search with term matching</p>
+                    <p>●  Search for tagged entities (e.g. people, places)</p>
+                    <p>●  Extending search even further with facets and other static results like time histograms</p>
+                </div>
+                <div>
+                    <head>Discussion</head>
+                    <p>The applications used in the digital humanities move between two poles: There are tools developed for specific applications and those for general purposes. This “tools paradox” (Pape et al. 2012), which involves the tension between specificity and universality and thus limitations and usability versus complexity, is also present here. We are aware of the limitations of QTEI, but understand it as a lightweight tool that should serve as an addition to a greater “DH toolbox” for an ever more diverse community. The poster contribution opens up first approaches for further discussion with the prototypical software version.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Pape, Sebastian</author> / <author>Schöch, Christof</author> / <author>Wegner, Lutz</author> 
+                         (2012): “TEICHI and the Tools Paradox”, in: Journal of the Text Encoding Initiative [Online], Issue 2, February 2012, DOI: 10.4000/jtei.432.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

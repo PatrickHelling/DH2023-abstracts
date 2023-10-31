@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Drafting Standards for Stylometry</title>
+                <author n="JuolaPatrickJUOLA_Patrick_Drafting_Standards_for_Stylometry.xml"><persName ref="https://orcid.org/0000-0003-2578-6233" n="JuolaPatrick">
+                        <surname>Juola</surname>
+                        <forename>Patrick</forename>
+                    </persName><affiliation>Duquesne University, United States of America</affiliation><email>juola@mathcs.duq.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ByszukJoannaJUOLA_Patrick_Drafting_Standards_for_Stylometry.xml"><persName ref="https://orcid.org/0000-0003-2850-2996" n="ByszukJoanna">
+                        <surname>Byszuk</surname>
+                        <forename>Joanna</forename>
+                    </persName><affiliation>Institute of Polish Language of the Polish Academy of Sciences, Poland</affiliation><email>joanna.byszuk@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This workshop will discuss the field of stylometry and authorship attribution, and its application to the development of legal evidence. Workshop participants will be invited to participate in a discussion of the development of consensus standards to help improve reliability and to permit evaluation of proposed stylometric evidence.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>stylometry</term>
+                    <term>DH applications</term>
+                    <term>standards</term>
+                    <term>legal studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>natural language processing</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Law and legal studies</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Stylometry and authorship attribution [1] have matured greatly since the early research in the late 20<hi rend="superscript">th</hi> century.  With the development of formal algorithms for document comparison [2,3], the formalization of evaluation techniques [4,5,6,7], and the development of standardized software for analysis [8,9,10], it is now easier than ever to analyze the writing style of documents.  Several recent high-profile cases [11,12] demonstrate this.  Indeed, courts across the world are becoming more and more willing to accept analyses of writing style as proof of authorship [13,14,15,16,17].  </p>
+            <p>Unfortunately, the increased use of stylometric evidence has created opportunities for the admission and reliance upon erroneous and unreliable stylometric evidence [18,19]. Both Grant [18] and Coulthard [19], described many issues with the $50 million Yukos Arbitration Case [18,19], a still-pending (as of this writing) dispute about whether “the Russian Federation had illegally seized assets from Yukos,” [19, p. 49] and, later, about whether the initial arbitration had been illicitly arrived at. Two analysts had independently arrived at conclusions that, while similar in their overall conclusion (that the arbitration had been illicitly written), contradicted each other on key aspects (such as which specific sections had been so written; indeed, of 28 separate sections, the two experts agreed on only 8.) [19]. Simple logic dictates that at least one of these conflicting reports must be incorrect and should not be relied upon.</p>
+            <p>Coulthard [19] and Juola [20] have identified several questionable assumptions in the methods applied, including</p>
+            <list type="unordered">
+                <item>That “there is a fixed and known number of authors</item>
+                <item>“That the ‘known’ texts chosen were suitable for purpose</item>
+                <item>“That all attributed sections are single author</item>
+                <item>“That all sections are long enough for the chosen method of analysis</item>
+                <item>“That variation in section length is not important</item>
+                <item>“That no ‘foreign’ text remains in the sections” [19]</item>
+                <item>And that co-authored writing can be studied as a “mixture” of individual writings. [20]</item>
+            </list>
+            <p>Violations of any of these assumptions are likely to produce bad evidence [21] that could lead to a miscarriage of justice (and, in the case of <hi rend="italic">Yukos</hi>, may still). Other potential issues include the use of unreliable analysis techniques such as average word length or QSum [22] or analyst overconfidence.</p>
+            <p>The issue of reliability in forensic science has been raised before, by the US National Academy of Sciences [23] and the President’s Council of Advisors on Science and Technology [24] among others. PCAST, in particular, noted the need for “validity as applied,” noting that even good science can be badly used <hi rend="italic">in practice</hi>. For example, a correctly performed statistical calculation that relies on underlying independence assumptions can produce wildly incorrect estimates of probabilities [17], or correct estimates can be grossly misrepresented as in the “prosecutor’s fallacy.” Even simple human error---analyzing the wrong file---can creep in. PCAST [24, p. 28] therefore called upon the scientific community to “develop and promulgate standards and guidelines to improve best practices in the forensic science community.”</p>
+            <p>The proposed pre-conference workshop is open to any party with an interest in discussing such standards as they apply to stylometry. While it is impractical to establish a list of best practices in an active research community---what is best today may be improved upon tomorrow---it should at least be possible to list types of potential error and to make recommendations about ways to avoid them. By establishing guidelines and guard rails, the relevant scholarly community (and the digital humanities community contains many of the world’s top experts in stylometric analysis) can provide public, written, guidance which can be relied upon by legal professionals in assessing the reliability of “expert” evidence. Indeed, under US law, the existence of “standards controlling the technique’s operation” is a key factor supporting admissibility decisions. By extension, failure to follow such standards is an easily understandable reason to object to a particular report. [23,24]</p>
+            <p>This workshop is planned to take half a day. It will start with an introductory presentation about stylometry by Joanna Byszuk, move to a presentation by Patrick Juola about standards and the standards writing process [23], and then spend the bulk of the time in brainstorming and drafting ideas about important issues in stylometry affecting reliability and quality control [19,25]. It is the organizers’ hope that this workshop will create a sufficiently detailed draft (“the Graz Draft”?) to enable continued work by interested participants following the conference.</p>
+            <p>Reliability in forensic science is an important social issue, even a “crisis,” and one frequently addressed in the DH community over the last few years [7,13] The <hi rend="italic">Yukos</hi> case alone involves a dispute of $50 billion that may or may not go to enrich a belligerent autocratic state; other cases have involved the potential for personal harm to individuals via potentially unjust fines, deportation, or detention.  The scholars gathered at the 2023 DH conference in Graz create an opportunity to address and mitigate an ongoing problem of increasing relevance, and so to have lasting public impact.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Neal, Tempestt</author> / <author>Kalaivani Sundararajan</author> / <author>Aneez Fatima</author> / <author>Yiming Yan</author> / <author>Yingfei Xiang</author> / <author>Damon Woodard</author>  (2017): "Surveying stylometry techniques and applications." ACM Computing Surveys (CSuR) 50, no. 6 (2017): 1-36.
+                    </bibl>
+                    <bibl>
+                        <author>J. F. Burrows</author> (1989): “‘An ocean where each kind. . . ’: Statistical analysis and some major determinants of literary style,” Computers and the Humanities, vol. 23, no. 4–5, pp. 309–21.
+                    </bibl>
+                    <bibl>
+                        <author>J. F. Burrows</author> (2002): “Delta: A measure of stylistic difference and a guide to likely
+                            <lb/>authorship,” Literary and Linguistic Computing, vol. 17, pp. 267–287.
+                    </bibl>
+                    <bibl>
+                        <author>Juola, Patrick</author> (2004): "Ad-hoc authorship attribution competition." In Proceedings of the Joint Conference of the Association for Computers and the Humanities and the Association for Literary and Linguistic Computing, pp. 175-176. 
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Argamon, Shlomo</author> / <author>Patrick Juola</author>  (2011): "Overview of the international authorship identification competition at PAN-2011." In CLEF (Notebook Papers/Labs/Workshop). 
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Stamatatos, Efstathios</author> / <author>Walter Daelemans</author> / <author>Ben Verhoeven</author> / <author>Martin Potthast</author> / <author>Benno Stein</author> / <author>Patrick Juola</author> / <author>Miguel A. Sanchez-Perez</author> / <author>Alberto Barrón-Cedeño</author>  (2014): "Overview of the author identification task at PAN 2014." In CLEF 2014 Evaluation Labs and Workshop Working Notes Papers, Sheffield, UK, 2014, pp. 1-21. 
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> / <author>van Dalen-Oskam, Karin</author> / <author>Antoniak, Maria</author> / <author>Jannidis, Fotis</author> / <author>Mimno, David</author>  (2020): Replication and Computational Literary Studies. Digital Humanities Conference 2020 (DH2020), Ottawa, Canada. <ref target="https://doi.org/10.5281/zenodo.3893428">https://doi.org/10.5281/zenodo.3893428</ref>
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Juola, Patrick</author> / <author>John Sofko</author> / <author>Patrick Brennan</author>  (2006): "A prototype for authorship attribution studies." Literary and Linguistic Computing 21, no. 2 (2006): 169-178.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Eder, Maciej</author> / <author>Mike Kestemont</author> / <author>Jan Rybicki</author>  (2013): "Stylometry with R: a suite of tools." In DH, pp. 487-488. 
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Eder, Maciej</author> / <author>Jan Rybicki</author> / <author>Mike Kestemont</author>  (2016): "Stylometry with R: a package for computational text analysis." The R Journal 8, no. 1 .
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Juola, Patrick</author> (2015): "The Rowling case: a proposed standard analytic protocol for authorship questions." Digital Scholarship in the Humanities 30, no. suppl_1 (2015): i100-i113.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Segarra, Santiago</author> / <author>Mark Eisen</author> / <author>Gabriel Egan</author> / <author>Alejandro Ribeiro</author>  (2016): "Attributing the Authorship of the" Henry VI" Plays by Word Adjacency." Shakespeare Quarterly 67, no. 2 (2016): 232-256.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Janet Ainsworth</author> / <author>Patrick Juola</author>  (2019): "Who Wrote This?: Modern Forensic Authorship Analysis as a Model for Valid Forensic Science", 96 Wash. U. L. Rev. 1161 (2019). Available at: <ref target="https://openscholarship.wustl.edu/law_lawreview/vol96/iss5/10">https://openscholarship.wustl.edu/law_lawreview/vol96/iss5/10</ref>
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Carole E. Chaski</author> (2005): Who’s at the Keyboard? Authorship Attribution in Digital Evidence Investigations, 4 INT’L J. DIGITAL EVID. 1.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Malcolm Coulthard</author> (1994): Powerful Evidence for the Defence: An Exercise in Forensic Discourse Analysis, in LANGUAGE AND THE LAW 414 (John Gibbons ed.).
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Malcolm Coulthard</author> (2013): On Admissible Linguistic Evidence, 21 J. L. &amp; POL’Y 441, 444–46.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Patrick Juola</author> (2013): Stylometry and Immigration: A Case Study, 21 J. L. &amp; POL’Y 287.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Grant, Tim</author> (2022): The Idea of Progress in Forensic authorship analysis. Cambridge University Press.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Coulthard, Malcolm</author> (2022): “Rigour and Transparency in Forensic Linguistics Casework” Keynote at IAFLL 2022, Porto, Portugal.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Juola, Patrick</author> / <author>Alejandro Napolitano Jawerbaum</author>  (2022): “Coauthored Documents Are More than Mixtures of the Styles of the Component Authors.” IAFLL 2022, Porto, Portugal. Available at <ref target="https://iafllporto2022.files.wordpress.com/2022/07/iafllporto2022-bookabstracts-3.pdf">https://iafllporto2022.files.wordpress.com/2022/07/iafllporto2022-bookabstracts-3.pdf</ref>
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Rudman, Joseph</author> (1997): “The State of Authorship Attribution Studies: Some Problems and Solutions.” Computers and the Humanities 31, no. 4 (1997): 351–65 Available at <ref target="http://www.jstor.org/stable/30200436">http://www.jstor.org/stable/30200436</ref>.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Holmes, David I.</author> (1998): "The evolution of stylometry in humanities scholarship." Literary and linguistic computing 13, no. 3: 111-117.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>National Research Council</author> (2009): Strengthening forensic science in the United States: a path forward. National Academies Press.
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Lander, Eric S.</author> / <author>PCAST Working Group</author>  (2016): "Forensic science in criminal courts: ensuring scientific validity of feature-comparison methods".
+                        <lb/>
+                    </bibl>
+                    <bibl>
+                        <author>Juola, Patrick</author> (2022): “Unreliable (Linguistic) Evidence and the Role of Standards.” IAFLL 2022, Porto, Portugual. Available at <ref target="https://iafllporto2022.files.wordpress.com/2022/07/iafllporto2022-bookabstracts-3.pdf">https://iafllporto2022.files.wordpress.com/2022/07/iafllporto2022-bookabstracts-3.pdf</ref>
+                        <lb/>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rhythmic, Melodic and Vertical N-Gram Features as a Means of Studying Symbolic Music Computationally</title>
+                <author n="McKayCoryMCKAY_Cory_Rhythmic__Melodic_and_Vertical_N_Gram_Features_as.xml"><persName ref="https://orcid.org/0000-0003-3214-8862" n="McKayCory">
+                        <surname>McKay</surname>
+                        <forename>Cory</forename>
+                    </persName><affiliation>Marianopolis College, Canada</affiliation><email>cory.mckay@mail.mcgill.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CummingJulieMCKAY_Cory_Rhythmic__Melodic_and_Vertical_N_Gram_Features_as.xml"><persName n="CummingJulie">
+                        <surname>Cumming</surname>
+                        <forename>Julie</forename>
+                    </persName><affiliation>McGill University, Canada</affiliation><email>julie.cumming@mcgill.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FujinagaIchiroMCKAY_Cory_Rhythmic__Melodic_and_Vertical_N_Gram_Features_as.xml"><persName ref="https://orcid.org/0000-0003-2524-8582" n="FujinagaIchiro">
+                        <surname>Fujinaga</surname>
+                        <forename>Ichiro</forename>
+                    </persName><affiliation>McGill University, Canada</affiliation><email>ichiro.fujinaga@mcgill.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper introduces new features based on n-grams that have been added to our existing jSymbolic musical feature extraction tool, and shows how these new features can be used to improve classification performance and reveal musicological insights in studies on composer attribution, genre and regional style.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Musicology</term>
+                    <term>Music theory</term>
+                    <term>Features</term>
+                    <term>Machine learning</term>
+                    <term>Automated analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>music and sound digitization</term>
+                    <term>encoding</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    <term>Library &amp; information science</term>
+                    <term>Musicology</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <p>Past research has demonstrated that statistical analysis and machine learning can derive meaningful musical insights from features automatically extracted from digitally encoded symbolic music (i.e., notated music, as opposed to audio) in a variety of areas, including composer attribution, regional style and genre (Cuenca / McKay 2021; Cumming / McKay 2021; McKay et al. 2017; Rodríguez-García / McKay 2021). All the aforementioned work was carried out using our open-source jSymbolic2 software (McKay et al. 2018), which extracts 246 features (1,497 dimensions) from symbolic music files. As part of our ongoing work on the next iteration of jSymbolic (jSymbolic3), we have implemented new features based on n-grams. This paper introduces these features and discusses results from repeating previous experiments with the n-gram features added. These experiments involve Renaissance music, but the features themselves are designed to be applicable to any kind of music that can be encoded as a MIDI file.</p>
+            </div>
+            <div type="div1">
+                <p>N-grams can represent diverse types of sequences, and have been used in research ranging from natural language processing to studying DNA sequences. They are well-suited to music, as they can characterize many kinds of musical sequences and transitions. For example, the melodic 3-gram [4,3,5] indicates semitone counts outlining a 4-note ascending arpeggiated major chord in a transposition-invariant way. Researchers including Schubert (2007), Ogihara &amp; Li (2008), Arthur (2018) and Sears &amp; Forrest (2021) have successfully used n-grams (and related skip-grams and flex-grams) to study music, manually and with automated techniques. We complement earlier approaches by using n-grams in a novel way: studying features extracted from sets of n-grams aggregated from a piece or section, rather than analyzing n-grams directly. These features include statistical measures of which types of n-grams are most common, how dominant the most common ones are and how much diversity there is in the total set of n-grams present. Some n-gram features capture the music as a whole, while others consider only the lowest or highest melodic line.</p>
+            </div>
+            <div type="div1">
+                <p>More broadly, both manual musicological methods and alternative computational tools for studying music, such as Humdrum (Huron 2002), music21 (Cuthbert et al. 2011), MIDI Toolbox (Eerola / Toiviainen 2004) or VIS (Antila / Cumming 2014), tend to focus on local elements, such as melodic themes, chord progressions or contrapuntal modules, and how they recur and vary. jSymbolic’s features, in contrast, statistically characterize pieces or sections in their entirety, which allows music to be compared, analyzed or classified in novel ways. The new jSymbolic features extracted from aggregated n-grams permit jSymbolic to maintain this expanded perspective, while at the same time gleaning new kinds of information about local transitions that may have been previously hidden.</p>
+            </div>
+            <div type="div1">
+                <p>The new development version of jSymbolic3 extracts 13, 39 and 24 new features from rhythmic, melodic and vertical interval n-grams, respectively. The experimental results presented in this paper show how combining the new n-gram features with the existing jSymbolic2 features can improve models. To briefly summarize, adding n-gram features to the existing non-n-gram features led to statistically significant increases in classification accuracy in two of three experiments (genre and regional style), and to a small but not statistically significant increase in the other (composer attribution).</p>
+            </div>
+            <div type="div1">
+                <p>A discussion of how individual n-gram features can be identified as characteristic of particular styles is also presented, using analysis based on information gain metrics. This highlights a particular advantage of jSymbolic’s bespoke features: they allow users to not only distinguish between musical categories, but also explore which specific properties differentiate the categories statistically, based on musically salient quantities encapsulated by the features. So, for example, features can be used first to train classifiers to propose attributions for anonymous pieces. Then, features extracted from a composer’s ground truth exemplars can be analysed to reveal potentially unexpected insights into the composer’s style, which may in turn help explain suggested attributions.</p>
+            </div>
+            <div type="div1">
+                <p>This paper will conclude with an acknowledgement of how our research with musical features over the past two decades has benefited greatly from collaborations between musicologists, theorists, computer scientists, music librarians, cognitive scientists and music information retrieval researchers. We hope that our work with n-grams will open up new multidisciplinary collaboration with non-music researchers who have valuable experience utilizing n-grams in their own fields, and that it will encourage more music researchers to incorporate n-grams in their own work. jSymbolic is based on an open-source modular feature plug-in architecture, so in addition to being a research tool, it can also serve as a platform for developing, sharing and applying feature implementations collaboratively.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Antila, Christopher</author> / <author>Cumming, Julie</author>  (2014): “The VIS framework: Analyzing counterpoint in large datasets”, in: 
+                        <hi rend="italic">Proceedings of the 15th International Society for Music Information Retrieval Conference</hi>, Taipei, Taiwan, October 2014: 71–76.
+                    </bibl>
+                    <bibl>
+                        <author>Arthur, Claire</author> (2018): “Mass analysis: Renaissance theory versus practice in Palestrina’s sacred works”, in: 
+                        <hi rend="italic">Program and Abstracts of the New England Conference of Music Theorists</hi>, Waltham, USA, April 2018: 6.
+                    </bibl>
+                    <bibl>
+                        <author>Cuenca, María Elena</author> / <author>McKay, Cory</author>  (2021): “Exploring musical style in the anonymous and doubtfully attributed mass movements of the Coimbra manuscripts: A statistical and machine learning approach”, in: 
+                        <hi rend="italic">Journal of New Music Research</hi> 50, 3: 199–219.
+                    </bibl>
+                    <bibl>
+                        <author>Cumming, Julie</author> / <author>McKay, Cory</author>  (2021): “Using corpus studies to find the origins of the madrigal”, in: 
+                        <hi rend="italic">Proceedings of the Future Directions of Music Cognition International Conference</hi>, virtual, March 2021: 38–42.
+                    </bibl>
+                    <bibl>
+                        <author>Cuthbert, Michael Scott</author> / <author>Ariza, Christopher</author> / <author>Friedland, Lisa</author>  (2011): “Feature extraction and machine learning on symbolic music using the music21 toolkit”, in: 
+                        <hi rend="italic">Proceedings of the International Society for Music Information Retrieval Conference</hi>, Miami, USA, October 2011: 387–392.
+                    </bibl>
+                    <bibl>
+                        <author>Eerola, Tuomas</author> / <author>Toiviainen, Petri</author>  (2004): “MIR in Matlab: The MIDI Toolbox”, in: 
+                        <hi rend="italic">Proceedings of the International Conference on Music Information Retrieval</hi>, Barcelona, Spain, October 2004: 22–27.
+                    </bibl>
+                    <bibl>
+                        <author>Huron, David</author> (2002): “Music information processing using the Humdrum toolkit: Concepts, examples, and lessons”, in: 
+                        <hi rend="italic">Computer Music Journal</hi> 26, 2: 11–26.
+                    </bibl>
+                    <bibl>
+                        <author>McKay, Cory</author> / <author>Cumming, Julie</author> / <author>Fujinaga, Ichiro</author>  (2017): “Characterizing composers using jSymbolic2 features”, in: 
+                        <hi rend="italic">Extended Abstracts for the Late-Breaking Demo Session of the 18th International Society for Music Information Retrieval Conference</hi>, Suzhou, China, October 2017.
+                    </bibl>
+                    <bibl>
+                        <author>McKay, Cory</author> / <author>Cumming, Julie</author> / <author>Fujinaga, Ichiro</author>  (2018): “jSymbolic 2.2: Extracting features from symbolic music for use in musicological and MIR research”, in: 
+                        <hi rend="italic">Proceedings of the International Society for Music Information Retrieval Conference</hi>, Paris, France, September 2018: 348–354.
+                    </bibl>
+                    <bibl>
+                        <author>Ogihara, Mitsunori</author> / <author>Li, Tao</author>  (2008): “N-gram chord profiles for composer style representation,” in: 
+                        <hi rend="italic">Proceedings of the International Society for Music Information Retrieval Conference</hi>. Philadelphia, USA, September 2008: 671–676.
+                    </bibl>
+                    <bibl>
+                        <author>Rodríguez-García, Esperanza</author> / <author>McKay, Cory</author>  (2021): “Composer attribution of Renaissance motets: A case study using statistical features and machine learning”, in: Rodríguez-García, Eesperanza / d’Alvarenga, João Pedro (eds): 
+                        <hi rend="italic">The Anatomy of Iberian Polyphony around 1500</hi>. Kassel, Germany: Edition Reichenberger 401–438.
+                    </bibl>
+                    <bibl>
+                        <author>Schubert, Peter</author> (2007): “Hidden forms in Palestrina’s First Book of Four-Voice Motets”, in: 
+                        <hi rend="italic">Journal of the American Musicological Society</hi> 60, 3: 483-556.
+                    </bibl>
+                    <bibl>
+                        <author>Sears, David. R. W.</author> / <author>Forrest, David</author>  (2021): “Triadic patterns across classical and popular music corpora: Stylistic conventions, or characteristic idioms?”, in: 
+                        <hi rend="italic">Journal of Mathematics and Music </hi>15, 2: 140–153.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

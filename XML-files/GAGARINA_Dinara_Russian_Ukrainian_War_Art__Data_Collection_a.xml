@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Russian-Ukrainian War Art: Data Collection and Analysis</title>
+                <author n="GagarinaDinaraGAGARINA_Dinara_Russian_Ukrainian_War_Art__Data_Collection_a.xml"><persName ref="https://orcid.org/0000-0002-9727-3974" n="GagarinaDinara">
+                        <surname>Gagarina</surname>
+                        <forename>Dinara</forename>
+                    </persName><affiliation>independent researcher</affiliation><email>dinaraamirovna@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Russia-Ukraine war became an impetus for the creation of many objects of folk and professional art. There are street art, memes, fine arts, poetry, music, etc. The goal of the research is development of knowledge representation models of this objects, as well as collecting and analysis of the collection.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital archives</term>
+                    <term>war art</term>
+                    <term>knowledge representtion</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>data modeling</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>digital art production and analysis</term>
+                    <term>Cultural studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Relevance and context: Russia-Ukraine War Art</head>
+                <p>The Russia-Ukraine war became an impetus for the creation of many objects of folk art and professional art. There are different types and genres representing street art, Internet memes, fine arts, poetry, music, etc. These art objects appear on both sides of the conflict, but it seems that they are much more directed against the war and the Russian army. Art objects are created by people from Ukraine, Russia, and all over the world, in cases of narrative forms, poetry, inscriptions on drawings and other formats where text is present, this text can be in Russian, Ukrainian, English, and other European languages.</p>
+                <p>The plots of this war art are connected both with current military operations and often refer to the history and culture of Ukraine, Russia, and their relations. </p>
+                <p>By the time of writing this text, the war has been going on for more than eight months, during which time hundreds of visual art objects and texts have appeared. Their number will grow throughout the war and after it. Today there are no large datasets of such objects, although many media collect them. Some of the objects are born digital, some are analog formats (for example, street art). This war art is the most important evidence of the war, people's lives, their attitudes towards war and warring states. Therefore, collecting, documenting, and analyzing is an important question of modern history and social-cultural studies. Various digital methods, including data science methods, present significant opportunities for working with this kind of war arts. The significance of research on Russia-Ukraine war arts goes beyond the academic study of the phenomenon taking place before our eyes, the project also has a social significance. Since most of the art objects are directed against war and aggression, their collection, documentation, and highlighting have humanitarian effects for society in these difficult times. At the same time, the project can be attributed to the digital public history of Russian-Ukrainian relations.</p>
+                <p>This war art is the most important evidence of the war, people's lives, their attitudes towards war and warring states. Therefore, collecting, documenting, and analyzing is an important question of modern history and social-cultural studies. Various digital methods, including data science methods, present significant opportunities for working with this kind of war arts. </p>
+                <p>The significance of research on Russia-Ukraine war arts goes beyond the academic study of the phenomenon taking place before our eyes, the project also has a social significance. Since most of the art objects are directed against war and aggression, their collection, documentation, and highlighting have humanitarian effects for society in these difficult times. At the same time, the project can be attributed to the digital public history of Russian-Ukrainian relations.</p>
+            </div>
+            <div type="div1">
+                <head>Relevance and context: historical and cultural knowledge representation</head>
+                <p>One of the challenges of data science and automated reasoning in humanities is associated with difficulties in formalization of multifaced historical and cultural knowledge and with lack of formalized historical knowledge models. The effective use of data science methods requires algorithmizing and formalization of the creation of knowledge representation models for the required historical or cultural phenomenon, event or set of primary sources. This, in turn, requires the collection and analysis of existing models for the representation of knowledge, as well as the careful development of a set of demonstration models for phenomena, events or primary sources of various types.</p>
+                <p>Artificial intelligence deals with several standard knowledge representation and reasoning models such as semantic nets, frames, rules, and ontologies. All of them are applicable to historical knowledge but require serious adaptation due to temporality, probability, and other specifics of historical knowledge (Ide, Woolner, Kalus, Ramli, Mohd Noah, etc.). However, the number of examples of such adaptations is not large. </p>
+                <p>Existing data models, in contrast to knowledge models (let's leave out the relationship between data, information and knowledge for now) have been actively adapted by historians for many years. Hierarchical, network and relational data models were not only used in real projects, but also went through a series of discussions in historiography and the development of specialized software. Generalized works on the creation of information systems based on various data models have been published, especially for databases (Manovich, Harvey, Press, Doorn, Thaller), including by the team I worked for several years (Kornienko, Gagarina, Povroznik).</p>
+            </div>
+            <div type="div1">
+                <head>Objectives and expected results </head>
+                <p>The goal of the RUWART (Russia-Ukraine War ART) project is development of knowledge and data representation models and algorithms for Russia-Ukraine war art objects, as well as collecting and analysis of these objects by means data science methods from historical and cultural prospective. </p>
+                <p>The hole project includes following tasks:</p>
+                <list type="ordered">
+                    <item>Analysis of the phenomenon of historical knowledge, information, and data. The problem of formalizing historical knowledge and automating the acquisition of historical knowledge. Review of existing works and approaches, including from the point of view of building systems of large historical and cultural databases and their analysis. Analysis of existing models for historical knowledge representation relating to both large-scale historical and cultural heritage projects and local small projects. Identification and systematization of data models and knowledge models that are used to represent historical data, information, and knowledge. </item>
+                    <item>Development of knowledge and data representation models and algorithms for both war art and history of relations between Russia and Ukraine. </item>
+                    <item>Data collection on Russia-Ukraine war art, including professional audiovisual art and poetry and art objects created by usual people. </item>
+                    <item>Development of a digital platform based on developed models and primary sources collection. </item>
+                    <item>Development of data science methods for analysis of the collection from historical and cultural prospective. </item>
+                    <item>Distant reading and distant viewing of the collection of Russia-Ukraine war art. Identification of the historical plots, images, features of style and language in the collection.</item>
+                </list>
+                <p>The conference will present a collection of visual Russia-Ukraine war art and a model for its representation and description, as well as the first results 
+                    of the analysis of this collection. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Methods and approaches </head>
+                <p>The research is based on a combination of approaches and methods of digital humanities, this includes relational databases, GIS, computer vision and visual AI.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Arnold, Taylor, Tilton, Lauren.</author> (2019). Distant viewing: analyzing large visual corpora. Digital Scholarship in the Humanities. 36. 
+                        <ref target="https://doi.org/10.1093/digitalsh/fqz013">https://doi.org/10.1093/digitalsh/fqz013</ref>. 
+                    </bibl>
+                    <bibl><author>Doorn, Peter </author>(2021). Historical Databases, Big and Small. In: Historical Life Course Studies, 10, 24–29. 
+                        <ref target="https://doi.org/10.51964/hlcs9562">https://doi.org/10.51964/hlcs9562</ref>.
+                    </bibl>
+                    <bibl><author>Harvey Charles, Press Jon </author>(1996). Databases in Historical Research. Theory, Methods and Application, London: Palgrave, 1996.</bibl>
+                    <bibl><author>Ide, Nancy, Woolner, David </author>(2007). Historical Ontologies. In: Ahmad, K., Brewster, C., Stevenson, M. (eds) Words and Intelligence II. Text, Speech and Language Technology, vol 36. Springer, Dordrecht. 
+                        <ref target="https://link.springer.com/chapter/10.1007/1-4020-5833-0_7">https://link.springer.com/chapter/10.1007/1-4020-5833-0_7</ref>. 
+                    </bibl>
+                    <bibl><author>Kalus, Maximilian </author>(2007). Semantic Networks and Historical Knowledge Management: Introducing New Methods of Computer-based Research. In: Semantic Networks and Historical Knowledge Management: Introducing New Methods of Computer-based Research, vol. 10, no. 3, December 2007. 
+                        <ref target="http://hdl.handle.net/2027/spo.3310410.0010.301">http://hdl.handle.net/2027/spo.3310410.0010.301</ref>. 
+                    </bibl>
+                    <bibl><author>Kornienko, Sergey, Gagarina, Dinara, Povroznik Nadezhda </author>(2021). Historical information systems: theory and practice. HSE Publishing House (in Russian). </bibl>
+                    <bibl><author>Manovich, Lev </author>(1999). Database as Symbolic Form. In: Convergence: The International Journal of Research into New Media Technologies, V.5, is.2. </bibl>
+                    <bibl><author>Ramli, Fatihah, Mohd Noah, Shahrul Azman </author>(2016). Building an Event Ontology for Historical Domain to Support Semantic Document Retrieval. In: International Journal on Advanced Science, Engineering and Information Technology, vol. 6, no. 6, pp. 1154-1160. 
+                        <ref target="http://dx.doi.org/10.18517/ijaseit.6.6.1634">http://dx.doi.org/10.18517/ijaseit.6.6.1634</ref>.
+                    </bibl>
+                    <bibl><author>Thaller, Manfred </author>(1985). Beyond Collecting. On the Design and Implementation of CLIO, a DBMS for the Historical Sciences. In: Robert F. Allen (Ed.): Data Bases in the Humanities and the Social Sciences 2, Osprey, Flo.</bibl>
+                    <bibl><author>Thaller, Manfred </author>(2012). Controversies around the Digital Humanities: An Agenda. In: Historical Social Research / Historische Sozialforschung, 37(3 (141)), 7–23. 
+                        <ref target="http://www.jstor.org/stable/41636594">http://www.jstor.org/stable/41636594</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration practices between people and tools: the case of
+                    “<hi rend="italic">Snorra Edda. A collaborative
+                        bibliography</hi> (SnECB)”</title>
+                <author n="CipollaMariaAdeleCAPPELLOTTO_Anna_Collaboration_practices_between_people_and_.xml"><persName n="CipollaMariaAdele">
+                        <surname>Cipolla</surname>
+                        <forename>Maria Adele</forename>
+                    </persName><affiliation>University of Verona, Italy</affiliation><email>adele.cipolla@univr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CappellottoAnnaCAPPELLOTTO_Anna_Collaboration_practices_between_people_and_.xml"><persName n="CappellottoAnna">
+                        <surname>Cappellotto</surname>
+                        <forename>Anna</forename>
+                    </persName><affiliation>University of Verona, Italy</affiliation><email>anna.cappellotto@univr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RospocherMarcoCAPPELLOTTO_Anna_Collaboration_practices_between_people_and_.xml"><persName n="RospocherMarco">
+                        <surname>Rospocher</surname>
+                        <forename>Marco</forename>
+                    </persName><affiliation>University of Verona, Italy</affiliation><email>marco.rospocher@univr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>SnECB is an online bibliographical resource on the whole of scholarly sources concerning the old Icelandic Snorra Edda (1220). The database is created through a crowdsourced Zotero public library; data and metadata are exported in a customized TEI file, which is displayed and searched through a front-ent TEI publisher application.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>medieval studies</term>
+                    <term>reception studies</term>
+                    <term>bibliography</term>
+                    <term>Zotero</term>
+                    <term>TEI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>crowdsourcing</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The project <hi rend="italic">Snorra Edda. A collaborative bibliography</hi> ( <hi rend="italic">SnECB</hi>, <ref target="https://dh.dlls.univr.it/bib-arc/snecb/index.html">https://dh.dlls.univr.it/bib-arc/snecb/index.html</ref>) is an online
+                bibliographical resource revolving around the topic Snorri Sturluson’s <hi rend="italic">Edda</hi> ( <hi rend="italic">SnE</hi>, 1220 ca.). <ref target="#CAPPELLOTTO_Anna_Collaboration_practices_between_people_and_.xml_ftn1" n="1"/> This is a medieval Icelandic handbook for poets-to-be and qualifies as one
+                of the main sources for the knowledge of Old Norse mythology. The huge list of
+                publications touching upon <hi rend="italic">SnE</hi> is evidence of the great
+                popularity and reception that the work has enjoyed in scholarship across epochs and
+                cultures. However, the publication of the related bibliographical corpus is a
+                complex task, not just because of the great amount of primary and secondary sources
+                starting from its <hi rend="italic">edition princeps</hi> (1665), but also due to
+                the great degree of variability within text tradition and editorial scholarship as
+                well. </p>
+            <p>In order to create our bibliographical database, we have first examined relevant
+                Snorrian repertoires, the main bibliographies on old Icelandic literature and on
+                Nordic mythology among the others. For the latest updates, we have consulted several
+                online resources and collections in search for new contributions to the topic (cfr.
+                    <hi rend="italic">c) The database: SnECB</hi> at <ref target="https://dh.dlls.univr.it/bib-arc/snecb/snorribib.html">https://dh.dlls.univr.it/bib-arc/snecb/snorribib.html</ref>). Concerning
+                bibliographical resources within the field of DH, we considered projects such as the
+                Skaldic Project ( <ref target="https://skaldic.org/m.php?p=skpbibliography">https://skaldic.org/m.php?p=skpbibliography</ref>) or the <hi rend="italic">Bibliography of the International Arthurian Society</hi> ( <ref target="https://bias.internationalarthuriansociety.com/">https://bias.internationalarthuriansociety.com/</ref>) among the others. </p>
+            <p>Our new collaborative database has been created by following a good degree of
+                FAIRness and it represents an opportunity of scholarly collaboration between people
+                and between tools. First, anyone willing to contribute in populating the library is
+                free to join a Zotero public group library called <hi rend="italic">snorraedda</hi>
+                ( <ref target="https://www.zotero.org/groups/1314983/snorraedda">https://www.zotero.org/groups/1314983/snorraedda</ref>) that to date counts
+                3709 bibliographical entries. Data and related metadata can be added in the library
+                by following the guidelines provided by Zotero and the <hi rend="italic">SnECB</hi>
+                rationale. Each entry displays its own metadata, but it is also enriched with
+                specific tags and it is related to other parent or child items. </p>
+            <p>The data stored in the Zotero library can be exported in a customized XML/TEI format.
+                However, although Zotero does provide an exporting functionality, this does not
+                include related items, that’s the reason why we implemented a Python script that
+                assembles the exported XML/TEI files by directly accessing the Zotero API. The
+                exported data and metadata serve for visualization and search through a customized
+                front-end application built on top of TEI Publisher ( <ref target="https://teipublisher.com/">https://teipublisher.com/</ref>). </p>
+            <p>The application displays the data following the Zotero model (in a simplified
+                version), and enables users to retrieve and browse the available content by means of
+                filters corresponding to specific metadata (e.g., subcollections, authors, dates,
+                tags) or simply by entering a string of characters. For example, say you want to
+                search all the publications by the author ‘Maria Adele Cipolla’ and you want to sort
+                them by date: from the main page ‘open’ the database and once you are inside it, on
+                the top bar choose ‘sort by’ -&gt; ‘date’, ‘filter by’ -&gt; ‘author’, ‘filter’
+                -&gt; + type ‘Cipolla’. As a result, you will get all the items published by this
+                author ordered e.g. from the oldest to the latest (see Figure 1). You can further
+                refine the search by selecting other parameters, such as ‘subcollections’ (that is
+                item typologies) or ‘tags’. Beyond visualizing and searching the database, users can
+                also ‘download’ each entry in different formats (TEI, TeX, ePUB) directly from the
+                Web application (Figure 2), or go back to the collaborative Zotero library through
+                the link provided. </p>
+            <p>By selecting ‘view more’ you can access all data and metadata associated to a single
+                entry, including related items (Figure 3).</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="9.554986111111111cm" url="Pictures/a0da61116f7a9410727d5752d67f7fe0.JPG" rend="inline"/>
+                <head>Figure 1: Screenshot of the TEI publisher dashboard for browsing and searching
+                    the snorraedda</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="12.90555cm" height="11.110269444444445cm" url="Pictures/df691a2daea6de19aee5db70e26307a6.JPG" rend="inline"/>
+                <head>Figure 2: Screenshot of generated XML/TEI file of a single entry that can be
+                    downloaded from the UI</head>
+            </figure>
+            <figure>
+                <graphic n="1003" width="12.832138888888888cm" height="6.433041666666667cm" url="Pictures/9e44999ffe3456c073250634a6282a73.JPG" rend="inline"/>
+                <head>Figure 3: Screenshot of the customised TEI Publisher UI for visualising a
+                    bibliographic entry</head>
+            </figure>
+            <p>The code of the customized TEI application of the project and of the Python script
+                for exporting content to TEI from the Zotero API are publicly released on GitHub (
+                    <ref target="https://github.com/dlls-piattaforme/teipublisher-snecb">https://github.com/dlls-piattaforme/teipublisher-snecb</ref>, <ref target="https://github.com/dlls-piattaforme/zotero-to-teipublisher">https://github.com/dlls-piattaforme/zotero-to-teipublisher</ref>) to favour the
+                exploitation of the approach in other projects. In conclusion, we believe this kind
+                of tool collaboration (Zotero+TEI Publisher), enabled by the Python script that we
+                implemented, could be a viable and effective solution in many situations aiming to
+                develop a customizable web app for browsing and searching bibliographic data
+                collaboratively collected. </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CAPPELLOTTO_Anna_Collaboration_practices_between_people_and_.xml_ftn1">
+                     We would like to thank our IT staff, especially
+                        Fabrizio Chiarello and Mattia Carli (both University of Verona) for all the
+                        technical work they have done on this project. 
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bibliography of the International
+                            Arthurian Society</author>
+                        , accessed April 26, 2023, 
+                        <ref target="https://bias.internationalarthuriansociety.com/">https://bias.internationalarthuriansociety.com/</ref>
+                        )
+                    </bibl>
+                    <bibl>
+                        <author>Skaldic Project</author>
+                        (accessed April 26, 2023, <ref target="https://skaldic.org/m.php?p=skpbibliography">https://skaldic.org/m.php?p=skpbibliography</ref>
+                        ) 
+                    </bibl>
+                    <bibl>
+                        <author>Snorra Edda.</author> A collaborative bibliography (BETA version)
+                        (accessed April 26, 2023, 
+                        <ref target="https://dh.dlls.univr.it/bib-arc/snecb/index.html">https://dh.dlls.univr.it/bib-arc/snecb/index.html</ref>
+                        )
+                    </bibl>
+                    <bibl>
+                        <author>TEI Consortium, eds. </author>
+                        <hi rend="italic">Guidelines for Electronic Text Encoding and Interchange
+                            (</hi>
+                        last modified April 4, 2023, 
+                        <ref target="http://www.tei-c.org/P5/">http://www.tei-c.org/P5/</ref>
+                        ).
+                    </bibl>
+                    <bibl>
+                        <author>TEI Publisher</author> (accessed April 26, 2023, 
+                        <ref target="http://tei-publisher.com">http://tei-publisher.com</ref>
+                        ) 
+                    </bibl>
+                    <bibl>
+                        <author>Zotero</author> (accessed April 26, 2023, 
+                        <ref target="https://www.zotero.org/">https://www.zotero.org/</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

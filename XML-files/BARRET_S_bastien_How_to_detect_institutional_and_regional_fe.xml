@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>How to detect institutional and regional feature clusters in
+                        late medieval charters? Collaboration between more and less digital
+                        humanists in the project BeCoRe</title>
+                <author n="BarretSbastienBARRET_S_bastien_How_to_detect_institutional_and_regional_fe.xml"><persName ref="https://orcid.org/0000-0002-4828-9486" n="BarretSbastien">
+                        <surname>Barret</surname>
+                        <forename>Sébastien</forename>
+                    </persName><affiliation>Institut de recherche et d'histoire des textes, Centre national de
+                        la recherche scientifique, France</affiliation><email>sebastien.barret@irht.cnrs.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HeliasBaronMarlneBARRET_S_bastien_How_to_detect_institutional_and_regional_fe.xml"><persName ref="https://orcid.org/0000-0002-3185-0783" n="HeliasBaronMarlne">
+                        <surname>Helias-Baron</surname>
+                        <forename>Marlène</forename>
+                    </persName><affiliation>Institut de recherche et d'histoire des textes, Centre national de
+                        la recherche scientifique, France</affiliation><email>m.helias@irht.cnrs.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StutzmannDominiqueBARRET_S_bastien_How_to_detect_institutional_and_regional_fe.xml"><persName ref="https://orcid.org/0000-0003-3705-5825" n="StutzmannDominique">
+                        <surname>Stutzmann</surname>
+                        <forename>Dominique</forename>
+                    </persName><affiliation>Institut de recherche et d'histoire des textes, Centre national de
+                        la recherche scientifique, France</affiliation><email>dominique.stutzmann@irht.cnrs.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TscherneNiklasBARRET_S_bastien_How_to_detect_institutional_and_regional_fe.xml"><persName n="TscherneNiklas">
+                        <surname>Tscherne</surname>
+                        <forename>Niklas</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities, University of
+                        Graz</affiliation><email>niklas.tscherne@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VogelerGeorgBARRET_S_bastien_How_to_detect_institutional_and_regional_fe.xml"><persName ref="https://orcid.org/0000-0002-1726-1712" n="VogelerGeorg">
+                        <surname>Vogeler</surname>
+                        <forename>Georg</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities, University of
+                        Graz</affiliation><email>georg.vogeler@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchindlerJacquelineBARRET_S_bastien_How_to_detect_institutional_and_regional_fe.xml"><persName n="SchindlerJacqueline">
+                        <surname>Schindler</surname>
+                        <forename>Jacqueline</forename>
+                    </persName><affiliation>Niederösterreichisches Institut für Landeskunde,
+                        Austria</affiliation><email>jacqueline.schindler@gmx.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster will present the project “Between Composition and Reception: the Authority of Medieval Charters” and discuss what role machine learning methods can have for the human interpretation of late medieval charters as means to convey authority, esp. regarding their graphical aspects</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Medieval Diplomatics</term>
+                    <term>Image Classification</term>
+                    <term>Image Detection</term>
+                    <term>Close Reading</term>
+                    <term>Distant Reading</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>image processing and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Charters and deeds are texts recording juridical acts, and as such, they made use of
+                a vast array of strictly defined signs of validation and authenticity; but their
+                makers also sought to express their authority and validity through more “subtle”
+                signs, devoid of “direct” juridical functions, for example layout, certain types of
+                scripts, or ornamental elements. This was key to social integration, and to their
+                efficacy. These methods have been studied with digital tools on small scales by
+                manually curated databases (Models of Authority 2015-2017, Broun 2015, Webber 2015,
+                Stokes et al. 2016, Stokes 2020) or primarily as a data collection (NOTAE project
+                2023, Ghignoli 2019). The project “Between Composition and Reception: The Authority
+                of Medieval Charters” (BeCoRe, FWF-I-4502, ANR-19-CE27-0021) studies this phenomenon
+                on a large scale and comparatively. One of our hypotheses is that such elements
+                developed in regional frames, which specialists in mediaeval charters have named
+                “Diplomatic landscapes” (Härtel 2015) and that this geographic influence was
+                stronger than institutional relationships on a wider geographic scale - which, for
+                the time being, constitutes a theoretical framework, and not yet a result, of our
+                endeavours. We study this in the combination of human experts in diplomatics and
+                data science methods.</p>
+            <p>We identify recurring features in a large-scale documentation and relate them to
+                individual observations; these are among others layout features (document size,
+                margins, interlinear space) that are traditionally used by chanceries to highlight
+                solemnity (Bischoff 1996): the formation of the final lines (e.g. Worm 2004), the
+                use of specific signs such as monograms, ornate capitals and chancery or notarial
+                signs (for a general view, Rück 1996); but also the script itself (for an example in
+                royal charters, Gasparri 1973), or the use of spaces and punctuation marks. In order
+                to achieve its goals, BeCoRe uses exemplary, digitised corpora of charters
+                originating in French and Austrian monastic archives through the digital platform
+                (Heinz 2010, Vogeler 2019, Monasterium [2023]), through which we use semantic
+                features, which have to be detected via region detection and classification methods
+                (e.g. YOLO5), in order to test the commonly accepted knowledge on the signs used for
+                expressing power in charters, and their possible combination: do they only appear
+                together, or does their use define a kind of “hierarchy of the visibility of
+                power”?</p>
+            <p>The project is a good example for data re-use: It will add new data to
+                Monasterium.net from existing data sets (CBMA 2023, Fontenay 2023, Gallica 2023
+                IIIF), enhance this data and the existing data in Monasterium to comply with the
+                description standards needed for the project. Charters are transcribed with the help
+                of Transkribus, and encoded with the established standards in Monasterium.net
+                (Charters Encoding Initiative [2023], Vogeler 2006). This description, including
+                text-image alignment, creates a solid basis for further database queries and in
+                particular through machine learning and clustering of the relevant elements.</p>
+            <p>The project focuses first and foremost on the graphical level, but also takes into
+                account the textual and typological aspects. In practice, this involves close and
+                distant reading methods. Close reading will create solid data and sample cases on
+                the relationship between regional and super-regional structures, like those we
+                reported at the Digital Diplomatics 2022 conference (Bergk Pinto et al. 2022).
+                Distant reading methods will apply to both image classification and object
+                detection. We hope to compare the results of different architectures (e.g. ResNet)
+                and pipelines (e.g. YOLO). We will then proceed to investigate whether the use of
+                unsupervised clustering algorithms (such as k-means clustering) will result in
+                diplomatically useful groupings of charters by graphical and textual features, along
+                the lines of geographical regions, affiliation of monastic order, monastery, or
+                others, and whether such a process is likely to generalise beyond the material we
+                have selected. Here, also, we intend to compare the results of different
+                algorithms.</p>
+            <p>Given that one of the major recent challenges within the field of diplomatic research
+                has been the sheer amount of surviving research material, we hope that the
+                cooperation between automated machine learning techniques of this kind and human
+                interpretation can prove to be a fruitful approach toward facing this problem.</p>
+            <p>The poster will present the state of the project and discuss what role machine
+                learning methods can have for the human interpretation of late mediaeval charters as
+                means to convey authority. As one of its focus is on collaboration, it will include
+                a visualisation of our workflow for data use and reuse.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ares Legaspi, Adrián</author> (2021): “La presentación gráfica
+                        de las fórmulas diplomáticas en documentos y códices de Santiago de
+                        Compostela en los siglos XIV y XV”, in: Louviot, Élise / Garcia, Charles /
+                        Morrison, Stephen (eds.): <hi rend="italic">La Formule au Moyen Age /
+                            Formulas in Medieval Culture</hi> IV, Turnhout: Brepols: 85-109. </bibl>
+                    <bibl>
+                        <author>Bergk Pinto, Nicole </author> / <author>Schindler, Jacqueline </author> / <author>Tscherne, Niklas</author>  (2022), “BeCoRe–Between Composition and Reception”, in: <hi rend="italic">Digital Diplomatics Conference</hi>, Graz, 28-30 Sept.
+                        2022: forthcoming, programme and abstract: <ref target="https://didip.hypotheses.org/conference-2022/digital-diplomatics-2022-program">https://didip.hypotheses.org/conference-2022/digital-diplomatics-2022-program</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Bischoff, Frank M.</author> (1996): <hi rend="italic">Urkundenformate im Mittelalter. Größe, Format und Proportionen von
+                            Papsturkunden in Zeiten expandierender Schriftlichkeit (11.-13.
+                            Jahrhundert)</hi>. Marburg: Institut für historische
+                        Hilfswissenschaften. </bibl>
+                    <bibl>
+                        <author>Broun, Dauvit</author> (2015): “Introducing the ‘Models of
+                        Authority’ Project: Scottish charters c.1100–c.1250 | Models of Authority”,
+                        in: <hi rend="italic">Models of Authority</hi> (blog), 23. Juli 2015: <ref target="http://www.modelsofauthority.ac.uk/blog/intro/"/> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>CBMA</author>–Corpus Burgundiae Medii Aevi (2023):  <ref target="http://www.cbma-project.eu/">http://www.cbma-project.eu/</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Charters Encoding Initiative</author> [2023]: <ref target="https://www.cei.lmu.de">https://www.cei.lmu.de</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Fontenay</author> data set (2023): <ref target="https://github.com/oriflamms/Fontenay">https://github.com/oriflamms/Fontenay</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Gallica</author>–Digtal publication platform of the French
+                        National Library (2023): <ref target="https://gallica.bnf.fr">https://gallica.bnf.fr</ref>
+                        [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Gasparri, Françoise</author> (1973): <hi rend="italic">L'écriture des actes de Louis VI, Louis VII et Philippe Auguste</hi>.
+                        Geneva: Droz / Paris: Minard. </bibl>
+                    <bibl>
+                        <author>Ghignoli, Antonella</author> (2019): “The NOTAE Project: A
+                        Research between East and West, Late Antiquity and Early Middle Ages”, in:
+                            <hi rend="italic">COMSt Bulletin</hi> 5: 29–42. </bibl>
+                    <bibl>
+                        <author>Härtel, Reinhard</author> (2015): “Urkundenlandschaften zwischen
+                        Donau, Rhein und Adria”, in: Schwarcz, Andreas / Kaska, Katharina (eds.):
+                            <hi rend="italic">Urkunden</hi>– <hi rend="italic">Schriften</hi>– <hi rend="italic">Lebensordnungen. Neue Beiträge zur Mediävistik.
+                        </hi>Wien / Graz / Köln: Böhlau: 293–211. </bibl>
+                    <bibl>
+                        <author>Heinz, Karl</author> (2010): “Monasterium.net: Auf dem Weg zu
+                        einem europäischen Urkundeportal”, in: Kölzer, Theo / Rosner, Willibald /
+                        Zehetmayer, Roman (eds.): <hi rend="italic">Regionale Urkundenbücher. </hi>
+                        <hi rend="italic">Die Vorträge der 12. Tagung der Commission Internationale
+                            de Diplomatique</hi>. St. Pölten: Niederösterreichisches Institut für
+                        Landeskunde: 139–45. </bibl>
+                    <bibl>
+                        <author>Models of Authority</author>, Scottish Charters and the
+                        Emergence of Government 1100-1250 (2015-2017): <ref target="https://www.modelsofauthority.ac.uk/">https://www.modelsofauthority.ac.uk/</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Monasterium</author> ([2023]): <ref target="http://www.monasterium.net">http://www.monasterium.net</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>NOTAE</author> project–Not a Written Word, (2023): <ref target="http://www.notae-project.eu/">http://www.notae-project.eu/</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Rück, Peter</author> (ed.) (1996): <hi rend="italic">Graphische
+                            Symbole in mittelalterlichen Urkunden. </hi>
+                        <hi rend="italic">Beiträge zur diplomatischen Semiotik</hi>. Sigmaringen:
+                        Thorbecke. </bibl>
+                    <bibl>
+                        <author>Stokes, Peter</author> (2020): “La paléographie et la
+                        diplomatique numériques pour l’exploitation d’un corpus de chartes:
+                        l’exemple de Models of Authority”, in: Canteaut, Olivier / Guyotjeannin,
+                        Olivier / Poncet, Olivier (eds.): <hi rend="italic">Actes royaux et
+                            princiers à l’ère du numérique (Moyen Âge-Temps modernes)</hi>. Pau:
+                        Presses universitaires de Pau et des Pays de l’Adour: 71–78. </bibl>
+                    <bibl>
+                        <author>Stokes, Peter </author> / <author>Brookes, Stewart </author> / <author>Noël, Geoffroy </author> / <author>Davies, John </author> / <author>Webber, Teresa </author> / <author>Broun, Dauvit </author> / <author>Taylor, Alice </author> / <author>Tucker, Joanna</author>  (2016): “The Models of Authority Project: Extending the
+                        DigiPal Framework for Script and Decoration”, in: <hi rend="italic">Digital
+                            Humanities 2016: Conference Abstracts</hi>, Kraków: Jagiellonian
+                        University &amp; Pedagogical University,11-16 July 2016: 896–99. 
+                        <ref target="https://dh2016.adho.org/abstracts/387">https://dh2016.adho.org/abstracts/387</ref> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2006): “Charters Encoding Initiative
+                        (CEI): Zu Möglichkeiten der Integration mit Hilfe eines Standards für
+                        Urkundendigitalisierung”, in: Aigner, Thomas / Winter, Karin (eds.), <hi rend="italic">Alte Archive</hi>– <hi rend="italic">Neue
+                            Technologien</hi>. St. Pölten: Diözesanarchiv: 181–198. </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2019): “Monasterium.net‘–eine
+                        Infrastruktur für diplomatische Forschung”, in: <hi rend="italic">Das
+                            Mittelalter</hi> 24, 1: 247–52 <ref target="https://doi.org/10.1515/mial-2019-0022"/> [28.04.2023]. </bibl>
+                    <bibl>
+                        <author>Webber, Teresa</author> (2015): “An Introduction to the Project
+                        ’Models of Authority: Scottish Charters and the Emergence of Government,
+                        1100-1250”, in: <hi rend="italic">Scripta: An international Journal of
+                            Codicology and Palaeography</hi> 8: 177–180. </bibl>
+                    <bibl>
+                        <author>Worm, Peter</author> (2004): <hi rend="italic">Karolingische
+                            Rekognitionszeichen. Die Kanzlerzeile und ihre graphische Ausgestaltung
+                            auf den Herrscherurkunden des achten und neunten Jahrhunderts</hi>.
+                        Marburg: Institut für historische Hilfswissenschaften. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

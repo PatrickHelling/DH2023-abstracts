@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Similarity-Based Clustering of Pre-Modern Arabic
+                        Names</title>
+                <author n="YousefTariqYOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml"><persName n="YousefTariq">
+                        <surname>Yousef</surname>
+                        <forename>Tariq</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities in Leipzig,
+                        Germany</affiliation><email>yousef@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KinitzDanielYOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml"><persName n="KinitzDaniel">
+                        <surname>Kinitz</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities in Leipzig,
+                        Germany</affiliation><email>kinitz@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This study presents a processing pipeline to cluster premodern non-standardised Arabic person names for different catalogue and repositories. We normalised the names to reduce their heterogeneity, built the similarity graph, employed clustering to group similar and related names, and used a user interface to confirm or correct the resulting clusters.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Graph Clustering</term>
+                    <term>Textual Similarity</term>
+                    <term>Premodern Arabic Names</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>Cultural studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Data repositories must manage the identity of their entities. In the case of
+                    intellectual history, the challenge lies in premodern, and therefore
+                    non-standardised entity names. Our use case deals with Arabic persons related
+                    manuscripts (scholars, scribes, etc.). Thus, multiple occurrences of the same
+                    person with different spellings and name compositions must be identified and
+                    disambiguated. This paper presents a graph clustering approach that combines
+                    literal and numerical properties (name and year of event) with promising
+                    results. The particular challenge lies in the vast variability of name variants
+                    and sometimes unspecific dates.</p>
+            </div>
+            <div type="div1">
+                <head>Data</head>
+                <p>In this study, we used five different data sources – three manuscript catalogue
+                    data repositories and two reference works on figures from Arabic intellectual
+                    history <ref target="#YOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml_ftn1" n="1"/>. The dataset of persons contains over
+                    94,000 records, some of which are duplicates. However, classical Arabic names of
+                    persons have domain-specific characteristics. They can consist of up to six
+                    typical elements (prename, daughter/son of, known as, etc.). Premodern names are
+                    non-standardised, i.e. one and the same person can occur in different name
+                    variants, including transpositions of the name elements. Furthermore, since
+                    Arabic was widespread throughout the Islamicate world and included in non-Arabic
+                    Muslim cultures, names were adjusted to local standards of spelling and language
+                    conventions <ref target="#YOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml_ftn2" n="2"/>. </p>
+            </div>
+            <div type="div1">
+                <head>Pipeline</head>
+                <p>Figure 1 illustrates our processing pipeline, which consists of four main
+                    components. We started with normalising the names using diverse normalisation
+                    functions. Then, we built the similarity graph and employed clustering to group
+                    similar and related names in clusters. Further, we used a user interface to
+                    confirm or correct the resulting clusters.</p>
+                <p><figure>
+                        <graphic url="Pictures/1767389d10dcfe709d9316f2e2fbdcf0.png"/>
+                        <head>Figure 1: Processing pipeline</head>
+                    </figure></p>
+                <div type="div2">
+                    <head>Preprocessing</head>
+                    <p>The aim of normalisation is to reduce the heterogeneity among the names since
+                        they are collected from different resources. We applied normalisation on
+                        character and word levels. Besides NFC Unicode normalisation, we removed
+                        vocalisation and unified the charset, e.g. character equivalents in Persian
+                        and Arabic (ک vs. ك) and (Farsī ی → Arabic ي). Moreover, we removed honorary
+                        titles such as (ḥāǧǧ, šayḫ, mullá) and unified the writing of Arabic “son
+                        of” (بن → ابن).</p>
+                </div>
+                <div type="div2">
+                    <head>Graph Creation</head>
+                    <p>We calculated the similarity between every two normalised names in the
+                        corpus. For this purpose, we utilised a combination of several textual
+                        similarity metrics as well as numerical entity features, such as birth year
+                        and death year. Then, we modelled the obtained results as a graph by
+                        representing each name as a node and the combined similarity between two
+                        names as an edge between them, if it is greater than a predefined threshold.
+                        For textual similarity, we used a combination of <hi rend="bold">token-based
+                            metrics</hi> such as the Jaccard Index and Sorensen Dice, <hi rend="bold">vector-based metrics</hi> such as Term Frequency - Inverse
+                        Document Frequency (TF-IDF) with Cosine Similarity, and <hi rend="bold">edit
+                            distance-based metrics</hi> such as Levenshtein, Hamming, Jaro-Winkler
+                        or Ratcliff-Obershelp. Our experiments showed that no single metric
+                        consistently achieves good performance, but combining metrics from different
+                        categories produces better results. For instance, token-based metrics work
+                        very well in the case of transpositions, but they fail to capture the actual
+                        similarity when there are minor differences among the tokens. However, edit
+                        distance metrics behave the opposite. TF-IDF with Cosine Similarity works
+                        very well with person names which contain rare elements. </p>
+                </div>
+                <div type="div2">
+                    <head>Clustering</head>
+                    <p>To group identical and similar entities, we employed the Chinese Whispers
+                        (CW) clustering algorithm. CW is a hard partitioning, randomised
+                        graph-clustering algorithm. CW does not require a predefined number of
+                        clusters, and can quickly find clusters in an extensive network, since its
+                        processing time increases linearly with the number of nodes (Biemann 2006).
+                        Moreover, domain experts can manually evaluate and correct the resulting
+                        clusters via a web-based user interface.</p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Evaluation </head>
+                <p>Due to the absence of a gold standard data set we used a similar, but more
+                    homogeneous dataset on premodern Arabic persons for quantitative evaluation
+                        <ref target="#YOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml_ftn3" n="3"/>. We run the pipeline with different similarity
+                    metrics and similarity thresholds and used the traditional clustering evaluation
+                    metrics such as Homogeneity, Completeness, and V-measure to compare the
+                    evaluation results. The results revealed that TF-IDF generally showed the best
+                    performance with 0.6 as threshold and achieved a significantly high Homogeneity
+                    (0.992), Completeness (0.958), and V-measure (0.975). </p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgments </head>
+                <p>Our colleague Thomas Efer (Leipzig University) participated in a previous
+                    presentation. Funding from the German Academies' Programme and the Free State of
+                    Saxony.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="YOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml_ftn1">Qalamos.net, Syrian National
+                        Library, Marʿašī manuscript library in Qom/Iran; reference works: (Müller et
+                        al. 2018) and (Al-Ziriklī 2002). Data was engineered/refined at Bibliotheca
+                        Arabica (Brinkmann/Löhr 2021).</note><note n="2" xml:id="YOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml_ftn2">E.g. the famous Shiʿī scholar
+                        al-ʿAllāma al-Ḥillī (d. 1325 CE) could become ʿAllāme-ye Ḥillī in Persian
+                        (no definite article, genitive construction).</note><note n="3" xml:id="YOUSEF_Tariq_Similarity_Based_Clustering_of_Pre_Modern_Arabi.xml_ftn3">A subset taken from the virtual Hill
+                        Museum &amp; Manuscript Library (hmml.org), containing 3000 names grouped
+                        into 893 clusters.</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Biemann, Chris </author>
+                        (2006): “Chinese whispers-an efficient graph clustering
+                        algorithm and its application to natural language processing problems”. In
+                        Proceedings of TextGraphs: the first workshop on graph-based methods for
+                        natural language processing, pages 73–80, 2006. </bibl>
+                    <bibl>
+                        <author>Brinkmann, Stefanie</author> / <author>Löhr, Nadine</author>  (2021): “Bibliotheca
+                        Arabica – Towards a New History of Arabic Literature”. Comparative Oriental
+                        Manuscript Studies Bulletin: 7. pp. 197-206. </bibl>
+                    <bibl>
+                        <author>Müller, Christian</author> / <author>Roiland, Muriel</author> / <author>Sublet, Jacqueline</author> 
+                        (2018): “Onomasticon Arabicum Online”.
+                        https://onomasticon.irht.cnrs.fr, 2018. </bibl>
+                    <bibl>
+                        <author>A-Ziriklī, Ḫayr al-Dīn</author> 
+                        (2002): al-Aʿlām. 8 vols., Beirut: Dār al-ʿIlm
+                        lil-Malāyīn, 2002. The initial full text is taken from shamela.ws. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

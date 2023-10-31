@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Content providers, Researchers, Technology and the Crowd: Discovering the
+                    Best Possible Collaborative Strategies for Datafication and Publication of a
+                    Dutch Historical Newspaper Corpus</title>
+                <author n="DepuydtKatrienDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0003-4579-5305" n="DepuydtKatrien">
+                        <surname>Depuydt</surname>
+                        <forename>Katrien</forename>
+                    </persName><affiliation>Instituut voor de Nederlandse Taal, Netherlands, The</affiliation><email>katrien.depuydt@ivdnt.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanderSijsNicolineDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0003-0170-8943" n="vanderSijsNicoline">
+                        <surname>van der Sijs</surname>
+                        <forename>Nicoline</forename>
+                    </persName><affiliation>Instituut voor de Nederlandse Taal, Netherlands, The</affiliation><email>post@nicolinevdsijs.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="deDoesJesseDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0001-9042-6336" n="deDoesJesse">
+                        <surname>de Does</surname>
+                        <forename>Jesse</forename>
+                    </persName><affiliation>Instituut voor de Nederlandse Taal, Netherlands, The</affiliation><email>jesse.dedoes@ivdnt.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="deJongRuudDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0003-4513-630X" n="deJongRuud">
+                        <surname>de Jong</surname>
+                        <forename>Ruud</forename>
+                    </persName><affiliation>Instituut voor de Nederlandse Taal, Netherlands, The</affiliation><email>ruud.dejong@ivdnt.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="deBonthRolandDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0003-4733-0202" n="deBonthRoland">
+                        <surname>de Bonth</surname>
+                        <forename>Roland</forename>
+                    </persName><affiliation>Instituut voor de Nederlandse Taal, Netherlands, The</affiliation><email>roland.debonth@ivdnt.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FanneeMathieuDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName n="FanneeMathieu">
+                        <surname>Fannee</surname>
+                        <forename>Mathieu</forename>
+                    </persName><affiliation>Instituut voor de Nederlandse Taal, Netherlands, The</affiliation><email>mathieu.fannee@ivdnt.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RomeinAnnemiekeDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0003-3682-0126" n="RomeinAnnemieke">
+                        <surname>Romein</surname>
+                        <forename>Annemieke</forename>
+                    </persName><affiliation>Huygens Instituut, Netherlands, The</affiliation><email>annemieke.romein@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanZundertJorisDEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml"><persName ref="https://orcid.org/0000-0003-3862-7602" n="vanZundertJoris">
+                        <surname>van Zundert</surname>
+                        <forename>Joris</forename>
+                    </persName><affiliation>Huygens Instituut, Netherlands, The</affiliation><email>joris.van.zundert@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution discusses how collaboration between content holder, researchers, software engineers, experts in digitisation and in corpus building has drastically improved the digitisation workflow and the output of a corpus of 17th century newspapers.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>historical newspapers; digitization; corpus building</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>crowdsourcing</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The <ref target="https://www.kb.nl/en">National Library of the Netherlands </ref>(KB) makes over 130 million pages of newspapers, journals and books accessible
+                via <ref target="https://www.delpher.nl/">Delpher</ref>, and the collection is still growing. Delpher offers users the option to
+                search the texts, to create selections based on metadata, and highlights results in
+                the images (which is helpful because newspaper pages, for instance, can be a complex
+                mix of articles). The digitisation and datafication is outsourced and omnifont OCR
+                    <ref target="#DEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml_ftn1" n="1"/> is used.The advantage of this strategy is that large amounts of material can
+                be made available quickly at low cost. The quality of the OCR for challenging
+                material however, is very poor and unsuitable for most types of research. Moreover,
+                the data is not structured in such a way that the material is suitable for the type
+                of retrieval and research done in digital humanities and corpus linguistics. </p>
+            <p>A good example of challenging material is the collection of 17th century newspapers.
+                They are an important source for historical (linguistic) research. However, the poor
+                quality of the OCRed text, the inadequate structuring, and the available metadata in
+                the KB version makes such research virtually impossible. Van der Sijs therefore
+                proposed to work with volunteers <ref target="#DEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml_ftn2" n="2"/> on a better datafication of the text and improved structuring and metadata.
+                The idea was not only to deliver a better version to the KB for Delpher, but also to
+                make the newspaper accessible in an alternative environment, suitable for both
+                digital humanities researchers and corpus linguists. </p>
+            <p>The work was executed in two stages. A thorough evaluation of the workflow led to an
+                entirely new approach for the second stage. In our contribution, we will present
+                both approaches, discuss the problems we encountered, and the solutions we
+                devised.</p>
+            <p>For both stages the starting point was a collection of images, the available OCR in
+                ALTO format and associated metadata. In the ALTO files, region segmentation was
+                already corrected and article segmentation was applied. The quality of the OCR was
+                too low to serve as a basis for correction. Furthermore, the article segmentation
+                was insufficiently detailed: newspaper sections were identified rather than
+                newspaper articles.</p>
+            <p>In stage one, which ran from 2014 to mid 2022, a large group of volunteers rekeyed
+                the text using a purpose built editor. A smaller group of more experienced
+                volunteers corrected the 19 million words, after which interns added article
+                segmentation and additional metadata in a database environment. The post processing
+                of that work was done at the <ref target="https://www.ivdnt.org">Instituut voor de
+                    Nederlandse Taal.</ref> The text was automatically enriched with part of speech
+                and lemma and the dataset was put <ref target="https://couranten.ivdnt.org">online </ref>in 2022. </p>
+            <p>After careful evaluation, it was decided to take a completely different approach for
+                the second stage. One major unexpected issue was the fact that there were
+                considerable problems with the metadata and the grouping of images in newspaper
+                issues in the KB dataset. This led to unnecessary double keying (10% duplicates),
+                incomplete issues <ref target="#DEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml_ftn3" n="3"/>, and a huge amount of suggestions for correction from both volunteers and
+                interns, which had to be resolved in the postprocessing. We were also not happy with
+                the way the article segmentation had been performed nor with the strategy for
+                correction and extension of the metadata. We also wanted to benefit from the
+                technological progress in the field of digitisation that has been made since 2014. </p>
+            <p>For more efficient processing, we now start with a check of the issues and the
+                metadata of the KB set, to obtain a clean dataset with correct metadata on issue
+                level. For that a special tool was developed. For the transcription of the text, we
+                have used Transkribus’ <ref target="https://readcoop.eu/glossary/htr-plus/">HTR+</ref> and since 2023 <ref target="https://readcoop.eu/glossary/pylaia/">Pylaia</ref>. The KB ALTO is converted to Page XML; images and XML are loaded into
+                Transkribus, where new line segmentation and text recognition take place. Volunteers
+                use <ref target="https://lite.transkribus.eu/">Transkribus Lite</ref> to correct the layout analysis and the text. Training of the engine is done
+                per newspaper and repeated at least once to get the best possible result. The error
+                rate as well as an analysis of the type of errors in the automatic transcription
+                help us to evaluate whether manual post-correction of the text is always necessary.
+                Headers and subheaders in the text are tagged so that article segmentation and
+                article metadata are the result of a further conversion. </p>
+            <p>With the support of <ref target="https://www.clariah.nl/">CLARIAH</ref>, we were able to realise a successful collaboration between content holder,
+                researchers, software engineers, experts in digitisation and in corpus building.
+                This has drastically improved both the digitisation workflow and the output. </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="DEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml_ftn1">Abbyy
+                        Finereader.
+                </note><note n="2" xml:id="DEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml_ftn2">
+                    Volunteers of the <hi rend="italic">Stichting
+                            Vrijwilligersnetwerk Nederlandse Taal.</hi>
+                </note><note n="3" xml:id="DEPUYDT_Katrien_Content_providers__Researchers__Technology_a.xml_ftn3">
+                     The pages belonged to different newspaper issues.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>P. Kahle, S. Colutto, G. Hackl and G. Mühlberger</author>,
+                        "Transkribus - A Service Platform for Transcription, Recognition and
+                        Retrieval of Historical Documents," 2017 14th IAPR International Conference
+                        on Document Analysis and Recognition (ICDAR), 2017, pp. 19-24, doi:
+                        10.1109/ICDAR.2017.307.</bibl>
+                    <bibl><author>Nockels J, Gooding P, Ames S, Terras M.</author> Understanding
+                        the application of handwritten text recognition technology in heritage
+                        contexts: a systematic review of Transkribus in published research. Arch Sci
+                        (Dordr). 2022;22(3):367-392. doi: 10.1007/s10502-022-09397-0. Epub 2022 Jun
+                        17. PMID: 35730063; PMCID: PMC9205146. </bibl>
+                    <bibl><author>van der Sijs, N.</author> (2019). De krant hoorde erbij.
+                        Geschiedenis Magazine, 3, 37-40.</bibl>
+                    <bibl><author>Ströbel P, Clematide S</author>, Improving OCR of black letter
+                        in historical newspapers: the unreasonable effectiveness of HTR models on
+                        low-resolution images. Paper presented at Digital Humanities 2019, Zurich.
+                        https://www.zora.uzh.ch/id/eprint/177164/1/Improving_OCR_of_Black_
+                        Letter_in_Historical_Newspapers_The_Unreasonable_Effecti.pdf </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Augmenting the Metadata of Audiovisual Archives with NLP Techniques:
+                    Challenges and Solutions</title>
+                <author n="AlliataGiacomoALLIATA_Giacomo_Augmenting_the_Metadata_of_Audiovisual_Archi.xml"><persName n="AlliataGiacomo">
+                        <surname>Alliata</surname>
+                        <forename>Giacomo</forename>
+                    </persName><affiliation>EPFL, Laboratory of Experimental Museology,
+                        Switzerland</affiliation><email>giacomo.alliata@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YangYuchenALLIATA_Giacomo_Augmenting_the_Metadata_of_Audiovisual_Archi.xml"><persName ref="https://orcid.org/0000-0002-6866-1409" n="YangYuchen">
+                        <surname>Yang</surname>
+                        <forename>Yuchen</forename>
+                    </persName><affiliation>EPFL, Laboratory of Experimental Museology,
+                        Switzerland</affiliation><email>yuchen.yang@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KenderdineSarahALLIATA_Giacomo_Augmenting_the_Metadata_of_Audiovisual_Archi.xml"><persName ref="https://orcid.org/0000-0002-7190-9946" n="KenderdineSarah">
+                        <surname>Kenderdine</surname>
+                        <forename>Sarah</forename>
+                    </persName><affiliation>EPFL, Laboratory of Experimental Museology,
+                        Switzerland</affiliation><email>sarah.kenderdine@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper sets out to highlight and address the challenges in working with large audiovisual archives such as the Radio Télévision Suisse collection. The goal of this research is to augment the metadata through Natural Language Processing methods to facilitate access to the archive for the larger public.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Audiovisual Archives; Computational Augmentation; Natural Language
+                        Processing; Experimental Museology</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>semantic analysis</term>
+                    <term>Computer science</term>
+                    <term>Galleries and museum studies</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Research context and purpose</head>
+                <p>In the last decade, following the push of mass
+                    digitization, audiovisual archives have also been digitized, both by cultural
+                    institutions and broadcasting companies. The Radio Télévision Suisse (RTS) has
+                    for instance assembled more than 200,000 hours in its archive. However, as
+                    outlined by both archival scholars (Fossati et al., 2012) and the GLAM sector
+                    (Winesmith / Anderson, 2020), once digitized, these large collections require
+                    new frameworks to facilitate their access for the larger public and improve
+                    their civic value (Edmondson, 2004). Working with such large datasets proves to
+                    be challenging, as we observe in this research. In this paper, we tackle this
+                    challenge from the perspective of experimental museology (Kenderdine, 2021),
+                    with the goal of augmenting the metadata of the RTS Archives for supporting
+                    innovative modes of access through Natural Language Processing (NLP)
+                    techniques.</p>
+                <p>The main difficulty that arises is the potential lack
+                    of homogeneity in the archival process. This can result in overwhelming amounts
+                    of different tags and categories, unusable as is to cluster the items in the
+                    collection in a meaningful way. For instance, in the RTS Archives, we have 6528
+                    topic tags, 3273 geographical tags and 8954 entity tags across 522103 videos.
+                    Figure 1 demonstrates that the distribution of the number of tags per video is
+                    heavily right skewed, with 75% of the videos having a maximum of 4 tags. </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="6.928555555555556cm" url="Pictures/5859a7a1620c0ba9a0da41259bc35c4b.png" rend="inline"/>
+                    <head>Figure 1: Distribution of the number of tags used per video (log scale).
+                    </head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="13.564305555555556cm" url="Pictures/4bd46c075905d9fce8496df35e3da9e6.png" rend="inline"/>
+                    <head>Figure 2: Graph of the most common tags co-occurrences (red: locations,
+                        blue: entities).</head>
+                </figure>
+                <p>Figure 2 displays a graph of tags co-occurrences, for
+                    the tags that have been used for at least 1000 videos. Unsurprisingly,
+                    Switzerland (“suisse”) and important Swiss cities are the most common tags.</p>
+
+                <p>The challenge is thus on how to infer a proper
+                    knowledge structure from this seemingly free and unconstrained text annotation,
+                    allowing for meaningful clustering of the videos and navigation of the archive.
+                    In parallel, the challenge of missing data can also highly influence the
+                    outcomes of visualizations attempts, as it can cause items to be isolated from
+                    the bulk of the collection, not because they are different but because they have
+                    not been properly tagged (Rodighiero et al., 2022). As the reader can see in
+                    figure 1, this is the case for many videos in the RTS Archives.</p>
+            </div>
+            <div type="div1">
+                <head>Our approach</head>
+                <p>Our initial experiments used Bag-of-Words, TF-IDF, and
+                    word embeddings as video representations for clustering with the K-Means
+                    algorithm. Unfortunately, a qualitative inspection of the clusters revealed that
+                    well-defined groups could not be extracted. Therefore, to augment the metadata
+                    available and facilitate exploration of the entire archive, we decided to link
+                    it to the Wikidata database. We focused on geographical and entity tags, linking
+                    10,618 Wikidata entities to tags in the archive using a simplified entity
+                    linking approach that took the first candidate from the Wikidata API. Since
+                    these tags lacked context, we also used video descriptions as an alternative
+                    source for tagging videos. To perform entity extraction, disambiguation, and
+                    linking using the video descriptions and Wikidata, we developed an end-to-end
+                    pipeline using spaCy and the extend project (Barba et al., 2022). A small-scale
+                    experiment on 15,305 sports-related videos (filtered by content category)
+                    resulted in an additional 4,679 unique tags linked to Wikidata entities, thereby
+                    expanding the scope of our analysis beyond the original set of tags.</p>
+                <p>Once this first phase of extraction is completed, the
+                    collection of Wikidata entities collected enables numerous approaches to further
+                    complement the available metadata. Since all the tags are processed and linked
+                    to a Wikidata entity, the RTS metadata automatically inherits the semantic and
+                    logical information from the Wiki knowledge graph. The audiovisual archive can
+                    thus be navigated through the Wikidata database. Properties of these entities
+                    can be queried in a simple manner, obtaining geographical coordinates for the
+                    location or citizenship of the persons for instance. The drawback of having a
+                    manual and arbitrary tagging system (often found missing tags, inconsistency in
+                    multi-lingual tags, etc.) is also solved by providing a holistic and connected
+                    higher structure to the tags.</p>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>In conclusion, this research shows how the metadata of
+                    an audiovisual archive tagged in an unconstrained manner can be augmented by
+                    linking it to a well-structured and large collection: the Wikidata database.
+                    Future work will explore how tags can be automatically extracted from the
+                    videos, transcribing the audio for instance, and thus potentially resulting in a
+                    much more granular tagging, on the scale of short clips rather than entire
+                    videos.</p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>This research is part of the SNSF-funded research project <hi rend="italic">Narratives from the Long Tail: Transforming Access to Audiovisual
+                        Archives</hi>, led by co-author Prof. Sarah Kenderdine ((grant number
+                    CRSII5_198632, see <ref target="https://www.futurecinema.live/project/">https://www.futurecinema.live/project/</ref> for a project description).
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Barba, Edoardo; Procopio, Luigi and Navigli, Roberto</author>
+                        (2022). “ExtEnD: Extractive entity disambiguation”. Proceedings of the 60th
+                        Annual Meeting of the Association for Computational Linguistics. </bibl>
+                    <bibl>
+                        <author>Edmondson, Ray </author>(2004).
+                        “Audiovisual Archiving: Philosophy and Principles”. UNESCO Paris. </bibl>
+                    <bibl>
+                        <author>Fossati, Giovanna</author> (2012). “Found Footage Filmmaking,
+                        Film Archiving and new Participatory Platforms”. In <hi rend="italic">Found
+                            Footage. Cinema Exposed</hi>. Amsterdam: Amsterdam University Press/EYE
+                        Film Institute Netherlands. </bibl>
+                    <bibl>
+                        <author>Kenderdine, Sarah</author> (2021). “Experimental Museology:
+                        Immersive Visualisation and Cultural (Big) Data”. In <hi rend="italic">Experimental Museology: Institutions, Representations, Users</hi>.
+                        London &amp; New York: Routledge, 15-34. </bibl>
+                    <bibl>
+                        <author>Rodighiero, Dario; Derry, Lins; Duhaime, Douglas; Kruguer,
+                            Jordan; Mueller, Maximilian C.; Pietsch, Christopher; Schnapp, Jeffrey
+                            T. and Steward, Jeff</author> (2022). “Surprise Machines: Revealing Harvard
+                        Art Museums’ Image Collection”. Information Design Journal, 27 (1), 21–34. </bibl>
+                    <bibl>
+                        <author>Winesmith, Keir and Anderson, Suse</author> (2020). “The Digital
+                        Future of Museums: Conversations and Provocations”. Routledge. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

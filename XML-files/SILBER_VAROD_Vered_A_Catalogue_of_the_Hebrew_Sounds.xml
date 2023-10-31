@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Catalogue of the Hebrew Sounds</title>
+                <author n="SilberVarodVeredSILBER_VAROD_Vered_A_Catalogue_of_the_Hebrew_Sounds.xml"><persName ref="https://orcid.org/0000-0002-1564-9350" n="SilberVarodVered">
+                        <surname>Silber-Varod</surname>
+                        <forename>Vered</forename>
+                    </persName><affiliation>Tel Aviv University</affiliation><email>veredsv@tauex.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CohenEvyatarSILBER_VAROD_Vered_A_Catalogue_of_the_Hebrew_Sounds.xml"><persName n="CohenEvyatar">
+                        <surname>Cohen</surname>
+                        <forename>Evyatar</forename>
+                    </persName><affiliation>Tel Aviv University</affiliation><email>evyatarch@mail.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StrullInbarSILBER_VAROD_Vered_A_Catalogue_of_the_Hebrew_Sounds.xml"><persName n="StrullInbar">
+                        <surname>Strull</surname>
+                        <forename>Inbar</forename>
+                    </persName><affiliation>Tel Aviv University</affiliation><email>inbarstrull@mail.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CohenEvanGarySILBER_VAROD_Vered_A_Catalogue_of_the_Hebrew_Sounds.xml"><persName ref="https://orcid.org/0000-0001-7323-5095" n="CohenEvanGary">
+                        <surname>Cohen</surname>
+                        <forename>Evan Gary</forename>
+                    </persName><affiliation>Tel Aviv University</affiliation><email>evan@tauex.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Our goal is to collect the sounds of Hebrew and to make them accessible for linguistic studies and cultural heritage preservation. Our presentation is focused on the pipeline we have developed and on two main tools that we have developed for it: 1. A Hebrew sound parser and 2. The database platform.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Spoken language</term>
+                    <term>Audio information retrieval</term>
+                    <term>Hebrew</term>
+                    <term>sound preservation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>speech processing analysis and methods</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Our project’s goal is to collect the sounds of Hebrew (at utterance, word and phoneme levels) and to make them accessible for linguistic studies and cultural heritage preservation. Our presentation is focused on the pipeline we have developed and on two main tools that we have developed for it: 1. A Hebrew sound parser (The phoneme aligner) and 2. The database platform.</p>
+            </div>
+            <div type="div1">
+                <head>Background</head>
+                <p>The earliest documentation of Modern Hebrew (henceforth: Hebrew) as a spoken language was in 1916 (Schmelz &amp; Bachi, 1973). Understandably, the first generation of Hebrew speakers could not have acquired an existing form of naturally spoken Hebrew, as there was none at the time (Amir et al., 2019). In fact, the early spoken language developed with only minimal official direction (Gonen, 2019). Hebrew as a native language (i.e., "mother tongue") has been spoken in Israel for approximately a century. During this time, Hebrew has developed and changed, just like any other living language. Communication studies have shown the effectiveness of exposure to authentic audiovisual programs (e.g., news, cartoons, and films) on improving the language proficiency of language learners (Bahrani &amp; Sim, 2012). In Israel, we can list few such influences: Kol Yerushalaim (<hi rend="italic">The Voice of Jerusalem</hi>), established in 1936, is the earliest public broadcasts of Hebrew and is considered as a turning point from a written language to a spoken language (Liebes &amp; Kampf, 2009). The Instructional Television Centre, launched in 1966, was a ground-breaking effort to use television as a tool to enhance language proficiency (Bahrani &amp; Sim, 2012). Two years later, the Israeli Broadcasting Authority (IBA) launched regular public transmissions.</p>
+            </div>
+            <div type="div1">
+                <head>The collection</head>
+                <p>Our project is currently in its Proof of Concept stage as we have already developed the pipeline and set of tools that are involved (Figure 1). The current database consists of ~24,000 realizations of phonemes labeled from excerpts of 10 speakers (~1 hour of speech) from the Map Task Corpus recordings (MaTaCOp, Azougi et al., 2015). Our goal is to integrate other audio and video collections from the National Library of Israel and the Israeli Broadcasting Authority (IBA). We will first focus on audio from 1948 to 1968, the 20 years before mass media (mainly IBA) began to influence the speaking style of Hebrew speakers. The ultimate goal is to create a time capsule of how Hebrew sounded over the years, from 1948 until 2022.</p>
+            </div>
+            <div type="div1">
+                <head>The method</head>
+                <p>The pipeline and set of tools are shown in Figure 1. For large-scale speech processing, we will be using automatic transcriptions of Hebrew, including time stamps and speaker indexing, utilizing one of the few engines available; e.g., Microsoft's Azure Video Analyzer for Media (VAM), an AI tool intended for developer use without requiring machine-learning expertise. We will then add to the orthographic transcriptions at the utterance level, diacritics that represent the vocalization using <hi rend="italic">nakdanlive</hi> (<ref target="https://dicta.org.il/">https://dicta.org.il/</ref>), so the Hebrew utterances are represented in vocalized Hebrew script. <hi rend="italic">Nakdanlive</hi> includes advanced algorithms for predicting the correct pronunciation of homographs. The vocalized script can be readily and accurately converted to standard phonetic transcription (called IPA), using <ref target="https://www.zemereshet.co.il/hebrewtoipa.asp">Zemereshet HebrewToIpa tool</ref>. </p>
+                <p>The next two phases in the pipeline are the new innovative tools we have developed (See blue arrows in Figure 1). As soon as we have a full phonetic transcription, we label and align three levels of linguistic units – phoneme, word, and utterance – using a modified <ref target="http://latlcui.unige.ch/phonetique/easyalign.php">EasyAlign</ref> (Goldman, 2011), a plug-in for automatic phoneme segmentation. The plug-in runs under <ref target="https://www.fon.hum.uva.nl/praat/">PRAAT</ref>, a program for acoustic analysis. Our new script that we have developed (https://github.com/evyaco/EasyAlignHebrew) is the first time Hebrew linguists can work with automatic alignment of words and phonemes. We then export each sound unit (audio and label) using the code of EasyAlignHebrew in a structured manner into the Our Voice database into the Hebrew Sounds database &lt;<ref target="https://ourvoicewebsite.com/SessionsMenu.php">https://ourvoicewebsite.com/SessionsMenu.php</ref>&gt;. The database links each sound unit to its context (words and utterances) and to its class of productions in the collections, as well as to the metadata of each speaker and source. Finally, the phonetic search engine enables users to search the database for sequences of phonemes defined by the user and export user-defined collections of sounds. </p>
+                <p>To conclude, efforts are currently being made to preserve historical and artistic literary texts. However, the voices of the people who revived the language, and even our own voices, those who use the language daily, have not yet been organized and documented in a proper catalogue of phonemes, words, and utterances. It is our mission to bring to the forefront a somewhat neglected cultural heritage unit – the spoken sounds of Hebrew.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="5.981347222222222cm" url="Pictures/39dcf13bc0c84185f6ad9883dd9d2959.png" rend="inline"/>
+                    <head>Figure 1: The design of the Hebrew sound extraction and cataloging process</head>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Amir, Noam, Cohen, Evan G.</author> / <author>Reshef, Yael</author> / <author>Gonen, Einat</author> 
+                         (2019). 
+                        “Evidence of recent sound change in modern Hebrew –a shift in vowel perception”,
+                        
+                        in: Calhoun, S. / Escudero, P. / Tabain, M. / Warren, P. (eds.):
+                        <hi rend="italic">Proceedings of the 19th International Congress of Phonetic Sciences,</hi>
+                         Canberra, Australia: Australasian Speech Science and Technology Association: 349–352.
+                    </bibl>
+                    <bibl>
+                        <author>Azougi, Jacob</author> / <author>Lerner, Anat</author> / <author>Silber-Varod, Vered</author> 
+                         (2015-2016).
+                        <hi rend="italic">The Map Task Corpus of the Open University of Israel (MaTaCOp)</hi>
+                        . DOI: 
+                        <ref target="10.13140/RG.2.2.19362.56004">10.13140/RG.2.2.19362.56004</ref>
+                         [04.04.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Bahrani, Taher</author> / <author>Sim, Tam Shu</author> 
+                         (2012). 
+                       
+                        “Audiovisual News, Cartoons, and Films as Sources of Authentic Language Input and Language Proficiency Enhancement”,
+                        in: 
+                        <hi rend="italic">Turkish Online Journal of Educational Technology-TOJET</hi>
+                        11, 4: 56–64. 
+                    </bibl>
+                    <bibl>
+                        <author>Goldman, Jean-Philippe</author>
+                        . (2011). 
+                        “EasyAlign: an automatic phonetic alignment tool under Praat”,
+                        <author> in:</author>
+                        <hi rend="italic">Proceedings of IntersSpeech</hi>
+                        , Firenze, Italy, September 2011.
+                    </bibl>
+                    <bibl>
+                        <author>Gonen, Einat</author>
+                         (2019). 
+                        “Language change, prescriptive language, and spontaneous speech in Modern Hebrew”,
+                        
+                        in:
+                        Doron, Edit / Taube, Moshe / Reshef, Yael / Rappaport Hovav, Malka. 
+                        <hi rend="italic">Language Contact, Continuity and Change in the Genesis of Modern Hebrew</hi>
+                         
+                        , John Benjamins Publishers, 201–220. DOI: 
+                        <ref target="10.1075/la.256.08gon">10.1075/la.256.08gon</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Liebes, Tamar</author> / <author>Kampf, Zohar</author> 
+                         (2009).
+                        
+                        “‘Hallo! This is Jerusalem Calling’: The Role of Kol Yerushalayim in the Revival of Spoken Hebrew (1936—1948)”,
+                        in: 
+                        <hi rend="italic">Cathedra: For the History of Eretz Israel and Its Yishuv</hi>
+                         133: 105–132 (in Hebrew). 
+                        <ref target="https://www.jstor.org/stable/23408339">https://www.jstor.org/stable/23408339</ref>
+                        [04.04.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Schmelz, Uziel O.</author> / <author>Bachi, Roberto</author> 
+                         (1973). Hebrew as the Everyday Language of the Jews in Israel. A Statistical Appraisal. 
+                        <hi rend="italic">Lĕšonénu: A Journal for the Study of the Hebrew Language and Cognate Subjects</hi>
+                         37, 1: 
+                        187
+                        –
+                        201
+                        . 
+                        <ref target="https://www.jstor.org/stable/2436663">https://www.jstor.org/stable/2436663</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

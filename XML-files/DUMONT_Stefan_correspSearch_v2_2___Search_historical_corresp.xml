@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>correspSearch v2.2 – Search historical correspondence</title>
+                <author n="DumontStefanDUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml"><persName n="DumontStefan">
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities,
+                        Germany</affiliation><email>dumont@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrabschSaschaDUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml"><persName n="GrabschSascha">
+                        <surname>Grabsch</surname>
+                        <forename>Sascha</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities,
+                        Germany</affiliation><email>grabsch@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MllerLaackmanJonasDUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml"><persName ref="https://orcid.org/0000-0003-2279-6751" n="MllerLaackmanJonas">
+                        <surname>Müller-Laackman</surname>
+                        <forename>Jonas</forename>
+                    </persName><affiliation>Staats- und Universitätsbibliothek Hamburg</affiliation><email>jonas.mueller-laackman@sub.Uni-Hamburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SanderRuthDUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml"><persName n="SanderRuth">
+                        <surname>Sander</surname>
+                        <forename>Ruth</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities,
+                        Germany</affiliation><email>ruth.sander@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>CorrespSearch is a web service, which enabels scholars to search within the metadata of diverse scholarly editions of correspondence. The web services aggregates files in the Correspondence Metadata Interchange (CMI) format. This short paper sets out to present the new software architecture and features of corresSearch v2. A brief outlook on future developments is also given.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Corrrespondence</term>
+                    <term>Aggregation</term>
+                    <term>Metadata</term>
+                    <term>TEI</term>
+                    <term>Web service</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>History</term>
+                    <term>History of science</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>2014 saw the development of the correspSearch prototype <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn1" n="1"/>: a web service that aggregates metadata of letters from scholarly editions
+                and other publication types, and presents it for subsequent reuse and research
+                (Dumont 2016). Rather than collecting the letter metadata centrally, the process
+                occurs decentralized by the various editions, projects, and institutions, who then
+                provide the data online in the Correspondence Metadata Interchange Format (CMIF)
+                (Stadler 2014; Stadler, Illetschko, and Seifert 2016; Baillot and Busch 2021,
+                182–85; Kurz 2021). The CMIF in turn was developed collaboratively as part of the
+                Special Interest Group “Correspondence” of the Text Encoding Initiative (TEI) (TEI
+                Correspondence SIG 2014; Dumont et al. 2019). Within the CMIF, people and places are
+                accompanied with URIs from authority files to ensure that these are identifiable and
+                searchable across different projects (Stadler 2012). </p>
+            <p>Funded by the Deutsche Forschungsgemeinschaft,
+                    correspSearch was rebuilt with a new software architecture over the past few
+                    years. This short paper sets out to present this new architecture and features
+                    of corresSearch v2. A brief outlook on future developments is also given.</p>
+            <p>The modules <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn2" n="2"/> that build up the version 2 of the web service have clearly distinctive
+                functions: harvesting (eXistdb-App), ingest (Python), search engine (Elasticsearch),
+                and UI (due.js). Elasticsearch in particular will prepare correspSearch for
+                exponentially increasing data sets. Version 2 of correspSearch came online in the
+                summer of 2021, offering new functionalities with it. Among these, the faceted
+                search offers multiple combinations of filters <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn3" n="3"/> and searching for people, places or date is simplified by an autocomplete. </p>
+            <p>Additionally, the aggregated data is enriched with information from authority files.
+                Every person who is identifiable via a URI from the Integrated Authority File
+                (Gemeinsame Normdatei - GND) <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn4" n="4"/> is allocated further information, both from the GND and Wikidata. This data
+                makes new filters such as gender and occupations possible. Places that are
+                identified with GeoNames-URIs <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn5" n="5"/> are enriched with geo coordinates. This is used for another search method,
+                the map-based search <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn6" n="6"/>. Here, regions can be freely drawn on the map and be combined with dates.
+                The resulting search finds letters from the specified region and time period. The
+                map search also offers the selection of predefined historical state boundaries.
+                These are supplied by HistoGIS (Andorfer et al. 2019), a web service by the Austrian
+                Academy of Sciences and Humanities. The inclusion of external data and web services
+                is conceptually intentional: correspSearch understands itself as a “lightweight
+                infrastructure” that takes care of letters - no more, no less <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn7" n="7"/>. </p>
+            <p>As previously mentioned, correspSearch depends on the metadata of scholarly editions,
+                projects, and institutions. Correspondence metadata is aggregated from a wide array
+                of disciplines, some include the humanities, philology, music, literature. This is
+                possible because correspSearch does not set any temporal, geographical or thematic
+                restrictions. To date (4.11.2022) over 180,000 edited or otherwise published letters
+                have been provided by the community and can be found in correspSearch. The number
+                continues to rise. Detailed documentation and tools aim to aid with the data
+                preparations. Alongside the classical documentation, FAQs, and written instructions,
+                correspSearch now offers two video tutorials <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn8" n="8"/> giving insight into the web service and data provision process. </p>
+            <p>The primary tool offered is the CMIF Creator. Interested parties can use the CMIF
+                Creator <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn9" n="9"/> to write TEI-XML based files, no technical prior knowledge required
+                (Müller-Laackman 2022). Additionally, further CMIF-workflows have been developed by
+                the community, for example at the Saxon Academy of Sciences and Humanities
+                (Rettinghaus 2021; Kretschmer and Scheideler 2021). Successfully created CMIF files
+                can be verified using one of two online tools: CMIF Preview <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn10" n="10"/> and CMIF Check <ref target="#DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn11" n="11"/>. CMIF Preview allows for a visual review of the CMIF file, similar to a
+                search result with an additional timeline based on the dates provided. In contrast
+                CMIF Check validates the CMIF files against a RNG-Schema and Schematron, as well as
+                testing all provided GeoNames-IDs for their correct assignment to feature classes.
+                Both testing-tools were developed based on the experiences gathered in the past nine
+                years of correspSearch and its data aggregation. Despite the standardized and
+                documented interchange format, the process is not altogether effortless and requires
+                intensive community support. From data acquisition, via conceptual discussions about
+                CMIF to the data provision: community is key to correspSearch.. </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn1">
+                    <ref target="https://correspSearch.net">https://correspSearch.net</ref>
+                </note><note n="2" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn2">
+                     See <ref target="https://github.com/correspsearch">https://github.com/correspsearch</ref> for already published modules.
+                    
+                </note><note n="3" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn3">
+                     E.g.: <ref target="https://correspsearch.net/en/search.html?s=http://d-nb.info/gnd/118554700">https://correspsearch.net/en/search.html?s=http://d-nb.info/gnd/118554700</ref>
+                </note><note n="4" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn4">
+                    <ref target="https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html">https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html</ref>
+                </note><note n="5" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn5">
+                    <ref target="https://www.geonames.org/">https://www.geonames.org/</ref>
+                </note><note n="6" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn6">
+                    <ref target="https://correspsearch.net/en/map.html">https://correspsearch.net/en/map.html</ref>
+                </note><note n="7" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn7">
+                     Cf. discussion in (Dumont 2022) 
+                </note><note n="8" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn8">
+                    <ref target="https://www.bbaw.de/mediathek/archiv-2022/introduction-to-correspsearch">https://www.bbaw.de/mediathek/archiv-2022/introduction-to-correspsearch</ref>
+                </note><note n="9" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn9">
+                    <ref target="https://correspsearch.net/en/cmif-creator.html">https://correspsearch.net/en/cmif-creator.html</ref>
+                </note><note n="10" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn10">
+                    <ref target="https://correspsearch.net/services/cmif-preview.xql?url=https://correspsearch.net/storage/forster/Band13.xml">https://correspsearch.net/services/cmif-preview.xql?url=https://correspsearch.net/storage/forster/Band13.xml</ref>
+                </note><note n="11" xml:id="DUMONT_Stefan_correspSearch_v2_2___Search_historical_corresp.xml_ftn11">
+                    <ref target="https://correspsearch.net/services/check/check.xql?url=https://correspsearch.net/storage/forster/Band13.xml">https://correspsearch.net/services/check/check.xql?url=https://correspsearch.net/storage/forster/Band13.xml</ref>
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Andorfer, Peter, Matthias Schlögel, Antonia
+                            Dückelmann, Peter Paul Marckhgott-Sanabria, and Anna Piechl.</author> 2019. <hi rend="italic">HistoGIS. A Geographical Information System, Workbench and
+                            Repository to Retrieve, Collect, Create, Enrich and Preserve Historical
+                            Temporalized Spatial Data Sets [Webservice]</hi>. Wien: Austrian Centre
+                        for Digital Humanities and Cultural Heritage / Österreichische Akademie der
+                        Wissenschaften. <ref target="https://histogis.acdh.oeaw.ac.at/">https://histogis.acdh.oeaw.ac.at/</ref>. </bibl>
+                    <bibl><author>Baillot, Anne, and Anna Busch.</author> 2021. ‘Editing for Man
+                        and Machine. Digital Scholarly Editions and Their Users’. <hi rend="italic">Variants. The Journal of the European Society for Textual
+                            Scholarship</hi>, no. 15–16 (July): 175–87. <ref target="https://doi.org/10.4000/variants.1220">https://doi.org/10.4000/variants.1220</ref>. </bibl>
+                    <bibl><author>Dumont, Stefan.</author> 2016. ‘CorrespSearch – Connecting
+                        Scholarly Editions of Letters’. <hi rend="italic">Journal of the Text
+                            Encoding Initiative</hi> 10 (December). <ref target="https://doi.org/10.4000/jtei.1742">https://doi.org/10.4000/jtei.1742</ref>. </bibl>
+                    <bibl><author>———.</author> 2022. ‘Briefeditionen vernetzen’. In <hi rend="italic">Digitale Literaturwissenschaft. Beiträge des
+                            DFG-Symposiums 2017</hi>, edited by Fotis Jannidis. Stuttgart: Metzler.
+                            <ref target="https://doi.org/10.5281/zenodo.6257224">https://doi.org/10.5281/zenodo.6257224</ref>. </bibl>
+                    <bibl><author>Dumont, Stefan, Ingo Börner, Dominik Leipold, Jonas
+                        Müller-Laackman, and Gerlinde Schneider.</author> 2019. ‘Correspondence Metadata
+                        Interchange Format’. In <hi rend="italic">Encoding Correspondence. A Manual
+                            for TEI-XML-Based Encoding of Letters and Postcards</hi>, edited by
+                        Stefan Dumont, Susanne Haaf, and Sabine Seifert. Berlin. <ref target="https://encoding-correspondence.bbaw.de/v1/CMIF.html">https://encoding-correspondence.bbaw.de/v1/CMIF.html</ref>. </bibl>
+                    <bibl><author>Kretschmer, Uwe, and Lars Scheideler. </author>2021.
+                        ‘Ba[Sic?]’. Leipzig: Sächsische Akademie der Wissenschaften. <ref target="https://github.com/saw-leipzig/basic.app">https://github.com/saw-leipzig/basic.app</ref>. </bibl>
+                    <bibl><author>Kurz, Stephan. </author>2021. ‘Correspondence Metadata
+                        Interchange Format (CMIF)’. In <hi rend="italic">KONDE Weißbuch</hi>, edited
+                        by Helmut W. Klug. Graz: Universität Graz. hdl.handle.net/11471/562.50.42 </bibl>
+                    <bibl>.</bibl>
+                    <bibl><author>Müller-Laackman, Jonas. </author>2022. ‘CMIF Creator - Creating
+                        a Digital Index of Letters’. Vue. <ref target="https://doi.org/10.5281/zenodo.4075014">https://doi.org/10.5281/zenodo.4075014</ref>. </bibl>
+                    <bibl><author>Rettinghaus, Klaus. </author>2021. ‘CSV2CMI’. Leipzig: ba[sic?]
+                        is a tool for searching, identifiing and connecting named entities with
+                        authority data. https://github.com/saw-leipzig/csv2cmi.</bibl>
+                    <bibl><author>Stadler, Peter. </author>2012. ‘Normdateien in der Edition’.
+                            <hi rend="italic">editio</hi> 26: 174–83. </bibl>
+                    <bibl><author>———. </author>2014. ‘Interoperabilität von Digitalen
+                        Briefeditionen’. In <hi rend="italic">Fontanes Briefe Ediert</hi>, edited by
+                        Hanna Delf von Wolzhagen, 278–87. Fontaneana 12. Würzburg: Königshausen
+                        &amp; Neumann. </bibl>
+                    <bibl><author>Stadler, Peter, Marcel Illetschko, and Sabine Seifert.
+                    </author>2016. ‘Towards a Model for Encoding Correspondence in the TEI: Developing
+                        and Implementing &lt;correspDesc&gt;’. <hi rend="italic">Journal of the Text
+                            Encoding Initiative [Online]</hi> 9. <ref target="https://dx.doi.org/10.4000/jtei.1742">https://dx.doi.org/10.4000/jtei.1742</ref>. </bibl>
+                    <bibl><author>TEI Correspondence SIG</author>, ed. 2014. ‘CMIF -
+                        Correspondence Metadata Interchange Format’. GitHub. <ref target="https://github.com/TEI-Correspondence-SIG/CMIF">https://github.com/TEI-Correspondence-SIG/CMIF</ref>. </bibl>
+                    <bibl>(All links accessed on 27.04.2023)</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

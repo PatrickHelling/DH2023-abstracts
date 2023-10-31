@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>iPBL – supplementing literary bibliography with internet sources. Collaborative cataloguing</title>
+                <author n="KoperBeataKOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml"><persName ref="https://orcid.org/0000-0002-6166-7971" n="KoperBeata">
+                        <surname>Koper</surname>
+                        <forename>Beata</forename>
+                    </persName><affiliation>University of Opole, Poland</affiliation><email>beata.koper@uni.opole.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RosiskiCezaryKOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml"><persName ref="https://orcid.org/0000-0002-6136-7186" n="RosiskiCezary">
+                        <surname>Rosiński</surname>
+                        <forename>Cezary</forename>
+                    </persName><affiliation>Institute of Literary Research of the Polish Academy of Sciences, Poland</affiliation><email>cezary.rosinski@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WachekBarbaraKOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml"><persName ref="https://orcid.org/0000-0002-8309-8546" n="WachekBarbara">
+                        <surname>Wachek</surname>
+                        <forename>Barbara</forename>
+                    </persName><affiliation>Institute of Literary Research of the Polish Academy of Sciences, Poland</affiliation><email>barbara.wachek@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MarylMaciejKOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml"><persName ref="https://orcid.org/0000-0002-2639-041X" n="MarylMaciej">
+                        <surname>Maryl</surname>
+                        <forename>Maciej</forename>
+                    </persName><affiliation>Institute of Literary Research of the Polish Academy of Sciences, Poland</affiliation><email>maciej.maryl@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="UmerleTomaszKOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml"><persName n="UmerleTomasz">
+                        <surname>Umerle</surname>
+                        <forename>Tomasz</forename>
+                    </persName><affiliation>Institute of Literary Research of the Polish Academy of Sciences, Poland</affiliation><email>tomasz.umerle@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster reports on the ongoing R&amp;D project iPBL aimed at expanding the source catalogue of the Polish Literary Bibliography (PBL) and supplementing it with information about online materials such as electronic literature, literary blogs, websites devoted to the Polish culture, and social media profiles.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>bibliography</term>
+                    <term>database</term>
+                    <term>digital culture</term>
+                    <term>polish culture</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This poster reports on the ongoing R&amp;D project 
+                <hi rend="italic">iPBL</hi><ref target="#KOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml_ftn1" n="1"/> aimed at expanding the source catalogue of 
+                <ref target="https://pbl.ibl.waw.pl/">Polish Literary Bibliography</ref> (PBL) and supplementing it with information about online materials such as electronic literature, literary blogs, websites devoted to the Polish culture, and social media profiles. Literary bibliographies focus mostly on printed and digitised materials (Umerle et al. 2022), thus adding online sources poses a two-fold challenge:
+            </p>
+            <list type="ordered">
+                <item><hi rend="bold">Methodological challenge - </hi>how to select and describe data on the internet culture and reconcile it with the records on print culture within the same database
+                </item>
+                <item><hi rend="bold">Technological challenge - </hi>how to obtain metadata of electronic texts and secure their accessibility for future researchers.
+                </item>
+            </list>
+            <div type="div1">
+                <head>Expanding the database</head>
+                <p>The Polish Literary Bibliography is a large database containing literature, theatre, and film information. The PBL contains approx. 880 thousand bibliographic records in a database form, and approx. 1,5 mln records in a form of scanned pages of bibliography. It covers the period from 1944 to 2012 (the database covers the years 1989-2012). The collected data includes more than 62000 authors, 12200 literary works, nearly 19000 cultural events, more than 25000 theatrical and radio plays, literary programmes and 2000 films. PBL data are aggregated with national bibliographies in a 
+                    <ref target="https://literarybibliography.eu/pl/">European Literary Bibliography</ref>.
+                </p>
+                <p>The selective and analytical bibliographic database will include approx. 150.000 records from 200 Internet sources, of which 40.000 will be enriched with autopsy descriptions, such as subject headings, genres, and annotations. The digital index will include approx. 4000 data sources. The scope of the database will cover nationwide cultural websites and services, online magazines, blogosphere, and literary works published on the Internet. The revolution we propose is to make available, for any interested party, an even more detailed database, which is highly accessible, free and compatible with international standards.</p>
+            </div>
+            <div type="div1">
+                <head>Workflow</head>
+                <p>Creating the bibliography of internet sources challenges traditional documentation practices, as the workflow for collecting, curating, and sharing data that will consider, from the very beginning, the human and non-human stakeholders. The project's workflow (Fig. 1.) consists of the following operations:</p>
+                <list type="ordered">
+                    <item><hi rend="bold">Sources selection</hi>, based on the analysis of the available sources: the National Library of Poland’s Internet Resources Database and Bibliographic Guide, the ISSN portal, and the Internet Archive.
+                    </item>
+                    <item><hi rend="bold">Automated acquisition.</hi> The information will be obtained due to dedicated scraping algorithms and then converted into the internationally approved bibliographic formats (MARC21, Bibtex, RIS); the resulting bibliographic resource will be enriched with Linked Open Data structures (references to international controlled vocabularies and authority databases, e.g. including VIAF, LCSH) and automatically classified using NLP.
+                    </item>
+                    <item><hi rend="bold">Optional manual adjustment. </hi>If the results of the automated process are unsatisfactory, the records will be subject to manual adjustment for the genre, subject heading and content annotation.
+                    </item>
+                    <item><hi rend="bold">Archiving the source in a digital repository. </hi>The sources will be automatically submitted to the Web Archive to ensure their future availability.
+                    </item>
+                    <item><hi rend="bold">Publishing metadata record in the database. </hi>Final record will be incorporated into the PBL database.
+                    </item>
+                </list>
+                <figure>
+                    <graphic n="1001" width="15.922625cm" height="11.925652777777778cm" url="Pictures/8d3815dee4d906b44ed719a03f98a1c0.png" rend="inline"/>
+                    <head><hi rend="italic">iPBL</hi> workflow for managing internet sources
+                    </head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Research potential</head>
+                <p>New internet data will enable research into Polish digital culture, and even more important, save it from oblivion. There are known cases of complete disappearance of cultural content, 20% of cited web resources become inaccessible (Klein et al.), which makes it impossible to study (Kozioł 2015; Buchwald et al. 2015; Maryl 2016). It is necessary to record data to allow any future research at all (Jones 2001) and the broaden PBL database will be the point where any academic collaboration may begin.</p>
+                <p>Digital culture is a part of the Polish cultural heritage. This heritage is largely made up of documents created in a digital form and functioning primarily on the Internet: on websites, portals, online magazines, blogosphere, and fora, as well as on websites or social profiles of institutions and people of culture. Recording data from online sources is thus a natural step in the PBL database evolution.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KOPER_Beata_iPBL___supplementing_literary_bibliography_with_.xml_ftn1">
+                     Bibliography of the Polish digital culture online with a catalogue of sources and an archive. Supplement to Polish Literary Bibliography, National Programme for Development of the Humanities, 2023-2025, grant number: NPRH/DN/SP/495736/2021/10.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Buchwald, Dorota</author> / <author>Żurawski, Mateusz</author> / <author>Dziewulska, Małgorzata</author> / <author>  Soszyński, Paweł</author> (2015) “Kolekcja teatralna: wysoka śmiertelność teatru”, in: 
+                        <hi rend="italic">Dwutygodnik.com</hi> 12 
+                        <ref target="https://www.dwutygodnik.com/artykul/2221-kolekcja-teatralna-wysoka-smiertelnosc-teatru.html">https://www.dwutygodnik.com/artykul/2221-kolekcja-teatralna-wysoka-smiertelnosc-teatru.html</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Jones, Steve</author> (2001): 
+                        <hi rend="italic">Doing Internet research: Critical issues and methods for examining the Net</hi>, Thousand Oaks: Sage Publications.
+                    </bibl>
+                    <bibl>
+                        <author>Klein, Martin</author> / <author>Sompel Van de, Herbert</author> / <author>Sanderson, Robert</author> / <author>Shankar, Harihar</author> / <author>Balakireva, Lyudmila</author> / <author>Zhou, Ke</author> / <author>Tobin, Richard</author>  (2014): “Scholarly context not found: One in five articles suffers from reference rot”, in: 
+                        <hi rend="italic">PloS one</hi> 9.
+                    </bibl>
+                    <bibl>
+                        <author>Kozioł, Paweł</author> (2015): “Lata fermentu”, in: 
+                        <hi rend="italic">Dwutygodnik.com</hi> 4 
+                        <ref target="https://www.dwutygodnik.com/artykul/5851-lata-fermentu.html">https://www.dwutygodnik.com/artykul/5851-lata-fermentu.html</ref> [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Maryl, Maciej</author> (2016): “Startup literacki. Blog a powieść w odcinkach na przykładzie pierwowzoru 
+                        <hi rend="italic">Cwaniar</hi> Sylwii Chutnik”, in: Maryl, Maciej / Dąbrówka, Andrzej / Wójtowicz, Aleksandra (eds.): 
+                        <hi rend="italic">Teksty kultury uczestnictwa</hi>, Warszawa: Instytut Badań Literackich PAN.
+                    </bibl>
+                    <bibl>
+                        <author>Umerle, Tomasz</author> / <author>Colavizza, Giovanni</author> / <author>Herden, Elżbieta</author> / <author>Jagersma, Rindert</author> / <author>Király, Péter</author> / <author>Koper, Beata</author> / <author>Lahti, Leo</author> / <author>Lindemann, David</author> / <author>Łubocki, Jakub Maciej</author> / <author>Malínek, Vojtěch</author> / <author>Milanova, Alexandra</author> / <author>Péter, Róbert</author> / <author>Rißler-Pipka, Nanette</author> / <author>Romanello, Matteo</author> / <author>Roszkowski, Marcin</author> / <author>Siwecka, Dorota</author> / <author>Tolonen, Mikko</author> / <author>Vimr, Ondřej</author>  (2022): 
+                        <hi rend="italic">An Analysis of the Current Bibliographical Data Landscape in the Humanities. A Case for the Joint Bibliodata Agendas of Public Stakeholders</hi>. Zenodo. DOI: 10.5281/zenodo.6559857.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

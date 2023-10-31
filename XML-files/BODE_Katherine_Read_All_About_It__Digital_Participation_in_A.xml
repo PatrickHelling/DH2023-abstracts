@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Read All About It: Digital Participation in Australian Literary
+                    History</title>
+                <author n="BodeKatherineBODE_Katherine_Read_All_About_It__Digital_Participation_in_A.xml"><persName n="BodeKatherine">
+                        <surname>Bode</surname>
+                        <forename>Katherine</forename>
+                    </persName><affiliation>Australian National University, Australia</affiliation><email>katherine.bode@anu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CuthbertsonGalenBODE_Katherine_Read_All_About_It__Digital_Participation_in_A.xml"><persName n="CuthbertsonGalen">
+                        <surname>Cuthbertson</surname>
+                        <forename>Galen</forename>
+                    </persName><affiliation>Australian National University, Australia</affiliation><email>galen.cuthbertson@anu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OsborneRogerBODE_Katherine_Read_All_About_It__Digital_Participation_in_A.xml"><persName n="OsborneRoger">
+                        <surname>Osborne</surname>
+                        <forename>Roger</forename>
+                    </persName><affiliation>James Cook University, Australia</affiliation><email>roger.osborne@jcu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper describes the objectives, architecture, and implications of the To Be Continued database, and the Read All About It project, to enhance and extend its crowdsourcing capacities and to explore the potential of participatory literary history as a scholarly and public practice.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>crowdsourcing</term>
+                    <term>newspaper fiction</term>
+                    <term>collaboration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>crowdsourcing</term>
+                    <term>data modeling</term>
+                    <term>Book and print history</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+            <head>1. Introduction</head>
+            <p>The <hi rend="italic">Read All About It</hi> project is a collaboration between the Australian National University, James Cook University, and the National Library of Australia (NLA), building on the <hi rend="italic">To Be Continued</hi> (<hi rend="italic">TBC</hi>) database of historical Australian newspaper fiction (Bode &amp; Hetherington 2018–). The current project has two key aims: to enhance the existing crowdsourcing and curatorial affordances of <hi rend="italic">TBC</hi>; and to facilitate and foster participatory literary
+                    history through editing and publishing practices. In this paper we describe the
+                    project’s overall objectives, the architecture of the database, the editing and
+                    publishing platform and workflow, and the affordances of this platform for
+                    literary researchers, within and outside universities. We conclude with a
+                    discussion of the practical and theoretical implications of digital
+                    participation for the construction and critique of national and transnational
+                    literary histories.</p>
+            </div>
+            <div>
+            <head>2. Project Objectives and Participatory Literary History</head>
+            <p><hi rend="italic">TBC </hi>currently exists as a server-side database, with bibliographical and textual records for over 35,000 publications of fiction in nineteenth- and twentieth-century Australian newspapers (https://cdhrdatasys.anu.edu.au/tobecontinued/). The two key strengths of <hi rend="italic">TBC </hi>are:</p>
+            <list type="ordered">
+                <item>It allows members of the public to discover, index, and correct the digital
+                    text of the bibliographical and digital record of Australian newspaper
+                    fiction;</item>
+                <item>It collaborates with the NLA to ensure that the results of crowdsourcing
+                    activities are harvested and incorporated into the library’s catalog. </item>
+            </list>
+            <p>In these ways, <hi rend="italic">TBC </hi>completes a 360 degree data cycle: documents digitized by a cultural institution become data exported and enriched by researchers and members of the public, which become records returned to that institution. </p>
+            <p>The <hi rend="italic">Read All About It</hi> project aims to improve the functionality of the <hi rend="italic">TBC </hi>database using serverless cloud architecture and modern design and development features. These improvements will: enhance searching of existing records using diverse bibliographical ‘facets’ and full-text content; and facilitate harvesting of the collection by the NLA through an open API. The process of redevelopment will also create an integrated collaborative digital editing (CDE) platform that allows users to. </p>
+            <list type="ordered">
+                <item>Collate discovered material (full stories or parts of stories) into
+                    collections;</item>
+                <item>Transform those collections into draft editions, which can be edited,
+                    annotated and corrected;</item>
+                <item>Publish stable, multiformat, platform-agnostic editions, including an option
+                    to deposit these editions into the NLA collection;</item>
+            </list>
+            <p>While the platform will allow academic and public literary historians to participate in literary history, the API will ensure that both <hi rend="italic">TBC </hi>data and functionality can be incorporated into other digital scholarly systems and tools. </p>
+            </div>
+            <div>
+            <head>3. Acyclical development of textual objects</head>
+            <p>Central to the design of <hi rend="italic">TBC</hi> as a bibliographic, curatorial, editorial, and publishing platform is the metaphor of a ‘processing pipeline’ as a directed acyclic graph. An acyclic graph never forms a closed loop. Therefore, we imagine participation in these records as a series of practices in which each development stage creates a new object, which feeds into the next development stage to create another object, without passing the new object back to the previous step. </p>
+            <figure>
+                <graphic n="1001" width="16.51cm" height="10.054166666666667cm" url="Pictures/21cc190bff999b29d2f749e308a67ccb.png" rend="inline"/>
+                
+            </figure>
+            <p>We use this acyclical structure as a practical principle for development. In its original form, the <hi rend="italic">TBC </hi>database collects individual “articles” in the NLA’s Trove database as records belonging to particular “titles,” which then become new textual objects in the NLA catalog. The CDE platform extends this process through stages of collecting, editing, publishing, and depositing, in which each creates new textual objects. </p>
+            <p>4. Implications of literary participation </p>
+            <p>In the spirit of Amanda Gailey’s vision of ‘defiant computing’, in which localized, small-scale editing projects might ‘prompt renewed attention on noncanonical, overlooked, radical histories’ (Gailey 2019), the <hi rend="italic">Read All About It</hi> project aims to provide a platform, workflow, and simple editing tools that enable academic and public literary researchers to discover and edit newspaper fiction, and produce digital editions that reiterate or remix historical publications, so an edition might be formed by combining different titles or parts of titles, and could include the editors’ own writing in their editing of past works.</p>
+            <p>Building on a model of participatory literary history that explores the relationship of contemporary reading publics to literature in the past (Potter &amp; Magner 2018), this project argues that literary history has always been and continues to be a participatory practice. The participation of editors, librarians, archivists, and literary historians has produced the textual records of literary history. Digitisation extends and transforms this process. The crowdsourcing functions of the <hi rend="italic">TBC </hi>project, combined with the anticipated use of the CDE
+                    platform, suggest ways in which digital humanists might explore and engage
+                    critically with the expressions of this historical process, and with emerging
+                    practices of participation. We are thus interested in how this participatory
+                    platform can further the work of challenging the authority of conventional
+                    narratives of Australian and transnational literary history, by drawing
+                    attention to texts and writing cultures that have escaped notice, while also
+                    empowering new modes of intervention, and new communities of involvement, in
+                    making literary history through textual production.</p>
+            <p>The architecture, workflow, and digital artifacts described in this paper draw attention to the implications of a postprint era (Hayles 2021) for digital scholarly editing, potentially contributing to the development of new public forms of creative-critical editing (Nabugodi and Ohge 2022). We suggest that the <hi rend="italic">TBC</hi> database, including the CDE platform – rather than the “enemy” of narrative, as Lev Manovich (2002: 199) famously argued – might in this way form a new ‘cognitive assemblage’ for literary history (Hayles 2021), with which to reimagine notions of authorship, agency, text and work.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bode, Katherine</author> / <author>Hetherington, Carol</author> 
+                         (2018–):
+                        <hi rend="italic">To be continued: The Australian
+                            Newspaper Fiction Database </hi>
+                        <ref target="https://cdhrdatasys.anu.edu.au/tobecontinued/">https://cdhrdatasys.anu.edu.au/tobecontinued/</ref>
+                         [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Gailey, Amanda</author>
+                         (2019): 
+                        <hi rend="italic">Defiant Computing: Editing for
+                            Social Justice</hi>
+                        , in: Modern Language Association Convention, Chicago. 
+                    </bibl>
+                    <bibl>
+                        <author>Hayles, N. Katherine</author>
+                         (2021):
+                        <hi rend="italic">Postprint: Books and Becoming
+                            Computational</hi>
+                        . New York: Columbia University Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Manovich, Lev</author>
+                         (2002):
+                        <hi rend="italic">The Language of New Media. </hi>
+                        Cambridge, Massachusetts: The MIT Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Nabugodi, Mathelinda</author> / <author>Ohge, Christopher</author> 
+                         (2022):
+                        <hi rend="italic">Provocations Toward
+                            Creative-Critical Editing</hi>
+                        , in: Textual Cultures 15, 1: 1-16.
+                    </bibl>
+                    <bibl>
+                        <author>Potter, Emily</author> / <author>Magner, Brigid</author> 
+                         (2018):
+                        <hi rend="italic">Murray-Mallee Imaginaries: Towards
+                            a Literary History of a Region</hi>
+                        , in: Journal of the Association for the Study of
+                            Australian Literature
+                        <hi rend="italic">:</hi>
+                         18, 1: 1-18.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

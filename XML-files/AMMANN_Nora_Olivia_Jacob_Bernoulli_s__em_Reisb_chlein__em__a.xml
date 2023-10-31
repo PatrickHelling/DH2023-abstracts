@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacob Bernoulli’s <hi rend="italic">Reisbüchlein</hi> an RDF-star-based
+                    Edition</title>
+                <author n="AmmannNoraOliviaAMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml"><persName n="AmmannNoraOlivia">
+                        <surname>Ammann</surname>
+                        <forename>Nora Olivia</forename>
+                    </persName><affiliation>Universität Basel, Switzerland</affiliation><email>n.ammann@stud.unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlassiSepidehAMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml"><persName ref="https://orcid.org/0000-0002-5627-9501" n="AlassiSepideh">
+                        <surname>Alassi</surname>
+                        <forename>Sepideh</forename>
+                    </persName><affiliation>Universität Basel, Switzerland</affiliation><email>sepideh.alassi@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RosenthalerLukasAMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml"><persName ref="https://orcid.org/0000-0003-1681-4036" n="RosenthalerLukas">
+                        <surname>Rosenthaler</surname>
+                        <forename>Lukas</forename>
+                    </persName><affiliation>Universität Basel, Switzerland</affiliation><email>lukas.rosenthaler@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>RDF- and SPARQL-star are the technologies best suited to create and query metadata-oriented documents such as our case study, Jacob Bernoulli’s travel journal the Reisbüchlein. Our project aims to develop a generic, research based RDF-star ontology of travel journals, in order to model the content as closely as possible while retaining universal applicability.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>diary</term>
+                    <term>history</term>
+                    <term>ontology</term>
+                    <term>LOD</term>
+                    <term>RDF-star</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>RDF-star is the technology best suited for the creation of
+                LOD-based editions of metadata-oriented documents such as travel journals.
+                Respectively, SPARQL-star is a powerful tool to query and analyze knowledge graphs
+                with respect to the stored metadata information for triples (Alassi, Rosenthaler
+                2022). We developed an RDF-star-based ontology for travel journals; as a prototype,
+                we have used Jacob Bernoulli’s travel journal Reisbüchlein. Bernoulli travelled in
+                the years 1676 to 1683 across Europe; during his journeys, he not only engaged in
+                typical activities such as sightseeing, meeting friends, and excursions but also
+                worked as a private teacher and gave lectures. He meticulously noted details about
+                his itineraries, accommodations, means of transportation, food consumption, and
+                corresponding costs in this journal. The manuscript was transcribed by a typewriter
+                in the 1950s at the University of Basel. This transcription was scanned, and text
+                files were created through Transkribus.<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn1" n="1"/> For our digital edition, we have
+                developed a research-based ontology, trip, trying to stay as close as possible to
+                the content without losing generality. This ontology extends the ontology of the
+                Bernoulli-Euler Online project, beol,<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn2" n="2"/> that is used to create a digital edition of
+                manuscripts and correspondence of members of the Bernoulli dynasty and Leonhard
+                Euler (Alassi 2020: Chapter 5). We use other existing ontologies like foaf<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn3" n="3"/> and
+                dbo<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn4" n="4"/> by making sub-classes and sub-properties.<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn5" n="5"/> To store and query the data with
+                the defined ontology, we have used GraphDB Free,<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn6" n="6"/> which supports RDF-star and
+                SPARQL-star.</p>
+            <p>Most of the information in documents such as travel
+                journals is accompanied by metadata information describing it, e.g., “Jacob
+                Bernoulli stayed at Hotel Schlüssel” would have metadata information such as the
+                cost and duration of stay which are statements about a statement. RDF-star allows
+                for triples that represent metadata about another triple by directly using this
+                other triple as its subject or object (Hartig 2017). Thus, using RDF-star, the
+                metadata information can be easily added to the predicate trip:stayedAt. These
+                triples representing the metadata information can then have further metadata
+                statements, and so on. Thus, we can have multiple levels of nested RDF-star
+                statements, which best represent the information and can be easily queried using
+                SPARQL-star.</p>
+            <p>A journey might include several stops; if a stop included
+                an overnight stay it would be a sub-journey (represented by the predicate
+                trip:hasSubJourneyTo) otherwise it is a transit (represented by the predicate
+                trip:hasTransitThrough). Bernoulli’s journey from Basel to Geneva included several
+                sub-journeys with overnight stays represented by the class trip:stay. Figure 1 shows
+                part of the RDF-star graph representing one of the sojourns en route to Geneva.  The
+                persons are represented with beol:person class (subclass of foaf:person) with GND
+                numbers<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn7" n="7"/> given with the predicate beol:hasIAFIdentifier. Each town mentioned in
+                the text is represented as trip:settlement class (subclass of dbo:settlement) with a
+                unique identifier geoname-ID.<ref target="#AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn8" n="8"/></p>
+            <div type="div1">
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.613069444444445cm" url="Pictures/8f908be29808fc48d3504c48eae6d794.png" rend="inline"/>
+                    <head>Figure 1: Sub-journey to Liestal.</head>
+                </figure>
+                <p>The sub-journey to Liestal is metadata about the main
+                    journey to Geneva, which itself has metadata information about the type of stay,
+                    which itself has metadata about the accommodation used. The currency of the cost
+                    of the accommodation is then given as the 4th level of nested RDF-star triples
+                    (Figure 2).</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="4.026958333333333cm" url="Pictures/ba6d20b47c68e9cee349488696eba52d.png" rend="inline"/>
+                    <head>Figure 2: RDF-star triple about cost of accommodation.</head>
+                </figure>
+                <p>Currencies are modeled as hierarchical RDF lists with
+                    subunits in a generic form. Figure 3 shows the query for the cost of Bernoulli’s
+                    stay at Liestal en route to Geneva. The intuitive hierarchy of the RDF-star
+                    model is reflected in the SPARQL-star query. By binding triples to variables, we
+                    can express complex query criteria in a concise way.</p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="8.170333333333334cm" url="Pictures/8b83b77f06c2e9bdbdd3cd429903597f.png" rend="inline"/>
+                    <head>Figure 3: SPARQL-star query for cost of stay at Liestal.</head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="0.9789583333333334cm" url="Pictures/6c25e931055213b09dfbc1b8a2e9b615.png" rend="inline"/>
+                    <head>Figure 4: Results of the query in Figure 3.</head>
+                </figure>
+                <p>By adding the start location of a sub-journey through
+                    the RDF-star triple trip:hasStartLocation we can represent the order of
+                    sub-journeys that later would facilitate the visualization of journeys. Figure 5
+                    shows the Basel-Geneva journey with a focus on sub-journeys. All stages of a
+                    journey can be queried as shown in Figure 6.</p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="8.030986111111112cm" url="Pictures/921eb30cc847bad8783c3b67fc006620.png" rend="inline"/>
+                    <head>Figure 5: Sub-journeys of Basel-Geneva journey. </head>
+                </figure>
+                <figure>
+                    <graphic n="1006" width="16.002cm" height="7.149041666666666cm" url="Pictures/041dca6fcbbdc58975b0294cdf64936c.png" rend="inline"/>
+                    <head>Figure 6: Query for sub-journeys enroute Geneva.</head>
+                </figure>
+                <figure>
+                    <graphic n="1007" width="16.002cm" height="7.739944444444444cm" url="Pictures/cff235cac6ddf1720d666ca90764e859.png" rend="inline"/>
+                    <head>Figure 7: Results of the query in Figure 6.</head>
+                </figure>
+                <p>Similarly, we have defined an RDF-star-based data
+                    model to represent the activities Bernoulli undertook in his journeys, transits,
+                    etc.</p>
+                <p>Representing the same information using standard RDF
+                    would have required reification and processing overhead due to the increased
+                    number of additional statements needed to identify the reference triple and
+                    would appear too verbose (Kasenchak et al. 2021). The SPARQL-star queries,
+                    despite the nested levels of RDF-star triples, have lower query time and are
+                    easier to compose compared to standard SPARQL.</p>
+                <!--
+                <p style="text-align: left; ">[1] https://readcoop.eu/transkribus/.</p>
+                <p style="text-align: left; ">[2] https://beol.staging.dasch.swiss/.</p>
+                <p style="text-align: left; ">[3] http://xmlns.com/foaf/0.1/.</p>
+                <p style="text-align: left; ">[4] https://www.dbpedia.org/resources/ontology/.</p>
+                <p style="text-align: left; ">[5] Classes and predicates from knora-base, the
+                    ontology of our API is also used regarding connections to transcriptions and
+                    facsimile.
+                    (https://ezproxy.library.und.edu/login?url=https://docs.dasch.swiss/2022.08.01/DSP-API/02-knora-ontologies/knora-base/).</p>
+                <p style="text-align: left; ">[6] https://graphdb.ontotext.com.</p>
+                <p style="text-align: left; ">[7]
+                    https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html.</p>
+                <p style="text-align: left; ">[8] http://www.geonames.org/.</p>
+                -->
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn1">https://readcoop.eu/transkribus/.</note><note n="2" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn2">https://beol.staging.dasch.swiss/.</note><note n="3" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn3">http://xmlns.com/foaf/0.1/.</note><note n="4" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn4">https://www.dbpedia.org/resources/ontology/.</note><note n="5" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn5">Classes and predicates from knora-base, the
+                    ontology of our API is also used regarding connections to transcriptions and
+                    facsimile.
+                    (https://ezproxy.library.und.edu/login?url=https://docs.dasch.swiss/2022.08.01/DSP-API/02-knora-ontologies/knora-base/).</note><note n="6" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn6">https://graphdb.ontotext.com.</note><note n="7" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn7">https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html.</note><note n="8" xml:id="AMMANN_Nora_Olivia_Jacob_Bernoulli_s__em_Reisb_chlein__em__a.xml_ftn8">http://www.geonames.org/.</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Alassi, Sepideh </author>(2020):
+                        “From the Mechanics of Jacob Bernoulli to Digital History of Science.
+                        Infrastructure, Tools, and Methods” Ph.D. thesis. University of Basel.
+                        <ref target="https://edoc.unibas.ch/81737/1/alassi_PhDThesis.pdf">https://edoc.unibas.ch/81737/1/alassi_PhDThesis.pdf</ref>
+                        [17.04.2023].</bibl>
+                    <bibl><author>Alassi, Sepideh</author> / <author>Rosenthaler, Lukas</author> (2022): “RDF-star-based Digital Edition of Travel Journals”,
+                        in: <hi rend="italic">Digital Humanities 2022: Responding to Asian
+                            Diversity</hi>, Tokyo, Japan, July 2022: 416
+                        <ref target="https://dh2022.dhii.asia/dh2022bookofabsts.pdf">https://dh2022.dhii.asia/dh2022bookofabsts.pdf</ref> [17.04.2023]. </bibl>
+                    <bibl><author>Hartig, Olaf </author>(2017): “RDF*
+                        and SPARQL*: An Alternative Approach to Annotate Statements in RDF”, in:
+                        Alberto Mendelzon Workshop on Foundations of Data Management, Montevideo,
+                        Uruguay, June 2017: <ref target="https://ceur-ws.org/Vol-1912/paper12.pdf">https://ceur-ws.org/Vol-1912/paper12.pdf</ref>
+                        [17.04.2023].</bibl>
+                    <bibl><author>Kasenchak, Bob</author> / <author>Lehnert , Aren</author> / <author>Loh , Gene</author> (2021): “Use Case: Ontologies and RDF-Star for
+                        Knowledge Management”, in: <hi rend="italic">The Semantic Web: ESWC 2021
+                            Satellite Events</hi>, Hersonissos, Greece, June 2021: 254–260
+                        <ref target="https://doi.org/10.1007/978-3-030-80418-3_38">https://doi.org/10.1007/978-3-030-80418-3_38</ref> [17.04.2023]. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

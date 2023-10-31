@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enlightenment Inflluencers: Networks of Text Reuse in 18th-century
+                    France</title>
+                <author n="RoeGlennROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml"><persName ref="https://orcid.org/0000-0002-5611-7916" n="RoeGlenn">
+                        <surname>Roe</surname>
+                        <forename>Glenn</forename>
+                    </persName><affiliation>ModERN Project, Sorbonne University, France</affiliation><email>glenn.roe@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FedchenkoValentinaROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml"><persName n="FedchenkoValentina">
+                        <surname>Fedchenko</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>ModERN Project, Sorbonne University, France</affiliation><email>valentina.fedchenko@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NicolosiDarioROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml"><persName n="NicolosiDario">
+                        <surname>Nicolosi</surname>
+                        <forename>Dario</forename>
+                    </persName><affiliation>ModERN Project, Sorbonne University, France</affiliation><email>dario.nicolosi.92@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The ERC-funded ModERN project is investigating 18th-century authorship practices using data-rich computational techniques to examine the digital archive of the Enlightenment period. This paper explores the use of new large-scale text reuse detection and network analysis to identify intertextual ‘influencers’ in a large heterogeneous collection of 18th-century French texts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>text reuse</term>
+                    <term>network analysis</term>
+                    <term>influence</term>
+                    <term>intertextuality</term>
+                    <term>enlightenment</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    <term>Philosophy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The 18th century is an important moment in the long
+                    history of authorship and authorship practices whose legacy we are only now
+                    beginning to appreciate (Cronk and Stalnaker 2012). In contradistinction to the
+                    myth of the solitary genius (Stillinger 1991), 18th-century writers adopted a
+                    wide variety of authorial strategies in the construction of their works:
+                    anonymity and pseudonymity; collaboration and compilation; citation,
+                    non-citation and mis-citation; allusion, paraphrase and pastiche, etc. (Coleman
+                    2010). The ERC-funded ModERN project aims to bring the complexities and
+                    contemporary relevance of these textual practices to light through the
+                    combination of data-rich computational techniques with traditional critical
+                    methods to examine the digital archive of the Enlightenment period. <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn1" n="1"/> Specifically, this paper explores the use of new large-scale text reuse
+                    detection and network analysis to identify intertextual ‘influencers’ in a large
+                    heterogeneous collection of 18th-century French texts. </p>
+            </div>
+            <div type="div1">
+                <head>Methodology</head>
+                <p>Overall, our aim is to trace the circulation of
+                    18th-century passages as a network, while, at the same time, identifying network
+                    ‘profiles’ that challenge traditional author-centric and/or canonical literary
+                    histories. <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn2" n="2"/> To do so, we constructed a preliminary corpus of 734 works drawn from
+                    the ARTFL-Frantext corpus of French literature and published between 1686 and
+                    1799. <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn3" n="3"/> We then used the Text-PAIR sequence alignment system to run a pair-wise
+                    comparison of each text and identify shared sequences of n-grams, in this case
+                    using trigrams (n=3) as our default lexical representation. <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn4" n="4"/> The resulting alignment database contained 4,671 pairs of likely similar
+                    passages (see Fig. 1) with their metadata, which was then extracted from
+                    Text-PAIR as a static JSON file for further analysis.  </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="5.408083333333333cm" url="Pictures/73d63275f4209cff583b22b0225d6fb5.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 1</hi>. Identified alignment of Condillac and Voltaire
+                        via Text-PAIR. </head>
+                </figure>                
+                <p>We then constructed several semi-automatic filters in
+                    an effort to reduce noisy or unwanted passages (formulaic expressions,
+                    near-duplicates, paratexts, etc.) from our alignments, and generated both
+                    filtered and unfiltered passage networks for further analysis. We turned to
+                    network analysis as a way of understanding complex systems, drawing inspiration
+                    from ‘actor-network theory’ (ANT) as a method for identifying and tracing
+                    networks of influence or ‘meditation’ (see Latour 2007 and Latour et al. 2012).
+                    We tested several network analysis and visualisation tools, including the Python
+                    libraries Networkx, <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn5" n="5"/> Pyvis, <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn6" n="6"/> and Gravis, <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn7" n="7"/> as well as the popular platform Gephi, <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn8" n="8"/> before ultimately settling on Networkx based on its capacity for easy
+                    data manipulation, graph calculations, and visualisation. Two networks were
+                    generated: one with authors as nodes, and the other based on individual works,
+                    with edges of 1,292 and 1,507 passage-pairs respectively. </p>
+            </div>
+            <div type="div1">
+                <head>Preliminary results</head>
+                <p>Our two text reuse networks were analysed using
+                    standard force-directed graph measures: degree, in-degree, out-degree, weighted
+                    node/edge betweenness, closeness and PageRank centralities. <ref target="#ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn9" n="9"/> Following Text-PAIR logic (which is based on matches from
+                    chronologically previous ‘sources’ to later ‘targets’), the first graphs were
+                    directed from nodes with quoted works or authors (sources) towards nodes
+                    containing similar passages (targets). This type of model tends to
+                    over-emphasise the importance of the target nodes in our network, i.e., those
+                    quoting rather than being quoted. We thus decided, somewhat counter-intuitively,
+                    to reverse the directionality of our graphs, rendering nodes that generate the
+                    most reuses more relevant than those that reuse others, meaning that the most
+                    quoted authors/texts should have the largest number of incoming edges.
+                    Structured in this way, the above graph centrality measures helped us define
+                    three types of author/text functions: </p>
+                <list type="ordered">
+                    <item><hi rend="italic">Authorities</hi> (high in-degree, high PageRank, low
+                        betweenness) 
+                        <p>Authors/texts that are highly cited/reused but that do
+                            not cite/reuse others. This is largely a function of chronology, as many late
+                            17th- and early 18th-century authors/texts are included in this category, e.g.,
+                            Boileau (Fig. 2), Bossuet, or Fontenelle.</p><figure>
+                            <graphic n="1002" width="10.16cm" height="7.537097222222222cm" url="Pictures/edc80dfd2954e8638576e38abf68a68a.png" rend="inline"/>
+                            <head><hi rend="italic">Figure 2</hi>. Graph measures for Boileau as an example of an
+                                <hi rend="italic">Authority</hi>. </head>
+                        </figure></item>
+                    <item><hi rend="italic">Mediators</hi> (high betweenness,  closeness, and local
+                        clustering coefficient) 
+                        <p>Authors/texts that comment, compare, or critique other
+                            sources, e.g., literary or cultural ‘critics’ such as Jean-François Marmontel,
+                            Louis-Sébastien Mercier (Fig. 3) and Philippe-Louis Gérard.</p><figure>
+                            <graphic n="1003" width="10.16cm" height="7.5776666666666666cm" url="Pictures/c11369763cb78b2a32c09deb0736dacd.png" rend="inline"/>
+                            <head><hi rend="italic">Figure 3</hi>. Graph measures for Mercier as an example of a
+                                <hi rend="italic">Mediator</hi>. </head>
+                        </figure></item>
+                    <item><hi rend="italic">Observers</hi> (low graph measures with possible average
+                        out-degree/degree)
+                        <p>Author/texts that are rarely cited/reused and that
+                            tend to belong to the periphery of the network, but that nonetheless cite/reuse
+                            others extensively. Here again chronology plays a role, with later authors such
+                            as Augustin Barruel and the Marquis de Sade belonging to this category along
+                            with more classic ‘observers’ such as the Comte de Caylus (Fig. 4).</p><figure>
+                            <graphic n="1004" width="10.16cm" height="7.537097222222222cm" url="Pictures/66f632c8a09e4e7ace70ec6dd6970e85.png" rend="inline"/>
+                            <head><hi rend="italic">Figure 4</hi>. Graph measures for Caylus as an example of an
+                                <hi rend="italic">Observer</hi>. </head>
+                        </figure></item>
+                </list>                
+            </div>
+            <div type="div1">
+                <head>Outliers</head>
+                <p>Along with these more general network profiles, we
+                    identified several outliers in the network that warranted further
+                    investigation:</p>
+                <list type="ordered">
+                    <item><hi rend="italic">Influencers</hi>: i.e., authors/texts with high values for
+                        all centrality and clustering measures. These nodes share the qualities and
+                        functions of both an <hi rend="italic">authority</hi> and a <hi rend="italic">mediator</hi>, serving as a reference for the most part of
+                        the network members and as a bridge between different literary communities.
+                        Voltaire is the most obvious <hi rend="italic">influencer</hi> in our
+                        network (Fig. 5).
+                        <figure>
+                            <graphic n="1005" width="10.16cm" height="7.537097222222222cm" url="Pictures/45f57ecea0e593f98e7c877975c1e1bf.png" rend="inline"/>
+                            <head>Figure 5. Graph measures for
+                                Voltaire as an example of an <hi rend="italic">Influencer</hi>. </head>
+                        </figure></item>
+                    <item><hi rend="italic">Noise: </hi>the combination of
+                        unproportionally high and low values can help detect problems in network and
+                        identify ‘noise’: i.e., near-duplicate texts and clusters of false-positive
+                        matches such as formulaic text that occurs across many documents but that
+                        bears no genetic relationship (paratextual elements, publishing
+                        boilerplates, <hi rend="italic">privilege du roi,</hi> etc.). Statistical
+                        methods for outlier detection can thus be combined with qualitative
+                        contextual historical analysis to identify and eliminate this ‘noise’ from
+                        our text reuse networks. For example, high measures for Antoine Galland led
+                        us to examine our corpus and identify a near-duplicate of his 1704 <hi rend="italic">Mille et une nuits</hi> published anonymously in 1716
+                        under the title <hi rend="italic">Vieilles nouvelles rajeunies</hi>, among
+                        other paratextual noise (Figs. 6 and 7).
+                        <figure>
+                            <graphic n="1006" width="10.16cm" height="7.558263888888889cm" url="Pictures/ac7d01c7e347cd1b726b0acbf837c851.png" rend="inline"/>
+                            <head><hi rend="italic">Figure 6</hi>. High PageRank and very low betweenness
+                                centrality for Galland in an unfiltered graph. </head>
+                        </figure><figure>
+                            <graphic n="1007" width="16.002cm" height="7.971013888888889cm" url="Pictures/a712a0f10ef39291df0c6d03cf672779.png" rend="inline"/>
+                            <head><hi rend="italic">Figure 7</hi>. Galland’s work “Mille et une nuits” (duplicate)
+                                as an outlier in an unfiltered graph (per work). </head>
+                        </figure></item>
+                </list>               
+            </div>
+            <div type="div1">
+                <head>Future work</head>
+                <p>As our project moves forward, the above observations
+                    will need to be projected on larger-scale text reuse networks, based on data
+                    that contains OCR errors, differing metadata schemes, and other types of
+                    ‘noise’. As we have seen, network analysis enables us to identify and reduce
+                    this noise and to classify an increased number of network members based on
+                    network profiles. Scalable networks will also be introduced using clustering
+                    techniques to extract smaller networks. This will allow us to model specific
+                    literary communities, and, by focussing on the relationships of cluster centres,
+                    to study the mechanics of information transfer within our networks.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn1">
+                        See <ref target="https://cordis.europa.eu/project/id/101043369">https://cordis.europa.eu/project/id/101043369</ref>. 
+                    </note><note n="2" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn2">
+                        Our notion of ‘network profiles’ is borrowed from
+                            (Ahnert and Ahnert 2015).
+                    </note><note n="3" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn3">
+                          Our thanks to the University of Chicago’s ARTFL
+                            Project for providing us access to this dataset. See <ref target="https://artfl-project.uchicago.edu/content/artfl-frantext">https://artfl-project.uchicago.edu/content/artfl-frantext</ref>.
+                            For the purposes of DH2023, we removed all works of theatre and
+                            correspondences, which tended to generate an inordinate amount of
+                            false-positive alignments. 
+                    </note><note n="4" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn4">
+                         On Text-PAIR, see <ref target="https://github.com/ARTFL-Project/text-pair">https://github.com/ARTFL-Project/text-pair</ref>, and, more
+                            specifically, (Olsen et al. 2011; Roe 2012). Our choice of matching
+                            parameters was based on past experience using Text-PAIR, with flexible
+                            trigrams representing the best trade-off between signal and noise. 
+                    </note><note n="5" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn5">
+                        https://networkx.org/.
+                    </note><note n="6" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn6">
+                        <ref target="https://pyvis.readthedocs.io/en/latest/">https://pyvis.readthedocs.io/en/latest/</ref>. 
+                    </note><note n="7" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn7">
+                        <ref target="https://robert-haas.github.io/gravis-docs/">https://robert-haas.github.io/gravis-docs/</ref>. 
+                    </note><note n="8" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn8">
+                        <ref target="https://gephi.org/">https://gephi.org/</ref>. 
+                    </note><note n="9" xml:id="ROE_Glenn_Enlightenment_Inflluencers__Networks_of_Text_Reuse.xml_ftn9">
+                        For an excellent synthesis of network analysis
+                            techniques for humanities research, see Ahnert et al. 2020.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ahnert, Ruth</author> / <author>Ahnert, Sebastian E.</author>  (2015). “Protestant
+                        Letter Networks in the Reign of Mary I: A Quantitative Approach”, in <hi rend="italic">ELH</hi> 82, 1: 1–34. DOI:10.1353/elh.2015.0000. </bibl>
+                    <bibl>
+                        <author>Ahnert, Ruth</author> / <author>Ahnert, Sebastian</author> / <author>Coleman, Catherine N.</author> / <author>Weingart, Scott</author>  (2020). <hi rend="italic">The Network Turn:
+                            Changing perspectives in the Humanities</hi>. Cambridge: Cambridge
+                        University Press. </bibl>
+                    <bibl>
+                        <author>Coleman, Patrick</author> (2010). <hi rend="italic">Anger,
+                            Gratitude, and the Enlightenment Writer</hi>. Oxford: Oxford University
+                        Press. </bibl>
+                    <bibl>
+                        <author>Cronk, Nicholas</author> / <author>Stalnaker, Joanna</author>  (2012). “Eighteenth
+                        Century Authorship”, special issue of <hi rend="italic">Romanic Review</hi>
+                        103, 3-4. </bibl>
+                    <bibl>
+                        <author>Latour, Bruno</author> (2007). <hi rend="italic">Reassembling
+                            the Social: An Introduction to Actor-Network-Theory</hi>. Oxford: Oxford
+                        University Press. </bibl>
+                    <bibl>
+                        <author>Latour, Bruno</author> / <author>Jensen, Pablo</author> / <author>Venturini, Tommaso</author> / <author>Grauwin, Sébastien</author> / <author>Boullier, Dominique</author>  (2012), “The whole is
+                        always smaller than its parts”, in <hi rend="italic">The British Journal of
+                            Sociology</hi> 63: 590-615. </bibl>
+                    <bibl>
+                        <author>Olsen, Mark</author> / <author>Horton, Russell</author> / <author>Roe, Glenn</author>  (2011).
+                        “Something Borrowed: Sequence Alignment and the Identification of Similar
+                        Passages in Large Text Collections”, in <hi rend="italic">Digital Studies /
+                            Le Champ numérique</hi> 2, 1. </bibl>
+                    <bibl>
+                        <author>Roe, Glenn</author> (2012). “Intertextuality and Influence in
+                        the Age of Enlightenment: Sequence Alignment Applications for Humanities
+                        Research”, in <hi rend="italic">Digital Humanities 2012</hi>: 345-47. </bibl>
+                    <bibl>
+                        <author>Stillinger, Jack</author> (1991). <hi rend="italic">Multiple
+                            Authorship and the Myth of Solitary Geniu</hi>s. Oxford: Oxford
+                        University Press. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

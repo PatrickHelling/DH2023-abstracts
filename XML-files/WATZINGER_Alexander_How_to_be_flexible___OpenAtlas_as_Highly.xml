@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>How to be flexible - OpenAtlas as Highly Adaptable Database
+                        Software in the Scope of Digital Humanities </title>
+                <author n="WatzingerAlexanderWATZINGER_Alexander_How_to_be_flexible___OpenAtlas_as_Highly.xml"><persName ref="https://orcid.org/0000-0003-2576-2266" n="WatzingerAlexander">
+                        <surname>Watzinger</surname>
+                        <forename>Alexander</forename>
+                    </persName><affiliation>ÖAW, Austria</affiliation><email>alexander.watzinger@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoschiekKrombholzBernhardWATZINGER_Alexander_How_to_be_flexible___OpenAtlas_as_Highly.xml"><persName ref="https://orcid.org/0000-0001-7608-7446" n="KoschiekKrombholzBernhard">
+                        <surname>Koschiček-Krombholz</surname>
+                        <forename>Bernhard</forename>
+                    </persName><affiliation>ÖAW, Austria</affiliation><email>Bernhard.Koschicek-Krombholz@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OlschnggerAndreasWATZINGER_Alexander_How_to_be_flexible___OpenAtlas_as_Highly.xml"><persName n="OlschnggerAndreas">
+                        <surname>Olschnögger</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>ÖAW, Austria</affiliation><email>Andreas.Olschnoegger@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HoffmannChristophWATZINGER_Alexander_How_to_be_flexible___OpenAtlas_as_Highly.xml"><persName n="HoffmannChristoph">
+                        <surname>Hoffmann</surname>
+                        <forename>Christoph</forename>
+                    </persName><affiliation>ÖAW, Austria</affiliation><email>Christoph.Hoffmann@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrofurtnerMoritzWATZINGER_Alexander_How_to_be_flexible___OpenAtlas_as_Highly.xml"><persName n="GrofurtnerMoritz">
+                        <surname>Großfurtner</surname>
+                        <forename>Moritz</forename>
+                    </persName><affiliation>ÖAW, Austria</affiliation><email>Moritz.Grossfurtner@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>OpenAtlas (https://openatlas.eu/) is an open source database software used to acquire, edit, and manage research data from various fields of humanities. By using OpenAtlas, information entered is mapped to CIDOC CRM in the background. Types can be added dynamically and make OpenAtlas usable for different projects.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>CIDOC CRM</term>
+                    <term>open source</term>
+                    <term>digital humanities</term>
+                    <term>interdisciplinary</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Anthropology</term>
+                    <term>Archaeology</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head/>
+                <p>OpenAtlas ( <ref target="https://openatlas.eu/">https://openatlas.eu/</ref>), developed mainly at the
+                    Austrian Center of Digital Humanities and Cultural Heritage (ACDH-CH) of the
+                    Austrian Academy of Sciences (ÖAW), is an open source database software ( <ref target="https://github.com/craws/OpenAtlas">https://github.com/craws/OpenAtlas</ref>). </p>
+                <p>It is used to acquire, edit, and manage research data from various fields of
+                    humanities as well as related scientific data such as results of radiocarbon
+                    dating or isotopic analyzes. By using OpenAtlas, information entered into the
+                    user interface is mapped to CIDOC CRM version 7.1.1 ( <ref target="https://cidoc-crm.org/">https://cidoc-crm.org/</ref>) in the background, so users do not have
+                    to get familiar with ontologies and their rules. Furthermore, OpenAtlas takes
+                    care of today's requirements regarding data standards, data management and aims
+                    for FAIR principles ( <ref target="https://www.go-fair.org/fair-principles/">https://www.go-fair.org/fair-principles/</ref>)
+                    and the creation of Linked Open Data. The integrated map application allows for
+                    an easy acquisition of geographic data and subsequently the creation of cemetery
+                    plots and distribution maps. </p>
+                <p>The user interface - accessible via any common web browser - is highly adaptable
+                    to each project’s research questions and needs by using so-called “types”. Types
+                    classify and describe entities through a terminological hierarchy, and are
+                    subdivided into:</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Standard types</hi> - Only one standard type as single
+                        choice per entity; they uniquely characterise an entity </item>
+                    <item><hi rend="bold">Custom types</hi> - Multiple custom types as single or
+                        multiple choice per entity; they describe an entity as comprehensively as
+                        possible and provide further information </item>
+                    <item><hi rend="bold">Value types</hi> - Used to track dimensions such as height,
+                        weight, or material composition but can also be used to e.g. describe
+                        temperature with degree </item>
+                    <item><p><hi rend="bold">System types</hi> - These types can’t be changed and are
+                            used to e.g. describe the precision of links to external reference
+                            systems </p></item>
+                </list>
+                <p>Types can be added dynamically in forms and therefore make OpenAtlas usable for
+                    many different projects concerned with various research fields within the scope
+                    of humanities. The use of types supports standardised data entry, even across
+                    multiple different projects, into OpenAtlas which results in structured
+                    information for further research, e.g. social network analysis, or applications
+                    using OpenAtlas as backend, e.g. presentation sites.</p>
+                <p>A well-thought-out system of types and subtypes can subsequently be published as
+                    a project's own vocabulary, as demonstrated by THANADOS ( <ref target="https://thanados.net/vocabulary/">https://thanados.net/vocabulary/</ref>) - a collaborative project of
+                    OpenAtlas. </p>
+                <p><figure>
+                        <graphic url="Pictures/075f31d18f745e91ab35637586a69ce9.png"/>
+                        <head>Fig. 01: THANADOS vocabulary based off of the types used by the project within
+                    their OpenAtlas instance.</head>
+                    </figure></p>
+                <p>Each type, as well as other entities, can be linked to gazetteers and controlled
+                    vocabularies - freely chosen by the collaborating project - to unambiguously
+                    define them and create Linked Open Data. OpenAtlas already provides linking to
+                    Wikidata and GeoNames out of the box while making use of their APIs, e.g. to
+                    search and add their identifiers via the OpenAtlas user interface. Furthermore,
+                    additional external reference systems - digital or analog – can be added by each
+                    of the projects using the database system.</p>
+                <p>Data created within the OpenAtlas system can further be used to create
+                    presentation sites for state-of-the-art dissemination (compare for example <ref target="https://thanados.net/">https://thanados.net</ref>). </p>
+                <p>By following the CIDOC CRM format and making the whole application as well as
+                    data Open Access and Open Source, OpenAtlas aids in creating an open workflow
+                    that is easily comprehensible and reproducible. This enables adaptation and
+                    expansion when building upon existing projects, as well as new projects.</p>
+            </div>
+        </body>
+    </text></TEI>

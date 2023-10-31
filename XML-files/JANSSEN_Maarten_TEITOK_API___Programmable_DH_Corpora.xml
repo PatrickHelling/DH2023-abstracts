@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>TEITOK API - Programmable DH Corpora</title>
+                <author n="JanssenMaartenJANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml"><persName ref="https://orcid.org/0000-0003-0272-6318" n="JanssenMaarten">
+                        <surname>Janssen</surname>
+                        <forename>Maarten</forename>
+                    </persName><affiliation>Charles University, Faculty of Mathematics and Physics, Czech
+                        Republic</affiliation><email>janssen@ufal.mff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The TEITOK REST API lets you interact with your corpus remotely - to upload documents in various formats - automatically converted to TEI/XML; to render search results; to run an NLP pipeline on the server; or download the content of corpus document, treat that content locally with local NLP tools or manual annotation tools, and then upload the results back to the server, where the new or corrected annotations will be incorporated into the original TEI/XML document without destroying any of the potentially complex annotations already in the document.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Programmable Corpora</term>
+                    <term>TEI/XML</term>
+                    <term>Document Enhancement</term>
+                    <term>Natural Language Processing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Many (text) documents in DH projects contain more than just text: they contain added
+                and deleted elements, changes of hands, links to facsimile images or sound data,
+                footnotes, corrections, unclear passages, etc. This is why the TEITOK corpus
+                environment (Janssen 2016) does not start from plain text, but rather from TEI/XML
+                documents - the most well established format within DH, which offers solutions for
+                all the above types of data. TEITOK is an open source platform that lets people
+                collaboratively create, enhance, and annotate TEI/XML documents online, and end up
+                with a searchable, integrated, annotated corpus. It has been used in a wide arrange
+                of different types of corpora <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn1" n="1"/>, in very diverse projects. </p>
+            <p>TEITOK was conceived to work on one document at a time, with integrated NLP solutions
+                running on the server. However, in larger projects and infrastructures like LINDAT,
+                more automatic interaction and flexibility is often required, which is why we
+                developed an API. The TEITOK REST API lets you interact with your corpus remotely -
+                to upload documents in various formats - automatically converted to TEI/XML; to
+                render search results; to run an NLP pipeline on the server; or download the content
+                of a corpus document, treat that content locally with NLP or manual annotation
+                tools, and then upload the results back to the server, where the new or corrected
+                annotations will be incorporated into the original TEI/XML document without
+                destroying any of the potentially complex annotations already in the document. A
+                description of the API is provided here: http://teitok.org/api.html</p>
+            <p>Since information can be both extracted and added, the TEITOK API turns TEITOK
+                corpora into programmable corpora, not only in the sense used for instance in the
+                Dracor corpus (Fischer, Frank, et al. 2019) that data can be extracted from the
+                corpus in a programmable fashion, but also in a more extended sense in which the
+                annotation of the corpus itself can be performed in a programmable fashion. How this
+                works in practice is best explained by example. </p>
+            <p>Say we want to build a multimedia corpus of video interviews, where the initial
+                transcription was done using subtitle tools, taken for example from
+                linguisticteam.org <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn2" n="2"/>, where they are stored in the subtitle format (SRT). The API allows you to
+                upload this SRT file to the server, where it will be converted to TEI/XML <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn3" n="3"/>. And the TEITOK interface then provides an interface to view the data in a
+                video-oriented manner, as shown in figure 1 <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn4" n="4"/>. </p>
+            <figure>
+                <graphic n="1001" width="15.92cm" height="9.489722222222222cm" url="Pictures/d3d94f2e99e6aff566333b24870e2745.png" rend="inline"/>
+                <head>Figure 1. TEITOK interface for multimedia corpora</head>
+            </figure>
+            <p>To enhance usability, we want to add additional annotations, like POS tags,
+                dependency parses, named entities, etc. But not many NLP tools will be able to
+                process TEI/XML data, let alone while preserving aligned video. The API solves this
+                by letting you interact with the TEI in formats that are used in NLP workflows. You
+                can for instance download the content in CoNLL-U, parse it using SpaCy <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn5" n="5"/>, upload the data back, then download the data again in CAS <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn6" n="6"/>, manually provide named entities using INCEpTION <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn7" n="7"/>, and then upload again. Both uploads will incorporate the new information
+                that was added locally into the existing TEI/XML file, while not breaking the video
+                alignment. This way we end up with a TEI/XML file created from an SRT file, that is
+                both time-aligned to the video and linguistically annotated. </p>
+            <p>A similar workflow can be used to start from a manuscript, use handwritten text
+                recognition (HTR) tools like Transkribus <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn8" n="8"/> to get a corpus that is word-aligned to the images (which can be exploited
+                in various ways in TEITOK), and then run text normalisation tools to normalise the
+                orthography (added non-destructively), followed by running NLP tools over the
+                normalised text. Or it can be used to automatically enhance metadata with local
+                scripts, for instance to convert textual date descriptions in the teiHeader into an
+                ISO date format, or to enrich place names with geolocation data. Or it can be used
+                to create an automatic transcription using of a sound file using text-to-speech
+                (TTS), linguistically annotate in TEITOK, and then download the result in EXMARALDA
+                    <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn9" n="9"/> or Praat <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn10" n="10"/> with tiers for the NLP annotations, to use elsewhere in sound-centred
+                linguistic tools. </p>
+            <p>The TEITOK API thus makes it possible to combine different annotation tools on a
+                single corpus, using the best tool and format for each separate aspect of the
+                annotation. And then combine the result of these tools in a single TEI/XML based
+                corpus that can be exploited in a number of different ways in TEITOK or elsewhere.
+                Extracting only the relevant part of the content for each step makes for a more
+                lightweight set-up than a traditional single-format workflow like WebLicht <ref target="#JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn11" n="11"/>, where all the information has to be passed along in each step. </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn1">
+                     http://teitok.org/projects.html
+                </note><note n="2" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn2">
+                    https://files.linguisticteam.org/
+                </note><note n="3" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn3">
+                    The SRT could also be converted locally to TEI
+                            first if the TEITOK conversion is undesirable
+                </note><note n="4" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn4">
+                    https://quest.ms.mff.cuni.cz/teitok-dev/teitok/videotest/index.php?action=file&amp;id=Peter_Joseph_on_RT.xml
+                </note><note n="5" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn5">
+                     https://spacy.io/
+                </note><note n="6" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn6">
+                     ​​https://uima.apache.org/d/uimaj-current/apidocs/org/apache/uima/cas/CAS.html
+                </note><note n="7" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn7">
+                     https://inception-project.github.io/
+                </note><note n="8" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn8">
+                     https://readcoop.eu/transkribus/
+                </note><note n="9" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn9">
+                     https://exmaralda.org/en/
+                </note><note n="10" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn10">
+                     https://www.fon.hum.uva.nl/praat/
+                </note><note n="11" xml:id="JANSSEN_Maarten_TEITOK_API___Programmable_DH_Corpora.xml_ftn11">
+                     https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/Main_Page
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Fischer, Frank, et al.</author> (2019): Programmable Corpora:
+                        Introducing DraCor, an Infrastructure for the Research on European Drama. In
+                        Proceedings of DH2019: "Complexities", Utrecht University.</bibl>
+                    <bibl><author>Janssen, M.</author> (2016): TEITOK: Text-Faithful Annotated
+                        Corpora. Proceedings of the Tenth International Conference on Language
+                        Resources and Evaluation (LREC 2016), Portorož, Slovenia.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

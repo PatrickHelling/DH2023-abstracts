@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>African Californios: Uncovering the African past of Spanish and Mexican
+                    California using Data Science Methods</title>
+                <author n="JonesCameronKHOSMOOD_Foaad_African_Californios__Uncovering_the_African_p.xml"><persName n="JonesCameron">
+                        <surname>Jones</surname>
+                        <forename>Cameron</forename>
+                    </persName><affiliation>California Polytechnic State University, United States of
+                        America</affiliation><email>cjones81@calpoly.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WitulskiEvanKHOSMOOD_Foaad_African_Californios__Uncovering_the_African_p.xml"><persName n="WitulskiEvan">
+                        <surname>Witulski</surname>
+                        <forename>Evan</forename>
+                    </persName><affiliation>California Polytechnic State University, United States of
+                        America</affiliation><email>ewitulsk@calpoly.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KhosmoodFoaadKHOSMOOD_Foaad_African_Californios__Uncovering_the_African_p.xml"><persName ref="https://orcid.org/0000-0003-2531-6610" n="KhosmoodFoaad">
+                        <surname>Khosmood</surname>
+                        <forename>Foaad</forename>
+                    </persName><affiliation>California Polytechnic State University, United States of
+                        America</affiliation><email>foaad@calpoly.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We use data science methods to examine Colonial Spanish records to analyze the extent of the presence of Afro-descendants in early California. This has been difficult to examine because most Californians of African descent elided their origins in sacramental church records referring to themselves as “gente de razón” or people of reason.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>African Californios</term>
+                    <term>California Missions</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>ethnographic analysis</term>
+                    <term>natural language processing</term>
+                    <term>African and African American Studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>Scholars and the public readily accept that
+                    Afro-descendants populated Spanish and Mexican California, though little work
+                    has been done on the topic. Often cited is the 1790 census of California’s four
+                    presidios, San Diego, Santa Barbara, Monterey, and San Francisco, and its two
+                    struggling towns, San Jose and Los Angeles, which identifies roughly 19% of
+                    their populations as being of African descent. The extent of the impact of
+                    Afro-descendants in early California, however, has been little understood and
+                    underexamined. This is because most Californians of African descent elided their
+                    origins in sacramental church records referring to themselves as “gente de
+                    razón” or people of reason. This ethnic designation was prevalent among frontier
+                    areas in Northern Mexico (now the U.S. Southwest) such as California and
+                    generally referred to those persons who lived in or near the missions, spoke
+                    Spanish, and acknowledged Catholicism, but were not under the control of the
+                    missionaries. For Afro-descendants the ability to alter their race was an
+                    opportunity to raise their social position under the anonymity that distance
+                    from the centers of political power provided. They hoped that the Crown’s desire
+                    for Hispanicized settlers could overcome their perceived inferior origin that
+                    elsewhere barred them from entering the higher echelons of society. Anecdotal
+                    evidence suggests that Afro-descendant populations were much larger and
+                    prevalent than reflected in church records. This presentation therefore aims to
+                    show how African and Afro-descendant presence in early Spanish and Mexican
+                    California can be reconstructed utilizing data science techniques.</p>
+            </div>
+            <div type="div1">
+                <head>Data</head>
+                <p>There are two principal sources of data we are using.
+                    The first is the California Census of 1790. This census was carried out by the
+                    Spanish government, which essentially at this point is just the military, and
+                    contains about a thousand names of the first settler-colonists to California.
+                    The census does contain race and thus has long been the only point of data for
+                    the racial of California. To hance this understanding we will be combining this
+                    information with the much larger Early California Populations Project (ECPP)
+                    database. The ECPP contains sacramental records for most of the 21 Spanish
+                    California missions as well as for the city of Los Angeles and Santa Barbara’s
+                    presidio from 1769 to 1850. These records represent the performance of some
+                    104,000 baptisms, 28,000 marriages, and 71,000 burials. These records have
+                    served as the most definitive source on early Californian populations since they
+                    were published on the Huntington Library website in 2006.</p>
+                <figure>
+                    <graphic n="1001" width="14.444275cm" height="8.092558333333333cm" url="Pictures/e45c6a2a65cff1be82cf48a65aac3524.jpeg" rend="inline"/>
+                    <head>Figure 1. Pío Pico, his wife María Ignacia
+                    Alverado, and two nieces, Maraneto Alvarado and Trinidad de la Guerra</head>
+                </figure>
+                <p>Yet, these records critically lack racial identities
+                    since most records merely designate individuals as either indigenous or
+                    non-indigenous. Only by combining the information from other sources and
+                    aggregating them into a larger database can a clear understanding of the African
+                    presence be made manifest.</p>
+            </div>
+            <div type="div1">
+                <head>Methodology</head>
+                <p>The first step in analyzing this data is aggregating
+                    it. Google Colab cloud computing platform was used for all programming. The ECPP
+                    is split into three sets of records: baptisms, marriages, and death. Each set of
+                    records contains information regarding the individual in question, as well as
+                    some auxiliary information about that person. A Person data structure was
+                    created to capture all relevant known information about a single individual from
+                    any of the data sources. As each record is read in, a new Person data structure
+                    is created and added to our dataset. Part of the information regarding this
+                    person is their parents and children, so as these new people are encountered a
+                    new Person data structure is created and linked to that of the previous. Joining
+                    the ECPP is fairly simple as each person has the mission in which they were
+                    baptized, as well as their baptismal number. However, this is not the case when
+                    joining the ECPP with the 1790 California Census. Doing this required the
+                    creation of a matching algorithm that assigns each census person to their ECPP
+                    counterpart using multiple criteria such as name, year and family members. A
+                    fuzzy string matching Python library called TheFuzz was used to help determine
+                    if two names should be considered the same one with slight spelling differences.
+                    Once data is joined the final step is to traverse the family trees and trace the
+                    lineage of persons through all known records. </p>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <p>Based on an analysis of census and sacramental church
+                    records, we normalize names and identify distinct individuals and family trees.
+                    Of those we identify three generations of individuals whom we determine to be of
+                    African descent, based on a fairly strict and a more permissive criteria which
+                    we postulate would be close to an estimate for the upper and lower bounds of the
+                    population. In addition, we conducted a geographical analysis of all census and
+                    birth/death/marriage records filed at California missions.</p>
+                <table xml:id="d159e213">
+                    <head>Table 1: Presence of Afro-descendants within records</head>
+                    <row>
+                        <cell>Generation</cell>
+                        <cell>Dates</cell>
+                        <cell>
+                            <p>Individuals </p>
+                            <p><hi rend="bold">(lower bound)</hi></p>
+                        </cell>
+                        <cell>
+                            <p>Individuals </p>
+                            <p><hi rend="bold">(upper bound)</hi></p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Initial
+                            Afro-descendants </cell>
+                        <cell>1790</cell>
+                        <cell>114</cell>
+                        <cell>183</cell>
+                    </row>
+                    <row>
+                        <cell>Generation 0</cell>
+                        <cell>1790</cell>
+                        <cell>210</cell>
+                        <cell>232</cell>
+                    </row>
+                    <row>
+                        <cell>Generation 1</cell>
+                        <cell>1797-1848</cell>
+                        <cell>355</cell>
+                        <cell>355</cell>
+                    </row>
+                    <row>
+                        <cell>Generation 2</cell>
+                        <cell>1813-1850</cell>
+                        <cell>18</cell>
+                        <cell>18</cell>
+                    </row>
+                </table>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="8.79475cm" url="Pictures/748179f5541b9899b6d2b861fada5436.png" rend="inline"/>
+                    <head>Figure 2. Heat map of African Californio presence based on strict (left)
+                        or permissive (right) criteria</head>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Hackel, Steven W.</author> / <author>Anne M. Reid</author>  / et al. (2006): Early California Population Project: Version
+                        1, The Henry E. Huntington Library, San Marino, California.</bibl>
+                    <bibl><author>Mason, William Marvin
+                        </author>(1998): The Censes of 1790: A Demographic History of Colonial
+                        California. Ballena Press.</bibl>
+                    <bibl><author>Salomon, Carlos Manuel
+                        </author>(2014): Pío Pico: The Last Governor of Mexican California. University
+                        of Oklahoma Press.</bibl>
+                    <bibl><author>Vinson III, Ben </author>(2018):
+                        Before Mestizaje: The Frontiers of Caste in Colonial Mexico. Cambridge
+                        University Press.</bibl>
+                    <bibl><author>Wheeler, B. Gordon </author>(1993):
+                        Black California: The History of African-Americans in the Golden State.
+                        Hippocrene Books.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

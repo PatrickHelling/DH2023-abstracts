@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Uncovering Principles of Sustainability in Literature</title>
+                <author n="SchumacherMareikeKatharinaSCHUMACHER_Mareike_Katharina_Uncovering_Principles_of_Sustai.xml"><persName ref="https://orcid.org/0000-0002-7952-4194" n="SchumacherMareikeKatharina">
+                        <surname>Schumacher</surname>
+                        <forename>Mareike Katharina</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>schumacher@linglit.tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GiusEvelynSCHUMACHER_Mareike_Katharina_Uncovering_Principles_of_Sustai.xml"><persName ref="https://orcid.org/0000-0001-8888-8419" n="GiusEvelyn">
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>Evelyn.gius@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this study, we are looking for early mentions of basic principles of sustainability in literary texts using machine learning. With a trained CRF-classifier we automatically annotated a corpus of about 70 novels from German romanticism and singled out passages with a high frequency of annotations, which we analysed in terms of a concept of sustainability. We thus test whether the application of machine learning used to operationalise high-frequency phenomena can also help uncover less frequent and highly interpretive aspects of narrative texts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sustainability</term>
+                    <term>Computational Literary Studies</term>
+                    <term>Romanticism</term>
+                    <term>Machine Learning</term>
+                    <term>Annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>eco-criticism and environmental analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    <term>Environmental</term>
+                    <term>ocean</term>
+                    <term>and waterway studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The climate crisis and the potential way out of it through sustainability has been an
+                important discourse in the last few years. In 1987 the Brundtland commission stated
+                that “[s]ustainable development is a development that meets the needs of the present
+                without compromising the ability of future generations to meet their own needs.”
+                (cf. Brundtland 1987, 41) However first ideas of using nature in a sustainable way
+                date back to 1713 when German forester Hannß Carl von Carlowitz wrote in
+                Sylvicultura oeconomica that the forest should be used in a sustainable, i.e.
+                renewable way (von Carlowitz 1713: 105). Our main interest lies in an (upcoming)
+                cultural anchorage of principles of sustainability. Thus, in this study, we are
+                looking for early mentions of basic principles of sustainability in literary texts
+                using machine learning. We trained a conditional random fields classifier
+                (CRF-classifier) to automatically detect, classify and annotate mentions of nature
+                and nature-related phenomena in narratives (we used the StanfordNER implementation
+                by Finkel et al.). Using this CRF-classifier we annotated a corpus of about 70
+                novels from German romanticism <ref target="#SCHUMACHER_Mareike_Katharina_Uncovering_Principles_of_Sustai.xml_ftn1" n="1"/>. We chose romanticism as an epoch that a) temporarily closely followed the
+                work of Carlowitz and b) is known to use references to nature in a high frequency
+                (cf. e.g. Bühler 2016, 85, Ulshöfer 2010, Wanning 2005, Kremer 2003, Langer et al.
+                2021). We then analysed passages with frequent references to nature in order to find
+                hints on ideas of sustainability. We thus test whether the application of machine
+                learning used to operationalise high-frequency phenomena can also help uncover less
+                frequent and highly interpretive aspects of narrative texts. </p>
+            <div type="div1">
+                <head>Sustainability and Literary Studies</head>
+                <p>With Ecocriticism (cf. e.g. Bühler 2016, Dürbeck and Stobbe 2015) and
+                    econarratology (James 2015 and 2020) in literary studies there already has been
+                    substantial work on descriptions and narrations of nature. As Bühler (2016)
+                    shows this field of research has analysed representations of the interplay
+                    between humanity and nature in various forms and on various research objects.
+                    Recent computational approaches focus on biodiversity (Langer et al. 2021 and
+                    2022) and the potential agency of nature in narratives (Gius and Uglanova
+                    forthcoming). However, the environmental science concept of sustainability has
+                    not yet been analysed in Computational Literary Studies. In our study we take
+                    the first step in this direction, concentrating on two fundamental principles of
+                    sustainability: </p>
+                <p>1. the aforementioned renewability brought up by Carlowitz (2000 [1713]) and </p>
+                <p>2. intergenerational equity which has been most prominently discussed by the
+                    World Commission on Environment and Development (Brundtland 1987). </p>
+            </div>
+            <div type="div1">
+                <head>Narrating Nature</head>
+                <p>In order to single out literary texts dealing with ideas of sustainability we
+                    first concentrate on descriptions of nature. To automate the annotation of
+                    references to nature in literary texts, we developed a category system in a
+                    bottom-up approach by annotating test texts. We thus came up with the seven
+                    categories habitat, living nature, non-living nature, cultivated nature,
+                    industrialised nature, weather, and natural catastrophes.</p>
+                <p>We trained the CRF-classifier for these categories using an annotated training
+                    corpus consisting of the first 10.000-token passages from 15 sample texts that
+                    were made out to be especially rich in referencing nature by preceding research
+                    (cf. Gius and Uglanova forthcoming). We then tested the CRF-classifier on
+                    20.000-token initial passages taken from two texts. Overall, the CRF-classifier
+                    reaches an accuracy of 0.69 (F1-Score). Using this CRF-classifier we
+                    automatically annotated our corpus of about 70 romantic novels. Afterwards, we
+                    analysed passages with a high density of references to nature annotated by the
+                    CRF-classifier in order to find mentions of ideas of sustainability. </p>
+                <p>In our corpus mentions of habitats are most frequent. The most common habitats
+                    are the world, the sky, the earth, nature, the countryside, and the area. The
+                    second most frequent category is the one of non-living nature containing e.g.
+                    mentions of plants or stones. Animals as a form of living nature are reaching
+                    the third highest frequency in the corpus. Relevant in this context is also that
+                    habitats as a mostly untouched form of nature are much more frequently mentioned
+                    than cultivated nature such as gardens or fields. One passage that shows traits
+                    of the idea of renewability and thus can be read with regard to the first
+                    principle of sustainability outlined above can be found in Dorothea Schlegel’s
+                    Florentin (cf. Fig. 1).</p>
+                <figure>
+                    <graphic n="1001" width="15.92cm" height="7.231944444444444cm" url="Pictures/4b6db73a8a94d10075ee0c9c00cf3b88.png" rend="inline"/>
+                    <head>Fig. 1: Passage of Dorothea Schlegel’s Florentin showing a narrative
+                        variation of the principle of renewability</head>
+                </figure>
+                <p>In this passage, the protagonist gets off his tired horse in order to spare its
+                    power so that he can still use it as riding horse for a long time in the future.
+                    This reasoning is similar to Carlowitz’s idea of renewable forestry. As can be
+                    seen from Fig. 1 the CRF-classifier annotated references to living nature, i.e.
+                    mentions of the horse of the protagonist, but in the passage which actually
+                    shows traits of the principle of renewability (in bold letters) nothing is
+                    annotated. Also, the principle of renewability is not mentioned very implicitely
+                    in this passage. Based on these examples from our study, we developed a
+                    heuristic to single out passages with a high frequency of automatically
+                    classified annotations followed by passages without any of such annotations. We
+                    then analysed those passages with regard to the two principles of sustainability
+                    named above. </p>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>In our contribution, we will present deeper insights into this case study on
+                    descriptions of nature and ideas of sustainability in literary texts from German
+                    romanticism. We will show that the application of machine learning used to
+                    operationalise high-frequency phenomena can also help uncover less frequent and
+                    highly interpretive aspects of narrative texts such as mentions of ideas of
+                    sustainability. We will thus make an attempt at a corpus-based approach to
+                    sustainability in literature. With romanticism, we use a period in literary
+                    history that developed in close temporal proximity to the first mention of the
+                    term “sustainable” in a German written text. We see this as the first step in
+                    the investigation of historical precursors of the concept of sustainability in
+                    literary texts</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="SCHUMACHER_Mareike_Katharina_Uncovering_Principles_of_Sustai.xml_ftn1">
+                    We used the d-RoRo corpus of novels from German
+                            romanticism, integrating into our research the core corpus and the
+                            additional corpus I, so that we cover a timespan from 1790-1841 and
+                            canonized as well as non-canonized texts and authors (cf. Schumacher,
+                            Gius and Uglanova 2022).
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Brundtland, G.H. </author>(1987) Our common future. Oxford:
+                        Oxford Univ. Press (Oxford paperbacks).</bibl>
+                    <bibl><author>Bühler, B. </author>(2016) Ecocriticism. Eine Einführung.
+                        Stuttgart: J.B. Metzler Verlag (SpringerLink: Bücher: Springer eBook
+                        Collection). </bibl>
+                    <bibl><author>Carlowitz, H.C. von </author>(2000) Sylvicultura oeconomica
+                        Anweisung zur wilden Baum-Zucht. Reprint der Ausg. Leipzig: Braun, 1713. TU
+                        Bergakademie (Veröffentlichungen der Bibliothek ‘Georgius Agricola’ der TU
+                        Bergakademie Freiberg).</bibl>
+                    <bibl><author>Finkel, J.R., Grenager, T. and Manning, C. </author>(2005)
+                        ‘Incorporating Non-local Information into Information Extraction Systems by
+                        Gibbs Sampling.’, Proceedings of the 43nd Annual Meeting of the Association
+                        for Computational Linguistics, pp. 363–370.</bibl>
+                    <bibl><author>Gius, E. and Uglanova, I. </author>(forthcoming) ‘Natur als
+                        Agens. Versuch einer computationellen Betrachtung romantischer Texte’, in R.
+                        Borgards, F. Middelhoff, and B. Thums (eds) Romantische Ökologien.
+                        Stuttgart: J.B. Metzler (Neue Romantikforschung).</bibl>
+                    <bibl><author>James, E. </author>(2015) The Storyworld Accord:
+                        Econarratology and Postcolonial Narratives. Edited by J.E. Matz and D.
+                        Herman. Lincoln: University of Nebraska Press. Available at:
+                        https://doi.org/10.2307/j.ctt1d9898m.</bibl>
+                    <bibl><author>James, E. </author>(2020) ‘The Value of “Old” Stories. A
+                        Response to Marco Caracciolo’s “Negotiating Stories in the Anthropocene”’,
+                        DIEGESIS, 9(2). Available at:
+                        https://www.diegesis.uni-wuppertal.de/index.php/diegesis/article/view/385
+                        (Accessed: 14 September 2022).</bibl>
+                    <bibl><author>Kremer, D. </author>(2003) Romantik. 2., überarb. und
+                        aktualisierte Aufl. Stuttgart: J.B. Metzler (Lehrbuch Germanistik).
+                        Available at: https://swbplus.bsz-bw.de/bsz105570184cov.jpg.</bibl>
+                    <bibl><author>Langer, L. et al. </author>(2021) ‘The rise and fall of
+                        biodiversity in literature: A comprehensive quantification of historical
+                        changes in the use of vernacular labels for biological taxa in Western
+                        creative literature’, People and Nature, 3(5), pp. 1093–1109. Available at:
+                        https://doi.org/10.1002/pan3.10256.</bibl>
+                    <bibl><author>Langer, L. et al. </author>(2022) ‘Digital Environmental
+                        Humanities - Zum Potential von “Computational and Literary Biodiversity
+                        Studies” (CoLiBiS)’. Available at:
+                        https://doi.org/10.5281/ZENODO.6327940.</bibl>
+                    <bibl><author>Schumacher, M., Uglanova, I., &amp; Gius, E. </author>(2022).
+                        d-Romane-Romantik (d-RoRo) (1.0) [Data set]. Zenodo.
+                        https://doi.org/10.5281/zenodo.7223544</bibl>
+                    <bibl><author>Ulshöfer, R. </author>(2010) Die Literatur des 18.
+                        Jahrhunderts und der Romantik in neuer Sicht der Anstoß der
+                        Naturwissenschaften des 17./18. Jahrhunderts zur Entstehung der Literatur
+                        der Moderne und zum Entwurf eines Weltfriedensplans. Würzburg: Königshausen
+                        &amp; Neumann. Available at:
+                        http://deposit.d-nb.de/cgi-bin/dokserv?id=3200353&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm.</bibl>
+                    <bibl><author>Wanning, B. </author>(2005) Die Fiktionalität der Natur:
+                        Studien zum Naturbegriff in Erzähltexten der Romantik und des Realismus. 1.
+                        Aufl. Berlin: Weidler (Natur, Literatur, Ökologie, Bd. 2).</bibl>
+                    <bibl><author>Dürbeck, G. and Stobbe, U. </author>(2015) Ecocriticism.
+                        Weimar, Köln: Böhlau Verlag.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

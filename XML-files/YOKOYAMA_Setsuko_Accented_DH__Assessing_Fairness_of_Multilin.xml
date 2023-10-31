@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Accented DH: Assessing Fairness of Multilingual Speech Recognition Systems</title>
+                <author n="YokoyamaSetsukoYOKOYAMA_Setsuko_Accented_DH__Assessing_Fairness_of_Multilin.xml"><persName ref="https://orcid.org/0000-0002-3955-2588" n="YokoyamaSetsuko">
+                        <surname>Yokoyama</surname>
+                        <forename>Setsuko</forename>
+                    </persName><affiliation>Singapore University of Technology and Design, Singapore</affiliation><email>setsuko_yokoyama@sutd.edu.sg</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RajanSaiSathieshYOKOYAMA_Setsuko_Accented_DH__Assessing_Fairness_of_Multilin.xml"><persName ref="https://orcid.org/0000-0002-4491-2605" n="RajanSaiSathiesh">
+                        <surname>Rajan</surname>
+                        <forename>Sai Sathiesh</forename>
+                    </persName><affiliation>Singapore University of Technology and Design, Singapore</affiliation><email>sai_rajan@mymail.sutd.edu.sg</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChattopadhyaySudiptaYOKOYAMA_Setsuko_Accented_DH__Assessing_Fairness_of_Multilin.xml"><persName ref="https://orcid.org/0000-0002-4843-5391" n="ChattopadhyaySudipta">
+                        <surname>Chattopadhyay</surname>
+                        <forename>Sudipta</forename>
+                    </persName><affiliation>Singapore University of Technology and Design, Singapore</affiliation><email>sudipta_chattopadhyay@sutd.edu.sg</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Responding to a call to embrace “digital humanities accents” (Risam 2018) as a radical act towards postcolonial epistemologies, this short paper discusses how a team of software engineers and a humanist is developing a discursive framework to assess fairness in AI for multilingual speech recognition technologies developed for Singlish speakers.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Postcolonial DH</term>
+                    <term>Multilingual DH</term>
+                    <term>ethics in AI</term>
+                    <term>speech recognition technology</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>speech processing analysis and methods</term>
+                    <term>Cultural studies</term>
+                    <term>Feminist studies</term>
+                    <term>Logic and epistemology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Objective:</head>
+                <p>In the context of global Digital Humanities (DH), the interplay between local specificities and global legibility has always offered the opportunity to cross-examine positionalities of any given research project—be it unquestioned use of English as a lingua franca (Galina 2014, Fiormente 2021) or privileging of the Global North epistemologies (Risam 2017, Bhattacharyya 2022). While any efforts to articulate the positionality helps DH to be cognizant of its own cultural hegemonies, research conducted at the margin (i.e., outside of North America and the UK) still risks misrecognition of its social significance when it does not seemingly align with the Anglo-American intellectual discourse. Additionally, the effort to make the work at the margin legible to Anglo-American audiences often risks a backlash from local communities. Conducting DH research in Singapore—a postcolonial semi-authoritarian city-state in the Malay Archipelago—exemplifies this dilemma as locals (both within and beyond academia) have tendencies to resist cultural critique under the guise of it being a Western import (Haines 2020). This short paper embraces this double bind of global DH research as a generative ground and develops a discursive framework to articulate a Singaporean cultural critique of digital technologies, using a fairness assessment of multilingual speech recognition systems as a case study.</p>
+            </div>
+            <div type="div1">
+                <head>Background:
+                </head>
+                <p>Singapore’s hesitancy to embrace cultural critique—let alone social justice discourse—in part has to do with the nation’s concerted effort to nurture “multiculturalism” and “racial harmony” among its diverse populations (Bahrawi 2020). Composed of Chinese, Malay, Tamil, and Eurasian citizens and permanent residents as well as migrant workers from neighboring Southeast Asian nations and ex-pats from the former and current imperial nations, Singapore practices precautions against potentially divisive rhetoric in general.</p>
+                <p>In this context, Singlish—a unique creole (or “accented” English)—can be considered one of the few unifying factors in multicultural Singapore (Wee, 2018). With the Anglo-American framework, the focal point of our analysis would be limited to how automated speech recognition (ASR) systems perform with a creole, and in comparison to English or American speech sounds. Instead, our investigation focuses on the sociolinguistics of Singlish. That is, to investigate how Singapore’s gender, racial, and class relations reflected in speech sound (Koh et al. 2019) might affect the performance of ASR systems and how the biases in these systems might be mitigated. In so doing, we strive to develop a localized analytical framework to assess the fairness of ASR systems that is informed by but also critical of the overpowering dominance of North American social justice discourse, and in response to Risam’s suggestion for embracing “digital humanities accents” as a radical act towards postcolonial epistemologies (Risam 2018). </p>
+            </div>
+            <div type="div1">
+                <head>Method &amp; target audience:
+                </head>
+                <p>Informed by such a local context, we analyze the performance of ASR systems developed specifically to cater to Singaporean accents under the national AI research initiatives (Li &amp; Chng) with the aid of AequeVox, a fairness assessment software program we developed (Rajan, Udeshi, Chattopadhyay 2021). AequeVox is designed to test the “equality of outcomes” principle (
+                    Phillips 2004), i.e., whether speakers from different groups can expect to receive similar quality of service from the ASR. For this test, we first apply meaningful distortions to the speech sound to simulate how well the system behaves in adverse or non-ideal conditions that one might encounter in real life (e.g., noisy environment or fragmented speech signals) so that we can statistically observe the possible differential treatments based on speakers’ gender, race, and class. In our effort to further localize fairness in AI discourse, we will then probe into how local concepts such as “Chinese privilege,” “Malay issue,” and “brownface east”—which are similar to but different from “white privilege,” historical and problematic concept of “the Negro problem,” and “blackface minstrelsy” in the US, for instance—should be factored in with our assessment. 
+                </p>
+                <p>We trust the presentation will be of interest to software developers and critics, whose work concern ethical AI and speech recognition technologies. Additionally, and as our presentation will pay equal attention to the technological and discursive configuration of fairness in multilingual speech recognition systems, it will be of interest to practitioners who are invested in multilingual, postcolonial, and global DH. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bahrawi, Nazry</author> (2020): “A Vocabulary of Our Own”, in: 
+                        <hi rend="italic">Academia | SG</hi>. 20 July 2020. 
+                        <ref target="https://www.academia.sg/academic-views/a-vocabulary-of-our-own/">https://www.academia.sg/academic-views/a-vocabulary-of-our-own/</ref>
+                        [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Bhattacharyya, Sayan</author> (2022): “Epistemically Produced Invisibility”, in: 
+                        <hi rend="italic">Global Debates in the Digital Humanities</hi>, edited by Domenico Fiormonte, Sukanta Chaudhuri, and Paola Ricaurte, 3–14. University of Minnesota Press.
+                    </bibl>
+                    <bibl>
+                        <author>Buolamwini, Joy, and Timnit Gebru</author> (2018): “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification”, in: 
+                        <hi rend="italic">Proceedings of the 1st Conference on Fairness, Accountability and Transparency</hi>, 81:77–91. 
+                        <hi rend="italic">Proceedings of Machine Learning Research</hi>. 
+                        <ref target="https://proceedings.mlr.press/v81/buolamwini18a.html">https://proceedings.mlr.press/v81/buolamwini18a.html</ref>
+                        [29.04.2023]. 
+                    </bibl>
+                    <bibl>
+                        <author>Fiormonte, Domenico</author> (2021): “Taxation against Overrepresentation?: The Consequences of Monolingualism for Digital Humanities”, in: 
+                        <hi rend="italic">Alternative Historiographies of the Digital Humanities</hi>, edited by Dorothy Kim and Adeline Koh, 333–76. Punctum Books. 
+                        <ref target="https://www.jstor.org/stable/j.ctv1r7878x.13">https://www.jstor.org/stable/j.ctv1r7878x.13</ref>
+                        [29.04.2023]. 
+                    </bibl>
+                    <bibl>
+                        <author>Galina Russell, Isabel</author> (2014): “Geographical and Linguistic Diversity in the Digital Humanities”, in: 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 29 (3): 307–16.
+                        
+                        <ref target="https://doi.org/10.1093/llc/fqu005">https://doi.org/10.1093/llc/fqu005</ref>
+                        [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Haines, Monamie Bhadra</author> (2020): “An (Indian) American Academic Teaching about Race (and Technology) in Singapore”, in: 
+                        <hi rend="italic">Transnational STS: Theories, Practices, and Pedagogies | 4S-EASST Prague Conference</hi>.
+                        <ref target="https://stsinfrastructures.org/sites/default/files/artifacts/media/pdf/bhadrahaines_teachingraceandtechnologysingapore.pdf">https://stsinfrastructures.org/sites/default/files/artifacts/media/pdf/bhadrahaines_teachingraceandtechnologysingapore.pdf</ref>
+                        [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Koh, Jia Xin, Aqilah Mislan, Kevin Khoo, Brian Ang, Wilson Ang, Charmaine Ng, and Ying-Ying Tan</author> (2019): “Building the Singapore English National Speech Corpus”, in: 
+                        <hi rend="italic">Interspeech 2019</hi>, 321–25. International Speech Communication Association.
+                        <ref target="https://doi.org/10.21437/Interspeech.2019-1525">https://doi.org/10.21437/Interspeech.2019-1525</ref>
+                        [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Li, Haizhou, and Eng Siong Chng</author>. “Speech Lab”.
+                        <ref target="https://aisingapore.org/aiproducts/speech-lab/">https://aisingapore.org/aiproducts/speech-lab/</ref>
+                        [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Phillips, Anne</author>
+                         (2004): “Defending equality of outcome”, in: 
+                        <hi rend="italic">Journal of political philosophy</hi>
+                         12(1): 1-19.
+                    </bibl>
+                    <bibl>
+                        <author>Rajan, Sai Sathiesh, Sakshi Udeshi, and Sudipta Chattopadhyay</author> (2021): “AequeVox: Automated Fairness Testing of Speech Recognition Systems”, in: 
+                        <hi rend="italic">ArXiv:2110.09843 [Cs]</hi>, October.
+                        <ref target="http://arxiv.org/abs/2110.09843">http://arxiv.org/abs/2110.09843</ref>.
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Risam, Roopika</author> (2018): 
+                        <hi rend="italic">New Digital Worlds: Postcolonial Digital Humanities in Theory, Praxis, and Pedagogy</hi>. Northwestern University Press.
+                        <ref target="https://nupress.northwestern.edu/9780810138858/new-digital-worlds"> </ref>
+                    </bibl>
+                    <bibl>
+                        <author>Risam, Roopika</author> (2017): “Other Worlds, Other DHs: Notes towards a DH Accent”, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 32 (2): 377–84.
+                    </bibl>
+                    <bibl>
+                        <author>Wee, Lionel</author> (2018):
+                        <hi rend="italic"> The Singlish Controversy: Language, Culture and Identity in a Globalizing World</hi>. Cambridge University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

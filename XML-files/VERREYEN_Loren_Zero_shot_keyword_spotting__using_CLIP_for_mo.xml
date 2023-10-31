@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zero-shot keyword spotting, using CLIP for modern manuscripts</title>
+                <author n="VerreyenLorenVERREYEN_Loren_Zero_shot_keyword_spotting__using_CLIP_for_mo.xml"><persName ref="https://orcid.org/0000-0002-9785-789X" n="VerreyenLoren">
+                        <surname>Verreyen</surname>
+                        <forename>Loren</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>loren.verreyen@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this presentation, I aim to demonstrate how the recently introduced CLIP-model can be used as a valuable tool to access and analyse digitised manuscripts without the need of providing manual transcriptions first. This entails a shift which would allow the efficient browsing of digital images of any handwritten document.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>keyword spotting</term>
+                    <term>handwritten text recognition</term>
+                    <term>deep learning</term>
+                    <term>digital manuscript studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Keyword spotting</head>
+                <p>Digitisation plays a key role in literary transmission, preservation, and analysis of handwritten documents
+                    <ref target="#VERREYEN_Loren_Zero_shot_keyword_spotting__using_CLIP_for_mo.xml_ftn1" n="1"/>. However, a gap remains between providing access to digital images on the one hand, and making their actual contents machine-readable and searchable on the other hand. Currently, the workflow to transform handwritten documents into machine-readable text relies heavily on the process of handwritten text recognition (HTR). Typically, this HTR workflow makes use of supervised machine learning, requiring manually provided transcriptions to train a model to recognise the handwriting of the author of choice. Key players here are Transkribus and Kraken (Kahle et al. 2019; Kiessling 2019). Once the HTR model is trained on sufficient image-transcript pairs, it can be used to automatically transcribe manuscripts in the same handwriting or one that closely resembles the original training data. These automatically acquired transcriptions can then be used for downstream tasks such as keyword spotting. This workflow introduces (at least) two bottlenecks in the process of producing machine-readable texts from digitised documents: (1) the amount and quality of the original training data plays an important role in how good the model will be at generating new transcriptions, and (2) if a new handwriting is introduced that is too different from the original training data, the original model needs to be fine-tuned to adapt to the new hand or a new model needs to be trained from scratch - both options require significant time and expertise. In this presentation, I aim to demonstrate how the recently introduced CLIP-model (Contrastive Language Image Pre-Training) (Radford et al. 2021) can be used as a valuable tool to access and analyse digitised manuscripts without the need of providing manual transcriptions first. This entails a shift which would allow the efficient browsing of digital images of any handwritten document.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Model and data</head>
+                <p>CLIP is a multimodal model that consists of two transformer encoders: one for textual information and one for visual information. The two encoders are jointly trained to maximise the cosine similarity of correct image-text pairs and minimise the cosine similarity of incorrect image-text pairs. Because of the wide range of image-text pairs that are used to train CLIP, the model can be used for a variety of tasks without the need to be finetuned first – examples of such tasks are optical character recognition (OCR), action recognition, and geo localization (Ibid.). The idea that CLIP could also be used to recognise handwriting has already been suggested in the original CLIP paper (Ibid.), where CLIP's performance was tested on the MNIST dataset (Deng 2012) – a dataset consisting of handwritten digits. However, CLIP's potential to break into handwritten data has further remained unexplored. In this presentation, CLIP's zero-shot capabilities on handwritten words are tested on the IAM dataset (Marti / Bunke 2002). This dataset contains the handwriting of several hundred writers, making the dataset an interesting case study to analyse how valuable this new keyword spotting method can be when handling a wide range of different handwritings – a prevalent challenge when it comes to digitising handwritten data.</p>
+            </div>
+            <div type="div1">
+                <head>Analysis</head>
+                <p>In a first part of the analysis, CLIP's zero-shot capabilities are assessed. Following (Radford et al. 2021), the ViT-L/14@336px model is used, further referred to as CLIP. To perform zero-shot keyword spotting, all text labels present in the IAM dataset are fed into CLIP, functioning as a possible text snippet to be paired with the handwritten word images that are simultaneously fed into the model. CLIP's zero-shot keyword spotting capability is assessed based on the recall score, i.e. how many times CLIP is able to detect a certain keyword. CLIP scores a recall score of 16.55%. Next, CLIP's image embeddings are assessed by using them as the input of a logistic regression model that treats the keyword spotting task as a simple classification problem. The logistic regression model reaches a recall score of 10.94%. This low score shows that the off-the shelf CLIP model does not yet manage to capture sufficient relevant information in the image embeddings to cluster similar keyword images. In a last part of this study, CLIP will be finetuned on part of the IAM dataset to improve the original model. By creating triplets on the fly - an anchor, a positive match, and a negative match - and using a contrastive metric learning approach, positive matches are pushed closer together, negative matches are pushed further apart.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="VERREYEN_Loren_Zero_shot_keyword_spotting__using_CLIP_for_mo.xml_ftn1">
+                         This paper is part of the CATCH 2020 project (Computer-Assisted Transcription of Complex
+                        Handwriting), under the supervision of Dirk Van Hulle (UAntwerp).
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Deng, Li</author> (2012): “The MNIST Database of Handwritten Digit Images for Machine Learning Research [Best of the Web]”, in: 
+                        <hi rend="italic">IEEE Signal Processing Magazine</hi> 29, 6: 141–142. DOI: 10.1109/MSP.2012.2211477. 
+                    </bibl>
+                    <bibl>
+                        <author>Kahle, Philip</author> / <author>Colutto, Sebastian</author> / <author>Hackl, Günter</author> / <author>Mühlberger, Günter</author>  (2017): “Transkribus—A Service Platform for Transcription, Recognition and Retrieval of Historical Documents” in: International Association of Pattern Recognition (ed.): 14th IAPR International Conference on Document Analysis and Recognition (ICDAR), Kyoto, Japan, November 2017: 19–24. DOI: 10.1109/ICDAR.2017.307. 
+                    </bibl>
+                    <bibl>
+                        <author>Kiessling, Benjamin</author> (2019): “Kraken - an universal text recognizer for the humanities”, in: Digital Humanities Conference 2019 (DH2019), Utrecht, the Netherlands, July 2019. DOI: 10.34894/Z9G2EX. 
+                    </bibl>
+                    <bibl>
+                        <author>Marti, Urs-Viktor</author> / <author>Bunke, Horst</author>  (2002): “The IAM-database: An English sentence database for offline handwriting recognition”, in: 
+                        <hi rend="italic">International Journal on Document Analysis and Recognition (IJDAR) </hi>5, 1: 39–46. DOI: 10.1007/s100320200071. 
+                    </bibl>
+                    <bibl>
+                        <author>Radford, Alec</author> / <author>Kim, Jong Wook</author> / <author>Hallacy, Chris</author> / <author>Ramesh, Aditya</author> / <author>Goh, Gabriel</author> / <author>Agarwal, Sandhini</author> / <author>Sastry, Girish</author> / <author>Askell, Amanda</author> / <author>Mishkin, Pamela</author> / <author>Clark, Jack</author> / <author>Krueger, Gretchen</author> / <author>Sutskever, Ilya</author>  (2021): “Learning transferable visual models from natural language supervision”, in: 
+                        <hi rend="italic">Proceedings of the 38th International Conference on Machine Learning PLMR</hi>, Vienna, Austria, July 2021: 8748–8763. DOI: 10.48550/arXiv.2103.00020.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

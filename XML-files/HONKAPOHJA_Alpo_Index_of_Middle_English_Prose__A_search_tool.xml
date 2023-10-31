@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Index of Middle English Prose: A search tool based on language
+                    modelling</title>
+                <author n="HonkapohjaAlpoHONKAPOHJA_Alpo_Index_of_Middle_English_Prose__A_search_tool.xml"><persName ref="https://orcid.org/0000-0002-9724-5180" n="HonkapohjaAlpo">
+                        <surname>Honkapohja</surname>
+                        <forename>Alpo</forename>
+                    </persName><affiliation>University of Oslo, Norway</affiliation><email>alpo.honkapohja@ilos.uio.no</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ThaisenJacobHONKAPOHJA_Alpo_Index_of_Middle_English_Prose__A_search_tool.xml"><persName n="ThaisenJacob">
+                        <surname>Thaisen</surname>
+                        <forename>Jacob</forename>
+                    </persName><affiliation>University of Oslo, Norway</affiliation><email>jacob.thaisen@ilos.uio.no</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NklestadAndersHONKAPOHJA_Alpo_Index_of_Middle_English_Prose__A_search_tool.xml"><persName n="NklestadAnders">
+                        <surname>Nøklestad</surname>
+                        <forename>Anders</forename>
+                    </persName><affiliation>University of Oslo, Norway</affiliation><email>anders.noklestad@iln.uio.no</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster/presentation demonstrates a web-based search tool for the Index of Middle English Prose, built using the SRILM language modelling toolkit, which is capable of handling variation in spelling, syntax and lexicon inherent to a prestandardised vernacular such as Middle English.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Middle English</term>
+                    <term>Language modelling</term>
+                    <term>Manuscript studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>concordancing and indexing</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>Book and print history</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Access to medieval manuscripts, which form a major part of our collective heritage,
+                is dependent on the search tools available for us. The <hi rend="italic">Index of
+                    Middle English Prose</hi> (IMEP) seeks, for the first time, to locate and
+                identify all surviving English prose texts composed between ca. 1200 and 1500,
+                through its printed catalogues. A crucial weakness of the IMEP is the lack of a
+                satisfactory digital search tool for interested parties to search the collection,
+                especially since the database records (incipits and explicits) preserve linguistic
+                variation inherent to a non-standardised vernacular like Middle English. The
+                poster/presentation demonstrates a web-based search tool for the IMEP developed as a
+                part of an MSCA-IF project , which is capable of handling specifically this type of
+                variation. </p>
+            <table xml:id="d133e188">
+                <head>Table 1: Linguistic variation in Middle English: incipits from the <hi rend="italic">Brut</hi> chronicles </head>
+                <row>
+                    <cell>In the nobele lande of syrrye there was a nobele
+                        kyng and</cell>
+                    <cell>Rylands Eng 103 [1]</cell>
+                </row>
+                <row>
+                    <cell>In the noble land of surey þer was a noble
+                        king</cell>
+                    <cell>BL Add 10099 [1]</cell>
+                </row>
+                <row>
+                    <cell>In the noble land of surre ther was a noble kyng
+                        and myhty and a</cell>
+                    <cell>Lambeth 84 [1]</cell>
+                </row>
+                <row>
+                    <cell>Off the noble land of surrye ther was a royal
+                        kynge</cell>
+                    <cell>Peniarth 343 [1]</cell>
+                </row>
+                <row>
+                    <cell>In the noble land of surrye ther was a worthi
+                        kynge</cell>
+                    <cell>Lei UL 47 [1]</cell>
+                </row>
+                <row>
+                    <cell>Some tyme in the lande of surre ther was a
+                        myghty &amp; a ryall</cell>
+                    <cell>Oxf Un 154 [1]</cell>
+                </row>
+            </table>
+            <p>The challenge lies in the fact that variation exists in orthography, syntax and
+                lexicon and in the title as well as incipits and explicits. For example, Table 1
+                includes examples of variation in orthography ( <hi rend="italic">there</hi> vs. <hi rend="italic">þer</hi>, <hi rend="italic"> syrrye </hi>vs.
+                <hi rend="italic"> surey </hi>vs.
+                <hi rend="italic"> surre </hi>vs.
+                <hi rend="italic"> surrye</hi>), lexicon ( <hi rend="italic">nobele kyng</hi>, <hi rend="italic">royal kynge</hi>, <hi rend="italic">worthi
+                    kynge; In the noble land vs. off the noble land</hi>), word order and incomplete
+                noun phrases ( <hi rend="italic">a noble kyng and myhty</hi> vs.
+                <hi rend="italic">a myghty &amp; a ryall </hi>[king]). A simple
+                search for a string will find all occurrences of that specific string in a dataset
+                and no other. Searches using regular expressions will also fail to meet the target
+                since they presuppose the user can predict every possible linguistic variation. </p>
+            <p>The search tool developed for IMEP makes it possible to search for texts regardless
+                of the wide range of linguistic variation. It consists of:</p>
+            <p>- a database of incipits and explicits in the <hi rend="italic">IMEP</hi>, </p>
+            <p>- A set of language character-based n-gram models, one for each incipit or explicit,
+                built using the SRILM language modelling toolkit. </p>
+            <p>- A fuzzy search Python script for evaluating a search text against the set of
+                language models.</p>
+            <p>The tool is optimised for recall but not precision. It will retrieve several possible
+                matches for a search string but it will not attempt to select the ‘correct’ one
+                among them. When the user inputs a search string, the web application looks it up in
+                the database to find exact matches. Simultaneously, it calls the fuzzy search script
+                with the search string. The script:</p>
+            <p>- uses SRILM to create a language model from the search string and matches each
+                manuscript text against it.</p>
+            <p>- Selects 100 best matches, recalls the language model for each, and matches the
+                search string against each one.</p>
+            <p>- Selects 20 best matches from the previous step and returns their database IDs and
+                perplexity values.</p>
+            <p>The web application, developed in Django, then combines the results of the direct
+                database lookup with the results from the fuzzy search script and presents them in
+                the shape of a list with exact matches at the top, followed by the fuzzy matches in
+                order of increasing perplexity.</p>
+            <p> This two-step process increases efficiency. Since the IMEP contains thousands of
+                incipits and explicits, matching the search string against each for optimum
+                precision leads to processing times of up to several minutes per search. On the
+                other hand, SRILM can match a large number of texts against a single language model
+                quickly, so testing all manuscript texts against the language model for the search
+                string and reverse matching only for the 100 best matches keeps search times
+                manageable. The tool works well enough and has definite potential for application to
+                the IMEP. Since it is not reliant on a word list, it can be adapted to other
+                datasets. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="italic">The Index of Middle English Prose</hi>, vols I-XXIII
+                        (1984-present). Cambridge: D.S. Brewer. </bibl>
+                    <bibl><author>Stolcke, Andreas &amp; Zheng,
+                            Jing &amp; Wang, Wen &amp; Abrash, Victor</author> (2011): “SRILM at
+                        sixteen: update and outlook” in: Proceedings of IEEE Automatic Speech
+                        Recognition and Understanding Workshop.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

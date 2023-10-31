@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maps and parish sketches of Karol Perthées - data model and processing</title>
+                <author n="BorekArkadiuszBOREK_Arkadiusz_Maps_and_parish_sketches_of_Karol_Perth_es__.xml"><persName ref="https://orcid.org/0000-0001-7706-860X" n="BorekArkadiusz">
+                        <surname>Borek</surname>
+                        <forename>Arkadiusz</forename>
+                    </persName><affiliation>Institute of History of Polish Academy of Sciences, Poland</affiliation><email>aborek@ihpan.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The main aim of the presentation is to present a methodology for the digital elaboration of the maps of voivodeships and the parish sketches by Karol Perthées to create a map of pre-partition Poland in the last years of its existence.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>maps</term>
+                    <term>gis</term>
+                    <term>database</term>
+                    <term>18c</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The main aim of the presentation is to present a methodology for the digital elaboration of the maps of voivodeships and the parish sketches by Karol Perthées to create a map of pre-partition Poland in the last years of its existence. Both of these sources are the most important materials for learning about the geography of the Polish Kingdom at the end of the 18th century. The work presented in the paper is carried out as part of the project 'Cartography in the Service of State Reforms in the Stanislaus Era - A Critical Study of the "Geographical and Statistical Description of the Parishes of the Kingdom of Poland" and Maps of the Crown Provinces by Karol Perthées'.</p>
+            <p>Karol Perthées was court cartographer to the last Polish king, Stanisław August, and his most important work are maps of the eleven voivodships (region level administrative units) of the western part of the Polish Kingdom within its borders after the first partition of Poland (1772). The material that formed the basis for the preparation of these maps were parish sketches prepared by Perthées and his assistants. The following pages of the 12 manuscript volumes contain hand-made sketches of the areas of a given parish, together with lists of the localities that belonged to the parish, the more important neighbouring locations, and information on the natural landscape. What makes the sketches unique, and thus the maps created on their basis, is that the greatest impact on their creation came not from field measurements, but from textual descriptions of parishes made by parsons of the Kingdom of Poland at the behest of the church authorities. The elaboration of these sources by digital methods presents a number of conceptual challenges.</p>
+            <p>First and foremost is the heterogeneous and atypical nature of the entire resource in terms of form. The sketches contain textual and graphic content. In addition, the two layers blend together. The sketches are also drafts with a lot of deletions, additions, and corrections. The maps created on the basis of the sketches are in turn cartographic material, but with a very uneven level of precision. In other words, one source is an unusual mix of text and image, and the second is a map without geometric precision. These challenges forced our team to search for more innovative solutions in the digital processing of sources.</p>
+            <p>In this situation, both maps and sketches are developed using GIS technology and a relational database (in PostgreSQL). The adopted data model includes source tables, where source information is collected, and critical tables, where information from the source tables is processed. The source tables in their relationship to each other and in their internal content reflect the information structures of the source itself. Data from maps and sketches are collected and preprocessed using GIS tools. These include the well-known QGIS and ArcGIS programmes, as well as the INDXr application developed at the Department of Historical Atlas of the Institute of History of the Polish Academy of Sciences. This application is used to process manuscripts. It is based on GIS solutions and treats manuscript pages as a space, similar to that on maps, whose different fragments contain different information that can be described within an appropriate data model. This approach allows a great deal of flexibility and works well when working with such an unusual source as sketches. It is also an original contribution to the sources' processing in digital humanities.The greatest weight of the work is placed on extracting information about the localities and developing a map based on this. Each locality is described in the source table of the database in away that is relevant to how it is described in the source. This information is elaborated at a further stage (moving from source data to critical data), whereby individual localities are described by establishing the appropriate name, size, ownership, function and located in space. Data harmonisation is also carried out between the records created on the basis of sketches or maps and historical data from the 16th century (Historical Atlas of Poland database), and contemporary data(National Register of Geographical Names). This will be a further step towards building a coherent database covering changes in the Polish settlement network over centuries.</p>
+            <p>Additional information about the project and the work on the maps and sketches can be found at https://perthees.ihpan.edu.pl/?page_id=593&amp;lang=en and on the project's Twitter @perthees.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Borek, Arkadiusz </author>(2022): ‟Struktury kościelne zachodniej Korony po pierwszym rozbiorze w świetle Szkiców Karola Perthéesa“, in: 
+                        <hi rend="italic">Roczniki Humanistyczne</hi> 70, 2: 101-115.
+                    </bibl>
+                    <bibl><author>Buczek, Karol </author>(1966): 
+                        <hi rend="italic">The history of Polish cartography from 15th to the 18th century</hi>. Wrocław, Warszawa, Kraków: Zakład Narodowy im. Ossolińskich Wydawnictwo Polskiej Akademii Nauk.
+                    </bibl>
+                    <bibl><author>Buczek, Karol</author>. (2003): ‟Kartograf króla Stanisława Augusta życie i dzieła“, in: Pawłowski, Jerzy (ed.): 
+                        <hi rend="italic">Karol Perthées (1739-1815) fizjograf pierwszej Rzeczypospolitej: życie oraz działalność kartograficzna i entomologiczna</hi>. Warszawa: Retro-Art 21-134.
+                    </bibl>
+                    <bibl><author>Krawczyk, Adam </author>(1976): ‟Carol Perthées ‘Descriptions of parishes‘ – a source for the historical geography and economic history of central eastern Poland in: the late XVIIIth century (introductory information) “, in: 
+                        <hi rend="italic">Zeszyty Naukowe UJ. Prace Geograficzne</hi> 43: 191-196.
+                    </bibl>
+                    <bibl><author>Szady, Bogumił</author> / <author>Panecki, Tomasz</author> (2022): ‟Source-driven data model for geohistorical records’ editing: a case study of the works of Karol Perthées“, in: 
+                        <hi rend="italic">Miscellanea Geographica</hi> 26, 1: 52-62.
+                    </bibl>
+                    <bibl>
+                        <author>The last map of Poland</author>. <hi rend="italic">Cartography at the service of state reforms at the end of the eighteenth century </hi>
+                        <ref target="https://perthees.ihpan.edu.pl/?page_id=593&amp;lang=en">https://perthees.ihpan.edu.pl/?page_id=593&amp;lang=en</ref> [19.04.2023].
+                    </bibl>
+                    <bibl><author>Wernerowa, Wiesława </author>(2003): ‟Ocena ‘ankiet parafialnych‘ jako źródła wiedzy Karola Perthéesa o fizjografii Rzeczpospolitej przedrozbiorowej“, in: Pawłowski, Jerzy (ed.): 
+                        <hi rend="italic">Karol Perthées (1739-1815) fizjograf pierwszej Rzeczypospolitej: życie oraz działalność kartograficzna i entomologiczna</hi>. Warszawa: Retro-Art 165-192.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

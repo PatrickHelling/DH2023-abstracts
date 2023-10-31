@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Innovators of the Past: Modelling Novelty and Resonance in
+                        Dutch Historical Language Records</title>
+                <author n="LasscheAlieROS_Ruben_Innovators_of_the_Past__Modelling_Novelty_and_Reso.xml"><persName ref="https://orcid.org/0000-0002-7607-0174" n="LasscheAlie">
+                        <surname>Lassche</surname>
+                        <forename>Alie</forename>
+                    </persName><affiliation>Leiden University, Netherlands, The</affiliation><email>a.w.lassche@hum.leidenuniv.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RosRubenROS_Ruben_Innovators_of_the_Past__Modelling_Novelty_and_Reso.xml"><persName ref="https://orcid.org/0000-0002-5303-2861" n="RosRuben">
+                        <surname>Ros</surname>
+                        <forename>Ruben</forename>
+                    </persName><affiliation>Leiden University, Netherlands, The</affiliation><email>r.s.ros@hum.leidenuniv.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Studies in the humanities are increasingly incorporating methods from information theory, which are based on dynamics in word usage and measures of relative entropy. This paper uses windowed relative entropy to thematic text representations to generate signals that capture information novelty and resonance and, aggregated on the actor-level, shed light on the innovators of the past. Comparing early modern chronicles and twentieth-century parliamentary debate we aim to investigate several dimensions of innovation in historical language records.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>entropy</term>
+                    <term>novelty</term>
+                    <term>resonance</term>
+                    <term>top2vec</term>
+                    <term>doc2vec</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>rhetorical analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Political science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Studies in the humanities are increasingly incorporating methods from information
+                    theory, which are based on dynamics in word usage and measures of relative
+                    entropy. We know from previous work that word usage in newspapers and chronicles
+                    is sensitive to the dynamics of socio-cultural events. (Wevers, Kostkan, and
+                    Nielbo 2021; Gao et al. 2012; Daems et al. 2019) Entropy measures have for
+                    example been used to detect differences between opposite political movements in
+                    French politics, and between distinct historical periods. (Barron et al. 2018;
+                    Guldi 2019) More specifically, several studies have applied windowed relative
+                    entropy to thematic text representations to generate signals that capture
+                    information novelty, which is the content difference from the past, and
+                    information resonance, which is the degree to which future information conforms
+                    to novelty. The methods have been successfully applied to parliamentary debates
+                    from the French Revolution, to Dutch newspapers from the second half of the 20st
+                    century, to Danish newspapers from the COVID-19 pandemic, and to early modern
+                    Dutch chronicles.(Barron et al. 2018; Wevers, Kostkan, and Nielbo 2021; Nielbo
+                    et al. 2021; Lassche, Kostkan, and Nielbo 2022)</p>
+                <p>This study builds further on these existing studies, by using methods for novelty
+                    and resonance detection to measure innovation of individual historical actors.
+                    To explore to what extent this method can be applied to corpora with different
+                    characteristics, we use two historical Dutch corpora from different periods and
+                    with different features. We investigate the novelty and resonance scores on the
+                    aggregated actor-level in our corpora to identify historical figures responsible
+                    for innovative and resonant texts. We ask who is responsible for innovation, how
+                    the actor-level distribution of novelty behaves (over time) and to what extent
+                    the ‘novelty bias’ observed in earlier studies holds on the level of actors.
+                    Comparing different corpora helps us to critically interrogate the information
+                    theoretical measures. Building on existing applications of the method and our
+                    comparison, we hope to work towards more general arguments about novelty and
+                    resonance in historical language data.</p>
+            </div>
+            <div type="div1">
+                <head>Corpora</head>
+                <p>In our study, we distinguish the <hi rend="italic">Chronicles Corpus</hi> and the
+                        <hi rend="italic">Parliament Corpus</hi>, of which the characteristics are
+                    included in Table 1. The <hi rend="italic">Chronicles Corpus</hi> consists of early modern Dutch chronicles, written
+                    between 1500 and 1850. Chronicles are manuscripts written by middle-class
+                    people, in which they report on current events in their communities, and on what
+                    they consider interesting or relevant. These texts are ordered chronologically,
+                    providing both the date and a report of a certain event. They were rarely
+                    printed in the lifetime of their authors, but, despite their scribal form, they
+                    could still circulate in the localities, be read and continued by other authors,
+                    influencing future generations. (Pollmann 2016, 2011) The <hi rend="italic">Chronicles Corpus</hi> was scanned and transcribed with the HTR tool
+                    Transkribus.(Kahle et al. 9AD) The corpus is enriched with a date label that is
+                    essential in this study in order to create time series of chronicle fragments. </p>
+                <p>Previous research in which novelty and resonance signals were computed over the
+                        <hi rend="italic">Chronicles Corpus</hi> already showed how changes in the
+                    novelty signal coincide with times of political uncertainty. The resonance
+                    signal, however, remained flat over time, which suggested that future
+                    information did not conform to the introduced novelty.(Lassche, Kostkan, and
+                    Nielbo 2022) An investigation of actor-level novelty and resonance scores, as
+                    will be done in this paper, will provide more insight in the level of innovation
+                    of individual chroniclers. </p>
+                <table xml:id="d280e210">
+                    <head>Table 1:</head>
+                    <row>
+                        <cell>Corpus</cell>
+                        <cell># Texts</cell>
+                        <cell># Authors</cell>
+                        <cell># Tokens</cell>
+                    </row>
+                    <row>
+                        <cell>Chronicles</cell>
+                        <cell>144</cell>
+                        <cell>109</cell>
+                        <cell>6.103.765</cell>
+                    </row>
+                    <row>
+                        <cell>Parliament</cell>
+                        <cell>1493</cell>
+                        <cell>410</cell>
+                        <cell>18.050.303</cell>
+                    </row>
+                </table>
+                <p>The Parliament Corpus consists of proceedings of the Dutch Lower House from the
+                    period between 1945 and 1963. The proceedings contain speeches delivered in
+                    parliament by members of parliament, the chair, and government ministers. They
+                    record the day-to-day practices of legislation, the filing of motions, and
+                    question answering. Proceedings are not verbatim reports, but edited
+                    transcriptions of the speeches. The digitized proceedings are tokenized and
+                    lemmatized and contain metadata on speaker party affiliations and debate topics.
+                    The corpus consists of all sessions held between 1945 and 1963. In this period,
+                    parliament would meet several days a week, with the exception of the summer
+                    months and campaign periods. From the perspective of parliamentary language,
+                    actor-level novelty and resonance appear as promising metrics to evaluate the
+                    standard depiction of the period as one during which parliament was ‘docile’ and
+                    largely overshadowed by the expanding administration.(Hemerijck 1994; Daalder
+                    and Berg 1990) Especially the differences in novelty and resonance between
+                    government members and representatives of coalition and opposition parties would
+                    be an innovative way of looking at postwar parliamentary history.</p>
+            </div>
+            <div type="div1">
+                <head>Methods</head>
+                <p>We use Top2Vec as a means to generate document (chronicle or speech)
+                    representations.(Angelov 2020) Top2Vec learns joint word and document
+                    representation and uses document cluster centroids and word embeddings to
+                    generate topics. The cosine similarity between a document and the identified
+                    cluster centroids can be used to generate document-topic distributions that
+                    serve as the basis for novelty detection.</p>
+                <p>With novelty, we refer to an event’s S(j) reliable difference from past events
+                    S(j-1), S(j-2), S(j-n) in window <hi rend="italic">w</hi> and resonance as the
+                    degree to which future events S(j+1), S(j+2), S(j+n) conform to an event’s S(j)
+                    novelty. Where T is the transience of S(j). This model for novelty and resonance
+                    was originally proposed by Barron et al., but here we use the symmetrized and
+                    smooth version with the Jensen-Shannon divergence. </p>
+                <p>(Unfortunately, the Digital Humanities 2023 software is not able to properly
+                    display mathematical formulae)</p>
+            </div>
+            <div type="div1">
+                <head>Preliminary Results</head>
+                <p>As an example of our approach, Figures 1 and 2 show the aggregated novelty scores
+                    on the actor level plotted against the resonance scores, both for the Chronicles
+                    Corpus and the Parliament Corpus. Figure 1 shows a decrease in novelty over
+                    time, suggesting that earlier chronicles consist of more novel content than
+                    later chronicles. Figure 2 shows the variation in novelty and resonance across
+                    parliamentary speakers, with additional information on parliamentary roles
+                    indicated by colours and information on the number of speeches represented by
+                    scatter size. The figure points to the relatively low resonance of government
+                    members compared to members of parliament and the relatively high novelty of
+                    chairs (grey). The latter observation can be explained by the institutional
+                    function of the parliament chair, who is responsible for opening and introducing
+                    debates and their topics. However, the low resonances of government members as
+                    well as high-scoring members are not so easily explained. Our paper will discuss
+                    these and other findings in more detail.</p>
+                <p><figure>
+                        <graphic url="Pictures/85a0b1a3ac3b915252b27c9f4209121f.png"/>
+                        <head>Figure 1. Novelty and Resonance in the Chronicles Corpus. Top Left:
+                            Violin plots of the resonance actor resonance distribution grouped by
+                            century. Top Right: Violin plots of the resonance actor novelty
+                            distribution grouped by century. Bottom: Scatter plot of novelty vs.
+                            resonance on the aggregate level of chroniclers at scale =30. The
+                            colours correspond to the century in which the chronicle was finished,
+                            the size of the scatters refers to the size of the chronicle.</head>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/159dbc13388cd1cd22f8b995ed1c3996.png"/>
+                        <head>Figure 2. Novelty and Resonance in the Parliament Corpus. Top Left:
+                            Violin plots of the resonance actor resonance distribution grouped by
+                            role. Top Right: Violin plots of the resonance actor novelty
+                            distribution grouped by role. Bottom: A scatter plot of novelty vs.
+                            resonance on the aggregate level of parliamentary speakers at scale =30.
+                            The colours correspond to the role metadata tag in the parliamentary
+                            proceedings. Roles can be “government" (blue), “mp" (red), and “chair"
+                            (gray). The plot shows the relatively low resonance of government
+                            speakers compared to members of parliament (mp’s) as well as the high
+                            novelty of chairs. The size of the scatters refers to the number of
+                            unique speeches by the speakers</head>
+                    </figure></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Angelov, Dimo. </author>2020. “Top2Vec: Distributed
+                        Representations of Topics,” nos. arXiv:2008.09470 [cs, stat] (August).
+                        http://arxiv.org/abs/2008.09470.</bibl>
+                    <bibl><author>Barron, Alexander T. J., Jenny Huang, Rebecca L. Spang,
+                            and Simon DeDeo. </author>2018. “Individuals, Institutions, and Innovation
+                        in the Debates of the French Revolution.” Proceedings of the National
+                        Academy of Sciences 115 (18): 4607–12.
+                        https://doi.org/10.1073/pnas.1717729115.</bibl>
+                    <bibl><author>Daalder, Hans, and Johannes T. van den Berg. </author>1990.
+                        Politiek en historie: opstellen over Nederlandse politiek en vergelijkende
+                        politieke wetenschap. Amsterdam: Bakker.</bibl>
+                    <bibl><author>Daems, Joke, Thomas D’haeninck, Simon Hengchen, Tecle
+                            Zere, and Christophe Verbruggen. </author>2019. “‘Workers of the World’? A
+                        Digital Approach to Classify the International Scope of Belgian Socialist
+                        Newspapers, 1885.” Journal of European Periodical Studies 4 (1): 99–114.
+                        https://doi.org/10.21825/jeps.v4i1.10187.</bibl>
+                    <bibl><author>Gao, Jianbo, Jing Hu, Xiang Mao, and Matjaž Perc.
+                        </author>2012. “Culturomics Meets Random Fractal Theory: Insights into
+                        Long-Range Correlations of Social and Natural Phenomena over the Past Two
+                        Centuries.” Journal of the Royal Society Interface 9 (73): 1956–64.
+                        https://doi.org/10.1098/rsif.2011.0846.</bibl>
+                    <bibl><author>Guldi, Jo. </author>2019. “The Measures of Modernity: The New
+                        Quantitative Metrics of Historical Change over Time and Their Critical
+                        Interpretation.” International Journal for History, Culture and Modernity 7
+                        (1): 899–939. https://doi.org/10.18352/hcm.589.</bibl>
+                    <bibl><author>Hemerijck, A. C. </author>1994. “Hardnekkigheid van
+                        Corporatisch Beleid in Nederland.” Beleid En Maatschappij 21 (1-2):
+                        23–47.</bibl>
+                    <bibl><author>Kahle, P., S. Colutto, H. Hackl, and H. Mühlberger.
+                        </author>9AD. “Transkribus - A Service Platform for Transcription, Recognition
+                        and Retrieval of Historical Documents.” In 2017 14th IAPR International
+                        Conference on Document Analysis and Recognition (ICDAR), 04:19–24.
+                        https://doi.org/10.1109/ICDAR.2017.307.</bibl>
+                    <bibl><author>Lassche, Alie, Jan Kostkan, and Kristoffer Nielbo.
+                        </author>2022. “Chronicling Crises: Event Detection in Early Modern Chronicles
+                        from the Low Countries.” In Computational Humanities Research.
+                        Antwerp.</bibl>
+                    <bibl><author>Nielbo, Kristoffer L., Frida Haestrup, Kenneth C.
+                            Enevoldsen, Peter B. Vahlstrup, Rebekah B. Baglini, and Andreas
+                            Roepstorff. </author>2021. “When No News Is Bad News – Detection of Negative
+                        Events from News Media Content.” arXiv.
+                        http://arxiv.org/abs/2102.06505.</bibl>
+                    <bibl><author>Pollmann, Judith. </author>2011. Catholic Identity and the
+                        Revolt of the Netherlands, 1520-1635. The Past &amp; Present Book Series.
+                        Oxford; New York: Oxford University Press.</bibl>
+                    <bibl><author>Pollmann, Judith.</author> 2016. “Archiving the Present and
+                        Chronicling for the Future in Early Modern Europe.” Past &amp; Present 230
+                        (suppl 11): 231–52. https://doi.org/10.1093/pastj/gtw029.</bibl>
+                    <bibl><author>Wevers, Melvin, Jan Kostkan, and Kristoffer Nielbo.
+                        </author>2021. “Event Flow - How Events Shaped the Flow of the News, 1950-1995.”
+                        In Computational Humanities Research Conference, 62–76. Amsterdam.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

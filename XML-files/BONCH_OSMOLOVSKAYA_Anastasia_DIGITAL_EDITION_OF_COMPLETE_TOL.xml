@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Edition of Complete Tolstoy's Heritage: OCR Crowd
+                        Sourcing Initiative, Literary Scholarship and User Scenarios</title>
+                <author n="BonchOsmolovskayaAnastasiaBONCH_OSMOLOVSKAYA_Anastasia_DIGITAL_EDITION_OF_COMPLETE_TOL.xml"><persName n="BonchOsmolovskayaAnastasia">
+                        <surname>Bonch-Osmolovskaya</surname>
+                        <forename>Anastasia</forename>
+                    </persName><affiliation>DH CLOUD; TOLSTOY DIGITAL</affiliation><email>abonch@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OrekhovBorisBONCH_OSMOLOVSKAYA_Anastasia_DIGITAL_EDITION_OF_COMPLETE_TOL.xml"><persName n="OrekhovBoris">
+                        <surname>Orekhov</surname>
+                        <forename>Boris</forename>
+                    </persName><affiliation>DH CLOUD; Institute of Russian Literature (Pushkin House),
+                        Russia</affiliation><email>nevmenandr@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TolstayaFeklaBONCH_OSMOLOVSKAYA_Anastasia_DIGITAL_EDITION_OF_COMPLETE_TOL.xml"><persName n="TolstayaFekla">
+                        <surname>Tolstaya</surname>
+                        <forename>Fekla</forename>
+                    </persName><affiliation>TOLSTOY DIGITAL</affiliation><email>6975991@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The paper presents digital edition of Tolstoy's heritage based on 90
+                    complete edition, printed in mid 20th century. The paper describes the workflow
+                    that has been chosen to deal with this immense cultural heritage and defines a
+                    compromise between three objectives: presevation of Tolstoy's heritage,
+                    preservation of literary scholar edition and digital user scenarios</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract>
+                <p>The paper presents digital edition of Tolstoy's heritage based on 90
+                    complete edition, printed in mid 20th century. The paper describes the workflow
+                    that has been chosen to deal with this immense cultural heritage and defines a
+                    compromise between three objectives: presevation of Tolstoy's heritage,
+                    preservation of literary scholar edition and digital user scenarios</p>
+            </abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Tolstoy</term>
+                    <term>TEI</term>
+                    <term>digital scholar edition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>crowdsourcing</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The publication of the 90-volume complete Tolstoy’s edition took thirty years
+                (1928-1958). Despite the great effort put into the collection, the print run was
+                small, making it a bibliographic rarity today. The edition contains more than 7.8
+                mln words, or 44,350 pages of extraordinarily diverse text, and consists of three
+                parts: Fiction and Essays, including previously unpublished versions and drafts
+                (volumes 1-45), Tolstoy's Diaries (volumes 46-58), Tolstoy's Correspondence (59-90).
+                In 2014 the Tolstoy Museum in Moscow and IT company, ABBYY, a leader in OCR
+                technology launched a unique crowdsourcing project "All Tolstoy in one click". The
+                90-volume edition was digitized using ABBYY's OCR technology and then proofread by
+                thousands of volunteers from forty-nine countries within two weeks. The xml files
+                that emerged from the crowdsourcing project gave birth to the idea of developing a
+                fully-fledged digital edition of Tolstoy's heritage.</p>
+            <p>The crucial conceptual decision we had to start was whether we stick with the
+                90-volume publication as the material source, and create the digital version of the
+                book, or we create a new digital edition of Tolstoy's heritage (Bonch-Osmolovskaya
+                Skorinkin et al 2019). In this respect, digital output can pursue three goals, each
+                of which has a direct influence on the final product:</p>
+            <list type="ordered">
+                <item>Preservation of Tolstoy's heritage, freed from the editorial construct of the
+                    90-volume complete edition and open to further expansion by other
+                    sources.</item>
+                <item>Preservation of the enormous literary scholarship heritage, contained in the
+                    90-volume edition in various critical apparatuses.</item>
+                <item>Accessibility of Tolstoy's heritage to the digital user, which ultimately
+                    means other scenarios of interaction with texts and their
+                    interpretations.</item>
+            </list>
+            <p>These same three goals were set by the creators of the "91st volume" application,
+                which implements in electronic form one part of the complete works of Tolstoy, an
+                index to the edition (Orekhov et al. 2018, Orekhov 2020).</p>
+            <p>The three goals are in fact in conflict, i.e. choosing only one of them would make it
+                more difficult to fulfill the others. The first goal can be achieved, for example,
+                by extracting only Tolstoy's text from the recognized OCR files. The second goal can
+                best be achieved by creating a digital diplomatic edition (Pierazzo 2011). To
+                achieve the third goal, one could, for example, skip the time-consuming phase of TEI
+                preparation.</p>
+            <p>We have worked out a compromise that strikes a balance between the three goals and so
+                far protects each of them through a series of specific conceptual choices. </p>
+            <list type="ordered">
+                <item>We focus on Tolstoy’s digital heritage with 90-volume edition being the
+                    primary, but not the only source. This means that we work with texts and not
+                    with volumes. We extract all of Tolstoy's text and provide each document with
+                    detailed metadata. We introduce the concept of a “family” of works, an abstract
+                    unit that groups together all variants of a text (Robinson 2013) and
+                    commentaries and other related works. The titles of all members of the family
+                    are converted into a machine-readable format, to between Tolstoy’s original
+                    titles from those assigned that have been given by the editors of a volume. Each
+                    work in a family has a status tag that is used to create a hierarchy between the
+                    main work and the different types of its variants. Finally, families themselves
+                    can be linked if there is an important connection between them. The screenshot
+                    below shows an example. <figure>
+                        <graphic url="Pictures/c58f48f718325e25290190f520aa095a.png"/>
+                        
+                    </figure></item>
+                <item>We carefully include all critical apparatus, presented in the 90-volume
+                    edition. The printing practices of the mid-20th century involve certain reader
+                    scenarios that should be transformed into digital scenarios. For example, the
+                    index, which occupies a separate additional 91 volume, needs to be transformed
+                    into a database linked to a text span rather than the pages of a volume
+                    (Iglesia, Göbel 2015). The value of the index should not be underestimated: it
+                    cannot be replaced by a NER algorithm. The index reflects years of thorough
+                    editorial work aimed to clarify indirect mentions of people (Orekhov 2020). The
+                    91 volume had not been proofread by volunteers and was, above all, full of OCR
+                    errors. So first we parsed and corrected the index, converted it to a database,
+                    assigned identifiers to each person entry and linked them to wikidata if
+                    possible. Secondly, we used SpaCy NER to extract all the persons mentioned in
+                    the documents and then automatically picked out the best candidates from the
+                    database. We ranked the candidates with similarity weights and then manually
+                    checked those whose weight was not 100%. </item>
+                <item>We have developed user scenarios to navigate the vast Tolstoy heritage. For
+                    example, we have simplified the genre system to 8 basic categories out of 28 in
+                    the 90-volume edition, classified all persons from our index database with four
+                    parameters: Occupation, Lifetime (ancient time, Tolstoy's predecessor, Tolstoy's
+                    contemporary), Member of Tolstoy's family, Tolstoy's correspondent. We have
+                    developed a web interface with a full-search in Tolstoy works, databases, and a
+                    dictionary of rare words.</item>
+            </list>
+            <p>The essential idea that has guided our approaches and decisions is the idea of
+                stages. The potential scope of the digital edition is so immense that we have been
+                urged to plan our work so that each stage would lead to a finished product. The
+                whole project consists of three stages: Digitalization, Creation of a digital
+                scholarly edition, Creation an extended digital edition. The table below shows
+                phases.</p>
+            <table xml:id="d39e237">
+                <head>Table 1:</head>
+                <row>
+                    <cell>Phase</cell>
+                    <cell>Stage name</cell>
+                    <cell>Goal: Tolstoy’s heritage</cell>
+                    <cell>Goal: Literary scholarship</cell>
+                    <cell>Goal: Digital scenarios</cell>
+                </row>
+                <row>
+                    <cell>1</cell>
+                    <cell>Digitalization of 90 volumes</cell>
+                    <cell>
+                        <p>-  volumes to docs;</p>
+                        <p>-  extract all metadata</p>
+                        <p>-  basic tei markup,</p>
+                        <p> </p>
+                    </cell>
+                    <cell>- notes linking</cell>
+                    <cell/>
+                </row>
+                <row>
+                    <cell>2</cell>
+                    <cell>Digital scholarly edition</cell>
+                    <cell>
+                        <p>-complete tei mark-up</p>
+                        <p>-families of works</p>
+                    </cell>
+                    <cell>
+                        <p>- index parsing</p>
+                        <p>- critical apparatus</p>
+                    </cell>
+                    <cell>
+                        <p>- texts and person clasification</p>
+                        <p>- web-portal for search and navigation in texts and reference lists</p>
+                        <p> </p>
+                    </cell>
+                </row>
+                <row>
+                    <cell>We are here</cell>
+                </row>
+                <row>
+                    <cell>3</cell>
+                    <cell>Digital edition of Tolstoy’s heritage</cell>
+                    <cell>
+                        <p>Introduction of new documents from other sources: manuscripts from
+                            Tolstoy’s museums and archives, audiofiles, images etc.</p>
+                        <p> </p>
+                    </cell>
+                    <cell>Extension of Tolstoy’s bibliography from other sources  </cell>
+                    <cell>Development of new apps and websites on the basis of digitalized Tolstoy’s
+                        heritage</cell>
+                </row>
+            </table>
+            <p>All the tei documents are open access and can be found here <ref target="https://github.com/tolstoydigital/TEI">https://github.com/tolstoydigital/TEI</ref></p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bonch-Osmolovskaya, Anastasia, et al</author>
+                        . (2019): 
+                        “
+                        Tolstoy semanticized:
+                            Constructing a digital edition for knowledge discovery
+                        ”, in: 
+                        <hi rend="italic">Journal of Web
+                            Semantics</hi>
+                         59: 100483.
+                    </bibl>
+                    <bibl>
+                        <author>Iglesia, Martin de la</author> / <author>Göbel, Mathias</author> 
+                        (2015): 
+                        “
+                        From entity description
+                            to semantic analysis: The case of Theodor Fontane’s notebooks
+                        ”, in: 
+                        <hi rend="italic">The Linked TEI:
+                            Text Encoding in the Web</hi>
+                         21.
+                    </bibl>
+                    <bibl>
+                        <author>Orekhov Boris</author> / <author>Fischer, Frank</author> 
+                        (2018):
+                         The 91st Volume-How the
+                            Digitised Index for the Collected Works of Leo Tolstoy Adds A New Angle
+                            for Research
+                        ”, in:
+                        
+                        <hi rend="italic">Digital Humanities
+                            2018</hi>
+                        . Puentes-Bridges. Book
+                            of Abstracts: 465-466.
+                    </bibl>
+                    <bibl>
+                        <author>Orekhov, Boris </author>
+                        (2020): 
+                        “
+                        "
+                        Volume 91
+                        "
+                        : An electronic index to the complete works of Leo
+                            Tolstoy
+                        ”, in:
+                        
+                        <hi rend="italic">Journal of Siberian Federal University.
+                            Humanities and social sciences.</hi>
+                         12: 2049-2055. 
+                    </bibl>
+                    <bibl>
+                        <author>Pierazzo, Elena</author>
+                         (2011): 
+                        “
+                        A rationale of digital documentary editions
+                        ”, in:
+                        
+                        <hi rend="italic">Literary and linguistic computing</hi>
+                         26.4: 463-477.
+                    </bibl>
+                    <bibl>
+                        <author>Robinson, Peter</author>
+                        
+                        (2013): 
+                        “
+                        Towards a theory of
+                            digital editions
+                        ”, in:
+                         
+                        <hi rend="italic">The Journal of the
+                            European Society for Textual Scholarship</hi>
+                        : 105-131.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

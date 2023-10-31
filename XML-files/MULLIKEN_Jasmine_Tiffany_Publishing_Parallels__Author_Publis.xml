@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publishing Parallels: Author-Publisher Collaboration in Digital Projects vs Print Monographs</title>
+                <author n="MullikenJasmineMULLIKEN_Jasmine_Tiffany_Publishing_Parallels__Author_Publis.xml"><persName ref="https://orcid.org/0000-0003-4686-9513" n="MullikenJasmine">
+                        <surname>Mulliken</surname>
+                        <forename>Jasmine</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>jasmine.mulliken@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ColemanCatherineNicoleMULLIKEN_Jasmine_Tiffany_Publishing_Parallels__Author_Publis.xml"><persName n="ColemanCatherineNicole">
+                        <surname>Coleman</surname>
+                        <forename>Catherine Nicole</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>cnc@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This presentation offers a side-by-side comparison of the publication processes for traditional monographs versus complex interactive digital projects. Prepared by Stanford University Press whose 6-year Mellon-funded digital publishing initiative is coming to a close in December 2023, the presentation reflects on the highly collaborative processes digital publications require.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>publishing</term>
+                    <term>preservation</term>
+                    <term>peer review</term>
+                    <term>web</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>digital archiving</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Book and print history</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>How do digital projects and traditional monographs compare? In another decade will long-form peer-reviewed digital humanities projects produced today be known as just <hi rend="italic">books?</hi> Practitioners in the digital humanities have for years been questioning the role of peer review, open access, and the monograph itself in digital scholarship (see Risam 2019; Moore 2019; Coble, et al. 2014, Milligan 2022). For scholars in Digital Humanities, it can seem counterintuitive that research performed digitally should still be encapsulated for publication by a linear print framework poorly suited to the subject matter and research methods. Challenging this disconnect, a handful of university presses are expanding to accommodate new forms of publication, developing workflows for the acquisition, review, production, and persisting of interactive digital works (Cullen, et al. 2018; Burton, et al. 2021; Waters 2016, 2018). These initiatives have produced both a growing catalog of innovative, digital-only publications and new processes for scholarly publishing that should be of interest to DH authors. This work comes at a time when, according to Lisa Bayer, “‘experimentation and evolution,’ especially regarding access and discoverability, [are] necessary for monographs to remain relevant and useful” (Bayer 2022).</p>
+            <p>By choosing digital formats, authors and publishers are attempting to solve many problems that traditional media present. But by attempting to solve them, we’ve also uncovered many <hi rend="bold">new</hi> challenges to consider. This presentation addresses those challenges through a direct comparison between the processes of publishing monographs and the work of preparing a published digital project. Stanford University Press has spent six years at the forefront of digital project publication with the explicit goal of making them as robust and valid as print publications in the academy. Now, as that program winds down and other publishers — whether university presses or library publishers — take up the call to publish innovative digital-only projects, SUP offers this review of the groundwork we’ve laid in mapping out the processes involved in digital publishing. In doing so, we hope to encourage the wider adoption and development of the work we started.</p>
+            <p>This presentation reveals the behind-the-scenes workflows of a scholarly publisher producing both print and digital works, inviting authors, developers, and other potential publishers of interactive digital content to consider the timelines and intervention points within the development and production of digital projects. Authors of digital projects benefit from beginning to work with a publisher much earlier in the development process than they might with a typical book project. Format and platform choices, for example, are significant factors in the persistence of a digital work in the scholarly record, and recent collaborations between developers, publishers, libraries, and preservation service providers are beginning to establish recommendations and standards for archivability (see Levy / McKee 2022; Greeenberg, et al. 2021; Smithies, et al. 2019; Vinopal / McCormick 2013) to ensure the preservability of digital projects so that “digital scholarship [remains] a first class object” in the eyes of tenure committees (Watkinson 2017). What becomes clear when examining the parallel processes of book and digital project publication is the substantial iterative and collaborative nature of publishing a digital project. </p>
+            <p>The presentation is accompanied by a visualization that steps through both print and digital-only publishing processes from start to finish—from acquisition and editorial development, to contract negotiating and permissions, to production, copyright registration, and archiving. The visualization highlights where digital content introduces new iterative stages in the workflow and yet how still the overall process mirrors the rigors of typical monograph publishing. While the two formats of the book and digital project seem distinctively different, many of the objectives and core principles are the same. </p>
+            <p>The visualization’s side-by-side workflows make transparent to authors the different processes they can expect when working with a publisher to produce a digital project as opposed to a traditional print monograph. It serves as a point of conversation between the publisher and authors considering proposing a digital project. We intend this paper to encourage a conversation with authors, to share their experiences in publishing so academic publishers can further refine their practices to meet the needs of authors. </p>
+            <p>A key challenge but critical requirement of digital publishing programs is adherence to traditional models that foreground the rigor of scholarly publishing, including peer review, contract development, distribution, citability, and material longevity of the final product, while also acknowledging and accommodating the evolving and often ephemeral nature of complex multimodal digital narratives. As scholarly outputs in Digital Humanities increasingly take forms more congruent to the methods underlying the research informing them, publishers <hi rend="italic">must</hi> rise to the challenge of accommodating digital interactive formats that invite more innovative and appropriate modes of communication than the traditional print monograph allows. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bayer, Lisa</author> (March 14, 2022): “Sustaining and reimagining the monograph”, in 
+                        <hi rend="italic">AUPresses Digital Digest </hi><ref target="https://perma.cc/AUJ7-VNVL">https://perma.cc/AUJ7-VNVL</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Burton, Kath</author> / <author>Cocks, Catherine</author> / <author>Cullen, Darcy</author> / <author>Fisher, Daniel</author> / <author>Goldenberg, Barry M.</author> / <author>Smucker, Janneken</author> / <author>Sundaram, Friederike</author> / <author>Tell, Dave</author> / <author>Valks, Anne</author> / <author>Wingo, Rebecca</author>  (2021): “Public humanities and publication: a working paper”, Routledge, Taylor &amp; Francis and National Humanities Alliance <ref target="http://dx.doi.org/10.17613/gpvb-x279">http://dx.doi.org/10.17613/gpvb-x279</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Coble, Zach</author> / <author>Potvin, Sarah</author> / <author>Shirazi, Roxanne</author>  (2014): "Process as product: Scholarly communication experiments in the digital humanities", in 
+                        <hi rend="italic">Journal of Librarianship and Scholarly Communication</hi> 2, 3.
+                    </bibl>
+                    <bibl>
+                        <author>Cullen, Darcy</author> / <author>Mulliken, Jasmine</author> / <author>Ball, Cheryl</author> / <author>Albers, Gregory</author> / <author>Fuget, Beth</author>  (2018): “Publishing digital projects”, Conference panel at Association of University Presses.
+                    </bibl>
+                    <bibl>
+                        <author>Elliott, Michael A.</author> (2015): “The future of the monograph in the digital era: a report to the Andrew W. Mellon Foundation”, in 
+                        <hi rend="italic">The Journal of Electronic Publishing</hi> 18, 4.
+                    </bibl>
+                    <bibl>
+                        <author>Fenlon, Katrina, et al.</author> (2019): "Humanities scholars and library-based digital publishing: new forms of publication, new audiences, new publishing roles", 
+                        <hi rend="italic">Journal of Scholarly Publishing</hi> 50.3 (2019): 159-182
+                    </bibl>
+                    <bibl>
+                        <author>Greenberg, Jonathan</author> / <author>Hanson, Karen</author> / <author>Verhoff, Deb</author>  (2021): “Report on enhancing services to preserve new forms of scholarship”, 
+                        <hi rend="italic">NYU Libraries</hi> <ref target="https://doi.org/10.33682/0dvh-dvr2">https://doi.org/10.33682/0dvh-dvr2</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Levy, Allison</author> / <author>McKee, Sarah</author>  (2022): “Multimodal digital monographs: content, collaboration, community” <ref target="https://doi.org/10.21428/36a3e2c8.e1215c8e">https://doi.org/10.21428/36a3e2c8.e1215c8e</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Maxwell, John W.</author> / <author>Bordini, Alessandra</author> / <author>Shamash, Katie</author>  (2017): “Reassembling scholarly communications: an evaluation of the Andrew W. Mellon Foundation’s monograph initiative” (final report, May 2016)”, in 
+                        <hi rend="italic">The Journal of Electronic Publishing</hi> 20, 1.
+                    </bibl>
+                    <bibl>
+                        <author>Milligan, Ian</author>
+                         (2022): 
+                        <hi rend="italic">The Transformation of Historical Research in the Digital Age</hi>
+                        . Cambridge: Cambridge University Press. DOI:10.1017/9781009026055.
+                    </bibl>
+                    <bibl>
+                        <author>Moore, Samuel</author> (2019): 
+                        <hi rend="italic">Common struggles: Policy-based vs. scholar-led approaches to open access in the humanities</hi>. Dissertation, King's College London.
+                    </bibl>
+                    <bibl>
+                        <author>Risam, Roopika</author> (2014): "Rethinking Peer Review in the Age of Digital Humanities", in 
+                        <hi rend="italic">Ada: A Journal of Gender, New Media, and Technology </hi>4
+                        <hi rend="italic"> </hi><ref target="https://scholarsbank.uoregon.edu/xmlui/handle/1794/26314">https://scholarsbank.uoregon.edu/xmlui/handle/1794/26314</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Smithies, James</author> / <author>Westling, Carina</author> / <author>Sichani, Anna-Maria</author> / <author>Mellen, Pam</author> / <author>Ciula, Arianna</author>  (2019): “Managing 100 digital humanities projects: Digital scholarship and archiving in King’s Digital Lab”, in 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 13, 1.
+                    </bibl>
+                    <bibl>
+                        <author>Starkman, Ruth</author>
+                         (2013): “What ‘counts’?”, in 
+                        <hi rend="italic">Inside Higher Ed</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Tracy, Daniel G.</author>
+                         (2016): “Assessing digital humanities tools: Use of Scalar at a research university”, in 
+                        <hi rend="italic">portal: Libraries and the Academy</hi>
+                         16, 1: 163-189. DOI:10.1353/pla.2016.0004.
+                    </bibl>
+                    <bibl>
+                        <author>Vinopal, Jennifer</author> / <author>McCormick, Monica</author> 
+                         (2013): “Supporting digital scholarship in research libraries: Scalability and sustainability”, in 
+                        <hi rend="italic">Journal of Library Administration</hi>
+                         53, 1: 27–42.
+                    </bibl>
+                    <bibl>
+                        <author>Waters, Donald J.</author> (2016): "Monograph publishing in the digital age", in 
+                        <hi rend="italic">Against the Grain</hi> 28, 3.
+                    </bibl>
+                    <bibl>
+                        <author>Waters, Donald J.</author> (2018): “The monograph is dead! Long live the monograph!”, presentation at the Jisc and CNI leaders conference.
+                    </bibl>
+                    <bibl>
+                        <author>Watkinson, Charles</author> (March 9, 2017): “Modern challenges for digital publishing”, in Educause Podcast <ref target="https://soundcloud.com/educause/charles-watkinson-modern-challenges-for-digital-publishing">https://soundcloud.com/educause/charles-watkinson-modern-challenges-for-digital-publishing</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

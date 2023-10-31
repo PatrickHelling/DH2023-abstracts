@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SIG-DLS Seven Years on</title>
+                <author n="ReboraSimoneREBORA_Simone_SIG_DLS_Seven_Years_on.xml"><persName n="ReboraSimone">
+                        <surname>Rebora</surname>
+                        <forename>Simone</forename>
+                    </persName><affiliation/><email>simone.rebora@uni-mainz.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ByszukJoannaREBORA_Simone_SIG_DLS_Seven_Years_on.xml"><persName ref="https://orcid.org/0000-0003-2850-2996" n="ByszukJoanna">
+                        <surname>Byszuk</surname>
+                        <forename>Joanna</forename>
+                    </persName><affiliation/><email>joanna.byszuk@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FrontiniFrancescaREBORA_Simone_SIG_DLS_Seven_Years_on.xml"><persName ref="https://orcid.org/0000-0002-8126-6294" n="FrontiniFrancesca">
+                        <surname>Frontini</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation/><email>francesca.frontini@ilc.cnr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HerrmannJBerenikeREBORA_Simone_SIG_DLS_Seven_Years_on.xml"><persName n="HerrmannJBerenike">
+                        <surname>Herrmann</surname>
+                        <forename>J. Berenike</forename>
+                    </persName><affiliation/><email>berenike.herrmann@uni-bielefeld.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MpouliSuzanneREBORA_Simone_SIG_DLS_Seven_Years_on.xml"><persName n="MpouliSuzanne">
+                        <surname>Mpouli</surname>
+                        <forename>Suzanne</forename>
+                    </persName><affiliation/><email>Suzanne.Mpouli@univ-paris-diderot.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RuizFaboPabloREBORA_Simone_SIG_DLS_Seven_Years_on.xml"><persName ref="https://orcid.org/0000-0002-4349-4835" n="RuizFaboPablo">
+                        <surname>Ruiz Fabo</surname>
+                        <forename>Pablo</forename>
+                    </persName><affiliation/><email>ruizfabo@unistra.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>With this workshop, the SIG-DLS would like to provide a renewed overview of the field of Digital Literary Stylistics, in ideal dialogue with the seminal workshop organized at DH2016, which allowed the constitution of the SIG.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>ADHO SIG Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital literary stylistics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Seven years have passed since the constitution of the ADHO Special Interest Group “Digital Literary Stylistics” (SIG-DLS). In the meantime, the research field has changed, with the advent of new methodologies (drawing on the constantly growing field of computational linguistics) and the affirmation of emerging theories and definitions (such as the modeling paradigm in “computational literary studies”). At the same time, some aspects and reference points have remained the same, such as the confirmed success of frequency-based approaches and the pivotal role of statistical methods.</p>
+            <p>With this workshop, we would like to provide a renewed overview of the field of Digital Literary Stylistics, in ideal dialogue with the seminal workshop organized at DH2016, which allowed the constitution of the SIG-DLS. We therefore open a Call for Papers to all related areas of research, including (and not limited to):</p>
+            <list type="unordered">
+                <item>understanding and improving “classic” stylometric methods (between Delta and Zeta)</item>
+                <item>stylometric feature engineering (character n-grams, words, syntax, and beyond)</item>
+                <item>integration with advanced language models (e.g. word embeddings and Transformer models)</item>
+                <item>identifying the source(s) of stylistic difference (from authors to genres, epochs, and beyond)</item>
+                <item>style annotations (e.g. phenomenological dimension of style, gestalt annotations)</item>
+                <item>style in different contexts (e.g. social media style, style of artificial agents)</item>
+                <item>style in translation, cross-linguistic and cross-cultural style comparisons</item>
+                <item>style as reader/text interaction</item>
+                <item>style and complexity</item>
+                <item>style and quality</item>
+                <item>tools, platforms and infrastructures for digital literary stylistics</item>
+                <item>(FAIR) development and sharing of corpora and collections</item>
+            </list>
+        </body>
+    </text></TEI>

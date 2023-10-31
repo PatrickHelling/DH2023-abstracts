@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fostering Collaboration to Enable Bibliodata-driven Research in the Humanities</title>
+                <author n="MalnekVojtchMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-9553-5993" n="MalnekVojtch">
+                        <surname>Malínek</surname>
+                        <forename>Vojtěch</forename>
+                    </persName><affiliation>Institute of Czech Literature, Czech Academy of Sciences, Czech Republic</affiliation><email>malinek@ucl.cas.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="UmerleTomaszMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName n="UmerleTomasz">
+                        <surname>Umerle</surname>
+                        <forename>Tomasz</forename>
+                    </persName><affiliation>Institute of Literary Research, Polish Academy of Sciences, Poland</affiliation><email>tomasz.umerle@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TolonenMikkoMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName n="TolonenMikko">
+                        <surname>Tolonen</surname>
+                        <forename>Mikko</forename>
+                    </persName><affiliation>University of Helsinki, Finland</affiliation><email>mikko.tolonen@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KarliskaAgnieszkaMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-4846-7086" n="KarliskaAgnieszka">
+                        <surname>Karlińska</surname>
+                        <forename>Agnieszka</forename>
+                    </persName><affiliation>NASK National Research Institute, Warszaw</affiliation><email>agnieszka.karlinska@ibl.waw.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RomanelloMatteoMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-7406-6286" n="RomanelloMatteo">
+                        <surname>Romanello</surname>
+                        <forename>Matteo</forename>
+                    </persName><affiliation>Université de Lausanne, Switzerland</affiliation><email>matteo.romanello@unil.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ColavizzaGiovanniMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-9806-084X" n="ColavizzaGiovanni">
+                        <surname>Colavizza</surname>
+                        <forename>Giovanni</forename>
+                    </persName><affiliation>University of Amsterdam, Netherlands</affiliation><email>g.colavizza@uva.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PeroniSilvioMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0003-0530-4305" n="PeroniSilvio">
+                        <surname>Peroni</surname>
+                        <forename>Silvio</forename>
+                    </persName><affiliation>University of Bologna, Italy</affiliation><email>silvio.peroni@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SiweckaDorotaMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0003-1649-7579" n="SiweckaDorota">
+                        <surname>Siwecka</surname>
+                        <forename>Dorota</forename>
+                    </persName><affiliation>University of Wroclaw, Poland</affiliation><email>dorota.siwecka@uwr.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ubockiJakubMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-1957-0682" n="ubockiJakub">
+                        <surname>Łubocki</surname>
+                        <forename>Jakub</forename>
+                    </persName><affiliation>National Museum of Wrocław, Poland</affiliation><email>jakub.lubocki@mnwr.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RilerPipkaNanetteMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-0719-9003" n="RilerPipkaNanette">
+                        <surname>Rißler-Pipka</surname>
+                        <forename>Nanette</forename>
+                    </persName><affiliation>GWDG, Göttingen, Germany</affiliation><email>nanette.rissler-pipka@gwdg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LindemannDavidMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0002-8261-6882" n="LindemannDavid">
+                        <surname>Lindemann</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>University of Basque Country, Spain</affiliation><email>david.lindemann@ehu.eus</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LabropoulouPennyMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0001-5123-7890" n="LabropoulouPenny">
+                        <surname>Labropoulou</surname>
+                        <forename>Penny</forename>
+                    </persName><affiliation>ATHENA Research Centre, Greece</affiliation><email>penny@athenarc.gr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KlaesChristianeMAL_NEK_Vojt_ch_Fostering_Collaboration_to_Enable_Bibliodata.xml"><persName ref="https://orcid.org/0000-0003-4870-4392" n="KlaesChristiane">
+                        <surname>Klaes</surname>
+                        <forename>Christiane</forename>
+                    </persName><affiliation>Technische Universität Braunschweig, Germany</affiliation><email>c-klaes@tu.brauschweig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Bibliographical data are one of the most important types of data for data-driven research and curation in the humanities. The goal of the panel is to introduce various aspects of current bibliographical data ecosystem which is shaped by constant interactions between various public and private stakeholders.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>bibliographies - cultural analytics - citation indexes - metadata documentation - linked open data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>linked (open) data</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>open access methods</term>
+                    <term>Book and print history</term>
+                    <term>Cultural studies</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Panel Overview</head>
+                <div>
+                    <p><hi rend="bold">Bibliodata Landscape in the Humanities</hi></p>
+                <p>Vojtěch Malínek, Institute of Czech Literature, Czech Academy of Sciences</p>
+                <p>Tomasz Umerle, Institute of Literary Research, Polish Academy of Sciences</p>
+                <p>Bibliographical data (bibliodata) are one of the most important types of data for data-driven research and curation in the humanities. Bibliodata has solid foundations in terms of data production (constant flow of data produced by different stakeholders) and an established user base. The current bibliographical data ecosystem is shaped by constant interactions between various public and private stakeholders which engage in production and (re)use of bibliodata (Umerle et al. 2022). </p>
+                <p><figure><graphic n="1001" width="15.804444444444444cm" height="10.470444444444444cm" url="Pictures/8312b4c24177d044689101f8e095de19.png" rend="inline"/></figure>This complex and rich data landscape is responsible for registering cultural, societal and research phenomena through national libraries (i.e. 
+                    <ref target="https://www.bnf.fr">BNF</ref>), union catalogues (i. e. 
+                    <ref target="http://estc.bl.uk/">ESTC</ref>) and specialized bibliographies (i.e. 
+                    <ref target="https://blog.boslit.glasgow.ac.uk/">BOSLIT</ref>), academic and public repositories (i.e. 
+                    <ref target="https://zenodo.org/">Zenodo</ref>) and CRIS systems, citation indexes (i.e. 
+                    <ref target="https://www.scopus.com/">Scopus</ref>, 
+                    <ref target="https://webofknowledge.com/">WoS</ref>), metadata aggregators (
+                    <ref target="https://www.openaire.eu">OpenAIRE</ref>, 
+                    <ref target="https://www.europeana.eu/cs">Europeana</ref>, 
+                    <ref target="https://project.gotriple.eu">TRIPLE</ref>), social networks (e. g. 
+                    <ref target="https://www.goodreads.com/">Goodreads</ref>) or information services (i.e. 
+                    <ref target="https://www.dimensions.ai/">Dimensions</ref>, 
+                    <ref target="https://www.altmetric.com/">Altmetric</ref>).
+                </p>
+                <p>These sources and services are used by the general public, researchers and curatorial institutions to identify, describe and make available different information resources, but at the same time there is a long lasting and fast growing trend to produce knowledge based on bibliographical data (Aspesi et al. 2021). </p>
+                <p>This trend is followed by various bibliodata stakeholders including researchers in the field of bibliometrics, cultural analytics, book history and service providers such as public e-infrastructures (OpenAIRE), or private companies like Dimensions that increasingly engage in providing research data for transforming information into knowledge.</p>
+                <p>Unfortunately, despite large amounts of data, diverse interest in data-based research and relative accessibility to this type of resources (in comparison e.g. to full text collections), bibliodata-based research has not reached its full potential to provide relevant knowledge on the social and cultural, contemporary and historical processes. </p>
+                <p>This is due to the number of challenges in the field, especially dispersion of data resources amongst divergent stakeholders, fragmentation of the stakeholders, unbalanced distribution of innovative solutions and best practices, uncoordinated data curation standards in different fields and disciplinary barriers between established research methodologies (e.g. bibliometrics, book history, cultural analytics) (Király 2019).</p>
+                <p>To leverage the full potential of bibliodata-driven research in the humanities we need a multi-faceted approach to tackle those challenges. In this panel we propose a renewed framework for scaling up bibliodata-driven research through collaborative efforts:</p>
+                <p>1) propel creation of the scalable and multidisciplinary bibliodata workflows for bibliographical data science, especially through collaboration of metadata-based research with the AI and textual analysis communities,</p>
+                <p>2) adjust open data standards and implementations to the needs of digital humanities, especially focusing on solutions diverse actors relevant for the humanities – not only research ones, but GLAM ones,</p>
+                <p>3) share and implement interoperability standards and best practices,</p>
+                <p>4) create and implement standardised and detailed documentation of bibliographical resources.</p></div>
+            <div>
+                <p><hi rend="bold">Opportunities and Challenges for Bibliographical Data Science</hi></p>
+                <p>Mikko Tolonen, University of Helsinki</p>
+                <p>Agnieszka Karlińska, NASK National Research Institute, Warszaw</p>
+                <p><hi rend="bold">Bibliographical data science (BDS)</hi> is an approach targeted at enabling the use of bibliographical metadata as a research object, deriving from the more generic paradigms of book history, open science and data science (Lahti et al. 2019). Since bibliographical metadata is connected to all aspects of public discourse, BDS potential to influence scholarly practices is enormous. Today BDS is facing two critical challenges: 1) 
+                    <hi rend="bold">creation of enrichment and harmonisation workflows</hi> to facilitate large-scale bibliodata-driven research, 2) the need to grow as a community and embrace the developments at the
+                    <hi rend="bold"> intersections of metadata processing and textual analysis</hi> by developing collaborations with the NLP and ML experts.
+                </p>
+                <p>Wider reach of bibliographical data research calls for 
+                    <hi rend="bold">usage of interdisciplinary, multilingual </hi>collections originating from diverse sources. Independently maintained collections demand automated harmonisation enhancing their readiness for quantitative analysis (Tolonen et al. 2021). The critical challenge in this regard is the creation of scalable workflows for producing knowledge that cover all stages of the bibliodata research. On the one hand, there is a need to genuinely take an international perspective. On the other hand, we need to overcome disciplinary silos and bring together diverse experts.
+                </p>
+                <p>At the same time, 
+                    <hi rend="bold">bibliodata-driven research</hi> cannot focus solely on the metadata and 
+                    <hi rend="bold">needs to grow as a community</hi> and create a framework 
+                    <hi rend="bold">combining metadata-based workflows with the NLP methods</hi> aimed at data mining and information extraction (Péter et al. 2020). Together these approaches produce larger workflows critical for the humanities research that should be collaboratively developed and openly shared.
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Building the Humanities Citation Index: a Case in Point for Open Bibliodata</hi></p>
+                <p>Matteo Romanello, University of Lausanne </p>
+                <p>Giovanni Colavizza, University of Amsterdam</p>
+                <p>Silvio Peroni, University of Bologna</p>
+                <p>Building a citation index for the Arts &amp; Humanities is a typical example of an endeavour that, in order to be realised, would require a 
+                    <hi rend="bold">radical change</hi> in the way GLAM institutions represent, organise and exchange bibliographical data (Stone 1982). The implementation of such a Humanities Citation Index (HuCI) not only raises some substantial technical challenges (Colavizza et al. 2022), but also requires 
+                    <hi rend="bold">close collaboration</hi> between various stakeholders responsible for producing, publishing or consuming bibliodata (Martín-Martín et al. 2021). These include researchers, libraries, archives, publishers, and learned societies. In this contribution, we will discuss the following aspects which are key to the realisation of HuCI:
+                </p>
+                <p><hi rend="bold">Licensing and documentation:</hi> bibliodata ought to come with explicitly defined open licenses (Ficarra et al. 2020), as well as with thorough documentation in order to maximise their reusability.
+                </p>
+                <p><hi rend="bold">Shared bibliodata formats:</hi> to enable their use in citation mining pipelines and processes, bibliodata must be represented in a shared, concise, and "easy-to-process" format. In the absence of widely adopted common formats, we will require services for mapping existing formats into a common one.
+                </p>
+                <p><hi rend="bold">Provision of persistent identifiers:</hi> any source to be indexed by HuCI needs a unique, persistent identifier. This raises some issues in terms of coverage and granularity, and requires to find economically viable solutions to minting unique identifiers for legacy publications. 
+                </p>
+                <p><hi rend="bold">Data and service APIs:</hi> the exchange of bibliodata between GLAM institutions and any potential user must happen without need for 
+                    <hi rend="italic">any </hi>human intervention, by means of APIs and regular data dumps.
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Documentation of Bibliodata Resources</hi></p>
+                <p>Dorota Siwecka, University of Wroclaw</p>
+                <p>Jakub Łubocki, National Museum of Wrocław</p>
+                <p>Nanette Rißler-Pipka, GWDG, Göttingen</p>
+                <p>Creating, maintaining and providing access to resources of a bibliographical nature is proving to be insufficient for the average user. Even the best-constructed bibliographical database, using international metadata standards, open licenses and API or similar open interfaces, turns out to be moderately useful when its description is missing (Bilder et al. 2020). A lack of proper user-friendly documentation containing basic information on the methodology of creating bibliographical datasets affects many factors, i.e. users’ awareness of the level of relevancy and completeness of the obtained results. In the context of data reuse depicting the contents of the database seems crucial in order to draw well reflected conclusions from bibliodata analysis.</p>
+                <p>Creating, sharing and disseminating best practices in documentation for users of bibliographical datasets, is what we propose as a solution to improve the quality of bibliodata resources, as well as increase their reuse (Faniel and Zimmermann 2011). A collaboration between divergent stakeholders is needed to find and compare existing recommendations from different countries (Vlassenroot et al. 2021). On this basis, international guidelines for bibliodata providers should be created taking into account the user’s point of view (concerning scope and coverage of database, sources of information, structure, metadata model, license, etc.). Developed recommendations should also include a template of such dataset description. It will allow comparison of this kind of resources and make it easier to select the reliable datasets for research. A description template can be then used e.g. for creating a register of European bibliographical databases for Humanities.</p>
+            </div>
+            <div>
+                <p><hi rend="bold">Bibliodata LOD-ification using free software</hi></p>
+                <p>David Lindemann, University of Basque Country</p>
+                <p>Penny Labropoulou, ATHENA Research Centre</p>
+                <p>Christiane Klaes, Technische Universität Braunschweig</p>
+                <p>This contribution discusses workflows for the conversion of bibliodata into Linked Data, using free software. Under "bibliodata" we consider publication metadata from bibliographic catalogues, citation relations and content-describing subject headings. For the discussion, we present three use cases, namely 
+                    <ref target="https://lexbib.elex.is/">LexBib</ref> (Lindemann et al. 2018; Lindemann 2021), a bibliography of Lexicography and Dictionary Research, 
+                    <ref target="https://wikibase.inguma.eus/">Inguma</ref> (Erriondo 2006), a collection of scientific written production in the Basque language, and 
+                    <ref target="https://clb-lod.wikibase.cloud/">CLB-LOD</ref>, a dataset derived from the electronic 
+                    <ref target="https://clb.ucl.cas.cz/">Czech Literary Bibliography</ref>. Final goal in all the use-cases on hand is federation with or integration in 
+                    <ref target="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</ref> (Vrandečić / Krötzsch 2014; Van Veen 2019), a large free Knowledge Graph, while their sources deploy different formats and models: (1) 
+                    <ref target="https://zotero.org/">Zotero</ref> collection, (2) SQL database with custom (non-standard) data model, and (3) 
+                    <ref target="https://www.loc.gov/standards/marcxml/marcxml-architecture.html">MARC21</ref> (XML version), a standard widely used in library catalogues. 
+                </p>
+                <p>To that end, we deploy instances of the 
+                    <ref target="https://wikiba.se/">Wikibase</ref> software (i.e., the same software that underlies Wikidata, cf. Lindemann (2022)). For interaction with Wikibase, e.g. data upload, synchronization, and entity linking (reconciliation of literal values against authority files such as (
+                    <ref target="http://viaf.org/">VIAF</ref> or Wikidata), we use our own 
+                    <ref target="https://github.com/dlindem/wikibase">scripts</ref>, and 
+                    <ref target="https://openrefine.org/">OpenRefine</ref>.
+                </p>
+                <p>We present advantages and drawbacks of the chosen software and tool pipeline, taking into account benefits of including bibliographical data in the Wikidata Knowledge Graph, such as their visibility through related bibliometrics tools like 
+                    <ref target="https://scholia.toolforge.org/">Scholia</ref> (Nielsen et al. 2017), and how our approach could be adopted by a larger community.
+                </p>
+            </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Aspesi, Claudio</author> / <author>Allen, Nicole</author> / <author>Crow, Raym</author> / <author>Hollister, Valorie</author> / <author>Joseph, Heather</author> / <author>McArthur, Joseph</author> / <author>Shockey, Nick</author> / <author>Steen, Katie</author>  (2021): 
+                        <hi rend="italic">2021 Update: SPARC landscape analysis and roadmap for action</hi>. 
+                        <ref target="https://www.sparcopen.org/wp-content/uploads/2021/10/2021-Landscape-Analysis-101421.pdf">https://www.sparcopen.org/wp-content/uploads/2021/10/2021-Landscape-Analysis-101421.pdf</ref> [30.10.2022].     
+                    </bibl>
+                    <bibl>
+                        <author>Bilder, G.</author> / <author>Lin, J.</author> / <author>Neylon, C.</author>  (2020): 
+                        <hi rend="italic">The principles of Open Scholarly Infrastructure</hi>. DOI: 
+                        <ref target="https://doi.org/10.24343/C34W2H">10.24343/C34W2H</ref>. 
+                    </bibl>
+                    <bibl>
+                        <author>Colavizza, Giovanni</author> / <author>Peroni, Silvio</author> / <author>Romanello, Matteo</author> 
+                         (2022): “The case for the Humanities Citation Index (HuCI): a citation index by the humanities, for the humanities”, in:
+                        <hi rend="italic">International Journal on Digital Libraries</hi>
+                        . DOI:
+                        <ref target="https://doi.org/10.1007/s00799-022-00327-0">10.1007/s00799-022-00327-0</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Erriondo, Lorre</author> (2006): “Soziolinguistika eta UEU (Udako Euskal Unibertsitatea)”, in: 
+                        <hi rend="italic">Bat: Soziolinguistika aldizkaria</hi>
+                        61: 71–84.
+                    </bibl>
+                    <bibl>
+                        <author>Faniel, Ixchel M.</author> / <author>Zimmerman, Ann</author>  (2011): “Beyond the data deluge: A research agenda for large-scale data sharing and reuse”, in: 
+                        <hi rend="italic">International Journal of Digital Curation</hi>
+                        6, 1: 58–69. DOI: 
+                        <ref target="https://doi.org/10.2218/ijdc.v6i1.172">10.2218/ijdc.v6i1.172</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Ficarra, Victoria</author> / <author>Fosci, Matiia</author> / <author>Chiarelli, Andrea</author> / <author>Kramer, Bianca</author> / <author>Proudman, Vanessa</author>  (2020): 
+                        <hi rend="italic">Scoping the Open Science Infrastructure landscape in Europe</hi>. Zenodo. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.4159838">10.5281/zenodo.4159838</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Király, Péter</author> (2019): „Validating 126 million MARC records“, in: 
+                        <hi rend="italic">DATeCH2019: Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage</hi>, Brussels, Belgium, May 2019: 161–168. DOI: 
+                        <ref target="https://doi.org/10.1145/3322905.3322929">10.1145/3322905.3322929</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Lahti, Leo</author> / <author>Marjanen, Jani</author> / <author>Roivainen, Hege</author> / <author>Tolonen, Mikko</author>  (2019): “Bibliographic Data Science and the History of the Book (c. 1500–1800)”, in: 
+                        <hi rend="italic">Cataloging &amp; Classification Quarterly</hi>
+                         57, 1: 5–23. DOI: 
+                        <ref target="https://doi.org/10.1080/01639374.2018.1543747">10.1080/01639374.2018.1543747</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Lindemann, David</author> (2022): “LOD-Ification of Bibliographical Data Using Free Software: CLB-LOD Wikibase”. 
+                        <hi rend="italic">Mutual Learning Workshop for Improving Cultural Heritage Bibliographical Data, </hi>Prague, Czech Republic, October 2022. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.7250730">10.5281/zenodo.7250730</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Lindemann, David</author> (2021): “Zotero to Elexifinder: Collection, Curation, and Migration of Bibliographical Data”, in: 
+                        <hi rend="italic">SiKDD 21 Slovenian KDD Conference. </hi>Ljubljana, Slovenia, October 2021 
+                        <ref target="https://ailab.ijs.si/dunja/SiKDD2021/Papers/LindemannDavid.pdf">https://ailab.ijs.si/dunja/SiKDD2021/Papers/LindemannDavid.pdf</ref> [30.10.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Lindemann, David</author> / <author>Kliche, Fritz</author> / <author>Heid, Ulrich</author>  (2018): “LexBib: A Corpus and Bibliography of Metalexicographical Publications”, in: 
+                        <hi rend="italic">Proceedings of the XVIII EURALEX International Congress</hi>. Ljubljana, Slovenia, August 2018: 699–712. 
+                        <ref target="http://euralex.org/publications/lexbib-a-corpus-and-bibliography-of-metalexicographical-publications/">http://euralex.org/publications/lexbib-a-corpus-and-bibliography-of-metalexicographical-publications/</ref> [30.10.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Martín-Martín, Alberto</author> / <author>Thelwall, Mike</author> / <author>Orduna-Malea, Enrique</author> / <author>Delgado López-Cózar, Emilio</author>  (2021): “Google Scholar, Microsoft Academic, Scopus, Dimensions, Web of Science, and OpenCitations’ COCI: a multidisciplinary comparison of coverage via citations”, in: 
+                        <hi rend="italic">Scientometrics</hi>
+                        126, 1: 871–906. DOI: 
+                        <ref target="https://doi.org/10.1007/s11192-020-03690-4">10.1007/s11192-020-03690-4</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Nielsen, Finn Årup</author> / <author>Mietchen, Daniel</author> / <author>Willighagen, Egon</author>  (2017): „Scholia, Scientometrics and Wikidata“, in Blomqvist, E. et al. (eds.): 
+                        <hi rend="italic">The Semantic Web: ESWC 2017 Satellite Events</hi>. Cham: Springer International Publishing: 237–259. DOI: 
+                        <ref target="http://doi.org/10.1007/978-3-319-70407-4_36">10.1007/978-3-319-70407-4_36</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Péter, Róbert</author> / <author>Szántó, Zsolt</author> / <author>Seres, József</author> / <author>Bilicki, Vilmos</author> / <author>Berend, Gábor</author>  (2020): “AVOBMAT: a digital toolkit for analysing and visualizing bibliographic metadata and texts”, in Berend, Gábor / Gosztolya, Gábor / Vincze, Veronika (eds.): 
+                        <hi rend="italic">XVI. Magyar Számítógépes Nyelvészeti Konferencia</hi>. Szeged, JATEpress: 43–55.
+                    </bibl>
+                    <bibl>
+                        <author>Stone, Sue</author> (1982): “Humanities scholars: Information needs and uses”, in: 
+                        <hi rend="italic">Journal of Documentation</hi>
+                        38, 4: 292–313. DOI: 
+                        <ref target="https://doi.org/10.1108/eb026734">10.1108/eb026734</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Tolonen, Mikko</author> / <author>Hill, Mark J.</author> / <author>Ijaz, Ali Zeeshan</author> / <author>Vaara, Ville</author> / <author>Lahti, Leo</author>  (2021): “Examining the Early Modern Canon: The English Short Title Catalogue and Large-Scale Patterns of Cultural Production”, in: Baird, Ileana (ed.): 
+                        <hi rend="italic">Data Visualization in Enlightenment Literature and Culture</hi>. Cham: Palgrave Macmillan: 63–119. DOI: 
+                        <ref target="https://doi.org/10.1007/978-3-030-54913-8_3">10.1007/978-3-030-54913-8_3</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Umerle, Tomasz</author> / <author>Colavizza, Giovanni</author> / <author>Herden, Elźbieta</author> / <author>Jagersma, Rindert</author> / <author>Király, Péter</author> / <author>Koper, Beata</author> / <author>Lahti, Leo</author> / <author>Lindemann, David</author> / <author>Łubocki, Jakub Maciej</author> / <author>Malínek, Vojtěch</author> / <author>Milanova, Alexandra</author> / <author>Péter, Róbert</author> / <author>Rißler-Pipka, Nanette</author> / <author>Romanello, Matteo</author> / <author>Roszkowski, Marcin</author> / <author>Siwecka, Dorota</author> / <author>Tolonen, Mikko</author> / <author>Vimr, Ondřej</author>  (2022): 
+                        <hi rend="italic">An Analysis of the Current Bibliographical Data Landscape in the Humanities. A Case for the Joint Bibliodata Agendas of Public Stakeholders.</hi> Zenodo. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.6559857">10.5281/zenodo.6559857</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Van Veen, Theo</author> (2019): „Wikidata: From “an” Identifier to “the” Identifier“, in: 
+                        <hi rend="italic">Information Technology and Libraries</hi>
+                        38, 2:
+                        72–81. DOI: 
+                        <ref target="http://doi.org/10.6017/ital.v38i2.10886">10.6017/ital.v38i2.10886</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Vlassenroot, Eveline</author> / <author>Chambers, Sally</author> / <author>Lieber, Sven</author> / <author>Michel, Alejandra</author> / <author>Geeraert, Friedel</author> / <author>Pranger, Jessica</author> / <author>Birkholz, Julie</author> / <author>Mechant, Peter</author>  (2021): “Web-archiving and social media: An exploratory analysis”, in: 
+                        <hi rend="italic">International Journal of Digital Humanities</hi>
+                         2: 107–128. DOI: 
+                        <ref target="https://doi.org/10.1007/s42803-021-00036-1">10.1007/s42803-021-00036-1</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Vrandečić, Denny</author> / <author>Krötzsch, Markus</author>  (2014): “Wikidata: A Free Collaborative Knowledge Base”, in 
+                        <hi rend="italic">Communications of the ACM</hi>
+                        57: 78–85 
+                        <ref target="https://research.google/pubs/pub42240/">https://research.google/pubs/pub42240/</ref> [30.10.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From Theoretical Texts to Concept Maps. An Annotation Approach for a Distant Reading of Argumentative Text Structures.</title>
+                <author n="TulaiRaduVIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml"><persName n="TulaiRadu">
+                        <surname>Tulai</surname>
+                        <forename>Radu</forename>
+                    </persName><affiliation>University of Bucharest, Romania</affiliation><email>radu.tulai@drd.unibuc.ro</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ViehhauserGabrielVIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml"><persName ref="https://orcid.org/0000-0001-6372-0337" n="ViehhauserGabriel">
+                        <surname>Viehhauser</surname>
+                        <forename>Gabriel</forename>
+                    </persName><affiliation>University of Stuttgart, Germany</affiliation><email>viehhauser@ilw.uni-stuttgart.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AngermeierJanVIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml"><persName n="AngermeierJan">
+                        <surname>Angermeier</surname>
+                        <forename>Jan</forename>
+                    </persName><affiliation>University of Bucharest, Romania</affiliation><email>jan.angermeier@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TabanGkceVIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml"><persName n="TabanGkce">
+                        <surname>Taban</surname>
+                        <forename>Gökce</forename>
+                    </persName><affiliation>University of Bucharest, Romania</affiliation><email>st148700@stud.uni-stuttgart.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The parts of a theoretical texts can be divided into three categories: theses, annotations and notions. We present an annotation workflow for the automatic classification of these segments in large corpora to prepare the extraction of structural concept maps that allow a distant reading of relations and distances between concepts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Concept Maps</term>
+                    <term>Theoretical Texts</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>semantic analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Philosophy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Seen from a content-independent view point, all theoretical texts, as they are used in scientific contexts, (at least intentionally) serve to introduce concepts, define them and connect them with other concepts. We argue that all these texts consist of parts that can be subsumed under three categories, namely theses, arguments and notions. By assigning the segments of a theoretical text to these categories, a formalized structure can be extracted that provides the basis for the establishment of a concept map, which describes the relation and the distances between concepts in and across texts (figure 1).</p>
+                <figure>
+                    <graphic n="1001" width="10.141458333333333cm" height="14.332941666666667cm" url="Pictures/b49e86ceca0f5ffbaab9322081982d65.png" rend="inline"/>
+                </figure>
+                <p>We assume that such a structure-abstracting view is particularly suitable for the application of distance reading methods (Moretti 2013), since the extraction of the categories can provide an overview over large corpora of theoretical texts in respect to their conceptual relationship. This overview can be achieved by the classification of the text segments with machine learning algorithms, based on annotation schemes that also help to assess the validity of such a categorization approach (Pustejovsky /Stubbs 2012; Gius/Jacke 2017). In our paper, we want to outline the theoretical foundation of our conceptualization and report on attempts to establish an annotation workflow that provides training material for automated classification. </p>
+            </div>
+            <div type="div1">
+                <head>Theoretical Outline</head>
+                <p>The criteria for rigorous definitions apply to all types of definitions. Rigorous definitions must comply with the principle of eliminability and the principle of conservativeness, exposed by Belnap (1993). The principle of eliminability proposes that a definition must 
+                    <hi rend="italic">explain all the meaning of a word</hi>, while the principle of conservativeness must 
+                    <hi rend="italic">only explain the meaning of a word</hi>. This also means that definitions are autonomous, they do not refer to external information for their explanation. Explaining all the meaning of a word means that one must cover all the meanings of a word in all possible contexts, and the defined word is interchangeable with the whole definition. 
+                </p>
+                <p>The principle of conservativeness, explaining only the meaning of a word, means that when defining a term, one must not give hidden assertions that lead away from the meaning of that word. </p>
+                <p>By breaking these rules, one may have theses and arguments, the other components of theories. If we break the criterion of eliminability, the rule according to which every concept present in the body of a definition text fragment is interchangeable with a singular defined concept, we have a text fragment where all concepts are necessary to deliver meaning. This text fragment is a thesis. </p>
+                <p>The only thing common to theses and definitions is their autonomy. Given that we know each concept composing the theses and definitions, the respective theses and definitions are comprehensible without resorting to any external information.</p>
+                <p>Arguments, the third category of text fragments, are used for supporting or attacking other text fragments. They are like theses in the way that they also need all the composing concepts to deliver meaning, but they are not autonomous. They need access to the text fragment they support or attack for the reader to comprehend and receive their meaning. Theses and arguments are like algorithms; they employ the entities, defined in the notions – as sets of definitions, to deliver meaning.</p>
+                <p>The criterion of conservativeness is broken by the nature of theses and arguments. Theses and arguments are not concerned with defining an entity, they are overt assertions about a research topic.</p>
+            </div>
+            <div type="div1">
+                <head>Annotation workflow</head>
+                <p>To assess the applicability of this theoretically developed categorization on empirical data and to provide the foundation for a computational distant reading with the help of machine learning classifiers, we established a workflow that follows the principles of collaborative annotations and their iterative refinement (Bögel et. al. 2015, Pagel et. al. 2020, Reiter 2020): First, we converted the concept into applicable annotation guidelines and established a decision tree to support annotator’s decisions (figure 2).
+                    <ref target="#VIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml_ftn1" n="1"/></p>
+                <figure>
+                    <graphic n="1002" width="9.597483333333333cm" height="13.58165cm" url="Pictures/c21de92ecd38a7e40518ae6991fc4c50.png" rend="inline"/>
+                </figure>
+                <p>We then assembled a test corpus of theoretical texts, which we derived from the domain of the Digital Humanities, thus keeping the text base consistent for our first attempts (figure 3). </p>
+                <figure>
+                    <graphic n="1003" width="7.239669444444444cm" height="8.9634cm" url="Pictures/2f2101715019feac9ba9a61b4a8bb236.png" rend="inline"/>
+                </figure>
+                <p>We then assigned four different annotators with the task to annotate the texts according to the guidelines with the help of the tool CATMA (Gius et. al. 2022). In iterative circles we refined the annotation guidelines and calculated inter-annotator agreement (Artstein 2017) to assess, how accurately the categories can be distinguished by human annotators. After achieving a satisfying amount of agreement, we continued to annotate texts for providing more training data and established a gold standard. </p>
+            </div>
+            <div type="div1">
+                <head>Results </head>
+                <p>For assessing inter-annotator agreement, we used Cohen’s Kappa as a measure for the pairwise agreement of the annotators (Cohen 1960).
+                    <ref target="#VIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml_ftn2" n="2"/></p>
+                <figure>
+                    <graphic n="1004" width="5.949794444444445cm" height="7.734736111111111cm" url="Pictures/a36a62dbb0e5d8df68be2d25a42fe32b.png" rend="inline"/>
+                </figure>
+                <p>Figure 4 shows the results for four texts that have been annotated by two to four annotators. On average, we achieve a moderate agreement for three texts, while in one case only fair agreement is reached. However, the annotation guidelines seem to be defined clearly enough to perform further annotations.</p>
+                <figure>
+                    <graphic n="1005" width="12.177083333333334cm" height="4.870833333333334cm" url="Pictures/e2822c731f0c3c355b5e480f571a1e6d.png" rend="inline"/>
+                </figure>
+                <p>As a first approximation towards distant reading the corpus, figure 5 shows the distribution of the categories over the corpus either by segments or by tokens. As can be seen, the distribution is quite balanced: Regarding segments, the 
+                    <hi rend="italic">argument</hi>-category takes up almost half of all cases. However, the 
+                    <hi rend="italic">argument</hi>-segments only consist of about the same amount of text as the 
+                    <hi rend="italic">notion</hi>-segments. Tokens of the 
+                    <hi rend="italic">thesis</hi>-category are rarer, but still make up about a quarter of the total text.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Future Work</head>
+                <p>To complete our workflow, we plan to annotate more training data in the future and to apply machine learning classifiers and assess their performance according to different features (since the three categories seem to be characterized by syntactic formulas, we expect an n-gram-based approach to lead to best results). We will then automatically classify large amounts of texts to provide a basis for the extraction of concept maps that will serve as a searchable knowledge base of the relationships of concepts in and across different domains. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="VIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml_ftn1">
+                         As can be seen, our categorization differs from similar argument mining tasks (Lawrence/Reed 2019) in that larger sections are considered. 
+                    </note><note n="2" xml:id="VIEHHAUSER_Gabriel_From_Theoretical_Texts_to_Concept_Maps__A.xml_ftn2">
+                         We calculated the Kappa values with the code provided by the Gitma-project (Vauth et. al. 2022).
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Artstein, Ron</author> (2017). “Inter-annotator Agreement”, in: Ide, Nancy, Pustejovsky, James (eds) 
+                        <hi rend="italic">Handbook of Linguistic Annotation</hi>. Dordrecht: Springer 297-313. DOI: 10.1007/978-94-024-0881-2_11.
+                    </bibl>
+                    <bibl>
+                        <author>Belnap, Nuel</author> (1993). “On Rigorous Definitions”, in: 
+                        <hi rend="italic">Philosophical Studies</hi> 72: 
+                        <hi rend="italic">115-146.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Bögel, Thomas</author> / <author>Gertz, Michael</author> / <author>Gius, Evelyn</author> / <author>Jacke, Janina</author> / <author>Meister, Jan Christoph</author> / <author>Petris, Marco</author> / <author>Strötgen, Jannik</author>  (2015). “Collaborative Text Annotation Meets Machine Learning. heureCLÉA, a Digital Heuristic of Narrative”, in: 
+                        <hi rend="italic">DHCommons</hi> 1. DOI: 10.5281/zenodo.3240590.
+                    </bibl>
+                    <bibl>
+                        <author>Cohen, Jacob</author> (1960). “A Coefficient of Agreement for Nominal Scales.”, in: 
+                        <hi rend="italic">Educational and Psychological Measurement</hi> 20.1: 37–46.
+                    </bibl>
+                    <bibl>
+                        <author>Gius, Evelyn</author> / <author>Jacke, Janina</author>  (2017). “The Hermeneutic Profit of Annotation. On preventing and fostering disagreement in literary text analysis.”, in: 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi> 11 (2): 233–254.
+                    </bibl>
+                    <bibl>
+                        <author>Gius, Evelyn</author> / <author>Meister, Jan Christoph</author> / <author>Meister, Malte</author> / <author>Petris, Marco</author> / <author>Bruck, Christian</author> / <author>Jacke, Janina</author> / <author>Schumacher, Mareike</author> / <author>Gerstorfer, Dominik</author> / <author>Flüh, Marie</author> / <author>Horstmann, Jan</author>  (2022). 
+                        <hi rend="italic">CATMA 6 (Version 6.5).</hi> Zenodo. DOI: 10.5281/zenodo.1470118.
+                    </bibl>
+                    <bibl>
+                        <author>Lawrence, John, Reed, Chris</author> (2019). “Argument Mining: A Survey”, in: 
+                        <hi rend="italic">Computational Linguistics</hi> 45, 4: 765–818. DOI: 10.1162/coli_a_00364
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, Franco</author> (2013). 
+                        <hi rend="italic">Distant Reading</hi>. London: Verso. 
+                    </bibl>
+                    <bibl>
+                        <author>Pagel, Janis</author> / <author>Reiter, Nils</author> / <author>Rösiger, Ina</author> / <author>Schulz, Sarah</author>  (2020). „Annotation als flexibel einsetzbare Methode“, in: Reiter, Nils / Pichler, Axel / Kuhn, Jonas (eds.): 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse: Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt</hi>. Berlin, Boston: De Gruyter 125-142. DOI: 10.1515/9783110693973-006
+                    </bibl>
+                    <bibl>
+                        <author>Pustejovsky, James</author> / <author>Stubbs, Amber</author>  (2012). 
+                        <hi rend="italic">Natural Language Annotation for Machine Learning</hi>. Beijing: O’Reilly
+                    </bibl>
+                    <bibl>
+                        <author>Reiter, Nils</author> (2020). „Anleitung zur Erstellung von Annotationsrichtlinien.“, in: Reiter, Nils / Pichler, Axel / Kuhn, Jonas (eds.): 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse: Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt</hi>. Berlin, Boston: De Gruyter 193-202. DOI: 10.1515/9783110693973-009
+                    </bibl>
+                    <bibl>
+                        <author>Vauth, Michael</author> / <author>Meister, Malte</author> / <author>Hatzel, Hans Ole</author> / <author>Gerstorfer, Dominik</author> / <author>Gius, Evelyn</author>  (2022). 
+                        <hi rend="italic">GitMA (1.4.9)</hi>. Zenodo. DOI: 10.5281/zenodo.6330464
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

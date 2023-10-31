@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Are Ret Marut and B. Traven the same person? Fine tuning the impostors method</title>
+                <author n="ReboraSimoneREBORA_Simone_Are_Ret_Marut_and_B__Traven_the_same_person__F.xml"><persName n="ReboraSimone">
+                        <surname>Rebora</surname>
+                        <forename>Simone</forename>
+                    </persName><affiliation>Johannes Gutenberg University Mainz, Germany</affiliation><email>simone.rebora@uni-mainz.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SalgaroMassimoREBORA_Simone_Are_Ret_Marut_and_B__Traven_the_same_person__F.xml"><persName ref="https://orcid.org/0000-0002-1577-1604" n="SalgaroMassimo">
+                        <surname>Salgaro</surname>
+                        <forename>Massimo</forename>
+                    </persName><affiliation>University of Verona, Italy</affiliation><email>massimo.salgaro@univr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SopcakPaulREBORA_Simone_Are_Ret_Marut_and_B__Traven_the_same_person__F.xml"><persName ref="https://orcid.org/0000-0002-9373-8551" n="SopcakPaul">
+                        <surname>Sopcak</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>RWTH Aachen University</affiliation><email>paul.sopcak@ifaar.rwth-aachen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The paper adopts the impostors method to verify if the real identity of the German author B. Traven corresponds to that of Ret Marut. The approach is fine tuned and applied to four novels by the two authors. Results suggest that they are probably written by the same person.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Authorship verification</term>
+                    <term>impostors method</term>
+                    <term>German literature</term>
+                    <term>B. Traven</term>
+                    <term>Ret Marut</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This paper focuses on German novelist B. Traven, who became famous under a pseudonym in the first half of the XX century. While many theories have been proposed, no proof has ever been presented to clarify who the person behind the pseudonym is.</p>
+            <p>We therefore applied stylometric approaches to verify one of the most established theories, which suggests that B. Traven was the pseudonym of the actor and journalist Ret Marut (Hauschild, 2018; Goldwasser, 1993).</p>
+            <p>In particular, we used the “impostors method” (Koppel and Winter, 2014), which verifies if two texts are written by the same author by comparing them with a set of distractor texts (the so-called “impostors”). We conducted our analysis with the 
+                <hi rend="italic">stylo</hi> package (Eder et al., 2016, version 0.7.4), which compiles the entire procedure in a single function (Eder, 2018), returning a final score between 0 and 1. 
+                <hi rend="italic">Stylo </hi>also produces two additional scores intended as margins for acceptance or rejection of the shared authorship. However, these scores are based uniquely on the impostors corpus (Kestemont et al., 2016), but not on the actual relationship between impostors and the author(s) under examination. We thus decided to slightly modify the procedure, following the example set by Rebora and Salgaro (2022). 
+            </p>
+            <p>In our implementation (all scripts available here: 
+                <ref target="https://github.com/SimoneRebora/Traven_stylometry">https://github.com/SimoneRebora/Traven_stylometry</ref>), we divided the corpus into three parts: “test set”, “development set”, and impostors corpus. The test set comprised four novels, two by Marut (2006; 2008—the only ones available by this author) and two by Traven (1926; 1927). Impostors and development sets were selected from the Kolimo corpus (Herrmann and Lauer, 2017), which offers a wide selection of fictional texts published in German language. The four authors closest to Traven and Marut were isolated in the development set—via a basic stylometric analysis with Cosine Delta and 2,000 most frequent words (Evert et al., 2017)—, while the following 32 (from the 5th to the 36th) were included in the impostors corpus. 
+            </p>
+            <p>Acceptance/rejection thresholds were then defined as follows: First, for both Traven and Marut, the impostors method was used to verify if a randomly selected 5,000-word chunk (Eder, 2013) from the first novel was written by the same author as the second novel. The expected answer being positive, the obtained impostors score was used to define the acceptance threshold. Second, the same analysis was repeated by substituting the first novel of the author under examination with a random text taken from the development set. In this case, the expected answer being negative, the impostors score was used to define the rejection threshold.</p>
+            <p>In order to extend the procedure to all available methodologies, the analysis was repeated by combining five different features (see Table 1 for an overview), resulting in a total of 6,600 different configurations. To counter possible variance in the results, the analysis was repeated 50 times in each condition.</p>
+            <figure>
+                <graphic n="1001" width="14.661875cm" height="4.75cm" url="Pictures/1ab088a638a709913eda9a01bfd2d05e.png" rend="inline"/>
+                <head>Table 1. Features overview</head>
+            </figure>
+            <p>Figure 1 shows a sample of the results. A normality test (Royston, 1995) confirmed that in more than 98% of the cases measurements were not normally distributed. We thus took as reference points medians and quartiles instead of means and standard deviations. Acceptance and rejection thresholds were defined for each configuration by adopting these simple rules:</p>
+            <list type="unordered">
+                <item>if acceptance and rejection areas (green and red boxes in Figure 1) do not overlap, acceptance threshold corresponds to the first quartile of the acceptance scores (lower side of the green boxes) and rejection threshold corresponds to the third quartile of the rejection scores (higher side of the red boxes);</item>
+                <item>if they overlap, acceptance threshold corresponds to the third quartile of the rejection scores (higher side of the red boxes) and rejection threshold corresponds to the first quartile of the acceptance scores (lower side of the green boxes), thus making of the overlapping section an area of uncertainty.</item>
+            </list>
+            <p>We also calculated efficiency scores by subtracting the median score for the acceptance and rejection areas.</p>
+            <figure>
+                <graphic n="1002" width="15.92cm" height="8.960555555555555cm" url="Pictures/dbf17e7b9e408e449c3b959170e23d27.png" rend="inline"/>                
+                <head>Figure 1. Detailed result for the first phase (random selection of four configurations).</head>
+            </figure>
+            <p>Figure 2 and Table 2 show how efficiency scores depend on the variation of features (being it in average 0.369 for words and 0.577 for 4-character ngrams). Since no feature produces negative scores, we decided not to exclude any, but to simply weigh the results of each configuration (i.e., each combination of features). Out of a total of 6,600 configurations, only 98 produced negative scores and had to be excluded from the analysis.</p>
+            <figure>
+                <graphic n="1003" width="15.92cm" height="8.960555555555555cm" url="Pictures/2c0d6a8afaa0c5c43cec9417c1442054.png" rend="inline"/>
+                <head>Figure 2. Efficiency scores overview (for culling, most frequent units, and number of impostors).</head>
+            </figure>
+            <figure>
+                <graphic n="1004" width="6.9625cm" height="6.773594444444444cm" url="Pictures/30d0f760cf8125ed24eb7566584d7c8b.png" rend="inline"/>
+                <head>Table 2. Efficiency scores overview (for distance measures)</head>
+            </figure>
+            <p>Once the thresholds were defined, the impostors method was applied just to the novels by Traven and Marut. Also in this case, we repeated the analysis 50 times for each configuration. As exemplified by Figure 3, in most cases the final result (gray) aligns more strongly with the confirmation area (green) than with the rejection area (red).</p>
+            <figure>
+                <graphic n="1005" width="15.92cm" height="8.960555555555555cm" url="Pictures/33ed75eff34fffe9b6af2650bd104f8e.png" rend="inline"/>
+                <head>Figure 3. Detailed result for the second phase (random selection of four configurations).</head>
+            </figure>
+            <p>For each configuration: (1) we counted the number of final scores above the acceptance threshold (attribution confirmed), below the rejection threshold (rejected), and between the two (uncertain); (2) we applied basic machine learning techniques (KNN and Logistic Regression) to classify the final scores by using acceptance and rejection scores as training material. All values were then multiplied by the efficiency scores, thus weighting them on the basis of the quality of the approaches. Finally, values were normalized to get a simple proportion.</p>
+            <p>Final results are shown in Table 3, which highlights how a substantial majority of the results confirm that B. Traven and Ret Marut are the same person.</p>
+            <figure>
+                <graphic n="1006" width="9.886147222222222cm" height="2.8065527777777777cm" url="Pictures/8096edf589e670d12b5f3159d766123c.png" rend="inline"/>
+                <head>Table 3. Weighted proportion of results</head>
+            </figure>
+            <p>This evidence cannot be considered as conclusive. However, research on the Traven case has been developed so far uniquely on the intuitions of literary critics, for which we have finally provided scientific proof.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Eder, M.</author>
+                         (2013). Does size matter? Authorship attribution, small samples, big problem. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        30
+                        (2): 167–82 doi:10.1093/llc/fqt066.
+                    </bibl>
+                    <bibl>
+                        <author>Eder, M.</author>
+                         (2018). Authorship verification with the package stylo 
+                        <hi rend="italic">Computational Stylistics Group Blog</hi>
+                         https://computationalstylistics.github.io/blog/imposters/.
+                    </bibl>
+                    <bibl>
+                        <author>Eder, M., Rybicki, J. and Kestemont, M.</author>
+                         (2016). Stylometry with R: A Package for Computational Text Analysis. 
+                        <hi rend="italic">The R Journal</hi>,
+                        8
+                        (1): 107–21.
+                    </bibl>
+                    <bibl>
+                        <author>Evert, S., Proisl, T., Jannidis, F., Reger, I., Pielström, S., Schöch, C. and Vitt, T.</author>
+                         (2017). Understanding and explaining Delta measures for authorship attribution. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        32
+                        (suppl_2): ii4–16 doi:10.1093/llc/fqx023.
+                    </bibl>
+                    <bibl>
+                        <author>Goldwasser, J.</author>
+                         (1993). Ret Marut: The Early B. Traven. 
+                        <hi rend="italic">The Germanic Review: Literature, Culture, Theory</hi>
+                        , 
+                        68
+                        (3): 133–42 doi:10.1080/00168890.1993.9934225.
+                    </bibl>
+                    <bibl>
+                        <author>Hauschild, J.-C.</author>
+                         (2018). 
+                        <hi rend="italic">Das Phantom: Die Fünf Leben Des B. Traven</hi>.
+                         Tiamat. Berlin: Edition Voldemeer ; Springer.
+                    </bibl>
+                    <bibl>
+                        <author>Herrmann, J. B. and Lauer, G.</author>
+                         (2017). KOLIMO. A corpus of Literary Modernism for comparative analysis https://kolimo.uni-goettingen.de/about.
+                    </bibl>
+                    <bibl>
+                        <author>Kestemont, M., Stover, J., Koppel, M., Karsdorp, F. and Daelemans, W.</author>
+                         (2016). Authorship Verification with the Ruzicka Metric. 
+                        <hi rend="italic">DH2016 Book of Abstracts</hi>.
+                        Kraków: ADHO, pp. 246–49 https://dh2016.adho.org/abstracts/402 (accessed 4 September 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Koppel, M. and Winter, Y.</author>
+                         (2014). Determining if two documents are written by the same author: Determining If Two Documents Are Written by the Same Author. 
+                        <hi rend="italic">Journal of the Association for Information Science and Technology</hi>
+                        , 
+                        65
+                        (1): 178–87 doi:10.1002/asi.22954.
+                    </bibl>
+                    <bibl>
+                        <author>Marut, R.</author>
+                         (2006). 
+                        <hi rend="italic">Die Fackel Des Fürsten</hi>.
+                         Nottingham: Refugium.
+                    </bibl>
+                    <bibl>
+                        <author>Marut, R.</author>
+                         (2008). 
+                        <hi rend="italic">Der Mann Site Und Die Grünglitzernde Frau: Die Geschichte Eines Lebens, Das Nach Einem Ziele Strebte</hi>.
+                         Nottingham: Refugium.
+                    </bibl>
+                    <bibl>
+                        <author>Rebora, S. and Salgaro, M.</author>
+                         (2022). Traven between the impostors. Preliminary considerations on an authorship verification case. 
+                        <hi rend="italic">DH2022 Book of Abstracts</hi>.
+                         Tokyo: ADHO, pp. 544–46.
+                    </bibl>
+                    <bibl>
+                        <author>Royston, P.</author>
+                         (1995). Remark AS R94: A Remark on Algorithm AS 181: The W-test for Normality. 
+                        <hi rend="italic">Applied Statistics</hi>,
+                        44
+                        (4): 547 doi:10.2307/2986146.
+                    </bibl>
+                    <bibl>
+                        <author>Traven, B.</author>
+                         (1926). 
+                        <hi rend="italic">Das Totenschiff</hi>.
+                         Berlin: Buchmeister.
+                    </bibl>
+                    <bibl>
+                        <author>Traven, B.</author>
+                         (1927). 
+                        <hi rend="italic">Der Schatz Der Sierra Madre</hi>.
+                         Berlin: Büchergilde Gutenberg.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

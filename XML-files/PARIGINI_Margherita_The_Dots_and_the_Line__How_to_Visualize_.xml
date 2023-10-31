@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Dots and the Line. How to Visualize the Argumentative Structure of an Essay</title>
+                <author n="PariginiMargheritaPARIGINI_Margherita_The_Dots_and_the_Line__How_to_Visualize_.xml"><persName ref="https://orcid.org/0000-0002-0832-2202" n="PariginiMargherita">
+                        <surname>Parigini</surname>
+                        <forename>Margherita</forename>
+                    </persName><affiliation>University of Geneva, Switzerland</affiliation><email>margherita.parigini@unige.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MauriMichelePARIGINI_Margherita_The_Dots_and_the_Line__How_to_Visualize_.xml"><persName ref="https://orcid.org/0000-0003-1189-9624" n="MauriMichele">
+                        <surname>Mauri</surname>
+                        <forename>Michele</forename>
+                    </persName><affiliation>Politecnico di Milano, Italy</affiliation><email>michele.mauri@polimi.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The contribution aims to create a visualization of the argumentative structure of several essays to compare them from their "graphical" characteristics. We, therefore, intend to combine a literary criticism approach with Data Visualization. The case study on which the contribution focuses is the nonfiction production of Italian author Italo Calvino.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Literary Criticism</term>
+                    <term>Argumentation Theory</term>
+                    <term>Data Visualization</term>
+                    <term>Italo Calvino</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>rhetorical analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Design studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The argumentative structure is conventionally associated with spatial metaphors. Describing the internal structure of some essays, we use expressions such as progressive or circular argumentation (Italia 2014: 14-15), speech orientation or stance taking (Dell’Aversano and Grilli 2005), even “lateral thinking” (De Bono 1967; cf. National Research Council 2006). Argumentation, in short, seems to develop in an abstract, all-mental place, and we often study it using its so-called spatial characteristics as a key.
+                <ref target="#PARIGINI_Margherita_The_Dots_and_the_Line__How_to_Visualize_.xml_ftn1" n="1"/> The insight that this contribution intends to explore is the following: what would happen if we decided to disengage from the dimension of the page and tried to compare a group of essays with each other based on their visual form? 
+            </p>
+            <p>The research project possesses a strong multidisciplinary component and has involved equal numbers of researchers in the fields of literary criticism and visualization design. Indeed, this contribution aims to combine Data Visualization techniques with a more traditional literary text study approach, along the lines of the experimental project 
+                <hi rend="italic">Atlante Calvino. Literature and Visualization</hi>(2017-2021) (
+                <ref target="https://atlantecalvino.unige.ch/">https://atlantecalvino.unige.ch/</ref>), which «allows viewers to explore the writer’s narrative works from a new standpoint: a number of visual elaborations» (
+                <hi rend="italic">ibid</hi>.).
+            </p>
+            <p>The presentation will be structured in three steps that will trace the different developmental stages of the project: (1) data; (2) graphic processing; (3) analysis.</p>
+            <p>To better understand what data (1) to extract from the text, we set two conditions: </p>
+            <p>(a) the transferability of the method: it was essential to identify a type of data and a visual approach that could be reproduced with sufficient elasticity on a different 
+                <hi rend="italic">corpus</hi>.
+            </p>
+            <p>(b) the central role of visualization: the analytical work should arise based on a series of inputs determined by visualization (cf. Masure 2017), with the idea of going on to investigate the individual text by applying close reading techniques only at a later stage.</p>
+            <p>In line with both conditions, we decided to work on the presence of connectives. The connectives define «the relationships that ‘logically’ structure the meanings of the sentence and text» (Ferrari 2010 [own translation]). These linguistic particles are the joints of argumentation: they articulate, “unraveling” the discourse, escaping the physical dimension of the printed line to dynamize the text and hierarchize its various parts. It therefore seemed sensible to speculate that mapping their presence within an essay text could be an interesting clue to visually understanding the argumentative structure of a text (Ferrari 2005).</p>
+            <p>The case study at the center of the research is the nonfiction work of Italo Calvino, one of the most influential writers in 20th century in Italy (Serra 2006). The project focuses specifically on essays within the two nonfiction volumes published during the author’s lifetime, 
+                <hi rend="italic">Una pietra sopra. Discorsi di letteratura e società</hi> (1980) and 
+                <hi rend="italic">Collezione di sabbia</hi> (1984) (Calvino 1995).
+            </p>
+            <p>We decided to use the LICO database (Lexicon of Italian COnnectives) (Feltracco et al. 2016), created during the project Connective-Lex (Stede et al. 2021). In the database, each connective is associated with a set of properties (es. syntactic categories, synonyms etc.), among which we considered only the types of discourse relations (comparison, contingency, expansion, temporal cf. Rashmi et al. 2008), convinced that this distinction would be able to establish meaningful interpretive lines.</p>
+            <p>Once the case study and data type were identified, the visualization design phase intervened (2). Adopting a semiotic perspective, we wanted to produce «signifying forms» capable of visually translating not only «numerical data, but forms of relationships between meanings» (Burgio 2021: 7) [own translation]. According to the classification given by Janicket et al. 2017, our task could be described across “similar patterns” and “text of interest”. During the presentation we will illustrate the reasoning dedicated to transforming the spatial metaphorical dimension of argumentative writing into an image (cf. Ward 2008). The visualization was carried out on the Observable platform (
+                <ref target="https://observablehq.com/">https://observablehq.com/</ref> cf. Bostock 2017), as a rapid prototyping tool (Mauri and Ciuccarelli 2016). We will show the different stages of creation, explaining how we established the graphic coordinates to transform the collected data.
+            </p>
+            <p>Finally, we will present two examples of analysis from the visualization (3), to demonstrate both our outcomes and the potential associated with this approach. We are aware that the results obtained are limited in scope, of the profound influence exerted by graphic choices (Wang et al. 2000) as well as by the interdisciplinary component (Coles Lein 2013), and that they can only become meaningful once brought into contact with the text again, in the full expression of the researcher’s critical and hermeneutic competence (Drucker 2011). Returning to the content of the individual essay is thus essential to formulating valuable reading hypotheses (Correll et al. 2014). </p>
+            <p>(3.a) First, we will focus on the predominant role of the category of temporality to explore the author’s inclination to “narrativize” the argumentative genre (Bozzola and De Caprio 2021). </p>
+            <p>(3.b) Also, we would like to better understand the relationship between the argumentative style of Calvino and a particular phenomenon concerning his writing, referred to as the dubitative text.
+                <ref target="#PARIGINI_Margherita_The_Dots_and_the_Line__How_to_Visualize_.xml_ftn2" n="2"/> In order to do that, we will use a fine-tuned BERT model (Parigini and Kestemont 2022) to recognize the dubitative text in essays to identify correspondences between this phenomenon and argumentative connectives.
+            </p>
+            <p>Our main goal is to share a versatile visualization tool that can be reused on other texts, other authors, with the hope that it will meet the needs of the widest number of researchers.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="PARIGINI_Margherita_The_Dots_and_the_Line__How_to_Visualize_.xml_ftn1">
+                     Spatializing text in a diagrammatic form is a common exercise when it comes to argumentation theory cf. Freeman 2011.
+                </note><note n="2" xml:id="PARIGINI_Margherita_The_Dots_and_the_Line__How_to_Visualize_.xml_ftn2">
+                    The dubitative text is a phenomenon that characterizes Calvino’s narrative production, and it determines the development of the narrative through a series of hypothetical formulations, negations, and reformulations. This phenomenon had previously been identified by critics (cf. Mengaldo 1987; Palmieri 1993), but only recently has become the subject of focused research with the itinerary of Doubt in the <hi rend="italic">Atlante Calvino</hi> (<ref target="https://atlantecalvino.unige.ch/itineraries?lang=en">https://atlantecalvino.unige.ch/itineraries?lang=en</ref>). Regarding the concept of style, we refer to the theoretical framework expressed by Berenike et al. (2015).
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bostock, Mike</author> (2017): “A Better Way to Code. Introducing d3.express: the integrated discovery environment” 
+                        <ref target="https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0">https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Bozzola, Sergio</author> / <author>De Caprio, Chiara</author>  (2021): 
+                        <hi rend="italic">Forme e figure della saggistica di Calvino. Da ‘Una pietra sopra’ alle ‘Lezioni americane’</hi>. Roma: Salerno Editore. 
+                    </bibl>
+                    <bibl>
+                        <author>Burgio, Valeria</author> (2021): 
+                        <hi rend="italic">Rumore visivo. Semiotica e critica dell’infografica</hi>. Milano: MIMESIS.
+                    </bibl>
+                    <bibl>
+                        <author>Calvino, Italo</author> (1995): 
+                        <hi rend="italic">Saggi 1945-1985</hi>. M. Barenghi (ed). Milano: Mondadori.
+                    </bibl>
+                    <bibl>
+                        
+                            <author>Coles, Khaterine</author> / <author>Lein, Julie Gonnering</author>  (2013): “Solitary Mind, Collaborative Mind: Close Reading and Interdisciplinary Research”, in: 
+                            <hi rend="italic">DH</hi> 
+                        <ref target="http://dh2013.unl.edu/abstracts/ab-217.html">http://dh2013.unl.edu/abstracts/ab-217.html</ref> [29.04.2023]
+                        .
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Correll</hi><hi rend="bold">,</hi><hi rend="bold"> M</hi><hi rend="bold">ichael</hi>
+                        <hi rend="bold">/</hi>
+                        <hi rend="bold">Alexander</hi><hi rend="bold">,</hi><hi rend="bold"> E</hi><hi rend="bold">ric</hi>
+                        <hi rend="bold">/</hi>
+                        <hi rend="bold">Albers</hi><hi rend="bold">,</hi><hi rend="bold"> D</hi><hi rend="bold">anielle /</hi>
+                         
+                        <hi rend="bold">Sarikaya</hi><hi rend="bold">,</hi><hi rend="bold"> A</hi><hi rend="bold">lper /</hi>
+                         
+                        <hi rend="bold">Gleicher</hi><hi rend="bold">,</hi><hi rend="bold"> M</hi><hi rend="bold">ichael</hi> (2014)
+                        
+                        : “
+                        Navigating reductionism and holism in evaluation”
+                        , In: Proceedings of the Fifth Workshop on Beyond Time and Errors: Novel Evaluation Methods for Visualization (New York, NY, USA, 
+                        <hi rend="italic">2014</hi>
+                        ), BELIV '14, ACM: 
+                        23
+                        –
+                        26. DOI: 10.1145/2669557.2669577.
+                    </bibl>
+                    <bibl>
+                        <author>De Bono, Edward</author> (1967). 
+                        <hi rend="italic">The Use of Lateral Thinking</hi>. London: Cape.
+                    </bibl>
+                    <bibl>
+                        <author>Dell’Aversano, Carmen</author> / <author>Grilli, Alessandro</author>  (2005). 
+                        <hi rend="italic">La scrittura argomentativa. Dal saggio breve alla tesi di dottorato</hi>. Firenze: Le Monnier.
+                    </bibl>
+                    <bibl>
+                        <author>Drucker, Johanna</author> (2011): “Humanities Approaches to Graphical Display”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, 5, 1 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref> [29.04.2023]
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Feltracco, Anna</author> / <author>Jezak, Elisabetta</author> / <author>Magnini, Bernardo</author> / <author>Stede, Manfred</author>  (2016): “LICO: A Lexicon of Italian Connectives”, in: 
+                        <hi rend="italic">Proceedings of the Third Italian Conference on Computational Linguistics CLiC-it 2016</hi>. 5-6 December 2016, Napoli (Italy). DOI: 10.4000/books.accademia.1770. 
+                    </bibl>
+                    <bibl>
+                        <author>Feltracco, Anna</author> / <author>Jezak, Elisabetta</author> / <author>Magnini, Bernardo</author>  (2018): “Enriching a Lexicon of Discourse Connectives with Corpus-based Data”, in: 
+                        <hi rend="italic">LREC</hi>. May 2018, Miyazaki (Japan): 4327-4332 
+                        <ref target="https://aclanthology.org/L18-1684.pdf">https://aclanthology.org/L18-1684.pdf</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Ferrari, Angela</author> (2005): “
+                        <hi rend="italic">Connettivi e struttura del testo: oltre la semantica lessicale”,</hi> in: 
+                        <hi rend="italic">Lingua, cultura e intercultura: l'italiano e le altre lingue : atti del VIII convegno SILFI, Società Internazionale di Linguistica e Filologia Italiana</hi>. 22-26 june 2004, Copenhagen (Denmark): 191-204.
+                    </bibl>
+                    <bibl>
+                        <author>Ferrari, Angela</author> (2010): “Connettivi”, in: 
+                        <hi rend="italic">Enciclopedia Treccani dell’Italiano</hi> 
+                        <ref target="https://www.treccani.it/enciclopedia/connettivi_(Enciclopedia-dell%27Italiano)">https://www.treccani.it/enciclopedia/connettivi_(Enciclopedia-dell%27Italiano)</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Ferretti, Gian Carlo</author>
+                        <hi rend="smallcaps">(1989)</hi>: 
+                        <hi rend="italic">La capre di Bikini. Calvino, giornalista e saggista 1945-1985</hi>. Roma: Editori Riuniti.
+                    </bibl>
+                    <bibl>
+                        <author>Freeman, James B.</author> (2011).
+                        <hi rend="italic"> Argument Structure: Representation and Theory</hi>. New York: Springer.
+                    </bibl>
+                    <bibl>
+                        <author>Herrmann, Berenike J.</author> / <author>van Dalen-Oskam, Karina</author> / <author>Schöch, Christof</author>  (2015): “Revisiting Style, a Key Concept in Literary Studies”, in: 
+                        <hi rend="italic">JLT</hi> 9, 1: 25-52. DOI: 
+                        <ref target="https://doi.org/10.1515/jlt-2015-0003">10.1515/jlt-2015-0003</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Hume, Kathryn</author>
+                        <hi rend="smallcaps">(1992</hi>a
+                        <hi rend="smallcaps">)</hi>: 
+                        <hi rend="italic">Calvino’s Fictions: Cogito and Cosmos</hi>. Oxford: Clarendon Press.
+                    </bibl>
+                    <bibl>
+                        <author>Italia, Paola</author> (2014): 
+                        <hi rend="italic">Scrivere all’Università. Manuale pratico con esercizi e antologia di testi</hi>. Firenze: Le Monnier.
+                    </bibl>
+                    <bibl>
+                        <author>Masure, Antoine</author> (2017): 
+                        <hi rend="italic">Design et humanités numériques</hi>. Paris: Éditions B42.
+                    </bibl>
+                    <bibl>
+                        <author>Mauri, Michele</author> / <author>Ciuccarelli, Paolo</author>  (2016): “Designing diagrams for social issues”, in: 
+                        <hi rend="italic">Design Research Society 50</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic"> Anniversary Conference</hi>. 27-30 June, Brighton (UK) 
+                        <ref target="https://www.drs2016.org/185">https://www.drs2016.org/185</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Mengaldo, Pier Vincenzo</author>
+                        <hi rend="smallcaps"> (1987)</hi>: “Aspetti della lingua di Calvino”, in: 
+                        <hi rend="italic">La tradizione del Novecento. Terza serie</hi>. Torino: Einaudi, 
+                        <hi rend="smallcaps">1996:</hi> 227-91.
+                    </bibl>
+                    <bibl>
+                        <author>Mírovský, Jiří</author> / <author>Synková, Pavlína</author> / <author>Poláková, Lucie</author>  (2021): “Extending Coverage of a Lexicon of Discourse Connectives Using Annotation Projection”, in: 
+                        <hi rend="italic">Prague Bulletin of Mathematical Linguistics</hi>, 117. DOI: 
+                        <ref target="https://dx.doi.org/10.14712/00326585.015">10.14712/00326585.015</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, Franco</author> (2005): 
+                        <hi rend="italic">Graphs, Maps, Trees: Abstract Models for Literary History</hi>. London: Verso.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">National Research Council</hi> (2006): 
+                            <hi rend="italic">Learning to Think Spatially</hi>. Washington: The National Academic Press. DOI: 
+                        
+                        <ref target="https://doi.org/10.17226/11019">10.17226/11019</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Palmieri, Nunzia</author> (1993): “Il segno cancellato. Correzione e commento nella scrittura di Calvino”, in: Curi, Fausto (ed): 
+                        <hi rend="italic">Studi sulla modernità</hi>. Bologna: CLUEB, pp. 289–314.
+                    </bibl>
+                    <bibl>
+                        <author>Parigini, Margherita</author> / <author>Kestemont, Mike</author>  (2022): “The Roots of Doubt. Fine-tuning a BERT Model to Explore a Stylistic Phenomenon”, in: 
+                        <hi rend="italic">CHR 2022: Computational Humanities Research Conference</hi>. December 12 – 14, Antwerp (Belgium) 
+                        <ref target="https://ceur-ws.org/Vol-3290/long_paper399.pdf">https://ceur-ws.org/Vol-3290/long_paper399.pdf</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Prasad, Rashmi</author> / <author>Dinesh, Nikhil</author> / <author>Lee, Alan</author> / <author>Miltsakaki, Eleni</author> / <author>Robaldo, Livio</author> / <author>Joshi, Aravind</author> / <author>Webber, Bonnie</author>  (2008): “The Penn Discourse Tree-Bank 2.0”, in: 
+                        <hi rend="italic">Proceedings of the Sixth International Conference on Language Resources and Evaluation </hi>(LREC’08). May, Marrakech (Morocco) 
+                        <ref target="http://www.lrec-conf.org/proceedings/lrec2008/pdf/754_paper.pdf">http://www.lrec-conf.org/proceedings/lrec2008/pdf/754_paper.pdf</ref> [29.04.2023]. 
+                    </bibl>
+                    <bibl>
+                        <author>Scrivener, Olga</author> / <author>David, Jefferson</author>  (2017): “Interactive Text Mining Suite: Data Visualization for Literary Studies”, in: 
+                        <hi rend="italic">CFH@TLT</hi>: 29-38 
+                        <ref target="https://ceur-ws.org/Vol-1786/scrivner.pdf">https://ceur-ws.org/Vol-1786/scrivner.pdf</ref> [29.04.2023]
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Sinclair, Stéfan</author> / <author>Ruecker, Stan</author> / <author>Radzikowska</author> , Milena (2013): “Information Visualization for Humanities Scholars”, in: 
+                        <hi rend="italic">Literary Studies in the Digital Age: An Evolving Anthology</hi>. New York: MLA Commons. DOI: 
+                        <ref target="https://doi.org/10.1632/lsda.2013.6">10.1632/lsda.2013.6</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Serra, Francesca</author> (2006). 
+                        <hi rend="italic">Calvino</hi>. Roma: Salerno Editore.
+                    </bibl>
+                    <bibl>
+                        <author>Wang Baldonado, Michelle Q.</author> / <author>Woodruff, Allison</author> / <author>Kuchinsky, Allan</author>  (2000): “Guidelines for Using Multiple Views in Information Visualization”, in: 
+                        <hi rend="italic">Proceedings of the Working Conference on Advanced Visual Interfaces</hi> (New York, NY, USA, 2000). AVI ’00, ACM: 110-119. DOI: 
+                        <ref target="https://doi.org/10.1145/345513.345271">10.1145/345513.345271</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Ward, Matthew O.</author> (2008): “Multivariate Data Glyphs: Principles and Practice”, in: Chen, Chun-houh / Härdle, Wolfgang / Unwin, Antony (eds): 
+                        <hi rend="italic">Handbook of Data Visualization</hi>. Leipzig: Springer: 180-198. DOI: 10.1007/978-3-540-33037-0_8.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

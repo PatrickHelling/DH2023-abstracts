@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WebChamame: An Online Tool for Morphological Analysis of Various Historical Japanese Texts using UniDic Dictionaries</title>
+                <author n="OgisoToshinobuOGISO_Toshinobu_WebChamame__An_Online_Tool_for_Morphological.xml"><persName ref="https://orcid.org/0000-0002-4775-143X" n="OgisoToshinobu">
+                        <surname>Ogiso</surname>
+                        <forename>Toshinobu</forename>
+                    </persName><affiliation>National Institute for Japanese Language and Linguistics</affiliation><email>togiso@ninjal.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TsutsumiTomoakiOGISO_Toshinobu_WebChamame__An_Online_Tool_for_Morphological.xml"><persName n="TsutsumiTomoaki">
+                        <surname>Tsutsumi</surname>
+                        <forename>Tomoaki</forename>
+                    </persName><affiliation>University of Tsukuba</affiliation><email>tsutsumi.tomoaki.gn@u.tsukuba.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Morphological analysis is an indispensable tool for analyzing Japanese text, but it is difficult for ordinary humanities researchers to set up an environment and perform analysis from the command line. Therefore we have developed WebChamame, an online tool that allows users to perform morphological analysis using multiple period-specific UniDic dictionaries.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Japanese language</term>
+                    <term>morphological analysis</term>
+                    <term>text processing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Asian studies</term>
+                    <term>History</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Background</head>
+                <p>The Japanese text is not divided into separate words and has a large variety of notations. Therefore, morphological analysis is an indispensable tool for analyzing Japanese text data. This is true not only for modern Japanese but also for historical texts, and the older the text, the more important morphological analysis is for research (NINJAL 2022). Hence, we have developed and published the UniDic dictionaries for analyzing various historical Japanese texts (Ogiso et al. 2013). Currently, there are twelve dictionaries for texts of various eras and genres (Ogiso 2022). On the other hand, it is not easy for researchers in the humanities to set up a morphological analyzer and an appropriate dictionary and perform morphological analysis of texts on the command line. To resolve this, we have developed WebChamame, a online tool that can be used without complicated environment construction and can perform morphological analysis with UniDic dictionaries for multiple eras, with the aim of promoting Japanese language research and education using morphological analysis.</p>
+            </div>
+            <div type="div1">
+                <head>Features of WebChamame</head>
+                <p>WebChamame was developed as a cloud-based service that can be used from a web page. Input from the user is text data written in Japanese, and the system returns the analysis results to the user. The user interface runs on a Web browser (figure 1). Morphological analysis is performed using MeCab (Kudo et al. 2004, http://taku910.github.io/mecab/) and UniDic dictionaries installed on the server. MeCab is a morphological analyzer widely used to analyze Japanese with the UniDic dictionary. This server-based environment allows users to run multiple morphological analyses using UniDic without having to build a complicated environment.</p>
+                <p>The services provided by WebChamame can be divided into two stages: text preprocessing before analysis and morphological analysis processing by the selected UniDic.</p>
+                <p>In preprocessing, the following processes can be performed by checking the checkboxes as needed.</p>
+                <p>(1) Identification of character encoding of text and unification to UTF-8</p>
+                <p>(2) Deletion of HTML tags, etc.</p>
+                <p>(3) Conversion of half-width to full-width characters</p>
+                <p>(4) Unfolding odoriji characters</p>
+                <p>(5) Katakana-hiragana inversion</p>
+                <p>(6) Conversion of numeric characters</p>
+                <p>These are pre-processing steps that are often required for Japanese text processing. (4) and (5) are mainly required for pre-modern texts. Although these can be done in advance by the user, these can be easily analyzed by processing them on the WebChamame.</p>
+                <p>In the morphological analysis process, one or two dictionaries are selected from the 12 UniDic dictionaries in Table 1 for morphological analysis. If two dictionaries are selected, the user can see the differences in the analysis results by dictionary to see which dictionary is suitable for the analysis of the target text. The default output item for morphological analysis results is the information in Table 2, which is output in tabular format.</p>
+                <p>The output format can be selected from HTML format, CSV or Excel format, or a format that can be imported by the external tool ChaKi (https://ja.osdn.net/projects/chaki/).</p>
+                <p>In HTML format, the results can be viewed immediately in the browser, while in Excel format, the downloaded analysis results can be opened with a double-click to perform word counts, etc. using a pivot table.</p>
+                <figure>
+                    <graphic n="1001" width="15.991416666666666cm" height="16.786930555555557cm" url="Pictures/7022a5b0a7c5a1b4a4baf244d93ad12d.png" rend="inline"/>
+                    <head>Figure 1: Screenshot of WebChamame</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Use in Research and Education</head>
+                <p>Users have commented favorably on the ease of use of WebChamame. Although we have not been able to conduct an exhaustive survey, WebChamame is being used in many universities in Japan in Japanese linguistics, corpus linguistics, and text analysis classes. For example, at Ritsumeikan University, all students (two classes, 40 students in total) are using WebChamame to conduct morphological analysis and quantitative research on vocabulary and sentence structure after digitizing short stories, lyrics, etc. At least 28 studies using WebChamame were also identified in papers and reports. Some of these studies used morphological analysis when it was necessary for research purposes, while others used to guarantee reproducibility when experiments are performed.</p>
+            </div>
+            <div type="div1">
+                <head>Future Works</head>
+                <p>Since this system has been developed on the assumption that it will be used by researchers and students who understand Japanese, the user interface is only in Japanese. However, we plan to prepare an English version of the user interface (figure 2) in the near future (before the conference presentation), considering that foreign students who are not familiar with Japanese can use the system to analyze Japanese texts for research purposes. We are also considering outputting analysis results in English for fixed items such as parts of speech and conjugations. Furthermore, since word forms and pronunciations can be replaced mechanically, we are considering converting Japanese kana to romaji for output.</p>
+                <figure>
+                    <graphic n="1002" width="15.991416666666666cm" height="17.647708333333334cm" url="Pictures/03bffe1b25768b4d0ad5cd1fba0b64ea.png" rend="inline"/>
+                    <head>Figure 2: Screenshot of WebChamame English interface version</head>
+                </figure>
+                <table xml:id="d233e253">
+                    <head>Table 1: UniDic dictionaries available on WebChamame</head>
+                    <row>
+                        <cell>Types of UniDic</cell>
+                        <cell>Description</cell>
+                    </row>
+                    <row>
+                        <cell>Contemporary Japanese</cell>
+                        <cell>Contemporary common written text.</cell>
+                    </row>
+                    <row>
+                        <cell>Contemporary Spoken Japanese</cell>
+                        <cell>Transcribed texts of contemporary spoken language</cell>
+                    </row>
+                    <row>
+                        <cell>Modern Japanese novels</cell>
+                        <cell>Mainly novels from the Meiji period to the present.</cell>
+                    </row>
+                    <row>
+                        <cell>Modern Japanese in old kana usage</cell>
+                        <cell>Mainly editorial texts written in the old kana syllabary.</cell>
+                    </row>
+                    <row>
+                        <cell>Modern Literary Japanese</cell>
+                        <cell>Editorial texts in modern written language.</cell>
+                    </row>
+                    <row>
+                        <cell>Early Modern Spoken Japanese in Edo</cell>
+                        <cell>Colloquial texts in Edo in the 17-18th century.</cell>
+                    </row>
+                    <row>
+                        <cell>Early Modern Spoken Japanese in Kamigata</cell>
+                        <cell>Colloquial texts in Osaka and Kyoto in the 17-18th century.</cell>
+                    </row>
+                    <row>
+                        <cell>Early Modern Literary Japanese</cell>
+                        <cell>Literary texts of the early modern period.</cell>
+                    </row>
+                    <row>
+                        <cell>Late Middle Spoken Japanese</cell>
+                        <cell>Colloquial texts of the Muromachi period (Kyogen, etc.).</cell>
+                    </row>
+                    <row>
+                        <cell>Late Middle Literary Japanese</cell>
+                        <cell>Literary texts of the Kamakura period.</cell>
+                    </row>
+                    <row>
+                        <cell>Early Middle Japanese</cell>
+                        <cell>Kana literature works and waka poetries of the Heian period.</cell>
+                    </row>
+                    <row>
+                        <cell>Old Japanese</cell>
+                        <cell>Man'yoshu, Norito, etc.</cell>
+                    </row>
+                </table>
+                <table xml:id="d233e378">
+                    <head>Table 2: Output items by morphological analysis (default items only)</head>
+                    <row>
+                        <cell>Item name</cell>
+                        <cell>
+                            <hi rend="bold">Example: <hi rend="SimSun">からく</hi>/ karaku (hot)</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>lemma</cell>
+                        <cell>
+                            <hi rend="SimSun">辛い</hi> / karai (hot)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>lemma form</cell>
+                        <cell>
+                            <hi rend="SimSun">カライ</hi> / karai
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Part of speech</cell>
+                        <cell>
+                            <hi rend="SimSun">形容詞-一般</hi> / Adjective - common
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Conjugation Type</cell>
+                        <cell>
+                            <hi rend="SimSun">形容詞</hi> / adjective type
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Conjugation Form</cell>
+                        <cell>
+                            <hi rend="SimSun">連用形-一般</hi> / consecutive form – common
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Pronunciation (appearance form)</cell>
+                        <cell>
+                            <hi rend="SimSun">カラク</hi> / karaku
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Kana (appearance form)</cell>
+                        <cell>
+                            <hi rend="SimSun">カラク</hi> / karaku
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Word Origin Classification</cell>
+                        <cell>
+                            <hi rend="SimSun">和</hi> / native Japanese word
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Orthography (basic form)</cell>
+                        <cell><hi rend="SimSun">からい</hi></cell>
+                    </row>
+                    <row>
+                        <cell>Word Form (basic forms)</cell>
+                        <cell>
+                            <hi rend="SimSun"><hi rend="SimSun">カライ</hi>/ karai</hi>
+                        </cell>
+                    </row>
+                </table>
+                <p><hi rend="bold">Acknowledgement:</hi> This research was supported by NINJAL “Diachronic Corpus” project, “Lexical Resources” project, and JPSP KAKENHI Grant Number 23H00007.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kudo ,Taku</author> / <author>Yamamoto, Kaoru</author> / <author>Matsumoro, Yuji</author> 
+                        (2004) “Applying Conditional Random Fields to Japanese Morphological Analysis“, in Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing, pp.230-237. 
+                        <ref target="https://aclanthology.org/W04-3230">https://aclanthology.org/W04-3230</ref>
+                        
+                    </bibl>
+                    <bibl>
+                        <author>National Institute for Japanese Language and Linguistics</author>
+                        (2022): "Corpus of Historical Japanese",
+                        <ref target="https://clrd.ninjal.ac.jp/chj/overview-en.html">https://clrd.ninjal.ac.jp/chj/overview-en.html</ref>
+                        (Accessed 2022-11-02).
+                    </bibl>
+                    <bibl>
+                        <author>Ogiso, Toshinobu</author> / <author>Komachi, Mamoru</author> / <author>Matsumoto, Yuji</author> 
+                         (2013). 
+                        
+                        “Morphological analysis of historical Japanese text“, in
+                        <hi rend="italic">Journal of Natural Language Processing</hi>
+                         20(5): 727–748 (in Japanese). 
+                        <ref target="https://doi.org/10.5715/jnlp.20.727">https://doi.org/10.5715/jnlp.20.727</ref>
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Ogiso Toshinobu</author>
+                        (2022) UniDics for Historical Texts, National Institite for Japanese Language and Linguistics (Online), 
+                        <ref target="https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_chj">https://clrd.ninjal.ac.jp/unidic/download_all.html#unidic_chj</ref>
+                         (Accessed 2022-11-02).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

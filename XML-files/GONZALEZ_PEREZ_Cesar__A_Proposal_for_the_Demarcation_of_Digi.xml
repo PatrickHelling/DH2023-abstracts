@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> A Proposal for the Demarcation of Digital Humanities </title>
+                <author n="GonzalezPerezCesarGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0002-3976-7589" n="GonzalezPerezCesar">
+                        <surname>Gonzalez-Perez</surname>
+                        <forename>Cesar</forename>
+                    </persName><affiliation>Incipit CSIC</affiliation><email>cesar.gonzalez-perez@incipit.csic.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RojasCastroAntonioGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0002-8916-4997" n="RojasCastroAntonio">
+                        <surname>Rojas Castro</surname>
+                        <forename>Antonio</forename>
+                    </persName><affiliation>Berlin-Brandenburgische Akademie der Wissenschaften</affiliation><email>antonio.rojas-castro@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FernndezTraviesoCarlotaGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0002-0882-2688" n="FernndezTraviesoCarlota">
+                        <surname>Fernández Travieso</surname>
+                        <forename>Carlota</forename>
+                    </persName><affiliation>Universidade da Coruña</affiliation><email>carlota.ftravieso@udc.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MerinoRecaldeDavidGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0003-2740-7831" n="MerinoRecaldeDavid">
+                        <surname>Merino Recalde</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Universidad Internacional de La Rioja</affiliation><email>davidmrvg@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DezPlatasFtimaGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0002-4474-2431" n="DezPlatasFtima">
+                        <surname>Díez-Platas</surname>
+                        <forename>Fátima</forename>
+                    </persName><affiliation>Universidade de Santiago de Compostela</affiliation><email>fatima.diez@usc.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlviteDezMaraLuisaGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0003-1490-8936" n="AlviteDezMaraLuisa">
+                        <surname>Alvite-Díez</surname>
+                        <forename>María-Luisa</forename>
+                    </persName><affiliation>Universidad de León</affiliation><email>luisa.alvite@unileon.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DezPlatasMLuisaGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0002-9416-3147" n="DezPlatasMLuisa">
+                        <surname>Díez-Platas</surname>
+                        <forename>Mª Luisa</forename>
+                    </persName><affiliation>Universidad Internacional de La Rioja</affiliation><email>marialuisa.diez@unir.net</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LuengoPedroGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName ref="https://orcid.org/0000-0003-0462-4921" n="LuengoPedro">
+                        <surname>Luengo</surname>
+                        <forename>Pedro</forename>
+                    </persName><affiliation>Universidad de Sevilla</affiliation><email>pedroluengo@us.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PereiraFariaMartnGONZALEZ_PEREZ_Cesar__A_Proposal_for_the_Demarcation_of_Digi.xml"><persName n="PereiraFariaMartn">
+                        <surname>Pereira-Fariña</surname>
+                        <forename>Martín</forename>
+                    </persName><affiliation>Universidade de Santiago de Compostela</affiliation><email>martin.pereira@usc.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution presents a proposal for the demarcation of Digital Humanities (DH), that is, a systematic way to determine to what extent something (a project, a research group, a curriculum, etc.) can be considered as part of DH. For this purpose, a system of levels and thresholds is applied.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>demarcation</term>
+                    <term>digital humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>Humanities computing</term>
+                    <term>Philosophy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction and Motivation
+                </head>
+                <p>The problem of the demarcation of science has existed for millennia, and many philosophers have tried to develop precise descriptions of what science is and what it is not (Gauch, 2003; Resnik, 2000). Similarly, demarcating disciplines from each other is important, especially in the case of emerging disciplines. In the case of the Digital Humanities (DH), being clear about what DH is and what it is not (Huggett, 2012; Alvarado, 2012; eds. M. Terras et al., 2013) will help us, for example, to clearly define the object and purpose of departments, research centres, associations and other institutions that work in DH; to guide students and junior researchers about the required training to become competent in DH; or to convey to research management authorities what they should promote to bolster and recognise DH as a discipline. In this work we propose an approach to the demarcation of DH based on levels and thresholds.</p>
+            </div>
+            <div type="div1">
+                <head>Demarcation Proposal</head>
+                <p>Given the emerging nature of DH, a threshold-based approach is proposed, so that a gradation is established from the lowest threshold to the highest. The projects and initiatives that do not reach the first threshold should not be considered part of DH, while those that exceed the highest one clearly should be. Those that fall between the lowest and highest threshold, thus, are considered to constitute DH to some degree.</p>
+                <p>The proposed approach aims to provide criteria to determine to what extent objects of diverse kinds are part of DH. These objects include research and development projects, research groups, departments or institutes, individual or group curricula, teaching contents, research products, events and activities, and others.</p>
+                <p>This proposal only intends to classify objects as belonging to DH with greater or lesser intensity. It does not aim to evaluate objects in terms of their quality or scientific value. Thus, the fact that an object is placed at a certain level according to this proposal does not indicate anything in relation to its quality or scientific value.</p>
+                <p>We propose the following thresholds and levels for the demarcation of DH.</p>
+                <figure>
+                    <graphic n="1001" width="8.9535cm" height="6.686902777777778cm" url="Pictures/9ece8f4269afcd73d3d0dc5281579189.png" rend="inline"/>
+                    
+                </figure>
+                <div type="div2">
+                    <head>Level A. Use</head>
+                    <p>Situations in which existing digital technologies are 
+                        <hi rend="italic">used</hi> to address humanistic issues.
+                    </p>
+                    <div type="div3">
+                        <head>Threshold 1. Generic nominal application</head>
+                        <p>Criterion: Generic digital technologies are applied nominally.</p>
+                    </div>
+                    <div type="div3">
+                        <head>Threshold 2. Specialised or customised nominal application</head>
+                        <p>Criterion: Specialised digital technologies, or customised generic digital technologies, are applied nominally.</p>
+                    </div>
+                    <div type="div3">
+                        <head>Threshold 3. Non-nominal application</head>
+                        <p>Criterion: Digital technologies are applied in a non-nominal way.</p>
+                    </div>
+                </div>
+                <div type="div2">
+                    <head>Level B. Analysis</head>
+                    <p>Situations in which the practice and use of digital technologies are 
+                        <hi rend="italic">analysed</hi> in relation to humanistic issues.
+                    </p>
+                    <div type="div3">
+                        <head>Threshold 4. Analysis or evaluation</head>
+                        <p>Criterion: A scientific analysis or systematic evaluation of the established practice or use of digital technologies in relation to the humanities is carried out, so that constructive criticism constitutes a research outcome and not a merely instrumental mechanism for decision-making on the adoption of one technology or another in a particular case.</p>
+                    </div>
+                </div>
+                <div type="div2">
+                    <head>Level C. Development</head>
+                    <p>Situations in which new digital technologies are 
+                        <hi rend="italic">developed</hi> to be used in relation to the humanities. These new technologies possess new and original theoretical and/or methodological foundations.
+                    </p>
+                    <div type="div3">
+                        <head>Threshold 5. Basic Development</head>
+                        <p>Criterion: Simple, closed and non-innovative digital tools are developed.</p>
+                    </div>
+                    <div type="div3">
+                        <head>Threshold 6. Advanced Development</head>
+                        <p>Criterion: New, open and innovative digital technologies are developed.</p>
+                    </div>
+                    <div type="div3">
+                        <head>Threshold 7. Trans-disciplinary co-research</head>
+                        <p>Criterion: Active research is carried out in the humanities and digital technologies at the same time, so that the advances of each field benefit the other (Gonzalez-Perez, 2017).</p>
+                    </div>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>We are currently validating the proposed approach through empirical testing. Also, a dichotomous key for easier application will be developed soon.</p>
+                <p>We hope that this proposal contributes to the international debate on DH and helps establish the boundaries of the discipline so that it is properly recognised and promoted.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alvarado, Rafael C. </author>(2012). 
+                        <hi rend="italic">The Digital Humanities Situation</hi>. [Online]. 2012. Debates in the Digital Humanities. Available from: https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/c513af64-8f99-4e02-9869-babc1cecc451. [Accessed: 20 October 2022].
+                    </bibl>
+                    <bibl><author>Gauch, Hugh G. </author>(2003). 
+                        <hi rend="italic">Scientific Method in Practice</hi>. Cambridge University Press.
+                    </bibl>
+                    <bibl><author>Gonzalez-Perez, Cesar </author>(2017). 
+                        <hi rend="italic">Co-research and transdisciplinarity</hi>. [Online]. 3 May 2017. Digital Humanities, Not. Available from: https://digitalhumanitiesnot.wordpress.com/2017/05/03/co-research-and-transdisciplinarity/. [Accessed: 20 October 2022].
+                    </bibl>
+                    <bibl><author>Huggett, Jeremy </author>(2012). Core or Periphery? Digital Humanities from an Archaeological Perspective. 
+                        <hi rend="italic">Historical Social Research / Historische Sozialforschung</hi>. [Online]. 37 (3 (141)). p.pp. 86–105. Available from: http://www.jstor.org/stable/41636599.
+                    </bibl>
+                    <bibl><author>Resnik, David B. </author>(2000). A pragmatic approach to the demarcation problem. 
+                        <hi rend="italic">Studies in History and Philosophy of Science Part A</hi>. 31 (2). p.pp. 249–267.
+                    </bibl>
+                    <bibl><author>Melissa Terras, Julianne Nyhan, &amp; Edward Vanhoutte (eds.) </author>(2013). 
+                        <hi rend="italic">Defining Digital Humanities</hi>. Routledge.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

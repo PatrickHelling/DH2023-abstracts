@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Interchangeability of ngrams models between heterogeneous dataset.</title>
+                <author n="CuperMirjamCUPER_Mirjam_Interchangeability_of_ngrams_models_between_het.xml"><persName ref="https://orcid.org/0000-0003-0187-9873" n="CuperMirjam">
+                        <surname>Cuper</surname>
+                        <forename>Mirjam</forename>
+                    </persName><affiliation>KB, national library of the Netherlands, Netherlands,
+                        The</affiliation><email>mirjam.cuper@kb.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Digitized heritage texts are important for computational tasks. Regrettably, OCR software used for digitizing texts is not flawless. Ngram models are a promising method to detect and correct OCR errors, but may be corpora specific. Our findings will indicate if ngram models can be used interchangeably between different corpera.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>ngrams</term>
+                    <term>text similarity</term>
+                    <term>ocr quality</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>A lot of heritage material is digitally available with
+                        more being added continuously. Regrettably, OCR software used for digitizing
+                        texts is not flawless. This leads to a variety of quality in digitized
+                        texts. In order to solve these problems, OCR errors must be detected and
+                        resolved.</p>
+                <p>A method that appears to be an accurate way for the detection and correction of errors in (digitized) texts is the use of ngram models. For example, ngrams models are used to detect spelling errors (El Atawy / Abd ElGhany 2018; Wu et al. 2013) and are implemented in the quality pipeline of both the National Library of the Netherlands and the National Library of Luxembourg (Cuper 2022; Schneider / Maurer 2022). Furthermore, various studies use ngram models for the post-processing of OCRed texts (Nguyen et al. 2021; Chiron et al. 2017). </p>
+                <p>However, there is a huge variety of types of heritage texts that are digitally available. Not only are there different types of publications, such as fiction and non-fiction books, periodicals, and newspapers, but time periods also need to be taken into consideration. Due to this large variation in material, and because of the effort to create manually corrected versions of texts, representative ngrams models are only available for a small number of corpora. </p>
+                <p>It is not evident that ngrams models built upon one corpus can be interchanged to measure the quality of another corpus with different characteristics. Previous research has shown that ngrams can be used to measure similarity between texts (Islam et al. 2012). Furthermore, ngrams have been successfully applied for author-profiling (Basile 2017). These results imply that there are significant differences between ngram models of various corpora. Following this line of thought, each type of corpus may very well need their own ngram model in order to use ngram models for error detection and correction. This would mean that using ngram models is only feasible when there is an ngram model of a representative corpus available. </p>
+                <p>This leads to our research question: <hi rend="italic">How, and to what extent, is an ngram model built upon corpus A
+                            interchangeable to measure the quality of corpus B.</hi></p>
+            </div>
+            <div type="div1">
+                <head>Methodology</head>
+                <p>We propose to determine how interchangeable ngram
+                        models are when applied beyond the scope of their original corpus. We focus
+                        on two separate corpora combinations (both will be presented on the
+                        poster):</p>
+                <list type="unordered">
+                    <item>The interchangeability of ngram models from various
+                            reading levels.</item>
+                    <item>The interchangeability of ngram models from various time periods. </item>
+                </list>
+                <p>To compare corpora of various reading levels, we use a combination of standard English Wikipedia articles (7.649.864 words) and articles from simple English Wikipedia (7.648.884 words). For the comparison on time periods, we use a set of Dutch books from 1584 to 1883 (1.893.137 words) and a set of more modern books from 1947 to 1999 (1.993.072 words). For both combinations, we will create both word- and character ngram models on a train set, with ngrams ranging from bigrams to fourgrams. The ngrams and their corresponding frequencies are created using the Python package NLTK, after which this information was used to calcuate the log probability. To calculate the similarity between the various models, a wilcoxon signed-rank test was used. Only ngrams with a minimal frequency of 10 were used in this analysis. </p>
+                <p>To get a broader understanding of the meaning of the
+                        results from the similarity test, we perform some additional tests: we
+                        perform a similarity test between ngram models created from two samples from
+                        the same corpera, we analyse the intersection of unique ngrams between
+                        models, and we will evaluate the models using intrinsic evaluation, in which
+                        the perplexity of our models on the test sets will be calculated</p>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <p>Our preliminary results based on the various word ngrams models can be found in table 1 and 2. Except for the log probability of the bigram model, we found significant differences between the ngrams models of the various corpera. Our poster will be supplemented with the results from our analyses on the character level and the results from our intrinsic evaluation. To support our findings the characteristics of the used datasets will be shown and the implications for measuring the quality of digitized texts will be discussed. </p>
+                <table xml:id="d76e212">
+                    <head><hi rend="italic">Table 1: Wilcoxon signed-rank
+                    test results, significant p-values in bold.</hi></head>
+                    <row>
+                        <cell/>
+                        <cell>simpel versus
+                            standard Wikipedia</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>p-value Frequency</cell>
+                        <cell>p-value Log
+                            probability</cell>
+                    </row>
+                    <row>
+                        <cell>Bigram</cell>
+                        <cell>1.25x10 <hi rend="superscript">-70</hi>
+                        </cell>
+                        <cell>0.34</cell>
+                    </row>
+                    <row>
+                        <cell>Trigram</cell>
+                        <cell>0.0</cell>
+                        <cell>0.0</cell>
+                    </row>
+                    <row>
+                        <cell>Fourgram</cell>
+                        <cell>0.0</cell>
+                        <cell>0.0</cell>
+                    </row>
+                </table>
+                <table xml:id="d76e278">
+                    <head><hi rend="italic">Table 2: Wilcoxon signed-rank
+                    test results, significant p-values in bold.</hi></head>
+                    <row>
+                        <cell/>
+                        <cell>Books from
+                            1584-1883 versus books from 1947-1999</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>p-value Frequency</cell>
+                        <cell>p-value Log
+                            probability</cell>
+                    </row>
+                    <row>
+                        <cell>Bigram</cell>
+                        <cell>4.39x10 <hi rend="superscript">-10</hi>
+                        </cell>
+                        <cell>0.86</cell>
+                    </row>
+                    <row>
+                        <cell>Trigram</cell>
+                        <cell>2.94x10 <hi rend="superscript">-28</hi>
+                        </cell>
+                        <cell>6.87x10 <hi rend="superscript">-43</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Fourgram</cell>
+                        <cell>1.11x10 <hi rend="superscript">-6</hi>
+                        </cell>
+                        <cell>5.05x10 <hi rend="superscript">-11</hi>
+                        </cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Aminul, Islam / Evangelos, Milios / Vlador Kešelj </hi>(2012).
+                            “Text similarity using google tri-grams.” in: <hi rend="italic">Proceedings of the 25th Canadian conference on Advances in
+                                Artificial Intelligence (Canadian AI'12)</hi>. Springer-Verlag,
+                            Berlin, Heidelberg, 312–317. DOI: 
+                        <ref target="https://doi.org/10.1007/978-3-642-30353-1_29"><hi rend="underline">https://doi.org/10.1007/978-3-642-30353-1_29</hi></ref>
+                        ’
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Basile, Angelo</hi><hi rend="bold">/</hi><hi rend="bold"> Dwyer, Gareth</hi><hi rend="bold"> / </hi><hi rend="bold">Medvedeva, Maria</hi><hi rend="bold"> /</hi><hi rend="bold"> Rawee, Josine</hi><hi rend="bold"> /</hi><hi rend="bold"> Haagsma, Hessel </hi><hi rend="bold"> /</hi><hi rend="bold"> Nissim, Malvina</hi> (2017).
+                            “N-GrAM: New Groningen Author-profiling Model.” in:
+                            <hi rend="italic">Working Notes of {CLEF} 2017 - Conference and Labs of the Evaluation Forum, </hi>1866
+                        
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chiron, Guillaume / Douce, Antoine / Coustaty, Mickaël / Moreux, Jean-Philippe </hi>(2017).
+                            "ICDAR2017 Competition on Post-OCR Text Correction <hi rend="italic">2017 14th IAPR International Conference on Document Analysis and
+                                Recognition (ICDAR)</hi>, pp. 1423-1428, DOI:
+                            10.1109/ICDAR.2017.232. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cuper, Mirjam</hi> (2022). “Examining a Multi Layered
+                            Approach for Classification of OCR Quality without Ground Truth” in:
+                            DHBenelux journal Volume 4, The Humanities in a Digital World, DOI: 
+                        <ref target="https://doi.org/10.17613/03ds-9973"><hi rend="underline">https://doi.org/10.17613/03ds-9973</hi></ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">El Atawy, S. / Abd ElGhany, A.</hi> (2018). “Automatic
+                            spelling correction based on n-gram model." In: <hi rend="italic">International Journal of Computer Applications</hi>, 182:5–9,
+                            DOI: 10.5120/ijca2018917724. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nguyen, Thi Tuyet Hai / Jatowt, Adam / Coustaty, Mickael
+                                / Doucet, Antoine</hi> (2021). “Survey of Post-OCR Processing
+                            Approaches” in: Association for Computing Machinery. 54. DOI:
+                            https://doi.org/10.1145/3453476  
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schneider, Pit / Maurer, Yves</hi> (2022). “Rerunning
+                            OCR: A Machine Learning Approach to Quality Assessment and  Enhancement
+                            Prediction” in: <hi rend="italic">Journal of Data Mining &amp; Digital
+                                Humanities</hi>. DOI: 10.46298/jdmdh.8561  
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wu, Jian-Cheng / Chang, Jim / Chang, Jason J. S</hi>.
+                            (2013). “Correcting serial grammatical errors based on n-grams and
+                            syntax.” in: <hi rend="italic">Int. J. Comput. Linguistics Chin. Lang.
+                                Process.</hi>, 18. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

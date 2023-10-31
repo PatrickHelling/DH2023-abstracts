@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Investigating multisemiotic persuasive practices by
+                        integrating computational methods and complementary theoretical frameworks. </title>
+                    <title type="sub">A Data-driven Approach to Digital Tourism Discourse Based on
+                        Systemic Functional Linguistics and Empirical Multimodality</title>
+                </title>
+                <author n="MatteiElenaMATTEI_Elena_Investigating_multisemiotic_persuasive_practice.xml"><persName n="MatteiElena">
+                        <surname>Mattei</surname>
+                        <forename>Elena</forename>
+                    </persName><affiliation>University of Verona, Italy</affiliation><email>elena.mattei@univr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper offers an understanding of the multilayered methodological framework
+                    developed and implemented to carry out a Digital Humanities project. The latter
+                    classified systematically visuo-linguistic features in contemporary tourism
+                    narratives by means of data-driven tagging models, annotations and statistical
+                    measurement of the frequency and variance of strategies across digital channels.
+                </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract>
+                <p>This paper offers an understanding of the multilayered methodological framework
+                    developed and implemented to carry out a Digital Humanities project. The latter
+                    classified systematically visuo-linguistic features in contemporary tourism
+                    narratives by means of data-driven tagging models, annotations and statistical
+                    measurement of the frequency and variance of strategies across digital channels.
+                </p>
+            </abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>empirical multimodality</term>
+                    <term>data-driven analysis</term>
+                    <term>digital humanities</term>
+                    <term>tourism discourse</term>
+                    <term>systemic functional linguistics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>image processing and analysis</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Communication studies</term>
+                    <term>Linguistics</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The social and academic importance of Digital Humanities (DH) as a multidisciplinary research field lies in its capacity to provide reliable solutions to the investigation of social phenomena, and to contribute to the construction of human knowledge with <hi rend="bold">informed social understandings</hi> (Sayers 2018). This practice enables researchers to obtain reproducible and replicable results, which may provide novel insights into meaning-making social processes and particularly in communication’s discursive power to <hi rend="bold">shape views and behaviors</hi>. In this regard, quantitative and empirical analysis of <hi rend="bold">digital discourse practices</hi> has emerged as key practice in scholarly research; indeed, it allows to understand covert intentions in the dissemination of information that are perpetuated and legitimized at a pervasive level (Stöckl et al. 2020).</p>
+            </div>
+            <div>
+                <head>Areas of inquiry</head>
+                <p>Recent studies have shown the wide applicability and potentialities offered by a <hi rend="bold">multimodal</hi> framework built on <hi rend="bold">Systemic Functional Linguistics</hi> (SFL), both for its novel approach to the systematic analysis of semiotic resources, and for its view of language as one of the systems of <hi rend="bold">choices</hi> and multilayered meaning potentials humans rely on to achieve communicative goals (Thompson et al. 2019). Within this social and academic context, <hi rend="bold">tourism</hi> promotional narratives continue to be investigated
+                        in terms of communicative purposes and visuo-linguistic choices,
+                        particularly due to their degree of adaptability to the socio-economic
+                        context (Francesconi 2014).</p>
+            </div>
+            <div>
+                <head>The project</head>
+                <p>This contribution intends to present a DH doctoral project which explored multisemiotic, persuasive practices designed to promote holiday destinations and affect prospective consumers’ purchasing behavior. Particularly, these are argued to play on capitalist-driven, socially constructed views of travel experiences which convey positive attitudes towards a destination through significant visual semiotic labor (Dann 1996). In other words, the project examines discourse specialists’ attempts to <hi rend="bold">shape positive expectations</hi> regarding the authentic and unknown that overplay the role of travel as a solution to human needs, also by relying on tourists’ inner desire for exclusivity, control and allegedly deliberate choice to <hi rend="bold">engage emotively</hi> with the <hi rend="bold">extra-ordinary</hi> (Urry and Larsen 2011).</p>
+                <p>The main objective of the project was the systematic <hi rend="bold">classification</hi> of the main visuo-linguistic features detected in contemporary tourism narratives by means of data-driven <hi rend="bold">tagging models</hi>. Indeed, these allowed for the quantification and statistical measurement of the frequency and variance of these entities across tourism digital channels after a process of testing and adaptation of theory-based categorizations. </p>
+                <p>The main result obtained is the definition of an <hi rend="bold">Instagram image-centric genre</hi> of tourism communication which, through aesthetically appealing and evocative visual representations of pristine<hi rend="bold"> natural </hi>environments, and their combination with evaluative, <hi rend="bold">emotive language</hi>, stimulates attention and assigns covertly to tourists the <hi rend="bold">syntactic </hi>and<hi rend="bold"> semantic role </hi>of<hi rend="bold"> passive </hi>consumers supposedly in control of the experience (Mattei 2023). All of this, in turn, boosts emotionally charged, <hi rend="bold">impulsive reactions</hi> that <hi rend="bold">encourage</hi> customers to gain additional, concrete <hi rend="bold">information</hi> on travel destinations and make <hi rend="bold">purchase </hi>decisions on<hi rend="bold"> websites</hi> that are perceived as informed, reasonable, thus valid and meaningful (Manca 2016; Bateman 2014).</p>
+            </div>
+            <div>
+                <head>Methodology</head>
+                <p>This presentation seeks to provide an understanding of the multilayered and multisemiotic <hi rend="bold">methodological framework</hi> developed and implemented to carry out the project, and to offer an overview of the main results. Attention will be devoted to the description of the manual<hi rend="bold"> annotation</hi> and <hi rend="bold">statistical </hi>measurement of varying degrees of occurrences of specific features in multimodal meaning design through the notion of <hi rend="italic">metafunction</hi>. The latter allowed also for a solid, qualitative discussion of the patterns of differences in the use of visual and written semiotic choices, and which confirmed the existence of specific <hi rend="bold">communicative goals</hi> across channels.</p>
+                <p>For the measurement of multimodal strategies, six <hi rend="bold">corpora</hi> of texts and images were collected from the <hi rend="bold">websites</hi> and <hi rend="bold">Instagram</hi> accounts of three popular English-speaking tourism boards, namely <hi rend="italic">Tourism Ireland, Destination Canada,
+                        and Western Australia</hi>. The data-driven tagging systems that were adapted to <hi rend="bold">tourism </hi>professional<hi rend="bold"> photography</hi> and <hi rend="bold">discourse</hi> build on SFL and the <hi rend="bold">Grammar </hi>of <hi rend="bold">Visual Design</hi> (Kress and van Leeuwen 2006); in particular, the model for the detection of visual strategies was designed on a new <hi rend="bold">software</hi> (Pibiri and Mattei 2020) for user-friendly and freely accessible, online annotation of image corpora with tailored models and statistics tests. This tool allowed to perform <hi rend="bold">exploratory</hi>, <hi rend="bold">inferential</hi> statistical analyses in<hi rend="bold"> R</hi> (PCA, CA, Chi-square), and to implement measures to assess the degree of <hi rend="bold">reliability</hi> and reproducibility of the tagging procedure (Cohen’s kappa; Krippendorff’s alpha). </p>
+                <p>The empirical investigation unveiled <hi rend="bold">significant</hi> differences in the use of visual strategies across
+                        the two promotional channels, both in terms of chi-square values,
+                        contributions to different dimensions and (co)patterning of tags.</p>
+                <figure>
+                    <graphic n="1001" width="9.778841666666667cm" height="6.50875cm" url="Pictures/d1ff5c1876066a8c40c848fb9b5390a1.png" rend="inline"/>
+                    <head> Figure 1. Example of PCA clustering annotated images </head>
+                </figure>
+            </div>
+            <div>
+                <head>Results: Discussion</head>
+                <p>The <hi rend="bold">visual analysis</hi> revealed a large number of Instagram reaction processes involving aerial views of uncontaminated environments or back views of solitary individuals surrounded and absorbed by aesthetically pleasant environments. This shapes an impersonal relationship with dehumanized subjects that fosters visual pre-consumption, commodification through a romantic gaze of capitalist privilege, superiority and extra-ordinary illusion of control over the natural destination.</p>
+                <p>On the other hand, the study of the most frequent processes (verbs), participants from a <hi rend="bold">syntactic</hi>, <hi rend="bold">semantic perspective</hi> and the <hi rend="bold">keyword</hi> semantic categorization shed light on the ways in which Instagram fosters service pre-consumption by shaping perceptive, emotive expectations. This was realized mostly through relational processes describing the destination’s aesthetic attributes and mental processes of imagination and emotion, which assigned agency to prospective tourists only in terms of inner consumption. Indeed, customers were mostly positioned syntactically as subjects to fulfill the function of static <hi rend="italic">Sensers </hi>of natural <hi rend="italic">Phenomena</hi>; they were rarely <hi rend="italic">Actors </hi>engaged in actions in the external world.</p>
+                <p>The adjective wordlists analysis led to the detection of <hi rend="italic">evoked satisfaction</hi> as the most frequent <hi rend="italic">Affect</hi> resource of <hi rend="italic">Attitude</hi> online, with emerging trends of <hi rend="italic">reaction</hi> and <hi rend="italic">evoked valuation</hi> Appraisal acts occurring mostly on Instagram. These evaluative patterns foster agreement with marketers’ value positions and stimulate in-group identification.</p>
+            </div>
+            <div>
+                <head>Future directions</head>
+                <p>Future directions include the application of this
+                        framework to the development of constructive, <hi rend="bold">eco-discourse narratives</hi>, which encourage tourists to engage<hi rend="bold"> actively</hi> in sustainable activities that <hi rend="bold">preserve</hi> natural environments, thus ensuring green areas
+                        survival for neo-Fordist satisfaction (Stibbe 2014).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bateman, John A.</author>
+                         (2014) "Genre in the Age of Multimodality: Some Conceptual Refinements for Practical Analysis", in: Evangelisti Allori, Paola / Bateman, John A / Bhatia, Vijay K. (eds.): 
+                        <hi rend="italic">Evolution in Genres: Emergence,
+                            Variation, Multimodality</hi>
+                        . Bern: Peter Lang 237-269
+                    </bibl>
+                    <bibl>
+                        <author>Dann, Graham</author>
+                         (1996): 
+                        <hi rend="italic">The Language of Tourism: A
+                            Sociolinguistic Perspective</hi>
+                        . Wallingford: CAB International.
+                    </bibl>
+                    <bibl>
+                        <author>Francesconi, Sabrina</author>
+                         (2014): 
+                        <hi rend="italic">Reading Tourism Texts: A Multimodal
+                            Analysis</hi>
+                        . Bristol: Channel View Publications.
+                    </bibl>
+                    <bibl>
+                        <author>Kress, Gunther</author> / <author>van Leeuwen, Theo</author> 
+                         (2006): 
+                        <hi rend="italic">Reading Images: The Grammar of
+                            Visual Design</hi>
+                        . London: Routledge.
+                    </bibl>
+                    <bibl>
+                        <author>Manca, Elena</author>
+                        (2016): 
+                        <hi rend="italic">Persuasion in Tourism Discourse:
+                            Methodologies and Models</hi>
+                        . Cambridge: Cambridge Scholars Publishing.
+                    </bibl>
+                    <bibl>
+                        <author>Mattei, Elena</author>
+                        (2023): “Theory and Method
+                            for the Statistical Investigation of Multimodal Promotional Practices in
+                            the Digital Era: A Data-driven Approach Based on Systemic Functional
+                            Linguistics and Social Semiotics”, in: IDEAH 3, 2: 1-32. DOI:
+                        <ref target="https://doi.org/10.21428/f1f23564.7921b725">10.21428/f1f23564.7921b725</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Sayers, Jentery</author>
+                         (2018): 
+                        <hi rend="italic">The Routledge Companion to Media
+                            Studies and Digital Humanities</hi>
+                        . Routledge.
+                    </bibl>
+                    <bibl>
+                        <author>Stibbe, Arran</author>
+                         (2014): “Ecolinguistics and Erasure: Restoring the Natural world to Consciousness”, in: Hart, Christopher / Cap, Piotr (eds.): 
+                        <hi rend="italic">Contemporary Critical Discourse
+                            Studies</hi>
+                        . London: Bloomsbury Academic 583-602
+                    </bibl>
+                    <bibl>
+                        <author>Stöckl, Hartmut</author> / <author>Caple, Helen</author> / <author>Pflaeging, Jana</author> 
+                        , eds. (2020): 
+                        <hi rend="italic">Shifts towards Image-centricity in
+                            Contemporary Multimodal Practices</hi>
+                        . London: Routledge.
+                    </bibl>
+                    <bibl>
+                        <author>Urry, John</author> / <author>Larsen, Jonas</author> 
+                         (2011): 
+                        <hi rend="italic">The Tourist Gaze 3.0</hi>
+                        . London: Sage Publications.
+                    </bibl>
+                    <bibl>
+                        <author>Pibiri, Giulio E</author> / <author>Mattei, Elena</author> 
+                         (2020).
+                        <hi rend="italic">Statistically Reliable Image
+                            Tagging Software</hi>
+                        . 
+                        <ref target="http://xor.isti.cnr.it:8000/login.html">http://xor.isti.cnr.it:8000/login.html</ref>
+                        [20.04.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Thompson, Geoff</author> / <author>Bowcher, Wendy L.</author> / <author>Fontaine, Lisa</author> / <author>Schönthal, David</author> ,
+                        eds. (2019) :
+                        <hi rend="italic">The Cambridge Handbook of Systemic
+                            Functional Linguistics</hi>.  Cambridge:
+                            Cambridge University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

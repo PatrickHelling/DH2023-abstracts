@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Named Entity Recognition for a Text-Based Catalog of Ancient Greek Authors and Works</title>
+                <author n="BertiMonicaBERTI_Monica_Named_Entity_Recognition_for_a_Text_Based_Catal.xml"><persName ref="https://orcid.org/0000-0003-2779-4229" n="BertiMonica">
+                        <surname>Berti</surname>
+                        <forename>Monica</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>monica.berti@uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster proposal presents a project whose results are the linguistic annotation of ancient Greek bibliographic references with a focus on Named Entity Recognition related to author names and work titles, in order to produce new dynamic text-based tools that are not available in existing indices and catalogs.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>ancient Greek</term>
+                    <term>digital classics</term>
+                    <term>digital philology</term>
+                    <term>CITE Architecture</term>
+                    <term>literary canon</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>concordancing and indexing</term>
+                    <term>linked (open) data</term>
+                    <term>natural language processing</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Library &amp; information science</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div><head>Introduction </head>
+            <p>This poster proposal presents a project whose results are the linguistic extraction, analysis, and annotation of ancient Greek bibliographic references. This project has been producing a structured knowledge resource about ancient Greek authors and works, which is constituted by names of authors and titles or descriptions of works with variants and ambiguities in the original contextual language. The project makes use of methods and technologies from NLP and computational linguistics. In particular, it applies NER for semi-automatic extraction and annotation of entities related to bibliographic references to ancient Greek authors and works. </p>
+            <p>Project content </p>
+            <p>The poster summarizes characteristics of the database behind the project, which contains lemmatized and annotated named entities extracted from literary works with a focus on the 
+                <hi rend="italic">Deipnosophists</hi> of Athenaeus of Naucratis (http://www.digitalathenaeus.org). The text of Athenaeus has been chosen because it is a reference resource for exploring language and patterns of ancient Greek bibliographic references. Moreover, its citations cover about 50% of the total number of Greek authors for the period of time between the 8th century BC and the 3rd century CE. The poster will also show methods and tools for named entity disambiguation, linking, and coreference resolution in order to extract and annotate real entities corresponding to author names (e.g., Ἀριστοφάνης ὁ Βυζάντιος) and work titles (e.g., ἐν τῇ Λακεδαιμονίων Πολιτείᾳ). This project is producing a knowledge base for linking entity mentions to a structured vocabulary for ancient Greek authors and works that can be used to annotate other significant texts, as for example the 
+                <hi rend="italic">Lexicon of the Ten Orators of Harpocration</hi> and the 
+                <hi rend="italic">Suda </hi>lexicon, which are currently analyzed and whose results will be presented and discussed with the attendees of the poster as part of the 
+                <hi rend="italic">Linked Ancient Greek and Latin</hi> (LAGL) project (https://www.lagl.org/).
+            </p></div>
+            <div><head>Methods </head>
+            <p>Through the illustration of concrete examples, the poster shows the following project phases: 1) extraction and lemmatization of NEs; 2) annotation of single NEs in generic entity classes (LOC and LOCderiv for place names and derivatives; ORG and ORGderiv for festivals, Panhellenic games, and derivatives; OTH for miscellaneous entities as works, months, constellations, currencies, languages, groups, etc.; PER and PERderiv for gods, persons, personifications, authors, etc. and derivatives); 3) disambiguation of NEs through external authority lists for personal names and places like the 
+                <hi rend="italic">Lexicon of Greek Personal Names</hi> (LGPN) and the 
+                <hi rend="italic">Pleiades</hi> gazetteer; 4) disambiguation of NEs related to ancient authors and works and their identification with canonical citations according to the CITE Architecture; 5) use of the web-based platform INCEpTION (https://inceptionproject. github.io/) for relation extraction, NE linking, and co-reference resolution; 6) data export according to Linked Open Data best practices.
+            </p></div>
+            <div><head>Goals </head>
+            <p>The final goal of the project is the creation of a catalog of ancient authors and works based on linguistic annotations in order to visualize references in their original context and offer new and dynamic text-based tools that are not available in existing indices and catalogs of Classical literature. This project offers new results about the language of ancient Greek bibliographic citations by documenting them with an immediate, full, and complete contextual analysis of their occurrences. Attendees of the poster session at DH2023 will be able to interact with extant and forthcoming online resources of the project, so that it will be possible to exchange ideas for further data production and collaboration with related projects in the digital humanities community. </p>
+        </div></body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Berti, Monica</author> (2021): 
+                        <hi rend="italic">Digital Editions of Historical Fragmentary Texts</hi>. Heidelberg: Propylaeum. DOI: 10.11588/propylaeum.898.
+                    </bibl>
+                    <bibl><author>Berti, Monica</author> (2019a): “Historical Fragmentary Texts in the Digital Age”. In 
+                        <hi rend="italic">Digital Classical Philology. Ancient Greek and Latin in the Digital Revolution</hi>. Ed. by M. Berti. Berlin and Boston: De Gruyter, 257-276. DOI: 10.1515/9783110599572-015.
+                    </bibl>
+                    <bibl><author>Berti, Monica</author> (2019b): “Named Entity Annotation for Ancient Greek with INCEpTION”. In 
+                        <hi rend="italic">Proceedings of CLARIN Annual Conference 2019</hi>. Ed. by K. Simov and M. Eskevich. Leipzig, Germany: CLARIN, 1-4.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

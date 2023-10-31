@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Looking back to build future shared collections: reports from the Sloane Lab</title>
+                <author n="HumbelMarcoHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName ref="https://orcid.org/0000-0003-1861-162X" n="HumbelMarco">
+                        <surname>Humbel</surname>
+                        <forename>Marco</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>marco.humbel.17@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ValeontiFoteiniHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="ValeontiFoteini">
+                        <surname>Valeonti</surname>
+                        <forename>Foteini</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>f.valeonti@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MetilliDanieleHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="MetilliDaniele">
+                        <surname>Metilli</surname>
+                        <forename>Daniele</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>d.metilli@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SadekJawadHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName ref="https://orcid.org/0000-0002-3551-9334" n="SadekJawad">
+                        <surname>Sadek</surname>
+                        <forename>Jawad</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>j.sadek@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TerraccianoAldaHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName ref="https://orcid.org/0000-0001-9073-8436" n="TerraccianoAlda">
+                        <surname>Terracciano</surname>
+                        <forename>Alda</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>a.terracciano@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PickeringVictoriaHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="PickeringVictoria">
+                        <surname>Pickering</surname>
+                        <forename>Victoria</forename>
+                    </persName><affiliation>Natural History Museum, London</affiliation><email>v.pickering@nhm.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HughesAliciaHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName ref="https://orcid.org/0000-0002-1193-1455" n="HughesAlicia">
+                        <surname>Hughes</surname>
+                        <forename>Alicia</forename>
+                    </persName><affiliation>The British Museum, London</affiliation><email>ahughes@britishmuseum.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VlachidisAndreasHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="VlachidisAndreas">
+                        <surname>Vlachidis</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>a.vlachidis@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PearlmanNinaHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="PearlmanNina">
+                        <surname>Pearlman</surname>
+                        <forename>Nina</forename>
+                    </persName><affiliation>UCL Art Collection, London</affiliation><email>n.pearlman@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FlinnAndrewHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="FlinnAndrew">
+                        <surname>Flinn</surname>
+                        <forename>Andrew</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London</affiliation><email>a.flinn@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CarineMarkHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="CarineMark">
+                        <surname>Carine</surname>
+                        <forename>Mark</forename>
+                    </persName><affiliation>Natural History Museum, London</affiliation><email>m.carine@nhm.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SloanKimHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName ref="https://orcid.org/0000-0001-6539-9540" n="SloanKim">
+                        <surname>Sloan</surname>
+                        <forename>Kim</forename>
+                    </persName><affiliation>The British Museum, London</affiliation><email>ksloan@britishmuseum.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NyhanJulianneHUMBEL_Marco_Looking_back_to_build_future_shared_collections.xml"><persName n="NyhanJulianne">
+                        <surname>Nyhan</surname>
+                        <forename>Julianne</forename>
+                    </persName><affiliation>Department of Information Studies UCL, London; Technische Universität Darmstadt</affiliation><email>j.nyhan@ucl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this panel we offer a multifaceted and interdisciplinary perspective on the development of the Sloane Lab. We contextualise it both within a wider, nationally-funded drive to make the UK’s cultural heritage, and information about it, computationally tractable and the more internationally-positioned work of ‘Collections as Data’.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Infrastructures</term>
+                    <term>Aggregation</term>
+                    <term>Data Modelling</term>
+                    <term>Cloud Computing</term>
+                    <term>Co-Design</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Computer science</term>
+                    <term>Galleries and museum studies</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Overview</head>
+                <p>Marco Humbel and Julianne Nyhan </p>
+                <p>The UK Arts and Humanities Research Council programme, Towards a National Collection (TaNC), seeks to “[…] take the first steps towards creating a unified virtual ‘national collection’ by dissolving barriers between different collections – opening UK heritage to the world” 
+                    (TaNC, 2023) the published outputs of the TaNC programme to date have predominately (an exception being 
+                    Pringle et al., 2022) addressed the potentials of technologies, such as IIIIF, PIDs and Linked Open Data for creating aggregated collections 
+                    (Padfield, 2020; Winters et al., 2022; Kotarski et al., 2022) and the implications of restrictive copyright frameworks for the reuse of collections 
+                    (Wallace, 2022). 
+                </p>
+                <p>Yet, interoperability is also impacted by sociocultural factors 
+                    (Borgman, 2015: 46–47). A digital collections’ infrastructure, as much as any infrastructure, can be considered as “[…] a fundamentally relational concept; it emerges for people in practice, connected to activities and structures. It consists of both static and dynamic elements, each equally important to ensure a functional system” 
+                    (Bowker et al., 2009: 99). In this panel, we will draw on our ongoing research to explore not only the legal and technical problems of creating a ‘functional’ digitally unified heritage collection, we aim to unpack, through the lens of the Sloane Lab project, the technical, historical and sociocultural elements that shape collections as data research and infrastructures in equally complex ways. 
+                </p>
+                <p>‘The Sloane Lab: Looking back to build future shared collections’, one of TaNC’s five discovery projects, aims to reunify the currently dispersed collections of Sir Hans Sloane in a wider digital heritage infrastructure. Presenting new findings from this research, this panel will respond to the following questions:</p>
+                <p>Q1: What is the role of historical museum records in the task of reunifying siloed collections?</p>
+                <p>Q2: Which needs and priorities are to be considered for collaborating across the sector so that heritage institutions of different sizes can participate in unified digital heritage infrastructures? </p>
+                <p>Q3: How do we support the ability to search collections as data in innovative and deeply contextual ways? </p>
+                <p>Q4: How can we model and integrate disparate sets of historical and contemporary records from heritage institutions to facilitate interoperable access to digital collections as data?</p>
+                <p>Q5: How can heritage institutions benefit from cloud services to design a flexible and scalable technical infrastructure for digitising, releasing and interlinking their collections? </p>
+                <p>Q6: What methodologies do we need to employ to facilitate the use and interpretation of aggregated collections?</p>
+                <p>In this panel we offer a multifaceted and interdisciplinary perspective on the development of the Sloane Lab. We contextualise it both within a wider, nationally-funded drive to make the UK’s cultural heritage, and information about it, computationally tractable and the more internationally-positioned work of ‘Collections as Data’. Crucially, we also report on the Sloane Lab’s participatory-design methodology which offers not only point of reflection on “[…] what kind of social values and ways of thinking and working are embedded in planned infrastructures […]”, but also aims to “[…] contribute to the reconfiguration of the global representation of digital knowledge” 
+                    (Pawlicka-Deger, 2021: 540). 
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Rationale for using heritage collections as a microcosm of the challenges of digital infrastructure integration (Q1)</hi></p>
+                <p>Julianne Nyhan, Andrew Flinn and Nina Pearlman </p>
+                <p>How do historical museum records expose the complexity of digitally reunifying previously siloed collections in digital infrastructures? This presentation will emphasise the presentness of the past in collections as data research, and the complex dynamics that heritage collections pose to digital humanities. The extensive collection of Sir Hans Sloane (1660-1753), which is considered to be one of the founding collections of the UK’s national collections attests to this. Assembled from c.1680s onwards, by the time of his death the Sloane collection was vast in scale and comprised tens of thousands of books and manuscripts, coins and medals, thousands of ethnographic objects and antiquities, hundreds of paintings and hundreds of thousands natural history specimens. This scale of collecting was financed by Sloane’s earnings as a physician, profits from the enslavement of African people and the Transatlantic Slave Trade via investments in the Royal African Company, and dividends from his wife’s plantations in Jamaica. The collection’s assembly also depended on a vast network of individuals, up and down the social hierarchy and across different cultures, many of whom were part of a global trade of goods and people 
+                    (Delbourgo, 2017: 202). The knowledge structures, such as naming, classification and cataloguing systems for different types of objects, that Sloane and others produced at this time through their collecting practices, often systemically silenced the voices, knowledge and methods of knowledge production of people and cultures who were ‘collected’. As this presentation will explore, historical collections such as Sloane’s demand a digital infrastructure that can contend with these histories, which continue to shape our present world namely: How can we make specialist users and members of the public more aware of the controversial and sometimes violent nature and histories of museum collections and of how digital platforms may perpetuate and even amplify this? What is the role of digital tools in foregrounding overlooked or hidden processes, like imperialism, colonialism, enslavement, loss and destruction, that have shaped the UK’s national collections until now? We will present the Sloane Lab’s initial answers to these questions. 
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Participating in aggregated collections – institutional perspectives (Q2)</hi></p>
+                <p>Marco Humbel, Nina Pearlman, Andrew Flinn, Daniele Metilli, Andreas Vlachidis and Julianne Nyhan </p>
+                <p>A lack of financial resources, staff and expertise are often named as the most fundamental issues hampering heritage institutions in their ability to digitise 
+                    (Pandey and Kumar, 2020: 30) and, by extension, to participate in digital infrastructures. Based on an extensive review of the literature we developed a questionnaire for semi-structured interviews to investigate the needs and priorities heritage institutions have regarding creating digitally unified collections. Semi-structured interviews are an appropriate instrument to explore digitisation practices in the heritage sector, as they have the potential to contextualise and extend information that is otherwise dispersed across a wide range of grey literature or not available to the public at all 
+                    (Hauswedell et al., 2020: 140). In this paper we will report on our findings from the interview series which involved 18 key individuals responsible for collection management and digitisation in 10 heritage organisations and aggregators. We will synthesise the drivers and conditions such as strategic priorities, values, resources, expertise, and technical capabilities which present barriers for heritage organisations to participate in digital infrastructure projects. By doing so we will provide guidance to heritage infrastructure programs, such as TaNC, Europeana or the Digital Public Library of America on how to prioritise investments in heritage institutions to support their sustained participation in collections as data frameworks.
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Mapping and visualising dispersed collections (Q3) </hi></p>
+                <p>Foteini Valeonti, Andreas Vlachidis, Alicia Hughes, Victoria Pickering and Mark Carine </p>
+                <p>Searching collections that reside on disparate and scattered resources requires alignment and unification under a common application layer of data semantics for enabling innovative ways for cross-searching, contextual exploration and interrogation. How do we navigate a highly heterogeneous and divided environment of historic and contemporary catalogues? Building on the methodological foundations already laid by the Atlas of Digitised Newspapers and Metadata 
+                    (Beals and Bell, 2020), Sloane Lab proposes the instrument of the ‘Data Atlas’ as crucial for answering this question. The Sloane Lab Data Atlas aims to accurately capture the project’s data environment by mapping all data available relating to the Sloane Collections, the data atlas is the foundation that helps inform the process of data ingestion into the knowledge base. Beyond compiling and organising all available data sources into one comprehensive resource, the data atlas provides information for the different levels of availability (e.g. public, institution-only) and digitisation (e.g. imaged, fully transcribed). Critically, the Sloane Lab data atlas is expandable by design, providing templates for data collection, which are also used as an assessment tool, enabling consistent review, improvement and expansion. The benefits of the data atlas are numerous. Firstly, it provides a clear picture of the breadth and availability of all relevant resources and interrelations; secondly, by scoping the current state and format of those resources, the data atlas facilitates the design of appropriate data mapping and ingestion approaches; thirdly, it helps participant institutions identify significant data absences in their digitised collections. Most importantly, the data atlas provides a methodology for scoping out the data environment of projects dealing with disparate collections of thousands of objects and their digital surrogates, dispersed across institutions, allowing for a better understanding and decision-making in similar large-scale data projects. 
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Modelling and integrating catalogue records in an interoperable way – Questions and challenges (Q4) </hi></p>
+                <p>Daniele Metilli, Andreas Vlachidis, Alicia Hughes, Victoria Pickering and Kim Sloan </p>
+                <p>The Sloane Lab aims to aggregate a multitude of catalogue records (both historic and current, from multiple disciplines) dispersed across the British Museum, Natural History Museum and British Library. The task of integrating these disparate records and facilitating interoperable access to them poses significant challenges. Sloane’s historical catalogues are especially difficult to represent digitally, because the descriptions of the objects are often incomplete or inaccurate 
+                    (Ortolja-Baird et al., 2019). Many catalogue entries lack information about the object’s provenance, and even when this information is available, it is often vague. The fact that many objects are now missing and it is no longer possible to study them directly, exacerbates what Ortolja-Baird et al. call “the object problem” 
+                    (2019: 21). When facing such challenges, it is crucial to adopt a critical digital heritage approach 
+                    (Smyth et al., 2021), since the semantic representation of Sloane’s historical catalogues may produce datasets that contain uncertainty and biases. To try to remedy such biases, we need to look for “data absences” in the records 
+                    (Ortolja-Baird and Nyhan, 2022), and attempt to fill these gaps, or respond to them in an appropriate way. Moreover, Sloane’s perspective on the collection is not easily reconciled with the perspectives of the institutions that hold the objects today. Every record embeds a certain worldview, and we should not always assume that there is a single correct interpretation. One potential answer to this challenge of ‘multivocality’ that we are investigating in the Sloane Lab is a data model that focuses more on the record than on the object, viewing records as different perspectives over the object. 
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Potentials for heritage institutions in adopting cloud infrastructures for digitising, releasing and interlinking their collections (Q5) </hi></p>
+                <p>Jawad Sadek and Andreas Vlachidis </p>
+                <p>On-premises infrastructures impose technical challenges for system developers including restricted permissions, operational cost, and management overheads. This can reduce efficiency and cause performance issues. Cloud environments are becoming more popular in the industry and the academic community 
+                    (Magoulas and Swoyer, 2020). Projects and organisations are adopting cloud-based solutions to respond rapidly to the demands of system agility and scalability. It is anticipated that heritage institutions can also benefit from cloud services to address the demands of complex system architectures. The technical and infrastructural requirements of the Sloane Lab demand scalable architectures, including but not limited to data mobilisation, knowledge base management and interrogation, data aggregation, serialisation and dissemination, and contribution to the Linked Data portal for enabling new ways to explore national collections. We aim to deliver open access applications that are constantly improved in a flexible manner and to develop a model for the sustainable preservation of the aggregated historical collections beyond the current period of funding. Our system is hosted on AWS where services and applications are packaged in Docker containers which are portable and can run on any infrastructure. The system architecture is structured in a way where applications and services are decoupled and deployed in separate layers. The Integration Layer hosts the data serialisation, aggregation, and semantic enrichment services while in the Presentation layer, we expose Sloane Lab’s knowledge base for interrogation and interactive visualisations using the Metaphactory platform. At any given point the data workflow can be deconstructed and re-integrated with different platforms or technologies. 
+                </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Participatory co-design: methodologies to facilitate the use and interpretation of aggregated collections (Q6) </hi></p>
+                <p>Alda Terracciano, Marco Humbel, Daniele Metilli, Jawad Sadek, Foteini Valeonti, Alicia Hughes, Victoria Pickering, Andrew Flinn, Nina Pearlman, Andreas Vlachidis and Julianne Nyhan </p>
+                <p>The challenge for aggregating collections is not only based on a lack of technology or legal constraints. ‘Soft factors’, such as trust in technology, policies and incentives for participating in aggregated collections play an important role too. Moreover, developing a system for participatory modelling based on co-creation is a key priority to democratise the ways digital tools are created by shaping them around users’ needs and aspirations. The Sloane Lab achieves this by “[…] opening up a space for intercultural exchange […]” 
+                    (Terracciano et al., 2017), and reframing practices of participatory co-design of digital environments with communities of interest and heritage institutions. The method references Third Paradigm HCI 
+                    (Harrison et al., 2011) and theories of co-creation of meaning that can facilitate a polyphonic, synchronic dialogue amongst different viewpoints, design elements and participants on issues related to the architecture of aggregators, their interactive elements and the historical significance and typology of material, “[…] to develop responses to research hypotheses and questions, to explore alternatives, and to reconfigure assemblies” 
+                    (Bannon et al., 2018: 31). The discussion will cover selection of co-design participants, nature of activities planned around specific interests and abilities, and the incremental, iterative circular system for the participatory activities, meaning that the data created for and resulting from one activity feeds into the following one, both for the purpose of enriching information on a specific area, and to facilitate the flow of information across different users/co-design participants.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgement</head>
+                <p>This research is funded by Towards a National Collection – AHRC (AH/W003457/1). We wish to thank the reviewers for their comments and feedback. </p>
+            </div>
+        </body>
+    </text></TEI>

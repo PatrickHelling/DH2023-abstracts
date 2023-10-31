@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Three Is the Charm: A New Architecture, New Features and New Projects in EVT 3</title>
+                <author n="BioglioLivioD_AGOSTINO_Giulia_Three_Is_the_Charm__A_New_Architecture__Ne.xml"><persName n="BioglioLivio">
+                        <surname>Bioglio</surname>
+                        <forename>Livio</forename>
+                    </persName><affiliation>University of Turin, Italy</affiliation><email>livio.bioglio@unito.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CerretiniGiacomoD_AGOSTINO_Giulia_Three_Is_the_Charm__A_New_Architecture__Ne.xml"><persName n="CerretiniGiacomo">
+                        <surname>Cerretini</surname>
+                        <forename>Giacomo</forename>
+                    </persName><affiliation>University of Pisa, Italy</affiliation><email>cerre.giacomo93@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DAgostinoGiuliaD_AGOSTINO_Giulia_Three_Is_the_Charm__A_New_Architecture__Ne.xml"><persName n="DAgostinoGiulia">
+                        <surname>D’Agostino</surname>
+                        <forename>Giulia</forename>
+                    </persName><affiliation>University of Verona, Italy</affiliation><email>giulia.dagostino@univr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MagnantiElisabettaD_AGOSTINO_Giulia_Three_Is_the_Charm__A_New_Architecture__Ne.xml"><persName n="MagnantiElisabetta">
+                        <surname>Magnanti</surname>
+                        <forename>Elisabetta</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>elisabetta.magnanti@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RosselliDelTurcoRobertoD_AGOSTINO_Giulia_Three_Is_the_Charm__A_New_Architecture__Ne.xml"><persName n="RosselliDelTurcoRoberto">
+                        <surname>Rosselli Del Turco</surname>
+                        <forename>Roberto</forename>
+                    </persName><affiliation>University of Turin, Italy</affiliation><email>roberto.rossellidelturco@unito.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this poster we would like to present the new architecture and features of EVT 3 (Edition Visualization Technology), an open source Angular-based tool for the visualization of TEI-XML Digital Scholarly Editions. We will use and showcase two digital philology projects as test bed for the new functionalities.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>EVT</term>
+                    <term>interface design</term>
+                    <term>digital scholarly editions</term>
+                    <term>data modeling</term>
+                    <term>information retrieval</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Computer science</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Edition Visualization Technology (EVT) is an open source tool to produce Digital Scholarly Editions on the basis of TEI XML-encoded documents. It was created as the browsing component of a specific project, the Digital Vercelli Book (Rosselli Del Turco 2017), but it has been developed in such a way as to become a general purpose tool. Several projects are using it to publish digital editions (Salvatori 2014, Delle Donne 2020), in fact many researchers have found in EVT the perfect tool for their needs: it is easy to configure and deploy, it is fully customizable, it includes several useful research tools out of the box.</p>
+            </div>
+            <div type="div1">
+                <head>Versions</head>
+                <p>Three EVT versions are available (Rosselli Del Turco 2019):</p>
+                <list type="unordered">
+                    <item>EVT 1: diplomatic or single-witness editions support, based on XSLT 2 and Web technologies [2013 → December 2019 EVT 1.3 version published]</item>
+                    <item>EVT 2: a complete “reboot” of the source code based on the MVC design pattern and on the AngularJS framework [beta 2 published in June 2020]</item>
+                    <item>EVT 3: new version based on the Angular framework [ﬁrst alpha published November 2022]</item>
+                </list>
+                <p>The current development version is EVT 3. The first code rewrite was caused by the need for a more robust and flexible framework, i.e. AngularJS, dropping the building phase. After the deprecation of AngularJS we chose to move to its successor, Angular, so as to further refine the development workflow and increase the flexibility of the overall architecture.</p>
+                <p>The basic philosophy has not changed, though: we aim at producing an easy-to-use tool, empowering the lone scholar / young researcher, highly customizable, rich in functionality. Since EVT is based on the client-only architecture, it falls within the minimal computing approach: it requires no server-side software to work, and little to no maintenance after an edition has been published on the Web.</p>
+                <p>Finally, besides recovering feature parity compared to the previous versions, there are several new features that will be introduced in EVT 3.</p>
+            </div>
+            <div type="div1">
+                <head>Synoptic edition</head>
+                <p>Synoptic editions present two or more versions of the same text from a comprehensive point of view, generally by laying them out side by side. The constraints of the printed page limit and skew the way in which complex networks of information can be represented. Medieval German handwritten traditions, such as the <hi rend="italic">Alexanderlied </hi>with its three significantly diverging recensions (Cipolla 2018), are a challenging case study for the visualization of digital synoptic editions. Using the <hi rend="italic">Alexanderlied </hi>as a test bed and starting from encoding criteria for establishing connections among the recensions and aligning the three texts, the fruitful collaboration between the fields of textual criticism and interface design will lead to synoptic editions support in EVT 3. Through the EVT interface, users will be able to extract and dynamically handle textual segments corresponding to episodes in the three recensions: these narrative units will be visually highlighted at the same time and enriched with philological comments.</p>
+            </div>
+            <div type="div1">
+                <head>TEI data processing</head>
+                <p>EVT's capabilities have further been enhanced by the implementation of new functionalities to retrieve data and perform complex queries on encoded texts. The application of such a method could prove essential to assist the retrieval of information otherwise difficult to extract from source material that survives in multiple versions (Rosselli Del Turco et al. 2021). This is the case, for instance, of the <hi rend="italic">Anglo-Saxon Chronicle</hi>(Keynes 2011): transposing it into a digital format is beneficial not only for textual criticism but, most importantly, for historical analysis. Bridging together information dispersed in a plurality of manuscripts—through the encoding of historical events, named entities and realia—would make it possible to shed new light on primary sources and gain fresh knowledge about the past. </p>
+            </div>
+            <div type="div1">
+                <head>User annotations</head>
+                <p>One of the key features developed in EVT 3 is the creation of an annotation system for text and images. Its main focus is to recreate the same actions performed by a reader when writing personal notes related to the displayed text, thus adding an additional layer of information to the edition itself. User annotations will be based on the W3C standard (the Web Annotation Data Model) and will employ a data structure based on the JSON-LD format. This allows the serialization of data in a traditional JSON model, using a structure common to other EVT 3 functionalities, so that it will be possible to manage a wide spectrum of different typologies of resources. </p>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>In this poster we will present the new framework used to develop EVT and the new features that are already implemented in the current development version. A live demo of the tool will be performed  to show how the software works and what its capabilities are.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Cipolla, Adele</author> (2018): “Intractable Cases and Digital Hopes: How New Media Can Help
+                        with Interpreting Multi-Version Vernacular Texts”, in: Cipolla, Adele (ed.):
+                        <hi rend="italic"> Digital Philology: New Thoughts on Old Questions</hi>
+                         (Storie e Linguaggi 27). Padova: Libreriauniversitaria.it 99-124.
+                        <ref target="https://www.academia.edu/37086976/Digital_Philology_New_Thoughts_on_Old_Questions">https://www.academia.edu/37086976/Digital_Philology_New_Thoughts_on_Old_Questions</ref>
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Delle Donne, Fulvio</author> (2020): 
+                        <hi rend="italic"> Petrus de Ebulo De Rebus Siculis carmen.</hi>
+                        Università della Basilicata. 
+                        <ref target="https://web.unibas.it/bup/evt2/pde/">https://web.unibas.it/bup/evt2/pde/</ref>
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>EVT Home Page:</author>
+                        <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref>
+                        [01.05.2023]. GitHub repository: 
+                        <ref target="https://github.com/evt-project/">https://github.com/evt-project/</ref>
+                        
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Keynes, Simon</author> (2011): “Manuscripts of the Anglo-Saxon Chronicle”, in:
+                        <hi rend="italic"> The Cambridge History of the Book in Britain</hi>
+                         1. Cambridge: Cambridge University Press 537–552. 
+                        <ref target="https://doi.org/10.1017/CHOL9780521583459.026">https://doi.org/10.1017/CHOL9780521583459.026</ref>
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Rosselli Del Turco, Roberto</author> (2017): “The Digital Vercelli Book. A facsimile edition of Vercelli, Biblioteca Capitolare, CXVII”, in: 
+                        <hi rend="italic"> Collane@unito.it</hi>
+                        . 
+                        <ref target="http://www.collane.unito.it/oa/items/show/11">http://www.collane.unito.it/oa/items/show/11</ref>
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Rosselli Del Turco, Roberto</author> (2019): “Designing an Advanced Software Tool for Digital Scholarly Editions: The Inception and Development of EVT (Edition Visualization Technology)”, in:
+                        <hi rend="italic"> Textual Cultures</hi>
+                         12, 2: 91–111. 
+                        <ref target="https://doi.org/10.14434/textual.v12i2.27690">https://doi.org/10.14434/textual.v12i2.27690</ref>
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Rosselli Del Turco, Roberto</author> / <author>Salvatori, Enrica</author> / <author>Nanetti, Andrea</author> / <author>Giacchetto, Marco</author> / <author>Schwarz-Ricci, Isabell V.</author> / <author>Ambrosio, Antonella</author>  (2021): “Introduzione: ‘Fonti archivistiche medievali nel digitale. La sfida di trattare e visualizzare dati semi-strutturati’”, in: 
+                        <hi rend="italic"> Umanistica Digitale</hi>
+                         10 (September): 289–298. 
+                        <ref target="https://doi.org/10.6092/issn.2532-8816/12582">https://doi.org/10.6092/issn.2532-8816/12582</ref>
+                        [01.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Salvatori, Enrica</author> (2014): 
+                        <hi rend="italic"> Codice Pelavicino. Edizione digitale</hi>
+                        . Università di Pisa. 
+                        <ref target="http://pelavicino.labcd.unipi.it/">http://pelavicino.labcd.unipi.it/</ref>
+                        [01.05.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

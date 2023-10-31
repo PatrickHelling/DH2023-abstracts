@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Making Hobbes’s Bible in the English Political Works Machine-Readable: A
+                    TXM-Based Workflow</title>
+                <author n="RebastiFrancescaREBASTI_Francesca_Making_Hobbes_s_Bible_in_the_English_Polit.xml"><persName n="RebastiFrancesca">
+                        <surname>Rebasti</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation>IHRIM (UMR 5317) - ENS de Lyon, France</affiliation><email>francesca.rebasti@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HeidenSergeREBASTI_Francesca_Making_Hobbes_s_Bible_in_the_English_Polit.xml"><persName ref="https://orcid.org/0000-0003-4682-7647" n="HeidenSerge">
+                        <surname>Heiden</surname>
+                        <forename>Serge</forename>
+                    </persName><affiliation>IHRIM (UMR 5317) - ENS de Lyon, France</affiliation><email>slh@ens-lyon.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Based on ongoing research in the collaborative Digital Theological Hobbes (DTH) project, this long presentation aims to showcase the benefits of a textometric approach to the elaboration and exploitation of a machine-readable model of Hobbes’s Bible in the English political works relying on the TXM software platform.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Bible</term>
+                    <term>EEBO-TCP XML-TEI P5 diplomatic transcriptions</term>
+                    <term>Hobbes</term>
+                    <term>TXM</term>
+                    <term>URS annotation TXM extension</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Philosophy</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>During the elaboration of his political theory, the materialist philosopher Thomas
+                Hobbes (1588-1679) developed an increasingly close relationship with the Bible.
+                Although he credited himself with the scientific foundation of politics, Hobbes used
+                more and more scriptural evidence in support of his arguments in <hi rend="italic">The Elements of Law</hi> (1640), <hi rend="italic">De Cive</hi> (1642, 1647),
+                and the English and Latin
+                <hi rend="italic">Leviathan </hi>(1651, 1668). Hobbes’s growing
+                reliance on the sacred text thus raises the question of how his citational and
+                exegetical practice developed between 1640 and 1668 and for what purposes. </p>
+            <p>Yet, determining how the philosopher’s knowledge and use of the Scriptures evolved
+                over time does not come without difficulty, to the extent that the affair has come
+                to be known as “the problem of Hobbes and the Bible” (Jones 1984). As Harold
+                Whitmore Jones pointed out as far back as 1984, the hundreds of biblical quotations
+                sprinkled throughout the political works, Hobbes’s simultaneous use of multiple
+                scriptural sources, and his inconsistent handling of the source texts make it
+                arduous to manually account for the nature and evolution of the philosopher’s
+                treatment of the Bible. That is why, despite the recent rise in interest in Hobbes’s
+                religion, the philosopher’s knowledge and use of the Scriptures seems, as yet, never
+                to have formed the object of a systematic inquiry. Even the most ground-breaking
+                investigations (Jones 1984; Pacchi et al. 1988; Somos 2015; Davis 2018) have not
+                ventured beyond specific case studies, sample surveys, general overviews, or
+                methodological recommendations. </p>
+            <p>However, if the scholarly community has made only limited progress towards “the
+                problem of Hobbes and the Bible”, it is now generally agreed that its solution would
+                foster a better understanding of the philosopher’s biblical exegesis but also of his
+                works at large. Hence the interest in actualizing Jones’s pioneering undertaking, by
+                exploring the opportunities made possible in the digital turn by a collaboration
+                between computational linguistics and intellectual history. </p>
+            <p>Based on ongoing research in the framework of the <hi rend="italic">Digital
+                    Theological Hobbes</hi> (DTH) project, this long presentation aims to display
+                the benefits of a textometric approach to the challenges that hindered the success
+                of the enquiries conducted so far: a comprehensive inspection and analysis of
+                heterogeneous scriptural data. Since it is not possible to ascertain how Hobbes’s
+                knowledge and use of the Scriptures evolved without reconstituting the philosopher’s
+                Bible from the numerous references and citations scattered in his works, this
+                presentation illustrates the workflow developed to turn text (i.e., Hobbes’s
+                explicit biblical references and quotations) into computable data. To do so, it
+                presents a case study based on TXM, a Text Encoding Initiative (TEI) and Natural
+                Language Processing (NLP) oriented, free and open-source software platform
+                implementing textometry (Heiden 2010), and on EEBO-TCP XML-TEI P5 diplomatic
+                transcriptions of Hobbes’s English political works (Kichuk 2007), automatically
+                lemmatized by the MorphAdorner software (Burns 2013). </p>
+            <p>After a brief introduction of the historical-philosophical problem that lies at the
+                roots of the DTH project, the first part of the presentation focuses on the
+                construction of the case study envisaged to elaborate a machine-readable model of
+                Hobbes’s Bible in the English political works. Special attention is paid to the
+                building of a TXM-based corpus of the EEBO-TCP XML-TEI P5 diplomatic transcriptions
+                of such works: the published treaties composing the 1640 manuscript <hi rend="italic">The Elements of Law</hi> ( <hi rend="italic">Humane Nature</hi>
+                and <hi rend="italic">De Corpore Politico</hi>), the English translation of <hi rend="italic">De Cive</hi> (P <hi rend="italic">hilosophicall Rudiments
+                    concerning Government and Society</hi>), and the 1651 edition of <hi rend="italic">Leviathan</hi>. It is, indeed, the shared analogous philological
+                and linguistic enrichments of these transcriptions that allow for a unified,
+                systematic, and reproducible method for the processing of Hobbes’s explicit biblical
+                references and quotations. </p>
+            <p>The second part of the presentation introduces the workflow developed to model,
+                retrieve, annotate, and operationalize Hobbes’s explicit biblical references and
+                quotations as they appear in the EEBO-TCP XML-TEI P5 diplomatic transcriptions (see
+                Figures 1-3).</p>
+            <figure>
+                <graphic url="Pictures/fig1.png"/>
+                <head>Figure 1. Concordance of the 946 matches produced by the surface query for
+                    Hobbes’s biblical references (corresponding to multiple book-chapter-verse and
+                    verse patterns) in the corpus of the English political works. This screenshot
+                    nicely illustrates the efficacy of the query, able to retrieve different formats
+                    of isolated verses (like “ver. 8.”, “verse 10.”, “ver. 11, 12.”), isolated book
+                    chapters (like “Mat. 10.”), standard references (like “Mat. 19. 28.”, “2 Cor. 1.
+                    24.”), composite references (like “Mat. 18. 15, 16, 17” and “1 Cor. 5. 3, 4
+                    &amp; 5”), but also references made up of several kinds of abbreviations (like
+                    “1 Epist. chap. 2. ver. 13, 14, 15” or “1 Cor. 5. ver. 9, 10, &amp;c.”).
+                    However, despite its overall efficacy, the query misses some references
+                    (silence) and matches some false references (noise).</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/fig2.png"/>
+                <head>Figure 2. The screenshot illustrates the results of the
+                    “Annotate-Hobbes-Biblical-References” script in the corpus of the English
+                    political works. First of all, the script automatically creates as many URS
+                    biblical reference units (here underlined in green) as are the verse or chapter
+                    numbers found in the matches of the query for Hobbes’s biblical references.
+                    Secondly, it performs an automatic annotation of these units by projecting the
+                    constitutive elements of each biblical reference (the abbreviated book title and
+                    eventual number as well as the chapter and verse numbers) into a set of
+                    predetermined URS annotation fields as their properties. By applying a table of
+                    correspondence between the biblical book abbreviations and their full titles and
+                    the part of the Bible they belong to, the script further fills in annotation
+                    fields that will be later used for the retrieval and analysis of the URS units.
+                    Finally, every time it finds an isolated biblical verse, the script projects the
+                    attributes of the “book”, “book Title”, “number” and “part” fields of the
+                    preceding URS biblical reference unit into the URS unit corresponding to the
+                    incomplete reference. Here “Vers. 2” (displayed in dark green) is automatically
+                    annotated as the second verse of the fourth chapter of the first letter of
+                    John.</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/fig3.png"/>
+                <head>Figure 3. This screenshot exemplifies the query result verification method. In
+                    order to reduce the noise produced by the query for Hobbes’s biblical
+                    references, the automatic annotation of the URS units is followed by their
+                    manual correction. Here, the URS biblical reference unit “Act. 12” is manually
+                    deleted once shown as false by its contextualisation through the synoptic
+                    edition.</head>
+            </figure>
+           
+            <p>To this end, it illustrates how TXM originally combines the potential of a systematic
+                search of word sequence patterns formulated in the CQL query language of the CQP
+                search engine with that of information annotation through the Unit-Relation-Schema
+                (URS) annotation TXM extension (Heiden, 2018). It shows, as a result, how TXM
+                ensures a full indexation of Hobbes’s diplomatic biblical references (see Figure 4),
+                the complete extraction of the adjacent quotations and a textometric analysis of
+                their lexicon.</p>
+            <figure>
+                <graphic url="Pictures/fig4.png"/>
+                <head>Figure 4. The screenshot shows the dynamic index of the biblical reference
+                    annotations occurring in the Humane Nature and De Corpore Politico sub-corpus.
+                    Two sets of hyperlinks (displayed in blue in the middle of the figure) allow to
+                    navigate to, respectively, the diplomatic and critical edition page of
+                    occurrence of each index entry. By clicking on the [Psalms 15.1,] 2-DCP, 1.5.5,
+                    p.41 hyperlink, the synoptic edition of Hobbes’s De Corpore Politico opens on
+                    page 41, in correspondence of the reference to the first verse of the fifteenth
+                    Psalm (on the left). By clicking on the [96] hyperlink, it is Tönnies’s critical
+                    edition of The Elements of Law that opens in correspondence of the reference to
+                    the same verse, on page 96, for comparison purposes (on the right).</head>
+            </figure>
+         
+            <p>The third part of the presentation displays the workflow developed to model,
+                annotate, and operationalize the micro-interpretations elaborated by the main modern
+                critical editors of Hobbes’s English political works: Ferdinand Tönnies, Howard
+                Warrender and Noel Malcolm. As Hobbes’s diplomatic biblical references are often
+                incomplete, omitted, or erroneous, a new layer of complexity needs to be added for
+                the machine-readable model of Hobbes’s Bible to be exhaustive and, therefore, useful
+                for the advancement of scholarship. This part thus shows how TXM allows, via the URS
+                TXM extension and its tools, not only for the thorough indexation and analysis of
+                Hobbes’s critical biblical references but also for the calculation of the ‘editorial
+                delta’, i.e., the variation between the diplomatic and critical information encoded
+                in the texts (see Figure 5).</p>
+            <figure>
+                <graphic url="Pictures/fig5.png"/>
+                <head>Figure 5. By comparing the indexes of biblical references of our two corpora,
+                    the diplomatic edition of Humane Nature and De Corpore Politico and Tönnies’s
+                    critical edition of The Elements of Law, some discordances appear. Sometimes,
+                    they reveal the positive impact of editorial work: for instance, when Tönnies
+                    amends the base text of Hobbes’s printed editions of Humane Nature and De
+                    Corpore Politico on the basis of the Harley MS 4235 (MS A) witness. In other
+                    cases, discordances may reveal residual typos or inaccuracies of the critical
+                    edition itself. This screenshot provides an example of such discrepancies. The
+                    reference to the Gospel of John has a different chapter number in De Corpore
+                    Politico (upper section) and Tönnies’s edition (lower section): in De Corpore
+                    Politico it is the eighteenth chapter that is referred to, while in The Elements
+                    of Law the reference points to the twenty-eighth chapter.</head>
+            </figure>
+         
+            <p>In conclusion, the presentation critically evaluates the results obtained and
+                outlines further developments towards the textometric detection of Hobbes’s reuse of
+                his most likely main biblical source, the King James Bible or Authorised Version
+                (1611), in comparison with the principal competing Early Modern English translations
+                available at the time: the Calvinist Geneva Bible of 1557-1560 and the Catholic
+                Rheims-Douay Bible of 1582-1610.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>Secondary literature:</bibl>
+                    <bibl>
+                        <author>Davis, P. B.</author> (2018): “Devil in the
+                        Details. Hobbes’s Use and Abuse of Scripture”, in: van Apeldoorn, L. and
+                        Douglass, R. (eds): <hi rend="italic">Hobbes on Politics and Religion</hi>.
+                        Oxford: Oxford University Press, 135-49. </bibl>
+                    <bibl>
+                        <author>Jones, H. W</author>. (1984): “Thomas
+                        Hobbes and the Bible: A Preliminary Enquiry”, in: Société des amis du Centre
+                        d'études supérieures de la Renaissance (ed): <hi rend="italic">Arts du
+                            spectacle et histoire des idées : recueil offert en hommage à Jean
+                            Jacquot</hi>. Tours: Centre d'études supérieures de la Renaissance,
+                        271-85. </bibl>
+                    <bibl>
+                        <author>Pacchi, A.</author> / <author>Invernizzi, G.</author> and <author>Lupoli, A.</author> (eds) (1988): <hi rend="italic">Scritti teologici</hi>. Franco Angeli, Milano. </bibl>
+                    <bibl>
+                        <author>Somos, M.</author> (2015): “Bible
+                        Interpretation and the Constitution of the Christian Commonwealth in
+                        Hobbes’s <hi rend="italic">Leviathan</hi>”, Part III, <hi rend="italic">Storia del pensiero politico</hi>, 2: 175-201. </bibl>
+                    <bibl>Corpora and tools:</bibl>
+                    <bibl>
+                        <author>Burns, R. R.</author>
+                        (2013): <hi rend="italic">MorphAdorner v2: A Java Library for the
+                            Morphological Adornment of English Language Texts</hi>. Northwestern
+                        University, Evaston.
+                        <ref target="http://morphadorner.northwestern.edu/morphadorner/download/morphadorner.pdf">http://morphadorner.northwestern.edu/morphadorner/download/morphadorner.pdf</ref>
+                        [15.04.2019]. </bibl>
+                    <bibl>
+                        <author>Heiden, S.</author> (2010): “The TXM
+                        Platform: Building Open-Source Textual Analysis Software Compatible with the
+                        TEI Encoding Scheme”, in: Otoguro, R., Ishikawa, K., Umemoto, H., Yoshimoto,
+                        K. and Harada, Y. (eds): <hi rend="italic">24th Pacific Asia Conference on
+                            Language, Information and Computation</hi> – <hi rend="italic">PACLIC24</hi>. Sendai: Institute for Digital Enhancement of Cognitive
+                        Development, 389-98.
+                        <ref target="https://halshs.archives-ouvertes.fr/halshs-00549764/en">https://halshs.archives-ouvertes.fr/halshs-00549764/en</ref> [15.04.2019]. </bibl>
+                    <bibl>
+                        <author>Heiden, S.</author> (2018):
+                        “Annotation-based Digital Text Corpora Analysis within the TXM Platform”,
+                        in: Iezzi, D. F., Celardo, L. and Misuraca, M. (eds): <hi rend="italic">Proceedings of the 14th International Conference on the Statistical
+                            Analysis of Textual Data (JADT 2018)</hi>. Rome: UniversItalia, 367-74.
+                        <ref target="http://jadt2018.uniroma2.it">http://jadt2018.uniroma2.it</ref> [15.04.2019]. </bibl>
+                    <bibl>
+                        <author>Kichuk, D.</author> (2007): Metamorphosis:
+                        Remediation in Early English Books Online (EEBO), <hi rend="italic">Literary
+                            and Linguistic Computing</hi>, 22(3): 291-303. </bibl>
+                    <bibl>
+                        <author>TEI Consortium</author> (eds) (2019): <hi rend="italic">TEI P5:
+                            Guidelines for Electronic Text Encoding and Interchange. Version
+                            3.5.0</hi>. Last updated on 29 January 2019.
+                        <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf">https://www.tei-c.org/release/doc/tei-p5-doc/en/Guidelines.pdf</ref>
+                        [15.04.2019]. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

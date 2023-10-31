@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Modeling the evolving social dynamics of political figures with chronological
+                    historical records</title>
+                <author n="ChenYouJunTSAI_Richard_Tzong_Han_Modeling_the_evolving_social_dynamics.xml"><persName n="ChenYouJun">
+                        <surname>Chen</surname>
+                        <forename>You-Jun</forename>
+                    </persName><affiliation>Department of Mathematics, University of California, Los Angeles,
+                        USA; Center for GIS, Research Center for Humanities and Social Sciences,
+                        Academia Sinica, Taiwan</affiliation><email>youjun1109@g.ucla.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HsiehHsinYiTSAI_Richard_Tzong_Han_Modeling_the_evolving_social_dynamics.xml"><persName n="HsiehHsinYi">
+                        <surname>Hsieh</surname>
+                        <forename>Hsin-Yi</forename>
+                    </persName><affiliation>Department of Computer Science and Information Engineering,
+                        National Central University, Taiwan; Center for GIS, Research Center for
+                        Humanities and Social Sciences, Academia Sinica, Taiwan</affiliation><email>hsinmosyi@g.ncu.edu.tw</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LinYuTungTSAI_Richard_Tzong_Han_Modeling_the_evolving_social_dynamics.xml"><persName n="LinYuTung">
+                        <surname>Lin</surname>
+                        <forename>Yu-Tung</forename>
+                    </persName><affiliation>Department of Computer Science and Information Engineering,
+                        National Central University, Taiwan</affiliation><email>judy0824@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TsaiRichardTzongHanTSAI_Richard_Tzong_Han_Modeling_the_evolving_social_dynamics.xml"><persName n="TsaiRichardTzongHan">
+                        <surname>Tsai</surname>
+                        <forename>Richard Tzong-Han</forename>
+                    </persName><affiliation>Department of Computer Science and Information Engineering,
+                        National Central University, Taiwan; Center for GIS, Research Center for
+                        Humanities and Social Sciences, Academia Sinica, Taiwan</affiliation><email>thtsai@csie.ncu.edu.tw</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This work investigates two computational methods to exploit relational and temporal information in chronological historical records. The results of the veritable records in the Ming dynasty reveal the change in power of the Grand Secretariat during Ming times, corroborating earlier studies.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>political figures</term>
+                    <term>term frequency</term>
+                    <term>document frequency</term>
+                    <term>co-occurrence</term>
+                    <term>Ming dynasty</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Recent years have witnessed an increasing interest in
+                    using computational approaches to study social groups in the Chinese humanities,
+                    thanks to the proliferation of biographical databases (see for example (Rudolph
+                    and Chen, 2021; Bingenheimer, 2020; Li and Zuo, 2019; Tsui and Wang, 2020)). To
+                    further exploit the rich relational and temporal information in historical
+                    sources, we investigate two computational methods to model the evolving social
+                    dynamics among officials underlying the imperial historical records – the
+                    veritable records (Shi Lu). Similar to (Armand and Henriot, 2021), we construct
+                    a co-occurrence network based on mentions of official names in the records.
+                    Leveraging the longitudinal information in the records, we aim to render the
+                    social relations among officials in the past. As the social relations of
+                    officials are closely associated with the offices they held, we conduct a text
+                    analysis on mentions of offices in the records. This paper explores the results
+                    of a mainly explorative analysis using the two approaches on a corpus of
+                    veritable records in the Ming dynasty, <hi rend="italic">Ming Shi-Lu (MSL),</hi>
+                    from 1368 to 1644. </p>
+            </div>
+            <div type="div1">
+                <head>Dataset and Methodology</head>
+                <p>The main hypothesis is that, if adopting computational
+                    methods, it is possible to reconstruct the underlying social structure from
+                    chronological historical records. Related to this are two questions:</p>
+                <list type="ordered">
+                    <item>To what extent the co-occurrence of official names in the records can
+                        reflect the social relations between officials?</item>
+                    <item>Are the frequently mentioned offices in the records and the strongly
+                        associated officials revealed in the co-occurrence network studied in
+                        existing literature?</item>
+                </list>
+                <p>Building upon the results of two natural language
+                    processing tasks — named entity recognition (Lai, 2016) and named entity
+                    disambiguation (Wu, 2021) — on a digitized <hi rend="italic">MSL</hi> corpus, we
+                    extract the co-occurrence ties based on the entities of official names in the
+                    records. We reason that if two individuals appear in a record, there is a
+                    possibility for some association. To construct the network, we treat the
+                    officials as nodes and the co-occurrence ties as edges. Specifically, we exclude
+                    records lacking temporal information such as "prefaces" (<hi rend="SimSun">Xu 序</hi>) and "precious
+                    instructions" (Bao-Xun <hi rend="SimSun">寶訓</hi>). In each record, we count each pair of individuals
+                    only once, even if an individual is mentioned several times. The number of
+                    records used during each emperor’s reign is shown in Table 1. </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.868958333333333cm" url="Pictures/92771a35b84470db569dacf278c4836f.jpeg" rend="inline"/>
+                    <head><hi rend="bold">Table 1. The number of records used during each emperor’s
+                        reign.</hi></head>
+                </figure>
+                <p>The resulting output dataset is imported into the
+                    network analysis tool Gephi (Bastian et al., 2009). Each node is ranked with its
+                    degree, and each edge is associated with a weight specifying the total number of
+                    co-occurrence in a selected period of time. Further, we filter out edges with
+                    weights fewer than 7 to eliminate noise. Then modularity is calculated with
+                    resolution set at 1 for community detection, and the final layout is generated
+                    by the layout algorithm Yi-Fan Hu.</p>
+                <p>For the second experiment, we conduct a text analysis
+                    of the offices in the records. To reflect how important an office is to a
+                    record, we first collect all the office entities in a record per AD year in <hi rend="italic">MSL</hi>. Secondly, inspired by a numerical statistic, term
+                    frequency-inverse document frequency ( <hi rend="italic">tf-idf</hi>), we
+                    compute the term frequency-document frequency ( <hi rend="italic">tf-df</hi>),
+                    in which a term represents one office, </p>
+                <figure>
+                    <graphic n="1002" width="8.184444444444445cm" height="1.3517305555555557cm" url="Pictures/0cefeab1d51220e451ab48e7dae3227b.jpeg" rend="inline"/>
+                </figure>
+                <p>where term frequency tf(t, d) is the frequency of term
+                    within a record, df(t, D) is a measure of how much influence an office provides
+                    within a year</p>
+                <figure>
+                    <graphic n="1003" width="7.863191666666666cm" height="3.801163888888889cm" url="Pictures/c1620ff5f0683ba7d9f12f37bdee3ed7.jpeg" rend="inline"/>
+                </figure>
+                <p>with</p>
+                <list type="unordered">
+                    <item>t: term,</item>
+                    <item>d: record,</item>
+                    <item>D: records within a year</item>
+                    <item>N: number of D.</item>
+                </list>
+                <p>In practice, <hi rend="italic">df(t, D)</hi> is
+                    computed as: </p>
+                <figure>
+                    <graphic n="1004" width="8.969525cm" height="1.983338888888889cm" url="Pictures/6b59c571cb08aaf59790f48941f0ebb6.jpeg" rend="inline"/>
+                </figure>
+                <p>Instead of incorporating the inverse document
+                    frequency to diminish the frequency of terms that not only frequently occur in a
+                    record but also frequently in all of the records within a year, we compute the
+                    document frequency to strengthen it. We reason that the more occurrence of an
+                    office in multiple records, the more important an office is in the year. To
+                    observe the change in importance of different offices over time, we rank each
+                    office in a record by <hi rend="italic">tf-df</hi> and count the total number of
+                    times each office ranks first by year. </p>
+            </div>
+            <div type="div1">
+                <head>Results and Future Direction</head>
+                <p>Several instructive findings emerged in analyzing the
+                    results; however, we focus the report on the change in power of the Grand
+                    Secretariat, a top-level coordinating agency created in the early 1400s. Figure
+                    1 is the result of the number of times the Grand Secretary (GS), the Ministers
+                    of the six Ministries (M), or Eunuch (E) ranks first in a record by tf-df from
+                    1355 to 1644, presented in a percentage component bar chart. Up to around 1505,
+                    M is generally higher than GS. During this formative period of the Grand
+                    Secretariat, although the Grand Secretaries could offer suggestions to the
+                    emperors, their powers did not override the authority of the six Ministries (Yu,
+                    2014; Shi, 2019). Beginning from the reign of Zheng-tong (1435-1449) to Zheng-de
+                    (1505- 1521), E has two significant peaks. This reflects that eunuchs wielded
+                    substantial political power due to the young age or fatuousness of the emperors,
+                    suppressing the growth in the authority of the Grand Secretariat (Yu, 2014; Lin,
+                    2017). Starting from 1490, a significant rise in GS corresponded to the sudden
+                    increase in the number of Grand Secretaries. Following a steady growth from 1521
+                    to 1620, GS reached its apex during the reign of Wan-li, resulting from the
+                    growing importance of the Grand Secretaries, which "evolved into an effective
+                    coordinating organ superimposed on the six Ministries (Hucker, 1998)". </p>
+                <figure>
+                    <graphic n="1005" width="16.050638888888887cm" height="8.025319444444444cm" url="Pictures/14853a1196572eae05f926a178dac4ca.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 1. The percentage component bar chart of the number of
+                        times an office ranks first in a record by tf-df.</hi></head>
+                </figure>
+                <p>As shown in Figure 2, the strong connections between
+                    officials in the co-occurrence network during the reign of Wanli reveal the
+                    working relationships between the Senior Grand Secretaries and the Secondary
+                    Grand Secretaries – leading officials in the Grand Secretariat (See Table 2).
+                    The network also captures the cooperative relationship between Zhang Juzheng (A)
+                    and the eunuch Feng Bao (P) (Yu, 2014; Lin, 2017) and the close relationship
+                    between Sheng Shixing (F) and Wang Xijue (I). Additionally, communities in
+                    different colors delineate prominent political actors across office terms. </p>
+                <figure>
+                    <graphic n="1006" width="15.894366666666667cm" height="9.718441666666667cm" url="Pictures/89d92ac26d02f7e9242e3130ce19fee9.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 2. The co-occurrence network during the reign of Wan-li
+                        (1572-1620).</hi></head>
+                </figure>
+                <p><hi rend="bold">Officials marked with * only held the office Grand
+                        Secretaries.</hi></p>
+                <figure>
+                    <graphic n="1007" width="15.676452777777778cm" height="14.313058333333334cm" url="Pictures/cafa36042ab338d9b734830e95b25493.jpeg" rend="inline"/>
+                    <head><hi rend="bold">Table 2. The statistics of the Senior Grand Secretary and the
+                        Secondary Grand Secretary during the reign of Wan-li (Lin, 2017).</hi></head>
+                </figure>
+                <p>In conclusion, the analyses of the two computational
+                    approaches, the co-occurrence network of officials and the number of times an
+                    office ranks first by <hi rend="italic">tf-df</hi>, corroborate results from
+                    earlier studies on the development of the Grand Secretariat. The promising
+                    results validate the use of chronological historical records to piece together
+                    the evolution of social structure among historical people. Admittedly, both
+                    approaches have their limitations. For example, the co-occurrence network only
+                    preserves structural information at the expense of the semantic information. To
+                    this end, we are training a graph neural network to take full advantage of the
+                        <hi rend="italic">MSL</hi> corpus and deepen our understanding of the
+                    political culture in Ming times. </p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>This work is part of the project <hi rend="italic">MingNet: Social Network in the Ming Dynasty</hi>, funded by Google
+                    University Relations. You-Jun Chen, Hsin-Yi Hsieh, and Yu-Tung Lin have
+                    contributed equally. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Armand, Cécile</author> / <author>Henriot, Christian</author>  (2021): From
+                        Textual to Historical Networks: Social Relations in the Biographical
+                        Dictionary of Republican China. Journal of Historical Network Research, 5(1)
+                        doi:10.25517/jhnr.v5i1.117.
+                        http://jhnr.uni.lu/index.php/jhnr/article/view/117 (accessed 7 August 2022). </bibl>
+                    <bibl>
+                        <author>Bastian, Mathieu</author> / <author>Heymann, Sebastien</author> / <author>Jacomy, Mathieu</author> 
+                        (2009): “Gephi: An Open Source Software for Exploring and Manipulating
+                        Networks ”, in: <hi rend="italic">Proceedings of the International AAAI Conference on Web and Social
+                            Media</hi>, 3(1): 361–62. </bibl>
+                    <bibl>
+                        <author>Bingenheimer, Marcus</author> (2020): On the Use of Historical
+                        Social Network Analysis in the Study of Chinese Buddhism: The Case of
+                        Dao’an, Huiyuan, and Kumārajīva. Journal of the Japanese Association for
+                        Digital Humanities, 5(2): 84–131. DOI:10.17928/jjadh.5.2_84. </bibl>
+                    <bibl>
+                        <author>Hucker, Charles O.</author> (1998): Ming government. In
+                        Twitchett, D. C. and Mote, F. W. (eds), The Cambridge History of China:
+                        Volume 8: The Ming Dynasty, vol. 8. Cambridge: Cambridge University Press,
+                        pp. 9–105 doi:10.1017/CHOL9780521243339.003.
+                        https://www.cambridge.org/core/books/cambridge-history-of-china/ming-government/DE2577748352BF38478D494B025F227C
+                        (accessed 2 November 2022). </bibl>
+                    <bibl>
+                        <author>Lai, Yu-Ting</author> (2016): Unsupervised Event Type
+                        Identification of Historical Texts: A Case Study of Wei-so Events in the
+                        Ming Shilu Taiwan: National Central Unviersity
+                        https://140.113.39.130/cgi-bin/gs32/ncugsweb.cgi/ccd=tQW_km/record?r1=1
+                        (accessed 2 November 2022). </bibl>
+                    <bibl>
+                        <author>Li, Chunfang</author> / <author>Zuo, Tianyi</author>  (2019): Visualization
+                        Analysis of Social Networks of Chinese Historical Figures : Take the Study
+                        of Literati of Song Dynasty as an Example. IEEE/ACIS 18th International
+                        Conference on Computer and Information Science (ICIS). pp. 502–06.
+                        DOI:10.1109/ICIS46139.2019.8940309. </bibl>
+                    <bibl>
+                        <author>Rudolph, Henrike</author> / <author>Chen, Song</author>  (2021): Introduction.
+                        Journal of Historical Network Research, 5(1). DOI:10.25517/jhnr.v5i1.131.
+                        http://jhnr.uni.lu/index.php/jhnr/article/view/131 (accessed 11 October
+                        2022). </bibl>
+                    <bibl>
+                        <author>Tsui, Lik Hang</author> / <author>Wang, Hongsu</author>  (2020): Harvesting Big
+                        Biographical Data for Chinese History: The China Biographical Database
+                        (CBDB). Journal of Chinese History, Volume 4(Special Issue 2: Digital
+                        Humanities): 505–11. DOI:https://doi.org/10.1017/jch.2020.21. </bibl>
+                    <bibl>
+                        <author>Wu, Chang-Han</author> (2021):
+                        <hi rend="SimSun">以自動產生之標註資料進行明實錄人名命名實體鏈結__國立中央大學博碩士論文全文影像系統</hi> [Establishing an Entity Linking
+                        Model for Person Names in Ming Shilu with Automatically Constructed Labeled
+                        Data] Taiwan: National Central Unviersity
+                        https://etd.lib.nctu.edu.tw/cgi-bin/gs32/ncugsweb.cgi?o=dncucdr&amp;s=id=%22GC106552002%22.&amp;searchmode=basic
+                        (accessed 2 November 2022). </bibl>
+                    <bibl>
+                        <author>Yu, Jiang Tai</author> (2014): <hi rend="SimSun"> 明代內閣對皇權的制約</hi> [Control cabinet
+                        system in Ming Dynasty and imperial power]. People's Republic of China:
+                        Shandong Normal University.
+                        https://0-tra.oversea.cnki.net.opac.lib.ntnu.edu.tw/kcms/detail/detail.aspx?filename=1014192856.nh&amp;dbcode=CMFD&amp;dbname=CMFD2014&amp;v= </bibl>
+                    <bibl>
+                        <author>Lin, Xiao Yu</author> (2017): <hi rend="SimSun">明代嘉隆萬時期內閣次輔研究</hi> [A Study of the
+                        Deputy Cabinet Officer in Ming Dynasty Jia Long Wan Period]. ​​People's
+                        Republic of China: Liaoning Normal University.
+                        https://0-tra.oversea.cnki.net.opac.lib.ntnu.edu.tw/KCMS/detail/detail.aspx?dbcode=C </bibl>
+                    <bibl>
+                        <author>Shi, Liang</author> (2019): <hi rend="SimSun">明代內閣與吏部銓選權之爭</hi> [Power Struggle of
+                        Personnel Designation between the Grand Secretariat and the Ministry of
+                        Personnel of the Ming Dynasty]. Journal of Gugong Studies, 1(1), 115-128.
+                        https://0-tra-oversea-cnkinet.opac.lib.ntnu.edu.tw/kcms/detail/detail.aspx?dbcode=CCJD&amp;filename=GGXK201901008&amp;dbname=CCJDTEMP&amp;uid=WEEvREcwSlJHSldSdmVpbisvQWlDQWpsdDRvbyt4ZC9KNWd0MEROeW5WND0%3D%249A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!MFD&amp;dbname=CMFD201801&amp;filename=1017109729.nh&amp;uniplatform=OVERSEA&amp;v=LgUabQAIQK9WktTgDBsI6z2d95gSauNX9gJV3Aq_ObxWFOSGAkmYRPVPvBurSwRj
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The European Literary Text Collection in TextGrid
+                        Repository</title>
+                <author n="RilerPipkaNanetteCALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml"><persName ref="https://orcid.org/0000-0002-0719-9003" n="RilerPipkaNanette">
+                        <surname>Rißler-Pipka</surname>
+                        <forename>Nanette</forename>
+                    </persName><affiliation>Gesellschaft für wissenschaftliche Datenverarbeitung mbH
+                        (GWDG)</affiliation><email>nanette.rissler-pipka@gwdg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CalvoTelloJosCALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml"><persName ref="https://orcid.org/0000-0002-1129-5604" n="CalvoTelloJos">
+                        <surname>Calvo Tello</surname>
+                        <forename>José</forename>
+                    </persName><affiliation>Göttingen State and University Library, Germany</affiliation><email>calvotello@sub.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FunkStefanECALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml"><persName ref="https://orcid.org/0000-0003-1259-2288" n="FunkStefanE">
+                        <surname>Funk</surname>
+                        <forename>Stefan E.</forename>
+                    </persName><affiliation>Göttingen State and University Library, Germany</affiliation><email>funk@sub.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OdebrechtCarolinCALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml"><persName ref="https://orcid.org/0000-0003-4887-7701" n="OdebrechtCarolin">
+                        <surname>Odebrecht</surname>
+                        <forename>Carolin</forename>
+                    </persName><affiliation>Humboldt-Universität zu Berlin</affiliation><email>carolin.odebrecht@hu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchchChristofCALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml"><persName ref="https://orcid.org/0000-0002-4557-2753" n="SchchChristof">
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName><affiliation>University of Trier</affiliation><email>schoech@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VeentjerUbboCALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml"><persName ref="https://orcid.org/0000-0002-9726-3135" n="VeentjerUbbo">
+                        <surname>Veentjer</surname>
+                        <forename>Ubbo</forename>
+                    </persName><affiliation>Göttingen State and University Library, Germany</affiliation><email>veentjer@sub.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Text+ consortium seeks the integration of already existing resources, for example through the publication of corpora in repositories. We present the publication of the corpora of the European Literary Text Collection in the TextGrid Repository, discuss their characteristics and the advantages of this integration.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>European literature</term>
+                    <term>TextGrid Repository</term>
+                    <term>repositories</term>
+                    <term>TEI</term>
+                    <term>Text+</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital archiving</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In this poster, researchers from different projects present the integration of
+                existing TEI-encoded corpora into a repository and analysis infrastructure, as well
+                as the benefits of this integration. The focus is not on resource creation (corpus
+                design or text encoding), but on infrastructure integration, dissemination and
+                re-use of existing resources. </p>
+            <div type="div1">
+                <head>TextGrid Repository</head>
+                <p>The TextGrid Repository is a long-term archive for humanities research data, with
+                    a focus on XML-TEI based publications and images (Neuroth et al., 2015). <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn1" n="1"/></hi> It offers a way to publish research data in a citable manner, describing
+                    it through appropriate metadata for better findability. It is certified with the
+                    CoreTrustSeal to reflect trustworthiness and its alignment with the FAIR
+                    principles (Wilkinson et al., 2016). <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn2" n="2"/></hi> Similar repositories are GAMS or TAPAS, although neither offers free
+                    publication to any project. </p>
+                <p>As of now, most of the texts in the repository are in German, such as the
+                    TextGrid Digital Library, a collection of texts in German written in different
+                    literary periods. <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn3" n="3"/></hi></p>
+            </div>
+            <div type="div1">
+                <head>ELTeC</head>
+                <p>The European Literary Text Collection (ELTeC) is a state-of-the-art, open access
+                    resource produced in the COST Action ‘Distant Reading for European Literary
+                    History’. <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn4" n="4"/></hi> ELTeC is a collection of corpora of literary texts (novels published
+                    between 1840 and 1920) that are comparable in nature, scope and quality across
+                    several European languages, designed as a multilingual benchmark dataset for the
+                    development of tools and methods in Computational Literary Studies. (Further
+                    characteristics and composition criteria of the corpora have been described by
+                    Burnard et al. 2021 and Schöch et al. 2021.) </p>
+                <p>The latest release of ELTeC has three components:</p>
+                <list type="unordered">
+                    <item>ELTeC-core: comparable corpora in 12 languages, each with 100 novels, of
+                        the mentioned period.</item>
+                    <item>ELTeC-plus: 9 corpora in 9 additional languages following the same
+                        principles, but containing fewer than 100 novels.</item>
+                    <item>ELTeC-extensions: additional novels in languages already represented in
+                        ELTeC, also covering earlier periods. </item>
+                </list>
+                <p>Currently, ELTeC contains more than 2000 full-text novels in XML-TEI (Burnard
+                    2014, 2016, Cummings 2019).</p>
+                <p>Regarding its publication strategy, ELTeC is distributed via multiple platforms:
+                    On Github (as a publicly-available collaborative workspace) and on Zenodo (as a
+                    permanent archive). ELTeC also serves as a test case for the infrastructure
+                    design work conducted in the Computational Literary Studies Infrastructure (CLS
+                    INFRA) project. <ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn5" n="5"/></p>
+            </div>
+            <div type="div1">
+                <head>Integration of Resources within the Text+ Consortium</head>
+                <p>The landscape of national research data infrastructure in Germany changed
+                    recently due to a long-term funding programme (NFDI) <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn6" n="6"/></hi> which “aims to create a permanent digital repository of knowledge” <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn7" n="7"/></hi> in order to boost research based on data in Germany across all
+                    disciplines. Text+ <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn8" n="8"/></hi> is one of the more than 20 consortia that are part of the NFDI and one of
+                    four consortia in the fields of humanities and social sciences (Kett et al.,
+                    2022). It is particularly dedicated to text and language based research. The
+                    integration of existing community resources like ELTeC is one of the most
+                    fundamental objectives in the task area and data domain “Collections” of Text+.
+                    The TextGrid repository is one of the Text+ repositories for highly structured
+                    (XML-TEI format) resources such as digital editions and literary corpora. </p>
+                <p>The integration of ELTeC into the TextGrid repository <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn9" n="9"/></hi> enhances its value for a broader community by providing multilingual
+                    literary corpora inside a well established research infrastructure. Other
+                    community resources which fulfill the TextGrid requirements regarding format
+                    (XML-TEI) and metadata are welcome. The integration of ELTeC and other
+                    non-German literary corpora like CoNSSA <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn10" n="10"/></hi> (Calvo Tello, 2021) serve as pilots to develop best practices. A Python
+                    library for more flexible interaction with TextGrid is under development. <hi rend="sup"><ref target="#CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn11" n="11"/></hi></p>
+            </div>
+            <div type="div1">
+                <head>Advantages of ELTeC in TextGrid </head>
+                <p>As a domain specific repository, TextGrid enables specific functions for XML-TEI
+                    documents, such as their transformation to other formats, like simple HTML,
+                    which facilitates the access to traditional scholars.</p>
+                <p>Regarding the FAIR criteria (Wilkonson et al., 2016), ELTEC’s findability is
+                    enhanced by persistent identifiers for corpora, works, editions and texts,
+                    multiple options for using authority file identifiers for authors, and subject
+                    classification by the library classification system Basic Classification
+                    (Schulz, 1991). Moreover, each text in the TextGrid repository is findable in
+                    OpenAIRE (Tóth-Czifra 2021). The general accessibility of the ELTeC is improved
+                    through the TextGrid repository’s APIs and services (Funk, 2018). The corpora
+                    become more interoperable and reusable, through the possibility of combining
+                    them with other corpora in the repository, through the shelf function or the
+                    CLARIN Virtual Collection Registry. Finally, single texts or entire corpora can
+                    be sent to analytic tools such as Voyant (Sinclair and Rockwell, 2016) or to the
+                    CLARIN Switchboard (Zinn, 2016).</p>
+                <p>The ELTeC in the TextGrid repository will benefit from future developments as
+                    part of the Text+ portfolio. For example, a recently added feature is the
+                    possibility fo r projects to edit
+                    flexibly their own branded page. We are developing new workflows to facilitate
+                    bulk import of already existing corpora. New features are being developed
+                    relating to the authority files identifiers (by Wikidata, VIAF, GND) of authors
+                    and works enabling Linked Open Data functions, such as complex queries relating
+                    both the metadata and the fulltext, or the extraction of information from
+                    third-party resources and its integration into TextGrid. These and further
+                    developments will be applicable to all texts in the TextGrid repository,
+                    including the ELTeC. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn1">TextGrid Repository: <ref target="https://textgridrep.de/?lang=en">https://textgridrep.de/?lang=en</ref>. </note><note n="2" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn2">TextGrid Repository – CoreTrustSeal
+                            Certification: <ref target="https://www.coretrustseal.org/wp-content/uploads/2020/05/TextGrid-Repository.pdf">https://www.coretrustseal.org/wp-content/uploads/2020/05/TextGrid-Repository.pdf</ref>
+                        </note><note n="3" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn3">TextGrid Digital Library: <ref target="https://textgrid.de/en/digitale-bibliothek">https://textgrid.de/en/digitale-bibliothek</ref>. </note><note n="4" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn4">See: <ref target="https://www.distant-reading.net/">https://www.distant-reading.net/</ref>
+                            <ref target="https://www.distant-reading.net/">. </ref>A good starting
+                            point for more information about ELTeC is <ref target="https://www.distant-reading.net/eltec/">https://www.distant-reading.net/eltec/</ref>. </note><note n="5" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn5">
+                        <ref target="https://clsinfra.io/">https://clsinfra.io/</ref>
+                    </note><note n="6" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn6">For an overall explanation, see: <ref target="https://www.dfg.de/en/research_funding/programmes/nfdi/index.html">https://www.dfg.de/en/research_funding/programmes/nfdi/index.html</ref>. </note><note n="7" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn7">
+                            <ref target="https://www.nfdi.de/association/?lang=en">https://www.nfdi.de/association/?lang=en</ref>
+                        </note><note n="8" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn8">For a description of the consortium,
+                            see: <ref target="https://www.text-plus.org/en/home/">https://www.text-plus.org/en/home/</ref>. </note><note n="9" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn9">For the integration of ELTeC in
+                            TextGrid, see:: <ref target="https://textgridrep.org/project/TGPR-99d098e9-b60f-98fd-cda3-6448e07e619d">https://textgridrep.org/project/TGPR-99d098e9-b60f-98fd-cda3-6448e07e619d</ref>. </note><note n="10" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn10">For the integration of CoNSSA, see:
+                                <ref target="https://textgridrep.org/project/TGPR-8b44ca41-6fa1-9b49-67b7-6374d97e29eb">https://textgridrep.org/project/TGPR-8b44ca41-6fa1-9b49-67b7-6374d97e29eb</ref>. </note><note n="11" xml:id="CALVO_TELLO_Jos__The_European_Literary_Text_Collection_in_Te.xml_ftn11">
+                            <ref target="https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients">https://gitlab.gwdg.de/dariah-de/textgridrep/textgrid-python-clients</ref>
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Calvo Tello, J.</author> (2021). <hi rend="italic">The Novel in
+                            the Spanish Silver Age: A Digital Analysis of Genre Using Machine
+                            Learning</hi>. (Digital Humanities Research 4). Bielefeld: transcript
+                            <ref target="https://www.transcript-verlag.de/978-3-8376-5925-2/the-novel-in-the-spanish-silver-age/?c=331025282"/>
+                        <ref target="https://www.transcript-verlag.de/978-3-8376-5925-2/the-novel-in-the-spanish-silver-age/?c=331025282">https://www.transcript-verlag.de/978-3-8376-5925-2/the-novel-in-the-spanish-silver-age/?c=331025282</ref>. </bibl>
+                    <bibl>
+                        <author>Burnard, L.</author> (2014). <hi rend="italic">What Is the Text
+                            Encoding Initiative? : How to Add Intelligent Markup to Digital
+                            Resources</hi>. Marseille: OpenEdition Press <ref target="http://books.openedition.org/oep/426"/>
+                        <ref target="http://books.openedition.org/oep/426">http://books.openedition.org/oep/426</ref> (accessed 20 March
+                        2015). </bibl>
+                    <bibl>
+                        <author>Burnard, L.</author> (2016). <hi rend="italic">ODD Chaining for
+                            Beginners</hi>. TEI Consortium <ref target="https://teic.github.io/PDF/howtoChain.pdf"/>
+                        <ref target="https://teic.github.io/PDF/howtoChain.pdf">https://teic.github.io/PDF/howtoChain.pdf</ref>. </bibl>
+                    <bibl>
+                        <author>Burnard, L., Schöch, C. and Odebrecht, C.</author> (2021). In
+                        search of comity: TEI for distant reading. <hi rend="italic">Journal of the
+                            Text Encoding Initiative</hi>(Issue 14). Text Encoding Initiative
+                        Consortium doi: <ref target="https://doi.org/10.4000/jtei.3500">
+                            10.4000/jtei.3500 </ref>. <ref target="https://journals.openedition.org/jtei/3500"/>
+                        <ref target="https://journals.openedition.org/jtei/3500">https://journals.openedition.org/jtei/3500</ref> (accessed 10
+                        September 2021). </bibl>
+                    <bibl>
+                        <author>Cummings, J.</author> (2019). A world of difference: Myths and
+                        misconceptions about the TEI. <hi rend="italic">Digital Scholarship in the
+                            Humanities</hi>, 34(Supplement_1). Oxford Academic:
+                        i58–79 doi: <ref target="https://doi.org/10.1093/llc/fqy071">
+                            10.1093/llc/fqy071 </ref>. </bibl>
+                    <bibl>
+                        <author>Funk, S. E.</author> (2018). <hi rend="italic">Elektronisches
+                            Publizieren von Digitalen Forschungsdaten am Beispiel des TextGrid
+                            Repositorys – Umsetzung von Digitalen Publikationsworkflows für die
+                            eHumanities</hi>. Köln <ref target="http://dx.doi.org/10.20375/0000-000B-D269-2"/>
+                        <ref target="http://dx.doi.org/10.20375/0000-000B-D269-2">http://dx.doi.org/10.20375/0000-000B-D269-2</ref>. </bibl>
+                    <bibl>
+                        <author>Kett, J., Kudella, C., Rapp, A., Stein, R. and Trippel,
+                            T.</author> (2022). Text+ und die GND – Community-Hub und Wissensgraph. <hi rend="italic">Zeitschrift Für Bibliothekswesen Und Bibliographie</hi>,
+                            69(1–2): 37–47 doi: <ref target="https://doi.org/10.3196/1864295020691262">
+                            10.3196/1864295020691262 </ref>. </bibl>
+                    <bibl>
+                        <author>Neuroth, H., Rapp, A. and Söring, S.</author> (eds). (2015). <hi rend="italic">TextGrid: Von der Community - für die Community: eine
+                            virtuelle Forschungsumgebung für die Geisteswissenschaften</hi>.
+                        Glückstadt: Hülsbusch. </bibl>
+                    <bibl>
+                        <author>Odebrecht, C., Burnard, L. and Schöch, C.</author> European
+                        Literary Text Collection (ELTeC) COST Action Distant Reading for European
+                        Literary History (CA16204) <ref target="https://doi.org/10.5281/zenodo.4662444"/>
+                        <ref target="https://doi.org/10.5281/zenodo.4662444">https://doi.org/10.5281/zenodo.4662444</ref>. </bibl>
+                    <bibl>
+                        <author>Schöch, C., Erjavec, T., Patras, R. and Santos, D.</author>
+                        (2021). Creating the European Literary Text Collection (ELTeC): Challenges
+                        and Perspectives. <hi rend="italic">Modern Languages Open</hi>(1). Liverpool
+                        University Press: 25 doi: <ref target="https://doi.org/10.3828/mlo.v0i0.364">
+                            10.3828/mlo.v0i0.364
+                        </ref>. </bibl>
+                    <bibl>
+                        <author>Sinclair, S. and Rockwell, G.</author> (2016). Voyant Tools <ref target="http://voyant-tools.org/"/>
+                        <ref target="http://voyant-tools.org/">http://voyant-tools.org/</ref>. </bibl>
+                    <bibl>
+                        <author>Schulz, U.</author> (1991). Die niederländische
+                        Basisklassifikation : eine Alternative für die ‘Sachgruppen’ im
+                        Fremddatenangebot der Deutschen Bibliothek. Bibliotheksdienst, 25: 1196–219. </bibl>
+                    <bibl>
+                        <author>Tóth-Czifra, E.</author> Connecting Arts and Humanities to the
+                        European open data commons: the OpenAIRE-DARIAH Research Community Gateway
+                        Billet <hi rend="italic">DARIAH Open</hi>
+                        <ref target="https://dariahopen.hypotheses.org/995"/>
+                        <ref target="https://dariahopen.hypotheses.org/995">https://dariahopen.hypotheses.org/995</ref> (accessed 2 November
+                        2022). </bibl>
+                    <bibl>
+                        <author>Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J.,
+                            Appleton, G., Axton, M., Baak, A., Blomberg, N., et al.</author> (2016). The
+                        FAIR Guiding Principles for scientific data management and stewardship. <hi rend="italic">Scientific Data</hi>, 3 doi: <ref target="https://doi.org/10.1038/sdata.2016.18">
+                            10.1038/sdata.2016.18
+                        </ref>. <ref target="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/"/>
+                        <ref target="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/</ref>
+                        (accessed 20 May 2020). </bibl>
+                    <bibl>
+                        <author>Zinn, C.</author> (2016). The CLARIN Language Resource
+                        Switchboard. Aix-en-Provence <ref target="https://www.clarin.eu/sites/default/files/zinn-CLARIN2016_paper_26.pdf"/>
+                        <ref target="https://www.clarin.eu/sites/default/files/zinn-CLARIN2016_paper_26.pdf">https://www.clarin.eu/sites/default/files/zinn-CLARIN2016_paper_26.pdf</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preserving the Early Born-Digital Heritage of Floppy Disk
+                        Magazines</title>
+                <author n="RoederTorstenROEDER_Torsten_Preserving_the_Early_Born_Digital_Heritage_of.xml"><persName ref="https://orcid.org/0000-0001-7043-7820" n="RoederTorsten">
+                        <surname>Roeder</surname>
+                        <forename>Torsten</forename>
+                    </persName><affiliation>Universität Würzburg, Germany</affiliation><email>dh@torstenroeder.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HerbstYannikROEDER_Torsten_Preserving_the_Early_Born_Digital_Heritage_of.xml"><persName ref="https://orcid.org/0000-0002-6547-9599" n="HerbstYannik">
+                        <surname>Herbst</surname>
+                        <forename>Yannik</forename>
+                    </persName><affiliation>Universität Würzburg, Germany</affiliation><email>yannik.herbst@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LeitgebJohannesROEDER_Torsten_Preserving_the_Early_Born_Digital_Heritage_of.xml"><persName ref="https://orcid.org/0009-0006-2058-9133" n="LeitgebJohannes">
+                        <surname>Leitgeb</surname>
+                        <forename>Johannes</forename>
+                    </persName><affiliation>Universität Würzburg, Germany</affiliation><email>johannes.leitgeb@stud-mail.uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MarenecMadlinROEDER_Torsten_Preserving_the_Early_Born_Digital_Heritage_of.xml"><persName ref="https://orcid.org/0009-0003-7434-827X" n="MarenecMadlin">
+                        <surname>Marenec</surname>
+                        <forename>Madlin</forename>
+                    </persName><affiliation>Universität Würzburg, Germany</affiliation><email>madlin@mrsmuseum.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ShtohrynTomashROEDER_Torsten_Preserving_the_Early_Born_Digital_Heritage_of.xml"><persName ref="https://orcid.org/0009-0000-4597-603X" n="ShtohrynTomash">
+                        <surname>Shtohryn</surname>
+                        <forename>Tomash</forename>
+                    </persName><affiliation>Universität Würzburg, Germany</affiliation><email>tomash.shtohryn@stud-mail.uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Floppy Disk Magazines were periodicals of the 1980s and 1990s which were published worldwide on many computer systems, but now almost forgotten as cultural object. A new project intends to make this early born-digital heritage accessible again by a catalog and exemplary editions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>born-digital heritage</term>
+                    <term>retrocomputing</term>
+                    <term>digitality</term>
+                    <term>materiality</term>
+                    <term>TEI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital archiving</term>
+                    <term>linked (open) data</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Media studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>What are Disk Magazines?</head>
+                <p>Disk magazines, also called 'diskmags', 'diskzines' or 'magazette' – were a
+                    multimedia periodical for reading on personal computers, which were published on
+                    digital media exclusively, such as data tapes, floppy disks or CD-ROMs. They
+                    differ from so-called "covermounts" which were included in some print magazines,
+                    because the main content of diskmags was on the disk and not in the printed
+                    component.</p>
+                <p>The historical peak of disk magazines can be dated roughly to the late 1980s and
+                    early 1990s. They were primarily produced in the US, UK, West Germany, Italy,
+                    Sweden, Finland and other countries. Wikipedia lists about 200 disk magazine
+                    titles from that time, however the list is incomplete and not representative.
+                    Most of the disk magazines were in English, but there were more relevant
+                    language communities, e.g. in German, Spanish, Dutch, Russian, Polish and
+                    Italian.</p>
+                <p>Reading a disk magazine was only possible on the computer system it was designed
+                    for. Many of them were sold in regular newspaper shops for a pocket money, with
+                    a relevant secondary readership by trading and pirate copies, while others were
+                    distributed only by copying. When the World Wide Web took over in the 1990s,
+                    most disk magazines were discontinued or migrated to online platforms, sometimes
+                    keeping ‘disk magazine’ in their title.</p>
+            </div>
+            <div type="div1">
+                <head>State of Preservation</head>
+                <p>Disk magazines were not yet collected or archived systematically by libraries or
+                    archives like print magazines were. Further, there is no reliable or
+                    comprehensive index that would offer a starting point for systematic research.
+                    The situation is precarious. Floppy disks degrade over time and become
+                    unreadable after 10‑30 years. Even if they are still readable, they require
+                    suitable devices to be read. Hardware also deteriorates over time and needs to
+                    be repaired, replaced or reconstructed. Access through the original hardware, so
+                    it seems, is not a solution for frequent access.</p>
+                <p>Emulation is a better scenario. It requires bitstream copies of the original
+                    disks, and luckily, diskmags have an active fanbase which collects and provides
+                    the required files. This is legally questionable due to copyright implications,
+                    but if these legal issues can be resolved, these community-created collections
+                    would be a good starting point to create a scientific collection.</p>
+                <p>Another option is migration: extract the media from the disk magazines and
+                    provide these in a new environment. This would also allow corpus-based research
+                    and systematic search functions. Such "re-digitized" editions would ideally
+                    consist of structured transcriptions of the originals, with inclusion of
+                    multimedia elements and direct links to emulators, and integration into a linked
+                    data network.</p>
+                <p><figure>
+                        <graphic url="Pictures/da6d22487a3ecd42d9558c3999f38756.png"/>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/a5c4ff8c4c8615ff138a2c9a00c829d8.png"/>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/6670d5fbd5ff541a5b1cd0daae285a30.png"/>
+                        <head>Figures 1-3: Section "Software" from the disk magazine "Magic Disk 64" 11/1987,
+                    p. 1; emulated in VICE (left), encoded in TEI-XML (middle) and rendered as HTML
+                    in the browser (right); see <ref target="https://diskmags.github.io/md_87-11.html">https://diskmags.github.io/md_87-11.html</ref> for a live demo. </head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>One-Year Strategy</head>
+                <p>A one-year project was recently funded by the consortium "Text+" of the German
+                    research programme "National Research Data Infrastructure" (NFDI) to preserve
+                    the digital heritage of Disk Magazines. The project will be hosted at the Center
+                    of Philology and Digitality, a new department of the University in Würzburg
+                    (Germany). The poster will present the design of the project and the planned
+                    activities around it.</p>
+                <p>One aim of this project is to develop and apply media extraction and
+                    re-digitization methods for disk magazines. This creates a text resource of
+                    particular value for cultural studies, linguistics and media studies. Second, it
+                    provides a generalizable best practice for digital text reconstruction from
+                    legacy file formats.</p>
+                <p>The project is designed in multiple stages: (1) Create an international catalog
+                    of disk magazines (titles), based on library standards and open for
+                    contributions by other parties. Building up the catalog is intended to be an
+                    incremental process that builds on combining existing collections, which are
+                    usually focused on one system or one language region. OpenRefine ( <ref target="https://openrefine.org/">https://openrefine.org/</ref>) has proven so far to be very helpful in
+                    this process. (2) Extend the catalog by indexing all available issues of
+                    German-language disk magazines, including binary copies of the original files,
+                    when available. The international catalog of titles and the sub-catalog of
+                    German issues will be fed into German library catalogs through FactGrid ( <ref target="https://database.factgrid.de/">https://database.factgrid.de/</ref>). (3) The binaries are searched for
+                    files containing (possibly compressed) text, then transformed from the
+                    respective historical character set standard as closely as possible to UTF-8,
+                    with a strict documentation of the character mapping. This stage is more
+                    experimental and requires specific knowledge of the various systems. (4) From
+                    this, flat hierarchical text files (TEI/XML) are generated and stored
+                    sustainably according to FAIR principles by partners of the Text+ consortium. </p>
+                <p>This project is a contribution to create awareness of early digital heritage for
+                    the next generations. For example, providing the texts helps to preserve the
+                    original language of content creators and communities. Additionally, the project
+                    has a high potential to fill some white gaps in authority records by providing
+                    data for the LOD network, which could become points of reference for studies in
+                    the same field, e.g. game and software studies.</p>
+                <p>Another grant application will be filed in 2023 for a project of longer duration.
+                    This project will focus on NER and NEL and creating exemplary digital scholarly
+                    editions as well.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Kaltman, Eric; Osborn, Joseph; Wardrip-Fruin, Noah</author>
+                        (2021): “From the Presupposition of Doom to the Manifestation of Code: Using
+                        Emulated Citation in the Study of Games and Cultural Software”, Digital
+                        Humanities Quarterly 15(1). <ref target="http://www.digitalhumanities.org/dhq/vol/15/1/000501/000501.html">http://www.digitalhumanities.org/dhq/vol/15/1/000501/000501.html</ref>
+                    </bibl>
+                    <bibl><author>Lange, Andreas</author> (2019): „Weltkulturerbe wird auch
+                        digital werden“, Telepolis. <ref target="https://www.heise.de/tp/features/Weltkulturerbe-wird-auch-digital-werden-4585835.html">https://www.heise.de/tp/features/Weltkulturerbe-wird-auch-digital-werden-4585835.html</ref>
+                    </bibl>
+                    <bibl><author>Lusenet, Yola de</author> (2007): “Tending the Garden or
+                        Harvesting the Fields: Digital Preservation and the UNESCO Charter on the
+                        Preservation of the Digital Heritage”. Library Trends 56, Nr. 1,
+                        164–82.</bibl>
+                    <bibl><author>Lyman, Peter; Kahle, Brewster</author> (1998): „Archiving
+                        Digital Cultural Artifacts: Organizing an Agenda for Action“. D-Lib
+                        Magazine. <lb/>
+                        <ref target="http://mirror.dlib.org/dlib/july98/07lyman.html">http://mirror.dlib.org/dlib/july98/07lyman.html</ref>
+                    </bibl>
+                    <bibl><author>Roeder, Torsten</author> (2022): “Rescuing Diskmags: Towards
+                        Scholarly (Re-)Digitisation of an Early Born-Digital Heritage”, Magazén
+                        3(1). <lb/>
+                        <ref target="https://edizionicafoscari.unive.it/it/edizioni4/riviste/magazen/">https://edizionicafoscari.unive.it/it/edizioni4/riviste/magazen/</ref>
+                    </bibl>
+                    <bibl><author>Ruan, Jianhai; McDonough, Jerome P</author> (2009):
+                        “Preserving born-digital cultural heritage in virtual world”. IEEE
+                        International Symposium on IT in Medicine &amp; Education, 745–48. <lb/>
+                        <ref target="https://doi.org/10.1109/ITIME.2009.5236324">https://doi.org/10.1109/ITIME.2009.5236324</ref>
+                    </bibl>
+                    <bibl><author>Wijers, Gaby; Bosma, Hannah</author> (2014): “Born digital
+                        cultural heritage is endangered heritage”. DEN, 2014. <lb/>
+                        <ref target="https://www.li-ma.nl/lima/sites/default/files/public/Born_Digital_Heritage_summary_ENG_web.pdf">https://www.li-ma.nl/lima/sites/default/files/public/Born_Digital_Heritage_summary_ENG_web.pdf</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zoetrope – Interactive Feature Exploration in News Videos</title>
+                <author n="LieblBernhardBURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml"><persName ref="https://orcid.org/0000-0002-8593-400X" n="LieblBernhard">
+                        <surname>Liebl</surname>
+                        <forename>Bernhard</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University</affiliation><email>bernhard.liebl@uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BurghardtManuelBURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml"><persName ref="https://orcid.org/0000-0003-1354-9089" n="BurghardtManuel">
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University</affiliation><email>burghardt@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present the Zoetrope prototype, a tool that can process raw features from the state of the art neural frameworks for multimodal information extraction and make them available for interactive exploratory analysis in a web-based tool. Zoetrope currently is built around the use case of analyzing German news videos for narrative strategies.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>multimodal information extraction</term>
+                    <term>video analytics</term>
+                    <term>digital film studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>image processing and analysis</term>
+                    <term>mixed-media analysis</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Communication studies</term>
+                    <term>Film and cinema arts studies</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>While conceptions such as “Distant Viewing” (Arnold &amp; Tilton, 2019) and “Deep
+                    Watching” (Bermeitinger et al., 2019) have recently stressed the importance of
+                    developing a methodology for analyzing video material in the digital humanities,
+                    there is quite a history of existing tools for the annotation and analysis of
+                    videos <ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn1" n="1"/>. At the same time, recent advances in neural networks have paved the way
+                    for what has been called the “Visual Digital Turn” (Wevers &amp; Smits, 2020).
+                    However, current neural frameworks can be used far beyond the extraction of
+                    purely visual features, such as objects (Carion et al., 2020) or faces (Deng et
+                    al., 2019). Rather, they are capable of automatically extracting all kinds of
+                    multimodal information, including scene text (Chen et al., 2020), speech
+                    (Radford et al., 2022), text-image embeddings (Radford et al., 2021) and
+                    high-quality automatic image captioning (Li et al., 2022). Oftentimes, these
+                    frameworks are cutting-edge technology and require some advanced technical
+                    skills to set up. Taking up the basic idea of humanist-computer interaction
+                    (Burghardt &amp; Wolff, 2014), which calls for usability engineering and user
+                    experience design in the digital humanities, we present the Zoetrope prototype,
+                    which is able to process raw features from the above neural frameworks and make
+                    them available for interactive exploratory analysis in a web-based tool.
+                    Zoetrope currently is built around the use case of analyzing German news videos
+                    for narrative strategies (Machill et al., 2007), which eventually will be used
+                    to semi-automatically detect patterns of disinformation, so-called <hi rend="italic">fake narratives</hi><ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn2" n="2"/> (for some examples see Tseng et al., 2023). </p>
+            </div>
+            <div type="div1">
+                <head>The Zoetrope Prototype</head>
+                <p>In this section we briefly outline some of the main features of the Zoetrope
+                    prototype, which is currently not publicly available. However, to better
+                    showcase its current functionality we have prepared a demo video <ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn3" n="3"/>. Zoetrope can be roughly divided in two screens. The first screen
+                    provides an overview of all the videos in a collection and allows researchers to
+                    select a specific video for more in-depth analyses (see Fig. 1). Videos can be
+                    searched and filtered by their tags but also by a keyword search in the OCR
+                    (optical character recognition) and ASR (automatic speech detection) tracks,
+                    both of which are available for all the videos. The movie barcodes (see
+                    Burghardt et al., 2017) underneath each video indicate the most dominant colors
+                    along the timeline and can be used to roughly navigate and scrub the videos in a
+                    live preview mode. </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="7.9322083333333335cm" url="Pictures/5416c8f98d2101b8667640d816a6aa62.png" rend="inline"/>
+                    <head>Zoetrope – Overview screen for video retrieval and selection.</head>
+                </figure>
+                <p>Upon clicking a video, researchers are redirected to the interactive feature
+                    exploration screen of the selected video (Fig. 2). The screen features a player
+                    pane for the selected video and also some controls to navigate it in the
+                    navigator and timeline pane. The timeline can be zoomed in and out, to show
+                    different levels of detail. As was previously described, Zoetrope can import a
+                    number of different features from SOTA multimodal information extraction
+                    frameworks, which are displayed in the tracks pane. In its current
+                    implementation, Zoetrope has separate tracks for OCRed scene text (Chen et al.,
+                    2020) and also for automatically transcribed and POS-tagged spoken language
+                        <ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn4" n="4"/>. As an additional textual layer, the tool provides captions from
+                    multimodal BLIP embeddings (Li et al., 2022) for all frames. All textual tracks
+                    can be searched for keywords in the properties pane. Keyword searches can be
+                    verbatim, can use regular expressions or can be more vague, by using FastText
+                    embeddings (Bojanowski et al., 2017). For each search, a new track will be
+                    automatically generated, indicating where the searched for keyword appears in
+                    the video. Besides these basic text search features, Zoetrope also provides
+                    information about basic audio features <ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn5" n="5"/>, such as an amplitude track that indicates the loudness of the video and
+                    also a spectrographic analysis track, indicating which different frequencies are
+                    present in the video. A color track shows the mean color of the frames <ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn6" n="6"/> and can be used to detect larger scene structures in the videos. A
+                    rather experimental feature of Zoetrope is the dynamics track, which shows the
+                    relative difference between CLIP embeddings (Radford et al., 2021) of adjacent
+                    frames. As CLIP embeddings are a way to describe what is happening in the video,
+                    this is a measure of how much the video content changes in terms of what was
+                    shown before. </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="14.087230555555555cm" url="Pictures/5c45456b4df8439acb2d44dcd2e04005.png" rend="inline"/>
+                    <head>Figure 1: Zoetrope – Interactive feature exploration for a previously
+                        selected video.</head>
+                </figure>
+                <p>Finally, Zoetrope provides information on faces (Deng et al., 2019) and face
+                    identities (Deng et al., 2021) that were detected in the video. The face size
+                    track indicates the size of the largest face on the screen. One possible use of
+                    this information is to identify close-ups of single faces in a video. The face
+                    count track gives the number of faces visible in the video at a certain time.
+                    This can be used to differentiate frames showing 1, 2 or multiple people. The
+                    face track clusters similar faces and assigns them to a unique color bar, to
+                    indicate where they are actually visible. As for the face information, we are
+                    currently also experimenting with additional views (see Fig. 3), such as an
+                    overview of all the different clustered faces and their respective emotion
+                    values. </p>
+                <figure>
+                    <graphic n="1003" width="15.980833333333333cm" height="6.7781666666666665cm" url="Pictures/4d210c43a7cf5080fa065501dafba17e.png" rend="inline"/>
+                    <head>Figure 2: Zoetrope – Clustered faces and face emotion information.</head>
+                </figure>
+                <p>By clicking on a face and selecting different emotion thresholds, tailored
+                    analysis tracks can be generated, for instance for all frames that show German
+                    politician Robert Habeck with an angry face. As Zoetrope is all about providing
+                    different exploratory access points to videos, another experimental
+                    visualization is a network view of all faces that co-appear in one frame (see
+                    Fig. 4).</p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="10.354955555555556cm" url="Pictures/9458dbb24422bb79b1e76e2a83192ccf.png" rend="inline"/>
+                    <head>Figure 3: Zoetrope – Network of faces that co-appear in one frame.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Future Directions</head>
+                <p>Zoetrope is currently being developed as a prototype within the FakeNarratives
+                    project, where it is used to support human annotators to identify narrative
+                    strategies in news videos. In the future, some of the functions that have proven
+                    useful will be transferred to a more sustainable video tool infrastructure that
+                    is currently being developed by project partners in Hannover <ref target="#BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn7" n="7"/>. We hope the prototype will also be interesting for the DH community, as
+                    it illustrates how state of the art neural information extraction frameworks can
+                    be integrated in an interactive exploratory interface, which could easily be
+                    expanded to other areas of multimodal analytics, beyond the current use case of
+                    news video analyses. Ultimately, we plan to extend the prototype in the
+                    direction of a scalable viewing tool (Burghardt et al., 2018) that can be used
+                    to investigate and compare large collections of videos on different levels of
+                    detail. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn1">
+                        For a comprehensive overview, see Pustu-Iren
+                                et al. (2020).
+                    </note><note n="2" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn2">
+                         FakeNarratives (https://fakenarratives.github.io/) is a collaborative project of the Universities of Bremen, Hannover and Leipzig, generously funded by the German Federal Ministry of Education and Research.
+                    </note><note n="3" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn3">
+                         Detailed Zoetrope demo video (45:23 minutes), available via  https://www.dropbox.com/s/idl0nkenlar3xk7/presentation-zoetrope-2022-11-03.mp4?dl=0 
+                    </note><note n="4" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn4">
+                         We used a pipeline consisting of Mozilla Deepspeech (https://github.com/mozilla/DeepSpeech) and spaCy (https://spacy.io/).
+                    </note><note n="5" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn5">
+                         We used librosa for audio analysis (https://librosa.org/doc/latest/index.html).
+                    </note><note n="6" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn6">
+                         We used NumPy for color analysis (https://numpy.org/).
+                    </note><note n="7" xml:id="BURGHARDT_Manuel_Zoetrope___Interactive_Feature_Exploration_.xml_ftn7">
+                         “TIB AV Analytics”, more information at https://gepris.dfg.de/gepris/projekt/442397862
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold, T., &amp; Tilton, L. </author>(2019). Distant viewing: analyzing large
+                        visual corpora. Digital Scholarship in the Humanities, 34(Supplement_1),
+                        i3-i16.</bibl>
+                    <bibl><author>Bermeitinger, B., Gassner, S., Handschuh, S., Howanitz, G., Radisch, E.,
+                        &amp; Rehbein, M. </author>(2019). Deep Watching: Towards New Methods of Analyzing
+                        Visual Media in Cultural Studies. Book of Abstracts, DH Conference 2019,
+                        Utrecht.</bibl>
+                    <bibl><author>Bojanowski, P., Grave, E., Joulin, A., &amp; Mikolov, T. </author>(2017). Enriching
+                        Word Vectors with Subword Information (arXiv:1607.04606). arXiv.
+                        http://arxiv.org/abs/1607.04606</bibl>
+                    <bibl>
+                        <author>Burghardt, M., Hafner, K.
+                            Edel, L., Kenaan, S. &amp; Wolff, C. </author>(2017). An Information System for
+                            the Analysis of Color Distributions in MovieBarcodes. In Proceedings of
+                            the 15th International Symposium of Information Science (ISI 2017).
+                    </bibl>
+                    <bibl><author>Burghardt, M., Kao, M. &amp; Walkowski, NO </author>(2018). Scalable MovieBarcodes
+                        – An Exploratory Interface for the Analysis of Movies. 3rd IEEE VIS Workshop
+                        on Visualization for the Digital Humanities, Berlin.</bibl>
+                    <bibl>
+                        <author>Burghardt, M., &amp;
+                            Wolff, C. </author>(2014). Humanist-Computer Interaction: Herausforderungen für
+                            die Digital Humanities aus Perspektive der Medieninformatik. Workshop
+                            Proceedings of the DHd working group “Informatik und die Digital
+                            Humanities”.
+                    </bibl>
+                    <bibl>
+                        <author>Carion, N., Massa, F.,
+                            Synnaeve, G., Usunier, N., Kirillov, A., &amp; Zagoruyko, S. </author>(2020).
+                            End-to-End Object Detection with Transformers. In A. Vedaldi, H.
+                            Bischof, T. Brox, &amp; J.-M. Frahm (Hrsg.), Computer Vision – ECCV 2020
+                            (Bd. 12346, S. 213–229). Springer International Publishing.
+                    </bibl>
+                    <bibl><author>Chen, X., Jin, L., Zhu, Y., Luo, C., &amp; Wang, T. </author>(2020). Text
+                        Recognition in the Wild: A Survey (arXiv:2005.03492). arXiv.
+                        http://arxiv.org/abs/2005.03492</bibl>
+                    <bibl><author>Deng, J., Guo, J., Zhou, Y., Yu, J., Kotsia, I., &amp; Zafeiriou, S.
+                    </author>(2019). RetinaFace: Single-stage Dense Face Localisation in the Wild
+                        (arXiv:1905.00641). arXiv. http://arxiv.org/abs/1905.00641</bibl>
+                    <bibl><author>Deng, J., Guo, J., Yang, J., Xue, N., Kotsia, I., &amp; Zafeiriou, S.
+                    </author>(2021). ArcFace: Additive Angular Margin Loss for Deep Face Recognition.
+                        IEEE Transactions on Pattern Analysis and Machine Intelligence.
+                        https://doi.org/10.1109/TPAMI.2021.3087709</bibl>
+                    <bibl>
+                        <author>Li, J., Li, D., Xiong, C.
+                            &amp; Hoi, S. </author>(2022), „BLIP: Bootstrapping Language-Image Pre-training
+                            for Unified Vision-Language Understanding and Generation“. arXiv, 15.
+                            Februar 2022. Zugegriffen: 24. Oktober 2022. [Online]. Verfügbar unter:
+                            http://arxiv.org/abs/2201.12086
+                    </bibl>
+                    <bibl>
+                        <author>Machill, M., Köhler, S.,
+                            &amp; Waldhauser, M. </author>(2007). The use of narrative structures in
+                            television news: An experiment in innovative forms of journalistic
+                            presentation. European Journal of Communication, 22(2), 185-205.
+                    </bibl>
+                    <bibl><author>Pustu-Iren, K., Sittel, J., Mauer, R., Bulgakowa, O., &amp; Ewerth, R.
+                    </author>(2020). Automated Visual Content Analysis for Film Studies: Current Status
+                        and Challenges. DHQ: Digital Humanities Quarterly, 14(4).</bibl>
+                    <bibl><author>Wevers, M., &amp; Smits, T. </author>(2020). The visual digital turn: Using neural
+                        networks to study historical images. Digital Scholarship in the Humanities,
+                        35(1), 194-207.</bibl>
+                    <bibl><author>Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S.,
+                        Sastry, G., Askell, A., Mishkin, P., Clark, J., Krueger, G., &amp;
+                        Sutskever, I. </author>(2021). Learning Transferable Visual Models From Natural
+                        Language Supervision (arXiv:2103.00020). arXiv.
+                        http://arxiv.org/abs/2103.00020</bibl>
+                    <bibl><author>Radford, A., Kim, J. W., Xu, T., Brockman, G., McLeavey, C., &amp;
+                        Sutskever, I. </author>(2022). Robust Speech Recognition via Large-Scale Weak
+                        Supervision. Tech. Rep., Technical report, OpenAI.</bibl>
+                    <bibl>
+                        <author>Tseng, C., Liebl, B.,
+                            Burghardt, M., &amp; Bateman, J. </author>(2023). FakeNarratives – First Forays
+                            in Understanding Narratives of Disinformation in Public and Alternative
+                            News Videos. Book of Abstracts, DHd Conference 2023,
+                            Trier/Luxemburg.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

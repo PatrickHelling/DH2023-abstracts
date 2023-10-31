@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>There is no “I” in "Infrastructure": Creating a shared data-centric DH Infrastructure for Cultural Heritage Research in Saxony/Germany</title>
+                <author n="GoldhahnDirkNAETHER_Franziska_There_is_no__I__in__Infrastructure___Creat.xml"><persName n="GoldhahnDirk">
+                        <surname>Goldhahn</surname>
+                        <forename>Dirk</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>goldhahn@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MhlederPeterNAETHER_Franziska_There_is_no__I__in__Infrastructure___Creat.xml"><persName n="MhlederPeter">
+                        <surname>Mühleder</surname>
+                        <forename>Peter</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>muehleder@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NaetherFranziskaNAETHER_Franziska_There_is_no__I__in__Infrastructure___Creat.xml"><persName n="NaetherFranziska">
+                        <surname>Naether</surname>
+                        <forename>Franziska</forename>
+                    </persName><affiliation>Saxon Academy of Sciences and Humanities, Germany</affiliation><email>naether@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Establishing and operating research infrastructures designed for long-term use is a challenge. This holds especially true in small to medium scale institutes carrying out short-term projects. In our presentation, we would like to describe our approach to building an infrastructure for collecting and linking local cultural heritage data in Saxony.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>research infrastructure</term>
+                    <term>data linkage</term>
+                    <term>knowledge base</term>
+                    <term>cultural heritage</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Art history</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Establishing and operating versatile research infrastructures designed for long-term use is a challenge. This holds especially true in strongly fluctuating environments like a research space consisting of small to medium scale research institutes carrying out mainly short-term funded projects. In the following we will describe our approach to building an infrastructure for collecting and linking local cultural heritage data in Saxony, Germany within the DIKUSA-project.</p>
+            <p>When thinking of research infrastructures, one often tends towards only considering the technical aspects while in reality, it is a complex combination, including also processes and actors. Among them, researchers as well as technical and administrative staff are part of a knowledge or social infrastructure (del Rio Riande 2022: 247-248). In Saxony, Germany, the KompetenzwerkD, the Saxon Research Center and Competence Network for Digital Humanities and Cultural Heritage, was established in order to develop such infrastructures for the federal state’s non-university research institutions working in the fields of Digital Humanities and Cultural Heritage. Within this center, we aim for both establishing a knowledge infrastructure for the partner institutions and their staff and for creating the technical backbone of services designed for long term use in current and future research projects.</p>
+            <p> </p>
+            <p>Since 2022, we operationalize this approach to infrastructure building in the DIKUSA project. 
+                <hi rend="bold">DIKUSA </hi>is the acronym for "
+                <hi rend="bold">DI</hi>gitale 
+                <hi rend="bold">KU</hi>lturdaten in 
+                <hi rend="bold">SA</hi>chsen" (full English title: „Linkage of Digital Cultural Data in Saxony for the Creation of a Technical Infrastructure for Research about Mobility, Migration, and Transformation of Locations, Persons and Artifacts in temporal and spatial Perspective“) – an endeavor with six projects at six research institutions coordinated by KompetenzwerkD. The goal is to establish a research environment for the creation, linking and sharing of knowledge bases for cultural heritage data. Based on existing knowledge and social infrastructure and taking into account both the permanent status of the KompetenzwerkD - making it ideal for providing long-term central services - and the short-lived nature of most current and future research projects, we will establish a research infrastructure ‘toolbox’ in the following three ways:
+            </p>
+            <p> </p>
+            <p>(1) 
+                <hi rend="bold">The creation of a shared core ontology</hi> 
+                (&lt;<ref target="https://github.com/KompetenzwerkD/dikusa-core-ontology">https://github.com/KompetenzwerkD/dikusa-core-ontology</ref>&gt;) (Swiss Art Research Infrastructure, 
+                &lt;<ref target="https://docs.swissartresearch.net/">https://docs.swissartresearch.net/</ref>&gt;)
+                <hi rend="bold"> for general entities like persons, institutions, events, places and artifacts.</hi> This simplifies the exchange and integration of data between projects and standardizes further tools and services working with the data produced in the research projects.</p>
+            <p>(2) 
+                <hi rend="bold">Developing long term services such as a meta reconciliation service for authority data</hi>. As the project infrastructure revolves around creating and sharing linked data datasets, providing the means for linking entities with available authority data providers is crucial. This resulted in the development of Dikudex, a unified API that allows search across multiple authority providers (e.g. GND, Geonames, Wikidata, but also local data sources such as the HOV ; 
+                &lt;<ref target="https://hov.isgv.de/">https://hov.isgv.de/</ref>&gt;
+                ] or other DIKUSA projects). This service is intended to be continuously maintained and made available by KompetenzwerkD.</p>
+            <p>(3) 
+                <hi rend="bold">Creating tools for simple and flexible research data curation.</hi> For DIKUSA, we are developing a lightweight open-source data entry tool called “Weedata”. The goal of this tool is to provide small scale projects with the possibility to create datasets based on simple research-specific ontologies and to export them as linked open data datasets (based on the core ontology) without the need for in-depth technical skills. While this tool is developed for DIKUSA, reuse in future research projects is planned. The design principle of the software follows the ideas outlined by the minimal computing working group: minimal maintainable, minimal reliance on technical languages, minimal resource usage, minimal barriers (by J. Sayers, Oct. 2016, &lt;
+                <ref target="https://go-dh.github.io/mincomp/thoughts/2016/10/02/minimal-definitions/">https://go-dh.github.io/mincomp/thoughts/2016/10/02/minimal-definitions/</ref>&gt;).
+            </p>
+            <p>All components are currently in development or testing phase. They will be put to productive use and will be further adapted to the needs of the community within the DIKUSA-project running until 2025. All components will be published under open licenses following the open software paradigm. Together, these three activities create the foundation for an independent, flexible data centric research infrastructure (similar to the approach outlined in Kräutli et al. 2021) for the DH institutions in Saxony, which will be maintained by KompetenzwerkD and can easily be adapted and expanded to new projects.</p>
+            <p>Appendix: Research Institutions and Topics of the DIKUSA project</p>
+            <list type="unordered">
+                <item><hi rend="bold">Leibniz Institute for Jewish History and Culture – Simon Dubnow</hi>: Possibilities and Limits of Jewish Participation at Saxon Universities: Graduates from Chemnitz, Dresden, Freiberg, and Mittweida (1850-1950)
+                </item>
+                <item><hi rend="bold">Leibniz Institute for the History and Culture of Eastern Europe</hi>: Migration of artists to and from Saxony in the 17th century
+                </item>
+                <item><hi rend="bold">Hannah Arendt Institute for Totalitarian Studies</hi>: Women migrated from, to and within Germany - building an experience-historical knowledge base
+                </item>
+                <item><hi rend="bold">Institute for Saxon History and Cultural Anthropology</hi>: Expansion of the historical gazetteer (HOV) to the central gateway for standardized location data in Saxony
+                </item>
+                <item><hi rend="bold">Saxon Academy of Sciences and Humanities</hi>: Landscape as Cultural Heritage. Transformation of a Mining Landscape in Saxony in the 20th Century
+                </item>
+                <item><hi rend="bold">Sorbian Institute</hi>: Sorbian cultural monuments in Saxony. Development of a virtual working environment for their digital recording and presentation
+                </item>
+            </list>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Blaschke, Karlheinz; Baudisch, Susanne</author> (eds., 2006): 
+                        <hi rend="italic">Historisches Ortsverzeichnis von Sachsen</hi>. Leipzig: Leipziger Universitätsverlag &amp; 
+                        <ref target="https://hov.isgv.de/">https://hov.isgv.de/</ref> [25.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>del Rio Riande, Gimena</author> (2022): “Digital Humanities and Visible and Invisible Infrastructures”, in: 
+                        <hi rend="italic">Global Debates in the Digital Humanities</hi>, 19: 247–258.
+                    </bibl>
+                    <bibl>
+                        <author>Kräutli, Florian</author> / <author>Chen, Esther</author> / <author>Valleriani, Matteo</author>  (2021): “Linked data strategies for conserving digital research outputs: The shelf life of digital humanities”, in: 
+                        <hi rend="italic">Information and Knowledge Organisation in Digital Humanities</hi>. London: Routledge, 206–224.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

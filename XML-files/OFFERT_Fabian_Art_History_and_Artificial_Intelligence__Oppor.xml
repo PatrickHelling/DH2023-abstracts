@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Art History and Artificial Intelligence: Opportunities and Challenges of Large-Scale Visual Models in the Digital Humanities</title>
+                <author n="OffertFabianOFFERT_Fabian_Art_History_and_Artificial_Intelligence__Oppor.xml"><persName n="OffertFabian">
+                        <surname>Offert</surname>
+                        <forename>Fabian</forename>
+                    </persName><affiliation>University of California, Santa Barbara, United States of America</affiliation><email>offert@ucsb.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ImpettLeonardoOFFERT_Fabian_Art_History_and_Artificial_Intelligence__Oppor.xml"><persName ref="https://orcid.org/0000-0003-1774-5175" n="ImpettLeonardo">
+                        <surname>Impett</surname>
+                        <forename>Leonardo</forename>
+                    </persName><affiliation>Cambridge University, United Kingdom</affiliation><email>li222@cam.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>A decade ago, Johanna Drucker asked: “Is There a ‘Digital’ Art History?” In this paper, we attempt to reconsider Drucker’s question in the light of recent developments in computer vision by investigating the epistemic implications and methodological affordances of large-scale, transformer-based vision models.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>critical methodology</term>
+                    <term>machine learning</term>
+                    <term>computer vision</term>
+                    <term>digital art history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>media archaeology</term>
+                    <term>Art history</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>A decade ago, Johanna Drucker asked: “Is There a ‘Digital’ Art History?” In her article, Drucker (2013) suggests that there is an important difference between ‘digitized’ and ‘digital’ art history. While the former – the “making digital” of visual culture – describes a somewhat successful set of practices, we have yet to witness the emergence of the latter: “a convincing demonstration that digital methods change the way we understand the objects of our inquiry”. The primary reason for this imbalance lies in what we might call the Laocoön problem of digital art history (see Lifschitz and Squire 2017, Baxandall 1979): the contradictory affordances of images and texts. There is no equivalence between digital pixels (however fundamentally discrete) and the atomic ‘tokens’ of textual processing. Even where images share common (e.g. iconographic) vocabularies, no instance of a “word” (e.g. a depicted object) numerically approximates the next. ‘Digital’ art history, then, poses unique technical challenges. Importantly, these technical challenges are tied to epistemic and methodological, rather than domain-specific, considerations.</p>
+            <p>Hence, in this paper, we attempt to reconsider Drucker’s question in the light of recent developments in computer vision, namely the emergence of large-scale, transformer-based vision models (see for instance Esser et al. 2021, Radford et al. 2021, Ramesh et al. 2022). While more traditional types of neural networks have been part of digital art history for a while now (see Arnold and Tilton 2019, Wevers and Smits 2020, Manovich 2020, Underwood 2020, Impett 2020, and others), and while transformer-based vision models models have been part of digital humanities projects at least since 2020 (e.g. as part of systems like PixPlot, imgs.ai, imagegraph.cc, Bilder der Schweiz, and iArt) their epistemic implications (see Offert and Bell 2021) and methodological affordances have not yet been systematically analyzed. We focus our analysis on three main aspects that, together, seem to suggest a coming paradigm shift towards a ‘digital’ art history in Drucker’s sense. </p>
+            <p>First, we argue that large-scale vision models open new modes of cultural canonization. As the makers of Stable Diffusion put it, their model is supposed to be “the culmination of many hours of collective effort to create a single file that compresses the visual information of humanity into a few gigabytes” (Stability AI 2022). The visual-cultural repertoire newly encoded in large-scale vision models has an outsized effect on digital art history: for the first time, ‘train’ and ‘test’ data overlap. The inclusion of significant numbers of non-photographic images allows for the extraction and automation of different forms of visual logics, including non-perspectival, non-figurative, and non-representational logics. Large-scale vision models have ‘seen’ large parts of the Western visual canon mediated by Net visual culture, and they continuously solidify and concretize this canon through their already widespread application in all aspects of digital life, including search, retrieval, generation, classification, and recommendation.</p>
+            <p>Second, based on a technical case study of utilizing a contemporary large-scale visual model (OpenAI’s CLIP, see Radford et al. 2021) to investigate basic questions from the fields of film studies, art history, and urbanism, we suggest that such systems require a new critical methodology that takes into account the epistemic entanglement of a model and its applications. This new methodology reads its corpora through a neural model’s training data, and vice versa: the visual ideologies of research datasets and training datasets become entangled. </p>
+            <p>Concretely, we propose multiple ways of using CLIP to study visual cultural data 
+                <hi rend="italic">and</hi> CLIP itself. Individual prompts (“gears” or “dinner” in Chaplin’s 
+                <hi rend="italic">Modern Times</hi>) chart the lives of visual concepts over the course of the film (fig. 1). 
+            </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="6.570486111111111cm" url="Pictures/7e5c89753fd513e2333f7f834777b47e.png" rend="inline"/>
+                <head>Figure 1: Distribution of “gears” in 
+                    <hi rend="italic">Modern Times</hi> (1936)
+                </head>
+            </figure>
+            <p>Street photography derived from Google’s Street View, in combination with CLIP, lets us instantly map gardens or graffiti through a city. At the same time, it opens up a new way to study the socio-spatial imaginary of CLIP: where does Paris most look like “a photo of Paris”? Where do a city and its canonical representation converge (fig. 2)? Finally, in datasets of contemporary art, CLIP gives us access to visual concepts that can be expressed both figuratively and conceptually (in our experiments, “violence” might correspond to a painting of artillery or a set of red lines on a canvas); yet the polyvalence, ambiguity and nuance of these newly-measurable concepts surfaces CLIP’s own visual interpretation of them. </p>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="4.572cm" url="Pictures/afa0b09d04f27c79fe5e74a023ef4c27.png" rend="inline"/>
+                <head>Figure 2: “Paris-ness” of Paris</head>
+            </figure>
+            <p>Third, we contend that large-scale vision models further complicate the Laocoön problem of digital art history. Given the rise of transformer-based methods, all computing is now natural language processing, including the craft of programming itself (see Lu et al. 2021). Humanist critique has always emphasized the split between the (formal) language of computers and their perceived affordances, i.e., an ideologically discrete view of the world where everything is a binary distinction, and the potential for ambiguity and polysemy in natural languages. In large-scale vision models, however, the medium of formal inference is now natural language — or, at the very least, a vector space which appears to be equally continuous, ambiguous, and polysemic. Art history is used to negotiating the mediation of the verbal; but we now triangulate between the double mediation of text and code. This complicates the critical analysis of machine learning systems in general, but also presents an opportunity to consolidate humanist and technical critique. “Prompt engineering” means employing the complex, multilayered features of language that humanists already have at their disposal as tools of visual analysis. </p>
+            <p>Given these three points, we finally propose re-modelling the relation of digital art history and critical AI studies, informed by Phillip E. Agre’s call for a “critical technical practice” (Agre 1997a, b). For Agre this implied integrating critique into algorithmic design rather than applying it post-hoc; for digital art history, it will mean a necessary synthesis of algorithmic critique of visual culture and visual-cultural critique of algorithms.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Agre, Philip E.</author> (1997a): 
+                        <hi rend="italic">Computation and Human Experience</hi>. Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Agre, Philip E.</author> (1997b): “Toward a Critical Technical Practice: Lessons Learned in Trying to Reform AI” 
+                        <ref target="http://polaris.gseis.ucla.edu/pagre/critical.html">http://polaris.gseis.ucla.edu/pagre/critical.html</ref> [4/25/2023].
+                    </bibl>
+                    <bibl>
+                        <author>Baxandall, Michael </author>(1979): “The Language of Art History”, in: 
+                        <hi rend="italic">New Literary History</hi> 10 (3): 453–65.
+                    </bibl>
+                    <bibl>
+                        <author>Drucker, Johanna</author> (2013): “Is There a ‘Digital’ Art History?”, in: 
+                        <hi rend="italic">Visual Resources </hi>29 (1–2): 5–13.
+                    </bibl>
+                    <bibl>
+                        <author>Esser, Patrick</author> / <author>Rombach, Robin</author> / <author>Ommer, Björn</author>  (2021): “Taming Transformers for High-Resolution Image Synthesis”, in: 
+                        <hi rend="italic">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Impett, Leonardo</author> (2020): 
+                        <hi rend="italic">Painting by Numbers: Computational Methods and the History of Art</hi>. PhD thesis, EPFL.
+                    </bibl>
+                    <bibl>
+                        <author>Lifschitz, Avi</author> / <author>Squire, Michael</author>  (2017): 
+                        <hi rend="italic">Rethinking Lessing’s Laocoön: Antiquity, Enlightenment, and the “Limits” of Painting and Poetry</hi>. Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Lu, Kevin</author> / <author>Grover, Aditya</author> / <author>Abbeel, Pieter</author> / <author>Mordatch, Igor</author>  (2021): “Pretrained Transformers as Universal Computation Engines”. ArXiv Preprint 2103.05247.
+                    </bibl>
+                    <bibl>
+                        <author>Stability AI</author>: “Stable Diffusion Public Release”. 
+                        <ref target="https://stability.ai/blog/stable-diffusion-public-release">https://stability.ai/blog/stable-diffusion-public-release</ref> [4/25/2023]. 
+                    </bibl>
+                    <bibl>
+                        <author>Offert, Fabian</author> / <author>Bell, Peter</author>  (2021): “Perceptual Bias and Technical Metapictures. Critical Machine Vision as a Humanities Challenge”, in: 
+                        <hi rend="italic">AI &amp; Society</hi> 36: 1133–44.
+                    </bibl>
+                    <bibl>
+                        <author>Radford, Alec</author> / <author>Kim, Jong Wook</author> / <author>Hallacy, Chris</author> / <author>Ramesh, Aditya</author> / <author>Goh, Gabriel</author> / <author>Agarwal , Sandhini</author> / <author>Sastry, Girish et al.</author>  (2021): “Learning Transferable Visual Models from Natural Language Supervision”, in: 
+                        <hi rend="italic">International Conference on Machine Learning (ICML),</hi> 8748–63.
+                    </bibl>
+                    <bibl>
+                        <author>Ramesh, Aditya</author> / <author>Dhariwal, Prafulla</author> / <author>Nichol, Alex</author> / <author>Chu, Casey</author> / <author>Chen, Mark</author>  (2022): “Hierarchical Text-Conditional Image Generation with CLIP Latents.” ArXiv Preprint 2204.06125.
+                    </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2020): “Machine Learning and Human Perspective”, in: 
+                        <hi rend="italic">PMLA</hi> 135 (1): 92–109.
+                    </bibl>
+                    <bibl>
+                        <author>Wevers, Melvin</author> / <author>Smits, Thomas</author>  (2020): “The Visual Digital Turn: Using Neural Networks to Study Historical Images”, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 35 (1): 194–207.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

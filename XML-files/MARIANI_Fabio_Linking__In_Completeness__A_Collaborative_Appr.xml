@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Linking (In)Completeness: A Collaborative Approach to Representing People in Art Provenance Data</title>
+                <author n="RotherLynnMARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml"><persName ref="https://orcid.org/0000-0003-0993-3985" n="RotherLynn">
+                        <surname>Rother</surname>
+                        <forename>Lynn</forename>
+                    </persName><affiliation>Leuphana University Lüneburg, Germany</affiliation><email>lynn.rother@leuphana.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MarianiFabioMARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml"><persName ref="https://orcid.org/0000-0002-7382-0187" n="MarianiFabio">
+                        <surname>Mariani</surname>
+                        <forename>Fabio</forename>
+                    </persName><affiliation>Leuphana University Lüneburg, Germany</affiliation><email>fabio.mariani@leuphana.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KossMaxMARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml"><persName ref="https://orcid.org/0000-0001-6026-8250" n="KossMax">
+                        <surname>Koss</surname>
+                        <forename>Max</forename>
+                    </persName><affiliation>Leuphana University Lüneburg, Germany</affiliation><email>max.koss@leuphana.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Provenance texts contain information on the different parties involved in the events that characterize the ownership history of an artwork. Structuring provenance data represents an opportunity for institutions to not only be users of but also contributors to shared vocabularies, such as the Getty's Union List of Artist Names (ULAN).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Art Provenance</term>
+                    <term>Digital Art History</term>
+                    <term>Linked Open Data</term>
+                    <term>Shared Vocabularies</term>
+                    <term>Thesauri</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>linked (open) data</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Art history</term>
+                    <term>Galleries and museum studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Provenance records, as maintained by museums, capture the historical sequence of ownership and socio-economic custody changes of an artwork, the parties engaged in them, and their role in the transactions. These records usually include names, dates, places, and other transactional details (Yeide et al., 2001). With museums increasingly engaging in a structured data environment, such information allows us to observe and analyze human activity relating to artworks across time and geography and at scale, providing insights into the displacement and circulation of artworks in times of war and peace.</p>
+            <p>To support museums in their cataloging in a structured data environment, the Getty Research Institute hosts and edits the Getty Union List of Artist Names (ULAN), a controlled thesaurus of biographical information about artists and other parties, both individuals and groups  (Harpring, 2018). As of 2015, ULAN is published as linked open data, in line with the FAIR principles of findability, accessibility, interoperability, and reusability, making it an authoritative repository for museums to link their data to.
+                <ref target="#MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn1" n="1"/></p>
+            <p>To address the unevenness of biographical details in provenance records within and across museums, they can enrich their data by linking it to ULAN. At the same time, museums often create detailed records of locally important but generally lesser-known individuals that are missing from ULAN. This expertise on locally known actors, in turn, can complement the records of other institutions.</p>
+            <p>Using collection data from the Art Institute of Chicago, our paper shows how the issue of uneven knowledge about people can be addressed by linking entities to ULAN. Given the incomplete nature of controlled vocabularies, we advocate that museums not only use such data but recognize their role as providers of expert knowledge. Because of their expertise, museums can become crucial stakeholders in a structured provenance data environment. By collaborating with ULAN, museums can counteract biases our analysis has uncovered.</p>
+            <div type="div1">
+                <head>Analysis</head>
+                <p>Although digitizing provenance is still a work in progress, some museums allow access to provenance texts through APIs and data dumps. Among these pioneering museums is the Art Institute of Chicago, which makes data available for 122,317 artworks.
+                    <ref target="#MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn2" n="2"/> Of those, 11,392 have provenance texts. In Rother et al., 2023, we introduced the use of deep learning to extract knowledge from these texts automatically. We divided the process, attributable to an event extraction problem, into two tasks. First, Sentence Boundary Disambiguation divided the text into discrete events according to punctuation. The second task concerns Span Categorization. This task extracted from each provenance event numerous pieces of information regarding a party, such as type (group or person), gender, and role in the event, but also biographical information such as name(s), birth and death dates, and locations (figure 1).
+                </p>
+                <figure>
+                    <graphic n="1001" width="13.342055555555556cm" height="6.131277777777778cm" url="Pictures/6bed79cee1b59a5efa3748a9e65a0cf8.png" rend="inline"/>
+                    <head>Figure 1. Example of Span Categorization based on a single provenance event of the Art Institute of Chicago’s drawing 
+                        <hi rend="italic">Two Women</hi>, c. 1840,  by Constantin Guys (
+                        <ref target="https://www.artic.edu/artworks/14825/two-women">https://www.artic.edu/artworks/14825/two-women</ref>).
+                    </head>
+                </figure>
+                <p>In total, we extracted 8,817 unique parties. Of these, 5,941 were identified as persons and 2,304 as groups.
+                    <ref target="#MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn3" n="3"/> Among the parties recognized as persons, 25.2% (1,498) were female parties. In analyzing the additional biographical information extracted through Span Categorization, we observed degrees of completeness of the parties’ biographies. For life dates, 14.9% of the parties had a birth date (or formation, in the case of groups), while 23.8% had a death date (or dissolution). Moreover, 68.1% of the parties were associated with a location (6,007 parties). Only 11% (972 parties), however, can be considered complete, as they include life dates and at least one location.
+                </p>
+                <p>Given the high number of incomplete parties in Art Institute data, we tried to link those parties to matching entities in ULAN. As a result, we found the matching entity for 1,296 parties in Art Institute provenances (14.7% of 8,817 unique parties). This surprisingly low number notwithstanding, the parties that did match often appeared across multiple Art Institute provenances. In fact, the 1,296 Art Institute parties represented in ULAN were involved in 11,876 provenance events (9.2 events per party), while the 6,587 Art Institute parties not yet included in ULAN were involved in 20,909 events (3.2 events per party).
+                    <ref target="#MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn4" n="4"/></p>
+                <p>Finally, we also found a gender gap. Of the Art Institute/ULAN matches, 75.4% involved individuals (977), of which only 14% can be identified as women (137). The results were in line with the current gender distribution in ULAN. In fact, of the 333,977 ULAN entities identifiable as persons, 44,526 (13.3%) are identified as female.
+                    <ref target="#MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn5" n="5"/> However, this contrasts with the gender distribution in the Art Institute data, where the number stands at 25.2%–almost double the ratio of the dominant controlled vocabulary in the cultural field.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Discussion</head>
+                <p>While an institution such as the Art Institute can enrich its data on parties through ULAN, many individuals recorded in its provenances are not yet represented in this controlled vocabulary. Given the often idiosyncratic development of collections shaped by locally significant individuals, it is the museums that can best contribute their knowledge on these missing figures, however fragmentary, to such thesauri, in turn helping to complete the records of other museums.</p>
+                <p>The higher percentage of female parties in the Art Institute data indicates that institutions can address endemic biases in thesauri through structured provenance data. This requires that museums not only use ULAN but act as trusted experts providing vetted information. The digital future of provenance relies on sustained collaboration between the various stakeholders that goes beyond mere entity linking and involves the active knowledge exchange of researchers.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn1">
+                    <ref target="https://www.getty.edu/research/tools/vocabularies/ulan/">https://www.getty.edu/research/tools/vocabularies/ulan/</ref>.
+                </note><note n="2" xml:id="MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn2">
+                        The dataset was downloaded on April 7, 2022 (<ref target="https://github.com/art-institute-of-chicago/api-data">https://github.com/art-institute-of-chicago/api-data</ref>).
+                    </note><note n="3" xml:id="MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn3">
+                        The 6.5% of parties (572) are ambiguous since they cannot be classified as either individuals or groups.
+                    </note><note n="4" xml:id="MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn4">
+                        Of the 8,817 unique parties in Art Institute data, multiple valid candidates were found for 362 of them in ULAN (4.1%). Since they would require disambiguation, we excluded them. These parties were involved in 7,364 events in the data (20.3 events per party). Indeed, these parties include highly active auction houses such as Sotheby’s and Christie’s.
+                    </note><note n="5" xml:id="MARIANI_Fabio_Linking__In_Completeness__A_Collaborative_Appr.xml_ftn5">
+                        Queries were made on the Getty SPARQL endpoint (<ref target="http://vocab.getty.edu/sparql">http://vocab.getty.edu/sparql</ref>) on April 21, 2023. 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Harpring, Patricia</author>
+                         (2018): “Linking the Getty Vocabularies: The Content Perspective, Including an Update on CONA”, in:
+                        <hi rend="italic">2018 Pacific Neighborhood Consortium Annual Conference and Joint Meetings (PNC)</hi>
+                        , San Francisco, CA, 2018: 1–8. DOI:
+                        <ref target="https://doi.org/10.23919/PNC.2018.8579460">10.23919/PNC.2018.8579460</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Rother, Lynn</author> / <author>Mariani, Fabio</author> / <author>Koss, Max</author> 
+                        (2023): “Hidden Value: Provenance as a Source for Economic and Social History”, in:
+                        <hi rend="italic">Economic History Yearbook</hi>
+                        , 64, 1: 111–142. DOI:
+                        <ref target="https://doi.org/10.1515/jbwg-2023-0005">10.1515/jbwg-2023-0005</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Yeide, Nancy H.</author> / <author>Walsh, Amy L.</author> / <author>Akinsha, Konstantin</author> 
+                         (2001):
+                        <hi rend="italic">The AAM Guide to Provenance Research</hi>
+                        . Washington, DC: American Association of Museums.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

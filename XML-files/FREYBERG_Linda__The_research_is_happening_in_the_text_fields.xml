@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>“The research is happening in the text fields” – Are Linked
+                        Open Data and Art History a good match?</title>
+                <author n="NanniGiacomoFREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml"><persName n="NanniGiacomo">
+                        <surname>Nanni</surname>
+                        <forename>Giacomo</forename>
+                    </persName><affiliation>UCLAB, University of Applied Sciences Potsdam</affiliation><email>giacomo.nanni@fh-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FreybergLindaFREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml"><persName ref="https://orcid.org/0000-0002-4620-7571" n="FreybergLinda">
+                        <surname>Freyberg</surname>
+                        <forename>Linda</forename>
+                    </persName><affiliation>DIPF Leibniz-Institut für Bildungsforschung und
+                        Bildungsinformation, Germany</affiliation><email>l.freyberg@dipf.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="deGntherSabineFREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml"><persName n="deGntherSabine">
+                        <surname>de Günther</surname>
+                        <forename>Sabine</forename>
+                    </persName><affiliation>UCLAB, University of Applied Sciences Potsdam</affiliation><email>sabine.de.guenther@fh-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DrkMarianFREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml"><persName ref="https://orcid.org/0000-0002-3469-7841" n="DrkMarian">
+                        <surname>Dörk</surname>
+                        <forename>Marian</forename>
+                    </persName><affiliation>UCLAB, University of Applied Sciences Potsdam</affiliation><email>marian.doerk@fh-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution explores the instructive tensions between art-historical research and semantic data modeling. While the potential of LOD-applications is obvious in terms of standardization and precision some aspects of research may not be formally represented. Therefore we propose to bridge LOD and full text descriptions through information visualization.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Linked Open Data</term>
+                    <term>Data Modeling</term>
+                    <term>CIDOC CRM</term>
+                    <term>Art History</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>Art history</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>The scientific discourse in object-focused and historical disciplines follows
+                    certain methods and builds a narration with objects, events, evidence and
+                    conclusions.</p>
+                <p>In Digital Humanities (DH) research this process and its specific structure has
+                    to be represented on a data level. Linked Open Data, Semantic Web ontologies
+                    and, in particular, reference models like CIDOC CRM <ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn1" n="1"/> (2022) offer a
+                    precise structural vocabulary to describe cultural heritage objects and their
+                    relations. These frameworks can support GLAM <ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn2" n="2"/> institutions to
+                    make the data on their objects findable, accessible and interoperable. </p>
+                <p>However, in research projects the course of developing
+                        arguments and describing findings is crucial. We use Art History research,
+                        in particular, the project “Restaging Fashion - Digital contextualization of
+                        vestimentary sources” (Refa), as one example to show how emerging discourses
+                        within the research process can be mapped in a knowledge organization system
+                        and which aspects may not be formally represented. A recurring question is: <hi rend="italic">What should be modeled as linked open data (LOD)
+                        and what should be entered as free-form text?</hi>Despite the proven utility of data standards,
+                        vocabularies, and authority files providing for accuracy, context, and
+                        unambiguity, there is also a need for an open space to formulate and present
+                        tentative observations. With this contribution we present how we bridge LOD
+                        and full text descriptions through information visualization.</p>
+            </div>
+            <div type="div1">
+                <head>Semantic data modeling in Museums</head>
+                <p>Semantic data modeling of a collection during an early
+                        stage of the research prompts a trade-off to be made between data
+                        standardization and semantic accuracy.Sophisticated ontologies like CIDOC CRM encourage the
+                        detailed description of an object through an event-driven structure, which
+                        makes it a very powerful tool for the cultural heritage sector by providing
+                        for the possibility of adding meaning to the original data.</p>
+                <p>Since 2006, when the term <hi rend="italic">Linked Data </hi>was coined (see Berners-Lee 2006), according to
+                        Daquinoet al."only a few pioneers have abandoned legacy cataloguing
+                        and archiving systems to fully embrace the Semantic Web paradigm and manage
+                        their catalogues through LOD-native management systems" (2022).</p>
+                <p>When considering the LOD datasets published by The
+                        British Museum and the Rijksmuseum, who also create tools such as
+                        ResearchSpace (Oldman / Tanase 2018) and dedicated platforms to engage with
+                        their collections, it appears that these museums only share relatively
+                        shallow data models for their artworks on the web. The Rijksmuseum provides
+                        basic metadata on objects structured in DC<ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn3" n="3"/>, EDM<ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn4" n="4"/> and LIDO<ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn5" n="5"/> schemas. Only one example is modeled deeply: <hi rend="italic">Linked Art van Gogh object metadata
+                        download</hi>. But the creators clearly state that: “both the
+                        implementation of the model as well as the use of identifiers will be
+                        subject to change” (RijksData 2022). The British Museum, on the other hand,
+                        structured its entire collection using CIDOC CRM, but was unable to preserve
+                        its database in a consistent and accessible manner (Lincoln, 2015). Data
+                        that should be linked together is no longer accessible, making the research
+                        of scholars no longer available ( see Programminghistorian 2017).</p>
+                <p>The potential of these applications is obvious: LOD
+                        allows data to be reused and redistributed, revealing relationships with
+                        other data on the Web (Berners-Lee 2006). The resources involved, however,
+                        are somewhat excessive both from a technological perspective (see De Decker 2015)and regarding the cataloging of information. Manual
+                        tagging can be performed by domain experts in a very precise manner, but it
+                        cannot be performed manually to large volumes of already existing content
+                        due to the lack of resources (Simou et al. 2017) or may not be conducted
+                        automatically due to inconsistencies and/or the lack of standardization in
+                        the datasets. This leads institutions to publish only a subset of the
+                        available information, exposing minimal metadata (Doerr et al. 2010), which
+                        might prevent researchers from using the data and constrains them to
+                        conventional research methods.</p>
+            </div>
+            <div type="div1">
+                <head>Data-driven art historical discourse</head>
+                <p>Art historical research on and with collections is
+                        deeply concerned with the history of objects and their discourse such as
+                        provenance history, history of interpretation, dating or attribution based
+                        on comparable works. This can be expressed with the event structure of CIDOC
+                        CRM including descriptive information on the objects like dimensions,
+                        inscriptions, and alternative titles also linked to relevant vocabularies
+                        like ICONCLASS<ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn6" n="6"/>and AAT<ref target="#FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn7" n="7"/>. But a crucial part of humanities research consists
+                        of annotating that basic formal information, by elaborating and
+                        contextualizing the history of the artworks and their interpretation, often
+                        concluding in the form of a paper or monograph. <lb/>Undertaking this part
+                        of research in the form of LOD is very intricate and laborious. Complex
+                        ontologies will never be completely exhaustive since no cultural artifact or
+                        experience could be fully and finally contextualized and vocabularies are
+                        not equally accurate and detailed for every subtopic. In addition, contexts
+                        and meanings shift over time, even during the timeframe of a research
+                        project. According to Galloway "there are some things that are
+                        unrepresentable. And the computer is our guide into that realm" (2011: 91).
+                        In terms of representing the research process it is not worth making this
+                        part <hi rend="italic">machine</hi>-readable as a basis for formal queries. It is
+                    more important to present it in a way that is accessible and understandable to
+                    other researchers, which does not require this high level of formalization,
+                    because it would end up in overcomplicated queries. </p>
+            </div>
+            <div type="div1">
+                <head>Visualizing context</head>
+                <p>One way to equally accommodate formal LOD structures as well as full text
+                    descriptions is through custom interfaces. In particular, information
+                    visualization can be used for the contextualization of images, sources, texts
+                    and their relations.</p>
+                <p><figure>
+                        <graphic url="Pictures/77b84e7fa1cc8141acb35f503ea78133.png"/>
+                        <head>Fig. 1: Draft of Refa interface </head>
+                    </figure></p>
+                <p>As part of the Restaging Fashion project, we devised different experimental
+                    prototypes, linked specific parts of the textual description to artworks, to
+                    classification entries, to archival sources as well as to other cultural
+                    heritage objects (see Fig. 1.) with the aim to establish an overview of the
+                    context.</p>
+                <p>Instead of hiding the full text in unstructured note fields, we approach this as
+                    a starting point for the semantic contextualization of the research process.</p>
+                <p>In conclusion, certain aspects of humanities research can be properly expressed
+                    by semantic web structures. In particular quantitative information, for
+                    instance, on objects and their relations, which can be queried and expressed
+                    statistically, are worth to be modeled in triple structures. Other, more
+                    elaborated, reflexive, or contextualized information may require different forms
+                    of representations like visual interfaces.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn1"> CIDOC Conceptual Reference Model</note><note n="2" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn2"> Galleries, Libraries, Archives and Museums</note><note n="3" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn3"> Dublin Core</note><note n="4" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn4"> Europeana Data Model</note><note n="5" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn5">
+                             Lightweight Information Describing Objects
+                        </note><note n="6" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn6">
+                            
+                            <ref target="https://iconclass.org/">https://iconclass.org/</ref>
+                        </note><note n="7" xml:id="FREYBERG_Linda__The_research_is_happening_in_the_text_fields.xml_ftn7">
+                            <ref target="https://www.getty.edu/research/tools/vocabularies/aat/">https://www.getty.edu/research/tools/vocabularies/aat/</ref>
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Berners-Lee, Tim</author>
+                        
+                        (2006): 
+                        <hi rend="italic">Linked data</hi>
+                        . 
+                        <ref target="http://www.w3.org/DesignIssues/LinkedData.html">http://www.w3.org/DesignIssues/LinkedData.html</ref> [26.04.2023]. </bibl>
+                    <bibl>
+                        <author>CIDOC CRM</author> (2022): Definition of the CIDOC Conceptual
+                        Reference Model version 7.2.2. <ref target="https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.2%5B20%20Oct%5D.pdf">https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.2.2%5B20%20Oct%5D.pdf</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Daquino, Marilena</author> / <author>Wigham, Mari</author> / <author>Daga, Enrico</author> / <author>Giagnolini, Lucia</author> / <author>Tomasi, Francesca</author> 
+                        (2022) : 
+                        <hi rend="italic">CLEF: A Linked Open Data native system for
+                            Crowdsourcing</hi>
+                        . 
+                        <ref target="https://arxiv.org/abs/2206.08259">https://arxiv.org/abs/2206.08259</ref>
+                        [26.04.2023]. </bibl>
+                    <bibl>
+                        <author>Doerr, Martin</author> / <author>Gradmann, Stefan</author> / <author>Hennicke, Steffen</author> / <author>Isaac, Antoine</author> / <author>Meghini, Carlo</author> / <author>van de Sompel, Herbert</author> 
+                        ( 2010
+                        ): “
+                        The 
+                        E
+                        uropeana 
+                        D
+                        ata 
+                        M
+                        odel (
+                        EDM
+                        )”, 
+                        i
+                        n: 
+                        IFLA (ed.): 
+                        <hi rend="italic">World Library and Information Congress: 76th
+                            IFLA general conference and assembly, </hi>
+                        1
+                        0: 
+                        10-15.
+                    </bibl>
+                    <bibl>
+                        <author>De Decker, Kris</author>
+                         (2015): “Why We Need a Speed Limit for the
+                        Internet: The energy use of the internet can only stop growing when energy
+                        sources run out, unless we impose self-chosen limits.” in: Lowtech Magazine,
+                        10, 2015 <ref target="https://solar.lowtechmagazine.com/2015/10/can-the-internet-run-on-renewable-energy.html">https://solar.lowtechmagazine.com/2015/10/can-the-internet-run-on-renewable-energy.html</ref> [26.04.2023]. </bibl>
+                    <bibl>
+                        <author>Galloway, Alexander R.</author>
+                         (2011): 
+                        <hi rend="italic">Theory, Culture &amp; Society. </hi>
+                        Los Angeles: 
+                        SAGE, 28, 7- 8: 85-
+                        1
+                        02. DOI: 10.1177/0263276411423038.
+                    </bibl>
+                    <bibl>
+                        <author>Lincoln, Matthew</author>
+                         (2015): “Using SPARQL to access Linked Open Data” 
+                        in: 
+                        The Programming Historian.
+                    </bibl>
+                    <bibl>
+                        <author>Oldman, Dominic</author> / <author>Tanase, Diana</author> 
+                         (2018): “Reshaping the knowledge graph by
+                            connecting researchers, data and practices in 
+                        R
+                        esearch
+                        S
+                        pace”, 
+                        i
+                        n: 
+                        <hi rend="italic">International Semantic Web Conference.
+                            Lecture Notes in Computer Science book series (LNISA</hi>
+                        <hi rend="italic">)</hi>
+                        <hi rend="italic">11137: </hi>
+                        325-340. 
+                        Cham: 
+                        Springer. 
+                        <ref target="https://dx.doi.org/10.1007/978-3-030-00668-6_20">https://dx.doi.org/10.1007/978-3-030-00668-6_20</ref>. </bibl>
+                    <bibl>
+                        <author>Programminghistorian</author>
+                         (2017): 
+                        <hi rend="italic">British Museum SPARQL endpoint failing again
+                            #569</hi>
+                        . 
+                        <ref target="https://github.com/programminghistorian/jekyll/issues/569">https://github.com/programminghistorian/jekyll/issues/569</ref>
+                        [26.04.2023]. </bibl>
+                    <bibl>
+                        <author>RijksData </author>
+                        (2022):
+                        
+                        <ref target="https://data.rijksmuseum.nl/object-metadata/download/">https://data.rijksmuseum.nl/object-metadata/download/</ref>
+                        [26.04.2023]. </bibl>
+                    <bibl>
+                        <author>Simou, Nikolaos</author> / <author>Chortaras, Alexandros</author> / <author>Stamou, Giorgos</author> / <author>Kollias, Stefanos</author> 
+                         (2017): “Enriching and Publishing Cultural
+                            Heritage as Linked Open Data”,
+                        i
+                        n: Ioannides, M
+                        arinos /
+                         Magnenat-Thalmann, N
+                        adia /
+                         Papagiannakis, G
+                        eorge
+                         (eds): 
+                        <hi rend="italic">Mixed Reality and Gamification for Cultural
+                            Heritage</hi>
+                        . 
+                        Cham: 
+                        Springer, 
+                        201-223. DOI: 
+                        <ref target="https://doi.org/10.1007/978-3-319-49607-8_7">
+                            10.1007/978-3-319-49607-8_7 </ref>
+                        .
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

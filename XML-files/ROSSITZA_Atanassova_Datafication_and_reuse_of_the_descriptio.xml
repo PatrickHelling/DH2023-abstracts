@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Datafication and reuse of the descriptions of the incunabula collection at the British Library</title>
+                <author n="AtanassovaRossitzaROSSITZA_Atanassova_Datafication_and_reuse_of_the_descriptio.xml"><persName ref="https://orcid.org/0000-0003-4005-2668" n="AtanassovaRossitza">
+                        <surname>Atanassova</surname>
+                        <forename>Rossitza</forename>
+                    </persName><affiliation>British Library, United Kingdom</affiliation><email>rossitza.atanassova@bl.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The use of computational approaches with legacy catalogue descriptions enables new insights into their authors’ historical perspectives, and provides the means for their evaluation and transformation into contemporary online catalogue records. I discuss my computational research with the historical catalogues of the British Library collection of pre-1500 published books.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>catalogue data</term>
+                    <term>historical catalogues</term>
+                    <term>incunabula</term>
+                    <term>computational analysis</term>
+                    <term>practitioner research</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>natural language processing</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The poster discusses my innovative research with the historical catalogues of the British Library incunabula collection, one of the largest and most important collections of pre-1500 published books (RLUK, 2022). By transforming the digitised legacy incunabula catalogues into data and performing computational analysis, I aim to create new knowledge about the incunabula collection and the Library’s past curatorial and cataloguing practice, and to help update its online catalogues and improve the collection discovery. My research with the derived data from these catalogues supports the adoption by cultural heritage institutions of processes for the enrichment of descriptive metadata for print and digital collections that significantly benefits users, including digital humanists. This undertaking also highlights the importance of digital scholarship around legacy catalogues for the development of digital skills and research capabilities in staff, and the sharing of best practice with the wider library and archives practitioner community. </p>
+            <p>There is a broader context to my research which takes into account the recent initiatives in the Galleries, Libraries, Archives and Museums (GLAM) sector to critically re-examine and contextualise collections and legacy descriptions in order to be more inclusive and diverse, and evolve policy and practice. (ARLIS n.d.) The findings from my research also contribute to the better understanding of collection development policies and standards and the considerations around the ethical use of digital technologies with cultural data. (Ortolja-Baird &amp; Nyhan 2022)</p>
+            <p>The poster outlines the digital research with 
+                <hi rend="italic">The Catalogue of books printed in the XVth Century now in the British Museum</hi> that was published between 1908 and 2007. The thirteen volumes of the catalogue contain full descriptions of over 12,700 incunabula held at the British Library and is a highly used resource for research across many disciplines, including the history of printing, book trade and text studies. (The British Library n.d.) Firstly, I discuss the practitioner skills and processes required to derive structured data from the digitised images and reflect on some of the challenges of working with these resources and the suitability of the information for advanced computational analysis (The British Library 2022). Next, I present a case study of the reuse of the text data for the investigation of curatorial voices in the description of these collections for which I apply methodology from computational linguistics (Salway &amp; Baker 2020). I also suggest different ways of presenting and sharing the datasets with the Digital Humanities and the wider research community, and invite a conversation about the opportunities for inter-sectoral and cross-disciplinary collaborations with the new digital resources. 
+            </p>
+            <p>In conclusion, I reflect on the strong collaborative element of my research, which has facilitated a dialogue between institutional staff: the current and former curators of the incunabula collection, staff responsible for collection metadata standards, metadata and digitisation analysts and digital curators. Simultaneously, I am working with a mentor from a Higher Education institution who brings expertise in the domains of history, cultural heritage and digital technologies and with whom I have recently collaborated on the development of training materials to perform computational analysis of legacy catalogue data. (Baker, Atanassova, Salway 2021)</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Arts Libraries Society UK and Ireland</author> (n.d.): 
+                        <hi rend="italic">ARLIS Cataloguing and Classification Committee – Ethics series</hi>. <ref target="https://arlis.net/arlis-cataloguing-and-classification-committee-ethics-series/">https://arlis.net/arlis-cataloguing-and-classification-committee-ethics-series/</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Baker, James</author> / <author>Atanassova, Rossitza</author> / <author>Salway, Andrew</author>  (2021): 
+                         Computational Analysis of Catalogue Data
+                        <ref target="https://cataloguelegacies.github.io/antconc.github.io/">https://cataloguelegacies.github.io/antconc.github.io/</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Ortolja-Baird, Alexandra</author> / <author>Nyhan, Julianne</author>  (2022): “Encoding the haunting of an object catalogue: on the potential of digital technologies to perpetuate or subvert the silence and bias of the early-modern archive”, in: 
+                        <hi rend="italic">
+                             Digital Scholarship in the Humanities 
+                        </hi>
+                        37, 3: 844-867 <ref target="https://doi.org/10.1093/llc/fqab065"> https://doi.org/10.1093/llc/fqab065</ref> [01.05.2023]
+                    </bibl>
+                    <bibl><author>Research Libraries UK</author>
+                        (2022, May 4): 
+                        <hi rend="italic">AHRC-RLUK Professional Practice Fellows announced 2022</hi>: <ref target="https://www.rluk.ac.uk/ahrc-rluk-professional-practice-fellows-announced/">https://www.rluk.ac.uk/ahrc-rluk-professional-practice-fellows-announced/</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>
+                        <author>Salway, Andrew</author> / <author>Baker, James</author>  (2020): “
+                        <hi rend="italic">Investigating curatorial voice with corpus linguistic techniques”, in:</hi> 
+                        <hi rend="italic">Museum and Society</hi> 18, 2: 151-169 
+                        <ref target="https://doi.org/10.29311/mas.v18i2.3175">https://doi.org/10.29311/mas.v18i2.3175</ref>
+                        [01.05.2023]
+                    </bibl>
+                    <bibl><author>The British Library</author> (n.d.): 
+                        <hi rend="italic">Early Printed Books</hi>. <ref target="https://www.bl.uk/collection-guides/early-printed-books">https://www.bl.uk/collection-guides/early-printed-books</ref> [01.05.2023]
+                    </bibl>
+                    <bibl>The British Library (2022, November 29): 
+                        <hi rend="italic">My AHRC-RLUK Professional Practice Fellowship: Four months on</hi> 
+                        <ref target="https://blogs.bl.uk/digital-scholarship/2022/11/my-ahrc-rluk-professional-practice-fellowship-phase-one.html">https://blogs.bl.uk/digital-scholarship/2022/11/my-ahrc-rluk-professional-practice-fellowship-phase-one.html</ref> [01.05.2023]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

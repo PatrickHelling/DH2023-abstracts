@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Using Digital Tools to Map the Movement of Capital, People and Culture from
+                    Slave-owning Britain to Western Australia</title>
+                <author n="ArthurPaulARTHUR_Paul_Using_Digital_Tools_to_Map_the_Movement_of_Capit.xml"><persName ref="https://orcid.org/0000-0002-1494-0533" n="ArthurPaul">
+                        <surname>Arthur</surname>
+                        <forename>Paul</forename>
+                    </persName><affiliation>Edith Cowan University, Australia</affiliation><email>paul.arthur@ecu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SmithIsabelARTHUR_Paul_Using_Digital_Tools_to_Map_the_Movement_of_Capit.xml"><persName ref="https://orcid.org/0000-0001-8356-6410" n="SmithIsabel">
+                        <surname>Smith</surname>
+                        <forename>Isabel</forename>
+                    </persName><affiliation>Edith Cowan University, Australia</affiliation><email>isabel.smith@ecu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LydonJaneARTHUR_Paul_Using_Digital_Tools_to_Map_the_Movement_of_Capit.xml"><persName ref="https://orcid.org/0000-0003-3083-4084" n="LydonJane">
+                        <surname>Lydon</surname>
+                        <forename>Jane</forename>
+                    </persName><affiliation>University of Western Australia</affiliation><email>jane.lydon@uwa.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MartensJeremyARTHUR_Paul_Using_Digital_Tools_to_Map_the_Movement_of_Capit.xml"><persName ref="https://orcid.org/0000-0001-8579-5399" n="MartensJeremy">
+                        <surname>Martens</surname>
+                        <forename>Jeremy</forename>
+                    </persName><affiliation>University of Western Australia</affiliation><email>jeremy.martens@uwa.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LaidlawZoARTHUR_Paul_Using_Digital_Tools_to_Map_the_Movement_of_Capit.xml"><persName ref="https://orcid.org/0000-0002-5256-6722" n="LaidlawZo">
+                        <surname>Laidlaw</surname>
+                        <forename>Zoë</forename>
+                    </persName><affiliation>University of Melbourne</affiliation><email>zoe.laidlaw@unimelb.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper reports on an Australian Research Council-funded project focusing on development of digital tools to map biographical narratives and data relating to legacies of British slavery in Australia from the 1830s onward, producing new understandings of the continuing impact of slavery wealth in shaping colonial immigration, investment, and law.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital mapping</term>
+                    <term>biographical research</term>
+                    <term>history of slavery</term>
+                    <term>digital research infrastructure</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>open access methods</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Communication studies</term>
+                    <term>Cultural studies</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This paper reports on an Australian Research Council-funded project, ‘Western
+                Australian Legacies of British Slavery’, focusing on development of digital tools to
+                map biographical narratives and data relating to the legacies of British slavery in
+                Australia from the 1830s onward ( <ref target="https://australian-legacies-slavery.org/about">https://australian-legacies-slavery.org/about</ref>). This data-intensive
+                project is tracing the movement of capital, people, and culture from slave-owning
+                Britain to Western Australia, to produce new understandings of the continuing impact
+                of slavery wealth in shaping colonial immigration, investment, and law. The project
+                seeks to reveal how wealth from slavery led to the formation of Australian
+                institutions, funded large land holdings, and helped form influential networks of
+                association in the early colonial period that coincided with the abolition of
+                slavery in Britain. It also investigates the experience of Aboriginal peoples in
+                relation to the history of slavery. </p>
+            <p>The research data being generated – looking at the movement of people, the
+                distribution of networks, and land – lends itself to mapping and geo-spatial
+                visualisation and analysis. To explore the lives and movements of individuals
+                connected to slavery who migrated to Western Australia, the research team is
+                utilising the Australian research infrastructure the ‘Time-Layered Cultural Map of
+                Australia’ (TLCMap) ( <ref target="https://www.tlcmap.org/">https://www.tlcmap.org/</ref>). This resource has been developed to help
+                researchers create digital maps from cultural, textual, and historical data, layered
+                with datasets registered on the platform. TLCMap is a set of online tools that
+                allows humanities researchers to compile humanities data using spatio-temporal
+                coordinates – a ‘software ecosystem’ for researchers with minimal programming skills
+                to upload, gather, analyse and visualise data. </p>
+            <p>Our presentation gives a report on a series of biographical mapping and visualisation
+                experiments using TLCMap to show movement and influence of slavery wealth using the
+                Gazetteer of Historical Australian Places. The Gazetteer allows researchers to
+                create layers on a 3D map which pinpoint locations with accompanying information,
+                enabling us to plot out journeys of slavers and slave-trade beneficiaries as they
+                moved across Britain, the Caribbean and to Western Australia. For our trial data we
+                selected six individuals, choosing those with the most available data and digital
+                assets, and who also offered a range in gender, geographical destinations and
+                biographical events. For each individual we created a separate layer, uploaded as
+                CSV files converted from Excel spreadsheets. Data on individuals included latitude
+                and longitude for the geographical places they visited or lived in, place names,
+                short biographical summary text, and links to data stored in other databases and
+                archives. In the 3D map this translated to a staged journey for each individual,
+                represented by a series of points on the map accompanied by brief narrative text
+                regarding time spent at that location, links to images and further resources.</p>
+            <p>TLCMap offered a number of advantages. The ability to embed links to records in other
+                collections and databases allowed us to point to entries in the Legacies of British
+                Slavery (LBS) database at University College London ( <ref target="https://www.ucl.ac.uk/lbs/">https://www.ucl.ac.uk/lbs/</ref>), and the
+                People Australia resource maintained by the National Centre of Biography at the
+                Australian National University ( <ref target="https://peopleaustralia.anu.edu.au/">https://peopleaustralia.anu.edu.au/</ref>) – both project partners. While other
+                databases and platforms enable network analysis to reveal family, business and
+                various connections between individuals, TLCMap is the only purpose-designed,
+                Australian-developed research tool for humanities and social science researchers to
+                be able to visually represent these connections, allowing researchers to identify
+                geographical clusters and parallel journeys by sight. </p>
+            <p>There are many challenges and complexities in mapping a life. This begins with
+                choices around what information is presented and what is left out. In selecting
+                biographical data to map out the WALBS people of interest, we were guided in part by
+                parameters regarding the functionality of the TLCMap platform. In particular, data
+                was structured around geographical and temporal coordinates. Due to the research
+                theme, another mandatory field of data was ‘links to slavery’, where brief narrative
+                text outlined the particular family or business connections an individual held with
+                the slave trade. However, as individuals and journeys dated back approximately 200
+                years, ensuring their stories were rich with biographical data was not always
+                possible. Often, records were limited and the issue of missing or ‘fuzzy’ data was a
+                recurrent one. At times we could identify accurate spatial coordinates, for example
+                by looking at ship records to locate particular ports of departures and arrivals, or
+                identifying specific estates or plantations. Yet much of the time this information
+                was less precise – for example an individual’s diary entry referring to a broad
+                region, or a former place name that no longer exists. In these instances we made
+                estimates, and included fields for notes – ‘Date notes’ and ‘Location notes’ – where
+                we could explain the limitations of our data and our process for devising
+                estimations. The presentation provides an overview of this project in development,
+                covering these and other key aspects.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Arnott, Georgina, Zoë Laidlaw and Jane Lydon (eds).</author>
+                        2022. “Writing Slavery into Biography: Australian Legacies of British
+                        Slavery.” Special issue, <hi rend="italic">Australian Journal of Biography
+                            and History</hi>, no. 6. <ref target="https://press.anu.edu.au/publications/journals/australian-journal-biography-and-history/ajbh-6">https://press.anu.edu.au/publications/journals/australian-journal-biography-and-history/ajbh-6</ref>. </bibl>
+                    <bibl><author>Arthur, Paul Longley, and Isabel Smith.</author> “Human
+                        Journeys in the Digital Age: Advances and Challenges in Digital Historical
+                        Migration Studies,” <hi rend="italic">Frontiers in Human Dynamics</hi>,
+                        October 2022: <ref target="https://doi.org/10.3389/fhumd.2022.915978">https://doi.org/10.3389/fhumd.2022.915978</ref>. </bibl>
+                    <bibl><author>Berg, Olaf.</author> 2020. “Capturing Displaced Persons’
+                        Agency by Modelling Their Life</bibl>
+                    <bibl>Events: A Mixed Method Digital Humanities Approach.” <hi rend="italic">Historical Social Research</hi> 45 (4), 263-89. </bibl>
+                    <bibl><author>Butler, Justin.</author> 2017. “Who’s Your Mob?: Aboriginal
+                        Mapping – Beginning with the Strong Story.” <hi rend="italic">International
+                            Journal of Narrative Therapy and Community Work</hi> 3, 22-26. </bibl>
+                    <bibl><author>Centre for the Study of the Legacies of British Slavery
+                            (and database).</author>
+                        <ref target="https://www.ucl.ac.uk/lbs/">https://www.ucl.ac.uk/lbs/</ref>
+                    </bibl>
+                    <bibl><author>Hall, Catherine.</author> 2018. “Doing Reparatory History:
+                        Bringing ‘Race’ and Slavery Home.” <hi rend="italic">Race &amp; Class</hi>,
+                        60 (1), 3–21. </bibl>
+                    <bibl><author>Pearce, Margaret Wickens.</author> 2008. “Framing the Days:
+                        Place and Narrative in Cartography.” <hi rend="italic">Cartography and
+                            Geographic Information Science</hi> 35 (1), 17–32. </bibl>
+                    <bibl><author>People Australia. </author>
+                        
+                        <ref target="https://peopleaustralia.anu.edu.au/">https://peopleaustralia.anu.edu.au/</ref>
+                    </bibl>
+                    <bibl><author>Tally Jr., Robert T. </author>2016. “Adventures in Literary
+                        Cartography: Explorations, Representations, Projections.” In Emmanuelle
+                        Peraldo (ed.), <hi rend="italic">Literature and Geography: The Writing of
+                            Space Throughout History</hi>, Cambridge Scholars Publishing, Newcastle
+                        Upon Tyne, 20-36. </bibl>
+                    <bibl><author>Time-Layered Cultural Map. </author>
+                        <ref target="https://www.tlcmap.org/">https://www.tlcmap.org/</ref>
+                    </bibl>
+                    <bibl><author>Western Australian Legacies of British Slavery project. </author>
+                        <ref target="https://australian-legacies-slavery.org/">https://australian-legacies-slavery.org/</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>What’s the Use? Exploring Non-academic Applications of (Computational) Literary Studies</title>
+                <author n="EdmondJenniferEDMOND_Jennifer_What_s_the_Use__Exploring_Non_academic_Appli.xml"><persName ref="https://orcid.org/0000-0001-9991-1637" n="EdmondJennifer">
+                        <surname>Edmond</surname>
+                        <forename>Jennifer</forename>
+                    </persName><affiliation>Trinity College Dublin, Ireland</affiliation><email>edmondj@tcd.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YakupovaVeraEDMOND_Jennifer_What_s_the_Use__Exploring_Non_academic_Appli.xml"><persName n="YakupovaVera">
+                        <surname>Yakupova</surname>
+                        <forename>Vera</forename>
+                    </persName><affiliation>Trinity College Dublin, Ireland</affiliation><email>yakupovv@tcd.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper reports on research into the potential expansion of non-academic use for computational literary studies infrastructure. It relates findings regarding usage patterns for fictional narratives, as well as the results of interviews with representatives of relevant fields on their experience of using literary and computational methods and data.  </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computational literary studies</term>
+                    <term>applied literary studies</term>
+                    <term>user research</term>
+                    <term>collaborations beyond academic</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>user experience design and analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In spite of decades of studies and manifestos arguing for the ‘use’ of the humanities for various purposes, from their capacity to form citizens (e.g. Nussbaum 1998, 2010) through to more specific appeals to their potential to improve technology development (Madsbjerg 2017), the idea of an ‘applied humanities’ has yet to take explicit hold within our training and research paradigms.  In spite of this, however, appeals to the very humanities-relevant power of narrative and storytelling seem ever more present in new journalism, brand narratives, narrative medicine (Charon 2011), bibliotherapy (Gallagher 2020; Lenkowsky 1987), and even narrative economics (Shiller 2019).</p>
+            <p>If storytelling seems to be everywhere, however, where does that leave the literary scholar? Or indeed the computational literary scholar, given that awareness of the power of data also seems to have become ubiquitous?   While these questions may not have a significant impact on the day-to-day work of the average individual scholar, they are of significant importance for the builder of infrastructure.  As the products of particular epistemic and organisational cultural contexts, the data collections, services, communication channels, and other design choices underpinning research infrastructures can often unintentionally obscure their utility (or even existence) from those who might find them useful, in particular if those users are from outside of professional literary research.</p>
+            <p>For this reason, the European-funded Computational Literary Studies Infrastructure (CLS INFRA, https://clsinfra.io/) project is exploring not only the needs and methods of currently known and clearly emerging user groups, but also of potential users from outside of the academy.  In order to do this, the project team is engaging in a two-phase research process: first, we are extracting from existing project examples and published research a taxonomy of approaches that can be thought of as comprising a toolkit for applied literary studies.  This research is now largely complete, and while it may yet grow or be refined in the course of phase two, our current taxonomy of applied literary studies approaches includes the following:  1) using fictional narratives as evidence for making claims about past and present cultural and historical identities and values (Southgate 2009; Westphal 2011); 2) using fictional narratives to build or access predictive models (Pinto and Medina 2020; Wertheimer 2021; Greenfield 2021); 3) using fictional narratives as a means to prototype future scenarios, cultures, identities and technologies (Johnson 2009); and 4) using fictional narratives as a mechanism for specific capacity building, such as developing empathy (Thexton et al. 2019).  Needless to say, the opportunity to enhance these approaches with appropriate data, analytics and critical literary competence could be of great interest and benefit.</p>
+            <p>In phase 2 of this exploration (January - June 2023), we will be testing these conclusions through a series of 15-20 focussed interviews with professionals and enthusiasts from beyond literary research, representing the perspectives of publishing, journalism, medicine, therapy policy-making and management consultancy.  From these interactions, we will develop user scenarios and user stories to inform the CLS INFRA development.  In this short paper, we will report on both the taxonomy and the interviews, with the goal of both informing CLS and DH researchers more widely about the potential resonances of their work, and also of instigating debate about the edges of our field. Through this work, we hope not only to expand the user base for CLS methods and hone the infrastructural offering, but also increase and enhance the diversity of collaborations and networks in the field.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Charon, Rita</author> (2011): “Narrative Medicine”, in: Nancy S. Jecker et al. (eds.): 
+                        <hi rend="italic">Bioethics: An Introduction to the History, Methods, and Practice</hi>. Sudbury: Jones &amp; Bartlett Publishers 210-213. 
+                    </bibl>
+                    <bibl>
+                        <author>Gallagher, Mari</author> (2020): “Bibliotherapy as a Counselling Intervention for Bereavement, Loss and Grief”, in: 
+                        <hi rend="italic">Irish Association for Counselling and Psychotherapy</hi> 20, 1: 15-19. <ref target="https://iacp.ie/files/UserFiles/IJCP/IJCP%20Spring%202020_Bibliotherapy%20as%20a%20Counselling.pdf">https://iacp.ie/files/UserFiles/IJCP/IJCP%20Spring%202020_Bibliotherapy%20as%20a%20Counselling.pdf</ref> [24.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Greenfield, Nathan M. </author>(2021): “Project Cassandra — Wars and Rumors of Wars.” 
+                        <hi rend="italic">University World News: The Global Window on Higher Education</hi>, August 2021. <ref target="https://www.universityworldnews.com/post.php?story=20210810211817523">https://www.universityworldnews.com/post.php?story=20210810211817523</ref> [24.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Johnson, Brian D.</author> (2009): “Science Fiction Prototypes Or: How I Learned to Stop Worrying about the Future and Love Science Fiction”, in: Intelligent Environments 2009: 
+                        <hi rend="italic">Proceedings of the 5th International Conference on Intelligent Environments</hi>, Barcelona, Spain, 2009. DOI: 10.3233/978-1-60750-034-6-3.
+                    </bibl>
+                    <bibl>
+                        <author>Lenkowsky, Ronald S.</author> (1987): “Bibliotherapy: A Review and Analysis of the Literature”, in:
+                        <hi rend="italic"> The Journal of Special Education</hi> 21, 2: 123-132. DOI: 10.1177/002246698702100211.
+                    </bibl>
+                    <bibl>
+                        <author>Madsbjerg, Christian</author> (2017): 
+                        <hi rend="italic">Sensemaking: The Power of the Humanities in the Age of the Algorithm</hi>. London: Hachette Books.
+                    </bibl>
+                    <bibl>
+                        <author>Nussbaum, Martha C.</author> (1998): 
+                        <hi rend="italic">Cultivating Humanity: A Classical Defense of Reform in Liberal Education. </hi>Cambridge, London: Harvard University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Nussbaum, Martha C.</author> (2010): 
+                        <hi rend="italic">Not for Profit: Why Democracy needs the Humanities.</hi> Princeton: Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Pinto, Jean P.</author> / <author>Medina, Javier</author>  (2020): “Hybrid Processes for a New Era of Strategic Foresight”, in: 
+                        <hi rend="italic">Foresight,</hi> 22, 3: 287-307. DOI: 10.1108/FS-05-2019-0041
+                    </bibl>
+                    <bibl>
+                        <author>Shiller, Robert J. </author>(2019): 
+                        <hi rend="italic">Narrative Economics: How Stories Go Viral and Drive Major Economic Events</hi>. Princeton: Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Southgate, Beverly C.</author> (2009): 
+                        <hi rend="italic">History Meets Fiction</hi>. New York: Pearson Education Limited.
+                    </bibl>
+                    <bibl>
+                        <author>Thexton, Todd</author> / <author>Prasad, Ajnesh</author> / <author>Mills, Albert J.</author>  (2019): “Learning empathy through literature, Culture and Organization”, in: 
+                        <hi rend="italic">Culture and Organization </hi>25, 2: 83-90. DOI: 10.1080/14759551.2019.1569339.
+                    </bibl>
+                    <bibl>
+                        <author>Wertheimer, Jürgen</author> (2021): 
+                        <hi rend="italic">Sorry Cassandra! Warum wir unbelehrbar sind</hi>. Tübingen: Konkursbuch Verlag Claudia Gehrke.
+                    </bibl>
+                    <bibl>
+                        <author>Westphal, Bertrand</author> (2011): 
+                        <hi rend="italic">Geocriticism: Real and Fictional Spaces</hi>. New York: Palgrave Macmillan.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

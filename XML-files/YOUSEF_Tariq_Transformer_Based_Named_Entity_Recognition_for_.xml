@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Transformer-Based Named Entity Recognition for Ancient
+                        Greek</title>
+                <author n="YousefTariqYOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml"><persName n="YousefTariq">
+                        <surname>Yousef</surname>
+                        <forename>Tariq</forename>
+                    </persName><affiliation>Leipzig University</affiliation><email>info@tariq-yousef.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PalladinoChiaraYOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml"><persName ref="https://orcid.org/0000-0002-1811-5602" n="PalladinoChiara">
+                        <surname>Palladino</surname>
+                        <forename>Chiara</forename>
+                    </persName><affiliation>Furman University</affiliation><email>chiara.palladino@furman.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JnickeStefanYOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml"><persName n="JnickeStefan">
+                        <surname>Jänicke</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>University of Southern Denmark</affiliation><email>stjaenicke@imada.sdu.dk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper presents our work on training two automatic NER models for ancient Greek using transformer-based models. The models classify the entities into three categories, namely, Person, Location, and Miscellaneous and achieved promising results on test and evaluation datasets.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Named Entities Recognition</term>
+                    <term>Ancient Greek</term>
+                    <term>Transformer models</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>natural language processing</term>
+                    <term>Computer science</term>
+                    <term>Cultural studies</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The identification and classification of names in
+                        ancient texts, especially Classical ones like Homer's <emph>
+                        Iliad
+                    </emph>, is an essential task to support further text
+                        processing, but also simple reading facilitation and the creation of reading
+                        environments (Blackwell / Crane 2009). Typically, readers of Ancient Greek
+                        or Syriac face the challenge of a complex and sometimes obscure language,
+                        but also of very distant cultural references, which go back to events and
+                        traditions that may not be immediately comprehensible to a non-specialist.
+                        Names are a substantial part of this challenge. Texts like the Bible or
+                        the <emph>
+                        Iliad
+                    </emph> contain hundreds, if not thousands, of names, many of
+                        which appear only once or twice, and even language specialists are sometimes
+                        unable to recognize certain places, people, or events immediately.</p>
+                <p>An automatic Named Entity Recognition (NER) model for this category of texts can
+                    enormously facilitate the task of a reader, by extracting, classifying, and
+                    linking ancient names to available resources (Kemp 2021) and by using those
+                    names to design applications that encourage different approaches to textual and
+                    historical exploration (Barker / Terras 2016).</p>
+                <p>Nevertheless, in the domain of ancient languages, NER is a complicated task. The
+                    lack of adequate infrastructure and annotated data is the main obstacle to
+                    developing reliable NER pipelines, as many of these languages have scarce (or
+                    none at all) services for annotation, lemmatization, morphosyntactic analysis,
+                    and named entity classification. Some resources of this kind have been
+                    developed, for example, for Ancient Greek and Latin (Burns 2019). However, the
+                    lack of annotated texts in the original languages still makes Named Entity
+                    Recognition challenging task for many types of texts (Erdmann et al. 2016). </p>
+                <p>This paper presents our work on training two automatic NER models for ancient
+                    Greek using transformer-based models. The models classify the entities into
+                    three categories, namely, Person, Location, and Miscellaneous and achieved
+                    promising results on test and evaluation datasets. The models are available on
+                    Hugging Face <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn3" n="1"/><ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn4" n="2"/>. </p>
+            </div>
+            <div type="div1">
+                <head>Related Work</head>
+                <p>(Blackwell / Crane 2009) and (Babeu et al. 2007) emphasize the importance of
+                    processing historical texts for names in the broader field of digital
+                    infrastructures for reading and annotation, such as the Perseus Digital Library
+                        <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn1" n="3"/> and the Scaife Viewer <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn2" n="4"/>. The
+                    Classical Language Toolkit (CLTK) is the largest Python library to perform NLP
+                    tasks on ancient languages, including NER (Johnson et al. 2021): the lack of
+                    adequately annotated datasets for most corpora, however, is a fundamental
+                    hindrance to the high performance of this task (Palladino et al. 2020). Other
+                    efforts have been made starting from large annotated datasets of specific
+                    sources, using semantic annotation platforms and Machine Learning (Berti 2019).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Data</head>
+                <p>The data used for model training are collected from two resources, <hi rend="italic">The Deipnosophists</hi> of Athenaeus of Naucratis <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn5" n="5"/>
+                    , which have been annotated semi-automatically in the context of the Digital
+                    Athenaeus project <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn6" n="6"/> using INCEpTION annotation
+                    platform <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn7" n="7"/>. </p>
+                <p>The entities are classified into ten categories (Table 1). However, We reduced
+                    them to three main categories, PERson, LOCation, MISCellaneous <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn0" n="8"/>. </p>
+                <table xml:id="d369e268">
+                    <head>Table 1: An overview of the training data set.</head>
+                    <row role="label">
+                        <cell/>
+                        <cell rend="bold">Class</cell>
+                        <cell rend="bold">Frequency</cell>
+                        <cell rend="bold">3 Classes</cell>
+                        <cell rend="bold">Frequency</cell>
+                    </row>
+                    <row>
+                        <cell>Odyssey</cell>
+                        <cell>Person</cell>
+                        <cell>2.469</cell>
+                        <cell>PER</cell>
+                        <cell>2.469</cell>
+                    </row>
+                    <row>
+                        <cell>Place</cell>
+                        <cell>698</cell>
+                        <cell>LOC</cell>
+                        <cell>698</cell>
+                    </row>
+                    <row>
+                        <cell>Deipnosophists</cell>
+                        <cell>Person</cell>
+                        <cell>12.424</cell>
+                        <cell>PER</cell>
+                        <cell>12.424</cell>
+                    </row>
+                    <row>
+                        <cell>Place</cell>
+                        <cell>2.305</cell>
+                        <cell>LOC</cell>
+                        <cell>2.305</cell>
+                    </row>
+                    <row>
+                        <cell>Ethnic</cell>
+                        <cell>3.548</cell>
+                        <cell>MISC</cell>
+                        <cell>6.735</cell>
+                    </row>
+                    <row>
+                        <cell>NoClass</cell>
+                        <cell>2.263</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell>Group</cell>
+                        <cell>681</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell>Title</cell>
+                        <cell>206</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell>Festival</cell>
+                        <cell>20</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell>Month</cell>
+                        <cell>8</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell>Language</cell>
+                        <cell>7</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell>Constellation</cell>
+                        <cell>2</cell>
+                        <cell>MISC</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Total</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell>24.631</cell>
+                    </row>
+                </table>
+                <p>Moreover, we used texts from <hi rend="italic">Odyssey</hi> annotated manually by
+                        <hi rend="italic">Chiara Palladino</hi>. The dataset contains 3.167 entities
+                    as PERsons and LOCations only. The main limitation of the dataset is that almost
+                    all entities are single-token entities which will affect the model performance
+                    in detecting multiple-tokens entities. </p>
+                <p>We also created an evaluation dataset to evaluate the models' performance. The
+                    dataset consists of 50 paragraphs randomly selected from the Book 5 of the <hi rend="italic">Histories</hi> of Herodotus. The texts were annotated manually
+                    using Recogito <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn8" n="9"/> and contain 351 entities. </p>
+            </div>
+            <div type="div1">
+                <head>Training &amp; Results</head>
+                <p>The recent advances in neural networks and language modelling using transformers
+                    (Vaswani et al. 2017), and the availability of large pretrained language models
+                    allowed researchers to achieve state-of-the-art performance on various NLP
+                    tasks, including NER.</p>
+                <p>In the experiments, we used two transformer-based ancient Greek language models,
+                    namely, <hi rend="italic">Ancient Greek Alignment</hi><ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn9" n="10"/> (GRC_A) (Yousef et al.
+                    2022a, Yousef et al. 2022b), an XLM-R-based multilingual model fine-tuned on the
+                    translation alignment task, and <hi rend="italic">Ancient Greek BERT</hi><hi rend="italic"><ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn10" n="11"/></hi> (GRC_B) (Pranaydeep et al. 2021), a BERT-based monolingual model
+                    fine-tuned on POS tagging and morphological analysis tasls. We used <hi rend="italic">Flair</hi> framework <ref target="#YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn11" n="12"/> (Akbik et al. 2019) to train and
+                    fine-tune the models using 75% of the data for training, 12.5% for testing, and
+                    12.5% as development dataset. We trained the models 10 epochs and used
+                    Conditional Random Field (CRF) for prediction. </p>
+                <p>The training results presented in table 2 show that GRC_A outperforms GRC_B
+                    regarding the F1-score on all classes. Overall, both models achieved over 82% F1
+                    on all classes. However, their performance on PERson is significantly higher
+                    than LOCation and MISC because the training dataset contains more PERson than
+                    other classes. </p>
+                <table xml:id="d369e524">
+                    <head>Table 2: Training and evaluation results.</head>
+                    <row role="label">
+                        <cell/>
+                        <cell/>
+                        <cell rend="bold">GRC_A</cell>
+                        <cell rend="bold">GRC_B</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell rend="bold">Precision</cell>
+                        <cell rend="bold">Recall</cell>
+                        <cell rend="bold">F1-score</cell>
+                        <cell rend="bold">Precision</cell>
+                        <cell rend="bold">Recall</cell>
+                        <cell rend="bold">F1-score</cell>
+                    </row>
+                    <row>
+                        <cell>Training</cell>
+                        <cell>PER</cell>
+                        <cell>93.39%</cell>
+                        <cell>96.33%</cell>
+                        <cell rend="bold">94.84%</cell>
+                        <cell>91.24%</cell>
+                        <cell>94.45%</cell>
+                        <cell>92.82%</cell>
+                    </row>
+                    <row>
+                        <cell>MISC</cell>
+                        <cell>84.69%</cell>
+                        <cell>92.50%</cell>
+                        <cell rend="bold">88.42%</cell>
+                        <cell>80.92%</cell>
+                        <cell>83.17%</cell>
+                        <cell>82.03%</cell>
+                    </row>
+                    <row>
+                        <cell>LOC</cell>
+                        <cell>89.55%</cell>
+                        <cell>77.32%</cell>
+                        <cell rend="bold">82.99%</cell>
+                        <cell>86.86%</cell>
+                        <cell>78.35%</cell>
+                        <cell>82.38%</cell>
+                    </row>
+                    <row>
+                        <cell>Evaluation</cell>
+                        <cell>PER</cell>
+                        <cell>90.48%</cell>
+                        <cell>91.94%</cell>
+                        <cell>91.20%</cell>
+                        <cell>96.43%</cell>
+                        <cell>87.10%</cell>
+                        <cell rend="bold">91.53%</cell>
+                    </row>
+                    <row>
+                        <cell>MISC</cell>
+                        <cell>89.29%</cell>
+                        <cell>94.34%</cell>
+                        <cell rend="bold">91.74%</cell>
+                        <cell>92.00%</cell>
+                        <cell>86.79%</cell>
+                        <cell>89.32%</cell>
+                    </row>
+                    <row>
+                        <cell>LOC</cell>
+                        <cell>82.69%</cell>
+                        <cell>65.15%</cell>
+                        <cell>72.88%</cell>
+                        <cell>80.00%</cell>
+                        <cell>84.85%</cell>
+                        <cell rend="bold">82.35%</cell>
+                    </row>
+                </table>
+                <p>The evaluation on <hi rend="italic">Histories</hi>'s texts showed that GRC_B
+                    achieved higher precision and lower recall on PERsons and MISCs, but
+                    significantly higher recall and lower precision on LOCations. Nevertheless,
+                    there is still room for performance improvement by fine-tuning training
+                    hyperparameters and expanding the training dataset by manually annotating more
+                    texts or generating the annotations automatically with our model and then
+                    correcting them manually. </p>
+            </div>
+            <div type="div1">
+                <head>Qualitative Evaluation</head>
+                <p>Overall, the two models we tested performed with similar accuracy, but with some
+                    individual differences. GRC_B miscategorized 25 entities, and omitted 22
+                    entities, while incorrectly extracting 3 non-entities. GRC_A miscategorized 34
+                    entities, but only omitted 5 entities and never extracted words incorrectly.
+                    GRC_A performed considerably worse on location names: out of 70 manually
+                    annotated entities 23 were mislabelled, mostly as MISC (GRC_B only mislabelled
+                    10 in total). GRC_B performed worse on the MISC category, where 18 entities out
+                    of 156 were not recognized as such (GRC_A only made 6 mistakes with this
+                    category). Personal names were equally difficult for both, where GRC_B
+                    mislabelled 9 and omitted 7 out of 125 manually annotated entities, and GRC_A
+                    mislabelled 8 and omitted 2. Overall, GRC_A performs considerably worse in
+                    labelling location names. </p>
+                <p>The label MISC was almost exclusively used to classify people groups and, in
+                    particular, ethnonyms. This leads to some issues when trying to create more
+                    fine-grained classifications: disambiguation in complex texts like the Histories
+                    is not limited to simple entity labelling but is often depending on context (for
+                    example, it is customary in Ancient Greek historiography to indicate a location
+                    through the name of its inhabitants). Another relevant issue is the lack of
+                    performance on multiple-token entities, which depends on the specific training
+                    data that does not include such instances. Both these aspects require more
+                    context-specific analysis of the data.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn3">
+                        <ref target="https://huggingface.co/UGARIT/flair_grc_multi_ner">https://huggingface.co/UGARIT/flair_grc_multi_ner</ref>
+                    </note><note n="2" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn4">https://huggingface.co/UGARIT/flair_grc_bert_ner</note><note n="3" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn1">http://www.perseus.tufts.edu/hopper/</note><note n="4" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn2">https://scaife.perseus.org/</note><note n="5" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn5">https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0008.tlg001.perseus-grc4</note><note n="6" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn6">https://www.digitalathenaeus.org/</note><note n="7" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn7">https://inception-project.github.io/</note><note n="8" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn0">
+                        We aimed to follow the convention used in the STOA since most pre-trained
+                            NER models use four classes (Persons, Locations, Organizations, and
+                            Misc). Since Organizations are not part of the training data, we used
+                            only three classes. However, the pipeline can be updated for more
+                            fine-grained classes, such as Ethnic, since the training dataset has a
+                            reasonable amount of examples.
+                    </note><note n="9" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn8">https://recogito.pelagios.org/</note><note n="10" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn9">https://huggingface.co/UGARIT/grc-alignment</note><note n="11" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn10">https://huggingface.co/pranaydeeps/Ancient-Greek-BERT</note><note n="12" xml:id="YOUSEF_Tariq_Transformer_Based_Named_Entity_Recognition_for_.xml_ftn11">https://github.com/flairNLP/</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Akbik, Alan</author> / <author>Bergmann, Tanja</author> / <author>Blythe, Duncan</author> / <author>Rasul, Kashif</author> / <author>Schweter, Stefan</author> / <author>Vollgraf, Roland</author> (2019): "FLAIR: An
+                        easy-to-use framework for state-of-the-art NLP." In Proceedings of the 2019
+                        conference of the North American chapter of the association for
+                        computational linguistics (demonstrations), pp. 54-59. </bibl>
+                    <bibl>
+                        <author>Babeu, Alison</author> / <author>Bamman, David</author> / <author>Crane, Gregory</author> / <author>Kummer, Robert</author> / <author>Weaver, Gabriel</author>  (2007): "Named entity identification and
+                        cyberinfrastructure." In ECDL, pp. 259-270. </bibl>
+                    <bibl>
+                        <author>Barker, Elton</author> / <author>Terras, Melissa</author>  (2016): "Greek
+                        literature, the digital humanities, and the shifting technologies of
+                        reading.". </bibl>
+                    <bibl>
+                        <author>Berti, Monica </author>(2019): “Named entity annotation for
+                        ancient greek with inception”. In Kiril Simov and Maria Eskevich, editors,
+                        CLARIN Annual Conference Proceedings, pages 1–4, Leipzig,. CLARIN. </bibl>
+                    <bibl>
+                        <author>Blackwell, Christopher</author> / <author>Crane, Gregory</author> (2009):
+                        "Conclusion: Cyberinfrastructure, the Scaife Digital Library and classics in
+                        a digital age." Digital Humanities Quarterly 3, no. 1. </bibl>
+                    <bibl>
+                        <author>Burns, Patrick J.</author> (2019): "Building a text analysis
+                        pipeline for classical languages." Digital Classical Philology: Ancient
+                        Greek and Latin in the Digital Revolution 10 : 159-176. </bibl>
+                    <bibl>
+                        <author>Erdmann, Alexander</author> / <author>Brown, Christopher</author> / <author>Joseph, Brian</author> / <author>Janse, Mark</author> / <author>Ajaka, Petra, Elsner, Micha</author> / <author>de Marneffe, Marie-Catherine</author> (2016): "Challenges and solutions for Latin named entity recognition."
+                        In Proceedings of the Workshop on Language Technology Resources and Tools
+                        for Digital Humanities (LT4DH), pp. 85-93. </bibl>
+                    <bibl>
+                        <author>Johnson, Kyle P.</author> / <author>Burns, Patrick J.</author> / <author>Stewart ,John</author> / <author>Cook, Todd</author> / <author>Besnier, Clément</author> / <author>William JB Mattingly</author> (2021): "The
+                        Classical Language Toolkit: An NLP framework for pre-modern languages." In
+                        Proceedings of the 59th annual meeting of the association for computational
+                        linguistics and the 11th international joint conference on natural language
+                        processing: System demonstrations, pp. 20-29. </bibl>
+                    <bibl>
+                        <author>Kemp, Josh</author> (2021): “Beyond translation: Building better
+                        greek scholars”, Pelagios Blog. </bibl>
+                    <bibl>
+                        <author>Palladino, Chiara</author> / <author>Karimi, Farimah</author> / <author>Mathiak, Brigitte</author> (2020): "Ner on ancient greek with minimal annotation." In
+                        https://dh2020. adho. org/. DH2020. </bibl>
+                    <bibl>
+                        <author>Singh, Pranaydeep</author> / <author>Rutten, Gorik</author> / <author>Lefever, Els</author> (
+                        2021): "A pilot study for BERT language modelling and morphological analysis
+                        for ancient and medieval Greek." In 5th Joint SIGHUM Workshop on
+                        Computational Linguistics for Cultural Heritage, Social Sciences, Humanities
+                        and Literature, co-located with EMNLP 2021, pp. 128-137. Association for
+                        Computational Linguistics. </bibl>
+                    <bibl>
+                        <author>Vaswani, Ashish</author> / <author>Shazeer, Noam</author> / <author>Parmar, Niki</author> / <author>Uszkoreit, Jakob</author> / <author>Jones, Llion</author> / <author>Gomez, Aidan N.</author> / <author>Kaiser, Łukasz</author> / <author>Polosukhin, Illia</author> (2017): "Attention is all you need." Advances in neural
+                        information processing systems 30. </bibl>
+                    <bibl>
+                        <author>Yousef, Tariq</author> / <author>Palladino, Chiara</author> / <author>Shamsian, Farnoosh</author> / <author>d’Orange Ferreira, Anise</author> / <author>Ferreira dos Reis, Michel</author> (2022). "An
+                        automatic model and Gold Standard for translation alignment of Ancient
+                        Greek." In Proceedings of the Thirteenth Language Resources and Evaluation
+                        Conference, pp. 5894-5905. </bibl>
+                    <bibl>
+                        <author>Yousef, Tariq</author> / <author>Palladino, Chiara</author> / <author>Wright, David J.</author> / <author>Berti, Monica</author> (2022). "Automatic Translation Alignment for Ancient
+                        Greek and Latin." In Proceedings of the Second Workshop on Language
+                        Technologies for Historical and Ancient Languages, pp. 101-107. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

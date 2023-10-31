@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building Digital Capacities through Collaboration. The case of Proyecto
+                    Humboldt Digital (Havana/Berlin)</title>
+                <author n="KraftTobiasROJAS_CASTRO_Antonio_Building_Digital_Capacities_through_Col.xml"><persName n="KraftTobias">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName><affiliation>Berlin-Brandenburgische Akademie der Wissenschaften (BBWA),
+                        Germany</affiliation><email>kraft@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RojasCastroAntonioROJAS_CASTRO_Antonio_Building_Digital_Capacities_through_Col.xml"><persName ref="https://orcid.org/0000-0002-8916-4997" n="RojasCastroAntonio">
+                        <surname>Rojas Castro</surname>
+                        <forename>Antonio</forename>
+                    </persName><affiliation>Berlin-Brandenburgische Akademie der Wissenschaften (BBWA),
+                        Germany</affiliation><email>antonio.rojas-castro@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TerrnGriselROJAS_CASTRO_Antonio_Building_Digital_Capacities_through_Col.xml"><persName n="TerrnGrisel">
+                        <surname>Terrón</surname>
+                        <forename>Grisel</forename>
+                    </persName><affiliation>Oficina del Historiador de la Ciudad de La Habana,
+                        Cuba</affiliation><email>grisel@patrimonio.ohc.cu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SolernouAlainaROJAS_CASTRO_Antonio_Building_Digital_Capacities_through_Col.xml"><persName n="SolernouAlaina">
+                        <surname>Solernou</surname>
+                        <forename>Alaina</forename>
+                    </persName><affiliation>Oficina del Historiador de la Ciudad de La Habana,
+                        Cuba</affiliation><email>alaina@patrimonio.ohc.cu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GuerraEritkROJAS_CASTRO_Antonio_Building_Digital_Capacities_through_Col.xml"><persName n="GuerraEritk">
+                        <surname>Guerra</surname>
+                        <forename>Eritk</forename>
+                    </persName><affiliation>Oficina del Historiador de la Ciudad de La Habana,
+                        Cuba</affiliation><email>eritk@dic.ohc.cu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KirstenLindaROJAS_CASTRO_Antonio_Building_Digital_Capacities_through_Col.xml"><persName n="KirstenLinda">
+                        <surname>Kirsten</surname>
+                        <forename>Linda</forename>
+                    </persName><affiliation>Berlin-Brandenburgische Akademie der Wissenschaften (BBWA),
+                        Germany</affiliation><email>linda.kirsten@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>With this paper we would like to reflect on Proyecto Humboldt Digital's strategy for building digital capacities –that is, learning new skills and methodologies at an individual and organizational level– through collaboration. The international collaboration established in Proyecto Humboldt Digital (ProHD) has not been limited to carrying out a technical workflow but continuously organizes the exchange of research activities and experiences, and builds on a wide set of both internal (team oriented) and external (community oriented) training activities. Despite restrictions during the COVID-19 pandemic, short stays in both Havana and Berlin have taken place since 2019 as well as monthly meetings in virtual format; more recently, in 2022 an international DH conference and a workshop about digital scholarly editions took place in La Habana (Cuba) organized by the team members. During these encounters, we were able to define software requirements, present our main results, share the main issues and progress made in retrospect, and plan our following activities in order to publish online a collection of texts related to Alexander von Humboldt's trip to Cuba in the 19th century.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Humboldt</term>
+                    <term>Cuba</term>
+                    <term>Collaboration</term>
+                    <term>Digitization</term>
+                    <term>Digital Editions</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Education/ pedagogy</term>
+                    <term>History</term>
+                    <term>History of science</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Collaboration between cultural heritage institutions and
+                research institutions is increasingly frequent in the field of Digital Humanities.
+                In the Hispanic context, this kind of collaboration has sought to generate
+                interdisciplinary knowledge around topics such as open access, metadata schemas,
+                representation languages and standard formats to ensure a greater degree of
+                interoperability, preservation, and reuse (Alvite-Díez &amp; Barrionuevo 2020;
+                Gutiérrez De la Torre 2020). However, collaboration is sometimes uneasy since it
+                requires negotiating epistemological borders and different managing styles (Tabak
+                2017). Additionally, when it takes place at an international level, collaboration
+                can also involve cross-cultural, linguistic, and political challenges, especially if
+                the institutions and team members of the project are situated in countries of the
+                Global North and Global South (Kelleher 2017; Alpert-Abrams, Bliss, &amp; Carbajal
+                2019).</p>
+            <p>Funded by the cultural preservation programme of the
+                German Foreign Office, the Fritz Thyssen Foundation and the Gerda Henkel Foundation,
+                Proyecto Humboldt Digital (ProHD) is a four-year (2019-2023) international research
+                cooperation. The project focuses on a transnational topic --Alexander von Humboldt's
+                journey to Cuba-- to bridge the gap in the digitization of historical sources and to
+                enable the transfer of knowledge between the Oficina del Historiador de La Ciudad de
+                La Habana (OHCH) in Cuba and the Berlin-Brandenburg Academy of Sciences and
+                Humanities (BBAW) in Germany.</p>
+            <p>The project attempts to overcome digitization biases in
+                libraries and archives in Cuba: while in German and Polish institutions Humboldt's
+                manuscripts have been cataloged, digitized and are accessible on the internet, many
+                historical sources related to Humboldt and preserved in La Habana were difficult to
+                access online before ProHD. For this reason, a workflow was designed to cover the
+                following processes: selection, digitization, description with metadata, publication
+                in a repository, transcription and encoding in TEI and online publication as a
+                digital edition.</p>
+            <p>With this paper we would like to reflect on our strategy
+                for building digital capacities –that is, learning new skills and methodologies at
+                an individual and organizational level– through collaboration. Our strategy can be
+                summarized in four main activities: 1. negotiating the project's goals and authoring
+                together our selection criteria and digitization policies. 2. stablishing
+                institutional agreements with all the cooperating partners to create a greater
+                network. 3. translating existing software and documentation from German into Spanish
+                and adapting our software to local needs. 4. providing online training and internal
+                workshops on digitization and digital scholarly editing. In other words, our
+                collaboration has not been limited to carrying out a technical workflow, but it
+                continuously organizes the exchange of research activities and experiences and
+                builds on a wide set of both internal (team oriented) and external (community
+                oriented) training activities.</p>
+            <p>In its efforts to organize local networks of shared
+                digital participation with neighboring institutions like the National Archive
+                (Archivo Nacional de la República de Cuba) and the ILL (Instituto de Literatura y
+                Lingüística "José A. Portuondo Valdor"), ProHD has faced common challenges in
+                confronting traditional leadership of conservation-oriented institutions. At the
+                same time, the Cuban project members have been successful in promoting the
+                advantages of digital transformation through a service-oriented approach, providing
+                concrete results through non-intrusive measures of conservation and enrichment of
+                the archival resources through research and digital visibility. The strong position
+                of the Cuban partner organization OHCH in the Cuban landscape of cultural heritage
+                institutions has allowed ProHD to act not as a foreign, but as a local partner in
+                promoting a change of mind and procedure. This has not come as a major shift of
+                paradigm, but as a project-oriented, topic-based selection of corpus materials, both
+                for manuscript digitization as well as scholarly editing.</p>
+            <p>While small in scale, ProHD has been able to coordinate
+                institutions that otherwise rarely work together and establish a DH-specific network
+                of dialogue of relevant impact, both on a professional as well as political level.
+                It has also led the Cuban team to initiate similar projects on topics of their own
+                interest. In conclusion, collaboration has allowed us to learn by doing (digitizing,
+                describing, publishing, transforming, transcribing, editing, etc.) and, ultimately,
+                it has transformed the institutions and individuals involved in the project.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alpert-Abrams, Hannah, David A Bliss &amp; Itza
+                        Carbaja</author>l (2019): “Post-Custodial Archiving for the Collective Good:
+                        Examining Neoliberalism in US-Latin American Archival Partnerships”, in: <hi rend="italic">Journal of Critical Library and Information Studies</hi>
+                        2,1: 1-24. DOI: <ref target="https://doi.org/10.24242/jclis.v2i1.87">https://doi.org/10.24242/jclis.v2i1.87</ref>. </bibl>
+                    <bibl>
+                        <author>Alvite-Díez, María-Luisa, &amp; Leticia Barrionuevo</author>
+                        (2020): “Confluence between Library and Information Science and Digital
+                        Humanities in Spain. Methodologies, Standards and Collections”, in: <hi rend="italic">Journal of Documentation</hi> 77, 1: 41-68. DOI: <ref target="%20"> </ref>
+                        <ref target="https://doi.org/10.1108/JD-02-2020-0030">https://doi.org/10.1108/JD-02-2020-0030</ref>. </bibl>
+                    <bibl>
+                        <author>Gutiérrez De la Torre, Silvia Eunice</author> (2020):
+                        “Bibliotecas y Humanidades Digitales en América Latina”, in: <hi rend="italic">Revista de Humanidades Digitales</hi> 5: 113. DOI: <ref target="https://doi.org/10.5944/rhd.vol.5.2020.27826">https://doi.org/10.5944/rhd.vol.5.2020.27826</ref>. </bibl>
+                    <bibl>
+                        <author>Kelleher, Christian</author> (2017). “Archives Without Archives:
+                        (Re)Locating and (Re)Defining the Archive Through Post-Custodial Praxis”,
+                        in: <hi rend="italic">Journal of Critical Library and Information
+                            Studies</hi> 1, 2. DOI: <ref target="https://doi.org/10.24242/jclis.v1i2.29">https://doi.org/10.24242/jclis.v1i2.29</ref>. </bibl>
+                    <bibl>
+                        <author>Tabak, Edin</author> (2017): “A Hybrid Model for Managing DH
+                        Projects”, in: <hi rend="italic">Digital Humanities Quarterly</hi> 11, 1.
+                         <ref target="http://digitalhumanities.org:8081/dhq/vol/11/1/000284/000284.html">http://digitalhumanities.org:8081/dhq/vol/11/1/000284/000284.html</ref>
+                        [25.04.2023] </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Representation of critical discourses in the humanities within
+                    Wikidata</title>
+                <author n="DiPasqualeAlessioPASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml"><persName n="DiPasqualeAlessio">
+                        <surname>Di Pasquale</surname>
+                        <forename>Alessio</forename>
+                    </persName><affiliation>Department of Computer Science, University of Bologna,
+                        Italy</affiliation><email>alessio.dipasquale@studio.unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PasqualValentinaPASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml"><persName ref="https://orcid.org/0000-0001-5931-5187" n="PasqualValentina">
+                        <surname>Pasqual</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>Digital Humanities Department of Classical Philology and Italian
+                        Studies, University of Bologna, Bologna, Italy</affiliation><email>valentina.pasqual2@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TomasiFrancescaPASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml"><persName n="TomasiFrancesca">
+                        <surname>Tomasi</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation>Digital Humanities Department of Classical Philology and Italian
+                        Studies, University of Bologna, Bologna, Italy</affiliation><email>francesca.tomasi@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VitaliFabioPASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml"><persName n="VitaliFabio">
+                        <surname>Vitali</surname>
+                        <forename>Fabio</forename>
+                    </persName><affiliation>Department of Computer Science, University of Bologna,
+                        Italy</affiliation><email>fabio.vitali@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Providing digital representation of critical discourses in addition to and complementing traditional semantic annotations is a central topic in recent knowledge representation discussions. This includes, e.g., provenance information, evolving knowledge, and metadata versioning. The Cultural Heritage domain (CH) (and LOD datasets thereof is exemplary of this problem, rich in incomplete data, subjective analyses, concurring statements and controversies between annotators. Accurately representing this complexity helps towards computational analyses of critical discourses in the Humanities. Wikidata supports some complex representation of data, even allowing multiple and possibly competing assertions and versions of the described entities. Within the activities of our research proposal (Daquino et al. 2022), we surveyed Wikidata approaches to represent complex knowledge: (1) ranked statements, (2) “nature of statements” qualifiers, (3) null-valued objects. In this work we examine whether complex knowledge about Cultural Heritage can be satisfactorily represented in Wikidata KB, and whether existing representation methods exhaustively represent CH domain.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>linked open data</term>
+                    <term>critical discourse</term>
+                    <term>wikidata</term>
+                    <term>conjectures</term>
+                    <term>humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>linked (open) data</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Providing digital representation of critical
+                        discourses in addition to and complementing traditional semantic annotations
+                        is a central topic in recent knowledge representation discussions (Ontolog,
+                        2018). This includes, e.g., provenance information, evolving knowledge, and
+                        metadata versioning. The Cultural Heritage domain (CH) (and LOD datasets
+                        thereof (Wilensky 2000; Jia et al. 2014)) is exemplary of this problem, rich
+                        in incomplete data, subjective analyses, concurring statements and
+                        controversies between annotators. Accurately representing this complexity
+                        helps towards computational analyses of critical discourses in the
+                        Humanities. Wikidata (Erxleben et al. 2014) supports some complex
+                        representation of data, even allowing multiple and possibly competing
+                        assertions and versions of data. Within the activities of our research
+                        proposal (Daquino et al. 2022)<hi rend="bold">,</hi> we surveyed Wikidata approaches to represent complex knowledge: (1) ranked statements, (2) “nature of statements” qualifiers, (3) null-valued objects. In this work we examine whether complex knowledge about Cultural Heritage can be satisfactorily represented in Wikidata KB, and whether existing representation methods exhaustively represent CH domain.</p>
+            </div>
+            <div type="div1">
+                <head>
+                    Representing complexity in Wikidata
+                </head>
+                <p>Wikidata represents uncertain or debated
+                        statements<ref target="#PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn1" n="1"/> with at least three different representation methods:</p>
+                <list type="ordered">
+                    <item><hi rend="italic">Ranked statements</hi>. Competing statements are represented via a
+                            ranking mechanism (e.g., Preferred, Normal and Deprecated). Individual
+                            statements are not actually asserted, but an extra triple is added those
+                            that are deemed true<ref target="#PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn2" n="2"/>. For example, the painting “Madonna with the
+                            Blue Diadem” (Q738038) has been attributed to Raphael (non asserted
+                            statement, ranked as normal) and Gianfrancesco Penni (asserted
+                            statement, ranked as preferred and additionally asserted). </item>
+                </list>
+                <figure>
+                    <graphic n="1001" width="15.934972222222223cm" height="4.686652777777778cm" url="Pictures/f8cdb4d39b4628ef1d42e8cd4b3c2a62.png" rend="inline"/>
+                </figure>
+                <list type="ordered">
+                    <item><hi rend="italic">“Nature of statements”
+                            qualifiers</hi>. Statements, independently of rank, can be decorated with an additional triple using predicate P5102. 54 terms among 283 available may mark the statement as uncertain or debated (e.g.<hi rend="italic">debated, hypothesis, possibly</hi>). For example, the painting “Abstract Speed +
+                            Sound” (Q19882431) by Giacomo Balla is deemed to be <hi rend="italic">possibly </hi>part of a triptych.  </item>
+                </list>
+                <figure>
+                    <graphic n="1002" width="15.90498611111111cm" height="3.296708333333333cm" url="Pictures/b8352bb890f9c746dfb822402a017537.png" rend="inline"/>
+                </figure>
+                <list type="ordered">
+                    <item><hi rend="italic">Null-valued objects</hi>. A statement can be associated with a blank
+                            node<ref target="#PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn3" n="3"/>. This is meant to imply that the statement is
+                            associated with an unknown value, rather than a missing statement<ref target="#PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn4" n="4"/>. For example, “Missal for the use of the
+                            ecclesiastics of Clermont' (Q113302686), an illuminated manuscript from the 14th
+                            century, has been recorded with both an unknown creator and author.</item>
+                </list>
+                <figure>
+                    <graphic n="1003" width="15.934972222222223cm" height="5.503333333333333cm" url="Pictures/ee3bf44d9674364b6981b0f7e3ac00bd.png" rend="inline"/>
+                </figure>
+                <div type="div2">
+                    <head>
+                        Analysing complex statements in Wikidata
+                    </head>
+                    <p>In this paper we report on an evaluation of how much, how precisely and how satisfactorily have these three methods used to express complex knowledge in Wikidata. Our dataset collects 2 millionsworks of art from Wikidata and their descriptions. Even though critical analyses are a pivotal element in humanities discourses, we discovered that factual descriptive statements are largely the most represented information in the dataset: the vast majority of artworks (&gt;99%) show plainly asserted statements. Of the methods previously listed, ranked statements are largely the most frequent method for representing competing information (86.9%) if compared with the other surveyed approaches. Null-valued statements amounted to 11.6%, and anecdotal evidence from other domains seem to imply that at least some of them may be the result of poor conversions from empty fields in traditional relational databases. Nature of statement P5102 predicates are only in 1.5% of the dataset, with "possibly" and “presumably ” covering more than 50% of occurrences, and many
+                            others (e.g., "unconfirmed”) being present only once in the whole
+                            dataset.</p>
+                </div>
+                <div type="div2">
+                    <head>
+                        A proposal for complex statements in Wikidata
+                    </head>
+                    <p>All the methods examined are used to express complex and conflicting
+                        statements over the described entities (e.g., debates, conjectures,
+                        concurrent attributions). Yet all three methods show evident shortcomings in
+                        how they are used and in what they model. </p>
+                    <p>Ranked statements are used to express both
+                            competing hypotheses and time-based changes of locations or ownerships.
+                            In addition, ranking alone does not justify the reason for the
+                            preference/deprecation of one statement over the others, and
+                            qualifiers<ref target="#PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn5" n="5"/> are scantily employed (&lt; 10%).</p>
+                    <p>Null-valued statements lack in terms of expressiveness (providing no
+                        justifications for their specifications) and precision (being also used as a
+                        fallback mechanism for poor data conversions).  </p>
+                    <p>Finally,  P5102 statements do provide meaningful justifications, but they allow too many values (283 to our count) with frequent overlapping meanings (e.g., <hi rend="italic">hypothetically</hi>, <hi rend="italic">hypothesis</hi>) and unclear status as to the assertedness of
+                            the statement. </p>
+                    <p>Both the W3C (Laskey at al. 2008) and ISIF<ref target="#PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn6" n="6"/> (Blasch et al. 2019) propose uncertainty categorizations for semantic datasets. Based on this, we categorised typical CH complex statements in four categories, “evolving knowledge”, “actual uncertainty/debate”, “other than preferred version”, and “other or not applicable” (table 1). In our dataset uncertainty is mainly used for agents involved in the artwork (e.g. creator, manufacturer), time (e.g. inception), category (e.g. type), and interpretation (e.g. subject, depicts), while evolving knowledge occurs mainly with locations. </p>
+                    <figure>
+                        <graphic n="1004" width="15.934972222222223cm" height="5.5932916666666666cm" url="Pictures/fecc88947b06f8c0e5950047ee252bf0.png" rend="inline"/>
+                        <head>Table 1. Selection of properties with their
+                        categorisation with respect to metadata areas and complex knowledge
+                        types</head>
+                    </figure>
+                    <p>All in all, despite the limited presence of the
+                            "nature of statement" triples in the surveyed data, qualitative analysis
+                            shows this to be the most precise approach to mark uncertain or debated
+                            statements.  Yet a fundamental aspect of ranked statements, besides
+                            being easy to understand, is that best ranks are actually asserted, and
+                            the others are not. Thus, it becomes easy to query and find asserted
+                            statements rather than those provided for completeness. </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>Wikidata offers several representations to complex
+                        statements (especially uncertainty and debates), but the approaches are too
+                        many and data use them in a fragmented and unreliable ways: fairly complex
+                        queries are necessary to retrieve complex statements. What is worrying,
+                        looking at data, is that Wikidata annotators are often reticent in providing
+                        complex information (such as evolving knowledge, actual uncertainty, or
+                        debate, and other than preferred version), possibly because of the many
+                        similar approaches, and no clear guideline exists to this end. Indeed, the
+                        categorisation exemplified in table 1 can be considered a representation of
+                        frequent phenomena in Cultural Heritage: providing clear guidelines on the
+                        best ways to represent them would have a beneficial effect on the richness
+                        of data provided and help reduce reticence. In particular, the analysis
+                        demonstrates that contextual information (motivation, provenance, certainty
+                        degree) are required in recording and retrieving disputed or subjective
+                        information. A richer dataset with more nuances would enhance computational
+                        analysis in the Humanities discourse. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn1">
+                        Wikidata represents many types of complex assertions as instances of the Statement class to which related statements are associated. See <ref target="https://www.wikidata.org/wiki/Help:Statements">https://www.wikidata.org/wiki/Help:Statements</ref> 
+                    </note><note n="2" xml:id="PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn2">
+                            See Wikidata example query at <ref target="https://w.wiki/5pE$">https://w.wiki/5pE$</ref>, and Rankings documentation at <ref target="https://www.wikidata.org/wiki/Help:Ranking">https://www.wikidata.org/wiki/Help:Ranking</ref> 
+                        </note><note n="3" xml:id="PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn3">
+                            See Wikidata example query at <ref target="https://w.wiki/5pEz">https://w.wiki/5pEz</ref> and Unknown or No values documentation at <ref target="https://www.wikidata.org/wiki/Help:Statements#Unknown_or_no_values">https://www.wikidata.org/wiki/Help:Statements#Unknown_or_no_values</ref>
+                        </note><note n="4" xml:id="PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn4">
+                            The Wikdata interface represents these
+                                    occurrences with the string "unknown value".
+                        </note><note n="5" xml:id="PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn5">
+                            See for example “reason of deprecation”
+                                    (P2241) and “reason of preferred rank” (P7452)
+                        </note><note n="6" xml:id="PASQUAL_Valentina_Representation_of_critical_discourses_in_t.xml_ftn6">
+                            The Evaluation of Techniques for Uncertainty Representation Working Group (ETURWG) is an official activity of the International Society of Information Fusion (ISIF), <ref target="https://eturwg.c4i.gmu.edu/">https://eturwg.c4i.gmu.edu/</ref>
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Blasch, Erik P.</author> / <author>Insaurralde, Carlos C.</author> / <author>Costa, Paulo C. G.</author> / <author>de Waal, Alta</author> / <author>de Villiers, Johan Pieter</author> (2019): “Uncertainty
+                        Ontology for Veracity and Relevance”, in: 2019 22th International Conference
+                        on Information Fusion (FUSION). pp. 1-8.</bibl>
+                    <bibl><author>Daquino, Marilena</author> / <author>Pasqual, Valentina</author> / <author>Tomasi, Francesca</author> / <author>Vitali, Fabio</author> (2022): “Expressing Without Asserting in the Arts”,
+                        in: IRCDL.</bibl>
+                    <bibl><author>Erxleben, Fredo</author> / <author>Günther, Michael</author> / <author>Krötzsch, Markus</author> / <author>Mendez, Julian</author> / <author>Vrandečić, Denny</author> (2014): “Introducing Wikidata to
+                        the Linked Data Web”, in: The Semantic Web – ISWC 2014. Cham: Springer
+                        International Publishing, pp. 50-65. DOI:
+                        10.1007/978-3-319-11964-9_4x.</bibl>
+                    <bibl><author>Jia, Yuan</author> / <author>Niu, Xi</author> / <author>Bharali, Reecha</author> / <author>Bolchini, Davide</author> / <author>De Tienne, Andre</author> (2014): “Collaborative Online Research Platform
+                        for Scholars in Humanities”, in: Proceedings of the Companion Publication of
+                        the 17th ACM Conference on Computer Supported Cooperative Work &amp; Social
+                        Computing. New York, NY, USA: Association for Computing Machinery, pp.
+                        181-184. DOI: 10.1145/2556420.2556507.</bibl>
+                    <bibl><author>Laskey, Kenneth J.</author> / <author>Laskey, Kathryn B.</author> (2008):
+                        “Uncertainty Reasoning for the World Wide Web: Report on the URW3-XG
+                        Incubator Group”, in: URSW.</bibl>
+                    <bibl><author>Ontolog </author>(2018): “Ontology Summit 2018 Communiqué.
+                        Contexts in Context”.
+                        http://ontologforum.org/index.php/OntologySummit2018</bibl>
+                    <bibl><author>Wilensky, Robert </author>(2000): “Digital Library Resources
+                        as a Basis for Collaborative Work”, in: Journal of the American Society for
+                        Information Science 51(3), pp. 228-245. DOI:
+                        10.1002/(SICI)1097-4571(2000)51:3&lt;228::AID-ASI3&gt;3.0.CO;2-5.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

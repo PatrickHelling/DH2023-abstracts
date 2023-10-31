@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration, Preservation and Sustainability in Digital
+                        Humanities: a question of time</title>
+                <author n="AubertOlivierAUBERT_Olivier_Collaboration__Preservation_and_Sustainabilit.xml"><persName ref="https://orcid.org/0000-0001-8204-1567" n="AubertOlivier">
+                        <surname>Aubert</surname>
+                        <forename>Olivier</forename>
+                    </persName><affiliation>Nantes Université, France</affiliation><email>olivier.aubert@univ-nantes.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StratilJasperAUBERT_Olivier_Collaboration__Preservation_and_Sustainabilit.xml"><persName n="StratilJasper">
+                        <surname>Stratil</surname>
+                        <forename>Jasper</forename>
+                    </persName><affiliation>Freie Universität Berlin, Germany</affiliation><email>Jasper.Stratil@fu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper discusses the question of time in interdisciplinary digital humanities collaborative projects, envisioning not only the active phase of the project but also the subsequent phases, considering the preservation and maintenance of data, software and practices.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital humanities</term>
+                    <term>tools</term>
+                    <term>data</term>
+                    <term>archive</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities
+                        computing)</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Computer science</term>
+                    <term>Film and cinema arts studies</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This paper discusses interdisciplinary collaborative
+                    practices based on the AdA project (meaning “Affektrhetoriken des
+                    Audiovisuellen” <ref target="https://projectada.github.io/">https://projectada.github.io/</ref>) in which institutionally situated research groups from
+                    computational sciences and film studies developed approaches for the analysis of
+                    the temporal dynamics of audiovisual expressivity by bringing together a
+                    theoretically informed methodology of film analysis and computational video
+                    analysis and semantic video annotation. A corpus analysis of audiovisual
+                    rhetorics on the financial crisis (2007–) required the groundwork for a
+                    collaborative annotation process and resulted in the structured vocabulary of
+                    the AdA Ontology (Bakels et al. 2020). The annotation process was carried out
+                    with the open-source-software Advene (Aubert et al. 2005, <ref target="https://www.advene.org/">https://www.advene.org/</ref>). In an earlier publication (Aubert et al. 2021), we
+                    already presented how co-building a Digital Humanities tool could be seen as
+                    instrumental genesis. In it we concentrated on the iterative development of a
+                    visualisation framework (see figure 1) to highlight the need for a common
+                    language and for the consideration of time needed for collaboration.</p>
+            <p><figure>
+                    <graphic url="Pictures/aafa5156bf52dd48799a38a32d81971c.png"/>
+                    <head>Figure 1: Advene is used as a generic tool to manipulate data. Based on
+                        the experience, a dedicated web-based visualisation is designed and
+                        implemented.</head>
+                </figure></p>
+            <p>We would like to pursue the reflection on the instrumental
+                    genesis (Rabardel, 1995) of collaboration tools along the time dimension. We saw
+                    that every step of tool development for such qualitative and exploratory
+                    research requires time: may it be for tool sketching, development, testing, or
+                    documenting its usage for manual annotation. </p>
+            <p><figure>
+                    <graphic url="Pictures/7fd1dfb40a67b55d463c11e571133be1.png"/>
+                    <head>Figure 2: The Advene "data checker" component has been developed to
+                        constantly highlight data quality issues.</head>
+                </figure></p>
+            <p>The instrumental genesis for Advene encompassed the development and integration of
+                new feature extraction plugins as well as the extension of its UI for collaborative
+                and time-efficient semantic annotation (see figure 2), which not only aimed a
+                reducing labor time, but in turn helped the research practices (that can be seen as
+                usage schemes) and related expectations to evolve. These practices and the tool
+                development itself brought a need for different collaboration tooling which, as part
+                of the distributed labor, required an acculturation to technical workflows.
+                Especially in interdisciplinary projects, familiarity with different tools,
+                environments and platforms such as GitHub can differ a lot and require adaptation
+                efforts. For instance, we used GitHub as a way to collaborate as well to publish the
+                open-source annotation data and its ontology (see figure 3).</p>
+            <p><figure>
+                    <graphic url="Pictures/7c0e4be87558200887be9360e97a13c9.png"/>
+                    <head>Figure 3: The AdA project data files and websites are available on the
+                        github platform.</head>
+                </figure></p>
+            <p>A key point to consider during projects is that the time
+                    of a research project does not only cover the funded period. Community building
+                    around research methods and practices mobilising specific data and tools, that
+                    are in constant need for maintenance and evolution, requires more time. Long
+                    term preservation of valuable (annotation) data as well as the sustainable
+                    access to the tools that mediate them also needs to be considered. Compared to
+                    historical archives such as books that are essentially stable and continuously
+                    accessible, digital data access is not guaranteed if tools required to consult
+                    it are not accessible and in a working state. Even if FAIR principles, such as
+                    using open formats and stable identifiers, are used, dedicated tools are still
+                    required to allow to consult the data in the most appropriate form, which
+                    evolved along the research practices. Using open-source tools, like Advene in
+                    our case, is a first step into digital preservation. But open-source software
+                    must be maintained and adapted to changing digital environments. The AdA project
+                    was, in a collectively profitable way, an opportunity to update the Advene
+                    software to new environments. Both data and tools can be considered as Digital
+                    Commons (Dulong de Rosnay et al, 2020), available openly to the community. As
+                    such, their preservation and sustainability relies upon a shared concern and
+                    involvement from the community at large or specific communities of practice. One
+                    of the ways to participate in the maintenance and evolution of digital artefacts
+                    is to pursue their exploitation and development in new projects as well as their
+                    usage in scientific communication or teaching. These issues can be addressed
+                    through documentation of the methodical usage of the annotation software for a
+                    multi-annotator project-based film analysis that was produced as the AdA
+                    Toolkit. In the usage of a software such as Advene that allows for
+                    multiple-usage-scenarios the question of documentation points to a fundamental
+                    arbitration between generalityand specificity, an arbitration that can be described as a
+                    catalyst for processes of instrumental genesis. In this regard, a viable criticism of audiovisual rhetorics via
+                    digital tools requires ongoing practices of collaboration.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <ref target="https://hal.archives-ouvertes.fr/hal-01017462"/>
+                        <author>Aubert, Olivier</author> / <author>Yannick Prié</author> (2005). "Advene: Active
+                        Reading through Hypervideo." <ref target="https://dl.acm.org/doi/proceedings/10.1145/1083356">
+                            Proceedings of the sixteenth ACM
+                                conference on Hypertext and hypermedia
+                        </ref>
+                        , sep. 2005, pp. 235–244 
+                        <ref target="https://doi.org/10.1145/1083356.1083405">https://doi.org/10.1145/1083356.1083405</ref>
+                    </bibl>
+                    <bibl><author>Aubert, Olivier</author> / <author>Scherer, Thomas</author> / <author>Stratil, Jasper:</author> 
+                        "Instrumental genesis through interdisciplinary collaboration – reflections
+                        on the emergence of a visualization framework for video annotation data",
+                        EADH2021.</bibl>
+                    <bibl>
+                        <author>Bakels, Jan-Hendrik</author> / <author>Matthias Grotkopp</author> / <author>Thomas Scherer</author> / <author>Jasper Stratil</author> (2020). "Matching Computational Analysis and Human
+                        Experience. Performative Arts and the Digital Humanities." Digital
+                        Humanities Quarterly 14, no. 4. <ref target="http://www.digitalhumanities.org/dhq/vol/14/4/000496/000496.html">http://www.digitalhumanities.org/dhq/vol/14/4/000496/000496.html</ref>
+                        . 
+                    </bibl>
+                    <bibl><author>Bakels, Jan-Hendrik</author> / <author>Thomas Scherer</author> / <author>Jasper Stratil</author> / <author>Henning Agt-Rickauer.</author>  "Ada Filmontology – a Machine-Readable Film
+                        Analysis Vocabulary for Video Annotation." DH2020, 2020.</bibl>
+                    <bibl>
+                        <author>Dulong de Rosnay, M.</author> / <author>Stalder, F.</author> (2020). Digital
+                        commons. Internet Policy Review, 9(4). <ref target="https://doi.org/10.14763/2020.4.1530">https://doi.org/10.14763/2020.4.1530</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Rabardel, Pierre </author>(1995): Les hommes et les
+                        technologies, une approche cognitive des instruments contemporains, Armand
+                        Colin, Paris. <ref target="https://hal.archives-ouvertes.fr/hal-01017462">https://hal.archives-ouvertes.fr/hal-01017462</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

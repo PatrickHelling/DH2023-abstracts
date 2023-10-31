@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bringing the <hi rend="italic">New Variorum Shakespeare</hi> Online</title>
+                <author n="MandellLauraTORABI_Katayoun_Bringing_the__em_New_Variorum_Shakespeare__e.xml"><persName n="MandellLaura">
+                        <surname>Mandell</surname>
+                        <forename>Laura</forename>
+                    </persName><affiliation>Texas A&amp;M University, United States of America</affiliation><email>mandell@tamu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TorabiKatayounTORABI_Katayoun_Bringing_the__em_New_Variorum_Shakespeare__e.xml"><persName n="TorabiKatayoun">
+                        <surname>Torabi</surname>
+                        <forename>Katayoun</forename>
+                    </persName><affiliation>Texas A&amp;M University, United States of America</affiliation><email>torabik@tamu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TarpleyBryanTORABI_Katayoun_Bringing_the__em_New_Variorum_Shakespeare__e.xml"><persName n="TarpleyBryan">
+                        <surname>Tarpley</surname>
+                        <forename>Bryan</forename>
+                    </persName><affiliation>Texas A&amp;M University, United States of America</affiliation><email>bptarpley@tamu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Texas A&amp;M University’s Center of Digital Humanities Research (CoDHR) published the New Variorum Shakespeare (NVS) open-access in digital form, beginning with two editions, The Winter’s Tale and A Midsummer Night’s Dream in 2021, with plans to move forward with new editors who are under contract to create editions digitally in Corpora, and backward to eventually include all the volumes in the series, beginning with the first NVS Edition of Romeo and Juliet (1871). The CoDHR team has designed this project with three main goals: 1) to teach students and early career researchers the concepts behind variorum editing through interface design as well as tutorials; 2) to enable searching across and within volumes and variants using Modern English and major Act-Scene-Line numbers, returning not only exportable lists, text, and bibliographical citations, but also visualizations demonstrating everything from when characters speak in plays to the evolution of variant histories; and, in the final phase of the project, 3) to be interoperable with, and allow access to, other major Shakespeare digital resources including bibliographies of criticism, digital copies of editions published since Shakespeare’s time, images, and videos. Following the practice of state-of-the-art digital humanities projects, we aim to render Shakespeare’s texts and international criticism available world-wide.[1]
+To provide a little background, “The term variorum alludes to the Latin phrase editio cum notis variorum, that is, ‘an edition with the notes of the various [editors and commentators],’ a phrase indicating the chief purpose of a variorum edition: namely, to collect what has been written by various commentators, critics, and editors.”[2] A Shakespeare variorum sets several editions of a play side by side in order to track sentence-, word-, and character-level changes. Each NVS volume comprises hundreds of pages, collates several editions, and takes editors decades--and very often a lifetime--to complete. These print editions also tend to be difficult to navigate for anyone who isn’t a Shakespeare scholar or familiar with variorums. CoDHR’s Digital NVS, however, organizes and presents variorums through an interface that is accessible, intuitive, and comprehensive. Unlike the print editions, this online application showcases all of the core components of a variorum at a glance: play text, commentary notes, and textual notes, making the content easier to understand.
+Additionally, new NVS editors will soon be able to use the web application’s backend called Corpora to build editions, start to finish, using collation tools that will enable them to complete their work more quickly and accurately. What used to take editors years to complete can now be created through a single web application that allows for remote access and virtual collaboration.
+Having launched the site in Beta with the publication of The Winter’s Tale and A Midsummer Night’s Dream in July 2021, we are currently working on the next phases of the project as we move out of Beta: improving accessibility and usability; digitizing all NVS print editions from Romeo and Juliet (1871) to King Lear (2020); and assisting editors with creating born-digital NVS editions, using Corpora. We are also working on developing “a suite of research tools including an advanced search across multiple editions; visualizations of search results (such as a character-based frequency plot which will convey what characters most frequently use search terms in their speeches); the ability to sort and filter play lines, textual notes, and commentary in tabular format; and the ability to download raw versions of the data as JSON or TEI. We also hope to integrate external sources of information about a given play line or bibliographic entry.”[3]
+It is our hope that the Digital NVS, which presents variorums in a new, more accessible way, will be an excellent resource not only for future NVS editors, but for readers, scholars, educators, and performers.
+Bibliography
+Burdick, Anne and Tarpley, Bryan. “NVS Tools.” New Variorum Shakespeare, Beta Release. July 2021. https://newvariorumshakespeare.org/tools/. Accessed Dec. 5, 2021
+Burdick, Anne, Torabi, Katayoun, Bryan Tarpley, and Mandell, Laura. “Using Data and Design to Bring the New Variorum Shakespeare Online.” The Routledge Handbook of Shakespeare and Interface. Edited by Paul Budra and Clifford Werier, 2022.
+Knowles, Richard. Shakespeare Variorum Handbook: A Manual of Editorial Practice. 2nd ed. Committee on the New Variorum Edition of Shakespeare of the Modern Language Association of America, 2003.
+Torabi, Katayoun. "How to Digital NVS." New Variorum Shakespeare, Beta Release. July 2021 https://newvariorumshakespeare.org/how-to/.nd. Accessed Dec. 5, 2021
+Werstine, Paul. “NVS History.” New Variorum Shakespeare, Beta Release. July 2021.     https://newvariorumshakespeare.org/about/. Accessed Dec. 5, 2021
+[1] Information about the Digital NVS (overview of the project, goals, uses, etc.) can be found in “Using Data and Design to Bring the New Variorum Shakespeare Online” in The Routledge Handbook of Shakespeare and Interface, 2022.
+[2] Information about the meaning of variorum and the history of the NVS can be found in Paul Werstine’s “NVS History,” New Variorum Shakespeare, Beta Release. July 2021.
+[3] Anne Burdick and Bryan Tarpley, “NVS Tools,” New Variorum Shakespeare, Beta Release. July 2021; and Burdick, et al., “Using Data and Design to Bring the New Variorum Shakespeare Online” in The Routledge Handbook of Shakespeare and Interface. Eds. Paul Budra and Clifford Werier, 2022.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Shakespeare</term>
+                    <term>Digital Editions</term>
+                    <term>Scholarly Editing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>electronic literature production and analysis</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Computer science</term>
+                    <term>Design studies</term>
+                    <term>Education/ pedagogy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Texas A&amp;M University’s Center of Digital Humanities Research (CoDHR) published the <hi rend="italic">New Variorum Shakespeare</hi> (<hi rend="italic">NVS</hi>) open-access in digital form, beginning with two editions, <hi rend="italic">The Winter’s Tale</hi> and <hi rend="italic">A Midsummer Night’s Dream</hi> in 2021, with plans to move forward with new editors who are under contract to create editions digitally in Corpora, and backward to eventually include all the volumes in the series, beginning with the first NVS Edition of <hi rend="italic">Romeo and Juliet</hi> (1871). The CoDHR team has designed this project with three main goals: 1) to teach students and early career researchers the concepts behind variorum editing through interface design as well as tutorials; 2) to enable searching across and within volumes and variants using Modern English and major Act-Scene-Line numbers, returning not only exportable lists, text, and bibliographical citations, but also visualizations demonstrating everything from when characters speak in plays to the evolution of variant histories; and, in the final phase of the project, 3) to be interoperable with, and allow access to, other major Shakespeare digital resources including bibliographies of criticism, digital copies of editions published since Shakespeare’s time, images, and videos. Following the practice of state-of-the-art digital humanities projects, we aim to render Shakespeare’s texts and international criticism available world-wide (Burdick, et al 2022).</p>
+            <p>To provide a little background, “The term variorum alludes to the Latin phrase <hi rend="italic">editio cum notis variorum</hi>, that is, ‘an edition with the notes of the various [editors and commentators],’ a phrase indicating the chief purpose of a variorum edition: namely, to collect what has been written by various commentators, critics, and editors” (Werstine 2021). A Shakespeare variorum sets several editions of a play side by side in order to track sentence-, word-, and character-level changes. Each NVS volume comprises hundreds of pages, collates several editions, and takes editors decades--and very often a lifetime--to complete. These print editions also tend to be difficult to navigate for anyone who isn’t a Shakespeare scholar or familiar with variorums. CoDHR’s Digital NVS, however, organizes and presents variorums through an interface that is accessible, intuitive, and comprehensive. Unlike the print editions, this online application showcases all of the core components of a variorum at a glance: play text, commentary notes, and textual notes, making the content easier to understand.</p>
+            <p>Additionally, new NVS editors will soon be able to use the web application’s backend called Corpora to build editions, start to finish, using collation tools that will enable them to complete their work more quickly and accurately. What used to take editors years to complete can now be created through a single web application that allows for remote access and virtual collaboration.</p>
+            <p>Having launched the site in Beta with the publication of <hi rend="italic">The Winter’s Tale</hi> and <hi rend="italic">A Midsummer Night’s Dream</hi> in July 2021, we are currently working on the next phases of the project as we move out of Beta: improving accessibility and usability; digitizing all NVS print editions from <hi rend="italic">Romeo and Juliet</hi> (1871) to <hi rend="italic">King Lear</hi> (2020); and assisting editors with creating born-digital NVS editions, using Corpora. We are also working on developing “a suite of research tools including an advanced search across multiple editions; visualizations of search results (such as a character-based frequency plot which will convey what characters most frequently use search terms in their speeches); the ability to sort and filter play lines, textual notes, and commentary in tabular format; and the ability to download raw versions of the data as JSON or TEI. We also hope to integrate external sources of information about a given play line or bibliographic entry” (Burdick and Tarpley 2021). It is our hope that the Digital NVS, which presents variorums in a new, more accessible way will be an excellent resource not only for future NVS editors, but for readers, scholars, educators, and performers. </p>
+            <p>Below are images of the NVS physical text and the Variorum Reader in the digital edition of the NVS.</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="8.8763cm" url="Pictures/2c0bab57fb8095896eebd161b1617838.png" rend="inline"/>
+                <head>Figure 1: NVS Physical Text</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="9.545713888888889cm" url="Pictures/a6d6804d9610a2dd44c56eb883459989.png" rend="inline"/>
+                <head>Figure 2: Digital NVS</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Burdick, Anne</author> / <author>Tarpley, Bryan</author> 
+                         (2021): “NVS Tools”, in: 
+                        <hi rend="italic">New Variorum Shakespeare</hi>
+                        , Beta Release, July 2021. https://newvariorumshakespeare.org/tools/. 
+                    </bibl>
+                    <bibl>
+                        <author>Burdick, Anne</author> / <author>Torabi, Katayoun</author> / <author>Bryan Tarpley</author> / <author>Mandell, Laura</author> 
+                         (2022): “Using Data and Design to Bring the 
+                        <hi rend="italic">New Variorum Shakespeare</hi>
+                         Online”, in: Werier, Clifford / Budra, Paul (eds.): 
+                        <hi rend="italic">The Routledge Handbook of Shakespeare and Interface</hi>
+                        . New York: Routledge. doi:10.4324/9780367821722.
+                    </bibl>
+                    <bibl>
+                        <author>Knowles, Richard</author>
+                         (2003): 
+                        <hi rend="italic">Shakespeare Variorum Handbook: A Manual of Editorial Practice</hi>
+                        . New York: Committee on the New Variorum Edition of Shakespeare of the Modern Language Association of America.
+                    </bibl>
+                    <bibl>
+                        <author>Torabi, Katayoun</author>
+                         (2021): “How to Digital NVS”, in: 
+                        <hi rend="italic">New Variorum Shakespeare</hi>
+                        , Beta Release, July 2021 https://newvariorumshakespeare.org/how-to/.nd.  
+                    </bibl>
+                    <bibl>
+                        <author>Werstine, Paul</author>
+                         (2021): “NVS History”, in: 
+                        <hi rend="italic">New Variorum Shakespeare</hi>
+                        , Beta Release, July 2021. https://newvariorumshakespeare.org/about/. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

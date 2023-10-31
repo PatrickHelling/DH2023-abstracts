@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tell Me the Truth. Validating the Semantic Alignment between the Annotation User Interface and the Knowledge Base </title>
+                <author n="BonoraPaoloBONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml"><persName n="BonoraPaolo">
+                        <surname>Bonora</surname>
+                        <forename>Paolo</forename>
+                    </persName><affiliation>Department of Classical Philology and Italian Studies, University of Bologna, Italy</affiliation><email>paolo.bonora@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DelloBuonoMartinaBONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml"><persName n="DelloBuonoMartina">
+                        <surname>Dello Buono</surname>
+                        <forename>Martina</forename>
+                    </persName><affiliation>Department of Classical Philology and Italian Studies, University of Bologna, Italy</affiliation><email>martina.dellobuono2@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GiovannettiFrancescaBONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml"><persName n="GiovannettiFrancesca">
+                        <surname>Giovannetti</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation>Department of Classical Philology and Italian Studies, University of Bologna, Italy</affiliation><email>francesc.giovannett6@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TomasiFrancescaBONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml"><persName n="TomasiFrancesca">
+                        <surname>Tomasi</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation>Department of Classical Philology and Italian Studies, University of Bologna, Italy</affiliation><email>francesca.tomasi@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The proposal focuses on user annotation of existing knowledge bases. The annotation application acts as an intermediary between the user and the formal representation of the knowledge that is being inserted becoming, together with the UI, a critical component of the knowledge management chain. Leveraging two use cases from archival and textual scholarship, we outline a methodology and a testing approach for assessing the semantic neutrality of UIs in annotation applications.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>semantic transparency</term>
+                    <term>semantic annotation</term>
+                    <term>semantic UI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>user experience design and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    <term>Literary studies</term>
+                    <term>Musicology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Problem Description and Research Question</head>
+                <p>Our proposal focuses on user annotation of existing knowledge bases (KB). When proposing new semantic relationships through an interface (UI), users expect that the annotation will extend the KB as well as that the annotation semantics will comply with the conceptual model underlying the KB. The annotation application should act as an intermediary between the user and the formal representation of the knowledge that is being inserted becoming, together with the UI, a critical component of the knowledge management chain. However, how can we ensure that the knowledge being added to the knowledge base is correctly aligned with the semantics of the user annotation? Leveraging two use cases from archival and textual scholarship, we outline a methodology and a testing approach for assessing the semantic neutrality of UIs in annotation applications.</p>
+            </div>
+            <div type="div1">
+                <head>Use Cases</head>
+                <p>The first use case is the archive of the Bolognese writer Giuseppe Raimondi (1895-1985), which comprises the author’s library (ca. 6,200 literature and art publications, 265 journal issues, ca. 50 exemplars of his published works) and papers (over 10,000 items including letters and postcards, drawings, photographs; 460 manuscript notebooks; 480 manuscript and typescript articles). The original finding aid for Giuseppe Raimondi’s archive, dating back to the 1990s, was converted to linked open data to facilitate research. Over time, several scholars have investigated the collection, revealing significant connections that help contextualize Raimondi’s work. An example is Rossi and Wenzlawski’s reconstruction of some of the links between the library and the papers showing Valéry's reception in Raimondi’s literary production (Rossi / Wenzlawski 2020). </p>
+                <p>The second is the 
+                    <hi rend="italic">Repertorio della Poesia Italiana in Musica</hi>, 
+                    <hi rend="italic">1500-1700</hi> (RePIM)
+                    <ref target="#BONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml_ftn1" n="1"/>, the incipit index of Italian poetry in music composed between the 16
+                    <hi rend="superscript">th</hi> and the 17
+                    <hi rend="superscript">th </hi>centuries. Through the systematic examination of poetry books, RePIM aims to discover the identity of the authors of poetic texts that have been set to music. RePIM contains approximately 53.000 texts in music, with the authorship of 20.700 of them successfully identified (Pompilio / Bonora 2021). The scholarly community's contribution is required for the number of identified authors to grow. The web application will be expanded to allow users to annotate newly identified links between texts
+                    <ref target="#BONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml_ftn2" n="2"/>, along with scholarly notes and the provenance of the annotation.
+                </p>
+            </div>
+            <div type="div1">
+                <head>UI Design</head>
+                <p>The methodology followed for designing the UI is based on Garret’s user-centred design model (Garrett 2012) and Tomasi’s project workflow best practices (Tomasi 2022). The result is a UI set on panels. The first panel allows users to set the subject of a triple; the central panel allows users to establish semantic relationships by specifying the predicate and the object. Relationships can be viewed in three modes: the “Relations” panel displays data as a graph; the “Interpretation” panel shows the RDF source and the assertions expressed in natural language. The following figures depict the UIs for UC1 (Fig. 1) and UC2 (Fig.2).</p>
+                <figure>
+                    <graphic n="1001" width="12.7cm" height="7.14375cm" url="Pictures/59f6b71219b381188d3cf110472905f0.png" rend="inline"/>
+                    <head>Fig. 1 UI of UC1.</head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="12.7cm" height="7.14375cm" url="Pictures/154f4185125082f91feb10528290888b.png" rend="inline"/>
+                    <head>Fig. 2 UI of UC2.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Methodology and Validation</head>
+                <p>Ensuring the semantic alignment between the annotation UI and the produced knowledge graph is a twofold task. The user should validate the triples representing the annotation and the system should guarantee that any further representation of the newly added triples preserves the annotation’s original meaning. To perform the initial validation, we will use RDF-to-Text techniques to provide the user with the natural language translation of the triples (see Bernstein et al. 2005; Affolter et al. 2019; Ngomo et al. 2019) along with the RDF representation. Once the user confirms the assertions, these will be incorporated into the KB. </p>
+                <p>Second, we will need to test the bi-univocity of the UI. To do so, we will assess a selected set of triples resulting from a read-and-write (RW) cycle. The test case (TC) reads the triples from the KB prints the triples on the UI and, finally, saves the triples once again without any modifications. The TC is passed if the resulting knowledge graph matches the original one. To implement the testbed and assess the consistency of the data presentation layers and knowledge base, we will create a prototype, which will be available at 
+                    <ref target="https://tell-me-the-truth.github.io/web-app/">https://tell-me-the-truth.github.io/web-app/</ref>.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>Our study aims to define a methodology to assess UI’s semantic transparency in annotation applications. Any layer interposed between the KB and the user acts inevitably as a “semantic lens” (Peroni et al. 2014) that may introduce a semantic distortion. Using the selected UCs, the proposed approach attempts to investigate whether the phenomenon is detectable and, if so, how to measure it using user feedback.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml_ftn1">
+                         RePIM is also published as RDF dataset at 
+                            <ref target="https://doi.org/10.5281/ZENODO.5692109">https://doi.org/10.5281/ZENODO.5692109</ref>.
+                        
+                    </note><note n="2" xml:id="BONORA_Paolo_Tell_Me_the_Truth__Validating_the_Semantic_Alig.xml_ftn2">
+                         The most frequent relationships between texts are: “derived from”, “related work”, “paraphrase of”, “revision of” and “citation”.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Affolter, Katrin</author> / <author>Stockinger, Kurt</author> / <author>Bernstein, Abraham.</author>  (2019) ‘A Comparative Survey of Recent Natural Language Interfaces for Databases’, 
+                        <hi rend="italic">The VLDB Journal</hi>, 28(5), pp. 793–819. DOI: 10.1007/s00778-019-00567-8.
+                    </bibl>
+                    <bibl><author>Bernstein, Abraham</author> / <author>Kaufmann, Esther</author> / <author>Göhring, Anne.</author>  (2005) ‘Querying Ontologies: A Controlled English Interface for End-Users’, in Y. Gil et al. (eds) 
+                        <hi rend="italic">The Semantic Web – ISWC 2005</hi>. Berlin, Heidelberg: Springer Berlin Heidelberg (Lecture Notes in Computer Science), pp. 112–126. DOI: 10.1007/11574620_11.
+                    </bibl>
+                    <bibl><author>Garrett, Jesse J.</author> (2011) 
+                        <hi rend="italic">The Elements of User Experience: User-Centered Design for the Web and Beyond</hi>. 2nd ed. Berkeley, Calif: New Riders.
+                    </bibl>
+                    <bibl><author>Ngomo, Axel-Cyrille N.</author> / <author>Moussallem, Diego</author> / <author>Bühmann, Lorenz.</author>  (2019) ‘A Holistic Natural Language Generation Framework for the Semantic Web’. DOI: 10.48550/ARXIV.1911.01248.</bibl>
+                    <bibl><author>Peroni, Silvio</author> / <author>Tomasi, Francesca</author> / <author>Vitali, Fabio</author> / <author>Zingoni, Jacopo.</author>  (2014) ‘Semantic Lenses as Exploration Method for Scholarly Articles’, in T. Catarci, N. Ferro, and A. Poggi (eds) 
+                        <hi rend="italic">Bridging Between Cultural Heritage Institutions</hi>. Berlin, Heidelberg: Springer Berlin Heidelberg (Communications in Computer and Information Science), pp. 118–129. DOI: 10.1007/978-3-642-54347-0_13.
+                    </bibl>
+                    <bibl><author>Pompilio, Angelo</author> / <author>Bonora, Paolo.</author>  (2021) ‘RePIM in LOD: Semantic Technologies to Preserve Knowledge about Italian Secular Music and Lyric Poetry from the 16th -17th Centuries’, in 
+                        <hi rend="italic">AIUCD 2022 - Proceedings</hi>, pp. 193–195. DOI: 10.6092/unibo/amsacta/6848.
+                    </bibl>
+                    <bibl><author>Rossi, Federica</author> / <author>Wenzlawski, Alina.</author>  (2020) ‘Nello scrittoio di Giuseppe Raimondi: carte e libri di un letterato bolognese su Paul Valéry’, in G. Di Domenico and F. Sabba (eds) 
+                        <hi rend="italic">Il privilegio della parola scritta: gestione, conservazione e valorizzazione di carte e libri di persona</hi>. Roma: Associazione italiana biblioteche, pp. 177–194.
+                    </bibl>
+                    <bibl>Tomasi, Francesca. (2022) 
+                        <hi rend="italic">Organizzare la conoscenza: digital humanities e web semantico: un percorso tra archivi, biblioteche e musei</hi>. Milano: Editrice Bibliografica (Biblioteconomia e scienza dell’informazione, 39).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

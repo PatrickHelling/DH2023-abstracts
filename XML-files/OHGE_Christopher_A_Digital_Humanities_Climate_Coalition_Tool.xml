@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Digital Humanities Climate Coalition Toolkit for Researchers and
+                    Institutions</title>
+                <author n="OhgeChristopherOHGE_Christopher_A_Digital_Humanities_Climate_Coalition_Tool.xml"><persName ref="https://orcid.org/0000-0001-6410-8692" n="OhgeChristopher">
+                        <surname>Ohge</surname>
+                        <forename>Christopher</forename>
+                    </persName><affiliation>University of London</affiliation><email>christopher.ohge@sas.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BakerJamesOHGE_Christopher_A_Digital_Humanities_Climate_Coalition_Tool.xml"><persName ref="https://orcid.org/0000-0002-2682-6922" n="BakerJames">
+                        <surname>Baker</surname>
+                        <forename>James</forename>
+                    </persName><affiliation>University of Southampton</affiliation><email>J.W.Baker@soton.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OttyLisaOHGE_Christopher_A_Digital_Humanities_Climate_Coalition_Tool.xml"><persName ref="https://orcid.org/0000-0002-6604-7405" n="OttyLisa">
+                        <surname>Otty</surname>
+                        <forename>Lisa</forename>
+                    </persName><affiliation>University of Edinburgh</affiliation><email>Lisa.Otty@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WaltonJoLindsayOHGE_Christopher_A_Digital_Humanities_Climate_Coalition_Tool.xml"><persName ref="https://orcid.org/0000-0001-5697-1613" n="WaltonJoLindsay">
+                        <surname>Walton</surname>
+                        <forename>Jo Lindsay</forename>
+                    </persName><affiliation>University of Sussex</affiliation><email>J.C.Walton@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In digital humanists, every project we create, every software application we use, every piece of hardware we purchase impacts our environment. In response to this need for greater awareness, the Digital Humanities Climate Coalition (DHCC) created a Toolkit (https://sas-dhrh.github.io/dhcc-toolkit/) using minimal computing principles.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>environmental humanities</term>
+                    <term>minimal computing</term>
+                    <term>digital ethics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital activism and advocacy</term>
+                    <term>eco-criticism and environmental analysis</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities
+                        computing)</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Design studies</term>
+                    <term>Environmental</term>
+                    <term>ocean</term>
+                    <term>and waterway studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The digital is material; it also requires infrastructures many of which rely on
+                fossil fuels. In Digital Humanities, every project we create, every software
+                application we use, every piece of hardware we purchase impacts our environment.
+                Whilst DH is not alone in creating these impacts, they are particular to the
+                discipline and the need to ‘attend to the environmental and human costs of DH’, as
+                Bethany Nowviskie exhorted us in her DH2014 keynote, is increasingly urgent.
+                Relevant work is taking place in other fields: science and technology studies
+                scholars concerned with their relations to Land/land (Liboiron, 2021); archivists
+                describing how their approaches to digital preservation are environmentally
+                unsustainable (Pendergrass et al., 2019); artificial intelligence ethics scholars
+                investigating the opacity and explainability of AI models, which are being hailed as
+                key to delivering climate risk management and behaviour change (Coeckelbergh, 2021);
+                historians quantitatively analysing the disinformation tactics of big oil (Supran
+                and Oreskes, 2021). In spite of this, climate justice and environmental impacts
+                remain under-researched in the field of Digital Humanities and underrepresented in
+                our conferences and literature.</p>
+            <p>In response to this need for greater awareness, an international group of digital
+                humanities scholars and practitioners have been gathering virtually to collaborate
+                and build momentum, first with the “ <ref target="https://dhc-barnard.github.io/dhclimate/">DH and the Climate Crisis</ref>” manifesto (published in summer 2021) and then with a series of workshops and
+                initiatives, including those under the auspices of the <ref target="https://www.cdcs.ed.ac.uk/digital-humanities-climate-coalition">Digital Humanities Climate Coalition</ref> (DHCC). The DHCC –– formed by Digital Humanists from across the UK, Ireland
+                and Northern Europe –– underscores the necessity for humanists to probe the values,
+                power structures, and future imaginaries that underpin sustainable solutions. To
+                achieve such awareness, one of the working groups of DHCC created a Green Digital
+                Humanities Toolkit ( <ref target="https://sas-dhrh.github.io/dhcc-toolkit/">https://sas-dhrh.github.io/dhcc-toolkit/</ref>) using climate-friendly minimal computing principles. The goal of the DHCC
+                Toolkit is to facilitate awareness, collaboration and concrete initiatives of the
+                environmental impacts of DH research and teaching practices on individual and
+                organisational levels. </p>
+            <p>The Toolkit currently covers a variety of topics for many kinds of researchers and
+                institutions: Minimal Computing, Maximal Computing, Project Planning, Working
+                Practices, Advocating Within Your Institution, Decision Trees, and Climate Change
+                FAQs. Each section was collaboratively written and edited by DH academics and
+                experts working in universities, libraries and archives. We aim to use the poster
+                session to continue to solicit feedback and collaborate with digital humanities to
+                refine and enhance the toolkit.</p>
+            <p>Given the fact that DH has criticised the immense and monopolistic power wielded by
+                the global tech sector, the DH community is well positioned to create a blueprint
+                for change and demonstrate to our collaborators how change can happen. Our use of
+                technology and infrastructure should be informed by the ways corporate economic,
+                cultural, and scientific power perpetuates and exacerbates the crisis. Choosing a
+                hardware or hosting provider, for example, should mean considering direct
+                environmental impacts, broader environmental policies and record of the provider,
+                and more broadly still, the kinds of collective future that such a collaborative
+                encounter presupposes. We should be able to candidly explore the complex and
+                sometimes contradictory nature of our ecological impact: we should be able to
+                measure and model where possible, while also creating context around our
+                measurements, flagging uncertainties, and advocating for systemic transformation of
+                working practices. A Greening Digital Humanities Toolkit is an important step in
+                that direction.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Coeckelbergh, M. </author>AI for climate: freedom, justice, and
+                        other ethical and political challenges. AI Ethics 1, 67–72 (2021).
+                        https://doi.org/10.1007/s43681-020-00007-2</bibl>
+                    <bibl><author>Liboiron, Max. </author>
+                        <hi rend="italic">Pollution Is Colonialism</hi>. Durham, N.C.: Duke
+                        University Press, 2021. </bibl>
+                    <bibl><author>Nowviskie, Bethany.</author> ‘Digital Humanities in the
+                        Anthropocene’. <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        30, no. suppl_1 (1 December 2015): i4–15. <ref target="https://doi.org/10.1093/llc/fqv015">https://doi.org/10.1093/llc/fqv015</ref>. </bibl>
+                    <bibl><author>Pendergrass, Keith, Walker Sampson, Tim Walsh, and Laura
+                            Alagna. </author>‘Toward Environmentally Sustainable Digital Preservation’.
+                            <hi rend="italic">The American Archivist</hi>, June 2019. <ref target="https://doi.org/10.17723/0360-9081-82.1.165">https://doi.org/10.17723/0360-9081-82.1.165</ref>. </bibl>
+                    <bibl><author>Travis, Charles, Poul Holm, Francis Ludlow, Conor Kostick,
+                            Rhonda McGovern, and John Nicholls. </author>‘Cowboys, Cod, Climate, and
+                        Conflict: Navigations in the Digital Environmental Humanities’, in Charles
+                        Travis, Deborah P. Dixon, Luke Bergmann, Robert Legg, and Arlene Crampsie
+                        (eds.), <hi rend="italic">The Routledge International Handbook to Digital
+                            Environmental Humanities</hi>. London: Routledge, 2022. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

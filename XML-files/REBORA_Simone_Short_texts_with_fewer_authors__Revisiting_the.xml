@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Short texts with fewer authors. Revisiting the boundaries of stylometry</title>
+                <author n="ReboraSimoneREBORA_Simone_Short_texts_with_fewer_authors__Revisiting_the.xml"><persName n="ReboraSimone">
+                        <surname>Rebora</surname>
+                        <forename>Simone</forename>
+                    </persName><affiliation>Johannes Gutenberg University Mainz, Germany</affiliation><email>simone.rebora@uni-mainz.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The paper verifies the efficiency of stylometric methods for short texts when considering different numbers of candidate authors. Analyses are run on corpora in four different languages using multiple methods. Final outcome is an overview of estimated efficiency scores which may be used as guidelines for authorship attribution studies.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>authorship attribution</term>
+                    <term>stylometry</term>
+                    <term>short text</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Extensive work has been dedicated to identifying the minimum text length for effective authorship attribution (Eder, 2013; Eder, 2017). However, reccommendations provided so far are based on artificial setups which do not always mirror the actual conditions of the research. In fact, the application of stylometric methods is often preceded by archival and philological research, which can help reduce the candidate authors to a few (Dimino et al., 2021), if not even just two (Rebora et al., 2019). This reduction simplifies the task for the stylometric analysis (Rybicki, 2015) and can help decreasing that threshold of 2,000 words—or, more cautiously, 5,000 words—, which was set by analyzing corpora composed by up to 21 authors.</p>
+            <p>This contribution therefore aims at integrating the guidelines provided so far by including also the number of candidate authors. Overall, it could be considered as another brick in the construction of an overarching set of guidelines, which can be completed only via the collaboration and integration of multiple proposals.</p>
+            <p>To give an interlinguistic scope to the research, analyses were performed on four different corpora of literary texts, composed by selections of novels in English (Computational Stylistics Group, 2022a), German (Computational Stylistics Group, 2022b), French (Schöch and Burnard, 2021, version “plain1”), and Italian (Ciotti et al., 2022, version “Orig”). All scripts have been shared through a dedicated 
+                <hi rend="italic">GitHub </hi>repository (
+                <ref target="https://github.com/SimoneRebora/stylometry_text_length">https://github.com/SimoneRebora/stylometry_text_length</ref>) and are mainly built upon the pre-compiled functions of the 
+                <hi rend="italic">stylo</hi> R package (Eder et al., 2016, version 0.7.4). Overall, the scripts take the texts from each corpus to randomly create experimental setups (by combining different lengths of text chunks and different numbers of candidates) and analyze them via different approaches (e.g., varying distance measures and most frequent words). To counter the effects of random selection, analyses are repeated multiple times for each configuration (20 times in this specific case). Produced score is a simple proportion of correct attributions. For more technical details, see full documentation in the 
+                <hi rend="italic">GitHub </hi>repository.
+            </p>
+            <p>A first overview of the results is provided by Figure 1, which shows how, for two candidate authors, a text of 1,000 words produces already about 75-80% correct attributions. It should also be noted how the use of character n-grams (4-grams in Figure 1) produces a better efficiency only for very short texts.</p>
+            <figure>
+                <graphic n="1001" width="15.920861111111112cm" height="11.925652777777778cm" url="Pictures/5b2bf8b684a0276b793cc99fe446b29f.png" rend="inline"/>
+                <head>Figure 1. Results overview</head>
+            </figure>
+            <p>Cosine Delta (Smith and Aldridge, 2011—called “dist.wurzburg” in the 
+                <hi rend="italic">stylo</hi> implementation) is the best distance measure, independently from the language (Figure 2). When visualizing the results just for this measure, efficiency improves substantially, even moving beyond 90% when working with two authors and 2,000 words (Figure 3).
+            </p>
+            <figure>
+                <graphic n="1002" width="15.920861111111112cm" height="9.532055555555555cm" url="Pictures/942caf76f2cc44113a9557799b5f767f.png" rend="inline"/>
+                <head>Figure 2. Results overview (focus on distance measure)</head>
+            </figure>
+            <figure>
+                <graphic n="1003" width="15.920861111111112cm" height="11.925652777777778cm" url="Pictures/02a4ae014b8c8a43d203f5c20caf7a2c.png" rend="inline"/>
+                <head>Figure 3. Results overview (limited to Cosine Delta distance)</head>
+            </figure>
+            <p>Such results are in line with what already shown by Evert et al. (2017). They also confirm how efficiency does not just correlate positively with the number of most frequent words (MFW, see Figure 4). Closer inspection of the results for the German corpus shows in fact how positive correlation becomes evident only when considering longer texts (Figure 5) and higher numbers of candidates (Figure 6): a trend that is confirmed also for the other corpora. While this phenomenon calls for further investigation, a possible explanation can be in the fact that high selections of MFW include much more semantic information, which could become misleading when working with small experimental setups (Rebora, 2022).</p>
+            <figure>
+                <graphic n="1004" width="15.920861111111112cm" height="9.532055555555555cm" url="Pictures/a721d47f9448fbef012cff10c6124f08.png" rend="inline"/>
+                <head>Figure 4. Results overview (limited to Word analysis and focus on MFW)</head>
+            </figure>
+            <figure>
+                <graphic n="1005" width="15.920861111111112cm" height="9.532055555555555cm" url="Pictures/835296152c61047918950605c64c144a.png" rend="inline"/>
+                <head>Figure 5. Results overview (limited to word analysis and German corpus, focus on MFW and text chunk dimensions)</head>
+            </figure>
+            <figure>
+                <graphic n="1006" width="15.920861111111112cm" height="9.532055555555555cm" url="Pictures/ad0b77371384f042563100c61bb76744.png" rend="inline"/>
+                <head>Figure 6. Results overview (limited to word analysis and German corpus, focus on MFW and number of authors)</head>
+            </figure>
+            <p>Provisional outcome of this research is an overview of estimated efficiency scores (synthetically presented in Table 1 and fully available in the 
+                <hi rend="italic">GitHub </hi>repository), which may be taken as a reference point by researchers when starting a new authorship attribution project. Still, the results presented here cannot be considered as final: in fact, outcomes might vary when considering different corpora (in different languages, but also including other genres and epochs) and using alternative methods. While further research is indeed needed, we hope to have shown how it should aim at better fitting the requirements of real case scenarios, by designing evaluation setups that imitate them as closely as possible.
+            </p>
+            <figure>
+                <graphic n="1007" width="10.795cm" height="11.147777777777778cm" url="Pictures/0792832545de7ff6b7e1e9afd8ed5528.png" rend="inline"/>
+                <head>Table 1. Overview of efficiency scores (sample for Cosine Delta distance, 200-2,000 MFW, two candidate authors, and English corpus)</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ciotti, F., Schöch, C. and Burnard, L.</author>
+                         (2022). ELTeC-ita European Literary Text Collection (ELTeC) https://github.com/COST-ELTeC/ELTeC-ita (accessed 31 October 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Computational Stylistics Group</author>
+                         (2022a). 100 English Novels ver. 1.4 https://github.com/computationalstylistics/100_english_novels (accessed 31 October 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Computational Stylistics Group</author>
+                         (2022b). 68 German Novels https://github.com/computationalstylistics/68_german_novels (accessed 31 October 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Dimino, M., Rebora, S. and Salgaro, M.</author>
+                         (2021). Between Austrian war propaganda and literary history. A stylometric analysis of Heimat. 
+                        <hi rend="italic">EADH2021</hi>
+                         https://eadh2021.culintec.de/REBORA_Simone_Between_Austrian_war_propaganda_and_literary_h.html.
+                    </bibl>
+                    <bibl>
+                        <author>Eder, M.</author>
+                         (2013). Does size matter? Authorship attribution, small samples, big problem. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        30
+                        (2): 167–82 doi:10.1093/llc/fqt066.
+                    </bibl>
+                    <bibl>
+                        <author>Eder, M.</author>
+                         (2017). Short samples in authorship attribution: a new approach. 
+                        <hi rend="italic">DH2017 Book of Abstracts</hi>
+                        . pp. 221–24.
+                    </bibl>
+                    <bibl>
+                        <author>Eder, M., Rybicki, J. and Kestemont, M.</author>
+                         (2016). Stylometry with R: A Package for Computational Text Analysis. 
+                        <hi rend="italic">The R Journal</hi>
+                        , 
+                        8
+                        (1): 107–21.
+                    </bibl>
+                    <bibl>
+                        <author>Evert, S., Proisl, T., Jannidis, F., Reger, I., Pielström, S., Schöch, C. and Vitt, T.</author>
+                         (2017). Understanding and explaining Delta measures for authorship attribution. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        32
+                        (suppl_2): ii4–16 doi:10.1093/llc/fqx023.
+                    </bibl>
+                    <bibl>
+                        <author>Rebora, S.</author>
+                         (2022). Stylometry and Reader Response. An Experiment with Harry Potter Fanfiction. In Ciracì, F., Miglietta, G. and Gatto, C. (eds), 
+                        <hi rend="italic">AIUCD 2022 - Proceedings</hi>
+                        . Bologna: AIUCD, pp. 30–34 http://amsacta.unibo.it/6848/ (accessed 19 September 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Rebora, S., Herrmann, J. B., Lauer, G. and Salgaro, M.</author>
+                         (2019). Robert Musil, a war journal, and stylometry: Tackling the issue of short texts in authorship attribution. 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>
+                        , 
+                        34
+                        (3): 582–605 doi:10.1093/llc/fqy055.
+                    </bibl>
+                    <bibl>
+                        <author>Rybicki, J.</author>
+                         (2015). Success rates in most-frequent-word-based authorship attribution. a case study of 1000 polish novels from I
+                        gnacy K
+                        rasicki to J
+                        erzy P
+                        ilch. 
+                        <hi rend="italic">Studies in Polish Linguistics</hi>
+                        , 
+                        10
+                        (2): 87104.
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, C. and Burnard, L.</author>
+                         (2021). French Novel Corpus (ELTeC-fra): April 2021 release Zenodo doi:10.5281/ZENODO.4662433. https://zenodo.org/record/4662433 (accessed 31 October 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Smith, P. W. H. and Aldridge, W.</author>
+                         (2011). Improving Authorship Attribution: Optimizing Burrows’ Delta Method. 
+                        <hi rend="italic">Journal of Quantitative Linguistics</hi>
+                        , 
+                        18
+                        (1): 63–88 doi:10.1080/09296174.2011.533591.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

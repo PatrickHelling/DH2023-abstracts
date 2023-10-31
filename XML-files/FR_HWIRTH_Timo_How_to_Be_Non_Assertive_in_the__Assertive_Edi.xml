@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>How to Be Non-Assertive in the ‘Assertive Edition’:Encoding Doubt in the <hi rend="italic">Auden Musulin Papers</hi></title>
+                <author n="FrhwirthTimoFR_HWIRTH_Timo_How_to_Be_Non_Assertive_in_the__Assertive_Edi.xml"><persName ref="https://orcid.org/0000-0002-3997-5193" n="FrhwirthTimo">
+                        <surname>Frühwirth</surname>
+                        <forename>Timo</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Austrian Academy of Sciences</affiliation><email>Timo.Fruehwirth@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CarloniMassimilianoFR_HWIRTH_Timo_How_to_Be_Non_Assertive_in_the__Assertive_Edi.xml"><persName ref="https://orcid.org/0000-0003-2208-5108" n="CarloniMassimiliano">
+                        <surname>Carloni</surname>
+                        <forename>Massimiliano</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Austrian Academy of Sciences</affiliation><email>Massimiliano.Carloni@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrigoriouDimitraFR_HWIRTH_Timo_How_to_Be_Non_Assertive_in_the__Assertive_Edi.xml"><persName ref="https://orcid.org/0000-0002-0914-9245" n="GrigoriouDimitra">
+                        <surname>Grigoriou</surname>
+                        <forename>Dimitra</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Austrian Academy of Sciences</affiliation><email>Dimitra.Grigoriou@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MayerSandraFR_HWIRTH_Timo_How_to_Be_Non_Assertive_in_the__Assertive_Edi.xml"><persName ref="https://orcid.org/0000-0002-2915-5888" n="MayerSandra">
+                        <surname>Mayer</surname>
+                        <forename>Sandra</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Austrian Academy of Sciences</affiliation><email>Sandra.Mayer@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StoxreiterDanielFR_HWIRTH_Timo_How_to_Be_Non_Assertive_in_the__Assertive_Edi.xml"><persName ref="https://orcid.org/0000-0002-0636-4476" n="StoxreiterDaniel">
+                        <surname>Stoxreiter</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Austrian Centre for Digital Humanities and Cultural Heritage,
+                        Austrian Academy of Sciences</affiliation><email>Daniel.Stoxreiter@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>W. H. Auden was among the most influential twentieth-century poets. New
+                    digital-edition projects aim to contribute to investigating his life and work in
+                    Austria. While the model of 'assertive edition' helps to address both
+                    philologically- and historically/biographically-oriented research interests,
+                    this paper will focus on formally representing uncertainty and editorial
+                    interpretation.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract>
+                <p>W. H. Auden was among the most influential twentieth-century poets. New
+                    digital-edition projects aim to contribute to investigating his life and work in
+                    Austria. While the model of 'assertive edition' helps to address both
+                    philologically- and historically/biographically-oriented research interests,
+                    this paper will focus on formally representing uncertainty and editorial
+                    interpretation.</p>
+            </abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>assertive edition</term>
+                    <term>RDF</term>
+                    <term>scholarly digital edition</term>
+                    <term>TEI</term>
+                    <term>uncertainty</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Auden Musulin Papers</head>
+                <p>W. H. Auden (1907-1973) was one of the most
+                    influential 20th-century English writers. His poetry was central to the
+                    modernist avant-garde in 1930s England; in 1939, he emigrated to the United
+                    States, where he received the Pulitzer Prize for Poetry. For the last fifteen
+                    years of his life, Auden divided his time between the US and Austria, where he
+                    wrote most of his late poetry (Quinn 2013, 56; 2015, 243). However, while
+                    Auden’s English and American periods have been intensively researched, the
+                    poet’s life and work in Austria are still under-investigated and have attracted
+                    scholarly attention only since the early 2000s (Mendelson 2004; Smith 2004). It
+                    is in the emerging field of Austrian Auden Studies (see, especially, Denzer /
+                    Seidl 2014; Neundlinger 2018) that the Auden Musulin Papers (AMP) project
+                    (ACDH-CH, Austrian Academy of Sciences) is situated: an open-access scholarly
+                    digital edition (SDE; v0.2 pre-released 2023-03) makes available Auden’s
+                    previously inaccessible ‘working correspondence’ to Welsh-Austrian writer Stella
+                    Musulin from the period 1959-1973. The collection includes letters, literary
+                    papers, speech drafts, and legal statements by Auden, as well as Musulin’s
+                    unpublished Auden memoirs, which are the most comprehensive biographical
+                    resource for Auden’s Austrian period.</p>
+            </div>
+            <div type="div1">
+                <head>An ‘Assertive Edition’ of Auden’s Austrian Papers</head>
+                <p>This SDE of literary papers and correspondence written
+                    by one of the most acclaimed poets in English literature seeks to meet the
+                    highest standards of textual scholarship, in ways that address philological
+                    research interests in the linguistic and material aspects of the documents. At
+                    the same time, the AMP documents are highly relevant as sources of biographical
+                    data as well as historical information with regard to political, social, legal,
+                    and cultural discourses in 1960s/1970s Austria. The question of how digital
+                    editing technologies can be aligned with philological as well as
+                    biographical/historical concerns is particularly critical as the AMP project
+                    aims to pilot an approach that is transferable to a future comprehensive SDE of
+                    all Austrian Auden documents (including legal documents as well as the full
+                    contemporary Austrian media coverage of the poet’s life and work in
+                    Austria).</p>
+                <p>The method of ‘assertive edition’ proposed by Vogeler
+                    (2019, 2021) indicates a potential editorial solution. By means of embedding
+                    Semantic Web technologies (specifically, RDF) in TEI/XML markup, the ‘assertive
+                    edition’ model aims to create “deep links between structured data and text”,
+                    balancing the data needs of historically-oriented research (extractable
+                    structured data, processable through databases) and the requirements of textual
+                    scholarship (Vogeler 2019: 309-310, 312, 318; 2021: 73, 74, 79, 81).</p>
+            </div>
+            <div type="div1">
+                <head>Modeling Uncertainty and Interpretation</head>
+                <p>Vogeler highlights the specific epistemological status
+                    of the data extractable from such an ‘assertive edition’: he stresses that the
+                    editorial “information on facts asserted by the transcription” include
+                    “interpretations of the text based on the context and the expertise of the
+                    editor” (2019: 318). In the AMP project, research-based interpretation has been
+                    involved at different stages of the editorial work, such as in connection to
+                    metadata (authorship, date, place) and text transcription. Most especially, we
+                    have encountered uncertainty in relation to identifying entities, such as
+                    persons whose names are truncated, masked, or omitted (“Harrison’s”, “a German
+                    friend”, “the one-whose-name-we-never-mention”); other examples include
+                    uncertain references to dates, places, and events.</p>
+                <p>While the editors’ work that responds to such
+                    uncertainty will be rendered transparent in natural language and indicated
+                    through UI design—in order to empower users to engage with these aspects of
+                    uncertainty and interpretation—we also seek to make this interpretive activity
+                    explicit in machine-readable formal representations of the information asserted
+                    by the documents. Therefore, in the context of a vibrant current strand of
+                    research addressing issues of uncertainty in various areas of the DH (see, for
+                    example, Kuczera et al. 2019, Mariani 2021, Daquino et al. 2022, Windhager
+                    2022), we want to investigate the ‘affordances’ (Vogeler 2021) of SDE
+                    technologies to represent uncertainty, interpretation, and hypothesis. In
+                    particular, we will explore the potentials of RDF (especially, RDF
+                    meta-statements through reification and property singleton) solutions to
+                    indicate certainty values; uncertainty-aware external ontologies (CIDOC CRM and
+                    HiCO) to encode vagueness/approximation; as well as nanopublications for
+                    specifying interpretive arguments. While TEI P5 does support properties to
+                    encode certainty levels, we suggest that additional data modeling can increase
+                    flexibility and precision as well as offer extended options for data query and
+                    visualization.</p>
+                <p>We will conclude by proposing solutions that, beyond
+                    their applicability to our project(s), can contribute to the scholarly debate on
+                    uncertainty-awareness, in the particular context of the ‘assertive edition’ SDE
+                    framework.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Daquino, Marilena</author> / <author>Pasqual,
+                            Valentina</author> / <author>Tomasi, Francesca</author> / <author>Vitali, Fabio</author> (2022): “Conjectures: Using RDF in
+                        Critical Discourse in the Humanities”, in: <hi rend="italic">COMHUM 2022:
+                            Workshop on Computational Methods in the Humanities 2022</hi>,
+                        Université de Lausanne, Laboratoire lausannois d'informatique et statistique
+                        textuelle, 9-10 June 2022. <ref target="https://wp.unil.ch/llist/files/2022/06/COMHUM_2022_paper_10.pdf">https://wp.unil.ch/llist/files/2022/06/COMHUM_2022_paper_10.pdf</ref> [21.04.2023]. </bibl>
+                    <bibl>
+                        <author>Denzer, Ricarda</author> / <author>Seidl, Monika</author>
+                        (eds). (2014). <hi rend="italic">Silence Turned into Objects: W.H. Auden in
+                            Kirchstetten</hi>. St. Pölten: Literaturedition Niederösterreich. </bibl>
+                    <bibl>
+                        <author>Kuczera, Andreas</author> / <author>Wübbena,
+                            Thorsten</author> / <author>Kollatz, Thomas</author> (eds). (2019). <hi rend="italic">Die Modellierung des Zweifels – Schlüsselideen und
+                            -konzepte zur graphbasierten Modellierung von Unsicherheiten</hi>,
+                        special issue 4 of <hi rend="italic">ZfdG – Zeitschrift für digitale
+                            Geisteswissenschaften</hi>. DOI: 10.17175/sb004. </bibl>
+                    <bibl>
+                        <author>Mendelson, Edward</author> (2005). “The European Auden”, in:
+                        Smith, Stan (ed), <hi rend="italic">The Cambridge Companion to W. H.
+                            Auden</hi>. Cambridge: Cambridge University Press, 55-67. DOI:
+                        10.1017/CCOL0521829623.005. </bibl>
+                    <bibl>
+                        <author>Mariani, Fabio</author> (2021). “Probably Sold to Paalen,
+                        Possibly by Exchange: Vagueness, Incompleteness, Subjectivity, and
+                        Uncertainty in Digital Art Provenance”, in: <hi rend="italic">COMHUM 2022:
+                            Workshop on Computational Methods in the Humanities 2022</hi>,
+                        Université de Lausanne, Laboratoire lausannois d'informatique et statistique
+                        textuelle, 9-10 June 2022. <ref target="https://wp.unil.ch/llist/files/2022/06/COMHUM_2022_paper_5.pdf">https://wp.unil.ch/llist/files/2022/06/COMHUM_2022_paper_5.pdf</ref> [21.04.2023]. </bibl>
+                    <bibl>
+                        <author>Neundlinger, Helmut</author> (ed). (2018). <hi rend="italic">Thanksgiving für ein Habitat: W. H. Auden in Kirchstetten</hi>. St.
+                        Pölten: Literaturedition Niederösterreich. </bibl>
+                    <bibl>
+                        <author>Quinn, Justin</author> (2013). “At Home in Italy and Austria,
+                        1948-1973”, in: Sharpe, Tony (ed), <hi rend="italic">W. H. Auden in
+                            Context</hi>. Cambridge: Cambridge University Press, 56-66. DOI:
+                        10.1017/CBO9781139018180.007. </bibl>
+                    <bibl>
+                        <author>Quinn, Justin</author> (2015). “Auden’s Cold War Fame”, in:
+                        Costello, Bonnie / Galvin, Rachel (eds), <hi rend="italic">Auden at
+                            Work</hi>. Basingstoke: Palgrave Macmillan, 231-249. </bibl>
+                    <bibl>
+                        <author>Smith, Stan</author> (2005). “Introduction”, in: Smith, Stan
+                        (ed), <hi rend="italic">The Cambridge Companion to W. H. Auden</hi>.
+                        Cambridge: Cambridge University Press, 1-14. DOI:
+                        10.1017/CCOL0521829623.001. </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2019). “The ‘Assertive Edition’: On the
+                        Consequences of Digital Methods in Scholarly Editing for Historians”, in:
+                            <hi rend="italic">International Journal of Digital Humanities</hi>, 1,
+                        2: 309-322. DOI: 10.1007/s42803-019-00025-5. </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (2021). “Standing-off Trees and Graphs:
+                        On the Affordance of Technologies for the Assertive Edition”, in: Spadini,
+                        Elena / Tomasi, Francesca / Vogeler, Georg (eds), <hi rend="italic">Graph
+                            Data-Models and Semantic Web Technologies in Scholarly Digital
+                            Editing</hi>. Norderstedt: Books on Demand, 73-94. </bibl>
+                    <bibl>
+                        <author>Windhager, Florian</author> / <author>Mayr, Eva</author> /
+                            <author>Liem, Johannes</author> / <author>Kusnik, Jakob</author>
+                        / <author>Jänicke, Stefan</author> / <author>Grebe, Anja</author>
+                        (2022). “Traveling with Albrecht Dürer - A Case Study for Uncertainty-Aware,
+                        Narrative Biography Visualization”, in: <hi rend="italic">BD 2022: Workshop
+                            on Biographical Data in a Digital World 2022</hi>, <hi rend="italic">DH2022: Digital Humanities 2022</hi>, 25 May 2022. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

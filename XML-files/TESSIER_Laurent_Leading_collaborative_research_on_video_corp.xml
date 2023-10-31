@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Leading collaborative research on video corpora. CANEVAS tools and
+                    methods.</title>
+                <author n="TessierLaurentTESSIER_Laurent_Leading_collaborative_research_on_video_corp.xml"><persName ref="https://orcid.org/0000-0003-1523-8276" n="TessierLaurent">
+                        <surname>Tessier</surname>
+                        <forename>Laurent</forename>
+                    </persName><affiliation>Institut Catholique de Paris, France</affiliation><email>l.tessier@icp.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BourgatteMichaelTESSIER_Laurent_Leading_collaborative_research_on_video_corp.xml"><persName ref="https://orcid.org/0000-0002-5244-1604" n="BourgatteMichael">
+                        <surname>Bourgatte</surname>
+                        <forename>Michael</forename>
+                    </persName><affiliation>Institut Catholique de Paris, France</affiliation><email>m.bourgatte@icp.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Inaugurated in 2022, the CANEVAS consortium brings together researchers from various humanities disciplines whose common interest is to handle video corpora in their research. This poster present specific issues raised by these corpora as well as a selection of tools and methods identified by the Canevas research community.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>video</term>
+                    <term>audiovisual</term>
+                    <term>hosting</term>
+                    <term>archives</term>
+                    <term>annotation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital archiving</term>
+                    <term>mixed-media analysis</term>
+                    <term>open access methods</term>
+                    <term>Design studies</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Media studies</term>
+                    <term>Performance Studies: Dance</term>
+                    <term>Theatre</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The analysis of audiovisual corpora is a fundamental issue for Humanities and Social
+                Sciences. For example, it is a long-standing issue in History, where film analysis
+                is widespread and even institutionalized for decades (Ferro 1974; Delage / Guigueno
+                2004). These practices also concern a large diversity of research fields such as
+                Sociology (Sebag / Durand 2020), or Education Sciences (Leblanc / Ria / Veyrune
+                2013), added to other fields such as Media Studies or Film Studies (Fleckinger
+                2018), to which the use of audiovisual content is native. However, the shift to
+                digital technologies has significantly modified modalities and potentialities of the
+                audiovisual analysis. With the growing production of digital videos and movies
+                (Côté-Lapointe 2019), but also their increased broadcasting on the Internet, new
+                horizons are emerging for research (Burgess / Green 2018).</p>
+            <p>For digital humanists, the development of technological devices adapted to their
+                research practices is mandatory. For example, the <hi rend="italic">Mediascope</hi>
+                software of the French <hi rend="italic">Institut National de l’Audiovisuel</hi> has
+                provided a solution adapted to enter the analysis of their collections. Other
+                solutions, essentially developed for experimental purposes within the framework of
+                research projects, have also coexisted (Bourgatte / Tessier 2017). However, despite
+                the length of time, researchers working on audiovisual corpora often still lack
+                tools and methods adapted to their practices. More broadly, they also lack norms and
+                standards that allow them to make their work accessible in a long-term manner. This
+                explains why some forms of "DIY" remain. </p>
+            <p>How should we treat, investigate and analyze the contemporary profusion of digital
+                audiovisual documents? This is the purpose of the “Huma-Num CANEVAS consortium”
+                inaugurated in 2022, which brings together researchers from different disciplines
+                whose common interest is precisely to handle video corpora in their research.
+                Implementing research in social sciences and humanities based on audiovisual corpora
+                implies addressing different types of key issues: finding the best suited search and
+                analysis tools, hosting and archiving audiovisual data, and sharing valorization
+                strategies. All these topics are at the heart of numerous experiments but have not
+                yet found long-term answers.</p>
+            <p>The CANEVAS consortium first took shape around the question of annotation. As
+                note-taking is the natural support of any research activity, it is indeed essential
+                for the researcher to have, during his/her activities, the possibility of
+                associating analyses or comments with the materials that constitute his/her corpus.
+                This is made possible, among others, by tools such as <hi rend="italic">Celluloid</hi> or <hi rend="italic">E-Spectator</hi> : </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="8.946444444444445cm" url="Pictures/e852801087e4dd88c6615160ddade5c4.png" rend="inline"/>
+             <head><hi rend="italic">Figure 1: Screenshot Celluloid (</hi><ref target="https://celluloid.huma-num.fr/"><hi rend="italic">https://celluloid.huma-num.fr/</hi></ref><hi rend="italic">)</hi></head>  </figure>
+         
+            <figure>
+                <graphic n="1002" width="16.002cm" height="8.045097222222223cm" url="Pictures/551e3e1d82e7951a22bc3c878bc1b501.jpg" rend="inline"/>
+                <head><hi rend="italic">Figure 2: Screenshot E-Spectateur (</hi><ref target="https://espectateur.huma-num.fr/"><hi rend="italic">https://espectateur.huma-num.fr/</hi></ref><hi rend="italic">)</hi></head>
+            </figure>
+            <p>The question of long-term archiving of large data sets was then raised, searching for
+                solutions offering similar options to those offered by platforms such as Youtube or
+                Vimeo, but in an open source / decentralized way, which is made possible, for
+                example, by <hi rend="italic">PeerTube</hi> instances. </p>
+            <figure>
+                <graphic n="1003" width="16.002cm" height="7.852833333333334cm" url="Pictures/9d550bfc45a52ff20a3e0da5cef0a57a.png" rend="inline"/>
+                <head><hi rend="italic">Figure 3: Screenshot PeerTube (</hi><ref target="https://celluloid-media.huma-num.fr"><hi rend="italic">https://celluloid-media.huma-num.fr</hi></ref><hi rend="italic">) </hi></head>
+            </figure>
+            <p>Finally, there is the question of interoperability of the annotations (for example,
+                with common metadata formats such as IIIF, which is currently applied to images and
+                which is also being experimented with 3D, but not yet with video corpora).</p>
+            <p>In line with the FAIR principles, Canevas is committed to developing generic, free
+                and open-source tools and common standards that should open new perspectives by
+                simplifying procedures in an open science dynamic. </p>
+            <p>A selection of tools and methods identified by the Canevas research community is
+                curated in the consortium white paper (Besson / Lavorel 2023). In this paper,
+                researchers from different fields have selected functional applications suitable for
+                research and pedagogy in the humanities. The results of this collaborative research
+                show that 4 of these tools are only usable locally and thus appropriate for
+                individual work. Two tools allow online collaborative work by relying on proprietary
+                services (Youtube/Vimeo), which are therefore not DH compliant. Only one tool
+                (Celluloid), allows remote collaborative work with a free and open-source platform
+                (Peertube). Moreover, these tools all allow the export of annotations in various
+                formats (JSon, CSV, RSS, XML), which is essential in a logic of sharing research
+                results, but no common standard has been adopted yet.</p>
+            <figure>
+                <graphic n="1004" width="16.002cm" height="11.311819444444444cm" url="Pictures/6677f820c80339729ca478f4368ae584.jpg" rend="inline"/>
+                <head><hi rend="italic">Table 1: This table summarizes the comparison of 7 tools useful for
+                    analyzing and annotating audiovisual corpora. The detailed analysis of these
+                    softwares is available in the white paper, freely accessible on the Hal open
+                    archive, via this QR code:</hi></head>
+            </figure>
+            <figure>
+                <graphic n="1005" width="4.092222222222222cm" height="4.092222222222222cm" url="Pictures/192552c7ecfa1e66f67a894af066dca7.png" rend="inline"/>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Besson, Remy</author> / <author>Lavorel, Marie</author>  (2023): <hi rend="italic">L’annotation vidéo pour la recherche. Usages et outils numériques :
+                            Livre blanc du consortium CANEVAS</hi>. Paris: MkF, 2023, (hal-04048886 )
+                    </bibl>
+                    <bibl>
+                        <author>Bourgatte, Michael</author> / <author>Tessier, Laurent</author> 
+                         (2017): 
+                        “Les outils d’annotation vidéo pour la
+                            recherche“, 
+                         in Cavalie, Etienne / Clavert, Frederic /
+                            Legendre, Olivier / Martin, Dana (eds.):
+                        <hi rend="italic">Expérimenter les humanités
+                            numériques : Des outils individuels aux projets collectifs.</hi>
+                         Presses de l’Université de Montréal, 19-36. doi :10.4000/books.pum.11100  
+                    </bibl>
+                    <bibl>
+                        <author>Burgess, Jean</author> / <author>Green, Joshua</author> 
+                         (2018):
+                        <hi rend="italic">YouTube : Online Video and
+                            Participatory Culture</hi>
+                         (3e édition). Cambridge : Polity.
+                    </bibl>
+                    <bibl>
+                        <author>Côté-Lapointe, Simon</author>
+                        (2019): 
+                        “Les documents audiovisuels numériques
+                            d’archives“.
+                        <hi rend="italic">Documentation et bibliothèques</hi>
+                        . 65, 3, 39–57.
+                            https://doi.org/10.7202/1064748ar
+                    </bibl>
+                    <bibl>
+                        <author>Delage Christian</author> / <author>Guigueno Vincent</author> 
+                        (2004):
+                        <hi rend="italic">L’Historien et le film</hi>
+                        . Paris: Gallimard, Folio Histoire.
+                    </bibl>
+                    <bibl>
+                        <author>Fleckinger, Hélène</author>
+                        (2018):
+                        “A camera of One’s Own : Video in Feminist
+                            Hands“, 
+                        in Temple Michael / Witt Michael (eds.):
+                        <hi rend="italic">The French cinema book</hi>
+                         (2nd Edition). London: BFI, 204-210.
+                    </bibl>
+                    <bibl>
+                        <author>Ferro, Marc</author>
+                        (1974):
+                        <hi rend="italic">Analyse de film, analyse de
+                            sociétés: une source nouvelle pour l'Histoire</hi>
+                        . Paris: Hachette.
+                    </bibl>
+                    <bibl>
+                        <author>Leblanc, Serge</author> / <author>Ria, Luc</author> / <author>Veyrunes, Philippe</author> 
+                         (2013): “Vidéo et analyse in situ des situations d’enseignement et de formation dans le programme du cours d’action”, in Veillard, Laurent/ Tiberghien, Andrée (eds):
+                        <hi rend="italic">Instrumentation de la recherche en
+                            Education. Le cas du développement d’une base de vidéos de situation
+                            d’enseignement et d’apprentissage ViSA</hi>
+                        . Maison des Sciences de l’Homme, 63-94.
+                    </bibl>
+                    <bibl>
+                        <author>Sebag, Joyce</author> / <author>Durand, Jean-Pierre</author> 
+                        (2020):
+                        <hi rend="italic">La sociologie filmique</hi>
+                        . Paris : CNRS Editions.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

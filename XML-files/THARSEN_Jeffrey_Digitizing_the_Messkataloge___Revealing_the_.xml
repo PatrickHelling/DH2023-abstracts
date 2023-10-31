@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitizing the Messkataloge: Revealing the History of German Publishers,
+                    Authors and Translators</title>
+                <author n="TharsenJeffreyTHARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml"><persName n="TharsenJeffrey">
+                        <surname>Tharsen</surname>
+                        <forename>Jeffrey</forename>
+                    </persName><affiliation>The University of Chicago, United States of America</affiliation><email>tharsen@uchicago.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KretzDavidTHARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml"><persName n="KretzDavid">
+                        <surname>Kretz</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>The University of Chicago, United States of America</affiliation><email>kretz@uchicago.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This project builds upon the work by German libraries to convert all 65,658 pages
+                    of the 536 Messkataloge (the printed “book catalogs” created for the Frankfurt
+                    and Leipzig book fairs from 1594 to 1860) from images to machine-readable
+                    plaintext, resulting in the first digital database of the Messkataloge. </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract>
+                <p>This project builds upon the work by German libraries to convert all 65,658 pages
+                    of the 536 Messkataloge (the printed “book catalogs” created for the Frankfurt
+                    and Leipzig book fairs from 1594 to 1860) from images to machine-readable
+                    plaintext, resulting in the first digital database of the Messkataloge. </p>
+            </abstract>
+            <textClass>
+
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>German Book History</term>
+                    <term>Messkataloge</term>
+                    <term>OCR</term>
+                    <term>critical editions</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>cultural analytics</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Cultural studies</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Studies of the history of the
+                    book in the early modern German-speaking world have been greatly aided by the
+                    creation of national bibliographies, or “VD”s (<hi rend="italic">Verzeichnis der
+                    Druckerzeugnisse</hi>). These exist in limited forms for the 16th, 17th, and 18th century; of these, only the VD for the 17th century can lay a claim to both near-comprehensiveness and digital accessibility, and no current <hi rend="italic">Verzeichnis</hi> exists for the 19th century. In recent decades, however, a consortium of German libraries converted the <hi rend="italic">Messkataloge</hi> (the printed “book catalogs” created for the Frankfurt and Leipzig book fairs from 1594 to 1860) to microfilm, and then generated PDFs of these catalogs: 536 registers totaling 65,658 pages.<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn1" n="1"/></p>
+            <p>Due to a lack of machine-readable versions, previous research into the <hi rend="italic">Verzeichnis</hi> has dealt with only a few individual catalogs of particular years.<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn2" n="2"/> We thus undertook a project building upon the work by these German libraries to harness the world’s most advanced Optical Character Recognition (OCR) system and convert all 65,658 pages of the <hi rend="italic">Messkataloge</hi> to machine-readable “plaintext”, achieving over 99% accuracy and resulting in the first digital database of the <hi rend="italic">Messkataloge.</hi><ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn3" n="3"/>This work has opened up exciting
+                    new possibilities, as scholars can now search the data for insights into, for
+                    example: where books were published during the formative periods of German
+                    publishing,<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn4" n="4"/> the rise and fall of particular genres,<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn5" n="5"/> of religious writings,<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn6" n="6"/> or the declining dominance of Latin,<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn7" n="7"/> with a precision hitherto unmatched (particularly for the 19th century).</p>
+            <p>To aid scholars, librarians, and book historians we are developing an open-source custom version of Google’s N-Gram Viewer via which one can plot relative and absolute word frequencies over time, determine covariance between terms, and investigate the wealth of data in the <hi rend="italic">Messkataloge</hi>for any time period during its
+                    production.<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn8" n="8"/> As a next step, we plan to develop tools that allow scholars to also group search terms into indices allowing for analyses of complex phenomena over time; for example, the phenomenon of secularization could be analyzed by combining searches for religious terms (e.g. “sermon,” “Catholic,” “Protestant,” “Bible,” “New Testament, “Old Testament” and so on) into one index. Certain biases to the representativeness of the catalogs have contributed to a lack of their consideration in the literature hitherto, and need to be noted: there is a focus on Northern German publishers, especially from Leipzig (which did, however, produce almost as many books as the rest of Germany together in the 18th century),<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn9" n="9"/> on Protestant over Catholic publishers, on books at the expense of other kinds of printed products, and we find occasional listings for forthcoming books that were ultimately not published.<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn10" n="10"/> Comparison with data from the VD17 and VD18 should help correct such biases.</p>
+            <p>Our ultimate goal is to aid in the production of a critical digital edition of the <hi rend="italic">Messkataloge</hi>: we are giving the database we
+                    have created to the German libraries that began this work to enable scholars and
+                    scholarship beyond what we can possibly envision at this point. Many exciting
+                    and concrete follow up projects suggest themselves already; we conclude by
+                    outlining just one of these in detail.</p>
+            <p>One prominent follow-up project to the <hi rend="italic">Messkataloge</hi> digitization takes its cue from Bachleitner’s call to combine translation studies with book history.<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn11" n="11"/> In a first step, we plan to cross-check the data from the Messkataloge with VD17 and VD18 data on translations (relative share of translations over time, in total, by genre, and publication place; relative share of source languages and genres among translations generally). In a second step, we will build a smaller database of translators’ prefaces that faithfully maps larger trends, focusing on the period of 1750-1830 which saw a revolution in translation theory and praxis.<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn12" n="12"/> This new research situates itself in relation to the existing research programmes inquiring into “small forms”<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn13" n="13"/> to empower scholars to examine the genesis and transformation of translators’ prefaces as a literary genre<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn14" n="14"/> (when does it emerge, for which texts, what are its genre conventions) and as a praxeological inquiry into the art of translation itself (what know-how has the praxis of itself, how do practitioners’ accounts of their work reflect the well-studied theoretical articulations by such luminaries as Goethe, Schleiermacher, Humboldt, and vice versa?).<ref target="#THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn15" n="15"/></p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn1">
+                    <ref target="http://www.olmsonline.de/kollektionen/messkataloge">http://www.olmsonline.de/kollektionen/messkataloge</ref> .
+                </note><note n="2" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn2">
+                     Göhler 1901, Jentzsch 1912, Düsterdieck 1974, Simons 2010, Wittmann 2011. An exception is Willenberg 2008, who considers 18th century <hi rend="italic">Messkataloge</hi> more broadly.
+                </note><note n="3" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn3">
+                    Walker 2018. Screenshot of the process:<ref target="https://ochre.lib.uchicago.edu/messkataloge/fraktur_ocr.png">https://ochre.lib.uchicago.edu/messkataloge/fraktur_ocr.png</ref>.<lb/>At present, the <hi rend="italic">Messkataloge</hi> database contains over 17.3 million individual tokens distributed over the 266 years of its production. See<ref target="https://ochre.lib.uchicago.edu/messkataloge/totals.html">https://ochre.lib.uchicago.edu/messkataloge/totals.html</ref>and<ref target="https://ochre.lib.uchicago.edu/messkataloge/om_totals.html">https://ochre.lib.uchicago.edu/messkataloge/om_totals.html</ref>.
+                </note><note n="4" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn4">
+                    <ref target="https://ochre.lib.uchicago.edu/messkataloge/staedte.html">https://ochre.lib.uchicago.edu/messkataloge/staedte.html</ref> . 
+                </note><note n="5" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn5">
+                    <ref target="https://ochre.lib.uchicago.edu/messkataloge/genres.html">https://ochre.lib.uchicago.edu/messkataloge/genres.html</ref> . 
+                </note><note n="6" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn6">
+                    <ref target="https://ochre.lib.uchicago.edu/messkataloge/religion.html">https://ochre.lib.uchicago.edu/messkataloge/religion.html</ref> . 
+                </note><note n="7" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn7">
+                    <ref target="https://ochre.lib.uchicago.edu/messkataloge/apud.html">https://ochre.lib.uchicago.edu/messkataloge/apud.html</ref> . The preposition “apud” suggests itself here as a proxy for Latinity as it appears in almost all Latin entries and almost none of the German-language entries.
+                </note><note n="8" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn8">
+                     Michel 2011.
+                </note><note n="9" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn9">
+                     Wittmann 1973, Raabe 1981.
+                </note><note n="10" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn10">
+                     Willenberg 2008, p. 107. 
+                </note><note n="11" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn11">
+                     Bachleitner 2010.
+                </note><note n="12" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn12">
+                     Kitzbichler et. al. 2009. 
+                </note><note n="13" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn13">
+                    <ref target="http://www.kleine-formen.de">www.kleine-formen.de</ref>. 
+                </note><note n="14" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn14">
+                    Knufmann 1967’s pioneering work considers translators’ prefaces only from a bibliographical perspective and lays no claim to the representativeness of his sample. 
+                </note><note n="15" xml:id="THARSEN_Jeffrey_Digitizing_the_Messkataloge___Revealing_the_.xml_ftn15">
+                     Goethe 1999 [1819], Humboldt 1816, Schleiermacher 1963 [1813].
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Bachleitner, Norbert</hi>. “A Proposal to Include Book History in Translation Studies. Illustrated with German Translations of Scott and Flaubert.” 
+                        <hi rend="italic">Arcadia</hi>
+                         44, no. 2 (2010): 420–40.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Düsterdieck, Peter</hi>. “Buchproduktion im 17. Jahrhundert. Eine Analyse der Messkataloge für die Jahre 1637 und 1658.” 
+                        <hi rend="italic">Archiv für
+                            Geschichte des Buchwesens</hi>
+                         14 (1974): 163–220.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Goethe, Johann Wolfgang von</hi>. “Übersetzungen.” In 
+                        <hi rend="italic">Noten und
+                            Abhandlungen zum besseren Verständnis des West-Östlichen Divans</hi>
+                        , edited by Michael
+                            Knaupp. 1819. Reprint, Stuttgart: Reclam, 1999.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Göhler, Karl Albert</hi>. 
+                        <hi rend="italic">Die
+                            Messkataloge im Dienste der Musikalischen Geschichtsforschung. Eine
+                            Anregung zur Zeitgenössischen Bücherbeschreibung.</hi>
+                         Leipzig: Breitkopf &amp; Härtel, 1901.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Humboldt, Wilhelm von</hi>. “Einleitung.” In 
+                        <hi rend="italic">Aischylos'
+                            Agamemnon</hi>
+                        . Leipzig: Gerhard
+                            Fleischer der Jüngere, 1816.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jentzsch, Rudolf</hi>. 
+                        <hi rend="italic">Der
+                            Deutsch-Lateinische Büchermarkt nach den Leipziger Ostermesskatalogen
+                            von 1740, 1770 und 1800 in seiner Gliederung und Wandlung.</hi>
+                         Leipzig: Voigtländer, 1912.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kitzbichler, Josefine, Katja Lubitz, and Nina Mindt, eds</hi>. 
+                        <hi rend="italic">Theorie der
+                            Übersetzung Antiker Literatur in Deutschland Seit 1800</hi>
+                        . Berlin: De Gruyter,
+                            2009.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Knufmann, Helmut</hi>. “Das Deutsche Übersetzungswesen des 18. Jahrhunderts im Spiegel von Übersetzer- und Herausgebervorreden.” 
+                        <hi rend="italic">Börsenblatt
+                            Für den Deutschen Buchhandel – Frankfurter Ausgabe.</hi>
+                         91 (1967).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Michel, Jean-Baptiste, Yuan Kui Shen, Aviva Presser Aiden, Adrian Veres, Matthew K. Gray, Google Books Team, Joseph P. Pickett et al</hi>. “Quantitative analysis of culture using millions of digitized books.” 
+                        <hi rend="italic">Science</hi>
+                         331, no. 6014 (2011): 176-182.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Raabe, Paul</hi>. “Der Buchhändler im 18. Jahrhundert.” In 
+                        <hi rend="italic">Buch und
+                            Buchhandel in Europa im 18. Jahrhundert</hi>
+                        , edited by Giles Barder
+                            and Bernhard Fabian, 271–92. Hamburg: Hauswedell, 1981.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schleiermacher, Friedrich D. E</hi>. “Über die verschiedenen Methoden des Übersetzens." In 
+                        <hi rend="italic">Das Problem
+                            des Übersetzens</hi>
+                        , edited by Hans Joachim
+                            Störig. 1813. Reprint, Darmstadt: Wissenschaftliche Buchgesellschaft,
+                            1963.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Simons, Oliver</hi>. “Messkataloge.” In 
+                        <hi rend="italic">Wikipedia</hi>
+                        , 2010.
+                        <ref target="https://de.wikipedia.org/wiki/Messkatalog"> </ref>
+                        <ref target="https://de.wikipedia.org/wiki/Messkatalog">https://de.wikipedia.org/wiki/Messkatalog</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Walker, J., Fujii, Y. and Popat, A.C.</hi>, 2018, April. “A web-based ocr service for documents.” In 
+                        <hi rend="italic">Proceedings
+                            of the 13th IAPR international workshop on document analysis systems
+                            (DAS)</hi>
+                        , Vienna, Austria (Vol.
+                            1).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Willenberg, Jennifer</hi>. 
+                        <hi rend="italic">Distribution und Übersetzung englischen Schrifttums im Deutschland des
+                            18. Jahrhunderts</hi>
+                        . München: K. G. Saur,
+                            2008.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wittmann, Reinhard</hi>. “Die Frühen Buchhändlerzeitschriften als Spiegel des Literarischen Lebens.” 
+                        <hi rend="italic">Archiv für
+                            Geschichte des Buchwesens</hi>
+                         13 (1973): 613–932.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wittmann, Reinhard</hi>. 
+                        <hi rend="italic">Die
+                            Geschichte des Deutschen Buchhandels</hi>
+                        . 3rd ed. 1991. Reprint,
+                            München: C.H.Beck, 2011.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

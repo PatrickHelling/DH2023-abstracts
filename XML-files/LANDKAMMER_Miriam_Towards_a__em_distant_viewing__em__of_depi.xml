@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards a <hi rend="italic">distant viewing</hi> of depicted materials in
+                    medieval paintings</title>
+                <author n="NickaIsabellaLANDKAMMER_Miriam_Towards_a__em_distant_viewing__em__of_depi.xml"><persName ref="https://orcid.org/0000-0002-3587-6606" n="NickaIsabella">
+                        <surname>Nicka</surname>
+                        <forename>Isabella</forename>
+                    </persName><affiliation>University of Salzburg, Austria</affiliation><email>isabella.nicka@plus.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="UhlAndreasLANDKAMMER_Miriam_Towards_a__em_distant_viewing__em__of_depi.xml"><persName ref="https://orcid.org/0000-0002-5921-8755" n="UhlAndreas">
+                        <surname>Uhl</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>University of Salzburg, Austria</affiliation><email>andreas.uhl@plus.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LandkammerMiriamLANDKAMMER_Miriam_Towards_a__em_distant_viewing__em__of_depi.xml"><persName n="LandkammerMiriam">
+                        <surname>Landkammer</surname>
+                        <forename>Miriam</forename>
+                    </persName><affiliation>University of Salzburg, Austria</affiliation><email>miriam.landkammer@plus.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LinortnerMichaelLANDKAMMER_Miriam_Towards_a__em_distant_viewing__em__of_depi.xml"><persName n="LinortnerMichael">
+                        <surname>Linortner</surname>
+                        <forename>Michael</forename>
+                    </persName><affiliation>University of Salzburg, Austria</affiliation><email>mlinortner@cs.sbg.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchuikiJohannesLANDKAMMER_Miriam_Towards_a__em_distant_viewing__em__of_depi.xml"><persName ref="https://orcid.org/0000-0002-6197-2327" n="SchuikiJohannes">
+                        <surname>Schuiki</surname>
+                        <forename>Johannes</forename>
+                    </persName><affiliation>University of Salzburg, Austria</affiliation><email>jschuiki@cs.sbg.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The contribution highlights the importance of developing DH methods for large-scale investigation of depicted materials and surface qualities in medieval painting. Preliminary findings from our project, which is developing methods for AI-based recognition of materials in digitized paintings and evaluating their application to address art historical research questions, are presented.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Materiality</term>
+                    <term>Painting</term>
+                    <term>Image Annotation</term>
+                    <term>Texture Classification</term>
+                    <term>Deep Learning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>Art history</term>
+                    <term>Computer science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>How are materials (e.g. wood or stone) depicted in
+                medieval visual media, what role do representations of texture or surface quality
+                play in communicating with beholders, and what further conclusions can be drawn
+                about this artistic period by their exploration? Identifying patterns or outliers
+                concerning the imitation of materials in medieval paintings has up to now been
+                possible only on a very small scale, as relevant digital metadata are rarely
+                available for an application of DH methods and a distant viewing approach (cf.
+                Arnold / Tilton 2019, Klinke 2020, Nicka 2019: 100–119). Establishing the importance
+                of such DH-analyses, as well as collaborating with computer vision to be able to
+                (semi-)automatically recognize and compare depicted surface textures, their
+                positions and proportions in medieval visual media in the future are therefore the
+                main objectives of the KIKI-project ( <hi rend="italic">Wie das Material ins Bild
+                    kam: Kulturelle Innovationen interdisziplinär mit künstlicher Intelligenz
+                    erforschen</hi>), funded by the federal state Salzburg. </p>
+            <p>Computer vision methods have been applied with different
+                objectives in the field of art historical or preservation-related analysis of
+                paintings, ranging i.a. from artist or style classification to object detection, and
+                the detection of human poses (Cetinic 2021). Also the recognition of materials used
+                in the production of paintings has been addressed (Kleynhans et al. 2020). In
+                contrast, the project KIKI develops and tests deep learning-based techniques for the
+                recognition of materials represented with painterly means. The adaption of an
+                object-recognition CNN targeted for natural scenes for detecting material depictions
+                in paintings has been occasionally examined (Lin et al. 2021), however main emphasis
+                was given towards exploiting the training on paintings to improve CNNs used on
+                natural images. This project explores the use of AI-based material recognition to
+                allow for comparison of the imitation of surface textures across large corpora of
+                artworks in the future. For material characterisation, we will particularly focus on
+                deep learning-based texture classification techniques [Aggarwal 2021], as proposed
+                for classical CV-related texture datasets and adapt those for material detection,
+                and as well adapt semantic segmentation techniques [Castellano 2021] (see for an
+                example a survey of domain-specific semantic segmentation techniques [Yuan 2021]) to
+                determine the exact shape of the respective objects. In order to limit annotation
+                cost across different painting styles, we will formulate the transition among
+                painting styles as domain adaptation, to be able to exploit material labels across
+                painting styles.</p>
+            <p>The perspective of Materialikonologie – the inquiry into
+                the role that the physical materials of the artwork play in its meaning – has been
+                central to the study of medieval art since the late 1960s (Bandmann 1969, Raff 1994,
+                Reudenbach 2002). Much less attention has been directed to materials evoked,
+                imitated or fictionalised within pictures, such as rock (Rachman-Schrire 2019, Kim
+                2019), marble (Mestemacher 2021, Dunlop 2016, Didi-Huberman 1995), coral (Saß 2012)
+                or skin and (semi-)transparent materials (Lehmann 2016, Bol / Lehmann 2012). These
+                studies have carved out, amongst other things, interdependences between depicted
+                materials and painting materials/processes, pictorial references to pre-modern
+                natural philosophy or religious materialist allegoresis, relations to the
+                contemporary availability or valuing of certain materials. They thus have shown the
+                analytical potential of depicted materials for our understanding of medieval visual
+                works of art.</p>
+            <p>In KIKI, alongside the focus on AI-based material
+                recognition techniques, a dataset on 14th- and 15th-century painting with existing
+                relevant high-level annotations from the REALonline image database is used for
+                exploratory art historical analyses on depicted materials. These manually generated
+                annotations are modelled as scene graphs (cf. Matschinegg et al. 2019) and depicted
+                materials are recorded as properties of object nodes, thus creating robust data for
+                queries related to iconographic subjects, further depicted entities etc. </p>
+            <p>In our presentation, we will focus on the one hand on the
+                interim results of these exploratory analyses, showing how visualisations based on
+                the REALonline data aid in detecting and documenting clusters of specific use of
+                materials in images. On the other hand, by exploring in depth material
+                representations in specific contexts, we have found that more specific labeling
+                categories are needed in order to compare textures like various wood grains, that
+                can serve specific functions in the pictorial narrative. These multiple categories
+                also affect the requirements on annotation tools as the metadata is much richer as
+                compared to classical CV-oriented annotations, and we will demonstrate how
+                traditional annotation software is used to meet those requirements. With respect to
+                first results, we will show outcomes of wood-related retrieval attempts using
+                real-world wood photographs to retrieve depicted wood in our target images.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Arnold, Taylor</author> / <author>Tilton, Lauren</author> (2019): “Distant viewing: analyzing large visual corpora”, in: <hi rend="italic">Digital Scholarship in the Humanities</hi> 34, Issue
+                        Supplement 1: i3–i16. DOI: <ref target="https://doi.org/10.1093/llc/fqz013">10.1093/llc/fqz013</ref>. </bibl>
+                    <bibl><author>Aggarwal, Akarsh</author> / <author>Kumar, Manoj</author> (2021): “Image surface texture analysis and classification using deep
+                        learning”, in: <hi rend="italic">Multimedia Tools and Applications</hi> 80:
+                        1289–1309. DOI: <ref target="https://doi.org/10.1007/s11042-020-09520-2">10.1007/s11042-020-09520-2</ref>. </bibl>
+                    <bibl><author>Bandmann, Günter </author>(1969):
+                        „Bemerkungen zu einer Ikonologie des Materials“, in: <hi rend="italic">Städel</hi>
+                        <hi rend="italic">‐</hi>
+                        <hi rend="italic">Jahrbuch</hi> n.F. 2: 75–100. </bibl>
+                    <bibl><author>Bol, Marjolijn</author> / <author>Lehmann, Ann-Sophie</author> (2012): “Painting Skin and Water: Towards a Material
+                        Iconography of Translucent Motifs in Early Netherlandish Painting”, in:
+                        Campbell, Lorne / van der Stock, Jan / Reynolds, Catherine / Watteeuw, Lieve
+                        (eds.): <hi rend="italic">Rogier van der Weyden in Context: papers presented
+                            at the Seventeenth Symposium for the Study of Underdrawing and
+                            Technology in Painting</hi>, Leuven, October 2009: 215–225. </bibl>
+                    <bibl><author>Castellano, Giovanna</author> / <author>Vessio, Gennaro</author> (2021): “Deep learning approaches to pattern extraction and
+                        recognition in paintings and drawings: an overview”, in: <hi rend="italic">Neural Computation and Applications</hi> 33: 12263–12282. DOI: <ref target="https://doi.org/10.1007/s00521-021-05893-z">10.1007/s00521-021-05893-z</ref>. </bibl>
+                    <bibl><author>Cetinic, Eva</author> / <author>She, James</author> (2021): “Understanding and Creating Art with AI: Review and Outlook”,
+                        in: <hi rend="italic">Computing Research Repository (CoRR)</hi>:
+                        abs/2102.09109. DOI: <ref target="https://doi.org/10.48550/arXiv.2102.09109">10.48550/arXiv.2102.09109</ref>. </bibl>
+                    <bibl><author>Didi-Huberman, Georges
+                        </author>(1995): <hi rend="italic">Fra Angelico: Unähnlichkeit und
+                            Figuration</hi>. München: Brill. </bibl>
+                    <bibl><author>Dunlop, Anne </author>(2016): “On
+                        the origins of European painting materials, real and imagined”, in:
+                        Anderson, Christy / Dunlop, Anne / Smith, Pamela H. (eds.): <hi rend="italic">The matter of art</hi>. Materials, practices, cultural
+                        logics, c. 1250–1750. Manchester UK: Manchester University Press 68–96. </bibl>
+                    <bibl><author>Kim, David Y. </author>(2019):
+                        „Stonework and Crack in Giovanni Bellini’s St. Francis in the Desert”, in:
+                        Augart, Isabella / Saß, Maurice / Wenderholm, Iris (eds.): <hi rend="italic">Steinformen</hi>. Materialität, Qualität, Imitation. Berlin/Boston: De
+                        Gruyter 59–74. </bibl>
+                    <bibl><author>Kleynhans, Tania</author> / <author>Delaney, John K.</author> / <author>Messinger, David W.</author> (2020): “Automatic material
+                        classification of paintings in illuminated manuscripts from VNIR reflectance
+                        hyperspectral data cubes”, in: <hi rend="italic">Algorithms, Technologies,
+                            and Applications for Multispectral and Hyperspectral Imagery XXVI:
+                            Proceedings Volume 11392</hi>: 113920J. </bibl>
+                    <bibl><author>Klinke, Harald </author>(2020):
+                        “The Digital Transformation of Art History”, in: Brown, Kathryn (ed.): <hi rend="italic">The Routledge Companion to Digital Humanities and Art
+                            History</hi>. New York/London: Routledge 32–42. DOI:
+                        10.4324/9780429505188. </bibl>
+                    <bibl><author>Lehmann, Ann-Sophie
+                        </author>(2016): “Small Hairs: Meaning and Material of a Multiple Detail in the
+                        Ghent Altarpiece’s Adam and Eve Panels”, in: Currie, Christina / Fransen,
+                        Bart et al. (eds.): <hi rend="italic">Van Eyck Studies</hi>. Leuven: Peeters
+                        104–116. </bibl>
+                    <bibl><author>Lin, Hubert</author> / <author>Van Zuijlen, Mitchell</author> / <author>Wintjes, Maarten W.A.</author> / <author>Pont, Sylvia C.</author> / <author>Bala, Kavita</author> (2021): “Insights From A Large-Scale Database of Material Depictions In
+                        Paintings”, in: Del Bimbo, Alberto / Cucchiara, Rita et al. (eds.): <hi rend="italic">Pattern Recognition. ICPR International Workshops and
+                            Challenges</hi>, Virtual Event, January 2021, Proceedings 3: 531–545. </bibl>
+                    <bibl><author>Matschinegg, Ingrid</author> / <author>Nicka, Isabella</author> / <author>Hafner, Clemens</author> / <author>Stettner, Martin</author> / <author>Zedlacher, Stefan</author> (2019): „Daten neu verknoten. Die Verwendung einer Graphdatenbank für
+                        die Bilddatenbank REALonline“, in: Blümm, Mirjam / Kollatz, Thomas /
+                        Schmunk, Stefan / Schöch Christof (eds.), <hi rend="italic">DARIAH-DE
+                            Working Papers</hi> 31: 1–36 (co-edited by Kuczera, Andreas). URN: <ref target="http://nbn-resolving.org/urn:nbn:de:gbv:7-dariah-2019-3-5">urn:nbn:de:gbv:7-dariah-2019-3-5</ref>. </bibl>
+                    <bibl><author>Mestemacher, Ilka </author>(2021):
+                            <hi rend="italic">Marmor, Gold und Edelsteine</hi>. Materialimitation in
+                        der karolingischen Buchmalerei. Berlin/Boston: De Gruyter. </bibl>
+                    <bibl><author>Nicka, Isabella </author>(2019):
+                        „Object Links in/zu Bildern mit REALonline analysieren“, in: Institut für
+                        Realienkunde des Mittelalters und der frühen Neuzeit (ed.), <hi rend="italic">Object Links – Dinge in Beziehung</hi>. Wien/Köln/Weimar:
+                        Böhlau: 95–126. </bibl>
+                    <bibl><author>Rachman-Schrire, Yamit
+                        </author>(2019): “Christ’s Side-Wound and Francis’ Stigmatization at La-Verna:
+                        Reflections on the Rock of Golgotha”, in: Augart, Isabella / Saß, Maurice /
+                        Wenderholm, Iris (eds.): <hi rend="italic">Steinformen</hi>. Materialität,
+                        Qualität, Imitation. Berlin/Boston: De Gruyter 45–57. </bibl>
+                    <bibl><author>Raff, Thomas </author>(1994): <hi rend="italic">Die Sprache der Materialien</hi>. Anleitung zu einer
+                        Ikonologie der Werkstoffe. München: Waxmann. </bibl>
+                    <bibl><author>Reudenbach, Bruno </author>(2002):
+                        „‚Gold ist Schlamm‘: Anmerkungen zur Materialbewertung im Mittelalter“, in:
+                        Wagner, Monika / Rübel, Dietmar (eds.): <hi rend="italic">Material in Kunst
+                            und Alltag</hi>. Berlin: Akademie Verlag 1–12. </bibl>
+                    <bibl><author>Saß, Maurice </author>(2012):
+                        „Gemalte Korallenamulette: Zur Vorstellung eigenwirksamer Bilder bei Piero
+                        della Francesca, Andrea Mantegna und Camillo Leonardi“, in: <hi rend="italic">Kuns</hi>ttexte 1: 1–53 <ref target="https://edoc.hu-berlin.de/bitstream/handle/18452/8299/sass.pdf">https://edoc.hu-berlin.de/bitstream/handle/18452/8299/sass.pdf</ref>
+                        [27.04.2023]. </bibl>
+                    <bibl><author>Yuan, Xiaohui</author> / <author>Shi, Jianfang</author> / <author>Gu, Lichuan</author> (2021): “A review of deep learning methods for semantic
+                        segmentation of remote sensing imagery”, in: <hi rend="italic">Expert
+                            Systems with Applications</hi> 169: 114417. DOI: <ref target="https://doi.org/10.1016/j.eswa.2020.114417">10.1016/j.eswa.2020.114417</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

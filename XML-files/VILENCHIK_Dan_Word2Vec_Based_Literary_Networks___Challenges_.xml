@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Word2Vec-Based Literary Networks - Challenges and Opportunities </title>
+                <author n="MarienbergMillikowskyItayVILENCHIK_Dan_Word2Vec_Based_Literary_Networks___Challenges_.xml"><persName n="MarienbergMillikowskyItay">
+                        <surname>Marienberg-Millikowsky</surname>
+                        <forename>Itay</forename>
+                    </persName><affiliation>Ben-Gurion University of the Negev, Israel</affiliation><email>itay.marienberg@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VilenchickDanVILENCHIK_Dan_Word2Vec_Based_Literary_Networks___Challenges_.xml"><persName n="VilenchickDan">
+                        <surname>Vilenchick</surname>
+                        <forename>Dan</forename>
+                    </persName><affiliation>Ben-Gurion University of the Negev, Israel</affiliation><email>vilenchi@bgu.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We propose and conceptualize an approach for literary network analysis that does not rely on co-appearance, but rather what can be called semantic context: characters are connected if they share a semantic neighborhood, or similar meaning-based contexts, even if they are distant in the text sequence.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>literary network analysis</term>
+                    <term>undogmatic reading</term>
+                    <term>distant reading</term>
+                    <term>word2vec</term>
+                    <term>semantics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>Computer science</term>
+                    <term>Literary studies</term>
+                    <term>Mathematics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The construction and analysis of social networks in literary texts has been one of the recent most prominent applications of computational literary studies (Elson et al. 2010; Moretti 2011). Since novels and short stories represent a fictional social world, this application seems particularly appropriate. But like other literary phenomena examined by computational tools, character networks cannot be taken for granted; Automatic-extracted graphs are not just another way of reading, and their measurement cannot ignore conceptual problems (Moretti 2013; Meister 2013; Flüh et al. 2021). The common approach to model relationships between characters is by using relational graphs. In that graph, nodes represent a character, and an edge connecting two nodes signifies some relationship between them. The edges can be weighted or not. When applied to the literary text, the graph is usually derived from the co-appearance relation of characters. There are different ways to quantify the co-appearance; one common way is just to count in how many sentences/paragraphs the two characters appear together (the edge weight is that number); another way is to consider direct dialogues (this method already needs AI - or, in the case of a small corpus, manual annotation - to separate a simple co-appearance from direct dialogue).<lb/><lb/>In this work - to the best of our knowledge, for the first time - we take a completely different approach that does not rely on co-appearance, but rather on what can be called semantic context. Conceptually, we want to connect two characters by an edge if they share a semantic neighborhood. Namely, if they appear in similar meaning-based contexts, even (or especially) when these contexts are far apart in terms of their position in the linear sequence of the text. This approach is being used in the field of Natural Language Processing (NLP) to accomplish tasks like machine translation, topic modeling, hate speech detection, etc. Such a method for example may connect “milk” and “cookie” with an edge because they appear in similar contexts such as breakfast, or tea-time. It may also connect “happy” and “sad” as they are both emotions and therefore appear in similar contexts (“I was happy/sad to see you leave”). Thus the semantic contextual relationship approach goes beyond synonyms or trivial similarities, and may find more complex layers of association.
+                <lb/><lb/>To make things concrete, we shall use the word2vec technology. Word2vec is a group of models that are used to produce word embeddings. These models are shallow, two-layer neural networks that are trained to reconstruct linguistic contexts of words. Word2vec takes as its input a large corpus of text and produces a vector space, typically of several hundred dimensions, with each unique word in the corpus being assigned a corresponding vector in the space. Word vectors are positioned in the vector space in such a way that words that share common contexts in the corpus are located close to one another (cosine similarity). In our work we are mainly interested in the embedding of the names of the characters. There are some technical obstacles to overcome (for example, how to recognize nicknames); but these are mere technicalities that are already handled pretty well by existing software packages like BookNLP.
+                    <lb/>We are going to train a word2vec model on a given book. 
+                <lb/>There are two options that one can consider: take a pre-trained network and fine-tune it on the book, or train from scratch. Each choice has its merits, and both can be tested. Once we obtain an embedding, we compute the cosine similarity between every pair of characters. For each pair, this will give some score in the range [-1,1]. A score close to 0 stands for a weak relationship. A score close to 1 (or -1, but negative scores are rarely obtained, and if so, are typically close to 0) signifies a very strong relationship. We discreteize the range into three labels: “strong”, ”medium”, ”weak”. Weak edges will not appear, medium will be colored blue and strong - red. Now that we have this weighted graph, we can ask the same questions as before, just noting that the interpretation may be different than in the co-appearance model. For example, the character with the highest degree (or highest red-degree) will be a central character in the plot, but in the sense that it plays a similar semantic contextual role with many other characters; in that capacity, it may be a prominent driving force of events. A red connection triangle, for example, built on the basis of a semantic model, may differ greatly from connection triangles built on the basis of co-appearance models: even if the characters within it rarely communicate with each other, they may perform similar metaphorical, symbolic, or plot-wise functions (think of two lovers of the same character; three characters representing diverse views in a certain ideological system; and the like).<lb/><lb/>One computational caveat that needs to be addressed is that co-appearance naturally affects the embedding. If we take the extreme case of two characters that always appear together, then naturally they will also have the same context. There are some measures to control this effect if called for. One way is to change the window of the word2vec; smaller windows will rarely include two characters. Another way is to ignore windows that contain more than one character. From a literary point of view, the potential of such an approach is promising, as it enables the examination of hidden parallel relations, which are among the most important organizing principles of prose. This approach, however, is also full of challenges, including the fact that semantic linguistic similarity does not always correlate with literary similarity.
+                <lb/><lb/><figure><graphic n="1001" width="16.002cm" height="8.011583333333334cm" url="Pictures/b558f9f6bd5a798d1bd4ed3b557afb31.png" rend="inline"/><lb/><head>Figure no.1. A word2vec network model of ‘A Perfect Peace’ by Amos Oz. Cosine similarity is marked on edges. Color codes were normalized by co-appearance to control for that effect.</head></figure>
+                <lb/></p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Elson, David</author>
+                         (2010): “Extracting Social Networks from Literary Fiction”, in: 
+                        <hi rend="italic">Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics</hi>
+                        , 138–147. 
+                    </bibl>
+                    <bibl>
+                        <author>Flüh, Marie</author>
+                         (2021): “Introduction: Undogmatic Reading– from Narratology to Digital Humanities and Back”, in: Flüh, Marie, Jan Horstmann, Janina Jacke, Mareike Schumacher (eds.): 
+                        <hi rend="italic">Toward Undogmatic Reading: Narratology, Digital Humanities and Beyond</hi>
+                        . Hamburg: Hamburg University Press, 11-29. 
+                    </bibl>
+                    <bibl>
+                        <author>Meister, Jan Christoph</author>
+                         (2013): “Computerphilologie vs. Digital Text Studies. Von der pragmatischen zur methodologischen Perspektive auf die Digitalisierung der Literaturwissenschaften“, in: Christine Grond-Rigler und Wolfgang Straub (eds.): 
+                        <hi rend="italic">Literatur und Digitalisierung</hi>
+                        . Berlin and Boston, 267–296. 
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, Franco</author>
+                         (2011): 
+                        <hi rend="italic">Network Theory, Plot Analysis</hi>
+                        , Stanford Literary Lab Pamphlet 2. 
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, Franco</author>
+                         (2013): 
+                        <hi rend="italic">Operationalizing: or, the Function of Measurement in Modern Literary Theory</hi>
+                        . Stanford Literary Lab Pamphlets 6.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

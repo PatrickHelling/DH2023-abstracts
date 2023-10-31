@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Results of Emotion Annotation in German Drama from 1650-1815</title>
+                <author n="SchmidtThomasSCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml"><persName n="SchmidtThomas">
+                        <surname>Schmidt</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>Media Informatics Group, University of Regensburg, Germany</affiliation><email>thomas.schmidt@ur.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DennerleinKatrinSCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml"><persName ref="https://orcid.org/0000-0003-0059-9597" n="DennerleinKatrin">
+                        <surname>Dennerlein</surname>
+                        <forename>Katrin</forename>
+                    </persName><affiliation>Institute for German Philology, Julius-Maximilians Universität Würzburg, Germany</affiliation><email>katrin.dennerlein@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WolffChristianSCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml"><persName n="WolffChristian">
+                        <surname>Wolff</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>Media Informatics Group, University of Regensburg, Germany</affiliation><email>christian.wolff@ur.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present an overview of the final results of the annotation task of the Emotions in Drama (EmoDrama) research project which are corpora of 18 historical German plays annotated with over 21,000 emotion annotations. We present distribution results, agreement statistics and discuss application areas of this unique corpora.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Emotion Analysis</term>
+                    <term>Corpus</term>
+                    <term>Drama</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>natural language processing</term>
+                    <term>semantic analysis</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>We present results of the research project 
+                    <hi rend="italic">Emotions in Drama </hi>(EmoDrama)
+                    <ref target="#SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn1" n="1"/> which is a collaboration between literary scholars and computer scientists. The goal of the project is to perform computational emotion prediction to analyze historical German plays from 1650-1815 and to advance previous research in the field of sentiment and emotion analysis on dramatic texts (Alm/Sproat 2005; Mohammad 2011; Nalisnick/Baird 2013; Schmidt/Burghardt, 2018; Schmidt et al., 2018; 2019; Yavuz, 2021). In the following chapters, we elaborate on results of the annotation task of our project: A corpus of 18 German plays with over 21,000 emotion annotations.
+                    <ref target="#SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn2" n="2"/></p>
+            </div>
+            <div type="div1">
+                <head>Annotation</head>
+                <p>The annotation process and scheme were derived in an iterative process and are focused on literary emotion concepts important for the time. Our annotation scheme is hierarchical and consists of 6 main emotion classes and 13 sub emotions with positive or negative polarity (figure 1). We annotated 18 plays that are representative for our time period in style and genre (figure 2).</p>
+                <figure>
+                    <graphic n="1001" width="8.505633333333334cm" height="6.391413888888889cm" url="Pictures/003c162723e584040bb32538ff3f7790.jpg" rend="inline"/>
+                    <head>Figure 1. Emotion scheme.</head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="9.503836111111111cm" height="6.391413888888889cm" url="Pictures/8714a0fbec63f976ccb00b8f6c343870.png" rend="inline"/>
+                    <head>Figure 2. Annotated plays.</head>
+                </figure>
+                <p>Plays were acquired via Fischer et al. (2019) and other online sources.
+                    <ref target="#SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn3" n="3"/> Each play was annotated by two annotators (6 annotators overall) independent from each other with the CATMA tool (Gius et al. 2020). Annotators were trained in annotation sessions and used an annotation manual specifically developed for this task (Dennerlein et al. 2022c). The annotation was performed content- as well as context-sensitive: Annotators annotated what characters of the play felt as expressed in the text (example: figure 3). The annotation spans could be chosen as the annotators saw fit including overlapping emotion annotations since this proved to be beneficial for our research goals. More information about the annotation process can be found in previous research (Schmidt et al., 2021a; Dennerlein et al., 2022c).
+                </p>
+                <figure>
+                    <graphic n="1003" width="10.483777777777778cm" height="4.690658333333333cm" url="Pictures/7345e00f328e2141409c56acdc98eb99.png" rend="inline"/>
+                    <head>Figure 3. Example annotation from CATMA. Purple (both lines) is marked as suffering. Blue (last four words) is love. Excerpt from J.E. Schlegel’s 
+                        <hi rend="italic">Canut</hi> (Own translation: My king, the grace you return to me is putting me to shame since this shows how you love me).
+                    </head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Annotated corpora</head>
+                <p>The annotation resulted in the acquisition of 21,609 single annotations which is equivalent to 543,518 annotated tokens (table 1). Of these annotations, the majority are negative emotions (11,706; 54%) followed by positive (8,074; 37%) and the special case ‘emotional movement’ (1,829; 8%).</p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="11.724569444444445cm" url="Pictures/3fb6838d4746c11b785f06edba2a8e8b.png" rend="inline"/>
+                    <head>Table 1. Statistics for emotion annotations. Main classes (MC) are followed by their sub emotions. </head>
+                </figure>
+                <p>The most frequent main classes are the emotions of ‘rejection’ (24%) and ‘affection’ (23%). For the sub-emotions, ‘suffering’ (16%) and ‘love’ (13%) are annotated the most. Token statistics show that the annotation span in the text was on average 25 tokens (around 2 sentences). </p>
+                <p>Due to the varied and overlapping annotation spans, we calculated agreement by assigning the emotion type that was annotated the most for each annotator (in number of words) for each stage direction and speech. We then analyze the annotation agreement via Cohen’s κ and percentage-wise agreement (table 2).</p>
+                <figure>
+                    
+                    <graphic n="1005" width="16.002cm" height="1.5434027777777777cm" url="Pictures/e12b4f619ae387ebdca948b20b44d41d.png" rend="inline"/>
+                    <head>Table 2. Agreement statistics.</head>
+                </figure>
+                <p>On average the κ-values range from 0.45 to 0.36 depending on the emotion class which points from moderate to fair agreement according to Landis and Koch (1977). Token based agreements show similar results. The overall values are lower than in sentiment analysis projects with contemporary texts (cf. Mäntylä et al. 2018) but in line with annotation studies on literary and historical texts (Alm/Sproat 2005; Sprugnoli et al. 2015; Schmidt et al. 2018; 2019). We identified the problems of agreement as an inherent attribute of the interpretability of literary texts based on reports by the annotators. To construct a final corpus usable for machine learning, we filtered any annotations the two annotators per play disagreed partially or fully on per emotion group. That means, only annotations remained on which both annotators agreed upon or only one annotator made an annotation for a text unit. In the case of sub-emotions this leads to the removal of annotations with 12,701 (59% of all annotations by both annotators) single annotations remaining.</p>
+                <p>Furthermore, a lot of material is not annotated at all. Thus, in a version of the corpus we include non-annotated text. Table 3 shows distributions and statistics of this corpus filtered by disagreement and extended with non-annotated material for the sub emotions group.</p>
+                <figure>
+                    <graphic n="1006" width="16.002cm" height="12.280194444444444cm" url="Pictures/f1c22842b967433c04075c031597262f.png" rend="inline"/>
+                    <head>Table 3. Emotion annotation statistics for the filtered corpus including non-annotated material.</head>
+                </figure>
+                <p>While the overall distributions of the emotions after filtering do not change, the addition of the non-annotated material shows new insights. Around half of the material is non-annotated (11,901; 48%) compared to the filtered annotated texts (12,701; 52%). </p>
+            </div>
+            <div type="div1">
+                <head>Discussion</head>
+                <p>The emotion-annotated corpora we acquired are a unique data source for digital humanities and computational literary studies. To our knowledge, no other corpus for this literary genre exists with a similar amount of context- and content-sensitive emotion annotations. The application areas are multifaceted: We performed annotation analysis investigating emotion developments across plays (Dennerlein et al. 2022a; 2022b) and used the corpora to build emotion classification algorithms (Schmidt et al. 2021b; 2021c; 2022) which we then used to explore genre differences (Dennerlein et al. 2022b; Dennerlein et al. 2023b) or differences in stage directions and character speeches (Dennerlein et al. 2023a). We publish the corpus and additional data as CSV / JSON files.
+                    <ref target="#SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn4" n="4"/></p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn1">
+                         The project 
+                            <hi rend="italic">Emotions in Drama</hi> (
+                            <hi rend="italic">EmoDrama</hi>) is funded by the DFG (German Research Association) in the priority program 
+                            <hi rend="italic">Computational Literary Studies </hi>(SPP 2207/1) with two grants (project number 424207618; grants DE 2188/3-1 und WO 835/4-1). For more information see 
+                            <ref target="https://dfg-spp-cls.github.io/projects_en/2020/01/24/TP-Emotions_in_Drama/">https://dfg-spp-cls.github.io/projects_en/2020/01/24/TP-Emotions_in_Drama/</ref>.
+                    </note><note n="2" xml:id="SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn2">
+                         Corpus/Data available via 
+                            <ref target="https://github.com/lauchblatt/Emotions_in_Drama">https://github.com/lauchblatt/Emotions_in_Drama</ref><ref target="https://github.com/lauchblatt/Emotions_in_Drama">.</ref>
+                    </note><note n="3" xml:id="SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn3">
+                        <ref target="https://textgrid.de/">https://textgrid.de/</ref>, 
+                            <ref target="http://lithes.uni-graz.at/maezene/maezene_startseite.html">http://lithes.uni-graz.at/maezene/maezene_startseite.html</ref>
+                    </note><note n="4" xml:id="SCHMIDT_Thomas_Results_of_Emotion_Annotation_in_German_Drama.xml_ftn4">
+                        <ref target="https://github.com/lauchblatt/Emotions_in_Drama">https://github.com/lauchblatt/Emotions_in_Drama</ref><ref target="https://github.com/lauchblatt/Emotions_in_Drama">.</ref>
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alm, Cecilia O.</author> / <author>Sproat, Richard</author>  (2005). “Emotional Sequencing and Development in Fairy Tales”, in: Tao, Jianhua / Tan, Tieniu / Picard, Rosalind W. (eds.): 
+                        <hi rend="italic">Affective Computing and Intelligent Interaction</hi>. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer: 668–674. DOI: 
+                        <ref target="https://doi.org/10.1007/11573548_86">10.1007/11573548_86</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Dennerlein, Katrin</author> / <author>Schmidt, Thomas</author> / <author>Wolff, Christian</author>  (2022a): “Emotionen im kulturellen Gedächtnis bewahren”, in: 
+                        <hi rend="italic">DHd 2022 Kulturen des digitalen Gedächtnisses. 8. Tagung des Verbands ‘Digital Humanities im deutschsprachigen Raum’ (DHd 2022)</hi>. Potsdam, Zenodo: 93–98. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.6327957">10.5281/zenodo.6327957</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Dennerlein, Katrin</author> / <author>Schmidt, Thomas</author> / <author>Wolff, Christian</author>  (2022b): “Emotion Courses in German Historical Comedies and Tragedies”, in: 
+                        <hi rend="italic">Book of Abstracts, Digital Humanities 2022 (DH2022). Responding to Asian Diversity</hi>. Tokyo, Japan: The University of Tokyo: 193–197.
+                    </bibl>
+                    <bibl>
+                        <author>Dennerlein, Katrin</author> / <author>Schmidt, Thomas</author> / <author>Wolff, Christian</author>  (2022c): Figurenemotionen in deutschsprachigen Dramen annotieren. Zenodo. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.6228152">10.5281/zenodo.6228152</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Dennerlein, Katrin</author> / <author>Schmidt, Thomas</author> / <author>Wolff, Christian</author>  (2023a; in print): “Emotions in Stage Directions in German Drama of the Early Modern Period: Explorations via Computational Emotion Classification”, in: Andresen, Melanie / Reiter, Nils / Krautter, Benjamin / Pagel, Janis (eds.): 
+                        <hi rend="italic">Computational Drama Analysis: Achievements and Opportunities</hi>. Berlin/New York: de Gruyter.
+                    </bibl>
+                    <bibl>
+                        <author>Dennerlein, Katrin</author> / <author>Schmidt, Thomas</author> / <author>Wolff, Christian</author>  (2023b; to appear): „Computational Emotion Classification for Genre Corpora of German Tragedies and Comedies from 17
+                        <hi rend="superscript">th</hi> to 19
+                        <hi rend="superscript">th</hi> Century”, in: Digital Scholarship in the Humanities.
+                    </bibl>
+                    <bibl>
+                        <author>Fischer, Frank et al.</author> (2019): “Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama”, in: 
+                        <hi rend="italic">Book of Abstracts, Digital Humanities Conference 2019 (DH 2019)</hi>. Utrecht, Netherlands. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.4284002">10.5281/zenodo.4284002</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Gius, Evelyn et al.</author> (2020): 
+                        <hi rend="italic">CATMA.</hi> Zenodo. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.4353618">10.5281/zenodo.4353618</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Landis, J. Richard</author> / <author>Koch, Gary G.</author>  (1977): “The Measurement of Observer Agreement for Categorical Data”, in: 
+                        <hi rend="italic">Biometrics</hi>, 
+                        33(1): 159–174.
+                    </bibl>
+                    <bibl>
+                        <author>Mäntylä, Mika V.</author> / <author>Graziotin, Daniel</author> / <author>Kuutila, Miikka</author>  (2018): “The Evolution of Sentiment Analysis—A Review of Research Topics, Venues, and Top Cited Papers”, in: 
+                        <hi rend="italic">Computer Science Review</hi>, 
+                        27: 16–32. DOI: 
+                        <ref target="https://doi.org/10.1016/j.cosrev.2017.10.002">10.1016/j.cosrev.2017.10.002</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Mohammad, Saif</author> (2011): “From Once Upon a Time to Happily Ever After: Tracking Emotions in Novels and Fairy Tales”, in: 
+                        <hi rend="italic">Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi>. Portland, OR, USA: Association for Computational Linguistics: 105–114.
+                    </bibl>
+                    <bibl>
+                        <author>Nalisnick, Eric T.</author> / <author>Baird, Henry S.</author>  (2013): “Character-to-Character Sentiment Analysis in Shakespeare’s Plays”, in: 
+                        <hi rend="italic">Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</hi>. Sofia, Bulgaria: Association for Computational Linguistics: 479–483. 
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Burghardt, Manuel</author>  (2018): “An Evaluation of Lexicon-Based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing”, in: 
+                        <hi rend="italic">Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>. Santa Fe, New Mexico: Association for Computational Linguistics: 139–149.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Burghardt Manuel</author> / <author>Dennerlein, Katrin</author>  (2018): “Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior”, in: Kübler, Sandra / Zinsmeister, Heike (eds.): 
+                        <hi rend="italic">Proceedings of the Workshop on Annotation in Digital Humanities 2018 (AnnDH 2018)</hi>. Sofia, Bulgaria: RWTH Aachen: 47–52.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Burghardt, Manuel</author> / <author>Dennerlein, Katrin</author> / <author>Wolff, Christian</author>  (2019): “Sentiment Annotation for Lessing’s Plays: Towards a Language Resource for Sentiment Analysis on German Literary Texts”, in: Declerck, Thierry / McCrae, John P. (eds.): 
+                        <hi rend="italic">2nd Conference on Language, Data and Knowledge (LDK 2019)</hi>. Leipzig, Germany: 45–50.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Dennerlein, Katrin</author> / <author>Wolff, Christian</author>  (2021a): “Towards a Corpus of Historical German Plays with Emotion Annotations”, in: Gromann, Dagmar et al. (eds.): 
+                        <hi rend="italic">3rd Conference on Language, Data and Knowledge (LDK 2021)</hi>. Open Access Series in Informatics (OASIcs). Dagstuhl, Germany: Schloss Dagstuhl – Leibniz-Zentrum Für Informatik: 9:1-9:11. DOI: 
+                        <ref target="https://doi.org/10.4230/OASIcs.LDK.2021.9">10.4230/OASIcs.LDK.2021.9</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Dennerlein, Katrin</author> / <author>Wolff, Christian</author>  (2021b): “Using Deep Learning for Emotion Analysis of 18th and 19th Century German Plays”, in: Burghardt, Manuel et al. (eds.): 
+                        <hi rend="italic">Fabrikation von Erkenntnis: Experimente in den Digital Humanities.</hi> Esch-Sur-Alzette, Luxembourg, Melusina Press. DOI: 
+                        <ref target="http://dx.doi.org/10.26298/melusina.8f8w-y749-udlf">10.26298/melusina.8f8w-y749-udlf</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Dennerlein, Katrin</author> / <author>Wolff, Christian</author>  (2021c): “Emotion Classification in German Plays with Transformer-Based Language Models Pretrained on Historical and Contemporary Language”, in: 
+                        <hi rend="italic">Proceedings of the 5th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>. Punta Cana, Dominican Republic (Online): Association for Computational Linguistics: 67–79. DOI: 
+                        <ref target="http://dx.doi.org/10.18653/v1/2021.latechclfl-1.8">10.18653/v1/2021.latechclfl-1.8</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Schmidt, Thomas</author> / <author>Dennerlein, Katrin</author> / <author>Wolff, Christian</author>  (2022): “Evaluation computergestützter Verfahren der Emotionsklassifikation für deutschsprachige Dramen um 1800”, in: 
+                        <hi rend="italic">DHd 2022 Kulturen des digitalen Gedächtnisses. 8. Tagung des Verbands ‘Digital Humanities im deutschsprachigen Raum’ (DHd 2022)</hi>. Potsdam, Germany: Zenodo: 107–113. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.6328169">10.5281/zenodo.6328169</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Sprugnoli, Rachele</author> / <author>Tonelli, Sara</author> / <author>Marchetti, Allessandro</author> / <author>Moretti, Giovanni</author>  (2015): “Towards Sentiment Analysis for Historical Texts”, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>, 
+                        31: 762–772. DOI: 
+                        <ref target="https://doi.org/10.1093/llc/fqv027">10.1093/llc/fqv027</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Yavuz, Mehmet C.</author> (2021): “Analyses of Character Emotions in Dramatic Works by Using EmoLex Unigrams”, in: 
+                        <hi rend="italic">Proceedings of the Seventh Italian Conference on Computational Linguistics, CLiC-It’20</hi>. Bologna, Italy.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

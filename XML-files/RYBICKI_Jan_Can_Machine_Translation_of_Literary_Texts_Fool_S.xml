@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Can Machine Translation of Literary Texts Fool Stylometry?</title>
+                <author n="RybickiJanRYBICKI_Jan_Can_Machine_Translation_of_Literary_Texts_Fool_S.xml"><persName ref="https://orcid.org/0000-0003-2504-9372" n="RybickiJan">
+                        <surname>Rybicki</surname>
+                        <forename>Jan</forename>
+                    </persName><affiliation>Uniwersytet Jagielloński, Poland</affiliation><email>jan.rybicki@uj.edu.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper shows results of an experiment on 50 French literary texts in human translations into English, and two corresponding corpora translated by Google Translate and DeepL. It shows that the stylometric behavior of machine translations is similar to that of those done by humans – with some notable exceptions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>machine translation</term>
+                    <term>human translation</term>
+                    <term>stylometry</term>
+                    <term>cluster analysis</term>
+                    <term>network analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Literary studies</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <div>
+                    <head>Introduction</head>
+                    <p>Not so long ago, machine translation systems served as a butt of jokes among
+                        their human competitors. In fact, the “first and longer standing
+                        perspective” on MT dealing with literary texts tended “to see machine
+                        translation outputs as a kind of ‘found poetry’, … often prized for their
+                        alienating, ungrammatical, anti-narrative or even comical effects” (Kenny
+                        and Winters 2021). But now MT has turned to Neural Networks/Deep Learning;
+                        and while its use in literary translation is still not widespread practice,
+                        this seems to be looming over the horizon. </p>
+                    <p>Stylometric research on machine translation of literature is virtually
+                        non-existent. There is a growing body of qualitative case studies on MT in
+                        literary translation (Toral and Way 2015, 2018, Kenny and Winters 2020,
+                        Schmidt 2021, Zhang 2021), but only two texts mix quantitative/stylometric
+                        authorship attribution techniques with MT (Caliskan and Greenstadt 2012,
+                        Caliskan 2013).</p>
+                    <p>Human literary translations have fared only slightly better in stylometric
+                        research. The notion of the invisible (literary) translator, criticized by
+                        Lawrence Venuti (1995), has been found to persist, to some extent, in
+                        stylometric studies (Rybicki 2012). Translators’ stylometric traces may be
+                        visible when they are followed in collaborative translations of the same
+                        text (Rybicki and Heydel 2013) or in texts of the same author translated by
+                        different humans (Rybicki 2006). Dependence of translators’ stylistic
+                        visibility was studied in relation to language combinations (Lee 2018) and
+                        individual translators’ styles (Burrows 2002a, Mastropierro 2018). Lee
+                        (2021) used a variety of linguistic features to show “a clear-cut divide in
+                        writing style between human and machine translators” and to observe that
+                        different MT systems are becoming more alike to each other in their output
+                        of literary translation.</p>
+                    <p>The main focus of this experiment is to see whether machine translation
+                        systems now produce literary translations that do not depart in their
+                        stylometric features from those made by humans. </p>
+                </div>
+                <div>
+                    <head>Methods</head>
+                    <p>In this study, the originals and the English translations: human, Google
+                        Translate, and DeepL, are compared via stylometry based on very frequent
+                        words according to Burrows’s Delta (Burrows 2002b), combined with cluster
+                        analysis of distance measures (Smith and Aldridge 2011, Evert et al. 2017)
+                        and network analysis (Eder 2017), using the “stylo” package (Eder et al.
+                        2016) for R (R Core Team 2021). This standard authorship attribution
+                        procedure will be adopted through a consensus cluster analysis and its
+                        network analysis visualizations.</p>
+                </div>
+                <div>
+                    <head>Material</head>
+                    <p>The 52 texts for this study were selected from classical 19 <hi rend="superscript">th</hi>- and early 20 <hi rend="superscript">th</hi>-century French literature and included 2-10 novels each by 10
+                        writers. In the corresponding set of English translations, not a single
+                        author was translated by a single translator; also, no translator dealt with
+                        more than one original author. In all, 23 named translators were represented
+                        in the English set; 16 translations were anonymous. Full texts of the
+                        original novels were also translated into English with Google Translate and
+                        DeepL. Altogether, 157 human and machine translations were compared. </p>
+                </div>
+                <div>
+                    <head>Results</head>
+                    <p>Figure 1 shows a network analysis of cluster-analysed Cosine Delta distances
+                        between the French originals. As expected, the individual authors form their
+                        own communities.</p>
+                    <figure>
+                        <head>Figure 1. Network based on cluster analysis of Cosine Delta distances
+                            between the French originals.</head>
+                        <graphic n="1001" width="10cm" height="7.61cm" url="Pictures/563f3203167427f675551ce130dcea48.png" rend="inline"/>
+                    </figure>
+                    <p>The same diagram for the English translations shows the persistence of the
+                        signal of the original author (Figure 2); the networked patterns of
+                        similarity and difference between human and machine translations of the same
+                        texts come in two main forms.</p>
+                    <figure>
+                        <head>Figure 2.</head>
+                        <graphic n="1002" width="10cm" height="8.93cm" url="Pictures/6779b177d0342907e39afc5f271b7c4d.png" rend="inline"/>
+                    </figure>
+                    <p>Usually, human and machine translations of the same texts are strongly
+                        connected with each other, resulting in a tightly-knit community for human
+                        and machine translations of the same original author. Note, for instance,
+                        what happens to Flaubert’s <hi rend="italic">Un cœur simple</hi> when it
+                        becomes <hi rend="italic">A Simple Heart</hi>: its single anonymous human
+                        translation forms a close triangle with its translations by Google Translate
+                        and DeepL (Figure 3, top left). </p>
+                    <figure>
+                        <head>Figure 3. Network based on cluster analysis of Cosine Delta distances
+                            between the English translations of Flaubert and Zola made by humans
+                            (dark grey) and machines (light grey).</head>
+                        <graphic n="1003" width="10cm" height="7.28cm" url="Pictures/44a2a64788e407061cd6fe54a1ba9ab9.png" rend="inline"/>
+                    </figure>
+                    <p>Sometimes, however, this pattern is broken. Translations of Balzac by Ellen
+                        Marriage form a sub-community of their own in the otherwise mixed group of
+                        other human and machine translations (Figure 4, bottom centre). And the
+                        human translations of Proust, especially those by C. K. Scott Moncrieff,
+                        depart even more clearly from their machine rivals (Figure 5).</p>
+                    <figure>
+                        <head>Figure 4. Network based on cluster analysis of Cosine Delta distances
+                            between the English translations of Balzac made by humans (dark grey)
+                            and machines (light grey).</head>
+                        <graphic n="1004" width="10cm" height="5.07cm" url="Pictures/5b35bb246b9e64fffdff9491d3c95b77.png" rend="inline"/>
+                    </figure>
+                    <figure>
+                        <head>Figure 5. Network based on cluster analysis of Cosine Delta distances
+                            between the English translations of Proust made by humans (dark grey)
+                            and machines (light grey).</head>
+                        <graphic n="1005" width="9.863686111111111cm" height="8.229616666666667cm" url="Pictures/6c37af907992be84f38b79120bdd519e.png" rend="inline"/>
+                    </figure>
+                </div>
+                <div>
+                    <head>Discussion</head>
+                    <p>Let’s face it: machine translations of literature are slowly becoming a match
+                        for those made by humans, at least in terms of stylometric authorship
+                        (and/or translator) attribution. It cannot be a coincidence that only Proust
+                        and his version of the stream of consciousness characteristic in its highly
+                        complex sentences is too much for machine translations to successfully fool
+                        stylometry, while machine-translated traditional storytelling by Dumas is
+                        stylometrically much more similar to the human result, except perhaps for
+                        the absence of exoticization of the original <hi rend="italic">Monsieur</hi>
+                        that human translators invariably used: “’What!’ cried D'Artagnan, ‘your
+                        first witness is Mr. Porthos?’" In Proust, machine translation often loses
+                        the thread of the narrative, even in his most famous passage: </p>
+                    <p>She
+                        sent for one of those short, <hi rend="bold">dodgy</hi> cakes called Petites
+                        Madeleines… </p>
+                    <p><hi rend="bold">I carried a spoonful of tea on my lips where I had let a
+                            piece of madeleine soften</hi>. But at the very moment when the sip
+                        mixed with the crumbs of the cake touched my palate, <hi rend="bold">I
+                            trembled, attentive to what was happening in me that was
+                            extraordinary</hi>. </p>
+                    <p>A
+                        delicious pleasure had invaded me…. <hi rend="bold">He</hi> immediately made
+                        me indifferent to the vicissitudes of life. </p>
+                </div>
+                <div>
+                    <head>Acknowledgement</head>
+                    <p>The research has been supported by a grant from the Priority Research
+                        Areas</p>
+                    <p>“DigiWorld” and “Heritage” under the Strategic Programme Excellence
+                        Initiative at</p>
+                    <p>Jagiellonian University.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Burrows, John F.</author> (2002a): “The Englishing of Juvenal:
+                        computational stylistics and translated texts”, in: <hi rend="italic">Style</hi> 36, 4: 677–99. </bibl>
+                    <bibl>
+                        <author>Burrows, John F.</author> (2002b): “‘Delta’: a measure of
+                        stylistic difference and a guide to likely authorship”, in: <hi rend="italic">Literary and Linguistic Computing</hi> 17, 3: 267–87. </bibl>
+                    <bibl>
+                        <author>Caliskan, Aylin</author> / <author>Greenstadt, Rachel</author>  (2012): “Translate
+                        Once, Translate Twice, Translate Thrice and Attribute: Identifying Authors
+                        and Machine Translation Tools in Translated Text”, in: IEEE (ed.): <hi rend="italic">ICSC ’12 Proceedings of the 2012 IEEE Sixth International
+                            Conference on Semantic Computing, (Palermo,Italy)</hi>, 121–25. </bibl>
+                    <bibl>
+                        <author>Constantine, Peter</author> (2019): “Google Translate Gets
+                        Voltaire: Literary Translation and the Age of Artificial Intelligence”, in:
+                            <hi rend="italic">Contemporary French and Francophone Studies</hi> 23,
+                        4: 471-479, DOI: 10.1080/17409292.2019.1694798 </bibl>
+                    <bibl>
+                        <author>Eder, Maciej</author> (2017): “Visualization in stylometry:
+                        cluster analysis using networks”, in: <hi rend="italic">Digital Scholarship
+                            in the Humanities</hi> 32, 1: 50-64. </bibl>
+                    <bibl>
+                        <author>Eder, Maciej</author> / <author>Rybicki, Jan</author> / <author>Kestemont, Mike</author>  (2016):
+                        “Stylometry with R: a package for computational text analysis”, in: <hi rend="italic">The R Journal</hi> 8, 1: 107–121. </bibl>
+                    <bibl>
+                        <author>Evert, Stefan</author> / <author>Proisl, Thomas</author> / <author>Jannidis, Fotis</author> / <author>Reger, Isabella</author> / <author>Pielström, Steffen</author> / <author>Vitt, Thorsten</author>  (2017):
+                        “Understanding and explaining Delta measures for authorship attribution”,
+                        in: <hi rend="italic">Digital Scholarship in the Humanities</hi> 32 suppl.
+                        2: ii4-ii16. </bibl>
+                    <bibl>
+                        <author>Kenny, Dorothy</author> / <author>Winters, Marion</author>  (2021): “Machine
+                        Translation in Literary Translation: A Case Study”, in: <hi rend="italic">Computer-Assisted Literary Translation Conference CALT2021@Swansea
+                            (11-13 May 2021) Book of Abstracts</hi>, Swansea: Swansea University. </bibl>
+                    <bibl>
+                        <author>Lee, Changsoo</author> (2018): “Do language combinations affect
+                        translators’ stylistic visibility in translated texts?”, in: <hi rend="italic">Digital Scholarship in the Humanities</hi> 33, 3: 592–603. </bibl>
+                    <bibl>
+                        <author>Lee, Changsoo</author> (2021): “How do machine translators
+                        measure up to human literary translators in stylometric tests?”, in: <hi rend="italic">Digital Scholarship in the Humanities</hi> 37, 3: 813–829. </bibl>
+                    <bibl>
+                        <author>Mastropierro, Lorenzo</author> (2018): <hi rend="italic">Corpus
+                            Stylistics in Heart of Darkness and its Italian Translations</hi>.
+                        London: Bloomsbury. </bibl>
+                    <bibl>
+                        <author>R Core Team</author> (2021): <hi rend="italic">R: A language and
+                            environment for statistical computing</hi>. R Foundation for Statistical
+                        Computing, Vienna, Austria. <ref target="https://www.R-project.org/">https://www.R-project.org/</ref>. </bibl>
+                    <bibl>
+                        <author>Rybicki, Jan</author> (2006): “Burrowing into Translation:
+                        Character Idiolects in Henryk Sienkiewicz's Trilogy and its Two English
+                        Translations”, in: <hi rend="italic">Literary and Linguistic Computing</hi>
+                        21: 91-103. </bibl>
+                    <bibl>
+                        <author>Rybicki, Jan</author> (2012): “The Great Mystery of the (Almost)
+                        Invisible Translator. Stylometry in Translation”, in: Oakes, Michael P. /
+                        Ji, Meng (eds): <hi rend="italic">Quantitative Methods in Corpus-Based
+                            Translation Studies</hi>, Amsterdam: John Benjamins 231–48. </bibl>
+                    <bibl>
+                        <author>Rybicki, Jan</author> (2021): “Stylometry 0, Machine Translation
+                        1. Deep Learning Based MT Scores Important Away Win”, <hi rend="italic">Computer-Assisted Literary Translation Conference CALT2021@Swansea
+                            (11-13 May 2021) Book of Abstracts</hi>, Swansea: Swansea University. </bibl>
+                    <bibl>
+                        <author>Rybicki, Jan</author> / <author>Heydel, Magda</author>  (2013): “The Stylistics
+                        and Stylometry of Collaborative Translation: Woolf’s Night and Day in
+                        Polish”, in: <hi rend="italic">Literary and Linguistic Computing</hi> 28, 4:
+                        708–17. </bibl>
+                    <bibl>
+                        <author>Schmidt, Bradley</author> (2021): “Ghosts in the Machine”, <hi rend="italic">Computer-Assisted Literary Translation Conference
+                            CALT2021@Swansea (11-13 May 2021) Book of Abstracts</hi>, Swansea:
+                        Swansea University. </bibl>
+                    <bibl>
+                        <author>Smith, Peter W. H.</author> / <author>Aldridge, William</author>  (2011):
+                        “Improving Authorship Attribution: Optimizing Burrows' Delta Method”, in:
+                            <hi rend="italic">Journal of Quantitative Linguistics</hi> 18, 1: 63-88. </bibl>
+                    <bibl>
+                        <author>Toral, Antonio</author> / <author>Way, Andy</author>  (2015): “Machine-assisted
+                        translation of literary text: a case study”, in: <hi rend="italic">Translation Spaces</hi> 4, 2: 240-267. </bibl>
+                    <bibl>
+                        <author>Toral, Antonio</author> / <author>Way, Andy</author>  (2018):  “What level of
+                        quality can Neural Machine Translation attain on literary text?”, in:
+                        Moorkens, Joss / Castilho, Sheila / Gaspari, Federico / Doherty, Stephen
+                        (eds): <hi rend="italic">Translation Quality Assessment: From Principles to
+                            Practice</hi>. Heidelberg: Springer International Publishing 263–287. </bibl>
+                    <bibl>
+                        <author>Venuti, Lawrence</author> (1995): <hi rend="italic">The
+                            Translator's Invisibility: A History of Translation</hi>. Oxford:
+                        Routledge. </bibl>
+                    <bibl>
+                        <author>Zhang, Shuyin</author> (2021): “On discussion of the machine
+                        translation of Chinese Xianxia novels”, <hi rend="italic">Computer-Assisted
+                            Literary Translation Conference CALT2021@Swansea (11-13 May 2021) Book
+                            of Abstracts</hi>, Swansea: Swansea University. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

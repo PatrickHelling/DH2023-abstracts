@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marco Polo’s Travels Revisited: From Motion Event Detection to Optimal Path
+                    Computation in 3D Maps</title>
+                <author n="NieklerAndreasNIEKLER_Andreas_Marco_Polo_s_Travels_Revisited__From_Motion_.xml"><persName ref="https://orcid.org/0000-0002-3036-3318" n="NieklerAndreas">
+                        <surname>Niekler</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>aniekler@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WolskaMagdalenaNIEKLER_Andreas_Marco_Polo_s_Travels_Revisited__From_Motion_.xml"><persName n="WolskaMagdalena">
+                        <surname>Wolska</surname>
+                        <forename>Magdalena</forename>
+                    </persName><affiliation>Bauhaus University Weimar, Germany</affiliation><email>magdalena.wolska@uni-weimar.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ThielMarvinNIEKLER_Andreas_Marco_Polo_s_Travels_Revisited__From_Motion_.xml"><persName n="ThielMarvin">
+                        <surname>Thiel</surname>
+                        <forename>Marvin</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>mt14xana@studserv.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WiegmannMattiNIEKLER_Andreas_Marco_Polo_s_Travels_Revisited__From_Motion_.xml"><persName n="WiegmannMatti">
+                        <surname>Wiegmann</surname>
+                        <forename>Matti</forename>
+                    </persName><affiliation>Bauhaus University Weimar, Germany</affiliation><email>matti.wiegmann@uni-weimar.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SteinBennoNIEKLER_Andreas_Marco_Polo_s_Travels_Revisited__From_Motion_.xml"><persName n="SteinBenno">
+                        <surname>Stein</surname>
+                        <forename>Benno</forename>
+                    </persName><affiliation>Bauhaus University Weimar, Germany</affiliation><email>benno.stein@uni-weimar.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BurghardtManuelNIEKLER_Andreas_Marco_Polo_s_Travels_Revisited__From_Motion_.xml"><persName ref="https://orcid.org/0000-0003-1354-9089" n="BurghardtManuel">
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>burghardt@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this work, we present a workflow for semi-automatic extraction of geo-references and motion events from the book "The Travels of Marco Polo". These are then used to create 3D renderings of the space and movement which allows readers to visually trace Marco Polo's route themselves to provide the exprience of the entirety of the journey.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Spatio-Temporal Analyisis</term>
+                    <term>GIS</term>
+                    <term>3D</term>
+                    <term>NLP</term>
+                    <term>Travel Literature</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>electronic literature production and analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p>In this work, we present a workflow for
+                        semi-automatic extraction of geo-references and motion events from the book
+                        "The Travels of Marco Polo". These are then used to create 3D renderings of
+                        the space and movement which allows readers to visually trace Marco Polo's
+                        route themselves to provide the exprience of the entirety of the
+                        journey.</p>
+            </div>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Travel is a major motif in many literary works
+                        (Mewshaw, 2005). People's fascination with unknown regions and their
+                        exploration continues unabated (Brenner, 2011), and travel is a regular part
+                        of many people's lives. Travel literature appears in many forms, such as
+                        outdoor literature, guidebooks, nature writing, and travel memoirs (Cuddon
+                        &amp; Birchwood, 2014). One of the earliest accounts of foreign travel and
+                        one of most popular works from the genre of travel literature certainly is
+                        the "Travels of Marco Polo", a medieval manuscript written down in Old
+                        French by Rustichello da Pisa in 1299, based on Marco Polo's stories. During
+                        Marco Polo's lifetime, the book was translated into many European languages.
+                        However, even then it was questioned whether Polo had really been to China
+                        or whether he had just reproduced stories that he had picked up from other
+                        travellers (Classen, 2013, p. 27).</p>
+                <p>In this work, we present a workflow for semi-automatic
+                    extraction of geo-references and motion events related to Marco Polo’s travel
+                    from an English translation of the book. These are then used to create 3D
+                    renderings of the space and movement that will allow readers to visually trace
+                    Marco Polo's route themselves.</p>
+                <p>The workflow, see Fig. 1, comprises two processing
+                    stages. First, we use Natural Language Processing (NLP) methods to reconstruct
+                    Marco Polo's route from the actual written text. In the second stage, we present
+                    an innovative approach for route visualization using 3D-renderings of digital
+                    terrain models.</p>
+            </div>
+            <div type="div1">
+                <head>Stage 1 – Natural Language Processing</head>
+                <p>We work with Henry Yule’s English translations of
+                    Marco Polo's travelogues obtained from Project Gutenberg. For text processing,
+                    we used flairNLP (Halder et al., 2020), a state-of-the-art NLP framework based
+                    on Python NLTK (Bird et al., 2009) and the Stanford parser for constituency
+                    parsing (Manning et al., 2014). The lexical resources included VerbNet (Schuler
+                    et al., 2009) and FrameNet (Ruppenhofer et al., 2016), large verb-oriented
+                    resources based on which motion verbs and their arguments can be identified, as
+                    well as WordNet (WordNet, 1998), an English lexical database of lexical
+                    relations, and Semlink (Stowe et al., 2021) which provides cross-resource
+                    mapping.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="18.466441666666668cm" url="Pictures/29c5876548d518f197f289abfa0792e5.png" rend="inline"/>
+                    <head>Figure 1: Schematic process description of our
+                    prototype. We divide our approach into two stages. One modularized NLP stage
+                    (Stage 1) and a modularized Geo-visualization stage (Stage 2).</head>
+                </figure>
+                <lb/>
+                <p><hi rend="bold">Step 1:</hi> The text is first segmented into sentences and then
+                    analysed to extract movement-relevant entities: locations and motion events. To
+                    identify place names, we used a gazetteer and a flairNLP sequence tagger. The
+                    gazetteer was created semi-automatically from the index of Henry Yule’s and Hugh
+                    Murray’s translations of the books. We found that the gazetteer initially works
+                    with a higher recall, since the place name registers contain relevant places.
+                    flairNLP provides a high precision, but the recall is not optimal since many
+                    entities of interest are not identified. </p>
+                <p><hi rend="bold">Step 2:</hi> To reconstruct the travelled route from the
+                    extracted locations by identifying, we assume that the locations on the
+                    itinerary are connected through motion or travel events: A motion event involves
+                    a displacement of an entity in space (translational) or which identifies an
+                    entity's location in space (stationary). Hence, we extract all motion events and
+                    combine their location arguments with the directed connection indicated by the
+                    event's structure. The final route is a combination of all locations and
+                    connections in the chronological order they appear in the text. </p>
+                <p>To identify motion verbs, we rely on resources like
+                    VerbNet, which categorizes verbs based on their meanings (such as the 'Verbs of
+                    Motion' class, which includes verbs like 'run-51.3.2'), and FrameNet, which
+                    captures the argument structures of verbs. Additionally, WordNet is used to
+                    collect synonyms. The parser's output is then utilized to determine if Marco
+                    Polo is the subject of the motion verb, disregarding other characters in the
+                    book. Moreover, it helps classify if the location argument of the motion verb
+                    falls within Marco Polo's route. For optimal extraction of a route segment, a
+                    clearly defined origin and destination is an ideal situation.</p>
+                <p>Here, we assume that the order of motion events in the
+                    text equals the true order of the route. Since this is not always the case in
+                    reality, we smooth the route in the visualization step. Correcting the route
+                    through, for example, coreference resolution might improve the performance of
+                    this step. </p>
+                <p><hi rend="bold">Step 3:</hi> The geo-coordinates were finally generated by
+                    resolving historical place names with historical Geographic Information Systems
+                    (GIS) and then acquiring the coordinates from the GISs and geonames.org, a
+                    geographical database which covers all countries. In particular we used the
+                    China Historical Geographic Information System (Bol, 2005), the Silk Road
+                    Historical GIS (http://srhgis.com/dtcx) and the Silk Road GIS
+                    (http://silkroad.fudan.edu.cn). </p>
+            </div>
+            <div type="div1">
+                <head>Stage 2 – Geo-visualization</head>
+                <p>When analysing travel writing, regular point-based
+                    maps do not normally allow for analysing aspects of a more qualitative nature
+                    like the experiences that were made while traveling (Murrieta-Flores et al.,
+                    2017). Vegetation, climate, obstacles, and vistas might be considered when
+                    thinking about traveling, especially by foot. Details about landscape, the
+                    travelled roads and days’ worth of travel are often sparsely described in a text
+                    using just a few sentences. Therefore, we follow the claim of (Harris et al.,
+                    2016) “to create immersive geographies that link the experiential, the emotional
+                    and the symbolic elements of literary works to the nuanced, dimensional richness
+                    of places as inspired by authors and their works”. </p>
+                <p><hi rend="bold">Step 4:</hi> With data based on the Digital Elevation Model
+                    Copernicus Global DEM (European Space Agency &amp; Airbus, 2021) combined with
+                    Satellite Photos provided by Mapbox (mapbox.com) we are not just showing points
+                    on a map but render 3D representations of the landscape. This integrates
+                    terrain, surface, and travel routes equally, which makes the travel experience
+                    tangible (Fig. 2). We create the rendering using Blender and Rayshader, a
+                    package to render 3D data to a raytraced representation in R. </p>
+                <figure>
+                    <graphic n="1002" width="15.926152777777778cm" height="10.336388888888889cm" url="Pictures/42da4603e734d99d3df44f39460f86e8.jpg" rend="inline"/>
+                    <head>Figure 2: Example of a rendering of a DEM overlaid
+                    with satellite footage. The graphic was made in Blender.</head>
+                </figure>
+                <lb/>
+                <p><hi rend="bold">Step 5: </hi>As suggested by
+                    (Murrieta-Flores et al., 2017), “Cost-Surface Analysis (CSA) and Least-Cost-Path
+                    Analysis (LCP) can be used to facilitate more nuanced interpretations of
+                    historical works of travel writing and topographical literature”. To back the
+                    readers’ intuition, the map can also be enhanced by highlighting the areas that
+                    are most easy to travel through. Therefor we also integrated a LCP and CSA to
+                    our visualization that includes a corridor of optimal movement between two
+                    points on the map. </p>
+            </div>
+            <div type="div1">
+                <head>Final Remarks</head>
+                <p>With the demonstration of this prototypical workflow
+                    for the visualization of routes described in Marco Polo’s travels, many
+                    potentials but also challenges become apparent. The approach has a lot of
+                    potential, for example: fact checking using cost corridors can help to
+                    understand if the described travels and times are realistic and plausible. We
+                    can likewise experiment to see whether readers’ route imagery while reading is
+                    in line with the actual situation in the field. Ultimately, we can study if such
+                    maps help to mentally take in the entirety of the journey and thus generate a
+                    completely new experience.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bird, S., Klein, E., &amp; Loper, E. </author>(2009). <hi rend="italic">Natural language processing with Python:
+                            Analyzing text with the natural language toolkit.</hi>
+                         O’Reilly Media, Inc.
+                    </bibl>
+                    <bibl>
+                        <author>Bol, P. K. </author>(2005 ). China
+                            Historical GIS. 
+                        <hi rend="italic">Historical Geography</hi>
+                        , 150–152.
+                    </bibl>
+                    <bibl>
+                        <author>Brenner, P. J. </author> (2011 <hi rend="italic">). El viaje y la percepción del otro: Viajerospor
+                            la PenínsulaIbérica y sus descripciones</hi>
+                        (siglos XVIII y XIX) (R.
+                            Musser, Hrsg.; Bd. 141, S. 11–22). Iberoamericana / Vervuert. 
+                    </bibl>
+                    <bibl>
+                        <author>Classen, A. </author>(2013). <hi rend="italic">East Meets West in the Middle Ages and Early
+                            Modern Times: Transcultural Experiences in the Premodern World</hi>
+                        . De Gruyter.
+                            https://books.google.de/books?id=snPnBQAAQBAJ
+                    </bibl>
+                    <bibl>
+                        <author>Harris T. M., Lafone F. &amp; Bonenberger D. </author>(2016).
+                            From Mapping Text in
+                            Space to Experiencing Text in Place: Exploring Literary Virtual
+                            Geographies. In: Cooper, D., Donaldson, C., &amp; Murrieta-Flores, P.
+                            (Eds.). 
+                        <hi rend="italic">Literary Mapping in
+                            the Digital Age (1st ed.)</hi>
+                        . Routledge.
+                            https://doi.org/10.4324/9781315592596
+                    </bibl>
+                    <bibl>
+                        <author>Cuddon, J. A., &amp; Birchwood, M. </author>(2014). <hi rend="italic">The Penguin dictionary
+                            of literary terms and literary theory</hi>
+                         (R. Habib, Hrsg.; 5. ed., publ. in paperback).
+                            Penguin Books.
+                    </bibl>
+                    <bibl>
+                        <author>European Space Agency &amp; Airbus. </author>(2021). <hi rend="italic">Copernicus DEM [Data
+                            set]</hi>
+                        . European Space Agency.
+                            https://doi.org/10.5270/ESA-c5d3d65
+                    </bibl>
+                    <bibl>
+                        <author>Halder, K., Akbik, A., Krapac, J., &amp; Vollgraf, R.
+                        </author>(2020). Task Aware
+                            Representation of Sentences for Generic Text Classification. 
+                        <hi rend="italic">COLING 2020, 28th
+                            International Conference on Computational Linguistics</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Manning, C. D., Surdeanu, M., Bauer, J., Finkel, J.,
+                            Bethard, S. J., &amp; McClosky, D. </author>(2014). The Stanford CoreNLP Natural Language Processing
+                            Toolkit. Association for Computational Linguistics 
+                        <hi rend="italic">(ACL) System
+                            Demonstrations</hi>
+                        , 55–60. 
+                    </bibl>
+                    <bibl>
+                        <author>Mewshaw, M. </author>(2005). <hi rend="italic">Travel, Travel Writing, and the Literature of
+                            Travel. South Central Re-view</hi>
+                        , 22(2), 2–10.
+                            https://doi.org/10.1353/scr.2005.0042
+                    </bibl>
+                    <bibl>
+                        <author>Miller, G.A. </author> (1998). 
+                        <hi rend="italic">WordNet: An electronic
+                            lexical database</hi>
+                        . MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Murrieta-Flores, P., Donaldson, C., &amp; Gregory, I.</author>
+                        (2017). GIS and Literary History: Advancing Digital
+                            Humanities Research through the Spatial Analysis of Historical Travel
+                            Writing and Topographical Literature. &gt;Digital Humanities Quarterly.
+                            http://hdl.handle.net/10034/620256 </bibl>
+                    <bibl>
+                        <author>Ruppenhofer, J., Ellsworth, M., Schwarzer-Petruck, M.,
+                            Johnson, C. R., &amp; Scheffczyk, J. </author>(2016). <hi rend="italic">FrameNet II: Extended
+                            theory and practice. International Computer Science Institute.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Schuler, K. K., Korhonen, A., &amp; Brown, S. </author>(2009).
+                            VerbNet Overview,
+                            Extensions, Mappings and Applications. Proceedings of Human Language
+                            Technologies: The 2009 Annual Conference of the North American Chapter
+                            of the Association for Computational Linguistics, Companion Volume:
+                            Tutorial Abstracts, 13–14.
+                    </bibl>
+                    <bibl>
+                        <author>Stowe, K., Preciado, J., Conger, Kathryn, Brown, S. W.,
+                            Kazeminejad, G., &amp; Palmer, M. </author>(2021). SemLink
+                         2.0: Chasing Lexical Resources. 
+                        <hi rend="italic">30th Annual Meeting of the Association for
+                            Computational Linguistics</hi>
+                        , 222–227.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

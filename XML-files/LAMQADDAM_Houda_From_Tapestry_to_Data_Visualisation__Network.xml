@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From Tapestry to Data Visualisation: Networks of Collaboration in Project Cornelia</title>
+                <author n="LamqaddamHoudaLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="LamqaddamHouda">
+                        <surname>Lamqaddam</surname>
+                        <forename>Houda</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>lamqaddam.houda@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BeerensRudyJosLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="BeerensRudyJos">
+                        <surname>Beerens</surname>
+                        <forename>Rudy Jos</forename>
+                    </persName><affiliation>KU Leuven, Belgium; RKD</affiliation><email>jos.beerens@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BrosensKoenraadLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="BrosensKoenraad">
+                        <surname>Brosens</surname>
+                        <forename>Koenraad</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>koen.brosens@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CardosoBrunoLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="CardosoBruno">
+                        <surname>Cardoso</surname>
+                        <forename>Bruno</forename>
+                    </persName><affiliation>Tilburg University</affiliation><email>Bruno.Cardoso@tilburguniversity.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="dePrekelInezLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="dePrekelInez">
+                        <surname>de Prekel</surname>
+                        <forename>Inez</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>inez.deprekel@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TruyenFrederikLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="TruyenFrederik">
+                        <surname>Truyen</surname>
+                        <forename>Frederik</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>fred.truyen@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VanderStighelenKatlijneLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="VanderStighelenKatlijne">
+                        <surname>Van der Stighelen</surname>
+                        <forename>Katlijne</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>katlijne.vanderstighelen@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VerbertKatrienLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="VerbertKatrien">
+                        <surname>Verbert</surname>
+                        <forename>Katrien</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>katrien.verbert@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FantoliMargheritaLAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml"><persName n="FantoliMargherita">
+                        <surname>Fantoli</surname>
+                        <forename>Margherita</forename>
+                    </persName><affiliation>KU Leuven, Belgium</affiliation><email>margherita.fantoli@kuleuven.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In our paper we present the ecosystem of Project Cornelia, a leading Digital Art History project at the KU Leuven (Belgium). We discuss our experience of interdisciplinary collaboration within this project. And we contribute our conceptualisation of sustainability of digital tools in humanistic research through the analogy of Digital Satellites.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital Art History</term>
+                    <term>Interdisciplinary research</term>
+                    <term>Sustainability</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Art history</term>
+                    <term>Computer science</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>In our paper we present the rich ecosystem surrounding Project Cornelia
+                    <ref target="#LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn1" n="1"/>, a leading Digital Art History project at the KU Leuven (Belgium). On the one hand, we show how a core humanities-research question has led to the development of projects ranging from Social Art History to Data Visualization, in cross-fertilization with the DH community of the University. On the other hand, we present our findings related to DH sustainability by introducing the concept of digital satellites. This metaphor supports a discussion on the effective value of digital tools in the humanities by seeing their long term value to DH scholarship. Through these two points, our paper addresses the question: is it possible to ensure both the relevance and dissemination of the results within the original disciplinary areas and the long-term exploitation of tools and data within the DH or Digital Art History field? 
+                </p>
+                <p>Project Cornelia is grounded in the question of how to develop a distant reading of the socio-economic historical reality behind hundreds of paintings and tapestries of the Flemish Baroque of the 17th century. This question is developed along different intersecting axes that together generate a research cycle. </p>
+                <p>The first research axis consists of searching for all kinds of longitudinal archival material that sheds light on the lives and careers of 17th-century Antwerp and Brussels painters and tapestry producers and their families. Archival Data are collected, modelled, cleaned and organised in a custom database modelled by Information scientists, in collaboration with Art Historians and Computer Scientists. The dataset currently counts 14,000 actors linked by 20,000 meaningful interactions and is currently browsable via an online interface
+                    <ref target="#LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn2" n="2"/>.
+                </p>
+                <p>This large amount of data is exploited by combining different methodologies. This initiates the second axis, namely data analysis (Brosens et al. 2019a). The Cornelia project has not only exploited currently applied methods such as Social Network Analysis (Brosens et al. 2017, Beerens 2017), but has engaged with a deep reflection on the applicability of ‘distant reading’ methods to the specifics of the data and research questions (Brosens et al. 2019b). </p>
+                <p>When existing tools, methodologies and visualizations prove to be inadequate, the approach of Project Cornelia consists in developing new tools that target Social Art History (third research axis). This requires the integration of methods of Information Visualization (Lamqaddam et al. 2018 and 2022) and Serious Gaming (Brosens et al. 2020) in order to comply with the needs of the Art History scholarly community (Panagiotidou et al. 2022). Once the development phase is concluded, the tools are integrated into the ongoing Art History research.</p>
+                <p>Project Cornelia provides an example of how research data can be integrated into Digital Humanities education (Flanders and Jannidis 2018). In fact, the raw dataset is assigned to the students of the DH Advanced Master, to experiment with OpenRefine
+                    <ref target="#LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn3" n="3"/> (Verborgh and Wilde 2013) and data analysis techniques. The students, therefore, got the chance to engage with core parts of the DH research cycle by interacting with the ongoing work within the project.
+                </p>
+                <p>When it comes to sustainability, Project Cornelia has prioritized the dissemination of the research results within the core disciplinary communities: the answers found to the research questions for CS and AH have been published in leading journals of the fields (TVCG, IFIP, Zeitschrift für Kunstgeschichte ), which, together with storing the data in open repositories, ensure the long-term usability of the results obtained with the development and exploitation of the datasets and tools of Project Cornelia. The question we want to address is whether it is possible to make the ecosystem as a whole sustainable (Barats et al. 2020, Tabak 2017). Recently, efforts have been made to tackle the challenge of sustainability of DH projects and infrastructures (cf. the contributions in Neuefeind et al. 2020, Smithies et al. 2020, Pawlicka-Deker 2022), as this appears as one of the key challenges faced by DH projects (cf 
+                    <ref target="#LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn4" n="4"/> initiative).
+                </p>
+                <p>In this contribution, we focus on one aspect, i.e. the life-cycle of digital tools developed within Project Cornelia, and propose a conceptualization of the development of digital tools within Humanities projects, based on which we propose some recommendations. We propose the concept of Digital Satellites as an analogy that helps us redefine the role of digital tools in humanistic research. We define Digital satellites as having the three following characteristics: (1) they are built to support a specific goal including communication, exploration or analysis, (2) they are artificial in nature, i.e. they exist in highly non-digital spaces, and (3) they orbit around more grounded research material. Through this metaphor, we analyse digital satellites’ lifecycle and highlight the opportunities and risks of each of their stages. Particularly, we highlight the importance of the ‘end of life’ stage of digital satellites during which they hold a critical role of intellectual legacy and digital debris.</p>
+                <p>Finally, we draw implications for the design of digital tools within humanist research in order to reduce the risks associated with the development and costly maintenance of digital tools. These principles include steps such as encouraging autonomy from developers, archiving processes and requirements, and taking down non-functional tools. </p>
+                <p>Overall, we believe this perspective on sustainability in DH provides a helpful means to assess the effective role of digital research tools. Based on our interdisciplinary experience in Project Cornelia, we were able to see that the value of digital research tools does not end at their instrumentalisation for research tasks. Research tools are also artefacts, documentation and intellectual legacy. They represent the needs and constraints of previous scholarship. They lead to the development of frameworks, the creation of codebases, and the nurturing of research questions. Indeed, to truly evaluate the usefulness of such tools, a longer and broader perspective is needed. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn1">
+                         https://projectcornelia.be/
+                    </note><note n="2" xml:id="LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn2">
+                         https://projectcornelia.be/tools/source_browser.html
+                    </note><note n="3" xml:id="LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn3">
+                         https://openrefine.org/
+                    </note><note n="4" xml:id="LAMQADDAM_Houda_From_Tapestry_to_Data_Visualisation__Network.xml_ftn4">
+                         https://endings.uvic.ca/about.html
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Barats, C., Schafer, V. &amp; Fickers, A. </author>(2020). Fading Away... The challenge of sustainability in digital studies. DHQ: Digital Humanities Quarterly, 14.</bibl>
+                    <bibl><author>Brosens, K., Aerts, J., Alen, K., Slegten, A. &amp; Truyen, F. </author>(2017). Visualizing and Analyzing Complex and Dynamic Networks of Flemish Tapestry Entrepreneurs 1640–1720. Leonardo. Journal of the International Society for the Arts, Sciences and Technology, 50, 503.</bibl>
+                    <bibl><author>Brosens, K., Beerens, R. J., Cardoso, B., Truyen, F. </author>(2019a). The Brussels guild of painters, goldbeaters, and stained-glass makers, 1599–1706: A multi-faceted analysis. Zeitschrift für Kunstgeschichte, 82 , pp. 531–553.</bibl>
+                    <bibl><author>Brosens, K., Aerts, J., Alen, K., Beerens R. J., Cardoso, B., De Prekel, I., Ivanova, A., Lamqaddam, H., Molenberghs, G., Slegten, A., Truyen, F., Van der Stighelen, K., &amp; Verbert, K. </author>(2019b). Slow Digital Art History in Action. Project Cornelia’s Computational Approach to 17th-Century Flemish Creative Communities. Visual Resources (Special Issue on Digital Art History), 35, 105–124. </bibl>
+                    <bibl><author>Brosens, K., Cardoso, B., &amp; Truyen, F. </author>(2020). Slow Digital Art History and KUbism: Or, Situation Awareness and the Promise of Open-World Games. in K. Brown, The Routledge Companion to Digital Humanities and Art History (pp. 58-70). Routledge.</bibl>
+                    <bibl><author>Beerens R. J. </author>(2017). Coral. The interplay between social structure, collaboration and tapestry design (1600–1650) through formal art historical network research. Jaarboek de Zeventiende Eeuw 2017, 167-170.</bibl>
+                    <bibl><author>Flanders J. &amp; Jannidis, F. </author>(2018). The Shape of Data in Digital Humanities: Modeling Texts and Text-based Resources (1st. ed.). Routledge, USA.</bibl>
+                    <bibl><author>Lamqaddam, H., Aerts, J., Brosens, K., &amp; Verbert, K. </author>(2018). NAHR: A Visual Representation of Social Networks as Support for Art History Research. Papers of the 10th NordiCHI Conference (1–3 October 2018, Oslo). 10.1145/3240167.3240199. </bibl>
+                    <bibl><author>Lamqaddam, H., Brosens, K., De Prekel, I., &amp; Verbert, K. </author>(2022). Perceptual Effects of Hierarchy in Art Historical Social Networks. DHQ: Digital Humanities Quarterly, 16.</bibl>
+                    <bibl><author>Neuefeind, C., Schildkamp, Ph., Mathiak B., Karadkar, U., Stigler, J., Steiner, E., Vasold, G., Tosques, F., Ciula, A., Maher, B., Newton, G., Arneil, &amp; S., Holmes, M. </author>(2020). Sustainability Strategies for Digital Humanities Systems, DH2020. http://dx.doi.org/10.17613/ncdt-dn37</bibl>
+                    <bibl><author>Panagiotidou, G., Lamqaddam, H., Brosens K. et al. </author>(2022). Communicating Uncertainty in Digital Humanities Visualization Research. IEEE Transactions on Visualization and Computer Graphics, 28. 10.1109/TVCG.2022.3209436.</bibl>
+                    <bibl><author>Smithies, J., Sichani, A. M. Westling, C., Mellen, P. &amp; Ciula, A. </author>(2019). Managing 100 Digital Humanities Projects: Digital Scholarship &amp; Archiving in King’s Digital Lab. DHQ: Digital Humanities Quarterly, 13.</bibl>
+                    <bibl><author>Pawlicka-Deger, U. </author>(2022). Infrastructuring digital humanities. Digital Scholarship in the Humanities, 37, 534–550.</bibl>
+                    <bibl><author>Tabak, E. </author>(2017). A Hybrid Model for Managing DH Projects. DHQ: Digital Humanities Quarterly, 11.</bibl>
+                    <bibl><author>Verborgh, R., &amp; De Wilde, M. </author>(2013). Using OpenRefine. Packt Publishing.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

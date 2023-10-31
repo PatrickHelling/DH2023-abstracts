@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Pathways Through Newspaper Advertisements: Workflows from Printed
+                    Page to Digital Analysis with the Avisblatt-R-Package</title>
+                <author n="DickmannLarsSERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml"><persName ref="https://orcid.org/0000-0002-4511-1017" n="DickmannLars">
+                        <surname>Dickmann</surname>
+                        <forename>Lars</forename>
+                    </persName><affiliation>University of Basel, Switzerland</affiliation><email>lars.dickmann@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ReimannAnnaSERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml"><persName ref="https://orcid.org/0000-0001-8225-7851" n="ReimannAnna">
+                        <surname>Reimann</surname>
+                        <forename>Anna</forename>
+                    </persName><affiliation>University of Basel, Switzerland</affiliation><email>anna.reimann@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SerifInaSERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml"><persName ref="https://orcid.org/0000-0003-2419-4252" n="SerifIna">
+                        <surname>Serif</surname>
+                        <forename>Ina</forename>
+                    </persName><affiliation>University of Basel, Switzerland</affiliation><email>ina.serif@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The tutorial demonstrates a workflow that we developed for the text-based digital classification of an early modern advertisement newspaper which allows for subsequent and dynamic classification of the single ads according to the researcher’s interest. It also shows how this approach could be applied to similar publications, using our R-package.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>newspapers</term>
+                    <term>early modern history</term>
+                    <term>R</term>
+                    <term>text analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Communication studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Abstract</head>
+                <p>This half-day workshop introduces researchers to
+                        workflows of and tools developed in the research project ‘Printed Markets’
+                        to analyse historical newspapers,<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn1" n="1"/> achieved in collaboration between historians, computer and data scientists. Thanks to using mostly open source or easily accessible software and an R package especially developed to enrich and analyse newspaper data, the approach is flexible and can, in theory, be reproduced with and adapted to any similar source and for different research interests. </p>
+            </div>
+            <div>
+                <head>Introduction</head>
+                <p>While historical newspapers and other periodical
+                        publications have long been neglected for humanities research, recent
+                        digitization efforts have begun to mitigate this and allow for better corpus
+                        building. The access to these serial sources has been exponentially
+                        broadened, but with digital representations still often lacking text
+                        recognition or segmentation, let alone further classification of the content
+                        to allow for quantitative analysis, in-depth analysis is often difficult
+                        without any further processing of the digitized newspapers. Even if, in the
+                        best-case scenario, text recognition and segmentation is provided, tools for
+                        historical digital analysis are mostly lacking, and general tools are often
+                        difficult to adapt for premodern sources which pose a range of problems like
+                        noisy OCR, non-standardized spelling and non-modern vocabularies. While new
+                        database projects have indeed taken impressive steps to enrich their data
+                        and thus facilitate research, these are limited to the newspapers that fit
+                        into their data model and rely on a specific interface, which is not
+                        adaptable for other research interests and sources.<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn2" n="2"/></p>
+            </div>
+            <div>
+                <head>Historical context</head>
+                <p>Our research object, the historical source, is not a standard political newspaper, but the <hi rend="italic">Avisblatt</hi>, an intelligence paper published between 1729 and
+                        1844 in Basel, Switzerland. While our example is an especially well
+                        preserved paper, it is by far not the only one of its kind: at the end of
+                        the seventeenth century, so-called intelligence newspapers emerged in big
+                        European cities like Paris or London, springing up all over the continent
+                        during the eighteenth century.<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn3" n="3"/> They mainly consisted of (classified) advertisements and tried to connect people offering and people seeking something – any kind of thing: things for rent and for sale, lost and found items or animals, second-hand goods, newly invented or well-known medical products, and imported goods like coffee and tea, to name just a few. These new platforms for facilitated communication were soon frequently used by non- or semi-professional sellers, as well as professional suppliers such as craftsmen, traders and shops. Therefore, these intelligencers are, on the one hand, a particularly interesting source for examining the micromechanics of local markets, on the other, helpful for analyzing connections between local, transregional and increasingly global markets of goods in the early modern period – and they are also quite unmanageable for a single (and analog) research endeavor with regards to the sheer mass of data, making collaboration and the use of digital tools a necessary prerequisite for its investigation.</p>
+            </div>
+            <div>
+                <head>Case study</head>
+                <p>Our specific case study, the <hi rend="italic">Avisblatt</hi>, published almost 6000 issues during its 116-year runtime, which consist of around 50 000 pages and contain close to 1 million advertisements. In view of these figures for a <hi rend="italic">single</hi> intelligence paper, it is perhaps not surprising, that these sources have so far often been neglected or studied only qualitatively with very small-scale interests.<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn4" n="4"/> The workflows and tools we present during this workshop are a first step to open up the treasure trove of intelligence newspapers to historical research, starting at the digitization of the source and leading to a database of classified ads that can be constantly expanded and enriched. From the start, this approach was also developed with the aim to make it adaptable to other similar publications, allowing for regional as well as trans-national comparisons;<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn5" n="5"/> the steps that we performed can be done using open source software only, and the data set, the R package and scripts we created are available on GitHub.<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn6" n="6"/></p>
+                <p>At its core, the R package contains different scripts
+                        that result in an automated classification of the ads. This is a process
+                        that we call “dynamic tagging”, which classifies the single advertisements
+                        on basis of the text contained within. Currently, there exist nearly 200
+                        dictionaries for different categories. These dictionaries try to catch all
+                        spellings for items that form a category, e.g. “dog”, which could be
+                        “poodle”, “boxer”, or “sausage dog”; to broaden the catches, regular
+                        expressions can be used. If a term stored in a dictionary, e.g. “poodle” in
+                        the dictionary “dogs”, is found in the text of an ad, the tag “dogs” is
+                        added to the meta data. This approach makes it possible for individual
+                        researchers to focus on their research topic within the advertisements, by
+                        filtering thematic subsets, and enriching the data further, contributing to
+                        the increasing comprehensiveness of the data set as a whole: If somebody
+                        were interested in animals, they could create a subcollection with all the
+                        ads tagged with “dogs”, “cats”, etc., and concentrate their analysis on this
+                        subcollection. They can also just care for cats, of course. And if somebody
+                        else were interested in the appearance of mice in the ads, they could create
+                        a new dictionary that runs over the corpus and retags all the ads containing
+                        corresponding terms. In the resulting subcollection, they could further
+                        enhance the data, looking for places that appear in ads mentioning mice,
+                        creating a topography of rodents in Basel.</p>
+            </div>
+            <div>
+                <head>Workshop content</head>
+                <p>The workshop will demonstrate how the workflow that
+                        we developed for the text-based digital classification of an early modern
+                        advertisement newspaper allows for subsequent and dynamic classification of
+                        the single ads according to the researcher’s interest – of the data set as a
+                        whole or of selected subcollections. It teaches how to gather the data from
+                        GitHub and how to use different functions from our package for analysis and
+                        for visualization of results. It also shows how this approach could be
+                        applied to similar publications, using our R package.</p>
+                <p>While participants will need to install some open
+                        source software (see below), prior programming experience is not
+                        required.</p>
+            </div>
+            <div>
+                <head>Target audience</head>
+                <p>Researchers from all humanities disciplines that are
+                        interested in (historical) newspapers. While the newspaper from our project
+                        is in German, we will also briefly show an English example (e.g. The publick
+                        advertiser, 1650s). The maximum number of participants is 12.</p>
+            </div>
+            <div>
+                <head>Prerequisites</head>
+                <p>Installation of R, R Studio, setting up a GitHub
+                        account. We recommend installing GitHub Desktop if you are unfamiliar with
+                        git and/or using the command line.<ref target="#SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn7" n="7"/></p>
+            </div>
+            <div>
+                <head>Outline</head>
+                <p>This is a half-day workshop which will cover the
+                        following content:</p>
+                <list type="unordered">
+                    <item>30’ R and R Studio/trouble shooting</item>
+                    <item>30’ short overview over project; which steps were performed from analog
+                        source to digital data; short Q&amp;A for technical questions </item>
+                    <item>30’–60’ showcasing of classification/tagging of ads: <list type="unordered">
+                            <item>we explain the meta data model that we built for the ads;</item>
+                            <item>we explain the principle of a dictionary, how it is constructed,
+                                which elements it is made of; </item>
+                            <item>we show how one can filter specific subsets, according to
+                                different kind of meta data;</item>
+                            <item>we show how one can enhance a subset with other meta data</item>
+                        </list></item>
+                    <item>60’-90’ group tagging, filtering, enhancing, plotting <list type="unordered">
+                            <item>we build a dictionary together that shall tag all advertisements
+                                that contain a good/object chosen by the group; </item>
+                            <item>we let the dictionary run over the data set to tag the
+                                corresponding ads with the meta data tag;</item>
+                            <item>we filter for the created subset, make first visualizations,
+                                enhance and or filter the data further</item>
+                        </list></item>
+                </list>
+            </div>
+            <div>
+                <head>Acknowledgements</head>
+                <p>The presented package was developed within the
+                        project “Printed Markets”, SNF grant 182156, with support from Matthias
+                        Bannert.</p>
+            </div>
+            <div>
+                <head>Instructors</head>
+                <p>Lars Dickmann, lars.dickmann@unibas.ch, is research
+                        assistant for Early Modern History at the University of Basel with a focus
+                        on Global History.</p>
+                <p>Anna Reimann, anna.reimann@unibas.ch, is a PhD student in the project “Printed
+                    Markets” at the University of Basel and interested in Consumption History and
+                    Material Culture.</p>
+                <p>Ina Serif, ina.serif@unibas.ch, is a PostDoc
+                        assistant for Premodern and Digital History at the University of Basel and
+                        has a special interest in Book and Print History.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn1">
+                         “Printed Markets. The Basel Avisblatt 1729–1844”, a project at the Department of History of the University of Basel, financed by the Swiss National Science Foundation, running from 2018 until spring 2023.
+                    </note><note n="2" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn2">
+                         See for example <ref target="https://impresso-project.ch/">https://impresso-project.ch/</ref>, which enables research through an easily
+                                accessible interface, but with restrictions regarding export of
+                                publications. The Horizon 2020 project newseye (<ref target="https://www.newseye.eu/">https://www.newseye.eu/</ref>) offers a platform for research as well as
+                                code for reuse, but does not seem to be too versatile when it comes
+                                to non-standardized languages.
+                    </note><note n="3" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn3">
+                        See for example Blome 2006; Golob 2012; Lyna
+                                / Van Damme 2009; Tantner 2015.
+                    </note><note n="4" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn4">
+                         See for example Brauner 2019; Fleischmann-Heck 2019; Jones 1996. 
+                    </note><note n="5" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn5">
+                         A comprehensive database with an overview over intelligencers is still missing; however, they not only appeared on the European continent in a high number of issues, but also in Northern America. 
+                    </note><note n="6" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn6">
+                         https://avisblatt.github.io/.
+                    </note><note n="7" xml:id="SERIF_Ina_Digital_Pathways_Through_Newspaper_Advertisements_.xml_ftn7">
+                         For the installation of R
+                            (https://www.r-project.org/) and R Studio
+                            (https://posit.co/products/open-source/rstudio/), chapter 1.1 in Ismay /
+                            Kim (2023) might be useful: <ref target="https://moderndive.netlify.app/1-getting-started.html#getting-started">https://moderndive.netlify.app/1-getting-started.html#getting-started</ref>.
+                            You can set up a GitHub account under <ref target="https://github.com/">https://github.com/</ref>, and you can install GitHub Desktop via
+                                <ref target="https://desktop.github.com/">https://desktop.github.com/</ref>. 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Blome, Astrid</author> (2006): “Vom Adressbüro zum
+                        Intelligenzblatt. Ein Beitrag zur Genese der Wissensgesellschaft”, in: <hi rend="italic">Jahrbuch für Kommunikationsgeschichte</hi> 8: 3–29. </bibl>
+                    <bibl><author>Brauner, Christina</author> (2019): “Recommendation und
+                        Reklame. Niederrheinische Brandspritzenmacher und Praktiken der Werbung in
+                        der Frühen Neuzeit”, in: <hi rend="italic">Zeitschrift für Historische
+                            Forschung</hi> 46: 1–45. </bibl>
+                    <bibl><author>Fleischmann-Heck, Isa</author> (2019): “The ‘Duisburger
+                        Intelligenz-Zettel’ as a Source for Textile Research. Supply and Consumption
+                        of Silk and Cotton Textiles in Western Prussia in the Second Half of the
+                        Eighteenth Century”, in: Siebenhüner, Kim / Jordan, John / Schopf, Gabi
+                        (eds.):
+                        <hi rend="italic"> Cotton in Context. Manufacturing, Marketing, and Consuming Textiles in the German-Speaking World (1500–1900)</hi>.
+                        Wien / Köln / Weimar: Vandenhoeck &amp; Ruprecht 335–55. </bibl>
+                    <bibl><author>Golob, Andreas</author> (2012): “Das Zeitungskomptoir als
+                        Informationsdrehscheibe. Michael Hermann Ambros und seine Grazer
+                        Anzeigenblätter”, in: Brandstetter, Thomas / Hübel, Thomas / Tantner, Anton
+                        (eds.): <hi rend="italic">Vor Google. Eine Mediengeschichte der Suchmaschine
+                            im analogen Zeitalter</hi>. Bielefeld: transcript 109–50. </bibl>
+                    <bibl><author>Ismay, Chester</author> / <author>Kim, Albert Y.</author>  (2023): <hi rend="italic">Statistical Inference via Data Science. A ModernDive into
+                            R and the Tidyverse</hi>, <ref target="https://moderndive.com/">https://moderndive.com/</ref> [28.04.2023]. </bibl>
+                    <bibl><author>Jones, Colin</author> (1996): “The Great Chain of Buying.
+                        Medical Advertisement, the Bourgeois Public Sphere, and the Origins of the
+                        French Revolution”, in: The American Historical Review 101, 1: 13–40. </bibl>
+                    <bibl><author>Lyna, Dries</author> / <author>Ilja Van Damme</author>  (2009): “A Strategy of
+                        Seduction? The Role of Commercial Advertisements in the Eighteenth-Century
+                        Retailing Business of Antwerp”, in: <hi rend="italic">Business History</hi>
+                        51, 1: 100–121. </bibl>
+                    <bibl><author>Tantner, Anton</author> (2015): <hi rend="italic">Die ersten
+                            Suchmaschinen. Adressbüros, Fragämter, Intelligenz-Comptoirs</hi>.
+                        Berlin: Wagenbach. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

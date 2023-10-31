@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gloss-ViBe: Early Medieval Glosses and the Digital Humanities</title>
+                <author n="BauerBernhardBAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml"><persName ref="https://orcid.org/0000-0003-2881-0972" n="BauerBernhard">
+                        <surname>Bauer</surname>
+                        <forename>Bernhard</forename>
+                    </persName><affiliation>University of Graz</affiliation><email>bernhard.bauer@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The proposed poster gives an overview on the Gloss-ViBe project which analyses the early medieval Celtic and Latin glosses found in the fragmentory manuscript Vienna, Österreichische Nationalbibliothek, Codex 15298 (olim Suppl. 2698) from different angles including digital humanities, philology and linguistics.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Glossing</term>
+                    <term>Early Medieval</term>
+                    <term>Manuscripts</term>
+                    <term>Digital Edition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The project “Early Medieval Glosses And The Question Of Their Genesis: A Case Study On The Vienna Bede” (Gloss-ViBe) is funded through a H2020-MSCA Individual Fellowship. It is based at the 
+                <hi rend="italic">Centre of Information Modelling – Austrian Centre for Digital Humanities</hi> (ZIM) of the University of Graz and runs from September 2021 until August 2023. 
+            </p>
+            <p>Gloss-ViBe centres on glosses, which can be defined as anything on a (manuscript) page which is not the main text. They form the paratext of a manuscript and are usually distinguishable from the main text in the 
+                <hi rend="italic">mise-en-page</hi> by either its position, its different script or specific marking. The project investigates the Old Irish and Latin glosses on the Venerable Bede’s 
+                <hi rend="italic">De Temporum Ratione</hi> found in the fragmentary manuscript 
+                <hi rend="italic">Vienna</hi>, 
+                <hi rend="italic">Österreichische Nationalbibliothek</hi>, Codex 15298 (olim Suppl. 2698). Previous scholarship has mainly focussed on the Old Irish glosses and mostly neglected the Latin ones, e.g., 
+                Strachan (1902), 
+                Stokes and Strachan (1901–1903), 
+                Dillon (1956), or my own work 
+                Bauer (2017). Gloss-ViBe now takes a broader look at the data and investigates all the glosses from different angles including digital humanities, philology and linguistics to answer its main research question: “Are vernacular glosses original compositions or translations from original Latin glosses?”
+            </p>
+            <p>In addition to its main source which dates from the late 8
+                <hi rend="superscript">th</hi>/early 9
+                <hi rend="superscript">th</hi> century, it also considers the parallel glosses – glosses on the same lemma of the main text transmitted in different manuscripts – found in three other manuscripts
+                <ref target="#BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn1" n="1"/>: (1) 
+                <hi rend="italic">Angers, Bibliothèque municipale</hi> 477 (= Ang.) dating from the end of the 9
+                <hi rend="superscript">th</hi> century, (2) 
+                <hi rend="italic">Karlsruhe, Badische Landesbibliothek, Augiensis pergamentum</hi> 167 (olim Codex Augiensis CLXVII) (= BCr.) from the later part of the first half of the 9
+                <hi rend="superscript">th</hi> century, (3) 
+                <hi rend="italic">St. Gall, Stiftsbibliothek</hi>, MS 251 (Sg.) composed in the first half of the 9
+                <hi rend="superscript">th</hi> century. 
+            </p>
+            <p>Gloss-ViBe’s main output is a comprehensive digital edition of the Vienna Bede (based on TEI/XML) – including the main text and all the glosses – which is published on the GAMS
+                <ref target="#BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn2" n="2"/> (Geisteswissenschaftliches Asset Management System, AMS for the Humanities) hosted by ZIM. A beta version of is already available 
+                (see Bauer 2021–2023). This edition forms the basis for the analysis of the corpus. Within the TEI-file the glosses are encoded using the &lt;gloss&gt; element and the critical apparatus &lt;app&gt; if there are parallel glosses. Furthermore, the glosses and the lemma they are glossing are linguistically tagged. Since the Old Irish glosses have already been extensively tagged in CorPH
+                <ref target="#BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn3" n="3"/> only the Latin ones need to be tagged within the project. For this the Python-based 
+                <hi rend="italic">Classical Language Toolkit</hi><ref target="#BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn4" n="4"/> is used. The linguistic mark-up is then imported into the TEI-files using the @lemma, @pos, and @msd attributes for each analysed word. The digital edition has different view modes: one where the facsimile and the transcribed text of the manuscript are presented side-by-side, one which only has the transcribed text with the glosses (similar to the St Gall Priscian Glosses website
+                <ref target="#BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn5" n="5"/>, and one that concentrates on the glosses (including the linguistic and philological analyses). 
+            </p>
+            <p>In the final part of the project the analyses will be synthesised and visualised, e.g., Gephi will be used to show the interconnections of the manuscripts involved based on their parallel glosses. The proposed poster will give an overview on the digital edition, Gloss-ViBe’s data model and visualise the project’s findings.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn1">
+                     For a detailed description of all the manuscripts involved see 
+                        Bauer (2019, 32–33)
+                    
+                </note><note n="2" xml:id="BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn2">
+                     https://gams.uni-graz.at/.
+                </note><note n="3" xml:id="BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn3">
+                     https://chronhib.maynoothuniversity.ie/chronhibWebsite/home.
+                </note><note n="4" xml:id="BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn4">
+                     http://cltk.org/.
+                </note><note n="5" xml:id="BAUER_Bernhard_Gloss_ViBe__Early_Medieval_Glosses_and_the_Di.xml_ftn5">
+                     http://www.stgallpriscian.ie/.
+                </note></div><div type="bibliogr"/>
+        </back>
+    </text></TEI>

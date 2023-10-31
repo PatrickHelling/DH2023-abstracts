@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The networked edition humboldt digital</title>
+                <author n="DumontStefanDUMONT_Stefan_The_networked_edition_humboldt_digital.xml"><persName n="DumontStefan">
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities, Germany</affiliation><email>dumont@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KraftTobiasDUMONT_Stefan_The_networked_edition_humboldt_digital.xml"><persName n="KraftTobias">
+                        <surname>Kraft</surname>
+                        <forename>Tobias</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities, Germany</affiliation><email>kraft@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ThomasChristianDUMONT_Stefan_The_networked_edition_humboldt_digital.xml"><persName n="ThomasChristian">
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities, Germany</affiliation><email>thomas@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster aims to present (and discuss) the networking approach of the edition humboldt digital, which make extensive use of external data and web services.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Scholarly Edition</term>
+                    <term>Application Programming Interfaces</term>
+                    <term>Web services</term>
+                    <term>Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>History</term>
+                    <term>History of science</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The scholarly edition project 
+                <hi rend="italic">Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung</hi> (AvH-R)
+                <hi rend="italic">, </hi>based at the Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)
+                <hi rend="italic">, </hi>edits the American, Russian-Siberian and European travel journals as well as thematically related letters and manuscripts of the Prussian naturalist and explorer Alexander von Humboldt.
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn1" n="1"/> Research articles, a chronology of Humboldt’s life and extensive indexes supplement these texts. The publication strategy is “digital first”, i. e. the documents are initially published online under a free licence, with a curated selection to appear later in a series of print editions. Taking into account the decade-long history of Humboldt-related research at the BBAW, AvH-R has been pioneering the continuous digitization of Alexander-von-Humboldt-Research, creating the first fully digital manuscript edition of his works.
+            </p>
+            <p>Since its launch in 2016, eight versions of the project’s 
+                <hi rend="italic">edition humboldt digital </hi>(
+                <hi rend="italic">ehd</hi>) have been released.
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn2" n="2"/> AvH-R’s editorial team works with 
+                <hi rend="italic">ediarum</hi>,
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn3" n="3"/> a research software solution based on X-technologies, the free XML database eXist-db and the software Oxygen XML Author. With the current version 8 of the 
+                <hi rend="italic">ehd, </hi>the project keeps its promise to make the digital, text-critical documentary edition
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn4" n="4"/> available 
+                <hi rend="italic">as data </hi>(mainly in TEI-XML) on GitHub
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn5" n="5"/> and (from summer 2023) for long-term archiving and worldwide access in the Zenodo repository. This step significantly enhances the re-usability of the integral research data from the edition, e. g. for initiatives such as the National Research Data Infrastructure Germany (NFDI), where the BBAW is involved as a co-applicant and active partner in the Text+ consortium.
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn6" n="6"/></p>
+            <p>In addition to accessing the digital edition via the web interface of the 
+                <hi rend="italic">ehd</hi> or via the GitHub- and Zenodo-repositories, the data can also be retrieved via an application programming interface. The API itself offers not ‘only’ the annotated full text transcriptions, but also various metadata to enable comprehensive networking of the edition, e. g. the metadata for the edited texts and research articles in Dublin Core format via OAI-PMH (Lagoze et al. 2015). Thus all texts can be found in the open access search engine BASE.
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn7" n="7"/> In addition, 
+                <hi rend="italic">ehd</hi> provides both a BEACON interface (Voß and Schindler 2017) and a CMIF interface for correspSearch (Dumont, Grabsch and Müller-Laackman 2021).
+            </p>
+            <p><figure><graphic n="1001" width="15.92cm" height="12.065cm" url="Pictures/629ffd03aae47a54528140fef1cb9b37.png" rend="block"/><head>Fig. 1: 
+                <hi rend="italic">edition humboldt digital</hi> uses or links to external data and web services (Cf. Kraft/Dumont 2020)</head></figure>
+            </p>
+            <p><hi rend="italic">edition humboldt digital </hi>not only provides its own data, but also uses other data and external web services to enrich its functions (fig. 1). For example, the TEI-XML files are sent to the web service DTA::CAB
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn8" n="8"/> (Jurish 2011) for lemmatisation. This enables a lemma-based search that takes into account (historical) spelling variants and inflections. 
+            </p>
+            <p>Apart from the search function, the chronology of Alexander von Humboldt's life is a central networking and integration point for external resources and is exemplary for the project’s attempt not only to create Humboldtian scholarship as digital data but also to restore and curate text-based research data for the digital age. This chronology was begun in the 1960s at the then German Academy of Sciences and Humanities in Berlin, revised in the 2000s and published as an HTML version on the web, converted to TEI-XML in 2015/16 and finally integrated into the 
+                <hi rend="italic">edition humboldt digital. </hi>There, it is continuously maintained, expanded and linked to the edited texts and index entries. In addition, it integrates various external resources and services into the edition, such as the metadata of Alexander von Humboldt’s published correspondence from correspSearch,
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn9" n="9"/> Humboldt’s works from the German Text Archive
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn10" n="10"/> and entries from the court calendar of the Prussian monarchy
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn11" n="11"/> with reference to Humboldt’s life. In this way, the chronology opens up the 
+                <hi rend="italic">edition humboldt digital</hi> to numerous externally available materials and information. By intensive cross-referencing, users are automatically made aware of additional sources available from other projects or in earlier (printed) editions without having to investigate themselves and without leaving the 
+                <hi rend="italic">ehd</hi> platform
+                <hi rend="italic">.</hi></p>
+            <p>The indexes also use external data. On the one hand, via BEACON interfaces other related and featured digital publications, such as Alexander von Humboldt’s Kosmos-Lectures in the German Text Archive, are linked automatically.
+                <ref target="#DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn12" n="12"/> In addition, with the help of entire records of the GND (i. e. not just the URIs) the index entries of the 
+                <hi rend="italic">ehd</hi> are automatically linked to 
+                <hi rend="italic">each other </hi>– based on family and friendship relations noted in the GND. One index that makes extensive use of external services is the plant index. Based on the taxonomic names, various web services are queried and linked automatically. In this way, the edition opens up Humboldt’s diaries to various disciplines such as biodiversity research. With the intensive use of external web services and data, the benefit of the digital edition increases significantly.
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn1">
+                    <hi rend="italic">edition humboldt digital</hi>: <ref target="https://edition-humboldt.de/">https://edition-humboldt.de/</ref>. Cf. Kraft/Dumont 2020.
+                </note><note n="2" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn2">
+                     For details on the quality and quantity of the published research data see the site’s section “Versionen” at <ref target="https://edition-humboldt.de/about/index.xql?id=H0020382&amp;l=en">https://edition-humboldt.de/about/index.xql?id=H0020382&amp;l=en</ref>. 
+                </note><note n="3" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn3">
+                    <ref target="https://www.ediarum.org/">https://www.ediarum.org/</ref>; see also Dumont et. al 2021. 
+                </note><note n="4" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn4">
+                     For an orientation on the ehd edition model, see Sahle 2016 and in particular the concept of the 'documentary edition', for example Pierazzo 2011.
+                </note><note n="5" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn5">
+                    <ref target="https://github.com/telota/edition-humboldt-digital">https://github.com/telota/edition-humboldt-digital</ref>.
+                </note><note n="6" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn6">
+                    <hi rend="italic">NFDI</hi>: <ref target="https://www.nfdi.de/?lang=en">https://www.nfdi.de/?lang=en</ref>; <hi rend="italic">Text+</hi>: digital: <ref target="https://www.text-plus.org/en/home/">https://www.text-plus.org/en/home/</ref>. Team members of the <hi rend="italic">ehd</hi> and <hi rend="italic">Telota</hi> have contributed a “User Story” to motivate the development of more <hi rend="italic">multilingual</hi> query services within the consortium, available at <ref target="https://www.text-plus.org/en/research-data/user-story-408/">https://www.text-plus.org/en/research-data/user-story-408/</ref>.
+                </note><note n="7" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn7">
+                    <ref target="https://www.base-search.net/">https://www.base-search.net/</ref>
+                </note><note n="8" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn8">
+                    <ref target="https://www.deutschestextarchiv.de/demo/cab/">https://www.deutschestextarchiv.de/demo/cab/</ref>.
+                </note><note n="9" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn9">
+                    <ref target="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118554700">https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118554700</ref>.
+                </note><note n="10" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn10">
+                    <ref target="https://edition-humboldt.de/chronologie/index.xql?jahr=1827&amp;dta=on">https://edition-humboldt.de/chronologie/index.xql?jahr=1827&amp;dta=on</ref>.
+                </note><note n="11" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn11">
+                     Cf. Introduction Court Calendar, <ref target="https://actaborussica.bbaw.de/v5/P0006298">https://actaborussica.bbaw.de/v5/P0006298</ref>, in: Akademienvorhaben “Anpassungsstrategien […]” 2021.  
+                </note><note n="12" xml:id="DUMONT_Stefan_The_networked_edition_humboldt_digital.xml_ftn12">
+                     See, for example, the register entry on August Böckh: <ref target="https://edition-humboldt.de/H0003413">https://edition-humboldt.de/H0003413</ref>.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>Akademienvorhaben “Anpassungsstrategien der späten mitteleuropäischen Monarchie am preußischen Beispiel (1786-1918)” (Ed.) (2021): Die Sprache der Monarchie (Version 5). Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. URL:
+                        <ref target="https://actaborussica.bbaw.de/v5/P0006298"> </ref>
+                        <ref target="https://actaborussica.bbaw.de/v5/P0006298">https://actaborussica.bbaw.de/</ref>
+                    </bibl>
+                    <bibl><author>Dumont, Stefan</author> / <author>Nadine Arndt</author> / <author>Sascha Grabsch</author> / <author>Lou Klappenbach</author>  (2021): ediarum.BASE.edit (Version 2.0.0) [Computer software]. 
+                        <ref target="https://doi.org/10.5281/zenodo.5897100">https://doi.org/10.5281/zenodo.5897100</ref>
+                    </bibl>
+                    <bibl><author>Dumont, Stefan und Sascha Grabsch und Jonas Müller-Laackman</author> (Ed.) (2021): correspSearch – Briefeditionen vernetzen (2.0.0) [Webservice]. Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. 
+                        <ref target="https://correspsearch.net">https://correspSearch.net</ref>.
+                    </bibl>
+                    <bibl><author>Ette, Ottmar</author> (Ed.) (2022):
+                        <hi rend="italic">edition humboldt digital</hi> (Version 8). Berlin: Berlin-Brandenburgische Akademie der Wissenschaften. 
+                        <ref target="https://edition-humboldt.de/">https://edition-humboldt.de/</ref>.
+                    </bibl>
+                    <bibl><author>Jurish, Bryan</author> (2011): 
+                        <hi rend="italic">Finite-State Canonicalization Techniques for Historical German</hi>. Potsdam: Universität Potsdam.
+                        <ref target="https://doi.org/urn:nbn:de:kobv:517-opus-55789"> </ref>
+                        <ref target="https://nbn-resolving.org/urn:nbn:de:kobv:517-opus-55789">urn:nbn:de:kobv:517-opus-55789</ref>.
+                    </bibl>
+                    <bibl><author>Kraft, Tobias und Stefan Dumont</author> (2020): “The Humboldt Code. On creating a hybrid digital scholarly edition of a 19
+                        <hi rend="superscript">th</hi> century globetrotter.” In 
+                        <hi rend="italic">Wiener Digitale Revue</hi> 1. 
+                        <ref target="https://doi.org/10.25365/wdr-01-03-02">https://doi.org/10.25365/wdr-01-03-02</ref>.
+                    </bibl>
+                    <bibl><author>Lagoze, Carl, Herbert Van de Sompel, Michael Nelson, and Simeon Warner</author> (2015): ‘The Open Archives Initiative Protocol for Metadata Harvesting. Protocol Version 2.0’. 
+                        <ref target="http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm">http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm</ref>. 
+                    </bibl>
+                    <bibl><author>Pierazzo, Elena</author> (2011): “A Rationale of Digital Documentary editions”. In 
+                        <hi rend="italic">Literary and Linguistic Computing</hi>, 26,4, 463-477. 
+                        <ref target="https://doi.org/10.1093/llc/fqr033">https://doi.org/10.1093/llc/fqr033</ref>.
+                    </bibl>
+                    <bibl><author>Sahle, Patrick</author> (2016): “What is a Scholarly Digital Edition?” In 
+                        <hi rend="italic">Digital Scholarly Editing: Theories and Practices</hi>, Ed. von Matthew James Driscoll und Elena Pierazzo, 19-39. Cambridge, UK: Open Book Publishers. 
+                        <ref target="https://books.openedition.org/obp/3397">https://books.openedition.org/obp/3397</ref>
+                    </bibl>
+                    <bibl><author>Voß, Jakob, and Matthias Schindler</author> (2017): ‘BEACON Link Dump Format’. Informational. Göttingen. 
+                        <ref target="http://gbv.github.io/beaconspec/beacon.html">http://gbv.github.io/beaconspec/beacon.html</ref>. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

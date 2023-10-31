@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pose Annotation Project for Artworks: A participatory
+                        annotation platform for automated body pose estimation in art.</title>
+                <author n="BernasconiValentineBERNASCONI_Valentine_Pose_Annotation_Project_for_Artworks__A.xml"><persName ref="https://orcid.org/0000-0002-9467-8896" n="BernasconiValentine">
+                        <surname>Bernasconi</surname>
+                        <forename>Valentine</forename>
+                    </persName><affiliation>Digital Visual Studies, University of Zurich,
+                        Switzerland</affiliation><email>valentine.bernasconi@uzh.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NeguerueladelCastilloDaroBERNASCONI_Valentine_Pose_Annotation_Project_for_Artworks__A.xml"><persName n="NeguerueladelCastilloDaro">
+                        <surname>Negueruela del Castillo</surname>
+                        <forename>Darío</forename>
+                    </persName><affiliation>Digital Visual Studies, University of Zurich,
+                        Switzerland</affiliation><email>dario.neguerueladelcastillo@uzh.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present a new participatory annotation platform as part of the Pose Annotation Project for Artworks (PAPA). The goal is to produce a training dataset made of early modern paintings to address the need for more robust machine learning models for body pose estimation on artworks.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>body pose estimation</term>
+                    <term>training dataset</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>crowdsourcing</term>
+                    <term>Art history</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Context</head>
+                <p>Many projects in the domain of digital humanities have
+                        shown a growing interest for object recognition in artworks (Milani and
+                        Fraternali 2020), and, more specifically, for the task of Human Pose
+                        Estimation (HPE) (Marsocci and Lastilla 2021; Impett and Süsstrunk 2016;
+                        Madhu et al. 2022). HPE is a well defined challenge in computer vision and
+                        benefits from large training datasets of annotated images (Lin et al. 2014;
+                        Andriluka et al. 2014)that allow the creation of highly performative machine
+                        learning models (Cao et al. 2021; Girshick 2015; Redmon et al. 2016).
+                        However, these datasets are usually made of recent photographs collected in
+                        the web, capturing a loose western perspective with all its biases
+                        Moreover,  their content diverges from artworks created in past Centuries.
+                        For the case of figurative paintings, visual features, such as brush marks
+                        and color shades, but also the morphology of bodies, dressing codes or the
+                        overall composition, have an impact on the accuracy of HPE models. These
+                        many differences do not enable the field of digital art history to fully
+                        benefit from the performance of existing models and the lack of a proper
+                        training dataset for artworks makes it difficult to retrain them. Therefore,
+                        we present the Pose Annotation Project for Artworks (PAPA), which goal is to
+                        produce a training dataset for body pose estimation on artworks through a
+                        platform for participatory annotations of images.</p>
+            </div>
+            <div type="div1">
+                <head>A platform to annotate images</head>
+                <p>In order to align with standards and to ease the use
+                        of the dataset with existing machine learning models, the annotation format
+                        proposed by the Microsoft Common Objects in COntext dataset (COCO)<ref target="https://www.zotero.org/google-docs/?pAHy5E">(Lin et al. 2014)</ref>is used. The format includes body recognition via
+                        segmentation, bounding boxes and keypoints annotations, which are stored
+                        using JSON. The total of 17 keypoints correspond to the coordinates of the
+                        nose, eyes, ears, shoulders, elbows, wrists, hips, knees and ankles for each
+                        body present on an image.</p>
+
+                <figure>
+                    <graphic url="Pictures/90d26d91b902249d9e97b717c5337b82.png"/>
+                </figure>
+                <figure>
+                    <graphic url="Pictures/b2327b0d27fef596c5dc6db944b9566d.png"/>
+                </figure>
+                <figure>
+                    <graphic url="Pictures/9304c3fbe40e1471379a51ce9a7c27ad.png"/>
+                    <head>Figure 1 – Three different annotation tasks</head>
+                </figure>
+
+
+                <p>Based on this standard format and on collected testimonies from similar
+                    projects <ref target="https://www.zotero.org/google-docs/?9KrM8K">(Hervy et al.
+                        2019; Simpson, Page, and De Roure 2014)</ref>, it was decided to decompose
+                    the annotation task into three subtasks to ease the work of participants and
+                    foster more engagement from their part. The three different tasks are the
+                    following:  </p>
+                <list type="ordered">
+                    <item>segmentation of the bodies</item>
+                    <item>keypoints annotation</item>
+                    <item>correction of the annotations</item>
+                </list>
+                <p>A similar layout is used for each task, where the image to be annotated is on the
+                    center and a toolbox on the right hand side of the screen. The toolbox holds a
+                    list with information on the current status of the annotations for the image
+                    (see figure 1).</p>
+                <p>For the segmentation task (1), participants have to
+                        draw the contours of each body present on the image and save them
+                        individually in the list of the toolbox, where it can be selected, saved or
+                        removed if needed. An <hi rend="italic">undo</hi>and <hi rend="italic">clear</hi>button are also available to perform changes. Based on
+                        these different segmentations, a bounding box is then automatically
+                        generated around the different segmented objects.</p>
+                <p>Regarding the second task (2), a masked image based on the bounding box of a
+                    segmented figure is displayed, thus showing one body at a time. On the right
+                    hand side, a list of the different body keypoints which can be selected one
+                    after another and placed on the figure with the help of the cursor.</p>
+                <p>For the last task (3), the participants are presented with a fully annotated
+                    figure. If the annotation does not seem correct, then the participants have the
+                    possibility to perform changes with the help of an eraser and pen tool, as well
+                    as a repositioning of the keypoints.</p>
+            </div>
+            <div type="div1">
+                <head>Future developments</head>
+                <p>For
+                    the current implementation of the platform, the dataset used consists of a total
+                    of 5’240 paintings from the digitized collection of the Fototeca from the
+                    Bibliotheca Hertziana. Dating mostly from the early modern time, the figurative
+                    content of the images aim to ease the task for a first series of annotations and
+                    to open the discussion on the complexity of artworks annotations and the
+                    possible extension of the dataset to other artwork types and epochs. Indeed,
+                    with the need to recognize bodies in art comes the question of the border
+                    between figurative and abstract representation, and the limit for such a
+                    project. Furthermore, the platform itself and annotation process will be
+                    assessed and potentially enhanced from this first trial. </p>
+            </div>
+            <div type="div1">
+                <head>Acknowledgement</head>
+                <p>Many thanks to Mr Josip Harambasic for his collaboration on the implementation of
+                    the</p>
+                <p>platform.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Andriluka, Mykhaylo</author> / <author>Pishchulin, Leonid</author> / <author>Gehler, Peter</author> / <author>Schiele, Bernt</author> 
+                        (
+                        2014
+                        ):
+                         “2D Human Pose Estimation: New Benchmark and
+                            State of the Art Analysis.”, 
+                        in: 
+                        <hi rend="italic">2014 IEEE Conference on Computer Vision and
+                            Pattern Recognition</hi>
+                        , 3686–93.
+                            https://doi.org/10.1109/CVPR.2014.471.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Cao, Zhe</author> / <author>Hidalgo, Gines</author> / <author>Simon, Tomas</author> / <author>Wei, Shih-En</author> / <author>Sheikh, Yaser</author> 
+                        
+                        (
+                        2021
+                        ):
+                         “OpenPose: Realtime Multi-Person 2D Pose
+                            Estimation Using Part Affinity Fields.”, 
+                        in: 
+                        <hi rend="italic">IEEE Transactions on Pattern Analysis and
+                            Machine Intelligence</hi>
+                         43 (1): 172–86.
+                            https://doi.org/10.1109/TPAMI.2019.2929257.
+                    </bibl>
+                    <bibl>
+                        <author>Girshick, Ross </author>
+                        (
+                        2015
+                        ):
+                         “Fast R-CNN.”, 
+                        in:
+                        
+                        <hi rend="italic">2015 IEEE International Conference on
+                            Computer Vision (ICCV)</hi>
+                        , 1440–48.
+                            https://doi.org/10.1109/ICCV.2015.169.
+                    </bibl>
+                    <bibl>
+                        <author>Hervy, Benjamin</author> / <author>Pétillon, Pierre</author> / <author>Pigeon, Hugo</author> / <author>Raschia, Guillaume</author> 
+                        (
+                        2019
+                        ):
+                         “Correction Des Données : Retour d’expérience Sur
+                            La Plate-Forme RECITAL de Transcription Participative.”, 
+                        in:
+                        
+                        <hi rend="italic">Recherche d’Information, Document et Web
+                            Sémantique</hi>
+                        
+                        2 (1).
+                            https://doi.org/10.21494/ISTE.OP.2019.0348.
+                    </bibl>
+                    <bibl>
+                        <author>Impett, Leonardo</author> / <author>Süsstrunk, Sabine</author> 
+                        
+                        (
+                        2016
+                        ):
+                         “Pose and Pathosformel in Aby Warburg’s
+                            Bilderatlas.”, 
+                        in:
+                        
+                        <hi rend="italic">Computer Vision – ECCV 2016 Workshops</hi>
+                        , edited by Gang Hua and Hervé Jégou, 888–902.
+                            Lecture Notes in Computer Science. Cham: Springer International
+                            Publishing. https://doi.org/10.1007/978-3-319-46604-0_61.
+                    </bibl>
+                    <bibl>
+                        <author>Lin, Tsung-Yi</author> / <author>Maire, Michael</author> / <author>Belongie, Serge</author> / <author>Hays, James</author> / <author>Perona, Pietro</author> / <author>Ramanan, Deva</author> / <author>Dollár, Piotr</author> / <author>Zitnick, C. Lawrence</author> 
+                        
+                        (
+                        2014
+                        ):
+                         “Microsoft COCO: Common Objects in Context.”, 
+                        in:
+                        
+                        <hi rend="italic">Computer Vision – ECCV 2014</hi>
+                        , edited by David Fleet, Tomas Pajdla, Bernt
+                            Schiele, and Tinne Tuytelaars, 740–55. Lecture Notes in Computer
+                            Science. Cham: Springer International Publishing.
+                            https://doi.org/10.1007/978-3-319-10602-1_48.
+                    </bibl>
+                    <bibl>
+                        <author>Madhu, Prathmesh</author> / <author>Villar-Corrales, Angel</author> / <author>Kosti, Ronak</author> / <author>Bendschus, Torsten</author> / <author>Reinhardt, Corinna</author> / <author>Bell, Peter</author> / <author>Maier, Andreas</author> / <author>Christlein, Vincent</author> 
+                        
+                        (
+                        2022
+                        ):
+                         “Enhancing Human Pose Estimation in Ancient Vase
+                            Paintings via Perceptually-Grounded Style Transfer 
+                        Learning.”, 
+                        in
+                        
+                        <hi rend="italic">Journal on Computing and Cultural
+                            Heritage</hi>
+                        
+                        16 (1): 16:1-16:17.
+                            https://doi.org/10.1145/3569089.
+                    </bibl>
+                    <bibl>
+                        <author>Marsocci, Valerio</author> / <author>Lastilla, Lorenzo</author> 
+                        (
+                        2
+                        021
+                        ):
+                         “POSE-ID-on—A Novel Framework for Artwork Pose
+                            Clustering.”, 
+                        in:
+                        
+                        <hi rend="italic">ISPRS International Journal of
+                            Geo-Information</hi>
+                        
+                        10 (4): 257.
+                            https://doi.org/10.3390/ijgi10040257.
+                    </bibl>
+                    <bibl>
+                        <author>Milani, Federico</author> / <author>Fraternali, Piero</author> 
+                        
+                        (
+                        2020
+                        ):
+                         “A Data
+                        s
+                        et and a Convolutional Model for Iconography
+                            Classification in Paintings.”, 
+                        in: 
+                        
+                        <ref target="https://www.zotero.org/google-docs/?I9ZXs8"><hi rend="italic">Journal on Computing and Cultural
+                                Heritage</hi></ref>
+                        <ref target="https://www.zotero.org/google-docs/?I9ZXs8">14 (4): 46:1-46:18.
+                                https://doi.org/10.1145/3458885.</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Redmon, Joseph</author> / <author>Divvala, Santosh</author> / <author>Girshick, Ross</author> / <author>Farhadi, Ali</author>  (2016): “You Only Look Once: Unified, Real-Time Object
+                        Detection.”, in: Proceedings of the IEEE Conference on Computer Vision and
+                        Pattern Recognition, 779–88.
+                        https://openaccess.thecvf.com/content_cvpr_2016/html/Redmon_You_Only_Look_CVPR_2016_paper.html. </bibl>
+                    <bibl>
+                        <author>Simpson, Robert</author> / <author>Page, Kevin R.</author> / <author>De Roure, David</author> 
+                        (
+                        2014
+                        ):
+                         “Zooniverse: Observing the World’s Largest
+                            Citizen Science Platform.”, 
+                        in
+                        
+                        <hi rend="italic">Proceedings of the 23rd International
+                            Conference on World Wide Web</hi>
+                        , 1049–54. WWW ’14 Companion. New York, NY, USA:
+                            Association for Computing Machinery.
+                            https://doi.org/10.1145/2567948.2579215.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Finding Fascists, Efficiently! Comparing methods for mapping attitudes in
+                    Dutch and Belgian historical newspaper corpora (1920-1940)</title>
+                <author n="vandenHeedePieterVAN_LANGE_Milan_Mikolaj_Finding_Fascists__Efficiently__Compa.xml"><persName n="vandenHeedePieter">
+                        <surname>van den Heede</surname>
+                        <forename>Pieter</forename>
+                    </persName><affiliation>Erasmus University, Rotterdam, The Netherlands</affiliation><email>vandenheede@eshcc.eur.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanLangeMilanVAN_LANGE_Milan_Mikolaj_Finding_Fascists__Efficiently__Compa.xml"><persName n="vanLangeMilan">
+                        <surname>van Lange</surname>
+                        <forename>Milan</forename>
+                    </persName><affiliation>NIOD Institute for War, Holocaust, and Genocide Studies, Amsterdam,
+                        The Netherlands</affiliation><email>m.van.lange@niod.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FutselaarRalfVAN_LANGE_Milan_Mikolaj_Finding_Fascists__Efficiently__Compa.xml"><persName n="FutselaarRalf">
+                        <surname>Futselaar</surname>
+                        <forename>Ralf</forename>
+                    </persName><affiliation>Erasmus University, Rotterdam, The Netherlands; NIOD Institute for
+                        War, Holocaust, and Genocide Studies, Amsterdam, The
+                        Netherlands</affiliation><email>r.futselaar@niod.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We investigate the needs of analyzing historical attitudes to Hitler and Mussolini using digitized historical sources and a computer-assisted approach. We believe that the principles of ‘minimal computing’ are worth a comparison with established, resource-heavy approaches. In terms of social equity and global access, efficient methods offer opportunities for improvement.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>text mining</term>
+                    <term>minimal computing</term>
+                    <term>historical newspapers</term>
+                    <term>contemporary history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities
+                        computing)</term>
+                    <term>physical &amp; minimal computing</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>There is little positive to be said now about fascist
+                dictators such as Hitler and Mussolini, but they attracted a lot of attention, often
+                positive, in the contemporary European press. In this investigation we use these two
+                men, or rather mentions of their names, as named entities, to evaluate different
+                approaches to investigating attitudes in large-scale digitized historical source
+                collections. Specifically, we will use Belgian and Dutch newspapers to investigate
+                positive attitudes to fascism in the pre-war socialist and Catholic press in these
+                countries.</p>
+            <p>We aim to apply two methodological approaches to answer
+                the same question on the same dataset. The first of these, word embeddings, have a
+                proven record of effectiveness, and of genuinely revolutionary potential, in
+                historical research (Azarbonyad et al. 2017; Garg et al. 2018; Lange / Futselaar
+                2019; Wevers / Koolen 2020.) But they are rarely implemented outside of a small
+                community of ‘digital humanists’. We believe that the resource-intensive nature of
+                algorithms such as Word2Vec creates a barrier to entry, to academic historians, to
+                students, and especially to our colleagues working in the Global South (Risam / Gil
+                2022). We will therefore compare the efficacy of word embeddings for answering our
+                historical research question with an alternative, lighter approach based on
+                syntactic dependency parsers.</p>
+            <p>Our methodological question, then, is whether the
+                alternative method yields comparable historical insights while using less
+                computational power and methodological complexity. We consider this paper an
+                exploration of possible approaches, based on different basic principles of
+                computational methods for text analysis: complex and processing-intensive neural
+                network-based distributional semantics versus a ‘minimal computing’ approach based
+                on syntax and lexicons (Risam / Gil 2022). To be clear, we fully understand that the
+                output generated by each exercise will be different, but we investigate whether they
+                would nevertheless support a similar interpretation in the context of historical
+                research. Different types of output can play a similar hermeneutic role in
+                historical analysis.   </p>
+            <p>We use these two computer-assisted analyses to investigate
+                positive attitudes towards fascist movements. In both our research countries, the
+                dominant national discourse of pre-war innocence and neutrality has been questioned
+                by historians. They claim that mainstream public opinion and political elites were
+                far more sympathetic to fascist movements than they cared to admit after 1945.
+                Newspaper articles from the interwar years, mentioning fascist leaders, from
+                relatively mainstream newspapers, allow us to test the contention that Dutch and
+                Belgian public and political opinion was less anti-fascist in outlook than was long
+                believed (Vree 1989; Luyten 1996; Lagrou 1999; Boterman 2021). We base our analysis
+                on the socialist newspaper titles
+                <hi rend="italic">Het Volk/Het Vrije Volk </hi>(The
+                Netherlands) and <hi rend="italic">De Vooruit</hi> (Belgium)
+                and the Catholic newspapers <hi rend="italic">De
+                    Maasbode</hi> (The Netherlands) and <hi rend="italic">Het
+                    Volk</hi> (Belgium). The newspapers are fully digitized and OCR-ed data are
+                available from the Koninklijke Bibliotheek (The Netherlands) and the Koninklijke
+                Bibliotheek/Bibliothèque Royale (Belgium). </p>
+            <p>First, we will approach our sources by applying
+                distributional semantics. We use Google’s word2vec algorithm to train Word Embedding
+                Models (WEMs) and use their functionality to identify ‘nearest neighbors’ in
+                semantic space to identify and map attitudes closely related to the named entities
+                of ‘Hitler’ and ‘Mussolini’ (Wijffels et al). Second, we will repeat our analysis
+                using a method that relies for its application on less training data and less
+                computer processing power, and is therefore not only simpler, but, as we believe,
+                also more tractable, transparent, and replicable (Risam / Gil 2022). We will use
+                Named Entity Recognition (NER) to identify mentions of both dictators in the
+                digitized historical newspapers, which we know wrote extensively and with strong
+                opinions about both men. Each sentence containing a mention of one of the two is
+                then parsed using a free open-source dependency parser - a technique to examine
+                dependencies between different phrases of a sentence in order to determine its
+                grammatical structure (Benoit / Matsuo n.d.; ‘CRAN - Package Udpipe’ n.d.). The
+                outputs of the  dependency parsers will be used to identify and map contemporary
+                attitudes - and their development over time (Mendelsohn et al. 2020).</p>
+            <p>Needless to say, there is no external way to validate
+                either approach in the case of diverging outcomes. But in the case of mutually
+                confirmative outcomes, we may well be on the way to establishing a more accessible
+                approach to historical research in large textual datasets. This is especially
+                important because it would help to educate a larger number of historical
+                researchers, widening the critical base for further methodological development. </p>
+            <p>We try to investigate the needs and necessities of
+                answering a valid and substantive historical research question using digitized
+                historical sources and a computer-assisted approach. We believe that the principles
+                of ‘minimal computing’ are worth exploration and comparison with established,
+                resource-heavy approaches. In terms of social equity and global access, efficient
+                methods offer a major opportunity for improvement. The ongoing climate emergency
+                also necessitates us to consider the sizeable energy use of heavier computational
+                tools. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Azarbonyad, Hosein / Dehghani, Mostafa / Beelen, Kaspar / Arkut, Alexandra / Marx, Maarten / Kamps, Jaap. </hi>(2017): ‘Words Are Malleable: Computing Semantic Shifts in Political and Media Discourse’, in: 
+                        <hi rend="italic">Proceedings of the 26th ACM
+                            International Conference on Information and Knowledge Management.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Benoit, Kenneth / Matsuo, Akitaka Matsuo.</hi>: ‘The Spacyr Package for R’. 
+                        <ref target="https://cran.r-project.org/web/packages/spacyr/vignettes/using_spacyr.html">https://cran.r-project.org/web/packages/spacyr/vignettes/using_spacyr.html</ref>
+                         [07-09-2022].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Boterman, Frits.</hi> (2021):
+                        <hi rend="italic">Tussen Utopie en Crisis: Nederland
+                            in Het Interbellum 1918-1940</hi>
+                        . Amsterdam: Uitgeverij De Arbeiderspers.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Garg, Nikhil / Schiebinger, Londa / Jurafsky, Dan
+                            / Zou, James</hi>. (2018): ‘Word Embeddings Quantify 100 Years of Gender and
+                            Ethnic Stereotypes’, in:
+                        <hi rend="italic">Proceedings of the National Academy
+                            of Sciences</hi>
+                         115, 16. https://doi.org/10.1073/pnas.1720347115.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lagrou, Pieter</hi>. (1999)
+                        <hi rend="italic">The Legacy of Nazi Occupation:
+                            Patriotic Memory and National Recovery in Western Europe, 1945–1965</hi>
+                        . Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lange, Milan van, / Futselaar, Ralf</hi>. (2019):
+                            ‘Debating Evil: Using Word Embeddings to Analyse Parliamentary Debates
+                            on War Criminals in the Netherlands’, in:
+                        <hi rend="italic">Contributions to Contemporary
+                            History</hi>
+                         59, 1: 140–56.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Luyten, Dirk</hi>. (1996):
+                        <hi rend="italic">Ideologisch debat en politieke
+                            strijd over het corporatisme tijdens het interbellum in België.
+                            Verhandelingen van de KAWLSK van België. Klasse der Letteren.</hi>
+                         Brussel: Paleis der Academiën.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mendelsohn, Julia / Tsvetkov, Yulia / Jurafsky, Dan</hi>. (2020): ‘A Framework for the Computational Linguistic Analysis of Dehumanization’, in: 
+                        <hi rend="italic">Frontiers in Artificial
+                            Intelligence</hi>
+                         3, 55. https://doi.org/10.3389/frai.2020.00055.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Risam, Roopika / Gil, Alex</hi>. (2022):
+                            ‘Introduction: The Questions of Minimal Computing’, in:
+                        <hi rend="italic">Digital Humanities Quarterly </hi>
+                        16, 2.
+                            http://www.digitalhumanities.org/dhq/vol/16/2/000646/000646.html.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vree, Frank van</hi>. (1989):
+                        <hi rend="italic">De Nederlandse pers en Duitsland,
+                            1930-1939: Een studie over de vorming van de publieke opinie</hi>
+                        . Groningen.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wevers, Melvin / Koolen, Marijn</hi>. (2020): ‘Digital Begriffsgeschichte: Tracing Semantic Change Using Word Embeddings’, in: 
+                        <hi rend="italic">Historical Methods: A Journal of
+                            Quantitative and Interdisciplinary History.</hi>
+                        53, 4: 226–43.
+                            https://doi.org/10.1080/01615440.2020.1760157.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wijffels, Jan / BNOSAC / Straka, Milan, Straková,
+                            Jana</hi>. (2023): ‘Udpipe’. R.
+                            https://cran.r-project.org/web/packages/udpipe/index.html.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wijffels, Jan / Fomichev, Max / BNOSAC</hi>. (2021):
+                            ‘Word2vec: Distributed Representations of Words’. R.
+                            https://CRAN.R-project.org/package=word2vec.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

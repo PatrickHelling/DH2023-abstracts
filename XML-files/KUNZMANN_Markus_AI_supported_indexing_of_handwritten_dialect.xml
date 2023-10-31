@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>AI-supported indexing of handwritten dialect lexis: The pilot study "DWA
+                    Austria" as a case study.</title>
+                <author n="KunzmannMarkusKUNZMANN_Markus_AI_supported_indexing_of_handwritten_dialect.xml"><persName ref="https://orcid.org/0000-0003-3387-1542" n="KunzmannMarkus">
+                        <surname>Kunzmann</surname>
+                        <forename>Markus</forename>
+                    </persName><affiliation>Austrian Academy of Sciences (ÖAW), Austria</affiliation><email>markus.kunzmann@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Traditionally, two approaches have developed in dialectology that focus on researching lexical variation: on the one hand, dialect dictionaries, whose task is to document dialect vocabulary; on the other hand, dialect atlases, whose focus is on linguistic-geographical variation in dialect vocabulary. The Wörterbuch der bairischen Mundarten in Österreich (WBÖ), a long-term project of the Austrian Academy of Sciences (ÖAW), is an undertaking of the first type. Until 2015, the first five volumes (A–Ezzes) were published as printed works; since 2018, the Lexikalisches Informationssystem Österreich/Lexical Information System Austria (LIÖ) has served as the publication platform for the articles starting with the letter F. LIÖ is a cooperation project between the Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) of the ÖAW and the FWF Special Research Programme German in Austria (DiÖ) of the University of Vienna. At the moment, the information system only contains content related to the WBÖ project itself. As a lexically oriented platform, however, its content is to be expanded in the coming years, i.e. lexical material from other corpora is also to be made accessible via it.
+A first expansion of LIÖ will take place in October 2022 with the pilot study DWA Austria, a cooperation project between the Research Center Deutscher Sprachatlas (DSA) of the Philipps University of Marburg and the Department of Linguistics of the ACDH-CH. Within the framework of this cooperation, the entire Austrian surveys of the Deutscher Wortatlas/German Word Atlas (DWA) are to be digitally processed for the first time. Last but not least, the project will serve to expand the paradigm for researching lexical variation described above to include a dialect-geographical component. In this collaboration, the Marburg team will provide the high-resolution scans of the DWA surveys. The team in Vienna is building a model for automatic transliteration on this basis with the help of the Transkribus software, which in turn can be used by the DSA team for the German DWA sheets.
+The surveys for the DWA were conducted indirectly between 1939 and 1942 and are still among the most comprehensive surveys of the 20th century. Questionnaires were sent to a total of about 50,000 places, 3,700 of which are in the territory of the Republic of Austria. Since previous automatic text recognition methods (i.e. OCR) have only provided insufficient results, the questionnaires, which were mostly handwritten, had to be laboriously transliterated manually. The recent use of artificial intelligence (AI) has been showing promising results for several years.
+With the help of the Transkribus platform, the Austrian DWA questionnaires are now being captured and made usable as part of a pilot study. Unlike conventional OCR products, Transkribus uses artificial intelligence (AI) to convert the written content of digital records into searchable text. The scans of the DWA sheets were made by the DSA and made available to the ACDH-CH. There, in a first step, they manually transliterate a set of scanned sheets. This step can be supported by already existing models that are, for example, tailored to German Kurrent script. Based on these correct transliterations and the corresponding scans, a model can now be built with the help of Deep Learning that is tailored to the document type. The layout of the text is also taken into account. First models on the minimum amount of training material still showed a rather high error rate (CER Val. 9.4) and have been continuously improved since then.
+The pilot study DWA Austria shows how data sets that could previously only be used to a limited extent due to time-consuming and costly efforts can now be opened up by AI-supported methods to an extent that would not have been possible with conventional methods. In particular, the example shows how the respective expertise of the individual project partners can bring about a significant increase in efficiency and thus once again illustrates the potential for synergies that result from cooperation.
+Bibliography:
+DiÖ = SFB German in Austria. URL: https://www.dioe.at/en/ [2023-05-01]
+DSA = Forschungszentrum Deutscher Sprachatlas. URL: https://www.uni-marburg.de/en/fb09/dsa [2023-05-01]
+DWA = Mitzka, Walther &amp; Ludwig Erich Schmitt. 1951 – 1980. Deutscher Wortatlas. Gießen: Schmitz
+LiÖ = Lexikalisches Informationssystem Österreich. URL: https://lioe.dioe.at/ [2023-05-01]
+Transkribus. AI powered Handwritten Text Recognition. URL: https://readcoop.eu/transkribus/ [2023-05-01]
+WBÖ = Österreichischen Akademie der Wissenschaften. 1970 – 2015. Wörterbuch der bairischen Mundarten in Österreich. Wien: Verlag der Österreichischen Akademie der Wissenschaften.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Lexicography</term>
+                    <term>Digitisation</term>
+                    <term>Transkribus</term>
+                    <term>Artificial Intelligence</term>
+                    <term>Dialect</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>copyright</term>
+                    <term>licensing</term>
+                    <term>and permissions standards</term>
+                    <term>systems</term>
+                    <term>and processes</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Traditionally, two approaches have developed in dialectology that focus on researching lexical variation: on the one hand, dialect dictionaries, whose task is to document dialect vocabulary; on the other hand, dialect atlases, whose focus is on linguistic-geographical variation in dialect vocabulary. The <hi rend="italic">Wörterbuch der bairischen Mundarten in
+                    Österreich</hi> (WBÖ), a long-term project of the Austrian Academy of Sciences (ÖAW), is an undertaking of the first type. Until 2015, the first five volumes (<hi rend="italic">A–Ezzes</hi>) were published as printed works; since 2018, the <hi rend="italic">Lexikalisches Informationssystem
+                    Österreich</hi>/<hi rend="italic">Lexical Information System Austria</hi> (LIÖ) has served as the publication platform for the articles starting with the letter <hi rend="italic">F</hi>. LIÖ is a cooperation project between the <hi rend="italic">Austrian Centre for Digital Humanities and
+                    Cultural Heritage</hi> (ACDH-CH) of the ÖAW and the FWF Special Research Programme <hi rend="italic">German in Austria</hi> (DiÖ) of the University of Vienna. Now, the information system only contains content related to the WBÖ project itself. As a lexically oriented platform, however, its content is to be expanded in the coming years, i.e., lexical material from other corpora is also to be made accessible via it. </p>
+            <p>A first expansion of LIÖ will take place in October 2022 with the pilot study <hi rend="italic">DWA Austria</hi>, a cooperation project between the <hi rend="italic">Research Center Deutscher Sprachatlas</hi> (DSA) of the Philipps University of Marburg and the Department of Linguistics of the ACDH-CH. Within the framework of this cooperation, the entire Austrian surveys of the <hi rend="italic">Deutscher Wortatlas</hi>/<hi rend="italic">German Word Atlas</hi> (DWA) are to be digitally processed for the first time. Finally, the project will serve to expand the paradigm for researching lexical variation described above to include a dialect-geographical component. In this collaboration, the Marburg team will provide the high-resolution scans of the DWA surveys. The team in Vienna is building a model for automatic transliteration on this basis with the help of the <hi rend="italic">Transkribus</hi> software, which in turn can be used by the DSA team for the German DWA sheets.</p>
+            <p>The surveys for the DWA were conducted indirectly between 1939 and 1942 and are still
+                among the most comprehensive surveys of the 20th century. Questionnaires were sent
+                to a total of about 50,000 places, 3,700 of which are in the territory of the
+                Republic of Austria. Since previous automatic text recognition methods (OCR) have
+                only provided insufficient results, the questionnaires, which were mostly
+                handwritten, had to be laboriously transliterated manually. The recent use of
+                artificial intelligence (AI) has been showing promising results for several
+                years.</p>
+            <p>With the help of the <hi rend="italic">Transkribus</hi> platform, the Austrian DWA questionnaires are now being captured and made usable as part of a pilot study. Unlike conventional OCR products, <hi rend="italic">Transkribus</hi> uses artificial intelligence (AI) to convert the written content of digital records into searchable text. The scans of the DWA sheets were made by the DSA and made available to the ACDH-CH. There, in a first step, they manually transliterate a set of scanned sheets. This step can be supported by already existing models that are, for example, tailored to German Kurrent script. Based on these correct transliterations and the corresponding scans, a model can now be built with the help of Deep Learning that is tailored to the document type. The layout of the text is also considered. First models on the minimum amount of training material still showed a rather high error rate (CER Val. 9.4) and have been continuously improved since then.</p>
+            <p>The pilot study <hi rend="italic">DWA Austria</hi> shows how data sets that could previously only be used to a limited extent due to time-consuming and costly efforts can now be opened by AI-supported methods to an extent that would not have been possible with conventional methods. In particular, the example shows how the respective expertise of the individual project partners can bring about a significant increase in efficiency and thus once again illustrates the potential for synergies that result from cooperation.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>DiÖ = SFB German in Austria.</author>
+                        URL: <ref target="https://www.dioe.at/en/">https://www.dioe.at/en/</ref> [2023-05-01]</bibl>
+                    <bibl><author>DSA = Forschungszentrum Deutscher Sprachatlas.</author> URL:
+                        <ref target="https://www.uni-marburg.de/en/fb09/dsa">https://www.uni-marburg.de/en/fb09/dsa</ref> [2023-05-01]</bibl>
+                    <bibl><author>DWA = Mitzka, Walther &amp; Ludwig Erich Schmitt.</author>
+                        1951 – 1980. Deutscher Wortatlas. Gießen: Schmitz</bibl>
+                    <bibl>
+                        <author>LiÖ = Lexikalisches
+                            Informationssystem Österreich.</author> URL: <ref target="https://lioe.dioe.at/">https://lioe.dioe.at/</ref>
+                        [2023-05-01]</bibl>
+                    <bibl><author>Transkribus.</author> AI powered
+                        Handwritten Text Recognition. URL: <ref target="https://readcoop.eu/transkribus/">https://readcoop.eu/transkribus/</ref>
+                        [2023-05-01]</bibl>
+                    <bibl><author>WBÖ = Österreichischen Akademie der
+                        Wissenschaften.</author>1970 – 2015. Wörterbuch der bairischen Mundarten in
+                        Österreich. Wien: Verlag der Österreichischen Akademie der
+                        Wissenschaften.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

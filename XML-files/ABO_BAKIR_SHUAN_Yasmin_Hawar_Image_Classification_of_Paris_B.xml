@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Image Classification of Paris Bible Data</title>
+                <author n="AboBakirShuanYasminHawarABO_BAKIR_SHUAN_Yasmin_Hawar_Image_Classification_of_Paris_B.xml"><persName n="AboBakirShuanYasminHawar">
+                        <surname>Abo Bakir Shuan</surname>
+                        <forename>Yasmin Hawar</forename>
+                    </persName><affiliation>University of Southern Denmark, Denmark</affiliation><email>y.hawarshuan@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MeineckeChristoferABO_BAKIR_SHUAN_Yasmin_Hawar_Image_Classification_of_Paris_B.xml"><persName ref="https://orcid.org/0000-0002-5637-9975" n="MeineckeChristofer">
+                        <surname>Meinecke</surname>
+                        <forename>Christofer</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>cmeinecke@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JnickeStefanABO_BAKIR_SHUAN_Yasmin_Hawar_Image_Classification_of_Paris_B.xml"><persName n="JnickeStefan">
+                        <surname>Jänicke</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>University of Southern Denmark, Denmark</affiliation><email>stjaenicke@imada.sdu.dk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We collaborated with domain professionals who were interested in classifying images in Paris Bibles according to biblical figures appearing in illustrations and their hand gestures. We applied neural networks paired with data balancing techniques on three distinct classification tasks. Our goal was to assess the applicability of supervised learning for these tasks.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computer vision</term>
+                    <term>supervised machine learning</term>
+                    <term>medieval manuscripts</term>
+                    <term>data balancing</term>
+                    <term>legacy metadata</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>Art history</term>
+                    <term>Book and print history</term>
+                    <term>Galleries and museum studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Paris Bible holds significant importance as a primary source for examining the religious attitudes and customs of Medieval Europe. These richly illustrated manuscripts were produced in thousands and spread throughout the continent. Eventually, they became the template for the Bible as we know it today. More than ten thousand original copies are currently preserved in libraries, museums, and in private collections around the world, of which a share have been digitized (Boillet et al., 2019). This digitization has created opportunities for interdisciplinary, computationally based research, and large scale, macro level analysis, for instance by use of machine learning techniques.</p>
+            <p>The effectiveness of advanced supervised machine learning techniques hinges on the availability of sizable amounts of data with accurate labeling. They rely heavily on principles that may seem at odds with humanistic methods. Particularly, they depend on disambiguation on every level, from the encoding to the structuring of information (Burdick et al., 2012). However, this is a challenging prerequisite when dealing with humanities data, which is often characterized by a high level of ambiguity. The analysis of visual art through computational methods is susceptible to several sources of bias due to the unique and heterogeneous nature of the artworks (Zhang et al., 2022). Thus, when digitized collections are accompanied by meta-data prepared by domain experts from different institutions, it inevitably leads to ambiguity and inconsistency across collections, making them difficult to merge for the application of computational methods (Meinecke et al., 2022).</p>
+            <p>This issue is at the core of ongoing research by Meinecke et al. who aim to bridge the gap between digitized cultural heritage collections from different sources and supervised machine learning practices, suggesting a visualization-based solution to aid domain experts in streamlining conflicting meta-data, using the 
+                <hi rend="italic">Initiale</hi> and the 
+                <hi rend="italic">Mandragore</hi> digitized Paris Bible collections.
+            </p>
+            <p>Given the evident interest in interdisciplinary collaboration between the study of cultural heritage collections and large-scale computational analysis, our objective was to evaluate the feasibility of utilizing supervised learning methods for image classification of the 
+                <hi rend="italic">Initiale</hi> digital Paris Bible collection. To accomplish this, we collaborated with domain professionals from The Paris Bible Project
+                <ref target="#ABO_BAKIR_SHUAN_Yasmin_Hawar_Image_Classification_of_Paris_B.xml_ftn1" n="1"/> who were specifically interested in classifying images according to biblical figures appearing in illustrations and their hand gestures. We utilized pre-trained convolutional neural networks and data balancing techniques to undertake three separate classification tasks for the Initiale digitized Paris Bible collection:
+            </p>
+            <list type="unordered">
+                <item>multi-class classification of the six prominent biblical figures Saint Paul, King David, Saint Jean, King Salomon, Saint Jerome, and Moses.</item>
+                <item>multi-class classification of saints, prophets and kings.</item>
+                <item>multi-label classification of five hand gestures: open hand, index pointed, covered hand, hand on chest, and folded hands.</item>
+            </list>
+            <p>The images in Initiale collection vary in terms of quality and layout, with some being full-page scans or double-page scans and others being close-ups of illustrations within a page. This characteristic poses a challenge when creating random subsets for training, validation, and testing. As for the meta-data, the Bible, just as any other book, follows a character hierarchy, with more prominent biblical figures appearing in illustrations more frequently, which results in skewness in the true distribution data. Furthermore, the issue of varying and infrequent classes arises due to the images being partially annotated.</p>
+            <p>As a pre-processing step, we found it necessary to remove any classes with a frequency under 100 instances. We applied stratified sampling methods to obtain training, validation, and test splits where the distribution of classes reflected that of the original data frame. Finally, to address the problem of class imbalance during training, we tested the Synthetic Minority Over Sampling Technique (Chawla, 2002) and training with weighted classes. We found that our models were most successful in performing multi-class classification of saints, prophets, and kings with an accuracy score of 66%. For classification of six prominent biblical figures, our best performing model successfully classified 53% test instances. Finally, in the multi-label scenario of classifying hand gestures, our most successful model achieved a hamming score of 60%. While the differences between models trained with or without accounting for class imbalance were mostly marginal, global measures were best when models were trained without balancing measures. However, class-wise performance improved for minority classes when training with weighted classes.</p>
+            <p>Previously mentioned characteristics and limitations of our data together with our results clearly pointed towards a mismatch between the supervised learning paradigm and the highly complex nature of Paris Bible data. We suggest looking towards active learning instead. While supervised learning models require large amounts of annotated data, active learning models only require a small amount of training data. The key assumption behind active learning is that a machine learning algorithm can perform better with less training data if it is allowed to choose the data from which it learns (Wu et al., 2020). However, with the Initiale meta-data containing over 1700 unique annotations with number of annotations per image ranging from 1 to over 60, it will require experts to direct their attention towards a smaller subset of labels.</p>
+            <p>Active learning gives room for focused, systematic annotation of smaller subsets of data at a time which makes annotation more manageable and less error prone. While human effort still plays a significant role in active learning, the process allows for learning, sampling, and annotation to occur at the same time, which can ultimately result in better performance with the same amount of human labeling efforts (Wang and Hua, 2011), potentially leading to a better return on investment for domain experts.</p>
+            <p>We believe that our process along with the challenges we encounter, demonstrate the highly non-trivial nature of the intersection between humanities data and computational methods. Additionally, it serves as a practical demonstration of the applied machine learning process and its requirements for domain experts within humanities, who wish to motivate the application of digital humanities methods within their area of expertise.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="ABO_BAKIR_SHUAN_Yasmin_Hawar_Image_Classification_of_Paris_B.xml_ftn1">
+                    The Paris Bible Project was founded during the 2019 pandemic, as a consequence of worldwide lockdowns of public spaces including museums, libraries, and educational institutions. The group, who have academic backgrounds within Digital Humanities, Medieval Studies, and Art History, study the production and diffusion of medieval Latin Bibles in Europe.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Boillet, Mélodie</author> / <author>Bonhomme, Marie-Laurence</author> / <author>Stutzmann, Dominique</author> / <author>Kermorvant, Christopher</author> (2019): “HORAE: an annotated dataset of books of hours”, in: 
+                        <hi rend="italic">Proceedings of the 5th International Workshop on Historical Document Imaging and Processing.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Burdick, Anne</author> / <author>Drucker, Johanna</author> / <author>Lunenfeld, Peter</author> / <author>Presner, Todd</author> / <author>Schnapp, Jeffrey</author>  (2016): 
+                        <hi rend="italic">Digital_Humanities. </hi>The MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Chawla, Nitesh V.</author> / <author>Bowyer Kevin W.</author> / <author>Hall, Lawrence O.</author> / <author>Kegelmeyer William P.</author> (2002): “Smote: Synthetic minority over-sampling technique” in: 
+                        <hi rend="italic">Journal Of Artificial Intelligence Research </hi>16, 321-357.
+                    </bibl>
+                    <bibl>
+                        <author>Meinecke, Christofer</author> / <author>Guéville, Estelle</author> / <author>Wrisley, David W.</author> / <author>Jänicke, Stefan</author> (2022): “A visual analysis framework for composing a hierarchical classification for medieval illuminations” 
+                        <hi rend="italic">Submitted to Digital Scholarship in the Humanities (DSH).</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Wang, Meng</author> / <author>Hua, Xian-Sheng (2011):</author>  “Active learning in multimedia annotation and retrieval: A survey” in: 
+                        <hi rend="italic">ACM Transactions on Intelligent Systems and Technology</hi> 2, 2, 10: 1–21.
+                    </bibl>
+                    <bibl>
+                        <author>Wu, Jian</author> / <author>Sheng, Victor S.</author> / <author>Zhang, Jing</author> / <author>Li, Hua</author> / <author>Dadakova, Tetiana</author> / <author>Swisher, Christine L.</author> / <author>Cui, Zhiming</author> / <author>Zhao, Pengpeng</author>  (2020): “Multi-label active learning algorithms for image classification: Overview and future promise” in: 
+                        <hi rend="italic">ACM Computing Surveys </hi>53, 2.
+                    </bibl>
+                    <bibl>
+                        <author>Zhang, Zhuomin</author> / <author>Li, Jia</author> / <author>Stork, David G.</author> / <author>Mansfield, Elizabeth C.</author> / <author>Russell, John</author> / <author>Adams, Catherine</author> / <author>Wang, James Z.</author>  (2022): ”Reducing Bias in AI-based Analysis of Visual Artworks” in: 
+                        <hi rend="italic">IEEE BITS the Information Theory Magazine</hi>, 
+                        <hi rend="italic">Special Issue on Information Processing in Arts and Humanities</hi> 2, 1: 36-48.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

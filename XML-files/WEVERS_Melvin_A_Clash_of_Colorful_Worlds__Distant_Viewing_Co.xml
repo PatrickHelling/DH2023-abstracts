@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Clash of Colorful Worlds. Distant Viewing Color in Western Visual
+                    Representations of the Orient and Occident, 1890-1920</title>
+                <author n="WeversMelvinWEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml"><persName n="WeversMelvin">
+                        <surname>Wevers</surname>
+                        <forename>Melvin</forename>
+                    </persName><affiliation>University of Amsterdam, The Netherlands</affiliation><email>melvin.wevers@uva.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SmitsThomasWEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml"><persName ref="https://orcid.org/0000-0001-8579-824X" n="SmitsThomas">
+                        <surname>Smits</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>thomas.smits@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>What role does color play in how we imagine our own world and the world(s) of others? Using machine learning and methods from Explainable AI, we study and explain how color use shaped the geographic imaginaries of the Orient and Occident in two different media: photochromes and autochromes</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>xAI</term>
+                    <term>machine learning</term>
+                    <term>distant viewing</term>
+                    <term>colur use</term>
+                    <term>orientalism</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>cultural analytics</term>
+                    <term>image processing and analysis</term>
+                    <term>Art history</term>
+                    <term>History</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Visual culture scholars have described the perception of
+                color as an elusive part of a specific historical ‘visuality’ (Crary, 1992). What
+                role does color play in how we see and imagine our own world and the world(s) of
+                others? Said (1978) famously argued that the West defined itself by imagining the
+                world of the oriental Other. While he focused on texts, other scholars studied
+                orientalism in visual culture. The work of orientalist painters, like Eugene
+                Delacroix, was examined to see how they produced a ‘exotic, erotic, and mysterious’
+                image of the Orient (MacKenzie, 1995; Rosenthal et al., 1982). Moving from painting
+                to photography, scholars noted that the documentary qualities of the new medium did
+                not challenge the way in which the orient was visually imagined. Rather,
+                ‘Orientalist photography’ (Behdad, 2016) helped to fix and stabilize patterns of
+                Orientalist representation. While studies commonly focus on content, Benjamin (2003)
+                argues that visual Orientalism can also be tied to a specific ‘orientalist
+                aesthetic’. Color is especially important in this aesthetic because painters and
+                photographers could use it to pit the ‘colorful world’ (Oueijan, 2006) of the Orient
+                against the gray-toned Occident. The question remains whether material conditions of
+                the medium impacted the visual representation of geographic imaginaries, and in
+                effect, how this shaped the historical experience of color? </p>
+            <p>We shed light on this question by computationally
+                examining color use in two geographic imaginaries (Orient and Orient) in two <hi rend="italic">fin de siecle</hi> color media: photochromes and autochromes.
+                    <ref target="#WEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml_ftn1" n="1"/> These two media have a markedly different production process. Photochromes
+                were made by coloring a black-and-white photograph using a chemical process to make
+                six to fifteen color litho stones. The same sheet of paper was printed with these
+                stones and a corresponding number of ink colors: black primary colors, and several
+                additive colors. The color of autochromes was derived from a photomechanical
+                process: light passed through a glass plate coated with a random mosaic of
+                microscopic potato starch grains, dyed red-orange, green, and blue-violet (see
+                Figure 1). </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="8.516055555555555cm" url="Pictures/83413ac9adea5a9bd1db70ef65b974b4.jpg" rend="inline"/>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="8.516055555555555cm" url="Pictures/9d1fcec9df421796c84f720aa5c66694.jpg" rend="inline"/>
+                <head>Figure 1: Example of an Autochrome and Photochrome image from the Occident and
+                    Orient. The histogram displays the distribution of RGB values and the bottom
+                    histogram shows the 16 most dominant colors extracted using K-means
+                    clustering.</head>
+            </figure>
+            <div type="div1">
+                <head>Approach </head>
+                <p>Manovich (2012) pioneered visualizations of large
+                    collections based on their color use. Olesen et al. (2016) and Flueckiger (2017)
+                    followed his work and examined the use of color in early cinema. Rather than
+                    visualizing dominant color and/or using them in an explorative manner, we apply
+                    machine learning and methods from Explainable AI (xAI) to study and explain how
+                    the affordances of two <hi rend="italic">fin de siecle</hi> color media shaped
+                    the visual representation of the Orient and the Occident. We examine whether the
+                    orient and occident are represented in different colors across autochromes and
+                    photochromes. After extracting dominant colors from the images, we use these as
+                    input features for random forest classifiers to distinguish </p>
+                <p>between: (1) photochromes and autochromes; (2)
+                    photochromes of the orient and the occident; (3) autochromes of the orient and
+                    the occident. </p>
+                <p>For our training data, we constructed “Orient” and
+                    “Occident” categories by exploring the data and selecting eight countries that
+                    frequently appeared in both collections. Based on domain knowledge, we
+                    categorized four countries as either Orient (Egypt, Israel, Iran, Iraq) or
+                    Orient (Germany, Switzerland, Belgium, and the United Kingdom). This yields
+                    5,517 Occident and 3,070 Orient Autochrome images, and 3,330 Occident and 255
+                    Orient Photochrome images. </p>
+                <p>After extracting dominant colors using K-means
+                    clustering and calculating their relative frequency, we divide these colors into
+                    three-dimensional buckets. We do this by dividing the RGB range of 256 pixels
+                    into a specific number of buckets. <ref target="#WEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml_ftn2" n="2"/> Per image, we calculate in which buckets the dominant colors fall and
+                    how dominant they are. We apply this method to reduce the dimensionality of the
+                    colors, i.e. to account for different shades of a color. We use these buckets
+                    and their relative frequency as input for a weight-balanced random forest
+                    classifier. <ref target="#WEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml_ftn3" n="3"/></p>
+                <p>For the final step of our approach, we explain the
+                    output of the classifier using SHAP (SHapley Additive exPlanations) (Lundberg
+                    &amp; Lee, 2017). This method connects optimal credit allocation with local
+                    explanations using the classic Shapley values from game theory. Rather than
+                    focusing on global feature importance, we can inspect how specific features
+                    impacted particular predictions. This helps us not only to test whether color
+                    use differs but also to explain how the presence of particular colors impacts
+                    the predictions of the classifiers. </p>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <div type="div2">
+                    <table xml:id="d356e239">
+                        <head>Table 1: Accuracy of the Random Forest Classifier across tasks</head>
+                        <row>
+                            <cell>Tasks</cell>
+                            <cell>Accuracy</cell>
+                        </row>
+                        <row>
+                            <cell>Autochrome vs
+                                Photochrome</cell>
+                            <cell>0.95</cell>
+                        </row>
+                        <row>
+                            <cell>Orient vs Occident in
+                                Autochrome</cell>
+                            <cell>0.67</cell>
+                        </row>
+                        <row>
+                            <cell>Orient vs Occident in
+                                Photochrome </cell>
+                            <cell>0.93</cell>
+                        </row>
+                    </table>
+                    <p>Our classifier (Table 1) shows that color use in
+                        autochromes and photochromes is distinguishable, which is not surprising
+                        given their different materiality. What is more surprising is that the
+                        classifier can easily make a distinction between the orient and occident in
+                        the photochrome images, where printers added the colors, but that it finds
+                        it almost impossible (slightly better than guessing) to make this
+                        distinction for the autochromes, where the colors are derived from a
+                        photomechanical process. </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Conclusion </head>
+                <p>Our analysis thus supports two interrelated
+                    conclusions: (a) we empirically demonstrate the importance (of color in)
+                    ‘orientalist aesthetics’ in imagining the Oriental other; (b) we also show,
+                    however, that not all color media are equally well suited to imagine the Orient
+                    via color. Rather than relying on neural networks for classification, we show
+                    that even with a relatively limited number of colors, we can already distinguish
+                    between geographic imaginaries. An approach using close reading of the images
+                    might have overlooked the use of these colors as these do not necessarily relate
+                    to objects that capture one’s attention. The application of xAI also makes it
+                    possible to examine how specific features in images shape predictions rather
+                    than relying on global feature importance scores, which overlook edge cases,
+                    which are often quite informative (Figure 2). We see, for example, that the
+                    presence of color 179 is positively correlated with the Orient. </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="11.719277777777778cm" url="Pictures/7f98bfb72554e3eee7d10e3e4a5f5b4e.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="4.78cm" height="4.995963888888889cm" url="Pictures/08e633445f090b5989602d76010898d2.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1005" width="5cm" height="5cm" url="Pictures/97af14581257137d3303943237cf8d6a.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1006" width="4.6cm" height="5.003761111111111cm" url="Pictures/952d409a96701a7d5ec9db0d1e2bb872.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1007" width="4.63cm" height="5.005013888888889cm" url="Pictures/929df064447df526474cc8e97bc7a27b.png" rend="inline"/>
+                    <head>Figure 2: SHAP Plot for Occident vs Orient classifier in Photochromes
+                        using 16 dominant colors and 216 buckets. A positive impact indicates the
+                        orient.</head>
+                </figure>
+
+
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="WEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml_ftn1">
+                     We collected 6,500 photochromes from the National
+                        Library of Congress, and the 65,000 autochromes from Albert Kahn <hi rend="italic">Archives de la Planète</hi> dataset, hosted by the French
+                        <hi rend="italic">Hauts-de-Seine </hi>department. 
+                </note><note n="2" xml:id="WEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml_ftn2">
+                         We optimized the number of dominant colors
+                            and buckets
+                    </note><note n="3" xml:id="WEVERS_Melvin_A_Clash_of_Colorful_Worlds__Distant_Viewing_Co.xml_ftn3">
+                         Because the labels are so unevenly
+                            distributed we apply the weight-balanced classifier. Also, we apply a
+                            grid-search with tenfold cross-validation to find the best parameters
+                            and classifier. 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Behdad A</author> (2016) <hi rend="italic">Camera Orientalis: Reflections on
+                            Photography of the Middle East</hi>. University of Chicago Press. </bibl>
+                    <bibl><author>Benjamin R</author> (2003) <hi rend="italic">Orientalist Aesthetics: Art,
+                            Colonialism, and French North Africa, 1880-1930</hi>. Berkeley:
+                        University of California Press. </bibl>
+                    <bibl><author>Crary J</author> (1992) <hi rend="italic">Techniques of the Observer: On Vision and
+                            Modernity in the Nineteenth Century</hi>. Cambridge, Mass: MIT Press. </bibl>
+                    <bibl><author>Flueckiger B</author> (2017) A Digital Humanities Approach to Film Colors.
+                        <hi rend="italic">The Moving Image: The Journal of the Association of Moving Image Archivists </hi>17(2).
+                        University of Minnesota Press: 71–94. DOI: 10.5749/movingimage.17.2.0071. </bibl>
+                    <bibl><author>Lundberg, S, Lee, S</author> (2017) A Unified Approach to Interpreting Model
+                        Predictions. In: I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and
+                        R. Fergus and S. Vishwanathan and R. Garnett (eds.).
+                        <hi rend="italic">Advances in Neural Information Processing Systems 30, </hi>pp.
+                        4765-4774. </bibl>
+                    <bibl><author>MacKenzie J</author> (1995) <hi rend="italic">Orientalism: History, Theory and the
+                            Arts</hi>. Manchester University Press. </bibl>
+                    <bibl><author>Manovich L</author> (2012) How to Compare One Million Images? In: Berry DM (ed.)
+                            <hi rend="italic">Understanding Digital Humanities</hi>. London:
+                        Palgrave Macmillan UK, pp. 249–278. DOI: 10.1057/9780230371934_14. </bibl>
+                    <bibl><author>Olesen CG, Masson E, Gorp JV, et al.</author> (2016) Data-Driven Research for Film
+                        History: Exploring the Jean Desmet Collection.
+                        <hi rend="italic">The Moving Image: The Journal of the Association of Moving Image Archivists </hi>16(1).
+                        University of Minnesota Press: 82–105. DOI: 10.5749/movingimage.16.1.0082. </bibl>
+                    <bibl><author>Oueijan N</author> (2006) Sexualizing the Orient.
+                        <hi rend="italic">Essays in Romanticism </hi>14(1):
+                        7–25. Rosenthal DA, University of Rochester. Memorial Art Gallery, and
+                        Neuberger Museum </bibl>
+                    <bibl>(1982) <hi rend="italic">Orientalism, the Near East in French Painting,
+                            1800-1880</hi>. Said E (1978)
+                        <hi rend="italic">Orientalism. </hi>New York: Pantheon.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

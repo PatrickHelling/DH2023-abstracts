@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Three rings, one story? Reconstructing the historical connectivity of religious encounters within the OTRA project (Ontology for the Transmission and Re-Use of Argumentative Patterns) </title>
+                <author n="LangelohJacobLANGELOH_Jacob_Three_rings__one_story__Reconstructing_the_hi.xml"><persName ref="https://orcid.org/0000-0003-2480-775X" n="LangelohJacob">
+                        <surname>Langeloh</surname>
+                        <forename>Jacob</forename>
+                    </persName><affiliation>Copenhagen University, Denmark</affiliation><email>jacob.langeloh@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The OTRA project attempts to describe connections between polemical texts in Christian-Muslim religious encounters. References, textual re-use, argumentation, and concepts are recorded with the help of an ontology and then analyzed to form a deeper understanding of this discourse. This presentation shows the basic idea and discusses first results.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>ontology</term>
+                    <term>argumentation</term>
+                    <term>middle ages</term>
+                    <term>islam</term>
+                    <term>christianity</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>semantic analysis</term>
+                    <term>History</term>
+                    <term>Philology</term>
+                    <term>Philosophy</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Throughout history, Islam has often been very irritating to Christian theologians. After all, the Qur’an presented itself as an upgrade to the Gospel, the number of believers grew rapidly, and military conflicts were frequent. This proximity has led to fierce polemics (see e.g. Norman 1993, Tolan 2002, Burman 2007), in which references to the Bible, the Qur’an, and other authoritative scriptures constituted a vital part of argumentation (Mann 2015). To better understand the history of these religious encounters, it would be invaluable to know which parts of scripture were used when to support what kind of arguments. The best path to this information right now might be to read as many studies and sources as possible, but the picture remains incomplete and inhomogenous.</p>
+            <p>With the OTRA project, I propose to record the connectivity of the Christian-Muslim religious encounters (CMRE) in a different way, utilizing a Digital Humanities approach. Information about references, text re-use, argumentation, and religious concepts is to be represented as linked open data. For example, one might record that different texts refer to the same passage of the Qur’an at different times under a different topics, such that: ‘passage a’ refersTo ‘Q. 4:21’ and ‘passage b’ refersTo ‘Q. 4:21’, but ‘passage a’ isAbout ‘The Trinity’; ‘passage b’ isAbout ‘Paradise’. Collecting such knowledge would enable us to study constants and changes in discourse over time.</p>
+            <p>A first knowledge base will be created, augmented by other researchers’ findings, and shared among the community. The goal is to allow for flexible additions, broad sharing of data, and advanced analysis of patterns, potentially changing the way research is conducted in the field. While this first proof-of-concept focuses on Christian-Muslim relations, the relation to Judaism and possibly more religions can and should be incorporated in the long run. The projects ontology and knowledge base will be available as Open Data and will be shared through public repositories.</p>
+            <p>In this talk, I present the goals and the current state of the project along four central questions. The first, methodological part will be presented in greater detail and the second analytical part will contain more open questions – yet both will profit from further discussion.</p>
+            <list type="ordered">
+                <item><hi rend="italic">How to describe connectivity in Christian-Muslim religious encounters with a shared vocabulary? </hi>OTRA is based on the CIDOC CRM ontology in the LRMoo implementation (Bekiari et al. 2021). As re-use of existing vocabularies is strongly preferred (Jansen 2019, p. 3), references are described along with the HypermediaDanteNetwork (HDN) (Bartalesi et al. 2021), and text re-use from the Sharing Ancient Wisdoms (SAWS) project (Hedges et al. 2017). Multiple argumentation modelling ontologies exist, with the simplest being the Argument Model Ontology (AMO) (Vitali / Peroni 2011). I will shortly introduce these different models, discuss what kind of homogenization has been done and what is still needed.
+                </item>
+                <item><hi rend="italic">How to use existing knowledge and scholarship?</hi> In ‘classical’ scholarship, connections between texts are expressed in scholarly studies and especially in the apparatuses of critical editions. I therefore pursued mining critical editions for information, which provides basic data entries that can then be refined by researchers. I explain the work pipeline, show some first results, and discuss constraints.
+                </item>
+                <item><hi rend="italic">How to allow researchers to bring their knowledge into the process?</hi> In order for OTRA to be a “shared conceptualization” (Guarino et al. 2009), broad support in the research community is necessary. I show how research results obtained in a “classical” way can be integrated into the OTRA framework. 
+                </item>
+                <item><hi rend="italic">How do we analyze the data in order to find out more about the history of Christian-Muslim religious encounters?</hi> I performed a first case study in connectivity that is centered on the Dominican missionary Riccoldo da Monte di Croce (d. 1320) and his influential work
+                    <hi rend="italic"> Contra legem Saracenorum</hi> (Against the law of the Saracens) (Mérigoux 1986). Being one of the few authors to have mastered Arabic, he both used a number of specific sources, and was used as a source by others (Villads Jensen / Scotto 2023). I present some preliminary OTRA-based analyses of the way he connected to his sources and to those who used his texts.
+                </item>
+            </list>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bartalesi, Valentina</author> / <author>Meghini, Carlo</author> / <author>Metilli, Daniele</author> / <author>Pratelli, Nicolò</author>  (2021), “A formal representation of the divine comedy’s primary sources: The Hypermedia Dante Network ontology”, Digital Scholarship in the Humanities 37, 5: 630–643. DOI: 10.1093/llc/fqab080. and <ref target="https://hdn.dantenetwork.it">https://hdn.dantenetwork.it</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Bekiari, Chryssoula</author> / <author>Doerr, Martin</author> / <author>Le Bœuf, Patrick</author> / <author>Riva, Pat</author> , eds. (2021), “LRMoo (formerly FRBRoo) object-oriented definition and mapping from IFLA LRM (version 0.7)”, 
+                        <ref target="https://cidoc-crm.org/ModelVersion/lrmoo-f.k.a.-frbroo-v.0.7">https://cidoc-crm.org/ModelVersion/lrmoo-f.k.a.-frbroo-v.0.7</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Burman, Thomas E.</author> (2007): 
+                        <hi rend="italic">Reading the Qur'ān in Latin Christendom, 1140-1560</hi>; Philadelphia: University of Philadelphia Press.
+                    </bibl>
+                    <bibl>
+                        <author>Daniel, Norman</author> (1993): 
+                        <hi rend="italic">Islam and the west: The making of an image</hi>. Rev. ed. Oxford: Oneworld.
+                    </bibl>
+                    <bibl>
+                        <author>Guarino, Nicola</author> / <author>Oberle, Daniel</author> / <author>Staab, Steffen</author>  (2009), “What is an ontology?“, in: Staab, Steffen, Studer, Rudi (eds.), 
+                        <hi rend="italic">Handbook on Ontologies</hi>, Berlin, Heidelberg: Springer: 1–17. DOI 10.1007/978-3-540-92673-3.
+                    </bibl>
+                    <bibl>
+                        <author>Hedges, Mark</author> / <author>Jordanous, Anna</author> / <author>Lawrence, F</author> / <author>Roueche, Charlotte</author> / <author>Tupman, Charlotte</author>  (2017), “Computer-Assisted Processing of Intertextuality in Ancient Languages”. The Journal of Data Mining and Digital Humanities, 0 (Special Issue), DOI: 10.46298/jdmdh.1375 and 
+                        <ref target="https://ancientwisdoms.ac.uk">https://ancientwisdoms.ac.uk</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Jansen, Ludger</author> (2019): “Ontologies for the Digital Humanities: Learning from the Life Sciences?”, in: CEUR Workshop proceedings 2518 
+                        <ref target="http://ceur-ws.org/Vol-2518/paper-WODHSA5.pdf">http://ceur-ws.org/Vol-2518/paper-WODHSA5.pdf</ref> [27.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Mann, Jesse D.</author> (2019), “Throwing the Book at Them: John of Segovia’s Use of the Qur’an” Revista Española de Filosofía Medieval 26, 1: 79–96.
+                    </bibl>
+                    <bibl>
+                        <author>Mérigoux, Jean-Marie</author> (1986): “L'ouvrage d'un frère prêcheur florentin en orient a la fin du xiiie siècle. Le "contra legem sarracenorum" de Riccoldo da Monte di Croce”, in: 
+                        <hi rend="italic">Memorie dominicane </hi>17: 1–144.
+                    </bibl>
+                    <bibl>
+                        <author>Tolan, John Victor</author> (2002): 
+                        <hi rend="italic">Saracens. Islam in the medieval European imagination</hi>. New York: Columbia University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Villads Jensen, Kurt</author> / <author>Scotto, Davide</author>  (eds). (forthcoming in 2023), 
+                        <hi rend="italic">Riccoldo da Monte di Croce (†1320). Missionary to the Middle East and Expert on Islam.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Vitale, Fabio</author> / <author>Peroni, Silvio</author> , “The Argument Model Ontology (AMO)”,  
+                        <ref target="https://sparontologies.github.io/amo/current/amo.html">https://sparontologies.github.io/amo/current/amo.html</ref> [27.04.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

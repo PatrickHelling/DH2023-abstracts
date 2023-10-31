@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>History as a visual concept: editing Peter of Poitiers’ "Compendium historiae
+                    in genealogia Christi"</title>
+                <author n="BleierRomanBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName ref="https://orcid.org/0000-0003-4674-1042" n="BleierRoman">
+                        <surname>Bleier</surname>
+                        <forename>Roman</forename>
+                    </persName><affiliation>University of Graz</affiliation><email>roman.bleier@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CleaverLauraBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName ref="https://orcid.org/0000-0003-3616-5782" n="CleaverLaura">
+                        <surname>Cleaver</surname>
+                        <forename>Laura</forename>
+                    </persName><affiliation>School of Advanced Study, University of London</affiliation><email>laura.cleaver@sas.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FischerFranzBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName ref="https://orcid.org/0000-0002-2162-5531" n="FischerFranz">
+                        <surname>Fischer</surname>
+                        <forename>Franz</forename>
+                    </persName><affiliation>Ca' Foscari University of Venice</affiliation><email>franz.fischer@unive.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SahlePatrickBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName ref="https://orcid.org/0000-0002-8648-2033" n="SahlePatrick">
+                        <surname>Sahle</surname>
+                        <forename>Patrick</forename>
+                    </persName><affiliation>University of Wuppertal</affiliation><email>sahle@uni-wuppertal.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WormAndreaBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName ref="https://orcid.org/0000-0001-6881-9571" n="WormAndrea">
+                        <surname>Worm</surname>
+                        <forename>Andrea</forename>
+                    </persName><affiliation>University of Tübingen</affiliation><email>andrea.worm@uni-tuebingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KrottmaierSinaBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName ref="https://orcid.org/0000-0002-7966-7996" n="KrottmaierSina">
+                        <surname>Krottmaier</surname>
+                        <forename>Sina</forename>
+                    </persName><affiliation>University of Graz</affiliation><email>sina.krottmaier@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MacchiarelliAgneseBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName n="MacchiarelliAgnese">
+                        <surname>Macchiarelli</surname>
+                        <forename>Agnese</forename>
+                    </persName><affiliation>University of Wuppertal; Ca' Foscari University of
+                        Venice</affiliation><email>agnese.macchiarelli@unive.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CuglianaElisaBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName n="CuglianaElisa">
+                        <surname>Cugliana</surname>
+                        <forename>Elisa</forename>
+                    </persName><affiliation>University of Wuppertal</affiliation><email>elisa.cugliana@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GoerssEleanorBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName n="GoerssEleanor">
+                        <surname>Goerss</surname>
+                        <forename>Eleanor</forename>
+                    </persName><affiliation>University of Tübingen</affiliation><email>eleanor.goerss@uni-tuebingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StreicherMariaBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName n="StreicherMaria">
+                        <surname>Streicher</surname>
+                        <forename>Maria</forename>
+                    </persName><affiliation>University of Tübingen</affiliation><email>maria.streicher@uni-tuebingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RouxelLennartBLEIER_Roman_History_as_a_visual_concept__editing_Peter_of_P.xml"><persName n="RouxelLennart">
+                        <surname>Rouxel</surname>
+                        <forename>Lennart</forename>
+                    </persName><affiliation>University of Wuppertal</affiliation><email>lennart.rouxel@uni-wuppertal.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster will report on a new edition of Peter of Poitiers’ "Compendium historiae". The highly visual chracter of the work makes editing a challenging task and the project team will report on preliminary work during the first year and present an outlook on future work and the project goals.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>medieval</term>
+                    <term>manuscript</term>
+                    <term>digital edition</term>
+                    <term>semantic web</term>
+                    <term>visualisation of knowledge</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Art history</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Our project explores Peter of Poitiers’ twelfth-century
+                diagrammatic work, the <hi rend="italic">Compendium historiae in genealogia
+                    Christi</hi>. Ubiquitous throughout the mediaeval and early modern periods, the
+                    <hi rend="italic">Compendium historiae</hi>’s graphic and pictorial elements
+                gave it semantic and aesthetic power in the classroom, and beyond. </p>
+            <p>Peter of Poitiers, a renowned scholar in Paris, originally
+                designed the <hi rend="italic">Compendium historiae</hi> as a tool to help his
+                students learn the complexities of biblical history. He innovated a linear synopsis
+                to visualise time, a graph designed so that synchronous and diachronic relationships
+                of people and events can be read simultaneously (see Fig. 1). The sequence of
+                generations from Adam to Christ forms a central axis, correlated with the lines of
+                biblical families and other diagrams representing biblical events. The <hi rend="italic">Compendium historiae</hi> clarifies the scientific and theological
+                underpinnings of history, while providing a mnemonic tool to facilitate learning.
+                Peter of Poitiers’ synopsis quickly spread throughout the Latin West. Over three
+                hundred manuscript witnesses survive from the late twelfth to the early sixteenth
+                centuries. Despite its prevalence, the <hi rend="italic">Compendium historiae</hi>
+                has neither been edited nor studied with regard to its graphics—a “metastructure”
+                for the order of history. </p>
+            <p>As of January 2023, researchers at the University of
+                Tübingen, University of Wuppertal, University of Graz, Ca’ Foscari University
+                (Venice), and University of London have undertaken the first digital edition of
+                Peter of Poitiers’ <hi rend="italic">Compendium historiae</hi> using the standard of
+                the Text Encoding Initiative (TEI/XML), the International Image Interoperability
+                Framework (IIIF) and Semantic Web technologies. This interdisciplinary and
+                international research project brings together the fields of art history, mediaeval
+                history, Latin philology, text editing, and digital humanities. </p>
+            <p>Our aims are:</p>
+            <list type="unordered">
+                <item>an overview of the tradition and socio-cultural context of the <hi rend="italic">Compendium historiae</hi></item>
+                <item>an analysis of the graphic metastructure as well as the texts, diagrams and
+                    images</item>
+                <item>a codicological database of the existing manuscript witnesses</item>
+                <item>a digital and freely accessible critical scholarly edition, displayed in a
+                    navigable visualisation of the graphic metastructure</item>
+            </list>
+            <p>Our poster will display strategies for digital editing in
+                the face of graphic complexities. The first months of our project have resulted in a
+                still-growing database of manuscript witnesses of the <hi rend="italic">Compendium
+                    historiae</hi>. Our initial push has resulted in the discovery of a far richer
+                diagrammatic and pictorial diversity than hitherto acknowledged. In presenting our
+                findings to the DH community, we are looking forward to an exchange with others who
+                work with diagrammatics, time-modelling, text editing, manuscript
+                transcription/representation, and beyond. With such an exchange we hope to expand
+                our current set of tools and strategies in working to make the <hi rend="italic">Compendium historiae</hi> accessible. </p>
+            <figure>
+                <graphic n="1001" width="10.821458333333334cm" height="19.261666666666667cm" url="Pictures/72b8a12d7e0dc0203afee253bb92c892.png" rend="inline"/>
+                <head>Fig. 1: Part of the beginning of the <hi rend="italic">Compendium historiae</hi> in a 13th-century scroll (Cambridge, Mass., Houghton
+                Library, Ms. Typ 216). </head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Bleier, Roman</author> / <author>Fischer, Franz</author>  (2019): “Session Fri 3b: TEI and models of text III. Paper 1:
+                        Text–Graph–Image: Towards a Digital Edition of Peter of Poitiers’ Compendium
+                        historiae”, in: <hi rend="italic">What is Text, Really? TEI and Beyond,
+                            September 16–20, University of Graz, Austria</hi>, <ref target="https://gams.uni-graz.at/o:tei2019.bookofabstracts">https://gams.uni-graz.at/o:tei2019.bookofabstracts</ref>
+                        [16.04.2023]. </bibl>
+                    <bibl><author>Worm, Andrea</author> (2013):
+                        “Visualising the Order of History: Hugh of Saint Victor’s Chronicon and
+                        Peter of Poitiers’ Compendium historiae”, in: McNeill, John (ed.): <hi rend="italic">Romanesque and the Past: Retrospection in the Art and
+                            Architecture of Romanesque Europe</hi>. London 243–264. </bibl>
+                    <bibl><author>Worm, Andrea</author> (2018):
+                        “Medium und Materialität: Petrus von Poitiers’ Compendium historiae in
+                        genealogia Christi in Rolle und Codex”, in: Carmassi, Patrizia / Toussaint,
+                        Gia (eds.): <hi rend="italic">Codex und Materialität</hi>, Wolfenbütteler
+                        Mittelalter-Studien 34. Wiesbaden 39–64. </bibl>
+                    <bibl><author>Worm, Andrea</author> (2020): <hi rend="italic">Geschichte und Weltordnung. Graphische Modelle von Zeit
+                            und Raum in Universalchroniken vor 1500</hi>, Jahresgabe des Deutschen
+                        Vereins für Kunstwissenschaft. Berlin. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

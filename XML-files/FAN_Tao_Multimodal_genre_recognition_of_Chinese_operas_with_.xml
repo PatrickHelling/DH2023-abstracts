@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Multimodal genre recognition of Chinese operas with hybrid fusion</title>
+                <author n="FanTaoFAN_Tao_Multimodal_genre_recognition_of_Chinese_operas_with_.xml"><persName n="FanTao">
+                        <surname>Fan</surname>
+                        <forename>Tao</forename>
+                    </persName><affiliation>Nanjing University, China, People's Republic of; University of
+                        Bern, Switzerland</affiliation><email>fantao0916@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WangHaoFAN_Tao_Multimodal_genre_recognition_of_Chinese_operas_with_.xml"><persName n="WangHao">
+                        <surname>Wang</surname>
+                        <forename>Hao</forename>
+                    </persName><affiliation>Nanjing University, China, People's Republic of</affiliation><email>ywhaowang@nju.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HodelTobiasFAN_Tao_Multimodal_genre_recognition_of_Chinese_operas_with_.xml"><persName ref="https://orcid.org/0000-0002-2071-6407" n="HodelTobias">
+                        <surname>Hodel</surname>
+                        <forename>Tobias</forename>
+                    </persName><affiliation>University of Bern, Switzerland</affiliation><email>tobias.hodel@unibe.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In summary, we present our model MGRHF in the automatic recognition of Chinese operas, and conduct the empirical experiments. Experimental results demonstrate the efficiency and strong performance of MGRHF.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digital humanities</term>
+                    <term>Chinese operas</term>
+                    <term>genre recognition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>music and sound digitization</term>
+                    <term>encoding</term>
+                    <term>and analysis</term>
+                    <term>semantic analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>Chinese operas are the treasure of Chinese culture, and also the important component of world intangible cultural heritage (Zhang et al. 2008). In the contemporary China, listening operas in
+                        music platforms is a very popular way among the young and old people. Due to
+                        the support of the government and the public’s attention, Chinese opera is
+                        in a new stage with high development. The creative enthusiasm is
+                        tremendously motivated, and more and more works of Chinese opera with
+                        different genres are produced. However, it is very hard for the public
+                        without the rich knowledge of opera to recognize the genre correctly.
+                        Assuming the scenario where people hear the opera from the music platform,
+                        however, the platform only provides the name without the information of the
+                        genre, which is not beneficial for the listeners who want to have the deep
+                        experience of the genre that the work belongs to. Hence, utilizing an
+                        efficient model to recognize their genres automatically is extremely
+                        necessary and important, which is beneficial for the broadcast and
+                        sustainable development of Chinese operas.</p>
+                <p>Currently, there have been studies exploring the automatic recognition of operas. Related researches can be divided into unimodal-based (lyrics, audios) and multimodal-based methods (Jin et al. 2022; Luo 2021). If we only take audios or lyrics-based methods to recognize the genre, the auxiliary and complementary semantics information will be ignored. Furthermore, if we take a multimodal way, the information in lyrics and audios can be utilized simultaneously but it requires us to provide the complete multimodal information. Usually, lyrics of operas are provided by the labour most of the time which guarantees the quality and precision. However, in real scenarios, the situation that lyrics of operas are missing is common. If we utilize the common-used API to transform the audios into lyrics automatically, the performance is extremely bad and meanings of operas will be changed completely due to the unique singing characteristics and arias of Chinese operas. </p>
+                <p>Therefore, we wonder whether it is possible to build a unified model to recognize
+                    the genre of Chinese operas with multimodal information and tackle the problem
+                    of missing modality.</p>
+                <p>The proposed model</p>
+                <p>Based on that, we build a unified <hi rend="bold">M</hi>ultimodal <hi rend="bold">G</hi>enre <hi rend="bold">R</hi>ecognition of Chinese operas with <hi rend="bold">H</hi>ybrid <hi rend="bold">F</hi>usion (<hi rend="bold">MGRHF</hi>), shown in Figure 1, which can utilize the multimodal information effectively learned from lyrics and audios in Chinese operas, and also fix the missing modality problem. The model structure consists of the lyric-based, audio-based, lyric-audio-based model, and hybrid fusion technique, which is composed of the intermediate-level and decision-level fusion. In the lyric-based model, we first use Bidirectional Encoder Representation Transformers (BERT) (Devlin et al. 2019) to encode lyrics of operas, to obtain the representative features. Then we feed the representative features into the context learner, Bidirectional Long Short-Term Memory networks (BiLSTM) (Hochreiter / Schmidhuber 1997), to excavate the contextual and semantics features in lyrics. Lastly, the features with rich contextual textual features are input to layers composed of a fully connected (FC) layer with <hi rend="italic">relu</hi> activation and <hi rend="italic">softmax</hi> layer. In the audio-based model, deep spectrum features extracted from spectrograms of audios, through the ResNet model (He et al. 2016) pretrained on ImageNet, are employed as the representation of opera audios. Next, the spectrum features are fed into two FC layers with different activation functions (<hi rend="italic">relu</hi> and <hi rend="italic">softmax</hi>), to predict the genre of operas. The lyric-audio-based model utilizes the networks learning contextual semantics and visual features, and an intermediate fusion strategy is employed to concatenate features from lyrics and audios. Also, two FC layers (with <hi rend="italic">relu</hi> and <hi rend="italic">softmax</hi>) are added to perform non-linear activation and give the prediction probabilities. Lastly, we apply the decision-level fusion technique to obtain the final genre prediction result. Specifically, we denote the prediction probabilities on a Chinese opera from the lyric-, audio-, and lyric-audio-based models as <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>p</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>l</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula>,<formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>p</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>a</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula>, and <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>p</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>m</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula>. The final genre label <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>l</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>g</mi>
+                                    <mi>e</mi>
+                                    <mi>n</mi>
+                                    <mi>r</mi>
+                                    <mi>e</mi>
+                                </mrow>
+                            </msub>
+                        </mml:math>
+                    </formula> is predicted by the following equation:</p>
+            </div>
+            <figure>
+                <graphic n="1001" width="7.991416666666667cm" height="1.3274972222222223cm" url="Pictures/d5d6ea206c0d5de33c56b6c333ed00e4.png" rend="inline"/>
+            </figure>
+            <div>
+                <p><formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">α</mi>
+                        </mml:math>
+                    </formula>,<formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">β</mi>
+                        </mml:math>
+                    </formula>, and <formula>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">γ</mi>
+                        </mml:math>
+                    </formula> are the optimal weight parameters through the grid-searching method, ranging from 0 to 1, the searching step is 0.1, and the sum of all weights is 1. If one modality is missing, we just need to set the corresponding weight and multimodality weight to 0, which can help us to solve the missing modality problem.</p>
+                <figure>
+                    <graphic n="1002" width="8.742830555555555cm" height="3.1966555555555556cm" url="Pictures/75e7705ddb9313dbafddc27e5318be68.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 1. The structure of
+                            MGRHF</hi></head>
+                </figure>
+                <p>Dataset of Chinese operas</p>
+                <p>In this paper, four nation-level Chinese operas genres are selected, which are <hi rend="italic">Beijing opera</hi>, <hi rend="italic">Kun opera</hi>, <hi rend="italic">Yue opera</hi>, and <hi rend="italic">Jin Opera</hi>. The four operas are the famous and popular operas
+                        in China, and can be seen as the representatives of Chinese operas. NetEase
+                        platform is chosen as the data source to scrape audios and lyrics of four
+                        operas. Then, we filter the data and segment the audios based on the
+                        sentences in the lyrics into several clips. Lastly, the number distribution
+                        of four operas is illustrated in the Table 1.</p>
+                <table xml:id="d99e440">
+                    <head><hi rend="bold">Table 1. The number distribution of
+                            different operas</hi></head>
+                    <row>
+                        <cell>Dataset</cell>
+                        <cell>
+                            <hi rend="italic">Beijing Opera</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Kun opera</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Yue opera</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Jin opera</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Number</cell>
+                        <cell>
+                            1,027
+                        </cell>
+                        <cell>
+                            912
+                        </cell>
+                        <cell>
+                            969
+                        </cell>
+                        <cell>
+                            870
+                        </cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Experiments</head>
+                <p>Here, we select classic BERT, ResNet, EF-LSTM, MGR,
+                        and CNN model as baseline models. Experimental results are shown in Table 2.
+                        It can be seen that MGRHF obtains the superior results compared with
+                        baseline models considering all evaluated metrics, which shows the
+                        effectiveness of our proposed model. In addition, in the comparison with
+                        MGR, we find that the performance of MGRHR utilizing the proposed hybrid
+                        technique is better, which demonstrates its superiority in the genre
+                        recognition of Chinese operas. Also, it can be observed that multimodal
+                        fusion models have an advantage over unimodal models.</p>
+            </div>
+            <div>
+                <table xml:id="d99e520">
+                    <head><hi rend="bold">Table 2. Experimental results of MGRHF and baseline models. EF-LSTM concatenates the textual and spectrum features, which are input to LSTM model. MGR is the model without decision-level fusion. </hi></head>
+                    <row>
+                        <cell>Models</cell>
+                        <cell>
+                            <hi rend="italic">Accuracy</hi>
+                             (%)
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Precision</hi>
+                            (%)
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Recall</hi>
+                             (%)
+                        </cell>
+                        <cell>
+                            <hi rend="italic">F1</hi>
+                             (%)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>BERT</cell>
+                        <cell>
+                            90.39
+                        </cell>
+                        <cell>
+                            90.71
+                        </cell>
+                        <cell>
+                            91.09
+                        </cell>
+                        <cell>
+                            90.86
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            ResNet
+                        </cell>
+                        <cell>90.00</cell>
+                        <cell>89.45</cell>
+                        <cell>89.07</cell>
+                        <cell>
+                            89.08
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>EF-LSTM</cell>
+                        <cell>
+                            96.54
+                        </cell>
+                        <cell>
+                            96.03
+                        </cell>
+                        <cell>
+                            96.50
+                        </cell>
+                        <cell>
+                            96.22
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            MGR
+                        </cell>
+                        <cell>
+                            97.31
+                        </cell>
+                        <cell>
+                            97.34
+                        </cell>
+                        <cell>
+                            97.00
+                        </cell>
+                        <cell>
+                            97.13
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>CNN</cell>
+                        <cell>
+                            89.62
+                        </cell>
+                        <cell>
+                            90.04
+                        </cell>
+                        <cell>
+                            90.38
+                        </cell>
+                        <cell>
+                            89.99
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rend="bold">MGRHF</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">97.69</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="bold">97.85</hi>
+                        </cell>
+                        <cell>97.41</cell>
+                        <cell>97.59</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Conclusion</head>
+                <p>In summary, we present our model MGRHF for the
+                        automatic genre recognition of Chinese operas, and conduct the empirical
+                        experiments. Experimental results demonstrate the strong performance of
+                        MGRHF. In the future, case studies will be performed and MGRHF will be
+                        tested in a wider dataset.</p>
+                <p><hi rend="bold">Acknowledgements</hi></p>
+                <p>This work is supported by National Natural Science Foundation of China (No.
+                    72074108), Special Project of Nanjing University Liberal Arts Youth
+                    Interdisciplinary Team (010814370113), Jiangsu Young Social Science Talents,
+                    “Tang Scholar” of Nanjing University, and China Scholarship Council
+                    (202206190149).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Devlin, J., Chang, M.-W., Lee, K., &amp; Toutanova, K.
+                            </author>(2019). BERT: Pre-training of Deep Bidirectional Transformers
+                            for Language Understanding. 
+                        <hi rend="italic">Proceedings of the 2019 Conference
+                            of the North American Chapter of the Association for Computational
+                            Linguistics: Human Language Technologies, Volume 1 (Long and Short
+                            Papers)</hi>
+                        , 4171–4186.
+                            https://doi.org/10.18653/v1/N19-1423
+                    </bibl>
+                    <bibl>
+                        <author>He, K., Zhang, X., Ren, S., &amp; Sun, J. </author>(2016).
+                            Deep Residual Learning for Image Recognition. 
+                        <hi rend="italic">2016 IEEE Conference on Computer
+                            Vision and Pattern Recognition (CVPR)</hi>
+                        , 770–778.
+                            https://doi.org/10.1109/CVPR.2016.90
+                    </bibl>
+                    <bibl>
+                        <author>Hochreiter, S., &amp; Schmidhuber, J. </author>(1997). Long
+                            Short-Term Memory. 
+                        <hi rend="italic">Neural Computation</hi>
+                        , 
+                        <hi rend="italic">9</hi>
+                        (8), 1735–1780.
+                            https://doi.org/10.1162/neco.1997.9.8.1735
+                    </bibl>
+                    <bibl>
+                        <author>Jin, C., Song, Z., Xu, J., &amp; Gao, H. </author>(2022).
+                            Attention-Based Bi-DLSTM for Sentiment Analysis of Beijing Opera Lyrics. 
+                        <hi rend="italic">Wireless Communications and Mobile
+                            Computing</hi>
+                        , 
+                        <hi rend="italic">2022</hi>
+                        , e1167462.
+                            https://doi.org/10.1155/2022/1167462
+                    </bibl>
+                    <bibl>
+                        <author>Luo, W. </author>(2021). Analysis of Artistic Modeling of
+                            Opera Stage Clothing Based on Big Data Clustering Algorithm. 
+                        <hi rend="italic">Security and Communication
+                            Networks</hi>
+                        , 
+                        <hi rend="italic">2021</hi>
+                        , e5349916.
+                            https://doi.org/10.1155/2021/5349916
+                    </bibl>
+                    <bibl>
+                        <author>Zhang, Y.-B., Zhou, J., &amp; Wang, X. </author>(2008). A
+                            study on Chinese traditional opera. 
+                        <hi rend="italic">2008 International Conference on
+                            Machine Learning and Cybernetics</hi>
+                        , 
+                        <hi rend="italic">5</hi>
+                        , 2476–2480.
+                            https://doi.org/10.1109/ICMLC.2008.4620824
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

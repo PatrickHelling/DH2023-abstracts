@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nineteenth-century adaptations of concert music for domestic use as seen in contemporary periodicals: digital scholarship built on the foundations of IIIF, MEI and Linked Data</title>
+                <author n="LewisDavidLEWIS_David_Nineteenth_century_adaptations_of_concert_music_.xml"><persName ref="https://orcid.org/0000-0003-4151-0499" n="LewisDavid">
+                        <surname>Lewis</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>University of Oxford e-Research Centre, United Kingdom</affiliation><email>david.lewis@oerc.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PageKevinRLEWIS_David_Nineteenth_century_adaptations_of_concert_music_.xml"><persName ref="https://orcid.org/0000-0002-1668-6540" n="PageKevinR">
+                        <surname>Page</surname>
+                        <forename>Kevin R</forename>
+                    </persName><affiliation>University of Oxford e-Research Centre, United Kingdom</affiliation><email>kevin.page@oerc.ox.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present a study of musical arrangements oif concert music for domestic performance through the lens of an English monthly music journal (The Harmonicon). The study is supported by digital annotation tooling built on IIIF, MEI and Linked Data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Musicology</term>
+                    <term>domestic music</term>
+                    <term>IIIF</term>
+                    <term>MEI</term>
+                    <term>Linked Data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>linked (open) data</term>
+                    <term>music and sound digitization</term>
+                    <term>encoding</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Musicology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Digitisation on a mass scale by libraries and archives has made it much easier to access and research digitised source materials for geographically distributed subject matter. This greatly supports close reading and traditional scholarly methods, but also, because of this publicly visible, web-standards-compliant digital evidence, it is possible to make that research also digital, sharable and collaborative, potentially building structures that can facilitate research sitting in a middle ground between close and distant reading.</p>
+            <p>Without the benefit of sound recording, and with public concerts often an expensive luxury – and one with a limited repertory too – music enthusiasts of the early nineteenth century had most of their musical experience in amateur circles – primarily at home. That the highest status compositions of the developing musical canon were those for the concert hall or the opera house complicated matters for those who wanted to cultivate their musical knowledge and sophistication. This challenge was addressed by the music publishing industry, which produced vast quantities of arrangements of large-scale works for smaller-scale use. It is through these versions that many people encountered, became familiar with, and even studied the famous symphonies and overtures, arias and concertos. Beethoven’s last string quartets, which famously went largely unperformed for decades after their composition, were quite successful sellers in the composer’s own piano duet arrangement.</p>
+            <p>Working at these borders of close and distant reading, we have used digital tools, supported by web standards such as IIIF, MEI and Web Annotations, to investigate a repertoire that is not much studied or edited in musicological discourse
+                <ref target="#LEWIS_David_Nineteenth_century_adaptations_of_concert_music_.xml_ftn1" n="1"/>, but which has exemplars in most music libraries, any of which can be incorporated in such a study – provided that they are appropriately digitised and published.
+            </p>
+            <p>Nineteenth-century musical arrangements changed not only how music reached an audience, but also how that repertoire was selected. Rather than being relatively passive players, accepting the choices made by impresarios behind local concert seasons, members of the public became active shoppers, reading adverts and reviews to select the music to bring into their homes. In the process, the status of the audience was elevated, accelerating the rise of a musical cognoscenti. Supporting them in this came large-circulation music periodicals, such as the London-based 
+                <hi rend="italic">Harmonicon</hi>. These held the promise of bringing a music-cultural education into the home and, equally, in providing a well-balanced selection of sheet music for the readership. 
+            </p>
+            <p>We show how, from 
+                <hi rend="italic">The Harmonicon</hi>’s 1823 launch, half of the sheet music under review was an arrangement of another work, targeting smaller forces or creating some looser adaptation (such as a fantasia or variation set) on pre-existing materials. In the musical supplement – which is of equivalent size to the textual part, new music yet to reach the London stage or concert hall, rubbed shoulders with “ancient music”, such as Corelli’s 
+                <hi rend="italic">Christmas Concerto</hi> (1714) or Purcell’s 
+                <hi rend="italic">King Arthur</hi> (1691), witnessing the journal’s aims of cultivating its audience’s musical breadth.
+            </p>
+            <p><hi rend="italic">The Harmonicon</hi> combined reviews with concert listings, musical biography, international reports and substantial amounts of music. Our study of the reviews of newly published scores has revealed insights into playing scenarios, with evaluation of the difficulty of a score being directly related to specific performance contexts. These practical aspects are explicitly seen as being in tension with aesthetic questions, and those of fidelity to the source. Specific arrangers are compared and singled out for praise or criticism.
+            </p>
+            <p>In the music, on the other hand, we have found implicit evidence of decisions made by arrangers to adjust the music for a (mostly) English, amateur audience operating in smaller, domestic spaces. We can see how the scale, difficulty and even sung language and text are changed to reflect the perceived consumers of the repertory. We can also see how the choice of pieces to arrange reflects and engages with pragmatic decisions, but also the emerging notion of musical canon, with Beethoven at its centre.</p>
+            <p>We undertook our study using an application developed for the Beethoven in the House project. This application allows a musicologist to compare and annotate passages of music in different versions, over different media, and distributed over the web, with tooling structured around the Music Encoding Initiative format, IIIF for images, and a tailored Music Annotation Ontology (Lewis et al. 2022), based on Web Annotations (Sanderson et al. 2017) and FRBR (Tillett 2005). As the musicological research develops, a digital research object (Page et al. 2013) is built up that helps record that research, creating an evidence resource – stored and published online in the cloud, in a user’s Solid Pod (Weigl et al. 2020) – that can be cited and can form the basis of future research.</p>
+            <div type="div1">
+                <head>Acknowledgements</head>
+                <p>This research was undertaken by the project ‘Beethoven in the House: Digital Studies of Domestic Music Arrangements’, supported in the UK by the Arts and Humanities Research Council (AHRC), project number AH/T01279X/1. We gratefully acknowledge the wider contributions of our project partners at the University of Paderborn, and the BeethovenHaus Bonn, and in particular of Johannes Kepper and Mark Saccomano for development of the annotation application.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="LEWIS_David_Nineteenth_century_adaptations_of_concert_music_.xml_ftn1">
+                    A notable exception is November’s editions of Beethoven Symphony arrangements (November, 2019–2020) and her related book (November 2021)
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Lewis, David</author> / <author>Shibata, Elisabete</author> / <author>Saccomano, Mark</author> / <author>Rosendahl, Lisa</author> / <author>Kepper, Johannes</author> / <author>Hankinson, Andrew</author> / <author>Siegert, Christine</author> / <author>Page, Kevin R. Page</author>  (2022): “A model for annotating musical versions and arrangements across multiple documents and media”, in: 
+                        <hi rend="italic">Proceedings of the 9th International Conference on Digital Libraries for Musicology</hi> (ACM) 10–18. 
+                    </bibl>
+                    <bibl>
+                        <author>November, Nancy</author> (ed.) (2019, 2019 &amp; 2020), 
+                        <hi rend="italic">Chamber Arrangements of Beethoven’s Symphonies, Parts 1–3</hi>, (A-R Editions).
+                    </bibl>
+                    <bibl>
+                        <author>November, Nancy</author> (2021), 
+                        <hi rend="italic">Beethoven’s Symphonies Arranged for the Chamber: Sociability, reception and canon formation</hi> (CUP).
+                    </bibl>
+                    <bibl>
+                        <author>Page, Kevin R.</author> / <author>Fields, Benjamin</author> / <author>De Roure, David</author> / <author>Crawford, Tim</author> / <author>Downie, J. Stephen</author>  (2013), “Capturing the workflows of music information retrieval for repeatability and reuse”, in: 
+                        <hi rend="italic">Journal of Intelligent Information Systems </hi>41: 435–459.
+                    </bibl>
+                    <bibl>
+                        <author>Sanderson, Robert</author> / <author>Ciccarese, Paolo</author> / <author>Young, Benjamin</author>  (2017), 
+                        <hi rend="italic">Web Annotation Data Model</hi>, (W3C) <ref target="https://www.w3.org/TR/2017/REC-annotation-model-20170223/">https://www.w3.org/TR/2017/REC-annotation-model-20170223/</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Tillett, Barbara</author> (2005), “What is FRBR? A conceptual model for the bibliographic universe”, 
+                        <hi rend="italic">The Australian Library Journal </hi>54: 24–30.
+                    </bibl>
+                    <bibl>
+                        <author>Weigl, David M.</author> / <author>Goebl, Werner</author> / <author>Hofman, Alex</author> / <author>Crawford, Tim</author> / <author>Zubani, Federico</author> / <author>Liem, Cynthia C. S.</author> / <author>Porter, Alastair</author>  (2020) “Read/Write Digital Libraries for Musicology”, in: Proceedings of the 7th International Conference on Digital Libraries for Musicology (ACM) 48–52
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

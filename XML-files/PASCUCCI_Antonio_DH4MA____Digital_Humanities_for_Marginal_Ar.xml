@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DH4MA - (Digital Humanities for Marginal Areas). Tangible and
+                        Intangible heritage digitalization to promote marginal areas and rural
+                        development</title>
+                <author n="PascucciAntonioPASCUCCI_Antonio_DH4MA____Digital_Humanities_for_Marginal_Ar.xml"><persName n="PascucciAntonio">
+                        <surname>Pascucci</surname>
+                        <forename>Antonio</forename>
+                    </persName><affiliation>L'Orientale University of Naples, Italy</affiliation><email>antoniopascucci1990@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CarlinoCarolaPASCUCCI_Antonio_DH4MA____Digital_Humanities_for_Marginal_Ar.xml"><persName n="CarlinoCarola">
+                        <surname>Carlino</surname>
+                        <forename>Carola</forename>
+                    </persName><affiliation>L'Orientale University of Naples, Italy</affiliation><email>carlinocarola4@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MontiJohannaPASCUCCI_Antonio_DH4MA____Digital_Humanities_for_Marginal_Ar.xml"><persName n="MontiJohanna">
+                        <surname>Monti</surname>
+                        <forename>Johanna</forename>
+                    </persName><affiliation>L'Orientale University of Naples, Italy</affiliation><email>jmonti@unior.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MannaRaffaelePASCUCCI_Antonio_DH4MA____Digital_Humanities_for_Marginal_Ar.xml"><persName n="MannaRaffaele">
+                        <surname>Manna</surname>
+                        <forename>Raffaele</forename>
+                    </persName><affiliation>L'Orientale University of Naples, Italy</affiliation><email>raffaele.mann@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Digital Humanities for Marginal Areas (DH4MA) workshop aims to investigate the state of the art of tangible and intangible heritage digitalization in marginal and rural areas and their accessibility.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>marginal areas</term>
+                    <term>rural areas</term>
+                    <term>digital humanities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>media archaeology</term>
+                    <term>virtual and augmented reality creation</term>
+                    <term>systems</term>
+                    <term>and analysis</term>
+                    <term>Archaeology</term>
+                    <term>Art history</term>
+                    <term>Games studies</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>The first edition of the Digital Humanities for Marginal Areas (DH4MA) workshop
+                    aims to investigate the state of the art of tangible and intangible heritage
+                    digitization in marginal and rural areas and their accessibility. DH4MA will be
+                    held in conjunction with the DH2023 conference and is organized in the framework
+                    of the KiNESIS Erasmus+ project. The KiNESIS (KNowledgE alliance for Social
+                    Innovation in Shrinking villages) project is a three-year initiative (2021-2023,
+                    extended to June 2024) co-funded by the European Union's Erasmus+ Programme. Its
+                    primary objective is to establish a Knowledge Alliance among academia, NGOs,
+                    communities, local authorities, and businesses to develop a program of
+                    multidisciplinary activities in shrinking areas that promotes and fosters
+                    entrepreneurship, projects, workforce, productivity, and attractiveness. The
+                    KiNESIS project's aims are: revitalizing depopulated areas, creating local
+                    living laboratories for exchanging knowledge and experiences, experimenting with
+                    innovative approaches in teaching and learning, and facilitating the flow of
+                    knowledge at local and global levels. One of the most important initiatives
+                    promoted by the KiNESIS project was the Wiki Loves Monuments Terre dell’Ufita,
+                    developed within the International photografic competition Wiki Loves Monuments1
+                    (WLM). The aim of WLM is to highlight the heritage sites of the participating
+                    countries to encourage people to capture pictures of these monuments, and to put
+                    them under a free licence on Wikimedia Commons. The Ufita Valley edition made it
+                    possible to collect 73 photos of monuments in the geographical area of interest,
+                    thus fostering a spread of knowledge about them and a more shared use of digital
+                    technologies, in an area where to be considered sensitive issues are both the
+                    depopulation of rural areas, but also the difficulty caused by the digital
+                    divide. Thanks to the cooperation between the KiNESIS project, Wikimedia Italia
+                    and Terre dell’Ufita NGOs, local communities and students have acquired
+                    knowledge in creating open contents online in order to disseminate local history
+                    and cultural heritage2, trying to reduce the digital gap.</p>
+                <p>The digital divide issue affects several areas all over the world, including
+                    those that despite being part of the most developed countries, are behind the
+                    times of the digital revolution. In light of the above, Digital Humanities (DH)
+                    techniques represent an opportunity not to be missed to raise awareness about
+                    cultural heritage and to overcome the digital divide.</p>
+                <p>This topic was investigated through the various contributions that were received,
+                    in the form of extended abstracts (500 words max.), from authors with different
+                    research centres, scattered around the world.</p>
+                <p>The field of digital history and heritage is rapidly evolving, paving the way for
+                    new methods of preserving, documenting, and promoting cultural heritage.
+                    Although there is a lack of research on using digital tools to preserve Cultural
+                    Natural Heritage (CNH) in composite rural areas, as digital technologies
+                    continue to advance, there is growing recognition of their potential to bridge
+                    the divide and promote CNH-led strategies for remote and rural regions. The
+                    study proposed by Farzaneh Aliakbari and Rosa Tamborrino from the
+                    Interuniversity Department of Regional and Urban Studies and Planning of the
+                    Politecnico di Torino (Italy), entitled Review mapping of digital tools and
+                    applications in Cultural Natural heritage landscapes, aims to provide a
+                    comprehensive overview of the digital tools and applications used in CNH sites,
+                    as well as identifying existing digital gaps and potential future paths in
+                    digitalization of CNH landscapes. The study will contribute to the promotion of
+                    digital heritage-led strategies for rural and remote areas by providing insights
+                    into preserving tangible and intangible heritage values.</p>
+                <p>One of the key challenges in the digitization of cultural heritage is the lack of
+                    research and resources available in certain regions. In order to fill this gap,
+                    Serena Autiero, Frederik Elwert, Cristiano Moscatelli, Jessie Pons, from the
+                    Center for Religious Studies, proposed the digitization of Buddhist heritage in
+                    the Mountain Valleys of Khyber Pakhtunkhwa (Pakistan). As explained in their
+                    proposal Digitization of Buddhist Heritage in the Mountain Valleys of Khyber
+                    Pakhtunkhwa (Pakistan): results and perspectives, the BMBF-funded eHeritage
+                    project (2021-2024) Digitization of Gandharan Artefacts (DiGA) is working to
+                    digitise almost 2,000 Buddhist sculptures from the historical region of Gandhara
+                    in Pakistan. By making these sculptures accessible, the project offers new
+                    avenues for research on Gandharan styles, Buddhist iconographies, and the
+                    interplay between literary and visual documents. Additionally, the project
+                    creates bridges between traditional research and the Digital Humanities,
+                    digitised collections and other projects, and European research landscape and
+                    cultural heritage institutions in Khyber Pakhtunkhwa.</p>
+                <p>About the Italian scenario, Vincenzo Colaprice from the University of Bari “Aldo
+                    Moro”, proposes the creation of a digital atlas (A digital Atlas for Italian
+                    “borghi”) to present the specificities of each territory through various
+                    indicators. The author reflects on the fact that the Italian National Recovery
+                    and Resilience Plan (PNRR) provides strategic interventions for villages (cfr.
+                    ‘borghi’) in marginal areas, but not for many other smaller centres. The aim of
+                    this innovative atlas is to offer useful data and information to multiple
+                    communities of users and support public institutions in defining policies that
+                    might activate the regeneration processes of villages in marginal areas. By
+                    integrating qualitative and quantitative data, this atlas provides an organised
+                    and easily usable ecosystem.</p>
+                <p>The archaeological map of the upper Tammaro valley as a tool for governance and
+                    planning of the cultural heritage of a marginalized rural area. (Benevento,
+                    Campania region, Italy) is the title of a study focused on the rural landscape
+                    of the upper valley of the Tammaro river in Campania, Italy, from the IV BC to
+                    the VI AD century. The author, Oriana Cerbone, from the University of Salerno
+                    (Italy), reflects on the importance of giving uniformity to the archaeological
+                    data available while considering the environmental and human factors that
+                    influenced the landscape's development. The methodology involves creating an
+                    archaeological territorial information system and implementing it through
+                    mapping tools. The results of this study can be used to protect cultural
+                    heritage, support sustainable rural development, and encourage active
+                    citizenship and local tourism.</p>
+                <p>Another area where digital technologies are making an impact is in the study of
+                    medieval Hebrew manuscripts, as demonstrated by Gila Prebor, from the Bar-Ilan
+                    University (Israel). Using Machine Learning-Based Methods to Forecast the
+                    Production-Date of Hebrew Medieval Manuscripts is the title of the proposal in
+                    which the author describes the development of a reliable and efficient method
+                    for dating ancient manuscripts. This development will enable a broader audience
+                    of researchers to date manuscripts without the need for extensive codicological
+                    knowledge, enriching the understanding of mediaeval Hebrew manuscripts and their
+                    historical context. Furthermore, the understanding of the impact of different
+                    data on the dating of manuscripts can aid in the identification of trends and
+                    developments in the production of Hebrew manuscripts throughout the years. </p>
+                <p>However, the use of digital tools and applications in preserving cultural
+                    heritage is not without challenges. The paper The Rhetoric Gaze of Mehrangarh
+                    Fort by Sayan Sanyal, from the IDRP, IIT Jodhpur (India), highlights the complex
+                    relationship between art, architecture, and culture, and how they shape our
+                    perceptions of the world. Using the Mehrangarh Fort as an example, the paper
+                    explores how images and cultural heritage have been perceived and represented
+                    over time. It emphasises the importance of adopting a critical and nuanced
+                    perspective when analysing cultural heritage and using digital technologies to
+                    study it. By doing so, we can gain a deeper understanding of the past, present,
+                    and future of cultural heritage and promote its preservation for future
+                    generations. </p>
+                <p>According to Olga Terenstka (Europeana Foundation), the digitization of cultural
+                    heritage offers new opportunities for a better understanding of the cultural
+                    past, raises awareness about cultural heritage, and promotes its preservation
+                    for future generations. The author, with the contribution entitled
+                    Instrumentalization of culture in politics, fake cultural narratives, war
+                    crimes, Ukraine, proposes to increase the voice of the digital cultural heritage
+                    of Ukraine abroad and overcome the digital divide created by insufficient effort
+                    aimed at educating EU people regarding Ukrainian cultural history topics in a
+                    non-censored way. Through the collection of several projects focused on the
+                    digitization of Ukrainian tangible and intangible heritage, the author offers an
+                    elaboration of best practices of collaboration between people/teams with
+                    different backgrounds across the EU.</p>
+            </div>
+            <div>
+                <head>The DH4MA workshop was organized by</head>
+                <p>- Johanna Monti, full Professor at the University of Naples "L'Orientale" (Italy)
+                    (SSD L-LIN/02), where she is the head of the UNIOR NLP Research Group of the
+                    Department of Literary, Linguistic and Comparative Studies, active in the field
+                    of Computational Linguistics and Automatic Natural Language Processing (NLP) and
+                    local node of the National Laboratory of Artificial Intelligence and Intelligent
+                    Systems of CINI. She is also the Third Mission delegate at the same University
+                    and is responsible for national and international research projects in the field
+                    of NLP. </p>
+                <p>- Antonio Pascucci, PhD in Literary, Linguistic and Comparative Studies at the
+                    L'Orientale University of Naples with a thesis titled Does style characterize
+                    haters? An investigation on an Italian hate speech corpus. His research
+                    interests focus on Computational Stylometry and Forensic Linguistics. His other
+                    interests include tourist promotion of internal areas and finding solutions to
+                    develop rural areas. He is involved in the Erasmus+ KiNESIS project, which
+                    focuses on creating connections among research institutes and businesses to
+                    fight the phenomenon of depopulation;</p>
+                <p>- Carola Carlino, PhD in Literary, Linguistic and Comparative Studies at the
+                    L’Orientale University of Naples with a thesis titled Musei Liquidi. Digital
+                    Storytelling, Social Media, Multilinguismo. Her research interests focus on
+                    Cultural Heritage Digitization processes and Communicative strategies by
+                    Cultural Institutions.</p>
+                <p>- Raffaele Manna is a PhD candidate in Natural Language Processing at the UniOR
+                    NLP Research Group. His research interests concern computational stylometry and
+                    computational methods for emotion recognition from texts.</p>
+            </div>
+            <div>
+                <head>Program Committee</head>
+                <p><hi rend="bold">Elisa Bonacini</hi>, University of Bari </p>
+                <p><hi rend="bold">Ruth Breeze</hi>, University of Navarra </p>
+                <p><hi rend="bold">Andrea D'Andrea</hi>, L'Orientale University of Naples </p>
+                <p><hi rend="bold">Stefania De Vincentis</hi>, University of Venice Ca' Foscari </p>
+                <p><hi rend="bold">Alba Irollo</hi>, Europeana </p>
+                <p><hi rend="bold">Marianna Marcucci</hi>, Invasioni digitali </p>
+                <p><hi rend="bold">Alfonso Santoriello</hi>, University of Salerno </p>
+                <p><hi rend="bold">Ludovico Solima</hi>, University of Campania Luigi Vanvitelli </p>
+                <p><hi rend="bold">Michele Domenico Todino</hi>, University of Salerno </p>
+                <p><hi rend="bold">Chiara Zuanni</hi>, University of Graz </p>
+            </div>
+        </body>
+    </text></TEI>

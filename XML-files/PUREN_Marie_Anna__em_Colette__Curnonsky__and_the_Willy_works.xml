@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><hi rend="italic">Colette, Curnonsky, and the Willy workshop</hi>. Assessing
+                    relative contributions and influences beyond “collaborative authorship”</title>
+                <author n="CafieroFlorianPUREN_Marie_Anna__em_Colette__Curnonsky__and_the_Willy_works.xml"><persName n="CafieroFlorian">
+                        <surname>Cafiero</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>Sciences Po, France</affiliation><email>florian.cafiero@sciencespo.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PurenMariePUREN_Marie_Anna__em_Colette__Curnonsky__and_the_Willy_works.xml"><persName n="PurenMarie">
+                        <surname>Puren</surname>
+                        <forename>Marie</forename>
+                    </persName><affiliation>EPITA, France; Centre Jean-Mabillon, France</affiliation><email>marie.puren@epita.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>What was the influence on the French writer Colette of her first husband Willy and his literary workshop? Her opinion varied greatly, depending on the time she spoke. When asked just after the publication of the Claudine, a series of books published from 1900 to 1903 initially under the sole name of her husband Willy, Colette admitted her contribution with a hint of a smile: “[Willy] crie si obstinément ma participation [aux Claudine] que je dois m'incliner” (“[Willy] so obstinately cries out for my participation [in the Claudine] that I must bow down”). But in 1936 in her autobiographical work Mes Apprentissages, and until her death in 1954, Colette changed her tone and insisted on Willy's minor role in the writing of these books, until her first husband's name disappeared from the cover of the novels. When Colette was asked if Willy helped her to write these texts, she replied in 1949: “Plutôt par des indications, mais ça ne peut s'appeler une aide...” (“Rather by indications, but it can not be called a help ... “). Which Colette should we believe?
+                In this paper, we analyze texts that we have occluded and corrected. Using artificial intelligence profiling techniques, we show that Claudine's texts at school bear the influence of Willy and his workshop.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>What was the influence on the French writer Colette of her first husband Willy and his literary workshop? Her opinion varied greatly, depending on the time she spoke. When asked just after the publication of the Claudine, a series of books published from 1900 to 1903 initially under the sole name of her husband Willy, Colette admitted her contribution with a hint of a smile: “[Willy] crie si obstinément ma participation [aux Claudine] que je dois m'incliner” (“[Willy] so obstinately cries out for my participation [in the Claudine] that I must bow down”). But in 1936 in her autobiographical work Mes Apprentissages, and until her death in 1954, Colette changed her tone and insisted on Willy's minor role in the writing of these books, until her first husband's name disappeared from the cover of the novels. When Colette was asked if Willy helped her to write these texts, she replied in 1949: “Plutôt par des indications, mais ça ne peut s'appeler une aide...” (“Rather by indications, but it can not be called a help ... “). Which Colette should we believe?
+                In this paper, we analyze texts that we have occluded and corrected. Using artificial intelligence profiling techniques, we show that Claudine's texts at school bear the influence of Willy and his workshop.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Colette</term>
+                    <term>authorship attribution</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>What was the influence on the French writer Colette of her first husband Willy
+                    and his literary workshop? Her opinion varied greatly, depending on the time she
+                    spoke. When asked just after the publication of the Claudine, a series of books
+                    published from 1900 to 1903 initially under the sole name of her husband Willy,
+                    Colette admitted her contribution with a hint of a smile: “[Willy] crie si
+                    obstinément ma participation [aux Claudine] que je dois m'incliner” (“[Willy] so
+                    obstinately cries out for my participation [in the Claudine] that I must bow
+                    down”). But in 1936 in her autobiographical work <hi rend="italic">Mes Apprentissages</hi>, and until her death in 1954,
+                    Colette changed her tone and insisted on Willy's minor role in the writing of
+                    these books, until her first husband's name disappeared from the cover of the
+                    novels. When Colette was asked if Willy helped her to write these texts, she
+                    replied in 1949: “Plutôt par des indications, mais ça ne peut s'appeler une
+                    aide...” (“Rather by indications, but it cannot be called a help ... “). Which
+                    Colette should we believe?</p>
+                <p>In this paper, we analyze texts that we have occluded
+                        and corrected. Using artificial intelligence profiling techniques, we show
+                        that Claudine's texts at school bear the influence of Willy and his
+                        workshop.</p>
+            </div>
+            <div>
+                <head>Claudine at school: a collaborative work?</head>
+                <p>Sidonie Gabrielle Colette, known as Colette (1873-1954), took her first steps on the French literary scene in the shadow of her first husband Henry-Gauthier Villars (1859-1931), better known under his pseudonym Willy. From 1900 to 1903, four novels belonging to the <hi rend="italic">Claudine</hi> series were published and signed by Willy: <hi rend="italic">Claudine à l'école</hi> (1900), <hi rend="italic">Claudine à Paris</hi> (1901), <hi rend="italic">Claudine en ménage</hi> (1903),<hi rend="italic">Claudine s'en va</hi> (1903). Willy never hid the fact that Colette had participated in the writing of these books, as Colette acknowledged in <hi rend="italic">Mes Apprentissages</hi>. The use of his name is explained both by commercial reasons (Willy was a successful author) and by social reasons: as a woman in 1900, Colette might have encountered many difficulties in publishing a novel under her own name. Willy's methods of literary production are well known to his Parisian colleagues and friends. In 1900, Willy was known to employ numerous “secretaries” or “collaborators” to write “his” books. Colette describes their apartment as a "literary workshop", where several ghostwriters wrote novels, meticulously revised, rewritten and commented by Willy. During his literary career, it is estimated that about fifty collaborators were employed by Willy. The draft manuscript of <hi rend="italic">Claudine à l'école</hi> would also have been "processed" by this workshop; and after being revised by Willy, it would have been reduced by half (Caradec 2004).</p>
+                <p>Nevertheless, we do not know exactly which part of
+                        the text was written by Colette and which part was rewritten (or even
+                        written) by Willy or his collaborators. To what extent did Willy influence
+                        the first literary texts written by Colette? What role did he really play in
+                        the writing of these novels?</p>
+            </div>
+            <div>
+                <head>A methodological challenge</head>
+                <p>Analyzing the relative contributions of Colette, Willy and his secretaries poses many methodological problems. First, texts that can be attributed with certainty to Willy alone are very rare - even more so if we restrict ourselves to the novelistic genre. Finding texts written in isolation by each of the participants in Willy's workshop is also a complex task. These writers are numerous, not all of them have pursued a literary career, and some of them have probably continued to write in collaboration with other authors. This makes it very difficult to treat the <hi rend="italic">Claudines</hi> as other cases of collaborative authority (Plechac 2019; Cafiero / Camps 2021): training an artificial intelligence to recognize each candidate's style and then applying a rolling stylometry algorithm (Eder 2016) is a short-term challenge, given the lack of reliable texts available.</p>
+                <p>Moreover, if Colette is telling the truth, Willy's
+                        main influence on these texts would come from comments and suggestions made
+                        on a text written and then corrected by herself. If this is indeed the case,
+                        a classical stylometric approach would fail: it would only detect Colette's
+                        hand, but not her influences. (Cafiero / Camps 2019).</p>
+            </div>
+            <div>
+                <head>Profiling</head>
+                <p>If we cannot easily try to recognize Willy's writing
+                        in Colette's text, we can try to identify his influence in other ways. The
+                        reasoning is simple: compare texts written by authors in Willy's workshop to
+                        those they wrote alone, outside the workshop, at the closest possible date
+                        to their release. The difference between these texts? To a first
+                        approximation, it is what we will call here the “Willy effect”. It includes
+                        Willy's corrections, advice or writing passages, but is not reduced to them.
+                        Others than him have been able to help their colleagues to make their
+                        manuscript closer to Willy's expectations - by proofreading, giving advice,
+                        etc.</p>
+                <p>To measure this effect, we employ profiling logic
+                        (Bevendorf et al. 2021; Daelemans et al. 2019; Mikros 2017). We train an
+                        artificial intelligence (Support Vector Machine) to distinguish between
+                        texts written by certain authors in collaboration with Willy and texts
+                        written by the same authors outside of Willy's workshop. The training is
+                        done on a corpus of novels by Paul Acker, Maurice Edmond Sailland (known as
+                        Curnonsky), Jeanne Marais, Jean de Tinan, Léo Trézenik and Pierre Veber. The
+                        SVM takes as input a combination of the most frequent character bi-grams,
+                        character tri-grams, words, and word bi-grams. The optimal parameters are
+                        deduced by cross-validation. A polynomial kernel is adopted, which gives
+                        better performance here than different linear kernels. Low variance features
+                        are removed to reduce the computation time. The performance of this
+                        profiling method is satisfactory (F-score: 0.89).</p>
+                <p>The texts to be evaluated (Colette's novels) are then
+                        cut into sections of a thousand words, a value for which performances where
+                        deemed a satisfactory compromise between performance and granularity (best
+                        F-Score: 0.93 for 3000 words and above). For each section, the SVM is asked
+                        if the text seems to be influenced by a Willy effect or not.</p>
+            </div>
+            <div>
+                <head>Results</head>
+                <p>The influence of Willy's workshop seems to be obvious on the <hi rend="italic">Claudines</hi>. Colette's first novel, <hi rend="italic">Claudine à l'école</hi>, seems particularly sensitive to it. But all the
+                        novels of the series seem to bear the trace of it.</p>
+                <p>The proportion of texts influenced by Willy and his
+                        workshop seems to diminish over time, without disappearing. Is this just an
+                        artifact? Is it, on the contrary, the trace of an impact of this workshop on
+                        Colette's later writing, which would have remained marked by this period?
+                        Did members of the workshop, such as her friend Curnonsky, advise or reread
+                        Colette's passages after she left Willy's workshop? It is impossible to
+                        decide in the present state of the study. But these are all avenues that we
+                        will have to explore next and present at the conference.</p>
+                <table xml:id="d257e264">
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rend="italic">Claudine à l’école</hi>
+                        </cell>
+                        <cell>Claudine à Paris</cell>
+                        <cell>
+                            <hi rend="italic">Claudine en ménage</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Claudine s’en va</hi>
+                        </cell>
+                        <cell>
+                            <hi rend="italic">Le blé en herbe</hi>
+                             (1923)
+                        </cell>
+                        <cell>
+                            <hi rend="italic">La Chatte</hi>
+                             (1933)
+                        </cell>
+                        <cell>
+                            Julie de Carneilhan (1941)
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Proportion of segments detected as “in
+                                collaboration with Willy and his workshop”
+                        </cell>
+                        <cell>0,45</cell>
+                        <cell>0,45</cell>
+                        <cell>0,38</cell>
+                        <cell>0,37</cell>
+                        <cell>0,13</cell>
+                        <cell>0,27</cell>
+                        <cell>0,24</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bevendorff, Janek</author> / <author>Chulvi, Berta</author> / <author>Peña Sarracén, Gretel Liz De La</author> / <author>Kestemont Mike</author> / <author>Manjavacas Enrique</author> / <author>Markov Ilia</author> / <author>Mayerl Maximilian</author> / <author>Potthast Martin</author> / <author>Rangel Francisco</author> / <author>Rosso Paolo</author> / <author>Stamatatos Efstathios</author> / <author>Stein Benno</author> / <author>Wiegmann Matti</author> / <author>Wolska Magdalena</author> / <author>Zangerle Eva</author>  (2021): “Overview of PAN 2021: Authorship
+                        Verification, Profiling Hate Speech Spreaders on Twitter, and Style Change
+                        Detection”, in: <hi rend="italic">International Conference of the
+                            Cross-Language Evaluation Forum for European</hi>. Languages.Cham:
+                        Springer 419-431 <ref target="https://dbis.uibk.ac.at/sites/default/files/2021-09/clef21_pan_overview.pdf">https://dbis.uibk.ac.at/sites/default/files/2021-09/clef21_pan_overview.pdf</ref>
+                        [01.05.2023]. </bibl>
+                    <bibl>
+                        <author>Cafiero, Florian</author> / <author>Camps, Jean-Baptiste</author>  (2019) : “Why
+                        Molière most likely did write his plays”, in: <hi rend="italic">Science
+                            advances</hi> 5, 11: eaax5489 <ref target="https://www.science.org/doi/10.1126/sciadv.aax5489">https://www.science.org/doi/10.1126/sciadv.aax5489</ref>
+                        [01.05.2023]. </bibl>
+                    <bibl>
+                        <author>Cafiero, Florian</author> / <author>Camps, Jean-Baptiste</author>  (2021) :
+                        “‘Psyché’ as a Rosetta Stone? Assessing Collaborative Authorship in the
+                        French 17th Century Theatre”, in: Ehrmann, Maud / Karsdorp, Folgert /
+                        Wevers, Melvin / Andrews, Tara Lee / Burghardt, Manuel / Kestemont, Mike /
+                        Manjavacas, Enrique / Piotrowski, Michael / Zundert, Joris van (eds.): <hi rend="italic">Proceedings of the Conference on Computational Humanities
+                            Research 2021</hi>. Amsterdam: CEUR Workshop Proceedings 1613: 377-391
+                         <ref target="https://ceur-ws.org/Vol-2989/long_paper51.pdf">https://ceur-ws.org/Vol-2989/long_paper51.pdf</ref> [01.05.2023]. </bibl>
+                    <bibl>
+                        <author>Caradec, François</author> (2004) : <hi rend="italic">Willy: le
+                            père des Claudine</hi>. Paris : Fayard. </bibl>
+                    <bibl>
+                        <author>Daelemans, Walter</author> / <author>Kestemont, Mike, Manjavacas, Enrique</author> / <author>Potthast, Martin</author> / <author>Rangel, Francisco</author> / <author>Rosso, Paolo</author> / <author>Specht, Günther</author> / <author>Stamatatos, Efstathios</author> / <author>Stein, Benno</author> / <author>Tschuggnall, Michael</author> / <author>Wiegmann, Matti</author> / <author>Zangerle, Eva</author>  (2019) : “Overview of PAN 2019: bots and
+                        gender profiling, celebrity profiling, cross-domain authorship attribution
+                        and style change detection”, In : <hi rend="italic">International conference
+                            of the cross-language evaluation forum for european languages</hi>.
+                        Springer, Cham 11696: 402-416  <ref target="https://doi.org/10.1007/978-3-030-28577-7_30">https://doi.org/10.1007/978-3-030-28577-7_30</ref> [01.05.2023]. </bibl>
+                    <bibl>
+                        <author>Eder, Maciej</author> (2016): “Rolling stylometry”, in: <hi rend="italic">Digital Scholarship in the Humanities</hi> 31, 3: 457-469
+                         <ref target="https://doi.org/10.1093/llc/fqv010">https://doi.org/10.1093/llc/fqv010</ref> [01.05.2023]. </bibl>
+                    <bibl>
+                        <author>Mikros, George K.</author> (2018): “Blended Authorship
+                        Attribution: Unmasking Elena Ferrante Combining Different Author Profiling
+                        Methods”, in: <hi rend="italic">Drawing Elena Ferrante’s Profile.</hi>
+                        Padova: Padova University Press 85-96 <ref target="http://www.padovauniversitypress.it/system/files/preview/9788869381300.pdf">http://www.padovauniversitypress.it/system/files/preview/9788869381300.pdf</ref>
+                        [01.05.2023]. </bibl>
+                    <bibl>
+                        <author>Plecháč, Petr</author> (2021): “Relative contributions of
+                        Shakespeare and Fletcher in Henry VIII: An analysis based on most frequent
+                        words and most frequent rhythmic patterns”, in: <hi rend="italic">Digital
+                            Scholarship in the Humanities</hi> 36, 2: 430-438  <ref target="https://doi.org/10.1093/llc/fqaa032">https://doi.org/10.1093/llc/fqaa032</ref> [01.05.2023]. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maze of Garfinkel: Making sense of formulations in ethnomethodology</title>
+                <author n="TrkogluEnesMERTGENS_Andreas_Maze_of_Garfinkel__Making_sense_of_formulat.xml"><persName ref="https://orcid.org/0000-0002-7466-573X" n="TrkogluEnes">
+                        <surname>Türkoglu</surname>
+                        <forename>Enes</forename>
+                    </persName><affiliation>University of Wuppertal, Germany</affiliation><email>enes.tuerkoglu@uni-wuppertal.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MertgensAndreasMERTGENS_Andreas_Maze_of_Garfinkel__Making_sense_of_formulat.xml"><persName ref="https://orcid.org/0000-0003-4665-2226" n="MertgensAndreas">
+                        <surname>Mertgens</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>University of Wuppertal, Germany</affiliation><email>mertgens@uni-wuppertal.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Harold Garfinkel's unique style of language is considered central to his unconventional approach and continues to be used by members of ethnomethodology.
+In the context of digitizing the sub-collection "Occasion Maps" of the Garfinkel Archive, an attempt is being made to break down the structure of concepts using graph-based methods.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Graph database</term>
+                    <term>ethnomethodology</term>
+                    <term>sociology</term>
+                    <term>media studies</term>
+                    <term>reading interfaces</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital archiving</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>History of science</term>
+                    <term>Media studies</term>
+                    <term>Sociology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In 1968 a symposium took place at Purdue University. Prominent sociologists were invited to discuss a new body of work developed by Harold Garfinkel labeled “ethnomethodology”. The symposium had the goal to answer the question of whether this new approach was in fact something “to get excited about”, or a “disaster” <ref target="https://www.zotero.org/google-docs/?broken=X0Bab9">(Hill and Crittenden 1968, 3)</ref>. After two days of heated discussion, the final statements were more concerned with the language used by Garfinkel than “substantive issues” regarding the methodology <ref target="https://www.zotero.org/google-docs/?broken=qsnJA7">(Flynn 1991,117)</ref>. Although his complex use of language got criticized as “large baggage with that funny set of phrases” <ref target="https://www.zotero.org/google-docs/?broken=w3Byww">(Hill and Crittenden 1968, 255)</ref>, Garfinkel insisted on this language as a feature of ethnomethodology. In his view, only such specific language can express the complexity of issues which he would like to tackle: "(...) to discover the things that persons in particular situations do, the methods they use, to create the patterned orderliness of social life." <ref target="https://www.zotero.org/google-docs/?broken=8Bm2zs">(Garfinkel 2002, 4)</ref>. As Garfinkel tried to describe the mundane practices of everyday life as a constituent of social orderliness, he realized that language as it is used and taken for granted can not unveil the woven inner workings of what is being researched.  To counteract that shortcoming, Garfinkel uses phrases like “as of which (the car) as a feature of the situation as of which it is a part.” <ref target="https://www.zotero.org/google-docs/?ejEM2D">(Rawls 2011, 2:08)</ref>.</p>
+            <p>In ethnomethodology, researchers are expected to have adequate competence, comparable to the practitioners of the field being researched. At the same time, results of the research must be of topical relevance to practitioners <ref target="https://www.zotero.org/google-docs/?1xhoe1">(Ikeya 2020)</ref>. Such constellation is made possible at the intersection of digital humanities and ethnomethodology as part of the CRC 1187 subproject “Media of Praxeology”, in which a joint effort is performed to digitize a subcollection from the Harold Garfinkel Archive regarding the topic “occasion maps”. The focus of this study is the idea of how digitization practices actively constitute the documents and define their context and how Garfinkel’s unique usage of language could be analyzed, understood and reused through digital methods. Although the collection consists of thousands of notes, transcripts of recordings, student works etc., a meta analysis showed that the ideas of Garfinkel developed over time through modification and extensions of his phrases and reached a supposed maturity in the 1990’s in the form of grant applications. </p>
+            <p>To implement a phrase-based approach, a grant application from 1996 was chosen as the supposed peak form of his formulations. Over the course of 60 hours of data sessions partly with Prof. Dr. Tristan Thielmann and his students, the text got broken down into its atomary parts. Complex nested descriptors and circular revisitations of phrases were recorded as semantic relationships in a Neo4J database (Fig. 1.). Although the resulting graph allows access to text from arbitrary descriptors and opens up the relations beyond the linearity of text structure, a need to project the dimensions back into the text emerged. Semantic markup in standards like TEI is inherently bound to linear readings of a text and only offers intertextual references and connections if those are specifically and explicitly encoded based on one interpretation.  By reading the text “naively” as a graph, intertextual connections can emerge organically (by node-merging). Projecting the graph back onto the text allows the reader to read through text linearly but at the same time, open up the descriptor into its relations as a graph, so that a wider understanding of presented terms can be gained.</p>
+            <p>The resulting application shows the graph view side by side with a TEI encoded text view (Fig 2). Users can select words or phrases in the text to see relations in graph view and vice versa. If a word in the graph is chosen, occurrences of the word become highlighted in the text view and a “minimap” displaying the entire document. The project proposes that this kind of reading not only enhances the sense-making regarding the specific text, but opens up an intertextual understanding of Garfinkel’s construction of phrases, so that insights into ethnomethodology can be gained. As Heritage puts it “"[Ethnomethodological] studies are discussed in a difficult prose style in which dense thickets of words seem to resist the reader's best endeavors, only to yield, at the last, forceful and unexpected insights which somehow remain obstinately open-ended and difficult-to-place." <ref target="https://www.zotero.org/google-docs/?dcwUyv">(Heritage 1984, 1)</ref>. The project hopes that with this approach</p>
+            <figure>
+                <graphic n="1001" width="15.910277777777777cm" height="15.890875cm" url="Pictures/9feb573a466e10e0fad3e3c1161201a0.png" rend="inline"/>
+                <head>Figure 1: comparison of Garfinkel’s structuring of “order*” in his text and in the graph database. Graph makes it visible, how the network of “order*” reaches to further sections of text through “properties of order*”</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="15.910277777777777cm" height="8.149166666666666cm" url="Pictures/8626e645f85929c514814f0af5325998.png" rend="inline"/>
+                <head>Figure 2: early prototype of the application combining graph and text view, showing the network of terms along the text through the constellation “properties of order*”</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                            <hi rend="bold">Flynn, Pierce J. </hi>1991. 
+                            <hi rend="italic">The Ethnomethodological Movement: Sociosemiotic Interpretations</hi>
+                            . De Gruyter Mouton. https://doi.org/10.1515/9783110873146.
+                    </bibl>
+                    <bibl>
+                            <hi rend="bold">Garfinkel, Harold, and Anne Warfield Rawls. </hi>2002. 
+                            <hi rend="italic">Ethnomethodology’s Program: Working out Durkeim’s Aphorism</hi>
+                            . Legacies of Social Thought. Lanham, Md: Rowman &amp; Littlefield Publishers.
+                    </bibl>
+                    <bibl>
+                           <hi rend="bold">Heritage, John.</hi> 1984. 
+                            <hi rend="italic">Garfinkel and Ethnomethodology</hi>
+                            . Cambridge [Cambridgeshire] ; New York, N.Y: Polity Press.
+                    </bibl>
+                    <bibl>
+                            <hi rend="bold">Hill, Richard J., and Kathleen S. Crittenden.</hi> 1968. 
+                            <hi rend="italic">Proceedings of the Purdue Symposium on Ethnomethodology</hi>
+                            . Purdue Research Foundation. https://aiemcanet.files.wordpress.com/2010/07/purdue.pdf.
+                    </bibl>
+                    <bibl>
+                            <hi rend="bold">Ikeya, Nozomi.</hi> 2020. “Hybridity of Hybrid Studies of Work: Examination of Informing Practitioners in Practice,” September. https://doi.org/10.5281/ZENODO.4050533.
+                    </bibl>
+                    <bibl>
+                             <hi rend="bold">Rawls, Anne Warfield.</hi> 2011. Anne Rawls on Harold Garfinkel and ethnomethodology Interview by Edwards Reynolds. Youtube. 
+                        <ref target="https://www.youtube.com/watch?v=vOmPqohPR6A">https://www.youtube.com/watch?v=vOmPqohPR6A</ref>
+                            .
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

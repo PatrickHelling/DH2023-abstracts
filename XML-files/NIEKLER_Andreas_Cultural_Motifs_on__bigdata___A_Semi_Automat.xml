@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cultural Motifs on #bigdata - A Semi-Automated Topic Modeling from a
+                    Socio-Cultural Constructionist Perspective</title>
+                <author n="KnorrCharlotteNIEKLER_Andreas_Cultural_Motifs_on__bigdata___A_Semi_Automat.xml"><persName ref="https://orcid.org/0000-0001-6591-3781" n="KnorrCharlotte">
+                        <surname>Knorr</surname>
+                        <forename>Charlotte</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>charlotte.knorr@uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NieklerAndreasNIEKLER_Andreas_Cultural_Motifs_on__bigdata___A_Semi_Automat.xml"><persName ref="https://orcid.org/0000-0002-3036-3318" n="NieklerAndreas">
+                        <surname>Niekler</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>aniekler@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BehretMariusNIEKLER_Andreas_Cultural_Motifs_on__bigdata___A_Semi_Automat.xml"><persName n="BehretMarius">
+                        <surname>Behret</surname>
+                        <forename>Marius</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>m.behret@studserv.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PentzoldChristianNIEKLER_Andreas_Cultural_Motifs_on__bigdata___A_Semi_Automat.xml"><persName ref="https://orcid.org/0000-0002-6355-3150" n="PentzoldChristian">
+                        <surname>Pentzold</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>Leipzig University, Germany</affiliation><email>christian.pentzold@uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this study, we show a possible operationalization of the sociocultural framing concept by van Gorp (2010). Communication Research and Computational Humanities are exploring how the keyword #bigdata can be investigated via combined approaches of both framing analysis and topic modeling. A first study shows, how both methodological approaches complement each other profitably regarding the analysis of cultural motifs, which in turn allows to quantitatively capture such abstract and complex concepts in large data sets.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Framing Analysis</term>
+                    <term>Framing Achors</term>
+                    <term>Topic Modeling</term>
+                    <term>Themes</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>mixed-media analysis</term>
+                    <term>Communication studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p><hi rend="italic">In this study, we show a possible
+                        operationalization of the sociocultural framing concept by van Gorp (2010).
+                        Communication Research and Computational Humanities are exploring how the
+                        keyword #bigdata can be investigated via combined approaches of both framing
+                        analysis and topic modeling. A first study shows, how both methodological
+                        approaches complement each other profitably regarding the analysis of
+                        cultural motifs, which in turn allows to quantitatively capture such
+                        abstract and complex concepts in large data sets.</hi></p>
+            </div>
+            <div type="div1">
+                <head>Aim</head>
+                <p>Part of the history of science is its
+                    self-constitution through discourse, also its conceptualization and
+                    implementation of both theoretical and methodological approaches. Hereby,
+                    scientific discourse can be facilitated by research collaborations in which
+                    already proven theoretical approaches, and methodological procedures can be
+                    tested collaboratively to adapt them, for example, to examine new media and data
+                    environments. This work reports on such a collaboration.</p>
+                <p>As part of the project Framing Big Data (Deutsche
+                        Forschungsgemeinschaft (DFG) 447465824), which started in April 2021, the
+                        departments Computational Humanities and Media and Communication Research
+                        (both Leipzig University) are conducting a joint research program to
+                        investigate how the media-communicative framing of Big Data can be
+                        collected, analyzed, and evaluated both on a cross-national and on a
+                        time-comparative basis. We examine the media-communicative framing of Big
+                        Data and globally datafied processes in both press- and user-generated
+                        aggregates (Facebook, Reddit, Twitter) over a period of the last 10 years
+                        and in three countries (U.S., Germany, and South Africa) using both
+                        frame-analytic and discursive approaches.</p>
+                <p>In a way, we are researching large quantities of text data about Big Data. In our data, thousands of press releases and social media data from Facebook, Reddit and Twitter, extracted on the keywords #bigdata and “Big Data”, we recognize discursive references to public events such as political debates on regulation, election campaigns, data scandals, and economic innovations in the tech business. Following Gamson and Modigliani, a discourse can be understood as “a set of discourses that interact in complex ways” (Gamson, &amp; Modigliani, 1989, p. 2). However, the discourse on Big Data is apparently triggered by the keyword Big Data, which in turn is not associated with a single topic. Moreover, several themes at different times are merged, which – in addition – are hardly reflected by key events in our data. Furthermore, resonance effects between User Generated Content (UGC) and the press – as they are consensus in framing research (e.g., Benford, &amp; Snow, 2000) – seem to be mostly absent in the discourse on Big Data. </p>
+                <p>This is where this report comes in: The Departments
+                        Media and Communication Research and Computational Humanities at Leipzig
+                        University are exploring how #bigdata can be investigated via combined
+                        approaches of both framing analysis and topic modeling. We ask: How can
+                        Topic Modeling be designed to reveal in Topics not only individual issues,
+                        but also their implicit and frame-analytic references?</p>
+            </div>
+            <div type="div1">
+                <head>Background</head>
+                <p>Starting from a socio-cultural framing approach (Van
+                        Gorp, 2010), we argument that each topic of #bigdata contains semantic
+                        domain-typical patterns. These domain-typical patterns are subject to a
+                        nature-given implicitness (Ryan, &amp; Gamson, 2006). Furthermore, these
+                        patterns refer to the frames, which become visible over time in the
+                        discourse on Big Data. Hereby, cultural motifs provide meaning to these
+                        patterns. Following Van Gorp (2010), cultural motifs are “the implicit
+                        cultural phenomenon” (p. 97) that can be extracted from a statement. In this
+                        vein, cultural motifs become visible in annotating an event or an actor – be
+                        it via hashtag, tweet, post, thread, subreddit or even just a hyperlink. We
+                        argue, the cultural motifs serve as anchor for both framing analysis and
+                        Topic Modeling. How Big Data is referred to over time, which frames are
+                        initiated and addressed, is anchored in their topics with their specific
+                        cultural motifs.</p>
+            </div>
+            <div type="div1">
+                <head>Study</head>
+                <p>During the manual coding process, we preliminary read
+                        20 books that dealt with Big Data as socio-technological phenomenon (boyd
+                        &amp; Crawford, 2012). Applying an inductive-deductive based framing
+                        analysis (Van Gorp, 2010), we were able to identify eight cultural motifs
+                        (Fig. 2). Afterwards, the paragraphs from the books, the manual analysis was
+                        based on, were used as the basis for the Topic Model. We followed the
+                        approach of Maier et. al. (2018) to implement a methodologically valid
+                        processing chain for the modeling approach. Each paragraph represents a
+                        document, and typical NLP-procedures and preprocessing-steps (Fig. 1) were
+                        used to further process the textual data. We extracted significant
+                        collocations but not all bigrams to represent important multiword tokens.
+                        Then, we applied the implementation from the topicmodels package in R to the
+                        data and the hyperparameters of the Topic Model were deter-mined by using
+                        the Jensen-Shannon-Divergence from the ldatuning package. Afterwards, the
+                        generated Topic Model was validated and finally evaluated by comparing the
+                        manually coded cultural motives with the Top-20 terms from each topic from
+                        the Topic Model, which showed that the results from the Topic Model are
+                        similar to the results of the manual coding process.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="3.903486111111111cm" url="Pictures/7aed1e2df68b98fe41a38a6aa0f9802f.png" rend="inline"/>
+
+                    <head>Figure 1: Representation of the process chain (left to right) from manual
+                        coding to the assignment of subjects to the manually determined motifs. For
+                        the steps, the methodological implementation was essentially based on (Maier
+                        et. al.).</head>
+                </figure>
+                <p>Interestingly, quite comprehensible cultural motifs
+                        emerge such as data capitalism, Surveillance, crime prevention, increased
+                        efficiency or social empowerment (Figure 2). Where, i.e. within which
+                        digital spaces/platforms and with the help of which technical affordances
+                        #bigdata is thematized and thereby framed in terms of media communication,
+                        is not only a technical question, but also a socio-political one. A
+                        different openness to technological innovations can be stated during the
+                        last ten years. Also, the political governance for data protection and data
+                        storage have become more critical. In this vein, the results gained are also
+                        to be discussed collaboratively and against the background of the increasing
+                        datafication of society and science.</p>
+                <figure>
+                    <graphic n="1002" width="15.998472222222222cm" height="13.423194444444444cm" url="Pictures/6b1657e14797f14a783c41ce5a931ebd.png" rend="inline"/>
+
+                    <head>Figure 2: Illustration of the identified motives in the manually coded
+                        data and the assignment process to the result of the Topic Model. The
+                        assignment of specific colors was initially done by the researchers and the
+                        transfer of colors was then supported with a text search. First, the
+                        cultural themes were translated into English and then synonyms were
+                        identified. The synonyms were searched for in the topics table and colored
+                        when found. We added more words to the search based on our understanding of
+                        their meanings and cultural motifs and colored them accordingly.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Final Remarks</head>
+                <p>The collaboration between Computational Humanities
+                        and Media and Communication Research is fruitful for several reasons: First,
+                        the tangible benefits of a frame-based topic modeling can be highlighted.
+                        With the application of a topic model, it is possible to practically
+                        replicate the manually detected cultural motifs based on pre-coded
+                        paragraphs. Secondly, manual and automated approaches can be contrasted,
+                        which means in that case, to improve the manual frame analysis from the
+                        books with the help of automated procedures. Likewise, the results from the
+                        semi-manual and semi-automated methods can be used as seeds in a
+                        mixed-method scenario to analyze frames in large datasets. By creating a
+                        Topic Model based on an inductive-deductive framework analysis, we can
+                        search for cultural motifs in very large data sets and ultimately evaluate
+                        them quantitatively. A modeling process guided in this way enables the valid
+                        traceability of searched phenomena in very large data sources.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Benford, R. D., &amp; Snow, D. A.</author> (2000). <hi rend="italic">Framing </hi>
+                        <hi rend="italic">Processes</hi>
+                        <hi rend="italic"> and </hi>
+                        <hi rend="italic">Social</hi>
+                        <hi rend="italic">Movements</hi>
+                        <hi rend="italic">: An Over-view and
+                            Assessment</hi>
+                        . Annual Review 
+                        of
+                        Sociology
+                        , 26, 611–639.
+                            http://www.jstor.org/stable/223459
+                    </bibl>
+                    <bibl>
+                        <author>boyd, d., &amp; Crawford, K.</author> (2012). <hi rend="italic">Critical Questions </hi>
+                        <hi rend="italic">for</hi>
+                        <hi rend="italic"> Big Data: </hi>
+                        <hi rend="italic">Provocations</hi>
+                        <hi rend="italic">for</hi>
+                        <hi rend="italic"> a Cultural, Technological, and </hi>
+                        <hi rend="italic">Scholarly</hi>
+                        <hi rend="italic">Phenomenon</hi>
+                        <hi rend="italic">. Information</hi>
+                        , Communication &amp; Society, 15(5), 662–679. https://doi.org/10.1080/1369118X.2012.678878 
+                    </bibl>
+                    <bibl>
+                        <author>Gamson, W. A., &amp; Modigliani, A.</author> (1989). <hi rend="italic">Media </hi>
+                        <hi rend="italic">Discourse</hi>
+                        <hi rend="italic"> and Public Opinion on </hi>
+                        <hi rend="italic">Nuclear</hi>
+                        <hi rend="italic"> Pow-er: A </hi>
+                        <hi rend="italic">Constructionist</hi>
+                        <hi rend="italic"> Approach</hi>
+                        . American Journal 
+                        of
+                        Sociology
+                        , 95(1), 1–37.
+                            https://www.jstor.org/stable/2780405
+                    </bibl>
+                    <bibl>
+                        <author>Ryan, C., &amp; Gamson, W. A.</author> (2006). <hi rend="italic">The Art </hi>
+                        <hi rend="italic">of</hi>
+                        <hi rend="italic"> Reframing Political </hi>
+                        <hi rend="italic">Debates</hi>
+                        . 
+                        Contexts
+                        , 5(1), 13–18.
+                            https://doi.org/10.1525/ctx.2006.5.1.13
+                    </bibl>
+                    <bibl>
+                        <author>Maier, D., Waldherr, A., Miltner, P., Wiedemann, G.,
+                            Niekler, A., Keinert, A., Pfetsch, B., Heyer, G., Reber, U., Häussler,
+                            T., Schmid-Petri, H., &amp; Adam, S.</author> (2018). <hi rend="italic">Applying</hi>
+                        <hi rend="italic"> LDA </hi>
+                        <hi rend="italic">topic</hi>
+                        <hi rend="italic">modeling</hi>
+                        <hi rend="italic"> in </hi>
+                        <hi rend="italic">communication</hi>
+                        <hi rend="italic">research</hi>
+                        <hi rend="italic">: </hi>
+                        <hi rend="italic">Toward</hi>
+                        <hi rend="italic"> a valid and reliable </hi>
+                        <hi rend="italic">methodology</hi>
+                        <hi rend="italic">. Communication Methods and </hi>
+                        <hi rend="italic">Measures</hi>
+                        , 1–26.
+                            https://doi.org/10.1080/19312458.2018.1430754
+                    </bibl>
+                    <bibl>
+                        <author>Van Gorp, B.</author> (2010). Strategies
+                        to
+                         Take 
+                        Subjectivity
+                         Out 
+                        of
+                         Framing Analysis. In P. D´Angelo &amp; J. A. Kuypers (Eds.), Communication Series. 
+                        <hi rend="italic">Doing</hi>
+                        <hi rend="italic"> News Framing Analysis: </hi>
+                        <hi rend="italic">Empirical</hi>
+                        <hi rend="italic"> and </hi>
+                        <hi rend="italic">Theoretical</hi>
+                        <hi rend="italic">Perspectives</hi>
+                         (pp. 84–109). Routledge.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

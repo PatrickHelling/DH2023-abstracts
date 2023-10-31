@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Computational Literary Studies Infrastructure (CLS INFRA): Initial Findings
+                    and Conclusions for the Field</title>
+                <author n="BirkholzJulieMEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0003-1193-0847" n="BirkholzJulieM">
+                        <surname>Birkholz</surname>
+                        <forename>Julie M.</forename>
+                    </persName><affiliation>Universiteit Gent</affiliation><email>julie.birkholz@ugent.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BrnerIngoEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0001-8294-2541" n="BrnerIngo">
+                        <surname>Börner</surname>
+                        <forename>Ingo</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>ingoboerner86@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ByszukJoannaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0003-2850-2996" n="ByszukJoanna">
+                        <surname>Byszuk</surname>
+                        <forename>Joanna</forename>
+                    </persName><affiliation>Institute of Polish Language (Polish Academy of
+                        Sciences)</affiliation><email>joanna.byszuk@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChambersSallyEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="ChambersSally">
+                        <surname>Chambers</surname>
+                        <forename>Sally</forename>
+                    </persName><affiliation>Universiteit Gent</affiliation><email>sally.chambers@ugent.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CharvatVeraMariaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="CharvatVeraMaria">
+                        <surname>Charvat</surname>
+                        <forename>Vera Maria</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austrian Centre for Digital
+                        Humanities and Cultural Heritage</affiliation><email>veramaria.charvat@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CinkovSilvieEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0003-4526-3915" n="CinkovSilvie">
+                        <surname>Cinková</surname>
+                        <forename>Silvie</forename>
+                    </persName><affiliation>Charles University, Prague</affiliation><email>cinkova@ufal.mff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DejaeghereTessEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-8472-4457" n="DejaeghereTess">
+                        <surname>Dejaeghere</surname>
+                        <forename>Tess</forename>
+                    </persName><affiliation>Universiteit Gent</affiliation><email>tess.dejaeghere@ugent.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DudarJuliaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0001-5545-9562" n="DudarJulia">
+                        <surname>Dudar</surname>
+                        <forename>Julia</forename>
+                    </persName><affiliation>Universität Trier</affiliation><email>dudar@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="uroMatejEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-5274-8278" n="uroMatej">
+                        <surname>Ďurčo</surname>
+                        <forename>Matej</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austrian Centre for Digital
+                        Humanities and Cultural Heritage</affiliation><email>matej.durco@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="EderMaciejEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-1429-5036" n="EderMaciej">
+                        <surname>Eder</surname>
+                        <forename>Maciej</forename>
+                    </persName><affiliation>Institute of Polish Language (Polish Academy of
+                        Sciences)</affiliation><email>maciejeder@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="EdmondJenniferEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0001-9991-1637" n="EdmondJennifer">
+                        <surname>Edmond</surname>
+                        <forename>Jennifer</forename>
+                    </persName><affiliation>Trinity College Dublin</affiliation><email>jennifer.edmond@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FilevaEvgeniiaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="FilevaEvgeniia">
+                        <surname>Fileva</surname>
+                        <forename>Evgeniia</forename>
+                    </persName><affiliation>Universität Trier</affiliation><email>fileva@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FischerFrankEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0003-2419-6629" n="FischerFrank">
+                        <surname>Fischer</surname>
+                        <forename>Frank</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>fr.fischer@fu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GarnettVickyEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-1349-7031" n="GarnettVicky">
+                        <surname>Garnett</surname>
+                        <forename>Vicky</forename>
+                    </persName><affiliation>DARIAH-EU</affiliation><email>vicky.garnett@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HeidenSergeEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0003-4682-7647" n="HeidenSerge">
+                        <surname>Heiden</surname>
+                        <forename>Serge</forename>
+                    </persName><affiliation>Ecole Normale Supérieure, Lyon</affiliation><email>slh@ens-lyon.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KenMichalEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-8492-263X" n="KenMichal">
+                        <surname>Křen</surname>
+                        <forename>Michal</forename>
+                    </persName><affiliation>Charles University, Prague</affiliation><email>michal.kren@ff.cuni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KundaBartomiejEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="KundaBartomiej">
+                        <surname>Kunda</surname>
+                        <forename>Bartłomiej</forename>
+                    </persName><affiliation>Institute of Polish Language (Polish Academy of
+                        Sciences)</affiliation><email>bartlomiej.kunda@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LaszakovitsSabineEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="LaszakovitsSabine">
+                        <surname>Laszakovits</surname>
+                        <forename>Sabine</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austrian Centre for Digital
+                        Humanities and Cultural Heritage</affiliation><email>sabine.laszakovits@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MrugalskiMichaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="MrugalskiMicha">
+                        <surname>Mrugalski</surname>
+                        <forename>Michał</forename>
+                    </persName><affiliation>Humboldt-Universität zu Berlin</affiliation><email>michal.mrugalski@hu-berlin.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PapakiElizaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0003-3943-5012" n="PapakiEliza">
+                        <surname>Papaki</surname>
+                        <forename>Eliza</forename>
+                    </persName><affiliation>DARIAH-EU</affiliation><email>eliza.papaki@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RacitiMarcoEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="RacitiMarco">
+                        <surname>Raciti</surname>
+                        <forename>Marco</forename>
+                    </persName><affiliation>DARIAH-EU</affiliation><email>marco.raciti@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ReschStefanEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName n="ReschStefan">
+                        <surname>Resch</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austrian Centre for Digital
+                        Humanities and Cultural Heritage</affiliation><email>stefan.resch@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RosSalvadorEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0001-6330-4958" n="RosSalvador">
+                        <surname>Ros</surname>
+                        <forename>Salvador</forename>
+                    </persName><affiliation>UNED Madrid</affiliation><email>sros@scc.uned.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchchChristofEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-4557-2753" n="SchchChristof">
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName><affiliation>Universität Trier</affiliation><email>schoech@uni-trier.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="eaArtjomsEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-2272-2077" n="eaArtjoms">
+                        <surname>Šeļa</surname>
+                        <forename>Artjoms</forename>
+                    </persName><affiliation>Institute of Polish Language (Polish Academy of
+                        Sciences)</affiliation><email>atrjoms.sela@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TasovacTomaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-3919-993X" n="TasovacToma">
+                        <surname>Tasovac</surname>
+                        <forename>Toma</forename>
+                    </persName><affiliation>Belgrade Center for Digital Humanities</affiliation><email>ttasovac@humanistika.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TonraJustinEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-2579-4367" n="TonraJustin">
+                        <surname>Tonra</surname>
+                        <forename>Justin</forename>
+                    </persName><affiliation>University of Galway</affiliation><email>justin.tonra@nuigalway.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TthCzifraErzsbetEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-5350-067X" n="TthCzifraErzsbet">
+                        <surname>Tóth-Czifra</surname>
+                        <forename>Erzsébet</forename>
+                    </persName><affiliation>DARIAH-EU</affiliation><email>erzsebet.toth-czifra@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TrilckePeerEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-1421-4320" n="TrilckePeer">
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName><affiliation>Universität Potsdam</affiliation><email>trilcke@uni-potsdam.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanDalenOskamKarinaEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0001-7697-4512" n="vanDalenOskamKarina">
+                        <surname>van Dalen-Oskam</surname>
+                        <forename>Karina</forename>
+                    </persName><affiliation>Huygens Institute</affiliation><email>karina.van.dalen@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanRossumLisanneEDER_Maciej_Computational_Literary_Studies_Infrastructure__C.xml"><persName ref="https://orcid.org/0000-0002-5542-5757" n="vanRossumLisanne">
+                        <surname>van Rossum</surname>
+                        <forename>Lisanne</forename>
+                    </persName><affiliation>Huygens Institute</affiliation><email>lisanne.van.rossum@huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The aim of this poster is to provide an overview of the work carried out in the CLS INFRA project and its conclusions for the field of Computational Literary Studies.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computational literary studies</term>
+                    <term>CLS</term>
+                    <term>research infrastructures</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital access</term>
+                    <term>privacy</term>
+                    <term>and ethics analysis</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Informatics</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+            <head>Introduction</head>
+            <p><lb/>The Computational Literary Studies Infrastructure (CLS INFRA) project aims
+                    to survey and federate resources currently available in digital libraries,
+                    archives, repositories, websites or catalogues, with the tools needed to
+                    interrogate them, and with a widened base of users, in the spirit of the FAIR
+                    and CARE principles (Wilkinson et al. 2016, Carroll 2020), and to address a lack
+                    of standardisation that hinders how they are constructed, accessed and the
+                    extent to which they are reusable (Ciotti 2014). The aim is not to build
+                    entirely new resources, but rather build on recently-compiled high-quality
+                    literary corpora, such as DraCor and ELTeC (Fischer et al. 2019, Burnard et al.
+                    2021, Schöch et al. to appear), and to integrate existing tools for text
+                    analysis, e.g. TXM, stylo, multilingual NLP pipelines (Heiden 2010, Eder et al.
+                    2016), taking advantage of deep integration with two other infrastructural
+                    projects, namely the CLARIN and DARIAH ERICs. <lb/>In the proposed poster we
+                    want to present achievements of the CLS INFRA projects in its duration so far,
+                    focusing specifically on four recent deliverables. </p>
+            </div>
+            <div>
+                <head>Baseline Methodological User Needs
+                    Analysis</head>
+                <p><lb/>In order to document shared research practices and provide an empirical
+                    basis for the definition of training needs and infrastructural requirements, we
+                    have built a corpus of CLS publications published in 2010-2021. We have then
+                    identified the frequency with which specific (a) tools and software, (b) data
+                    formats, and (c) methods of analysis are mentioned in this corpus, as well as
+                    what are the most common formats, tools and methods. We examined the development
+                    of their mentions over time, and attempted to explain the quantitative results.
+                    <lb/>The key outcomes of the study consist of the following elements: (1) A
+                    corpus of research articles, with several metadata tables that includes key
+                    information on the collected publications, and containing publications marked as
+                    DH more generally, or to CLS more specifically; (2) A dataset and a collection
+                    of visualizations that provide information about the frequency and distribution
+                    of mentions of tools, formats and methods in the corpus mentioned above (see
+                    chapter 3); (3) A report that outlines the composition of the corpus used,
+                    explains the methodological steps undertaken, summarizes the key findings based
+                    on the data and derives conclusions from these findings. </p>
+                
+            </div>
+            <div>
+                <head>Skills Gap Analysis</head>
+                <p><lb/>Here we explored current gaps in teaching of research skills for
+                    computational literary studies, to adjust own approach to training schools, but
+                    also chart the territory for broader communities of practitioners and scholars.
+                    We approached the task primarily in a quantitative manner to be able to
+                    uniformly bring major tendencies in teaching and skill demand to a common
+                    denominator. This required an explicit mapping of (1) existing teaching
+                    practices (“supply”) and (2) opinions of the practitioner community (“demand”)
+                    to a single grid of skills, where it is possible to compare both parts and
+                    identify the gaps directly. Skills in the grid were derived from four broadly
+                    defined stages in a research cycle: (1) Theory and research setup, (2)
+                    Collection, (3) Analysis, (4) Delivery. In defining skills we aimed at the
+                    middle level of abstraction: skills do not relate to particular implementations,
+                    platforms or software, but embody general practices and activities, while
+                    remaining useful and distinct (e.g. corpus building, classification, statistical
+                    modelling). To understand supply we have manually annotated current offers in a
+                    sample of European university courses in Digital Humanities and summer school
+                    workshops, tying them to the grid. </p>
+                
+            </div>
+            <div>
+                <head>Review of the Data Landscape</head>
+                <p><lb/>Review report documenting the state of literary data
+                    (https://zenodo.org/record/6861022) was our most important achievement in this
+                    period. To enhance public outreach, the principal author explained the results
+                    of the study in layman’s terms: https://www.youtube.com/watch?v=jrJGTSWHuF0.
+                    <lb/>This review focuses on intellectual access, i.e. providing guidance for
+                    finding and sharing literary data, and consisting of collecting and analysing
+                    literary corpora, available formats, tools, and metadata. We will next create an
+                    exploratory catalogue of literary corpora and provide a transformation
+                    matrix/toolbox for solving common issues. Our point of departure is the
+                    abundance of existing data, let alone their diversity or heterogeneity, as well
+                    as substantial differences in design and underlying concepts. Therefore, the
+                    document covers the definitions of text (is it a source, an edition, a data set?
+                    see chapter 3), the purpose of a corpus (e.g. general, reference, or monitoring
+                    corpora, special purpose corpora; see chapter 4), central considerations or
+                    criteria regarding the construction of a corpus (sampling, balancing,
+                    representativeness, annotation model(s), data format(s); see likewise chapter
+                    4). How can one acquire data without transgressing ethical or legal boundaries
+                    (see chapter 5)? We ask: How can we assist literary scholars in searching for
+                    and finding existing data that are relevant to their own research questions? And
+                    additionally, what kind of research question is relevant concerning the
+                    present-day state of the data landscape and literariness and textuality? </p>
+                
+            </div>
+            <div>
+                <head>Inventory of Existing Data Sources and
+                    Formats</head>
+               <p><lb/>Here we compile a comprehensive overview of the landscape of literary
+                    corpora and sources currently available, describing our methodological approach
+                    and analysing the various challenges encountered in the effort to collect
+                    information about these resources and consolidate them into a structured form.
+                    Based on an initial inventory of 86 corpora or corpus sets, we exemplify their
+                    wide variety with respect to structure, context and purpose, and consequently
+                    the differing modes of provisioning. We also propose a technological path
+                    towards making this information searchable via a central discovery catalogue by
+                    discussing principal design decisions regarding the data model and the
+                    technology stack needed for such a task. </p>
+               
+            </div>
+            <div>
+                <head>Acknowledgements</head>
+                <p><lb/>This project has received funding from the European Union’s Horizon 2020
+                    research and innovation programme under grant agreement No 101004984. Find out
+                    more about the team here: https://clsinfra.io/about/ourresearchers/. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ciotti, Fabio</author>
+                         (2014): „Digital literary and cultural studies: the state of the art and perspectives''. Between 4/8, 1-17. <ref target="https://doi.org/10.13125/2039-6597/1392">https://doi.org/10.13125/2039-6597/1392</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Eder, M.</author> / <author>Rybicki, J.</author> / <author>Kestemont, M.</author> 
+                         (2016): “Stylometry with R: a package for computational text analysis”. R Journal, 8(1): 107-21. <ref target="https://journal.r-project.org/archive/2016/RJ-2016-007/index.html">https://journal.r-project.org/archive/2016/RJ-2016-007/index.html</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Fischer, Frank</author> / <author>Ingo Börner</author> / <author>Matthias Göbel</author> / <author>Andrea Hechtl</author> / <author>Christopher Kittel</author> / <author>P. Miling</author> / <author>Peer Trilcke</author> 
+                         (2019): “Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama”, in: Book of Abstracts of the Digital Humanities Conference 2019. Utrecht: ADHO.
+                    </bibl>
+                    <bibl>
+                        <author>Heiden, Serge</author>
+                         (2010): “The TXM Platform: Building Open-Source Textual Analysis Software compatible with the TEI Encoding Scheme”, in: 24th Pacific Asia Conference on Language, Information and Computation (pp. 10 p.). Sendai, Japon. Retrieved from <ref target="http://halshs.archives-ouvertes.fr/docs/00/54/97/64/PDF/paclic24_sheiden.pdf">http://halshs.archives-ouvertes.fr/docs/00/54/97/64/PDF/paclic24_sheiden.pdf</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Mrugalski, Michał</author> / <author>Odebrecht, Carolin</author> / <author>Charvat, Vera</author> / <author>Börner, Ingo,</author> / <author>Durco, Matej</author> 
+                         (2022): CLS INFRA D5.1. Review of the Data Landscape. Zenodo. <ref target="https://doi.org/10.5281/zenodo.6861022">https://doi.org/10.5281/zenodo.6861022</ref> 
+                    </bibl>
+                    <bibl>    
+                    <author>Lisanne M. van Rossum</author> / <author>Artjoms Šeļa</author> 
+                        (2022):
+                        <hi rend="italic">CLS INFRA D4.1
+                            Skills Gap Analysis</hi>
+                        . Zenodo. 
+                        <ref target="https://doi.org/10.5281/zenodo.6421513">https://doi.org/10.5281/zenodo.6421513</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Wilkinson, Mark D.</author> / <author>Michel Dumontier</author> / <author>IJsbrand Jan Aalbersberg</author> / <author>Gabrielle Appleton</author> / <author>Myles Axton</author> / <author>Arie Baak</author> / <author>Niklas Blomberg</author> 
+                         (2016): “The FAIR Guiding Principles for Scientific DataManagement and Stewardship”, in: Scientific Data 3(1). <ref target="https://doi.org/10.1038/sdata.2016.18.">https://doi.org/10.1038/sdata.2016.18.</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Research Software Engineer Careers and Project Involvement in DH</title>
+                <author n="DamerowJuliaDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName n="DamerowJulia">
+                        <surname>Damerow</surname>
+                        <forename>Julia</forename>
+                    </persName><affiliation>Arizona State University, United States of America</affiliation><email>jdamerow@asu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VoglMalteDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName n="VoglMalte">
+                        <surname>Vogl</surname>
+                        <forename>Malte</forename>
+                    </persName><affiliation>MPI for the History of Science</affiliation><email>mvogl@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TharsenJeffreyDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName n="TharsenJeffrey">
+                        <surname>Tharsen</surname>
+                        <forename>Jeffrey</forename>
+                    </persName><affiliation>University of Chicago</affiliation><email>tharsen@uchicago.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CastiesRobertDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName n="CastiesRobert">
+                        <surname>Casties</surname>
+                        <forename>Robert</forename>
+                    </persName><affiliation>MPI for the History of Science</affiliation><email>casties@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoeserRebeccaSuttonDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName ref="https://orcid.org/0000-0002-8762-8057" n="KoeserRebeccaSutton">
+                        <surname>Koeser</surname>
+                        <forename>Rebecca Sutton</forename>
+                    </persName><affiliation>Princeton University</affiliation><email>rkoeser@princeton.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LeBlancZoeDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName ref="https://orcid.org/0000-0003-2012-8805" n="LeBlancZoe">
+                        <surname>LeBlanc</surname>
+                        <forename>Zoe</forename>
+                    </persName><affiliation>University of Illinois Urbana-Champaign</affiliation><email>zleblanc@illinois.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SiqueiraDiegoDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName n="SiqueiraDiego">
+                        <surname>Siqueira</surname>
+                        <forename>Diego</forename>
+                    </persName><affiliation>Ruhr University Bochum</affiliation><email>diego.siqueira@rub.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CrawfordColeDAMEROW_Julia_Research_Software_Engineer_Careers_and_Project.xml"><persName ref="https://orcid.org/0000-0002-8347-0096" n="CrawfordCole">
+                        <surname>Crawford</surname>
+                        <forename>Cole</forename>
+                    </persName><affiliation>Humanities Research Computing - Harvard University</affiliation><email>cole_crawford@fas.harvard.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This panel will discuss career path opportunities and challenges for people doing coding work in DH. The panelists are a diverse group of people with different backgrounds and interests in terms of career path and recognition. Short presentations from each panelist about their experiences will be followed by an open discussion with the audience.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>research software engineering</term>
+                    <term>career path</term>
+                    <term>software quality</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In 2012, Ramsay and Rockwell wrote that “[t]here is [...]
+                a large group in digital humanities that experiences this anxiety about credit and
+                what counts in a way that is far more serious and consequential. These are the
+                people [...] who have turned to building, hacking, and coding as part of their
+                normal research activity” (Ramsay and Rockwell 2012, p. 75). They continue to
+                discuss the question whether writing code counts as scholarship. In 2017, Dombrowski
+                et al. discussed in a panel at DH2017 the role of digital humanists at the
+                intersection of the humanities and research computing (Dombrowski et al. 2017). What
+                both of these discussions have in common are that they are closely intertwined with
+                the discussion about career path options and opportunities of recognition for people
+                doing coding work in the digital humanities. In a survey by DHTech conducted in
+                2020, 67% of the respondents said that they did not have a career path at their
+                current employer (DHTech 2020). This poses a problem as missing career path
+                opportunities often result in highly qualified people leaving the field for a more
+                stable career leading to a lack in code maintenance and quality. Without permanent
+                positions for research software engineers, how can the DH community ensure code
+                quality and sustainability beyond the limited and often temporary funding of DH
+                projects? How do career structures have to change to accommodate people doing coding
+                work?</p>
+            <p>To discuss the question of career paths for people doing
+                coding and technical work in digital humanities, we propose a panel at DH2023. The
+                panelists are a diverse group of people with different backgrounds and interests in
+                terms of career path and recognition. The goal of this panel is to develop an
+                understanding of what opportunities exist and what is still missing for anyone
+                interested in a career in DH that involves writing code. We will ask the panelists
+                to give a short account of their background and career path (5-10 minutes) answering
+                a list of questions we provide ahead of time. These questions will include for
+                example how they were trained, what formal education they have, what their current
+                position is, and how they get recognized for their coding work. We will then invite
+                the audience to participate in a discussion with the panelists. We aim to write up
+                the discussion after the conference as a white paper.</p>
+            <div>
+                <head>Panelists</head>
+                <p><hi rend="bold">Jose Hernandez Perez</hi> is currently the Digital Humanities
+                    Technology Specialist for the Research Computing Center at Florida State
+                    University. There he works in the Interdisciplinary Data Humanities Initiative,
+                    which instructs and assists humanities faculty and students in the use of
+                    High-Performance Computing tools. In addition, he assists in the development of
+                    DH projects that require further technical assistance with data analysis,
+                    database creation, TEI-XML, etc. Before joining FSU, he earned a BA in History
+                    and an MA in Digital Studies of Language, Culture, and History from the
+                    University of Chicago. His current focus is to advance the integration of HPC
+                    tools within DH while developing effective methods for standardizing computer
+                    science education, particularly in specialized fields, (ex. HPC; quantum
+                    computing) into humanities curricula. With respect to the panel, some of the
+                    topics he would like to discuss are how to start the learning of code outside
+                    and inside the classroom; how to create a space for RSEs within DH
+                    infrastructure at higher education institutions; and the creation of educational
+                    standards or formalized paths for the RSE career field, which is today
+                    self-guided by the interested student, career switcher, or project needs. </p>
+                <p><hi rend="bold">Max Ionov</hi> is a research assistant at the Cologne Center for
+                    eHumanities, University of Cologne. Currently, he is involved in the project
+                    Classic Mayan Dictionary and Postil Time Machine. He is also actively involved
+                    in the W3C OntoLex community and is a COST action NexusLinguarum, devoted to
+                    promoting and developing the field of Web-centric Linguistic Data Science. </p>
+                <p><hi rend="bold">Rebecca Sutton Koeser</hi> double majored in English Literature
+                    and Computer Science, and then decided to pursue a Ph.D. in English Literature.
+                    In grad school, she quickly got involved with the Electronic Text Center and
+                    Digital Library work at Emory University Libraries. After completing a
+                    traditional (non-digital) dissertation, she took a position working as a
+                    software engineer at Emory University Libraries, where she worked on a variety
+                    of research infrastructure and digital scholarship projects. Working on a small
+                    software team there taught her real-world software engineering skills and best
+                    practices, project management, and Agile methodology. Rebecca was recruited to
+                    be the first Lead Developer for the Center for Digital Humanities at Princeton
+                    University, where she leads a small team of software engineers and one designer
+                    who partner with faculty to develop innovative digital humanities research
+                    projects, and also has some time to pursue her own research. She is excited
+                    about the growing Research Software Engineer community, RSE career path options,
+                    overlap between DH and RSE communities, and increased opportunities for
+                    researchers with technical expertise to contribute and co-author innovative
+                    work. </p>
+                <p><hi rend="bold">Zoe LeBlanc</hi> is currently an Assistant Professor in the
+                    School of Information Sciences at Urbana-Champaign where she does full-stack DH
+                    (web development to data science to historical research), but she will detail
+                    how getting this point was far from straightforward or even expected. Unlike
+                    many programmers, she had zero programming experience growing up, and was only
+                    introduced to computers in-between her undergraduate and graduate degrees. Her
+                    timing was fortunate, since when she entered her PhD program in History at
+                    Vanderbilt University, it was when a new field called digital humanities was
+                    first taking off. While she was able to learn more about DH through fellowships
+                    and workshops, she eventually went beyond the ‘established’ DH path to a coding
+                    bootcamp. LeBlanc will detail how this experience led her to new career options
+                    (DH developer for example), but also how in turn those lead to reconsidering
+                    faculty positions. She will also discuss her current experiences in an iSchool,
+                    which is both relatively supportive of programming as scholarship, but also
+                    raises questions around what types of coding work are more visible, and
+                    therefore valued. </p>
+                <p><hi rend="bold">Kalle Westerling</hi> pursued a PhD in Theatre and Performance
+                    at CUNY Graduate Center in New York City. During his time there, he got engaged
+                    with interdisciplinary digital initiatives like creating a digital archive for
+                    the Center for LGBTQ Studies, helping set up the Futures Initiative, directing
+                    HASTAC Scholars, and eventually as a project manager and technical lead for the
+                    Digital Humanities Research Institutes. After graduating in February 2022, he
+                    started in the position as Research Software Engineer in Living with Machines
+                    project, co-hosted at the British Library and the Alan Turing Institute. As part
+                    of the project, he has been an embedded part of the research team and worked on
+                    developing codebases for metadata management, crowdsourced human-in-the-loop
+                    workflows for machine learning models, and parsing XML standards for historical
+                    newspapers. Westerling will discuss how the skills built during his PhD have
+                    opened him up to a field of Research Software Engineering, developer education,
+                    professional development, and technical leadership. One of the challenges he
+                    wants to discuss as part of the panel is the necessity to develop language to
+                    translate one's experiences to outside traditional academic contexts. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>DHTech</author> (2020): “DH RSE
+                        Survey Results.” DHTech
+                        <ref target="https://dh-tech.github.io/survey-results-2020">https://dh-tech.github.io/survey-results-2020</ref> [30.04.2023]</bibl>
+                    <bibl><author>Dombrowski, Quinn</author> / <author>Gniady, Tassie</author> / <author>Meredith-Lobay, Megan</author> / <author>Tharsen, Jeffrey</author> / <author>Zickel, Lee</author> 
+                        (2017): “Research Computing’s Demand for Humanists , and Vice Versa”, in
+                        Digital Humanities 2017.</bibl>
+                    <bibl><author>Ramsay, Stephen</author> / <author>Rockwell, Geoffrey</author>  (2012): “Developing Things: Notes toward an Epistemology
+                        of Building in the Digital Humanities”, in Debates in the Digital
+                        Humanities, edited by Matthew K. Gold, 75–84. University of Minnesota
+                        Press.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

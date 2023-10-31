@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Using text summarization models to improve digital reading of scientific papers </title>
+                <author n="MastrobattistaLudovicaALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName n="MastrobattistaLudovica">
+                        <surname>Mastrobattista</surname>
+                        <forename>Ludovica</forename>
+                    </persName><affiliation>University of Salamanca, Spain</affiliation><email>l.mastrobattista@usal.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlrahabiMotasemALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName n="AlrahabiMotasem">
+                        <surname>Alrahabi</surname>
+                        <forename>Motasem</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>motasem.alrahabi@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FedchenkoValentinaALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName n="FedchenkoValentina">
+                        <surname>Fedchenko</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>valentina.fedchenko@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JomaaOussamaALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName n="JomaaOussama">
+                        <surname>Jomaa</surname>
+                        <forename>Oussama</forename>
+                    </persName><affiliation>La fabrique numérique, France</affiliation><email>oussama.jomaa@fabriquenumerique.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GawleyJamesALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName n="GawleyJames">
+                        <surname>Gawley</surname>
+                        <forename>James</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>james.gawley@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CordovaJohannaALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName n="CordovaJohanna">
+                        <surname>Cordova</surname>
+                        <forename>Johanna</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>johanna.cordova@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RoeGlennALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml"><persName ref="https://orcid.org/0000-0002-5611-7916" n="RoeGlenn">
+                        <surname>Roe</surname>
+                        <forename>Glenn</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>glenn.roe@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper presents an evaluation and comparison of three state-of-the-art models for text summarization, and proposes a new digital reading interface designed for neophyte users to exploit these models, as well as automatic keyword extraction, with little or no programming experience.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital reading</term>
+                    <term>text summarization</term>
+                    <term>keyword extraction</term>
+                    <term>qualitative evaluation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="underline">Abstract</hi>: This paper presents an evaluation and comparison of three state-of-the-art models for text summarization, and proposes a new digital reading interface designed for neophyte users to exploit these models, as well as automatic keyword extraction, with little or no programming experience.</p>
+            <p><hi rend="underline">Keywords</hi>: digital reading, text summarization, keyword extraction, qualitative evaluation.</p>
+            <p>The scale of peer-reviewed publications in many fields is rapidly becoming unmanageable (Atlasocio.com, 2019). As a result, academic researchers need new solutions to stay abreast of developments in their fields and take advantage of the latest research. Automatic text summarization (El-Kassas et al., 2021) represents an important opportunity to leverage automated reading techniques at scale, providing an overview of the study object, method and results, and to orient readers in the text even before reading it (Overstreet, 2021). This paper presents an evaluation and comparison of three state-of-the-art models for text summarization, and proposes a web interface designed for neophyte users to exploit these models without resorting to scripting or using the command-line interface. This study is part of a larger research project aimed at exploring the potential of digital environments that incorporate computational tools in order to provide alternative approaches to reading and improve the reader's performance and digital practice in an academic context.</p>
+            <p>Using a corpus of open-access academic articles related to the fields of communication and education from the journal <hi rend="italic">Comunicar: Scientific Journal of Media Education</hi><ref target="#ALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml_ftn1" n="1"/>, we evaluated the abstract summarizations produced by three existing models: BART (Lewis et al., 2019), PEGASUS (Zhang et al., 2020) and T5 (Raffel et al., 2020). For the corpus construction, the length of the text to be summarized was not taken into account, but rather its structure. The three models automatically generated texts with a length of 2-3 sentences. We determined the evaluation criteria according to what in our opinion is a proper text assessment, which consists of three intrinsic measurements (Mani, 2001): the quality of the content, syntactic and morphological validity, and the accuracy of vocabulary. Based on these considerations, we conducted our evaluations using five rating levels developed according to the Mean Opinion Score (MOS) scale (Streijl et al., 2016; Iskender et al., 2021). This rating scale is typically expressed as a number between 1 (poor) and 5 (excellent). Scores for each criteria were applied and the unweighted average of these represented the overall quality of the summary.</p>
+            <p>Our evaluation<ref target="#ALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml_ftn2" n="2"/> of 21 articles shows that the T5 model best summarizes the content of each section of the documents, according to the IMRaD structure (Sollaci &amp; Pereira, 2004). T5 generated new data, i.e. sentences, from the original text extracting essential information and rendering the general sense of the source text coherently. On the other hand, the BART and PEGASUS models reached quite similar scores, that is around 3.5 for each summarized part of the paper. This means that the extracted summaries from both models present a level of quality between "fair" and "good", according to the MOS scale. Regarding the accuracy of vocabulary style, we noted that the majority of the extracted summaries copy-and-pasted sentences from the original text. </p>
+            <p>In order to take advantage of the affordances of a digital reading platform, allowing users to orient themselves in a text before reading it, we thought it would be interesting to cross-reference the abstract with another source of knowledge, i.e., the associated keyword for each part of the paper. In this way, an overview of the terminology of the text at hand is delivered by the combination of two sources: the summary and related keywords. KeyBERT, a keyword extraction method using the BERT embeddings model (Devlin et al., 2018), was used for this purpose. A second evaluation on seven articles shows that this option may improve the contextualisation of the article and the reader's orientation on the topic in question by providing relevant information present in the text from dual sources, the summary and the related keywords. In some cases, the keywords extracted from each part of the article contain multiple text-related terms that can then enrich the summary content.</p>
+            <p>To make these models available for testing and use by researchers without a strong technical background, we have created a freely accessible online interface<ref target="#ALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml_ftn3" n="3"/>. This tool allows users to upload an article in XML format and receive an automatic summary of each section of the article, with the related keywords (the interface also allows for the summarization of plain text but in this case article titles are not taken into account). Different parameters can be selected to modify the size of the summary.</p>
+            <p>Our main scientific contribution in this paper is thus the qualitative evaluation of three important models for automatic summarization; and the development of an easy-to-use interface allowing researchers to experiment with these models through summaries generated along with keywords for each section of the analyzed article, that we believe this is a crucial step in the case of scientific papers. We aim to evaluate these models on other sources of scientific articles, and to propose new functionalities which can facilitate digital reading and research.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="ALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml_ftn1">
+                    <ref target="https://doi.org/10.3916/comunicar">https://doi.org/10.3916/comunicar</ref>
+                </note><note n="2" xml:id="ALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml_ftn2">
+                    <ref target="https://github.com/obtic-scai/Summarization">https://github.com/obtic-scai/Summarization</ref>
+                </note><note n="3" xml:id="ALRAHABI_Motasem_Using_text_summarization_models_to_improve_.xml_ftn3">
+                    <ref target="https://obtic.sorbonne-universite.fr/developpement/summarizer/">https://obtic.sorbonne-universite.fr/developpement/summarizer/</ref>
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        Atlasocio.com (2019, June 20): "Classements des États du monde par nombre de publications scientifiques". 
+                        <ref target="https://atlasocio.com/classements/education/publications/classement-etats-par-nombre-publications-scientifiques-monde.php"> https://atlasocio.com/classements/education/publications/classement-etats-par-nombre-publications-scientifiques-monde.php</ref>
+                         [accessed: March 25, 2023]
+                    </bibl>
+                    <bibl>
+                        <author>Devlin, J.</author> / <author>Chang, M. W.</author> / <author>Lee, K.</author> / <author>Toutanova, K.,</author>  (2018): "Bert: pre-training of deep bidirectional transformers for language understanding". 
+                        <hi rend="italic"> arXiv:1810.04805v2 [cs.CL]. </hi>
+                      
+                        <ref target="https://doi.org/10.48550/arXiv.1810.04805">https://doi.org/10.48550/arXiv.1810.04805</ref>
+                    </bibl>
+                    <bibl>
+                        <author>El-Kassas, W. S.</author> / <author>Salama, C. R.</author> / <author>Rafea, A. A.</author> / <author>Mohamed, H. K.</author>  (2021): “Automatic text summarization: A comprehensive survey”. 
+                        <hi rend="italic"> Expert Systems with Applications, 165,</hi>
+                         113679. 
+                        <ref target="https://doi.org/10.1016/j.eswa.2020.113679">https://doi.org/10.1016/j.eswa.2020.113679</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Iskender, N.</author> / <author>Polzehl, T.</author> / <author>Möller, S.</author>  (2021): "Reliability of Human Evaluation for Text Summarization: Lessons Learned and Challenges Ahead", in: 
+                        <hi rend="italic"> Proceedings of the Workshop on Human Evaluation of NLP Systems (HumEval)</hi>
+                         (pp. 86–96).
+                    </bibl>
+                    <bibl>
+                        <author>Lewis, M.</author> / <author>Liu, Y.</author> / <author>Goyal, N.</author> / <author>Ghazvininejad, M.</author> / <author>Mohamed, A.</author> / <author>Levy, O.</author> / <author>Stoyanov, V.</author> / <author>Zettlemoyer, L.</author>  (2019): "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension". 
+                        <hi rend="italic"> arXiv:1910.13461 [cs.CL]. </hi>
+                       
+                        <ref target="https://doi.org/10.48550/arXiv.1910.13461">https://doi.org/10.48550/arXiv.1910.13461</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Mani, I.</author> (2001): “Summarization evaluation: an overview”, in:
+                        <hi rend="italic"> Proceedings of the NTCIR Workshop</hi>
+                        , vol. 2
+                    </bibl>
+                    <bibl>
+                        <author>Overstreet M.</author> (2021): "Networked Reading: How Digital Reading Experts Use Their Tools". 
+                        <hi rend="italic"> College English, 83</hi>
+                         (5), pp. 357-378.
+                    </bibl>
+                    <bibl>
+                        <author>Raffel, C.</author> / <author>Shazeer, N.</author> / <author>Roberts, A.</author> / <author>Lee, K.</author> / <author>Narang, S.</author> / <author>Matena, M.</author> / <author>Zhou, Y.</author> / <author>Li, W.</author> / <author>Liu, P. J.</author>  (2020): "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer". 
+                        <hi rend="italic"> Journal of Machine Learning Research, </hi>
+                      
+                        <hi rend="italic">21</hi>
+                        , pp. 1-67. 
+                        <ref target="https://doi.org/10.48550/arXiv.1910.10683">https://doi.org/10.48550/arXiv.1910.10683</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Sollaci, L. B.</author> / <author>Pereira, M. G.</author>  (2004): "The introduction, methods, results, and discussion (IMRAD) structure: a fifty-year survey". 
+                        <hi rend="italic"> J Med Libr Assoc, </hi>
+                        
+                        <hi rend="italic">92</hi>
+                         (3), pp. 364-7. PMID: 15243643; PMCID: PMC442179.
+                    </bibl>
+                    <bibl>
+                        <author>Streijl, R. C.</author> / <author>Winkler, S.</author> / <author>Hands, D. S.</author>  (2016): "Mean opinion score (MOS) revisited: methods and applications, limitations and alternatives". 
+                        <hi rend="italic"> Multimedia Systems 22</hi>
+                        , pp. 213–227. 
+                       
+                        <ref target="https://doi.org/10.1007/s00530-014-0446-1">https://doi.org/10.1007/s00530-014-0446-1</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Zhang, J.</author> / <author>Zhao, Y.</author> / <author>Saleh, M.</author> / <author>Liu, P. J.</author>  (2020): 
+                       "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization", in: 
+                        <hi rend="italic"> International Conference on Machine Learning, PMLR</hi>
+                         (pp. 11328-11339). 
+                        <ref target="https://doi.org/10.48550/arXiv.1912.08777">https://doi.org/10.48550/arXiv.1912.08777</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

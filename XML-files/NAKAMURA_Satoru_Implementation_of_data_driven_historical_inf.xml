@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Implementation of data-driven historical informatics research on Kao (Stylized Signature)</title>
+                <author n="NakamuraSatoruNAKAMURA_Satoru_Implementation_of_data_driven_historical_inf.xml"><persName ref="https://orcid.org/0000-0001-8245-7925" n="NakamuraSatoru">
+                        <surname>Nakamura</surname>
+                        <forename>Satoru</forename>
+                    </persName><affiliation>The University of Tokyo, Japan</affiliation><email>na.kamura.1263@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LiuGuanweiNAKAMURA_Satoru_Implementation_of_data_driven_historical_inf.xml"><persName n="LiuGuanwei">
+                        <surname>Liu</surname>
+                        <forename>Guanwei</forename>
+                    </persName><affiliation>The University of Tokyo, Japan</affiliation><email>k-ryu@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MiyazakiHajimeNAKAMURA_Satoru_Implementation_of_data_driven_historical_inf.xml"><persName n="MiyazakiHajime">
+                        <surname>Miyazaki</surname>
+                        <forename>Hajime</forename>
+                    </persName><affiliation>The University of Tokyo, Japan</affiliation><email>h-miyazaki@g.ecc.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="InoueSatoshiNAKAMURA_Satoru_Implementation_of_data_driven_historical_inf.xml"><persName n="InoueSatoshi">
+                        <surname>Inoue</surname>
+                        <forename>Satoshi</forename>
+                    </persName><affiliation>The University of Tokyo, Japan</affiliation><email>inoue@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OhyamaWataruNAKAMURA_Satoru_Implementation_of_data_driven_historical_inf.xml"><persName n="OhyamaWataru">
+                        <surname>Ohyama</surname>
+                        <forename>Wataru</forename>
+                    </persName><affiliation>Tokyo Denki University</affiliation><email>w.ohyama@mail.dendai.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YamadaTaizoNAKAMURA_Satoru_Implementation_of_data_driven_historical_inf.xml"><persName ref="https://orcid.org/0000-0002-0170-8380" n="YamadaTaizo">
+                        <surname>Yamada</surname>
+                        <forename>Taizo</forename>
+                    </persName><affiliation>The University of Tokyo, Japan</affiliation><email>t_yamada@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Kao is a stylized signature used in East Asian cultures. Its location and size are important elements of document manners. This study explores information about their location and size in images through numerical summarization and visualization, and provides quantitative results that support existing tacit knowledge.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Paleography</term>
+                    <term>Signature</term>
+                    <term>Digital History</term>
+                    <term>Machine Learning</term>
+                    <term>Visualization</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>image processing and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Kao is a stylized signature used in East Asian cultures. Figure 1 shows examples of documents and signatures. The Historiographical Institute the University of Tokyo has the largest collection of data on these signatures in Japan. As of November 2022, data are available for approximately 26,000 signatures.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="11.717513888888888cm" url="Pictures/a17798806284f1990436c4dbade7d8ff.png" rend="inline"/>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="8.001cm" url="Pictures/944f343049b679d4971bbffe6de0e7e2.png" rend="inline"/>
+                    <head>Figure 1. examples of documents and Kao (stylized signatures).</head>
+                </figure>
+            <p>As shown in Figure 2, these signatures are classified based on location. For example, they are classified as "Sode", which refers to the right margin of the document, "Oku-ue," which refers to the top of the line following the date, "Oku-sita," which refers to the bottom of the line following the date, and "Nikka," which refers to the bottom of the date. Kao which is located on Sode, is the most dignified form for the addressee. On the other hand, documents with the "Oku-ue" style are more respectful to the addressee than those with the “Nikka" and "Oku-shita" styles.</p>
+            <figure>
+                <graphic n="1003" width="16.002cm" height="7.380111111111111cm" url="Pictures/f6f88dbb1e7e8db9b0c1920622d019b7.png" rend="inline"/>
+                <head>Figure 2. Classification by location of Kao.</head>
+            </figure>
+            <p>It is a common understanding among paleography and Japanese historiography that the position and size of the Kao are essential elements of the manner of writing and important information indicating the high or low status of the issuers and their relationships with the recipients. However, one of the challenges is that, although many studies on Kao have been conducted [1], not enough data has been presented for such a common understanding.</p>
+            <p>Therefore, this study quantitatively analyzes the location and size of Kao.  In this study, information about the location and size of the Kao in 412 historical material images is created, and data is explored using numerical summarization and visualization through exploratory data analysis to identify potential relationships among variables. We used nbdev [2] to summarize and visualize numerical values, as shown in Figure 3.</p>
+            <figure>
+                <graphic n="1004" width="16.002cm" height="14.296319444444444cm" url="Pictures/97dd964f824a8445e5edc3c9c7b6a11e.png" rend="inline"/>
+                <head>Figure 3. Example of exploratory data analysis.</head>
+            </figure>
+            <p>This provided quantitative support for the existing research findings. For example, Figure 4 shows an average ratio and standard deviation of the area of signatures to paper by their position. The Sode and Nikka Kaos are often larger than the Oku-ue and Oku-shita ones. Comparing the sizes of Sode and Nikka Kao, there is no significant difference in the average value, but there is a large difference in the standard deviation. This may be partly due to the fact that the Sode Kao is used mainly by people of high status, whereas the Nikka Kao is used regardless of status. In addition, an analysis of the location and size of the Kao by a person has also been conducted.</p>
+            <figure>
+                <graphic n="1005" width="14.11111111111111cm" height="13.370277777777778cm" url="Pictures/06973c5d303e085ef7ea26a69300dcc8.png" rend="inline"/>
+                <head>Figure 4. Average ratio and standard deviation of the area of signatures to paper.</head>
+            </figure>
+            <p>We also attempted to build a machine-learning model to apply this method to a large amount
+                 of data. Specifically, we built a system for extracting Kao using an object detection model and a search system for similar Kao for personal identification of them. Figure 5 shows an example of object detection using YOLO v5 [3].
+            </p>
+            <figure>
+                <graphic n="1006" width="16.002cm" height="12.528902777777779cm" url="Pictures/8547dd5db9953e53c83d01bcd314671a.png" rend="inline"/>
+                <head>Figure 5. Example of object detection using YOLO v5.</head>
+            </figure>
+            <p>In this presentation, we report on the results of the above analysis and discuss the potential of data-driven historical research.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>[<hi rend="SimSun">佐藤進一. ［新版］古文書学入門, 法政大学出版局</hi>, 2003. (in Japanese)</bibl>
+                    <bibl><author>nbdev</author>, https://nbdev.fast.ai/, Accessed on 2022-11-05.</bibl>
+                    <bibl><author>Ultralytics</author>, YOLOv5, https://github.com/ultralytics/yolov5, Accessed on 2022-11-05.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

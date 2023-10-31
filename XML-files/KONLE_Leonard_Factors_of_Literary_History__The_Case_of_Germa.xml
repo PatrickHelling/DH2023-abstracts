@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Factors of Literary History: The Case of German-language Poetry
+                    (1850–1920)</title>
+                <author n="KonleLeonardKONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml"><persName ref="https://orcid.org/0000-0001-5833-0414" n="KonleLeonard">
+                        <surname>Konle</surname>
+                        <forename>Leonard</forename>
+                    </persName><affiliation>Würzburg University, Germany</affiliation><email>leonard.konle@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KrnckeMertenKONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml"><persName ref="https://orcid.org/0000-0003-2717-0598" n="KrnckeMerten">
+                        <surname>Kröncke</surname>
+                        <forename>Merten</forename>
+                    </persName><affiliation>Göttingen University, Germany</affiliation><email>merten.kroencke@uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JannidisFotisKONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml"><persName n="JannidisFotis">
+                        <surname>Jannidis</surname>
+                        <forename>Fotis</forename>
+                    </persName><affiliation>Würzburg University, Germany</affiliation><email>fotis.jannidis@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WinkoSimoneKONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml"><persName n="WinkoSimone">
+                        <surname>Winko</surname>
+                        <forename>Simone</forename>
+                    </persName><affiliation>Göttingen University, Germany</affiliation><email>simone.winko@phil.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper investigates the relationship between emotions and literary periods, as well as other factors in German poetry between 1850-1920 through formal modeling and Bayesian analysis.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Poetry</term>
+                    <term>Literary</term>
+                    <term>History</term>
+                    <term>Emotion</term>
+                    <term>Bayes</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>semantic analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Literary studies</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Many researchers emphasize that in order to
+                        adequately understand literature and literary change, it is crucial to
+                        consider the numerous relations that exist between (aspects of) literary
+                        texts and between literary texts and extra-literary factors (e.g. Ort 1991,
+                        Titzmann 1991). Yet which specific relations are relevant is a matter of
+                        differing theories (cf. Engel 2018, Kalliney 2019). The question is how to
+                        find out, in a methodologically controlled way, for a given literary
+                        phenomenon, which factors are related to and influence the phenomenon in the
+                        first place, how to weigh the factors, and how to take into account that the
+                        factors may influence each other. The aim of this paper is to contribute to
+                        this fundamental question from the perspective of Computational Literary
+                        Studies by discussing two consecutive approaches and applying them to an
+                        example from literary history. Our use case is the representation of
+                        emotions in German-language poetry from about 1850 to 1920. We seek to
+                        investigate to what extent different factors, especially the literary
+                        period, influenced what kinds of emotion were represented.</p>
+            </div>
+            <div type="div1">
+                <head>Resources</head>
+                <p>Our corpus consists of 6619 poems from 22
+                        anthologies, published between 1859 and 1919. 8 anthologies represent the
+                        poetry of realism, 12 anthologies the poetry of early modernism and 2
+                        anthologies the period of expressionism.</p>
+                <p>We annotated 1352 poems<ref target="#KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn1" n="1"/>from our corpus for emotion and genre. The annotators
+                        used a list of 6 discrete emotions (agitation, anger, fear, love, joy,
+                        sadness), inspired by the emotion hierarchy in (Shaver et al. 1987). The
+                        inter-annotator agreement, measured with γ (Mahet et al. 2015), was 0.7491.
+                        We also annotated what kind of entity experienced the emotion: the speaker,
+                        another character, or an object. For genre annotation, we distinguished 8
+                        thematic genres (love poetry, nature poetry, etc.) and 4 non-thematic genres
+                        (ballad, elegy, song, sonnet). The agreement was 0.69 (Krippendorff's
+                        alpha). More detailed information on annotation can be found in previous
+                        papers from our working group (Konle et al. 2022; annotation guidelines:
+                        Kröncke et al. 2022a, Kröncke et al. 2022b). For all experiments only the
+                        annotated texts are used.</p>
+            </div>
+            <div type="div1">
+                <head>Formal Modeling of the Factors</head>
+                <p>A formal modeling of factors which influence literary
+                        history has only started recently to our knowledge. Underwood et al. 2022
+                        analyze rd. 10.000 volumes, published between 1880 and 1999 using a
+                        three-factor model of change: author age, generational cohort and historical
+                        period, and conclude that “differences between cohorts explain slightly more
+                        than half of literary change” (Underwood 196). A formal modeling of cultural
+                        evolution is far more common (e.g. Hyafil and Baumard 2022). </p>
+                <p>Our approach is heavily indebted to the Bayesian
+                        analysis as outlined in McElreath 2020. It allows us to see the factors in
+                        the logistic regression model as following distributions instead of just
+                        single values. Even more important for us are the proposed approaches on how
+                        to handle assumptions about causal relations between the factors in the
+                        analysis.</p>
+            </div>
+            <div type="div1">
+                <head>Approach I</head>
+                <p>It is necessary to determine and justify which
+                        factors for the literary phenomenon should be analyzed. We have chosen
+                        period, author gender (female=1, male=0), thematic genre (TG), non-thematic
+                        genre (NTG), and experiencing entity as potential factors influencing which
+                        emotions are represented in a poem. This choice is based partly on previous
+                        research that has suggested such relationships (Konle et al. 2022), partly
+                        on theoretical considerations, and partly on data availability.</p>
+                <p>Our first approach uses a logistic regression model
+                        denoted by the formula below:</p>
+                <p>a<hi rend="subscript">[e]</hi> ~ Normal(0,1)</p>
+                <p>b<hi rend="subscript">[e,f]</hi> ~Normal(0,1)</p>
+                <p>u<hi rend="subscript">[e]</hi> ~ a<hi rend="subscript">[e]</hi> +dot(b<hi rend="subscript">[e,f]</hi> ,x<hi rend="subscript">[e,f]</hi>)</p>
+                <p>θ<hi rend="subscript">[e]</hi> ~ softmax(u<hi rend="subscript">[e]</hi>)</p>
+                <p>y ~ cat(θ<hi rend="subscript">[e]</hi>)</p>
+                <p>The model contains an intercept a for each emotion
+                        [e] and slopes b for each factor [f] and emotion. θ is the probability
+                        distribution over all emotions. </p>
+                <p>After fitting the model to our dataset we want to
+                        measure the influence of each factor. Therefore we sample from posterior
+                        (fitted) values of b and calculate the mean of their modulo (see Table
+                        1).</p>
+                <table xml:id="d166e321">
+                    <head>Tab. 1: Direct impact and standard deviation of feature groups on emotion
+                        distribution.</head>
+                    <row>
+                        <cell>Feature</cell>
+                        <cell>Period</cell>
+                        <cell>Gender</cell>
+                        <cell>TG</cell>
+                        <cell>NTG</cell>
+                        <cell>Entity</cell>
+                    </row>
+                    <row>
+                        <cell>Influence</cell>
+                        <cell>.22 (.16)</cell>
+                        <cell>.15 (.08)</cell>
+                        <cell>.27 (.15)</cell>
+                        <cell>.26 (.16)</cell>
+                        <cell>.33 (.22)</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1">
+                <head>Approach II</head>
+                <p>The logistic regression model described above treats
+                        all features equally. This behavior can lead to erroneous conclusions, since
+                        there are likely interactions between factors. Before these problems can be
+                        addressed, we need to be clear on a purely conceptual level about the
+                        relationship in the data of our model. We denote those relationships as a
+                        Causal DAG<ref target="#KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn2" n="2"/> (Fig. 1). It reads as follows: The feature node gender is influenced by period via the edge p2 and influences, among others, emotion via g1.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="23.65551388888889cm" url="Pictures/b9df038c7b0d5061fb7da7736146f2b1.png" rend="inline"/>
+                    <head>Figure 1. Causal Dag</head>
+                </figure>
+                <p>If we are interested in the influence of entities on
+                        emotions (edge en1), we need to check which features influence (confound)
+                        entities, because these features could pass their influence unseen through
+                        the entity feature (mediator) and corrupt our findings. This is true for
+                        gender, TG and NTG. We need to address this hidden influence by conditioning
+                        on these confounders. Conditioning in the context of regressions simply
+                        means adding to the model. Since gender, TG and NTG are already in our
+                        model, we can trust the estimated influence of entities from Tab. 1. </p>
+                <p>Unfortunately, this is not the case for the other
+                        features. Conditioning on gender does allow us to measure the influence of
+                        its mediator entity, but conditioning on a mediator does not allow us to
+                        measure the influence of its confounder. The influence of gender from Tab. 1
+                        just resamples its direct influence<ref target="#KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn3" n="3"/> (g1), but its total influence is the sum of g1-4.  To measure total influence we need to “block” the indirect information flow of g2-4 and condition on the confounder epoch. This may seem reductive, but is necessary, since total influence can be entirely different to direct influence<ref target="#KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn4" n="4"/>.</p>
+                <p>Excluding mediators and conditioning confounders for
+                        each feature leads to the total influence values in Table 2.</p>
+                <table xml:id="d166e425">
+                    <head>Tab. 2: Total impact and standard deviation of feature groups on emotion
+                        distribution.</head>
+                    <row>
+                        <cell>Feature</cell>
+                        <cell>Period</cell>
+                        <cell>Gender</cell>
+                        <cell>
+                            TG
+                            <ref target="#KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn5" n="5"/>
+                        </cell>
+                        <cell>NTG</cell>
+                        <cell>Entity</cell>
+                    </row>
+                    <row>
+                        <cell>Influence</cell>
+                        <cell>.23 (.11)</cell>
+                        <cell>.21 (.13)</cell>
+                        <cell>.28 (.19)</cell>
+                        <cell>.27 (.22)</cell>
+                        <cell>.33 (.22)</cell>
+                    </row>
+                </table>
+                <p>The results suggest that factors ‘close to the text’
+                        (genre, entity) have a somewhat greater impact on emotion than factors more
+                        ‘distant from the text‘ (period, gender).</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="6.859763888888889cm" url="Pictures/4200585a53010ad011b406a7ebfe4d71.png" rend="inline"/>
+                    <head>Figure 2: Posterior b values for period factors and emotions.</head>
+                </figure>
+                <p>Focusing on period as a factor, we see that negative
+                        emotions (anger, fear) increase and joy decreases. For these emotions, the
+                        development is roughly linear, but there are exceptions: sadness, for
+                        example, increases from realism to modernism, but decreases again toward
+                        expressionism.</p>
+            </div>
+            <div type="div1">
+                <head>Discussion</head>
+                <p>The proposed model is by no means complete and
+                        therefore likely erroneous due to untracked factors and confounders (eg.
+                        general language change, register, more author based factors such as
+                        generational cohort, and more types of genres).</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn1">
+                         Code and Data: <ref target="https://github.com/LeKonArD/Factors-of-Literary-History-The-Case-of-German-language-Poetry">https://github.com/LeKonArD/Factors-of-Literary-History-The-Case-of-German-language-Poetry</ref>
+                    </note><note n="2" xml:id="KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn2">
+                        Directed Acyclic Graph
+                    </note><note n="3" xml:id="KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn3">
+                        Direct influence can be seen as influence if
+                                everything else is held constant.
+                    </note><note n="4" xml:id="KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn4">
+                         Simpson's Paradox
+                    </note><note n="5" xml:id="KONLE_Leonard_Factors_of_Literary_History__The_Case_of_Germa.xml_ftn5">
+                                Since TG and NTG are both confounder
+                                        and mediator for each other, we can not distinguish their
+                                        influence
+                            </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Engel, Manfred </hi>(2018):"Kontexte und Kontextrelevanzen in der Literaturwissenschaft". In KulturPoetik 18(1). 
+                        <ref target="https://www.jstor.org/stable/26422521">https://www.jstor.org/stable/26422521</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hyafil Alexandre; Baumard Nicolas </hi>(2022): “Evoked and transmitted culture models: Using bayesian methods to infer the evolution of cultural traits in history”. PLoS ONE 17(4). 
+                        <ref target="https://doi.org/10.1371/journal.pone.0264509">https://doi.org/10.1371/journal.pone.0264509</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kalliney, Peter </hi>(2019):
+                            “Introduction: Literary History after the Nation?” Modern Language
+                            Quarterly 80(4)
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Konle, Leonard; Kröncke, Merten;
+                                Jannidis, Fotis and Winko, Simone </hi>(2022): “Emotions and
+                            Literary Periods.” In: Digital Humanities Conference  2022 Abstracts.
+                            Tokyo.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kröncke, Merten; Jannidis, Fotis; Konle, Leonard; Winko, Simone </hi>(2022a): Annotationsrichtlinien: Emotionsmarker und Emotionen. 
+                        <ref target="https://doi.org/10.5281/zenodo.6021152">https://doi.org/10.5281/zenodo.6021152</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kröncke, Merten; Jannidis, Fotis; Konle, Leonard; Winko, Simone </hi>(2022b): Annotationsrichtlinien: Lyrische Gattungen. 
+                        <ref target="https://doi.org/10.5281/zenodo.6021007">https://doi.org/10.5281/zenodo.6021007</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mathet, Yann; Widlöcher, Antoine; Métivier, Jean-Philippe </hi>(2015): “The Unified and Holistic Method Gamma (γ) for Inter-Annotator Agreement Measure and Alignment.” In Computational Linguistics 41, (3). 
+                        <ref target="https://aclanthology.org/J15-3003">https://aclanthology.org/J15-3003</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">McElrath, Richard </hi>(2021): “Statistical Rethinking. A Bayesian Course with Examples in R and STAN”. 2nd Edition. New York. 
+                        <ref target="https://doi.org/10.1201/9780429029608">https://doi.org/10.1201/9780429029608</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ort, Claus-Michael </hi>(1991):
+                            “Literarischer Wandel und sozialer Wandel. Theoretische Anmerkungen zum
+                            Verhältnis von Wissenssoziologie und Diskursgeschichte.” In Titzmann,
+                            Michael:, Modelle des literarischen Strukturwandels. Tübingen.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Shaver, Phillip; Schwarz, Judith;
+                                Kirson, Donald and O’Connor, Cary</hi> (1987): “Emotion Knowledge:
+                            Further Exploration of a Prototype Approach.” Journal of Personality and
+                            Social Psychology 52(6).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Titzmann, Michael </hi>(1991): 
+                            “Skizze Einer Integrativen Literaturgeschichte Und Ihres Ortes in Einer
+                            Systematik Der Literaturwissenschaft.” In Titzmann, Michael:, Modelle
+                            des literarischen Strukturwandels. Tübingen.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Underwood, Ted; Kiley, Kevin Kiley; Shang, Wenyi and Vaisey, Stephen </hi>(2022): “Cohort Succession Explains Most Change in Literary Culture”. In Sociological Science 9(8). 
+                        <ref target="http://dx.doi.org/10.15195/v9.a8">http://dx.doi.org/10.15195/v9.a8</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

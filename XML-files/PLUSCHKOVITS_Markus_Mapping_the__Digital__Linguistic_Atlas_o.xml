@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mapping the (Digital) Linguistic Atlas of Scotland</title>
+                <author n="PluschkovitsMarkusPLUSCHKOVITS_Markus_Mapping_the__Digital__Linguistic_Atlas_o.xml"><persName ref="https://orcid.org/0000-0003-1213-9985" n="PluschkovitsMarkus">
+                        <surname>Pluschkovits</surname>
+                        <forename>Markus</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>markus.pluschkovits@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KirkJohnPLUSCHKOVITS_Markus_Mapping_the__Digital__Linguistic_Atlas_o.xml"><persName n="KirkJohn">
+                        <surname>Kirk</surname>
+                        <forename>John</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>john.kirk@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Digital Linguistic Atlas of Scotland is a digitization and reanalysis of the lexical section of the Linguistic Atlas of Scotland. The tool offers dynamic and costumizeable maps and aims to showcase the opportunities of the digitization of analogue linguistic research data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Dialectology</term>
+                    <term>Language Maps</term>
+                    <term>Digitization</term>
+                    <term>Scots</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Linguistic Atlas of Scotland was an atlas project carried out by Mather &amp; Speitel, with the first paper questionnaires being sent out in the 1950s until the eventual publication of the individual volumes throughout the 1970s and 1980s. Covering 42 counties of Scotland, England and Ulster, with over 200 000 individual responses to 153 lexical items from 1787 localities, the lexical section of the atlas is an impressive piece of research. This lexical section of the atlas, comprised of two volumes (volume 1 [1975] and volume 2 [1977]), is now the object of a digitization effort of a small team of researchers based in Vienna, aiming to showcase the value-added in the digitization of existing, analogue data.</p>
+            <p>This digitization effort follows three main goals: The first goal is to digitize the original atlas source material. As has been pointed out by reviewers of the original works, the word lists given in the appendices of the volumes offer considerable more detail and data than the actual maps themselves (Macaulay 1977: 226 &amp; 1979: 226, McClure 1976: 230). These maps, for example, sometimes do not include all main responses to an individual item. The starting point of the digitization process was therefore these word lists, and not the actual maps themselves. The second effort of the digitization process was an enhancement of the actual maps. While the original maps were drawn carefully and are generally very legible, they suffer the drawback of being area-maps, indicating variants with different cross-hatchings. In some areas where four or more of these overlap, they become somewhat difficult to read (McClure 1976: 230). Additionally, area maps suffer from the epistemological drawback that they suggest continuity and homogeneity, even where heterogeneity is present in the data. Furthermore, the crosshatching sometimes covers areas where no data was actually collected. In the Digital Lexical Atlas of Scotland (henceforth DLAS), the data is therefore mapped as georeferenced data points. A third major goal of the digitization process concerns the linguistic aspect: the DLAS additionally aims to re-analyze the original data and employ a consistent method based on lexemization of the individual variants (see e.g. Kirk &amp; Hessel 2020, Hessel &amp; Kirk 2020, Kirk &amp; Pluschkovits [forthcoming]). Taken together, these three goals provide the basic guidelines of the digitization process. The digitization, which is a collaborative effort with project part 11 of the Special Research Programme “Deutsch in Österreich” (‘German in Austria’, see DiÖ 2022a), was carried out using a relational PostgreSQL database and several tools developed for the project, such as an OCR-tool optimized to the layout of the word lists and a mapping tool to locate informants easily (all of which has been developed open source and is available via GitHub, see DiÖ 2022b), as well as the help of student assistants to correct data. The data model employed not only allows for the creation of maps of individual variables, but also the mapping of different variants of the same variable on one map, and even the mapping of the original responses. All the completed maps based on the reanalysed material are publicly available (see DLAS 2022).</p>
+            <p>The poster focuses on goals one and two of the digitization effort, detailing the process of the digitization of the original word lists and the new mapping possibilities. A special emphasis is put on our utilization of the layout of the printed pages during the OCR process to automatically classify data as either informants, responses (‘variants’) or variables and the data model this is grounded in. A similar strategy of using layout and punctuation for data classification is e.g. used by Zacherl for the digitization of the Romanische Etymologische Wörterbuch (see Zacherl 2022). Furthermore, an additional focus is put on the design of the maps and the advantages of interactive, digital mapping over paper maps. In addition to the maps based on the reanalyzed material, the original responses can be mapped by users themselves using the “Explore”-tab, enabling them to create custom maps based on the original data of the Linguistic Atlas of Scotland.</p>
+            <p>Overall, the project aims not only to offer a re-analysis of the rich corpus of the lexical section of the original Linguistic Atlas of Scotland, making the original data more accessible and offer an easy way to map it, but also to showcase the opportunities arising from digitization of (linguistic) data. Presenting these opportunities of digitization – and the path to them – is the central objective of this poster.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>DiÖ</author> (2022a):
+                        <hi rend="italic">The Special Research Programme ‘German in Austria’</hi>
+                        . 
+                        <ref target="https://www.dioe.at/en/about-dioe/overview">https://www.dioe.at/en/about-dioe/overview</ref>
+                         [04.11.2022]. 
+                    </bibl>
+                    <bibl>
+                        <author>DiÖ</author> (2022b): 
+                        <hi rend="italic"> Github Repositories of the Special Research Programme Deutsch in Österreich (‘German in Austria‘)</hi>
+                        . Github Repository 
+                        <ref target="https://github.com/german-in-austria">https://github.com/german-in-austria</ref>
+                         [06.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>DLAS</author> (2022): 
+                        <hi rend="italic">The Digital Lexical Atlas of Scotland</hi>
+                        . 
+                        <ref target="https://lasdb.dioe.at/">https://lasdb.dioe.at/</ref>
+                         [04.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Hessel, Christian</author> / <author>Kirk, John</author>  (2020): “Digitising Collections of Historical Linguistic Data: The Example of the Linguistic Atlas of Scotland”, in: 
+                        <hi rend="italic">Journal of Data Mining and Digital Humanities. Special Issue Special Issue on Visualisations in Historical Linguistics</hi>
+                        : 1–17.
+                    </bibl>
+                    <bibl>
+                        <author>Kirk, John</author> / <author>Hessel, Christian</author>  (2020): “Towards a Digital Lexical Atlas of Scotland”, in:
+                        <hi rend="italic">Scottish Language </hi>
+                        39: 1–39.
+                    </bibl>
+                    <bibl>
+                        <author>Kirk, John</author> / <author>Pluschkovits, Markus</author>  (forthcoming.): “Introducing the Digital Lexical Atlas of Scotland”, in: 
+                        <hi rend="italic"> The languages of Scotland and Ulster in a global context, past and present: Proceedings of FRLSU13, München, 28-30 October 2021 (= Publications of the Forum for Research on the Languages of Scotland and Ulster 6)</hi>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Macaulay, Ronald</author> (1977): “'Review of Mather, J. Y.; Speitel, H. H. (eds.). 1975. The Linguistic Atlas of Scotland. Scots Section
+                        <hi rend="italic">. </hi>
+                        Volume 1 (London: Croom Helm, Ltd.)”, in:
+                        <hi rend="italic">Language </hi>
+                        53, 1: 224–228.
+                    </bibl>
+                    <bibl>
+                        <author>Macaulay, Ronald</author> (1979): “Review: The Linguistic Atlas of Scotland: Scots Section, Vol. 2 by J. Y. Mather and H. H. Speitel”, in:
+                        <hi rend="italic"> Language </hi>
+                        55, 1: 224–228. 
+                    </bibl>
+                    <bibl>
+                        <author>Mather, J. Y.</author> / <author>Speitel, H.-H.</author>   (1975): 
+                        <hi rend="italic"> The Linguistic Atlas of Scotland. Scots Section. Volume 1.</hi>
+                         London: Croom Helm.
+                    </bibl>
+                    <bibl>
+                        <author>Mather, J. Y.</author> / <author>Speitel, H.-H.</author>  (1977):
+                        <hi rend="italic"> The Linguistic Atlas of Scotland. Scots Section. Volume 2.</hi>
+                        London: Croom Helm.
+                    </bibl>
+                    <bibl>
+                        <author>McClure, Derrick J.</author> (1975): “Review of Mather, J. Y.; Speitel, H. H. (eds.). 1975. The Linguistic Atlas of Scotland”, in:
+                        <hi rend="italic"> American Speech</hi>
+                         53, 3–4: 223–234.
+                    </bibl>
+                    <bibl>
+                        <author>Zacherl, Florian</author> (2022): “Linguistische Online-Ressourcen auf Basis traditioneller Werke. Anforderungen und digitale Möglichkeiten am Beispiel des Romanischen Etymologischen Wörterbuchs“, in: apropos [Perspektiven auf die Romania] 9: 254–275.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

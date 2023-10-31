@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The COVID-19 pandemic in two Austrian media corpora: methods, analyses, and examples from a lexical and a morpho-pragmatic perspective</title>
+                <author n="DornAmelieDORN_Amelie_The_COVID_19_pandemic_in_two_Austrian_media_corp.xml"><persName n="DornAmelie">
+                        <surname>Dorn</surname>
+                        <forename>Amelie</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>amelie.dorn@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoreckyKrllKatharinaDORN_Amelie_The_COVID_19_pandemic_in_two_Austrian_media_corp.xml"><persName n="KoreckyKrllKatharina">
+                        <surname>Korecky-Kröll</surname>
+                        <forename>Katharina</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>katharina.korecky-kroell@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZieglerTheresaDORN_Amelie_The_COVID_19_pandemic_in_two_Austrian_media_corp.xml"><persName n="ZieglerTheresa">
+                        <surname>Ziegler</surname>
+                        <forename>Theresa</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>theresa.ziegler@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HllJanDORN_Amelie_The_COVID_19_pandemic_in_two_Austrian_media_corp.xml"><persName n="HllJan">
+                        <surname>Höll</surname>
+                        <forename>Jan</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>jan.hoell@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LenzAlexandraNDORN_Amelie_The_COVID_19_pandemic_in_two_Austrian_media_corp.xml"><persName n="LenzAlexandraN">
+                        <surname>Lenz</surname>
+                        <forename>Alexandra N.</forename>
+                    </persName><affiliation>University of Vienna, Austria</affiliation><email>alexandra.lenz@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The increased use of digital methods and tools has been steadily gaining momentum in all areas of life and work since the beginning of the COVID-19 pandemic. Extended methods of data processing and analysis could also be developed and applied in linguistics. In this paper we report on lexical and morpho-pragmatic analyzes of linguistic aspects related to the COVID-19 pandemic in two German corpora.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>COVID-19</term>
+                    <term>corpus linguistics</term>
+                    <term>lexis</term>
+                    <term>morpho-pragmatics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>natural language processing</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The arrival of the COVID-19 pandemic has affected people’s lives in multiple ways. One of the consequences was a noticeable surge in the development of digital tools and work environments, for various academic fields and disciplines. In linguistic and language related areas this is reflected in an increasing number of corpus and discourse linguistic studies on various aspects of COVID-19 all over the world (e.g., Essam et al. 2021, Schweinberger et al. 2021, Fanta-Jende et al. 2021, Bülow et al. 2022, Lenz 2022). This also offered a tremendous potential for collaboration within and across disciplines, and the increased use, application and integration of digital tools in linguistic realms.</p>
+            <p>One of the advantageous consequences of the pandemic is that it has led to a massive creation of new vocabulary in many languages, including German. This includes on the one hand the formation of new words such as neologisms, e.g., 
+                <hi rend="italic">Distanzbier</hi>, the assignment of new meanings to existing words, e.g., 
+                <hi rend="italic">Omikron</hi>, and the adoption of new loan words, for example, from English, e.g., 
+                <hi rend="italic">Containment</hi>. However, not only new technical terms such as 
+                <hi rend="italic">Lockdown</hi> were introduced but also new morphological forms were created (e.g., the expressive intensifying portmanteau word
+                <hi rend="italic"> Covidiot</hi> ‘COVID+Idiot’, the expressive compound 
+                <hi rend="italic">Dreckspandemie</hi> ‘dirt pandemic’ or the mitigating diminutive 
+                <hi rend="italic">Covidl</hi> which rhymes with 
+                <hi rend="italic">Powidl</hi>, the Austrianism for plum jam, and which is used to trivialize the seriousness of the virus). In other cases, old forms were reused in new pragmatic contexts in media discourse (e.g., 
+                <hi rend="italic">Babyelefant</hi> ‘baby elephant’ for measuring the recommended physical distance of one meter between two persons from different households).
+            </p>
+            <p>In this paper, we focus on German in Austria and analyse two Austrian corpora: the 
+                <hi rend="italic">Austrian Media Corpus - amc</hi> (cf. Ransmayr et al. 2017) and a corpus of user forum postings of the Austrian online newspaper 
+                <hi rend="italic">derstandard.at</hi>. Our research is a satellite initiative to the larger special research programme “German in Austria. Variation – Contact – Perception.” (FWF F060) (Lenz 2018). Specifically in this study, we deal with digital-born plain text content in terms of text type, and written standard German in terms of register, although the forum postings corpus also contains colloquial elements. Our combined analysis of lexical and morphopragmatic aspects of COVID-19 specific words provides insights into variationist aspects of language behaviour and change, and also attitudes with a focus on Austrian German. As regards the methodology in our study, we look at aspects of areal (i.e., geographic) and temporal patterns and dynamics of variation in media texts by means of combined data analyses and interactive visualisations using different and combined Python packages, such as spaCy (Honnibal / Montani 2017) and spacy_transformers. The morphopragmatic analyses focus on evaluative-expressive morphological forms, namely diminutives used for the purpose of mitigation (e.g., Dressler / Merlini Barbaresi 1994) and expressive compounds used for the purpose of intensification (e.g., Meibauer 2013).
+            </p>
+            <p>Preliminary results show significant correlations between COVID-19 case numbers, media discourse on public health measures and the emergence of new lexical and morphopragmatic forms. However, not all parts of speech are equally affected, but new vocabulary is mainly found in nouns, which also include novel expressive noun compounds and noun diminutives, such as 
+                <hi rend="italic">Deppenbubble</hi> ‘fools’ bubble’ or 
+                <hi rend="italic">MNS-Hangerl</hi> ‘mouth-nose-protection towel’. Pejorative morphopragmatic forms, e.g., 
+                <hi rend="italic">saublöd</hi> ‘sow stupid’, generally outnumber meliorative and neutral ones, but they show certain frequency peaks in different COVID-19 waves which go hand in hand with the public health measures and their respective media discourses and which reflect the public sentiment throughout the different stages of the pandemic.
+            </p>
+            <p>In conclusion, the findings from this study and linguistic research can be seen as exemplary for the increased potentials of digitisation and networked humanities. Therefore, our results not only provide novel local linguistic insights into phenomena of language variation and change regarding German in Austria, but also contribute to the comprehensive global discourse on COVID-19 related analyses.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bülow, Lars</author> / <author>Diehr, Anne</author> / <author>Pfurtscheller, Daniel</author> / <author>Thome, Sebastian</author>  (2022) (eds.). Corona-Diskurse in und über Österreich. (Special Issue, Wiener Linguistische Gazette 90).
+                    </bibl>
+                    <bibl>
+                        <author>Dressler, Wolfgang Ulrich</author> / <author>Merlini Barbaresi, L</author>  (1994). Morphopragmatics. Diminutives and intensifiers in Italian, German, and other languages. Berlin/New York: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <author>Essam, Bacem A.</author> / <author>Abdo, Muhammad S.</author> (2021). How Do Arab Tweeters Perceive the COVID-19 Pandemic? Journal of Psycholinguistic Research 50, 507–521 (2021). https://doi.org/10.1007/s10936-020-09715-6
+                    </bibl>
+                    <bibl>
+                        <author>Fanta-Jende, Johanna</author> / <author>Tavernier, Florian</author> / <author>Dorn, Amelie</author> / <author>Korecky-Kröll, Katharina</author>  (2021). Plosive in Zeiten von Corona. Zusammenhänge zwischen der Realisierung von Plosiven in verschiedenen Dialektregionen Österreichs und der Ausbreitung von COVID-19 durch Aerosole. In: Wiener Linguistische Gazette 89, 135-166. 
+                    </bibl>
+                    <bibl>
+                        <author>Honnibal, Matthew</author> / <author>Montani, Ines</author>  (2017). spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing. To appear.
+                    </bibl>
+                    <bibl>
+                        <author>Lenz, Alexandra N</author>. (2018). The Special Research Programme „German in Austria. Variation – Contact – Perception“. In: Ammon, U./ Costa, M. (eds.): Sprachwahl im Tourismus – mit Schwerpunkt Europa. (Sociolinguistica. Internationales Jahrbuch für europäische Soziolinguistik 32). Berlin/Boston, 269–277.
+                    </bibl>
+                    <bibl>
+                        <author>Lenz, Alexandra N.</author> (2022). „Sprachwandel und Sprachdiskurse im Digitalen Zeitalter.“ Ring-Vorlesung: Demokratie und Digitale Revolution (Winterterm 2022/2023), 27 October 2022, University of Vienna, Vienna, Austria. Public lecture. 
+                    </bibl>
+                    <bibl>
+                        <author>Meibauer, Jörg</author> (2013). Expressive compounds in German. Word Structure 6.1, 21–42.
+                    </bibl>
+                    <bibl>
+                        <author>Ransmayr, Jutta</author> / <author>Mörth, Karlheinz</author> / <author>Ďurčo, Matej</author>  (2017). AMC (Austrian Media Corpus) – Korpusbasierte Forschungen zum österreichischen Deutsch. In: Resch, C./Dressler, W.U. (eds.): Digitale Methoden der Korpusforschung in Österreich (= Veröffentlichungen zur Linguistik und Kommunikationsforschung Nr. 30), Vienna: Austrian Academy of Sciences Press, 27–38.
+                    </bibl>
+                    <bibl>
+                        <author>Schweinberger, Martin</author> / <author>Haugh, Maichael</author> / <author>Hames, Sam</author>  (2021). Analysing discourse around COVID-19 in the Australian Twittersphere: A real-time corpus-based analysis. Big Data &amp; Society 8/1. doi:10.1177/20539517211021437
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

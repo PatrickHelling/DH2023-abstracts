@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Data narratives with Linked Open Data, the case of mythLOD storytelling </title>
+                <author n="PasqualValentinaPASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml"><persName ref="https://orcid.org/0000-0001-5931-5187" n="PasqualValentina">
+                        <surname>Pasqual</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>Digital Humanities Advanced Research Centre (/DH.arc), Department of Classical Philology and Italian Studies, University of Bologna, Bologna, Italyorcid</affiliation><email>valentina.pasqual2@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="TomasiFrancescaPASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml"><persName n="TomasiFrancesca">
+                        <surname>Tomasi</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation>Digital Humanities Advanced Research Centre (/DH.arc), Department of Classical Philology and Italian Studies, University of Bologna, Bologna, Italyorcid</affiliation><email>francesca.tomasi@unibo.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution focuses on the dissemination of mythLOD data. Two visualisations have been developed to represent the relations between museal and bibliographic sources preserved in the Knowledge Base. mythLOD is presented as a case study to highlight that the visualisation of narratives is not just a matter of interface, but a new service to acquire new knowledge from data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>digital storytelling</term>
+                    <term>linked open data</term>
+                    <term>data storytelling</term>
+                    <term>narratives</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>Art history</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Cultural heritage (CH) data are constantly growing from digitisation projects carried out by many GLAM institutions. The Digital Humanities community widely adopted Linked Open Data (LOD) as a standard for knowledge organisation in CH domain promoting interoperability and exchange (Hyvönen 2012, Alexiev 2018). Several cultural heritage platforms disseminate their data through browsable online catalogues with faceted search interfaces, e.g. Europeana<ref target="#PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn1" n="1"/>. Graphic User Interfaces (GUI) make data accessible also to non-IT experts such as museum curators, humanities scholars, students, or the general public, by hiding - sometimes complex - SPARQL queries. More recently, dissemination practices rely on <hi rend="italic">narration </hi>as a new expedient to interactively involve users in a more efficient and effective way (Eide et al. 2019, Windhager et al. 2019). Storytelling and data storytelling practices can visualise latent relations and new perspectives over data, augmenting users’ knowledge. While faceted search allows users to customise data exploration depending on individual interests, storytelling drives the users through a defined narrative path. In this context, mythLOD collection (Pasqual and Tomasi 2021) is the revalorisation of Mythologiae data collection<ref target="#PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn2" n="2"/> through the conversion of its data from tabular data to LOD. The project workflow followed the curation of digital objects life-cycle described by Tomasi (2022), addressing the data dissemination task with two visualisations, an online catalogue browsable through facets and a data storytelling experiment applied to Aeneid by Virgil case study.  </p>
+            </div>
+            <div type="div1">
+                <head>
+                    Modelling Data and visualisation
+                </head>
+                <p>mythLOD<ref target="#PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn3" n="3"/> is a Knowledge Base (KB) storing more than 4’000 heterogeneous museum artwork from different artists, locations and epoques. In particular, besides descriptive metadata (e.g. title, date of creation, current location), domain experts annotated each artwork with a list of literary sources (from classical to contemporary production) sharing the same mythological theme or scene. For example, the artwork “Landscape with Aeneas at Delos”<ref target="#PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn4" n="4"/> depicts “Aeneas towards the Italic Peninsula”<ref target="#PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn5" n="5"/>, which can be found in <hi rend="italic">Aeneid, III, 69-123 </hi>by Virgil and <hi rend="italic">Divina Commedia </hi>by Dante Alighieri. Additionally, mythLOD KB preserves interpretations’ contextual information (i.e. the above mentioned example is an hermeneutic analysis with iconographic criterion performed by person P). Moreover, literary works are recorded in mythLOD KB with related descriptive metadata (e.g. author, period of creation). In particular, canonical citations, modelled with Humanities Citation Ontology (HuCit) (Romanello and Pasin 2013), are recorded in the form work, book, chapter, verse. </p>
+                <p>mythLOD data are accessible via two main visualisations, namely the catalogue and the storytelling sections in the website (cf. the following section). mythLOD catalogue<ref target="#PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn6" n="6"/>presents a complete overview of the artworks data which can be browsed through facets filters as their metadata (collocation, periods, keywords, type, author, mythological category), related references (reference type, reference author) and experts’ interpretations (author, interpretation type and criterion).</p>
+                <p>While offering a complete overview of the dataset, the two visualisations have been implied as an actual testing activity to the whole dataset with the domain experts. In fact, the visualisations graphically represent the project competency questions hiding their technicalities. Both visualisations have been exposed to domain experts involved in Mythologiae to review both the representativeness of mythLOD data model and the correctness of data in the Knowledge Base.</p>
+            </div>
+            <div type="div1">
+                <head>
+                    Storytelling paths
+                </head>
+                <p><hi rend="italic">Telling Aeneis through museal art</hi> in mythLOD is the data-storytelling section about Aeneid contents in mythLOD collection. The storytelling consists of a restricted set of visualisations that investigate the relation between mythLOD artworks and Aeneid literary reference by re-proposing the project competency questions in four categories. </p>
+                <list type="unordered">
+                    <item>Artworks temporality (<hi rend="italic">when</hi>): a timeline illustrates when the museum works concerning the themes of the Aeneid were produced</item>
+                    <item>Artworks spatiality (<hi rend="italic">where</hi>): a map shows where the museum artworks concerning the themes of the Aeneid are located</item>
+                    <item>Artworks contents (<hi rend="italic">what</hi>): as exemplified in figure 1, a heatmap represents the most frequently cited Aeneid passages in the artworks depicted scenes; a word cloud represents the most frequent terms implied in the description of the artworks related to Aeneid; a network represents the literary references which co-occur with Aeneid in the dataset. </item>
+                    <item>Agents involved with artworks (<hi rend="italic">who</hi>): a network shows the relations between authors who created an artwork whose depicted scene has also been recognised to be in common with Aeneid.</item>
+                </list>
+                <figure>
+                    <graphic n="1001" width="6.9638333333333335cm" height="5.5456666666666665cm" url="Pictures/6c69ce984972b6185a5a00cbadc34f45.png" rend="inline"/>
+                    </figure><figure><graphic n="1002" width="7.535333333333333cm" height="5.482166666666667cm" url="Pictures/bc6924b2b4b6170ceb15413fc7e03700.png" rend="inline"/>
+                        <head>Figure 1. Snapshots of contents visualisation (what) in mythLOD storytelling</head>
+                </figure>
+                <p>Besides the four categories of interest, a textual introduction and tips for each visualisation have been added to guide the user through the four sections.</p>
+                <p>Visualisations are strictly dependent from the whole data curation process, as knowledge organisation (e.g adopted data models and ontologies), data cleaning and alignment with external resources. For example, the granular representation of canonical citations is then presented in the <hi rend="italic">heatmap </hi>(figure 1), highlighting Aeneid most cited lines and motives in the KB. Additionally, dates have been converted in a machine-readable format used for the creation of the timeline and fostering the valorisation of temporal data. Moreover, geospatial coordinates of the locations have been retrieved from Wikidata to visualise the instances on the map. </p>
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>In conclusion, the visualisations fully exploit together museal and bibliographic sources. In particular, mythLOD visualisations show how the format migration from table to LOD naturally allows shifting the point of view from the collection (the artworks as subject of the catalogue) to the literary sources (the Aeneid as subject of the storytelling) and testimonies that data-visualisation can reveal the latent knowledge that was only intuitable in Mythologiae tabular collection. Additionally, visualisation, as demonstrated, is thus an example of how to employ procedures aimed at enhancing the role of the end user in accessing resources (for example as an actual part of the testing activity). It is one of those research actions that want to see LODs as a new way not only of publishing, but also of semanticising the cultural heritage, i.e. of enriching the access experience by developing new forms of organising, and thus of using, knowledge. In a phrase, the visualisation of narratives is not just a matter of interface, but a new service to acquire new knowledge from data. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn1">
+                        <ref target="https://www.europeana.eu/it">https://www.europeana.eu/it</ref>, accessed 24/10/2022
+                    </note><note n="2" xml:id="PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn2">
+                        <ref target="https://mythologiae.unibo.it/">https://mythologiae.unibo.it/</ref>,  accessed 24/10/2022
+                    </note><note n="3" xml:id="PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn3">
+                        <ref target="https://dharc-org.github.io/mythlod/">https://dharc-org.github.io/mythlod/</ref>,  accessed 24/10/2022. The ID of this artwork in mythLOD collection is item/534.
+                    </note><note n="4" xml:id="PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn4">
+                        <ref target="https://www.nationalgallery.org.uk/paintings/claude-landscape-with-aeneas-at-delos">https://www.nationalgallery.org.uk/paintings/claude-landscape-with-aeneas-at-delos</ref>, accessed 24/10/2022
+                    </note><note n="5" xml:id="PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn5">
+                        Cf. translation from italian “Enea verso la penisola italica”
+                    </note><note n="6" xml:id="PASQUAL_Valentina_Data_narratives_with_Linked_Open_Data__the.xml_ftn6">
+                        <ref target="https://dharc-org.github.io/mythlod/catalogue/">https://dharc-org.github.io/mythlod/catalogue/</ref>,  accessed 24/10/2022
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Alexiev, Vladimir </author>(2018): “Museum Linked Open Data: Ontologies, Datasets, Projects”, in: Digital Presentation and Preservation of Cultural and Scientific Heritage 8 (September): 19–50. 
+                        <ref target="https://doi.org/10.55630/dipp.2018.8.1">https://doi.org/10.55630/dipp.2018.8.1</ref>.
+                    </bibl>
+                    <bibl><author>Daquino, Marilena</author> / <author>Pasqual, Valentina</author> / <author>Tomasi, Francesca</author> (2020): “Knowledge Representation of Digital Hermeneutics of Archival and Literary Sources”, in: JLIS.It 11 (3): 59–76. 
+                        <ref target="https://doi.org/10.4403/jlis.it-12642">https://doi.org/10.4403/jlis.it-12642</ref>.
+                    </bibl>
+                    <bibl><author>Eide, Øyvind</author> / <author>Wieners, Jan</author> / <author>Schubert, Zoe</author> / <author>Türkoglu, Enes</author> (2019): “The intangibility of tangible objects: re-telling artefact stories through spatial multimedia annotations and 3D objects”, 
+                        <ref target="https://doi.org/10.5281/zenodo.3878966">https://doi.org/10.5281/zenodo.3878966</ref>.
+                    </bibl>
+                    <bibl><author>Hyvönen, Eero </author>(2012): Publishing and Using Cultural Heritage Linked Data on the Semantic Web. Synthesis Lectures on Data, Semantics, and Knowledge. Cham: Springer International Publishing. 
+                        <ref target="https://doi.org/10.1007/978-3-031-79438-4">https://doi.org/10.1007/978-3-031-79438-4</ref>.
+                    </bibl>
+                    <bibl><author>Pasqual, Valentina</author> / <author>Tomasi, Francesca</author> (2022): “Linked open data per la valorizzazione di collezioni culturali: il dataset mythLOD”, in: AIB studi 62 (1): 149–68. 
+                        <ref target="https://doi.org/10.2426/aibstudi-13301">https://doi.org/10.2426/aibstudi-13301</ref>.
+                    </bibl>
+                    <bibl><author>Romanello, Matteo</author> / <author>Pasin, Michele</author> (2013): “Citations and Annotations in Classics: Old Problems and New Perspectives”, in: Proceedings of the 1st International Workshop on Collaborative Annotations in Shared Environment: Metadata, Vocabularies and Techniques in the Digital Humanities, 1–8. DH-CASE ’13. New York, NY, USA: Association for Computing Machinery. 
+                        <ref target="https://doi.org/10.1145/2517978.2517981">https://doi.org/10.1145/2517978.2517981</ref>.
+                    </bibl>
+                    <bibl><author>Tomasi, Francesca </author>(2022): Organizzare la conoscenza: Digital Humanities e Web semantico. Milano: Editrice Bibliografica.</bibl>
+                    <bibl><author>Windhager, Florian</author> / <author>Federico, Paolo</author> / <author>Schreder, Günther</author> / <author>Glinka, Katrin</author> / <author>Dörk, Marian</author> / <author>Miksch, Silvia</author> / <author>Mayr, Eva</author> (2019): “Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges”, in: IEEE Transactions on Visualization and Computer Graphics 25 (2019): 2311-2330</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

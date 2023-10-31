@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Visualizing connections between Egypt and Southern Levant, using mapping and
+                    network analysis. </title>
+                <author n="FilimonovEvgeniaFILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml"><persName n="FilimonovEvgenia">
+                        <surname>Filimonov</surname>
+                        <forename>Evgenia</forename>
+                    </persName><affiliation>University of Haifa, Israel</affiliation><email>jenjabel@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KizhnerInnaFILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml"><persName n="KizhnerInna">
+                        <surname>Kizhner</surname>
+                        <forename>Inna</forename>
+                    </persName><affiliation>University of Haifa, Israel</affiliation><email>inna.kizhner@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BenDorEvianShirlyFILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml"><persName n="BenDorEvianShirly">
+                        <surname>Ben-Dor Evian</surname>
+                        <forename>Shirly</forename>
+                    </persName><affiliation>University of Haifa, Israel</affiliation><email>bdevian@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BarOzGuyFILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml"><persName n="BarOzGuy">
+                        <surname>Bar-Oz</surname>
+                        <forename>Guy</forename>
+                    </persName><affiliation>University of Haifa, Israel</affiliation><email>guybar@research.haifa.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper aims to visualize connections between Egypt and Southern Levant during the Bronze and Iron Ages. We compare Egyptian representations of animals and zooarchaeological records from documented excavation reports related to locations of zoological species in the Southern Levant. The comparison is possible through the use of GIS and network analysis to connect the iconographic and zooarchaeological data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Egypt</term>
+                    <term>Levant</term>
+                    <term>zooarchaeological data</term>
+                    <term>data uncertainty</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Archaeology</term>
+                    <term>Art history</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Objective</p>
+            <p>The objective of this paper is to visualize connections
+                    between Egypt and Southern Levant during the Bronze and Iron Ages. We compare
+                    Egyptian representations of animals and zooarchaeological records from
+                    documented excavation reports related to locations of zoological species in the
+                    Southern Levant. Such a comparison is possible through the use of GIS and
+                    network analysis to connect the iconographic and zooarchaeological data. The
+                    connections have never been made explicit using a comparison of the museum and
+                    zooarchaeological data. This paper presents approaches related to the
+                    visualization of connections and related epistemological problems caused by data
+                    uncertainty (Krautli and Boyd Davis 2013, Boyd Davis et al. 2021, Panagiotidu et
+                    al. 2022).</p>
+            <p><hi rend="bold">Location of research</hi></p>
+            <p>Egypt and the Levant have a long-standing connection
+                    dating back to the Bronze and Iron Ages. The models of such interactions include
+                    imperial strategies, colonial encounters, and cultural contacts. Each model
+                    provides unique insights into the complex relationships between Egypt and the
+                    Levant. Egypt has been actively involved in geo-political and economic affairs
+                    in the Levant and significantly influenced the Levant in terms of economics,
+                    agriculture, ecology, and socio-religious traditions (Sowada 2009, Ben-Tor 2016,
+                    Ben-Dor Evian 2017, Miniaci 2020). The nature of the influence has been typified
+                    as emulation, adaptation, acculturation, appropriation, hybridization, or
+                    creolization (Higginbotham 2000, Levy and van den Brink 2002, Ben-Tor
+                    2016).</p>
+            <p>Based on these types of interactions, we can consider
+                    human-environment relations and compare the ways in which humans and different
+                    animal species interact in the Levant and Egypt. Such comparison is possible due
+                    to opportunity of cross-referencing the Levantine faunal remains and
+                    archaeological context for the sites where they were found with Egyptian
+                    taxonomically identifiable animal depictions. Egyptian depictions and
+                    zooarchaeological assemblages in our dataset date back to two periods: the
+                    Middle Kingdom in Egypt (ca. 2030-1650 BCE) which corresponds to the Middle
+                    Bronze Age in the Levant (ca. 2000-1550 BCE) and the New Kingdom in Egypt (ca.
+                    1550-1070 BCE) which corresponds to the Late Bronze Age in the Levant (ca.
+                    1550-1200 BCE).</p>
+            <p>Methodology</p>
+            <p>Our source of iconographic data was the Metropolitan
+                    Museum of Art’s open database<ref target="#FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn1" n="1"/>. We downloaded the Open Access CSV, which currently contains 476,447 records out of approximately two million objects from the museum's total collection. 27,962 records in the database relate to the Egyptian collection. The source of zooarchaeological data was a database of zooarchaeological remains at the University of Haifa (Israel). It includes data on over 130 zoological species across 25 time periods and over 500 sites that have been collected from multiple sources, such as edited volumes and journal papers. We chose ten species to demonstrate how the overlap of Egyptian iconography and zooarchaeological data demonstrates connections between the two areas (Table 1). We created a spreadsheet with such fields as object description, geographic area, and species taxa. The Egyptian periods and dates and the corresponding periods of the South Levant archaeological assemblage were matched using logical functions. In addition, detailed data related to each species will be presented such as their place of origin, time of greatest distribution or extinction, livestock frequencies and types of animal behavior in depictions. </p>
+            <table xml:id="d103e235">
+                <head><hi rend="bold">Table 1. </hi>The number of records and metadata returned by
+                    the search in the Metropolitan Museum of Art’s collection database when
+                    searching by keywords in Egyptian Art department facet, including 82 search
+                    results related to ‘animal’ search term.</head>
+                <row>
+                    <cell>Keywords</cell>
+                    <cell>
+                        <hi rend="bold">Number of records</hi>
+                    </cell>
+                </row>
+                <row>
+                    <cell>animal</cell>
+                    <cell>82</cell>
+                </row>
+                <row>
+                    <cell>horse</cell>
+                    <cell>36</cell>
+                </row>
+                <row>
+                    <cell>gazelle</cell>
+                    <cell>12</cell>
+                </row>
+                <row>
+                    <cell>ibex</cell>
+                    <cell>23</cell>
+                </row>
+                <row>
+                    <cell>antelope</cell>
+                    <cell>12</cell>
+                </row>
+                <row>
+                    <cell>cattle</cell>
+                    <cell>13</cell>
+                </row>
+                <row>
+                    <cell>donkey</cell>
+                    <cell>10</cell>
+                </row>
+                <row>
+                    <cell>camel</cell>
+                    <cell>7</cell>
+                </row>
+                <row>
+                    <cell>lion</cell>
+                    <cell>190</cell>
+                </row>
+                <row>
+                    <cell>feline</cell>
+                    <cell>7</cell>
+                </row>
+                <row>
+                    <cell>leopard</cell>
+                    <cell>12</cell>
+                </row>
+            </table>
+            <p><hi rend="bold">Preliminary results and tentative
+                    interpretations</hi></p>
+            <p>We produced a map to compare a sample of species from the
+                    Levant and Egyptian representations of images, including corresponding taxa
+                    images with a known place of origin in Egypt within similar timeframes. The
+                    maps<ref target="#FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn2" n="2"/>allows us to sort data by periods and species and show
+                    the simultaneous presence of species in the Levant and Egypt (Fig. 1). Our
+                    preliminary results demonstrate a more substantial presence of donkeys and
+                    cattle in the south of Egypt in the Middle Bronze and Late Bronze Age, which is
+                    important in the context of previous studies of animal trade relations, their
+                    social and religious significance and livestock frequency (Greenfield et al.
+                    2012, Bar-Oz et al. 2013, Sapir-Hen et al. 2014, Arnold et al. 2016). Also, we
+                    noticed the appearance of gazelles and antelopes at the same time period in
+                    Egypt and Levant in the Late Bronze Age - Early New Kingdom in Egypt (Tsahar et
+                    al. 2009). (Fig. 1,2).</p>
+            <p>However, data on archaeological records often lack granularity in dating and consequently present difficulties in aligning and fine-tuning chronological periods for Egypt and Southern Levant. A lack of precision in locating Egyptian objects sourced from museum databases is also an obstacle for building visualizations. </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="7.773458333333333cm" url="Pictures/b3f5f2e21ba955914f1a761feb76546d.jpg" rend="inline"/>
+                <head>Figure 1. Map of the simultaneous presence of ungulate’s
+                    images in Middle Kingdom in Egypt and relevant zooarchaeological assemblage in
+                    Middle Bronze Age in Levant</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="15.998472222222222cm" height="7.9375cm" url="Pictures/adc7e9e48a1ba2e3e1473f625cb72d2d.jpeg" rend="inline"/>
+                <head>Figure 2. Map of the simultaneous presence of ungulate’s
+                    images in Early New Kingdom (18 dynasty before Amarna period) in Egypt and
+                    relevant zooarchaeological assemblage in Late Bronze Age in Levant</head>
+            </figure>
+            <p><hi rend="bold">Future research</hi></p>
+            <p> By the time of the conference, we hope to cope with uncertainty by finding specific periods for which the chronology aligning is possible without losing precision and by making additional tracing of Egyptian objects geographical locations. The database will be enlarged, using such collections as the British Museum, the Louvre and the Museum of Art History in Vienna and other museums with collections of Egyptian objects, and images from secondary literature. We will also include special digital collections, such as a web-based resource focused on the tomb iconography<ref target="https://osirisnet.net/e_centrale.htm">Osiris.net</ref><ref target="#FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn3" n="3"/><hi rend="underline">. </hi></p>
+            <p>After that we will use Gephi<ref target="#FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn4" n="4"/>to visualize networks of archaeological sites with the same animals, either as artistic representations or as zooarchaeological remains, within similar timeframes. Comparing absence or presence of particular taxa across time periods will allow, in particular, to track the movement of animals between geographical areas as was done previously for archaeological objects (Bernardini 2007, Mills 2016). However, we expect further issues related to fuzziness or ambiguity in data collection that may complicate the analysis. Revealing and analyzing the issues related to imprecision of data and subjectivity of interpretation for producing visualizations that compare data obtained from different sources will be an additional focus of our analysis presented at DH2023. </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn1">
+                    <ref target="https://www.metmuseum.org/about-the-met/policies-and-documents/open-access">https://www.metmuseum.org/about-the-met/policies-and-documents/open-access</ref>; (access date 24/08/2022)
+                </note><note n="2" xml:id="FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn2">
+                    <ref target="https://earth.google.com/web/@27.78373685,33.39765199,107.88310734a,2107094.60912182d,30y,0h,0t,0r/data=MigKJgokCiAxTTJMdkU0UjZNaDN3SHVaaHNGblpRNVZ4NVBpSndvWSACOgMKATA?authuser=0">https://earth.google.com/web/@27.78373685,33.39765199,107.88310734a,2107094.60912182d,30y,0h,0t,0r/data=MigKJgokCiAxTTJMdkU0UjZNaDN3SHVaaHNGblpRNVZ4NVBpSndvWSACOgMKATA?authuser=0</ref>
+                </note><note n="3" xml:id="FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn3">
+                    <ref target="https://osirisnet.net/e_centrale.htm">https://osirisnet.net/e_centrale.htm</ref>
+                </note><note n="4" xml:id="FILIMONOV_Evgenia__Visualizing_connections_between_Egypt_and.xml_ftn4">
+                    <ref target="https://gephi.org/">https://gephi.org/</ref>
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Allentuck, Adam</author> (2015): An
+                        Acquired Taste: Emulation and Indigenization of Cattle Forelimbs in the
+                        Southern Levant.  <hi rend="italic">Cambridge
+                            Archaeological Journal </hi>
+                        <hi rend="italic">25</hi>
+                        (1): 45
+                        –
+                        62.
+                    </bibl>
+                    <bibl>
+                        <author>Arnold, Elizabeth R.</author> / <author>Hartman, Gideon</author> / <author>Greenfield, Haskel J.</author> / <author>Shai, Itzhaq</author> / <author>Babcock, Lindsay E.</author> / <author>Maeir, Aren M.</author>  (2016):
+                        Isotopic Evidence for Early Trade in Animals between Old Kingdom Egypt and
+                        Canaan. <hi rend="italic">PLOS ONE </hi>
+                        11(6): e0157650. 
+                        <ref target="https://doi.org/10.1371/journal.pone.0157650">https://doi.org/10.1371/journal.pone.0157650</ref>
+                         [20.10.2022]
+                    </bibl>
+                    <bibl>
+                        Barnett, Richard D. (1982): 
+                        <hi rend="italic">Ancient Ivories in the Middle
+                            East</hi>
+                        . Qedem 14. Jerusalem.
+                    </bibl>
+                    <bibl>
+                        <author>Bar-Oz, Guy</author> / <author>Nahshoni, Pirhiya</author> / <author>Motro, Hadas</author> / <author>Oren, Eliezer D.</author>  (2013): Symbolic Metal Bit and Saddlebag
+                        Fastenings in a Middle Bronze Age Donkey Burial. <hi rend="italic">PLOS ONE</hi>
+                         8(3): e58648. 
+                        <ref target="https://doi.org/10.1371/journal.pone.0058648">https://doi.org/10.1371/journal.pone.0058648</ref>
+                         [20.10.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Ben-Dor Evian, Shirly</author> (2017): Egypt and Israel: The
+                        Never-ending Story. <hi rend="italic"> Near Eastern
+                            Archaeology</hi>
+                         80(1): 30–39.
+                    </bibl>
+                    <bibl>
+                        <author>Ben-Tor, Dafna</author> (2007):  <hi rend="italic"> Scarabs, Chronology, and Interconnections: Egypt
+                            and Palestine in the Second Intermediate Period</hi>
+                        . Friburg.
+                    </bibl>
+                    <bibl>
+                        <author>Ben-Tor, Dafna</author> (2016): <hi rend="italic"> Pharaoh in Canaan: The Untold Story.</hi>
+                         Jerusalem: The Israel Museum, Jerusalem.
+                    </bibl>
+                    <bibl>
+                        <author>Bernardini, Wesley</author> (2007): Jeddito Yellow Ware and Hopi
+                        Social Networks. <hi rend="italic"> Kiva</hi>
+                         72 (3): 295–328. 
+                        <ref target="https://doi.org/10.1179/kiv.2007.72.3.001">https://doi.org/10.1179/kiv.2007.72.3.001</ref>
+                         [20.10.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Boyd Davis, Stephen</author> / <author>Vane, Olivia</author> / <author>Kräutli, Florian</author> 
+                        (2021): Can I believe what I see? Data visualization and trust in the
+                        humanities. <hi rend="italic"> Interdisciplinary
+                            Science Reviews</hi>
+                         46(4): 522-546. 
+                        <ref target="https://doi.org/10.1080/03080188.2021.1872874">https://doi.org/10.1080/03080188.2021.1872874</ref>
+                         [20.10.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Greenfield, Haskel J.</author> / <author>Shai, Itzhak</author> / <author>Maeir, Aren</author> 
+                        (2012): Being an “Ass”: An Early Bronze Age Burial of a Donkey from Tell
+                        es-Safi/Gath, Israel.  <hi rend="italic">Bioarchaeology of the Near East </hi>
+                        6
+                        : 21
+                        –
+                        52.
+                    </bibl>
+                    <bibl>
+                        <author>Iserlis, Mark</author> / <author>Steiniger, Daniel</author> / <author>Greenberg, Raphael</author> 
+                        (2019): Contact between First Dynasty Egypt and Specific Sites in the
+                        Levant: New Evidence from Ceramic Analysis.  <hi rend="italic">Journal of Archaeological Science: Reports</hi>
+                         24: 1023–1040.
+                    </bibl>
+                    <bibl>
+                        <author>Koch, Ido</author> (2014): Goose keeping, Elite Emulation and
+                        Egyptianized Feasting at Late Bronze Lachish.  <hi rend="italic"> Tel Aviv</hi>
+                         
+                        41
+                        (2): 161
+                        –
+                        179.
+                    </bibl>
+                    <bibl>
+                        <author>Kräutli, Florian</author> / <author>Davis, Stephen</author>  (2013): Known
+                        Unknowns: Representing Uncertainty in Historical Time. <hi rend="italic">Conference:
+                            Electronic Visualisation and the Arts (EVA 2013)</hi>
+                        . 
+                        <ref target="https://doi.org/10.14236/ewic/EVA2013.16">https://doi.org/10.14236/ewic/EVA2013.16</ref>
+                        .
+                         [20.10.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Martin, Mario</author> (2011): Egyptian-Type pottery in the Late
+                        Bronze Age Southern Levant. <hi rend="italic">
+                            Contributions to the Chronology of the Eastern Mediterranean</hi>
+                         29. Vienna.
+                    </bibl>
+                    <bibl>
+                        <author>Meiri, Meirav</author> / <author>Stockhammer, Philipp W.</author> / <author>Marom, Nimrod</author> / <author>Bar-Oz, Guy</author> / <author>Sapir-Hen, Lidar</author> / <author>Morgenstern, Peggy</author> / <author>Finkelstein, Israel et al.</author>  (2017): Eastern Mediterranean Mobility in the Bronze
+                        and Early Iron Ages: Inferences from Ancient DNA of Pigs and Cattle.  <hi rend="italic"> Scientific reports</hi>
+                         7
+                        (1): 1
+                        –
+                        10.
+                    </bibl>
+                    <bibl>
+                        <author>Mills, Barbara J.</author> (2 016): Communities of Consumption:
+                        Cuisines as Constellated Networks of Situated Practice. In: (ed.), <hi rend="italic"> Knowledge in
+                            Motion: Constellations of Learning across Time and Place</hi>
+                        . Tucson: 247
+                        –
+                        270. 
+                    </bibl>
+                    <bibl>
+                        <author>Miniaci, Gianluca</author> (2020): At the Dawn of the Late
+                        Bronze Age “Globalization”: The (re)-circulation of Egyptian Artefacts in
+                        Nubia and the Northern Levant in the MB II–mid MB III (c. 1710–1550 BC). <hi rend="italic"> Claroscuro</hi>
+                         19: 1–26.
+                    </bibl>
+                    <bibl>
+                        <author>Routledge, Bruce</author> (2015): A Fishy Business: The Inland
+                        Trade in Nile Perch (Lates niloticus) in the Early Iron Age Levant. In:
+                        Harrison, T. P., Banning, E. B. and Klassen, S. (eds.), <hi rend="italic"> Walls of the Prince: Egyptian Interactions with
+                            Southwest Asia in Antiquity</hi>
+                        . Leiden: 212–33.
+                    </bibl>
+                    <bibl>
+                        Sapir-Hen, Lidar / Bar-Oz, Guy / Sharon, Ilan /
+                            Gilboa, Ayelet / Dayan, Tamar (2014): Food, economy, and culture at
+                        Tel Dor, Israel: A diachronic study of faunal remains from 15 centuries of
+                        occupation.  <hi rend="italic"> Bulletin of the
+                            American Schools of Oriental Research.</hi>
+                         371(1): 83-101.
+                    </bibl>
+                    <bibl>
+                        <author>Sowada, Karin</author> (2009): <hi rend="italic"> Egypt in the eastern Mediterranean during the
+                            Old Kingdom: An Archaeological Perspective</hi>
+                        . Orbis Biblicus et Orientalis 237. Friburg.
+                    </bibl>
+                    <bibl>
+                        <author>Tsahar, Ella</author> / <author>Izhaki, Ido</author> / <author>Lev-Yadun, Simcha</author> / <author>Bar-Oz, Guy</author>  (2009): Distribution and Extinction of Ungulates during the
+                        Holocene of the Southern Levant. <hi rend="italic">
+                            PLOS ONE</hi>
+                         4(4): e5316. 
+                        <ref target="https://doi.org/10.1371/journal.pone.0005316">https://doi.org/10.1371/journal.pone.0005316</ref>
+                         [20.10.2022]
+                    </bibl>
+                    <bibl>
+                        <author>Van Neer, Wim</author> / <author>Lernau, Omri</author> / <author>Friedman, Renee</author> / <author>Mumford, Gregory</author> / <author>Poblóme Jeroen</author> / <author>Waelkens, Marc</author>  (2004): Fish Remains from
+                        Archaeological Sites as Indicators of Former Trade Connections in the
+                        Eastern Mediterranean. <hi rend="italic">
+                            Paléorient</hi>
+                         30: 101–48.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

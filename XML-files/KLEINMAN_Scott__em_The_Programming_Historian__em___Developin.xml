@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><hi rend="italic">The Programming Historian</hi>: Developing a Digital Humanities Tutorial</title>
+                <author n="KleinmanScottKLEINMAN_Scott__em_The_Programming_Historian__em___Developin.xml"><persName ref="https://orcid.org/0000-0001-7477-1308" n="KleinmanScott">
+                        <surname>Kleinman</surname>
+                        <forename>Scott</forename>
+                    </persName><affiliation>Cal State Northridge, United States of America</affiliation><email>scott.kleinman@csun.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WermerColanAlexKLEINMAN_Scott__em_The_Programming_Historian__em___Developin.xml"><persName n="WermerColanAlex">
+                        <surname>Wermer-Colan</surname>
+                        <forename>Alex</forename>
+                    </persName><affiliation>Temple University, United States of America</affiliation><email>alex.wermer-colan@temple.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VieiraPaulinoJoanaKLEINMAN_Scott__em_The_Programming_Historian__em___Developin.xml"><persName n="VieiraPaulinoJoana">
+                        <surname>Vieira Paulino</surname>
+                        <forename>Joana</forename>
+                    </persName><affiliation>Universidade Nova de Lisboa, Portugal</affiliation><email>jpaulino@fcsh.unl.pt</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SiddiquiNabeelKLEINMAN_Scott__em_The_Programming_Historian__em___Developin.xml"><persName n="SiddiquiNabeel">
+                        <surname>Siddiqui</surname>
+                        <forename>Nabeel</forename>
+                    </persName><affiliation>Susquehanna University, United States of America</affiliation><email>siddiqui@susqu.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LeBlancZoeKLEINMAN_Scott__em_The_Programming_Historian__em___Developin.xml"><persName ref="https://orcid.org/0000-0003-2012-8805" n="LeBlancZoe">
+                        <surname>LeBlanc</surname>
+                        <forename>Zoe</forename>
+                    </persName><affiliation>University of Illinois Urbana-Champaign, United States of America</affiliation><email>zgleblanc@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Programming Historian publishes open peer-reviewed tutorials on digital humanities methods in four languages - English, Spanish, French and Portuguese. This four-hour workshop will encourage new contributions in The Programming Historian, whether translations of existing tutorials or new, especially collaborative, contributions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>programming historian</term>
+                    <term>pedagogy</term>
+                    <term>tutorials</term>
+                    <term>collaboration</term>
+                    <term>multilingualism</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>open access methods</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="italic">The Programming Historian</hi> publishes open peer-reviewed tutorials on digital humanities methods in four languages - English, Spanish, French and Portuguese. This four-hour workshop will use this digital publishing project as a framework for thinking through and implementing collaborative, linguistically equitable, and ethical publishing in the digital humanities. The workshop is designed to welcome newcomers to digital publishing work and encourage new collaborators to contribute to <hi rend="italic">The Programming Historian</hi>. Furthermore, the session will illustrate how a digital humanities project can operate across linguistic barriers and how <hi rend="italic">The Programming Historian</hi> addresses issues of equity and ethics in its procedures. Participants in the workshop will collaborate to develop new tutorials or to translate existing ones.</p>
+            <p>In the first part of the workshop, participants will hear from <hi rend="italic">Programming Historian</hi> team members on the project’s publishing workflow and how they work together to edit and translate tutorials on digital humanities tools. Particular attention will be given to the methodological difficulties of dealing with proprietary tools and translating lessons when there is limited availability of resources and tools in certain languages. The team will also critically overview the role of GitHub as a peer-review and publishing platform for our open-source website, an infrastructure that requires contributors and editors to learn the basics of computing for the web (e.g. Jekyll, Markdown, and version control) as part of publishing with the journal.</p>
+            <p>After overviewing <hi rend="italic">The Programming Historian</hi>’s mission and process, we will turn to a practical session on how to put together a<hi rend="italic"> Programming Historian</hi> tutorial. The workshop will be a supportive environment with team members from the project available to help and answer questions, and to facilitate collaboration between participants with converging interests. As a result of this workshop, participants will gain a better understanding of the processes involved in making a <hi rend="italic">Programming Historian</hi> tutorial. We will use this discussion as a jumping off point to form collaborative working groups to develop tutorials and translations that focus on tools or methods widely applicable across the humanities and address issues of publishing across languages. At the end of the workshop, collaborators will have a draft tutorial or translation that they can then choose to submit to <hi rend="italic">Programming Historian</hi>’s publishing pipeline.</p>
+            
+            <div><head>Target Audience</head>
+            <p>The workshop will be targeted towards digital humanists with an interest in collaborative publishing efforts, pedagogical approaches to DH work, and those who wish to expand the availability of DH resources and learning tools to users in multiple languages. We hope to work with 10-12 participants with a range of research interests, methodologies, and data sources. Participants can be newcomers or experts in any of these areas.</p>
+            </div>
+            <div><head>Workshop Leaders</head>
+            <p><hi rend="bold">Alex Wermer-Colan</hi> (alex.wermer-colan@temple.edu)</p>
+            <p>Alex Wermer-Colan is the Interim Academic Director and Digital Scholarship Coordinator for Temple University Libraries’ Loretta C. Duckworth Scholars Studio, where he directs and advises teaching and research integrating emerging technologies across the disciplines. Alex is also the Managing Editor of the <hi rend="italic">Programming Historian</hi> in English.</p>
+            <p><hi rend="bold">Scott Kleinman</hi> (scott.kleinman@csun.edu)</p>
+            <p>Scott Kleinman is Professor of English and Director of the Center for Digital Humanities at California State University, Northridge. He works on medieval languages and literatures with a focus on computational text analysis, Natural Language Processing, and digital editing. Professor Kleinman develops the <hi rend="italic">Lexos</hi> text analysis tool and co-directs the WhatEvery1Says Project, which studies medial representations of the Humanities using topic modelling and other methods of text analysis at scale. He is one of the members of the English <hi rend="italic">Programming Historian</hi> team.</p>
+            <p><hi rend="bold">Joana Vieira Paulino</hi> (jpaulino@fcsh.unl.pt) </p>
+            <p>Joana Vieira Paulino is a contracted junior researcher in the Digital Humanities Lab from the Institute of Contemporary History in NOVA FCSH (Lisbon, Portugal). She has a PhD and a Masters Degree in Contemporary History from NOVA FCSH, having applied DH methods and tools in her thesis and dissertation. She is one of the editors of the Portuguese <hi rend="italic">Programming Historian</hi> team.</p>
+            <p><hi rend="bold">Nabeel Siddiqui</hi> (siddiqui@susqu.edu)</p>
+            <p>Nabeel Siddiqui is Assistant Professor of Digital Humanities and Associate Director of the Center for Teaching and Learning at Susquehanna University. He serves as an English editor for the <hi rend="italic">Programming Historian </hi>team. Currently, he is completing a manuscript entitled <hi rend="italic">The Computer Comes Home: A Failed Revolution</hi>, which analyzes the personal computer’s domestication in America during the 1970s and 1980. In addition to his more “traditional” scholarly pursuits, he has worked on numerous digital humanities projects centered on large-scale text analysis, data visualization, virtual reality, GIS, and alternative publishing paradigms.</p>
+            <p><hi rend="bold">Zoe LeBlanc</hi> (zgleblanc@gmail.com)</p>
+            <p>Zoe LeBlanc is Assistant Professor of Information Sciences at the University of Illinois, Urbana-Champaign. Previously, she was a Postdoctoral Associate and Weld Fellow at the Center for Digital Humanities at Princeton University and Digital Humanities Developer at the Scholars’ Lab, University of Virginia, where she was part of a multi-institutional team to harmonize data from HathiTrust, JStor, and Portico for humanities’ text data analysis. Her research looks at how Egypt in the 1950s and 60s became a leader among decolonizing states, and specifically how Cairo became a hub for both anti-colonial movements and media circulated to the rest of the Third World. She is an editor and technical lead for <hi rend="italic">The Programming Historian</hi>.</p>
+            </div>
+            <div><head>Workshop Outline</head>              
+            <p>The workshop will take place in three segments of approximately an hour to 75 minutes with short breaks in between the first and second segments. The first segment will consist of introductions and an overview of <hi rend="italic">The Programming Historian</hi> with a discussion of its infrastructure and its publishing pipeline.</p>
+            <p>The second segment will look at some sample tutorials and translations already published, and we will trace their progress through the editorial process with an eye to understanding the editorial decisions made. At the end of the segment, we will begin to establish subgroups to develop ideas for new tutorials and/or translations.</p>
+            <p>In the third segment, workshop leaders will work with subgroups to draft proposals for new tutorials and/or translations.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        A variety of journal articles, reviews, and resources related to 
+                        <hi rend="italic">The Programming Historian</hi>
+                         can be found at https://programminghistorian.org/en/research.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Investigating Constructivist Paradigms in Digital Humanities Scholarship</title>
+                <author n="KleymannRabeaKLEYMANN_Rabea_Investigating_Constructivist_Paradigms_in_Dig.xml"><persName ref="https://orcid.org/0000-0003-3856-2685" n="KleymannRabea">
+                        <surname>Kleymann</surname>
+                        <forename>Rabea</forename>
+                    </persName><affiliation>Leibniz-Zentrum für Literatur- und Kulturforschung Berlin, Germany</affiliation><email>kleymann@zfl-berlin.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This submission deals with constructivist paradigms in the epistemic cultures of Digital Humanities. Therefore, it studies not only promises, implications, pitfalls of these paradigms in DH. Rather, it is an invitation to discuss variants of constructivism and consider possible alternatives to these prevalent paradigms.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Constructivism</term>
+                    <term>Epistemic Cultures</term>
+                    <term>Datafication</term>
+                    <term>Inferential Statistics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>Cultural studies</term>
+                    <term>History of science</term>
+                    <term>Humanities computing</term>
+                    <term>Logic and epistemology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Data, ideas and meaning are often labelled as being constructed in Digital Humanities (DH) scholarship. Jannidis states that “in the humanities epistemological positions that are more or less clear as variants of a not too radical constructivism are particularly common” (2017: 107).
+                <ref target="#KLEYMANN_Rabea_Investigating_Constructivist_Paradigms_in_Dig.xml_ftn1" n="1"/> Evans and Rees speak about a “constructivist task” (2012: 29) of the DH in general. Drucker (2011) argues for constructivist approaches as distinguishable features of humanistic inquiries in contrast to natural sciences. Clement (2016) hints that “methodological perspectives in the social sciences and the humanities might jointly engage reflexive processes and constructivist paradigms […].” Recently, a constructivist model has also been endorsed for laboratory knowledge practices (Malazita et al. 2020; Pawlicka-Deger 2020). The prolific rhetoric of constructivism also reveals a consensus concerning an idea that epistemic objects or knowledge productions are not simply given objectively, but socially and historically embedded (Hacking 2001; Golinski 1998). Implicitly, this is also tied to a contingency of knowledge claims, which gains particular social and political significance in a post truth era. Do constructivist approaches remain defensible and desirable in the light of current challenges we encounter as a research community? Could we retrieve more accurate accounts of geopolitical realities, cultural histories, or subaltern identities beyond constructivism? In other words, does a transformative potential lie in constructivism as the unique feature of DH, as Drucker (2012) postulated ten years ago?
+            </p>
+            <p>This short presentation seeks to investigate constructivist paradigms in DH research from an epistemological angle. I argue that constructivist paradigms, following Kuhn, have a profound impact on DH’s epistemic cultures, namely on the ways in which we think and collaborate beyond interdisciplinary boundaries. For regarding collaborations as opportunities, a knowledge of shared ideas and paradigms of our research community seems essential. Shifting the focus to enactments of constructivism, I attempt to study not only promises, implications, pitfalls of these paradigms in DH. Rather, this short presentation is an invitation to discuss variants of constructivism and consider possible alternatives to this prevalent paradigm (e.g., post-foundamentalism, actor-network theory, political ontology). Methodologically, I proceed as follows: starting with the semantic ambiguity of constructivism, I present different “constructivist” statements of DH scholars. What do DH scholars actual mean when they talk about or conduct constructivist research (Hacking 2001)? In a second step, I envision datafication and statistical humanistic reasoning as concrete examples of how constructivism is manifested in DH. </p>
+            <p>The terms 
+                <hi rend="italic">constructivism</hi> or 
+                <hi rend="italic">constructionism</hi> refer to several varieties of scientific approaches and their genealogies reach back to philosophy of the 18th century, mathematics, and art (Collin 2008: 12f.). As for the sociology of science, constructivism draws on the theoretical assumption that “the truth or falsehood of scientific beliefs derives not from their relation to the world but from the social arrangements of scientists” (Downes 1998: 624). This assumption leads to various different conclusions for epistemology and ontology in science. Constructivist approaches are often criticized against the backdrop of relativism. Social constructivists, however, criticize specific ideas of scientific objectivity (Reiss and Sprenger 2020; Daston and Galison 2010).
+                <ref target="#KLEYMANN_Rabea_Investigating_Constructivist_Paradigms_in_Dig.xml_ftn2" n="2"/> Especially feminist theorists have problematized the challenge to simultaneously account for a contingency of knowledge claims and acknowledge the existence of a material world as well as the responsibility of knowledge-making (Haraway 1988: 579; Latour 2003: 2; Barad 2007: 133). Thus, if the DH are committed to constructivist knowledge productions, this raises a question: how can DH scholars effectively address current social, ecological, and political crises? 
+            </p>
+            <p>Two case studies are shortly discussed. The first one dwells on processes of datafication in DH. One pertinent example is Drucker’s concept 
+                <hi rend="italic">capta</hi>, which she introduces to mark the constructivist underpinnings of data capturing in DH: “[W]e reconceive all data as capta. […] the terms data and capta make the distinction between constructivist and realist approaches clear” (Drucker 2011). Drucker’s concept is widely used in DH. Comparing concrete DH data settings from different papers and projects, I am interested in established structures and standards expressing constructivist paradigms. In doing so, I try to diversify alternative processes of datafication based on post-fundamentalistic approaches (Smithies 2014) or network frameworks (Loukissas 2019: 119). A second case study then brings into sharper focus the relation between reasoning and inferential statistics referring to constructivist paradigms. Discussing concrete quantitative approaches from computational text analysis, I discuss possible impacts of statistical measurements, for example the Bayes’ theorem or p-value, to constructivist approaches (e.g., Karsdrop et al. 2021: 227). In how far do statistical measurements relate to the contingency of knowledge claims in DH?
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="KLEYMANN_Rabea_Investigating_Constructivist_Paradigms_in_Dig.xml_ftn1">
+                     All German references are translated by the author of this paper. The author of the paper is entirely responsible for translation errors.
+                </note><note n="2" xml:id="KLEYMANN_Rabea_Investigating_Constructivist_Paradigms_in_Dig.xml_ftn2">
+                     Reiss and Spenger list different understandings of the term, for example objectivity as faithfulness to facts, absenced of normative commitments and the value-free ideal, freedom from personal bias, a feature of scientific communities and their practices etc.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Barad, Karen</author> (2007): 
+                        <hi rend="italic">Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning</hi>. Durham: Duke Univ. Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Clemont, Tanya E.</author> (2016): “Where is Methodology in Digital Humanities?“, in: Gold, Matthew K. / Klein, Lauren F. (eds): 
+                        <hi rend="italic">Debates in the Digital Humanities</hi> 2016, Minneapolis, MN: University of Minnesota Press, 2016. https://doi.org/10.5749/j.ctt1cn6thb.
+                    </bibl>
+                    <bibl>
+                        <author>Collin, Finn</author> (2008): 
+                        <hi rend="italic">Konstruktivismus</hi>. Paderborn: Fink.
+                    </bibl>
+                    <bibl>
+                        <author>Daston, Lorraine</author> / <author>Galison, Peter</author>  (2010): 
+                        <hi rend="italic">Objectivity</hi>. 1. paperback ed. New York: Zone Books.
+                    </bibl>
+                    <bibl>
+                        <author>Downes, Stephen M.</author> (1988): “Constructivism”, in: 
+                        <hi rend="italic">Routledge Encyclopedia of Philosophy</hi>, 1st ed. London: Routledge. https://doi.org/10.4324/9780415249126-Q017-1.
+                    </bibl>
+                    <bibl>
+                        <author>Drucker, Johanna</author> (2011): “Humanities Approaches to Graphical Display”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly </hi>5, 1. http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html.
+                    </bibl>
+                    <bibl>
+                        <author>Drucker, Johanna</author> (2012): “Humanistic Theory and Digital Scholarship”, in: Gold, Matthew K. (ed.): 
+                        <hi rend="italic">Debates in the Digital Humanities </hi>2012. Minneapolis, MN: University of Minnesota Press.
+                    </bibl>
+                    <bibl>
+                        <author>Evans, Leighton</author> / <author>Rees, Sian</author>  (2012): “An Interpretation of Digital Humanities”, in: Berry, David M. (ed.): 
+                        <hi rend="italic">Understanding Digital Humanities</hi>. Houndmills, New York, NY: Palgrave Macmillan 21–41.
+                    </bibl>
+                    <bibl>
+                        <author>Hacking, Ian</author> (2001): 
+                        <hi rend="italic">The Social Construction of What?,</hi> 7. print. Cambridge, Mass.: Harvard Univ. Press.
+                    </bibl>
+                    <bibl>
+                        <author>Haraway, Donna</author> (1988): “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective”, in: 
+                        <hi rend="italic">Feminist Studies</hi> 14, 3: 575–599. https://doi.org/10.2307/3178066.
+                    </bibl>
+                    <bibl>
+                        <author>Golinski, Jan</author> (1998): 
+                        <hi rend="italic">Making natural knowledge: constructivism and the history of science</hi>. Cambridge; New York: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Jannidis, Fotis</author> (2017): “Grundlagen der Datenmodellierung”, in Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.): 
+                        <hi rend="italic">Digital Humanities: Eine Einführung</hi>. Stuttgart: J.B. Metzler 99–107.
+                    </bibl>
+                    <bibl>
+                        <author>Karsdorp, Folgert</author> / <author>Kestemont, Mike</author> / <author>Ridell, Allen</author>  (2021): 
+                        <hi rend="italic">Humanities Data Analysis: Case Studies with Python</hi>. Princeton: Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Kuhn, Thomas S.</author> (1994): 
+                        <hi rend="italic">The Structure of Scientific Revolutions</hi>. Chicago: Chicago Univ. Press.
+                    </bibl>
+                    <bibl>
+                        <author>Latour, Bruno</author> (2003): “The promises of constructivism”, in: Ihde, Don / Selinger, Evan (eds.): 
+                        <hi rend="italic">Chasing Technoscience: Matrix for Materiality</hi>. Bloomington: Indiana University Press, 27–46.
+                    </bibl>
+                    <bibl>
+                        <author>Loukissas, Yanni A. </author>(2019): 
+                        <hi rend="italic">All Data Are Local: Thinking Critically in a Data-Driven Society</hi>. Cambridge Massachusetts, London England: The MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Malazita, James W.</author> / <author>Teboul, Ezra J.</author> / <author>Rafeh, Hined</author>  (2020): “Digital Humanities as Epistemic Cultures: How DH Labs Make Knowledge, Objects, and Subjects”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 14, 3. http://www.digitalhumanities.org/dhq/vol/14/3/000465/000465.html
+                    </bibl>
+                    <bibl>
+                        <author>Pawlicka-Deger, Urszula</author> (2020): “The Laboratory Turn: Exploring Discourses, Landscapes, and Models of Humanities Labs”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 14, 3. http://www.digitalhumanities.org/dhq/vol/14/3/000466/000466.html
+                    </bibl>
+                    <bibl>
+                        <author>Reiss, Julian</author> / <author>Sprenger, Jan</author>  (2020): “Scientific Objectivity”, in: Zalta, Edward N. (ed.): 
+                        <hi rend="italic">The Stanford Encyclopedia of Philosophy</hi>. Stanford University, 2020. https://plato.stanford.edu/.
+                    </bibl>
+                    <bibl>
+                        <author>Smithies, James</author> (2014): “Digital Humanities, Postfoundationalism, Postindustrial Culture”, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 8, 1. http://www.digitalhumanities.org/dhq/vol/8/1/index.htm
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Towards a Dynamic Knowledge Graph of a Non-Western Book Tradition</title>
+                <author n="KinitzDanielKINITZ_Daniel_Towards_a_Dynamic_Knowledge_Graph_of_a_Non_Wes.xml"><persName n="KinitzDaniel">
+                        <surname>Kinitz</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Saxon Academy od Sciences and Humanities, Germany</affiliation><email>kinitz@saw-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="EferThomasKINITZ_Daniel_Towards_a_Dynamic_Knowledge_Graph_of_a_Non_Wes.xml"><persName ref="https://orcid.org/0000-0002-8376-3884" n="EferThomas">
+                        <surname>Efer</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>Leipzig University</affiliation><email>efer@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>How can data on a pre-modern book tradition be integrated into meaningful associative relations? Creating a fact-provenance driven, agile knowledge graph, we integrate data on Arabic manuscripts within their socio-historical context and present challenges and problem solutions applicable for neighbouring disciplines.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Arabic</term>
+                    <term>knowledge graph</term>
+                    <term>history</term>
+                    <term>manuscripts</term>
+                    <term>topic maps</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>data modeling</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>Asian studies</term>
+                    <term>Computer science</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>How can we generate and integrate data on a pre-modern, Arabic book tradition in such a way that research can gain new insights? In the long-term project “Bibliotheca Arabica” (Brinkmann/Löhr 2021), we are creating an agile knowledge graph (Kinitz/Klemm 2020ff.) integrating a wide range of data on (handwritten) Arabic manuscripts and their historical context. The main sources for the long-term data integration are more than 250 volumes of manuscript catalogues, Linked Open Data as well as tens of thousands of manuscript documentary notes by readers, owners etc. Our aim is to create a digital research environment to investigate the production, transmission and reception of Arabic manuscripts and their social environment as clusters of linked entities: scholars linked to works with students as readers, reproduced by scribes in manuscripts, linked by ownership notes and combined to historical libraries, etc.</p>
+                <p>With this contribution, we aim to share our digital approaches that can promote the ongoing evolution in the field of contextualised distant readings of post-colonial intellectual history.</p>
+            </div>
+            <div type="div1">
+                <head>Challenges and Approaches</head>
+                <p>What are the challenges in developing such an integrated knowledge graph, and how can digital methods address them?</p>
+                <p>The 
+                    <hi rend="bold">first challenge</hi> is the integration of large resources that are heterogeneous in multiple ways regarding their 
+                </p>
+                <list type="unordered">
+                    <item>file formats (binary: scans, pdf, xlsx, db formats; text: xml, json, txt),</item>
+                    <item>structuredness (e.g. full text, semistructured, tables),</item>
+                    <item>languages (Arabic, Persian, Hebrew, English, German; partially mixed),</item>
+                    <item>alphabets (Arabic, Latin), transcription standards and intermixed writing directions (right to left, left to right), as well as</item>
+                    <item>ontologies – from undeclared catalogue ontologies to library-driven standards such as MARC21.</item>
+                </list>
+                <p>We address this challenge through agile data modelling/integration and a source-based, multi-layered ontology. This includes the distinction between raw data (catalogues, reference works, etc.), its representation within the project (atomised, quality checked) and its integration into the actual graph (entities connected through associations). While keeping identifiers persistent, an adjustable, permanently improved processing chain for every source with flexibility regarding changing research questions is enabled.</p>
+                <p>Modelling complex knowledge from manuscript catalogues while preserving provenance chains of fact(oid)s (Bradley/Short 2005) is the 
+                    <hi rend="bold">second challenge</hi>. Building on a Property Graph framework, we use associations inspired by the Topic Maps data model (ISO 2006) to connect entities in n-ary relations with an unlimited number of role players. These associations provide anchor points for the reification of relationships, much like RDF-Star does for RDF data. Building on this analogy, we implememt factoidal provenance chains (Efer 2019) for associations in a similar fashion to the PROV Ontology.
+                </p>
+                <p>The 
+                    <hi rend="bold">third challenge</hi> lies in a flexible authority control of entities, managing conflicting statements and authorship attributions. We do not have central authority records, but linked entity attestations. Identity claims are virtually merged; contradictory statements and authorship attributions are expressed as relations (associations) with their specific factoidal provenance.
+                </p>
+                <p>Our 
+                    <hi rend="bold">fourth challenge</hi> is postcolonial data infrastructures, such as international authority files and library systems, which ignore Arabic idiosyncrasies like complex person names and the non-Western Hijri calendar. Once imported, this kind of westernised data can be disambiguated, but not returned due to lack of exchange standards.
+                </p>
+                <p>The size and complexity of the graph and the evidence-focuseddata modelling lead to scalability and performance issues, which is our 
+                    <hi rend="bold">fifth challenge</hi>. We use caching mechanisms to reduce re-query runtime, a Lucenebased full text index for node discovery, and are working to further refine our graph queries. These are generally fast for small result sets and slower for large sets. We are experimenting with interactive queries that give the users feedback on the expected query time.
+                </p>
+                <p>A research platform may have conflicting objectives defined by potential target groups and respective functionalities – in our case a database as a robust, user-friendly reference work versus a research-driven prototype, integrating latest technologies. We have not yet developed an optimal solution to this 
+                    <hi rend="bold">sixth challenge</hi>. One possible approach is to use an experimental graph database prototype and, additionally, to run a simple but stable database using technically mature components.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Conclusion</head>
+                <p>A factoid-provenance driven, graph-based approach to intellectual history has the “revolutionary potential” (ADHO 2022) to challenge analogue historical narratives by enabling data-centric multidimensional and contradictory distant reading approaches. Within our domain, Arabic Studies and neighbouring fields, we can expect traditional narratives to be challenged – such as the subordinate role of the cultural “periphery” (versus the established centres) and the apparent decline of Arabic literature after its “classical” period.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alliance of Digital Humanities Organizations</author> (2022): "Digital Humanities 2023: Collaboration as opportunity", Conference Call, 
+                        <ref target="https://dh2023.adho.org/?page_id=308">https://dh2023.adho.org/?page_id=308</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Bradley, John</author> / <author>Short, Harold</author>  (2005): “Texts into Databases: The Evolving Field of New-style Prosopography”
+                        <hi rend="italic">, </hi>in: 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 20, Suppl Issue, 1-24.
+                    </bibl>
+                    <bibl>
+                        <author>Brinkmann, Stefanie</author> / <author>Löhr, Nadine</author>  (2021): “Bibliotheca Arabica – Towards a New History of Arabic Literature”, in: 
+                        <hi rend="italic">Comparative Oriental Manuscript Studies Bulletin</hi> 7, 197-206, 
+                        <ref target="https://www.fdr.uni-hamburg.de/record/9871">https://www.fdr.uni-hamburg.de/record/9871</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Efer, Thomas</author> (2019): “Graphbasierte Modellierung von Faktenprovenienz als Grundlage für die Dokumentation von Zweifel und die Auflösung von Widersprüchen
+                        <hi rend="italic">“, </hi>in: 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>, special issue 4, 
+                        <ref target="https://zfdg.de/sb004_011">https://zfdg.de/sb004_011</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>International Organization for Standardization</author> (2006): “Topic Maps – Part 2: Data model”, ISO/IEC Standard No. 13250-2:2006.
+                    </bibl>
+                    <bibl>
+                        <author>Kinitz, Daniel</author> / <author>Klemm, Verena</author>  (2020ff.): KHIZANA. Bibliotheca Arabica’s Reference Work on the Arabic Manuscript Tradition, 
+                        <ref target="https://khizana.bibliotheca-arabica.de">https://khizana.bibliotheca-arabica.de</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Model for Modeling Problems - Game Design as an Exercise in Formal Abstraction</title>
+                <author n="PielstrmSteffenPIELSTR_M_Steffen_A_Model_for_Modeling_Problems___Game_Desig.xml"><persName ref="https://orcid.org/0000-0003-1016-2911" n="PielstrmSteffen">
+                        <surname>Pielström</surname>
+                        <forename>Steffen</forename>
+                    </persName><affiliation>University of Würzburg, Germany</affiliation><email>pielstroem@biozentrum.uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WintjesJoritPIELSTR_M_Steffen_A_Model_for_Modeling_Problems___Game_Desig.xml"><persName ref="https://orcid.org/0000-0003-0367-6316" n="WintjesJorit">
+                        <surname>Wintjes</surname>
+                        <forename>Jorit</forename>
+                    </persName><affiliation>University of Würzburg, Germany</affiliation><email>jorit.wintjes@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Conflict simulations are a useful tool to confront students with the general problems of formalizing problems in abstracts models. In this showcase workshop participants will design games on a historical topic, play and compare their solutions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>modeling</term>
+                    <term>didactics</term>
+                    <term>history</term>
+                    <term>simulation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>data modeling</term>
+                    <term>meta-criticism (reflections on digital humanities and humanities computing)</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Games studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In research, complex realities are more often than not operationalized in abstract, usually simplifying models for analysis. This is especially true in many areas of the digital humanities that require a very formal modeling of a problem for a computational treatment. This kind of abstraction usually demands some degree of trade-off and simplification that needs to be aligned with the aims of the analysis. For example, in computational literary studies the emotional expression in a text has to be quantified in a sentiment score that somehow correlates with the reader’s intuition and corresponds to the phenomenon the researcher aims to describe. Therefore, the ability to formalize phenomena can be seen as one of the fundamental  skills needed in digital humanities research. 
+            </p>
+            <p>At the University of Würzburg students in the Digital Humanities BA programme for more than 10 years have been introduced to the basic act of creating abstract models of complex realities with all its potential pitfalls and necessary trade-offs in conflict simulation courses that usually deal with events in ancient or nineteenth century history (Wintjes &amp; Pielström 2018). Conflict simulations can be seen as interactive, abstract models of historical problems. Although they require no technical expertise by the participants, conflict simulations give students a first hand experience in designing, using and discussing models of events and phenomena analyzed in historical research (Kirschenbaum 2010, Sabin 2016). Does this simulation model the problem in question accurately? Does it include all the factors that are important from our current point of view? Are more simplifications possible? Does the model miss an important aspect? Students can discuss questions such as these and learn about the general problems they will encounter when modeling complex phenomena.</p>
+            <p>The workshop “Conflict Simulation as a Model for Modeling Problems - Game Design as an Exercise in Formal Abstraction” will introduce our concept of using conflict simulations as a didactical tool. It will allow the participants to attend themselves in a condensed, show-case conflict simulation course. </p>
+            <p>In the beginning, we will give an introduction to conflict simulations in general. The next step will be to introduce one specific historical problem that will serve as the topic of the simulations. Participants will then work in groups under close supervision on the fundamental problems of how to turn the outlined historical topic into a model, that is a playable game in this case. They will have to decide on how to model topography on a game board, which scale to use, which aspects to include, as well as if and how to simulate probabilistic processes. Participants will have access to a variety of analogue gaming materials - boards, counters, cards and dice - that they can utilize and adapt for their game design. Each group will have time to design, play-test and fine-tune its solution to the problem. In the afternoon, each group will have the opportunity to present its game to the other participants, and each participant is supposed to play the games designed by the other groups. At the end, the workshop will return to the more general problem of how to model a complex problem by discussing the differences between the games, their individual focusses and trade-offs with the designers.</p>
+            <p>The outcome of the group projects will be a number (one per group) of simple analogue games trying to model the same problem. There will be no digital hands-on component and no digital platform, as the workshop is not about digital skills, it is about the abstraction skills often needed to do research with digital tools. The aim of the format is to teach about the problems and pitfalls of abstraction that occur in modeling, analogue or digital, and thereby shape the process of modeling independent of a platform finally used. </p>
+            <div type="div1">
+                <head>Timetable and Organization</head>
+                <table xml:id="d249e185">
+                    <row>
+                        <cell rend="bold">Duration</cell>
+                        <cell rend="bold">Topic</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Part 1</cell>
+                    </row>
+                    <row>
+                        <cell>0-45 Min.</cell>
+                        <cell>Introduction to conflict simulations</cell>
+                    </row>
+                    <row>
+                        <cell>45-50 Min.</cell>
+                        <cell>Questions</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Part 2</cell>
+                    </row>
+                    <row>
+                        <cell>50-80 Min.</cell>
+                        <cell>Introduction to the historical problem</cell>
+                    </row>
+                    <row>
+                        <cell>80-90 Min.</cell>
+                        <cell>Questions</cell>
+                    </row>
+                    <row>
+                        <cell rend="italic">90-105 Min.</cell>
+                        <cell rend="italic">Coffee Break</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Part 3</cell>
+                    </row>
+                    <row>
+                        <cell>105-165 Min.</cell>
+                        <cell>Groups design and test their games</cell>
+                    </row>
+                    <row>
+                        <cell>165-205 Min.</cell>
+                        <cell rend="italic">Lunchbreak</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Part 4 </cell>
+                    </row>
+                    <row>
+                        <cell>205-265 Min.</cell>
+                        <cell>Groups design and test their games</cell>
+                    </row>
+                    <row>
+                        <cell rend="italic">265-280 Min.</cell>
+                        <cell rend="italic">Coffee Break</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Part 5</cell>
+                    </row>
+                    <row>
+                        <cell>280-345 Min.</cell>
+                        <cell>Playing other groups’ games</cell>
+                    </row>
+                    <row>
+                        <cell rend="bold">Part 6</cell>
+                    </row>
+                    <row>
+                        <cell>360-390 Min</cell>
+                        <cell>Final discussion</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1">
+                <head>Presenters</head>
+                <p>Jorit Wintjes studied ancient and modern history, Latin and ancient Greek at the University of Würzburg. He wrote a dissertation on the Antiochian orator Libanius and a Habilitationsschrift on the Roman naval forces in north western Europe. His research interests include ancient and pre-WWI military history, the role of women in warfare and the historical use of conflict simulations in officer training. He is a professor at the Würzburg Ancient History Department teaching in the history and digital humanities programmes.</p>
+                <p>Steffen Pielström studied biology at the University of Würzburg. He wrote a PhD thesis on organization processes, information use and decision making in ant societies. His current research interests include computational text analysis, the application of quantitative methodology in humanities research, and the simulation and modeling of conflicts. He currently works as a project coordinator at the Department of Literary Computing and teaches data analysis skills in the digital humanities programme.</p>
+            </div>
+            <div type="div1">
+                <head>Target audience and number of participants</head>
+                <p>Everyone interested in conflict simulations as a didactical tool. The workshop can accommodate up to 20 participants. No prior experience in working with conflict simulations is required, nor is any knowledge about the historical phenomenon that will serve as the case study.</p>
+            </div>
+            <div type="div1">
+                <head>Technical support</head>
+                <p>None beyond a beamer for the presentation.</p>
+            </div>
+            <div type="div1">
+                <head>Workshop length</head>
+                <p>One day. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kirschenbaum, Matthew </author>(2010): “Kriegsspiel as a Tool for Thought”, in: ADHO: 
+                        <hi rend="italic">Digital Humanities 2010 – </hi>
+                        <hi rend="italic">Book of Abstracts</hi>, London.
+                    </bibl>
+                    <bibl>
+                        <author>Sabin, Philip </author>(2016): “Wargames as an academic instrument”, in: Harrigan, Pat / Kirschenbaum, Matthew (eds.): Zones of Control. Perspectives on Wargaming. Cambridge, MA: MIT Press 421-438.
+                    </bibl>
+                    <bibl>
+                        <author>Wintjes, Jorit</author> / <author>Pielström, Steffen</author>  (2018): “Pluie de Balles - Complex Wargames in the Classroom”, in: 
+                        <emph>Analog Game Studies </emph>
+                        <emph>5, 3</emph>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

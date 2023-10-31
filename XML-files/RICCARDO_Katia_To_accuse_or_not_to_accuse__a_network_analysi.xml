@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>To accuse or not to accuse: a network analysis of incriminations in a medieval inquisition register</title>
+                <author n="RiccardoKatiaRICCARDO_Katia_To_accuse_or_not_to_accuse__a_network_analysi.xml"><persName n="RiccardoKatia">
+                        <surname>Riccardo</surname>
+                        <forename>Katia</forename>
+                    </persName><affiliation>Masaryk University, Czech Republic</affiliation><email>katia.riccardo@mail.muni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZbralDavidRICCARDO_Katia_To_accuse_or_not_to_accuse__a_network_analysi.xml"><persName ref="https://orcid.org/0000-0002-7903-2069" n="ZbralDavid">
+                        <surname>Zbíral</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>Masaryk University, Czech Republic</affiliation><email>david.zbiral@mail.muni.cz</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper we track some social mechanisms of incrimination through social network analysis of depositions in the inquisitorial trials in Bologna at the turn of the fourteenth century.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Social Network Analysis; Inquisition Records; Denunciation; Medieval History.</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Humanities computing</term>
+                    <term>Sociology</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Medieval inquisition registers allow to observe religious dissidents in their role in society and their action in the broader historical processes; they allow to answer questions such as how heterodox thoughts and behaviors spread within family and trade circles, in what milieu they find greater acceptance, what are the structures of implantation, what reactions does the presence of <hi rend="italic">heretics</hi> in a town or city bring about, etc. Therefore, inquisition records open up vast opportunities to theorise the mechanisms of human interaction at play both within and between dissidence and inquisition. Among these, <hi rend="bold">incriminations</hi> hold a special place: inquisitors would interrogate witnesses, looking for testimonies that would introduce new suspects, and suspects would deploy their own strategies – for example, to protect or harm others (Given, 1997). Born as part of a broader ongoing study on incrimination networks in the DISSINET project, this research looks at the register of the inquisition of Bologna (1291–1310), a very rich set of records that exhibits different kinds of juridical evidence providing a sizeable body of data on incriminations (who incriminated whom, when, and under what circumstances).</p>
+                <figure>
+                    <graphic n="1001" width="12.276666666666667cm" height="8.187152777777778cm" url="Pictures/faf8be84206b69df56beb02bfcbfa17e.png" rend="inline"/>
+                    
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Research problem</head>
+                <p>Most deponents in medieval inquisition trials ended up incriminating somebody. However, depositions yield quite diverse incrimination patterns, which are difficult to disentangle by close reading alone. For instance, a social network study of incrimination dynamics conducted in DISSINET has shown the tendency to protect congregation fellows and kinship members longer than others (Estévez et al., forthcoming). Other imbalances might be due to the targettedness of incriminations, such as in a Toulouse inquisition register from 1245–6, where Rehr (2019) has argued that the recorded incriminations were directed to members of consular families more than to others. It is thus crucial to have a look at the factors at play.</p>
+                <p>Inquisition records rarely give us any direct access to those factors. The standard narrative of incriminations in inquisition trials assigns crucial importance to physical <hi rend="bold">pressure</hi>, mainly imprisonment and torture. However, other factors might have been even more important. Here, quantitative analysis of incrimination patterns through methods of social network analysis methods comes into play, as they allow us to systematically compare the incrimination patterns and extract the candidate factors at work in nominating or concealing others.</p>
+            </div>
+            <div type="div1">
+                <head>Data </head>
+                <p>The register contains different kinds of juridical evidence, from summonses through depositions to sentences. Our sample is constituted of all individuals who either incriminated somebody or were in turn incriminated. It excludes persons only incidentally mentioned in a non-incriminating context. We collected data manually from the original Latin text (Paolini &amp; Orioli, ed., 1982) into a set of three interconnected tables:</p>
+                <list type="unordered">
+                    <item>Table of Depositions (N = 243) recording the identification numbers of the incriminating and incriminated persons, date, place of the hearing, etc.</item>
+                    <item>Table of Persons (N = 1,824) recording their names and attributes (e.g., sex, occupation, and place of residence) and social relations (e.g., kinship).</item>
+                    <item>Table of Locations (N = 757) recording location type and geographic coordinates.</item>
+                </list>
+                <p>In our study we first provide an assessment of five potential factors of incrimination:</p>
+                <list type="unordered">
+                    <item>Pressure by summoning a person again, thereby signalling to them that more information is expected. Here, we look at whether new depositions give more names on average than first depositions.</item>
+                    <item>Four factors of social closeness – kinship, sex, occupation, and place of residence. Here, we look at homophily, i.e., at whether deponents tend to incriminate more within or outside of their group.</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <p>The results show the <hi rend="bold">efficiency</hi> of inquisitorial pressure: as many as 96.7% of deponents incriminated somebody; 36.3% incriminated more than 5 people. Those submitted to the pressure of <hi rend="bold">repeated depositions</hi> (28 people) reported more names overall. </p>
+                <p>Interesting aspects emerge from studying <hi rend="bold">gender patterns</hi> in summoning and incriminations: Bologna inquisitors paid less attention to investigating women than men, as shown by the proportion of women among deponents (15.4%) compared to their proportion among the incriminated (28.3%).
+                        <lb/>Once deposing, men and women displayed no significant differences in the average number of people they incriminated. This is valid for both those who only deposed once and those who deposed repeatedly. We could have expected such gender differences due to different patterns of social interaction or, in the light of what we suggest above, different degrees of authority attributed to witnesses by the inquisitors. This was not the case. 
+                    </p>
+                <p>Also looking at the distribution of incriminations received, we spot no substantial difference between men and women.</p>
+                <figure>
+                    <graphic n="1002" width="10.671527777777778cm" height="10.671527777777778cm" url="Pictures/a21c6b29266f1edf9003146acc43e55b.png" rend="inline"/>
+                    <head>Figure 2: Box plot showing incriminations received by men and women</head>
+                </figure>
+                <p>One last element that emerged relates to <hi rend="bold">homophily</hi>, i.e. the tendency to associate with people who have similar characteristics. For incriminations where the given attribute is known for both nodes in a dyad, incriminations are moderately assortative by sex, residence, as well as occupation type; i.e., people tended to incriminate similar peers slightly more than dissimilar ones according to any of the three attributes we examined. Kinship homophily in incriminations is, interestingly, much lower.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bergemann, Patrick</author>
+                         (2019):
+                        <hi rend="italic">Judge Thy Neighbor: Denunciations in the Spanish Inquisition, Romanov Russia, and Nazi Germany.</hi>
+                         New York: Columbia University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Estévez, José Luis</author>
+                         /
+                        <author>Salihović, Davor</author>
+                         /
+                        <author>Sgourev, Stoyan</author>
+                         (forthcoming): Ad extorquendum veritatem: Denunciations at inquisitorial trial in the 14th century.
+                    </bibl>
+                    <bibl>
+                        <author>Given, James</author>
+                         (1997):
+                        <hi rend="italic">Inquisition and Medieval Society: Power, Discipline, and Resistance in Languedoc</hi>
+                        , Ithaca – London: Cornell University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Headworth, Spencer</author>
+                         (2019): "Getting to Know You: Welfare Fraud Investigation and the Appropriation of Social Ties", in:
+                        <hi rend="italic">American Sociological Review</hi>
+                        , 84(1), 171-196. 
+                    </bibl>
+                    <bibl>
+                        <author>Paolini, Lorenzo</author>
+                         /
+                        <author>Orioli, Raniero</author>
+                         (Eds.). (1982):
+                        <hi rend="italic">Acta S. Officii Bononie ab anno 1291 usque ad annum 1310</hi>
+                        , vol. 1-2. Roma: Istituto storico italiano per il Medio Evo.
+                    </bibl>
+                    <bibl>
+                        <author>Rehr, Jean-Paul</author>
+                         (2019): "Re-mapping the “Great Inquisition” of 1245–46: The case of Mas-Saintes-Puelles and Saint-Martin-Lalande", in: 
+                        <hi rend="italic">Open Library of Humanities</hi>
+                        , 5(1), pp. 1–52. DOI: https://doi.org/10.16995/olh.414.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Visualizing Cities: H.P. Lovecraft's Providence, Rhode Island</title>
+                <author n="SzaboVictoriaSZABO_Victoria_Visualizing_Cities__H_P__Lovecraft_s_Providen.xml"><persName n="SzaboVictoria">
+                        <surname>Szabo</surname>
+                        <forename>Victoria</forename>
+                    </persName><affiliation>Duke University, United States of America</affiliation><email>ves4@duke.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MonteleoneCosimoSZABO_Victoria_Visualizing_Cities__H_P__Lovecraft_s_Providen.xml"><persName n="MonteleoneCosimo">
+                        <surname>Monteleone</surname>
+                        <forename>Cosimo</forename>
+                    </persName><affiliation>University of Padova, Italy</affiliation><email>cosimo.monteleone@unipd.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The imagined urban landscapes, structures, and environments of writer H.P. Lovecraft’s Providence, RI play a central role in the development of his tales of horror, abomination, and wonder. This project repurposes the tools of digital art history and urbanism to create imaginative reconstructions of these locales across space and time.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>immersion</term>
+                    <term>visualization</term>
+                    <term>interaction</term>
+                    <term>literature</term>
+                    <term>media</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>public humanities collaborations and methods</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>user experience design and analysis</term>
+                    <term>virtual and augmented reality creation</term>
+                    <term>systems</term>
+                    <term>and analysis</term>
+                    <term>Communication studies</term>
+                    <term>Literary studies</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>HP Lovecraft is an early 20th century writer famous for his tales of horror and dark
+                imagination. His tombstone famously reads “I am Providence" and the city and its
+                environs figure prominently in his work. This project repurposes the tools of
+                digital art history and urbanism we have used in our collaborative,
+                interdisciplinary Visualizing Cities projects (Huffman et al. 2018) to create
+                spatialized imaginative reconstructions of some of these locales. Our interest in
+                focusing on fictive places is both because this approach offers a new way to engage
+                with literary texts and their imagined places, and because experimenting with an
+                imagined city frees us to explore techniques for representation and interpretation
+                that rely not only upon strict measurement and precise translation but also allow
+                for the affective, storytelling elements of spatial and immersive media forms. It
+                allows us to explore Mikhail Bakhtin’s literary chronotopes and theories of genre
+                and adaptation (Bakhtin 1982) in digital media, building on related work in literary
+                and film adaptation studies (Collington 2010). We draw upon the conceptual
+                organizational categories developed in work such as that of the <hi rend="italic">Chronotopic Topographies</hi> (U of Lancaster) project team (Bushall et al.
+                2021), but with an emphasis on historic maps, archives, 3D, and augmented reality
+                immersive experience design. </p>
+            <p>Lovecraft’s literary works promotes an unreal universe; one generated by the fears of
+                the unconscious that re-emerge in an apparent atmosphere of familiarity. By
+                deconstructing Lovecraft’s work, visualizing its scenes, and exploring its broader
+                symbolic landscape, our goal is to explore both the literature itself and the
+                hidden, vanished, counterfactual, and obscured past places and spaces that he
+                engages. Cities and architecture play a predominant role in Lovecraftian tales, and
+                he conducted extensive research for his tales (Joshi 2013, Poole 2016, Sederholm et
+                al. 2016). He fills crowded urban centers with magical and sinister vestiges, and
+                the natural environment with eerie and malevolent actors; what is more familiar
+                hides horror, abomination and wonder. Lovecraft’s writing reflects change over time
+                at varying scales: rooms, cells, hidden corners, corridors and halls; but also
+                squares, roads, countryside and woods. All of these places are described in size and
+                shape and by wall covering materials, floors and ceilings, and mobile and fixed
+                furniture. Through visual, haptic and olfactory experiences, the encounters the
+                maximum power of the perturbing imaginary. </p>
+            <p>Further, Lovecraft’s tales have also already been adapted, interpreted, and
+                re-imagined through various media - films, images, comics, games. They form a part
+                of the history of science fiction and the inheritance of the gothic. They are a rich
+                source of inspiration to fans and pilgrims, as local guidebooks and specialty press
+                publications show (Beckwith 1986; Pearsall and Franks 2005; Poole 2016). In our own
+                adaptation we are interested into tapping into additional states of cognition and
+                experience borne of such adaptation, remediation and fan fervor in order to
+                complement a more analytical and critically distant approach to the work. In
+                creating our visualizations, we draw upon Robert Talley’s discussion of spatial
+                anxiety and tophrenia in literature (Talley 2018), and take inspiration from critics
+                like Janet Murray (Murray 2017) and Marie-Laure Ryan (Ryan 2015) and through guides
+                to virtual reality and digtal storytelling authorship (Bucher 2017; McEarlean 2018;
+                Alexander 2017).</p>
+            <p>We begin with <hi rend="italic">The Case of Charles Dexter Ward</hi>. CDW tells the
+                story of a scholarly young man who conjures a famous ancestor, Joseph Curwen, whose
+                necromancy had horrified his hometown of Providence 150 years earlier. Lovecraft
+                describes layers of urban history and architecture, the characters who inhabit it,
+                and the feelings these elements evoke in his protagonists. We are exploring these
+                levels and layers by creating maps, apps, images, texts, audio, and models based
+                upon them. Like others in his oeuvre, this tale operates at the scales of buildings
+                and rooms; city and neighborhood; region: world and the various interior states of
+                key characters, and across time. This project unpacks and presents these narrative
+                elements through complementary modalities of comprehension and apprehension;
+                immersive experience design; adaptation through sensory experience; visual
+                perception and memory; and the conjunction of reality and imagination. The complex,
+                layered plotting of the tale allows for thick description of a world in which the
+                presence of the past haunts lived experience in the everyday, and in which
+                antiquarian enthusiasm literally and figuratively channel unexpected ghosts. We
+                argue that the underlying patterns of the narrative are revealed through a
+                visualization process that foregrounds spatiality and temporal re-ordering –
+                rendering them visible for both critical examination and enhanced affective
+                response. </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="9.001125cm" url="Pictures/1d45c006a7284b73cfaae7ff8c37c55e.png" rend="inline"/>
+                <head>Figure 1: Perspectives on visualizing the spaces and places of Lovecraft’s
+                    Providence in Charles Dexter Ward. Interactive historical GIS map with text
+                    locales; contemporary panorama and MS reference insets; 3D building
+                    reconstruction juxtaposed with relevant text; location-based augmented reality
+                    immersive 3D walk-in environment and site map inferred from the text.</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Alexander, Bryan </author>(2017):
+                            <hi rend="italic">The New Digital Storytelling: Creating Narratives with
+                            New Media</hi>. New York: Praeger. </bibl>
+                    <bibl><author>Bakhtin, Mikhail </author>(1981):
+                        “Forms of Time and the Chronotope of the Novel.” <hi rend="italic">The
+                            Dialogic Imagination</hi>. Texas. </bibl>
+                    <bibl><author>Beckwith, Henry </author>(1986):
+                            <hi rend="italic">Lovecraft's Providence and Adjacent Parts</hi>.
+                        Hampton Fall, NH: Donald Grant. </bibl>
+                    <bibl><author>Bucher, John </author>(2017): <hi rend="italic">Storytelling for Virtual Reality Methods and Principles
+                            for Crafting Immersive Narratives</hi>. New York: Routledge. </bibl>
+                    <bibl><author>Bushell, Sally</author> / <author>Butler, James</author> / <author>Hay, Duncan</author> / <author>Hutcheon, Rebecca</author> / <author>Butterworth, Alex</author> (2021).
+                        “Chronotopic Cartography: Mapping Literary Time-Space.” <hi rend="italic">Journal of Victorian Culture</hi> 26,2: 310–325. </bibl>
+                    <bibl><author>Collington, Tara </author>(2010):
+                        “The Chronotope and the Study of Literary Adaptation:The Case of Robinson
+                        Crusoe.”
+                        <hi rend="italic">Bakhtin’s Theory of the Literary Chronotope Reflections, Applications, Perspectives. </hi>Gent:
+                        Academic Press. </bibl>
+                    <bibl><author>Huffman, Kristin L.</author> / <author>Giordano, Andrea</author> / <author>Bruzelius, Caroline eds.</author> (2018
+                        <hi rend="italic">) Visualizing Venice: Mapping and Modeling Time and Change in a City. </hi>New
+                        York: Routledge. </bibl>
+                    <bibl><author>Joshi, S.T. </author>(2013):
+                        <hi rend="italic">I Am Providence: The Life and Times of H. P. Lovecraft. </hi>New
+                        York: Hippocampus Press. </bibl>
+                    <bibl><author>McErlean, Kelly </author>(208): <hi rend="italic">Interactive Narratives and Transmedia Storytelling:
+                            Creating Immersive Stories Across New Media Platforms</hi>. New York:
+                        Routledge. </bibl>
+                    <bibl><author>Murray, Janet H. </author>(2017):
+                            <hi rend="italic">Hamlet on the Holodeck: The Future of Narrative in
+                            Cyberspace</hi> . Cambridge: MIT Press.. </bibl>
+                    <bibl><author>Pearsall, Anthony</author> / <author>Franks, Linda Joyce</author> (2005): <hi rend="italic">The Lovecraft Lexicon: A
+                            Reader's Guide to Persons, Places and Things in the Tales of H.P.
+                            Lovecraft</hi>. New Falcon </bibl>
+                    <bibl><author>Poole, W. Scott </author>(2016):
+                            <hi rend="italic">In the Mountains of Madness: The Life and
+                            Extraordinary Afterlife of H.P. Lovecraft</hi>. New York: Soft Skull
+                        Press . </bibl>
+                    <bibl><author>Ryan, Marie-Laure </author>(2015):
+                            <hi rend="italic">Narrative as Virtual Reality 2</hi>. Baltimore: Johns
+                        Hopkins University Press. </bibl>
+                    <bibl><author>Sederholm, Carl.</author> / <author>Jeffrey Andrew Weinstock, editors</author> (2016). <hi rend="italic">The Age of
+                            Lovecraft</hi> . Minneapolis: U of Minnesota Press. </bibl>
+                    <bibl><author>Tally, Robert. </author>(2018): <hi rend="italic">Topophrenia: Place, Narrative, and the Spatial
+                            Imagination</hi>. Bloomington, IN: Indiana University Press. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

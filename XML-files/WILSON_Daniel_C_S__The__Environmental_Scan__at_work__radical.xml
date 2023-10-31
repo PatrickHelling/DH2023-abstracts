@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The ‘Environmental Scan’ at work: radical contextualisation of newspaper collections for new historical research</title>
+                <author n="BeelenKasparWILSON_Daniel_C_S__The__Environmental_Scan__at_work__radical.xml"><persName ref="https://orcid.org/0000-0001-7331-1174" n="BeelenKaspar">
+                        <surname>Beelen</surname>
+                        <forename>Kaspar</forename>
+                    </persName><affiliation>The Alan Turing Institute, United Kingdom</affiliation><email>kbeelen@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LawrenceJonWILSON_Daniel_C_S__The__Environmental_Scan__at_work__radical.xml"><persName ref="https://orcid.org/0000-0001-6561-6381" n="LawrenceJon">
+                        <surname>Lawrence</surname>
+                        <forename>Jon</forename>
+                    </persName><affiliation>University of Exeter</affiliation><email>j.lawrence3@exeter.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="McDonoughKatherineWILSON_Daniel_C_S__The__Environmental_Scan__at_work__radical.xml"><persName ref="https://orcid.org/0000-0001-7506-1025" n="McDonoughKatherine">
+                        <surname>McDonough</surname>
+                        <forename>Katherine</forename>
+                    </persName><affiliation>The Alan Turing Institute, United Kingdom</affiliation><email>kmcdonough@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WesterlingKalleWILSON_Daniel_C_S__The__Environmental_Scan__at_work__radical.xml"><persName ref="https://orcid.org/0000-0002-2014-332X" n="WesterlingKalle">
+                        <surname>Westerling</surname>
+                        <forename>Kalle</forename>
+                    </persName><affiliation>The Alan Turing Institute, United Kingdom; British Library</affiliation><email>kalle.westerling@bl.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WilsonDanielCSWILSON_Daniel_C_S__The__Environmental_Scan__at_work__radical.xml"><persName ref="https://orcid.org/0000-0001-6886-775X" n="WilsonDanielCS">
+                        <surname>Wilson</surname>
+                        <forename>Daniel C.S.</forename>
+                    </persName><affiliation>The Alan Turing Institute, United Kingdom</affiliation><email>dwilson@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper demonstrates the power of the ‘Environmental Scan': a new approach to newspaper collections using nineteenth-century reference works to leverage powerful contextual information. Our method uses British collections, but could be replicated for other nations, and was made possible by a radical collaboration between librarians, historians and data scientists.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Newspapers</term>
+                    <term>Metadata</term>
+                    <term>Media Archaeology</term>
+                    <term>History</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>media archaeology</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>History</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This paper will demonstrate the practical potential of the 'Environmental Scan' – a new approach to working with large newspaper collections. The Environmental Scan uses newly digitised nineteenth-century reference works to bring powerful contextual information into connection with historical research using newspapers for the first time. Our method is based on British collections, but could be replicated for other nations and languages. The approach we used was only possible due to an ongoing collaboration between librarians, historians and data scientists, and their respective institutions. Large full-text newspaper collections – such as those held by the British Library – contain enormous amounts of data, but also highly complex metadata, which traditionally exists in catalogue records at different levels of detail and granularity. Nonetheless, a relatively limited amount of newspaper metadata has hitherto been captured in library catalogues. Among the many challenges of information management in relation to newspaper collections, is the complex and shifting metadata that results from the serial nature of newspaper publication. The limitations of record management systems and standards have, for example, made it difficult to capture changing titles as publications merge, separate, or change their geographical circulation. Other kinds of title-specific metadata such as price-points, ownership, target audience and political leaning would not normally be described in library records, and yet are fundamental attributes of these items. </p>
+            <p>The Environmental Scan undertakes the simple, yet Herculean task of locating all of the above information (and more) using contemporary Press Directories which we have digitised and processed. From the resulting parsed data, we have painstakingly identified and linked the enhanced metadata to the correct newspaper titles, and matched titles as they changed over time. The result is a set of highly valuable, enriched metadata which can be used by researchers to understand the context of newspapers they may be querying digitally, or in hardcopy. Does a physical or digitised collection exclude the penny press? Is it biased towards newspapers from particular regions? In the case of digitised collections, as the text-mining of the newspapers becomes ubiquitous, the perennial question of audience looms even larger: who was reading which newspapers, and for any given sample, how representative is it of the larger newspaper readership, and of the public as a whole? The 'Environmental Scan' can help researchers address these questions by allowing the creation of representative sub-samples of newspaper collections according to price-point, geography and – crucially – political leaning. In this way, using enriched metadata helps avoid the 'bag of words' problem faced by so much research based on the indiscriminate text-mining of large text corpora. By re-connecting the content of newspapers (text) with the rich information about their social and economic context (metadata) we can move towards more meaningful results to a variety of domain-specific questions.</p>
+            <p>This paper develops and extends the approach set out in Beelen et al. (2023) and showcases the ways in which the principle of the 'scan' can be put to work for new forms of historical research. We focus on two of the many variables created by the Environmental Scan: a) political leaning and b) circulation geographies. In each case we demonstrate the power of this approach by visualising the evolution of the press through the prism of variables derived from 'Victorian' metadata gleaned from the press directories. We inspect the changing practices of political categorisation of newspapers, calculating the distribution of labels such as 'liberal' or 'independent' over time, but also scrutinise the stability of these labels. How often did directories register a change in a newspaper's professed political orientation, and can we observe a historical pattern? Secondly, we turn to circulation: using a new toponym identification and linking tool specifically tailored to working with historical newspaper data (in English), we attempt to refine our spatial understanding of readership by inspecting the localities, both big and small, in which newspapers claimed to have an audience, which we are now able to visualise in innovative ways.</p>
+            <p>Linking contemporary context about newspapers with pre-existing catalogue records and the full-text data enriches our view of the world of news, as it still exists in libraries. Political alignment and the spatial footprint of a newspaper are basic categories of information that, when added to existing metadata about publication dates or titles can dramatically improve meaningful discovery and analysis of the content within these collections.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Beelen, Kaspar et al </author>
+                        (2023): ‘Bias and Representativeness in Digitized Newspaper Collections: Introducing the Environmental Scan’, 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>. DOI: https://doi.org/10.1093/llc/fqac037
+                    </bibl>
+                    <bibl>
+                        <author>Brake, Laurel </author>
+                        (2015): “Nineteenth-Century Newspaper Press Directories: The National Gallery of the British Press.” 
+                        <hi rend="italic">Victorian Periodicals Review </hi>48.4: 569–90. DOI: https://doi.org/10.1353/vpr.2015.0055
+                    </bibl>
+                    <bibl>
+                        <author>Coll Ardanuy, Mariona </author>
+                        et al (2019); “Resolving Places, Past and Present: - Toponym Resolution in Historical British Newspapers Using Multiple Resources.” In 
+                        <hi rend="italic">Proceedings of the 13th Workshop on Geographic Information Retrieval</hi>: 1-6. DOI: https://doi.org/10.1145/3371140.3371143
+                    </bibl>
+                    <bibl>
+                        <author>Fyfe, Paul </author>
+                        (2018): ‘Access, Computational Analysis, and Fair Use in the Digitized Nineteenth-Century Press’, 
+                        <hi rend="italic">Victorian Periodicals Review </hi>51.4: 716–37. DOI: 
+                        <ref target="https://doi.org/10.1353/vpr.2018.0051">https://doi.org/10.1353/vpr.2018.0051</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Fyfe, Paul </author>
+                        (2016); ‘An Archaeology of Victorian Newspapers’, 
+                        <hi rend="italic">Victorian Periodicals Review</hi> 49.4: 546–77. DOI: https://doi.org/10.1353/vpr.2016.0039
+                    </bibl>
+                    <bibl>
+                        <author>Hobbs, Andrew </author>
+                        (2018):
+                        <hi rend="italic">A Fleet Street in Every Town: The Provincial Press in England, 1855-1900</hi>. Cambridge: Open Book Publishers.
+                    </bibl>
+                    <bibl>
+                        <author>Lansdall-Welfare, Thomas, </author>
+                        et al. (2017): “Content Analysis of 150 Years of British Periodicals.” 
+                        <hi rend="italic">Proceedings of the National Academy of Sciences </hi>114.4: E457–65. DOI: https://doi.org/10.1073/pnas.1606380114
+                    </bibl>
+                    <bibl>
+                        <author>Mussell, James </author>
+                        (2014): “Elemental Forms: The Newspaper as Popular Genre in the Nineteenth Century.” 
+                        <hi rend="italic">Media History </hi>20.1: 4–20. DOI: https://doi.org/10.1080/13688804.2014.880264
+                    </bibl>
+                    <bibl>
+                        <author>Neudecker, Clemens and Apostolos Antonacopoulos </author>
+                        (2016): “Making Europe’s Historical Newspapers Searchable.” In 
+                        <hi rend="italic">12th IAPR Workshop on Document Analysis Systems</hi>: 405–10. DOI: https://doi.org/10.1109/DAS.2016.83
+                    </bibl>
+                    <bibl>
+                        <author>Verheul, Jaap, </author>
+                        et al. (2022): “Using Word Vector Models to Trace Conceptual Change over Time and Space in Historical Newspapers, 1840–1914.” 
+                        <hi rend="italic">Digital Humanities Quarterly </hi>16.2. DOI: http://www.digitalhumanities.org/dhq/vol/16/2/000550/000550.html
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

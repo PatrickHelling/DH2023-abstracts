@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I-Analyzer: a flexible interface for full-text search, filtering and visualization</title>
+                <author n="JanssenBeritVAN_STIPHOUT_Mees_I_Analyzer__a_flexible_interface_for_full_.xml"><persName ref="https://orcid.org/0000-0001-7218-7642" n="JanssenBerit">
+                        <surname>Janssen</surname>
+                        <forename>Berit</forename>
+                    </persName><affiliation>Utrecht University, the Netherlands</affiliation><email>b.d.janssen@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StiphoutMeesVAN_STIPHOUT_Mees_I_Analyzer__a_flexible_interface_for_full_.xml"><persName n="StiphoutMees">
+                        <surname>Stiphout</surname>
+                        <forename>Mees</forename>
+                    </persName><affiliation>Utrecht University, the Netherlands</affiliation><email>m.vanstiphout@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanderPlasLukaVAN_STIPHOUT_Mees_I_Analyzer__a_flexible_interface_for_full_.xml"><persName ref="https://orcid.org/0000-0002-0217-7948" n="vanderPlasLuka">
+                        <surname>van der Plas</surname>
+                        <forename>Luka</forename>
+                    </persName><affiliation>Utrecht University, the Netherlands</affiliation><email>l.p.vanderplas@uu.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>I-Analyzer allows to search, filter and visualize text data from various humanities disciplines. We describe the functionality of the tool, how it can be extended, and its use in research to this point.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>distant reading</term>
+                    <term>indexing</term>
+                    <term>full-text search</term>
+                    <term>visualization</term>
+                    <term>corpus studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>concordancing and indexing</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Political science</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Distant reading in a corpus of text resources is a recurring need in digital humanities research. It allows for quick extraction of key words and phrases from a text, see patterns in texts over time, or find a relevant subset of documents for close reading. With the availability of newspaper corpora with sufficient OCR quality and high-quality metadata, Utrecht University’s Research Software Lab started development on the newspaper corpus tool <hi rend="italic">I-analyzer</hi> in 2016. From the start, the goal of I-analyzer has been to provide researchers and students with the stepping stones that distant reading and other text mining can supply, without them having to be proficient coders. Built to be compatible with different data formats (currently xml, csv, and html) and configurable to collect and index text and most
+                        <lb/>types of metadata, I-Analyzer has since been extended with many digital humanities corpora - newspapers and otherwise - as well as more visualization and search functionality.
+                    </p>
+            <p>Other text mining applications have also been built for this goal, such as <hi rend="italic">Delpher</hi> (Der Weduwen 2015) or <hi rend="italic">Voyant Tools</hi> (Sinclair / Rockwell 2012), but they either do not provide the option to work with multiple corpora, or they do not offer full-text search, or filtering and visualization through metadata. The <hi rend="italic">Gale Digital Scholar</hi> tool does offer all these functionalities to some extent, but, unlike I-Analyzer, it is a commercial product that researchers (or their affiliated institutions) need to pay to use. I-Analyzer is open-source, and several of the corpora hosted on the platform are as well, which means that anyone can use and even adapt I-Analyzer and the open-source corpora hosted there.</p>
+            <p>New corpora can be added to I-Analyzer relatively quickly, by defining the format of the source data. Data are indexed using <hi rend="italic">Elasticsearch</hi>, which enables fast full-text search and filtering. The user is presented with an interface resembling a search engine: using a search bar and a side bar of metadata filters, they can inspect documents matching their search for close reading or download a subset of the corpus to process further offline. Currently, visualization options include document- and term frequency of the search term, as well as a representation of the most frequent n-grams including the search term. Moreover, for selected text corpora, diachronic word models were trained using Word2Vec (Mikolov et al. 2013) to inspect which words co-occur most frequently with a given search term over time, comparable to capabilities of <hi rend="italic">ShiCo</hi> (Martinez-Ortiz et al. 2016) or <hi rend="italic">Hansard-shiny</hi>.</p>
+            <p>I-Analyzer has been used in various research projects, ranging from the impact of translations on reader experience through book reviews (Kotze et al. 2021), the occurrence of concepts and names on Jewish funerary inscriptions (Saar 2021) to the conceptual history of words surrounding democracy in parliamentary speeches (Ihalainen et al. 2022). Currently, we are working on extending the infrastructure such that it is going to be possible for corpora to be added by researchers themselves, without the need for one of our developers to directly oversee this process. To this end, we invite feedback on the interface, and look forward to further contribute to the field of Digital Humanities with our continued development and support of I-Analyzer.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ihalainen, Pasi</author> / <author>Janssen, Berit</author> / <author>Marjanen, Jani</author> / <author>Vaara, Ville</author> 
+                         (2022). “Building and Testing a
+                            <lb/>Comparative Interface on Northwest European Historical Parliamentary Debates: Relative
+                            <lb/>Term Frequency Analysis of British Representative Democracy.” In 
+                        
+                        <hi rend="italic">CEUR Workshop
+                            <lb/>Proceedings
+                        </hi>
+                         (Vol. 3133). CEUR-WS.
+                    </bibl>
+                    <bibl>
+                        <author>Kotze, Haidee</author> / <author>Janssen, Berit</author> / <author>Koolen, Corina</author> / <author>van der Plas, Luka</author> / <author>Van Egdom, Gys-Walt</author> 
+                         (2021). “Norms, affect and evaluation in the reception of literary translations in multilingual online reading communities: Deriving cognitive-evaluative templates from big data.”
+                        <hi rend="italic">Translation, Cognition
+                            <lb/>&amp; Behavior
+                        </hi>
+                        , 4(2), 147-186.
+                    </bibl>
+                    <bibl>
+                        <author>Martinez-Ortiz, Carlos</author> / <author>Kenter, Tom</author> / <author>Wevers, Melvin</author> / <author>Huijnen, Pim</author> / <author>Verheul, Jaap</author> / <author>Van Eijnatten, Joris</author> / <author>... &amp; Van den Bosch, Antal</author> 
+                         (2016). “Design and implementation of ShiCo: Visualising shifting concepts over time.”
+                        <hi rend="italic">HistoInformatics</hi>
+                        , 1632, 11-19.
+                    </bibl>
+                    <bibl>
+                        <author>Mikolov, Tomas</author> / <author>Sutskever, Ilya</author> / <author>Chen, Kai</author> / <author>Corrado, Greg S.</author> / <author>Dean, Jeff</author> 
+                         (2013). “Distributed
+                            <lb/>representations of words and phrases and their compositionality.”
+                        
+                        <hi rend="italic">Advances in neural
+                            <lb/>information processing systems
+                        </hi>
+                        , 26.
+                    </bibl>
+                    <bibl>
+                        <author>Saar, Ortal-Paz</author>
+                         (2021). The PEACE Portal-Revisiting the Sea of Stone. DH Benelux 2021, 1-21.
+                            <lb/>Sinclair, S., &amp; Rockwell, G. (2012). “Teaching computer-assisted text analysis: Approaches to
+                            <lb/>learning new methodologies.”
+                        
+                        <hi rend="italic">Digital Humanities Pedagogy: Practices, Principles, and
+                            <lb/>Politics
+                        </hi>
+                        , 241-63.
+                    </bibl>
+                    <bibl>
+                        <author>der Weduwen, Arthur. T.</author>
+                         (2015). “Towards a complete bibliography of seventeenth-century Dutch
+                            <lb/>newspapers: Delpher and its applications.”
+                        
+                        <hi rend="italic">Tijdschrift voor Tijdschriftstudies</hi>
+                        .
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

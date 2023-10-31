@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Metadata Enrichment in the Living with Machines Project: User-focused Collaborative Database Development in a Digital Humanities Context</title>
+                <author n="WesterlingKalleWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0002-2014-332X" n="WesterlingKalle">
+                        <surname>Westerling</surname>
+                        <forename>Kalle</forename>
+                    </persName><affiliation>British Library/The Alan Turing Institute, United Kingdom</affiliation><email>kalle.westerling@bl.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BeavanDavidWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0002-0347-6659" n="BeavanDavid">
+                        <surname>Beavan</surname>
+                        <forename>David</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>dbeavan@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BeelenKasparWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0001-7331-1174" n="BeelenKaspar">
+                        <surname>Beelen</surname>
+                        <forename>Kaspar</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>kbeelen@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CollArdanuyMarionaWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0001-8455-7196" n="CollArdanuyMariona">
+                        <surname>Coll Ardanuy</surname>
+                        <forename>Mariona</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>mcollardanuy@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HobsonTimothyWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0002-5653-527X" n="HobsonTimothy">
+                        <surname>Hobson</surname>
+                        <forename>Timothy</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>thobson@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LastChristinaWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0002-4263-8518" n="LastChristina">
+                        <surname>Last</surname>
+                        <forename>Christina</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>lastc@mit.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PedrazziniNiloWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName ref="https://orcid.org/0000-0003-3757-2961" n="PedrazziniNilo">
+                        <surname>Pedrazzini</surname>
+                        <forename>Nilo</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>npedrazzini@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ReeseGriffithWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName n="ReeseGriffith">
+                        <surname>Reese</surname>
+                        <forename>Griffith</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>grees@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LukeHareWESTERLING_Kalle_Metadata_Enrichment_in_the_Living_with_Mach.xml"><persName n="LukeHare">
+                        <surname>Luke</surname>
+                        <forename>Hare</forename>
+                    </persName><affiliation>The Alan Turing Institute</affiliation><email>lhare@turing.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Living with Machines rethinks the impact of technology on the lives of ordinary people during the Industrial Revolution. The project queries metadata for large-scale newspaper collections. This poster describes the workflow of building a database infrastructure that facilitates quicker and easier humanities research on heterogeneous and complex newspaper data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>database</term>
+                    <term>historical newspapers</term>
+                    <term>Victorian England</term>
+                    <term>Django</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>History</term>
+                    <term>Library &amp; information science</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Living with Machines (LwM) brings historians, data scientists, geographers, computational linguists, and curators together to explore the impact of technology on the lives of ordinary people during the Industrial Revolution. The project harnesses the combined power of massive digitised historical collections and computational tools to examine ways in which technology altered the fabric of human existence on a hitherto unprecedented scale. We use 100+ billion words (20+ terabytes) of 19th century newspaper textual data, and related metadata jointly digitised by the British Library, FindMyPast and Jisc. The ability to spatially and temporally query across this data at scale is crucial. The project shares these challenges with other projects that rely on similar content, such as Oceanic Exchanges (Beals / Bell 2020), Impresso (Romanello et al. 2020), and NewsEye (Jean-Caurant / Doucet 2020). Unlike many of those projects, we did not intend to build a search interface. Rather, we collaboratively developed infrastructure to analyse data in an efficient, reproducible way to answer research questions.</p>
+            <p>We collaborated with LwM’s researchers to identify use cases for the newspaper metadata and saw the need for a flexible digital research infrastructure to improve our pipeline and provide a generalizable resource for other researchers working on historical newspaper collections. This poster targets digital humanities researchers working on large-scale historical newspaper collections with an aim to remove technical barriers to make humanities research on large, heterogeneous, and complex newspaper data collections quicker, easier and more reproducible.</p>
+            <p>With a team fluent in Python and where Python is the predominant language across packages we used and built, we chose to work with Django: a Python package primarily used for fullstack web development. We chose it because of its well documented and intuitive implementation of an Object Relational Mapper (ORM) to provide an Python API layer between the database backend and the “frontend” where researchers would use Jupyter notebooks for accessing the database through the Python layer. The GeoDjango features also offered a straightforward method to store and spatially query our geocoded data. Our work was structured in a five-step parallel and iterative process: Designing, Developing, Deploying, and, finally, Documentation and Dissemination (Ahnert et al. 2023). Consequently, this poster describes the radically collaborative workflow of building, packaging, and disseminating the database infrastructure, the software layer, and the populated database.</p>
+            <p>In the design phase, the 15–20 person team met in six hybrid full-day workshops discussing early prototypes developed by research software engineers and research data scientists. These workshops aimed to utilise the team’s multidisciplinary expertise and collaborative project community to combine structured data from historical documents, including press directories and gazetteers, beyond the newspapers (Beelen et al. 2022). They also aimed to reduce barriers caused by specialist language by establishing mutual vocabularies, clarifying data flows, and providing example code to demonstrate the database’s possibilities for different levels of technological background for different team members.</p>
+            <p>During the development phase, the project’s programmers utilised tools built by the project in a three-step process. The first step disambiguated different XML flavours for post-digitisation metadata, including Optical Character Recognition (OCR) and layout detection into standardised, minimal amount of metadata using the alto2txt tool (Smith et al. 2022). In the second step, the metadata was transformed into files for easier ingestion by Django. Finally, the backend Python/Django solution was built in its own repository (Beavan et al. 2023), facilitating containerisation in the next phase.</p>
+            <p>The deployment phase aimed to create a sustainable solution that could outlast the LwM’s timeline by containerising the Django/Postgres backend database with PostGIS extension in Docker images. This allowed easy redeployment and use across different operating systems and architecture, making the data and code open-access and open-source. A continuous integration, testing, linting, and deployment workflow was implemented, alongside deployment and user testing via the project’s Microsoft Azure-based virtual machines.</p>
+            <p>The documentation and dissemination phase was integral throughout the process, with an assigned lead maintaining a user-centred focus by creating tutorials, Jupyter notebooks, and detailed instructions during package design, development, and deployment. The dissemination phase aimed to build a user community by following good documentation practices and ideas for building engaged potential user communities with clear examples and tutorials. It also aimed to build contributor communities, with the software available in a GitHub repository to attract potential open-source collaborators (i.e. other Research Software Engineers, etc.) who would get appropriate credit for their code contributions. Here, we followed industry standards in providing transparent instructions for potential maintainers and contributors to the codebase (Trinkenreich et al. 2020; Katz et al. 2019; Pinto / Steinmacher / Gerosa 2016; Dias et al. 2021).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ahnert, Ruth</author> / <author>Griffin, Emma</author> / <author>Tolfo, Giorgia</author> / <author>Ridge, Mia</author>  (2023): 
+                        <hi rend="italic">Collaborative Historical Research in the Age of Big Data: Lessons from an interdisciplinary project</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Beals, H. M.</author> / <author>Bell, Emily</author>  (2020): 
+                        <hi rend="italic">The Atlas of Digitised Newspapers and Metadata: Reports from Oceanic Exchanges</hi>. Loughborough University. https://figshare.com/articles/online_resource/The_Atlas_of_Digitised_Newspapers_and_Metadata_Reports_from_Oceanic_Exchanges/11560059/2 [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Beavan, David</author> / <author>Last, Christina</author> / <author>Westerling, Kalle</author> / <author>Rees, Griffith</author> / <author>Pedrazzini, Nilo</author> / <author>Hobson, Timothy</author> / <author>Coll Ardanuy, Mariona</author>  (2023): 
+                        <hi rend="italic">Living with Machines Database: lwmdb</hi>. https://github.com/living-with-machines/lwmdb.
+                    </bibl>
+                    <bibl>
+                        <author>Beelen, Kaspar</author> / <author>Lawrence, Jon</author> / <author>Wilson, Daniel C S</author> / <author>Beavan, David</author>  (2022): "Bias and representativeness in digitized newspaper collections: Introducing the environmental scan", in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>. 10.1093/llc/fqac037.
+                    </bibl>
+                    <bibl>
+                        <author>Dias, Edson</author> / <author>Meirelles, Paulo</author> / <author>Castor, Fernando</author> / <author>Steinmacher, Igor</author> / <author>Wiese, Igor</author> / <author>Pinto, Gustavo</author>  (2021): 
+                        <hi rend="italic">What Makes a Great Maintainer of Open Source Projects?</hi>. in: 
+                        <hi rend="italic">2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)</hi>. 982–994.
+                    </bibl>
+                    <bibl>
+                        <author>Jean-Caurant, Axel</author> / <author>Doucet, Antoine</author>  (2020): 
+                        <hi rend="italic">Accessing and Investigating Large Collections of Historical Newspapers with the NewsEye Platform.</hi> in: 
+                        <hi rend="italic">Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020</hi>. New York, NY, USA: Association for Computing Machinery. 531–532. https://dl.acm.org/doi/10.1145/3383583.3398627 [28.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Katz, Daniel S.</author> et al. (2019): "Community Organizations: Changing the Culture in Which Research Software Is Developed and Sustained", in: 
+                        <hi rend="italic">Computing in Science &amp; Engineering</hi> 21 (2): 8–24. 10.1109/MCSE.2018.2883051.
+                    </bibl>
+                    <bibl>
+                        <author>Pinto, Gustavo</author> / <author>Steinmacher, Igor</author> / <author>Gerosa, Marco Aurélio</author>  (2016): 
+                        <hi rend="italic">More Common Than You Think: An In-depth Study of Casual Contributors</hi>, in: 
+                        <hi rend="italic">2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)</hi>. 112–123.
+                    </bibl>
+                    <bibl>
+                        <author>Romanello, Matteo</author> / <author>Ehrmann, Maud</author> / <author>Clematide, Simon</author> / <author>Guido, Daniele</author>  (eds.) (2020): 
+                        <hi rend="italic">The impresso system architecture in a nutshell</hi>. The Hague: EuropeanaTech Insights.
+                    </bibl>
+                    <bibl>
+                        <author>Smith, Andy</author> / <author>Jackson, Michael</author> / <author>Van Strien, Daniel</author> / <author>Beavan, David</author> / <author>Rees, Griffith</author> / <author>France, Lydia</author> / <author>Ryan, Yann</author> / <author>Nanni, Federico</author>  (2022): Living-with-machines/alto2txt. Zenodo. https://zenodo.org/record/7378349 [10.01.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Trinkenreich, Bianca</author> / <author>Guizani, Mariam</author> / <author>Wiese, Igor</author> / <author>Sarma, Anita</author> / <author>Steinmacher, Igor</author>  (2020): "Hidden Figures: Roles and Pathways of Successful OSS Contributors", in: 
+                        <hi rend="italic">Proceedings of the ACM on Human-Computer Interaction 4 (CSCW2)</hi>: 180:1-180:22. 10.1145/3415251.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

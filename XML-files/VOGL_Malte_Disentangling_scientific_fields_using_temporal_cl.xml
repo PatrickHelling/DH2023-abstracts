@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Disentangling scientific fields using temporal clustering</title>
+                <author n="VoglMalteVOGL_Malte_Disentangling_scientific_fields_using_temporal_cl.xml"><persName n="VoglMalte">
+                        <surname>Vogl</surname>
+                        <forename>Malte</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>mvogl@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LalliRobertoVOGL_Malte_Disentangling_scientific_fields_using_temporal_cl.xml"><persName n="LalliRoberto">
+                        <surname>Lalli</surname>
+                        <forename>Roberto</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>rlalli@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The short presentation introduces the semanticlayertools software package which supports the study of the evolution of scientific fields using network-related methods. An application for the field of astrophysics is presented together with visualization strategies for the emergence of related research fields and the role of specific institutions in thematic clusters.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>temporal communities</term>
+                    <term>evolution of science</term>
+                    <term>historical network research</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>natural language processing</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>semantic analysis</term>
+                    <term>Computer science</term>
+                    <term>History of science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p>The study of the evolution of scientific fields often relies on metadata information which are attributed by third-party institutions and mostly ahistorical (Vogl et.al. 2022, Bornmann 2018) or requires a preselection of corpora based on e.g. specific journals or scientific organizations (Tsay 2008). Scientific fields are used as input in classifications (Perianes-Rodriguez/Ruiz-Castillo 2017) and defining e.g. interdisciplinarity (Gates et.al. 2019), without clarifying what constitutes a scientific field in the first place.</p>
+                <p>This short presentation introduces an alternative workflow using the semanticlayertools software package (Vogl 2023) developed in the framework of the ModelSEN research project (ModelSEN Project 2023), which enables historians of science to run an iterative process of corpus creation based on temporal co-citation clustering, a reporting framework, and two main visualization strategies.</p>
+            </div>
+            <div type="div1">
+                <head>Iterative temporal clustering</head>
+                <p>For an unknown large corpus of bibliometric data, the software creates for each year in a given time frame weighted edges between co-cited publications (A B w), where the weight w is the number of found co-citation between publications A and B in the given year. In each iteration step the software then creates clusters of co-cited publications across several years based on the Leiden clustering algorithm. Since this algorithm relies on the notion of a density to decide which publication belong to a cluster, the iterative process is two fold.</p>
+                <p>First, the basic clustering parameter has to be chosen to select for clusters a) on the level of inter-institutional collaborations (resulting in cluster sizes of several thousand publications), b) grouped around specific innovations, e.g. technological advances in detectors (resulting in cluster sizes of several ten-thousand publications) or c) on the level of (sub-) fields of science, e.g. earth-system sciences (resulting in cluster sizes of several hundred thousand publications).</p>
+                <p>In the second iterative step, the historian of science can select clusters of publications which should not be considered as part of the analysis, and exclude the corresponding papers from the initial co-citation clustering. This step is based on a reporting subroutine of the semanticlayertools software, which makes use of available textual information (i.e. titles or abstracts) and metadata of publications. The reports for each found cluster contain basic information like cluster size and time frame, statistics of found metadata, main authors and affiliations and topic models based on non-negative matrix factorization for 15 and 50 topics. Based on this information, the researcher can then select clusters which should not be considered in the next iteration and thus refine the corpus of interest.</p>
+            </div>
+            <div type="div1">
+                <head>Network analysis and visualization</head>
+                <p>After having reached a meaningful subset of the corpus and relevant clusters for the research question at hand, the software package offers an additional analytical step to the researchers. To help understand the role of groups of papers (e.g. from specific institutions or journals) on the formation of clusters, network scientific measures of centralities are calculated for found clusters across time. This include authority, betweenness, degree and closeness centrality. To foster comparison across years, the program calculates histograms of normalized centralities with fixed logarithmic binning.</p>
+                <p>The short presentation will introduce the main parts of the software package and give examples for the different clustering scenarios. An application of the workflow for the extraction of a relevant corpus for the field of astrophysics is presented together with visualization strategies for a) the emergence of related research fields based on streamgraphs and b) the role of specific institutions in thematic clusters using the above mentioned centralities based on 3D plots.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Vogl, M., Buarque, B. S., Lalli, R., Wintergruen, D. and Weiß, L.</author>
+                        (2022): Using Dimensions for historical research: Biases, pitfalls and a spark of hope. figshare. Presentation. 
+                        <ref target="https://doi.org/10.6084/m9.figshare.21345279.v3">https://doi.org/10.6084/m9.figshare.21345279.v3</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Bornmann, L.</author>
+                        (2018). Field classification of publications in Dimensions: a first case study testing its reliability and validity. Scientometrics 117 (1): 637–640. 
+                        <ref target="https://doi.org/10.1007/s11192-018-2855-y">https://doi.org/10.1007/s11192-018-2855-y</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Tsay, Y. </author>(2008) A bibliometric analysis of hydrogen energy literature, 1965–2005. Scientometrics 75, 421–438 (2008). 
+                        <ref target="https://doi.org/10.1007/s11192-007-1785-x">https://doi.org/10.1007/s11192-007-1785-x</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Perianes-Rodriguez, A. and Ruiz-Castillo, J. </author>
+                        (2017) A comparison of the Web of Science and publication-level classification systems of science. Journal of Informetrics 11 (1): 32-45. 
+                        <ref target="https://doi.org/10.1016/j.joi.2016.10.007">https://doi.org/10.1016/j.joi.2016.10.007</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Gates, A.J., Ke, Q. , Varol, O. and Barabási, A.-L.</author>
+                         (2019) Nature’s reach: narrow work has broad impact, Nature 575. 
+                        <ref target="https://www.nature.com/articles/d41586-019-03308-7">https://www.nature.com/articles/d41586-019-03308-7</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Vogl, M.</author> (2023) semanticlayertools, 
+                        <ref target="https://semanticlayertools.readthedocs.io/en/latest/">https://semanticlayertools.readthedocs.io/en/latest/</ref>
+                    </bibl>
+                    <bibl>
+                        <author>ModelSEN </author>
+                        <author>Project</author> (2023) Website: 
+                        <ref target="https://modelsen.mpiwg-berlin.mpg.de/de/">https://modelsen.mpiwg-berlin.mpg.de/de/</ref> [28.04.2023]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

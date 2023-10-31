@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Model of Heaven: Tracing Images of Holiness in a Collection of 63.000
+                    Lantern Slides (1880-1940)</title>
+                <author n="PaklonsEleonoraPAKLONS_Eleonora_A_Model_of_Heaven__Tracing_Images_of_Holine.xml"><persName ref="https://orcid.org/0000-0001-9935-4586" n="PaklonsEleonora">
+                        <surname>Paklons</surname>
+                        <forename>Eleonora</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>Eleonora.Paklons@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SmitsThomasPAKLONS_Eleonora_A_Model_of_Heaven__Tracing_Images_of_Holine.xml"><persName ref="https://orcid.org/0000-0001-8579-824X" n="SmitsThomas">
+                        <surname>Smits</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>Thomas.Smits@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper explores representations of holiness in a collection of 63.000 lantern slides. Using the multimodal model CLIP, it sheds light on the transition between the real and the imaginary, the holy and the profane. It demonstrates how CLIP can help scholars deal with complex visual concepts such as holiness.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>multimodal</term>
+                    <term>machine learning</term>
+                    <term>computer vision</term>
+                    <term>distant viewing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>History</term>
+                    <term>Media studies</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In the nineteenth century, the age-old desire to be virtually transported to different worlds became a reality for audiences from different social classes, age groups, and levels of education through an image projection device that became the transnational visual mass medium of the nineteenth and early twentieth centuries: the magic lantern (Kember 2019). Following the popularity of the medium, different societal groups used it to influence public opinion. The Catholics, in particular, wielded the lantern as a propaganda weapon, both against their ‘enemies’ (e.g. Jews and socialists) but also as a strategy to instil catholic beliefs and a pious lifestyle in their followers (Kessler / Lenk 2019; Buelens-Terryn / Paklons 2022). This paper applies the recently introduced multimodal machine learning model CLIP to explore the visual representation of ‘holy’ and ‘holiness’ – key concepts in Catholic visual culture that stress the importance of religion as an (extraordinary) lived reality, highlighting the role of the supernatural (Jeffrey 2017; Stausberg 2017) – in a random 10.000 sample of a large collection of ~ 63.000 digitized magic lantern slides. After using distant viewing methods to identify images that depict holiness, we close read them to study community and identity formation among Catholics in pillarised nineteenth-century Belgium. </p>
+            <p>How can images depicting complex visual concepts, such as holiness, be found in a very large and unannotated dataset? Historians have used computer vision techniques, such as object detection and facial recognition, to explore large collections of digitised visual sources (Wevers / Smits 2020b). While these methods allowed ‘distant viewing’ (Arnold / Tilton 2019) of historical visual culture, they can only be employed to identify a limited number of straightforward visual concepts, such as persons, cars, or traffic signs. Moreover, as they were trained on high-definition photographs, applying them to historical visual sources proved to be a daunting task. Recently introduced multimodal machine learning models provide a new way to explore and analyse complex visual concepts in historical visual culture. Trained on large datasets of image-text combinations, these models learn which visual elements are good predictors of specific textual elements and <hi rend="italic">vice versa</hi>. Even without task- or data-specific training,
+                    multimodal models have shown high performance on heterogeneous visual data and a
+                    wide variety of ‘text to image’ and ‘image to text’ retrieval tasks (Radford et
+                    al. 2021).</p>
+            <p>Multimodal models connect images to text by calculating
+                    the cosine similarity score between the embeddings of images and texts. After
+                    using the multimodal model CLIP to extract the embeddings of a random 10.000
+                    sample of digitised lantern slides, we can connect these images to any textual
+                    prompt. Earlier work showed that we can look for straightforward visual
+                    concepts, such as ‘cat’ or ‘airplane,’ but also for more complex concepts, such
+                    as ‘family’ (Smits et al. 2022; Smits / Kestemont 2021). To gain insight into
+                    our data, we used the prompts ‘an image of Jezus’ (Fig. 1) and ‘an image of
+                    holiness’ (Fig. 2). The ten images with the highest cosine similarity scores
+                    show the importance of liminality in conveying holiness. These liminal
+                    encounters are amplified by the recurrent use of different media to represent
+                    the temporary life on earth (photograph/’snapshot’) and the eternal life in
+                    heaven (illustration). This results in interesting collages of the real and the
+                    imaginary, the profane and the holy. More generally, this paper demonstrates how
+                    we can use CLIP to oscillate between distant and close reading and vice versa.
+                    Prompt engineering leads us to interesting images, which are then subjected to
+                    specific close readings. These, in turn, lead to new useful prompts.</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="6.4558333333333335cm" url="Pictures/2fdaff8ccc289963a8fd476f2ab442cd.png" rend="inline"/>
+                <head><hi rend="italic">Fig. 1 Images with top 10 cosine
+                        similarity score for the prompt ‘an image of Jezus’ (cosine similarity
+                        scores: 0.259/0.254/0.253/0.252/0.251/0.251/0.250/0.250/0.249/0.248). We are
+                        obliged to’ Lucerna – the magic lantern web resource’ for granting us access
+                        to their image files.</hi></head>
+            </figure>
+
+            <figure>
+                <graphic n="1002" width="16.002cm" height="6.439958333333333cm" url="Pictures/aa176a7ec0a3db8957190048cb5dc980.png" rend="inline"/>
+                <head><hi rend="italic">Fig. 2 Images with top 10 cosine similarity score for the
+                        prompt ‘an image of holiness’ (cosine similarity scores:
+                        0.272/0.270/0.268/0.264/0.263/0.263/0.263/0.262/0.262/0.262). We are obliged
+                        to’ Lucerna – the magic lantern web resource’ for granting us access to
+                        their image files.</hi></head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold T.</author> / <author>Tilton L.</author> 
+                        (2019): “Distant viewing: analyzing large visual corpora”, in: 
+                        <hi rend="italic">Digital Scholarship in the
+                            Humanities</hi>
+                        0, 0: 1-14.
+                    </bibl>
+                    <bibl>
+                        <author>Buelens-Terryn M.</author> / <author>Paklons E.</author> 
+                        (2022): “By children’s train to Belgium. Socially
+                            engaged lantern lectures by Floris Prims on the Belgian-Hungarian
+                            Children’s Campaign (1924-1927)”, in:
+                        <hi rend="italic">De Moderne Tijd</hi>
+                        6, 2/3: 201-231. 
+                    </bibl>
+                    <bibl>
+                        <author>Huhtamo E.</author>
+                         (2013):
+                        <hi rend="italic">Illusions in Motion. Media
+                            Archaeology of the Moving Panorama and Related Spectacles</hi>
+                        . London: The MIT Press.
+                    </bibl>
+                    <bibl>
+                        <author>Jeffrey D. L.</author>
+                        (2017): 
+                        <hi rend="italic">In the Beauty of Holiness: Art and
+                            the Bible in Western Culture</hi>
+                        . Michigan: Wm. B. Eerdmans Publishing. 
+                    </bibl>
+                    <bibl>
+                        <author>Kember J.</author>
+                         (2019): “The magic lantern: open medium”, in: 
+                        <hi rend="italic">Early Popular Visual Culture</hi>
+                        17, 1: 1-8.
+                    </bibl>
+                    <bibl>
+                        <author>Kessler F.</author> / <author>Lenk S.</author> 
+                         (2019): “Fighting the enemy with the lantern: how French and Belgian Catholic priests lectured against their common laic enemies before 1914”, in:
+                        <hi rend="italic">Early Popular Visual Culture</hi>
+                        17/1: 89-111.
+                    </bibl>
+                    <bibl>
+                        <author>Porter D.</author>
+                        (2004):
+                        <hi rend="italic">Haunted journeys: Desire and
+                            Transgression in European Travel Writing</hi>
+                        . Princeton: Princeton University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Radford A.</author> / <author>Kim J.W.</author> / <author>Hallacy C.</author> / <author>Ramesh A.</author> / <author>Goh G.</author> / <author>Agarwal S.</author> / <author>Sastry G.</author> / <author>Askell A.</author> / <author>Mishkin P.</author> / <author>Clark J.</author> / <author>Krueger G.</author> / <author>Sutskever I.</author> 
+                         (2021): “Learning transferable visual models from natural language supervision”, in:
+                        <hi rend="italic">International Conference on Machine
+                            Learning</hi>
+                        : 8748–8763. PMLR.
+                    </bibl>
+                    <bibl>
+                        <author>Smits T.</author> / <author>Eecken P. van der</author> / <author>Joosen V.</author> 
+                         (2022): “Using CLIP to extract and analyze images of the family in 3,000 Dutch-language children’s books, 1800-1940”, Belval Campus, Esch-sur-Alzette, Luxembourg and online: Zenodo. DOI: 10.5281/zenodo.6530429.
+                    </bibl>
+                    <bibl>
+                        <author>Smits T.</author> / <author>Kestemont M.</author> 
+                         (2021): “Towards Multimodal Computational Humanities. Using CLIP to Analyze Late-Nineteenth Century Magic Lantern Slides”, in: Ehrmann M. / Karsdorp F. / Wevers M. / Andrews T.L. / Burghardt M. / Kestemont M. / Manjavacas E. / Piotrowski M. / van Zundert J. (eds.): 
+                        <hi rend="italic">Proceedings of the Conference on
+                            Computational Humanities Research 2021</hi>
+                        , Amsterdam, the Netherlands, 17 November 2021:
+                            149–158. CEUR Workshop Proceedings. CEUR.
+                            <ref target="http://ceur-ws.org/Vol-2989/#short_paper23">http://ceur-ws.org/Vol-2989/#short_paper23</ref> [29.10.2021].
+                    </bibl>
+                    <bibl>
+                        <author>Stausberg M.</author>
+                         (2017): “The sacred, the holy, the numinous – and religion: on the emergence and early history of a terminological constellation”, in: 
+                        <hi rend="italic">Religion</hi>
+                         47/4: 557-590. 
+                    </bibl>
+                    <bibl>
+                        <author>Wevers M.</author> / <author>Smits T.</author> 
+                         (2020a): “Detecting Faces, Visual Medium Types, and Gender in Historical Advertisements, 1950–1995”, in: Bartoli A. / Fusiello A. (eds.): 
+                        <hi rend="italic">Computer Vision – ECCV 2020
+                            Workshops</hi>
+                        , Cham: 77–91. Lecture Notes in Computer Science.
+                            Springer International Publishing. DOI:
+                            10.1007/978-3-030-66096-3_7.
+                    </bibl>
+                    <bibl>
+                        <author>Wevers M.</author> / <author>Smits T.</author> 
+                         (2020b): “The Visual Digital Turn. Using Neural Networks to Study Historical Images”, 
+                        <hi rend="italic">Digital Scholarship in the
+                            Humanities</hi>
+                         35, 1: 194–207. DOI: https://doi.org/10.1093/llc/fqy085.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

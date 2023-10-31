@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Prosopography and Global Irish Networks</title>
+                <author n="OConnorThomasANGELIS_Stavros_Digital_Prosopography_and_Global_Irish_Netwo.xml"><persName n="OConnorThomas">
+                        <surname>O'Connor</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>National University of Ireland Maynooth, Ireland</affiliation><email>thomas.oconnor@mu.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AngelisStavrosANGELIS_Stavros_Digital_Prosopography_and_Global_Irish_Netwo.xml"><persName n="AngelisStavros">
+                        <surname>Angelis</surname>
+                        <forename>Stavros</forename>
+                    </persName><affiliation>National University of Ireland Maynooth, Ireland</affiliation><email>stavros.angelis@mu.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FitzpatrickRichardANGELIS_Stavros_Digital_Prosopography_and_Global_Irish_Netwo.xml"><persName n="FitzpatrickRichard">
+                        <surname>Fitzpatrick</surname>
+                        <forename>Richard</forename>
+                    </persName><affiliation>National University of Ireland Maynooth, Ireland</affiliation><email>richard.fitzpatrick@mu.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Clericus.ie is a digital humanities research project in the area of digital prosopography. The project developer a reliable, flexible and accessible digital platform to accommodate large quantities of biographical information on individuals and groups of individuals. It currently houses more than 25,000 published biographical records.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>prosopography</term>
+                    <term>history</term>
+                    <term>biographical data</term>
+                    <term>digitisation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The 
+                <ref target="https://clericus.ie/">Clericus.ie</ref> is a digital humanities research project in the area of digital prosopography. It is based in the 
+                <ref target="https://www.maynoothuniversity.ie/arts-and-humanities-institute">Arts and Humanities Institute</ref> in Maynooth University (Ireland). It currently houses more than 25,000 published biographical records.
+            </p>
+            <p>The project originated in 2020, in response to two requirements: </p>
+            <p>The first, a general requirement originating among humanities scholars (historians in particular) for a reliable, flexible and accessible digital platform to accommodate large quantities of biographical information on individuals and groups of individuals. The platform was required to cater particularly for the unstructured biographical data typical of Irish professional and migrant populations.</p>
+            <p>The second, a requirement to photograph, digitise and preserve in a searchable database the student records of Maynooth College, a seminary and University located close to Dublin (Ireland). The material covered a period of more than 200 years, beginning in 1795. The portion of the data most in need of specialist attention was the collection of class graduation photographs, the 124 so-called ‘class pieces’ (1861 to 2018). Each ‘class piece’ consisted of head shots of graduands, accompanied by their names and diocese of origin, arranged in various formats within rectangular frames, some of the latter artefacts being of potential significance for art historians.</p>
+            <p>The Clericus team decided to use the digitisation of the Maynooth College class pieces as a pilot for the development of a digital environment for early modern and modern prosopography. This involved a collaboration between university historians (in Maynooth University and elsewhere), archivists and AHI technical personnel. Historians and archivists, in conjunction with the technical personnel assessed the data and agreed basic specifications. The technical team then planned and built the technical infrastructure, consisting of a Server API, Content Management Administrative Interface and a Content Delivery Public Interface. The Neo4J graph database was chosen as the most suitable for the data in question. In the Clericus.ie data model four primary entities were identified: person, resource, organisation and event. Events were linked to minor entities of time and space. Simultaneously, work packages covering artefact identification and preservation, data extraction, ingestion and enrichment were developed and implemented. The result was the Clericus.ie website whose first iteration appeared in mid-2020. As well as a fully searchable database, Clericus provides three basic visualisation tools: a heatmap, an events timeline and a network graph.</p>
+            <p>In a second pilot project, carried out in 2021-22, the Clericus team focused on the biographical information of the clergy of one Irish diocese. This was in order to test and develop Clericus’ data enrichment capacity. Since the completion of the first two pilot projects, Clericus.ie, in conjunction with the 
+                <ref target="https://www.ria.ie/">Royal Irish Academy</ref> has tested the Clericus data model, database structure and environment on cognate data from other institutions. For instance, the class pieces and student records of 
+                <ref target="https://www.stkieranscollege.ie/">St Kieran’s College, Kilkenny</ref> (1782-1994) have been processed, adding over 2000 new biographical entries. Other significant additions include the student data from the Irish Colleges in Paris (1578-1939), Lisbon (1590-1837) and Salamanca (1592-1630).
+            </p>
+            <p>Thanks to a research grant from the 
+                <ref target="https://www.therjhuntercollection.com/">Hunter Foundation</ref> in the Queens University Belfast, the opportunity arose to test the Clericus.ie data model and database structure on a non-clerical, non-academic population. The chosen population was the settlers, mainly from Scotland, who colonised the northern province of Ireland (Ulster) during the period c.1609-41. In the period January 2022-January 2023, the 
+                <ref target="https://ulster-settlers.clericus.ie/">Ulster Settlers Project</ref> processed over 13,000 individual biographical records drawn from multiple historical sources. The Clericus.ie data model was modified to cater to the new data. It demonstrated capacity to adapt its data model and database structure to this distinctive historical population. This demonstrates that the Clericus digital platform, which began as a project to deal with biographical information from a specific historical population is now sufficiently flexible to permit adaptation for use on other historical populations.
+            </p>
+            <p>The Clericus Project continues to ingest new data on early modern and modern population cohorts. Clericus seeks collaborations with researchers and research projects working on other historical populations and research questions as it refines and expands its data model and database infrastructure. Furthermore Clericus.ie is being used to support historical research and publications, short research placements and data analysis projects. Technical collaborations are now sought in the following areas in particular: first, to streamline data ingestion tools to permit further automation of data processing and ingestion tasks; second, to enhance data visualisation tools; third, to develop mapping capacity to facilitate the linking of layered historical maps to biographical and other data.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Corish, P.J.</author> (1995): 
+                        <hi rend="italic">Maynooth College 1795-1995.</hi> Dublin: Gill and Macmillan.
+                    </bibl>
+                    <bibl>
+                        <author>Keats-Rohan, K.S.B. (ed.)</author> (2007): 
+                        <hi rend="italic">Prosopography Approaches and Applications: A Handbook.</hi> Oxford: [Occasional Publications of the Unit for Prosopographical Research]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

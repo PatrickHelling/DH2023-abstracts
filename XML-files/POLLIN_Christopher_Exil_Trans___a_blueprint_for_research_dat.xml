@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exil:Trans - a blueprint for research data reuse</title>
+                <author n="KremmelStefaniePOLLIN_Christopher_Exil_Trans___a_blueprint_for_research_dat.xml"><persName ref="https://orcid.org/0000-0002-2679-0034" n="KremmelStefanie">
+                        <surname>Kremmel</surname>
+                        <forename>Stefanie</forename>
+                    </persName><affiliation>University of Vienna</affiliation><email>stefanie.kremmel@univie.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SteinerChristianPOLLIN_Christopher_Exil_Trans___a_blueprint_for_research_dat.xml"><persName ref="https://orcid.org/0000-0002-6658-4622" n="SteinerChristian">
+                        <surname>Steiner</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>Digital Humanities Craft</affiliation><email>christian.steiner@dhcraft.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PollinChristopherPOLLIN_Christopher_Exil_Trans___a_blueprint_for_research_dat.xml"><persName n="PollinChristopher">
+                        <surname>Pollin</surname>
+                        <forename>Christopher</forename>
+                    </persName><affiliation>Digital Humanities Craft</affiliation><email>christopher.pollin@dhcraft.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>A blueprint for establishing a workflow for generating research data in humanities research projects using the example of the project Exil.Trans. FAIR criteria as well as Linked Open Data principles and ontology-based modeling are addressed.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>linked open data</term>
+                    <term>biographical data</term>
+                    <term>translator</term>
+                    <term>semantic web</term>
+                    <term>workflow</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>linked (open) data</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The project Exil:Trans (2019-2022, <ref target="https://exiltrans.univie.ac.at/">https://exiltrans.univie.ac.at/</ref> and <ref target="https://glossa.uni-graz.at/context:exil">https://gams.uni-graz.at/exil</ref>) investigates the impact of exile due to National Socialist persecution on translators and their translation activities from a translation studies perspective. The overall aim of this international project is to contribute to a more comprehensive understanding of the cultural effects resulting from the forced displacement of persons by the Nazis (<hi rend="italic">Tashinskiy et al. 2021</hi>). By reconstructing biographies and tracing translators’ networks and involved institutions, trans-individual patterns concerning the role of translators in exile are to be extracted. To achieve its aims, the project team joined forces with the newly founded University of Graz Spin-Off “Digital Humanities Craft” (<ref target="https://dhcraft.org/">https://dhcraft.org/</ref>) to set up a biographical database that follows the paradigm of Semantic Web <ref target="https://www.zotero.org/google-docs/?QCxSQd"><hi rend="italic">(Hitzler 2021)</hi></ref> and Linked Open Data <ref target="https://www.zotero.org/google-docs/?xcvoLx"><hi rend="italic">(Bizer, Vidal, and Skaf-Molli 2018)</hi></ref>.</p>
+            <p>After identifying the names of translators in exile, biographical data and information about their translatorial work was gathered through archival research. The broad data sets, complemented by extensive case studies, have already shown that the topic of exile due to National Socialist persecution is not “over-researched” with regard to translators and translation processes and that many biographies, institutions and therefore archival collections have not been studied in this regard. Exil:Trans shows that the structure of the translational fields and the products of translation in exile are very varied.</p>
+            <p>Since the sources on individual translators in exile are scarce and scattered, making all collected data easily available and reusable was one of the core ambitions of Exil:Trans. The project does not strive for exhaustiveness, but wants to formulate new questions and contribute a new perspective through carefully collected and curated data on individual translators. The collaboration with a company specialised in data modelling for the creation and long-term storage of FAIR<ref target="https://www.zotero.org/google-docs/?pGZ6Th"><hi rend="italic">(Wilkinson et al. 2016)</hi></ref> data provides a blueprint for research data reuse and possible points of contact with further or other research projects in related domains.</p>
+            <p>The blueprint involves 5 mandatory simple steps to make research data reusable in a way that other research projects can directly integrate it into their own implementations:</p>
+            <list type="ordered">
+                <item><hi rend="bold">Record </hi>the data in a structured way with an easily accessible API (e.g. Excel, Google spreadsheets, XML, JSON …)</item>
+                <item><hi rend="bold">Create </hi>an ontology that holds all the rules and definitions of the data model (RDFS or OWL). The reusability of this model is ensured by aligning it with top-level ontologies such as CIDOC-CRM <ref target="https://www.zotero.org/google-docs/?eTbwW4"><hi rend="italic">(Velios 2021; Doerr, Light, and Hiebel 2020)</hi></ref> or Basic Formal Ontology <ref target="https://www.zotero.org/google-docs/?MctD5z"><hi rend="italic">(Otte, Beverley, and Ruttenberg 2022)</hi></ref> for specific concepts such as the event to go into exile. For more general concepts, this is ensured directly by using schema.org <ref target="https://www.zotero.org/google-docs/?PiI28P"><hi rend="italic">(Patel-Schneider 2014)</hi></ref>. At the entity level, in turn, controlled vocabulary, authority files or Wikidata are used.</item>
+                <item><hi rend="bold">Transform </hi>your structured data from step 1 to RDF that follows all the rules from the ontology you created in step 2 using the API available (e.g. via a Python script using RDFlib<ref target="https://www.zotero.org/google-docs/?ZcQHwZ"><hi rend="italic">(Carl 2018)</hi></ref>). Of course, there are mapping scenarios from tabular data to RDF. However, the peculiarity arises from the fact that, with regard to the use of modelling patterns <ref target="https://www.zotero.org/google-docs/?7Ev0M1"><hi rend="italic">(Hitzler et al. 2016)</hi></ref>, a flat structure is not sufficient. Taking into account the possibilities for integrating data cleaning and semantic enrichment (reconciliation) is another strong point in favour of choosing a Python workflow.</item>
+                <item><hi rend="bold">Expose </hi>all your data online in a way that is easily accessible and understandable (e.g. create an API/Downloads/Export section for all the data and provide a human-readable description of the data model)</item>
+                <item>Use formats, standards and infrastructures that are suitable for <hi rend="bold">long-term archiving</hi>. This is made possible with GAMS <ref target="https://www.zotero.org/google-docs/?2Lob5Q"><hi rend="italic">(Stigler and Steiner 2018)</hi></ref>.</item>
+                <item>Optional but highly useful: Provide a <hi rend="bold">sample reuse scenario</hi> in your documentation (<ref target="https://gams.uni-graz.at/o:exil.tutorial">https://gams.uni-graz.at/o:exil.tutorial</ref>).</item>
+            </list>
+            <p>Data recorded and stored in this way helped with further in-depth investigations into translators’ lives. Maps were created with a combination of SPARQL queries on the backend and JavaScript on the frontend. These help to identify the translators’ networks, and various filters help to analyse the intersection of the various perspectives involved in the translation process. This will extrapolate more general, transindividual patterns on the basis of the established case studies, to identify regularities of translation in exile. </p>
+            <p>Bottom line, data exposed as Linked Open Data provides us with stable, reusable and interconnectable research and generating such data can be very easy following a simple blueprint.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Bizer, Christian, Maria-Esther Vidal, and Hala Skaf-Molli</author> (2018): ‘Linked Open Data’. In Encyclopedia of Database Systems, edited by Ling Liu and M.T. Özsu, 2096–2101. New York: Springer. https://doi.org/10.1007/978-1-4614-8265-9_80603.</bibl>
+                    <bibl><author>Carl, Boettiger</author> (2018): ‘Rdflib: A High Level Wrapper around the Redland Package for Common Rdf Applications’. https://doi.org/10.5281/zenodo.1098478.</bibl>
+                    <bibl><author>Doerr, Martin</author> / <author>Richard Light</author> / <author>Gerald Hiebel</author>  (2020): ‘Implementing the CIDOC Conceptual Reference Model in RDF’. Version 1.1. https://www.cidoc-crm.org/sites/default/files/issue%20443%20-%20Implementing%20CIDOC%20CRM%20in%20RDF%20v1.1.pdf.</bibl>
+                    <bibl><author>Hitzler, Pascal</author> (2021): ‘A Review of the Semantic Web Field’. Communications of the ACM 64 (2): 76–83. https://doi.org/10.1145/3397512.</bibl>
+                    <bibl><author>Hitzler, Pascal</author> / <author>Aldo Gangemi</author> / <author>Krzysztof Janowicz</author> / <author>Krisnadhi Adila</author> / <author>Presutti Valentina</author>  (2016): Ontology Engineering with Ontology Design Patterns: Foundations and Applications. IOS Press.</bibl>
+                    <bibl><author>Otte, J Neil</author> / <author>John Beverley</author> / <author>Alan Ruttenberg</author>  (2022): ‘BFO: Basic Formal Ontology’. Applied Ontology, 17–43. https://doi.org/10.3233/AO-220262.</bibl>
+                    <bibl><author>Patel-Schneider, Peter F.</author> ((2014): ‘Analyzing Schema.Org’. In The Semantic Web – ISWC 2014, edited by Peter Mika, Tania Tudorache, Abraham Bernstein, Chris Welty, Craig Knoblock, Denny Vrandečić, Paul Groth, Natasha Noy, Krzysztof Janowicz, and Carole Goble, 261–76. Cham: Springer International Publishing.</bibl>
+                    <bibl><author>Stigler, Johannes</author> / <author>Elisabeth Steiner</author>  (2018): ‘GAMS–Eine Infrastruktur Zur Langzeitarchivierung Und Publikation Geisteswissenschaftlicher Forschungsdaten’. Mitteilungen Der Vereinigung Österreichischer Bibliothekarinnen Und Bibliothekare 71 (1): 207–16.</bibl>
+                    <bibl><author>Tashinskiy, Aleksey</author> / <author>Tomasz Rozmysłowicz</author> / <author>Julija Boguna</author>  Hrsg. (2022): Translation und Exil (1933–1945): Namen und Orte. Recherchen zur Geschichte des Übersetzens. Berlin: Frank &amp; Timme. </bibl>
+                    <bibl><author>Velios, Athanasios</author> (2021): ‘Definition of the CIDOC Conceptual Reference Model’. Edited by Chryssoula Bekiari, George Bruseker, Martin Doerr, Christian-Emil Ore, Stephen Stead, and Athanasios Velios. CIDOC CRM Special Interest Group. https://ualresearchonline.arts.ac.uk/id/eprint/18425/1/cidoc_crm_v.7.1.1_0.pdf.</bibl>
+                    <bibl><author>Wilkinson, Mark D</author> / <author>Michel Dumontier</author> / <author>IJsbrand Jan Aalbersberg</author> / <author>Gabrielle Appleton</author> / <author>Myles Axton</author> / <author>Arie Baak</author> / <author>Niklas Blomberg</author> , et al. (2016): ‘The FAIR Guiding Principles for Scientific Data Management and Stewardship’. Scientific Data 3 (1): 1–9.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

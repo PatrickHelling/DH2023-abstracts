@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Yugoslavian Interwar Business Network</title>
+                <author n="EvkoskiBojanEVKOSKI_Bojan_The_Yugoslavian_Interwar_Business_Network.xml"><persName n="EvkoskiBojan">
+                        <surname>Evkoski</surname>
+                        <forename>Bojan</forename>
+                    </persName><affiliation>Jozef Stefan Institute, Slovenia; Jozef Stefan Postgraduate School, Ljubljana, Slovenia</affiliation><email>bojan.evkoski@ijs.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LazareviarkoEVKOSKI_Bojan_The_Yugoslavian_Interwar_Business_Network.xml"><persName n="Lazareviarko">
+                        <surname>Lazarević</surname>
+                        <forename>Žarko</forename>
+                    </persName><affiliation>Institute of Contemporary History, Ljubljana, Slovenia</affiliation><email>zarko.lazarevic@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PanurAndrejEVKOSKI_Bojan_The_Yugoslavian_Interwar_Business_Network.xml"><persName n="PanurAndrej">
+                        <surname>Pančur</surname>
+                        <forename>Andrej</forename>
+                    </persName><affiliation>Institute of Contemporary History, Ljubljana, Slovenia</affiliation><email>andrej.pancur@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FierDarjaEVKOSKI_Bojan_The_Yugoslavian_Interwar_Business_Network.xml"><persName ref="https://orcid.org/0000-0002-9956-1689" n="FierDarja">
+                        <surname>Fišer</surname>
+                        <forename>Darja</forename>
+                    </persName><affiliation>Institute of Contemporary History, Ljubljana, Slovenia; Faculty of Arts, University of Ljubljana, Slovenia</affiliation><email>darja.fiser@inz.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We analyze changes in the business network of Interwar Yugoslavia using computational network analysis. We extract data from Compass, a yearly directory of directors in Central European companies. We combine qualitative and quantitative methods to give insight into the evolution of the Yugoslavian business in a significant historical context.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>networks</term>
+                    <term>business</term>
+                    <term>yugoslavian</term>
+                    <term>interwar</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>digital biography</term>
+                    <term>personography</term>
+                    <term>and prosopography</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Sociology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Background and Motivation</head>
+                <p>The interwar period was marked by major economic changes. With the appearance of new countries and national economies, Central Europe had to adapt and recreate its business network (Eichengreen 1991, Feinstein et al. 2008, James et al. 2002). One peculiar case was Yugoslavia. People across the country had divergent ideas about the economic evolution of the new state. Before its establishment, governing was split between the north-west regions (Slovenia, Croatia, Vojvodina, and Bosnia and Herzegovina) as part of the Habsburg Monarchy, and the south-eastern regions (Serbia and Montenegro) which existed as independent monarchies (Miladinovic 2020). At its birth, Yugoslavia had four railway systems in operation, five currencies in circulation, five tax systems, and six customs areas in place (Horvat 1971). The newly merged state, formed as a relatively closed and protectionist market, began a gradual establishment of a national economy, a process challenged by The Great Depression and interrupted by World War II (Aldcroft 2016). In this work, we contribute to the existing research on the economy of Interwar Yugoslavia (Brunnbauer 2012, Miladinovic 2020, Nikolic 2018) by conducting the first analysis of the Intra- and International business network via a computational network analysis approach.</p>
+            </div>
+            <div type="div1">
+                <head>Dataset and Network Creation</head>
+                <p>We extract data from Compass, a curated yearly directory of board members in Central European companies available to the Austrian Commercial Registry (which included Yugoslavian companies). We apply a comparative study on the business network between two timepoints: 1928 (using Compass 1928) and 1939 (using Compass 1939). We selected Compass 1939 as the last volume before World War II while Compass 1928 was our reference point of business in the 1920s before The Great Depression. These directories consist of alphabetically sorted persons and their board member positions. The volumes were OCR-ed (Optical character recognition) and converted into the HTML format. Using regular expression filtering on the HTML, we extracted each person’s name, address, company position, company name, and company address. This was followed by a phase of manual corrections to reduce errors from the OCR and the pattern-based extraction. The final datasets consist of 33k persons and 36k companies in 1928, and 26k persons and 30k companies in 1939. A visual overview of the data preparation is shown in Figure 1.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="17.81673333333333cm" url="Pictures/aab011117fcc510bc92d1c512eddbcf1.png" rend="inline"/>
+                    <head><hi rend="bold">Extracting data from Compass.</hi> An overview of the data extraction procedure for both Compass volumes. The directories are digitized using OCR and converted to HTML. Then, the data is extracted in a tabular format using regular expressions. Finally, manual corrections were applied to reduce the noise of errors from the previous stages.
+                    </head>
+                </figure>
+                <p>After extracting data from Compass 1928 and Compass 1939, we created bipartite relations, with people on one side, and companies on the other. Person A has a relation with company X if A holds a (board) director position in X. Through the bipartite relations, we produced two types of business networks: Persons network (projecting the bipartite relations and connecting two persons if they both hold a position in a given company), and Companies network (connecting two companies if a given person holds a position in both). Figure 2 shows the four Compass networks used in the comparative study, visualized in Gephi (Jacomy et al. 2014).</p>
+                <figure>
+                    <graphic n="1002" width="15.7077cm" height="15.334625cm" url="Pictures/99924f5b916d6ffbc0250b8885dd2b92.png" rend="inline"/>
+                    <head><hi rend="bold">Business networks created from the Compass directory</hi>. Large-scale overview of the Compass networks. For the Persons networks, nodes are people listed in Compass. Two people are connected if they both hold positions in one company. For the Companies networks, nodes are companies. Two companies are connected if there is a person who holds a position in both. The networks follow a scale-free distribution with a strong community structure. Colors of nodes represent communities (densely connected groups of nodes) estimated using the Louvain algorithm (Blondel et al. 2008). Gray nodes are nodes disconnected from the business network, meaning that they have no business connection with any other person/company according to Compass.
+                    </head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Initial Results and Conclusions</head>
+                <p>We applied a preliminary network analysis (Evkoski 2020, Scott 2012) on the produced networks. First, we compared the structure of the networks (separately for persons and institutions). The detected communities show geographical (Vienna and Prague; Zagreb and Ljubljana) and industrial groupings (e.g., banks; energy companies). The comparison between 1928 and 1939 shows a replacement of the economic elites (with only 9 of the 100 most connected companies of 1928 reappearing in the top 100 of 1939), but also a revamp of the less influential businesses (with less than 10% of the companies being in both networks). This is mostly due to the effects of The Great Depression which can be seen in the data, with Compass 1939 recording 5301 companies and 7571 persons less than Compass 1928. To study the economic elites of Interwar Yugoslavia, we analyzed the subnetworks of Yugoslavian persons and companies. We manually annotated settlements whether they were part of Yugoslavia or not. The subnetworks are presented in Figure 3. Results show that The Great Depression had a severe impact on the Yugoslavian economy, causing the number of companies in the network to decrease by half. Croatia experienced the most significant economic setback, while Serbian companies gained market share.</p>
+                <figure>
+                    <graphic n="1003" width="15.930302777777777cm" height="16.90618611111111cm" url="Pictures/568d86f44c4d596542e2c168c089ae6f.png" rend="inline"/>
+                    <head><hi rend="bold">Yugoslavian subnetworks.</hi> Subnetworks of the business networks by selecting persons and companies with addresses in Yugoslavia. Node size represents their betweenness centrality in the network. Colors represent the Yugoslavian region from which they originate. Green: Slovenia; Blue: Croatia; Red: Serbia; Pink: Vojvodina; Yellow: Bosnia and Herzegovina. The labels represent the names of the five most influential nodes of each network.
+                    </head>
+                </figure>
+                <p>These initial results are part of a study aimed at exploring the Interwar business network of Central Europe. We produced a dataset from the Compass directory that helped us create an intuitive network representation of the Interwar Central European business, with a particular focus on Yugoslavia. We continue to combine qualitative and quantitative methods and give insight into the evolution of the Yugoslavian business in a significant historical context.</p>
+                <p><hi rend="italic">Acknowledgements</hi>: The work was supported by the Slovenian Research Agency research programmes P6-0436: Digital Humanities: resources, tools and methods (2022–2027) and P6-0280: Economic, Social and Environmental History of Slovenia (2022–2027) and the DARIAH-SI research infrastructure (2022-2027).
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Aldcroft, Derek H.</author> (2013): “Europe's third world: the European periphery in the interwar years”, 
+                        <hi rend="italic">Ashgate Publishing, Ltd.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Blondel, Vincent D.</author> / <author>Guillaume, Jean-Loup</author> / <author>Lambiotte, Renaud</author> / <author>Lefebvre, Etienne</author>  (2008): "Fast unfolding of communities in large networks", in: 
+                        <hi rend="italic">Journal of statistical mechanics: theory and experiment 2008, no. 10</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Brunnbauer, Ulf</author> (2012): "Emigration policies and nation-building in interwar Yugoslavia", in: 
+                        <hi rend="italic">European history quarterly 42, no. 4: 602-62</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Compass-Gruppe</author> (1928): Compass 1928 – Personenverzeichnis
+                    </bibl>
+                    <bibl>
+                        <author>Compass-Gruppe</author> (1939): Compass 1939 – Personenverzeichnis
+                    </bibl>
+                    <bibl>
+                        <author>Eichengreen, Barry</author> (1991): "The interwar economy in a European mirror", in: 
+                        <hi rend="italic">CEPR Discussion Papers 589.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Evkoski, Bojan</author> / <author>Mozetic, Igor</author> / <author>Ljubešić, Nikola</author> / <author>Kralj Novak, Petra</author>  (2020): "A Slovenian retweet network 2018-2020", in: 
+                        <hi rend="italic">Information Society</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Feinstein, Charles H</author> / <author>Temin, Peter</author> / <author>Toniolo, Gianni</author>  
+                         (2008): The world economy between the world wars, 
+                        <hi rend="italic">Oxford University Press</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Horvat, Branko</author> (1971): "Yugoslav economic policy in the post-war period: Problems, ideas, institutional developments", in: 
+                        <hi rend="italic">The American Economic Review 61, no. 3: 71-169</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Jacomy, Mathieu</author> / <author>Venturini, Tommaso</author> / <author>Heymann, Sebastien</author> / <author>Bastian, Mathieu</author>  (2014): "ForceAtlas2, a continuous graph layout algorithm for handy network visualization designed for the Gephi software", in: 
+                        <hi rend="italic">PloS one 9, no. 6: e98679</hi>
+                    </bibl>
+                    <bibl>
+                        <author>James, Harold</author> / <author>Lindgren, Hekan</author> / <author>Teichova , Alice</author>  (2002): "The role of banks in the interwar economy", 
+                        <hi rend="italic">Cambridge University Press</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Miladinović, Luka</author> (2020): "Trade and nationalism: market integration in interwar Yugoslavia", in: 
+                        <hi rend="italic">European Review of Economic History 24, no. 2: 288-313</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Nikolić, Stefan</author> (2018): "Determinants of industrial location: Kingdom of Yugoslavia in the interwar period.", in: 
+                        <hi rend="italic">European Review of Economic History 22, no. 1: 101-133</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Scott, John</author> (2012): "What is social network analysis? ", 
+                        <hi rend="italic">Bloomsbury Academic</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

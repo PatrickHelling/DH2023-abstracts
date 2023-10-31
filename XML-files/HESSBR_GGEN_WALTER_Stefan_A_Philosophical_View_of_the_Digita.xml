@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Philosophical View of the Digital History of Concepts: Four Theses And a Postscript</title>
+                <author n="HebrggenWalterStefanHESSBR_GGEN_WALTER_Stefan_A_Philosophical_View_of_the_Digita.xml"><persName n="HebrggenWalterStefan">
+                        <surname>Heßbrüggen-Walter</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>FU Berlin, Germany</affiliation><email>early.modern.thought.online@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Digital intellectual history should concern itself with the history of words or constellations of words rather than the history of 'concepts'. In fact, this is what digital historians of concepts are already doing. We should begin to acknowledge this explicitly.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>concepts</term>
+                    <term>history</term>
+                    <term>history of concepts</term>
+                    <term>Rorty</term>
+                    <term>Koselleck</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>linked (open) data</term>
+                    <term>semantic analysis</term>
+                    <term>History</term>
+                    <term>History of science</term>
+                    <term>Philosophy</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">(1)</hi><hi rend="bold">The notion of a concept as it is employed in digital history of concepts is unclear.</hi> Some historians of concepts, following Koselleck (Koselleck 1972, XXII–XXIV) base their work on the assumption that concepts are not just words, but in some sense more than words without – again like Koselleck – indicating clearly how to understand the difference (de Bolla et al. 2019, 67f). Others appropriate Lovejoy’s notion of invariant ‘unit ideas’ and aim to reconcile it with insights into the role of concepts and conceptual change in the sciences and their history (Betti / van den Berg 2014, 814). Prima facie it seems to be difficult to match these methodologies with philosophical analyses of concepts as we find them in the philosophy of language or the philosophy of mind, e. g. concepts as Fregean senses or subjective mental states (Margolis / Laurence 2022). So at least as far as the history of concepts is concerned, we can still agree with the British philosopher of science Rom Harré who confessed in 1971: “I have no more idea than anyone else what a concept might be.” (Harré 1971, 96)
+            </p>
+            <p><hi rend="bold">(2) The notion of a concept as it is used in digital history of concepts is superfluous.</hi> Everything that digital historians of concepts claim can equally well be expressed as a thesis about (constellations of) words. Or, to quote Richard Rorty: “[. . . ] any exploration of presuppositional relations between concepts in which you may engage will take the form of an argument that you could not use some words in certain ways if you did not use some other words in certain other ways.” (Rorty 1995, 178) Betti and van den Berg concede that ultimately there may be no uncontroversial way to identify the proper subject matter of conceptual history: “We propose that to do the history of ideas, we only need to assume that something serves as a constant, under which (or within which, if you prefer) discontinuities can be traced.” (Betti / van den Berg 2014, 828, emphasis in the original) In philosophical terminology this would be qualified as a ‘transcendental argument’ positing theoretical entities that are a precondition for knowledge. But whether such a constant really is a necessary condition of the possibility of conceptual history is at least questionable. We could also follow Silke Schwandt and substitute the term ‘history of concept’ with the expression ‘history of word use’ (
+                <hi rend="italic">Wortverwendungsgeschichte</hi>, Schwandt 2018, 109). In a similar vein Hengchen et al. 2021, 111f, identify ‘vocabularies’ as their main object of interest.
+            </p>
+            <p><hi rend="bold">(3) If historians of concepts want to continue to refer to the subject matter of their studies as ‘concepts’ and apply digital methods, they need to present an operationalisable definition of a concept.</hi>This definition would have to provide the means to answer questions like how many concepts we find in Hobbes’s Leviathan. But the heterogeneity and vagueness of claims about concepts discussed in the first thesis suggests that for the time being such a definition is out of reach. We want to emphasise that this thesis is not directed against non-digital modes of scholarship claiming privileged epistemic access to features of text that allow the intuitive identification of concepts transcending (patterns of) word use. However, methods of the digital humanities must rely on intersubjectively accessible and openly describable textual features (the ‘surface’ of texts, so to speak).</p>
+            <p><hi rend="bold">(4) Patterns of word usage can be described and analysed without assuming the existence of underlying ‘concepts’.</hi> If we look at the practice of digital history of concepts, we see that the actual object of inquiry is not concepts, but words, or, to be more precise, constellations of words. Bolla et al. 2019 examine word embeddings and clusters of semantically related terms, Schwandt 2018 focuses on the analysis of coocurrences. To claim that such investigations do in fact identify traits or developments of concepts adds no useful information to such results.
+            </p>
+            <p><hi rend="bold">Postscript:</hi> The four theses have implications not only for the disciplinary context of the history of concepts, but for all areas of the digital humanities that concern themselves with the modeling of concepts. For example the notion of a concept is built into the very foundations of the Linked Open Data Cloud, since two of its most popular ontologies (CIDOC CRM and SKOS) profer explicit definitions of concepts. CIDOC CRM defines ‘conceptual objects’ as “non-material products of our minds and other human produced data that have become objects of a discourse about their identity, circumstances of creation or historical implication” (CIDOC CRM Special Interest Group 2021, 77), i. e. as abstract entities. In SKOS the scope of concept is characterised as “an idea or notion; a unit of thought. However, what constitutes a unit of thought is subjective, and this definition is meant to be suggestive, rather than restrictive” (W3C 2009), i. e. as a mental state. The conclusions to be drawn from this diagnosis for the proper design of such ontologies in the digital humanities, however, are a topic for a different occasion.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Betti, Arianna</author> / <author>van den Berg, Hein</author>  (2014): “Modelling the History of Ideas”, in: 
+                        <hi rend="italic">British Journal for the History of Philosophy</hi>, 22: 812–835.
+                    </bibl>
+                    <bibl>
+                        <author>de Bolla, Peter</author> /
+                        <author>Johnes, Ewan</author> / <author>Nulty, Paul</author> / <author>Recchia, Gabriel</author> / <author>Regan, John</author> (2019): “Distributional Concept Analysis: A Computational Model for History of Concepts”, in: 
+                        <hi rend="italic">Contributions to the History of Concepts</hi>, 14: 66–92.
+                    </bibl>
+                    <bibl>
+                        <author>CIDOC CRM Special Interest Group</author> (2021): “Definition of the CIDOC Conceptual Reference Model Version 7.1.1”, 
+                        <ref target="https://www.cidoc-crm.org/sites/default/files/cidoc_crm_v.7.1.1_0.pdf">https://www.cidoc-crm.org/sites/default/files/cidoc_crm_v.7.1.1_0.pdf</ref> [1.11.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Harré, H. Rom </author>(1971): “Philosophical Issues and Conceptual Change”, in: 
+                        <hi rend="italic">Theory into Practice </hi>210, 96–100.
+                    </bibl>
+                    <bibl>
+                        <author>Hengchen, Simon</author> / <author>Ros, Ruben</author> / <author>Marianen, Jani</author> / <author>Tolonen, Mikko</author>  (2021): “A data-driven approach to studying changing vocabularies in historical newspaper collections”, in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>, 36, 109–126.
+                    </bibl>
+                    <bibl>
+                        <author>Margolis, Eric</author> / <author>Laurence, Stephen</author>  (2022): “Concepts”, in: Edward N. Zalta, Uri Nodelman (eds.), 
+                        <hi rend="italic">The Stanford Encyclopedia of Philosophy (Fall 2022 Edition), </hi>
+                        <ref target="https://plato.stanford.edu/archives/fall2022/entries/concepts/">https://plato.stanford.edu/archives/fall2022/entries/concepts/</ref>
+                        [1.11.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Rorty, Richard</author> (1995): “Is Derrida a ‘Quasi’-Transcendental Philosopher?”, in: 
+                        <hi rend="italic">Contemporary Literature </hi>36, 173–200.
+                    </bibl>
+                    <bibl>
+                        <author>Schwandt, Silke</author> (2018): “Digitale Methoden für die Historische Semantik: Auf den Spuren von Begriffen in digitalen Korpora”, in: 
+                        <hi rend="italic">Geschichte und Gesellschaft</hi>44, 107–134.
+                    </bibl>
+                    <bibl>
+                        <author>W3C </author>(2009), 
+                        <hi rend="italic">SKOS Simple Knowledge Organization System Reference</hi>, 2009, 
+                        <ref target="https://www.w3.org/TR/skos-reference/#concepts">https://www.w3.org/TR/skos-reference/#concepts</ref> [1.11.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

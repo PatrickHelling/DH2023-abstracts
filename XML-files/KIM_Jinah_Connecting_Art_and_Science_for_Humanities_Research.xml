@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Connecting Art and Science for Humanities Research: Mapping Color in
+                    History</title>
+                <author n="KimJinahKIM_Jinah_Connecting_Art_and_Science_for_Humanities_Research.xml"><persName ref="https://orcid.org/0000-0003-0367-6447" n="KimJinah">
+                        <surname>Kim</surname>
+                        <forename>Jinah</forename>
+                    </persName><affiliation>Harvard University, United States of America</affiliation><email>jinahkim@fas.harvard.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CrawfordColeKIM_Jinah_Connecting_Art_and_Science_for_Humanities_Research.xml"><persName ref="https://orcid.org/0000-0002-8347-0096" n="CrawfordCole">
+                        <surname>Crawford</surname>
+                        <forename>Cole</forename>
+                    </persName><affiliation>Harvard University, United States of America</affiliation><email>cole_crawford@fas.harvard.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SinghalRashmiKIM_Jinah_Connecting_Art_and_Science_for_Humanities_Research.xml"><persName n="SinghalRashmi">
+                        <surname>Singhal</surname>
+                        <forename>Rashmi</forename>
+                    </persName><affiliation>Harvard University, United States of America</affiliation><email>rsinghal@fas.harvard.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="StewardJeffKIM_Jinah_Connecting_Art_and_Science_for_Humanities_Research.xml"><persName n="StewardJeff">
+                        <surname>Steward</surname>
+                        <forename>Jeff</forename>
+                    </persName><affiliation>Harvard University, United States of America</affiliation><email>jeff_steward@harvard.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Mapping Color in HIstory compiles pigment analysis data from existing and on-going research on scientific analysis of pigments for historical research. As a digital humanities project at the intersection of art and science, multidisciplinary collaboration is at its heart. The paper will introduce the project and discuss methods and contributions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>mapping pigment</term>
+                    <term>digital art history</term>
+                    <term>south asian painting</term>
+                    <term>IIIF</term>
+                    <term>conservation science</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Art history</term>
+                    <term>Book and print history</term>
+                    <term>History of science</term>
+                    <term>South Asian studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Preamble</head>
+                <p>
+                    What color is the Hindu God Krishna? “Blue” would be an answer from anyone
+                    familiar with the iconography today, but which blue? How Krishna was
+                    pictorialized in color differed greatly across time and space. Our color
+                    perception is not only subjective but also period and culture- specific. The
+                    latter specificity has much to do with artisanal practices in making and using
+                    colorants in the art of painting. In searching for answers to the questions
+                    about historical usage of colorants (pigments and organic dyestuffs) in the
+                    painting traditions of South Asia, we face two immediate challenges: first,
+                    little is known about the history of pigments in Asia as the existing pigment
+                    studies and databases rely heavily on the data drawn from Western Art (see the
+                    discussion in Kim 2021; Krekel et al. 2006; Feller 1986) second, many museums
+                    with conservation labs have been conducting their analytical studies on pigments
+                    but the data is rarely shared beyond the immediate circles or shared in the
+                    manner that students of humanities and general public cannot access easily (e.g.
+                    Ravindran et al. 2011; Faria et al. 2017; Eremin et al. 2008). Thus, translating
+                    the scientific analytical data and contextualizing the pigment analysis
+                    information is the first order of business for further historical research. This
+                    is what the Mapping Color in History [henceforth MCH,
+                    https://mappingcolor.fas.harvard.edu] as a multidisciplinary digital humanities
+                    project does. At the intersection of art and science brought together through a
+                    digital humanities project, collaboration is at the heart of the MCH project.
+                    This is what we would like to share in DH 2023. </p>
+                
+            </div>
+            <div>
+                <head>A three-legged stool</head>
+                <p>
+                    Mapping Color in HIstory is a digital platform that compiles pigment
+                    analysis data from existing and on-going research on scientific analysis of
+                    pigments with a capacity to add new data through collaboration with research
+                    centers that are engaged in pigments analysis in Asian painting and put them in
+                    a historical perspective. The MCH project builds on existing databases like the
+                    Forbes pigment database and other digital humanities initiatives like the
+                    Getty’s Thesaurus of Geographic Names (TGN) and Art and Architecture Thesaurus
+                    (AAT) and GeoNames, and makes it possible to see pigment analysis data in the
+                    geographic and historical context. <lb/>MCH takes an object-based entry method
+                    for data collection instead of a pigment-based organization scheme taken in
+                    existing pigment databases and publications. A database ontology developed for
+                    the MCH captures the complex and multi-layered hierarchic relationship between
+                    different data points, which in turn allows mapping each pigment’s appearance
+                    geographically. This can help understand previously under-recognized
+                    trans-regional connections not only in terms of trade (such as trade of
+                    colorants and other raw materials, and even pigment recipes) but also in terms
+                    of travels of religious, philosophical, and cultural ideas. MCH can help answer
+                    when and where certain pigments started appearing and became popular and how it
+                    relates to certain pictorial, cultural, religious, and economic practices. It
+                    will also generate further research questions about local and global trade
+                    connections, color symbolism, and artisanal knowledge transfer. MCH also records
+                    the historical and technical information on the analysis, providing valuable
+                    data on the history of analytical methods. <lb/>MCH is inherently
+                    multidisciplinary as it aims to bring together scientific analysis and
+                    humanistic research with computational methods and digital tools. The project
+                    can be best described as a three-legged stool: its three legs are 1) digital
+                    asset and software development, 2) conservation science research (core data),
+                    and 3) art historical research (core data). All three legs need to be equally
+                    balanced and refined to make the MCH project to function as an open research
+                    platform. We are collaborating with six museums and libraries in the US and two
+                    in India for generating and collecting analytical and art historical data. </p>
+                
+            </div>
+            <div>
+                <head>Connecting Visual and Scientific Data with IIIF and Web Annotations</head>
+                <p>
+                    The visual display of information is central to Mapping Color in History.
+                    The International Image Interoperability Framework (IIIF) defines a set of open
+                    API standards for describing and delivering high-resolution, attributed digital
+                    objects - a natural fit for a project which relies on visual works from
+                    disparate museum and library digital collections (Appleby et al. 2022). Some
+                    partner institutions already provide IIIF-compliant resources which are easily
+                    integrated into MCH. To serve assets from institutions which do not yet provide
+                    IIIF resources, MCH utilizes a IIIF pipeline developed by the Harvard Library
+                    Technical Services team (LTS) and provided as infrastructure as a service for
+                    multiple university clients. The asset ingest and delivery pipeline was created
+                    in collaboration with partners such as MCH, HarvardX, and the Academic
+                    Technology Group. The MCH team collaborated with ATG to create a reusable Python
+                    library (Crawford et al. 2022) to generate IIIF manifests and interact with the
+                    IIIF pipeline APIs. </p>
+                <p><lb/>MCH also connects pigment analysis data to art object digital
+                    representations through IIIF-compatible Web Annotations (Sanderson et al. 2017).
+                    Connecting scientific data to digital cultural objects is difficult but
+                    necessary for researchers interested in making the shift from visual and
+                    historical analysis to material investigation and scientific data analysis
+                    (France and Toth 2011). Using a CatchPy annotation server developed at HarvardX
+                    (Maekawa), MCH researchers annotate analyses as layers on canvases representing
+                    the works. We extended the Mirador 3 mirador-annotations plugin (Reed 2020) to
+                    include an adapter for CatchPy and to allow researchers to capture the visible
+                    color and analysis methodology (XRF, Raman, etc) associated with each annotation
+                    point. This links the annotations to our application data, so users can click on
+                    annotations within the Mirador IIIF viewer and see the associated pigments. Much
+                    like the Library of Congress’ Scriptospatial Visualization Initiative, the MCH
+                    viewer layers scientific pigment analyses on top of the digital object,
+                    surfacing data that may otherwise remain locked in a pigment database (France
+                    2017). This interface is more accessible than typical pigment databases, as
+                    researchers can see exactly where pigments appear on the work and compare
+                    analyses of different objects. These annotations will eventually allow
+                    researchers to visualize the interconnections between pigment analyses and art
+                    historical data in historically and geographically meaningful ways. </p>
+            </div>
+
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Appleby, Michael, Tom Crane, Robert
+                            Sanderson, Jon Stroop, and Simeon Warner.</author>
+                         “IIIF Presentation API 3.0.” <ref target="https://iiif.io/api/presentation/3.0/">https://iiif.io/api/presentation/3.0/</ref>
+                         [04.11.2022]</bibl>
+                    <bibl><lb/><hi rend="bold">Crawford, Cole / Arthur Barett / Jeremy Guillette /
+                                Vesna Tan</hi> (2022): IIIF LTS Library. 
+                        <ref target="https://github.com/Harvard-ATG/lts-iiif-ingest-service">https://github.com/Harvard-ATG/lts-iiif-ingest-service</ref>
+                     
+                         [04.11.2022]</bibl>
+                    <bibl><author>De Faria</author> / <author>Dalva L., et al.</author> 
+                         (2016): “A Definitive Analytical Spectroscopic Study of Indian Yellow, an Ancient Pigment Used for Dating Purposes,” in: Forensic Science International, 271: 1–7, 
+                        
+                        <ref target="https://doi.org/10.1016/j.forsciint.2016.11.037">https://doi.org/10.1016/j.forsciint.2016.11.037</ref>
+                        </bibl>
+                    <bibl>
+                        <author>Eremin, Katherine, et al.</author>
+                         (2008): “Examination of Pigments on Thai Manuscripts: The First Identification of Copper Citrate,” in: Journal of Raman Spectroscopy  39, 8: 1057-65. 
+                        <ref target="https://doi.org/10.1002/jrs.1985">https://doi.org/10.1002/jrs.1985</ref>
+                       </bibl>
+                    <bibl><author>Feller, Robert L., et al.</author>
+                         (1986): Artists' Pigments : a Handbook of Their History and Characteristics. National Gallery of Art.</bibl>
+                    <bibl><author>France, Fenella</author> / <author>Campagnolo, Alberto</author> 
+                         (2017): “Integrating Humanities and Science: The Scriptospatial Visualization Interface.“ Montreal, Canada.</bibl>
+                    <bibl><author>France, Fenella</author> / <author>Toth, Michael</author> 
+                         (2011): “Knowledge and Reasoning: Connecting Scientific Data and Cultural Heritage” (Stanford, CA, 2011).</bibl>
+                    <bibl><author>Kim, Jinah</author>
+                         (2021): Garland of Visions : Color, Tantra, and a Material History of Indian Painting. University of California Press.</bibl>
+                    <bibl><author>Krekel, Christoph, et al.</author>
+                         (2006): “ARTISTS' PIGMENTS RECONSIDERED: DOES MODERN SCIENCE MATCH THE HISTORICAL CONTEXT?” Studies in Conservation 51, 2: 244-48. 
+                        <ref target="https://doi.org/10.1179/sic.2006.51.Supplement-2.244">https://doi.org/10.1179/sic.2006.51.Supplement-2.244</ref>
+                       </bibl>
+                    <bibl><author>Maekawa, Naomi.</author>
+                        <hi rend="italic">CatchPy:
+                            Annotation Storage Backend</hi>
+                         (version 2.5.2).  
+                        <ref target="https://github.com/nmaekawa/catchpy">https://github.com/nmaekawa/catchpy</ref>
+                       
+                         [04.11.2022]</bibl>
+                    <bibl><author>Ravindran, T. R., et al.</author>
+                        (2011): “Raman Spectroscopic Study of Medieval Indian Art of 17th Century,” in Journal of Raman Spectroscopy, 42, 4: 803–07. 
+                        <ref target="https://doi.org/10.1002/jrs.2776">https://doi.org/10.1002/jrs.2776</ref>
+                   </bibl>
+                    <bibl><author>Reed, Jack</author>
+                         (2020): 
+                        <hi rend="italic">mirador-annotations</hi>
+                         (version 0.5.0) 
+                        <ref target="https://github.com/ProjectMirador/mirador-annotations">https://github.com/ProjectMirador/mirador-annotations</ref></bibl>
+                    <bibl><author>Sanderson, Robert</author> / <author>Paolo Ciccarese</author> / <author>Benjamin Young</author> 
+                         (2017): 
+                        <hi rend="italic">Web Annotation
+                            Data Model.</hi>
+                        <ref target="https://www.w3.org/TR/annotation-model">https://www.w3.org/TR/annotation-model</ref>
+                        </bibl>
+                    <lb/>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

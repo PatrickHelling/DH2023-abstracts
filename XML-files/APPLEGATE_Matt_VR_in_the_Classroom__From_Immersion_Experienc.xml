@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>VR in the Classroom: From Immersion Experiences to Creating 360º Video</title>
+                <author n="RennerMaxAPPLEGATE_Matt_VR_in_the_Classroom__From_Immersion_Experienc.xml"><persName n="RennerMax">
+                        <surname>Renner</surname>
+                        <forename>Max</forename>
+                    </persName><affiliation>Molloy University, United States of America</affiliation><email>mrenner@molloy.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="EvansSarahAPPLEGATE_Matt_VR_in_the_Classroom__From_Immersion_Experienc.xml"><persName n="EvansSarah">
+                        <surname>Evans</surname>
+                        <forename>Sarah</forename>
+                    </persName><affiliation>Molloy University, United States of America</affiliation><email>sevans@molloy.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ApplegateMattAPPLEGATE_Matt_VR_in_the_Classroom__From_Immersion_Experienc.xml"><persName n="ApplegateMatt">
+                        <surname>Applegate</surname>
+                        <forename>Matt</forename>
+                    </persName><affiliation>Molloy University, United States of America</affiliation><email>mapplegate@molloy.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This poster showcases three deployments of virtual reality kits and 360º video design for undergraduate classrooms. It features three examples. The first utilizes a browser-based application that allows users to upload media and view them in a 360º environment. The other examples showcase VR storytelling techniques with consumer-grade 360º cameras.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>VR Video</term>
+                    <term>360º Video</term>
+                    <term>Panoform</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>curricular and pedagogical development and analysis</term>
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>virtual and augmented reality creation</term>
+                    <term>systems</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Design studies</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">Summary</hi>:</p>
+            <p>This poster and interactive experience showcases three deployments of virtual reality (VR) kits and 360º video design for undergraduate classrooms. We showcase one low touch and two high touch examples. Our low touch example utilizes Panoform–a browser based application that allows users to upload sketches and images, designed on grids, and then view them in a 360º environment. Our first high touch example features a VR video capture rig and YouTube playlist of student-made 360º video produced during a study abroad experience in Rome, Italy (<ref target="https://bit.ly/3Cmrubt">https://bit.ly/3Cmrubt</ref>). Our second high touch example describes our VR storytelling course wherein students use consumer-grade 360º video cameras to produce original, immersive narratives (<ref target="https://tinyurl.com/2nz4v6cp">https://tinyurl.com/2nz4v6cp</ref>). Their projects collectively showcase emerging and experimental 360º video filming and editing techniques that result in a variety of stories from the first-person point of view. As a part of our poster presentation, attendees will be able to handle our VR camera and tripod and use Pano-form cardboard headsets to view our 360º video examples. We will provide descriptions of classroom assignments and required technical information for our VR rig as well as students’ set-ups. </p>
+            <p><hi rend="bold">Project Description &amp; Framework</hi>:</p>
+            <p>We showcase three pedagogical examples of virtual reality ranging from low touch techniques (describing both the use of simpler, more accessible forms of technology and the production of projects) to high touch techniques (meaning more advanced forms of digital technology and the complexity involved in the production) in order to demonstrate the range of skills that these options offer for engaging in virtual reality development and storytelling. By working within the low to high touch range, we demonstrate how a scaffolded conceptual framework allows students to see how and to what extent they are able to iterate both the material and immersive qualities that 360º video offers.</p>
+            <p>Panoform is our low touch example that allows users to sketch environments and images to then view them as a 360º image by utilizing a phone and Google Cardboard headset. Through multiple iterations of this process, students develop immersive spaces/environments, examine and critique particularities related to the created materiality, and continue reimagining these spaces. This low touch example allows students to consider how VR design and materiality function immersively and to foreground a critical iterative process in this creation. </p>
+            <p>Our high touch examples leverage the GoPro Max 360º and GoPro Fusion cameras to allow students to capture 360º video across two distinct projects and contexts. In 2019, students traveled with faculty to Rome, Italy and created immersive 360º videos that highlighted their experience of specific locations across the city. Site specificity, a concept prized by mobile storytelling communities, embraces a “location, including its histories, cultural conflicts, communities, and architectures (to name only a few) and makes these aspects foundational for the experience of the space” (Farman 3). In fall 2022, students enrolled in an upper-level undergraduate Virtual Reality Storytelling course were tasked with ideating, scripting, filming, and editing 360º videos to be viewed in virtual reality. Student videos sought to achieve four types of narrative immersion–spatial, temporal, spatio-temporal, and emotional (Ryan, 2015)–as well as utilize strategies of technical immersion such as embodiment and audiovisual cues (Sheikh et al., 2016).</p>
+            <p><hi rend="bold">Interactive experience</hi>: </p>
+            <list type="ordered">
+                <item>Panoform &amp; Cardboard Headsets: This experience allows participants to draw their own environments on Panoform grid sheets and then upload their drawings to the Panoform website through their phones. Once on the web site, participants will place their phone into the Google cardboard headsets in order to see their environments transformed into 360º immersive images. </item>
+                <item>360º Video Production Rig: This experience allows participants to handle consumer grade VR cameras and associated gear. We will explain the decisions behind our set up, how students utilize the rig, and offer demonstrations that correspond to projects showcased on our poster submission.</item>
+                <item>Cardboard Headsets and Student-Made Video: This experience allows participants to view student-made videos using our 360º video production rig using Google cardboard headsets. This will provide participants a direct example of what the rig allows and the final outcome of our low to high touch methodological approach. </item>
+            </list>
+            <p><hi rend="bold">Outcomes</hi>: </p>
+            <p>The outcomes of this poster session are twofold. First, this poster session offers a framework for engaging students in the critical exploration of physical spaces through iterative creation. Second, this session offers a scaffolded framework for introducing students to the VR development process by foregrounding critical and/or experimental storytelling methods. The outcomes we prioritize are familiarization with these technologies, associated vocabulary and their uses in today’s media landscape; following workflows used in filming, editing, and producing 360º content; select filming and narrative techniques. The poster presentation itself underscores these priorities: curriculum, technical dexterity, platforms for distribution, and course applications/outputs for students.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Farman, Jason</author> (2014):
+                        <hi rend="italic">Mobile Story: Narrative Practices with Locative Technologies</hi>
+                        . Routledge. 
+                    </bibl>
+                    <bibl>
+                        <author>Ryan, Marie-Laure</author> (2015):
+                        <hi rend="italic">Narrative as virtual reality 2: Revisiting immersion and interactivity in literature and electronic media</hi>
+                        . JHU Press.
+                    </bibl>
+                    <bibl>
+                        <author>Sheikh, A.</author> / <author>Brown, A.</author> / <author>Evans, M.</author> / <author>Watson, Z</author>  (2016): "Directing attention in 360-degree video."  Paper presented at IBC 2016 Conference, Amsterdam. doi: 10.1049/ibc.2016.0029.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Polyphemus, a lexical database of the Ancient Greek papyri,
+                        and the Madrid Wordlist of Ancient Greek</title>
+                <author n="RiaoRufilanchasDanielRIA_O_RUFILANCHAS_Daniel_Polyphemus__a_lexical_database_of_t.xml"><persName ref="https://orcid.org/0000-0003-2034-6298" n="RiaoRufilanchasDaniel">
+                        <surname>Riaño Rufilanchas</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>CSIC, Spain</affiliation><email>danielrianno@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>At present there is no way to search the corpus of Greek papyri for lemmas, or to search for specific grammatical forms of a word. Much less is there a way to search for examples of a grammatical category. Polyphemus comes to solve these shortcomings, and some more.
+For this purpose we have processed all the papyrus texts from PapyInfo (&lt;https://papyri.info/&gt;). This processing is done at the same time as the processing that results in the Callimachus database, which we also present at this DH Congress Congress. I summarize below the procedure by which we obtain our database Polyphemus.
+A) First we analyze each line of papyrus and differentiate the actual full words from the gaps or non-textual elements.
+B) Then we identify the complete words and separate them from the fragments. This can sometimes be done because of the editorial criteria used in the original edition, before digitizing. Other times it is necessary to check if the text meets some of the external qualities that define a word in ancient Greek (presence of accentuation, etc.).
+C) We then proceed to lemmatize each of the words, and determine to which part of speech it corresponds, and what is its morphological analysis. All this is done with the help of the Madrid list, which I will discuss below. For text fragments (incomplete words), we try to see if they can be ascribed to a root. We also separate proper nouns from common nouns.
+D) Lemma assignment and POS-tagging is performed in two phases. In a first pass we tag the forms with the highest frequency of occurrence. We calculate this from the frequency with which lexical forms were tagged in several manually annotated treebanks (over 700,000 words). We then go on to label all the remaining forms using the Madrid Wordlist. The Madrid Wordlist incorporates information about the dialect in which a form appears, so in case of multiple possible analyses we prefer those belonging to Koine (the Greek form of Papyri Greek) or Attic Greek. Naturally this procedure has the consequence that we reduce the number of multiple analyses for the same form (thus drastically reducing the number of false positives) in exchange for losing the correct POS- tagging for low-frequency forms that coincide with high-frequency ones.
+E) All this information is transferred to a SQL database, and put in relation with the data on the papyri that we have obtained when creating the Callimachus database. In this way, for each lexical form we obtain a lemma, a non-disambiguated morphological analysis, and a translation or gloss. Each of these parameters can be searched in combination with the more than fifty categories available to us thanks to Callimachus, such as date, origin, category, extension, subject, etc.
+To date, we have been able to analyze 97% of the complete words, including proper names, which are very numerous.
+4. The Madrid Ancient Greek Word List
+The lemmatization and analysis in Parts Of Speech (POS tagging) is performed by comparing each record in our database with the records of a word list that we have created over the last 3 years, which we have called the Madrid Ancient Greek Wordlist.
+Most of the Ancient Greek wordlists are evolutions, simplifications, or improvements from the Morpheus list developed by Gregory Crane between 1984 and 1990 (Crane 1991; Celano et al. 2016).
+Our list also starts with Morpheus, but has been enriched with our own treebank (Aristarchus Treebank, 200,000 words; cf. Riaño 2006), and almost 100,000 proper names from The Lexicon of Greek Personal Names and the Trismegistos repository of papyrological and epigraphic resources. All these data were processed to obtain morphological information.
+I have manually entered several hundred (mostly irregular) pronominal forms in this list.
+To complete this list I have processed the digital version of the Greek-English Lexicon of Liddell-Scott-Jones, and extracted all the nominal lemmas; then I have determined the declension of each one of them, and I have proceeded to decline each lemma in its Attic and Ionic form by means of a program we have developed. Then we search for each of these forms in the papyri. The program thus produces over 600,000 lexical forms (many of them already in the Morpheus list). The lemmas are then assigned a translation, or rather a gloss</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Ancient Greek papyri</term>
+                    <term>Green Grammar</term>
+                    <term>Greek morphology</term>
+                    <term>databases</term>
+                    <term>Greek lexicography</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>concordancing and indexing</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>Cultural studies</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Polyphemus: A Lexicographic Database of Greek Papyri</head>
+                <p>Currently, there is no comprehensive way to search the complete corpus of
+                    digitally edited Greek papyri for lemmata, specific grammatical forms, or
+                    examples of a grammatical category ( Although since
+                        2022, a portion of that corpus is covered by morphosyntactic analysis
+                        accessible in the Trismegistos web site). Polyphemus aims to address these shortcomings
+                    and more by processing all the papyrus texts from PapyInfo. The processing of
+                    these texts is done in conjunction with the processing that results in the
+                    Callimachus database. This paper summarizes the procedure by which Polyphemus is
+                    obtained, highlighting its key features. </p>
+                <p>First, each line of papyrus is analyzed to differentiate actual full words from
+                    gaps or non-textual elements. Next, complete words are identified and separated
+                    from fragments. Afterward, each token is lemmatized and assigned to a part of
+                    speech, with its morphological analysis. The Madrid WordList is used to aid this
+                    process, with proper nouns separated from common nouns. Lemma assignment and POS
+                    tagging is performed in three phases, with disambiguation using a system of
+                    morphosyntactic rules.</p>
+                <p>All this information is transferred to a SQL database and related to the data on
+                    the papyri obtained when creating the Callimachus database. For each lexical
+                    form (token), a lemma, a partially disambiguated morphological analysis, and a
+                    translation or gloss are obtained. Each of these parameters can be searched in
+                    combination with over fifty categories, such as date, origin, category,
+                    extension, subject, etc., made available by Callimachus. To date, more than the
+                    97% of the complete words, including proper names, have been analyzed.</p>
+            </div>
+            <div>
+                <head>The Madrid Ancient Greek Word List</head>
+                <p>The lemmatization and POS tagging are performed by comparing each record in the
+                    Polyphemus database with the Madrid Ancient Greek Wordlist, which has been
+                    created over the last three years. While many Ancient Greek wordlists are
+                    evolutions, simplifications, or improvements from the Morpheus list, the Madrid
+                    Ancient Greek Wordlist is enriched with data coming from several treebanks, the
+                    digital version of the <hi rend="italic">Greek-English Lexicon</hi> of
+                    Liddell-Scott-Jones (LSJ), Bailly’s <hi rend="italic">Dictionnaire
+                        Grec-Français</hi>, about 100,000 proper names from <hi rend="italic">The
+                        Lexicon of Greek Personal Names</hi>, the Trismegistos repository of
+                    papyrological and epigraphic resources, and other minor resources. This data was
+                    processed to obtain morphological information, generating automatically the
+                    Attic and Ionic paradigm for each nominal entry in LSJ and Bailly. The lemmas
+                    are assigned a translation or gloss, mainly from the LSJ, S.C. Woodhouse’s <hi rend="italic">English-Greek dictionary</hi> or the <hi rend="italic">Organa
+                        Papyrologica</hi> web site. </p>
+            </div>
+            <div>
+                <head>Polyphemus Interface</head>
+                <p>Polyphemus can be accessed online, currently containing about 4,600,000 words
+                    from Ancient Greek papyri. POS tagging and lemmatization enable the user to
+                    query the database for any morphological feature, lemma, or translation, and to
+                    combine this data with the formal content of the papyri provided by the
+                    Callimachus database, allowing more than 80 search criteria. Since both the
+                    original readings and editorial regularizations are preserved, researchers can
+                    use Polyphemus to search for phonetic or morphological features of the papyri.
+                    Examples of searches include: (a) texts containing a Greek word that translates
+                    as "poison," "medicine," " <hi rend="italic">praetor</hi>," "water," etc.; (b)
+                    texts in which any lemma appears in a specific grammatical form from Elephantine
+                    between the 2nd century BC and 3rd AD; (c) all adjectives in accusative plural;
+                    or the optative of verbs in -μι in all texts. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bohnet, Bernd</author> / <author>Joakim Nivre</author>  (2012): “A
+                        Transition-Based System for Joint Part-of-Speech Tagging and Labeled
+                        Non-Projective Dependency Parsing” <hi rend="italic">EMNLP-CoNLL,</hi> pp.
+                        1455-1465 [https://aclanthology.org/D12-1133]. </bibl>
+                    <bibl>
+                        <author>Celano, Giuseppe G.A.</author> / <author>Gregory Crane</author> / <author>Saeed Majidi</author> 
+                        (2016): “Part of Speech Tagging for Ancient Greek” <hi rend="italic">Open
+                            Linguistics</hi> 2:393–399 [DOI 10.1515/opli-2016-0020]. </bibl>
+                    <bibl>
+                        <author>Crane, Gregory</author> (1991): “Generating and Parsing
+                        Classical Greek” <hi rend="italic">Literary and Linguistic Computing,</hi>
+                        6:4, pp. 243–245 [ <ref target="https://doi.org/10.1093/llc/6.4.243">https://doi.org/10.1093/llc/6.4.243</ref>]. </bibl>
+                    <bibl>
+                        <author>Riaño Rufilanchas, Daniel</author> (2006): <emph>El complemento
+                            directo en griego antiguo</emph> in: Anejos de Emerita, XLVII. Madrid:
+                        CSIC. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

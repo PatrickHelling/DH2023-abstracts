@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mapping Antiquity in Collaboration: The Digital Periegesis Project </title>
+                <author n="FokaAnnaFOKA_Anna_Mapping_Antiquity_in_Collaboration__The_Digital_Pe.xml"><persName ref="https://orcid.org/0000-0002-9949-616X" n="FokaAnna">
+                        <surname>Foka</surname>
+                        <forename>Anna</forename>
+                    </persName><affiliation>Uppsala University, Sweden</affiliation><email>anna.foka@abm.uu.se</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BarkerEltonFOKA_Anna_Mapping_Antiquity_in_Collaboration__The_Digital_Pe.xml"><persName n="BarkerElton">
+                        <surname>Barker</surname>
+                        <forename>Elton</forename>
+                    </persName><affiliation>Open University, UK</affiliation><email>Elton.Barker@OPEN.AC.UK</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KonstantinidouKyriakiFOKA_Anna_Mapping_Antiquity_in_Collaboration__The_Digital_Pe.xml"><persName ref="https://orcid.org/0000-0002-2640-4519" n="KonstantinidouKyriaki">
+                        <surname>Konstantinidou</surname>
+                        <forename>Kyriaki</forename>
+                    </persName><affiliation>Swedish Institute Athens</affiliation><email>kyriakikon@hotmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KieslingBradyFOKA_Anna_Mapping_Antiquity_in_Collaboration__The_Digital_Pe.xml"><persName ref="https://orcid.org/0000-0003-3281-5741" n="KieslingBrady">
+                        <surname>Kiesling</surname>
+                        <forename>Brady</forename>
+                    </persName><affiliation>Swedish Institute Athens</affiliation><email>westtothesea@hotmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This long paper examines the affordances and challenges in interdisciplinary collaboration between researchers, projects and contemporary digital research infrastructures for the analysis of ancient narratives. Our case study is Pausanias’s Description of Greece a 10 volume 2nd century CE traveling guide to Greece.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Linked Open Data</term>
+                    <term>Interoperability</term>
+                    <term>Spatial Humanities</term>
+                    <term>Classics</term>
+                    <term>Archaeology</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>linked (open) data</term>
+                    <term>semantic analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Archaeology</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Spatial analytical methods predate the field of digital humanities, most notably
+                through cartography, the practice of drawing and studying maps. More recently, the
+                spatial analysis of texts via Geographic Information Systems (GIS) is trending as a
+                research method. Mapping pre-modern space is rarely a matter of documenting toponyms
+                or establishing precise coordinates. Rather, space becomes place through interaction
+                with historical agents and the human footprint left on the ground in the form of
+                monuments, religious sites and other infrastructures. While contemporary geographic
+                information science and historical modes of describing space often appear to have
+                disparate, even incompatible, viewpoints of the world, there is a growing ecosystem
+                that seeks to remedy the complexity of ancient space. This ecosystem of tools,
+                content and communities about ancient place and space illustrate how collaboration
+                within the field of digital humanities can be an opportunity for scientific
+                discovery. </p>
+            <p>Against this backdrop, this paper examines the affordances and challenges in interdisciplinary collaboration between researchers, projects and contemporary digital research infrastructures for the analysis of ancient narratives. Our case study is a well-known ancient narrative of space: namely Pausanias’s <hi rend="italic">Periegesis Hellados</hi> (<hi rend="italic">Description of Greece</hi>), a ten-volume description of Greek towns, villages, monuments, works of art and their histories from Attica to Phocis, following a circuit around the Peloponnese. The Digital Periegesis project,
+                    funded by the Marcus and Amalia Wallenberg Foundation (MAW 2017.0057; 2018–2021), and comprising an interdisciplinary team of scholars builds on existing digital spatial research infrastructures, using maps as visual portals into narratives, as a means to interrogate rather than merely illustrate spatial information. In the second phase of the project that is financed by the Swedish Research Council from 2022 to 2026 (Vetenskapsrådet 2021-02799) the Digital Periegesis project is set out to investigate descriptions of time and people and to incorporate this to the ongoing Digital Periegesis’s visualisation. </p>
+            <p>This long research paper then discusses scientific collaboration between researchers
+                and research infrastructures more generally, incorporating information about space,
+                time and people into a reflexive process to illuminate change and development as a
+                way of understanding place fully. From the outset, the Digital Periegesis’ project
+                team utilize an existing eco-system of digital spatial research infrastructure and
+                analysis but also additional and customized infrastructures that are used more
+                widely, beyond Pausanias’s Description of Greece. The overarching argument presented
+                here is that Digital Periegesis is not simply a collaboration of scholars from
+                different backgrounds and with different skills, which is a standard
+                interdisciplinary practice in Digital Humanities. Additionally, the Digital
+                Periegesis project team is attempting to break new ground in applying linked data
+                methods and tools and, as such, is establishing a new model of collaboration. </p>
+            <p>At one level, this collaboration promotes a bottom up
+                    approach: that is establishing workflows and pipelines, involving a broader
+                    community of classicists, archaeologists and digital humanists. Collaboration is
+                    thus manifested in reusing data— a TEI digital text, as well as reusing tools,
+                    more specifically the semantic annotation tool Recogito, developed by the
+                    Pelagios Network of Partners. At another level, the Digital Periegesis project
+                    team hosts a private and customized instance of Recogito in order to make use of
+                    actual archaeological databases, such as the German Archaeological Institute’s
+                    DAI/ ARACHNE for semantically annotating the more granular aspects of
+                    Pausanias's description (temples, statues, etc.). But collaboration, recycling
+                    and reuse of data and resources does not end there for the Digital Periegesis
+                    project team. Examples of such reuse and recycling include yet are not limited
+                    to, drawing on other resources, namely Wikidata, to provide URIs; providing the
+                    enriched, annotated Pausanias’s text back to the Perseus Digital Library; and
+                    returning new place information to the Pleiades structured vocabulary of ancient
+                    place data. Additionally, the Digital Periegesis research group is developing
+                    open source tools in collaboration for enabling the visualization and search of
+                    geospatial information specifically in the re-launch of Peripleo — which has
+                    subsequently been taken up by other projects, notably the British Library.</p>
+            <p>Our project is essentially theoretically and methodologically inspired by the field
+                of spatial humanities (e.g. Bodenhamer–Corrigan–Harris 2010). As is well rehearsed,
+                the value of ‘locating historical and cultural exegesis more explicitly in space and
+                time’ (Bodenhamer 2010: 28) has greatly assisted historical inquiry into places
+                (Gregory and Ell 2007; Gregory–Geddes 2014). Applications of Geographic Information
+                Systems (GIS) hold the promise of facilitating the gathering, management and
+                analysis of spatially based data systematically (Gregory–Healey 2007; Dunn 2019).
+                Yet, the very systematic structure of a GIS is frequently ill-suited to capturing
+                aspects of uncertainty and ambiguity that typically characterise, and explain
+                interest in, Humanities data (Gregory–Healey 2007: 641; Harris–Bergeron–Rouse 2011:
+                228; Dunn 2019). Specifically, our project derives directly from the Hestia
+                project’s blended methodological approach to exploring literary geography, which had
+                highlighted ways in which texts organise spatial knowledge, based on relations
+                between places (Bouzarovski–Barker 2016; Barker–Pelling 2016). The semantic
+                annotation tool Recogito has been attracting increasing adoption in both the
+                research into, and teaching of, places in historical records (Palladino 2016, 2021;
+                O'Doherty 2021; Dunn–Vitale 2021). The fact that our use of Recogito is the most
+                extensive, dense and complex application of this platform also goes to underline the
+                value of the experience that we can share with the rest of the DH community, as
+                Recogito itself undergoes a major overhaul. </p>
+            <p>To conclude, by finding ways to compartmentalize concepts of space, people and time in a centuries’ old narrative the Digital Periegesis research team had the opportunity to engage and consequentially to collaborate with relevant content, but also tools and communities. Ultimately and through this knowledge production process, the Digital Periegesis project team are moving beyond the
+                    confines of a Digital Humanities research project and are contributing and
+                    enriching the wider and global landscape of digital humanities socio-technical
+                    research infrastructure.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Barker, E., Foka, A., and Konstantinidou, K. </author>
+                        (2020): ‘Coding for the Many, Transforming Knowledge for All: Annotating
+                            Digital Documents’. In Booth, A. and Posner, (eds) M. 
+                        <hi rend="italic">Varieties of Digital Humanities</hi>
+                         (DH Methodologies), 
+                        <hi rend="italic">PMLA</hi>
+                         the Modern Language Association of America. Cambridge: Cambridge
+                            University Press: 135:1: 195-202.
+                    </bibl>
+                    <bibl>
+                        <author>Barker, E. T. E and Pelling, C. B. R. P. </author>
+                        (2016): ‘Space-Travelling in Herodotus 5.’ In E. T. E. Barker, S.
+                            Bouzarovski, C. B. R. Pelling, and L. Isaksen (eds) (2016) New Worlds
+                            Out of Old Texts: Revisiting Ancient Space and Place. Oxford: Oxford
+                            University Press, pp. 225-52,
+                    </bibl>
+                    <bibl>
+                        <author>Bodenhamer, D. </author>
+                        (2015): ‘Narrating space and place.’ In D. Bodenhamer, J. Corrigan, and
+                            T. Harris (eds) (2010) The Spatial Humanities: GIS and the Future of
+                            Humanities Scholarship. Bloomington: Indiana University Press, pp.
+                            7-27.
+                    </bibl>
+                    <bibl>
+                        <author>Bodenhamer, D. </author>
+                        (2010): 'The potential of spatial humanities.' In D. Bodenhamer, J.
+                            Corrigan, and T. Harris (eds) (2010) The Spatial Humanities: GIS and the
+                            Future of Humanities Scholarship. Bloomington: Indiana University
+                            Press,pp. 14-30.
+                    </bibl>
+                    <bibl>
+                        <author>Bodenhamer, D., Corrigan, J., and Harris, T. (eds) </author>
+                        (2015): Deep Maps and Spatial Narratives. Bloomington: Indiana
+                            University Press. 
+                    </bibl>
+                    <bibl>
+                        <author>Bodenhamer, D., Corrigan, J. and Harris, T. (eds) </author>
+                        (2010): The Spatial Humanities: GIS and the Future of Humanities
+                            Scholarship. Bloomington: Indiana University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Bouzarovski, S. and Barker, E. T. E. </author>
+                        (2016): ‘Between east and west: movements and transformations in
+                            Herodotean topology.’ In E. T. E. Barker, S. Bouzarovski, C. B. R.
+                            Pelling, and L. Isaksen (eds) (2016) New Worlds Out of Old Texts:
+                            Revisiting Ancient Space and Place. Oxford: Oxford University Press, pp.
+                            155-79 
+                    </bibl>
+                    <bibl>
+                        <author>Dunn, S. </author>
+                        (2019): A History of Place in the Digital Age. London: Routledge. 
+                    </bibl>
+                    <bibl>
+                        <author>Dunn, S. and Vitale, V. </author>
+                        (2021): 'Linking text and maps: Annotation as a critical tool for
+                            teaching in the Spatial Humanities.' Literary Geographies 7(2), pp.
+                            292-310. 
+                    </bibl>
+                    <bibl>
+                        <author>Foka, A., Demiroglu, C., Konstantinidou, K., Barker, E.,
+                            Kiesling, B. Talatas L., Mostofian, N. </author>
+                        (2022): ‘Visualising Pausanias’s Description of Greece with Contemporary
+                            GIS’, 
+                        <hi rend="italic">Digital Scholarship in the Humanities,</hi>
+                         Oxford: Oxford University Press: 37: 3: 761-724.
+                    </bibl>
+                    <bibl>
+                        <author>Foka, A., Konstantinidou, K., Mostofian, N., Talatas, L.,
+                            Kiesling, J. B. Barker, E., Demiroglu, O. C., Palm, K., McMeekin, D.,
+                            A., and Vekselius , J. </author>
+                        (2021): ‘Heritage metadata: A Digital Periegesis’ in Golub, K., and Liu
+                            Y-H., 
+                        <hi rend="italic">Information and Knowledge Organisation in Digital
+                            Humanities: Global Perspectives, </hi>
+                        London and New York, Routledge: 227-242. 
+                    </bibl>
+                    <bibl>
+                        <author>Foka, A., Barker, E., Konstantinidou, K., Demiroglu, O. C.,
+                            Mostofian, N., Talatas, L., Kiesling, B. </author>
+                        (2021): ‘Mapping Ancient Heritage Narratives with Digital Tools’ in
+                            Champion, E. (Ed). (2021). 
+                        <hi rend="italic">Virtual Heritage: A Concise Guide</hi>
+                        . Ubiquity Press: London: 55-66. 
+                    </bibl>
+                    <bibl>
+                        <author>Gregory, I. N. and Geddes A. </author>
+                        (2014): Towards Spatial Humanities: Historical GIS and Spatial History.
+                            Indiana University Press: Bloomington. 
+                    </bibl>
+                    <bibl>
+                        <author>Gregory, I. N. and Ell P.S. </author>
+                        (2007): Historical GIS: Technologies, Methodologies and Scholarship.
+                            Cambridge University Press: Cambridge. 
+                    </bibl>
+                    <bibl>
+                        <author>Gregory, I. N. and Healey R.G. </author>
+                        (2007) 'Historical GIS: structuring, mapping and analysing geographies
+                            of the past.' Progress in Human Geography 31, pp. 638-53. 
+                    </bibl>
+                    <bibl>
+                        <author>Garris, T.M., Bergeron, S. and Rouse, L.J., </author>
+                        (2011): Humanities GIS: Place, spatial storytelling, and immersive
+                            visualization in the humanities. In GeoHumanities. Routledge: pp.
+                            244-258. 
+                    </bibl>
+                    <bibl>
+                        <author>O'Doherty, M. </author>
+                        (2021): 'Medieval traditions, new technologies: Linked Open Geodata and
+                            Burchard of Mount Sion's Descriptio terrae sanctae.' International
+                            Journal of Humanities and Arts Computing 15 (1-2), pp. 60–84. 
+                    </bibl>
+                    <bibl>
+                        <author>Palladino, C. </author>
+                        (2021): 'Representing places in texts: a spatial investigation into
+                            Agathemerus’ Sketch of Geography.' International Journal of Humanities
+                            and Arts Computing 15(1-2), pp. 33-59. 
+                    </bibl>
+                    <bibl>
+                        <author>Palladino, C. </author>
+                        (2016): ‘New approaches to ancient spatial models: Digital Humanities
+                            and classical geography.' Bulletin of the Institute of Classical Studies
+                            59(2), pp. 56–70.  
+                        <ref target="https://doi.org/10.1111/j.2041-5370.2016.12038.x">https://doi.org/10.1111/j.2041-5370.2016.12038.x</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Vitale, V. Simon, R., and Barker E. </author>
+                        (2020): Recogito: A Beginner’s Guide.  
+                        <ref target="https://github.com/pelagios/pelagios.github.io/wiki">https://github.com/pelagios/pelagios.github.io/wiki</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Vitale, V., de Soto, P., Simon, R., Barker, E. T. E.,
+                            Isaksen, L., and Kahn, R. </author>
+                        (2021): ‘Pelagios - Connecting histories of place. Part I: Methods and
+                            Tools.’ International Journal of Humanities and Arts Computing 15(1-2),
+                            pp. 5-32. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

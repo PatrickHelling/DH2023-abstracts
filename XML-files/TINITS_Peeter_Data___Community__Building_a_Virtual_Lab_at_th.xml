@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Data &amp; Community: Building a Virtual Lab at the National Library of Estonia</title>
+                <author n="TinitsPeeterTINITS_Peeter_Data___Community__Building_a_Virtual_Lab_at_th.xml"><persName ref="https://orcid.org/0000-0003-3186-6264" n="TinitsPeeter">
+                        <surname>Tinits</surname>
+                        <forename>Peeter</forename>
+                    </persName><affiliation>National Library of Estonia; University of Tartu, Estonia</affiliation><email>peeter.tinits@nlib.ee</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SinisaluUrmasTINITS_Peeter_Data___Community__Building_a_Virtual_Lab_at_th.xml"><persName n="SinisaluUrmas">
+                        <surname>Sinisalu</surname>
+                        <forename>Urmas</forename>
+                    </persName><affiliation>National Library of Estonia</affiliation><email>urmas.sinisalu@nlib.ee</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MeiorgMarianneTINITS_Peeter_Data___Community__Building_a_Virtual_Lab_at_th.xml"><persName n="MeiorgMarianne">
+                        <surname>Meiorg</surname>
+                        <forename>Marianne</forename>
+                    </persName><affiliation>National Library of Estonia</affiliation><email>marianne.meiorg@nlib.ee</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Encouraging the use of the digitized materials is a complex goal that involves each - cultural heritage institutions, research funding frameworks, and researchers to some degree. These developments have led a few institutions to initiate GLAM Labs (glamlabs.io) that focus on developing the digital opportunities afforded by galleries, libraries, archives, museums.
+Following the role models in the international community, the National Library of Estonia has been developing a virtual lab - a portal and an interface for users to gain access and find uses to digital data. This entails keeping in mind the interests of many stakeholders - balancing the needs and opportunities for the library with the requirements for the collection user.
+We present the virtual lab, its tools and datasets, as launched in January 2023. We will show the journey there and the conclusions made on the basis of this. During the development, we have piloted several interface options to access text sources in bulk and share our data in multiple accessible formats. We've conducted a service design as well as a legal analysis to understand the interests of the representative members of the potential user community and how the library can respond to them.
+Our virtual lab has aimed to learn from the GLAM Labs in other institutions (see e.g. Mahey et al. 2019). We aim to build our user community so that the researchers get the credit due for their work, and will be offered a place to showcase their work. So that the work done in transforming and enhancing the data by the users would find its way back to the library. And that library itself would get feedback on its collections and find value in its novel potential uses. We will discuss the lessons learned during the development process.
+We offer access to the open textual resources among the newspapers, periodicals, and book publications 1800-2022, the data from the national bibliography, as well as a number of thematic collections built around it. Our tools include a few visualization tools and interfaces to manipulate and query the data online. And we feature a number of blog posts based on the case studies performed on our collections by students and researchers.
+These digital collections offer new opportunities for cultural heritage institutions as well as their visitors and users, but the process towards it requires learning from various perspectives. Through encouraged use cases, the users learn better to anticipate and benefit from what the library collections can offer, and the library can incrementally improve the resources that it can offer the users while learning about the value found in these resources. We argue that for a successful project, collaboration is key between these different actors based on their interests, and aspire to offer a good example in how this can be organized in a small community.
+References
+Mahey, M., Al-Abdulla, A., Ames, S., Bray, P., Candela, G., Chambers, S., Derven, C., Dobreva-McPherson, M., Gasser, K., Karner, S., Kokegei, K., Laursen, D., Potter, A., Straube, A., Wagner, S-C. and Wilms, L. with forewords by: Al-Emadi, T. A., Broady-Preston, J., Landry, P. and Papaioannou, G. (2019) Open a GLAM Lab. Digital Cultural Heritage Innovation Labs, Book Sprint, Doha, Qatar, 23-27 September 2019.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>glam lab</term>
+                    <term>infrastructure</term>
+                    <term>collaboration</term>
+                    <term>service design</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>open access methods</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Design studies</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head/>
+                <p>Cultural heritage institutions are gradually moving from a stage of digitization for preservation towards finding active users to create value based on the digital collections. Particularly relevant to digital humanities, cultural memory collections are increasingly becoming used as data. While major digitization efforts are generally organized through state actors via large funding schemes and public orders, the early use cases have emerged from research communities who find value from the collections for their research interests and ongoing projects.</p>
+                <p>Encouraging the use of the digitized materials is a complex goal that involves each - cultural heritage institutions, research funding frameworks, and researchers to some degree. These developments have led a few institutions to initiate GLAM Labs (glamlabs.io) that focus on developing the digital opportunities afforded by galleries, libraries, archives, museums.</p>
+                <p>Following the role models in the international community, the National Library of Estonia has been developing a virtual lab - a portal and an interface for users to gain access and find uses to digital data. This entails keeping in mind the interests of many stakeholders - balancing the needs and opportunities for the library with the requirements for the collection user.</p>
+                <p>We present the virtual lab, its tools and datasets, as launched in March 2023(https://digilab.rara.ee/). We will show the journey there and the conclusions made on the basis of this. During the development, we have piloted several interface options to access text sources in bulk and share our data in multiple accessible formats. We’ve conducted a service design as well as a legal analysis to understand the interests of the representative members of the potential user community and how the library can respond to them.</p>
+                <p>Our virtual lab has aimed to learn from the GLAM Labs in other institutions (see e.g. Mahey et al. 2019). We aim to build our user community so that the researchers get the credit due for their work, and will be offered a place to showcase their work. Through this, the work done in transforming and enhancing the data by the users wouldalso find its way back to the library. Also, the library itself would get feedback on its collections and find value in its novel potential uses. We will discuss the lessons learned during the development process.</p>
+                <p>We offer access to the open textual resources among the newspapers, periodicals, and book publications 1800-2022, the data from the national bibliography, as well as a number of thematic collections built around it. Our tools include a few visualization tools and interfaces to manipulate and query the data online. And we feature a number of blog posts based on the case studies performed on our collections by students and researchers.</p>
+                <p>These digital collections offer new opportunities for cultural heritage institutions as well as their visitors and users, but the process towards it requires learning from various perspectives. Through encouraged use cases, the users learn better to anticipate and benefit from what the library collections can offer, and the library can incrementally improve the resources that it can offer the users while learning about the value found in these resources. We argue that for a successful project, collaboration is key between these different actors based on their interests, and aspire to offer a good example in how this can be organized in a small community.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Mahey, Mahendra</author> / 
+                        <author>Al-Abdulla, Aisha</author> /
+                        <author>Ames, Sarah</author> / 
+                        <author>Bray, Paula</author> / 
+                        <author>Candela, Gustavo</author> / 
+                        <author>Derven, Caleb</author> / 
+                        <author>Dobreva-McPherson, Milena</author> / 
+                        <author>Gasser, Katrine</author> / 
+                        <author>Chambers, Sally</author> /
+                        <author>Karner, Stefan</author> / 
+                        <author>Kokegei, Kristy</author> / 
+                        <author>Laursen, Ditte</author> / 
+                        <author>Potter, Abigail</author> / 
+                        <author>Straube, Armin</author> / 
+                        <author>Wagner, Sophie-Carolin</author> /
+                        <author>Wilms, Lotte</author> (2019): 
+                        <hi rend="italic">Open a GLAM lab.</hi> International GLAM Labs Community, Book Sprint, Doha, Qatar. https://doi.org/10.21428/16ac48ec.f54af6ae
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

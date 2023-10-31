@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Creating a collaborative research platform for Vedic Sanskrit texts</title>
+                <author n="FischerAnnaFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0003-4006-1054" n="FischerAnna">
+                        <surname>Fischer</surname>
+                        <forename>Anna</forename>
+                    </persName><affiliation>University of Wuppertal, Germany</affiliation><email>annafischer@uni-wuppertal.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KissBrgeFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0002-2649-1747" n="KissBrge">
+                        <surname>Kiss</surname>
+                        <forename>Börge</forename>
+                    </persName><affiliation>University of Cologne, Germany</affiliation><email>b.kiss@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="CasarettoAntjeFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName n="CasarettoAntje">
+                        <surname>Casaretto</surname>
+                        <forename>Antje</forename>
+                    </persName><affiliation>University of Freiburg, Germany</affiliation><email>antje.casaretto@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KlliganDanielFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0002-3134-8398" n="KlliganDaniel">
+                        <surname>Kölligan</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>University of Würzburg, Germany</affiliation><email>daniel.koelligan@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KorobzowNatalieFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0002-2814-2081" n="KorobzowNatalie">
+                        <surname>Korobzow</surname>
+                        <forename>Natalie</forename>
+                    </persName><affiliation>University of Würzburg, Germany</affiliation><email>natalie.korobzow@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NeuefeindClaesFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0002-9377-9492" n="NeuefeindClaes">
+                        <surname>Neuefeind</surname>
+                        <forename>Claes</forename>
+                    </persName><affiliation>University of Cologne, Germany</affiliation><email>c.neuefeind@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ReinhlUtaFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0003-2829-682X" n="ReinhlUta">
+                        <surname>Reinöhl</surname>
+                        <forename>Uta</forename>
+                    </persName><affiliation>University of Freiburg, Germany</affiliation><email>uta.reinoehl@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SahlePatrickFISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml"><persName ref="https://orcid.org/0000-0002-8648-2033" n="SahlePatrick">
+                        <surname>Sahle</surname>
+                        <forename>Patrick</forename>
+                    </persName><affiliation>University of Wuppertal, Germany</affiliation><email>sahle@uni-wuppertal.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>VedaWeb is an established research website for the ancient Vedic text Rigveda. It now evolves into an open collaborative platform for researching and sharing Vedic Sanskrit language data in a broader perspective. How will the new platform stimulate collaborative processes among researchers of Vedic Sanskrit and beyond?</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sanskrit</term>
+                    <term>Vedic</term>
+                    <term>software development</term>
+                    <term>collaborative platform</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>open access methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    <term>Linguistics</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Interdisciplinary collaboration is not something that just happens in Digital Humanities projects and deserves more attention (Griffin / Hayler 2018, Kiss et al. 2019). 
+                    <hi rend="italic">VedaWeb</hi><ref target="#FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn1" n="1"/> is an established research platform for the ancient Vedic text Rigveda and is now evolving into an open collaborative tool for researching and sharing Vedic Sanskrit language data – an initiative carried by historical, general and computational linguists as well as DH specialists. How could this platform stimulate collaborative processes among researchers of Vedic Sanskrit and beyond?
+                </p>
+            </div>
+            <div type="div1">
+                <head>Integrating diverse related resources</head>
+                <p>Grown out of an oral tradition, the Rigveda is the oldest religious text written in Vedic Sanskrit dated to ca. 1300/1000 BCE. The first DFG-funded "VedaWeb" project
+                    <ref target="#FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn2" n="2"/> (2017-2020) was dedicated to gathering, enriching and preprocessing various digital linguistic resources related to the Rigveda, transforming them into structured formats such as a comprehensive corpus in TEI-XML, and making them available on a web-based platform. Using this platform, they can now be searched, compared and browsed.
+                </p>
+                <p>In the follow-up project
+                    <ref target="#FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn3" n="3"/> ("VedaWeb 2.0", 2022-2025), we are developing 
+                    <hi rend="italic">Tekst </hi><hi rend="italic">(Text Exploration and Knowledge Structuring Tool)</hi><hi rend="italic"><ref target="#FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn0" n="4"/></hi>, a software that can be used by corpus or edition projects for creating open collaborative text research platforms. It will be the technical basis for the new 
+                    <hi rend="italic">VedaWeb</hi> platform, featuring more Vedic texts, some of which are fundamentally different in structure from the Rigveda. Text versions, translations, linguistic annotations, visual and audio material or links to dictionary entries and secondary literature are aligned with the structure of the respective reference text and can be viewed together and searched in unison (Neuefeind et al. 2022).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Blind collaboration</head>
+                <p>Regular feedback shows that 
+                    <hi rend="italic">VedaWeb</hi> is in active use by researchers from different disciplines, such as General and Historical Linguistics, Indo-European Studies, Indology and History. The platform has improved the scholarly access to the Rigveda: It offers one central place to access and explore numerous related resources.
+                </p>
+                <p>We frequently receive corrections from users on semi-automatically created annotations and incorporate them into our data. While these users are not anonymous to us, they are unaware of each other’s contributions to the same cause. This 
+                    <hi rend="italic">blind collaboration</hi> of platform users is far from ideal. At this point, the motivation of the research community to participate outruns our project’s infrastructural capabilities: Suggested corrections currently need to be evaluated and executed manually by the linguistic experts in our team.
+                </p>
+            </div>
+            <div type="div1">
+                <head>A perspective for actual collaboration</head>
+                <p><hi rend="italic">VedaWeb</hi> is meant to become a basis for the collective and participatory creation of an accessible scholarly research environment. As Robinson (2009: 9) puts it: “Through well-constructed scholarly networks over the web, scholars and readers may not only look at materials: they may make them, annotate them, correct them, draw conclusions from them and then contribute to others their conclusions.”
+                </p>
+                <p>For all this, the right conditions must be established: How does the platform make different resources accessible? Own materials can be added either as completely new data layers or based on existing ones. This way, 
+                    <hi rend="italic">VedaWeb</hi> allows for different practices to coexist, e.g. orthographic conventions or strategies of syntactic annotation (Biagetti et al. 2021). In addition to on-board functionality for editing, import and export is made possible for externally created data using certain exchange formats. How do corrections find their way into existing data? They can be shared, commented on and thus negotiated and may exist as stand-alone, alternative variants or they can be merged into the original data.
+                </p>
+                <p>Our experience as an interdisciplinary project team has shown us that producing (machine-)readable, comparable and searchable data is a collaborative process that keeps changing each team member’s perspective on the resources and strategies used, opening up new possibilities for research (Kiss et al. 2019). The new collaborative platform gives rise to new questions, e.g. how it is going to change existing standards and workflows for other researchers of Vedic Sanskrit and beyond. Will it become a representation of diverging methodologies for linguistic analysis or lead to more converging practices and similar resources?</p>
+                <p>What is evident from the existing 
+                    <hi rend="italic">VedaWeb</hi> platform is that there seems to be a need for low-threshold, efficient access to text-related research data for Vedic Sanskrit as an “under-resourced language” (Hellwig et al. 2023: 1). How might the added possibility of participation further change this picture? Can (and should?) collaborative features really turn research platforms into ‘one-stop shops’ for research data?
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn1">VedaWeb Project Website: https://vedaweb.uni-koeln.de</note><note n="2" xml:id="FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn2">https://gepris.dfg.de/gepris/projekt/329358806?language=en</note><note n="3" xml:id="FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn3">https://gepris.dfg.de/gepris/projekt/470926253?language=en</note><note n="4" xml:id="FISCHER_Anna_Creating_a_collaborative_research_platform_for_.xml_ftn0">
+                            <hi rend="italic">Tekst</hi> documentation and source code: https://github.com/VedaWebProject/Tekst
+                        </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Biagetti, Erica</author> / <author>Hellwig, Oliver</author> / <author>Scarlata, Salvatore</author> / <author>Ackermann, Elia</author> / <author>Widmer, Paul</author>  (2021): “Evaluating Syntactic Annotation of Ancient Languages”, in: Old World: Journal of Ancient Africa and Eurasia 1, 1: 1-32. DOI: 10.1163/26670755-01010003.
+                    </bibl>
+                    <bibl>
+                        <author>Griffin, Gabriele</author> / <author>Hayler, Matt S.</author>  (2018): “Collaboration in Digital Humanities Research – Persisting Silences”, in: Digital Humanities Quarterly 12, 1 <ref target="http://digitalhumanities.org/dhq/vol/12/1/000351/000351.html">http://digitalhumanities.org/dhq/vol/12/1/000351/000351.html</ref> [30.04.23].
+                    </bibl>
+                    <bibl>
+                        <author>Hellwig, Oliver</author> / <author>Nehrdich, Sebastian</author> / <author>Sellmer, Sven</author>  (2023): “Data-driven dependency parsing of Vedic Sanskrit”, in: Lang Resources &amp; Evaluation. DOI: 10.1007/s10579-023-09636-5.
+                    </bibl>
+                    <bibl>
+                        <author>Kiss, Börge</author> / <author>Kölligan, Daniel</author> / <author>Mondaca, Francisco</author> / <author>Neuefeind, Claes</author> / <author>Reinöhl, Uta</author> / <author>Sahle, Patrick</author>  (2019): “It Takes a Village: Co-developing VedaWeb, a Digital Research Platform for Old Indo-Aryan Texts”, in: Proceedings of the Twin Talks Workshop at DHN 2019 – Understanding Collaboration in Digital Humanities, Copenhagen, Denmark, March 5, 2019: 35-44 <ref target="http://ceur-ws.org/Vol-2365/">http://ceur-ws.org/Vol-2365/</ref> [30.04.23]. URN: urn:nbn:de:0074-2365-1.
+                    </bibl>
+                    <bibl>
+                        <author>Neuefeind, Claes</author> / <author>Kölligan, Daniel</author> / <author>Reinöhl, Uta</author> / <author>Sahle, Patrick</author>  (2022): “VedaWeb 2.0: Towards a Collaborative Workspace for Indo-Aryan Texts”, in: Book of Abstracts of the Digital Humanities Conference 2022 (DH2022), Tokyo, Japan, July 25-29, 2022: 530-531 <ref target="https://dh2022.dhii.asia/dh2022bookofabsts.pdf">https://dh2022.dhii.asia/dh2022bookofabsts.pdf</ref> [30.04.23].
+                    </bibl>
+                    <bibl>
+                        <author>Robinson, Peter</author> (2009): “Towards a Scholarly Editing System for the Next Decades”, in: Huet, Gérard / Kulkarni, Amba / Scharf, Peter (eds.): Sanskrit Computational Linguistics (ISCLS 2007) (ISCLS 2008): 346-357, Lecture Notes in Computer Science 5402. Berlin, Heidelberg: Springer. DOI: 10.1007/978-3-642-00155-0_18.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

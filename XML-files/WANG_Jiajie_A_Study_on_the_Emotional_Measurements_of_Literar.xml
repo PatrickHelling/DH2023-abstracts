@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Study on the Emotional Measurements of Literary Geography from a Digital Humanities Perspective</title>
+                <author n="ChenJingWANG_Jiajie_A_Study_on_the_Emotional_Measurements_of_Literar.xml"><persName ref="https://orcid.org/0000-0001-9329-6530" n="ChenJing">
+                        <surname>Chen</surname>
+                        <forename>Jing</forename>
+                    </persName><affiliation>Nanjing University, Sch of Art, Nanjing, China</affiliation><email>cjchen@nju.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WangJiajieWANG_Jiajie_A_Study_on_the_Emotional_Measurements_of_Literar.xml"><persName ref="https://orcid.org/0000-0003-0036-0447" n="WangJiajie">
+                        <surname>Wang</surname>
+                        <forename>Jiajie</forename>
+                    </persName><affiliation>Nanjing University, School of Information Management, Nanjing, China; Nanjing University, Laboratory of Data Intelligence and Interdisciplinary Innovation, Nanjing, China</affiliation><email>181820236@smail.nju.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZhengYuningWANG_Jiajie_A_Study_on_the_Emotional_Measurements_of_Literar.xml"><persName ref="https://orcid.org/0000-0002-3236-5376" n="ZhengYuning">
+                        <surname>Zheng</surname>
+                        <forename>Yuning</forename>
+                    </persName><affiliation>Nanjing University, School of Information Management, Nanjing, China</affiliation><email>zyn3263@smail.nju.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Geography and emotion interact in a complex way within literary space. Combining graph theory and diversity theory, this study proposes a method for calculating the emotional diversity of literary geography and empirically tests it on a contemporary literary corpus of over four million words depicting the city of Nanjing, China.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Poetry imagery; Literature geography; "Emotion-Geography" Network; Complex network analysis; Text mining</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>natural language processing</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Geography and emotion are inherently linked. The characteristics of a geographical landscape can trigger emotional responses in the viewer, which accumulate over time and through spatial transmission to form a unique "local" and "cultural image" that influences social perceptions of the landscape (Reid, 2008). Since the 1990s, a "spatial turn" has emerged in Chinese literary geography, prompting scholars in the humanities to explore the spatial aspects of texts and innovative connections between literary studies and geography. These specific spatial and geographical landscapes enter the vision of their creators and become the "geographical imagery" of literary geography, an important form of connection between geography and emotion (Miao, 2020).</p>
+            <p>With the rapid development of digital humanities research methods, it is now possible to achieve more precise descriptions of emotions in existing emotional geographies. This study proposes a method for calculating the emotional diversity of literary geography using graph theory and diversity theory. By constructing a correlation network of geographical and emotional interactions in a large number of literary texts through text mining techniques, it is possible to calculate the emotional diversity of literary geography in a more holistic and precise manner than traditional humanities research allows. The specific methodological framework is shown in Figure 1.</p>
+            <figure>
+                <graphic n="1001" width="13.47cm" height="6.424836111111111cm" url="Pictures/3ef39b34ea64116072bcbcc6b7d3b257.png" rend="inline"/>
+                <head>Figure 1. Methodological framework</head>
+            </figure>
+            <p>Based on diversity theory, this study measures the three dimensions of variety, balance and disparity (Stirling, 2007). The variety of emotion represents the degree of diversity of emotional types at a geographical location, expressed in terms of the number of different emotional types directly associated with the geographical location. <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                    </mml:math>
+                </formula> is the number of different emotional types co-occurring at geographical point <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                    </mml:math>
+                </formula>.</p>
+            <figure>
+                <graphic n="1002" width="5.08cm" height="1.0013277777777778cm" url="Pictures/080e42b586f9bb75841d2d562c65b159.png" rend="inline"/>
+            </figure>
+            <p>The balance of emotion is measured using the information entropy of the emotion distribution at the geographical point location. <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">C</mi>
+                    </mml:math>
+                </formula> as the set of emotional types co-occurring at geographic point <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                    </mml:math>
+                </formula>, <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                            </mrow>
+                        </msub>
+                    </mml:math>
+                </formula> is the frequency of emotional type <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">j</mi>
+                    </mml:math>
+                </formula> co-occurring at geographic point <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                    </mml:math>
+                </formula>, and <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">N</mi>
+                    </mml:math>
+                </formula> is the total frequency of all emotional types co-occurring at geographic point <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                    </mml:math>
+                </formula>.</p>
+            <figure>
+                <graphic n="1003" width="7.553738888888889cm" height="1.4972583333333334cm" url="Pictures/d0d1b19076450d8a9cd4739e674e4b7c.png" rend="inline"/>
+            </figure>
+            <p>The disparity of emotion indicates the degree of differentiation in the emotional types associated with a geographic point location and is measured in this study using the Jaccard coefficient as follows:</p>
+            <figure>
+                <graphic n="1004" width="7.90575cm" height="2.754941666666667cm" url="Pictures/0af624ae5c84294dc26f08344bacd783.png" rend="inline"/>
+            </figure>
+            <p>where <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>d</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                                <mi>k</mi>
+                            </mrow>
+                        </msub>
+                    </mml:math>
+                </formula> represents the distance between emotional types <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">j</mi>
+                    </mml:math>
+                </formula> and <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">k</mi>
+                    </mml:math>
+                </formula>, <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>n</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>i</mi>
+                            </mrow>
+                        </msub>
+                    </mml:math>
+                </formula> is the number of different emotional types co-occurring at geographical point <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">i</mi>
+                    </mml:math>
+                </formula>, <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>o</mi>
+                                <mi>u</mi>
+                                <mi>n</mi>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                            </mrow>
+                        </msub>
+                    </mml:math>
+                </formula> represents the total frequency of emotional type <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">j</mi>
+                    </mml:math>
+                </formula> in all co-occurrence relationships, and <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>C</mi>
+                                <mi>o</mi>
+                                <mi>u</mi>
+                                <mi>n</mi>
+                                <mi>t</mi>
+                            </mrow>
+                            <mrow>
+                                <mi>j</mi>
+                                <mi>k</mi>
+                            </mrow>
+                        </msub>
+                    </mml:math>
+                </formula> represents the total frequency of emotional types <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">j</mi>
+                    </mml:math>
+                </formula> and <formula>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mi xmlns="http://www.w3.org/1998/Math/MathML">k</mi>
+                    </mml:math>
+                </formula> co-occurring with the same geographical point in all co-occurrence relationships.</p>
+            <figure>
+                <graphic n="1005" width="13.472161111111111cm" height="8.713611111111112cm" url="Pictures/74410929de6d64a2802b89247a6c435e.png" rend="inline"/>
+                <head>Figure 2. Emotional variety, balance and disparity of Nanjing Literary Geography</head>
+            </figure>
+            <p>In this study, a corpus of over 4 million words of contemporary Nanjing literature was used to calculate three dimensional indicators based on an expert-annotated historical and cultural site of Nanjing and a previously proposed ontology of emotion vocabulary (Xu et al., 2008), and the results are shown in Figure 2. Horizontal and vertical coordinates indicate balance and disparity respectively. The size of the nodes is mapped to the variety. Figure 2 illustrates the differential relationship between the core and periphery of the entire network of geographical and emotion interactions in contemporary Nanjing, providing a more detailed perception of the interaction between geography and emotion.</p>
+            <p>This study is important for advancing our understanding of the relationship between literary geography and emotion, and for promoting the application of digital humanities perspectives in the field of literary emotion geography.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Miao, X.</author> (2020). Spatial Imaginaries in Mid-Tang China: Geography, Cartography, and Literature. By Ao Wang. Journal of the American Oriental Society, 140(3), 725-726.</bibl>
+                    <bibl><author>Reid, B. </author>(2008). Trellising the girders: poetry and the imagining of place in Northern Ireland. Social &amp; Cultural Geography, 9(5), 519-533.</bibl>
+                    <bibl><author>Stirling, A. </author>(2007). A general framework for analysing diversity in science, technology and society.Journal of the Royal Society Interface, 4(15), 707-719.</bibl>
+                    <bibl><author>Xu, L. &amp; Lin, Hongfei &amp; Pan, Y. &amp; Ren, H. &amp; Chen, J.. </author>(2008). Constructing the affective lexicon ontology. Journal of the China Society for Scientific and Technical Information. 27. 180-185.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>OCR4all - Open-Source OCR and HTR Across the
+                        Centuries</title>
+                <author n="LanghankiFlorianLANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml"><persName ref="https://orcid.org/0000-0001-6043-0350" n="LanghankiFlorian">
+                        <surname>Langhanki</surname>
+                        <forename>Florian</forename>
+                    </persName><affiliation>University of Wuerzburg, Germany</affiliation><email>florian.langhanki@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WehnerMaximilianLANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml"><persName ref="https://orcid.org/0000-0003-1817-6955" n="WehnerMaximilian">
+                        <surname>Wehner</surname>
+                        <forename>Maximilian</forename>
+                    </persName><affiliation>University of Wuerzburg, Germany</affiliation><email>maximilian.wehner@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RoederTorstenLANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml"><persName ref="https://orcid.org/0000-0001-7043-7820" n="RoederTorsten">
+                        <surname>Roeder</surname>
+                        <forename>Torsten</forename>
+                    </persName><affiliation>University of Wuerzburg, Germany</affiliation><email>torsten.roeder@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ReulChristianLANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml"><persName ref="https://orcid.org/0000-0002-1776-1469" n="ReulChristian">
+                        <surname>Reul</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>University of Wuerzburg, Germany</affiliation><email>christian.reul@uni-wuerzburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The workshop deals with the topic of automatic text recognition on historical materials and introduces the open-source software OCR4all. Participants will learn to process challenging source materials on their own, producing high quality machine-actionable full-text which represents a valuable ressource for various DH applications.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>ocr</term>
+                    <term>htr</term>
+                    <term>layout analysis</term>
+                    <term>transcription</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>image processing and analysis</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Book and print history</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Topic and Aims of the Workshop</head>
+                <p>Automated text recognition is an ever-present task in the humanities. A multitude
+                    of manuscripts and prints from all epochs and cultures have neither been edited
+                    nor fully indexed. Even though a considerable amount of them have been
+                    digitized, they are usually only accessible as images or PDF files.
+                    Machine-actionable transcriptions are often not available, despite being
+                    imperative for full-text search, annotation, scholarly editions and text
+                    analyses. Consequently, public institutions – including (digital) humanities
+                    scholars – require easy to use software solutions which enable them to perform
+                    high-quality OCR (Optical Character Recognition) <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn1" n="1"/> . </p>
+                <p>This proposed full-day workshop introduces the participants to the completely
+                    open-source and free of charge software OCR4all ( <ref target="https://www.ocr4all.org/"> https://www.ocr4all.org </ref>) which,
+                    unlike other available platforms like Transkribus <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn2" n="2"/> , eScriptorium <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn3" n="3"/> , or PERO-OCR
+                        <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn4" n="4"/> project
+                        <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn5" n="5"/> workflows exactly to the specific needs of the material at hand. </p>
+            </div>
+            <div type="div1">
+                <head>OCR4all</head>
+                <p>OCR4all provides a fully automated OCR workflow by combining different OCR
+                    solutions. At pretty much any stage of the workflow the user can interact with
+                    the results in order to minimize consequential errors and optimize the end
+                    result. Initially adapted to the difficulties of early modern prints from the
+                    15th and 16th century (project Narragonien digital <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn6" n="6"/> projects. The software has undergone continuous development, resulting
+                    in significant advances in layout analysis and highest recognition accuracy
+                    through robust OCR models. <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn7" n="7"/></p>
+                <div type="div2">
+                    <head>Working with OCR4all</head>
+                    <p>OCR4all integrates and uses existing software solutions, which are combined
+                        according to their strengths to form a coherent OCR workflow. The typical
+                        steps of such a workflow are <hi rend="bold">Preprocessing</hi>, <hi rend="bold">Layout Analysis</hi>, <hi rend="bold">Recognition,</hi> and
+                            <hi rend="bold">Post-Correction</hi> (Fig. 1). </p>
+                    <p><figure>
+                            <graphic url="Pictures/34bb96224db02b555e7979e921c587e3.png"/>
+                            <head>Fig. 1: Main components of a typical OCR workflow. From left to right:
+                        original image, Preprocessing, Layout Analysis (regions &amp; lines), Text
+                        Recognition, Post-Correction</head>
+                        </figure></p>
+                    <p>During <hi rend="bold">Preprocessing</hi>, the images are deskewed and
+                        binarised (OCRopus <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn8" n="8"/> ). This is followed by the <hi rend="bold">Layout Analysis</hi> step
+                        (Kraken <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn9" n="9"/> the user can intervene to correct markup using LAREX <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn10" n="10"/> recognition. </p>
+                    <p>After the preliminary steps, machine-actionable text can be generated from
+                        the available line images (by the integrated OCR engine Calamari <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn11" n="11"/> ). OCR4all already provides excellent <hi rend="italic">mixed
+                            models</hi> for this, which have been trained on a very large number of
+                        text lines of different fonts in order to be able to recognize a wide range
+                        of different typefaces. </p>
+                    <p>The accuracy of the <hi rend="bold">Recognition</hi> depends heavily on the
+                        material. To calculate the error rate of the text recognition, the
+                        evaluation module compares the originally recognized text with the correct
+                        transcription produced by the user. </p>
+                    <p>If the mixed model does not meet the requirements, it is possible to
+                        comfortably train a so-called <hi rend="italic">book-specific model</hi>.
+                        For this, it is necessary to provide the machine with a sufficient amount of
+                        training material. While the general approach never changes the amount of
+                        required training data and resulting recognition accuracy depends on the
+                        underlying material (printing or manuscript, typeface, script, quality of
+                        the scan, ...). <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn12" n="12"/></p>
+                    <p>The overall manual effort required strongly depends on various factors
+                        (material, use case, user requirements, ...) and varies between almost no
+                        manual effort at all (fully automated run) and very extensive manual
+                        interventions (fine-grained semantic markup and, above all, extensive GT
+                        creation or even complete correction of the text) <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn13" n="13"/> ( <hi rend="bold">Post-Correction</hi>). </p>
+                </div>
+                <div type="div2">
+                    <head>Particularly Worth Mentioning</head>
+                    <p>2.2.1 Full OCR-D Compatibility</p>
+                    <p>OCR-D is a large DFG (German Research Foundation) funding initiative whose
+                        stated goal is to “prepare the mass processing of prints published in
+                        German-speaking areas from 1500 to 1800 to make them accessible as
+                        high-quality research data”. <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn14" n="14"/></p>
+                    <p>To achieve this, OCR-D places great emphasis on interoperability. Thus, a
+                        framework has been created in which currently over fifty open-source OCR
+                        solutions, so-called <hi rend="italic">processors</hi>, are compatible with
+                        each other and can be freely combined into workflows. It is important to
+                        note that a processor is not Kraken, Calamari or Tesseract as a whole, but
+                        for example tesseract-binarize kraken-segment, or calamari-recognize. <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn15" n="15"/></p>
+                    <p>Since the idea of bringing different OCR solutions together in one workflow
+                        is very similar to the approach of OCR4all it stood to reason to bring both
+                        projects, OCR4all and OCR-D, closer together. This is currently happening in
+                        the DFG-funded project OCR4all-libraries <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn16" n="16"/> solutions via OCR4all, even for less-technical or non-technical
+                        users. A second goal is to further optimize the OCR result for example by
+                        comparing and improving workflow configurations. At the time the workshop
+                        takes place the support of OCR-D solutions in OCR4all will be completed and
+                        fully operational allowing the creation of even more versatile and powerful
+                        workflows. </p>
+                    <p>2.2.2 LAREX</p>
+                    <p>Originally developed for interactive segmentation and markup of particularly
+                        demanding early prints, LAREX meanwhile represents a comprehensive
+                        correction tool. Almost all (partial) results of a typical OCR workflow
+                        (region coordinates and types, line coordinates, text) can be corrected
+                        comfortably and precisely if required, thus generating high-quality training
+                        material for a wide variety of applications.</p>
+                    <p><figure>
+                            <graphic url="Pictures/22a0b9625c5ab1245f1b32d65efc04c2.png"/>
+                            <head>Fig. 2: The Region Segmentation in LAREX.</head>
+                        </figure></p>
+                    <p>Within LAREX, different region types can be defined and labeled, either
+                        automatically or manually (see Fig. 2). The regions drawn in this way can be
+                        subsequently adapted and modified (split, joined, reassigned) using a wide
+                        range of tools. Additionally, a reading order can be defined, which is
+                        especially relevant for complex layouts.</p>
+                    <p><figure>
+                            <graphic url="Pictures/34f61ed67da03c8e63f84975c21b5deb.jpg"/>
+                            <head>Fig. 3: Ground Truth Production in LAREX: page-based view (left) with Virtual
+                        Keyboard (middle); line-based view (right).</head>
+                        </figure></p>
+                    <p>Regarding textual correction, LAREX offers two separate corrections views,
+                        one page- and one line-based (Fig. 3). A customizable Virtual Keyboard
+                        enables the insertion of special characters.</p>
+                    <p>2.2.3 Mixed Models</p>
+                    <p>The progress in development and research is reflected by the mixed models
+                        that have been created and continuously developed to this point. Thanks to
+                        extensive preliminary work, OCR4all offers a large number of highly
+                        performant and free-to-use OCR models. <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn17" n="17"/> amounts of heterogeneous training material. Currently, OCR4all
+                        already contains various mixed models ranging from medieval bastard scripts
+                        to Fraktur types of the 19th century. <ref target="#LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn18" n="18"/> unnecessary for a wide variety of
+                        materials. </p>
+                </div>
+            </div>
+            <div type="div1">
+                <head>Workshop Concept</head>
+                <p>In this workshop, participants will learn to independently perform the entire OCR
+                    workflow from the image file to the finished text. Suitable material will be
+                    provided but participants are also invited to bring their own. An OCR4all
+                    instance dedicated to the workshop will be hosted on servers of the University
+                    of Würzburg and can be accessed and worked on by the participants using their
+                    own laptops. This format has been performed successfully at various
+                    instances.</p>
+                <p>For this course we estimate a full day to thoroughly introduce the subject of
+                    OCR, its problems, its possibilities and most importantly our software. For a
+                    face-to-face event, we consider a number of 25 participants to be
+                    appropriate.</p>
+                <p>The workshop will start with a short introduction to the topic and the software
+                    (0.5h). Afterwards, the participants will perform the first steps independently
+                    and familiarize themselves with the software (0.5h). Afterwards, the layout
+                    analysis is carried out in a longer session with the support of the tutors (2h).
+                    The recognition and the subsequent correction will also be done in individual or
+                    group work (2h). Between the sessions there will be short input phases. If
+                    necessary, help and short instructions will be provided by the tutors at any
+                    time. Finally, there will be enough room for further questions (1h) and breaks
+                    taken at regular intervals.</p>
+                <p>Questions to be addressed during the workshop:</p>
+                <list type="unordered">
+                    <item>What kind of data is OCR4all applicable to?</item>
+                    <item>How does OCR4all's workflow change depending on the underlying material
+                        and how does working on prints differ from working on manuscripts?</item>
+                    <item>What manual effort can be expected at different processing phases of the
+                        material?</item>
+                    <item>To what extent can the workflow be automated depending on the underlying
+                        material, intended use and the expectation for the result?</item>
+                    <item>How and according to which specifications can work-specific text
+                        recognition models be trained? What recognition accuracies can be
+                        expected?</item>
+                    <item>What is OCR-D and what are the additional benefits of integrating OCR-D
+                        solutions?</item>
+                </list>
+                <p>After the workshop, each participant will be able to independently perform OCR
+                    tasks with OCR4all. No prior knowledge is required. It will be suitable for any
+                    audience - “4all”!</p>
+            </div>
+            <div type="div1">
+                <head>Workshop Tutors </head>
+                <p><hi rend="bold">Florian Langhanki, M.A.</hi> works as a research associate at
+                    the ‘Center for Philology and Digitality’ (Würzburg, Germany) and as lecturer at
+                    the Department for German Philology at the University of Würzburg. His research
+                    interests are early modern literature and the OCR/HTR of medieval and early
+                    modern prints and manuscripts. </p>
+                <p><hi rend="bold">Maximilian Wehner</hi> is a research associate at the Department
+                    of German Philology at the University of Würzburg. His research interests
+                    include early modern literature, the OCR or HTR of medieval and early modern
+                    prints and manuscripts. </p>
+                <p><hi rend="bold">Dr. Torsten Roeder</hi> works as a research associate at the
+                    ‘Center for Philology and Digitality’ (Würzburg, Germany) with a focus on
+                    digital edition and the curation of database resources. </p>
+                <p><hi rend="bold">Dr. Christian Reul</hi> heads the digitization unit of the
+                    'Center for Philology and Digitality' at the University of Würzburg (Germany).
+                    His research focuses on OCR/HTR on historical material and the further
+                    development of the corresponding software. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn1">Since processing printed and handwritten (HTR) material
+                        is very similar on a technical level we use the term “OCR” as a general term
+                        which relies to both application scenarios.</note><note n="2" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn2">Kahle et al. 2017.</note><note n="3" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn3">Kiessling et al. 2019.</note><note n="4" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn4">Kodym / Hradiš 2021.</note><note n="5" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn5">DFG-funded initiative for Optical
+                        CHaracter Recognition development, <ref target="https://ocr-d.de/en">https://ocr-d.de/en</ref>
+                    </note><note n="6" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn6">
+                        <ref target="https://www.narragonien-digital.de/exist/home.html">
+                            https://www.narragonien-digital.de </ref>
+                    </note><note n="7" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn7">
+                        <ref target="https://www.ocr4all.org/about/ocr4all"> https://www.ocr4all.org
+                        </ref>
+                    </note><note n="8" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn8">
+                            <ref target="https://github.com/ocropus">https://github.com/ocropus</ref>
+                        </note><note n="9" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn9">
+                            <ref target="https://kraken.re/master/index.html">https://kraken.re/master/index.html</ref>
+                        </note><note n="10" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn10">
+                            <ref target="https://www.uni-wuerzburg.de/zpd/larex/">https://www.uni-wuerzburg.de/zpd/larex/</ref>
+                        </note><note n="11" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn11">
+                            <ref target="https://github.com/Calamari-OCR/calamari">https://github.com/Calamari-OCR/calamari</ref>
+                        </note><note n="12" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn12">Reul et al.
+                            2022.</note><note n="13" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn13">Reul et al. 2019.</note><note n="14" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn14">
+                            <ref target="https://ocr-d.de/en/about">https://ocr-d.de/en/about</ref>
+                        </note><note n="15" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn15">Neudecker et al. 2019.</note><note n="16" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn16">
+                            <ref target="https://gepris.dfg.de/gepris/projekt/460665940?language=en">https://gepris.dfg.de/gepris/projekt/460665940?language=en</ref>
+                        </note><note n="17" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn17">
+                            <ref target="https://github.com/OCR4all/ocr4all_models">https://github.com/OCR4all/ocr4all_models</ref>
+                        </note><note n="18" xml:id="LANGHANKI_Florian_OCR4all___Open_Source_OCR_and_HTR_Across_t.xml_ftn18">Reul et al. 2022.</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kahle, Philip</author> / <author>Colutto, Sebastian</author> / <author>Hackl, Günter</author> / <author>Mühlberger, Günter</author> :
+                         Transkribus - A Service Platform for Transcription, Recognition and
+                            Retrieval of Historical Documents. In: 14th IAPR International
+                            Conference on Document Analysis and Recognition (ICDAR), Kyoto, Japan,
+                            2017, pp. 19-24. URL: 
+                        <ref target="https://doi.org/10.1109/ICDAR.2017.307">https://doi.org/10.1109/ICDAR.2017.307</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Kiessling, Benjamin</author> / <author>Tissot, Robin</author> / <author>Stokes, Peter</author> / <author>Stökl Ben Ezra, Daniel</author> : 
+                        eScriptorium: An Open Source Platform for Historical Document
+                            Analysis. In: International Conference on Document Analysis and
+                            Recognition Workshops (ICDARW), Sydney, NSW, Australia, 2019, pp. 19-19.
+                            URL: 
+                        <ref target="https://doi.org/10.1109/ICDARW.2019.10032">https://doi.org/10.1109/ICDARW.2019.10032</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Neudecker, Clemens</author> / <author>Baierer, Konstantin</author> / <author>Federbusch, Maria</author> / <author>Boenig, Matthias</author> / <author>Würzner, Kay-Michael</author> / <author>Hartmann, Volker</author> / <author>Herrmann, Elisa</author> : 
+                        OCR-D: An end-to-end open source OCR framework for historical printed
+                            documents. In: Proceedings of the 3rd International Conference on
+                            Digital Access to Textual Cultural Heritage (DATeCH2019). Association
+                            for Computing Machinery, New York, NY, USA, 2019, pp. 53–58. URL: 
+                        <ref target="https://doi.org/10.1145/3322905.3322917">https://doi.org/10.1145/3322905.3322917</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Reul, Christian</author> / <author>Christ, Dennis</author> / <author>Hartelt, Alexander</author> / <author>Balbach, Nico</author> / <author>Wehner, Maximilian</author> / <author>Springmann, Uwe</author> / <author>Wick, Christoph</author> / <author>Grundig, Christine</author> / <author>Büttner, Andreas</author> / <author>Puppe, Frank</author> : 
+                        OCR4all - An Open-Source Tool Providing a (Semi-)Automatic OCR
+                            Workflow for Historical Printings. In: Applied Sciences 2019. (9) 22.
+                            URL: 
+                        <ref target="https://www.mdpi.com/2076-3417/9/22/4853">https://www.mdpi.com/2076-3417/9/22/4853</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Reul, Christian</author> / <author>Tomasek, Stefan</author> / <author>Langhanki, Florian</author> / <author>Springmann, Uwe</author> : 
+                        Open Source Handwritten Text Recognition on Medieval Manuscripts Using
+                            Mixed Models and Document-Specific Finetuning. In: Uchida, S., Barney,
+                            E., Eglin, V. (eds) Document Analysis Systems. DAS 2022. Lecture Notes
+                            in Computer Science, vol. 13237. Springer, Cham. URL: 
+                        <ref target="https://doi.org/10.1007/978-3-031-06555-2_28">https://doi.org/10.1007/978-3-031-06555-2_28</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

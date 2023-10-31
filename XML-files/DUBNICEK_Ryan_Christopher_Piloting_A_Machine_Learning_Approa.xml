@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Piloting A Machine Learning Approach to Identify English-Language Fiction in
+                    the HathiTrust Digital Library</title>
+                <author n="DubnicekRyanDUBNICEK_Ryan_Christopher_Piloting_A_Machine_Learning_Approa.xml"><persName ref="https://orcid.org/0000-0001-7153-7030" n="DubnicekRyan">
+                        <surname>Dubnicek</surname>
+                        <forename>Ryan</forename>
+                    </persName><affiliation>HathiTrust Research Center, Information Sciences, University of
+                        Illinois, United States of America</affiliation><email>rdubnic2@illinois.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="UnderwoodTedDUBNICEK_Ryan_Christopher_Piloting_A_Machine_Learning_Approa.xml"><persName ref="https://orcid.org/0000-0001-8960-1846" n="UnderwoodTed">
+                        <surname>Underwood</surname>
+                        <forename>Ted</forename>
+                    </persName><affiliation>English and Information Sciences, University of Illinois, United
+                        States of America</affiliation><email>tunder@illinois.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In large digital libraries, such as the HathiTrust, metadata is insufficient to identify items of interest. Metadata records are often incomplete and challenging for fiction, where metadata categories, when present, are too broad. This project constructs a machine learning pipeline for fiction classification using the HTRC Extracted Features Dataset, and based on previous work from Underwood et al. We will detail the methodology, early results, and planned future work in generating this dataset.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>HathiTrust</term>
+                    <term>digital libraries</term>
+                    <term>cultural analytics</term>
+                    <term>machine learning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>bibliographic analysis</term>
+                    <term>cultural analytics</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Motivation</head>
+                <p>As more text becomes open to text and data mining, a
+                    major challenge in finding and assembling a corpus of relevant items remains. In
+                    large digital libraries, such as the HathiTrust, comprising over 17 million
+                    items of varied format, language, and genre, metadata alone is not sufficient to
+                    identify items of interest. This is true for all volumes, where metadata records
+                    are often incomplete and particularly challenging for fiction volumes, where
+                    metadata standards are often too broad for specific analysis tasks (Miller 2000)
+                    even when present. This has led researchers to novel methods of classifying
+                    text, including analysis of stylometrics and textual features (Bucher 2018) and
+                    predictive modeling (Short 2019; Gupta 2019). This project will leverage the
+                    latter, and HathiTrust Research Center’s Extracted Features Dataset (Jett et al.
+                    2020), to build on successful classification efforts done as part of the NovelTM
+                    project (NovelTM 2022), improving the process and accuracy of Underwood, Kimutis
+                    and Witte’s <hi rend="italic">NovelTM Datasets for English Language Fiction</hi>
+                    (2020), while also seeking to expand the initial set of identified items by
+                    classifying volumes new to HathiTrust since the NovelTM dataset was first
+                    generated. This short paper will detail the methodology, early results, and
+                    planned future work in generating this dataset. </p>
+            </div>
+            <div type="div1">
+                <head>Methods</head>
+                <p>Building on <hi rend="italic">NovelTM Datasets for
+                        English-Language Fiction</hi>, this project used the HathiTrust Research
+                    Center’s (HTRC’s) Extracted Features (EF) Dataset to train a predictive model
+                    for English-language fiction. We differ from the NovelTM classification process
+                    by making predictions at the volume-level, using the tokens for each volume as
+                    input features for the model and metadata records included with the volumes as
+                    ground truth, supplemented by a more accurate manually-tagged subset of 2,730
+                    volumes (Underwood et al. 2020). Three different statistical models were tested
+                    for the classification process: logistic regression (LR), support vector machine
+                    (SVM) and random forest (RF) using 120 trees, each implemented via the
+                    scikit-learn Python library (Pedregosa et al. 2011). To test the best model and
+                    process, we first assembled three samples of between 9,000-10,000 volumes each,
+                    gathered the HTRC EF data for each volume, and then split each set into 80%
+                    train and 20% test volumes. The Three samples are: </p>
+                <list type="unordered">
+                    <item>Sample 1: 10,108 random volumes, matching
+                            distribution of items added to HTDL since 2016, by decade, yielding
+                            1,605
+                         fiction, 8,503 non-fiction.</item>
+                    <item>Sample 2: 9,969
+                         random volume s, with the same selection logic as sample 1,
+                            but incorporating as many manually-verified fiction vols from
+                        NovelTM dataset as possible, yielding 1,580 fiction, 8,389
+                         non-fiction volumes</item>
+                    <item>Sample 3: 9,061 volumes, including 53 F and 211 NF volumes for every decade
+                        represented in items added to HTDL since 2016, creating a train/test with
+                        equal volumes for each decade, yielding 1,328
+                         fiction, 7,733
+                         non-fiction volumes</item>
+                </list>
+                <p>After initial runs of each sample, we also benchmark a
+                    model that incorporates corrected ground truth for Sample 3, where about half of
+                    initial classification errors were incorrect F or NF classification. LR, SVM,
+                    and RF models were benchmarked via precision, recall, and F1 scores against each
+                    sample described above as well as the corrected Sample 3. The results for each
+                    model are in Table 1, with LR generally yielding the highest levels of accuracy,
+                    especially when applied to the corrected Sample 3. However, SVM performed well
+                    on Sample 3 - Corrected as well, and RF yielded similar levels of accuracy, with
+                    a lowered recall, for the uncorrected Sample 3.</p>
+                <table xml:id="d88e241">
+                    <head>Table 1. Precision, Recall, F1
+                        scores and mean values for each sample and statistical model, logistic
+                        regression (LR), support vector machine (SVM) and random forest (RF). Bold
+                        indicates the highest value for each column and the highest mean value for P, R
+                        and F1 in the bottom row.</head>
+                    <row>
+                        <cell/>
+                        <cell>Logistic
+                            Regression</cell>
+                        <cell>Support Vector
+                            Machine</cell>
+                        <cell>Random
+                            Forest</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>P</cell>
+                        <cell>R</cell>
+                        <cell>F1</cell>
+                        <cell>P</cell>
+                        <cell>R</cell>
+                        <cell>F1</cell>
+                        <cell>P</cell>
+                        <cell>R</cell>
+                        <cell>F1</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 1</cell>
+                        <cell>0.7838</cell>
+                        <cell>0.9755</cell>
+                        <cell>0.8692</cell>
+                        <cell>0.8384</cell>
+                        <cell>0.9205</cell>
+                        <cell>0.8776</cell>
+                        <cell>0.8665</cell>
+                        <cell>0.8930</cell>
+                        <cell>0.8795</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 2</cell>
+                        <cell>0.8589</cell>
+                        <cell>0.9470</cell>
+                        <cell>0.9008</cell>
+                        <cell>0.8885</cell>
+                        <cell>0.9238</cell>
+                        <cell>0.9058</cell>
+                        <cell>0.8824</cell>
+                        <cell>0.8940</cell>
+                        <cell>0.8882</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 3</cell>
+                        <cell>0.8804</cell>
+                        <cell>0.9199</cell>
+                        <cell>0.8997</cell>
+                        <cell>0.9286</cell>
+                        <cell>0.8750</cell>
+                        <cell>0.9010</cell>
+                        <cell>0.9697</cell>
+                        <cell>0.8889</cell>
+                        <cell>0.9275</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 3 -
+                            Corrected</cell>
+                        <cell>0.9249</cell>
+                        <cell>0.9506</cell>
+                        <cell>0.9376</cell>
+                        <cell>0.9702</cell>
+                        <cell>0.9043</cell>
+                        <cell>0.9361</cell>
+                        <cell>0.9689</cell>
+                        <cell>0.8642</cell>
+                        <cell>0.9135</cell>
+                    </row>
+                    <row>
+                        <cell>Mean values</cell>
+                        <cell>0.8620</cell>
+                        <cell>0.9483</cell>
+                        <cell>0.9018</cell>
+                        <cell>0.9064</cell>
+                        <cell>0.9059</cell>
+                        <cell>0.9051</cell>
+                        <cell>0.9219</cell>
+                        <cell>0.8850</cell>
+                        <cell>0.9022</cell>
+                    </row>
+                </table>
+                <p>We also benchmarked mean F1 scores over five-fold
+                    cross-validation for each sample and model, the results of which are in Table 2
+                    below. For each model, Sample 3 - Corrected produced the highest F1 score, a
+                    result to be predicted with a higher accuracy of ground truth. Sample 1 had the
+                    lowest scores over each model, with Sample 3 performing slightly better, but
+                    still behind Sample 2, which produced results only marginally worse than the
+                    corrected sample, which is a result that again speaks to both the value of
+                    reliable ground truth and the power of manually-verified training sets.</p>
+                <table xml:id="d88e469">
+                    <head>Table 2. Ranked mean F1 scores for
+                        each of four train/test sample datasets and three statistical models.</head>
+                    <row>
+                        <cell/>
+                        <cell>LR</cell>
+                        <cell>SVM</cell>
+                        <cell>RF</cell>
+                        <cell>Rank</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 1</cell>
+                        <cell>0.8815</cell>
+                        <cell>0.8876</cell>
+                        <cell>0.8744</cell>
+                        <cell>3</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 2</cell>
+                        <cell>0.9123</cell>
+                        <cell>0.9125</cell>
+                        <cell>0.9111</cell>
+                        <cell>2</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 3</cell>
+                        <cell>0.9023</cell>
+                        <cell>0.8963</cell>
+                        <cell>0.8989</cell>
+                        <cell>4</cell>
+                    </row>
+                    <row>
+                        <cell>Sample 3 -
+                            Corrected</cell>
+                        <cell>0.9217</cell>
+                        <cell>0.9180</cell>
+                        <cell>0.9164</cell>
+                        <cell>1</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1">
+                <head>Initial Results</head>
+                <p>Each of the models performed well by some metric, with
+                    best mean precision, recall and F1 scores belonging to unique models–RF yielding
+                    the highest mean precision (0.9219), LR yielding the highest mean recall
+                    (0.9483), and SVM with the highest mean F1 (0.9051), across all four samples.
+                    The best scoring models overall were Logistic Regression and SVM, with both
+                    scoring ~94% on F1, and LR and SVM performing better by five points on recall
+                    and precision, respectively. Seemingly either model would perform well in a
+                    larger classification task, and the deciding factor could be efficiency, which
+                    has not been explored for this study. Sample 3 - Corrected scored the best over
+                    LR and SVM, but findings may hint that a corrected Sample 2 could rival these
+                    results, as manual ground truth correction was worth an additional four points
+                    in accuracy for Sample 3. A four points improvement for Sample 2 would just edge
+                    out Sample 3 - Corrected for top accuracy.</p>
+                <p>Manual review and correction of errors for Sample 3
+                    found four main types of errors: </p>
+                <list type="unordered">
+                    <item><hi rend="bold">Incorrect ground truth:</hi> these are volumes incorrectly
+                        tagged as fiction or not fiction in their metadata. Examples of these
+                        volumes are as straight forward as Stephen Crane’s <hi rend="italic">The Red
+                            Badge of Courage</hi> or <hi rend="italic">Wuthering Heights</hi> by
+                        Emily Bronte incorrectly being marked as not fiction. </item>
+                    <item><hi rend="bold">Volumes that blur the lines of fiction, such as memoir,
+                            biography, or travel narrative:</hi> volumes that look like typical
+                        fiction or not fiction, but are the inverse. These examples challenge our
+                        binary classification approach, and indeed would likely challenge a blind
+                        reviewer (but present many interesting research possibilities). Examples of
+                        these volumes are Daniel Defoe’s <hi rend="italic">Robinson Crusoe</hi> or
+                        John Hanning Speke’s <hi rend="italic">Journal of the Discovery of the
+                            Source of the Nile</hi>—the former being a “fake” travel narrative and
+                        the latter purporting to be authentic. </item>
+                    <item><hi rend="bold">Non-prose fiction:</hi> volumes that look like or are
+                        constructed from similar words as fiction, but are not prose, and thus not
+                        correct findings for our dataset. These include books of poetry and dramas. </item>
+                    <item><hi rend="bold">True errors: </hi>the last and least
+                        frequent errors are true errors—volumes the model just got plain wrong.
+                        Examples include annotated volumes, such as <hi rend="italic">The Works of
+                            Dr. Jonathan Swift</hi>, Ward Greene’s collection of prominent
+                        historical news stories, S
+                        <hi rend="italic">tar Reporters and 34 of Their Stories, </hi>or
+                        a bound anthology of <hi rend="italic">Frank Leslie's Lady's Magazine.</hi></item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Future Work</head>
+                <p>This pipeline will be finetuned and eventually used to
+                    classify all 1.6 million volumes added to the HTDL since the initial NovelTM
+                    dataset was generated, which will expand the pool of English-language fiction
+                    open to text and data mining, and document a reproducible process to continue to
+                    update the dataset as the HTDL grows. The train/test data and results of this
+                    project also hold possibility for further exploration of different
+                    classification approaches, such as ensemble models that include classifiers
+                    trained specifically on edge cases, such as memoir.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bucher, Rolf. </author>
+                        <hi rend="italic">Classification of Fiction Genres : Text Classification of
+                            Fiction Texts from Project Gutenberg</hi>, 2018. <ref target="http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-16007"> </ref>
+                        <ref target="http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-16007">http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-16007</ref>. </bibl>
+                    <bibl><author>Gupta, Rachna. </author>“Classifying Fiction and Non-Fiction
+                        Works Using Machine Learning.” <hi rend="italic">Student Publications &amp;
+                            Research</hi>, October 29, 2019. <ref target="https://digitalcommons.imsa.edu/student_pr/46"> </ref>
+                        <ref target="https://digitalcommons.imsa.edu/student_pr/46">https://digitalcommons.imsa.edu/student_pr/46</ref>. </bibl>
+                    <bibl>
+                        <author>Jacob Jett, Boris Capitanu, Deren Kudeki, Timothy Cole,
+                            Yuerong Hu, Peter Organisciak, Ted Underwood, Eleanor Dickson Koehl,
+                            Ryan Dubnicek, J. Stephen Downie </author>(2020). 
+                        <hi rend="italic">The HathiTrust Research Center Extracted Features Dataset
+                            (2.0)</hi>
+                        . HathiTrust Research Center. 
+                        <ref target="https://doi.org/10.13012/R2TE-C227">https://doi.org/10.13012/R2TE-C227</ref>
+                    </bibl>
+                    <bibl><author>Miller, David P. </author>“Out from Under: Form/Genre Access
+                        in LCSH.” <hi rend="italic">Cataloging &amp; Classification Quarterly</hi>
+                        29, no. 1–2 (June 1, 2000): 169–88. <ref target="https://doi.org/10.1300/J104v29n01_12"> </ref>
+                        <ref target="https://doi.org/10.1300/J104v29n01_12">https://doi.org/10.1300/J104v29n01_12</ref>. </bibl>
+                    <bibl><author>“NovelTM – .Txtlab @ Mcgill.”</author> Accessed November 4,
+                        2022. <ref target="file:///Users/rdubnic2/Desktop/%20"> </ref>
+                        <ref target="https://txtlab.org/category/textminingthenovel/">https://txtlab.org/category/textminingthenovel/</ref>. </bibl>
+                    <bibl><author>Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort,
+                            Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, et
+                            al. </author>“Scikit-Learn: Machine Learning in Python.” <hi rend="italic">Journal of Machine Learning Research</hi> 12, no. 85 (2011): 2825–30. </bibl>
+                    <bibl><author>Short, Matthew. </author>“Text Mining and Subject Analysis for
+                        Fiction; or, Using Machine Learning and Information Extraction to Assign
+                        Subject Headings to Dime Novels.” <hi rend="italic">Cataloging &amp;
+                            Classification Quarterly</hi> 57, no. 5 (July 4, 2019): 315–36. <ref target="https://doi.org/10.1080/01639374.2019.1653413"> </ref>
+                        <ref target="https://doi.org/10.1080/01639374.2019.1653413">https://doi.org/10.1080/01639374.2019.1653413</ref>. </bibl>
+                    <bibl><author>Underwood, Ted, Patrick Kimutis, and Jessica Witte.
+                        </author>2020. “NovelTM Datasets for English-Language Fiction, 1700-2009.” <hi rend="italic">Journal of Cultural Analytics</hi> 5 (2). <ref target="https://doi.org/10.22148/001c.13147"> </ref>
+                        <ref target="https://doi.org/10.22148/001c.13147">https://doi.org/10.22148/001c.13147</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

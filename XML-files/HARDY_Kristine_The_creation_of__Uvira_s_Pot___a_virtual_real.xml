@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The creation of ‘Uvira’s Pot’, a virtual reality puzzle to promote engagement with archaeological research. </title>
+                <author n="HardyKristineHARDY_Kristine_The_creation_of__Uvira_s_Pot___a_virtual_real.xml"><persName ref="https://orcid.org/0000-0003-1660-4477" n="HardyKristine">
+                        <surname>Hardy</surname>
+                        <forename>Kristine</forename>
+                    </persName><affiliation>School of Archaeology, Australian National University, Australia</affiliation><email>kristine.hardy@anu.edu.au</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Introduction
+Advances in computing have made it easier to produce three dimensional (3D) models of heritage material culture. Incorporating these models into virtual reality (VR) games has the potential to increase peoples engagement with other communities including those from the past.  This paper examines the creation of ‘Uvira’s Pot’ (uviras-pot.vercel.app), a prototype VR puzzle game where the user reassembles a ceramic vessel from fifteen sherds.
+Refitting vessels is an important archaeological technique that can provide information on the function and origin of the artefact. A broken ceramic vessel can also reveal details, such as the mineral crystals in the clay, that act as temper, and the colour of the core, which relates to firing conditions. Agarabi speakers of the Eastern Highlands of Papua New Guinea (PNG) were the only recorded highlanders to make pottery (Watson, 1993). In 1987, the creation of several vessels in three different highland villages was documented by Chris Ballad in field notes and photographs. Recently these notes were prepared for academic publication and the ‘Uvira’s Pot’ application was created as an experiment in conveying this research to a less academic audience. One vessel, created by Uvira of Anonantu has unfortunately broken and this was used for the application.
+The time and effort spent assembling puzzles, both 2D and 3D, often connects the puzzler with the object of the puzzle, and can also lead to closer inspection of details on the object (or image) (Balabanian &amp; Shahrabi, 2022). It is hypothesised that when reconstructing Uvira’s vessel some puzzlers will become interested in how it was created and the photographs of the different steps in its creation (the chaîne opératoire) have been displayed around the virtual space.  
+Asset Creation
+Digital models of the sherds were created with photogrammetry using the Polycam iPhone application (photo mode). The models, while not archival quality, were sufficient for a VR experience. The automatic model scaling, was incorrect for the smaller pieces and the models had to be normalised to sherd measurements. The colouring of at least one sherd could have been improved. To reduce the mesh polygon count, Metashape mesh decimation was used. The photo panels were made using Affinity Designer and importantly sized to have lengths and widths of pixel numbers that were a power of two.
+Coding
+VR applications can be downloaded or viewed via a webpage in a browser. The later option is more likely to attract a casual user. The Three.js JavaScript library allows for the display and manipulation of 3D models. The library has code examples that can be combined and modified to allow models to be moved with VR controllers such as those for the Quest2 (with which the application was tested). In the application the initialisation step imports the sherds and places them randomly on a grass floor. The photographs of vessel creation are in a circle around the user. With either hand controller, the user can select and move a sherd and place them together to reveal the pot form.
+Conclusion
+VR websites to convey archaeological research, can be created with minimal JavaScript experience and it should now be possible for others to modify the publicly available code (https://github.com/tosca-har) to create experiences focusing on the material culture of other regions. Phone photogrammetry applications have made asset creation much easier, although model retropology is essential. The ethics behind creating models, especially those of artefacts from communities previously exploited by colonisation, should always be considered and appropriate permissions sort. User testing protocols are currently being designed so that the ability of the application in engaging the audiences’ interest in the Agarabi pottery chaîne opératoire. The creation of sites with 3D models has greatly facilitated by Three.js, thus lowering the time costs associated with site creation, and allowing for more experimentation to find puzzles that will effectively communicate the wonders of Papuan, and other, material culture.
+References
+Balabanian, A. and Shahrabi, S. (2022) Dev Chat #5: The Making of “Behind High Walls” (https://puzzlingplaces.ghost.io/devchat5/)
+Watson, V.D. (1993). Adzera and Agarabi: contrastive ceramics in Papua New Guinea. The Journal of the Polynesian Society, 102(3), 305–318.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Virtual Reality</term>
+                    <term>ceramics</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digitization (2D &amp; 3D)</term>
+                    <term>virtual and augmented reality creation</term>
+                    <term>systems</term>
+                    <term>and analysis</term>
+                    <term>Archaeology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Virtual reality (VR) applications have the potential for users to experience recreations or aspects of past times, and thus make archaeological research more understandable and engaging to students and non-academics. VR equipment such as the Quest, consists of a headset, which immerses the user in a scene, and hand controllers, which enable the user to manipulate virtual objects. </p>
+            <p>3D digital models of past artefacts, buildings and sites, are being produced in increasing numbers and have important roles in documentation, conservation and as reference collections (European Commission 2022; Markiewicz 2022). Databases, such as Sketchfab and MorphoSource, allow users to explore and, in a limited way, manipulate these models via a web-interface (Flynn 2019; Spelitz 2020). </p>
+            <p>Ideally artefact models, whether ‘realistic’ or ‘symbolic’ should convey information about community that created or used the original (Champion 2021). VR has allowed for displaying models in virtual museums, but also in simulated past environments, such as an Egyptian tomb, Catalhoyuk or prehistoric cave (Cassidy et al. 2019; Lucarelli / Johnston 2022; Morgan 2009; García-Bustos et al. 2022). However, VR has the potential for further user engagement through the use of puzzles that incorporate archaeological concepts. Digital games have been shown to increase user interest in past times, such as ancient Greece (Houghton 2021; Politopoulos / Mol 2021) and many users are more likely to spend time with a VR model if they have a challenge to solve (Balabanian / Shahrabi 2022). One type of puzzle that occurs in archaeological research is vessel refitting. The concept is very similar to the 3D ‘jigsaw’ puzzles in the VR applications, ‘Puzzling Places’ and ‘Art Salad’ (Mariotto 2022). </p>
+            <p>We present a workflow to create websites that allow VR users to recreate broken ceramic vessels and learn about its creation in a surrounding photo gallery. </p>
+            <p><hi rend="italic">1.) Create 3D models</hi>. Models can be made with photogrammetry (Rahaman 2021) or laser scanning (Fragkos et al. 2018; Spelitz 2020). Models with accurate measurements are crucial if the vessel pieces are to fit together. While laser scanners are better at measurements, their image textures are often inferior. Alternatively, digitally “break” a scanned vessel (in Blender). The Polycam iPhone application creates suitable models. Importantly consider copyright and community ownership issues when digitising (Dennis 2021; Morgan 2022). 
+            </p>
+            <p><hi rend="italic">2.) Re-topologise models.</hi> Smaller asset sizes are critical for VR and web applications. Reduce the number of model polygons (in Metashape). 
+            </p>
+            <p><hi rend="italic">3.) Make information panels.</hi> Images with photographs and text should be created (in Designer, Powerpoint) with lengths and widths of pixel numbers that are a power of two. 
+            </p>
+            <p><hi rend="italic">4.) Create scene in three.js (or react-three-fiber).</hi> Three.js is a javascript library for using 3D objects in websites. Scenes consist of lights, cameras and objects (models including planes for images). The examples for use with VR can be altered to import models, and make them movable with the VR controllers. This is more easily achieved than in games engines such as Unity or Unreal Engine, but implementing ‘physics’ for complex models, so that the sherds do not overlap, is not easily achievable. Three.js can also be used to make other simple games, such as those where the user has to match artefacts to their place of origin.
+            </p>
+            <p><hi rend="italic">5.) Add an audio recording.</hi> (Optional).
+            </p>
+            <p><hi rend="italic">6.) Deploy</hi>. Websites can be deployed using services such as Vercel or Github pages. Preferably sites should be archived as well, ideally with full metadata. Many archeologically related digital applications have short lives and become inaccessible to later researchers (Champion 2021). 
+            </p>
+            <p>This application (uviras-pot.vercel.app), uses a vessel made by Uvira, an Agarabi speaker from the Eastern Highlands of Papua New Guinea (PNG). The Agarabi are the only PNG highlanders to make pottery (Watson 1993). Creation of the vessel was documented in 1987 by Chris Ballard and recently these notes and photographs were prepared for academic publication (Hardy et al. 2023). ‘Uvira’s Pot’ was created as an experiment in conveying this research to a non-academic audience. It is hoped that as VR use becomes more widespread, this audience will include the Agarabi community. </p>
+            <p>In conclusion, this project shows that VR websites made to convey archaeological research in an easily accessible way to the general public, can be created with minimal JavaScript experience, using phone-made photogrammetry models and the three.js library. The use of three.js and a website delivery, does impose restrictions on asset sizes. However, the ability of users to manipulate models and solve puzzles, has the potential to increase their engagement with heritage models and their appreciation for and understanding of archaeological research. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Balabanian, A.</author> / <author>Shahrabi, S.</author>  (2022): “Dev Chat #5: The Making of “Behind High Walls”” <ref target="https://puzzlingplaces.ghost.io/devchat5/">https://puzzlingplaces.ghost.io/devchat5/</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Cassidy, Brendan</author> / <author>Sim, Gavin</author> / <author>Robinson, David W.</author> / <author>Gandy, Devlin</author> (2019): “A virtual reality platform for analyzing remote archaeological sites”, in: 
+                        <hi rend="italic">Interacting with Computers</hi> 31, 2: 167–76.
+                    </bibl>
+                    <bibl>
+                        <author>Champion, Erik M. </author>(2021): “Preserving authenticity in virtual heritage”, in: Champion, Erik M. (ed.): 
+                        <hi rend="italic">Virtual Heritage: A Guide.</hi> London: Ubiquity Press 129-137.
+                    </bibl>
+                    <bibl>
+                        <author>Dennis, L. Meghan</author> (2021): “Getting it Right and Getting It Wrong in Digital Archaeological Ethics”, in: Champion, Erik M. (ed.): 
+                        <hi rend="italic">Virtual Heritage: A Guide.</hi> London: Ubiquity Press 105–113.
+                    </bibl>
+                    <bibl>
+                        <author>European Commission</author> (2022): “Study on quality in 3D digitisation of tangible cultural heritage”. <ref target="https://digital-strategy.ec.europa.eu/en/library/study-quality-3d-digitisation-tangible-cultural-heritage">https://digital-strategy.ec.europa.eu/en/library/study-quality-3d-digitisation-tangible-cultural-heritage</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Flynn, Thomas</author> (2019): “Sketchfab: cultural heritage user survey” <ref target="https://docs.google.com/presentation/d/1avExQtbfl6vDCFyo5VgSyBy638BjdDTAIhw79ClHT5A/edit#slide=id.g5dae1f95c1_0_0">https://docs.google.com/presentation/d/1avExQtbfl6vDCFyo5VgSyBy638BjdDTAIhw79ClHT5A/edit#slide=id.g5dae1f95c1_0_0</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Fragkos, Stergios</author> / <author>Tzimtzimis, Emanuel</author> / <author>Tzetzis, Dimitrios</author> / <author>Dodun, Oana</author> / <author>Kyratsis, Panagiotis</author>  (2018): “3D Laser scanning and digital restoration of an archaeological find”, in: 
+                        <hi rend="italic">MATEC Web of Conferences</hi> 178: 03013.
+                    </bibl>
+                    <bibl>
+                        <author>García-Bustos, Miguel</author> / <author>Rivero, Olivia</author> / <author>García Bustos, Paula</author> / <author>Mateo-Pellitero, Ana M.</author>  (2022): “From the cave to the virtual museum: accessibility and democratisation of Franco-Cantabrian Palaeolithic art”, in: 
+                        <hi rend="italic">Virtual Archaeology Review</hi>, 14, 28: 54–64. 
+                    </bibl>
+                    <bibl>
+                        <author>Hardy, Kristine</author> / <author>Ballard, Chris</author> / <author>Leclerc, Mathieu</author>  (2023): “Agarabi pottery production in the Eastern Highlands of Papua New Guinea”, in: 
+                        <hi rend="italic">Journal of Anthropological Archaeology</hi> 69: 101479.
+                    </bibl>
+                    <bibl>
+                        <author>Houghton, Robert</author> (2021): “Scholarly History Through Digital Games: Pedagogical Practice as Research Method”, in: Ariese-Vandemeulebroucke, Csilla E. / Boom, Krijn H.J. / van den Hout, Bram / Mol, Angus A.A. / Politopoulos, Aris (eds.) 
+                        <hi rend="italic">Return to the Interactive Past</hi>. Sidestone Press. 137-155.
+                    </bibl>
+                    <bibl>
+                        <author>Lucarelli, Rita</author> / <author>Johnston, Kea</author>  (2022): “Ancient Egyptian coffins in 3D: digital analysis visualization and dissemination”, in: Lercari, Nicola / Wendrich, Wileke / Porter, Benjamin W. / Burton, Margie M. / Levy, Thomas E. (eds.) 
+                        <hi rend="italic">Preserving Cultural Heritage in the Digital Age: Sending Out an S.O.S.</hi> Bristol: Equinox Publishing. 110-124.
+                    </bibl>
+                    <bibl>
+                        <author>Markiewicz, Malgorzata </author>(2022): “Photography vs. visualisation. Technical images in archaeological research”, in: 
+                        <hi rend="italic">Digital Applications in Archaeology and Cultural Heritage.</hi> 24: e00213. 
+                    </bibl>
+                    <bibl>
+                        <author>Mariotto, Felix </author>(2022): Art Salad <ref target="https://github.com/felixmariotto/art-salad">https://github.com/felixmariotto/art-salad</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Morgan, Colleen</author> (2009): “(Re)Building Catalhoyuk: changing virtual reality in archaeology”, in: 
+                        <hi rend="italic">Archaeologies: Journal of the World Archaeological Congress.</hi> 5, 3: 468-487. 
+                    </bibl>
+                    <bibl>
+                        <author>Morgan, Colleen</author> (2022): “Current digital archaeology”, in: 
+                        <hi rend="italic">Annual Review of Anthropology.</hi> 51: 213-231. 
+                    </bibl>
+                    <bibl>
+                        <author>Politopoulos, Aris</author> / <author>Mol, Angus</author>  (2021): “Video Games as Concepts and Experiences of the Past. in: Champion, Erik M. (ed.): 
+                        <hi rend="italic">Virtual Heritage: A Guide.</hi> London: Ubiquity Press 81–92. 
+                    </bibl>
+                    <bibl>
+                        <author>Rahaman, Hafizur</author> (2021): “Photogrammetry: What, How, and Where”, in: Champion, Erik M. (ed.): 
+                        <hi rend="italic">Virtual Heritage: A Guide.</hi> London: Ubiquity Press 25-37.
+                    </bibl>
+                    <bibl>
+                        <author>Spelitz, Stefan</author> / <author>Moitinho de Almeida, Vera</author> / <author>Lang-Auinger, Claudia</author>  (2020): “Automatic geometry, metrology, and visualisation techniques for 3D scanned vessels.” 
+                        <hi rend="italic">Digital Applications in Archaeology and Cultural Heritage</hi> 17: e00105. 
+                    </bibl>
+                    <bibl>
+                        <author>Watson, Virginia D.</author> (1993): “Adzera and Agarabi: contrastive ceramics in Papua New Guinea”, in: 
+                        <hi rend="italic">The Journal of the Polynesian Society</hi> 102, 3: 305–318.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

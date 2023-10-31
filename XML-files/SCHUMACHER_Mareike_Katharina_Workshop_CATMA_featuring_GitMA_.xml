@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Workshop CATMA featuring GitMA and Vis-A-Vis</title>
+                <author n="SchumacherMareikeKatharinaSCHUMACHER_Mareike_Katharina_Workshop_CATMA_featuring_GitMA_.xml"><persName ref="https://orcid.org/0000-0002-7952-4194" n="SchumacherMareikeKatharina">
+                        <surname>Schumacher</surname>
+                        <forename>Mareike Katharina</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>schumacher@linglit.tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GerstorferDominikSCHUMACHER_Mareike_Katharina_Workshop_CATMA_featuring_GitMA_.xml"><persName ref="https://orcid.org/0000-0002-8095-2540" n="GerstorferDominik">
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>dominik.gerstorfer@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GiusEvelynSCHUMACHER_Mareike_Katharina_Workshop_CATMA_featuring_GitMA_.xml"><persName ref="https://orcid.org/0000-0001-8888-8419" n="GiusEvelyn">
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>evelyn.gius@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MeisterMalteSCHUMACHER_Mareike_Katharina_Workshop_CATMA_featuring_GitMA_.xml"><persName ref="https://orcid.org/0000-0002-9670-3573" n="MeisterMalte">
+                        <surname>Meister</surname>
+                        <forename>Malte</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>malte.meister@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MnzManorOphirSCHUMACHER_Mareike_Katharina_Workshop_CATMA_featuring_GitMA_.xml"><persName n="MnzManorOphir">
+                        <surname>Münz-Manor</surname>
+                        <forename>Ophir</forename>
+                    </persName><affiliation>The Open University of Israel</affiliation><email>ophirmm@openu.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This CATMA (Computer Assisted Text Markup and Analysis) workshop is intended for users with some preliminary experience with manual digital annotation who (want to) operate with larger amounts of annotation data in the context of their own work or research projects. It will demonstrate the basic features of CATMA and how annotation data can be processed using either the Python package GitMA (Vauth et al. 2021) or the web-based visualization tool vis-À-vis (Münz-Manor et al. 2020). The workshop will provide answers to questions like: How do I access my CATMA annotation data via GitMA? How do I calculate the agreement between multiple annotators? How do I generate advanced visualizations of the texts and annotations in vis-À-vis? How do I visualize collaboratively created annotation data stored in multiple collections?</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>collaboration</term>
+                    <term>inter-annotator-agreement</term>
+                    <term>visualization</term>
+                    <term>analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Cultural studies</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This CATMA (Computer Assisted Text Markup and Analysis) workshop is intended for
+                users with some preliminary experience with manual digital annotation who (want to)
+                operate with larger amounts of annotation data in the context of their own work or
+                research projects. It will demonstrate the basic features of CATMA and how
+                annotation data can be processed using either the Python package GitMA (Vauth et al.
+                2021) or the web-based visualization tool vis-À-vis (Münz-Manor et al. 2020). The
+                workshop will provide answers to questions like: How do I access my CATMA annotation
+                data via GitMA? How do I calculate the agreement between multiple annotators? How do
+                I generate advanced visualizations of the texts and annotations in vis-À-vis? How do
+                I visualize collaboratively created annotation data stored in multiple
+                collections?</p>
+            <div type="div1">
+                <head>Annotation in CATMA</head>
+                <p>Annotation is a core cultural and research practice that has been practiced
+                    non-digitally for a very long time (cf. Moulin 2010) before being transferred to
+                    the digital in the context of the Digital Humanities. Text markup and
+                    enrichment, free-text annotation, and taxonomy-based annotation are forms of
+                    annotation that overlap to some extent (cf. Jacke 2018, § 9). All of these forms
+                    are digitally supported by CATMA. CATMA (Gius et al. 2022) is a web-based
+                    collaborative text annotation and analysis platform that has been in development
+                    since 2008. With the release of CATMA 6 in 2019, a Git-based backend was
+                    introduced for the platform. GitMA builds on top of that to facilitate access to
+                    and further processing of annotation data. For many projects already using CATMA
+                    at an advanced level, as well as for people with experience using Git and a
+                    basic knowledge of Python, this opens up a number of new possibilities for
+                    working on and with annotations. The most important of these will be introduced
+                    during this workshop.</p>
+                <p>In CATMA, with the help of self-created tagsets or tagsets provided on the
+                    forTEXT.net platform (e.g. Flüh 2020), taxonomy-based annotation can be
+                    performed individually or in teams in a project-centered manner. To begin your
+                    work with CATMA, you create a project with any number of documents to be
+                    analyzed and any number of team members who want to work on them. You can make
+                    single and multiple, overlapping or even contradictory annotations in CATMA. You
+                    can integrate open questions, interpretation approaches that have not been
+                    thought through to the end, or even exchanges with other team members into your
+                    annotation process by using annotations or the comment function. Both
+                    annotations and comments can be searched, tabulated, or visualized via CATMA's
+                    analysis functions.</p>
+                <p>We will introduce the functionalities of the CATMA GUI in the first part of the
+                    workshop.</p>
+                <figure>
+                    <graphic n="1001" width="15.92cm" height="17.074444444444445cm" url="Pictures/6909951b3069027742de7b125ca54789.png" rend="inline"/>
+                    <head>Figure 1: Workflow for annotation evaluation and revision with the CATMA backend,
+                    taught during the workshop.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Processing annotations with GitMA</head>
+                <p>Although the scope of what can be achieved with the CATMA GUI is quite large, the
+                    introduction of the Git-based backend makes the tool even more interesting for
+                    Digital Humanities practices of text analysis. The undogmatic access that was
+                    previously only provided to annotations and annotation taxonomies now extends to
+                    annotation data and its further processing (see Fig. 1). </p>
+                <p>A low barrier to entry and proximity to the established (analog) methods in the
+                    humanities remain central principles implemented in CATMA (cf. Schumacher and
+                    Gius 2022). In addition to the possibility for text analysis using diverse
+                    methods or theories of interpretation (cf. Piez 2010), adherence to best
+                    practices and standards developed within the Digital Humanities community is
+                    important. "GitMA", the combination of CATMA GUI functionalities with direct
+                    data access via Git, enables both. For example, the data created in the
+                    annotation process can be evaluated for inter-annotator-agreement. It is
+                    possible to specify one of the annotators as the 'silver standard' and measure
+                    annotations of the others against it. The detected disagreement can form the
+                    basis of a disagreement tagset, which can also be fed back into the frontend of
+                    the CATMA GUI via the backend (see Fig. 1). The same applies to the passages
+                    showing disagreement, which in turn can themselves be represented by annotations
+                    in the GUI. In addition, this workflow enables the creation of gold annotations
+                    (cf. Wissler et al. 2014). Both workflows, inter-annotator-agreement evaluation
+                    and gold standard creation, will be shown during the second part of the
+                    workshop.</p>
+            </div>
+            <div type="div1">
+                <head>Visualizing annotations with vis-À-vis</head>
+                <p>While CATMA offers basic visualizations of the annotations created within the
+                    system, vis-À-vis is a comprehensive visualization tool designed to assist
+                    scholars in recognizing patterns in annotated texts. vis-À-vis automatically
+                    imports the tagged corpora from CATMA, (re)presents them in various graphs and
+                    charts, provides comparative graphical tools for grouping the texts, and offers
+                    aggregative tools for inter- and intra-corpora relations. vis-À-vis offers five
+                    visualization possibilities: Small multiple distribution charts of annotation
+                    categories within a text, an aggregated Stacked Area chart, a Sunburst chart
+                    showing the proportions and quantities associated with each tag in the text, a
+                    force-directed network of annotation categories and a bubble visualization. In
+                    addition, a dynamic visualization of the logical structure of a tagset as well
+                    as its manifestations in specific annotated texts is offered. </p>
+                <p>The vis-À-vis backend provides easy connectivity with CATMA, connecting it to its
+                    GitLab backend through user-provided API keys. The user is prompted for a key
+                    and receives information on all of the user’s projects from CATMA. Projects can
+                    then be imported, or updated if they were imported previously. vis-À-vis uses a
+                    similar data model to CATMA, although compartmentalized: Users have Projects,
+                    which are composed of Texts and Annotations. Annotations associate parts of a
+                    text with a Tag, and tags belong to a Tagset. The last part of the workshop will
+                    demonstrate the possibilities of visualizing annotations with vis-À-vis.</p>
+            </div>
+            <div type="div1">
+                <head>Format and workshop schedule</head>
+                <p>The workshop will be offered as a half-day hands-on tutorial (four hours). With
+                    our group of experienced instructors, we will be able to provide close
+                    assistance to the participants. </p>
+                <div type="div2">
+                    <head>Procedure:</head>
+                    <list type="unordered">
+                        <item>CATMA (90 minutes)</item>
+                        <item>Short introduction to the CATMA frontend</item>
+                        <item>Create tagsets</item>
+                        <item>Annotate documents </item>
+                        <item>Analyze annotations</item>
+                    </list>
+                    <p>Break (20 minutes)</p>
+                    <list type="unordered">
+                        <item>Access to annotation data via GitMA (55 minutes)</item>
+                        <item>Access to annotation collections, documents and tagsets</item>
+                        <item>Exploratory annotation evaluations</item>
+                        <item>Visualizing annotation data</item>
+                        <item>Inter-annotator-agreement, Silver &amp; Gold Standard</item>
+                    </list>
+                    <p>Break (20 minutes)</p>
+                    <list type="unordered">
+                        <item>Visualizations of annotation data with vis-À-vis (55 minutes)</item>
+                    </list>
+                </div>
+                <div type="div2">
+                    <head>Target audience</head>
+                    <p>Users who manage annotations with CATMA in research projects or in teaching
+                        situations, as well as anyone who needs a fast workflow between manual
+                        annotation or annotation editing and annotation evaluation. Users without
+                        prior CATMA experience are welcome, though we would kindly ask them to
+                        prepare by working through the manual annotation tutorial at
+                        https://catma.de/how-to/tutorials/manual-annotation/ in advance. </p>
+                </div>
+                <div type="div2">
+                    <head>Number of possible participants</head>
+                    <p>50</p>
+                </div>
+                <div type="div2">
+                    <head>Technical requirements</head>
+                    <p>To prepare for the workshop, participants should have already created a CATMA
+                        account (at https://app.catma.de/catma/). The required pre-installations of
+                        Git, Anaconda and GitMA (as well as its dependencies) can be avoided by
+                        using a provided Docker image. Participants should have Docker Desktop
+                        installed on their own laptop (touch devices are not supported) and bring it
+                        to the workshop.</p>
+                </div>
+                <div type="div2">
+                    <head>Required previous knowledge</head>
+                    <p>Participants should have basic knowledge of CATMA, Python, and Jupyter
+                        Notebooks.</p>
+                </div>
+                <div type="div2">
+                    <head>Contributors</head>
+                    <div type="div3">
+                        <head>Dominik Gerstorfer</head>
+                        <p>Technical University of Darmstadt, Institute of Linguistics and
+                            Literature, Residenzschloss 1, 64283 Darmstadt, Germany</p>
+                        <p>Dominik Gerstorfer is doing his PhD on "Philosophical Issues in the
+                            Digital Humanities" at the University of Stuttgart. He is currently
+                            working in the KatKit project, and previously worked in the DFG project
+                            forTEXT in Darmstadt and in the Digital Humanities project CRETA in
+                            Stuttgart. Dominik studied philosophy, political science, and sociology
+                            (M.A.) at the University of Tübingen. His research interests lie in the
+                            areas of philosophy of science, formal methods, and argumentation
+                            analysis. In the context of KatKit and forTEXT, Dominik is working on
+                            intertextuality, ontologies, and the development of category systems,
+                            among other topics.</p>
+                    </div>
+                    <div type="div3">
+                        <head>Evelyn Gius</head>
+                        <p>Technical University of Darmstadt, Institute of Linguistics and
+                            Literature, Residenzschloss 1, 64283 Darmstadt, Germany</p>
+                        <p>Evelyn Gius is a professor for digital philology and modern German
+                            literature at Technical University of Darmstadt. She received her PhD
+                            from the University of Hamburg with a thesis on the narrative structure
+                            of conflict narration. Her research is focused on manual annotation,
+                            operationalization, narrative theory, segmentation and conflicts. She is
+                            the PI of several Digital Humanities projects (EvENT, KatKit, CATMA,
+                            forTEXT) and serves as chair of the Digital Humanities association in
+                            the German-speaking area (DHd), co-editor of the Journal of
+                            Computational Literary Studies (JCLS) and co-editor of the book series
+                            “Digitale Literaturwissenschaft” (Digital Literary Studies).</p>
+                    </div>
+                    <div type="div3">
+                        <head>Malte Meister</head>
+                        <p>Technical University of Darmstadt, Institute of Linguistics and Literary
+                            Studies, Residenzschloss 1, 64283 Darmstadt, Germany</p>
+                        <p>Malte Meister earned his computer science degree (B.Sc.) in Cape Town in
+                            2009. As part of the final project for his diploma, he was commissioned
+                            to create the text annotation and analysis tool CATMA, for the
+                            University of Hamburg. He contributed to the team working on CATMA until
+                            early 2010, before focusing on his career in the private sector. After
+                            more than ten years of professional experience as a software developer
+                            and team leader, he decided to rejoin the CATMA development team. He has
+                            been a technical staff member at the TU Darmstadt since 2021, where he
+                            is mainly involved in the operation and further development of CATMA and
+                            related systems as part of forTEXT.</p>
+                    </div>
+                    <div type="div3">
+                        <head>Ophir Münz-Manor</head>
+                        <p>The Open University of Israel, Department of History, Philosophy and
+                            Judaic Studies, 1 University Road, Ra’anana 4353701, Israel</p>
+                        <p>Ophir Münz-Manor is associate professor of Rabbinic Culture and a
+                            specialist in Jewish liturgy and liturgical poetry from Late Antiquity
+                            and the early Middle Ages. His studies focus on the intersections with
+                            contemporary Christian texts as well as questions of ritual, performance
+                            and gender in late antique Near Eastern cultures. In recent years, Prof.
+                            Münz-Manor has embarked on several projects that combine traditional
+                            literary analysis with quantitative and computerized methods from the
+                            realm of Computational Literary Studies. </p>
+                        <p>He is the PI of two recent Digital Humanities projects (Critique of Pure
+                            Digital Knowledge and Algorithmic Detections of Metaphors in Pre-Modern
+                            Hebrew Poetry) and the creator of vis-À-vis. Recently, he edited a
+                            special issue of Jewish Studies Quarterly published by Mohr Siebeck on
+                            Digital Humanities and Jewish Studies and published (together with Itay
+                            Marienberg-Milikowsky) the first Hebrew annotated reader of fundamental
+                            essays in the realm of DH, translated from English. </p>
+                    </div>
+                    <div type="div3">
+                        <head>Mareike Schumacher</head>
+                        <p>University of Regensburg, Institute of Language, Literature and Culture,
+                            Universitätsstraße 31, 93053 Regensburg, Germany</p>
+                        <p>Mareike Schumacher is Juniorprofessor of Digital Humanities. Before she
+                            coordinated the DFG project forTEXT (https://fortext.net), in which, in
+                            addition to the dissemination of digital routines, resources and tools
+                            to the more traditional disciplines, the further development of CATMA
+                            plays an essential role. She handed in her PhD-thesis about “Place and
+                            Space in the Novel. A contribution to Computational Literary Studies” in
+                            2021. She is particularly interested in distant reading methods
+                            (including named entity recognition or stylometry), digital humanities
+                            theory, and the connection between digital methods and theory-based
+                            literary and cultural studies research. </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Flüh, Marie. </author>
+                        2020. „Emotionsanalyse“. In forTEXT.
+                            https://fortext.net/ressourcen/tagsets/emotionsanalyse.</bibl>
+                    <bibl>
+                        <author>Gius, Evelyn, Jan Christoph Meister, Malte Meister, Marco
+                            Petris, Christian Bruck, Janina Jacke, Mareike Schumacher, Dominik
+                            Gerstorfer, Marie Flüh, and Jan Horstmann. </author>
+                        2021. “CATMA 6 (Version 6.5)”. Zenodo. DOI: 10.5281/zenodo.1470118. URL:
+                            https://catma.de/</bibl>
+                    <bibl>
+                        <author>Münz-Manor, O. et al. </author>
+                        (2020) ‘ViS-Á-ViS : Detecting Similar Patterns in Annotated Literary
+                            Text’. Available at:
+                        https://doi.org/10.48550/ARXIV.2009.02063.</bibl>
+                    <bibl>
+                        <author>Piez, Wendell.</author>
+                        2010. „Towards Hermeneutic Markup. An Architectural Outline“. In Digital
+                            Humanities 2010. Conference Abstracts, 202–5. London.
+                            http://dh2010.cch.kcl.ac.uk/academic-programme/abstracts/papers/html/ab-743.html.</bibl>
+                    <bibl>
+                        <author>Schumacher, Mareike and Evelyn Gius. </author>
+                        2022. ‘forTEXT.net – Literatur digital erforschen’, Mitteilungen des
+                            Deutschen Germanistenverbandes, 69(2), pp. 121–126. Available at:
+                            https://doi.org/10.14220/mdge.2022.69.2.121.</bibl>
+                    <bibl>
+                        <author>Michael Vauth, Malte Meister, Hans Ole Hatzel, Dominik
+                            Gerstorfer, and Evelyn Gius. </author>
+                        (2022). GitMA (1.4.9). Zenodo.
+                            https://doi.org/10.5281/zenodo.6330464</bibl>
+                    <bibl>
+                        <author>Wissler, Lars, Mohammed Almashraee, Dagmar Monett, and
+                            Adrian Paschke. </author>
+                        2014. „The Gold Standard in Corpus Annotation“.
+                            https://doi.org/10.13140/2.1.4316.3523.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Genre Identification and Network Analysis on Modern Chinese Prose
+                    Poetry</title>
+                <author n="NingChengZHAO_Wei_Genre_Identification_and_Network_Analysis_on_Modern.xml"><persName n="NingCheng">
+                        <surname>Ning</surname>
+                        <forename>Cheng</forename>
+                    </persName><affiliation>Tsinghua University, China, People's Republic of</affiliation><email>chengn20@mails.tsinghua.edu.cn</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WeiZhaoZHAO_Wei_Genre_Identification_and_Network_Analysis_on_Modern.xml"><persName n="WeiZhao">
+                        <surname>Wei</surname>
+                        <forename>Zhao</forename>
+                    </persName><affiliation>Chinese Academy of Social Sciences, China, People's Republic
+                        of</affiliation><email>xiye1002@163.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In the nearly century-long history of modern Chinese literary research, the definition of "modern Chinese prose poetry" has given rise to a considerable amount of discussion, but remains an open question. Since the first “prose poem” was translated by Liu Bannong and published in the New Youth（1918）, new literary writers began writing "prose poems" in newspapers and periodicals. The prose poem became a popular genre label used to this day. However, unlike the early establishment of “vernaculars new poetry”, at what level it can be regarded as an independent literary genre? Or is it simply a by-product of the “new poetry movement”? 
+During the last decade, stylistic pattern recognition and network analysis have been used to solve the problem of genre identification (Long and So, 2016), as well as to model discursive communities (Richard, 2019) or translation communities (Long, 2015). In this study, we focus on thousands of translated and composed texts of prose poems published during the China Republican period (1911-1949), and use multi-feature modelling, text clustering, machine learning, and network analysis to make a stylometric and literary sociological examination of the formation of modern prose poems, while trying to enable new theoretical assumptions. Our concerns include, but are not limited to: What stylistic or content features distinguish it from new poetry? Which texts, translators, and authors are more crucial to the shaping of prose poetic practice in the “new literary field”? And so on.
+Corpora and Annotation
+We collected, OCRed, proofread 1,492 works(including "733 prose poems in translation," "189 classic prose poems," and "570 unknown prose poems") with a original label of SanwenShi散文诗 from the archives of Republican periodicals. At the same time, we have digitized the entire New Chinese Literature Series, and initially built a cross-referenced corpus of 406 new poems and 216 prose(essays). All tokenized corpora are marked with the symbol “/” for the rhythmic “pause”.
+Textual Representation and Genre Classification
+Firstly we selected 421 features to represent the text. We chose top 200 high-frequency words calculated by tf-idf as semantic features. For the rhythmic level, we used n-gram to calculate the combination pattern of pause for each text. In addition, metric like "clause repetition rate" was counted to characterize the occurrence of "repetition" in the verse text. The remaining 20 are generic stylistic features, including TTR, sentence length mean, function word ratio, mean dependency distance（MDD）etc.
+In the hierarchical clustering experiment with 150 samples, three major categories of prose, prose poetry, and new poetry have been almost clustered out.
+Next, a logistic regression 3-class classifier was constructed, and it was able to separate the three with 75% accuracy (ten-fold cross-validation). And the performance of 2-class task is even more accurate at 80% or higher, as followed：
+    New Poetry   Prose poem
+Prose   0.92   0.81
+New Poetry   -   0.86
+It is not difficult to find that, in addition to some explicit features, such as average sentence length, sentence length (SD), some pause combination patterns possess high contribution degrees. This confirms our previous understanding that rhyme forms based on certain patterns of pause combinations are important for establishing the stylistic independence of modern Chinese prose poetry. In other words, it is probably that the prose poem can serve as an independent genre because it possesses a unique rhythmic morphology that distinguished from the “new poetry”.
+To explore this issue at a finer granularity, we transform all n-gram pause combinatorial patterns of new poetry and prose poems into feature vector model (1339 and 1547 dimensions, respectively), and adopt cosine distances to calculate the similarity of each text. As a result, if new poems are represented in a way that computes the "between-sentences n-gram combinations", new poems with similar "prosody" can be discovered. In contrast, prose poems need to be calculated as "n-gram pause combinations within pauses" in order to discover prose poems with similar rhythmic patterns. This result demonstrates that the key to the formation of the new poetry rhythmic style is the way the pauses are combined, which may not related to the number of syllables between each pause. In the case of prose (poem), the pattern of pause (including the number of syllables) within a clause needs to be taken into account.
+Stylistic network analysis 
+In view of above differences in feature extraction algorithms, we further construct stylistic similarity networks for poems and prose poems on the basis of multiple but different features sets. In the network of prose poetry, the texts with the highest weighted degree can be considered as the model of “typical modern Chinese prose poem”. In fact, this group of unnoticeable "small poems"（小诗）overturns our impression of prose poetry in the Republican period. Finally, we also added the authorial attributes as dimensions for similarity calculation. Examining the modularity of network, it reveals some potential connections between authorial styles, and in particular the influence of translation on major writers, and of classic writings on a large number of unknown authors. In this regard, a comparison of poetry networks reveals differences that are likely due to the large number of "multiple translations of one poem" in prose poetry. In the future, we will try more network analysis methods to explore the reasons.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Prose poem</term>
+                    <term>Textual Similarity</term>
+                    <term>Network Analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>Asian studies</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In the nearly century-long history of modern Chinese
+                    literary research, the definition of "modern Chinese prose poetry" has given
+                    rise to a considerable amount of discussion, but remains an open question. Since
+                    the first “prose poem” was translated by Liu Bannong and published in the<hi rend="italic">New Youth</hi> (1918), new literary writers began writing "prose poems" in newspapers and periodicals. The prose poem became a popular genre label used to this day. However, unlike the early establishment of <hi rend="italic">vernaculars new poetry</hi>(<hi rend="SimSun">白话新诗</hi>), at what level it can be regarded as an independent literary genre? Or is it simply a by-product of the <hi rend="italic">new poetry movement</hi>(<hi rend="SimSun">新诗运动</hi>)?</p>
+            <p>During the last decade, stylistic pattern recognition and network analysis have been used to solve the problem of genre identification (Long and So, 2016), as well as to model discursive communities (Richard, 2019) or translation communities (Long, 2015). In this study, we focus on thousands of translated and composed texts of prose poems published during the China Republican period (1911-1949), and use multi-feature modelling, text clustering, machine learning, and network analysis to make a stylometric and literary sociological examination of the formation of modern prose poems, while trying to enable new theoretical assumptions. Our concerns include, but are not limited to: What stylistic or content features distinguish it from
+                    new poetry? Which texts, translators, and authors are more crucial to the
+                    shaping of prose poetic practice in the “new literary field”? And so on.</p>
+            <div>
+                <head>Corpora and Annotation</head>
+                <p>We collected, OCRed, proofread 1,492 works (including
+                        "733 prose poems in translation," "189 classic prose poems," and "570
+                        unknown prose poems") with an original label of<hi rend="italic"> SanwenShi</hi><hi rend="SimSun">散文诗</hi> from the archives of
+                        Republican periodicals.At the same time, we have digitized the entire<hi rend="italic">New Chinese Literature Series</hi>, and initially built a cross-referenced corpus of 406 new poems and 216 prose(essays). All tokenized corpora are marked with the symbol “/” for the rhythmic “pause”. </p>
+            </div>
+            <div>
+                <head>Textual Representation and Genre Classification </head>
+                <p>Firstly we selected 421 features to represent the
+                        text. We chose top 200 high-frequency words calculated by tf-idf as semantic
+                        features. For the rhythmic level, we used n-gram to calculate the
+                        combination pattern of pause for each text. In addition, metric like "clause
+                        repetition rate" was counted to characterize the occurrence of "repetition"
+                        in the verse text. The remaining 20 are generic stylistic features,
+                        including TTR, sentence length mean, function word ratio, mean dependency
+                        distance (MDD) etc.</p>
+                <p>In the hierarchical clustering experiment with 150 samples, three major categories of prose, prose poetry, and new poetry have been almost clustered out. </p>
+                <figure>
+                    <graphic n="1001" width="13.329066666666666cm" height="8.154797222222221cm" url="Pictures/9f3ad0cc9d4935fe58985b4d1e69375f.jpg" rend="inline"/>
+                    <head><hi rend="italic">Figure 1. </hi>Hierarchical clustering based on 150 randomly
+                            sampled texts</head>
+                </figure>
+                <p>Next, a logistic regression 3-class classifier was
+                        constructed, and it was able to separate the three with 75% accuracy
+                        (ten-fold cross-validation). And the performance of 2-class task is even
+                        more accurate at 80% or higher, as followed:</p>
+                <table xml:id="d372e265">
+                    <row>
+                        <cell/>
+                        <cell>New Poetry</cell>
+                        <cell>Prose poem</cell>
+                    </row>
+                    <row>
+                        <cell>Prose</cell>
+                        <cell>0.92</cell>
+                        <cell>0.81</cell>
+                    </row>
+                    <row>
+                        <cell>New Poetry</cell>
+                        <cell>-</cell>
+                        <cell>0.86</cell>
+                    </row>
+                </table>
+                <figure>
+                    <graphic n="1002" width="14.640277777777778cm" height="7.320138888888889cm" url="Pictures/44fcfe017556ec692fdc0ef9c20b75c1.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 2. </hi>The ranking of the logistic regression coefficient magnitude (prose poem vs. poetry)<hi rend="SimSun">散文诗和新诗</hi></head>
+                </figure>
+                <figure>
+                    <graphic n="1003" width="14.640277777777778cm" height="7.320138888888889cm" url="Pictures/8dd5342e03846b6964b5fe816cabfb89.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 3. </hi>The ranking of the logistic regression coefficient magnitude (prose poem vs. prose)<hi rend="SimSun">散文诗和散文</hi></head>
+                </figure>
+                <p>It is not difficult to find that, in addition to some explicit features, such as average sentence length, sentence length (SD), some pause combination patterns possess high contribution degrees. This confirms our
+                        previous understanding that rhyme forms based on certain patterns of pause
+                        combinations are important for establishing the stylistic independence of
+                        modern Chinese prose poetry. In other words, it is probably that the prose
+                        poem can serve as an independent genre because it possesses a unique
+                        rhythmic morphology that distinguished from the “new poetry”.</p>
+                <p>To explore this issue at a finer granularity, we
+                        transform all n-gram pause combinatorial patterns of new poetry and prose
+                        poems into feature vector model (1339 and 1547 dimensions, respectively),
+                        and adopt cosine distances to calculate the similarity of each text.As a result, if new poems are represented in a way that computes the "between-sentences n-gram combinations", new poems with similar "prosody" can be discovered. In contrast, prose poems need to be calculated as "n-gram pause combinations within
+                        pauses" in order to discover prose poems with similar rhythmic patterns.
+                        This result demonstrates that the key to the formation of the new poetry
+                        rhythmic style is the way the pauses are combined, which may not related to
+                        the number of syllables between each pause. In the case of prose (poem), the
+                        pattern of pause (including the number of syllables) within a clause needs
+                        to be taken into account.</p>
+            </div>
+            <div>
+                <head>Stylistic network analysis </head>
+                <p>In view of above differences in feature extraction algorithms, we further construct stylistic similarity networks for poems and prose poems on the basis of multiple but different features sets. In the network of prose poetry, the texts with the
+                        highest weighted degree can be considered as the model of “typical modern
+                        Chinese prose poem”. In fact, this group of unnoticeable "small poems" (<hi rend="SimSun">小诗</hi>) overturns our impression of prose poetry in the
+                        Republican period.Finally, we also added the authorial attributes as
+                        dimensions for similarity calculation. Examining the modularity of network,
+                        it reveals some potential connections between authorial styles, and in
+                        particular the influence of translation on major writers, and of classic
+                        writings on a large number of unknown authors. In this regard, a comparison
+                        of poetry networks reveals differences that are likely due to the large
+                        number of "multiple translations of one poem" in prose poetry. In the
+                        future, we will try more network analysis methods to explore the
+                        reasons.</p>
+                <figure>
+                    <graphic n="1004" width="8.87046111111111cm" height="8.87046111111111cm" url="Pictures/888866534004a6f563ba265c1fa21b4b.png" rend="inline"/>
+                    <head><hi rend="italic">Figure 4. </hi>Prose poems stylistic similarity network (1917-1949) </head>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Allison, S., Heuser, R., Jockers, M., Moretti, F. and Witmore, M. </author>
+                        (2011). 
+                        <hi rend="italic">Quantitative Formalism: An
+                            Experiment</hi>
+                        , Stanford Lab Pamphlet Series.
+                            http://litlab.stanford.edu/?page id=255.
+                    </bibl>
+                    <bibl>
+                        <author>Long, H., &amp; So, R.</author>
+                        
+                        
+                         (2016). Literary Pattern Recognition: Modernism between Close Reading and Machine Learning., 
+                        <hi rend="italic">Critical Inquiry</hi>
+                         42 (2), 235-267.
+                    </bibl>
+                    <bibl>
+                        <author>Long, H.</author>
+                         (2016). Fog and steel: M
+                        
+                        
+                        apping communities of literary translation in an information age, 
+                        <hi rend="italic">The Journal of Japanese
+                            Studies</hi>
+                        , 41(2), 281–316.
+                    </bibl>
+                    <bibl>
+                        <author>Long, H., &amp; So, R. </author>
+                        (2013). Network Science and Literary
+                            History. 
+                        <hi rend="italic">Leonardo, </hi>
+                        46(3), 274–274.
+                    </bibl>
+                    <bibl>
+                        <author>Richards, E.</author>
+                         (2019).
+                        
+                        
+                        The Concept of Culture in the Humanities after
+                            the Digital Turn: The Stylometric Paradigm., Vielfalt der Disziplinen -
+                            Einheit des Kulturbegriffs?, Symbole, Annäherungen, Perspektiven,
+                            Diskurse,ed. CarolineKolisang, Bielefeld: Transkript Verlag, 2019, pp.
+                            147-162.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

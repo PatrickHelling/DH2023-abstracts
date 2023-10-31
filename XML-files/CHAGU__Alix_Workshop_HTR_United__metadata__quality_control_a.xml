@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Workshop HTR-United: metadata, quality control and sharing process for HTR
+                    training data</title>
+                <author n="ClriceThibaultCHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml"><persName ref="https://orcid.org/0000-0003-1852-9204" n="ClriceThibault">
+                        <surname>Clérice</surname>
+                        <forename>Thibault</forename>
+                    </persName><affiliation>Centre Jean Mabillon, PSL-Ecole nationales des chartes; ALMAnaCH,
+                        Inria, France</affiliation><email>clerice.thibault@algorythme.net</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChaguAlixCHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml"><persName ref="https://orcid.org/0000-0002-0136-4434" n="ChaguAlix">
+                        <surname>Chagué</surname>
+                        <forename>Alix</forename>
+                    </persName><affiliation>ALMAnaCH, Inria, France; Université de Montréal, Montréal,
+                        Canada</affiliation><email>alix.chague@inria.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This workshop uses the environment created around the HTR-United catalog to demonstrate and discuss how to build a dataset of ground truth for text recognition and document it, and how to use HTR-United and its suite of tools to control its quality and describe it in a standardized way.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handwritten Text Recognition</term>
+                    <term>ground truth</term>
+                    <term>datasets</term>
+                    <term>standardization</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The growth of computation power and rise of artificial
+                intelligence (in particular Deep Learning) allowed for the development of automatic
+                text recognition, both on printed texts (OCR) and handwritten ones (HTR). Such
+                technologies can now make millions of images of texts from various periods of time,
+                held in patrimonial institutions, available for further search and processing. </p>
+            <p>HTR became more accessible when user friendly interfaces
+                started to be developed: namely Transkribus from 2015 (Muehlberger et al. 2019) and
+                eScriptorium from 2019 (Kiessling et al. 2019). In the case of HTR and old prints
+                though, one of the hurdles remaining to be overcome is the access to robust models
+                capable of recognizing coherent texts despite the multiple variations in handwriting
+                or fonts. Such models usually necessitate users to produce large amounts of manual
+                transcriptions considered as perfect -called ground truth-, taking the form of pairs
+                of images and transcriptions (XML files containing the coordinates and the
+                corresponding text), which is a costly task. It requires a good understanding of the
+                way deep learning functions, skills in paleography, and time. An easy way to reduce
+                the costs of creating the training data to obtain a model is to rely on the data
+                produced by other projects. Unfortunately, they are hard to find and not always
+                published, because there is no incentive to put in this extra effort, neither for
+                their publication nor for their documentation.</p>
+            <p>HTR-United is a collaborative initiative whose main
+                purpose is to improve the findability of these open datasets, covering as many
+                periods, scripts and languages as possible. Through this initiative, we support the
+                creation a public catalog of dataset descriptions, contributed by individuals
+                volunteering their own datasets. In general, descriptions are submitted as a YAML
+                file filled with the help of a form available on HTR-United website (Figure 1) <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn1" n="1"/>. Raising awareness on the necessity to correctly document such shared
+                datasets, HTR-United favors the implementation of the FAIR principles <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn2" n="2"/> in the specific case of text recognition training datasets (Chagué / Clérice
+                2022b). The catalog <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn3" n="3"/> can be browsed using filters (script, language, type of font, period, etc.)
+                and offer means to easily cite a dataset (Figure 2). </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="5.152319444444444cm" url="Pictures/63e6c487f9160e40bc27c12fcd39eade.png" rend="inline"/>
+                <head><hi rend="bold">Figure 1:</hi> (a) Excerpt of the form to record the
+                    description of a new dataset; (b) YAML content <lb/>generated by the form; (c)
+                    YAML description of a dataset submitted to HTR-United with Github. </head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="14.528830555555556cm" height="6.824147222222222cm" url="Pictures/bcae8dc167825a522e387c63e1f9c4c2.png" rend="inline"/>
+                <head><hi rend="bold">Figure 2:</hi> View of records in the catalog: records can be
+                    seen in their own page (a) or browsed in the <lb/>catalog, including after using
+                    filters (b). </head>
+            </figure>
+            <p>The initiative is set up as an ecosystem of public Github
+                repositories <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn4" n="4"/>, which guarantees the existence of precious versioning features for an
+                ever-evolving catalog, transparency from all the parties as well as the possibility
+                for us to rely on minimalistic developments. For example, anytime a dataset
+                description is validated by our team, a Github Action processes all the existing
+                descriptions in order to generate a new version of the catalog in the form of a
+                pivot YAML file <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn5" n="5"/>: the catalog is never directly edited manually which reduces the risks of
+                introducing errors. While a repository is dedicated to gathering all the
+                descriptions feeding the catalog, another one hosts the specifications of the schema
+                used to control the conformity of the descriptions <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn6" n="6"/>. Anyone can open a discussion to suggest the addition of new features in the
+                specifications, or access the details of the arguments having led to the
+                modification of the schema. Additionally, we aim to provide and maintain a suite of
+                tools, available locally or through Github Actions and continuous integration, which
+                help control, document and manage dataset on the short and long term, specifically
+                in heavily collaborative contexts <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn7" n="7"/>. </p>
+            <p>During the DH2023 conference, we will organize a workshop
+                focused on three essential aspects of publishing ground truth: 1) the architecture
+                of such a dataset, 2) its description to make it findable and reusable by
+                third-party users, and 3) mechanisms for longer term quality control.</p>
+            <p>The workshop will take place during a 4-hour long session
+                (half a day). After briefly presenting the context of creation of HTR-United and its
+                overall architecture, we will first examine our template for building ground truth
+                repositories <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn8" n="8"/>. This template is useful to highlight the essential elements which must be
+                found in such a dataset: the transcriptions and images (or links to images),
+                information about the context of production and about the source document(s), a
+                license, etc. The second phase of the workshop will focus on how to create the
+                description of a ground truth dataset in order to add it to HTR-United using the
+                aforementioned form and how to submit the resulting catalog entry. We hope that this
+                stage will be the occasion to longer discuss the choices made during the
+                construction of the metadata schema and potential ways to improve the existing
+                standards. Lastly, we will <lb/> introduce the suite of tools designed to help
+                manage and control the content of the repositories and/or its description in
+                HTR-United. This suite includes HUMGenerator (for the generation of additional
+                metadata), HTRVX (to control the validity of the XML files containing the ground
+                truth), and ChocoMufin (which controls the list of characters used in a dataset)
+                    <ref target="#CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn9" n="9"/>. We will demonstrate how they can be used locally as well as through Github
+                Actions (for datasets hosted on Github). </p>
+            <p>The targeted audience would benefit from being familiar
+                with the basis of handwritten text recognition processes as well as with
+                environments such as Github. However, no technical skill is required since
+                HTR-United and its suite of tools does not require any local installation. Attendee
+                possessing datasets of ground truth for HTR will be welcome to use their own dataset
+                as examples during the workshop.</p>
+            <p>After this workshop, an attendee will:</p>
+            <list type="ordered">
+                <item>Be able to use HTR-United’s template to create a properly structured and
+                    documented dataset of ground truth for HTR;</item>
+                <item>Know how to use HTR-United’s form and catalog to submit a dataset description
+                    or find datasets useful to their project;</item>
+                <item>Know how to apply HTR-United suite of tools to control the quality of the
+                    ground truth in the dataset and generate up-to-date metadata; and</item>
+                <item>Be further acquainted with the notion of continuous integration which can be
+                    useful in many contexts, way beyond the scope of HTR technologies.</item>
+            </list>
+            <div type="div1">
+                <head>Instructors</head>
+                <div type="div2">
+                    <head>Thibault Clérice</head>
+                    <p>Thibault Clérice is a digital humanist with a
+                        classical studies background, who served as an engineer both at the Centre
+                        for eResearch (Kings College London, UK) and the Humboldt Chair for Digital
+                        Humanities (Leipzig, Germany) where he developed the data backbone of the
+                        future Perseus 5 (under the CapiTainS.org project). He was the head of the
+                        DH applied to GLAM program for 5 years at the École nationale des Chartes.
+                        He is a founding member of the Technical Committee for the Distributed Text
+                        Services standard ( w3id.org/dts),
+                        and co-founder of HTR-United. The major part of his teaching is dedicated to
+                        cultural heritage data engineering, development good practices, standards
+                        for communication and programming languages. His research mainly focus on
+                        natural language processing for ancient languages through deep learning, the
+                        distribution of corpora and computational methods applied to the humanities.
+                    </p>
+                </div>
+                <div type="div2">
+                    <head>Alix Chagué</head>
+                    <p>Alix Chagué is a PhD student in Digital Humanities
+                        aﬀiliated to the ALMAnaCH team at Inria (Paris, France) and the CRIHN
+                        (Centre de Recherche Interuniversitaire sur les Humanités Numériques) at the
+                        University of Montreal (Montreal, Canada). Her research interests are
+                        focused on the development of clearer methodologies to apply automatic
+                        transcription techniques (such as HTR) by patrimonial institutions and
+                        researchers in the DH community. She co-founded HTR-United and, as a
+                        Research and Development engineer from 2018 to 2021, she contributed to
+                        various projects involving the automatic recognition of handwritten texts:
+                        ANR TIMEUS, LECTAUREP, and eScriptorium.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn1">
+                     See <ref target="https://htr-united.github.io/document-your-data.html">https://htr-united.github.io/document-your-data.html</ref> (27/04/2023). 
+                </note><note n="2" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn2">
+                     The letters stand for Findable, Accessible,
+                        Interoperable and Reusable. For more information, see <ref target="https://www.go-fair.org/fair-principles/">https://www.go-fair.org/fair-principles/</ref> (27/04/2023).
+                </note><note n="3" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn3">
+                     See <ref target="https://htr-united.github.io/catalog.html">https://htr-united.github.io/catalog.html</ref> (27/04/2023). 
+                </note><note n="4" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn4">
+                     See <ref target="https://github.com/HTR-United">https://github.com/HTR-United</ref> (27/04/2023). 
+                </note><note n="5" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn5">
+                     See in particular <ref target="https://github.com/HTR-United/htr-united/blob/master/htr-united.yml">https://github.com/HTR-United/htr-united/blob/master/htr-united.yml</ref> (27/04/2023). 
+                </note><note n="6" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn6">
+                     See <ref target="https://github.com/HTR-United/schema">https://github.com/HTR-United/schema</ref> (27/04/2023). 
+                </note><note n="7" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn7">
+                     See <ref target="https://htr-united.github.io/actions.html">https://htr-united.github.io/actions.html</ref> (27/04/2023). 
+                </note><note n="8" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn8">
+                     See <ref target="https://github.com/HTR-United/template-htr-united-datarepo">https://github.com/HTR-United/template-htr-united-datarepo</ref> (27/04/2023).
+                </note><note n="9" xml:id="CHAGU__Alix_Workshop_HTR_United__metadata__quality_control_a.xml_ftn9">
+                     For more details about these tools, see <ref target="https://htr-united.github.io/tools.html">https://htr-united.github.io/tools.html</ref> (27/04/2023). 
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Chagué, Alix</author> / <author>Clérice, Thibault</author> 
+                        (2022b, June 23).
+                        <hi rend="italic">Sharing HTR datasets with standardized metadata: The
+                            HTR-United initiative</hi>. Documents anciens et reconnaissance
+                        automatique des écritures manuscrites. <ref target="https://inria.hal.science/hal-03703989">https://inria.hal.science/hal-03703989</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Kiessling, Benjamin</author> / <author>Tissot, Robin</author> / <author>Stokes, Peter</author> / <author>Stökl Ben Ezra, Daniel</author> 
+                        (2019). eScriptorium: An Open Source Platform for Historical Document
+                            Analysis. 
+                        <hi rend="italic">2019 International Conference on Document Analysis and
+                            Recognition Workshops (ICDARW)</hi>, <hi rend="italic">2</hi>, 19–19.
+                            <ref target="https://doi.org/10.1109/ICDARW.2019.10032">https://doi.org/10.1109/ICDARW.2019.10032</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Muehlberger, Guenter</author> / <author>et al.</author> 
+                        (2019). Transforming scholarship in the archives through handwritten
+                            text recognition: Transkribus as a case study. 
+                        <hi rend="italic">Journal of Documentation</hi>, <hi rend="italic">75</hi>(5), 954–976. <ref target="https://doi.org/10.1108/JD-07-2018-0114">https://doi.org/10.1108/JD-07-2018-0114</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

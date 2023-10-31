@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Investigating Decentralized Alternatives to Collaborative Long-term Research Data Preservation Infrastructure</title>
+                <author n="BelouinPascalBELOUIN_Pascal_Investigating_Decentralized_Alternatives_to_C.xml"><persName n="BelouinPascal">
+                        <surname>Belouin</surname>
+                        <forename>Pascal</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>pbelouin@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PhamKimBELOUIN_Pascal_Investigating_Decentralized_Alternatives_to_C.xml"><persName n="PhamKim">
+                        <surname>Pham</surname>
+                        <forename>Kim</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>kpham@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HennickeSteffenBELOUIN_Pascal_Investigating_Decentralized_Alternatives_to_C.xml"><persName ref="https://orcid.org/0000-0001-8038-8081" n="HennickeSteffen">
+                        <surname>Hennicke</surname>
+                        <forename>Steffen</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Germany</affiliation><email>shennicke@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The sustainability, preservation, and long-term availability of research data is a growing concern for academic institutions. We aim to propose an alternative to the existing, "centralized" solutions to this problem by presenting our attempts to build a prototype for a decentralized research data repository relying on decentralized, blockchain-adjacent technology.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>research data preservation</term>
+                    <term>blockchain</term>
+                    <term>decentralization</term>
+                    <term>linked data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital archiving</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>Computer science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The sustainability, preservation, and long-term availability of research data is a growing concern for academic institutions. Several centralized research data storage and hosting solutions are currently available globally to mitigate this issue, where research data archiving and access is guaranteed by a number of centralized entities, often hosting research data for several academic institutions at once.</p>
+            <p>In such a centralized consortial hosting model, each institution provides access to a particular collection of datasets. Coordination and cross-search capabilities between these centralized repositories is ensured by initiatives such as EUDAT 
+                (EUDAT, 2022), through a number of ways such as 
+                OAI-PMH (Open Archive Initiative Protocol for Metadata Processing, 2022), CSW (Catalog Service for the Web, 2022), or ad-hoc REST APIs. This approach relies on the existence of the aforementioned institutional entities, and on their ability (and willingness) to maintain the infrastructure that provides access to these data in the long term.
+            </p>
+            <p>Over the recent years, a move for the creation of decentralized infrastructure has been observed, with initiatives such as IPFS, or more generally projects categorized under the all-encompassing “blockchain” umbrella. A notable initiative at the intersection of blockchain and academia is for instance the bloxberg consortium, spearheaded by the Max Planck Digital Library, and which aims to 
+                <hi rend="italic">“advance science with its own blockchain infrastructure and to enable society as a whole to secure data with the reputational proof of research organizations worldwide” (bloxberg Consortium, 2022)</hi>. 
+            </p>
+            <p>In this context, we have been investigating a number of ways in which such a decentralized model could be implemented. A number of technical possibilities have been explored, such as the development of a proof of concept for a research data repository based on SPARQL-queryable linked data, stored in JSON-LD using IPFS technology. More recently, a new solution that seems to offer most of what we think would be the requirements for such an infrastructure advantages is the Decentralised Knowledge Graph developed by Trace Labs, which they describe as an 
+                <hi rend="italic">“immutable, queryable and searchable graphs that can be used across Web3 applications. You can additionally apply standardized technologies such as GS1 EPCIS, RDF/SPARQL, JSON-LD and other W3C and GS1 standards out of the box” (OriginTrail, 2022).</hi></p>
+            <p>During this short talk, we therefore aim to compare existing long-term research data preservation solutions to potential fully decentralized alternatives, explore the pros and cons of the latter, and present the current state of our prototype for such an infrastructure.</p>
+            <p>This investigation was motivated by our belief that some of these novel approaches to data storage infrastructure could present a number of advantages to some of the problems entailed by the long-term data preservation solutions that currently exist.</p>
+            <p>The prototype is a decentralized and distributed architecture that aims to do away with the reliance on a small number of centralized entities for storing and accessing the data. In the context of a decentralized &amp; distributed storage model, all datasets are distributed across the network in such a way that the loss of one or more nodes does not result in the loss of data. This brings about several benefits such as censorship resistance, immutability of the data, the removal of a single point of failure, and the removal of a “direct” need to maintain the actual infrastructure necessary for long-term storage and availability. Instead, the responsibility of maintaining each node is delegated to node operators, dependent on the incentivisation model underlying such an infrastructure, which can for instance take the form of direct remuneration of node operators based on uptime or volume of data hosted, or through participation in a consortium of institutions agreeing to be part of the network of nodes.</p>
+            <p>In addition, such a solution also has advantages, such as facilitating the interoperability of the research datasets stored in such a way, as although storage is distributed, such an infrastructure has properties similar to a centralized data storage solution: In other words, instead of a collection of discrete repositories, research data could be stored in what can ultimately be considered, from the outside, as one cohesive data repository. However, It also comes with a number of new challenges inherent to the technological stack underlying it, regarding, for example, issues of identity management, data ownership and access, and the incentivisation of data hosting and node maintenance. Furthermore, the institutional ramifications of adopting such a model also need to be addressed: Institutions participating in such an initiative could do so either by providing funds to incentivize storage, or by hosting a node.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                         
+                        <author>EUDAT - Research Data Services, Expertise &amp; Technology Solutions</author>
+                        . (n.d.). Retrieved 4 November 2022, from
+                        <ref target="https://www.eudat.eu/">https://www.eudat.eu/</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Open Archives Initiative Protocol for Metadata Harvesting</author>
+                        . (n.d.). Retrieved 4 November 2022, from
+                        <ref target="https://www.openarchives.org/pmh/">https://www.openarchives.org/pmh/</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Catalog Service for the Web (CSW)—GeoNetwork opensource v3.10 GeoNetwork Documentation</author>
+                        . (n.d.). Retrieved 4 November 2022, from
+                        <ref target="https://geonetwork-opensource.org/manuals/3.10.x/en/api/csw.html">https://geonetwork-opensource.org/manuals/3.10.x/en/api/csw.html</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Mission | bloxberg</author>
+                        . (n.d.). Retrieved 4 November 2022, from
+                        <ref target="https://bloxberg.org/discover/mission/">https://bloxberg.org/discover/mission/</ref>
+                    </bibl>
+                    <bibl>
+                        <author>OriginTrail—Decentralized Knowledge Graph (DKG)</author>
+                        . (n.d.). Retrieved 4 November 2022, from
+                        <ref target="https://docs.origintrail.io/general/dkgintro">https://docs.origintrail.io/general/dkgintro</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

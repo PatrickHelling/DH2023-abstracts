@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scholarly Digital Editions: APIs and Reuse Scenarios</title>
+                <author n="SpadiniElenaSPADINI_Elena_Scholarly_Digital_Editions__APIs_and_Reuse_Sce.xml"><persName ref="https://orcid.org/0000-0002-4522-2833" n="SpadiniElena">
+                        <surname>Spadini</surname>
+                        <forename>Elena</forename>
+                    </persName><affiliation>Universität Basel, Switzerland</affiliation><email>elena.spadini@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LosadaPalenzuelaJosLuisSPADINI_Elena_Scholarly_Digital_Editions__APIs_and_Reuse_Sce.xml"><persName ref="https://orcid.org/0000-0002-6530-1328" n="LosadaPalenzuelaJosLuis">
+                        <surname>Losada Palenzuela</surname>
+                        <forename>José Luis</forename>
+                    </persName><affiliation>Uniwersytet Wrocławski, Poland</affiliation><email>joseluis.losadapalenzuela@unibas.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper, we study data reuse in scholarly editing, providing insights into the current panorama and imagining future developments. We will focus on the reuse of data, leaving aside the reuse of code and models, which would require a separate enquiry; and would concentrate on machine-actionable reuse, as opposed to human consumption.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>data reuse</term>
+                    <term>scholarly editions</term>
+                    <term>digital editions</term>
+                    <term>API</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>open access methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Humanities computing</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In this paper, we study data reuse in scholarly editing, providing insights into the current panorama and imagining future developments. We will focus on the reuse of data, leaving aside the reuse of code and models, which would require a separate enquiry; and will concentrate on machine-actionable reuse, as opposed to human consumption. Although the reusability of editions' data should be considered within the framework of research data management, many related issues, such as licensing, will be left out from this paper in order to limit its scope.
+            </p>
+            <div type="div1">
+                <head>Obtaining data</head>
+                <p>We first address technological means to access the editions data for reuse, including web scraping, data dumps and APIs. A comparative analysis of these approaches highlights their advantages and limitations, with special attention to the presence of metadata and documentation.</p>
+                <p>We then focus on APIs for editions. A first distinction can be made between generic APIs (e.g. DTS, TEI Publisher) and project-specific ones (e.g. <hi rend="italic">Carl Maria von Weber Gesamtausgabe</hi>, <hi rend="italic">The Proceedings of the Old Bailey</hi>). We will address the advantages of using a standardised interface, namely following the OpenAPI Specification (<ref target="https://spec.openapis.org/oas/v3.1.0">https://spec.openapis.org/oas/v3.1.0</ref>, used by TEI Publisher and by <hi rend="italic">Carl Maria von Weber Gesamtausgabe</hi>), and of providing query examples (as in the case of the <hi rend="italic">Registres de la Comédie-Française</hi>and their Postman query collection). We will consider the scope of the query within a textual document, distinguishing between the APIs that query the XML structure and anchors (e.g., the first &lt;div&gt;) and those querying the content of data and metadata (e.g., documents by date). We believe that the combination of these two approaches would be beneficial. Examples of API for retrieving content (not querying the XML tree directly) are those implemented in <hi rend="italic">edition humboldt digital</hi>, <hi rend="italic">Registres de la Comédie-Française, Sandrart.net</hi>, <hi rend="italic">The Folger Shakespeare</hi>, <hi rend="italic">The Proceedings of the Old Bailey</hi>.</p>
+                <p>We will also consider available parameters to refine the queries and the support for internal and external IDs, such as GND, Viaf, Geonames, Wikidata.</p>
+                <p>Eventually, we reflect on the suitability of standard APIs for editions and their possible features, building on top of the important contribution of DTS (Distributed Text Services).</p>
+            </div>
+            <div type="div1">
+                <head>Reusing data</head>
+                <p>In the second part of the paper, we describe concrete (real and fictitious) cases to exemplify reuse practices. Five reuse scenarios will be presented:</p>
+                <list type="unordered">
+                    <item>Search multiple datasets with one authority record. Persistent identifiers and authority records are key to retrieve data for reuse. In this example, we retrieve multiple non-overlapping data from 
+                        <hi rend="italic">Carl-Maria-von-Weber-Gesamtausgabe. Digitale Edition</hi> and from 
+                        <hi rend="italic">CorrespSearch</hi> using GND authority records.
+                    </item>
+                    <item>Editions data in dictionaries. While dictionaries are sometimes integrated into (or linked to from) editions, the contrary is rare. We will explore some of the few cases in which an electronic dictionary references an electronic edition, namely the 
+                        <hi rend="italic">Dictionnaire Étymologique de l'Ancien Français</hi> and the 
+                        <hi rend="italic">Dictionary of Old Norse Prose</hi>.
+                    </item>
+                    <item>Detecting text reuse. Using the example of the Spanish Golden Age theatre, we will demonstrate how for certain distant reading practices it is important to take into account the type of sources to be included in the corpus, and the value of the curated text of scholarly editions in this context.</item>
+                    <item>Enriching editions with gazetteers. We will analyse the enrichment of data from the 
+                        <hi rend="italic">Perseus Digital Library</hi> with geolocations from the 
+                        <hi rend="italic">Pleiades </hi>gazetteer in the project 
+                        <hi rend="italic">ToposText</hi>.
+                    </item>
+                    <item>Internal reuse. Reuse can also occur within the edition project or in a follow-up, when data is used for replication and maintenance, or for purposes other than the edition itself. The two cases of data visualisation and of rebuilding an obsolete web application will be addressed.</item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>The results of this study are presented in the form of simple, but still not widely implemented, suggestions to editors: provide multiple access to the data and in multiple formats; when this is not possible, make at least available a data dump in a standard format, such as XML/TEI or plain text; implement internal persistent identifiers and enrich data with external persistent identifiers; offer documentation. Additional remarks are presented on how the access to the data influences the type of reuse.</p>
+                <p>Some open questions will also be explored. The first concerns versioning and replicability, which apparently clash with our suggestion of multiplying the access points to data. Two of the projects mentioned in the first section, <hi rend="italic">The Proceedings of the Old Bailey</hi>and <hi rend="italic">Registres de la Comédie-Française</hi>, exemplify this tension, since both signal to the user that data retrieved through the API and from the data dumps “might represent slightly different versions”. The problem, however, is not that the data are exposed in different ways, but that the open-endedness of digital editions comes with certain disadvantages, among which the "perpetual beta status" (Gengnagel 2017). Moreover, the different versions of the data, of the software (including the API, if any) and sometimes even of the model, seem to make a complete replicability over time impossible to achieve.</p>
+                <p>The second open question concerns the reasons why the reuse of data from editions is still rare. Here, the nature of the data itself might play a role, as Humanities data are always the result of an interpretation, built according to scientific choices that might not be shared by others. The complexity of obtaining the data for a not technologically savvy user can also be an obstacle, as well as the fact that reuse is at odds with the solitary way of working of many humanists up to the current days.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="italic">Complete Works of Carl Maria von Weber. Digital Edition</hi> (Version 4.7.0 of February 19, 2023). <ref target="http://weber-gesamtausgabe.de/A070002">http://weber-gesamtausgabe.de/A070002</ref> [1.05.2023]
+                    </bibl>
+                    <bibl><author>Dumont, Stefan</author> / <author>Grabsch, Sascha</author> / <author>Müller-Laackman, Jonas</author> (2021): 
+                        <hi rend="italic">CorrespSearch – Briefeditionen Vernetzen (2.0.0)</hi> [Webservice]. <ref target="https://correspSearch.net">https://correspSearch.net</ref> [1.05.2023].
+                    </bibl>
+                    <bibl><author>Emsley, Clive</author> / <author>Hitchcock, Tim</author> / <author>Shoemaker, Robert</author> (2018): “Digital Projects Using Old Bailey Online Data”, in: 
+                        <hi rend="italic">Old Bailey Proceedings Online</hi>, Version 8.0 | March 2018. <ref target="https://www.oldbaileyonline.org/static/Projects.jsp">https://www.oldbaileyonline.org/static/Projects.jsp</ref> [1.05.2023].
+                    </bibl>
+                    <bibl><author>Franzini, Greta </author>(2019): “Towards Connecting Scholarly Editions to Corpora in the LiLa (Linking Latin) Knowledge Base of Linguistic Resources”. DOI: 10.5281/zenodo.3613371.</bibl>
+                    <bibl><author>Franzini, Greta</author> / <author>Terras, Melissa</author> / <author>Mahony, Simon</author> (2019): “Digital Editions of Text: Surveying User Requirements in the Digital Humanities”, in: 
+                        <hi rend="italic">Journal on Computing and Cultural Heritage</hi> 12, 1: 1–23. DOI: 10.1145/3230671.
+                    </bibl>
+                    <bibl><author>Glessgen, Martin</author> / <author>Dallas, Marguerite</author> (2019): “L’intégration du vocabulaire des Documents linguistiques galloromans dans le DEAF électronique”, in: 
+                        <hi rend="italic">Lexicographica</hi> 35: 235–67. DOI: 10.1515/lex-2019-0009.
+                    </bibl>
+                    <bibl><author>Losada Palenzuela, José Luis </author>(2022): “Análisis Cuantitativo de La Reutilización Textual En Las Comedias Colaboradas (Moreto)”. DOI: 10.5281/zenodo.7271369.</bibl>
+                    <bibl><author>Spadini, Elena </author>(2022): “Reuse of Digital Editions. Exposing Data”, in: 
+                        <hi rend="italic">Éditions critiques numériques et multilinguisme</hi>, Université de Montréal. DOI: 10.5281/zenodo.7271447.
+                    </bibl>
+                    <bibl><author>Tittel, Sabine </author>(2018): “Historical Corpus and Historical Dictionary: Merging Two Ongoing Projects of Old French by Integrating Their Editing Systems”, in: Čibej, Jaka / Gorjanc, Vojko / Kosem, Iztok / Krek, Simon (eds.):
+                        <hi rend="italic">Proceedings of the XVIII EURALEX International Congress: Lexicography in Global Contexts.</hi> Ljubljana: Ljubljana University Press 453–65.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Developing a New Research Data Infrastructure for Japanese Historical Materials</title>
+                <author n="ShibutaniAyakoSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName ref="https://orcid.org/0000-0003-2690-0210" n="ShibutaniAyako">
+                        <surname>Shibutani</surname>
+                        <forename>Ayako</forename>
+                    </persName><affiliation>Historiographical Institute, the University of Tokyo, Japan</affiliation><email>ashibutani@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NakamuraSatoruSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName ref="https://orcid.org/0000-0001-8245-7925" n="NakamuraSatoru">
+                        <surname>Nakamura</surname>
+                        <forename>Satoru</forename>
+                    </persName><affiliation>Historiographical Institute, the University of Tokyo, Japan</affiliation><email>nakamura@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HirasawaKanakoSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName n="HirasawaKanako">
+                        <surname>Hirasawa</surname>
+                        <forename>Kanako</forename>
+                    </persName><affiliation>Historiographical Institute, the University of Tokyo, Japan</affiliation><email>k-hirasawa@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="InukaiHonamiSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName n="InukaiHonami">
+                        <surname>Inukai</surname>
+                        <forename>Honami</forename>
+                    </persName><affiliation>Historiographical Institute, the University of Tokyo, Japan</affiliation><email>ea01@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YamadaToshiyukiSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName n="YamadaToshiyuki">
+                        <surname>Yamada</surname>
+                        <forename>Toshiyuki</forename>
+                    </persName><affiliation>Historiographical Institute, the University of Tokyo, Japan</affiliation><email>to-yamada@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AdachiAiruSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName n="AdachiAiru">
+                        <surname>Adachi</surname>
+                        <forename>Airu</forename>
+                    </persName><affiliation>Graduate School of Humanities and Sociology, the University of Tokyo, Japan</affiliation><email>adachi@l.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OhmukaiIkkiSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName ref="https://orcid.org/0000-0002-3276-3753" n="OhmukaiIkki">
+                        <surname>Ohmukai</surname>
+                        <forename>Ikki</forename>
+                    </persName><affiliation>Graduate School of Humanities and Sociology, the University of Tokyo, Japan</affiliation><email>i2k@l.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="YamadaTaizoSHIBUTANI_Ayako_Developing_a_New_Research_Data_Infrastructur.xml"><persName ref="https://orcid.org/0000-0002-0170-8380" n="YamadaTaizo">
+                        <surname>Yamada</surname>
+                        <forename>Taizo</forename>
+                    </persName><affiliation>Historiographical Institute, the University of Tokyo, Japan</affiliation><email>t_yamada@hi.u-tokyo.ac.jp</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Our poster discusses HI's activities to construct a data structure and its operations in Japanese history for long-term utilisation and future issues related to multidisciplinary links. It focuses on specific repositories and examples of metadata exchange.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>data infrastructure</term>
+                    <term>data management</term>
+                    <term>humanities</term>
+                    <term>Japanese historical materials</term>
+                    <term>Japan Data Catalog for the Humanities and Social Sciences (JDCat)</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>open access methods</term>
+                    <term>Asian studies</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <p>The COVID-19 pandemic has restricted access to original historical documents that have been the foundation of humanities research. Providing digital image data is the most effective method for overcoming this critical situation; it is increasingly necessary to strengthen the ability to disseminate information online (Yamada et al., 2021). However, individual researchers undertake research in humanities. Therefore, when the research results are published, the data investigated and accumulated during the research process are rarely shared in a verifiable form (Shibutani et al., 2020).</p>
+            </div>
+            <div type="div1">
+                <p>Against this background, the Japan Society for the Promotion of Science (JSPS) launched the Program for Constructing Data Infrastructure for the Humanities and Social Sciences in FY2018, intending to build a comprehensive system for sharing and using data in humanities and social science research across disciplines and countries. It opened the Japan Data Catalog for the Humanities and Social Sciences (JDCat) in July 2021, a batch searchable data catalogue of metadata in humanities and social sciences (Yamada et al., 2021). Furthermore, the Historiographical Institute (HI) of the University of Tokyo fostered an information environment to promote sharing and utilisation of humanities research data through the JSPS programme in FY2019–2022. Our poster discusses HI's activities to construct a data structure and its operations in Japanese history for long-term utilisation and future issues related to multidisciplinary links.</p>
+            </div>
+            <div type="div1">
+                <p>The HI is compiling information about data preservation of historical materials titled ‘Progress Management System for Historical Materials' Digitalization’, based on the Reference Model for an Open Archival Information System. All data were subjected to daily and annual remote backups. The terms and conditions for using the image data were established through coordination with the institutions holding the historical materials. Through the JSPS program, HI established terms and conditions for using image data from HI materials for images of historical materials of the Imperial Family and court archives, documents of the Miyakonojo Shimazu Family, Toji Monjo (historical documents of the Toji Temple stored in the Lake Biwa Museum), and documents related to Iwakura Tomomi (a Japanese statesman during the Bakumatsu and Meiji periods), already set as open data and released them in the Hi-CAT Plus database for digital image viewing. HI also distributes data inside and outside Japan, promoting collaboration with other countries and developing an English translation database (Figure 1).</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.456083333333334cm" url="Pictures/59b1d045aef2d0796412d2857e94fccc.jpg" rend="inline"/>
+                    <head>Figure 1. “Summary database of the Ishin Shiryo” as the English translation database</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <p>JDCat enables the cross-search of data collected, organised, and provided by base institutions in the project (Figure 2). The JDCat metadata schema was designed based on the DDI (Data Documentation Initiative), an international standard widely used in social sciences, and the JPCOAR (Japan Consortium for Open Access Repositories) schema for metadata exchange in institutional repositories (Shibutani et al., 2020). Therefore, developing a schema applicable to the humanities field was necessary. While accumulating, providing, and analysing historical research data such as catalogues and images, HI has been collecting relevant research information (e.g. microscopic images and analysis results) and linking them. Based on this knowledge, we clarify the interpretation of each item in the JDCat metadata schema, add information on text specific to humanities data, and examine methods for describing geographic and temporal ranges. Our poster illustrates specific repositories and examples of metadata exchange.</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="8.480777777777778cm" url="Pictures/e227dab4450ec192b8c070f134086fc3.jpg" rend="inline"/>
+                    <head>Figure 2. Metadata of HI’s historical materials in JDCat</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <p>Previous systems related to JDCat include Japan Search, Europe, and Time Machine Europe (e.g. Kitamoto, 2020). JDCat differs from these systems in its pioneering ability to cross-search information from various research datasets in humanities and social sciences. Users can cross-search for data that match their research themes; data providers can use the repository of their research projects as an operational repository (Shibutani et al., 2020).</p>
+            </div>
+            <div type="div1">
+                <p>Building a system and encouraging Japanese historical researchers to use it is essential so that the research related to collecting, managing, and analysing Japanese historical data becomes an indispensable research infrastructure for Japanese history. In humanities, data rarely become obsolete, and it is critical to perpetuating data. Moreover, in the case of research data management, it is necessary to aim for an adequate data provision and sharing environment in the research flow, such as research, compilation, and publication of research results (Yamada et al., 2021). These results may be fed back to archival data as research resources, thus achieving a distribution in which the archival data circulate that can advance the digital transformation of Japanese historical research. Our poster will discuss setting up an environment for data provision and sharing and the relationship between our project and other general research data management (RDM) areas. Additionally, we will show a long-term strategy for future collaborations, funding, and others to preserve infrastructure and ensure its uptake.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kitamoto, Asanobu </author> 
+                            (
+                            2020
+                            ): “
+                            Time Machine Europe research project for exploring 
+                            ‘
+                            Big Data of the Past
+                            ’
+                            ”, in: 
+                            <hi rend="italic">Current Awareness</hi>
+                            E2248
+                            .
+                       
+                    </bibl>
+                    <bibl>
+                        <author>Shibutani, Ayako</author> / <author>Yamada, Taizo</author> / <author>Watanabe, Yoichiro</author> / <author>Hirasawa, Kanako</author> / <author>Ohmukai, Ikki</author> / <author>Kaneko, Hiraku</author> / <author>Yanbe, Koki</author> / <author>Hoya, Toru</author>  (
+                            2020
+                            ): “
+                            Developing system environment for long-term utilisation, data sharing, and linking of Japanese historical materials
+                            ”, in: 
+                            <hi rend="italic">Proceedings of the Computers and the Humanities Symposium</hi>
+                            2020
+                            :
+                             23-30
+                            .
+                       
+                    </bibl>
+                    <bibl>
+                        <author>Yamada, Taizo</author> / <author>Nakamura, Satoru</author> / <author>Shibutani, Ayako</author> / <author>Ohmukai, Ikki</author> / <author>Inoue, Satoshi</author> 
+                            (
+                            202
+                            1
+                            ): “
+                            Challenges in developing a research data infrastructure for Japanese historical documents
+                            ”, in: 
+                            <hi rend="italic">Proceedings of the Computers and the Humanities Symposium</hi>
+                            2021
+                            :
+                             80-87
+                            .
+                       
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

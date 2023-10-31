@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Presence and Absence of Women in Early Modern Handwritten
+                        News: Random Walks in the Medici Archive</title>
+                <author n="TothGaborMihalyTOTH_Gabor_Mihaly_Presence_and_Absence_of_Women_in_Early_Mod.xml"><persName n="TothGaborMihaly">
+                        <surname>Toth</surname>
+                        <forename>Gabor Mihaly</forename>
+                    </persName><affiliation>University of Luxembourg</affiliation><email>gabor.toth@maximilianeum.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In early modern Europe information circulated in the form of regular manuscript newsletters. However, most of the once existing news sheets did not survive. This study will present novel methods (random sampling with replacement, aka bootstrapping, and Bayesian statistics) to harness this lost corpus and to analyze its gender dimensions.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>information culture</term>
+                    <term>early modern history</term>
+                    <term>randomness</term>
+                    <term>Bayesian statistics</term>
+                    <term>women's history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>cultural analytics</term>
+                    <term>information retrieval and querying algorithms and methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Computer science</term>
+                    <term>Gender and sexuality studies</term>
+                    <term>History</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In February 1600 a peculiar news reached the Medici court: a Persian woman ambassador
+                arrived at the Ottoman court in Constantinople. The report came from Wien in a
+                handwritten news sheet (ASF MdP, 3087). How did contemporary news mongers receive
+                this news? How often did they read about women? Did the presence of women increase
+                or decrease over time? Since scholarship on early modern women history has not
+                surveyed handwritten news sheets, there are no answers to these questions
+                (Wiesner-Hanks 2019; Benson 2010; Rublack 2001). </p>
+            <p>This paper will address them by presenting a completed computational study of a
+                digitized corpus of transcribed handwritten news sheets in Italian from the Medici
+                Archive (today in the Florentine State Archive). The corpus (published in Dooley et
+                al. 2021), henceforth MIA-Euronews Corpus, consists of 1200 news sheets covering a
+                period of 200 years and compiled in the major urban center of early modern Europe;
+                each news sheet is a consecutive list of news items organized into distinct
+                paragraphs. The paper will also present advanced statistical methods hitherto rarely
+                applied in digital humanities: random sampling with replacement, aka bootstrapping
+                (Bradley 1982), combined with Bayesian statistics (Lo 1986).</p>
+            <p>First, the paper will offer an introduction into handwritten news. Early modern
+                Europe witnessed an information revolution featured - in part - by the continual
+                circulation of handwritten news sheets (Salmi-Niklander / Droste 2019; Davies /
+                Fletcher 2014). From the 1600s handwritten news sheets were complemented with
+                printed news, though they continued to play an important role (Infelise 2002). Even
+                though handwritten newsletters that once circulated had a significant impact on the
+                history of the continent, their study has remained challenging (Baron / Dooley,
+                2005). Most of the once existing news sheets did not survive. Those that survived
+                are dispersed in different collections such as for instance the Fugger Archive and
+                the Medici Archive (Barker 2016; Bauer 2011). These collections are just <hi rend="italic">random </hi>and <hi rend="italic">incomplete </hi>samples from the
+                once existing but today lost corpus of handwritten news. If surviving new sheets are
+                random and incomplete, how can we use them to explore the presence of women in the
+                lost whole of once existing new sheets? </p>
+            <p>Second, the paper will address the problem of randomness and demonstrate how
+                bootstrapping can harness it. I will draw on a thought experiment: </p>
+            <p>Consider an AI-enabled robot that is literally a random walker. It keeps wandering in
+                the Medici Archive; it keeps opening folders containing news sheets. It finds that
+                sometimes women are mentioned, sometimes there is a complete silence on them. It
+                thus concludes that women’s presence is random in the news sheets.</p>
+            <p><figure>
+                    <graphic url="Pictures/4be105e3d75fec5f9bf5ee3f4ab20e38.png"/>
+                    <head>Figure 1. Probability of women occurring in news items randomly sampled
+                        from the MIA-Euronews Corpus. Figure A shows the probability distribution as
+                        a histogram. Figure B shows how the mean probability is reaching a stable
+                        value throughout the repeating random sampling.</head>
+                </figure></p>
+            <p>However, I will point out that randomness can be investigated given that it is
+                finite. I will demonstrate this by redesigning the thought experiment as a proper
+                bootstrapping process (Aa et al., 1994):</p>
+            <p>Imagine
+                that our AI-enabled robot randomly selects 100 news sheets and 100 news items at
+                once; then it reports us two pieces of information. First, it tells us in how many
+                news sheets it found the occurrence of at least one woman. Second, it tells us how
+                many news items mentioned at least one woman. Next, we ask our random walker robot
+                to repeat the two tasks over thousands of times. </p>
+            <p>I implemented this thought experiment algorithmically on the MIA-Euronews Corpus; in
+                my talk I will present the implementation with a real time simulation (Figure 1 A
+                and B) and by focusing on two aspects. First, with the bootstrapping we can map all
+                possible outcomes (women mentioned 10,12, and so on times in hundred news sheets
+                randomly selected) as well as their respective probabilities. Second, the random
+                walk of the robot will sooner or later converge and reach a stable probability. I
+                will point out that harnessing the randomness of a dataset involves studying that
+                dataset from all possible angles (i.e. reshuffling and resampling as the
+                bootstrapping does) and summarizing all possibilities with a probability
+                distribution.</p>
+            <p>Third, I will discuss the problem of how to get from the evidence collected in the
+                Medici Archive to the lost whole of news sheets circulating in the early modern
+                period. I will rely on an illustrative example:</p>
+            <p>Consider an unfair coin; we do not know the prior probability of head and tail. We
+                can toss the coin over thousands of times and gather evidence.</p>
+            <p><figure>
+                    <graphic url="Pictures/cfc65385eb14d0577a5072752ded1878.png"/>
+                    <head>Figure 2. An illustrative example: assessing the bias of an unfair
+                        (probability of Head: 0.3) coin by flipping it for a hundred times.</head>
+                </figure> The
+                two outcomes (Head and Tail) are modeled with a binomial random variable. Figure A
+                shows the outcome of the tossing, i.e. the evidence. Figure B shows the most likely
+                prior distribution that could give rise to the evidence gathered throughout the
+                flipping; it renders the outcome of the tossing with the beta distribution, which
+                maps the discrete values (number of Head and Tail) onto a continuous probability
+                space between 0 and 1. The closer the mean value is to 0, the less likely that the
+                coin is biased towards Head and more likely that it is biased towards Tail. The beta
+                distribution on Figure B actually gives a correct guess of the prior probability of
+                Head (i.e. 0.3). </p>
+            <p><figure>
+                    <graphic url="Pictures/8752d8568138adb9fc10ad9c4e8d9898.png"/>
+                    <head>Figure 3. The probability of women’s and men’s presence or absence in news
+                        items randomly selected from the MIA-Euroews Corpus.</head>
+                </figure> Absence and presence are modeled with a binomial random variable; the plot
+                renders the variable with the beta distribution, which maps the discrete values
+                (absence or presence) onto a continuous probability space between 0 and 1. The
+                closer the mean value is to 0, the more likely that the outcome of the random
+                variable is absence (as in case of women); conversely, the closer the mean value is
+                to 1, the more likely that the outcome of the random variable is presence (as in
+                case of men). </p>
+            <p><figure>
+                    <graphic url="Pictures/47fe2e8f1eaa697a4fbc0e6c8be42990.png"/>
+                    <head>Figure 4. The probability of women’s absence or presence in complete news sheets
+                randomly selected from the MIA News Corpus. For further explanation of the plot, see
+                the legend under Figure 3.</head>
+                </figure></p>
+            <p>I will accomplish a live simulation and show that the
+                    prior probability of Head and Tail do condition the evidence we gather by
+                    tossing the coin (Figure 2). Iwill transpose this idea to the study of women’s presence
+                    and absence in the lost corpus of early modern news sheets; I will reframe the
+                    problem in terms of Bayesian statistics as follows: women’s presence or absence
+                    in the lost whole can be viewed as the prior; the result of bootstrapping is the
+                    evidence, which is conditioned by the prior. I will then show how Bayesian
+                    formula, Bayesian updating, and the beta distribution as conjugate prior, enable
+                    us to develop a plausible model representing women’s presence or absence in the
+                    lost whole of early modern news sheets (Gupta &amp; Nadarajah, 2004). I will
+                    also demonstrate how this procedure can be used to compare the data corpus split
+                    into two periods: pre and post 1600.</p>
+            <p>As a
+                conclusion, I will evaluate the insights gathered throughout the experiments
+                described above in light of the current scholarship on early modern women history. I
+                will argue that in handwritten news there was no complete silence about women
+                (Figure 4) but the news world was still dominated by the presence of men. I will
+                also show that women’s presence in the news did not change throughout the period. I
+                will discuss the impact of the methodology presented by highlighting how different
+                projects, such as for instance the Euronews Project and the Medici Archive Project,
+                applied it to survey early modern information culture. Finally, I will reflect on
+                the problem of “revolutionary potential” as framed in the Call: can we revolutionize
+                historical research by studying the randomness of sources and archival assets with
+                the help of methods from the AI toolbox ? </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Aa, Christopher Z. Mooney</author> / <author>Robert Duval</author>  (1994):
+                        “Bootstrapping: A nonparametric approach to statistical inference”, in: <hi rend="italic">Journal of the American Statistical Association</hi> 89,
+                            <ref target="https://doi.org/10.2307/2290969">https://doi.org/10.2307/2290969</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Barker, Sheila</author> (2016): “'Secret and Uncertain’: A
+                        history of Avvisi at the court of the medici grand dukes.” in: Noah Moxham
+                        (Ed.), <hi rend="italic">News Networks in Early Modern Europe.
+                        </hi>Leiden:Brill 716–738. Brill.
+                        http://dx.doi.org/10.1163/9789004277199_032 </bibl>
+                    <bibl>
+                        <author>Baron, Sabrina Alcorn</author> / <author>Brendan, Dooley</author>  (2005): <hi rend="italic">The politics of information in early modern Europe</hi>.
+                        London: Routledge. </bibl>
+                    <bibl>
+                        <author>Bauer</author> / <author>Oswald</author>  (2011): <hi rend="italic">Zeitungen vor
+                            der Zeitung: Die Fuggerzeitungen (1568-1605) und das frühmoderne
+                            Nachrichtensystem. </hi>Berlin: Akademie Verlag. </bibl>
+                    <bibl>
+                        <author>Benson, Pamela. Joseph </author>(2010): <hi rend="italic">Invention of the Renaissance Woman: The Challenge of Female
+                            Independence in the Literature and Thought of Italy and England</hi>.
+                        University Park, PA: Penn State Press. </bibl>
+                    <bibl>
+                        <author>Bradley, Efron</author> (1982): <hi rend="italic">The jackknife,
+                            the bootstrap, and other resampling plans.</hi> Society for Industrial
+                        and Applied Mathematics. http://dx.doi.org/10.1137/1.9781611970319.ch5. </bibl>
+                    <bibl>
+                        <author>Davies, Simon</author> / <author>Fletcher, Puck</author> (2014): <hi rend="italic">News in early modern Europe: Currents and
+                        connections</hi>. Leiden: Brill. </bibl>
+                    <bibl>
+                        <author>Dooley, Brendan</author> / <author>Kreuze, Wouter</author> / <author>Boerio, Davide</author> / <author>Allori, L.orenzo</author> / <author>Mansutti, Sara</author> / <author>Paltrinieri, Carlotta</author>  (2021): <hi rend="italic">Euronews XML corpus.</hi> 10.5281/zenodo.5524182. </bibl>
+                    <bibl>
+                        <author>Droste, Heiko</author> / <author>Salmi-Niklander, Kirsti</author> (2019): <hi rend="italic">Handwritten newspapers: An alternative medium during the
+                            early modern and modern periods</hi>. BoD - Books on Demand. </bibl>
+                    <bibl>
+                        <author>Gupta, Arjun. K.</author> / <author>Nadarajah, Saralees</author>  (2004): <hi rend="italic">Handbook of beta distribution and its applications</hi>.
+                        Boca, Raton: CRC Press. </bibl>
+                    <bibl>
+                        <author>Infelise, Mario </author>(2002): <hi rend="italic">Prima dei
+                            giornali: Alle origini della pubblica informazione, secoli XVI e XVII.
+                        </hi>Rome: Laerza. </bibl>
+                    <bibl>
+                        <author>Lo, Albert Y</author>. (1986): “Bayesian statistical inference
+                        for sampling a finite population” in: <hi rend="italic">The Annals of
+                            Statistics</hi>, 14:3: https://doi.org/10.1214/aos/1176350061 </bibl>
+                    <bibl>
+                        <author>Rublack, Ulinka</author> (2001): <hi rend="italic">The crimes of
+                            women in early modern Germany</hi>. Oxford: Oxford University Press. </bibl>
+                    <bibl>
+                        <hi rend="bold">Wiesner-Hanks, Merry E. </hi>(2019) <hi rend="italic">: Women and gender in early modern Europe.</hi> Cambridge University
+                        Press. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

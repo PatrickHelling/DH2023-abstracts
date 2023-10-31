@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Developing a Pipeline for Automatic Linguistic Analysis of Historical Manuscripts and Early Printings: The Pre-Modern Slavic Case</title>
+                <author n="RabusAchimRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="RabusAchim">
+                        <surname>Rabus</surname>
+                        <forename>Achim</forename>
+                    </persName><affiliation>University of Freiburg, Germany</affiliation><email>achim.rabus@slavistik.uni-freiburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ArnoldEckhartRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="ArnoldEckhart">
+                        <surname>Arnold</surname>
+                        <forename>Eckhart</forename>
+                    </persName><affiliation>Bavarian Academy of Sciences and Humanities, Germany</affiliation><email>Arnold@badw-muenchen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JouravelAnnaRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="JouravelAnna">
+                        <surname>Jouravel</surname>
+                        <forename>Anna</forename>
+                    </persName><affiliation>University of Freiburg, Germany</affiliation><email>anna.jouravel@slavistik.uni-freiburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LendvaiPiroskaRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="LendvaiPiroska">
+                        <surname>Lendvai</surname>
+                        <forename>Piroska</forename>
+                    </persName><affiliation>Bavarian Academy of Sciences and Humanities, Germany</affiliation><email>Piroska.Lendvai@badw-muenchen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MeindlMartinRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="MeindlMartin">
+                        <surname>Meindl</surname>
+                        <forename>Martin</forename>
+                    </persName><affiliation>University of Freiburg, Germany</affiliation><email>martin.meindl@slavistik.uni-freiburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PolomacVladimirRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="PolomacVladimir">
+                        <surname>Polomac</surname>
+                        <forename>Vladimir</forename>
+                    </persName><affiliation>University of Kragujevac, Serbia</affiliation><email>vladimir.polomac@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RenjeElenaRABUS_Achim_Developing_a_Pipeline_for_Automatic_Linguistic_A.xml"><persName n="RenjeElena">
+                        <surname>Renje</surname>
+                        <forename>Elena</forename>
+                    </persName><affiliation>University of Freiburg, Germany</affiliation><email>elenarenje@outlook.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We report on experiments with Handwritten Text Recognition models to automatically create large pre-modern Slavic text corpora and to use these corpora without manual post-correction (as raw data and with uncorrected POS tags) for quantitative linguistic analysis (inferential statistics, stylometry); we evaluate the actual noise in the data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handwritten Text Recognition</term>
+                    <term>pre-modern Slavic</term>
+                    <term>full morphology tagging</term>
+                    <term>statistical analysis</term>
+                    <term>stylometry</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>natural language processing</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Recent advances in Handwritten Text Recognition (HTR) revolutionize access to historical sources and make mass digitization (i.e., by means of AI‐assisted automatic transcription) of large amounts of manu-scripts feasible for the first time in history. Using the arguably most widespread and advanced HTR platform Transkribus (Muehlberger et al. 2019), we trained and published HTR models for both pre‐modern East and South Slavic (also called Church Slavonic) Cyrillic sources (Rabus 2019; Polomac 2022) that are capable of transcribing manuscripts and early printings with a low character error rate (CER) of below 4% and 2%, respectively.</p>
+            <p>In our paper, we report on experiments where we use these HTR models to automatically create large pre‐modern Slavic text corpora (several millions of word tokens) and to use these corpora without man-ual post‐correction for quantitative linguistic analysis, since manually correcting large amounts of linguistically annotated data is slow and expensive, thus not always feasible. Our approach is twofold: First, we use uncorrected raw text data for applying state‐of‐the art descriptive and inferential statistical methods such as mixed‐effects logistic regression or random forest analysis. Furthermore, we experiment with stylometric approaches for the analysis of linguistic variation. Using the stylo package (Eder et al. 2016) in RStudio and particularly its Nearest Shrunken Centroids (NSC) algorithm, it was shown to be possible to pinpoint potential linguistic variables of interest in an inductive, bottom‐up manner and to uncover subtle, previously undetected differences (e.g., with respect to the frequency and distribution of function words) between two or more subcorpora of a given language (Lahjouji‐Seppälä et al. 2022). In the current paper, we apply this method to pre‐modern Slavic data for the first time. Second, we conduct full‐morphology tagging of the uncorrected raw texts using the standalone version of the stanza tagger (https://github.com/yvesscherrer/stanzatagger) and the pre‐modern Slavic model presented in</p>
+            <p>Scherrer et al. (2018) as well as lemmatization using UDPipe (https://github.com/bnosac/udpipe). As has been shown (Besters‐Dilger / Rabus 2021), the noise introduced by the uncorrected full‐morphology tagging of pre‐modern Slavic data does not prevent linguistic analysis from being conducted successfully. In our paper, we explore the challenges posed by working with linguistically annotated data in which incorrect annotation labels may origin from various analysis levels, first introduced by uncorrected HTR transcriptions and second by uncorrected full‐morphology tagging and lemmatization. We demonstrate the possibilities and limits of quantitative linguistic analysis on such data, compare the results with results obtained in a traditional (analogue and qualitative) way and show quantitative and qualitative approaches to evaluate the actual amount of noise in the data. Finally, we reflect on how the specific features of pre‐modern Slavic data (rich morphology, high amount of variation at different linguistic levels) affect our pipeline and give an outlook of how to apply the pipeline to other use cases (different historical epochs, script styles, and languages).</p>
+            <p>Our paper showcases both the opportunities of interdisciplinary and international collaboration and the important contribution by scholars from South‐Eastern Europe. It demonstrates that data from (South‐) Eastern Europe are an interesting test case for the language‐ and text‐focused Digital Humanities community and helps overcome the monolingual and English‐focused bias.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Besters‐Dilger, Juliane</author> / <author>Rabus, Achim</author> 
+                         (2021): “Neural Morphological Tagging for Slavic: Strengths and Weaknesses”, in: Scripta &amp; E
+                        ‐
+                        Scripta 21: 79–92.
+                    </bibl>
+                    <bibl>
+                        <author>Eder, Maciej</author> / <author>Rybicki, Jan</author> / <author>Kestemont, Mike</author> 
+                         (2016): “Stylometry with R: a package for computational text analysis”, in: R Journal 8, 1: 107–121 <ref target="https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf">https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf</ref> [29.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Lahjouji‐Seppälä, M. Zaidan</author> / <author>Rabus, Achim</author> / <author>von Waldenfels, Ruprecht</author> 
+                         (2022): “Ukrainian standard variants in the 20th century: stylometry to the rescue”, in: Russian Linguistics 46: 217–232. DOI: 10.1007/s11185-022-09262-9.
+                    </bibl>
+                    <bibl>
+                        <author>Muehlberger, Guenter</author> / <author>Seaward, Louise</author> / <author>Terras, Melissa</author> / <author>Ares Oliveira, Sofia</author> / <author>Bosch, Vicente</author> / <author>Bryan, Maximilian</author> / <author>Colutto, Sebastian</author> / <author>Déjean, Hervé</author> / <author>Diem, Markus</author> / <author>Fiel, Stefan</author> / <author>Gatos, Basilis</author> / <author>Greinoecker, Albert</author> / <author>Grüning, Tobias</author> / <author>Hackl, Guenter</author> / <author>Haukkovaara, Vili</author> / <author>Heyer, Gerhard</author> / <author>Hirvonen, Lauri</author> / <author>Hodel, Tobias</author> / <author>Jokinen, Matti</author> / <author>. . . Zagoris, Konstantinos</author> 
+                         (2019): “Transforming scholarship in the archives through handwritten text recognition: Transkribus as a case study”, in: Journal of Documentation 75, 5: 954–976.
+                    </bibl>
+                    <bibl>
+                        <author>Polomac, Vladimir</author>
+                         (2022): “Serbian Early Printed Books from Venice: Creating Models for Automatic Text Recognition Using Transkribus”, in: Scripta &amp; E
+                        ‐
+                        Scripta 22: 11–29.
+                    </bibl>
+                    <bibl>
+                        <author>Rabus, Achim</author>
+                         (2019): “Recognizing Handwritten Text in Slavic Manuscripts: a Neural
+                        ‐
+                        Network Approach Using Transkribus”, in: Scripta &amp; E
+                        ‐
+                        Scripta 19: 9–32.
+                    </bibl>
+                    <bibl>
+                        <author>Scherrer, Yves</author> / <author>Mocken, Susanne</author> / <author>Rabus, Achim</author> 
+                         (2018): “New Developments in Tagging Pre
+                        ‐
+                        modern Orthodox Slavic Texts”, in: Scripta &amp; E
+                        ‐
+                        Scripta 18: 9–33.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collecting Strike Data from Historical Newspapers (19th
+                        Century): A Digital Workflow </title>
+                <author n="AurichJensAURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml"><persName n="AurichJens">
+                        <surname>Aurich</surname>
+                        <forename>Jens</forename>
+                    </persName><affiliation>International Institute of Social History (IISH),
+                        Amsterdam</affiliation><email>jens.aurich@hotmail.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>I create and implement a digital workflow for the retrieval and annotation of text relevant for the study of strikes from three major collections of digitized German historical newspapers (late 19th Century).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitized Newspapers</term>
+                    <term>Article Segmentation</term>
+                    <term>Corpus Creation</term>
+                    <term>Strikes</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>image processing and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>natural language processing</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The epistemological revolution spearheaded by Digital Humanists emerges at the tail
+                end of a global wave of workers' mobilization that originated in the second half of
+                the 19th century. This historical junction begs the question, if and how the new
+                toolbox of a Digital Historian can contribute to the incipient new global history of
+                collective labor action (Linden 2012).</p>
+            <p>To that end, I create and implement a workflow for the retrieval and annotation of
+                text relevant for the study of strikes from three major collections of digitized
+                German historical newspapers. To the growing Digital History literature concerned
+                with the exploitation of large collections of digitized newspapers, this project
+                contributes a proof of concept for the suggested workflow, an in-depth quality
+                review of a selection of newspapers from three major German digital collections, a
+                re-OCR pipeline and a segmentation approach to separate news reports. To the
+                historiography of strikes in the first two decades of the German Empire, it
+                contributes a novel data resource and a first assessment of the coverage of domestic
+                labor conflicts in major newspapers.</p>
+            <div type="div1">
+                <head>Data</head>
+                <p>The core corpus consists of 42,000 daily issues (1870-1890) of six newspapers
+                    selected from the three largest collections of retrodigitized historical German
+                    newspapers for the late nineteenth century ( <hi rend="italic">DigiPress</hi>,
+                        <hi rend="italic">ZEFYS</hi> and <hi rend="italic">zeitpunkt.NRW</hi>). The
+                    selection of newspaper titles follows existing newspaper-based studies of social
+                    unrest in the 19 <hi rend="sup">th</hi> century (Tilly 1970) and includes two
+                    major interregional newspapers ( <hi rend="italic">Kölnische Zeitung</hi> and
+                        <hi rend="italic">Augsburger Allgemeine Zeitung)</hi> and four regional
+                    newspapers published in Berlin and Bavaria. Secondary data sources are existing
+                    microdata on labor conflicts in the German Empire. </p>
+            </div>
+            <div type="div1">
+                <head>Workflow</head>
+                <p><figure>
+                        <graphic url="Pictures/b24f2cc2b48055ae929428e4660520ff.png"/>
+                        <head>Figure 1: Workflow</head>
+                    </figure></p>
+                <p>The workflow consists of three steps: First, I create a subcorpus of candidate
+                    newspaper pages by identifying relevant historical keywords (Oberbichler /
+                    Pfanzelter 2021, Pfanzelter et al. 2021) in a bottom-up manner using a
+                    statistical approach (TF/IDF) (Zervanou et al. 2014) and a novel ground truth
+                    dataset of newspaper articles collected based on source references in existing
+                    quantitative sources. To increase the accuracy of the corpus, I identify false
+                    positives with a text classifier trained on a tagged set of 2000 random
+                    sentences embedded using a <hi rend="italic">FastText</hi> model (Ehrmann et al.
+                    2020) with subword features (F-score = 0.91). </p>
+                <p><figure>
+                        <graphic url="Pictures/3d9645bf2bc7e9ee8fa9592d7484a95e.png"/>
+                        <head>Figure 2: Comparing Provided OCR with Calamari-OCR</head>
+                    </figure></p>
+                <p>In a second step, I implement a re-OCR pipeline to improve the quality of the
+                    layout and text data provided by the archives using <hi rend="italic">sbb-binarize</hi>, <ref target="#AURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml_ftn1" n="1"/><hi rend="italic">Eynollah</hi><hi rend="italic"><ref target="#AURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml_ftn2" n="2"/></hi> and <hi rend="italic">Calamari-OCR</hi> (Wick et al. 2018) with
+                    pre-trained models (Figure 2). <ref target="#AURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml_ftn0" n="3"/> Evaluating the results with a dictionary-based
+                    approach (Strien et al. 2020) shows that the mean OCR quality of the entire
+                    corpus was improved by 1.2%. Unlike the only moderate improvement in character
+                    recognition, the re-OCR pipeline substantially improves the layout and reading
+                    order recognition. A review of a random sample yields a considerably reduced
+                    share of pages with omitted lines (1% compared to 15% in the provided OLR) or an
+                    incorrect reading order (15% instead of 58%). To meet the challenge of missing
+                    article segmentation, I implement a line-based classifier trained on the visual
+                    and textual features of an annotated set of 256 pages that performs well across
+                    the selected newspapers (F-score: 0.97, Figure 3). </p>
+                <p><figure>
+                        <graphic url="Pictures/cd2d3c269afd1b040d807e0034fe6b27.jpg"/>
+                        <head>Figure 3: From Regions (left) to Articles (right)</head>
+                    </figure></p>
+                <p>Ultimately, I annotate a sample of the resulting subcorpus of just shy of 21,000
+                    relevant newspaper articles using <hi rend="italic">INCEpTION</hi> (Klie et al.
+                    2018) (Figure 4). On the document level I annotate whether or not a given
+                    article is a false positive and whether it mentions a past or ongoing event of
+                    collective labor action. Relying on <hi rend="italic">INCEpTION</hi>'s built-in
+                    learning recommender systems and <hi rend="italic">SPARQL</hi> query
+                    capabilities, I annotate places and occupations mentioned in the context of a
+                    conflict event and link them to their corresponding URIs: <hi rend="italic">Wikidata</hi> for places and <hi rend="italic">HISCO </hi>for occupations
+                    (Leeuwen et al. 2002). </p>
+                <p><figure>
+                        <graphic url="Pictures/0f2cd74c4e3fe7757a3b0a18ab89056f.png"/>
+                        <head>Figure 4: Annotation in INCEpTION</head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Results for Studies of Labor Conflicts</head>
+                <p>For the years 1871-1875 I annotated the entire subcorpus of relevant articles and
+                    mapped the reports to the most comprehensive existing knowledge base of strikes
+                    in the early German Empire (Machtan 1984). Remarkably, only 10% of all the known
+                    strikes are mentioned in the selected newspapers, that exhibit a reporting bias
+                    based on event intensity as well as a sensitivity bias (Snyder / Kelly 1977) in
+                    favor of core economic sectors. These results suggest that strike data derived
+                    from the reporting of several major daily newspapers is likely to dramatically
+                    underestimate the actual number of events that took place. This provides an
+                    important benchmark for quantitative historical studies of protest and strikes
+                    and emphasizes the importance of including a broad range of smaller newspapers
+                    and other sources beyondthe common approach of relying on small selections of
+                    major newspapers. The resulting dataset of annotated strike articles provides a
+                    promising starting point for further research into the coverage of strikes by
+                    newspapers, ideally using a broader corpus including local newspapers.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="AURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml_ftn1">
+                        github.com/qurator-spk/sbb_binarization</note><note n="2" xml:id="AURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml_ftn2">
+                            github.com/qurator-spk/eynollah</note><note n="3" xml:id="AURICH_Jens_Collecting_Strike_Data_from_Historical_Newspaper.xml_ftn0"> KZT:
+                        Kölnische Zeitung, NAZ: Norddeutsche Allgemeine Zeitung, BT: Berliner
+                        Tageblatt, WS: Wendelstein, RZ: Rosenheimer Zeitung, AZ: Augsburger
+                        Allgemeine Zeitung</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ehrmann, M.</author> / <author>Romanello, M.</author> / <author>Flückiger, A.</author> / <author>Clematide, S.</author> (2020):
+                        “Extended Overview of CLEF HIPE 2020: Named Entity Processing on Historical
+                        Newspapers” in: Working Notes of CLEF 2020 – Conference and Labs of the
+                        Evaluation Forum, Thessaloniki, Greece, 2696. DOI:
+                        10.5281/zenodo.4117566.</bibl>
+                    <bibl><author>Klie, Jan-Christoph</author> / <author>Bugert, Michael</author> / <author>Boullosa, Beto</author> / <author>Eckart de Castilho, Richard</author> / <author>Gurevych, Iryna</author> (2018): “The INCEpTION Platform:
+                        Machine-Assisted and Knowledge-Oriented Interactive Annotation”, in:
+                        Proceedings of the 27th International Conference on Computational
+                        Linguistics: System Demonstrations: 5-9</bibl>
+                    <bibl><author>Leeuwen, Marco H. D van</author> / <author>Maas, Ineke</author> / <author>Miles, Andrew</author> / <author>Edvinsson, Sören</author> (2002): HISCO: historical International standard classification of
+                        occupations. Leuven: Leuven university Press.</bibl>
+                    <bibl><author>Linden, Marcel van der </author>(2012): “The Promise and Challenges of Global Labor
+                        History”, in: International Labor and Working-Class History 82:
+                        57-76.</bibl>
+                    <bibl><author>Machtan, Lothar </author>(1984): Streiks und Aussperrungen im Deutschen
+                        Kaiserreich: eine sozialgeschichtliche Dokumentation für die Jahre 1871 bis
+                        1875. Berlin: Colloquium Verlag.</bibl>
+                    <bibl><author>Oberbichler, Sarah</author> / <author>Pfanzelter, Eva</author> (2021): “Topic-Specific Corpus
+                        Building: A Step towards a Representative Newspaper Corpus on the Topic of
+                        Return Migration Using Text Mining Methods”, in: Journal of Digital History,
+                        1 https://journalofdigitalhistory.org/en/article/4yxHGiqXYRbX&gt;
+                        [01.05.2023].</bibl>
+                    <bibl><author>Pfanzelter, Eva</author> / <author>Oberbichler, Sarah</author> / <author>Marjanen, Jani</author> / <author>Langlas, Pierre-Carl</author> / <author>Hechl, Stefan</author> (2021): “Digital Interfaces of Historical
+                        Newspapers: Opportunities, Restrictions and Recommendations”, in: Journal of
+                        Data Mining &amp; Digital Humanities, 6121. DOI: 10.46298/jdmdh.6121.</bibl>
+                    <bibl><author>Snyder, David</author> / <author>Kelly, William R.</author> (1977): “Conflict Intensity, Sensitivity
+                        and the Validity of Newspaper Data”, in: American Sociological Review 42, 1:
+                        105. DOI:10.2307/2117734.</bibl>
+                    <bibl><author>Strien, Daniel van</author> / <author>Beelen, Kaspar</author> / <author>Coll Ardanuy, Mariona</author> / <author>Hosseini, Kasra</author> / <author>McGillivray, Barbara</author> / <author>Colavizza, Giovanni</author> (2020): “Assessing the
+                        Impact of OCR Quality on Downstream NLP Tasks”, Proceedings of the 12th
+                        International Conference on Agents and Artificial Intelligence: Valletta,
+                        Malta, February 22-24, 2020, 484-496. DOI: 10.5220/0009169004840496</bibl>
+                    <bibl><author>Tilly, Richard </author>(1970): “Popular Disorders in Nineteenth-Century Germany: A
+                        Preliminary Survey”, in: Journal of Social History 4, 1: 1-40.</bibl>
+                    <bibl><author>Wick, Christoph</author> / <author>Reul, Christian</author> / <author>Puppe, Frank</author> (2018): “Calamari – A
+                        High-Performance Tensorflow-based Deep Learning Package for Optical
+                        Character Recognition”, ArXiv. DOI: 10.48550/arXiv.2004.1219</bibl>
+                    <bibl><author>Zervanou, Kalliopi</author> / <author>Düring, Marten</author> / <author>Hendrickx, Iris</author> / <author>Bosch, Antal van den</author> (2014): “Documenting Social Unrest: Detecting Strikes in Historical
+                        Daily Newspapers”, in: Nadamoto, A., Jatowt, A., Wierzbicki, A., Leidner,
+                        J.L. (eds.): Social Informatics. SocInfo 2013. Lecture Notes in Computer
+                        Science, 8359. Springer, Berlin, Heidelberg.</bibl>
+
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

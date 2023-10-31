@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pandore: a toolbox for digital humanities text-based workflows </title>
+                <author n="AlrahabiMotasemALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml"><persName n="AlrahabiMotasem">
+                        <surname>Alrahabi</surname>
+                        <forename>Motasem</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>motasem.alrahabi@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FedchenkoValentinaALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml"><persName n="FedchenkoValentina">
+                        <surname>Fedchenko</surname>
+                        <forename>Valentina</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>valentina.fedchenko@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PetkovicLjudmilaALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml"><persName n="PetkovicLjudmila">
+                        <surname>Petkovic</surname>
+                        <forename>Ljudmila</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>ljudmila.petkovic@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RoeGlennALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml"><persName ref="https://orcid.org/0000-0002-5611-7916" n="RoeGlenn">
+                        <surname>Roe</surname>
+                        <forename>Glenn</forename>
+                    </persName><affiliation>Sorbonne Université, France</affiliation><email>glenn.roe@sorbonne-universite.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present Pandore, an online toolbox for pre- and post-processing of textual data. This freely accessible platform allows humanities students and researchers, with little or no prior knowledge of computer programming, to perform a series of important and recurrent tasks crucial for the editing, enrichment and mining of digital texts.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Toolbox</term>
+                    <term>OCR/HTR</term>
+                    <term>Named Entities Recognition</term>
+                    <term>Text annotation</term>
+                    <term>Mapping</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>text mining and analysis</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="underline">Abstract</hi>: We present Pandore, an online toolbox for pre- and post-processing of textual data. This freely accessible platform allows humanities students and researchers, with little or no prior knowledge of computer programming, to perform a series of important and recurrent tasks crucial for the editing, enrichment and mining of digital texts.</p>
+            <p><hi rend="underline">Keywords</hi>: Corpus, XML-TEI, OCR/HTR, Named Entities Recognition, Semantic annotation, Visualization, Graphical user interface.</p>
+            <p>Over the past few years, the need for a general-purpose text-processing pipeline for digital humanities (DH) research has become increasingly evident. Students and scholars who want to incorporate DH methods into their research practices are often faced with significant obstacles in the acquisition, enrichment and analysis of digital texts and corpora. To address these challenges, we launched a development project in early 2022 aimed at creating an online toolbox for pre- and post-processing of textual data (Cordova et al., 2022). This freely accessible platform, which we now call Pandore, allows humanities students and researchers, with little or no prior knowledge of computer programming, to perform a series of important and recurrent tasks crucial for the editing, enrichment and mining of digital texts.</p>
+            <p>Recent studies of corpus-based research practices can provide some insight on methods and challenges for open-ended text analysis tools and their user-centred evaluation (Lyding, 2022; Heuwing et al., 2016). In this context, some existing tools<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn1" n="1"/> allow entry-level users to analyse their own data, such as LancsBox the Lancaster University corpus toolbox<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn2" n="2"/> (Brezina et al., 2020); the Cortext Manager<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn3" n="3"/> (Breucker et al., 2016); the web-based CATMA<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn4" n="4"/> platform (Horstmann, 2020), etc. Our project differs from these existing projects in several ways: first, Pandore proposes a unified and modular online environment covering the essential pre- and post-processing functionalities needed to capture, structure and enrich digital corpora for later analysis; second, as an open-source project, new functionalities can be easily incorporated either locally or via the DH community; and finally, the tool will be maintained and updated as a core component of our teaching and research activities (Alrahabi et al., 2022). In addition, the low barrier of entry for end users with little or no programming experience, makes it accessible to a large range of researchers, teachers and students across the arts and humanities disciplinary landscape.</p>
+            <p>Some of Pandore’s tools have been developed in-house by the team, while others incorporate open-source and freely available codebases. In both cases, we have created new Python scripts to facilitate the use of these tools through an online graphical interface<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn5" n="5"/>. Users can upload texts and choose the text-processing workflow most relevant to their research or teaching questions. Currently, Pandore includes the follow tools:</p>
+            <list type="unordered">
+                <item>Extract texts from the Wikisource website<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn6" n="6"/>: the user can specify the URLs of texts to be harvested, or create a random corpus. It is possible to adjust the size of the corpus to be collected or a percentage of the text to be extracted from a given source.</item>
+                <item>OCR / HTR of documents via Kraken<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn7" n="7"/> or Tesseract<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn8" n="8"/>. The Tesseract tool is available via the Pandore interface, while Kraken can currently only be accessed <hi rend="italic">via </hi>the Google Colab scripts<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn9" n="9"/> documented in our GitHub repository (with the possibility of running them either through the Pandore interface or the local instance of an interface eScriptorium<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn10" n="10"/> in the future).</item>
+                <item>Post-OCR / HTR correction (JamSpell<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn11" n="11"/>): multilingual contextual spell checking and correcting library, based on 3-gram language models.</item>
+                <item>Conversion of files (.txt or .odt) to a TEI-XML format.</item>
+                <item>Named-entity recognition in TEI-XML files, with SpaCy<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn12" n="12"/> or Flair<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn13" n="13"/>.</item>
+                <item>Text annotation via Textolab rule-based tool<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn14" n="14"/>.</item>
+                <item>Geolocation and mapping of place names in texts (Tanagra<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn15" n="15"/>), visualisation of character networks in novels (Minerva<ref target="#ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn16" n="16"/>).</item>
+            </list>
+            <p>We aim to incorporate new features and methods, such as the adaptation of an existing sequence alignment tool; the standardisation of French orthography in historical texts from the 16th to the 19th centuries; and the generation of vectorized word-embeddings using current NLP work on large language models. We also aim to create detailed documentation in the form of video capsules and tutorials that can be used in teaching.</p>
+            <p>In addition to the current web interface, we would like to offer the capacity for advanced users to execute and save workflows offline. This is particularly relevant given the current physical limitations for processing large amounts of data directly online, by transforming its current codebase into a suite of libraries executable offline.</p>
+            <p>Pandore aims to facilitate new practices in, and practice-led reflection on, the application of digital methods to existing humanistic textual sources, demonstrating both the effectiveness of such methods and, at the same time, their limitations. This type of development therefore contributes to the current interdisciplinary dialogue between researchers in Natural Language Processing and the Digital Humanities, opening up a space for knowledge exchange on the role of digital technologies in text-based arts and humanities disciplines.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn1">
+                     See, for example, the various DH tool portals available online: <ref target="https://tapor.ca/home">https://tapor.ca/home</ref>; <ref target="http://multital.inalco.fr/">http://multital.inalco.fr</ref>; <ref target="https://www.ortolang.fr/market/tools">https://www.ortolang.fr/market/tools</ref>, etc.
+                </note><note n="2" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn2">
+                    <ref target="http://corpora.lancs.ac.uk/lancsbox/index.php">http://corpora.lancs.ac.uk/lancsbox/index.php</ref>
+                </note><note n="3" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn3">
+                    <hi rend="underline">https://docs.cortext.net/</hi>
+                </note><note n="4" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn4">
+                    <hi rend="underline">https://catma.de/</hi>
+                </note><note n="5" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn5">
+                    <hi rend="underline">https://obtic.sorbonne-universite.fr/developpement/toolbox/</hi>
+                </note><note n="6" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn6">
+                        <ref target="https://wikisource.org/">https://wikisource.org/</ref>
+                    </note><note n="7" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn7">
+                        <ref target="https://kraken.re/master/index.html">https://kraken.re/master/index.html</ref>
+                    </note><note n="8" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn8">
+                        <ref target="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</ref>
+                    </note><note n="9" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn9">
+                        <ref target="https://colab.research.google.com/github/obtic-scai/Toolbox/blob/dev/OCR/kraken/Kraken_LP.ipynb">https://colab.research.google.com/github/obtic-scai/Toolbox/blob/dev/OCR/kraken/Kraken_LP.ipynb</ref>
+                    </note><note n="10" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn10">
+                        <ref target="https://gitlab.com/scripta/escriptorium/-/wikis/full-install">https://gitlab.com/scripta/escriptorium/</ref>
+                    </note><note n="11" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn11">
+                        <ref target="https://github.com/bakwc/JamSpell">https://github.com/bakwc/JamSpell</ref>
+                    </note><note n="12" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn12">
+                        <ref target="https://spacy.io/">https://spacy.io/</ref>
+                    </note><note n="13" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn13">
+                        <ref target="https://github.com/flairNLP/flair">https://github.com/flairNLP/flair</ref>
+                    </note><note n="14" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn14">
+                        <ref target="https://github.com/obtic-scai/Textolab/tree/dev">https://github.com/obtic-scai/Textolab/tree/dev</ref>
+                    </note><note n="15" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn15">
+                        <ref target="https://obtic.sorbonne-universite.fr/tanagra/map">https://obtic.sorbonne-universite.fr/tanagra/map</ref>
+                    </note><note n="16" xml:id="ALRAHABI_Motasem_Pandore__a_toolbox_for_digital_humanities_t.xml_ftn16">
+                        <hi rend="underline">https://github.com/obtic-scai/Toolbox/tree/dev/Fouille</hi>
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Alrahabi, M.</author> / <author>Roe, G.</author> / <author>Koskas, Bordry, C.</author> / <author>Bordry, M.</author> / <author>J. Gawley</author>  (2022): Enjeux de l’enseignement des Humanités numériques pour les étudiants en littérature: une expérience de classe, in: 
+                        <hi rend="italic"> Revue Humanités numériques,</hi>
+                         5. 
+                        <ref target="https://journals.openedition.org/revuehn/2775">https://journals.openedition.org/revuehn/2775</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Cordova, J. M.</author> / <author>Dupont, Y.</author> / <author>Petkovic, L.</author> / <author>Gawley, J.</author> / <author>Alrahabi, M.</author> / <author>Roe, G.</author>  (2022): Toolbox: une chaîne de traitement de corpus pour les humanités numériques (Toolbox: a corpus processing pipeline for digital humanities).
+                        <hi rend="italic"> Actes de la 29e Conférence sur le Traitement Automatique des Langues Naturelles. Volume 3: Démonstrations</hi>
+                        , pp. 12-14. 
+                        <ref target="https://hal.archives-ouvertes.fr/hal-03701464">https://hal.archives-ouvertes.fr/hal-03701464</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Heuwing, B.</author> / <author>Mandl, T.</author> / <author>Womser-Hacker, C.</author>  (2016):
+                         Methods for user-centered design and evaluation of text analysis tools in a digital history project. In:
+                        <hi rend="italic"> Proceedings of the 79th ASIS&amp;T Annual Meeting: Creating Knowledge, Enhancing Lives through Information &amp; Technology. American Society for Information Science, pp. 1-10.</hi>
+                    </bibl>
+                    <bibl>
+                        <author>Horstmann, J.</author> (2020): Undogmatic Literary Annotation with CATMA. In: Nantke, J., Schlupkothen, F. (eds.).
+                        <hi rend="italic">Annotations in Scholarly Editions and Research: Functions, Differentiation, Systematization</hi>
+                        , Berlin, Boston: De Gruyter, pp. 157-176. 
+                        <ref target="https://doi.org/10.1515/9783110689112-008">https://doi.org/10.1515/9783110689112-008</ref>
+                        .
+                    </bibl>
+                    <bibl><author>Lyding, V.</author> (2022): Open demands for corpus analysis tools - a user-centered study. Dissertation. Friedrich-Alexander-Universität Erlangen-Nürnberg.
+                        <ref target="https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/18590">https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/18590</ref>
+                        .
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

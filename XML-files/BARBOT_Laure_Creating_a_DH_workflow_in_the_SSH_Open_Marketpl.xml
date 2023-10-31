@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Creating a DH workflow in the SSH Open Marketplace</title>
+                <author n="BarbotLaureBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-6008-7959" n="BarbotLaure">
+                        <surname>Barbot</surname>
+                        <forename>Laure</forename>
+                    </persName><affiliation>DARIAH</affiliation><email>laure.barbot@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BattanerMoroElenaBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-5521-6445" n="BattanerMoroElena">
+                        <surname>Battaner Moro</surname>
+                        <forename>Elena</forename>
+                    </persName><affiliation>Universidad Rey Juan Carlos</affiliation><email>elena.battaner@urjc.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BuddenbohmStefanBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-3469-6101" n="BuddenbohmStefan">
+                        <surname>Buddenbohm</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>Göttingen State and University Library</affiliation><email>buddenbohm@sub.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ConcordiaCesareBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0001-9394-6257" n="ConcordiaCesare">
+                        <surname>Concordia</surname>
+                        <forename>Cesare</forename>
+                    </persName><affiliation>CNR-ISTI</affiliation><email>cesare.concordia@isti.cnr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DolinarMajaBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-8307-6486" n="DolinarMaja">
+                        <surname>Dolinar</surname>
+                        <forename>Maja</forename>
+                    </persName><affiliation>ADP</affiliation><email>Maja.Dolinar@fdv.uni-lj.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="uroMatejBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-5274-8278" n="uroMatej">
+                        <surname>Ďurčo</surname>
+                        <forename>Matej</forename>
+                    </persName><affiliation>ACDH-CH</affiliation><email>Matej.Durco@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrayEdwardBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-5201-1014" n="GrayEdward">
+                        <surname>Gray</surname>
+                        <forename>Edward</forename>
+                    </persName><affiliation>DARIAH</affiliation><email>edward.gray@dariah.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrisotCristinaBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0003-0684-4442" n="GrisotCristina">
+                        <surname>Grisot</surname>
+                        <forename>Cristina</forename>
+                    </persName><affiliation>University of Zurich; DaSCH</affiliation><email>cristina.grisot@dasch.swiss</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="IllmayerKlausBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0001-7253-996X" n="IllmayerKlaus">
+                        <surname>Illmayer</surname>
+                        <forename>Klaus</forename>
+                    </persName><affiliation>ACDH-CH</affiliation><email>klaus.illmayer@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KirnbauerMartinBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName n="KirnbauerMartin">
+                        <surname>Kirnbauer</surname>
+                        <forename>Martin</forename>
+                    </persName><affiliation>ACDH-CH</affiliation><email>Martin.Kirnbauer@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KleemolaMariBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0001-8855-5075" n="KleemolaMari">
+                        <surname>Kleemola</surname>
+                        <forename>Mari</forename>
+                    </persName><affiliation>FSD; CESSDA</affiliation><email>mari.kleemola@tuni.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KnigAlexanderBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-8540-2396" n="KnigAlexander">
+                        <surname>König</surname>
+                        <forename>Alexander</forename>
+                    </persName><affiliation>CLARIN</affiliation><email>alex@clarin.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KurzmeierMichaelBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0003-4925-5197" n="KurzmeierMichael">
+                        <surname>Kurzmeier</surname>
+                        <forename>Michael</forename>
+                    </persName><affiliation>University College Cork</affiliation><email>mkurzmeier@ucc.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="McGillivrayBarbaraBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0003-3426-8200" n="McGillivrayBarbara">
+                        <surname>McGillivray</surname>
+                        <forename>Barbara</forename>
+                    </persName><affiliation>King's College London</affiliation><email>barbara.mcgillivray@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ParenteBoavidaClaraBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-4837-6395" n="ParenteBoavidaClara">
+                        <surname>Parente Boavida</surname>
+                        <forename>Clara</forename>
+                    </persName><affiliation>Iscte-Instituto Universitário de Lisboa</affiliation><email>clara.boavida@iscte-iul.pt</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchusterChristianBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0002-5851-5643" n="SchusterChristian">
+                        <surname>Schuster</surname>
+                        <forename>Christian</forename>
+                    </persName><affiliation>Babeș-Bolyai University Cluj-Napoca</affiliation><email>email.christian.schuster@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VipavcBrvarIrenaBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0001-6068-0210" n="VipavcBrvarIrena">
+                        <surname>Vipavc Brvar</surname>
+                        <forename>Irena</forename>
+                    </persName><affiliation>ADP; CESSDA</affiliation><email>Irena.Vipavc@fdv.uni-lj.si</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WnukMagdalenaBARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml"><persName ref="https://orcid.org/0000-0003-4129-6664" n="WnukMagdalena">
+                        <surname>Wnuk</surname>
+                        <forename>Magdalena</forename>
+                    </persName><affiliation>Institute of Literary Research of the Polish Academy of Sciences</affiliation><email>magwnuk@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This workshop aims at supporting researchers interested in creating a workflow in the SSH Open Marketplace, to share best practices methods with the community. Selected participants will be supported by the members of the Editorial Board of this discovery portal to write and document their research scenarios.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>workflow</term>
+                    <term>catalogue</term>
+                    <term>EOSC</term>
+                    <term>Research Infrastructures</term>
+                    <term>digital methods</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>sustainable procedures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literacy</term>
+                    <term>composition</term>
+                    <term>and creative writing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The Social Sciences and Humanities Open Marketplace (SSH Open Marketplace) - 
+                <ref target="https://marketplace.sshopencloud.eu/https:/marketplace.sshopencloud.eu/">marketplace.sshopencloud.eu</ref> - is a discovery portal which pools and contextualises resources for Social Sciences and Humanities (SSH) research communities: tools, services, training materials, datasets, publications and workflows. A key asset of the SSH Open Marketplace is the contextualisation of the items in the catalogue, namely the relations created between the catalogues’ items to foster serendipity in the search. Resources can also be presented in research workflows, where a step-by-step approach is followed and resources are associated to each stage of the work to describe a specific methodology
+                <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn1" n="1"/>.
+            </p>
+            <p>This workshop aims at supporting researchers interested in creating a workflow in the SSH Open Marketplace in order to promote and enable the sharing of methodologies and best practices. Also called 
+                <hi rend="italic">research scenario</hi>, a Marketplace workflow is defined as a “sequence of steps performed on research data during their lifecycle. Workflows can be achieved by using diverse tools and facilities, and useful resources are connected to each step.”
+                <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn2" n="2"/> Three main reasons for creating a workflow can be highlighted: 
+            </p>
+            <list type="unordered">
+                <item>to reflect on the methodologies in a research project and contribute to fostering best practices in a given community.</item>
+                <item>to get peer review, trigger feedback and gain visibility.</item>
+                <item>to share methodical aspects of a project in another form than the usual blog or article (so a new way to disseminate research work).</item>
+            </list>
+            <div type="div1">
+                <head>The SSH Open Marketplace in context</head>
+                <p>Initiated in the Digital Humanities (DH) context, inspired by the DiRT directory (Dombrowski 2014), TAPoR
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn3" n="3"/> or the Standardization Survival Kit (Riondet et al. 
+                    2018) and aggregating their data for its initial population, the SSH Open Marketplace was built as part of the SSHOC project
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn4" n="4"/>. Acting as a thematic entry door into the European Open Science Cloud (EOSC)
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn5" n="5"/>, this discovery service is now funded and maintained by three European Research Infrastructure Consortia (ERIC) - DARIAH
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn6" n="6"/>, CLARIN
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn7" n="7"/> and CESSDA
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn8" n="8"/> - as part of the SSH Open Cluster. The collaboration between the SSH Open Marketplace stakeholders (funders, providers, moderators or contributors) ensures that the cataloguing and contextualising efforts are meaningful for DH researchers.   
+                </p>
+                <p>Based on the idea that registries and catalogues should be community driven and taking into consideration the experiences of similar projects as described with the notion of the “directory paradox” (Dombrowski 2021), the SSH Open Marketplace counts on its Editorial Board, composed of 17 members, to ensure the day-to-day maintenance and the data quality of the SSH Open Marketplace. Liaising with the service providers and the end users of the service (SSH researchers and support staff for researchers), the Editorial Board ensures the technical running of operation and the effectiveness of the curation process in line with the editorial guidelines. </p>
+                <p>This workshop is organised by the SSH Open Marketplace Editorial Board
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn9" n="9"/> and will be animated by Laure Barbot, Klaus Illmayer, Barbara Mc Gillivray, Alexander König and Michael Kurzmeier. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Workshop call for participation</head>
+                <p>The SSH Open Marketplace is designed so that the content can be collectively improved by the research community. This workshop is an opportunity for the DH conference participants to create (or improve existing) workflows of the SSH Open Marketplace.</p>
+                <p>15 to 20 participants will be selected by the Editorial Board to attend this workshop. The selection process will be based on a call for participation to be issued mid-April 2023. Participants will be welcome to submit a group proposal to create common workflows but individual proposals are also possible. Workshop proposals will have to include either a workflow topic (ideally not already covered by the existing workflows in the SSH Open Marketplace), or a list of resources based on which a workflow could be created. The SSH Open Marketplace Editorial Board will act as the workshop's Program Committee to review and select the proposals. Three bursaries to support travel costs to the DH Conference of the participants submitting the best proposals will be awarded as part of the selection process. </p>
+            </div>
+            <div type="div1">
+                <head>Workshop programme</head>
+                <p>The SSH Open Marketplace workshop is intended to last half a day (i.e. 3 hours without the breaks). The programme is as follows: </p>
+                <list type="unordered">
+                    <item>General introduction to the SSH Open Marketplace - 30 minutes </item>
+                    <item>How to create a workflow in the SSH Open Marketplace? - 30 minutes </item>
+                    <item>Hands-on: create your workflow - 1h30  </item>
+                    <item>Discussion and feedback - 30 minutes</item>
+                </list>
+                <p>At the end of the event, participants will not only have created a workflow but will also have a better understanding of the collective curation challenges and the institutional framework needed to run such a discovery service. </p>
+                <p>During the first hour of the workshop, the introduction will set the scene of the service, explaining the rationale and intended audience, as well as involved stakeholders in terms of governance and maintenance. On the other hand it will explain the active usage of the catalogue, i.e. how to log in, and how to create metadata for individual entries in the SSH Open Marketplace, especially the workflows. This will allow participants to fully grasp the philosophy behind the workflows, what they are meant to do and how to conceive them
+                    <ref target="#BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn10" n="10"/>.   
+                </p>
+                <p>The central part of the workshop will consist of a hands-on session during which participants will be invited to create their own workflow in the SSH Open Marketplace. After refining the exact topic and perimeter of the workflow, participants will be supported by the workshop organisers to write, describe and document each step of the workflow, to associate the relevant metadata and identify the best resources to add. Finally, the last 30 minutes of the workshop will be kept to identify the most important questions to ask when creating a workflow, and possible limitations that participants experienced during their work. Although the aim is to finalise the participants’ workflows during the workshop, the Editorial Board will be available to provide support afterwards if one or more participants need it.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn1">
+                     See the list of workflows already available in the SSH Open Marketplace: 
+                        <ref target="https://marketplace.sshopencloud.eu/search?categories=workflow&amp;order=label">https://marketplace.sshopencloud.eu/search?categories=workflow&amp;order=label</ref>
+                </note><note n="2" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn2">
+                    <ref target="https://marketplace.sshopencloud.eu/about/data-population#workflows">https://marketplace.sshopencloud.eu/about/data-population#workflows</ref>
+                </note><note n="3" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn3">
+                        TAPoR 3: <ref target="https://tapor.ca/">https://tapor.ca/</ref>. The Text Analysis Portal for Research is a project led by Geoffrey Rockwell and Milena Radzikowska.
+                    </note><note n="4" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn4">
+                        See <ref target="https://cordis.europa.eu/project/id/823782">https://cordis.europa.eu/project/id/823782</ref>
+                    </note><note n="5" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn5">
+                         See 
+                            <ref target="https://eosc.eu/about-eosc">https://eosc.eu/about-eosc</ref>
+                    </note><note n="6" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn6">
+                        The Digital Research Infrastructure for the Arts and Humanities: <ref target="https://www.dariah.eu">https://www.dariah.eu</ref>
+                    </note><note n="7" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn7">
+                        The Common Language Resources and Technology Infrastructure: <ref target="https://www.clarin.eu">https://www.clarin.eu</ref>
+                    </note><note n="8" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn8">
+                        The Consortium of European Social Science Data Archives: <ref target="https://www.cessda.eu">https://www.cessda.eu</ref>
+                    </note><note n="9" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn9">
+                         See 
+                            <ref target="https://marketplace.sshopencloud.eu/about/team">https://marketplace.sshopencloud.eu/about/team</ref>
+                    </note><note n="10" xml:id="BARBOT_Laure_Creating_a_DH_workflow_in_the_SSH_Open_Marketpl.xml_ftn10">
+                        To conduct this part of the workshop, the following materials will be updated and adapted to fit the half-day and in-person format of the DH Conference workshops’ requirements: Laure Barbot, Edward J. Gray, &amp; Klaus Illmayer. (2022, March 22). The SSH Open Marketplace: Workflow Curation Sprint. Zenodo. <ref target="https://doi.org/10.5281/zenodo.6375078">https://doi.org/10.5281/zenodo.6375078</ref> and How to create a workflow in the SSH Open Marketplace? Retrieved Oct 31, 2022 from<ref target="https://marketplace.sshopencloud.eu/workflow/hmGpmv">https://marketplace.sshopencloud.eu/workflow/hmGpmv</ref>
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dombrowski, Quinn</author> (2021): ‘The Directory Paradox’, in 
+                        <hi rend="italic">People, Practice, Power</hi>, ed. by Anne McGrail, Angel David Nieves, and Siobhan Senier, Digital Humanities Outside the Center (University of Minnesota Press), pp. 83–98 
+                    </bibl>
+                    <bibl>
+                        <author>Dombrowski, Quinn</author> (2014): ‘What Ever Happened to Project Bamboo?’, 
+                        <hi rend="italic">Literary and Linguistic Computing</hi>, 29.3, 326–39
+                        <ref target="https://doi.org/10.1093/llc/fqu026">https://doi.org/10.1093/llc/fqu026</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Riondet, Charles</author> / <author>Romary, Laurent</author> (2018), ‘The Standardization Survival Kit: For a Wider Use of Metadata Standards within Arts and Humanities’, 
+                        <hi rend="italic">Archives et Bibliothèques de Belgique - Archief- En Bibliotheekwezen in België</hi>, 106, 55
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

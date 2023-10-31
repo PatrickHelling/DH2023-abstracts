@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>AudiAnnotate Workshop with Radio Venceremos, Rebel Radio Station and
+                    SpokenWeb: Using IIIF with AV to Build Editions and Exhibits.</title>
+                <author n="ClementTanyaCLEMENT_Tanya_AudiAnnotate_Workshop_with_Radio_Venceremos__R.xml"><persName n="ClementTanya">
+                        <surname>Clement</surname>
+                        <forename>Tanya</forename>
+                    </persName><affiliation>University of Texas, United States of America</affiliation><email>tclement@utexas.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BursztajnIllingworthZoeCLEMENT_Tanya_AudiAnnotate_Workshop_with_Radio_Venceremos__R.xml"><persName n="BursztajnIllingworthZoe">
+                        <surname>Bursztajn-Illingworth</surname>
+                        <forename>Zoe</forename>
+                    </persName><affiliation>University of Texas, United States of America</affiliation><email>zbi@utexas.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WintermeierTrentCLEMENT_Tanya_AudiAnnotate_Workshop_with_Radio_Venceremos__R.xml"><persName n="WintermeierTrent">
+                        <surname>Wintermeier</surname>
+                        <forename>Trent</forename>
+                    </persName><affiliation>University of Texas, United States of America</affiliation><email>trentwintermeier@utexas.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BurrowsVeraCLEMENT_Tanya_AudiAnnotate_Workshop_with_Radio_Venceremos__R.xml"><persName n="BurrowsVera">
+                        <surname>Burrows</surname>
+                        <forename>Vera</forename>
+                    </persName><affiliation>University of Texas, United States of America</affiliation><email>Ververapatricia@utexas.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This workshop will help participants make audio, video, and its interpretations more discoverable and usable through the use of the IIIF (International Image Interoperability Framework) standard for audio and video to produce, publish, and sustain W3C Web Annotations for individual and collaborative audiovisual editions, exhibits, and playlists. The workshop format will include introductions to IIIF, AudiAnnotate, Audacity, and GitHub using model, collaborative AudiAnnotate projects called the "SpokenWeb Anthology," made from recordings from the SpokenWeb Consortium and “Radio Venceremos, the Rebel’s Radio Station," which features recordings from Radio Venceremos (“Radio We Will Overcome”), a popular, clandestine radio station that the Farabundo Martí National Liberation Front (FMLN) created to broadcast news and analysis from the mountains of Morazán, El Salvador during the eleven year Salvadoran Civil War (1981-1992).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Pre-Conference Workshop and Tutorial</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sound Studies</term>
+                    <term>Media Studies</term>
+                    <term>Archives</term>
+                    <term>Latin American Studies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>music and sound digitization</term>
+                    <term>encoding</term>
+                    <term>and analysis</term>
+                    <term>open access methods</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Chicano/a/x</term>
+                    <term>Latino/a/x studies</term>
+                    <term>Cultural studies</term>
+                    <term>Library &amp; information science</term>
+                    <term>Media studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>This AudiAnnotate half-day workshop will help
+                    participants make audio, video, and their interpretations more discoverable and
+                    usable by teaching them to extend the use of the newest IIIF (International
+                    Image Interoperability Framework) standard for audio and video through the
+                    AudiAnnotate web application and documented workflows. These workflows include
+                    the use of existing best-of-breed, open-source tools for annotation (Audacity),
+                    for public code and document repositories and collaboration (GitHub), and audio
+                    and video presentation (the Aviary player) to produce, publish, and sustain
+                    shareable W3C Web Annotations for individual and collaborative audiovisual
+                    editions, exhibits, and playlists. </p>
+                <p>In recent years, increased concern over media
+                        degradation and obsolescence combined with the decreasing cost of digital
+                        storage has led libraries, archives, and museums (LAMs) to digitize
+                        audiovisual (AV) materials for improved access and long-term preservation.
+                        Yet, improving preservation and access must go far beyond digitization. AV
+                        collections often include lectures, panels, and speeches; performances such
+                        as story-telling, oral histories, and poetry or dance performances; and
+                        other documentary AV historical artifacts. Yet, even while they are
+                        sometimes the only record of an event or an aural, visual, or performance
+                        tradition, AV digital artifacts remain underused and understudied. The fact
+                        that digital AV collections are not well- represented in our national and
+                        international digital platforms, such as Europeana and the Digital Public
+                        Library of America (DPLA), demonstrates complicated factors surrounding how
+                        LAM institutions manage and facilitate access to digital surrogates. As of
+                        July 2020, Europeana comprised 55% images and 42% text objects, but only 1%
+                        sound objects and .5% video objects (Europeana). DPLA included 67% images
+                        and 32% text, with less than 1% sound objects, and moving image objects
+                        (Digital Public Library of America). The goal of the AudiAnnotate project is
+                        to accelerate access to, promote scholarship and teaching with, and extend
+                        understanding of significant digital AV collections in the humanities. </p>
+                <p>Annotating is only one of a list of scholarly methods
+                        including discovering, comparing, referring, sampling, illustrating, and
+                        representing (Unsworth 2000). IIIF (International Image Interoperability
+                        Framework) is one standardized solution that LAMs have adopted to give users
+                        the ability to perform these primitives with images held in cultural
+                        heritage institutions. Comprising 56 global members including major research
+                        universities, national libraries, and world-renowned museums, archives,
+                        software companies, and other organizations, the IIIF Consortium has worked
+                        together since Fall 2011 to create, test, refine, implement, and promote the
+                        IIIF specifications for interoperable functionality and collaboration across
+                        repositories. IIIF uses linked data and W3C web standards to facilitate
+                        sharing digital image data, migrating across technology systems, and using
+                        third-party software to enhance access to images, allowing for viewing,
+                        zooming, comparing, manipulating, and working with annotated images on the
+                        Web. With IIIF, users can reference images linked from LAMs into software
+                        that allows them to manipulate the images in new ways without impacting the
+                        institution’s presentation of the item. </p>
+                <p>As of June 2020, the IIIF-AV Technical Specification
+                        Group has extended the existing IIIF Presentation API (version 3) to
+                        accommodate rendering AV in a web browser. The AV group is actively
+                        welcoming contributions to their collection of AV user stories, mockups, and
+                        prototypes in order to make sure IIIF-AV is used by a broad audience. While
+                        IIIF has shared use cases for different kinds of AV manifests, including for
+                        album covers, oral histories, multi-track recordings, and AV with sign
+                        language, tools for exposing and playing these manifests are still under
+                        development. Freely available, Universal Viewer displays annotations as
+                        captions on AV materials, but the annotations cannot be used to navigate the
+                        object or be shown separately from the AV object, a necessity for
+                        oft-restricted AV materials.</p>
+                <p>The AudiAnnotate project builds on these IIIF
+                        accomplishments, addressing the gaps in engaging with AV by developing a
+                        solution to bring together free AV annotation tools and the Web as a
+                        standardized collaboration and presentation platform. </p>
+                <p>In response to the need for a workflow that supports
+                        IIIF manifest creation, collaborative editing, flexible modes of
+                        presentation, and permissions control, the AudiAnnotate extensible workflow
+                        connects open source tools for annotation (such as Audacity), public code
+                        and document repositories (GitHub), and the AudiAnnotate web application for
+                        creating and sharing IIIF manifests and annotations. Usually limited by
+                        proprietary software and LAM systems with restricted access to AV,
+                        researchers can use AudiAnnotate as a complete sequence of tools and
+                        transformations for accessing, identifying, annotating, and sharing
+                        annotations. LAMs will benefit from AudiAnnotate as it facilitates metadata
+                        generation, is built on W3C web standards in IIIF for sharing online
+                        scholarship, and generates static web pages that are lightweight and easy to
+                        preserve and harvest. Audiannotate represents a new kind of AV ecosystem
+                        where the exchange is opened between institutional repositories, annotation
+                        software, online repositories and publication platforms, and
+                        researchers. </p>
+                <p>The workshop format will include introductions to
+                        IIIF, AudiAnnotate, Audacity, and GitHub using two model AudiAnnotate
+                        projects across languages, Spanish and English, and disciplines, History and
+                        Literature. The first project, “Radio Venceremos, the Rebel’s Radio
+                        Station,” features recordings from Radio Venceremos (“Radio We Will
+                        Overcome”), a popular, clandestine radio station that the Farabundo
+                        MartíNational Liberation Front (FMLN) created to broadcast news and
+                        analysis from the mountains of Morazán, El Salvador during the eleven year
+                        Salvadoran Civil War (1981-1992). The recordings, which contain significant
+                        voices on human rights violations during an era of social revolution in
+                        Central America, are currently archived at the Nettie Lee Benson Latin
+                        American Collection at the University of Texas in Austin. The second
+                        project– “The SpokenWeb Digital Anthology”--serves as a collaborative use
+                        case for AudiAnnotate, bringing together multiple projects and contributors;
+                        it was also edited using the digital annotation software, Hypothes.is. “The
+                        SpokenWeb Digital Anthology” is a digital edition curates and contextualizes
+                        audio and video recordings of literary events from archives at Canadian
+                        universities that have cooperated to digitize and make accessible these
+                        recordings through the SpokenWeb consortium, a SSHRC funded digital
+                        humanities project to promote the use of literary a/v artifacts in
+                        scholarship.</p>
+                <p>Workshop participants will be invited to learn how we created “Radio Venceremos, the Rebel’s Radio Station,” a scholarly exhibit led by PhD candidate Vera Burrows, and “The SpokenWeb Digital Anthology,” a collaborative digital edition edited by Postdoctoral Fellow, Dr. Zoe Bursztajn-Illingworth; they will also hear from a contributing writer, Trent Wintermeier, about the essay, “Annotating a Duality of Spaces in Muriel Rukeyser’s <hi rend="italic">The Speed of Darkness</hi>,” and annotated SpokenWeb recording he contributed
+                        to the project. The workshop participants will also hear about AudiAnnotate
+                        partner and SSHRC-funded SpokenWeb, a collaborative effort to promote
+                        diverse engagement with audiovisual materials through the support of these
+                        projects. This will include an overview of SpokenWeb’s public collections,
+                        ongoing research, and future events. </p>
+                <p>Participants are encouraged to build their own AV
+                        exhibits or editions either with the Radio Venceremos collection, audio from
+                        SpokenWeb, or with other collections of their interest. </p>
+                <p>We invite AV and DH experts and beginners to
+                    participate. No experience or equipment beyond a laptop and an interest in AV is
+                    needed. During the workshop, participants will be encouraged to work with any
+                    audiovisual collection in any language that is freely available online. </p>
+            </div>
+            <div>
+                <head>Brief half-day workshop agenda</head>
+                <list type="ordered">
+                    <item>Introduction to AudiAnnotate, IIIF, and sample
+                            projects including the “Radio Venceremos, the Rebel’s Radio Station”
+                            project and “The SpokenWeb Digital Anthology” </item>
+                    <item>Hands-on training in creating annotations and setting up collaborative
+                        workflows using GitHub and AudiAnnotate </item>
+                    <item>Break out sessions to guide participants on
+                            starting their own projects and exhibits. </item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Digital Public Library of America</author>:
+                        <ref target="https://dp.la/">https://dp.la/</ref> [21.04.2023].</bibl>
+                    <bibl>
+                        <hi rend="bold">Europeana</hi>: <ref target="https://www.europeana.eu/en">https://www.europeana.eu/en</ref>
+                            [21.04.2023]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Unsworth, John</hi> (2000): “ Scholarly Primitives:
+                            What methods do humanities researchers have in common, and how might our
+                            tools reflect this”, in: Symposium on Humanities Computing: Formal
+                            Methods, Experimental Practice 13: King’s College, London:
+                            <ref target="https://people.brandeis.edu/~unsworth/Kings.5-00/primitives.html">https://people.brandeis.edu/~unsworth/Kings.5-00/primitives.html</ref>
+                            [21.04.2023].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Europeana</hi>: <ref target="https://www.europeana.eu/en">https://www.europeana.eu/en</ref>
+                            [21.04.2023]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Creating user profiles based on citizen scientists' engagement patterns</title>
+                <author n="VanGalenCoenVAN_OORT_Thunnis_Creating_user_profiles_based_on_citizen_sci.xml"><persName n="VanGalenCoen">
+                        <surname>Van Galen</surname>
+                        <forename>Coen</forename>
+                    </persName><affiliation>Radboud University, Netherlands, The</affiliation><email>coen.vangalen@ru.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="vanOortThunnisVAN_OORT_Thunnis_Creating_user_profiles_based_on_citizen_sci.xml"><persName ref="https://orcid.org/0000-0001-8912-0508" n="vanOortThunnis">
+                        <surname>van Oort</surname>
+                        <forename>Thunnis</forename>
+                    </persName><affiliation>Radboud University, Netherlands, The</affiliation><email>thunnisvanoort@yahoo.co.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PratsLpezMontserratVAN_OORT_Thunnis_Creating_user_profiles_based_on_citizen_sci.xml"><persName ref="https://orcid.org/0000-0003-2234-4069" n="PratsLpezMontserrat">
+                        <surname>Prats López</surname>
+                        <forename>Montserrat</forename>
+                    </persName><affiliation>Open Universiteit, The Netherlands</affiliation><email>montserrat.pratslopez@ou.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WesselGanzevoortVAN_OORT_Thunnis_Creating_user_profiles_based_on_citizen_sci.xml"><persName ref="https://orcid.org/0000-0002-1421-9893" n="WesselGanzevoort">
+                        <surname>Wessel</surname>
+                        <forename>Ganzevoort</forename>
+                    </persName><affiliation>Radboud University, Netherlands, The</affiliation><email>wessel.ganzevoort@ru.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MouritsRickVAN_OORT_Thunnis_Creating_user_profiles_based_on_citizen_sci.xml"><persName ref="https://orcid.org/0000-0002-2267-1679" n="MouritsRick">
+                        <surname>Mourits</surname>
+                        <forename>Rick</forename>
+                    </persName><affiliation>International Institute of Social History, the Netherlands</affiliation><email>rick.mourits@iisg.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Citizen science is becoming a common tool to index historical records. We use cluster analysis on the engagement of participants in the ‘Historical Database Suriname and Curaçao’ citizen science project to build user profiles. These engagement patterns can be used to enhance and sustain participation of citizens.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Citizen science</term>
+                    <term>user profiles</term>
+                    <term>societal engagement</term>
+                    <term>multidisciplinarity</term>
+                    <term>colonial history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>crowdsourcing</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>History</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Crowdsourcing is increasingly being used in scientific research projects of different disciplines and hence often referred to as crowd science or online citizen science. This new way of conducting research entails the online participation of citizens in research projects usually initiated by professional scientists. Capturing the interest of citizens to participate in a citizen science project and keeping them engaged for the duration of a (sometimes lengthy) project are important and challenging activities for project organizers (West &amp; Pateman, 2016). </p>
+            <p>The citizen science literature provides recommendations for recruitment and engagement strategies and the most important one is to take into account the different motivations of citizen participants and use engagement strategies accordingly (West &amp; Pateman, 2016; Ponciano &amp; Brasilerio, 2014). However, we argue that knowing why people decide to participate is not enough to design effective engagement strategies. Recent research proposes to focus on citizen scientists’ online behaviours or actions (Ponciano &amp; Brasileiro, 2014; Jackson et al., 2016; Aristeidou et al., 2017). An examination of the patterns of actual participants’ behaviour can be used to distinguish between various ways of engaging in a project (De Moor et al., 2019). Knowledge about engagement patterns based on citizen scientists’ behaviour is a valuable input for project coordinators to improve citizens’ experience and continued involvement in a project (Aristeidou et al., 2017). </p>
+            <p>To study these engagement patterns we work as a multidisciplinary team, bringing together expertise from various domains including history and information sciences. The aim of our research is to identify different types of engagement in an online humanities project, assess the differences and similarities with research carried out in other disciplines and provide recommendations for project coordinators. To this purpose, we work within the citizen science project ‘Historical Database Suriname and Curaçao’ that includes over 650 participants (
+                <ref target="https://hdsc.ning.com/">https://hdsc.ning.com/</ref>; van Galen, 2019). The objective of this citizen science project is to create a database of the population of Suriname and Curaçao from the years 1830 to 1950, by digitizing and transcribing civil registers and death certificates. This database will be open access available for both scientists and the public in general, to facilitate genealogical research, the study of social processes and diversity in colonial society as well as the repercussions of slavery over multiple generations. 
+            </p>
+            <p>For our analyses of participant engagement, we use the log data of the first 5 months of this citizen science project. These data indicate when (pseudonymized) users performed transcription tasks or posted messages on the forum. Based on the log data, we calculated for each user the number of entries, the number of sessions (defined as a series of uninterrupted entries or with a gap smaller than 60 minutes), the number of entry days and the active period per user. These data were in turn used to measure users’ activity ratio and variation in periodicity (Aristeidou et al., 2017). The log data do not provide information on the duration of a task, therefore, task duration is approximated with the timestamps between finished tasks. To measure the daily devoted time (Ponciano &amp; Brasileiro, 2014), the session duration per day was used and missing information filled in with the average task duration across all users. This set of indices per user were the basis to distinguish clusters (k-means) of users.</p>
+            <p>The log data and the measures described above allows us to discern patterns of how users engage with the tasks, forming a basis to create user profiles. For instance, we have identified a group of users who perform tasks regularly throughout a period (“regulars”) versus users that show sudden bursts of activity (“sprinters”); or users that are active on the forum but less active in transcribing (and the other way around) – suggesting user types with different kinds of gratification derived from their activity as citizen scientists . </p>
+            <p>To help us interpret the meaning of the various user profiles, we will have in-depth interviews with a sample of users (and former users). Both the results of the analysis of the empirical log data combined with the coded interviews will provide a better understanding of how to differentiate between various types of online citizen scientists, each with their own patterns of engagement, allowing project leaders to tailor efforts to recruit, motivate and engage participants, and provide a better experience.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Aristeidou, M.</author> / <author>Scanlon, E.</author> / <author>Sharples, M.</author>  (2017) : “Profiles of engagement in online communities of citizen science participation“, Computers in Human Behavior, 74, 246-256
+                    </bibl>
+                    <bibl>
+                        <author>De Moor, T</author> / <author>et al.</author>  (2019): “Dynamics of Engagement in Citizen Science: Results from the “Yes, I do!”-Project“, 
+                        <hi rend="italic">Citizen Science: Theory and Practice</hi>, 4, 1: 1–17. DOI: https://doi.org/10.5334/cstp.212
+                    </bibl>
+                    <bibl>
+                        <author>Jackson, C. B.</author> / <author>Østerlund, C.</author> / <author>Maidel, V.</author> / <author>Crowston, K.</author> / <author>Mugar, G.</author>  (2016): “Which Way Did They Go?: Newcomer Movement through the Zooniverse“, 
+                        <hi rend="italic">Proceedings of the 19th CSCW Conference</hi>, San Francisco, California, USA.
+                    </bibl>
+                    <bibl>
+                        <author>Ponciano, L.</author> / <author>Brasileiro, F.</author>  (2014): “Finding Volunteers’ Engagement Profiles in Human Computation for Citizen Science Projects“, 
+                        <hi rend="italic">Human Computation</hi>, 1, 2: 247-266.
+                    </bibl>
+                    <bibl>
+                        <author>Van Galen, C. W.</author> (2019): “Creating an audience: Experiences from the Surinamese slave registers crowdsourcing project“, 
+                        <hi rend="italic">Historical Methods: A Journal of Quantitative and Interdisciplinary History</hi>, 52, 3: 178-194, DOI: 10.1080/01615440.2019.1590268
+                    </bibl>
+                    <bibl>
+                        <author>West, S.</author> / <author>Pateman, R.</author>  (2016): “Recruiting and Retaining Participants in Citizen Science: What Can Be Learned from the Volunteering Literature?“, 
+                        <hi rend="italic">Citizen Science: Theory and Practice, 1</hi>, 2: 15.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

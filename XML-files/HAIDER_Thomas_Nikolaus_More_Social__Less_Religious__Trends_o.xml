@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>More Social, Less Religious: Trends of Hardcover Fiction Titles on the New
+                    York Times Bestseller List 2000-2020</title>
+                <author n="BeiderWiedenGesaHAIDER_Thomas_Nikolaus_More_Social__Less_Religious__Trends_o.xml"><persName n="BeiderWiedenGesa">
+                        <surname>Bei der Wieden</surname>
+                        <forename>Gesa</forename>
+                    </persName><affiliation>University of Göttingen, Germany</affiliation><email>g.beiderwieden@stud.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BathurstTaylorHAIDER_Thomas_Nikolaus_More_Social__Less_Religious__Trends_o.xml"><persName n="BathurstTaylor">
+                        <surname>Bathurst</surname>
+                        <forename>Taylor</forename>
+                    </persName><affiliation>University of Göttingen, Germany</affiliation><email>taylor.bathurst@stud.uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HaiderThomasNikolausHAIDER_Thomas_Nikolaus_More_Social__Less_Religious__Trends_o.xml"><persName n="HaiderThomasNikolaus">
+                        <surname>Haider</surname>
+                        <forename>Thomas Nikolaus</forename>
+                    </persName><affiliation>University of Göttingen, Germany; Max Planck Institute for
+                        Empirical Aesthetics, Frankfurt</affiliation><email>thomas.haider@uni-goettingen.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We examine changes in book titles of the New York Times Bestseller hardcover fiction lists from 2000 to 2020 regarding thematic, grammatical, and psychological categories. We find that social categories (including personal pronouns) have been increasingly used, while religiously connotated titles have been declining.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>book titles</term>
+                    <term>bestsellers</term>
+                    <term>trend analysis</term>
+                    <term>cultural analytics</term>
+                    <term>liwc</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>cultural analytics</term>
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>Communication studies</term>
+                    <term>Cultural studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Abstract</head>
+                <p>We examine changes in book titles of the New York Times
+                    Bestseller hardcover fiction lists from 2000 to 2020 regarding thematic,
+                    grammatical, and psychological categories. We find that social categories
+                    (including personal pronouns) have been increasingly used, while religiously
+                    connotated titles have been declining.</p>
+            </div>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>The title -– “half sign, half ad” (Moretti 2009) -–
+                        is a reader’s entry point to a novel. Research on how people select books in
+                        online library catalogs underlines that title names play an important role
+                        in attracting readers (Mikkonen and Vakkari, 2016; Pöntinen and Vakkari,
+                        2013). Readers select books with titles that appeal to their personal life
+                        experiences (Mikkonen and Vakkari, 2016), such as through references to
+                        gossip, morality, pleasures, and mental processes (Barnes / Black 2022).
+                        However, while studies on the aesthetics (and success of) books typically do
+                        not discuss titles (Ashok et al., 2013; Yucesoy et al., 2018; Wang et al.,
+                        2019), research on fiction titles focuses on historical corpora (Patras et
+                        al., 2021; Moretti, 2009; Benard, 1995), or on other domains, such as a
+                        corpus of news headlines (Oberländer et al., 2020). Several studies on
+                        titles of scientific articles also exist (cf. Cheng et al., 2012; Sahragard
+                        and Meihami, 2016; Hartley, 2007).</p>
+                <p>When analyzing titles, we should consider which
+                        functions they fulfill, and which cultural significance they bear. According
+                        to Genette (1998), a title carries the following functions: a) identifying
+                        the text (of a book), b) describing its content, c) holding connotative
+                        value, and d) attracting readers. Studying British novels between 1740 and
+                        1850, Moretti (2009) highlighted the relationship between the length,
+                        syntax, and semantics of titles and changes in the economic and cultural
+                        environment. He found that with a significantly growing book market, titles
+                        became much shorter, and also that titles from the beginning of the
+                        nineteenth-century reflect nineteenth-century ethics. Thus, titling
+                        practices follow the book market, but also presumably the cultural and
+                        aesthetic preferences of readers.</p>
+            </div>
+            <div type="div1">
+                <head>Corpus</head>
+                <p>To study the trends in titling practices, we compiled a corpus of all titles that have been on the New York Times (NYT) bestseller list for hardcover fiction, between 2000 and 2020, which is based on sales data from all over the United States (New York Times Best-Seller Lists Staff, 2020). For any given year, a title is included if it entered the list in that year, regardless of how long it stayed. Although the online published list carries more information (weekly rankings), we start with a dataset from <hi rend="italic">data.world</hi> that already includes yearly lists from February 2011 until June 2018 (cf. Tauberg, 2018), and augment it through manual collection to cover the years from 2000 to 2020. We also constrain the data to hardcover fiction, albeit the NYT publishes genre-specific rankings as well. We leave a more fine-grained analysis to future work. Overall, we retrieve over 4000 titles in total. See Table 1 for exact numbers of titles and tokens per year. The data can be found at https://github.com/tnhaider/nyt-fiction-bestseller-list</p>
+                <figure>
+                    <graphic n="1001" width="5.418677777777778cm" height="10.795022222222222cm" url="Pictures/f363a4870e8311256d0f5496c6dc6751.png" rend="inline"/>
+                    <head>Table 1: Number of titles and tokens per year.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Experiments</head>
+                <p>To measure the change in titling practices, we use
+                        the Linguistic Inquiry and Word Count (LIWC) (Pennebaker et al. 2015), a
+                        dictionary that maps words to grammatical, psychological, and thematic
+                        categories. We treat each year as a bag-of-words, for which we extract all
+                        associated categories via the python package<hi rend="italic">liwc</hi> (Brown, 2012). We then calculate the relative frequency of each category for a given year. We also calculate the length of titles and count unigram frequencies (excluding a set of stopwords). </p>
+                <p>Based on the relative category frequencies per year
+                        for each category, we estimate their trend by calculating Spearman rho with
+                        the year range. This shows us whether, and how strongly, the trend for a
+                        category increases or decreases. Furthermore, the p-value shows us whether
+                        the trend is significant or not. We choose p=0.05 as the threshold. See
+                        Table 2 for the significant categories.</p>
+                <figure>
+                    <graphic n="1002" width="16.001269444444443cm" height="7.117291666666667cm" url="Pictures/ab292b23fe2f218608f751450a025d50.png" rend="inline"/>
+                    <head>Table 2: Result of Trend Analysis with Spearman rho
+                        on LIWC categories. Numbers rounded to four (five) decimal places.</head>
+                </figure>
+                <p>Our analysis shows that titles of bestselling fiction
+                        books increasingly contain features that previous research has shown to be
+                        appealing to readers. People like titles alluding to mental processes and
+                        gossip (Barnes / Black 2022). Topic modelling on the contents of bestselling
+                        books has shown that human closeness and human connection are topics that
+                        are characteristic of bestsellers (Archer and Jockers, 2016: 67).
+                        Furthermore, people like titles they can relate personal experiences with
+                        (Mikkonen and Vakkari, 2016).</p>
+                <p>We have found increases in mentions of family terms (presumably relatable for most). Generally speaking, social categories dominate the significant upward trends in our data (personal pronouns, family, social processes), meaning that words related to social categories like <hi rend="italic">people</hi>, <hi rend="italic">talk</hi> and<hi rend="italic">we</hi>, are relatively more present in later years (Figure 1), rising from a relative share of 5% of all tokens in 2000 to a share of 11% in 2019. Close reading of titles referring to social categories indicates that this increase is attributable to interpersonal matters (e.g., romance, coming of age), rather than social issues, particularly seen in titles containing the pronouns <hi rend="italic">we</hi> and<hi rend="italic"> you</hi>.</p>
+                <p>Besides social categories, our results show that words
+                    describing cognitive processes (particularly those expressing certainty) and
+                    terms referring to spoken categories (assent and fillers) increased over the
+                    years.</p>
+                <figure>
+                    <graphic n="1003" width="8.281458333333333cm" height="6.211094444444444cm" url="Pictures/aed29778fcb19e3376edcc93e404fc88.png" rend="inline"/>
+                    <head>Figure 1: Trend for rising categories ‘social
+                        processes’, ‘personal pronouns’ and ‘family’.</head>
+                </figure>
+                <p>However, the share of religious terms has decreased significantly since 2000 (apart from a sudden peak in 2008) (Figure 2). A majority of years feature <hi rend="italic">christmas</hi> titles, and especially in the earlier years (e.g., 2008) there are additionally a number of references to e.g., devils and angels, but frequently in a metaphorical sense without clear religious content, rather alluding to <hi rend="italic">good</hi> and <hi rend="italic">evil</hi>, or a specific attitude (as in the James Bond novel <hi rend="italic">Devil may care</hi>, or<hi rend="italic">Seducing an Angel</hi>by Mary Balogh). Furthermore, research on American
+                        religiosity declining (Voas and Chaves, 2018) may help contextualize the
+                        decrease of terms referring to religion.</p>
+                <figure>
+                    <graphic n="1004" width="8.281458333333333cm" height="6.211094444444444cm" url="Pictures/26c683f5cab419ef7995d8c003d345f6.png" rend="inline"/>
+                    <head>Figure 2: Trend for falling category ‘religion’.</head>
+                </figure>
+                <p>Finally, our method focused on trend analysis, but we did not study terms (or categories) that have remained popular in detail. An analysis of the most frequent words over the years reveals that the words <hi rend="italic">girl(s)</hi> and <hi rend="italic">death</hi> have maintained a high share, similar to Haider (2019), where it is shown that these topics have stayed frequent in German poetry since 1600. However, this could be a genre effect here, since mystery and thriller books are among the bestselling fiction genres (Yucesoy et al., 2018). Furthermore, since other research found changes in the length of titles (Moretti, 2009; Tauberg, 2019), we examined the length of titles, as shown in Figure 3, finding no substantial change, where most titles are between two and three words long.</p>
+                <figure>
+                    <graphic n="1005" width="8.537222222222223cm" height="6.402916666666667cm" url="Pictures/0f3a5f288ee1cdae7f0afe26efab9fab.png" rend="inline"/>
+                    <head>Figure 3: Violin plot depicting the distribution of
+                        title lengths per year. The width corresponds to the estimated density of
+                        data points. Averages indicated in orange, medians in blue.</head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Conclusion &amp; Future Work</head>
+                <p>Our analysis highlights trends in psychological,
+                        thematic, and structural features of bestselling fiction titles. We have
+                        shown that titles containing words related to social and cognitive
+                        categories have been increasingly adopted over the last two decades.
+                        However, references to religious terms have been on the decline, and that
+                        many religious references are regarding metaphorical uses of moral
+                        categories (good, evil).</p>
+                <p>Future research might want to expand the dataset
+                        (weekly lists, or expanding the time frame), to study finer trends.
+                        Furthermore, studying syntactic features and group-based differences
+                        (bestselling vs. non-bestselling titles, genres) could yield interesting
+                        results. Finally, identifying confounds was beyond the scope of this paper,
+                        for example whether (and how much) the length of titles has an influence on
+                        certain trends (e.g., social titles becoming longer).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Archer, Jodie</author> / <author>Jockers, Matthew L.</author> 
+                         (2016): 
+                        <hi rend="italic">The Bestseller Code. Anatomy of the
+                            Blockbuster Novel</hi>
+                        . New York: St. Martin's Press.
+                    </bibl>
+                    <bibl>
+                        <author>Ashok, Vikas G.</author> / <author>Feng, Song</author> / <author>Choi, Yejin</author> 
+                         (2013): "Success with Style: Using Writing Style to Predict the Success of Novels", in: Association for Computational Linguistics (ed
+                        <hi rend="italic">.): Proceedings of the 2013
+                            Conference on Empirical Methods in Natural Language Processing</hi>
+                        , Seattle, 2013: 1753–1764.
+                    </bibl>
+                    <bibl>
+                        <author>Barnes, Jennifer L.</author> / <author>Black, Jessica E.</author> 
+                         (2022): "What’s in a name? Book title salience and the psychology of fiction", in: 
+                        <hi rend="italic">Psychology of Aesthetics,
+                            Creativity, and the Arts</hi>
+                         16, 2: 290-300.
+                    </bibl>
+                    <bibl>
+                        <author>Benard, Michel</author>
+                         (1995): "Àjuste titre: a Lexicometric Approach to the Study of Titles", in
+                        <hi rend="italic">: Literary and Linguistic
+                            Computing</hi>
+                         10, 2: 135-141.
+                    </bibl>
+                    <bibl>
+                        <author>Brown, Christopher</author>
+                         (2012): 
+                        <hi rend="italic">Linguistic Inquiry and Word Count
+                            (LIWC) analyzer</hi>
+                        . Python package
+                            <ref target="https://github.com/chbrown/liwc-python">https://github.com/chbrown/liwc-python</ref> [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Cheng, Stephanie W.</author> / <author>Kuo, Chih-Wei</author> / <author>Kuo, Chih-Hua</author> 
+                         (2012): "Research article titles in applied linguistics", in: 
+                        <hi rend="italic">Journal of Academic Language and
+                            Learning</hi>
+                         6, 1: A1-A14.
+                    </bibl>
+                    <bibl>
+                        <author>Genette, Gérard</author>
+                         (1988): "Structure and Functions of the Title in Literature" (Trans.: Crampé, Bernard), in: 
+                        <hi rend="italic">Critical Inquiry</hi>
+                         14, 4: 692-720.
+                    </bibl>
+                    <bibl>
+                        <author>Haider, Thomas</author>
+                         (2019): "Diachronic Topics in New High German Poetry", in: Alliance of Digital Humanities Organizations (ed.): 
+                        <hi rend="italic">Proceedings of the Digital
+                            Humanities Conference 2019</hi>
+                        , Utrecht, 2019: arXiv:1909.11189.
+                    </bibl>
+                    <bibl>
+                        <author>Hartley, James</author>
+                         (2007): "Planning that title: Practices and preferences for titles with colons in academic articles", in: 
+                        <hi rend="italic">Library &amp; Information Science
+                            Research</hi>
+                         29, 4: 553-568.
+                    </bibl>
+                    <bibl>
+                        <author>Mikkonen, Anna</author> / <author>Vakkari, Pertti</author> 
+                         (2016): "Readers’ interest criteria in fiction book search in library catalogs", in: 
+                        <hi rend="italic">Journal of Documentation</hi>
+                         72, 4: 696-715.
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, Franco</author>
+                         (2009): "Style, Inc. Reflections on Seven Thousand Titles (British Novels, 1740–1850)", in: 
+                        <hi rend="italic">Critical Inquiry</hi>
+                         36, 1: 134-158.
+                    </bibl>
+                    <bibl>
+                        <author>New York Times Best-Seller Lists
+                            Staff</author>
+                         (2000-2020): "Hardcover Fiction", in: 
+                        <hi rend="italic">The New York Times Book Review</hi>
+                        https://www.nytimes.com/books/best-sellers/hardcover-fiction/
+                            [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Oberländer, Laura A. M.</author> / <author>Kim, Evgeny</author> / <author>Klinger, Roman</author> 
+                         (2020): "GoodNewsEveryone: A Corpus of News Headlines Annotated with Emotions, Semantic Roles, and Reader Perception", in: European Language Resources Association (ed.): 
+                        <hi rend="italic">Proceedings of the Twelfth Language
+                            Resources and Evaluation Conference</hi>
+                        , Marseille, 2020: 1554–1566.
+                    </bibl>
+                    <bibl>
+                        <author>Patras, Roxana</author> / <author>Odebrecht, Carolin</author> / <author>Galleron, Ioana</author> / <author>Arias, Rosario</author> / <author>Herrmann, Berenike J.</author> / <author>Krstev, Cvetana</author> / <author>Poniz, Katja M.</author> / <author>Yesypenko, Dmytro</author> 
+                         (2021): "Thresholds to the 'Great Unread': Titling Practices in Eleven ELTeC Collections", in
+                        <hi rend="italic">: Interférences
+                            littéraires/Literaire interferenties</hi>
+                         25: 163-187.
+                    </bibl>
+                    <bibl>
+                        <author>Pennebaker, James W.</author> / <author>Boyd, Ryan L.</author> / <author>Jordan, Kayla</author> / <author>Blackburn, Kate</author> 
+                         (2015): 
+                        <hi rend="italic">The development and psychometric
+                            properties of LIWC2015</hi>
+                        . Austin: University of Texas.
+                    </bibl>
+                    <bibl>
+                        <author>Pöntinen, Janna</author> / <author>Vakkari, Pertti</author> 
+                         (2013): "Selecting Fiction in Library Catalogs: A Gaze Tracking Study", in: 
+                        <hi rend="italic">International Conference on Theory
+                            and Practice of Digital Libraries</hi>
+                        , Valletta, 2013: 72-83.
+                    </bibl>
+                    <bibl>
+                        <author>Sahragard, Rahman</author> / <author>Meihami, Hussein</author> 
+                         (2016): "A diachronic study on the information provided by the research titles of applied linguistics journals", in: 
+                        <hi rend="italic">Scientometrics</hi>
+                         108: 1315–1331.
+                    </bibl>
+                    <bibl>
+                        <author>Tauberg, Michael</author>
+                         (2018): "New York Times Bestsellers from 2011 to 2018", in
+                        <hi rend="italic">: data.world</hi>
+                        .
+                            <ref target="https://data.world/typhon/new-york-times-bestsellers-from-2011-to-2018">https://data.world/typhon/new-york-times-bestsellers-from-2011-to-2018</ref>
+                            [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Tauberg, Michael</author>
+                         (2019): "Are Book Titles Getting Longer?", in: 
+                        <hi rend="italic">Towards Data Science</hi>
+                        .
+                            <ref target="https://towardsdatascience.com/book-titles-are-getting-longer-1c341fbd4829">https://towardsdatascience.com/book-titles-are-getting-longer-1c341fbd4829</ref>
+                            [04.05.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Voas, David</author> / <author>Chaves, Mark</author> 
+                         (2018): "Even intense religiosity is declining in the United States: Comment", in: 
+                        <hi rend="italic">Sociological Science</hi>
+                         5: 694-710.
+                    </bibl>
+                    <bibl>
+                        <author>Wang, Xindi</author> / <author>Yucesoy, Burcu</author> / <author>Varol, Onur</author> / <author>Eliassi-Rad, Tina</author> / <author>Barabasi, Albert-László</author> 
+                         (2019): "Success in books: predicting book sales before publication", in: 
+                        <hi rend="italic">EPJ Data Science</hi>
+                         8: 1-20.
+                    </bibl>
+                    <bibl>
+                        <author>Yucesoy, Burcu</author> / <author>Wang, Xindi</author> / <author>Huang, Junming</author> / <author>Barabási, Albert-László</author> 
+                         (2018): "Success in books: a big data approach to bestsellers", in: 
+                        <hi rend="italic">EPJ Data Science</hi>
+                         7: 1-25.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

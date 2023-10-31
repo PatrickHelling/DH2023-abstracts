@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Let Everything be of Use?: Data Issues in Exploring the Publications and Networks of the Members of the Fruitbearing Society in the VD17</title>
+                <author n="AzizifardNargesLINDQUIST_Thea_Let_Everything_be_of_Use___Data_Issues_in_Exp.xml"><persName ref="https://orcid.org/0000-0002-7525-4561" n="AzizifardNarges">
+                        <surname>Azizifard</surname>
+                        <forename>Narges</forename>
+                    </persName><affiliation>University of Helsinki, Finland</affiliation><email>narges.azizifard@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JanickiMaciejLINDQUIST_Thea_Let_Everything_be_of_Use___Data_Issues_in_Exp.xml"><persName n="JanickiMaciej">
+                        <surname>Janicki</surname>
+                        <forename>Maciej</forename>
+                    </persName><affiliation>University of Helsinki, Finland</affiliation><email>maciej.janicki@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LindquistTheaLINDQUIST_Thea_Let_Everything_be_of_Use___Data_Issues_in_Exp.xml"><persName ref="https://orcid.org/0000-0002-5657-1043" n="LindquistThea">
+                        <surname>Lindquist</surname>
+                        <forename>Thea</forename>
+                    </persName><affiliation>University of Colorado Boulder, United States of America</affiliation><email>thea.lindquist@colorado.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MkelEetuLINDQUIST_Thea_Let_Everything_be_of_Use___Data_Issues_in_Exp.xml"><persName n="MkelEetu">
+                        <surname>Mäkelä</surname>
+                        <forename>Eetu</forename>
+                    </persName><affiliation>University of Helsinki, Finland</affiliation><email>eetu.makela@helsinki.fi</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RadioErikLINDQUIST_Thea_Let_Everything_be_of_Use___Data_Issues_in_Exp.xml"><persName ref="https://orcid.org/0000-0003-0734-1978" n="RadioErik">
+                        <surname>Radio</surname>
+                        <forename>Erik</forename>
+                    </persName><affiliation>University of Colorado Boulder, United States of America</affiliation><email>erik.radio@colorado.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution presents work in progress analyzing the publications and networks of members of the Fruitbearing Society (Fruchtbringende Gesellschaft), the largest and most influential cultural society in early modern central Europe (1617-1680). Our data is drawn mainly from the VD17, the German retrospective national bibliography for the 17th century.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Fruitbearing Society</term>
+                    <term>early modern</term>
+                    <term>bibliographic data</term>
+                    <term>VD17</term>
+                    <term>academies</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>Book and print history</term>
+                    <term>Humanities computing</term>
+                    <term>Central/Eastern European Studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This contribution presents our work in progress on the publications and networks of members of the Fruchtbringende Gesellschaft, or Fruitbearing Society. Although the Society was the largest and most influential academy or cultural society in early modern central Europe (1617–1680) (Ball 2008; Ball et al. 2017), currently no quantitative analysis of the Society members’ publishing process and output exists. Our project aims to address this gap, mainly drawing on bibliographical data in the VD17, the German retrospective national bibliography for the 17th century, to answer our research questions. Through this presentation, we hope to stimulate discussion among scholars interested in working with bibliographic data, early modern academies and societies, and European book, publishing, and cultural history more generally.</p>
+            <p>In this presentation, we will discuss the significance of the Society and our project, as well as the technical solutions we are applying to address specific issues in the data set for our research purposes (Fabian 2021). We will briefly introduce the Society, the importance of publications as a means of advancing its two major aims – the cultivation of virtue, and the development and promotion of the German language – and our international team project. Then we will discuss the research questions that we aim to address in this first phase of the project, the limitations of the VD17 data, and the technical approaches we are using to address them. Finally, we conclude with our in-process attempts to address these challenging issues through technical means and will present the preliminary results of our analysis based on bibliographic data science methods for the first time (Lahti et al. 2019).</p>
+            <p>Our research questions serve as the guideposts for our inquiries. At this stage, we are focusing on those related to the volume and content of member publications and how they changed over time. We are interested, for instance, in whether the data bears out the assertion that the Society became less focused on the second, linguistic-literary goal of its agenda in the later phases of its existence (Ball 2008: 415–416; Herz 2018: 93). This contribution further explores a specific aspect of the data related to this goal, that is, the genres in which members published, as an indication of alignment with the Society’s major aims. </p>
+            <p>We have encountered several main technical obstacles to using the VD17 to answer these questions. First, the VD17, as a specialized rare books catalog, distinguishes strictly between imprints, with each variant cataloged as a separate record. For our purposes, however, we often need to count publications at the edition or work level. Thus, we are developing methods to map these more granular records to their respective editions and works. Second, given our focus on Society members, a key part of our work is identifying the publications linked to members in the VD17. </p>
+            <p>As a first step in this process, we extracted member data from the Fruitbearing Society Membership Database. This data contains unique identifiers for about two-thirds of the members in the form of GNDs (Gemeinsame Normdatei, the German National Library’s database of authority records), which are also linked in the VD17. Unfortunately, one-third of the members did not have a GND, though we were able to supplement them to an extent; and not all personal names in the VD17 use the standardized form. In order to identify members in the non-normed data, we are investigating ways to map the variant forms of members’ names appearing in the records to the accepted name form in the authority record, for instance from “Georgius Philippus Harsdoerfferus” to “Georg Philipp Harsdörffer”. One promising strategy is to use an unsupervised approach to the discovery of morphological rules based on the complete list of names in the VD17 authority file (Janicki 2019).</p>
+            <p>In conclusion, we will present the preliminary results of our analyses thus far based on the member and VD17 publication data that we have supplemented and refined using these techniques. Our presentation will include figures and visualizations representing the absolute and proportional volume of Society-related member publishing output overall and by genre, along with interesting sidebars on the challenges encountered in working with retrospective bibliographic data as research data.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ball, Gabriele</author>
+                         (2008): “Alles Zu Nutzen – The Fruchtbringende Gesellschaft (1617–1680) as a German Renaissance Academy”, in: Dixhoorn, Arjan van / Such, Susie Speakman (eds.): 
+                        <hi rend="italic">The Reach of the Republic of Letters: Literary and Learned Societies in Late Medieval and Early Modern Europe</hi>
+                        . Leiden; Boston: Brill  389–422. DOI: 10.1163/ej.9789004169555.i-522.87.
+                    </bibl>
+                    <bibl>
+                        <author>Ball, Gabriele</author> / <author>Conermann, Klaus</author> / <author>Herz, Andreas</author> / <author>Schmidt-Glintzer, Helwig</author> 
+                         (2017): 
+                        <hi rend="italic">Fruchtbringende Gesellschaft (1617–1680). Hundert Jahre nach der Reformation. Forschungen der Arbeitsstelle der Sächsischen Akademie der Wissenschaften an der Herzog August Bibliothek</hi>
+                        . Wiesbaden: Harrassowitz.
+                    </bibl>
+                    <bibl>
+                        <author>Burrows, Simon</author> / <author>Nurmikko-Fuller, Terhi</author> 
+                         (2020): “Charting Cultural History through Historical Bibliometric Research”, in: Schuster, Kristen / Dunn, Stuart (eds.): 
+                        <hi rend="italic">Routledge International Handbook of Research Methods in Digital Humanities</hi>
+                        . London: Routledge 109–24. DOI:  10.4324/9780429777028-9.
+                    </bibl>
+                    <bibl>
+                        <author>Fabian, Claudia</author>
+                         (2021): “Retrospektive Nationalbibliographische Erschließungsdaten als Forschungsdaten. Überlegungen zur Zukunftsbedeutung der ‘Verzeichnisse der im deutschen Sprachraum erschienenen Drucke’”, in: 
+                        <hi rend="italic">Bibliothekswesen und Bibliographie</hi>
+                         68, 2: 72–82. DOI: 10.3196/186429502068210.
+                    </bibl>
+                    <bibl>
+                        <author>Fruchtbringende Gesellschaft: Die deutsche Akademie des 17. Jahrhunderts</author>
+                        : “Mitgliderdatenbank der Fruchtbringenden Gesellschaft” <ref target="http://www.die-fruchtbringende-gesellschaft.de/index.php?article_id=15&amp;wWidth=1920&amp;wHeight=938">http://www.die-fruchtbringende-gesellschaft.de/index.php?article_id=15&amp;wWidth=1920&amp;wHeight=938</ref> [28.04.2023].
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Herz, Andreas</author>
+                         (2018): “‘Edle Ritter dieser Zunft’. Beobachtungen zur soziertären Performanz der Fruchtbringenden Gesellschaft”, in: Sittig, Claudius / Wieland, Christian (eds.): 
+                        <hi rend="italic">Die “Kunst des Adels” in der Frühen Neuzeit</hi>
+                        . Wiesbaden: Harrassowitz 91–126.
+                    </bibl>
+                    <bibl>
+                        <author>Janicki, Maciej</author>
+                        (2019): “Finite State Transducer Calculus for Whole Word Morphology”, in: Association for Computational Linguistics (ed.): 
+                        <hi rend="italic">Proceedings of the 14th International Conference on Finite-State Methods and Natural Language Processing</hi>
+                        , Dresden, Germany, 2019: 37–45. DOI: 10.18653/v1/W19-3107.
+                    </bibl>
+                    <bibl>
+                        <author>Lahti, Leo</author> / <author>Marjanen, Jani</author> / <author>Roivainen, Hege</author> / <author>Tolonen, Mikko</author> 
+                         (2019): “Bibliographic Data Science and the History of the Book (c. 1500–1800)”, in: 
+                        <hi rend="italic">Cataloging &amp; Classification Quarterly</hi>
+                         57, 1: 5–23. DOI: 10.1080/01639374.2018.1543747.
+                    </bibl>
+                    <bibl>
+                        “
+                        <author>VD17</author>
+                        : Das Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts” <ref target="http://www.vd17.de/">http://www.vd17.de/</ref> [01.05.2023].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

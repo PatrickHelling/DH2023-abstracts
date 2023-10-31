@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>(Re)Visual(izing) Archive Southeastern Europe: A data model and interface redesign</title>
+                <author n="GalkaSelinaSCHOLGER_Martina__Re_Visual_izing__Archive_Southeastern_Euro.xml"><persName ref="https://orcid.org/0000-0003-4476-315X" n="GalkaSelina">
+                        <surname>Galka</surname>
+                        <forename>Selina</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>selina.galka@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SagadinSuzanaSCHOLGER_Martina__Re_Visual_izing__Archive_Southeastern_Euro.xml"><persName n="SagadinSuzana">
+                        <surname>Sagadin</surname>
+                        <forename>Suzana</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>suzana.sagadin@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ScholgerMartinaSCHOLGER_Martina__Re_Visual_izing__Archive_Southeastern_Euro.xml"><persName ref="https://orcid.org/0000-0003-1438-3236" n="ScholgerMartina">
+                        <surname>Scholger</surname>
+                        <forename>Martina</forename>
+                    </persName><affiliation>University of Graz, Austria</affiliation><email>martina.scholger@uni-graz.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The Visual Archive Southeastern Europe (VASE), established in 2012, collects historical and contemporary visual material from Southeastern Europe and currently comprises four collections. The article presents the comprehensive redesign of VASE, which affects both the interface and the underlying data model.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Southeastern Europe</term>
+                    <term>visual material</term>
+                    <term>archive</term>
+                    <term>interface</term>
+                    <term>data model</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>data modeling</term>
+                    <term>digital archiving</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Central/Eastern European Studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Since 2000, the University of Graz has been placing a strategic focus on South Eastern European Studies. As one of the activities of this research focus, the <hi rend="italic">Visual Archive Southeastern Europe </hi>(VASE 2012-2023) – which collects historical and contemporary visual material from Southeastern Europe – was launched in 2012 as a collaboration of the Centre for Southeastern European Studies and the Centre for Information Modeling (ZIM) at the University of Graz.</p>
+            <p>The contribution presents the comprehensive revisualization of VASE, which affects both the interface and the underlying data model. The project has been running since May 2022, is implemented by the ZIM and funded by the Center for the Study of Balkan Societies and Cultures and the Institute for Habsburg and Balkan Studies at the Austrian Academy of Sciences.</p>
+            <p>By providing access to different types of images – e.g., photographs, postcards, posters, and newspaper clippings – VASE aims to draw special attention to the image as a primary source of historical anthropological research (Derler 2020). Thus, it complements the predominantly text-based research and promotes the reflection on (self-)images of Southeastern Europe both in the academic community and in society in general.</p>
+            <p>VASE currently comprises four collections: The first project – <hi rend="italic">Visualizing Family, Gender Relations and the Body. The Balkans approx. 1860-1950 </hi>– was launched in 2012 and led by the late Karl Kaser. Over the following years, the archive was expanded by three additional collections: <hi rend="italic">A Visual Approach to Explore Everyday Life in Turkish and Yugoslav Cities, 1920s and 1930s </hi>(2015-2018) conducted in cooperation with the University of Basel, <hi rend="italic">Balkan Cinema </hi>(initiated by Kaser in 2015) and <hi rend="italic">Postcarding Nation, Language and Identities: Lower Styria on Picture Postcards 1885-1920 </hi>(2019) in cooperation with the Institute of Slavic Studies. VASE at this point includes 5130 objects with a total of 9098 images. A core part of VASE, besides the visual sources, is the description and contextualization of the images: Extensive metadata (e.g., format and image type of the source, creator(s), repository storing the original, editor(s)), essential image information, context of creation and reception, keywords from the Outline of Cultural Materials (OCM 29) ethnographic classification system, and references to related image objects were recorded.</p>
+            <p>The project was implemented using GAMS (Humanities' Asset Management System, ZIM 2023), a large digital repository infrastructure maintained by the ZIM that specializes in the preservation, management, and presentation of digital research data from the arts, humanities and cultural studies. All data was archived in the system under a PID (Persistent Identifier) and is thus available in a stable referenceable manner. GAMS complies with the recommendations of the OAIS reference model, which are intended to guarantee reliable long-term archiving of digital data. In addition, the archive is oriented towards the FAIR principles (Force 11 2016). Thus, according to the specifications of the funding agencies (FWF - Wissenschaftsfonds, DFG - Deutsche Forschungsgemeinschaft, and the research data management policy of the University of Graz) long-term archiving is guaranteed for at least 10 years. </p>
+            <p>The current redesign will significantly improve the usability and accessibility of the research data. Originally, VASE was not envisioned to be a portal hosting different collections – the redesign will therefore revise the information architecture and conceptualize VASE as an overall portal aiming at user-friendly cross-project search strategies, while preserving the integrity of each subordinate collection. For the redesign different but similar portal solutions were evaluated (e.g. the <hi rend="italic">Photogrammer</hi> (Arnold et al. 2021), the <hi rend="italic">Environmental &amp; Society Portal </hi>(2023), <ref target="https://www.environmentandsociety.org/">and </ref>Humanities for all (National Humanities Alliance 2023)) to get ideas for a user-friendly presentation of the content as well as the implementation of a faceted search - a further task of the redesign. The revision also involves a move from the CSS framework YAML to the more up-to-date framework Bootstrap, which supports responsive web development.</p>
+            <p>In addition to improving usability and accessibility, the data model is undergoing a major overhaul to allow for a semantically richer annotation and to facilitate the integration of additional future image collections into the portal. </p>
+            <p>From the beginning, the development of the data model was characterized by the dichotomy of imagery and extensive text-based descriptions, which suggested the usage of both encoding standards the TEI (Text Encoding Initiative) and LIDO (Lightweight Information Describing Objects; ICOM 2010). The TEI was given preference because it allows for a semantically richer annotation of the accompanying descriptions and commentaries while at the same time it had the disadvantage that object-specific encoding phenomena were recorded using semantically weak &lt;ab&gt; elements that have been mapped to LIDO via attributes to ensure (as far as possible) compatibility.</p>
+            <p>This changes with the newly developed data model, which is based on the TEI element &lt;object&gt; introduced with version 3.5.0 of the TEI P5 Guidelines (TEI Consortium 2019) and borrows contents from &lt;msDesc&gt;. The elements allowed so far within &lt;object&gt; do not yet cover all our needs: for example, the element &lt;objectContents&gt; was defined in a project-specific ODD customization, which contains text-based object descriptions and comments within &lt;ab&gt; elements. But further development of &lt;object&gt; will likely be pursued in the next revisions of the Guidelines, to which the project team will contribute.</p>
+            <p>The redesign of VASE as a portal solution and the improvement of the data model to a semantically richer model should further the accessibility of the existing collections and facilitate the integration of new collections currently under development.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold, Taylor</author> / <author>Ayers, Nathaniel</author> / <author>Madron, Justin</author> / <author>Nelson, Robert K.</author> / <author>Tilton, Lauren</author> / <author>Wexler, Laura</author>  (2021): Photogrammar (Version 3.0). 
+                        <ref target="https://photogrammar.org/maps"> https://photogrammar.org/maps</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Derler, Barbara</author> (2020): Südosteuropaforschung delokalisiert &amp; digital. Das Visuelle Archiv Südöstliches Europa (VASE). In: Siegfried Gruber, Dominik Gutmeyr, Sabine Jesner, Elife Krasniqi, Robert Pichler, Christian Promitzer (eds.): From the Highlands to Hollywood. Wien. LIT. 163-180.
+                    </bibl>
+                    <bibl>
+                        <author>Environment &amp; Society Portal</author> (2023): 
+                        <ref target="https://www.environmentandsociety.org/">https://www.environmentandsociety.org/</ref>
+                         (accessed 4 May 2023).
+                    </bibl>
+                    <bibl>
+                        <author>Force 11.</author> (2016): The Fair Data Principles. 
+                        <ref target="https://www.go-fair.org/fair-principles/"> https://www.go-fair.org/fair-principles/</ref>
+                         (accessed 4 May 2023).
+                    </bibl>
+                    <bibl>
+                        <author>Human Relations Area Files. Outline of Cultural Materials (OCM). </author>
+                        https://hraf.yale.edu/resources/reference/outline-of-cultural-materials/ 
+                        (accessed 3 November 2022). 
+                    </bibl>
+                    <bibl>
+                        <author>ICOM. International Committee for Documentation</author> (2010): Lightweight Information Describing Objects – LIDO. 
+                        <ref target="http://network.icom.museum/cidoc/working-groups/lido/lido-technical/specificati%C2%ADon/"> http://network.icom.museum/cidoc/working-groups/lido/lido-technical/specification/</ref>
+                         (accessed 4 May 2023).
+                    </bibl>
+                    <bibl>
+                        <author>National Humanities Alliance</author> (2023):
+                        <ref target="https://humanitiesforall.org/about">https://humanitiesforall.org/about</ref>
+                         (accessed 4 May 2023).
+                    </bibl>
+                    <bibl>
+                        <author>TEI Consortium</author> (2019): TEI P5: Guidelines for Electronic Text Encoding and Interchange. 
+                        Version 
+                        3.5.0: &lt;object&gt;. URL: 
+                        https://tei-c.org/Vault/P5/3.5.0/doc/tei-p5-doc/en/html/ref- object.html 
+                        (accessed 3 November 2022).
+                    </bibl>
+                    <bibl>
+                        <author>VASE Visual Archive Southeastern Europe</author> (2012-2023): A cooperation of the University of Graz and the University of Basel.
+                        https://gams.uni-graz.at/vase 
+                        (accessed 4 May 2023).
+                    </bibl>
+                    <bibl>
+                        <author>Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities (ZIM)</author> (2023): GAMS. Geisteswissenschaftliches Asset Management System. 
+                        https://gams.uni-graz.at (accessed 4 May 2023).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mapping Memes in the Napoleonic Cadastre: Expanding Frontiers in
+                    Memetics</title>
+                <author n="PetitpierreRmiPETITPIERRE_Remi_Mapping_Memes_in_the_Napoleonic_Cadastre__E.xml"><persName ref="https://orcid.org/0000-0001-9138-6727" n="PetitpierreRmi">
+                        <surname>Petitpierre</surname>
+                        <forename>Rémi</forename>
+                    </persName><affiliation>EPFL, Switzerland</affiliation><email>remi.petitpierre@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We develop a practical computational methodology based on memes theory for studying historical cartography. We also propose to investigate the limits of replication fidelity, and the link between memes and their expression, through a case study on the Napoleonic cadastre.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>memetics</term>
+                    <term>history of cartography</term>
+                    <term>diffusion of innovations</term>
+                    <term>computer vision</term>
+                    <term>cadastre</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>cultural analytics</term>
+                    <term>image processing and analysis</term>
+                    <term>Art history</term>
+                    <term>Cultural studies</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Memetics is an evolutionary analogy,
+                which formulates the concept of meme, an elementary replicator of cultural ideas. A
+                meme can be a tune, a catchphrase, or an architectural detail, for instance (Dawkins
+                1976). If we take the example of maps, a meme can be expressed in the choice of a
+                certain texture, a colour, or a symbol, to represent the environment. </p>
+            <p>The validity of meme theory and its
+                pragmatic relevance to the humanities are widely debated (Edmonds 2002; Atran 2001).
+                Complementary mechanisms such as self-organization, and Lamarckian heredity of
+                acquired traits are highlighted in some fields, notably in urbanism and social
+                sciences (Leonard 2016; Moroni et al. 2020). In social sciences, generalized
+                Darwinism also tends to defend the differentiated existence of a meme (replicator)
+                and a pheme (expression, interactor) (Breslin 2011). </p>
+            <p>Practically, the link between meme and
+                pheme is tough to trace. Replication fidelity also remains an issue; the inability
+                of validating the correspondence between similar visual elements and a meme
+                undermines the conceptual power of the theory. For these reasons and because of
+                methodological gaps, memetics remains often circumscribed to case studies in social
+                networks science or anthropology, where the unit of replication is clearly defined,
+                and the diffusion is traceable (Franz / Nunn 2009; Hewlett / Cavalli-Sforza 1986;
+                Reyes-García et al. 2009; Gomez-Rodriguez et al. 2012; Guadagno et al. 2013). </p>
+            <p>Here we present a methodology to
+                extend computational memetics to the study of material traces, in particular
+                cartography. We also propose to investigate the limits of replication fidelity, and
+                the relationship between memes and phemes, through a case study on the Napoleonic
+                cadastre. The visual principles of the latter are explicitly formulated in the
+                'Recueil méthodique' (Hennet 1811). It is therefore an ideal case to study how the
+                same figurative idea is expressed in various contexts. </p>
+            <p>We work with two corpora. The first
+                contains over 10,000 French and Swiss maps (1600-1950). It is used for the
+                contextual analysis, and feature space optimization. The second consists of 1,576
+                plates of the Napoleonic or 'renovated' cadastre (1811-1888) depicting fifteen
+                cities and four rural regions, in four countries. It is on this specialized corpus
+                that we investigate the replication fidelity and the relationship between phemes and
+                memes.</p>
+            <p>First, the digitized maps are filtered
+                and normalized. The geographic layers and the background are segmented using OCRNet
+                (Yuan et al. 2020). The images are then cut into 50×50px tiles, which we call
+                'mapels'. For each map, a sample of 800 mapels is taken, representing the map's
+                figuration and phemotype. </p>
+            <p>Candidate graphical features, selected
+                from the literature in map processing, are computed on each mapel. These features
+                describe color distribution, morphology, texture, graphical load, line thickness,
+                and orientation.</p>
+            <p>The most relevant features among the
+                candidates are selected and assigned a weight using a genetic algorithm. The
+                optimization is based on 11 map series from the first corpus, which form homogeneous
+                figurative and editorial ensembles. The objective is to maximize the geometric
+                distance between these series. In the end, 28 features are retained. Mapels are
+                considered as corresponding to the same pheme if the distance between them in the
+                feature space is below an optimized threshold r.</p>
+            <p>In a preliminary quantitative analysis
+                based on the frequency of the phemes in corpus 1, by temporal strata, the most
+                consequent change in the whole period covered occurred around 1817. We see a
+                significant and lasting shift in the figurative codes of cartography at that time.
+                In particular, we denote a disruptive evolution regarding the scale. The figuration
+                becomes more and more specialized according to the scale, which results in a
+                divergent use of phemes. These results stress the importance of studying what was
+                perhaps the largest cartographic undertaking of the time: the Napoleonic cadastre
+                (Clergeot 2007). </p>
+            <p>Based on semantic segmentation and
+                phemes extraction, we study the figuration of the Napoleonic cadastre (Fig. 1).
+                Speaking of replication fidelity, no cadastre in corpus 2 seems to strictly follow
+                the rules of the Recueil méthodique. Based on the geometric distance between series
+                (Fig. 2), the Antwerp cadastre appears to be the most central phemotype we have; it
+                also shows the highest figurative consistency. However, even this cadastre does not
+                comply with all the instructions from the Recueil, e.g. reinforced line in the
+                shadow (Fig. 3). The centrality of this cadastre echoes Antwerp's centrality in the
+                european economy. Its dynamic printing industry could also have favored the
+                diffusion of ideas. In general, the phemotypic centrality of Belgian-Dutch cadastres
+                is higher than that of French cadastres, although the impetus was originally French.
+                Urban cadastres seem also more central than rural ones, which is fully consistent
+                with the theories on the diffusion of innovations. As for the temporal diffusion of
+                the Napoleonic cadastral memes, the figurative consistency tends to decrease
+                gradually, between 1811 and 1888 (Fig. 4). This could be interpreted as a gradual
+                decrease in replication fidelity.</p>
+            <figure>
+                <graphic n="1001" width="15.765638888888889cm" height="25.200680555555557cm" url="Pictures/9b31f016d3f50703eae9d1148dc03773.png" rend="inline"/>
+                <head>Figure 1. Most common phemes, per cadastre and geographic
+                classes.</head>
+            </figure>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="14.169319444444444cm" url="Pictures/c96aed9ff4f6d687a4650876ac739292.png" rend="inline"/>
+                <head>Figure 2. Matrix of mean geometric, or phemotypic,
+                proximity between cadastres.</head>
+            </figure>
+            <figure>
+                <graphic n="1003" width="8.195cm" height="8.195cm" url="Pictures/3b767d8157235455cb7899edf19cfbfc.png" rend="inline"/>
+                <head>Figure 3. Excerpt from the digitized Napoleonic cadastre
+                of Antwerp (1823).</head>
+            </figure>
+            <figure>
+                <graphic n="1004" width="11.5469cm" height="8.72cm" url="Pictures/fe6699ad3db4d9ce02165c0a4c0e5707.png" rend="inline"/>
+                <head>Figure 4. Mean consistency of cadastral phemotypes, by
+                temporal stratum.</head>
+            </figure>
+            <p>On the relation between memes and
+                phemes, we show that it is possible to classify and distinguish the Napoleonic
+                plates, against corpus 1, based on only 552 phemes (Fig. 5), i.e. less than 1% of
+                the observed phemes. At test time, a recall of 87% and 93% precision is achieved
+                with a simple classifier. In comparison, chapters 1.X and 2.IV of the Recueil state
+                94 basic figurative principles (memes). Phemes are both non-specific and more
+                numerous than memes. There is simply no function such as Me = f(Ph). However, our
+                results show some co-occurrences.</p>
+            <p>In conclusion, memetics is not only
+                practical, but could even be a prolific, approach for studying material traces, and
+                the semiotics of cartography. We propose a novel methodology, digital memetics, to
+                concretely trace the spatial and temporal diffusion of ideas over the long term.</p>
+            <figure>
+                <graphic n="1005" width="10.658777777777777cm" height="10.213486111111111cm" url="Pictures/f50462c9a7228abd4e2c727f60b67a0b.png" rend="inline"/>
+                <head>Figure 5. Characteristic phemes, used for the
+                classification of the Napoleonic cadastres.</head>
+            </figure>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Atran, Scott</author> (2001): “The trouble with memes”, in: <hi rend="italic">Human Nature</hi> 12, 4. 351–381. DOI:
+                        10.1007/s12110-001-1003-0. </bibl>
+                    <bibl>
+                        <author>Breslin, Dermot</author> (2011): “Reviewing a Generalized
+                        Darwinist Approach to Studying Socio-economic Change”, in: <hi rend="italic">International Journal of Management Reviews</hi> 13, 2. 218–235. DOI:
+                        10.1111/j.1468-2370.2010.00293.x. </bibl>
+                    <bibl>
+                        <author>Clergeot, Pierre</author> (2007): <hi rend="italic">Cent
+                            millions de parcelles en France: 1807, un cadastre pour l’Empire</hi>.
+                        Paris: Editions Publi-Topex. </bibl>
+                    <bibl>
+                        <author>Dawkins, Richard</author> (1976): <hi rend="italic">The Selfish
+                            Gene</hi>. Oxford, UK: Oxford University Press. </bibl>
+                    <bibl>
+                        <author>Edmonds, Bruce</author> (2002): “Three Challenges for the
+                        Survival of Memetics”, in: <hi rend="italic">Journal of Memetics -
+                            Evolutionary Models of Information Transmission</hi>, 6.
+                        <ref target="http://cfpm.org/jom-emit/2002/vol6/edmonds_b_letter.html">http://cfpm.org/jom-emit/2002/vol6/edmonds_b_letter.html</ref>
+                        [10.09.2022]. </bibl>
+                    <bibl>
+                        <author>Franz, Mathias</author> / <author>Nunn, Charles L.</author>  (2009):
+                        “Network-based diffusion analysis: a new method for detecting social
+                        learning”, in: <hi rend="italic">Proceedings of the Royal Society B:
+                            Biological Sciences</hi> 276, 1663. 1829–1836. DOI:
+                        10.1098/rspb.2008.1824. </bibl>
+                    <bibl>
+                        <author>Gomez-Rodriguez, Manuel</author> / <author>Leskovec, Jure</author> / <author>Krause, Andreas</author>  (2012): “Inferring Networks of Diffusion and Influence”,
+                        in: <hi rend="italic">ACM Transactions on Knowledge Discovery from Data</hi>
+                        5, 4. 21·1-21·37. DOI: 10.1145/2086737.2086741. </bibl>
+                    <bibl>
+                        <author>Guadagno, Rosanna E.</author> / <author>Rempala, Daniel M.</author> / <author>Murphy, Shannon</author> / <author>Okdie, Bradley M.</author>  (2013): “What makes a video go viral? An
+                        analysis of emotional contagion and Internet memes”, in: <hi rend="italic">Computers in Human Behavior</hi> 29, 6. 2312–2319. DOI:
+                        10.1016/j.chb.2013.04.016. </bibl>
+                    <bibl>
+                        <author>Hennet, Albert-Joseph-Ulpien</author> (1811): <hi rend="italic">Recueil méthodique des lois, décrets, règlemens, instructions et
+                            décisions sur le cadastre de la France</hi>. Paris: Imprimerie
+                        impériale. </bibl>
+                    <bibl>
+                        <author>Hewlett, Barry S.</author> / <author>Cavalli-Sforza, Luigi L.</author>  (1986):
+                        “Cultural Transmission Among Aka Pygmies”, in: <hi rend="italic">American
+                            Anthropologist</hi> 88, 4. 922–934. DOI: 10.1525/aa.1986.88.4.02a00100. </bibl>
+                    <bibl>
+                        <author>Leonard, Anthony R.</author> (2016): “Seaside town regeneration
+                        and the interconnections between the physical environment, key agencies and
+                        middle-life migration”, in: <hi rend="italic">Journal of Policy Research in
+                            Tourism, Leisure and Events</hi> 8, 2. 107–126. DOI:
+                        10.1080/19407963.2015.1079532. </bibl>
+                    <bibl>
+                        <author>Moroni, Stephano</author> / <author>Rauws, Ward</author> / <author>Cozzolino, Stefano</author> 
+                        (2020): “Forms of self-organization: Urban complexity and planning
+                        implications”, in: <hi rend="italic">Environment and Planning B: Urban
+                            Analytics and City Science</hi> 47, 2. 220–234. DOI:
+                        10.1177/2399808319857721. </bibl>
+                    <bibl>
+                        <author>Reyes-García, Victoria</author>
+                        <hi rend="italic">et al.</hi> (2009): “Cultural transmission of
+                        ethnobotanical knowledge and skills: an empirical analysis from an
+                        Amerindian society”, in: <hi rend="italic">Evolution and Human Behavior</hi>
+                        30, 4. 274–285. DOI: 10.1016/j.evolhumbehav.2009.02.001. </bibl>
+                    <bibl>
+                        <author>Yuan, Yuhui</author> / <author>Chen, Xilin</author> / <author>Wang, Jingdong</author>  (2020):
+                        “Object-Contextual Representations for Semantic Segmentation”, in Andreas
+                        Vedaldi et al. (eds) Computer Vision – ECCV 2020. Cham: Springer
+                        International Publishing (Lecture Notes in Computer Science), 173–190. DOI:
+                        10.1007/978-3-030-58539-6_11. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

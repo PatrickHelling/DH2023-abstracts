@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Giorgio Bassani's notes between tradition and innovation</title>
+                <author n="SicilianoAngelaSICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml"><persName n="SicilianoAngela">
+                        <surname>Siciliano</surname>
+                        <forename>Angela</forename>
+                    </persName><affiliation>Sorbonne Université Paris, France</affiliation><email>angela.siciliano93@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DelGrossoAngeloMarioSICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml"><persName n="DelGrossoAngeloMario">
+                        <surname>Del Grosso</surname>
+                        <forename>Angelo Mario</forename>
+                    </persName><affiliation>Istituto di Linguistica Computazionale "A. Zampolli",
+                        ILC-CNR</affiliation><email>angelo.delgrosso@ilc.cnr.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution illustrates the preliminary results of the project concerning Giorgio Bassani's personal library. The project provides both a printed traditional edition of the notes he wrote on his books and the development of a digital environment to browse and analyze them.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Giorgio Bassani</term>
+                    <term>writers' libraries</term>
+                    <term>notes</term>
+                    <term>scholarly digital edition</term>
+                    <term>XML-TEI</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>text encoding and markup language creation</term>
+                    <term>deployment</term>
+                    <term>and analysis</term>
+                    <term>Humanities computing</term>
+                    <term>Library &amp; information science</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Despite being considered a minimal and 'parasitic' text,
+                because they nestle in the edges of the page, writer's annotations to the books of
+                his library are a critically important source (Del Vento 2019), because they allow
+                us to reconstruct his history, tastes, and poetics. Being a text that originates
+                from another text to explain, comment on or correct it, the note is also a complex
+                textual form, difficult to manage and edit exhaustively (Milone 2022). It poses
+                three main critical issues:</p>
+            <list type="ordered">
+                <item><hi rend="italic">Representation</hi>. The task is to correctly represent the
+                    link between note and text in the edition: this operation is difficult and
+                    unclear with the tools of traditional philology because it requires the use of a
+                    complex system of symbols that may confuse the reader (McGann 2001). </item>
+                <item><hi rend="italic">Classification</hi>. Alongside the verbal notes, there are the
+                    “non-verbal” ones (underlining, sidebars, asterisks): an elusive and rich
+                    category that the edition merely partially records, with a significant loss of
+                    information (Shillingsburg 2015). </item>
+                <item><hi rend="italic">Systematisation</hi>. The single note has multiple
+                    relationships with the contiguous ones, with those in other books, with the
+                    writer's manuscripts. Thus, we need to systematise the data to derive statistics
+                    and information towards the reconstruction of the author’s method of annotation
+                    (Martinelli 2017). </item>
+            </list>
+
+            <figure>
+                <graphic n="1001" width="11.745369444444444cm" height="5.986619444444444cm" url="Pictures/8f561035fe264b1263e83c5aa803b713.jpg" rend="inline"/>
+            </figure>
+            <figure>
+                <graphic n="1002" width="11.689825cm" height="6.152538888888889cm" url="Pictures/a8a368ba6ee6c97e3eee7524b9f0b325.jpg" rend="inline"/>
+                <head>Figure 1 - Bassani's annotation and the editorial text</head>
+            </figure>
+
+
+            <p>These issues clearly emerged in the edition of the library
+                of Giorgio Bassani (1916-2000), one of the most important Italian writers of the
+                20th century, suggesting the possibility of verifying whether, and in what terms,
+                the digital environment could obviate them, thanks to its properties: the reticular
+                and hypertextual nature, the need for formalisation, the possibility of associating
+                the facsimile of the annotated page with the transcription of the notes. We have
+                therefore chosen to test a dual mode of edition, setting alongside the traditional
+                (printed) edition of the notes a prototype of a digital edition (modelled on
+                Bassani's notes to <hi rend="italic">La scuola dell'uomo</hi> by Guido Calogero),
+                which reproduces and adapts the editorial criteria of the traditional edition
+                (Siciliano / Del Grosso 2022). So, we will better pursue the objectives typical of
+                the study of an author's library: identification of Bassani's working method;
+                recurring patterns in the annotation; what kind of reader Bassani is; studying all
+                the “non-verbal” annotations which are often overlooked.  </p>
+            <p>The model is based on an innovative use of the XML/TEI
+                    <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn1" n="1"/> schema, <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn2" n="2"/> stemming from the reflection on the nature of the note: <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn3" n="3"/> it is conceptually more important to the philologist than the text to which
+                it refers. This principle is not matched by a specific editorial solution in the TEI
+                vocabulary (Estill 2016), which rather suggests treating the authorial notes as if
+                they were an appendix to the main text, within which they are generally transcribed
+                in the encoding with the tags &lt;note&gt; and &lt;label&gt;. Our model reverses
+                this hierarchy (as discussed also by Boot 2009) by giving greater importance to the
+                notes. Considered as individual units with their own autonomy and value, they are
+                first encoded on the metadata level (&lt;TeiHeader&gt;) as &lt;msItem&gt; in
+                &lt;msDesc&gt; (adopting the method for collections of manuscript contents), <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn4" n="4"/> and then in the section that houses the transcription of the main text
+                (&lt;text&gt;) they are transcribed as &lt;div&gt;, separating them from the printed
+                text, transcribed in a subordinate position. </p>
+            <p>The multi-dimensional, multi-modal and hierarchical
+                digital representation of a textual object suggested by TEI is also well suited to
+                the composite and structured textuality of the note, with a better rendering in
+                terms of accuracy and completeness of information. This is the case of the
+                formalisation of the relationship between the note and the printed text, which can
+                be clearly expressed by describing in &lt;sourceDoc&gt; the annotated page as a
+                surface (&lt;surface&gt;) consisting of several areas (&lt;zone&gt;), using the <hi rend="italic">embedded-transcription</hi> method proposed by the module 11 of
+                the TEI guidelines. <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn5" n="5"/> The elasticity and hierarchical structure of the taxonomies inscribed in the
+                document with the &lt;taxonomy&gt; tag, in the section dedicated to the description
+                of the encoding metadata (&lt;classDecl&gt;), then allows for the representation of
+                all types of annotation, <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn6" n="6"/> including non-verbal ones, encoded as &lt;msItem&gt; in the &lt;msDesc&gt;,
+                like the verbal ones, and as &lt;metamark&gt; in &lt;sourceDoc&gt;. Everything that
+                has been encoded is indexable, and numerous increasingly complex and refined queries
+                can then be carried out, cross-referencing different parameters (type, theme,
+                position, tool with which the note is written). </p>
+            <p>Our proposal, based on hybrid approach to the author’s
+                note, has revealed the fruitful exchange between the traditional philological method
+                and the digital one. In fact, the hierarchical language of the TEI allows the work
+                of formal and critical analysis carried out by the philologist, which remains
+                preliminary and essential, to be translated into the digital environment, enhancing
+                it through a clearer, more ordered, and richer representation.</p>
+            <p>Finally, a web application prototype based on eXistDB
+                    <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn7" n="7"/> technology is under development for the publication and exploitation of the
+                digital edition. At current stage the applet, developed within a thesis project,
+                    <ref target="#SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn8" n="8"/> allows scholars to search among the encoded notes with advanced searching
+                capabilities (for example, fuzzy matching and proximity matching), to better study
+                Bassani’s thoughts. </p>
+
+            <figure>
+                <graphic n="1003" width="16.17658611111111cm" height="9.482838888888889cm" url="Pictures/ddede363e8049dd157f8cb674b0d8943.jpg" rend="inline"/>
+            </figure>
+            <figure>
+                <graphic n="1004" width="16.17486111111111cm" height="9.481822222222222cm" url="Pictures/c7dd3440da8443ae47270d5c51262e44.jpg" rend="inline"/>
+                <head>Figure 2 - The ongoing digital archive</head>
+            </figure>
+
+
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn1">
+                    <ref target="https://tei-c.org/guidelines/">https://tei-c.org/guidelines/</ref>
+                </note><note n="2" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn2">
+                     Many similar projects are devoted to author’s <hi rend="italic">marginalia</hi>, like <hi rend="italic">Beckett digital library</hi> (<ref target="https://www.beckettarchive.org/library/home/welcome">https://www.beckettarchive.org/library/home/welcome</ref> ), <hi rend="italic">Melville’s Marginalia</hi> (<ref target="https://melvillesmarginalia.org/">https://melvillesmarginalia.org/</ref>) and <hi rend="italic">Mill Marginalia Online</hi> (<ref target="https://blog.millmarginalia.org/">https://blog.millmarginalia.org/</ref> ), even if they choose different TEI encoding approaches. For <hi rend="italic">Mill Marginalia Online</hi> see also Pionke (2020).
+                </note><note n="3" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn3">
+                     We choose the TEI expressivity which enables to link
+                        the different elements of the edition producing not only hierarchical data,
+                        but also graph-like ones. Moreover, Linked Open Data method can be taken
+                        into account in further development exploiting, for example, the Web
+                        Annotation Data Model. This latter model is already defined within the TEI
+                        standoff approach to encode annotations.
+                </note><note n="4" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn4">
+                    <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html</ref>
+                </note><note n="5" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn5">
+                    <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/PH.html</ref>
+                </note><note n="6" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn6">
+                     The annotations are labeled with various classes of
+                        different taxonomies. This gives us the possibility to explicitly establish
+                        the conceptual relationship between the annotations and the corresponding
+                        printed-text.
+                </note><note n="7" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn7">
+                    <ref target="http://exist-db.org/exist/apps/homepage/index.html">http://exist-db.org/exist/apps/homepage/index.html</ref>
+                </note><note n="8" xml:id="SICILIANO_Angela_Giorgio_Bassani_s_notes_between_tradition_a.xml_ftn8">
+                     We thanks Vanessa Bianconi for her precious work
+                        carried out for her thesis in Digital Humanities at University of Pisa.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Boot, Peter </author>(2009):
+                        “Mesotext : digitised emblems, modelled annotations and humanities.
+                        scholarship”. Amsterdam: Pallas Publications</bibl>
+                    <bibl><author>Del Vento, Christian</author>
+                        (2019): “La biblioteca ritrovata. La prima biblioteca di Vittorio Alfieri”.
+                        Alessandria: Edizioni dell’orso.</bibl>
+                    <bibl><author>Estill, Laura</author> (2016):
+                        “Encoding the Edge: Manuscript Marginalia and the TEI”, in: Digital Literary
+                        Studies I, 1.</bibl>
+                    <bibl><author>Martinelli, Donatella</author>
+                        (2017), “L’edizione digitale delle postille manzoniane a Plauto: problemi
+                        ecdotici”, in: Ecdotica XIV: 48-88.</bibl>
+                    <bibl><author>McGann, Jerome</author> (2001).
+                        “Radiant Textuality”. Macmillan US: Palgrave.</bibl>
+                    <bibl><author>Milone, Federico</author> (2022):
+                        “Postille ‘amargine’: problemi e metodi per l’edizione digitale dei
+                        postillati di autori del secondo Novecento”, in: Linguistica e Letteratura
+                        1-2: 195-209.</bibl>
+                    <bibl><author>Pionke, Albert</author> (2020):
+                        “Handwritten Marginalia and Digital Search: e Development and Early Research
+                        Results of Mill Marginalia Online”, in: ILCEA4 XXXIX. </bibl>
+                    <bibl><author>Shillingsburg, Peter</author>
+                        (2015): “Development Principles for Virtual Archives and Editions”, in:
+                        Variants 11: 9–28.</bibl>
+                    <bibl><author>Siciliano, Angela</author> / <author>Del Grosso, Angelo</author>  (2022): “Dalla Stampa al Digitale: Un Modello di Codifica
+                        per l’Edizione delle Postille di Giorgio Bassani”, in: Umanistica Digitale
+                        XIII: 21-46.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

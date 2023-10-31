@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Co-encoding embodied knowledge in Southern Chinese martial arts: a collaboration between computists, experts, and digital models</title>
+                <author n="HouYumengHOU_Yumeng_Co_encoding_embodied_knowledge_in_Southern_Chines.xml"><persName n="HouYumeng">
+                        <surname>Hou</surname>
+                        <forename>Yumeng</forename>
+                    </persName><affiliation>Laboratory for Experimental Museology, EPFL, Switzerland</affiliation><email>yumeng.hou@epfl.ch</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This research, within the framework of computational archives, inspects a novel approach to representing intangible knowledge in traditional martial arts. The methodology presents a unity of ontological modeling, semantic annotation, and feature-based machine learning to display, (re-)interpret, and transmit embodied knowledge using multimodal digital archives.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>computational archival science</term>
+                    <term>martial arts</term>
+                    <term>knowledge encoding</term>
+                    <term>ontology</term>
+                    <term>collaboration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital archiving</term>
+                    <term>linked (open) data</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Informatics</term>
+                    <term>Performance Studies: Dance</term>
+                    <term>Theatre</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <head>Introduction</head>
+            <p>Traditional martial arts, recognized by UNESCO as <hi rend="bold">intangible cultural heritage (ICH)</hi>, are critical carriers of sociocultural memories of different ethnic groups. <hi rend="bold">Southern Chinese martial arts (SCMA)</hi> represent one such example and is believed to embody traces of Southern Chinese traditions and people's views on nature and humanity. However, born out of the need to settle quarrels, SCMA has been passed down mainly via colloquial in-person transmissions to "conserve" the knowledge within one's community. For this reason, there has been a historical lack of knowledge documentation, while the intrinsic complexity of documenting physical practices in static formats acts as another factor. Consequently, SCMA has encountered an ever-increasing risk of being lost under the combined effects of modern challenges, notably the aging of masters (Chao et al., 2016).</p>
+            <p>Answering the urgency to preserve and valorize SCMA, the <hi rend="italic">Hong Kong Martial Arts Living Archive</hi> (HKMALA) project embarked on building a comprehensive digital archive by capturing martial art performances and traditions within the region. Taking a living heritage methodology, HKMALA has developed a lavish motion database incorporating full-body motion capturing with a group of elite masters, multimedia documentation of the masters’ and scholars’ narratives, and recording cultural practices (Chao et al., 2018). The archival materials have enabled various scholarly investigations, including books, exhibitions, artistic works, and pedagogical applications (Kenderdine, 2020). While on the other hand, the volume and complexity of the archive impede its accessibility and usability, hence calling for pathways to open up and disseminate at scale.</p>
+            <p>To address issues hindering data access, the emerging field of computational archival science has suggested a hybrid paradigm by integrating algorithmic intelligence with content-describing models (Jaillant, 2022). Within the framework, this work inspects the synergy between computational capacities and human-led efforts to formalize a descriptive and meaningful representation of embodied knowledge in SCMA. Correspondingly, the research question has been framed as follows:</p>
+            <list type="unordered">
+                <item><hi rend="italic">Can the collaboration between machine intelligence and domain expertise, mediated by datafication methods, enable a practical approach to representing the embodied yet multifaceted knowledge in SCMA?</hi></item>
+            </list></div>
+            <div>
+                <head>Methods and Results</head>
+            <p>Tackling the research question entails three modes of collaboration: the exchanges between domain experts who hold in-depth martial knowledge and computer scientists who mandate the process of knowledge <hi rend="italic">datafication</hi>; the integration of algorithmic with ontological models to ensemble meaningful yet operable knowledge representations; and finally, the synthesis between computational capacities and knowledge-centric designs for knowledge communication.</p>
+            <div>
+                <head>Ontology-based datafication</head>
+            <p>Aiming at comprehensive knowledge representation, a foundational task is constructing a formal model enclosing the essential concepts and relations on the embodied, epistemic and sociocultural facets of martial domains. Therefore, to ensure an adequate formalization, the author conducted six-month field research in Hong Kong to work with local masters and scholars for co-extracting, co-annotating, and co-validating the <hi rend="italic">datafication</hi> materials. This is how the <hi rend="bold">Martial Arts Ontology (MAon)</hi> V1.1 gets developed, the first annotated ontological data resource on SCMA delineating the embodied qualities, stylistic, interpretative, and ideological components of martial practices. </p>
+            <p>The MAon terminology is developed from a precise analysis of the corpus of scholar-selected pieces of literature, including a range of martial books (Popov, 2002; Lam &amp; Chao, 2013, 2014; Kong, 2011), exhibition texts (Chao et al., 2016; Chao, 2018; Chao &amp; Gotti, 2021), and masters’ narratives collected through interviews <hi rend="italic">in situ</hi>. This renewed ontology, expanding from its initial version (Adamou et al., 2021) to involve more components concerning technical interpretations, serves as the basis for transforming the co-annotated metadata into RDF datasets. Accordingly, the SCMA knowledge is datafied as a validated vocabulary and an operable data resource, made available for cultural analytics by human and computational tools alike.<ref target="#HOU_Yumeng_Co_encoding_embodied_knowledge_in_Southern_Chines.xml_ftn1" n="1"/></p></div>
+            <div>
+                <head>Augmentation and computation</head>
+            <p>Converting unstructured cultural collections into meaningful semantics is labor-intensive (Mallik et al., 2011). For this reason, an annotation protocol alone can hardly fulfill scalability, while algorithmic enhancement can critically enforce an appropriate level of automation. To this end, the author embarks on integrating semantic structure with a deep learning module that computes feature-level similarities in bodily movement (methodical details in (Hou et al., 2023)). Accordingly, a semi-automatic annotating tool is being instantiated with the HKMALA assets, which allows users to annotate a media item, search for potentially related media units via movement similarity, and populate the semantic tags to the retrieved results in a few clicks.</p>
+            <figure>
+                <graphic n="1001" width="15.263458333333332cm" height="9.927208333333333cm" url="Pictures/a792ee648895fdb3fb29db9f08afff78.png" rend="inline"/>
+                    <head>Figure 1: Illustration of (a) major classes in MAon V1.1, (b) ontological representation of the looking-in-the-mirror (<hi rend="SimSun">美人照镜</hi>) palm technique and its employment in a form, (c) sample items retrieved for batch-annotating based on movement similarly.</head>
+            </figure>
+            </div>
+            </div>
+            <div>
+                <head>Discussion and conclusion</head>
+            <p>We have witnessed the burgeoning use of computational devices in cultural sectors with novel tools appropriate for handling fine-grained structured data. Nevertheless, real-world collections are complex in format and require knowledge-specific designs to bridge the actual gap between an archive and its potential users (Hou et al., 2022). In an attempt to remedy the gap in existing models for folkloric yet intangible knowledge representation, this research copes with archival searchability and explainability on the content level. Specifically, it introduces a refined ontology of traditional martial arts co-established with domain experts, provides an annotated resource datafied into RDF formats, and integrates the semantic module with machine learning algorithms to enhance methodical scalability. </p>
+            <p>With this presentation, the author presents a novel unity of ontological modeling, semantic annotation, and feature-based intelligence to facilitate the use of ICH archives in displaying, (re-)interpreting, and transmitting embodied knowledge within the context of meaning and traditions. The role of humans is also accentuated, particularly the in-depth involvement of (humanities) domain-specific experts in the cross-disciplinary investigations of digital humanities topics can be revolutionary. Drawn from this experimentation, we suggest through this presentation that one crucial goal of computational archives with cultural collections is to create a meaningful user experience that facilitates the representation and dissemination of knowledge embedded in data instead of exploiting data for algorithmic inventions.</p></div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="HOU_Yumeng_Co_encoding_embodied_knowledge_in_Southern_Chines.xml_ftn1">
+                    The MAOn documentation is available at https://purl.org/maont/techCorpus.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Adamou, A., Hou, Y., Kenderdine, S., Picca, D., &amp; Egloff, M.</author>
+                         (2021). “Ontology mediated cultural contact detection through motion and style in southern chinese martial arts”, in: Bikakis A., Ferrario R., Jean S., Markhoff B., Mosca A., &amp; Asmundo M.N. (eds.):
+                        <hi rend="italic">Proceedings of the International Joint Workshop on Semantic Web and Ontology Design for Cultural Heritage</hi>
+                        , <ref target="https://ceur-ws.org/Vol-2949/short2.pdf">https://ceur-ws.org/Vol-2949/short2.pdf</ref> [07.09.2021].
+                    </bibl>
+                    <bibl>
+                        <author>Chao, H.</author>
+                         (2018). 
+                        <hi rend="italic">Lingnan Hung Kuen: Kung Fu in Cinema and Community</hi>
+                        . Hong Kong: City University of HK Press.
+                    </bibl>
+                    <bibl>
+                        <author>Chao, H., Delbridge, M., Kenderdine, S., Nicholson, L., &amp; Shaw, J.</author>
+                         (2018). “Kapturing Kung Fu: Future Proofing the Hong Kong Martial Arts Living Archive”, in: Whatley, S., Cisneros, R., Sabiescu, A. (eds.):
+                        <hi rend="italic">Digital echoes</hi>
+                        . Cham: Springer 249–264.
+                    </bibl>
+                    <bibl>
+                        <author>Chao, H., &amp; Gotti, R.</author>
+                         (2021). 
+                        <hi rend="italic">Way of the sword: Warrior Traditions in China and Italy. </hi>
+                        Exhibition at Tai Kwun, Hong Kong, February 25 - April 04, 2021.
+                    </bibl>
+                    <bibl>
+                        <author>Chao, H., Shaw, J., &amp; Kenderdine, S.</author>
+                         (eds.). (2016). 
+                        <hi rend="italic">300 Years of Hakka Kung Fu: Digital Vision of its Legacy and Future</hi>
+                        . Hong Kong: International Guoshu Association.
+                    </bibl>
+                    <bibl>
+                        <author>Hou, Y., Kenderdine, S., Picca, D., Egloff, M., &amp; Adamou, A.</author>
+                         (2022). “Digitizing intangible cultural heritage embodied: State of the art”, in: 
+                        <hi rend="italic">Journal on Computing and Cultural Heritage</hi>
+                        , 15, 3, 1–20. DOI: 10.1145/3494837.
+                    </bibl>
+                    <bibl>
+                        <author>Hou, Y., Seydou, F. M., &amp; Kenderdine, S.</author>
+                         (2023). "Unlocking a multimodal archive of southern Chinese martial arts through embodied cues”, in:
+                        <hi rend="italic">Journal of Documentation</hi>
+                        , ahead-of-print, ahead-of-print. DOI: 10.1108/JD-01-2022-0027.
+                    </bibl>
+                    <bibl>
+                        <author>Jaillant, L.</author>
+                         (2022). 
+                        <hi rend="italic">Archives, Access and Artificial Intelligence: Working with born-digital and digitized archival collections</hi>
+                        . transcript Verlag.
+                    </bibl>
+                    <bibl>
+                        <author>Kenderdine, S.</author>
+                         (2020). “The Hong Kong Martial arts Living Archive”, in: 
+                        <hi rend="italic">The Intangible Cultural Heritage and Museums Project (IMP)</hi>
+                        , 
+                        <ref target="https://www.ichandmuseums.eu/en/inspiration-2/detail-2/the-hong-kong-martial-arts-living-archive">https://www.ichandmuseums.eu/en/inspiration-2/detail-2/</ref>
+                        <ref target="https://www.ichandmuseums.eu/en/inspiration-2/detail-2/the-hong-kong-martial-arts-living-archive">the-hong-kong-martial-arts-living-archive</ref>
+                         [01.07.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Lee, K</author>
+                         (2011). 
+                        <hi rend="italic">The Essence of White Crane Kung Fu</hi>
+                        . Taipei: Lion Books. 
+                    </bibl>
+                    <bibl>
+                        <author>Lam, C.-F., &amp; Chao, H.</author>
+                         (2013). 
+                        <hi rend="italic">Hung Kuen Fundamentals: Gung Gee Fok Fu Kuen</hi>
+                        . Hong Kong: International Guoshu Association.
+                    </bibl>
+                    <bibl>
+                        <author>Lam, C.-F., &amp; Chao, H.</author>
+                         (2014). 
+                        <hi rend="italic">Hung Kuen Training: Chin Cheung Fok Fu Kuen Deui Chak by Lam Chun Fai</hi>
+                        . Hong Kong: International Guoshu Association.
+                    </bibl>
+                    <bibl>
+                        <author>Mallik, A., Chaudhury, S., &amp; Ghosh, H. </author>
+                        (2011). “Nrityakosha: Preserving the intangible heritage of indian classical dance”, in:
+                        <hi rend="italic">Journal on Computing and Cultural Heritage</hi>
+                        , 4, 3, 1–25. DOI: 10.1145/2069276.2069280.
+                    </bibl>
+                    <bibl>
+                        <author>Popov, A.</author>
+                         (ed.). (2002). 
+                        <hi rend="italic">Gung Gee Fook Fu Kuen by Lam Sai Wing</hi>
+                        . Shaolin Kung Fu Online Library.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Normative texts in the City-State of Bern (1528-1795). Testing a Simple Knowledge Organisation System (SKOS) and Automatic Meta Data on a Handwritten Corpus.</title>
+                    <title type="sub">Normative texts in the City-State of Bern (1528-1795).</title>
+                </title>
+                <author n="RomeinCAnnemiekeROMEIN_C_A__Normative_texts_in_the_City_State_of_Bern__1528_.xml"><persName ref="https://orcid.org/0000-0003-3682-0126" n="RomeinCAnnemieke">
+                        <surname>Romein</surname>
+                        <forename>C. Annemieke</forename>
+                    </persName><affiliation>KNAW Huygens Institute for the History and Culture of the Netherlands, Amsterdam; Vrije Universiteit Amsterdam</affiliation><email>Annemieke.Romein@Huygens.knaw.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VeldhoenSaraROMEIN_C_A__Normative_texts_in_the_City_State_of_Bern__1528_.xml"><persName ref="https://orcid.org/0000-0002-8376-0886" n="VeldhoenSara">
+                        <surname>Veldhoen</surname>
+                        <forename>Sara</forename>
+                    </persName><affiliation>KB National Library of the Netherlands</affiliation><email>Sara.Veldhoen@KB.nl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Using the original, manually applied labels, this poster presents whether early modern legal texts can be automatically labelled through AI.  Using Annif (by the National Library of Finland) the applicability of the tool to early modern handwritten texts is and its various backends (e.g. TF-IDF; Omikujji, and fastText) are tested.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>Using the original, manually applied labels, this poster presents whether early modern legal texts can be automatically labelled through AI.  Using Annif (by the National Library of Finland) the applicability of the tool to early modern handwritten texts is and its various backends (e.g. TF-IDF; Omikujji, and fastText) are tested.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>automatic metadata</term>
+                    <term>simple knowledge organisation system</term>
+                    <term>annif</term>
+                    <term>legislation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>metadata standards</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>History</term>
+                    <term>Law and legal studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Early modern governments created, announced and published many norms (legislation) over time. In the 1990s Michael Stolleis and Karl Härter initiated a project at the (then) Max-Planck-Institute for European Legal History (now the Max Planck Institute for Legal History and Legal Theory) that grew out to provide an overview of normative texts from 68 jurisdictions within Central Europe. Their efforts resulted in a series: <ref target="https://www.lhlt.mpg.de/publikationen/repertorium-der-policeyordnungen">Repertorium der Policeyordnungen der Frühen Neuzeit</ref>  and a <ref target="https://policey.lhlt.mpg.de/web/about">database</ref>. These contain data on approximately 200,000 normative texts. The hierarchical structure of systematically organized categories allowed the creation of an overview that enables (future) researchers to compare norms from one jurisdiction to another. The hierarchical structure is divided over four layers: going from very generic to very specific.</p>
+            <p>One of the studied jurisdictions within this project was the ‘city-state’ of Berne. Here 4932 normative texts (Mandaten) were published from 1528 until 1795 and written down in the Book of Mandates. These norms concerned various topics ranging from religious affairs to infrastructure, safety and education. The initial overview and labelling of the texts of Berne was created by Dr. Claudia Schott-Volm <hi rend="bold">(2006)</hi>. Her extensive overview not only includes information on the normative texts themselves but also includes the jurisdictions. Though Berne was officially a ‘city-state’, its lands covered most of the modern-day canton of Berne, Aargau, Vaud and some parts of some other modern-day cantons.</p>
+            <p>Using the original labels as benchmarked data, the part of the project presented here is to test whether these legal texts could be automatically labelled through Artificial Intelligence. Legal texts are, in themselves, phrased very straightforwardly and include all possible details – as confusion needs to be avoided at all costs. Using <ref target="https://github.com/NatLibFi/Annif/wiki/Getting-started">Annif</ref> which is created by the National Library of Finland to automatically categorise books; I will test the applicability to early modern handwritten texts. As Annif has various backends (e.g. TF-IDF; Omikujji, and fastText) I will test which one works best for my normative texts.</p>
+            <p>While the initial project relied on manual labelling, this poster will present some first results on a digital replication of the results. The following steps are taken to train computer models to automatically label the normative texts:</p>
+            <p>Digitizing the <hi rend="italic">Mandates </hi>of the entire period.</p>
+            <p>Making transcriptions and creating Handwritten Text Recognition (Transkribus).</p>
+            <p>Creating a 
+                <ref target="https://skohub.io/rg-mpg-de/vocabs-polmat/heads/main/w3id.org/rg-mpg-de/polmat/n01.de.html">Simple Knowledge Organisation System</ref></p>
+            <p>Reconciling the labels of the normative texts with the SKOS.</p>
+            <p>Training an AI model within Annif and testing this on the Mandaten (10-fold cross-validation with a 90/10 train/test split).</p>
+            <p>As the multilayered SKOS contains 1800 categories divided over four different levels, it may be expected that Annif performs less accurately on the lowest – most specific – topics as it may lack training data. The aim of this entire exercise is not only to test the multi-layeredness of the SKOS and the applicability of this through Annif; but (hopefully) come up with reasonable estimates how much training data is needed to enable AI/ Annif to automatically label legal texts all by itself (in the future). </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Schott-Volm, Claudia</author>
+                         (2006):
+                        <hi rend="italic">Repertorium der Policeyordnungen der Frühen Neuzeit (#7). Orte der Schweizer Eidgenossenschaft: Bern und Zürich</hi>
+                        <hi rend="italic">.</hi>
+                        Frankfurt am Main: Klostermann
+                        .
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

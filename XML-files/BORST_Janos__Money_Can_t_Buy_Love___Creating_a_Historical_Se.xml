@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>“Money Can’t Buy Love?” Creating a Historical Sentiment Index
+                        for the Berlin Stock Exchange, 1872–1930</title>
+                <author n="BorstJanosBORST_Janos__Money_Can_t_Buy_Love___Creating_a_Historical_Se.xml"><persName ref="https://orcid.org/0000-0002-9166-4069" n="BorstJanos">
+                        <surname>Borst</surname>
+                        <forename>Janos</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University,
+                        Germany</affiliation><email>janos.borst@uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WehrheimLinoBORST_Janos__Money_Can_t_Buy_Love___Creating_a_Historical_Se.xml"><persName ref="https://orcid.org/0000-0001-9269-8116" n="WehrheimLino">
+                        <surname>Wehrheim</surname>
+                        <forename>Lino</forename>
+                    </persName><affiliation>Economic and Social History, Regensburg University,
+                        Germany</affiliation><email>lino.wehrheim@ur.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BurghardtManuelBORST_Janos__Money_Can_t_Buy_Love___Creating_a_Historical_Se.xml"><persName ref="https://orcid.org/0000-0003-1354-9089" n="BurghardtManuel">
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName><affiliation>Computational Humanities Group, Leipzig University,
+                        Germany</affiliation><email>burghardt@informatik.uni-leipzig.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Collective sentiment plays a crucial role in financial markets. In this paper, we present our workflow for creating an index that captures the sentiment at the Berlin Stock Exchange from 1872 to 1930. Based on a historical newspaper, we train three models that provide daily aspect-level sentiment data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sentiment Analysis</term>
+                    <term>Machine Learning</term>
+                    <term>Historical Sentiment Index</term>
+                    <term>Economic History</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>natural language processing</term>
+                    <term>text mining and analysis</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Motivation </head>
+                <p>Financial economists and psychologists agree that collective sentiment plays a
+                    crucial role in financial markets (Akerlof and Shiller 2009, Tuckett 2011). In
+                    this paper, we present our workflow for creating a daily aspect-based index that
+                    captures the sentiment at the Berlin Stock Exchange from 1872 to 1930, a time
+                    when Berlin was the key financial market in Germany. This index is based on
+                    market reports published every trading day in the Berliner Börsen-Zeitung, which
+                    give a verbal description of the sentiment among market participants. Due to
+                    daily publication and the long observation period, our corpus consists of about
+                    18,000 market reports. We apply a combination of expert annotation and machine
+                    learning. With this newly-created data, we will be able to gain a better
+                    understanding of the historical German stock market and, more generally, the
+                    nature of financial sentiment itself.  How has sentiment developed over time and
+                    how is it related to historical events? Did sentiment influence prices and/or
+                    trading volume, or vice versa? To answer such questions, we need data on
+                    financial sentiment which, to our best knowledge, is not available for the
+                    aforementioned case yet. From a DH perspective, this paper covers two novel
+                    aspects: First, we focus on both historical and highly domain-specific language,
+                    a dual challenge that thus far has rarely been addressed. As there are many
+                    similar historical sources, such as reports by chambers of commerce, our
+                    solutions will be helpful for future research. Second, we address a
+                    characteristic but neglected feature of financial texts that might be relevant
+                    also in a broader sentiment analysis context. Particularly, we focus on aspect-
+                    and entity-based sentiment analysis.</p>
+            </div>
+            <div type="div1">
+                <head>Method and Corpus</head>
+                <p>There is an abundance of financial texts, such as newspapers, financial reports,
+                    or tweets. Accordingly, many scholars have applied some form of natural language
+                    processing to quantify sentiment. Beginning with the work by Tetlock (2007),
+                    scholars first relied on dictionaries to perform sentiment analysis (e.g.,
+                    García 2013, Hanna et al. 2020). As machine learning approaches display better
+                    performance (Mishev et al. 2020, van Atteveldt 2021), scholars have started to
+                    use more advanced methods, especially language models such as BERT and FinBERT
+                    (Araci 2019, Malo et al. 2014). One reason is that financial texts pose several
+                    distinct problems for sentiment analysis (Njølstad et al. 2014, Loughran and
+                    McDonald 2011, Xing et al. 2020). One of them regards the role of entities which
+                    can complicate sentiment analysis considerably (Sinha et al. 2022). In our case,
+                    a major challenge is that texts include statements referring to entities at
+                    three different levels: individual assets (category 1), industries or sectors
+                    (category 2), and the overall stock market (category 3). Typically, sentences
+                    contain multiple entities from different levels, often with different sentiment
+                    valuations. As we are primarily interested in overall market sentiment, we must
+                    account for these differences to avoid misleading sentiment scores.</p>
+                <p><figure>
+                        <graphic url="Pictures/a7a719f66ad8b51f4e5065859db10d3a.png"/>
+                        <head><hi rend="bold">Figure 1:</hi>Workflow to create aspect-based
+                            sentiment indices.</head>
+                    </figure></p>
+                <lb/>
+                <p>Our corpus and workflow are outlined in Figure 1, several aspects of which shall
+                    be mentioned briefly. The removal of confounding sentences includes those
+                    containing numerical expressions stating pure information and neutral sentences.
+                    The first type of sentence was removed using heuristics, the latter a
+                    classification step (see below). We performed this pre-processing because Wilson
+                    et al. 2009 have shown that removing neutral sentences can increase
+                    classification performance. The training set was created by a financial
+                    historian, making use of the standardized financial language and primary sources
+                    on historical stock markets (e.g., Krupke 1904, Kautsch 1912). In a first run,
+                    the expert annotated 1,500 random sentences in a three-step procedure (see
+                    Figure 2):</p>
+                <p>i) Sentence type: does the sentence contain a sentiment-related statement? (If
+                    not, the sentence was discarded from further analysis.)</p>
+                <p>ii) Entity category: which categories do the entities mentioned in the sentence
+                    belong to?</p>
+                <p>iii) Aspect-based sentiment: which sentiment is connected to a given entity?</p>
+                <p>In a second run, the expert annotated another 750 sentences to address systematic
+                    errors. We included entity-level classification during this stage because we
+                    lack information on named entities due to various issues (spelling,
+                    abbreviations, OCR errors, etc.). Also, NER often has trouble recognizing
+                    industry-type entities even for modern financial texts (Sinha et al. 2022). </p>
+                <p>Sentence type and entity level classification were tackled employing the standard
+                    procedure of finetuning a language model using a classification head (Devlin et
+                    al. 2018). Our base model was a German BERT trained by the MDZ. We train for 15
+                    epochs and choose the best model based on the macro averaged F1-score. For macro
+                    average the Precision/Recall/F1 values are calculated per class and then
+                    averaged, weighing every class equally. We chose this as a target metric to
+                    avoid a bias toward any specific class overall. </p>
+                <p>Aspect-based sentiment was tackled using a sentence-pair classification similar
+                    to NLI tasks (Sun et al. 2019): A sentence (premise) was combined with a
+                    formulation of the aspect related sentiment (hypothesis) and classified if the
+                    sentences match. We use the hypothesis formulation: “Die Stimmung bezüglich
+                    [aspect] ist [label]”. After some experiments, the best model was achieved by
+                    finetuning using Compacter Adapter (Mahabadi et al. 2021), increasing macro F1
+                    significantly over standard finetuning. The resulting performance of these
+                    models is reported in the next section.</p>
+                <p><figure>
+                        <graphic url="Pictures/0c926cc159c42e203d65003ca7cd43b7.png"/>
+                        <head><hi rend="bold">Figure 2:</hi> Sentence annotation process.</head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Evaluation and Preliminary Results</head>
+                <p>Tables 1-3 show the respective evaluation of each machine learning step. The
+                    sentence-type classification shows high performance, especially in recall of
+                    sentences containing tonality (96,5%), which is vital for the following steps.
+                    The aspect-based sentiment classification shows an F1 macro average of 85.9%.
+                    While there is still room for improvement, we argue that since there is no
+                    significant difference among classes, the systematic error will not change the
+                    overall trend of the chronological analysis.</p>
+                <table xml:id="d45e255">
+                    <head><hi rend="bold">Table 1: </hi> Evaluation metrics of sentence type
+                        classification.</head>
+                    <row role="label">
+                        <cell/>
+                        <cell>Neutral</cell>
+                        <cell>Tonality</cell>
+                        <cell>Micro</cell>
+                        <cell>Macro</cell>
+                    </row>
+                    <row>
+                        <cell>Precision</cell>
+                        <cell>94,3%</cell>
+                        <cell>92,7%</cell>
+                        <cell>93,4%</cell>
+                        <cell>93,5%</cell>
+                    </row>
+                    <row>
+                        <cell>Recall</cell>
+                        <cell>88,5%</cell>
+                        <cell>96,5%</cell>
+                        <cell>93,4%</cell>
+                        <cell>92,5%</cell>
+                    </row>
+                    <row>
+                        <cell>F1-Score</cell>
+                        <cell>91,3%</cell>
+                        <cell>94.6%</cell>
+                        <cell>93,4%</cell>
+                        <cell>93,0%</cell>
+                    </row>
+                    <row>
+                        <cell>Examples</cell>
+                        <cell>120</cell>
+                        <cell>211</cell>
+                        <cell>331</cell>
+                        <cell>331</cell>
+                    </row>
+                </table>
+                <table xml:id="d45e353">
+                    <head><hi rend="bold">Table 2:</hi>Evaluation metrics of category detection. </head>
+                    <row role="label">
+                        <cell/>
+                        <cell>Individual Entities</cell>
+                        <cell>Sectors</cell>
+                        <cell>Overall Market</cell>
+                        <cell>Micro</cell>
+                        <cell>Macro</cell>
+                    </row>
+                    <row>
+                        <cell>Precision</cell>
+                        <cell>92,5%</cell>
+                        <cell>76,2%</cell>
+                        <cell>77,1%</cell>
+                        <cell>82,5%</cell>
+                        <cell>81,9%</cell>
+                    </row>
+                    <row>
+                        <cell>Recall</cell>
+                        <cell>89,9%</cell>
+                        <cell>84,2%</cell>
+                        <cell>90,2%</cell>
+                        <cell>88,0%</cell>
+                        <cell>88,1%</cell>
+                    </row>
+                    <row>
+                        <cell>F1</cell>
+                        <cell>91,1%</cell>
+                        <cell>80,0%</cell>
+                        <cell>83,1%</cell>
+                        <cell>85,2%</cell>
+                        <cell>84,8%</cell>
+                    </row>
+                    <row>
+                        <cell>Examples</cell>
+                        <cell>69</cell>
+                        <cell>57</cell>
+                        <cell>41</cell>
+                        <cell>167</cell>
+                        <cell>167</cell>
+                    </row>
+                </table>
+                <table xml:id="d45e471">
+                    <head><hi rend="bold">Table 3:</hi>&gt;Evaluation metrics of aspect-based sentiment
+                        classification.</head>
+                    <row role="label">
+                        <cell/>
+                        <cell>Negative</cell>
+                        <cell>Mixed / Calm</cell>
+                        <cell>Positive</cell>
+                        <cell>Micro</cell>
+                        <cell>Macro</cell>
+                    </row>
+                    <row>
+                        <cell>Precision</cell>
+                        <cell>81.6%</cell>
+                        <cell>90.5%</cell>
+                        <cell>85.7%</cell>
+                        <cell>86.1%</cell>
+                        <cell>85.9%</cell>
+                    </row>
+                    <row>
+                        <cell>Recall</cell>
+                        <cell>88.6%</cell>
+                        <cell>85.7%</cell>
+                        <cell>83.5%</cell>
+                        <cell>86.1%</cell>
+                        <cell>85.9%</cell>
+                    </row>
+                    <row>
+                        <cell>F1-Score</cell>
+                        <cell>84.9%</cell>
+                        <cell>88.0%</cell>
+                        <cell>84.6%</cell>
+                        <cell>86.1%</cell>
+                        <cell>85.9%</cell>
+                    </row>
+                    <row>
+                        <cell>Examples</cell>
+                        <cell>105</cell>
+                        <cell>133</cell>
+                        <cell>79</cell>
+                        <cell>317</cell>
+                        <cell>317</cell>
+                    </row>
+                </table>
+                <p>Figure 3 shows aggregated monthly sentiment scores for every category. To
+                    identify trends, we applied twelve-month moving averages, which reveals clear
+                    periods of positive/negative sentiment. Some of them appear straightforward,
+                    such as the decline of sentiment after the stock market crash in 1873, others
+                    are more surprising. For example, there seems to be no trace of the financial
+                    turmoil that took place around 1900.</p>
+                <p><figure>
+                        <graphic url="Pictures/8eb0936e61601b8f4c52281086a2b034.png"/>
+                        <head><hi rend="bold">Figure 3: </hi> Monthly aspect-based sentiment scores,
+                            1872–1930, rolling 12 month averages. </head>
+                    </figure></p>
+            </div>
+            <div type="div1">
+                <head>Outlook</head>
+                <p>In this paper, we describe the process of annotating a corpus of historic German
+                    stock market reports with aspect-level sentiment. We focused on the
+                    methodological part, making our procedure as transparent as possible, enabling
+                    readers to comprehend the data if they intend to use it, once it is
+                    published.</p>
+                <p>Obviously, our results demand further in-depth
+                        analysis, both technical and historiographical. A more comprehensive historiographical interpretation
+                        of the results is part of plannedfuture work.A natural starting point will be to determine the
+                        correlation of the three indices with macro-historical data, such as stock
+                        market indices or GDP. Also, the training data could be extended to include
+                        concrete entities, which would allow us to identify individual companies. If
+                        we were able to provide company-level sentiment data, this could be combined
+                        with share price data that is created by other financial historians, opening
+                        the research on financial sentiment also to a business history
+                        perspective.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Akerlof, George A., Robert J. Shiller. </author>Animal spirits.
+                        Princeton, 2009. </bibl>
+                    <bibl>
+                        <author> Araci, Dogu. </author>„FinBERT: Financial Sentiment Analysis
+                        with Pre-trained Language Models“, 2019.</bibl>
+                    <bibl>
+                        <author> Hanna, Alan J., John D. Turner, Clive B. Walker. </author>„News
+                        Media and Investor Sentiment during Bull and Bear Markets“. The European
+                        Journal of Finance 26, 14 (2020): 1377–95.</bibl>
+                    <bibl>
+                        <author> García, Diego. </author>„Sentiment during Recessions“. The
+                        Journal of Finance 68, 3 (2013): 1267–1300.</bibl>
+                    <bibl><author> Kautsch, Jacob. </author>Handbuch des Bank- und Börsenwesens
+                        für Kaufleute, Industrielle, Kapitalisten, Bankiers und Bankbeamte. Mit
+                        besonderer Berücksichtigung Deutscher, Österreichischer und Schweizerischer
+                        Verhältnisse und den in Deutschland, Österreich und der Schweiz Geltenden
+                        Bank- und Börsengesetzen. Berlin, 1912.</bibl>
+                    <bibl><author> Krupke, Franz. </author>Krupkes Konversations-Lexikon der
+                        Börse und des Handels und praktischer Führer für Kapitalisten. Berlin,
+                        1904.</bibl>
+                    <bibl><author> Liebl, Bernhard Manuel Burghardt. </author>“From Historical
+                        Newspapers to Machine-Readable Data: The Origami OCR Pipeline.” Proceedings
+                        of the 1st Workshop on Computational Humanities Research (CHR)
+                        (2020).</bibl>
+                    <bibl><author> Loughran, Tim, Bill McDonald. </author>„When Is a Liability
+                        Not a Liability? Textual Analysis, Dictionaries, and 10-Ks“. The Journal of
+                        Finance 66, 1 (2011): 35–65.</bibl>
+                    <bibl><author> Malo, Pekka, Ankur Sinha, Pekka Korhonen, Jyrki
+                            Wallenius, Pyry Takala.</author> „Good Debt or Bad Debt: Detecting Semantic
+                        Orientations in Economic Texts“. Journal of the Association for Information
+                        Science and Technology 65, 4 (2014): 782–96.</bibl>
+                    <bibl><author> Mishev, Kostadin, Ana Gjorgjevikj, Irena Vodenska,
+                            Lubomir T. Chitkushev, Dimitar Trajanov. </author>„Evaluation of Sentiment
+                        Analysis in Finance: From Lexicons to Transformers“. IEEE Access 8 (2020):
+                        131662–82.</bibl>
+                    <bibl><author> Njølstad, Pål Christian S., Lars S. Høysæter, Wei Wei,
+                            Jon Atle Gulla.</author> „Evaluating Feature Sets and Classifiers for
+                        Sentiment Analysis of Financial News“. In 2014 IEEE/WIC/ACM International
+                        Joint Conferences on Web Intelligence (WI) and Intelligent Agent
+                        Technologies (IAT), 71–78. Warsaw, Poland: IEEE, 2014. </bibl>
+                    <bibl><author> Karimi Mahabadi, Rabeeh, Henderson, James, &amp; Ruder,
+                            Sebastian </author>(2021). Compacter: Efficient low-rank hypercomplex
+                        adapter layers. Advances in Neural Information Processing Systems, 34,
+                        1022-1035.</bibl>
+                    <bibl><author> Sinha, Ankur, Satishwar Kedas, Rishu Kumar, Pekka Malo.
+                        </author>„SEntFiN 1.0: Entity-Aware Sentiment Analysis for Financial News“.
+                        Journal of the Association for Information Science and Technology 73, 9
+                        (2022): 1314–35.</bibl>
+                    <bibl><author> Sun, Chi, Luyao Huang, and Xipeng Qiu. </author>“Utilizing
+                        bert for aspect-based sentiment analysis via constructing auxiliary
+                        sentence”. Proceedings of NAACL-HLT, 2019, 380–385.</bibl>
+                    <bibl><author> Tetlock, Paul C. </author>„Giving Content to Investor
+                        Sentiment: The Role of Media in the Stock Market“. The Journal of Finance
+                        62, 3 (2007): 1139–68.</bibl>
+                    <bibl><author> Tuckett, David. </author>Minding the markets: an emotional
+                        finance view of financial instability. Basingstoke, 2011.</bibl>
+                    <bibl><author> van Atteveldt, Wouter, Mariken A. C. G. van der Velden,
+                            Mark Boukes. </author>„The Validity of Sentiment Analysis: Comparing Manual
+                        Annotation, Crowd-Coding, Dictionary Approaches, and Machine Learning
+                        Algorithms“. Communication Methods and Measures 15, 2 (2021):
+                        121–40. </bibl>
+                    <bibl><author> Xing, Franz Z., Lorenzo Malandri, Yue Zhang, Erik
+                            Cambria. </author>„Financial Sentiment Analysis: An Investigation into
+                        Common Mistakes and Silver Bullets“. Proceedings of the 28th International
+                        Conference on Computational Linguistics, 2020, 978–87.</bibl>
+                    <bibl><author> Wilson, Theresa, Janyce Wiebe, Paul Hoffmann.
+                        </author>„Recognizing Contextual Polarity: An Exploration of Features for
+                        Phrase-Level Sentiment Analysis“. Computational Linguistics 35, 3 (2009):
+                        399–433.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exploring legacies of race and slavery in our historical information environment: text analysis of the <hi rend="italic">Encyclopaedia Britannica</hi></title>
+                <author n="CharltonAshCHARLTON_Ash_Exploring_legacies_of_race_and_slavery_in_our_h.xml"><persName ref="https://orcid.org/0000-0001-5825-1521" n="CharltonAsh">
+                        <surname>Charlton</surname>
+                        <forename>Ash</forename>
+                    </persName><affiliation>University of Edinburgh, United Kingdom</affiliation><email>a.r.charlton@sms.ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This research uses text analysis to interrogate early editions of Encyclopaedia Britannica (1768-1860) in exploring explicit and implicit references to slavery through the editions to understand how this changes diachronically. Combining close and distance reading methods, it raises important methodological questions about how we analyze legacies in historical information environments.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Text Mining</term>
+                    <term>Text Analysis</term>
+                    <term>Slavery</term>
+                    <term>Encyclopaedia Britannica</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>text mining and analysis</term>
+                    <term>Book and print history</term>
+                    <term>History</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>This research uses text analysis to interrogate early editions of 
+                    <hi rend="italic">Encyclopaedia Britannica</hi> (
+                    <hi rend="italic">EB</hi>) in exploring explicit and implicit references to slavery through editions to understand how this changes diachronically. Combining close and distance reading methods, it raises important methodological questions about how we analyze legacies in historical information environments.
+                </p>
+                <p>The first eight editions of the 
+                    <hi rend="italic">EB</hi> were published from 1768-1860, covering a period from the height of the transatlantic slave trade to abolition of the slave trade within the British Empire. As a popular reference publication that gathered knowledge of science and the arts which has an enduring legacy itself, these early editions offer an insight into how 
+                    <hi rend="italic">EB</hi> (and the society it served) portrayed and reinforced concepts of race and slavery. Using text analysis, this research interrogates our understanding of race and slavery in 
+                    <hi rend="italic">EB</hi> by exploring explicit and implicit links made through each edition, and how these change (or do not) diachronically. In doing so, it raises issues of how digital methods can be used to understand legacies of enslavement, and possibilities for decoloniality, within our information environment.
+                </p>
+            </div>
+            <div type="div1">
+                <head>History</head>
+                <p>Although individual entries in 
+                    <hi rend="italic">EB</hi> are often cited in historical research, the extent and depth of these editions mean that little attempt has been made to analyze them at scale. The first eight editions of 
+                    <hi rend="italic">EB</hi> comprise of 109,393 pages, from 135 volumes. Jeff Loveland’s 2019 study of European encyclopaedias claimed that “computers’ ability to recognize and interpret patterns of text remains limited” (Loveland 2019: 13). Despite this claim, in recent years there have been several encyclopaedia-focused digital humanities projects, including research on citation strategies in 
+                    <hi rend="italic">Encyclopédie</hi> (Edelstein et al. 2019), topic modelling of 
+                    <hi rend="italic">Encyclopédie</hi> to benefit research in classifications systems (Roe et al. 2016) and a study of automatic nineteenth century 
+                    <hi rend="italic">EB</hi> entry indexing (Grabus et al. 2019). These advances demonstrate that digital approaches offer possibilities for novel interpretation of information sources at scale. 
+                </p>
+                <p>The many references to race and slavery within 
+                    <hi rend="italic">EB</hi>’s pages are little-explored and although some entries have been quoted by researchers (Sebastiani 2013: 169, and Popkin, 1974: 257-258), they are otherwise difficult to connect. Vincent Brown has argued that addressing our historical records of slavery requires “rigorous and responsible creativity” and that archives are not simply the records themselves but encompass our research methods and tools and how researchers choose to visualize and share results (Brown 2015: 134). This research seeks to rigorously make connections through 
+                    <hi rend="italic">EB</hi> via creative digital means and make the results available in an accessible and visually engaging way. 
+                </p>
+            </div>
+            <div type="div1">
+                <head>Method of inquiry</head>
+                <p>Open-access and reusable data from the National Library of Scotland’s 
+                    <hi rend="italic">Data Foundry</hi> provides the basis of this research, using images from the 
+                    <hi rend="italic">EB</hi> dataset with handwritten text recognition platform Transkribus (READ-COOP 2022) to create a high-quality machine-readable dataset with fewer character errors than the original OCR (National Library of Scotland 2019). The “openness, transparency and practicality” of these datasets offer a firm opportunity for collaboration between the library and digital researchers (Ames &amp; Lewis 2020: 3). The resulting texts are being analyzed via a combination of close reading of encyclopaedia entries with quantitative digital analysis methods. This research primarily uses R within RStudio to conduct the text analysis and generate engaging data visualizations. Encyclopaedia entry headings extracted using the humanities toolbox for text-based archives, defoe, will also be used in conjunction with the analysis to generate network maps of connections in the text (Filgueira et al. 2019; 2021).
+                </p>
+                <p>This research uses topic modelling to closely examine the entries relating to slavery and enslavement to offer an overview of the concepts and how they change. The identification and frequency of selected keywords across all entries in editions offers an insight into intellectual interconnectivity between 
+                    <hi rend="italic">EB</hi> entries, both within singular editions and broader comparisons across multiple editions. These keywords are broadly grouped into three categories: commodities and trade, geographic terms, and identifying terms for people or organizations. By identifying which entries keywords appear in, and whether these are consistent across multiple editions, the connections between encyclopedia entries will be mapped to form an intellectual network. In doing this, the absence of keywords in entries where they may be expected, and the absence of entries, will also be examined to reveal legacies of race and slavery in 
+                    <hi rend="italic">EB</hi>.
+                </p>
+                <p>This research contribution has significant implications for several disciplines, especially the history of slavery, and encyclopaedia studies. It raises important methodological questions as to how we begin to develop best practice approaches for recognizing and analyzing the legacies within our information environment.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Ames, Sarah</author> / <author>Lewis, Stuart</author>  (2020): "Disrupting the Library: Digital Scholarship and Big Data at the National Library of Scotland", in: 
+                        <hi rend="italic">Big Data &amp; Society</hi> 7, 2: 1-7 <ref target="https://doi.org/10.1177/2053951720970576">https://doi.org/10.1177/2053951720970576</ref> [14.12.2021].
+                    </bibl>
+                    <bibl>
+                        <author>Brown, Vincent</author> (2015): "Mapping a Slave Revolt: Visualizing Spatial History through the Archives of Slavery", in 
+                        <hi rend="italic">Social Text</hi> 33, 4: 134–41 <ref target="https://doi.org/10.1215/01642472-3315826">https://doi.org/10.1215/01642472-3315826</ref> [27.06.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Edelstein, Dan</author> / <author>Morrissey, Robert</author> / <author>Roe, Glenn</author>  (2013) "To Quote or Not to Quote: Citation Strategies in the Encyclopédie", in 
+                        <hi rend="italic">Journal of the History of Ideas</hi> 74, 2: 213–36 <ref target="https://www.jstor.org/stable/43291299">https://www.jstor.org/stable/43291299</ref> [15.08.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Filgueira, Rosa</author> / <author>Jackson, Michael</author> / <author>Roubickova, Anna</author> / <author>Krause, Amrey</author> / <author>Ahnert, Ruth</author> / <author>Hauswedell, Tessa</author> / <author>Nyhan, Juliane</author> / <author>Beaven, David</author> / <author>Hobson, Timothy</author> / <author>Ardanuy, Mariana Coll</author> / <author>Colavizza, Giovanni</author> / <author>Hetehrington, James</author> / <author>Terras, Melissa</author>  (2019): "Defoe: A Spark-Based Toolbox for Analysing Digital Historical Textual Data", in 
+                        <hi rend="italic">2019 15th International Conference on EScience (EScience)</hi>: 235–42 <ref target="https://doi.org/10.1109/eScience.2019.00033">https://doi.org/10.1109/eScience.2019.00033</ref> [21.09.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Filgueira, Rosa</author> / <author>Grover, Claire</author> / <author>Karaiskos, Vasileios</author> / <author>Alex, Beatrice</author> / <author>Van Eyndhoven, Sarah</author> / <author>Gotthard, Lisa</author> / <author>Terras, Melissa</author>  (2021) "Extending Defoe for the Efficient Analysis of Historical Texts at Scale", in 
+                        <hi rend="italic">2021 IEEE 17th International Conference on EScience (EScience)</hi>: 21–29 <ref target="https://doi.org/10.1109/eScience51609.2021.00012">https://doi.org/10.1109/eScience51609.2021.00012</ref> [21.09.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Grabus, Sam</author> / <author>Greenberg, Jane</author> / <author>Logan, Peter</author> / <author>and Boone, Jane</author>  (2019): "Representing Aboutness: Automatically Indexing 19th- Century Encyclopedia Britannica Entries", in 
+                        <hi rend="italic">NASKO</hi> 23: 138–48 <ref target="https://doi.org/10.7152/nasko.v7i1.15635">https://doi.org/10.7152/nasko.v7i1.15635</ref> [03.08.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Loveland, Jeff</author> (2019): 
+                        <hi rend="italic">The European Encyclopaedia from 1650 to the Twenty-First Century</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl>
+                        <author>National Library of Scotland</author> (2019): "Encyclopaedia Britannica", in 
+                        <hi rend="italic">Data Foundry</hi> <ref target="https://data.nls.uk/data/digitised-collections/encyclopaedia-britannica/">https://data.nls.uk/data/digitised-collections/encyclopaedia-britannica/</ref> [28.10.2021].
+                    </bibl>
+                    <bibl>
+                        <author>Popkin, Richard</author> (1974): "The Philosophical Basis of Eighteenth-Century Racism". in 
+                        <hi rend="italic">Studies in Eighteenth-Century Culture</hi> 3: 245–62. <ref target="https://doi.org/10.1353/sec.1974.0016">https://doi.org/10.1353/sec.1974.0016</ref> [27.09.2021].
+                    </bibl>
+                    <bibl>
+                        <author>Roe, Glenn</author> / <author>Gladstone, Clovis</author> / <author>Morrissey, Robert</author>  (2016): "Discourses and Disciplines in the Enlightenment: Topic Modeling the French Encyclopédie", in 
+                        <hi rend="italic">Frontiers in Digital Humanities</hi> 2: 1-13 <ref target="https://www.frontiersin.org/articles/10.3389/fdigh.2015.00008">https://www.frontiersin.org/articles/10.3389/fdigh.2015.00008</ref> [03.08.2022].
+                    </bibl>
+                    <bibl>
+                        <author>Sebastiani, Silvia</author> (2013): 
+                        <hi rend="italic">The Scottish Enlightenment: Race, Gender, and the Limits of Progress</hi>. New York: Palgrave Macmillan.
+                    </bibl>
+                    <bibl>
+                        <author>READ-COOP</author> (2022): 
+                        <hi rend="italic">Transkribus</hi>: <ref target="https://readcoop.eu/transkribus/">https://readcoop.eu/transkribus/</ref> [16.01.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

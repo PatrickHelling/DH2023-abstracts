@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Analysis of Cyber Threats Affecting the Survivability of Online Digital Projects</title>
+                <author n="MenesesLuisMENESES_Luis_Analysis_of_Cyber_Threats_Affecting_the_Surviva.xml"><persName n="MenesesLuis">
+                        <surname>Meneses</surname>
+                        <forename>Luis</forename>
+                    </persName><affiliation>Vancouver Island University</affiliation><email>luis.meneses@viu.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MartinJonathanMENESES_Luis_Analysis_of_Cyber_Threats_Affecting_the_Surviva.xml"><persName n="MartinJonathan">
+                        <surname>Martin</surname>
+                        <forename>Jonathan</forename>
+                    </persName><affiliation>King’s College London</affiliation><email>jonathan.d.martin@kcl.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We propose to leverage public vulnerability scanners to examine the servers where online digital projects are hosted and list their common vulnerabilities. Provided in an anonymized, aggregated fashion, this assessment will shed light on our hypothesis: cyber threats are a significant factor in the degradation of online projects.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>degradation</term>
+                    <term>abandonment</term>
+                    <term>preservation</term>
+                    <term>cyber threats</term>
+                    <term>online digital humanities projects</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>digital archiving</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Fitzpatrick 
+                (Fitzpatrick 2011) focuses on the technological changes (notably greater utilization of Internet publication technologies and digital archiving) that are necessary to allow academic publishing to thrive into the future, highlighting that the key issues that must be addressed are social and institutional in origin.
+                 Along these lines, our research incorporates machine learning and data mining to address digital preservation questions, while focusing on identifying 
+                identify and managing the signs of degradation of online projects in the digital humanities (Meneses et al. 2020). </p>
+            <p>The degradation of online projects is not a binary problem, but one that occurs gradually. While recommendations are in place for creating stable and long-lasting resources 
+                (Arneil / Holmes / Newton 2019), online projects will show signs of degradation if they don’t receive updates, both in their content and in their underlying operating systems. “Bit rot” is a term used in digital archiving to describe the way digital files can spontaneously and quickly decompose. “Link rot” is more specific to the degradation of online projects: 
+                over time hyperlinks can cease to point to their originally target due to that resource being relocated to a new address or becoming permanently unavailable
+                (Spinellis 2003); which makes Web pages ephemeral 
+                (Markwell / Brooks 2002). However, identifying the gradual decomposition of online digital projects is a more nuanced problem.
+            </p>
+            <p>For this purpose, we have created a dataset based on the URLs for the companion websites that are referenced in the Book of Abstracts published by the 
+                Alliance of Digital Humanities Organizations from 2006 to 2022. Using this dataset, we have defined and identified the shelf life of its companion websites. The 
+                <hi rend="italic">shelf life is</hi> the average length of time that a companion website can endure without updates until it can ultimately be considered abandoned by its researcher, which we have approximated to 5 years (Meneses / Furuta).</p>
+            <p>This analysis has been a continuous process, in which we periodically create a set of WARC files for each online resource, which are processed using Python 
+                (van Rossum 1995) and Apache Spark 
+                (Apache Software Foundation 2017) to statistically analyze the retrieved HTTP response codes, number of redirects, DNS metadata and detailed examination of the contents and links returned by traversing the base node. This combination of metrics and techniques has allowed us to identify the most important signature for the degradation of a website in the dataset: the validity and overall health of the topology of links 
+                (Meneses et al. 2019). However, this analysis only paints a partial picture in assessing the degree of change of a website over time: the security of the hosts from where these online projects are served is an important factor that should be considered.
+            </p>
+            <p>We propose to leverage public vulnerability scanners (e.g. shodan.io) to examine the servers where online digital projects are hosted and list their common vulnerabilities. Provided in an anonymized, aggregated fashion, this assessment will shed light on our hypothesis: cyber threats are a significant factor in the degradation of online projects. These threats which might be malicious hacking, ransomware, or other bot-driven disruptions, are prevalent on the public Internet. With online projects increasingly turning to commercial service providers (quantified and mapped in our study), typically providing blank-slate unmanaged virtual servers with limited server administration and threat detection, the need for an assessment of the potential vulnerabilities of digital online projects becomes important. Our results will show numerous vulnerabilities that directly threaten the survivability of online digital projects.</p>
+            <p>Another problematic case that we propose to explore is when hosts serving online projects are also engaged in malicious activities (without the awareness of principal researchers). For this, we are extending our efforts by including the ADHO data and the resources referenced in Digital Humanities Quarterly. We will use public threat feeds (e.g. greynoise.io) to explore these cases. This analysis will help to further underscore the need for technical expertise to ensure the long-term survivability of online projects, and, as such, the intellectual history of the digital humanities. In the end, we intend this study to contribute to the efforts of the community towards the better preservation strategies to ensure the sustainability and viability of projects in the digital humanities.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Apache Software Foundation</author> (2017): 
+                        <hi rend="italic">Apache Spark: Lightning-fast cluster computing</hi>. http://spark.apache.org [letzter Zugriff 11. April 2017].
+                    </bibl>
+                    <bibl>
+                        <author>Arneil, Stewart</author> / 
+                        <author>Holmes, Martin</author> / 
+                        <author>Newton, Greg</author> (2019): 
+                        <hi rend="italic">Project Endings: Early Impressions From Our Recent Survey On Project Longevity In DH</hi>. Utrecht, The Netherlands.
+                    </bibl>
+                    <bibl>
+                        <author>Fitzpatrick, Kathleen</author> (2011): 
+                        <hi rend="italic">Planned Obsolescence: Publishing, Technology, and the Future of the Academy</hi>. New York: NYU Press.
+                    </bibl>
+                    <bibl>
+                        <author>Markwell, John</author> / 
+                        <author>Brooks, David W.</author> (2002): "Broken Links: The Ephemeral Nature of Educational WWW Hyperlinks", in: 
+                        <hi rend="italic">Journal of Science Education and Technology</hi> 11 (2): 105–108. 10.1023/a:1014627511641.
+                    </bibl>
+                    <bibl>
+                        <author>Meneses, Luis</author> / 
+                        <author>Furuta, Richard</author>: "Shelf life: Identifying the abandonment of online digital humanities projects", in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi>: 10.1093/llc/fqy079.
+                    </bibl>
+                    <bibl>
+                        <author>Meneses, Luis</author> / 
+                        <author>Martin, Jonathan</author> / 
+                        <author>Furuta, Richard</author> / 
+                        <author>Siemens, Ray</author> (2019): 
+                        <hi rend="italic">A Framework to Quantify the Signs of Abandonment in Online Digital Humanities Projects</hi>. Utrecht, The Netherlands.
+                    </bibl>
+                    <bibl>
+                        <author>Meneses, Luis</author> / 
+                        <author>Martin, Jonathan</author> / 
+                        <author>Furuta, Richard</author> / 
+                        <author>Siemens, Ray</author> (2020): 
+                        <hi rend="italic">Analyzing Link Topology to Quantify the Degree of Planned Obsolesce in Online Digital Humanities Projects</hi>. Ottawa, ON, Canada.
+                    </bibl>
+                    <bibl>
+                        <author>Spinellis, Diomidis</author> (2003): "The decay and failures of web references", in: 
+                        <hi rend="italic">Communications of the ACM</hi> 46 (1): 71–77. 10.1145/602421.602422.
+                    </bibl>
+                    <bibl>
+                        <author>van Rossum, Guido</author> (1995): 
+                        <hi rend="italic">Python tutorial, Technical Report CS-R9526</hi>. Amsterdam: Centrum voor Wikunde en Informatica (CWI). https://ir.cwi.nl/pub/5007/05007D.pdf.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Characters, names and reference</title>
+                <author n="JohnsenLarsJOHNSEN_Lars_Characters__names_and_reference.xml"><persName n="JohnsenLars">
+                        <surname>Johnsen</surname>
+                        <forename>Lars</forename>
+                    </persName><affiliation>National Library of Norway</affiliation><email>yoonsen@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KsenAndreJOHNSEN_Lars_Characters__names_and_reference.xml"><persName n="KsenAndre">
+                        <surname>Kåsen</surname>
+                        <forename>Andre</forename>
+                    </persName><affiliation>National Library of Norway</affiliation><email>Andre.kasen@nb.no</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>About representing characters in text. We present an analysis of pronouns, nouns and names in Norwegian novels. The purpose is to arrive at a discourse representation of texts, in terms of characters and their relationships and properties. We use the Norwegian national library and its digital resources for this purpose.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Novels</term>
+                    <term>literature</term>
+                    <term>representation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>semantic analysis</term>
+                    <term>text mining and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>In this presentation we go through some preliminary steps
+                towards the goal of analyzing Norwegian literary texts and map them to a discourse
+                representation. Such a representation makes texts available for a narrative
+                analysis, like extracting properties and relationships between characters, for
+                example along the lines of Piper (2017, 2016). </p>
+            <p>A character is modeled as its textual occurrences: names,
+                pronominal references and appellations. This will provide the basis for an
+                approximation to discourse models (e.g. Kamp and Reyle (1993)) and Piper (2016). For
+                example, a character “John” in the text “John drinks water, the guy was thirsty, and
+                he is happy”, the words “John”, "guy" and “he” form a chain (“John”,"guy", “he”),
+                which we take to represent the character named John. However, in this presentation
+                we will limit ourselves to proper names and pronouns. The character will in turn be
+                connected to the predicate, drinks, thirsty and happy. </p>
+            <p>The features we report on here is the inventory of
+                pronouns in Norwegian literature. How long are sequences of pronouns, and how many
+                are there in Norwegian novels? We split the pronouns up into several categories. </p>
+            <p>Among the referential pronouns are the first, second and
+                third persons, which in Norwegian are: first jeg, second du, third han (masc), hun
+                (fem), det (neut), den (genderless) as well as place indicators: dit and der
+                (there). Additionally there are case variants like possessive forms and accusative
+                as well as unexpressed pronouns like subjects of infinitives. We keep the relative
+                pronouns out from the counts, but will try to accommodate infinitives. We do not
+                take into consideration diegetic level, like indirect speech.</p>
+            <p>The actual counts for Norwegian are done using the digital
+                resources from the Norwegian National Library as well as the tools from its Digital
+                humanities lab (see digital resources). There are around 600 000 book texts
+                digitally available. For counting word occurences we select a subset equipped with
+                Dewey decimal number series 800 (general fiction), written between 1950 and 2022
+                with language code ‘nob (Norwegian bokmål)’, which contains approximately 100 000
+                individual books . In the table below there are two columns, one for all pronouns,
+                and one for the third person gendered pronouns (han, hun), where the numbers
+                indicate percentages of the total:</p>
+            <table xml:id="d148e183">
+                <head>Table 1:</head>
+                <row>
+                    <cell>all pronouns (3rd, 1st, 2nd,
+                        singual plural)</cell>
+                    <cell>The two gendered han, hun +
+                        accusative and genitive </cell>
+                </row>
+                <row>
+                    <cell>
+                        <p>mean 5.03</p>
+                        <p>std 1.78</p>
+                        <p>min 0.000578</p>
+                        <p>max 20.36</p>
+                    </cell>
+                    <cell>
+                        <p>mean 2.52</p>
+                        <p>std 1.30</p>
+                        <p>min 0.000459</p>
+                        <p>max 10.43</p>
+                    </cell>
+                </row>
+            </table>
+            <p>The maximum values clearly represents outliers, given the
+                standard deviation og about half the mean.</p>
+            <p>We illustrate how to compute the ratio of names to
+                pronouns by using the name recognition tool (see resources) which lets us analyze
+                the content of an arbitrary book. The table below has the numbers for two works:
+                Knut Hamsun’s “Markens grøde” and Agnar Mykle’s “Sangen om den røde rubin”.</p>
+            <table xml:id="d148e237">
+                <head>Table 2:</head>
+                <row>
+                    <cell>Hamsun “Markens grøde”</cell>
+                    <cell>Mykle “Sangen om den røde
+                        rubin”</cell>
+                </row>
+                <row>
+                    <cell>
+                        <p>PRON 15915 (pronouns)</p>
+                        <p>PROPN 6110 (names)</p>
+                    </cell>
+                    <cell>
+                        <p>PRON 20348 (pronouns</p>
+                        <p>PROPN 3731 (names)</p>
+                    </cell>
+                </row>
+            </table>
+            <p>These two novels show the suspected span between names and
+                pronouns, here ranging from about one third to one sixth. </p>
+            <p>The construction of reference chains goes through a series
+                of steps.Step 1 provides a parse of each sentence resulting in parts of speech,
+                syntactic relations and names of people. In step 2 we extract all relations of named
+                objects (e.g. protagonist) and also the list of pronouns. A shallow discourse is
+                constructed as a step 2, by linking the pronouns to their potential referents, here
+                taken to be the named objects. Step 3, final step, collects all names with their
+                properties, subj-verb, verb-obj, subj-pred, so that we get a bag of words connected
+                to each character. Then characters are compared using these cooccurrences</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>DH-lab at Norwegian National
+                            Library </author>
+                        <ref target="https://github.com/NationalLibraryOfNorway/DHLAB">https://github.com/NationalLibraryOfNorway/DHLAB</ref>
+                    </bibl>
+                    <bibl><author>NER</author> / <author>POS-tool</author> 
+                        <ref target="https://beta.nb.no/dhlab/navn-og-steder/">https://beta.nb.no/dhlab/navn-og-steder/</ref>
+                    </bibl>
+                    <bibl><author>Piper, Andrew </author>2017
+                        Studying Literary Characters and Character Networks, DH2017.</bibl>
+                    <bibl><author>Kamp, Hans. and Uwe Reyle</author>,
+                        1993, From Discourse to Logic, Dordrecht: Kluwer</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

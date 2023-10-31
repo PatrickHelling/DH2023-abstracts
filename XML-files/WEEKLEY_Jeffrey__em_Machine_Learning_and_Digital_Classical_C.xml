@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Machine Learning and Digital Classical Chinese Texts: Collaboration between the UC Computing Platform and Peking University's Big-Data databases.</title>
+                <author n="HuMinghuiWEEKLEY_Jeffrey__em_Machine_Learning_and_Digital_Classical_C.xml"><persName n="HuMinghui">
+                        <surname>Hu</surname>
+                        <forename>Minghui</forename>
+                    </persName><affiliation>University of California Santa Cruz, United States of America</affiliation><email>mhu@ucsc.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LiXiaoWEEKLEY_Jeffrey__em_Machine_Learning_and_Digital_Classical_C.xml"><persName n="LiXiao">
+                        <surname>Li</surname>
+                        <forename>Xiao</forename>
+                    </persName><affiliation>University of California Santa Cruz, United States of America</affiliation><email>xli422@ucsc.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WeekleyJeffreyWEEKLEY_Jeffrey__em_Machine_Learning_and_Digital_Classical_C.xml"><persName n="WeekleyJeffrey">
+                        <surname>Weekley</surname>
+                        <forename>Jeffrey</forename>
+                    </persName><affiliation>University of California Santa Cruz, United States of America</affiliation><email>jweekley@ucsc.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The project develops an open-source machine learning platform for East Asian Studies, the first one in the United States.Our platform will be so versatile that humanists will not have to devote time to learning various digital tools. With our sample codes and tutorials, researchers can conduct computer-aided research.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>machine learning</term>
+                    <term>python</term>
+                    <term>database</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>open access methods</term>
+                    <term>text mining and analysis</term>
+                    <term>Asian studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>We report an ongoing effort to apply state-of-the-art machine learning techniques on the massive and independent accumulation of classical Chinese databases, as a repeatable and malleable prototype using a continuous integration/continuous development (CI/CD) framework, interactive Jupyter Notebooks, shared data, and open-source software on the Nautilus Hyper-converged, distributed cluster. Nautilus is a cloud-like, national-level GPU/CPU resource; part of the NSF-supported National Research Platform; and has participants in North America, the Pacific Rim, and Europe. Nautilus allows researchers to scale from their laptop to hundreds of graphics processors or thousands of CPU cores easily and flexibly. Rather than recreating existing, massive Chinese databases (with their inherent and competing commercial interests and copyright issues), we leverage two databases co-developed by the National Library of China and the Research Center for Digital Humanities of Peking University to develop our prototype approaches. In order to avoid complex layers of international negotiation and agreement of replicating databases, we use the adaptability and flexibility of Nautilus to craft data-agnostic reproducible approaches and machine-learning toolkits that are generalizable yet customizable for many research investigations. We will report on current progress and future plans for this project.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Altintas, I., et al.</author> (2019, May). Workflow-driven distributed machine learning in CHASE-CI: A cognitive hardware and software ecosystem community infrastructure. In 2019 IEEE international parallel and distributed processing symposium workshops (IPDPSW).
+                    </bibl>
+                    <bibl><author>Bleeker, E., et al. </author>(2022). A Game of Persistence, Self-doubt, and Curiosity: Surveying Code Literacy in Digital Humanities. DH Benelux Journal.</bibl>
+                    <bibl><author>Liu, A., et al </author>(2017). Open, Shareable, Reproducible Workflows for the Digital Humanities: The Case of the 4Humanities. org" WhatEvery1Says" Project.</bibl>
+                    <bibl><author>Long, L., et al </author>(2022, May). Composable Infrastructures for an Academic Research Environment: Lessons Learned. In 2022 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW).</bibl>
+                    <bibl><author>Oberbichler, S., et al </author>(2022). Integrated interdisciplinary workflows for research on historical newspapers: Perspectives from humanities scholars, computer scientists, and librarians. Journal of the Association for Information Science and Technology.</bibl>
+                    <bibl><author>Olaru, O. </author>(2019). What is Digital Humanities and What’s It Doing in Romanian Departments?. Revista Transilvania.</bibl>
+                    <bibl><author>Sherratt, T. </author>(2019). GLAM workbench: Possibilities of collection data for research, experimentation, and collaboration.</bibl>
+                    <bibl><author>Tan, C. R. </author>(2021). The nascent case for adopting Jupyter notebooks as a pedagogical tool for interdisciplinary Humanities, Social Science, and Arts education. Computing in Science &amp; Engineering.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

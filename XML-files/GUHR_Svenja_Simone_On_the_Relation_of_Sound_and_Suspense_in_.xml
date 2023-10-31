@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On the Relation of Sound and Suspense in Literary Fiction</title>
+                <author n="GuhrSvenjaSimoneGUHR_Svenja_Simone_On_the_Relation_of_Sound_and_Suspense_in_.xml"><persName ref="https://orcid.org/0000-0002-7686-3609" n="GuhrSvenjaSimone">
+                        <surname>Guhr</surname>
+                        <forename>Svenja Simone</forename>
+                    </persName><affiliation>Technical University of Darmstadt, Germany</affiliation><email>svenja.guhr@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AlgeeHewittMarkAndrewGUHR_Svenja_Simone_On_the_Relation_of_Sound_and_Suspense_in_.xml"><persName ref="https://orcid.org/0000-0002-2628-588X" n="AlgeeHewittMarkAndrew">
+                        <surname>Algee-Hewitt</surname>
+                        <forename>Mark Andrew</forename>
+                    </persName><affiliation>Stanford University, U.S.</affiliation><email>malgeehe@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper applies a sound studies approach to a literary studies use case: Using a mixed-methods approach, we investigate whether there is a correlation between the description of sounds and suspenseful text passages in a 19th-century English novel corpus. Our hypothesis is that suspenseful passages contain more detailed descriptions of the story’s soundscape than unsuspenseful passages.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Computational Literary Studies</term>
+                    <term>Sound Studies</term>
+                    <term>Suspense</term>
+                    <term>English Novel Corpus</term>
+                    <term>19th century</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>artificial intelligence and machine learning</term>
+                    <term>cultural analytics</term>
+                    <term>text mining and analysis</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>Since the 1960s, Sound Studies has offered literary studies an innovative approach to the analysis of sounds and loudness (see i.a. Schaeffer 2017; Picker 2003; Snaith 2020). Originally sound is defined as physical vibrations transmitted through a medium such as the air from a source to, for example, the ear of a listener, who is ready to process the vibrations into information. In printed or digitized literary texts described sound cannot be processed in this way. Instead, sound is represented at the word level in the novel and only understood through an interpretation of the representation of the phenomenon, focusing on sound descriptions or onomatopoeia (Schafer 1994: 126; Rice 2015). </p>
+                <p>Early Sound Studies scholars, such as Schafer (1994), described changing soundscapes (composite of “sound” and “landscape”) over time, i.a., referring to literary texts (claiming that “writers of fiction were reliable ‘earwitnesses’ whose writings ‘constitute the best guide available in the reconstruction of soundscapes past’” (Schafer 1994: 9 in Snaith 2020: 20). Building on these approaches, e.g., Picker (2003) analyzes sounds in literature referring to Dickens’ soundscape descriptions of his Victorian London. Most recent studies can be found in the essay collection 
+                    <hi rend="italic">Literature and Sound</hi> edited by Snaith (2020) that deals with the examination of represented sound and hearing in literary texts.
+                </p>
+                <p>This paper applies a sound studies approach to a literary studies use case: we analyze whether there is a correlation between the diegetic description of ambient sounds and suspenseful text passages in a 19th century English novel corpus. Our approach is based on suspense theories in literary fiction drawing on previous narratological studies with particular attention to Brewer (1988) and Carroll (1996). According to them, “[a]dditional information is built into the discourse structure [of literary texts] [...] to stretch the story and increase suspense” by postponing the resolution of a conflict (Sánchez Penzo 2010: 31). </p>
+                <p>Our hypothesis is that suspenseful passages contain more detailed descriptions of the story’s ambient soundscape than unsuspenseful passages (e.g., the growl of a wild animal, the creaking of a wooden floor in a silent room). Such detailed descriptions of ambient sound stretch out the story and postpone the resolution of the conflict, which increases the level of suspense in the literary texts.</p>
+            </div>
+            <div type="div1">
+                <head>Analysis</head>
+                <p>In a mixed-methods approach, we analyzed the relationship between sound description and suspense in four steps:</p>
+                <p>(1) First, we compiled a text corpus of 55 19th century English fictional prose texts based on a selection of English novels and short stories rated as particularly suspenseful, which have already been annotated for suspense in an earlier project (Algee-Hewitt et al. 2015). </p>
+                <p>(2) We then manually annotated 21 novels and short stories (~1.3 Mio tokens, inter-annotator-agreement 0.80 Cohen’s 
+                    <hi rend="italic">kappa</hi> (Developers 2022)) following iteratively created annotation guidelines (cf. Reiter 2020) for the binary annotation (sound vs. no sound) of explicitly described ambient sounds in literary texts. The annotated corpus, as well as the annotation guidelines, and Jupyter notebooks used for the analysis are accessible via a GitHub repository (Guhr 2023).
+                </p>
+                <p>(3) 17 of the annotated novels served as training data for a classifier with a transfer learning approach (Kamath et al. 2019). The NEISS TEI Entity Enricher of the open-source NTEE software (cf. Flüh/Lemke 2022) was then trained for the automatic annotation of the other corpus texts with XML elements for detected ambient sounds. Four novels and short stories served as test data for the classifier evaluation (Precision: 0.65, Recall: 0.77, F1-score: 0.71).</p>
+                <p>(4) Finally, we related the annotated ambient sound descriptions to the passages in the corpus that were previously labeled as suspenseful. In a frequency analysis, we compared the absolute and qualitative frequency (sound word density) of occurrences of ambient sound words in the suspenseful passages with those in passages that were labeled as unsuspenseful.</p>
+                <figure>
+                    <graphic n="1001" width="14.609388888888889cm" height="7.016436111111111cm" url="Pictures/cb52e9f22896e662beaf3ad60eec48c5.png" rend="inline"/>
+                    <head>Figure 1. Sample annotation of ambient sound in a suspenseful passage of Conan Doyle’s 
+                        <hi rend="italic">The Brazilian Cat</hi>.
+                    </head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="14.637769444444444cm" height="10.939602777777777cm" url="Pictures/4cf366be42e415461117f3afa218ecac.png" rend="inline"/>
+                    <head>Figure 2. Visualization (generated with CATMA (Gius et al. 2022)) of the occurrences of ambient sound annotations in relation to annotated suspenseful passages in Conan Doyle’s 
+                        <hi rend="italic">The Brazilian Cat</hi>.
+                    </head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Results</head>
+                <p>We found that passages previously labeled as suspenseful had a greater density of sound words compared to passages that were labeled as unsuspenseful. Within suspenseful passages, it is notable that not only are detailed descriptions of sound used to delay the resolution of the respective conflict, but such passages also contain explicit representations of other sensory experiences. In a broader approach, the analysis of haptic or olfactory sensory descriptions could therefore be an extension of the study of suspense in literary texts.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Algee-Hewitt, Mark A.</author> / <author>Davis, Chelsea</author> / <author>Droge, Abigail</author> / <author>Eccles, Tasha</author> / <author>Eidem, Laura, Frank, Morgan</author> / <author>Fredner, Erik</author> / <author>Porter, Jack D.</author> / <author>Shephard, Andrew</author> / <author>Walser, Hannah</author>  (2015): “Suspense: Language, Narrative, Affect”, in: 
+                        <hi rend="italic">Book of Abstracts. ADHO Annual Conference</hi>, <ref target="https://dh-abstracts.library.cmu.edu/works/2362">https://dh-abstracts.library.cmu.edu/works/2362</ref> [07.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Carroll, Noël</author> (1996): “The Paradox of Suspense”, in Vorderer, Peter / Wulff, Hans Jürgen / Friedrichsen, Mike (eds.): 
+                        <hi rend="italic">Suspense: Conceptualizations, Theoretical Analyses, and Empirical Explorations, LEA’s Communication Series</hi>. Mahwah, N.J.: Erlbaum, 71–92.
+                    </bibl>
+                    <bibl>
+                        <author>Conan Doyle, Arthur</author> (1898): 
+                        <hi rend="italic">The Brazilian Cat</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Developers, Scikit-learn</author> (2022): “3.3. Metrics and scoring: quantifying the quality of predictions”, 
+                        <hi rend="italic">Scikit-learn</hi> <ref target="https://scikit-learn/stable/modules/model_evaluation.html">https://scikit-learn/stable/modules/model_evaluation.html</ref> [07.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Flüh, Marie</author> / <author>Lemke, Marc</author>  (2022): “An experimental attempt to use Transfer Learning for Named Entity Recognition in letters from the 19th and 20th century”, in: 
+                        <hi rend="italic">Book of Abstracts. ADHO Annual Conference</hi>, <ref target="https://dh2022.dhii.asia/dh2022bookofabsts.pdf">https://dh2022.dhii.asia/dh2022bookofabsts.pdf</ref> [07.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Gius, Evelyn</author> / <author>Meister, Jan Christoph</author> / <author>Meister, Malte</author> / <author>Petris, Marco</author> / <author>Bruck, Christian</author> / <author>Jacke, Janina</author> / <author>Schumacher, Mareike</author> / <author>Gerstorfer, Dominik</author> / <author>Flüh, Marie</author> / <author>Horstmann, Jan</author>  (2022): CATMA 6 (Version 6.5). 
+                        <hi rend="italic">Zenodo</hi>. DOI: 10.5281/zenodo.1470118.
+                    </bibl>
+                    <bibl>
+                        <author>Guhr, Svenja</author> (2023): “Sound and Suspense”, 
+                        <hi rend="italic">GitHub</hi> <ref target="https://github.com/SvenjaGuhr/Sound_and_Suspense">https://github.com/SvenjaGuhr/Sound_and_Suspense</ref> [07.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Kamath, Uday</author> / <author>Liu, John</author> / <author>Whitaker, James</author>  (2019): “Transfer Learning: Domain Adaptation”, in Kamath, Uday / Liu, John / Whitaker, James (eds.): 
+                        <hi rend="italic">Deep Learning for NLP and Speech Recognition</hi>, Basel: Springer International Publishing, 495–535. DOI: 10.1007/978-3-030-14596-5_11.
+                    </bibl>
+                    <bibl>
+                        <author>Picker, John M.</author> (2003): 
+                        <hi rend="italic">Victorian Soundscapes</hi>. Oxford: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <author>Reiter, Nils</author> (2020):“
+                        <author>Anleitung zur Erstellung von Annotationsrichtlinien</author>“,
+                        
+                         in Reiter, Nils / Pichler, Axel / Kuhn, Jonas: 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse: Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt</hi>
+                        
+                            , Berlin/Boston: De Gruyter. 
+                            DOI: 10.1515/9783110693973-009.
+                    </bibl>
+                    <bibl>
+                        <author>Rice, Tom</author> (2015): “Listening”, in Novak, David / Sakakeeny, Matt: 
+                        <hi rend="italic">Keywords in Sound</hi>, Durham: Duke University Press, 99–111.
+                    </bibl>
+                    <bibl>
+                        <author>Sánchez Penzo, Hannelore</author> (2010): 
+                        <hi rend="italic">Die Kunst der literarischen Spannung</hi>. Dissertationsschrift. Düsseldorf: Heinrich-Heine-Universität.
+                    </bibl>
+                    <bibl>
+                        <author>Schaeffer, Pierre</author> / <author>North, Christine</author> / <author>Dack, John</author>  (2017): “Treatise on Musical Objects: Essays across Disciplines”, in: 
+                        <hi rend="italic">California Studies in 20th-Century Music</hi>. Berkeley: University of California Press.
+                    </bibl>
+                    <bibl>
+                        <author>Schafer, R. Murray</author> (1994): 
+                        <hi rend="italic">The Soundscape: Our Sonic Environment and the Tuning of the World</hi>. Merrimac: Destiny Books.
+                    </bibl>
+                    <bibl>
+                        <author>Snaith, Anna</author> (ed) (2020): 
+                        <hi rend="italic">Sound and Literature</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

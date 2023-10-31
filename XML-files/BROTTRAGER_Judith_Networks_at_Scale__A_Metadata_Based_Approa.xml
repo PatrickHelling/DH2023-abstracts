@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Networks at Scale. A Metadata-Based Approach to Detecting Links Between
+                    Fanfiction-Communities</title>
+                <author n="BrottragerJudithBROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml"><persName ref="https://orcid.org/0000-0002-3108-8936" n="BrottragerJudith">
+                        <surname>Brottrager</surname>
+                        <forename>Judith</forename>
+                    </persName><affiliation>TU Darmstadt, Germany</affiliation><email>judith.brottrager@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GlawionAnastasiaBROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml"><persName ref="https://orcid.org/0000-0001-6140-1826" n="GlawionAnastasia">
+                        <surname>Glawion</surname>
+                        <forename>Anastasia</forename>
+                    </persName><affiliation>TU Darmstadt, Germany</affiliation><email>anastasia.glawion@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HergetKatharinaBROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml"><persName ref="https://orcid.org/0000-0002-4034-1067" n="HergetKatharina">
+                        <surname>Herget</surname>
+                        <forename>Katharina</forename>
+                    </persName><affiliation>TU Darmstadt, Germany</affiliation><email>katharina.herget@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WeitinThomasBROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml"><persName ref="https://orcid.org/0000-0002-9003-5746" n="WeitinThomas">
+                        <surname>Weitin</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>TU Darmstadt, Germany</affiliation><email>thomas.weitin@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This contribution demonstrates a metadata-based approach to analyzing user networks of a German-language fanfiction website. Initially divided into clusters based on louvain modularity, the network is further modified to reveal the level of mutual interaction between reader-writers. The links are then categorized by various attributes, including genre and age restriction.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>fanfiction</term>
+                    <term>network analysis</term>
+                    <term>metadata</term>
+                    <term>online communities</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>data modeling</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>social media analysis and methods</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Fanfiction is a growing practice. Ever since its beginning, either dated with
+                transformations of ancient literature (Farley 2016), unauthorized sequels around
+                1800 (Thomalla 2021) or rewritings of Sherlock Holmes in the late 19 <hi rend="superscript">th</hi> century (Cranfield 2014; Kuhns 2014), the practices
+                of fan writings have continuously evolved. </p>
+            <p>But even more, fanfiction is collaboration. Inspired by others’ original work,
+                interested “fanatics” share their favorites (texts, fandoms or even stars) and enjoy
+                the exchange of their fannish works. With the invention of Web 2.0 and the
+                (supposedly) limitless openness of the internet and its communities (Dobusch /
+                Dobusch 2022), specialized websites and communities for fans developed: from
+                self-hosted archives (e.g. <hi rend="italic">Archive of our Own</hi>, <hi rend="italic">Fanfiction.net</hi>) to commercial providers such as <hi rend="italic">Fanfiktion.de.</hi><ref target="#BROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml_ftn1" n="1"/> As fanfictions and fan communities have become more visible, their practices
+                gained research interest, with the fields of digital social reading (Pianzola 2021),
+                author-reader interaction (Hill / Pecoskie 2014), and genre-specific transformations
+                of the original’s canon (Brottrager et al. 2022) being only three examples. </p>
+            <p>Our ansatz focuses on fanfiction communities as networks of interaction (Carvallo /
+                Parra 2019), whereby we modeled a network of more than 28,000 users and their 56,000
+                reviews posted or updated on the German-speaking forum
+                <hi rend="italic">Fanfiktion.de </hi>in 2020 <hi rend="italic">.</hi> We explored this network using the modularity clustering algorithm
+                (Brandes et al. 2008), which enables the determination of communities in large
+                networks (Papadopoulos et al. 2012) by measuring the strength of clusters within the
+                network. Figure 1 shows the user-review network with its modularity clusters. </p>
+            <figure>
+                <graphic n="1001" width="16.51cm" height="12.311944444444444cm" url="Pictures/26b84e247b9f8c2dc783b07ce5c30553.png" rend="inline"/>
+                <head>Figure 1. User-review network of Fanfiktion.de users. Nodes represent users;
+                    links denote reviews. The colors stand for modularity clusters.</head>
+            </figure>
+            <p>Approaching the network as an assembly of clusters is inspired by the notion of
+                homophily that has dominated social network analysis in the past decades (McPherson
+                et al. 2001; Schaefer et al. 2011; Lee et al. 2019; Glawion 2023). Homophily in
+                social networks can be understood as ‘similarities attract' – interacting
+                individuals are more likely to have some other traits in common. Hence, our
+                expectation was that users of a cluster might be similar in some ways – perhaps in
+                their choice of fandoms, themes, genres or age restrictions.</p>
+            <p>Previous analyses of fanfiction networks have shown that despite the ideal of
+                collaborative fanfiction reader-writers, more traditional roles of author- and
+                readership are also present: When examining centrality measures such as out- and
+                indegree, a handful of star authors and hyperactive reviewers can be identified
+                (Weitin et al. [forthcoming]), who both conform to established dynamics of literary
+                production and consumption. In contrast to this, our analysis aims to identify a
+                level of interaction between users that represents the ideal of collaboration: Using
+                the geometric mean of in- and outgoing links (Rani et al. 2019), i.e. the number of
+                received and written reviews, we scale the network’s mid-level structure of
+                reader-writers. By combining in- and outdegree, the geometric mean allows to
+                identify users who write and review fanfictions; setting aside users who only
+                receive reviews—a characteristic of the forum’s stars—or only write reviews. Figure
+                2 represents a variation of Figure 1, now only showing users with a non-zero value
+                for the geometric mean.</p>
+            <figure>
+                <graphic n="1002" width="15.996708333333334cm" height="11.713986111111112cm" url="Pictures/d25fa551fd6dd40c00460cf175747f05.png" rend="inline"/>
+                <head>Figure 2. Variation of Figure 1, including only users with non-zero values for
+                    the geometric mean of in- and outdegree.</head>
+            </figure>
+            <p>Next, we explored each cluster’s metadata, including both node- and link-level
+                information. As each link represents reviews to particular texts, we aggregated the
+                metadata, extracting fandoms, age restrictions and genres of all texts of
+                intra-cluster links. Additionally, we employed two strategies of generalization for
+                all links: As <hi rend="italic">Fanfiktion.de</hi> allows combining several genre
+                tags, we extracted the ten most frequent individual tags and classified the links
+                based on these genres. We also identified the dominant age restriction of all texts
+                represented by each link. </p>
+            <p>While the clustering was done automatically, each group can be characterized by its
+                fandoms, parental guideline rating (PG) and genres: Examining Cluster 14, for
+                example, the purple cluster at the bottom of the network in Figure 2, we find a
+                structure dominated by fantastic literature, mostly featuring magical creatures
+                (“How to train a dragon”, “Eragon”, “Warrior Cats”), but also with a Sci-Fi
+                background (“Star Wars”, see Figure 3).</p>
+            <figure>
+                <graphic n="1003" width="16.499416666666665cm" height="9.276291666666667cm" url="Pictures/aa6a57769361f7a5fb7ed9b67cc57849.png" rend="inline"/>
+                <head>Figure 3. Metadata of Cluster 14: Fandoms (left), age recommendation (top
+                    right) and genres (bottom right). </head>
+            </figure>
+
+            <p>Additionally, these characteristics can be used to highlight links between different
+                clusters. Figure 3 also shows that Cluster 14 contains mostly fanfictions with plots
+                of adventure or fantasy. By identifying, for example, all links featuring fantasy as
+                a genre tag, clusters primarily based on fantasy references are revealed. The result
+                is shown in Figure 4, where the blue fantasy-links accentuate dense connections
+                between the Clusters 14, 16 and 0, with Cluster 0 mainly focusing on medieval
+                fantasy literature (“Lord of the Rings”, “The Hobbit”, “Song of Ice and Fire”,
+                “Merlin”). Cluster 16 is more diversified but prevailed by the long-time TV-series
+                “Supernatural” and the audio drama “The Three Investigators”.</p>
+            <figure>
+                <graphic n="1004" width="15.979069444444445cm" height="8.98525cm" url="Pictures/d03e1175831111624a691b0dfe7d4fa4.png" rend="inline"/>
+                <head>Figure 4. Variation of Figure 2, highlighting fantasy-links between different
+                    clusters.</head>
+            </figure>
+
+            <p>A second experiment addresses a unique fanfiction genre: slash <ref target="#BROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml_ftn2" n="2"/>. Mapping all slash-stories within the network in Figure 5 <ref target="#BROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml_ftn3" n="3"/> reveals a network-wide structure and multiple connections across clusters
+                with differences in density and connectivity. Various connections can be found
+                between the sports-Cluster 15 and Cluster 16 (Harry Potter), while Cluster 19
+                (K-POP) shows dense connections exclusively between intra-cluster nodes. Clusters
+                focusing on youth fandoms (e.g., 20, kids TV series) have hardly any slash-links,
+                probably due to younger users interacting with these fandoms. </p>
+            <figure>
+                <graphic n="1005" width="15.979069444444445cm" height="8.98525cm" url="Pictures/dedefb9767ae6e64a9b4d81b185fc2d4.png" rend="inline"/>
+                <head>Figure 5. Variation of Figure 2, highlighting slash-based links.</head>
+            </figure>
+            <p>As we have shown, the combination
+                    of a filtering mechanism and metadata-based analyses provides a productive
+                    approach to large networks, not only for community-detection but also for
+                    identifying shared attributes. These shared attributes across dense communities
+                    show that collaboration on fanfiction forums often transgresses fandoms and is
+                    based on more complex combinations of genre variations, providing additional
+                    insight into fannish reading and writing practices.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml_ftn1">
+                    <ref target="https://archiveofourown.org">https://archiveofourown.org</ref>,
+                            <ref target="https://www.fanfiction.net">https://www.fanfiction.net</ref>, <ref target="https://www.fanfiktion.de">https://www.fanfiktion.de</ref>. 
+                </note><note n="2" xml:id="BROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml_ftn2">
+                     The genre stands for stories about homoerotic romantic
+                        and/or sexual relationships. The name derives from the “Star Trek” fandom,
+                        where homoerotic fanfictions about Kirk and Spock have first been shortened
+                        to “K/S” and finally to slash (Coppa 2006: 48pp).
+                </note><note n="3" xml:id="BROTTRAGER_Judith_Networks_at_Scale__A_Metadata_Based_Approa.xml_ftn3">
+                     In our corpus, the slash-identifier is linked to the
+                        age recommendation, see Figure 3.
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Brandes, Ulrik</author> / <author>Delling, Daniel</author> / <author>Gaertler, Marco</author> / <author>Gorke, Robert</author> / <author>Hoefer, Martin</author> / <author>Nikoloski, Zoran</author> / <author>Wagner, Dorothea</author> 
+                        (2008): „On Modularity Clustering“, in: <hi rend="italic">IEEE Transactions
+                            on Knowledge and Data Engineering</hi> 20, 2: 172–88. DO:
+                        10.1109/TKDE.2007.190689. </bibl>
+                    <bibl>
+                        <author>Brottrager, Judith</author> / <author>Doat, Joël</author> / <author>Häußler, Julian</author> / <author>Weitin, Thomas</author>  (2022): „Character Shifts in Harry Potter Fanfiction“, in:
+                        Weitin, Thomas (ed): <hi rend="italic">LitLab Pamphlet #10</hi>.
+                        <ref target="https://www.digitalhumanitiescooperation.de/pamphlet-10-character-shifts-in-harry-potter-fanfiction">https://www.digitalhumanitiescooperation.de/pamphlet-10-character-shifts-in-harry-potter-fanfiction</ref>
+                        [18.4.2023]. </bibl>
+                    <bibl>
+                        <author>Carvallo, Andrés</author> / <author>Parra, Denis</author>  (2019): „Analyzing
+                        Network Effects on a Fanfiction Community“,
+                        <ref target="https://arxiv.org/abs/1909.02886">https://arxiv.org/abs/1909.02886</ref> [18.4.2023]. DOI:
+                        10.48550/ARXIV.1909.02886. </bibl>
+                    <bibl>
+                        <author>Coppa, Francesca</author> (2006): „A Brief History of Media
+                        Fandom“, in: Hellekson, Karen / Busse, Kristina (eds): <hi rend="italic">Fan
+                            Fiction and Fan Communities in the Age of the Internet: New Essays</hi>.
+                        Jefferson, N.C: McFarland &amp; Co 41–59. </bibl>
+                    <bibl>
+                        <author>Cranfield, Jonathan</author> (2014): „Sherlock Holmes, Fan
+                        Culture and Fan Letters“, in: Ue, Tom / Cranfield, Jonathan (eds.): <hi rend="italic">Fan Phenomena: Sherlock Holmes</hi>. Bristol: Intellect
+                        Books 110–17. </bibl>
+                    <bibl>
+                        <author>Dobusch, Laura</author> / <author>Dobusch, Leonhard</author>  (2022): „Wie offen
+                        sind ‚offene‘ Online-Gemeinschaften? Inklusion, Exklusion und die Ambivalenz
+                        von Schließungen“, in: <hi rend="italic">Kölner Zeitschrift für Soziologie
+                            und Sozialpsychologie</hi> 74, 1: 257–81. DOI:
+                        10.1007/s11577-022-00836-5. </bibl>
+                    <bibl>
+                        <author>Farley, Shannon K</author>. (2016): „Versions of Homer:
+                        Translation, Fan Fiction, and Other Transformative Rewriting“, in: <hi rend="italic">Transformative Works and Cultures</hi> 21. DOI:
+                        10.3983/twc.2016.0673. </bibl>
+                    <bibl>
+                        <author>Glawion, Anastasia</author> (2023): <hi rend="italic">Remembering World War II: A Mixed-Methods Exploration of Memory
+                            Practices on an Online Forum</hi>. Berlin, Heidelberg: Springer. DOI:
+                        10.1007/978-3-662-66708-8. </bibl>
+                    <bibl>
+                        <author>Hill, Heather L.</author> / <author>Pecoskie, Jen</author>  (2014): „Iterations
+                        and Evolutions: Paratext and Intertext in Fanfiction“, in: Desrochers,
+                        Nadine / Apollon, Daniel (eds.): <hi rend="italic">Examining Paratextual
+                            Theory and Its Applications in Digital Culture</hi>. Hershey, PA: IGI
+                        Global: 143–60. </bibl>
+                    <bibl>
+                        <author>Kuhns, Luke Benjamen</author> (2014): „Doyle or Death? An
+                        Investigation into the World of Pastiche“, in: Ue, Tom / Cranfield, Jonathan
+                        (eds.): <hi rend="italic">Fan Phenomena: Sherlock Holmes</hi>. Bristol:
+                        Intellect Books 52–59. </bibl>
+                    <bibl>
+                        <author>Lee, Sun Kyong</author> / <author>Kim, Heewon</author> / <author>Piercy, Cameron W.</author> 
+                        (2019): „The Role of Status Differentials and Homophily in the Formation of
+                        Social Support Networks of a Voluntary Organization“, in: <hi rend="italic">Communication Research</hi> 46, 2: 208–35. DOI:
+                        10.1177/0093650216641501. </bibl>
+                    <bibl>
+                        <author>McPherson, Miller</author> / <author>Smith-Lovin, Lynn</author> / <author>Cook, James M.</author> 
+                        (2001): „Birds of a Feather: Homophily in Social Networks“, in: <hi rend="italic">Annual Review of Sociology</hi> 27, 1: 415–44. DOI:
+                        10.1146/annurev.soc.27.1.415. </bibl>
+                    <bibl>
+                        <author>Papadopoulos, Symeon</author> / <author>Kompatsiaris, Yiannis</author> / <author>Vakali, Athena</author> / <author>Spyridonos, Ploutarchos</author>  (2012): „Community Detection in
+                        Social Media: Performance and Application Considerations“, in: <hi rend="italic">Data Mining and Knowledge Discovery</hi> 24, 3: 515–54.
+                        DOI: 10.1007/s10618-011-0224-z. </bibl>
+                    <bibl>
+                        <author>Pianzola, Federico</author> (2021): <hi rend="italic">Digital
+                            Social Reading: Sharing Fiction in the 21st Century</hi>
+                        <ref target="https://wip.mitpress.mit.edu/digital-social-reading">https://wip.mitpress.mit.edu/digital-social-reading</ref> [18.4.2023]. </bibl>
+                    <bibl>
+                        <author>Rani, Poonam</author> / <author>Bhatia, M. P. S.</author> / <author>Tayal, D. K.</author>  (2019):
+                        „A Soft Computing-Based Approach to Group Relationship Analysis Using
+                        Weighted Arithmetic and Geometric Mean“, in: Bhattacharyya, Siddhartha /
+                        Hassanien, Aboul Ella / Gupta, Deepak / Khanna, Ashish / Pan, Indrajit
+                        (eds): <hi rend="italic">International Conference on Innovative Computing
+                            and Communications</hi>, 56:171–78. Lecture Notes in Networks and
+                        Systems. Singapore: Springer. DOI: 10.1007/978-981-13-2354-6_19. </bibl>
+                    <bibl>
+                        <author>Schaefer, David R.</author> / <author>Kornienko, Olga</author> / <author>Fox, Andrew M.</author> (2011).
+                        „Misery Does Not Love Company: Network Selection Mechanisms and Depression
+                        Homophily“, in: <hi rend="italic">American Sociological Review</hi> 76, 5:
+                        764–85. DOI: 10.1177/0003122411420813. </bibl>
+                    <bibl>
+                        <author>Thomalla, Erika</author> (2021): „Der geraubte Räuber:
+                        Fanfiction aus der Romanfabrik um 1800 (Vulpius, Brückner)“, in: <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und
+                            Geistesgeschichte</hi> 95, 4: 377–95. DOI: 10.1007/s41245-021-00134-6. </bibl>
+                    <bibl>
+                        <author>Weitin, Thomas</author> / <author>Bühler, Jill</author> / <author>Brottrager, Judith</author> / <author>Glawion, Anastasia</author> / <author>Doat, Joël</author>  (forthcoming): „Autorschaft und
+                        literarische Kommunikation in Fanfiction-Portalen. Harry Potter auf
+                        Fanfiktion.de“, in: <hi rend="italic">Zeitschrift für Literaturwissenschaft
+                            und Linguistik</hi>, 1–22. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

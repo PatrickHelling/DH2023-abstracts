@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The use of digital tools for the characterisation of archaeological sites by
+                    surface archaeological survey </title>
+                <author n="TobalinaPulidoLeticiaTOBALINA_PULIDO_Leticia_The_use_of_digital_tools_for_the_cha.xml"><persName n="TobalinaPulidoLeticia">
+                        <surname>Tobalina-Pulido</surname>
+                        <forename>Leticia</forename>
+                    </persName><affiliation>Insituto de Ciencias del Patrimonio - CSIC, Spain</affiliation><email>leticia.tobalina-pulido@incipit.csic.es</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>During the year 2021 we carried out intensive archaeological surveys at several sites of Roman chronology in the Iberian Peninsula. The recording of materials in the field was carried out using GPS. The data collected have allowed us to characterise them, at least partially, by inserting the data into GIS.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>GIS</term>
+                    <term>spatial analyses</term>
+                    <term>archaeological survey</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Archaeology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>During the year 2021 we carried
+                    out intensive archaeological surveys at several sites of Roman chronology in the
+                    Iberian Peninsula (Navarra, Spain; North Alentejo, Portugal). These
+                    archaeological surveys are part of a project to analyze the dynamics of Roman
+                    and Late Antique settlement in the Iberian Peninsula (Dynat-Inc Project)
+                    (Tobalina-Pulido, 2019). The aim of the poster is to present the methodology
+                    employed in the archaeological field recording and subsequent analysis of the
+                    data through the use of digital humanities.</p>
+            <p>The recording of materials in
+                    the field was carried out using GPS (both constructive and ceramic material),
+                    based on the methodology proposed by F. Trément (Trément, 2013). Each of the
+                    materials was georeferenced with a GPS, mapping the different areas prospected.
+                    In some zones we have been able to carry out, in turn, drone flights, which have
+                    allowed us two things: 1) to obtain bird's-eye views of the sites, 2) to
+                    generate cartography when we lacked it (in the case of Portugal). The objective
+                    was to characterize the sites in order to try to determine their chronology,
+                    extension and posible(s) use(s).</p>
+            <p>Once the data was collected in
+                    the field, we carried out a study of the materials and uploaded the data (both
+                    GPS data and material inventories) to a GIS. This allows us to know where each
+                    of the materials was located in the field and to be able to perform GIS
+                    distribution analysis. The use of GIS for settlement characterization has been
+                    very popular in recent years, since it allows the management of a large volume
+                    of data (Mayoral Herrera &amp; Sevillano Perea, 2016; Mínguez García &amp;
+                    Capdevila Montes, 2016). In our case, data management is carried out by means of
+                    a relational database. We have used ArcGIS software for both data management and
+                    analysis. The analyses carried out were as follows. Firstly, a visualisation of
+                    the cloud of points was carried out, in order to be able to observe clustering.
+                    Secondly, we have carried out density analyses of all the materials together, by
+                    type of material and by type of pottery, in order to be able to observe whether
+                    it is possible to detect different uses in the same site.</p>
+            <p>The use of spatial relational
+                    databases and GIS allows for a better understanding of rural settlement patterns
+                    (Tobalina Pulido, 2020). In the Portuguese case, we have been able to
+                    characterise a Roman settlement (Carneiro, 2005), possibly a metallurgical
+                    centre or part of a village; in the case of Navarre, it is a Roman villa
+                    (Iriarte Kortazar, 2000; ), with possible continuity in the Late Antique period,
+                    in which we can clearly distinguish through analysis the different areas of the
+                    complex. Therefore, the poster will present the methodology used in the field,
+                    the methodology used in GIS and, finally, the results of two case studies will
+                    be presented, one in Alto Alentejo (Portugal) and the other in Navarra
+                    (Spain).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Carneiro, A.</author>
+                         (2005):
+                        <hi rend="italic">Carta
+                            Arqueológica do Concelho de Fronteira</hi>
+                        . Cámara municipal de
+                            Fronteira.
+                    </bibl>
+                    <bibl>
+                        <author>Iriarte Kortazar,
+                            A.</author>
+                         (2000): 
+                        <hi rend="italic">Algunos elementos
+                            de cultura material tardorromana procedentes de la “villa” de San Blas
+                            (Olite, Navarra).</hi>
+                        Cuadernos de Arqueología
+                            de La Universidad de Navarra, 8, 197–206.
+                    </bibl>
+                    <bibl>
+                        <author>Mayoral Herrera, V., &amp; Sevillano Perea, L. A. </author>
+                        (2016): “Tecnologías de
+                            información geográfica y prospección arqueológica problemática general y
+                            algunos casos de studio”, in: M. del C. Mínguez García &amp; E.
+                            Capdevila Montes (Eds.), Manual de Tecnologías de la Información
+                            Geográfica aplicadas a la Arqueología (pp. 79–114). Museo Arqueológico
+                            Regional.
+                    </bibl>
+                    <bibl>
+                        <author>Mínguez García, M.
+                            del C., &amp; Capdevila Montes, E.</author>
+                         (2016): Manual de tecnologías de la información geográfica aplicadas a la arqueología. Museo Arqueológico Regional.
+                    </bibl>
+                    <bibl>
+                        <author>Tobalina-Pulido,
+                            L.</author>
+                         (2019): De l’Èbre moyen aux Pyrenées : dynamiques spatiales et temporelles du peuplement rural durant l’Antiquité Tardive (III-VII p.C.). Analyse dans un contexte de données floues. [Pau]. 
+                        <ref target="http://www.theses.fr/2019PAUU1072">http://www.theses.fr/2019PAUU1072</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Tobalina Pulido,
+                            L.</author>
+                         (2020):
+                        <hi rend="italic">Methodological
+                            Proposal for the Study of Temporal and Spatial Dynamics during the Late
+                            Period between the Middle Ebro and the Pyrenees.</hi>
+                         Information, 11(7), 366. <ref target="https://doi.org/10.3390/info11070366">https://doi.org/10.3390/info11070366</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Trément, F.</author>
+                         (2013): Les Arvernes et leurs voisins du massif central à l’époque romaine Tome 1. Société des Amis des Universités de Clermont-Ferrand.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

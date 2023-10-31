@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GitMA Poster</title>
+                <author n="MeisterMalteMEISTER_Malte_GitMA_Poster.xml"><persName ref="https://orcid.org/0000-0002-9670-3573" n="MeisterMalte">
+                        <surname>Meister</surname>
+                        <forename>Malte</forename>
+                    </persName><affiliation>Technische Universität Darmstadt, Germany</affiliation><email>meister@linglit.tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GerstorferDominikMEISTER_Malte_GitMA_Poster.xml"><persName ref="https://orcid.org/0000-0002-8095-2540" n="GerstorferDominik">
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName><affiliation>Technische Universität Darmstadt, Germany</affiliation><email>dominik.gerstorfer@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SchumacherMareikeKatharinaMEISTER_Malte_GitMA_Poster.xml"><persName ref="https://orcid.org/0000-0002-7952-4194" n="SchumacherMareikeKatharina">
+                        <surname>Schumacher</surname>
+                        <forename>Mareike Katharina</forename>
+                    </persName><affiliation>Technische Universität Darmstadt, Germany</affiliation><email>schumacher@linglit.tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GiusEvelynMEISTER_Malte_GitMA_Poster.xml"><persName ref="https://orcid.org/0000-0001-8888-8419" n="GiusEvelyn">
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName><affiliation>Technische Universität Darmstadt, Germany</affiliation><email>evelyn.gius@tu-darmstadt.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Since CATMA version 6.0 project data can be accessed in the form of Git repositories. A Python library which enables easy access to this data was developed at the department of Digital Philology at the Technical University of Darmstadt. It makes it possible to further process annotations using established and popular Python data science tools. The poster will serve as a kind of instruction manual for the use of the CATMA Git Access and the Python library.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>CATMA</term>
+                    <term>Git</term>
+                    <term>Python</term>
+                    <term>Data</term>
+                    <term>Visualization</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>systems and information architecture and usability</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>To remember something does not merely mean to save it, but also to retrieve it and process it further. Only when processed further does the memory gain meaning. This observation applies 
+                <hi rend="italic">a fortiori</hi> to technical storage systems. The benefit of a piece of software is, especially in the Digital Humanities, determined by the possibilities to export, convert, archive and further process with other tools or systems the generated data. With this poster we will present new possibilities (including a variety of visualizations and the calculation of agreement scores) that exist to retrieve and further process annotation data from CATMA (Gius et al. 2022).
+            </p>
+            <p>CATMA (Computer Assisted Text Markup and Analysis) is a collaborative text annotation and analysis platform which is well established in the Digital Humanities and is actively used by many projects
+                <hi rend="sup">1,2</hi>. Exports of annotations, especially in the XML-TEI format, have already been an important part of the CATMA software since version 3 (Petris / Meister 2016; Petris 2017). However, up until and including CATMA 5, data could only be accessed via the graphical user interface (GUI). Since version 6.0 the data that are generated by users are stored and version controlled in a 
+                <ref target="https://git-scm.com/">Git</ref>-based backend.
+            </p>
+            <p>The exact details about the data structures are documented on the CATMA website (Petris 2020): Each document, each annotation collection, as well as each tagset is separately represented in the backend. Especially important for the further processing of annotation data are the separate pieces of information that represent distinct annotations:</p>
+            <list type="unordered">
+                <item>a reference to the corresponding document</item>
+                <item>the exact placement of the annotated text segment (as so-called start and end-offsets, which reference the character positions within the text)</item>
+                <item>a reference to the tag (the annotation category) that was utilized as well as the tagset (a named collection of tags) from which it stems</item>
+                <item>possibly properties (pre-defined extending attributes) and their values</item>
+                <item>author of the annotation</item>
+                <item>timestamp of the annotation</item>
+            </list>
+            <p>Since the introduction of the Git-based backend users can access their own data, as well as those that have been shared with them, in the form of Git repositories. These function as an application programming interface (API) for the retrieval of annotation data, which can be downloaded to the local computer or processed further using other tools.</p>
+            <p>In addition, a 
+                <ref target="https://github.com/forTEXT/gitma">Python library</ref> (Vauth et al. 2022) which enables easy access to the data within the Git repositories directly from the coding environment was developed at the department of Digital Philology at the Technical University of Darmstadt. It makes it possible to further process annotations using established and popular Python data science tools, for example as a 
+                <ref target="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html">Pandas DataFrame</ref>. Among other things, the Python library allows for the calculation of Inter-Annotator Agreement or the creation of visualizations, such as for tracking annotation progress and further exploration of the annotations. In this way not only the evaluation of annotations, but also rapid identification and immediate correction of annotation errors is made possible.
+            </p>
+            <p>The overall objective of the Git Access is to make CATMA data directly accessible, so that users aren’t necessarily limited by those functionalities that already exist in CATMA. Thereby the workflow encompassing annotation, evaluation of annotations and revision of annotations can be accelerated significantly and easily adapted. This is especially relevant for users that are concerned with the organization and evaluation of annotations — for example in the context of larger collaborative research projects or in lecture settings.</p>
+            <p>We will present this workflow in detail with our poster. Thus the poster is also meant to serve as a kind of instruction manual for the use of the CATMA Git Access and to present best practices. The following steps will be covered:</p>
+            <list type="ordered">
+                <item>Prerequisites for accessing the CATMA GitLab API</item>
+                <item>Installation of the GitMA Python library (or rather a Docker image which covers all requirements)</item>
+                <item>Cloning the repositories</item>
+                <item>Accessing the data using Python</item>
+                <item>Examples of annotation exploration and evaluation</item>
+            </list>
+            <p><hi rend="sup">1</hi>For example, CATMA appears in the Awesome Digital Humanities list at 
+                <ref target="https://dh-tech.github.io/awesome-digital-humanities/">https://dh-tech.github.io/awesome-digital-humanities/</ref>, the TAPoR Tools-Index at 
+                <ref target="https://tapor.ca/tools/1469">https://tapor.ca/tools/1469</ref> and in “Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften” (Frey-Endres / Simon 2021).
+            </p>
+            <p><hi rend="sup">2</hi>Of course CATMA is not the only tool of its kind. You can find many other similar and not-so-similar tools and a wide range of other resources in a number of curated lists and indices, for example: the Awesome Digital Humanities list at 
+                <ref target="https://dh-tech.github.io/awesome-digital-humanities/">https://dh-tech.github.io/awesome-digital-humanities/</ref> (which itself links to other such collections under the heading “Other Resources”), theTAPoR Tools-Index at 
+                <ref target="https://tapor.ca/">https://tapor.ca/</ref>, the annual results of the Digital Humanities Awards at 
+                <ref target="http://dhawards.org/dhawards2022/results/">http://dhawards.org/dhawards2022/results/</ref>(most recent at time of writing) and “Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften” (Frey-Endres / Simon 2021).
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Frey-Endres, Marcel</author> / <author>Simon, Tobias</author>  (2021): “Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften”, in: 
+                        <hi rend="italic">Digital Philology | Working Papers in Digital Philology 02|2021</hi>. Darmstadt: TUPrints. <ref target="https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf">https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf</ref> [18.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Gius, Evelyn</author> / <author>Meister, Jan Christoph</author> / <author>Meister, Malte</author> / <author>Petris, Marco</author> / <author>Bruck, Christian</author> / <author>Jacke, Janina</author> / <author>Schumacher, Mareike</author> / <author>Gerstorfer, Dominik</author> / <author>Flüh, Marie</author> / <author>Horstmann, Jan</author>  (2022): 
+                        <hi rend="italic">CATMA 6 (Version 6.5)</hi>. <ref target="https://catma.de/">https://catma.de/</ref> [18.04.2023]. DOI: 10.5281/zenodo.1470118.
+                    </bibl>
+                    <bibl>
+                        <author>Petris, Marco</author> (2017): “TEI Export Format”, in: 
+                        <hi rend="italic">CATMA</hi>. <ref target="https://catma.de/documentation/access-your-project-data/tei-export-format/">https://catma.de/documentation/access-your-project-data/tei-export-format/</ref> [18.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Petris, Marco</author> (2020): “Git Access”, in: 
+                        <hi rend="italic">CATMA</hi>. <ref target="https://catma.de/documentation/access-your-project-data/git-access/">https://catma.de/documentation/access-your-project-data/git-access/</ref> [18.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Petris, Marco</author> / <author>Meister, Malte</author>  (2016): “Technology and Versions”, in: 
+                        <hi rend="italic">CATMA</hi>. <ref target="https://catma.de/documentation/technology-and-versions/">https://catma.de/documentation/technology-and-versions/</ref> [18.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Vauth, Michael</author> / <author>Meister, Malte</author> / <author>Hatzel, Hans Ole</author> / <author>Gerstorfer, Dominik</author> / <author>Gius, Evelyn</author>  (2022): 
+                        <hi rend="italic">GitMA (Version 1.4.9)</hi>. <ref target="https://github.com/forTEXT/gitma">https://github.com/forTEXT/gitma</ref> [18.04.2023]. DOI: 10.5281/zenodo.5669221.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

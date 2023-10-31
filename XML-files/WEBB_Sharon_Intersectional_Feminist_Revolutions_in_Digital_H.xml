@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Intersectional Feminist Revolutions in Digital Humanities – approaches,
+                    histories, and methods </title>
+                <author n="WebbSharonWEBB_Sharon_Intersectional_Feminist_Revolutions_in_Digital_H.xml"><persName ref="https://orcid.org/0000-0002-4148-7324" n="WebbSharon">
+                        <surname>Webb</surname>
+                        <forename>Sharon</forename>
+                    </persName><affiliation>University of Sussex, United Kingdom</affiliation><email>sharon.webb@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ChevalierCcileWEBB_Sharon_Intersectional_Feminist_Revolutions_in_Digital_H.xml"><persName ref="https://orcid.org/0000-0003-4764-1078" n="ChevalierCcile">
+                        <surname>Chevalier</surname>
+                        <forename>Cécile</forename>
+                    </persName><affiliation>University of Sussex, United Kingdom</affiliation><email>c.chevalier@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NajiJeneenWEBB_Sharon_Intersectional_Feminist_Revolutions_in_Digital_H.xml"><persName ref="https://orcid.org/0000-0002-7479-0143" n="NajiJeneen">
+                        <surname>Naji</surname>
+                        <forename>Jeneen</forename>
+                    </persName><affiliation>Maynooth University, Ireland</affiliation><email>jeneen.naji@mu.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FubaraManuelIreneWEBB_Sharon_Intersectional_Feminist_Revolutions_in_Digital_H.xml"><persName ref="https://orcid.org/0000-0002-7373-5302" n="FubaraManuelIrene">
+                        <surname>Fubara-Manuel</surname>
+                        <forename>Irene</forename>
+                    </persName><affiliation>University of Sussex, United Kingdom</affiliation><email>i.fubara-manuel@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FoxIzzyWEBB_Sharon_Intersectional_Feminist_Revolutions_in_Digital_H.xml"><persName ref="https://orcid.org/0000-0003-3705-1904" n="FoxIzzy">
+                        <surname>Fox</surname>
+                        <forename>Izzy</forename>
+                    </persName><affiliation>Maynooth University, Ireland</affiliation><email>izzy.fox@mu.ie</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HillLaurenceWEBB_Sharon_Intersectional_Feminist_Revolutions_in_Digital_H.xml"><persName ref="https://orcid.org/0000-0002-6859-5106" n="HillLaurence">
+                        <surname>Hill</surname>
+                        <forename>Laurence</forename>
+                    </persName><affiliation>University of Sussex, United Kingdom</affiliation><email>l.c.hill@sussex.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This panel provides a broad overview of the Full Stack Feminism project and its activities. It includes a detailed analysis of feminist approaches to practice-based research methodologies, interview collation, listening, and storytelling, that arise from our investigations into public DH creation processes from back end, to middleware, to front end.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>feminist digital humanities</term>
+                    <term>queer digital humanities</term>
+                    <term>intersectional feminism</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>meta-criticism (reflections on digital humanities and humanities
+                        computing)</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Feminist studies</term>
+                    <term>Gender and sexuality studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Panel Overview</head>
+                <p>How has, and how can, intersectional feminist methods,
+                    praxis, and theories shape digital humanities?  How can we, as a digital
+                    humanities community, embrace and embed feminist thinking into our everyday work
+                    practices and in the projects we develop and collaborate on? What tools and
+                    methods do we need to create more inclusive and socially aware technological
+                    infrastructures, systems, and code? These are the questions being asked by ‘Full
+                    Stack Feminism in Digital Humanities’ (FSFDH), a two-year project funded jointly
+                    by UK and Irish research councils. Full Stack Feminism (FSF) is akin to Tara
+                    McPherson’s (2018:27) approach and examination of ‘designing for difference’.
+                    This includes thinking about and responding to feminist concerns, but also, as
+                    Alan Liu (McPherson 2018:28) states, to the ‘full register of society,
+                    economics, politics, and culture’. FSF is a trans, inter disciplinary research
+                    project which develops an intersectional feminist framework for digital arts and
+                    humanities (DH) practice and research.  The ‘Full Stack’ metaphor accounts for a
+                    commitment to review and critique all stages of the development and data life
+                    cycle – from design to implementation, from the processes of datafication to
+                    dissemination, critiquing every stack from the code right through the
+                    infrastructure layers above. This panel reflects upon the feminist revolution in
+                    digital humanities and of the feminist foundations in DH upon which the project
+                    is built.</p>
+                <p>Digital humanities (DH) have a history of challenging
+                    the status quo and of embracing alternative means of knowledge production. As
+                    such, the panel explores how intersectional feminism methods and praxis can help
+                    to develop a more open, and inclusive, DH. The opportunity for collaboration in
+                    this space is vast and beneficiaries broad. This panel, and the project
+                    discussed, is therefore a response to the varied calls within DH for more
+                    inclusive practices, with broader community engagement across intersectional
+                    lines of identity politics.  It explores how feminist epistemology, praxis and
+                    methods can contribute to shaping DH as an intellectual field which responds to
+                    structural inequalities within and beyond its boundaries</p>
+                <p>The panel is comprised of members of the FSFDM team
+                    and explores the various ways in which the research project collaborates across
+                    academic disciplines and different communities of interest. We provide a broad
+                    overview of the project and its activities as well as more detailed analysis of
+                    feminist approaches to practice-based research methodologies, interview
+                    collation, listening, and storytelling, that arise out of our investigations.
+                    The panel will explore elements of our FSF framework, which consists of three
+                    stacks: (1) data and archives; (2) infrastructure, tools and code; and (3)
+                    dissemination, integration and access - specifically explored through Webb,
+                    Chevalier and Naji’s contributions. From this foundation panel members,
+                    Fubara-Manuel and Fox, discuss feminist methodologies and praxis such as
+                    critical (con)fabulation and story-telling, both methods of decentrying and
+                    narratorial recreation or empowerment. Lastly, given the central role of
+                    critical digital arts practice within the project, the panel concludes with
+                    Hill’s reflections on the curatorial role in remaking, or revisioning future
+                    heritage. </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Full Stack Histories and Foundations – Sharon Webb</hi></p>
+                <p>Full Stack Feminism responds to calls across academia
+                    and society to rethink the way in which we approach the production, creation,
+                    development and roll out of technology. It stems from ongoing collaborations
+                    between project partners in Ireland and the UK, and is part of a strategic
+                    effort by Irish and UK funding councils for closer co-ordination on Digital
+                    Humanities across the two political entities, across political divides. Webb’s
+                    panel contribution therefore, describes the foundations of the project,
+                    acknowledging its roots in feminist revolutions in DH, as well as in the history
+                    of feminist interventions across the sub-discipline, Feminist Science and
+                    Technology Studies, or STS.  As D’Ignazio and Klein (2016) state, feminist STS,
+                    which developed in the 1970s and 1980s, ‘allows us to see how all knowledge is
+                    situated, [and] how certain perspectives are excluded from the current knowledge
+                    regime’. FSF takes seriously the history of exclusion from current knowledge
+                    regimes, now embedded across our digital knowledge infrastructures, and takes
+                    inspiration from bell hooks' (1984) 'from margin to centre' by aspiring to
+                    include community voices as a location of expert knowledge within the project.
+                    It reflects current work within DH and cognate fields that work to decentre
+                    dominant voices and perspectives by embedding intersectional feminist praxis
+                    across project life-cycles. Webb’s panel contribution will explore the “full
+                    stack” metaphor utilised in this project and provide an overview of work within
+                    Stack 1: Data and Archives. </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Feminist Building and Listening - Cécile Chevalier</hi></p>
+                <p>The second panel contribution introduces elements of
+                    the work and rationale within stack 2, ‘infrastructures, tools and code’ . It
+                    engages with deconstructing machine learning, and technological eco-systems
+                    whilst exploring alternative computational systems as a mean to gain autonomy.
+                    Chevalier’s presentation explores alternative forms of building, sustainable and
+                    autonomous, collective memory and community-led heritage, specifically from
+                    marginalized, oppressed, or altogether omitted histories. Collectively, we
+                    understand that in the computational automomy is (im)possible. Autonomy requires
+                    a sense of position and orientations, to be able to know where compromise can
+                    take place, so one can have the ability shape alternative models and
+                    pathways.</p>
+                <p>Stack 2 recognises the need to return to a human foci
+                    and for the basic need of listening to be considered as a necessary tool in
+                    navigating inherited and future computational bias. In this respect,
+                    Chevalier‘‘s panel contribution considers feminist listening as framework for
+                    intersectional feminist thinking that is <hi rend="italic">making trouble</hi>
+                    (hooks 1989, Butler 1999, Ahmed 2016); it creates resistance against oppressions
+                    related to social identities, and contributes to forms of liberation as becoming
+                    a <hi rend="italic">collectivity of trouble</hi> (Butler 1999, Ahmed 2016). This
+                    can be seen as trouble as: a dislodgement of mechanisms of power; social and
+                    cultural imaginary to an alternate past, present &amp;/or future; the
+                    mobilisation of collective expressions and recognitions. Drawing from concepts
+                    of 'freedom of listening' (Lacey, 2013, LaBelle,2021), feminist listening evokes
+                    agency of 'trouble' as a conscious act, that requires shifting acoustic order
+                    with orientation and politics of location. </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Digital Art as a Feminist Interface - Jeneen Naji </hi></p>
+                <p>The last stack in the FSF framework is concerned with
+                    Access, Experience and Integration. Stack 3 can be considered the “front end”
+                    and relates to the ways in which digital tools, resources, and ‘archives’ are
+                    accessed and experienced by users, by consumers, by archivists, and ways in
+                    which knowledge and digital cultural heritage is accessible or indeed
+                    inaccessible. In all cases accessibility in digital archives is mediated through
+                    the interface, interfaces matter and are an important entry point into DH for
+                    the public. For example, Ruberg et. Al (2018: 110) note that, as feminist
+                    scholars they recognise that computational tools are not apolitical, they have
+                    an impact, they structure meaning, and visualisations craft interpretation. As
+                    such an interface can be seen as a space in which meaningful embodied
+                    interaction takes place in a networked environment, or an interface can be seen
+                    as a component of a digital work in which case it operates more like an index to
+                    specific content (Drucker 2019, 3). Naji’s panel contribution as such discusses
+                    feminist HCI as a design methodology that seeks to incorporate feminist values
+                    such as inclusion, diversity and social justice in the development of
+                    interactive media. FSFDH’s stack 3 therefore proposes that as per McPherson
+                    (2018) the use of feminist HCI methodologies (Bardzell 2010) can make the case
+                    for digital art texts to operate as archival interfaces in order to maximise
+                    public understanding in DH and create a milieux for intersectional cultural
+                    heritage.  </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Critical (Con)Fabulations: Fabricating Other Worlds in the
+                        Meantime - Irene Fubara-Manuel </hi></p>
+                <p>There are gaps in archives that the collection of
+                    artefacts will never close without addressing power relations. Power deepens the
+                    gaps of the archive through the renarration of stories that then build and
+                    mobilise ways of organising the world. Such ways of organising the world are
+                    embedded in the design of technologies that continue the cycle of archival
+                    violence. The theorist and historian Saidiya Hartman (2008) has posed critical
+                    fabulation as a method to test the limits of archives through combining archival
+                    renarration with fiction. To critically fabulate is to tell stories from
+                    archives in ways that not only address the gaps but also speak truth to power in
+                    the present and connect to other futures. Borrowing Hartman’s proposed method,
+                    Fubara-Manuel’s panel contribution considers the opportunities of critical
+                    (con)fabulation as an intersectional feminist intervention in digital
+                    humanities. It asks what worlds might emanate when those othered through the
+                    gaps of the archive, not only critically confabulate but also collaboratively
+                    fabricate technologies that best serve them. Connecting stacks one (digital
+                    archives) and two (code and infrastructure) this presentation will flesh out
+                    intersectional feminist and queer theories of fabulation. It will then expand on
+                    creative practices that implement the methods of critical confabulation. </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Storytelling as Embodied Knowledge: De-centring Dominant
+                        Perspectives in DH - Izzy Fox </hi></p>
+                <p>Fox’ panel contribution explores how research project
+                    recognises storytelling as a mode of knowledge production and collaborates with
+                    communities traditionally marginalised within DH. This approach is one of the
+                    ways in which the project actively serves to decentre dominant perspectives,
+                    histories, technologies and practices. The importance of storytelling as a
+                    feminist epistemology is also reflected in the findings from interviews with
+                    digital practitioners, including artists, archivists, scholars and coders, whose
+                    work reflects an intersectional feminist ethos. Furthermore, the interviewees
+                    understand that the act of storytelling, through their archival, artistic or
+                    scholarly practice, is an embodied endeavour, because: “In the process of
+                    storytelling…The speech is seen, heard, smelled, tasted and touched” (Trinh
+                    1989: 121). Archiving oral histories; documenting dance practice; and animating
+                    archival artefacts represent some of the ways in which the interviewees
+                    foreground embodiment through processes of digitally-mediated storytelling to
+                    centre marginalised lives, experiences and knowledges. The interviewees are
+                    drawn from community and scholarly contacts, as well as the diasporic
+                    connections, of the research team. While the knowledge, or knowledges, of the
+                    team is diverse and intersectional, we understand that biases and exclusions may
+                    exist due to our own positionality, within academic institutions, living in the
+                    UK and Ireland. In this sense, we draw on Donna Haraway’s term “situated
+                    knowledges” (1988), which recognises that knowledge is shaped by who we are and
+                    the contexts in which we exist. Acknowledging this allows us to better
+                    understand and respond to the stories retold in our project interviews.  </p>
+            </div>
+            <div>
+                <p><hi rend="bold">Curating an Unsettling: non-human assemblages and future
+                        heritages - Laurence Hill</hi></p>
+                <p>If the work of the project is in part to decentre
+                    dominant narratives in the field of DH, the curatorial role requires reflection
+                    on the state of the (digital) art. The decentring of the predominantly cishet,
+                    male, technocentric and western-oriented epistemologies within which digital art
+                    is largely situated invites an alternative curatorial collaboration. This
+                    unseating (Preciado 2020: 20) in curatorial practice requires collaboration with
+                    a non-human assemblage - a concept in which technology is allied with
+                    individuals from groups whose identities have been historically categorised as
+                    less than human through frameworks of social and scientific racism, homophobia,
+                    transphobia, cissexism, disablism and neurotypicality. The curatorial
+                    collaboration with the non-human assemblage does the work of decentring the
+                    predominant epistemologies of digital art by ‘undoing and unsettling’ them, an
+                    act of disruption and activism through curatorial practice. As such Hill’s panel
+                    contributions draws upon the concept of ‘undoing and unsettling’ from Katherine
+                    McKittrick’s work about the writer and cultural critic Sylvia Wynter (McKittrick
+                    2015: 2). This ‘undoing and unsettling’ is generative in reconsidering the
+                    frameworks and contexts in which digital art is produced and presented. As FSFDH
+                    demonstrates, the market and cultural dominance of a small number of tech
+                    companies requires a different approach than overnight coups - it requires acts
+                    of undoing and unsettling, of unpicking. If the heritage to come is being
+                    written now, the result of this interventive collaboration, which includes
+                    curation, is a redoing, a revisioning of a future heritage that is
+                    revolutionarily different.</p>
+            </div>
+
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ahmed, Sara</author> (2016): “Interview with Judith Butler” in: 
+                            <hi rend="italic">Sexualities</hi>,  <hi rend="italic">19</hi>(4),
+                        482–492. </bibl>
+                    <bibl>
+                        <author>Bardzell, Shaowen</author> (2010): “Feminist HCI: taking stock
+                        and outlining an agenda for design” in: <hi rend="italic">Proceedings of the
+                            SIGCHI Conference on Human Factors in Computing Systems (CHI '10)</hi>.
+                        Association for Computing Machinery: New York, USA, 1301–110 </bibl>
+                    <bibl>
+                        <author>Butler, Judith</author> (1999): <hi rend="italic">Gender
+                            Trouble: Feminism and the Subversion of Identity</hi>. London:
+                        Routledge. </bibl>
+                    <bibl>
+                        <author>D’Ignazio, Catherine</author> / <author>Lauren F. Klein</author>  (2016):
+                        “Feminist Data Visualization” in: <hi rend="italic">Workshop on
+                            Visualization for the Digital Humanities at EEE VIS Conference</hi>. </bibl>
+                    <bibl>
+                        <author>Haraway, Donna </author>(1988): “Situated
+                        knowledges: the science question in feminism and the privilege of partial
+                        perspective”, in:
+                        <hi rend="italic">Feminist Studies </hi>14, 3: 575-599. </bibl>
+                    <bibl>
+                        <author>Hartman, Saidiya</author> (2008): “Venus in two acts,” in: <hi rend="italic">Small Axe: A Caribbean Journal of Criticism</hi>, 12, 2:
+                        1–14. </bibl>
+                    <bibl>
+                        <author>hooks, bell</author>
+                         (1984
+                        <hi rend="italic">)</hi>
+                        :
+                        <hi rend="italic"> Feminist Theory: From Margin to Center</hi>
+                        . London: Pluto Press.
+                    </bibl>
+                    <bibl>
+                        <author>hooks, bell </author>
+                        (1989): 
+                        <hi rend="italic">Thinking Feminist, Thinking Black</hi>
+                        . Massachusetts: South End Press.
+                    </bibl>
+                    <bibl>
+                        <author>LaBelle, Brandon</author> (2021): <hi rend="italic">Acoustic
+                            Justice. Listening, Performativity, and the Work of Reorientation</hi>.
+                        London: Bloomsbury Publishing. </bibl>
+                    <bibl>
+                        <author>Lacey, Kate</author>
+                         (2013): 
+                        <hi rend="italic">Listening Publics: The Politics and
+                            Experience of Listening in the Media Age</hi>
+                        . Cambridge: Polity Press.
+                    </bibl>
+                    <bibl>
+                        <author>McKittrick, Katherine </author>
+                        (2015): 
+                        <hi rend="italic">Sylvia Wynter: On Being Human as Praxis</hi>
+                        . Durham: Duke University Press
+                    </bibl>
+                    <bibl>
+                        <author>McPherson, Tara</author> (2018):
+                        <hi rend="italic">Feminist in a Software Lab: Difference + Design. </hi>Massachusetts
+                        :Harvard University Press </bibl>
+                    <bibl>
+                        <author>Preciado, Paul</author> (2020):
+                        <hi rend="italic"> Can the Monster Speak?</hi> London:
+                        Fitzcarraldo Editions </bibl>
+                    <bibl>
+                        <author>Ruberg, Bonnie</author> / <author>Boyd, Jason</author> / <author>Howe, James</author>  (2018):
+                        “Toward a Queer Digital Humanities”, in : Losh, Elizabeth/ Wernimont,
+                        Jacqueline (eds): <hi rend="italic">Bodies of Information: Intersectional
+                            Feminism and the Digital Humanities</hi>. Minneapolis: University of
+                        Minnesota Press 108-128. </bibl>
+                    <bibl>
+                        <author>Smith, Terry</author> (2021): <hi rend="italic">Curating the
+                            Complex &amp; The Open Strike</hi>. London: Sternberg Press </bibl>
+                    <bibl>
+                        <author>Trinh, Thi Minh-Ha</author> (1989): <hi rend="italic">Woman,
+                            Native, Other: Writing Postcoloniality and Feminism</hi>. Vol. 503.
+                        Indiana University Press.   </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

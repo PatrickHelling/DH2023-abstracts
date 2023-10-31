@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Mapping German Fiction in Translation</title>
+                    <title type="sub"> Visualizing Translationalism in the German National Library
+                        Catalogue</title>
+                </title>
+                <author n="TeichmannLisaTEICHMANN_Lisa_Mapping_German_Fiction_in_Translation.xml"><persName n="TeichmannLisa">
+                        <surname>Teichmann</surname>
+                        <forename>Lisa</forename>
+                    </persName><affiliation>Université de Montréal, Canada</affiliation><email>lisa.teichmann@mail.mcgill.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper I present a bibliographic dataset of German fiction in translation consisting of over 35,000 translated titles and 6,000 authors extracted from the German National Library. I further propose a quantitative model for visualizing translationalism in the catalogue by combining social network analysis, descriptive statistics, and geomapping.
+            </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract><p>In this paper I present a bibliographic dataset of German fiction in translation consisting of over 35,000 translated titles and 6,000 authors extracted from the German National Library. I further propose a quantitative model for visualizing translationalism in the catalogue by combining social network analysis, descriptive statistics, and geomapping.
+            </p></abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>geomapping</term>
+                    <term>bibliographic data models</term>
+                    <term>German National Library catalogue</term>
+                    <term>German fiction in translation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>bibliographic analysis</term>
+                    <term>cultural analytics</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Book and print history</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    <term>Translation studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>According to the Index Translationum, German is one of the most translated languages
+                worldwide (Index Translationum, “Statistics”). To this date, however, tools to map
+                and explore the routes of literary transfer of German literature through translation
+                have only been marginally developed (Rühl and Bold 2016; Ivanovic and Seidl 2016;
+                Gerber 2008, Reynolds and Vitali 2021) and comprehensive datasets on German fiction
+                in translation are yet to be curated. Furthermore, even though a methodological
+                framework for the analysis of translation as a network of transfer has long taken
+                shape within the field of translation sociology (Bachleitner and Wolf 2004, Heilbron
+                1999, Sapiro 2016) and especially polysystem theory (Even-Zohar 1979), to date there
+                is still a lack of quantitative models for bibliographic translation data and a “Big
+                Translation History” (Fólica et al. 2020) of German fiction. </p>
+            <p>In response to the sparsity of translation datasets and models of analysis, I have
+                curated a dataset and developed a quantitative model for German fiction in
+                translation as part of my doctoral thesis and a research internship with the German
+                National Library Datenshop. Due to its collection policies and data accessibility,
+                the German National Library catalogue is an immensely rich open resource for
+                bibliographic data with translations of German fiction accounting for 3.5% of
+                catalogued fiction titles. To visualize and analyze translation data of German
+                fiction – that is German fiction translated into other languages – geographically
+                and as a network, I used the library catalogue’s data fields on language, author,
+                and publication place ­within the RStudio environment.</p>
+            <p>I extracted all the titles of translated German fiction between 1980 and 2020 from
+                the catalogue with the help of a customized search query. The resulting dataset, the
+                first of its kind for this library catalogue, consists of over 35,000 translated
+                titles and 6,000 translated authors. By presenting the first quantitative study of
+                German fiction in translation, with visualizations of the bibliographic data from
+                the German National Library catalogue, this project contributes to making this rich
+                resource of bibliographic data as well as a quantitative model of analysis
+                accessible within and beyond the field of Digital Humanities (DH), German and
+                Translation Studies, and Comparative Literature.</p>
+            <p>I argue that making use of the wealth of bibliographic data available and modeling
+                German fiction in translation is long overdue, especially since the possible
+                findings have important implications for the core arguments in literary studies at
+                large and German Studies specifically — canonization, world literature versus
+                national literatures, and literary communities. In line with scholars such as Susan
+                Bassnett (2014), Doris Bachmann-Medick (2009), Emily Apter (2013), and Rebecca
+                Walkowitz (2017), my aim is to widen the theoretical implications to focus on
+                transfer, literary networks, and the global distribution of works of literature by
+                drawing on translation as an analytical category. The underlying hypothesis of my
+                model of analysis is that the translations’ languages connect places by shared
+                authors. Visualizing the language network by shared, translated authors reveals
+                connections between literary communities that transgress unilingual canons and
+                therefore challenges categories of “national”, “canonical”, and “world” literature.
+                Accordingly, I see this project contributing to the translational turn in German
+                Studies, expanding the concept of literary transfer by applying a language network
+                model and visualizing connections between linguistic communities of translated
+                authors.</p>
+            <p>For this paper, I will present my dataset and model of analysis, a combination of
+                social network analysis, descriptive statistics, and geomapping aiming to discuss
+                where, into which languages, and which authors’ German fiction is most frequently
+                translated. I further ask, what are the roles of canonical authors in the global
+                circulation of German fiction in translation and those of non-canonical
+                (translational) authors in connecting linguistic and literary communities in
+                geographic space? My results indicate that routes of literary transfer through
+                translation are highly centralized and interconnected in few languages but have also
+                revealed the importance of peripheral languages and non-canonical authors in these
+                processes. As I argue, factoring in translation as its own analytical category and
+                visualizing the roles it plays in the national and global canonization of an author
+                or work of fiction challenges our understanding of the national and the world
+                literary canons of German fiction.</p>
+            <p>By curating and making available the dataset as well as the code scripts for
+                analysis, this project further adds to the quantitative turn in translation studies
+                as well as multilingual DH by presenting a multilingual dataset and offering
+                solutions in working with bibliographic translation data across different languages.
+                Within translation sociology, this project draws heavily on field theory by
+                conceptualizing the translational field as a space where translationalism — the
+                notion that characterizes authors whose work in translation connects multiple
+                linguistic communities in geographic space — takes shape. Thereby, my analysis not
+                only addresses the roles of specific languages and authors, but also utilizes their
+                connections and routes of transfer to visualize their positionings in the field of
+                translation. Additionally, pointing out catalogue-specific features that pose
+                limitations for extracting and analyzing translations opens up a discussion on the
+                (in)visibility of translations in literary studies, library and information
+                sciences, critical archival studies, and DH.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Apter, Emily S. </author>
+                        <hi rend="italic">Against World Literature: On the Politics of
+                            Untranslatability</hi>. London ; New York: Verso, 2013. </bibl>
+                    <bibl>
+                        <author>Bachleitner, Norbert, and Michaela Wolf. </author>
+                        “Auf dem Weg zu einer Soziologie der literarischen Übersetzung im
+                            deutschsprachigen Raum.” 
+                        <hi rend="italic">Internationales Archiv für Sozialgeschichte der deutschen
+                            Literatur (IASL)</hi> 29, no. 2 (December 2004): 1–25. <ref target="https://doi.org/10.1515/IASL.2004.2.1">https://doi.org/10.1515/IASL.2004.2.1</ref>. </bibl>
+                    <bibl>
+                        <author>Bachmann-Medick, Doris. </author>
+                        “Introduction: The Translational Turn.” 
+                        <hi rend="italic">Translation Studies</hi> 2, no. 1 (January 2009): 2–16.
+                            <ref target="https://doi.org/10.1080/14781700802496118">https://doi.org/10.1080/14781700802496118</ref>. </bibl>
+                    <bibl>
+                        <author>Bassnett, Susan. </author>
+                        “From Cultural Turn to Translational Turn: A Transnational Journey.” In 
+                        <hi rend="italic">World Literature in Theory</hi>, edited by David Damrosch,
+                        234–45. Chichester, England: Wiley-Blackwell, 2014. <ref target="https://ebookcentral.proquest.com/lib/nottingham/detail.action?docID=1566390">https://ebookcentral.proquest.com/lib/nottingham/detail.action?docID=1566390</ref>. </bibl>
+                    <bibl>
+                        <author>Even-Zohar, Itamar. </author>
+                        “Polysystem Theory.” 
+                        <hi rend="italic">Poetics Today</hi> 1, no. 1/2 (1979): 287. <ref target="https://doi.org/10.2307/1772051">https://doi.org/10.2307/1772051</ref>. </bibl>
+                    <bibl>
+                        <author>Gerber, Leah. </author>
+                        “Building Bridges, Building a Bibliography of Australian Children’s
+                            Fiction in German Translation 1854–2007.” 
+                        <hi rend="italic">New Review of Children’s Literature and Librarianship</hi>
+                        14, no. 2 (September 2008): 141–57. <ref target="https://doi.org/10.1080/13614540902835186">https://doi.org/10.1080/13614540902835186</ref>. </bibl>
+                    <bibl>
+                        <author>Heilbron, Johan. </author>
+                        “Towards a Sociology of Translation: Book Translations as a Cultural
+                            World-System.” <hi rend="italic">European Journal of Social
+                            Theory</hi> 2, no. 4 (November 1999): 429–44. <ref target="https://doi.org/10.1177/136843199002004002">https://doi.org/10.1177/136843199002004002</ref>. </bibl>
+                    <bibl>
+                        <author>Index Translationum. </author>
+                        “Statistics on Whole Index Translationum Database: Top 50 Original
+                            Language.” Accessed January 28, 2021. <ref target="https://www.unesco.org/xtrans/bsstatexp.aspx?crit1L=3&amp;nTyp=min&amp;topN=50&amp;lg=0">https://www.unesco.org/xtrans/bsstatexp.aspx?crit1L=3&amp;nTyp=min&amp;topN=50&amp;lg=0</ref>. </bibl>
+                    <bibl>
+                        <author>Ivanovic, Christine, and Barbara Seidl. </author>
+                        “What Is Translational Literature and How to Classify It?:
+                            Crowd-Sourcing as a Starting Point for Corpus Building and Type
+                            Distinction in Comparative Literature.” In <hi rend="italic">Proceedings of the Fourth International Conference on Technological
+                            Ecosystems for Enhancing Multiculturality - TEEM ’16</hi>, 957–63.
+                        Salamanca, Spain: ACM Press, 2016. <ref target="https://doi.org/10.1145/3012430.3012632">https://doi.org/10.1145/3012430.3012632</ref>. </bibl>
+                    <bibl>
+                        <author>Norrick-Rühl, Corinna, and Melanie Ramdarshan Bold. </author>
+                        “Crossing the Channel: Publishing Translated German Fiction in the UK.”
+                            <hi rend="italic">Publishing Research Quarterly</hi> 32, no. 2
+                        (June 2016): 125–38. <ref target="https://doi.org/10.1007/s12109-016-9458-3">https://doi.org/10.1007/s12109-016-9458-3</ref>. </bibl>
+                    <bibl>
+                        <author>Reynolds, Matthew, and Giovanni Pietro Vitali. </author>
+                        “Mapping and Reading a World of Translations: Prismatic Jane Eyre.”
+                            <hi rend="italic">Modern Languages Open</hi> 1 (December 17, 2021):
+                        23. <ref target="https://doi.org/10.3828/mlo.v0i0.375">https://doi.org/10.3828/mlo.v0i0.375</ref>. </bibl>
+                    <bibl>
+                        <author>Sapiro, Gisèle. </author>
+                        “How Do Literary Works Cross Borders (or Not)?” <hi rend="italic">Journal of World Literature</hi> 1, no. 1 (2016): 81–96. <ref target="https://doi.org/10.1163/24056480-00101009">https://doi.org/10.1163/24056480-00101009</ref>. </bibl>
+                    <bibl>
+                        <author>Walkowitz, Rebecca. </author><hi rend="italic">Born
+                            Translated</hi>. S.l.: Columbia University Press, 2017. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

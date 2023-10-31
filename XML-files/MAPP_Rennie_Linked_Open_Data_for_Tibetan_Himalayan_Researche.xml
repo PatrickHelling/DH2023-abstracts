@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Linked Open Data for Tibetan-Himalayan Researchers:Opportunities for Collaboration in User Experience Studies</title>
+                <author n="MappRennieMAPP_Rennie_Linked_Open_Data_for_Tibetan_Himalayan_Researche.xml"><persName n="MappRennie">
+                        <surname>Mapp</surname>
+                        <forename>Rennie</forename>
+                    </persName><affiliation>U of Virginia, United States of America</affiliation><email>rcm7e@virginia.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GunnStanMAPP_Rennie_Linked_Open_Data_for_Tibetan_Himalayan_Researche.xml"><persName n="GunnStan">
+                        <surname>Gunn</surname>
+                        <forename>Stan</forename>
+                    </persName><affiliation>U of Virginia, United States of America</affiliation><email>stan.gunn@virginia.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ShinozakiYujiMAPP_Rennie_Linked_Open_Data_for_Tibetan_Himalayan_Researche.xml"><persName n="ShinozakiYuji">
+                        <surname>Shinozaki</surname>
+                        <forename>Yuji</forename>
+                    </persName><affiliation>U of Virginia, United States of America</affiliation><email>ys2n@virginia.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MontanoAndresMAPP_Rennie_Linked_Open_Data_for_Tibetan_Himalayan_Researche.xml"><persName n="MontanoAndres">
+                        <surname>Montano</surname>
+                        <forename>Andres</forename>
+                    </persName><affiliation>U of Virginia, United States of America</affiliation><email>am2zb@virginia.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Mandala 2.0 is the UVA Library’s re-envisioning of the longstanding Mandala collection, with the goal of preserving Mandala’s Tibetan-Himalayan cultural heritage assets and data framework sustainably and discoverably. This poster will showcase the prototyping and usability testing phase as we develop a user interface and Linked Open Data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Tibetan-Himalayan</term>
+                    <term>Usability</term>
+                    <term>Linked Open Data</term>
+                    <term>discoverability</term>
+                    <term>library</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>Interface design</term>
+                    <term>development</term>
+                    <term>and analysis</term>
+                    <term>linked (open) data</term>
+                    <term>user experience design and analysis</term>
+                    <term>Art history</term>
+                    <term>Asian studies</term>
+                    <term>Film and cinema arts studies</term>
+                    <term>Theology and religious studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p><hi rend="bold">Introduction</hi> </p>
+            <p>Mandala is a longstanding Digital Humanities project at the University of Virginia. It contains significant Tibetan-Himalayan cultural heritage materials, as well as custom software tools and a framework for its metadata. A development team is undertaking the transformation of Mandala’s unique ontology framework, known as KMaps, into an interoperable linked open data framework that aims for compatibility with open-source collections in the area of Tibetan-Himalayan studies and general cultural heritage collections at other institutions. This transformation project, known as Mandala 2.0, is sponsored by the University of Virginia Library’s Information Technology Department, where we are undertaking to ensure that Mandala’s cultural heritage assets and the framework that supports them are preserved in a sustainable and discoverable way. Our team plans to build a user interface (UI) to enable researchers to add digital assets and create ontologies; this UI will initially be targeted toward users in the field of Tibetan-Himalayan studies, with the eventual addition of more generalizable features for cultural heritage researchers in other fields.</p>
+            <p>An important next phase for Mandala 2.0 in 2023 is to study how researchers in the Tibetan-Himalayan field would want to explore subsets of Mandala cultural heritage holdings that have been described with LOD, especially Mandala’s strong collections of audio-video and associated transcripts. We propose a poster that charts our progress through this upcoming project phase, consisting of iterative cycles of metadata migration, user-interface prototype creation, and collaborative user experience studies.</p>
+            <p><hi rend="bold">Poster content</hi></p>
+            <p>The poster will include a structural diagram of the technical stack for Mandala 2.0; examples of the current KMaps ontology structures along with our in-process linked open data schema development, and a narrative diagram depicting the iterations of our user interface interspersed with the user feedback that will drive these iterations.  </p>
+            <p><hi rend="bold">Personnel</hi> </p>
+            <p>Mandala 2.0 is managed by Rennie Mapp, with Yuji Shinozaki as Technical Director and Stan Gunn as Executive Director of UVA Library IT. Andres Montano of the Mandala 1.0 project, hosted at the Contemplate Sciences Center, is a key collaborator. David Germano, Professor of Religious Studies and Director of the Contemplative Sciences Center, is the director and driving force for Mandala 1.0.</p>
+            <p><hi rend="bold">Goals of this project phase</hi></p>
+            <p>Prototype and test UIs to allow the following: </p>
+            <list type="unordered">
+                <item>Interoperability of Mandala data with other collections in this field through the use of linked open data</item>
+                <item>Discoverability of these collections by researchers beyond UVA</item>
+            </list>
+            <p><hi rend="bold">Longer range goals</hi></p>
+            <list type="unordered">
+                <item>Generalizable linked data creation tools for academic researchers as well as librarians</item>
+                <item>Contribution of KMaps data modeling advances to the larger set of linked open data for Tibetan-Himalayan cultural heritage </item>
+            </list>
+            <p><hi rend="bold">Background</hi></p>
+            <p>Mandala is one of the world’s richest and most diverse digital collections of Tibetan and Himalayan culture, with resources for the general public, literary scholars, anthropologists, archeologists, and other researchers and educators. Over the last three decades, under the leadership of Professor David Germano, Mandala has been documenting this culture with textual editions, translations, dictionaries, and encyclopedias, as well as audio-video recordings of oral traditions, music, histories, philosophies, environmental knowledge, and more. Mandala also stores many thousands of photographic images of cultural activities, architecture, art, and the physical environment, and ontologies of various cultural subjects, as well as extensive data on geographical features. Mandala’s descriptive ontology, called “Knowledge Maps” (or Mandala KMaps), was first developed in the early 2000’s. Professor Germano and his colleague in the Tibet Center, Andres Montano, developed ontologies to describe geographic locations over time, topic maps (subjects), and Tibetan terms. This sophisticated and rich ad hoc ontology has been developed over decades.  However,  the current architecture does not employ open standards, and thus remains somewhat limited in its openness and reusability.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Abgaz, Yalemisew</author> / <author>Amelie Dorn</author> / <author>Barbara Piringer</author> / <author>Eveline Wandl-Vogt</author> / <author>Andy Way</author> 
+                         (2018): “Semantic Modelling and Publishing of Traditional Data Collection Questionnaires and Answers”. Information 9: 297-320. doi:10.3390/info9120297.
+                    </bibl>
+                    <bibl>    
+                        <author>Cimiano, Philipp</author>, et al.
+                         (2020): 
+                        <hi rend="italic">Linguistic Linked Data Representation, Generation and Applications. </hi>
+                        Springer International Publishing.
+                    </bibl>
+                    <bibl>
+                        <author>Cobb, Joan</author>
+                         (2015): “The Journey to Linked Open Data: The Getty Vocabularies”, in: Journal of Library Metadata, vol. 15, no. 3/4, July 2015, pp. 142–156. EBSCOhost, doi:10.1080/19386389.2015.1103081.
+                    </bibl>
+                    <bibl>
+                        <author>Chanhom, Weeraphan</author> / <author>Chutiporn Anutariya</author> 
+                         (2019): “TOMS: A Linked Open Data System for Collaboration and Distribution of Cultural Heritage Artifact Collections of National Mu-seums in Thailand”, in: New Generation Computing, vol. 37, no. 4, Dec. 2019, pp. 479–498. EBSCOhost, doi:10.1007/s00354-019-00063-1.
+                    </bibl>
+                    <bibl>
+                        <author>Gibbs, Fred</author> / <author>Trevor Owens</author> 
+                         (2012): "Building Better Digital Humanities Tools: Toward broader audiences and user-centered designs", in: Digital Humanities Quarterly, Volume 6 Number 2.
+                    </bibl>
+                    <bibl>
+                        <author>Ichikawa, T.</author>
+                         (2016): “Visualization as experience”. Digital Studies/le Champ Numérique, 5(3). DOI: <ref target="http://doi.org/10.16995/dscn.32">http://doi.org/10.16995/dscn.32</ref>
+                    </bibl>
+                    <bibl>
+                        <author>Nurmikko-Fuller, Terhi</author>
+                         (2018): “Publishing Sumerian Literature on the Semantic Web.” CyberRe-search on the Ancient Near East and Neighboring Regions: Case Studies on Archaeo-logical Data, Objects, Texts, and Digital Archiving, edited by Vanessa Bigot Juloux et al., Brill, 2018, pp. 336–64, <ref target="http://www.jstor.org/stable/10.1163/j.ctv4v349g.20">http://www.jstor.org/stable/10.1163/j.ctv4v349g.20</ref>
+                    </bibl>
+                        
+                    <bibl>
+                        <author>Robledano-Arillo, Jesús</author>, et al.
+                         (2020): “Application of Linked Open Data to the Coding and Dissemina-tion of Spanish Civil War Photographic Archives.” Journal of Documentation, vol. 76, no. 1, Jan. 2020, pp. 67–95. EBSCOhost, doi:10.1108/JD-06-2019-0112.
+                    </bibl>
+                    <bibl>
+                        <author>Weingart, S. B.</author> / <author>Eichmann-Kalwara, N.</author> 
+                         (2017): What’s Under the Big Tent?: A Study of ADHO Conference Abstracts. Digital Studies/le Champ Numérique, 7(1), 6. DOI: <ref target="http://doi.org/10.16995/dscn.284">http://doi.org/10.16995/dscn.284</ref>
+                     </bibl>
+                    <bibl>
+                        <author>Wikisource contributors</author>
+                         (2021): "ARL White Paper on Wikidata Opportunities and Recommenda-tions." Wikisource. Wikisource, 15 May. 2019. Web. 7 Dec. 2021.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

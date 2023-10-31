@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Challenges, opportunities, and recommendations for the future of crowdsourcing in cultural heritage: a White Paper</title>
+                <author n="RidgeMiaRIDGE_Mia_Challenges__opportunities__and_recommendations_for.xml"><persName ref="https://orcid.org/0000-0003-3733-8120" n="RidgeMia">
+                        <surname>Ridge</surname>
+                        <forename>Mia</forename>
+                    </persName><affiliation>British Library</affiliation><email>mia.ridge@bl.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FerriterMeghanRIDGE_Mia_Challenges__opportunities__and_recommendations_for.xml"><persName ref="https://orcid.org/0000-0003-1470-2655" n="FerriterMeghan">
+                        <surname>Ferriter</surname>
+                        <forename>Meghan</forename>
+                    </persName><affiliation>Library of Congress</affiliation><email>mefe@loc.gov</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BlickhanSamanthaRIDGE_Mia_Challenges__opportunities__and_recommendations_for.xml"><persName ref="https://orcid.org/0000-0002-3775-5744" n="BlickhanSamantha">
+                        <surname>Blickhan</surname>
+                        <forename>Samantha</forename>
+                    </persName><affiliation>Zooniverse and the Adler Planetarium</affiliation><email>samantha@zooniverse.org</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Crowdsourcing in cultural heritage is rich in opportunities for collaborative, interdisciplinary research and practice. This presentation celebrates and calls for input and expansion of a White Paper that sets out current challenges and opportunities, and provides recommendations for the future of crowdsourcing in cultural heritage and the digital humanities.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>crowdsourcing</term>
+                    <term>human computation</term>
+                    <term>volunteering</term>
+                    <term>citizen science</term>
+                    <term>citizen history</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>crowdsourcing</term>
+                    <term>digital activism and advocacy</term>
+                    <term>digital research infrastructures development and analysis</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Galleries and museum studies</term>
+                    <term>Informatics</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Crowdsourcing in cultural heritage is a well-established method for engaging the public(s) via meaningful tasks that generate valuable data around cultural heritage collections. However, the pace of change in related fields means that it is still an area rich in both opportunities and challenges. This presentation celebrates and calls for input and expansion of a White Paper that sets out current challenges and opportunities, and provides recommendations for the future of crowdsourcing in cultural heritage and the digital humanities. </p>
+            <p>The White Paper draws on a collaboratively written Handbook on crowdsourcing in cultural heritage, and two workshops on 'advanced questions for crowdsourcing in cultural heritage and the digital humanities', in addition to the research and experience of its three authors. As an inherently collaborative project, this paper aligns well with the conference theme and will benefit from constructive discussion with DH2023 attendees.</p>
+            <div type="div1">
+                <head>Background: The Handbook and workshops</head>
+                <p>In March to April 2021, the Collective Wisdom Project brought together nearly 20 practitioners and researchers to write a handbook on crowdsourcing in cultural heritage, written for practitioners who work in cultural institutions and digital humanities, as well as those who wish to gain experience with crowdsourcing (Ridge 
+                    <hi rend="italic">et al.</hi>, 2021d). It provided both case studies and practical tips grounded in hard-won lessons, and synthesis of research across a range of disciplines. It anticipated frequent questions about topics such as data quality (Ridge 
+                    <hi rend="italic">et al.</hi>, 2021c) for intended audiences of the book including researchers, GLAM (gallery, library, archive and museum) professionals, community managers, platform moderators, software designers and developers, and volunteer participants. 
+                </p>
+                <p>A key catalyst for the development of this book was the belief that the labour, design, and management of crowdsourcing projects remains invisible to the academy, in part because it is not documented in formats legible to other researchers (Ridge 
+                    <hi rend="italic">et al.</hi>, 2021a). Writing collaboratively created opportunities to reframe the harms and expectations of vocational awe (Ettarh, 2018), gendered labour and constructive relationships between GLAM professionals and academic researchers.
+                </p>
+                <p>In October 2021 the authors convened two follow-up workshops to interrogate, refine and advance questions raised during the sprint and intervening months since the book’s release, as well as to identify high priority gaps and emerging challenges in the field to address in future research collaborations (Ridge, 2022). In particular, discussion focused on how the availability of models from data science, human computation, post-COVID volunteering and community engagement changed our work, and sought to productively address the tension between 'crowdsourcing as engagement' and 'crowdsourcing as data source'. </p>
+            </div>
+            <div type="div1">
+                <head>The White Paper</head>
+                <p>Our White Paper synthesises our extensive documentation from the workshops, and reflections on the topics covered in our Handbook. It points to the inherently collaborative and interdisciplinary future of crowdsourcing, the need for spaces for exchange, the role of sociotechnical critique, and a commitment to surfacing and sharing knowledge. Additionally, we recognise the need for opportunities for collaboration beyond the geographic boundaries imposed by many funding sources, including the scheme that generously supported this project, but which limited participation to representatives from the UK and US.</p>
+                <p>We have organised our recommendations into five tightly interrelated themes: Infrastructure, Evidencing and Evaluation, Skills and Competencies, Communities of Practice, and Incorporating Emergent Technologies and Methods. Throughout these recommendations, the concept of values is interwoven with the themes, reflecting our collective belief that establishing shared values is at the core of any successful, mutually beneficial crowdsourcing project in cultural heritage (Ridge 
+                    <hi rend="italic">et al.</hi>, 2021b). We also point to an extensive, collaboratively-created Zotero library (
+                    <ref target="https://www.zotero.org/groups/2757147/collective_wisdom/library">https://www.zotero.org/groups/2757147/collective_wisdom/library</ref>), which includes references from the Handbook and additional publications that have shaped much of our thinking over the course of writing the book and the White Paper.
+                </p>
+                <p>Sharing the White Paper first in a public forum is in line with our stated values, particularly our commitment to collaboration and transparency of process. The DH2023 conference is ideal as an event where we can open dialogues among scholars working on related topics. Within this broad community, we see opportunities to critically assess the utility of these recommendations and even to establish partnerships for the next phases of collaboration.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Ettarh, Fobazi</author>. (2018) ‘Vocational Awe and Librarianship: The Lies We Tell Ourselves’, 
+                        <hi rend="italic">In the Library with the Lead Pipe</hi> [Preprint]. <ref target="https://www.inthelibrarywiththeleadpipe.org/2018/vocational-awe">https://www.inthelibrarywiththeleadpipe.org/2018/vocational-awe</ref> [4.11.2022].
+                    </bibl>
+                    <bibl><author>Ridge, Mia</author>. 
+                        <hi rend="italic">et al.</hi> (2021a) ‘1. Introduction and Colophon’, in 
+                        <hi rend="italic">The Collective Wisdom Handbook: Perspectives on Crowdsourcing in Cultural Heritage</hi>. Community Review edition. <ref target="https://britishlibrary.pubpub.org/pub/introduction-and-colophon/release/2">https://britishlibrary.pubpub.org/pub/introduction-and-colophon/release/2</ref> [4.4.2021].
+                    </bibl>
+                    <bibl><author>Ridge, Mia</author>. 
+                        <hi rend="italic">et al.</hi> (2021b) ‘4. Identifying, aligning, and enacting values in your project’, in 
+                        <hi rend="italic">The Collective Wisdom Handbook: Perspectives on Crowdsourcing in Cultural Heritage</hi>. Community Review edition. <ref target="https://britishlibrary.pubpub.org/pub/identifying-aligning-and-enacting-values-in-your-project/release/2">https://britishlibrary.pubpub.org/pub/identifying-aligning-and-enacting-values-in-your-project/release/2</ref> [4.4.2021].
+                    </bibl>
+                    <bibl><author>Ridge, Mia</author>. 
+                        <hi rend="italic">et al.</hi> (2021c) ‘10. Working with crowdsourced data’, in 
+                        <hi rend="italic">The Collective Wisdom Handbook: Perspectives on Crowdsourcing in Cultural Heritage</hi>. Community Review edition. <ref target="https://britishlibrary.pubpub.org/pub/working-with-crowdsourced-data/release/2">https://britishlibrary.pubpub.org/pub/working-with-crowdsourced-data/release/2</ref> [1.5.2023].
+                    </bibl>
+                    <bibl><author>Ridge, Mia</author>. 
+                        <hi rend="italic">et al.</hi> (2021d) 
+                        <hi rend="italic">The Collective Wisdom Handbook: Perspectives on Crowdsourcing in Cultural Heritage</hi>. Community Review edition. <ref target="https://britishlibrary.pubpub.org/the-collective-wisdom-handbook-perspectives-on-crowdsourcing-in-cultural-heritage---community-review-version">https://britishlibrary.pubpub.org/the-collective-wisdom-handbook-perspectives-on-crowdsourcing-in-cultural-heritage---community-review-version</ref> [4.4.2021].
+                    </bibl>
+                    <bibl><author>Ridge, Mia</author>. (2022) ‘Planning for the conversations we want at our online workshops’, 
+                        <hi rend="italic">Collective Wisdom</hi>, 11 March. <ref target="https://collectivewisdomproject.org.uk/planning-for-the-conversations-we-want-at-our-online-workshops">https://collectivewisdomproject.org.uk/planning-for-the-conversations-we-want-at-our-online-workshops</ref> [11.3.2022].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

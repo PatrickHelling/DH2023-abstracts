@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Reading Machines: promoting reading with computational text analysis</title>
+                <author n="CiottiFabioCIOTTI_Fabio_Reading_Machines__promoting_reading_with_comput.xml"><persName n="CiottiFabio">
+                        <surname>Ciotti</surname>
+                        <forename>Fabio</forename>
+                    </persName><affiliation>Università di Roma Tor Vergata, Italy</affiliation><email>fabio.ciotti@uniroma2.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BaldiAlbertoCIOTTI_Fabio_Reading_Machines__promoting_reading_with_comput.xml"><persName n="BaldiAlberto">
+                        <surname>Baldi</surname>
+                        <forename>Alberto</forename>
+                    </persName><affiliation>Università di Roma Tor Vergata, Italy</affiliation><email>alberto.baldi@unifi.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We present Macchine per leggere project, a collaboration between Department of Literary, Philosophical and Art History Studies of the University of Rome “Tor Vergata” and the MiC Center for Books and Reading. The aim of the project is the creation of a digital environment (desktop and mobile) that introduces secondary school students to the knowledge and use of computational text analysis techniques, proposed here as a cue for approaching the reading of classics of Italian literature.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>text analysis</term>
+                    <term>digital humanities pedagogy</term>
+                    <term>reading promotion</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>network analysis and graphs theory and application</term>
+                    <term>text mining and analysis</term>
+                    <term>user experience design and analysis</term>
+                    <term>Education/ pedagogy</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>This paper presents the 
+                    <hi rend="italic">Macchine per leggere</hi> (Reading Machines) project, born out of the collaboration between the Department of Literary, Philosophical and Art History Studies at the University of Rome “Tor Vergata” and the Center for Books and Reading of the Italian Ministry of Culture.
+                </p>
+                <p>Computational analysis of literary texts is a branch of the digital humanities that has developed and found various fields of experimentation in recent years, thanks to IT advances in machine learning and the steady increase of textual databases accessible online 
+                    (Moretti, 2013; Underwood, 2019; Jockers, 2013). However, especially because of the high computing expertise required, these techniques have seldom crossed the niche of digital humanists and have remained confined to a highly specialized field. Therefore, in addition to not having spread to the scholarly community as a whole, they have not even been able to produce particular spin-offs on literature teaching, especially in high school, and on the promotion of reading. Instead, in our opinion, they could be used as a way for proposing to young born-digital students a different and alternative perspective for approaching the great books of Italian literature, in the apparently paradoxical hypothesis that by learning to “not read” – according to Franco Moretti's formula 
+                    (Moretti, 2000) – they can get closer to reading our literary heritage.
+                </p>
+            </div>
+            <div type="div1">
+                <head>State of the art</head>
+                <p>As of now, there are very few examples of the adoption of text analysis and mining methods to foster reading skills. In Italy we can cite the experiment carried out in a class at the Liceo Scientifico Galileo Galilei high school in Trento 
+                    (Valitutti and Dalla Torre, 2021), in which students were guided in analyzing the sentiment of the novel 
+                    <hi rend="italic">Io non ho paura</hi> by Niccolò Ammaniti, and Alessandro Iannella's 
+                    (Iannella, 2019) proposal to create with Google Dialogflow a chatbot simulating a dialogue with the poetess Sappho. The idea of a virtual assistant to help young people in their approach to reading has precedents, such as, for example, the 
+                    <hi rend="italic">Sobek</hi> tool, developed "to support educational applications [...] from assisting teachers to review student's work to helping kids in reading and writing activities" by two researchers at the Federal University of Rio Grande do Sul 
+                    (Reategui et al., 2020) and aimed at extracting a network of keywords from a text, and 
+                    <hi rend="italic">Readerbench</hi>, a digital platform (or "Personal Learning Environment") created by the Polytechnic University of Bucharest 
+                    (Dascalu et al., 2013) that targets students and teachers by providing a set of tools to analyze text corpora (in English or French), performing analyses such as keyword extraction, calculating the readability index of a text, and sentiment analysis.
+                </p>
+            </div>
+            <div type="div1">
+                <head>The 
+                    <hi rend="italic">Macchine per leggere</hi> project
+                </head>
+                <p>Building on these few experiments and our knowledge in the field of text analysis, our project involved the creation of a digital environment (desktop and mobile) to introduce secondary school students to the knowledge and use of text analysis techniques. Ten novels from the nineteenth-nineteenth-century canon of Italian literature (including I promessi sposi, I Malavoglia, Le avventure di Pinocchio...) are presented on a web site (macchineperleggere.it). The main section of the site, entitled “Digital Analysis”, consists of a series of pages (one per novel) in which the outputs of a selection of some of the main text mining techniques are provided: linguistic-descriptive statistical analysis, topic modeling, sentiment analysis, network analysis. In detail, we propose:</p>
+                <list type="unordered">
+                    <item>A selection of tools for linguistic-descriptive statistical analysis from the VoyantTools suite: Cirrus, for the Wordcloud; Terms, to generate a frequency index of terms in the corpus; Contexts, a concordance compiler; Microsearch, to graphically represent the distribution of terms in the text; Phrases, which identifies the most recurrent syntagmas.</item>
+                    <item>An example of topic modeling by proposing in five graphs some outputs of an analysis accomplished with BERTopic by Marten Grootendorst (Grootendorst, 2022);</item>
+                    <item>An example of sentiment analysis using the R library Syuzhet, created by Matthew Jockers (Jockers, 2015), which allows to reconstruct the plot of a novel by analyzing its sentiment;</item>
+                    <item>An example of network analysis, combining resources of two Python libraries: Spacy for Named Entity Recognition and NetworkX for node graph creation.</item>
+                </list>
+                <p>Each tool is introduced by a paragraph that introduces the tool and contextualizes the type of analysis performed. In later stages of the project, it is also planned to integrate a module for georeferencing novels, to connect the reading experience to users’ daily experience.</p>
+                <p>In addition to the section dedicated to computational analysis, the site has a section designed to hosting the full texts of the novels, also offered in the Bionic Reading typographic format, a solution developed by Renato Casutt (https://bionic-reading.com/) that uses boldface combinations to aid concentration and make the most of the reading experience; a section with a guide intended for students that goes over the basic concepts of text analysis, tracing a short history, illustrating its theoretical assumptions and briefing on the state of the art of the various methodologies, combined with an essential glossary; and finally, a section in which the techniques demonstrated (with the exception of network analysis) are re-proposed in the form of web apps (realized, for BERTopic and Syuzhet, with Streamlit and Shiny), so that users can experiment independently and on other texts with the distant approach proposed within the project.</p>
+            </div>
+            <div type="div1">
+                <head>Future developments</head>
+                <p>In early 2023, the project has moved to its experimental phase in some secondary school classrooms. We have prepared a set of video tutorials that illustrate the basic theoretical assumptions of distant reading and introduce the site, suggesting possible strategies – for example, reading paths or methods for analyzing outputs – to integrate the platform and its tools into traditional teaching. These educational supports have been presented to a group of High School teachers, in order to develop experimental activities that will take place during 2023/24 school year. Once the experimental period is over, feedback will be collected from teachers and students through questionnaires, evaluating the ergonomics of the platform, the effectiveness of its tools, and the possible impact in the teaching of literature and the enjoyment of the great classics by new generations.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dascalu, M., Dessus, P., Trausan-Matu, Ş., Bianco, M. and Nardy, A.</author> (2013). ReaderBench, an Environment for Analyzing Text Complexity and Reading Strategies. In Lane, H. C., Yacef, K., Mostow, J. and Pavlik, P. (eds), 
+                        <hi rend="italic">Artificial Intelligence in Education</hi>, vol. 7926. (Lecture Notes in Computer Science). Berlin, Heidelberg: Springer Berlin Heidelberg, pp. 379–88 doi:10.1007/978-3-642-39112-5_39. http://link.springer.com/10.1007/978-3-642-39112-5_39 (accessed 2 November 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Grootendorst, M.</author> (2022). BERTopic: Neural topic modeling with a class-based TF-IDF procedure. arXiv doi:10.48550/ARXIV.2203.05794. https://arxiv.org/abs/2203.05794 (accessed 2 November 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Iannella, A.</author> (2019). ‘Ok Google, vorrei parlare con la poetessa Saffo’: Intelligenza Artificiale, assistenti virtuali e didattica della letteratura. 
+                        <hi rend="italic">Thamyris, Nova Series: Revista de Didáctica de Cultura Clásica, Griego y Latín</hi>, 
+                        10: 81–104.
+                    </bibl>
+                    <bibl>
+                        <author>Jockers, M.</author> (2015). Revealing Sentiment and Plot Arcs with the Syuzhet Package https://www.matthewjockers.net/.
+                    </bibl>
+                    <bibl>
+                        <author>Jockers, M. L.</author> (2013). 
+                        <hi rend="italic">Macroanalysis: Digital Methods and Literary History</hi>. 1st Edition edition. Urbana: University of Illinois Press.
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, F.</author> (2000). Conjectures on World Literature. 
+                        <hi rend="italic">The New Left Review</hi> http://newleftreview.org/A2094.
+                    </bibl>
+                    <bibl>
+                        <author>Moretti, F.</author> (2013). 
+                        <hi rend="italic">Distant Reading</hi>. London: Verso.
+                    </bibl>
+                    <bibl>
+                        <author>Reategui, E., Epstein, D., Bastiani, E. and Carniato, M.</author> (2020). Can Text Mining Support Reading Comprehension?. In Gennari, R., Vittorini, P., De la Prieta, F., Di Mascio, T., Temperini, M., Azambuja Silveira, R. and Ovalle Carranza, D. A. (eds), 
+                        <hi rend="italic">Methodologies and Intelligent Systems for Technology Enhanced Learning, 9th International Conference</hi>, vol. 1007. (Advances in Intelligent Systems and Computing). Cham: Springer International Publishing, pp. 37–44 doi:10.1007/978-3-030-23990-9_5. http://link.springer.com/10.1007/978-3-030-23990-9_5 (accessed 2 November 2022).
+                    </bibl>
+                    <bibl>
+                        <author>Underwood, T.</author> (2019). 
+                        <hi rend="italic">Distant Horizons: Digital Evidence and Literary Change</hi>. Chicago: The University of Chicago Press.
+                    </bibl>
+                    <bibl>
+                        <author>Valitutti, A. and Dalla Torre, C.</author> (2021). ‘Io non ho paura’: Sentiment analysis nell’analisi di testi narrativi. 
+                        <hi rend="italic">Proceedings of Didamatica-21</hi>. AICA, pp. 166–69.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

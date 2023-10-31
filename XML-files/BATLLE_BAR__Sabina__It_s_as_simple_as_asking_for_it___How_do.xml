@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>“It's as simple as asking for it”. How do archaeologists collaborate – and how can open data improve it (or not) </title>
+                <author n="BatlleBarSabinaBATLLE_BAR__Sabina__It_s_as_simple_as_asking_for_it___How_do.xml"><persName n="BatlleBarSabina">
+                        <surname>Batlle Baró</surname>
+                        <forename>Sabina</forename>
+                    </persName><affiliation>Universitat de Barcelona, Spain</affiliation><email>sabina.batlle@ub.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Studies claim that open data will foster collaboration and cooperation. Our goal is to study how archaeologists collaborate and analize the potential of opening research data. To do that, we conducted 15 interviews to archaeologists in Catalonia and asked about their data sharing habits and perspectives on open data.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>archaeology</term>
+                    <term>open data</term>
+                    <term>research collaboration</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital archiving</term>
+                    <term>Archaeology</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head/>
+                <p>The benefits of data opening for both science and society have been widely exposed. Data sharing not only helps making research more sustainable but also accelerates innovation, and Archaeology is not an exception. In fact, the openness of Archaeology in general and of archaeological research data has been seen not only as a beneficial practice but necessary for the advancement of the discipline, practically a sine qua non condition to be able to respond to the big questions that Archaeology has not yet been able to solve (Kintigh, et al. 2014). In this sense, data sharing is seen, by many authors and researchers, as a practically imperative solution to the already destructive nature of the archaeological research method, as well as an ethical obligation for a discipline that studies a public good such as heritage and uses mostly public funding (Marwick et al. 2017).</p>
+                <p>For many years, the main worries of the literature about archaeological openness were the big transformations this model could bring to the discipline, for better or worse. Among those, we can highlight the increased sustainability of archaeological research, greater impact on politics, better preservation of archaeological data, greater participation and democratization of archaeology, and a general improvement in archaeological research. This improvement would be brought by an increase in transparency, integration potential, outreach, and collaboration between members of the scientific community in many ways (Atici et al. 2013; Beck / Neylon 2012; Kansa et al. 2014; Moore / Richards 2015).</p>
+                <p>This last outcome of the open data model is assessed by different researchers, not only applied in the archaeological field (Chawinga / Zinn 2019; Costello 2009); it has been always said that opening and sharing our research data will foster collaboration and cooperation. However, is that so? Collaborative work has been there for many years, without the need to publish openly research data. Would the implementation of the open data model change that? How? In this presentation we will study the ways archaeologists collaborate and analize especifically the role of open research data in this cooperation process. </p>
+                <p>To do so, we conducted 15 semi-structured qualitative interviews to Principal Investigators of different archaeological research projects from Catalan research institutions. The interview questionnaire covered data collection, data management, data sharing, data reuse, and the researchers perspectives on these topics. The interviews were transcribed verbatim and then analysed: utterances were coded according to a predefined framing code, and organized around themes.</p>
+                <p>The results highlight a strong attachment to traditional sharing practices. Most researchers considered that their current practices (submitting the excavation report to the administration) were open enough, and they argued that data sharing has always been there in an “analogic” way: in such a small scientific community, everyone interested in their research could contact them and ask for their data. In many cases, traditional sharing was preferred not only for access control but to promote collaboration and because the data creators believed archaeological data cannot be correctly interpreted without the aid of the primary collector/creator of the data.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Atici, Levent</author> / <author>Whitcher Kansa, Sarah</author> / <author>Lev-Tov, Justin</author> / <author>Kansa, Eric C.</author> (2013): “Other People's Data: A Demonstration of the Imperative of Publishing Primary Data”, in: 
+                        <hi rend="italic">Journal of Archaeological Method and Theory</hi>, 20, 663-681. 
+                    </bibl>
+                    <bibl><author>Beck, Anthony</author> / <author>Neylon, Cameron</author> (2012) “A vision for Open Archaeology”, in: 
+                        <hi rend="italic">World Archaeology</hi>, 44, 4: 479-497.
+                    </bibl>
+                    <bibl><author>Chawinga, Winner Dominic</author> / <author>Zinn, Sandy</author> (2019) “Global perspectives of research data sharing: A systematic literature review”, in: 
+                        <hi rend="italic">Library and Information Science Research</hi>, 41, 109-122.
+                    </bibl>
+                    <bibl><author>Costello, Mark. J. </author>(2009) “Motivating Online Publication of Data”, in: 
+                        <hi rend="italic">BioScience</hi>, 59, 5: 418-427. 
+                    </bibl>
+                    <bibl><author>Kansa, Eric. C.</author> / <author>Kansa, Sarah. W.</author> / <author>Arbuckle, B.</author> (2014) “Publishing and Pushing: Mixing Models for Communicating Research Data in Archaeology”, in: 
+                        <hi rend="italic">International Journal for Digital Curation</hi>, 9, 1. 
+                    </bibl>
+                    <bibl><author>Kintigh, Keith W.</author> / <author>H. Altschul, Jeffrey</author> / <author>Beaudry, Mary C.</author> / <author>Drennan, Robert D.</author> / <author>Kinzig, Ann P.</author> / <author>Kohler, Timothy A.</author> / <author>Limp, W. Fredrick</author> / <author>Maschner, Herbert D. G.</author> / <author>Michener, William K.</author> / <author>Pauketat, Timothy R.</author> / <author>Peregrine, Peter</author> / <author>Sabloff, Jeremy A.</author> / <author>Wilkinson, Tony J.</author> / <author>Wright, Henry T.</author> / <author>Zeder, Melinda A.</author> (2014) “Grand Challenges for Archaeology”, in:
+                        <hi rend="italic">American Antiquity</hi>, 79, 5-24.
+                    </bibl>
+                    <bibl><author>Marwick, Ben; et al. </author>(2017) “Open science in Archaeology”, in: 
+                        <hi rend="italic">The SAA Archaeological Record</hi> 17, 4: 8-14.
+                    </bibl>
+                    <bibl><author>Moore, Ray; Richards, Julian </author>(2015) “Here Today, Gone Tomorrow: Open Access, Open Data and Digital Preservation”, in: 
+                        <hi rend="italic">Open Source Archaeology,</hi> 30-43.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

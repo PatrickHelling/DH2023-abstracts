@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Handwritten text recognition applied to the manuscript production of the Carthusian Monastery of Herne in the Fourteenth Century</title>
+                <author n="HaveralsWouterHAVERALS_Wouter_Handwritten_text_recognition_applied_to_the_.xml"><persName ref="https://orcid.org/0000-0002-5687-6787" n="HaveralsWouter">
+                        <surname>Haverals</surname>
+                        <forename>Wouter</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>wouter.haverals@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KestemontMikeHAVERALS_Wouter_Handwritten_text_recognition_applied_to_the_.xml"><persName ref="https://orcid.org/0000-0003-3590-693X" n="KestemontMike">
+                        <surname>Kestemont</surname>
+                        <forename>Mike</forename>
+                    </persName><affiliation>University of Antwerp, Belgium</affiliation><email>mike.kestemont@uantwerpen.be</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper contributes to the assessment of various – possibly impacting – factors during the collection of ground truth data for training HTR-systems. By scrutinising different parameters (e.g. scribal hands, handwriting styles, spelling profiles, textual genres, etc.) we will report on the impact of various train-target combinations.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>handwritten text recognition</term>
+                    <term>digital manuscript studies</term>
+                    <term>Middle Dutch literature</term>
+                    <term>scribal profiling</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Book and print history</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Cultural archives are characterised by hyper-diversity, especially when it comes to premodern, handwritten documents that abound in miscellaneous languages, writing systems and scribal hands. Handwritten text recognition (HTR) offers a promising, emergent technology to digitise and make available the text contained in these materials (Muehlberger et al. 2019). Modern HTR systems typically rely on supervised machine learning (e.g. neural networks) to perform automated transcription: models are trained on a gold standard of manually provided transcriptions and can then be applied to unseen target material. It is well established that for such a system to perform well, the distribution of training data should maximally approximate that of the target documents. Moving across different writing systems and scribal hands will therefore inevitably challenge models and practitioners should consequently consider carefully which training material they should invest valuable annotation time in. As a result, a conundrum presents itself: ground truth data should capture as much as possible the diversity of a (corpus of) document(s), yet at the outset it is often unclear what that diversity actually comprises. Consequently, the selection process of ground truth data renders the digitization process prone to the so-called Matthew effect, where existing inequalities regarding subsets of the material (e.g. availability, quality, ...) risk being reproduced and even enlarged. Whereas scholarly work in HTR has exploded in recent years (Nockels et al. 2022), there exist few studies that shed light on the practical limitations imposed by the archival hyper-diversity in this respect. This paper aims to contribute to the state of the art by assessing the feasibility of various set-ups in the environment of a single case study, where diversity can be studied in a controlled fashion.</p>
+            <p>The Carthusian monastery of Herne (near Brussels) was a proverbial hotspot in the translation, copying, and creation of Middle Dutch literature in the fourteenth century. The output of this monastery is unparalleled in the cultural history of the Low Countries. Many unique and salient texts survive from Herne (Haverals &amp; Kestemont 2020). A milestone in the recent research has been the dissertation of Erik Kwakkel (2002) in which he was able to situate the production of a large number of codices in this charterhouse. He identified many collaborating hands in these documents, which shed an unusual light on this vibrant community. A unique feature is that the manuscripts often contained detailed conversations in the margins. Because the Carthusians were a silent order, much of the internal discussions among collaborating scribes had to happen through such marginal notes. Some of the scribal oeuvres in Herne are so sizable that they might be among the largest attested in medieval Europe. Interestingly, these scribes not only acted as authors and translators themselves, but they also worked under the patronship of wealthy outsiders. They were able to actively change their writing mode, producing clean and highly readable products for the outside world (“high style”) but much less accessible, dense documents for internal usage (“low” and “middle style”). A challenging aspect, for human and computational readers alike, of the latter writing modes is the exceptionally high density of abbreviations for vernacular texts.</p>
+            <p>Over the past years, we obtained high-quality, digital facsimiles of the entire manuscript collection that is currently associated with the Herne monastery. Additionally, we have produced sizable sample transcriptions of nearly every document in the corpus using the Transkribus platform (Kahle 2017). This renders it possible to obtain an automated transcription of the entire corpus. In this talk, we shall discuss the performance of a “Grand Model”, which is trained on our inherently diverse corpus (containing multiple scribal hands, various handwriting styles, spelling profiles, textual genres, etc). The overarching question here is: to what extent does variation aid HTR-models to produce accurate automatic transcriptions? And – more importantly – when does the amount of variation become too large, making the model’s accuracy suffer from it? To investigate this, we will confront our Grand Model with a structured patchwork of smaller case studies that shed light on the effect of various experimental conditions. For this, we will construct different train-target combinations in the available material. </p>
+            <p>Apart from more general issues, such as the effect of size and diversity of the training material, the Herne case enables us to study detailed issues, such as the effect of switching between different hands and writing modes, but also the directionality effect when moving between direct copies of texts. The results of a preliminary experiment are offered in Figure 1, which reports on the Character Error Rates (CERs) obtained by three different models. A first model was trained on a Middle Dutch text transcribed by scribe 1 (ca. 28k words), while another model was trained on the same text copied off by a fellow monk, scribe 2 (ca. 29K words). A third model was trained on the full corpus; this is the so-called ‘Grand Model’ (ca. 230K words). From these results, we can observe that applying a model trained on a single hand to the same text by a different scribe is penalised with an increased CER of ca. 6%. Despite the high diversity in the full corpus, the Grand Model performs well in the controlled environments of single scribal hands (we observe only a slight increase of ca. 0.5% CER).</p>
+                <table xml:id="d125e195">
+                    <head>Figure 1. Comparison of Character Error Rates (% of incorrectly recognized characters) for different train-test setups.</head>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>Trained on…</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>Scribe 1</cell>
+                        <cell>Scribe 2</cell>
+                        <cell>Full corpus</cell>
+                    </row>
+                    <row>
+                        <cell>Tested on…</cell>
+                        <cell>Scribe 1</cell>
+                        <cell>2.56</cell>
+                        <cell>8.34</cell>
+                        <cell>3.22</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Scribe 2</cell>
+                        <cell>8.74</cell>
+                        <cell>2.86</cell>
+                        <cell>3.09</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Full corpus</cell>
+                        <cell>10.14</cell>
+                        <cell>11.77</cell>
+                        <cell>3.19</cell>
+                    </row>
+                </table>
+            <p>In this paper, we tackle these experiments from the point of view of quantitative performance scores, however, we will also include a qualitative discussion of the results using insightful evaluation tools. Ultimately, our paper will contribute to the assessment of various – possibly impacting – factors during the collection of ground truth data for training HTR-systems. By scrutinising different parameters, users will be able to better assess perhaps the most frequently asked question in digital humanities: more data is always better, but when do I have enough?</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Haverals, Wouter</author> / <author>Kestemont, Mike</author>  (2020): “Silent voices: A Digital Study of the Herne Charterhouse Scribal Community (ca. 1350-1400)”, in: Queeste 27(2), 186–195.
+                    </bibl>
+                    <bibl>
+                        <author>Kahle, P.</author> / <author>Colutto, S.</author> / <author>Hackl, G.</author> / <author>Mühlberger, G.</author>  (2017): “Transkribus—A Service Platform for Transcription, Recognition and Retrieval of Historical Documents”, in: 14th IAPR International Conference on Document Analysis and Recognition (ICDAR), 4, 19–24.
+                    </bibl>
+                    <bibl>
+                        <author>Kwakkel, Erik</author> (2002): Die dietsche boeke die ons toebehoeren: De kartuizers van Herne en de productie van Middelnederlandse handschriften in de regio Brussel (1350-1400). Leuven: Peeters.
+                    </bibl>
+                    <bibl>
+                        <author>Muehlberger, G.</author> / <author>Seaward, L.</author> / <author>Terras, M. et al.</author>  (2019): “Transforming scholarship in the archives through handwritten text recognition: Transkribus as a case study”, in: Journal of Documentation 75(5), 954–976.
+                    </bibl>
+                    <bibl>
+                        <author>Nockels, J.</author> / <author>Gooding, P.</author> / <author>Ames, S.</author> / <author>Terras, M.</author>  (2022): “Understanding the application of handwritten text recognition technology in heritage contexts: A systematic review of Transkribus in published research”, in: Archival Science 22(3), 367–392.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

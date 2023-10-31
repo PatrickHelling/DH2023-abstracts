@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>From Atoms to Eternity: Visualizing Space and Scale in Emily
+                    Dickinson</title>
+                <author n="LangAnoukLANG_Anouk_From_Atoms_to_Eternity__Visualizing_Space_and_Sca.xml"><persName ref="https://orcid.org/0000-0001-9597-1026" n="LangAnouk">
+                        <surname>Lang</surname>
+                        <forename>Anouk</forename>
+                    </persName><affiliation>University of Edinburgh, United Kingdom</affiliation><email>anouk.lang@ed.ac.uk</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper proposes a visualisation method for understanding how computational approaches can be used to both understand and defamiliarize the workings of space and scale in a corpus of poetry by Emily Dickinson. The ramifications for the compuational study of poetry more generally are also considered.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>spatial humanities</term>
+                    <term>digital mapping</term>
+                    <term>Emily Dickinson</term>
+                    <term>text analysis</term>
+                    <term>poetry</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>text mining and analysis</term>
+                    <term>Geography and geo-humanities</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Digital humanists who use spatial technologies have found
+                common ground with scholars in geography who have, for some decades, been engaged in
+                problematizing the positivistic assumptions such tools rest on, and conceiving
+                alternative practices for using these technologies as a means of “understanding
+                people’s lived experiences in an interpretive manner rather than for conducting
+                spatial analysis that relies largely on quantitative geographical information” (Kwan
+                and Knigge 1999). Cross-disciplinary collaboration in the spatial humanities thus
+                offers the opportunity to repurpose digital mapping applications for humanistic ends
+                and interrogate the assumptions underlying these tools. </p>
+            <p>This paper takes up this challenge by considering how
+                digital tools for identifying and visualizing place, size and scale might be used to
+                simultaneously understand and defamiliarize the workings of spatiality in the poems
+                of Emily Dickinson. Dickinson is an apt writer with which to conduct such a study,
+                as her poems are almost completely unmappable in conventional cartographic ways:
+                they are almost entirely devoid of specific geographical references, but many are
+                preoccupied with literal and metaphorical space and her work is suffused with a
+                vocabulary of scales, sizes and spatial contrasts. As Helen Vendler observes, there
+                is “an almost illimitable set of templates” on which Dickinson maps her poems,
+                including “a circular geometry of center, circumference, and the ‘spokes’ connecting
+                them”, “a vertical scale extending from ‘under the beetle’s cellar’ to the stars”
+                and “a horizontal scale extending from the East of dawn to the West of sunset”, with
+                Dickinson disorienting the reader by mapping these templates over the top of each
+                other, and “leap[ing] from plane to plane” (10). These leaps and shifts between
+                different scales are a key part of the poems’ metaphorical resources as they explore
+                abstract themes such as existentialism, human attempts to access the numinous, and
+                the relationship between the human and animal worlds.</p>
+            <p>To visualize space and scale in Dickinson’s work, I began
+                with a collection of poems in which scale and space were thematically prominent, and
+                in which there was a move from one scale to another. Using a log scale from 10 pm
+                through to 10 <hi rend="superscript">15</hi> m, I distributed the various entities
+                mentioned in the poems across it, designating for example 10 pm as roughly
+                equivalent to “an Atom” (-11 on the axis), 100km as “the sea” or “the skies” (as
+                seen from the ground; 12 on the axis), and 10 <hi rend="superscript">8</hi> m as
+                “the firmament” (8 on the axis). I then plotted each poem according to where each
+                line or half line fell on the scale, producing visualisations such as figure 1
+                below. Creating these plots is, obviously, a highly interpretative process, and
+                would vary from one reader to the next, but the role of the poetic interpreter in
+                computational poetic analysis is part of what this project seeks to explore. </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="8.3185cm" url="Pictures/43fb5aa850276ec3c8a77a027f6ab0b8.png" rend="inline"/>
+                <head>Figure 1: Four of Emily Dickinson’s poems plotted according to shifts in scale</head>
+            </figure>
+            <p>There are three key challenges here for the spatial
+                humanist. The first is finding visualisation methods that can encompass the dramatic
+                differences in scale from “the Atom” to “the Universe” that can be contained in a
+                single short poem. The second is finding a visualisation method capable of
+                registering and visualising the often vertiginous <hi rend="italic">shifts</hi> in a
+                poem between these scales dynamically, ie. to give a sense not just of scale but of
+                the movement between them that occurs in a poem. The third challenge is to ascertain
+                the analytical utility in visualising these poetic shifts. What are the
+                opportunities offered by collaborative efforts to engage spatial technologies to
+                better understand Dickinson’s poems, given that they so obviously resist being tied
+                down to quantitative scales? In presenting visualisations such as these, which give
+                no meaningful quantitative information but instead allow an instant grasp of the
+                shape of Dickinson’s swoops and plunges between scales, I seek to make an argument
+                both about the way such shifts provide Dickinson with the metaphorical resources to
+                represent and interrogate of existential themes, and also to addess the wider
+                question of how computational approaches might be used in the study of poetry, and
+                whether the costs that such collaborative efforts involve—labor, environmental, and
+                more—are worth the opportunities they present to scholars of poetry. One possible
+                answer to the question of analytical utility is that approaches like these might be
+                able to function as a Turing test of sorts for text generated by machine learning
+                methods, ie. to see whether a model trained on Dickinson’s corpus might be able to
+                replicate this kind of “spatial extravagance”, given that she expresses it using
+                words such as “eternity” and “dip” that do not necessarily connote space or
+                distance. The initial “training set”—gathered through domain expertise of poetry
+                more generally rather than a close knowledge of all of Dickinson’s extensive
+                oeuvre—allowed me to gather a vocabulary of words with which to search the entire
+                corpus of Dickinson’s poems for other examples, so there is also the potential for
+                such approaches to be used for discoverability. </p>
+            <p>Finally, I used this list of terms in conjunction with the
+                Women Writers Vector Toolkit ( <ref target="https://wwp.northeastern.edu/lab/wwvt/">https://wwp.northeastern.edu/lab/wwvt/</ref>), an offshoot of the Women Writers
+                Project (WWP), to explore whether a word embeddings model could find terms that, to
+                a nineteenth-century audience, might have connoted space, scale and shifts between
+                them, and thus obtain further words with which to query the Dickinson corpus. This
+                represented the opportunity to collaborate, so to speak, with the experts and
+                scholars who built the WWP word embeddings model. The WWP corpus is, of course,
+                built from fiction texts rather than poetry: any equivalent poetry corpus would not
+                be sufficiently large for machine learning analysis. This part of the project was
+                useful in suggesting how portable the lexical patterning around space and scale in
+                one genre (longform literary fiction published mostly in Britain) was when applied
+                to another genre (poetry written in the United States): while there are clear
+                generic differences between these two genres, a model trained on pre-twentieth
+                century literary fiction would seem to be a better match than a one trained on vast
+                databanks of text harvested from the twenty-first century internet. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Kwan, Mei-Po</author> / <author>Knigge, LaDona</author>
+                        (2006): “Doing qualitative research using GIS: An oxymoronic endeavor?”, in:
+                            <hi rend="italic">Environment and Planning A</hi> 38, 11: 1999-2002. </bibl>
+                    <bibl>
+                        <author>Vendler, Helen</author> (2010): <hi rend="italic">Dickinson:
+                            Selected Poems and Commentaries</hi>. Cambridge, MA: The Belknap Press
+                        of Harvard University Press. DOI: 10.1068/a38462. </bibl>
+                    <bibl>
+                        <author>Women Writers Project</author>. Women Writers Project,
+                        Northeastern University, 1999–2022  <ref target="https://www.wwp.northeastern.edu">https://www.wwp.northeastern.edu</ref> [2.11.2022]. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

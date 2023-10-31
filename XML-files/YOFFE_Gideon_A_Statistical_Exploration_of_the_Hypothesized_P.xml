@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Statistical Exploration of the Hypothesized Partition of the Books of Genesis and Exodus into Priestly and non-Priestly Components</title>
+                <author n="YoffeGideonYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0002-1451-6492" n="YoffeGideon">
+                        <surname>Yoffe</surname>
+                        <forename>Gideon</forename>
+                    </persName><affiliation>Hebrew University of Jerusalem, Israel; Tel Aviv University, Israel</affiliation><email>gideon.yoffe@mail.huji.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BuehlerAxelYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0001-5062-8806" n="BuehlerAxel">
+                        <surname>Buehler</surname>
+                        <forename>Axel</forename>
+                    </persName><affiliation>Université de Genève</affiliation><email>lexexel@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="RoemerThomasYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0002-6490-7678" n="RoemerThomas">
+                        <surname>Roemer</surname>
+                        <forename>Thomas</forename>
+                    </persName><affiliation>Collège de France</affiliation><email>thomas.romer1312@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DershowitzNachumYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0003-0363-2735" n="DershowitzNachum">
+                        <surname>Dershowitz</surname>
+                        <forename>Nachum</forename>
+                    </persName><affiliation>Tel Aviv University, Israel</affiliation><email>nachumd@tauex.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PiasetzkyEliYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0001-9058-2590" n="PiasetzkyEli">
+                        <surname>Piasetzky</surname>
+                        <forename>Eli</forename>
+                    </persName><affiliation>Tel Aviv University, Israel</affiliation><email>eip@tauphy.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FinkelsteinIsraelYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0002-5643-2158" n="FinkelsteinIsrael">
+                        <surname>Finkelstein</surname>
+                        <forename>Israel</forename>
+                    </persName><affiliation>Tel Aviv University, Israel</affiliation><email>fink2@tauex.tau.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SoberBarakYOFFE_Gideon_A_Statistical_Exploration_of_the_Hypothesized_P.xml"><persName ref="https://orcid.org/0000-0001-5090-5551" n="SoberBarak">
+                        <surname>Sober</surname>
+                        <forename>Barak</forename>
+                    </persName><affiliation>Hebrew University of Jerusalem, Israel</affiliation><email>barak.sober@mail.huji.ac.il</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We explore the hypothetical distinction between texts of priestly (P) and non-priestly (nonP) origin in Genesis and Exodus with an independent computational and statistical methodology. We introduce a novel textual stylometry pipeline, where we intertwine descriptive and inferential statistics for distinction optimization, quantification of uncertainty, and feature importance analysis.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Bible</term>
+                    <term>NLP</term>
+                    <term>Statistical Analysis</term>
+                    <term>Feature Importance</term>
+                    <term>Hypothesis Testing</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>attribution studies and stylometric analysis</term>
+                    <term>data modeling</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Philology</term>
+                    <term>Statistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction</head>
+                <p>We examine the hypothetical distinction between texts of priestly (P) and non-priestly (nonP) origin in the books of Genesis and Exodus, for which exists a surprisingly large agreement amongst biblical scholars (e.g.,
+                     Knohl 2007; 
+                    Römer 2014;
+                     Faust 2019). Examining this distinction with an independent, unsupervised computational methodology would establish a measure of confidence therein and encourage its application to additional instances of biblical texts, especially those of greater controversy, where our approach could help tilt the scale in favor of one hypothesis over another.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Methodology</head>
+                <p>We intertwine descriptive and inferential statistics. The first is used in text classification and interpretability analyses, whereas the latter quantifies uncertainty through hypothesis testing. While descriptive statistics were successfully applied to specific texts (e.g.,
+                     Kestemont et al. 2016;
+                     Verma 2017), we are unaware of similar studies where uncertainty quantification was considered. Furthermore, identification of literary features 
+                    <hi rend="italic">responsible</hi> for the classification, as opposed to cluster-wise significant feature detection (e.g.,
+                     Hruschka and Covoes 2005;
+                     Cai et al. 2010;
+                     Zhu et al. 2015), is novel for stylometry.
+                </p>
+            </div>
+            <div type="div1">
+                <head>Digital Corpus</head>
+                <p>We use STEPBible (digitized Leningrad codex), with its morphological and semantic tags for all words, prefixes, and suﬀixes. We consider two representations of the text: word-wise and a grammatical representation by phrase-dependent parts-of-speech (pdps).</p>
+                <p>We obtained a scholarly labeling assigning each verse in Genesis and Exodus as P/nonP.</p>
+            </div>
+            <div type="div1">
+                <head>Text Embedding</head>
+                <p>Our underlying assumption is that significant literary differences between texts manifest in simple linguistic param-eters. Therefore, we consider three parameters, distinct combinations of which result in different classifications. These are: (<hi rend="bold">1</hi>) word-/pdp-wise representations, (<hi rend="bold">2</hi>)<hi rend="italic">n</hi>-gram size, the length of sequences of consecutive words/pdps, and (<hi rend="bold">3</hi>) running-window size, the number of verses surrounding the original, providing additional context.</p>
+                <p>We use tf-idf to encode each verse, assigning a relevance score to each feature in the context (
+                    Aizawa 2003). The critical consideration behind choosing this traditional embedding is that it allows interpretability of the results, unlike neural-net-based language models, which are convoluted (e.g.,
+                     Chakraborty et al. 2017;
+                     Devlin et al. 2018).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Optimization</head>
+                <p>We use 
+                    <hi rend="italic">k</hi>-means to classify the embedded verses and use an unbalanced accuracy measure to quantify the goodness of classification. We perform cross-validated grid-search on a range of running-window and 
+                    <hi rend="italic">n</hi>-gram sizes for words/pdps, identifying the combination that yields the highest accuracy (Fig.
+                     1, upper left panel).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Hypothesis Testing</head>
+                <p>To establish the statistical significance of our results, we introduce a hypothesis-testing cyclic label-shift test, that preserves the structure of the hypothesized partition and overcomes the fact that label-permutation tests do not consider correlations between units of text, which affect their likelihood of being clustered together (see Fig.
+                     1, upper right panel).
+                </p>
+            </div>
+            <div type="div1">
+                <head>Feature Importance Analysis</head>
+                <p>Minimizing 
+                    <hi rend="italic">k</hi>-means loss is equivalent to maximizing 
+                    <hi rend="italic">inter-cluster</hi> variances. Leveraging this, we extract a vector of feature-wise importance that maximizes the inter-cluster variance found by 2-means. This vector allows us to trace the features most responsible for the classification (Fig.
+                     1, bottom panels).
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="15.104180555555555cm" url="Pictures/371be43576c3714d1b1e55b01b224dcf.png" rend="inline"/>
+                    <head>Figure 1: A statistical exploration of the hypothesized partition of the books of Genesis and Exodus into Priestly and non-Priestly constituents: results for the book of Genesis (lexemes representation). 
+                        <hi rend="bold">Upper Left Panel - Optimization</hi>: Cross-validated grid-search over verse running-window widths and n-gram sizes to identify the combination yielding an optimal overlap. The combination, value, and uncertainty of the optimal overlap are plotted on top of the panel, and all combinations whose overlap value is within 1
+                        <formula>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML">σ</mi>
+                            </mml:math>
+                        </formula> of the optimal overlap value are marked in red cells. 
+                        <hi rend="bold">Upper Right Panel - Hypothesis Testing</hi>: Cross-validated hypothesis testing, where we simulate the null hypothesis distribution through a cyclic shift of the hypothesized P/nonP labeling. The p-value is measured with respect to the optimal overlap value minus its standard deviation. 
+                        <hi rend="bold">Bottom Panels - Feature Importance Analysis</hi>: Cross-validated important feature analysis (running-window 4 and n-gram size 1) and their statistical stability, displaying features bearing 75% of the explained variance. Features in the left and right panels are important to the P-associated and nonP-associated clusters, respectively. The small numbers above each error bar indicate the cluster-wise abundance of the feature
+                    </head>
+                </figure>               
+            </div>
+            <div type="div1">
+                <head>Conclusions</head>
+                <p>We examined the hypothetical distinction between texts of priestly (P) and non-priestly (nonP) origin in the books of Genesis and Exodus, which we explored with a novel unsupervised pipeline for text stylometry. We sought a combination of literary parameters that optimized the overlap between the unsupervised and hypothesized partitions. We established the statistical significance of our results using a cyclic-shift test, which we show to be more adequate for text stylometry problems than a naive permutation test. Finally, we extracted<hi rend="italic">n</hi>-grams that contribute the most to the classification, their respective proportions, statistical robustness, and correlation to other features. We achieve optimal, statistically significant overlap values of 73% and 90% for the books of Genesis and Exodus, respectively.</p>
+                <p>We find the discrepancy in optimal overlap values between the two books to stem from two factors: (
+                    <hi rend="bold">1</hi>) A more sporadic distribution of P texts in Genesis, as opposed to a more formulaic one in Exodus. (
+                    <hi rend="bold">2</hi>) The sensitivity of our pipeline to a distinct semantic field manifested in two large P blocks in Exodus, comprising the majority of the P-associated text therein.
+                </p>
+                <p>Through complementary exegetical and statistical analyses, we show that our methodology differentiates the unique generic style of the Priestly source, characterized by lawgiving, cult instructions, and streamlining a continuous chrono-logical sequence of the story through third-person narration. This observation corroborates and hones the stance of most biblical scholars.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold">Akiko Aizawa</hi>. An information-theoretic perspective of tf–idf measures. 
+                        <hi rend="italic">Information Processing &amp; Management</hi>
+                        , 39(1):45–65, 2003.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Deng Cai, Chiyuan Zhang, and Xiaofei He</hi>. Unsupervised feature selection for multi-cluster data. In 
+                        <hi rend="italic">Proceedings of the 16th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</hi>
+                        , pages 333–342, 2010.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Supriyo Chakraborty, Richard Tomsett, Ramya Raghavendra, Daniel Harborne, Moustafa Alzantot, Federico Cerutti, Mani Srivastava, Alun Preece, Simon Julier, Raghuveer M Rao, et al</hi>. Interpretability of deep learning models: A survey of results. In 
+                        <hi rend="italic">2017 IEEE Smartworld, Ubiquitous Intelligence &amp; Computing, Advanced &amp; Trusted Computed, Scalable Computing &amp; Communications, Cloud &amp; Big Data Computing, Internet of People and Smart City Innovation (Smartworld/SCALCOM/UIC/ATC/CBDcom/IOP/SCI)</hi>
+                        , pages 1–6. IEEE, 2017.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova</hi>. BERT: Pre-training of deep bidirectional transformers for language understanding. 
+                        <hi rend="italic">arXiv preprint arXiv:1810.04805</hi>
+                        , 2018.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Avraham Faust</hi>. The world of P: The material realm of priestly writings. 
+                        <hi rend="italic">Vetus Testamentum</hi>
+                        , 69(2):173–218, 2019.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Eduardo R. Hruschka and Thiago F. Covoes</hi>. Feature selection for cluster analysis: an approach based on the simplified silhouette criterion. In 
+                        <hi rend="italic">International Conference on Computational Intelligence for Modelling, Control and Automation and International Conference on Intelligent Agents, Web Technologies and Internet Commerce (CIMCA-IAWTIC’06)</hi>
+                        , volume 1, pages 32–38. IEEE, 2005.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mike Kestemont, Justin Stover, Moshe Koppel, Folgert Karsdorp, and Walter Daelemans</hi>. Authenticating the writings of Julius Caesar. 
+                        <hi rend="italic">Expert Systems with Applications</hi>
+                        , 63:86–96, 2016.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Israel Knohl</hi>. 
+                        <hi rend="italic">The Sanctuary of Silence: The Priestly Torah and the Holiness School</hi>
+                        . Eisenbrauns, 2007.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

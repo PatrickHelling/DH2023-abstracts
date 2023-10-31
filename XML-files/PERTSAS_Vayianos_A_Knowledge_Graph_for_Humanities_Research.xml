@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Knowledge Graph for Humanities Research</title>
+                <author n="PertsasVayianosPERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml"><persName n="PertsasVayianos">
+                        <surname>Pertsas</surname>
+                        <forename>Vayianos</forename>
+                    </persName><affiliation>Athens University Of Economics and Business</affiliation><email>vpertsas@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LeontaridisPanagiotisPERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml"><persName n="LeontaridisPanagiotis">
+                        <surname>Leontaridis</surname>
+                        <forename>Panagiotis</forename>
+                    </persName><affiliation>Athens University Of Economics and Business</affiliation><email>leontpng@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KasapakiMarialenaPERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml"><persName n="KasapakiMarialena">
+                        <surname>Kasapaki</surname>
+                        <forename>Marialena</forename>
+                    </persName><affiliation>Athens University Of Economics and Business</affiliation><email>kasapakimariael@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ConstantopoulosPanosPERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml"><persName n="ConstantopoulosPanos">
+                        <surname>Constantopoulos</surname>
+                        <forename>Panos</forename>
+                    </persName><affiliation>Athens University Of Economics and Business</affiliation><email>panosc@aueb.gr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>We create a Knowledge Graph for Humanities research. Starting with a multidisciplinary dataset of 25,000 OCRed JSTOR papers, we use Deep Learning methods to filter out OCR noise, extract and interrelate research activities, methods and goals, associate them with metadata and transform each paper into approximately 200 RDF triples.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Knowledge graphs</term>
+                    <term>information extraction from text</term>
+                    <term>knowledge representation</term>
+                    <term>entity recognition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>linked (open) data</term>
+                    <term>natural language processing</term>
+                    <term>Computer science</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The steep increase of research publications in every major discipline makes it increasingly difficult for experts to maintain an overview of their domain, increases the risk of missing new work or reinventing solutions, and makes it harder to relate ideas from different domains. The latter becomes of high concern in multidisciplinary fields, like Digital Humanities, where maintaining a cross-disciplinary overview of what goes on in terms of research goals, activities and methods is even harder. This situation could be significantly alleviated by supporting information searches such as: 
+                <hi rend="italic">find all papers that address a given problem</hi>; 
+                <hi rend="italic">how was the problem solved</hi>; 
+                <hi rend="italic">which methods are employed by whom in addressing particular research goals</hi>; etc. Answering queries like these essentially requires access to information that could be compiled interactively, or automatically extracted from research publications, finally offered in a structured form suitable for supporting semantic queries. Note that search engines widely used by researchers, such as Google Scholar
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn1" n="1"/>, Scopus
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn2" n="2"/> or Semantic Scholar
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn3" n="3"/> mostly leverage bibliographic metadata, while knowledge expressed in the actual text is exploited mostly by matching query terms to documents. In this paper we present a Knowledge Graph (KG) specifically designed for matching the above information needs of researchers in Humanities. The KG is derived from a large multidisciplinary dataset from the JSTOR
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn4" n="4"/> repository, which has undergone various NLP processes so that information from each article could be properly extracted, combined with metadata and other information from the Web and finally transformed into RDF triples available as linked data. The entire process was driven by Scholarly Ontology (SO) (Pertsas 
+                <hi rend="italic">et al.</hi> 2017), specifically designed for capturing research processes. A specialization of SO for DH is known as NeMO.
+            </p>
+            <p>The original dataset consisted of 25,681 papers -produced by OCR on the original scanned files- from various disciplines such as Archeology, Paleontology, Social Sciences, Anthropology, etc. years 2000-2021. After a shallow rule-based cleaning to remove references sections and titles, the text was split into sentences using the SpaCy
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn5" n="5"/> NLP framework. However, since the full text of each paper was the outcome of OCR, it had to be appropriately cleaned from noise elements such as unrecognized characters, tables, footnotes, references, section headings, etc. Furthermore, text deriving from scanned two-column papers yielded incomprehensible material that also had to be identified and removed. To this end we trained a Deep Learning text classifier using Hugging-Face
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn6" n="6"/> BERT-base-uncased Transformer in order to recognize if a given sentence is proper or noisy, based on a manually curated dataset of 10,000 sentences (half of which were identified as clean and the rest as noise). Evaluation of our model yielded 95.8% F1 score for the text classification task. The classifier was then applied to the original dataset filtering 3,700,000 cleaned sentences. 
+            </p>
+            <p>Next, we trained three Deep Learning Entity Recognizers using Hugging-Face RoBERTa-base Transformers in order to identify and extract three core types of entities of SO, namely: 1) 
+                <hi rend="italic">Activities</hi> (i.e. actual research processes or steps thereof, like an archeological excavation, an anthropological study, an experiment, etc. carried out by the researchers-authors of the paper); 2) 
+                <hi rend="italic">Methods</hi> (i.e. procedures employed by researchers to carry out research activities, like an algorithm or a specific technique, which appear as named entities in text) and 3) 
+                <hi rend="italic">Goals</hi> (i.e. the research tasks that were addressed by the researchers through their activities). Our training set consisted of 10,000 sentences, containing approximately 7200 Methods, 4200 Activities and 1800 Goals, deriving from 3,082 papers. It was manually annotated by 3 annotators who, after appropriate training, reached inter-annotator agreement higher than 85% (Kappa statistic) for every task. Evaluation of our classifiers yielded F1 scores: 87.4% for Methods, 81.7% for Activities and 88.2% for Goals respectively. Performance depends on the syntactic complexity of textual spans: Goals are syntactically clearer, while Activities in passive voice with the agent missing proved a major source of errors.
+            </p>
+            <p>After entity extraction, additional post-processing rules were applied in order to infer semantic relationships among the extracted activities with methods and goals respectively. These rules are based on the SO definitions for 
+                <hi rend="italic">employs(Activity,Method)</hi> and 
+                <hi rend="italic">hasGoal(Activity,Goal)</hi> relationships and the proximity of their corresponding entities’ manifestations in text. Specifically, for each 
+                <hi rend="italic">employs(Activity,Method)</hi> the corresponding textual spans of activity and method must overlap, while for 
+                <hi rend="italic">hasGoal(Activity,Goal)</hi>, co-appearance of the corresponding activity and goal in the same sentence is necessary. Evaluation of those rules on a test-set of 1000 cases for each relationship type, yielded F1 scores: 96.4% and 98.1% respectively. 
+            </p>
+            <p>Finally, we extracted information from metadata regarding the authors of the articles (further matched, when possible, with ORCID
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn7" n="7"/> using the provided API), publication information and author keywords. The KG was produced in RDF
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn8" n="8"/> data format, using the NIF
+                <ref target="#PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn9" n="9"/> model for the URIs of the entities derived from text, which were then interrelated -when appropriate- and connected with those extracted from article’s metadata. Through this procedure, each paper is transformed into approximately 200 triples, on average. 
+            </p>
+            <p>Generating KGs for scientific literature is an active research topic with many endeavors like (Steenwinckel 
+                <hi rend="italic">et al.</hi> 2020, Färber/Michael 2019) focusing on interconnecting bibliographic information of papers and authors, while others like (Dessì 
+                <hi rend="italic">et al.</hi> 2021, D’Souza et al. 2022) leveraging out-of-the-shelf NER solutions for extraction of 
+                <hi rend="italic">named</hi> entities (e.g. material, task, dataset, etc.) in specialized domains of literature. To the best of our knowledge, our KG is currently the only effort that concurrently addresses the problems of extracting information from articles’ full text, dealing with noisy OCRed material and semantically complex (and of variable length) entities like research activities and goals, while focusing on the domain of Humanities research. In addition, the inference of relationships between the extracted entities allows for better understanding and representation of their semantic context (e.g. the research process during which a method was employed, the reason for its employment, etc.) making it possible to address complex queries such us the ones described above. Future work involves expanding our KG with recognition and extraction of other SO entities such as researchers’ assertions based on the outcomes of their activities and information from citations, as well as entity linking based on knowledge bases of other repositories such as Wikidata, etc.
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn1">
+                    <ref target="https://scholar.google.com/">https://scholar.google.com/</ref>
+                </note><note n="2" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn2">
+                    <ref target="https://www.scopus.com/home.uri">https://www.scopus.com/home.uri</ref>
+                </note><note n="3" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn3">
+                    <ref target="https://www.semanticscholar.org/">https://www.semanticscholar.org/</ref>
+                </note><note n="4" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn4">
+                    <ref target="https://www.jstor.org/">https://www.jstor.org/</ref>
+                </note><note n="5" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn5">
+                    <ref target="https://spacy.io/">https://spacy.io/</ref>
+                </note><note n="6" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn6">
+                    <ref target="https://huggingface.co/">https://huggingface.co/</ref>
+                </note><note n="7" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn7">
+                    <ref target="https://orcid.org/">https://orcid.org/</ref>
+                </note><note n="8" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn8">
+                    <ref target="https://www.w3.org/RDF/">https://www.w3.org/RDF/</ref>
+                </note><note n="9" xml:id="PERTSAS_Vayianos_A_Knowledge_Graph_for_Humanities_Research.xml_ftn9">
+                    <ref target="https://www.w3.org/community/bpmlod/wiki/NIF_Web_Services">https://www.w3.org/community/bpmlod/wiki/NIF_Web_Services</ref>
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dessì et al.</author> (2021): Generating knowledge graphs by employing Natural Language Processing and Machine Learning techniques within the scholarly domain. FGCS, 116 pp.253–264.
+                    </bibl>
+                    <bibl>
+                        <author>D’Souza et al.</author> (2022): Computer Science Named Entity Recognition in the Open Research Knowledge Graph (https://orkg.org/). ArXiv abs/2203.14579.
+                    </bibl>
+                    <bibl>
+                        <author>Färber, Michael</author>. (2019): The Microsoft Academic Knowledge Graph: A Linked Data Source with 8 Billion Triples of Scholarly Data. 
+                        <hi rend="italic">SEMWEB</hi>.
+                    </bibl>
+                    <bibl>
+                        <author>Pertsas et al.</author> (2017): Scholarly Ontology: modelling scholarly practices, IJDL, Vol. 18(3), pp.173–190.
+                    </bibl>
+                    <bibl>
+                        
+                        <author>Steenwinckel et al.</author>
+                        (2020): Facilitating the Analysis of COVID-19 Literature Through a Knowledge Graph. ISWC. 
+                        <ref target="https://doi.org/10.1007/978-3-030-62466-8_22">https://doi.org/10.1007/978-3-030-62466-8_22</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

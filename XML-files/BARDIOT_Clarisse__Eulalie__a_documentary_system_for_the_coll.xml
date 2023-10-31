@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Eulalie: a documentary system for the collaborative preservation of electroacoustic music based on the Doremus ontology </title>
+                <author n="BardiotClarisseBARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml"><persName n="BardiotClarisse">
+                        <surname>Bardiot</surname>
+                        <forename>Clarisse</forename>
+                    </persName><affiliation>Université Rennes 2, France</affiliation><email>clarisse_bardiot@mac.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JacqueminBernardBARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml"><persName n="JacqueminBernard">
+                        <surname>Jacquemin</surname>
+                        <forename>Bernard</forename>
+                    </persName><affiliation>Université de Lille, France</affiliation><email>Bernard.Jacquemin@univ-lille.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MichaanAlexandreBARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml"><persName n="MichaanAlexandre">
+                        <surname>Michaan</surname>
+                        <forename>Alexandre</forename>
+                    </persName><affiliation>Université Jean Monnet Saint Etienne, France</affiliation><email>alex.michaan@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WesteelJeanneBARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml"><persName n="WesteelJeanne">
+                        <surname>Westeel</surname>
+                        <forename>Jeanne</forename>
+                    </persName><affiliation>Art Zoyd Studios</affiliation><email>jeanne.westeel.etu@univ-lille.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="SouthammavongOudomBARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml"><persName n="SouthammavongOudom">
+                        <surname>Southammavong</surname>
+                        <forename>Oudom</forename>
+                    </persName><affiliation>Art Zoyd Studios</affiliation><email>osartzoyd@orange.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoskowitzDanielBARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml"><persName n="KoskowitzDaniel">
+                        <surname>Koskowitz</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Art Zoyd Studios</affiliation><email>daniel.koskowitz@sfr.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Eulalie is an operational, open-source, and free information system dedicated to electroacoustic music to document and preserve works. It is based on the Doremus ontology. We propose adapting this ontology to the specific field of electroacoustic music and its implementation in a database (Heurist, in dialogue with Nakala to host the documents). The project was born in the context of Art Zoyd Studios, a center for musical creation. One of the missions is to preserve the repertoire of the XXth and XXIst century pieces involving electronics. The principles of interoperability and Open Data have guided the different choices made throughout the project. Thus, it is not only possible to make the Art Zoyd Studios information database's content interact with other music resources, but the system itself, Eulalie, can be used by other institutions facing problems similar to those of Art Zoyd Studios.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>ontology</term>
+                    <term>electroacoustic music</term>
+                    <term>music</term>
+                    <term>documentation</term>
+                    <term>modeling</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>digital archiving</term>
+                    <term>Communication studies</term>
+                    <term>Library &amp; information science</term>
+                    <term>Musicology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Eulalie is an operational, open-source, and free information system dedicated to electroacoustic music for documenting works in order to preserve them, based on the Doremus ontology
+                <ref target="#BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn0" n="1"/>. It is designed for institutions looking for an archival solution, musicologists, and artists who want to play this repertoire. The project was born in the context of Art Zoyd Studios
+                <ref target="#BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn2" n="2"/>, a French creation center dedicated to electroacoustic music since 1999. One of its missions is to preserve the repertoire of the 20
+                <hi rend="sup">th</hi> and 21
+                <hi rend="sup">st</hi> century pieces involving electronics, despite the technological obsolescence of the original equipment for which they have been produced (Lemouton 
+                <hi rend="italic">et al. </hi>2018). Eulalie is part of an approach to the preservation of electroacoustic music where the accessibility of all the elements necessary to rebuild or reinterpret works promotes their replayability and, therefore, their sustainability (Bachimont 2017, Bardiot 2021, Bardiot 
+                <hi rend="italic">et al. </hi>2022). To this end, it is crucial to give these works more visibility, locate them, and describe all their components and iterations precisely. This is why we propose an open and interoperable documentary system that combines modeling, description, and publication of data relating to works. From the user’s point of view, this documentary system should answer questions such as: What is the last played version of such composition? Where are these elements (recordings, scores, devices, etc.) kept? To what extent are they accessible? What were the variations of instrumentarium in a given piece over time?
+                </p>
+            <p>Eulalie is partly based on an ontology specifically dedicated to music, the Doremus ontology (Choffé and Leresche 2016, Lisena 
+                <hi rend="italic">et</hi><hi rend="italic">al.</hi> 2018), which aims to model the descriptive information of music-related content (Jacquemin 2022). This ontology, based on FRBRoo (Le Boeuf 2013, Riva 2013) seemed to meet our needs partially. However, with two major drawbacks: very rich and complex, it does not consider the specificities of electroacoustic music. Moreover, it has not been implemented in a conventional database management system. Our approach is, therefore, to rely on the data structure proposed by Doremus to build a conceptual model of data compatible but simpler and lighter. This model can then be implemented in a standard database management system to make it easily accessible to the general public and to document content. However, the DB structure is still compatible with the original ontology, and thus allows for subsequent mapping into an RDF triplestore that ensure accessibility to the content.
+            </p>
+            <p>In this perspective, we have chosen a free and online database service, Heurist
+                <ref target="#BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn3" n="3"/> (in combination with Nakala – the French HSS research data repository – to host the documents), which offers remote access to a MySQL engine and provides a fairly simple interface to manipulate and manage the database. The logic of the model for electroacoustic music being the same as that of Doremus, we find in its structuring three founding concepts: the composition which, together with a Composer allows to situate the creative process; the Version that concretizes the musical piece and links it to catalog content (title, composition date, etc.) and musicological content (instrumentation); the Grouping, which allows apprehending a musical piece outside of its physical characteristics, and in particular to approach it individually as a whole, or on the contrary to consider it as an element integrated into a larger coherent whole (show, album). From this initial triple arise the different manifestations, whether material (scores, recordings) or immaterial (performances).
+            </p>
+            <p>After briefly presenting the project’s objectives and the ontology, we will propose a demo of the database
+                <ref target="#BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn1" n="4"/>. The principles of interoperability and Open Data have guided the different choices made throughout the project. Thus, it is not only possible to make the content of the Art Zoyd Studios information database interact with other resources on music, but the system itself, Eulalie, can be used by other institutions facing problems similar to those of Art Zoyd Studios.
+            </p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn0">
+                    <ref target="https://www.doremus.org/">https://www.doremus.org/</ref>
+                </note><note n="2" xml:id="BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn2">
+                    <ref target="https://artzoydstudios.com/">https://artzoydstudios.com/</ref>
+                </note><note n="3" xml:id="BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn3">
+                    <ref target="https://heuristnetwork.org/">https://heuristnetwork.org/</ref>
+                </note><note n="4" xml:id="BARDIOT_Clarisse__Eulalie__a_documentary_system_for_the_coll.xml_ftn1">
+                    <ref target="https://heurist.huma-num.fr/h6-alpha/?db=ArtZoyd_Archives">https://heurist.huma-num.fr/h6-alpha/?db=ArtZoyd_Archives</ref>
+                </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bachimont, Bruno</author>
+                        (2017): 
+                        <hi rend="italic">Patrimoine et numérique : technique et politique de la mémoire.</hi> Bry-sur-Marne: INA.
+                    </bibl>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author>
+                        (2021): 
+                        <hi rend="italic">Performing Arts and Digital Humanities: From Traces to Data.</hi> Hoboken: ISTE / Wiley.
+                    </bibl>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author> / <author>Michaan, Alexandre</author> / <author>Koskowitz, Daniel</author>  (2022): Questionnaire pour la préservation des œuvres de musique électroacoustique à Art Zoyd Studios. V1. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.6591916">10.5281/zenodo.6591916</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Choffé, Pierre</author> / <author>Leresche, Françoise</author>  (2016): “DOREMUS. Connecting Sources, Enriching Catalogues and User Experience”, in: 
+                        <hi rend="italic">Proceedings of IFLA WLIC 2016 – Connections. Collaboration. Community</hi>. Columbus, OH: IFLA
+                        <ref target="http://library.ifla.org/1322/1/093-choffe-fr.pdf">http://library.ifla.org/1322/1/093-choffe-fr.pdf</ref> [17.04.2023].
+                    </bibl>
+                    <bibl>
+                        <author>Jacquemin, Bernard </author>(2022): “Médiation du document musical: exploiter les métadonnées”, in: 
+                        <hi rend="italic">La médiation des savoirs en perspective. Ve colloque scientifique international du réseau MUSSI,</hi> Rio de Janeiro: IBICT 297–315.
+                    </bibl>
+                    <bibl>
+                        <author>Le Bœuf, Patrick</author>, ed. (2013): 
+                        <hi rend="italic">Functional Requirements for Bibliographic Records (FRBR). Hype Or Cure-All?</hi> New York, London : Routledge.
+                    </bibl>
+                    <bibl>
+                        <author>Lemouton, Serge</author> / <author>Bonardi, Alain</author> / <author>Pottier, Laurent</author> / <author>Warnier, Jacques</author>  (2018): “On The Documentation of Electronic Music”, in: 
+                        <hi rend="italic">Computer Music Journal</hi> 42, 4: 1–18.
+                    </bibl>
+                    <bibl>
+                        <author>Lisena, Pasquale</author> / <author>Achichi, Manel</author> / <author>Choffé, Pierre</author> / <author>Cecconi, Cécile</author> / <author>Todorov, Konstantin</author> / <author>Jacquemin, Bernard</author> / <author>Troncy, Raphaël</author>  (2018): “Improving (Re-)Usability of Musical Datasets. An Overview of the DOREMUS Project”, in: 
+                        <hi rend="italic">Bibliothek Forschung Und Praxis</hi> 42 (2): 194-205.
+                        <ref target="https://doi.org/10.1515/bfp-2018-0023"/>
+                        <ref target="https://doi.org/10.1515/bfp-2018-0023">DOI: </ref>
+                        <ref target="https://doi.org/10.1515/bfp-2018-0023">10.1515/bfp-2018-0023</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Riva, Pat </author>
+                        (2013): “FRBR Review Group Initiatives and the World of Linked Data”, in: 
+                        <hi rend="italic">Italian Journal of Library, Archives, and Information Science</hi>4, 1: 105–117.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

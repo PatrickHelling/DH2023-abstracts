@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exploring the Evolution of Curatorial Diversity: a Methodological Framework
+                    with a Case Study of Book Reviews</title>
+                <author n="CalderonReyesEmilioCALDERON_REYES_Emilio_Exploring_the_Evolution_of_Curatorial_.xml"><persName n="CalderonReyesEmilio">
+                        <surname>Calderon Reyes</surname>
+                        <forename>Emilio</forename>
+                    </persName><affiliation>CulturePlex, Western University, Canada</affiliation><email>ecaldern@uwo.ca</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This presentation will define curational diversity based on cultural networks and a methodology to assess it. Additionally, the proposed methodology will be applied to conduct a longitudinal analysis of Boletín Cultural y Bibliográfico, a cultural magazine published by the Office of Cultural Affairs of Banco de la República de Colombia.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>cultural networks</term>
+                    <term>cultural diversity</term>
+                    <term>content diversity</term>
+                    <term>curated networks</term>
+                    <term>cultural institutions</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>data modeling</term>
+                    <term>network analysis and graphs theory and application</term>
+                    <term>public humanities collaborations and methods</term>
+                    <term>Chicano/a/x</term>
+                    <term>Latino/a/x studies</term>
+                    <term>Cultural studies</term>
+                    <term>Humanities computing</term>
+                    <term>Literary studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div>
+                <p>Diversity, Equity, and Inclusion (DEI) as an organizational framework is on the rise and in Latin America it has permeated cultural institutions and public policies. In terms of the theory of cultural networks, curatorial diversity may be defined as the presence of variety, manifested in several dimensions, with respect to its actors, cultural objects, and connections. The proposed chapter presents a new cultural analytics methodology to examine curatorial diversity and exemplifies it with an analysis of 3,382 reviews of the <hi rend="italic">Cultural and Bibliographical Bulletin, </hi>a cultural magazine published by the Cultural Affairs
+                        Department of the Bank of the Republic of Colombia (BanRepCultural).</p>
+                <p>This research responds to the challenge of measuring diversity from a file when
+                    it is not feasible to survey or interview the people involved, as is standard
+                    practice in DEI's organizational culture methodologies (Romansky et al., 2021).
+                    The proposal argues that, in the case of cultural institutions, curatorial
+                    diversity can be valued both in deontological terms, in the sense that the offer
+                    of a cultural institution must resemble the diversity of the society that
+                    supports it, and utilitarian, since that a diverse cultural program helps
+                    broaden cultural horizons and promotes cross-pollination in the arts.</p>
+                <div>
+                    <head>Methodology</head>
+                    <p>This research proposes a cultural analytics methodology to analyze the
+                        evolution, in the sense of change over time, of the curatorial diversity of
+                        a cultural network. The methodology consists of five stages: (i) generate a
+                        scheme of the network, (ii) select the dependent and independent variables,
+                        (iii) acquire, process, and describe the dimensions of diversity, (iv)
+                        analyze the correlations between the variables, (v) discuss the results.</p>
+                    <p>The first phase of the methodology consists of conceiving a scheme of the
+                        cultural network in which curatorial diversity will be analyzed. In this
+                        phase, the context of the network is examined, its specific cultural domain
+                        is delimited, the relationships that form its general structure are
+                        described, and the information is consolidated in an ontology of a network
+                        of cultural actors and objects (Suárez et al, 2015; Brown et al, 2016).</p>
+                    <p>The second stage of the methodology is the
+                            selection of variables. The independent variable is necessarily the unit
+                            of time that delimits the periods in which the state or composition of
+                            the network will be compared. Meanwhile, the dependent variables are the
+                            dimensions of curatorial diversity that are of most interest considering
+                            the context of the network and data availability. Typically, the
+                            attributes of cultural objects refer to predominant themes, metadata, or
+                            the medium, or technique of artistic expression, while the attributes of
+                            actors identify them in demographic or professional terms. When
+                            selecting attributes, the potential risks to actors of having their data
+                            collected should be weighed, especially when the data identifies members
+                            of groups that have been subjected to systematic discrimination
+                            (D'Ignazio and Klein, 2020, p 112).</p>
+                    <p>In the third phase a network database is created by extracting, cleaning and
+                        preprocessing data. The obtained data is then examined for completeness and
+                        reliability, and the diversity of each attribute is described in terms of
+                        variety and balance using statistics such as proportion, standard deviation,
+                        mean, Shannon entropy, and Simpson's index of diversity (Budescu and
+                        Budescu, 2012).</p>
+                    <p>The fourth phase of the methodology focuses on analyzing whether the
+                        evolution of the dimensions of the network's curatorial diversity has been a
+                        stationary process or not stationary. This involves establishing the
+                        regression that best fits the temporal distribution of each of the diversity
+                        dimensions, deciding how to evaluate whether the distribution is stationary
+                        or not stationary, and formulating the respective null and alternative
+                        hypotheses.</p>
+                    <p>The proposed methodology closes with a discussion of the results focused on
+                        their interpretation considering the historical context and representative
+                        examples. It is especially important that the discussion raises the
+                        identified limitations, especially in relation to the dimensions of
+                        diversity of interest excluded due to lack of data, ethical considerations,
+                        or other reasons.</p>
+                </div>
+            </div>
+            <div>
+                <head>Case study: Cultural and Bibliographic Bulletin</head>
+                <p>Established in 1958, the Cultural and Bibliographic Bulletin is a magazine focused on investigating and disseminating Colombian cultural heritage. The complete digital archive of the magazine is available, and it reached more than 180,000 visits in 2021. This case was chosen to exemplify the methodology because BanRepCultural is a well-recognized cultural institution in Latin America that mentions diversity in its mission statement. This case focuses on the <hi rend="italic">Boletín Cultural y Bibliográfico</hi> book reviews because they are an intuitive starting point for generating a base network scheme that consistently involves more actors and cultural objects (Figure 1).</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="3.6671222222222224cm" url="Pictures/22e4a3685e1127315b96f42f2750196d.png" rend="inline"/>
+                </figure>
+                <p>Preliminary results suggest that the dimensions of curatorial diversity
+                    considered have followed different processes. The diversity in terms of the
+                    place of publication of the reviewed works is the clearest example of a
+                    stationary process, and every year more than half of the books reviewed were
+                    published in Bogotá. On the other hand, the gender distribution of the authors
+                    of the reviewed works more clearly follows a non-stationary process. While in no
+                    year has the gender diversity of authors approached parity, this gap has been
+                    narrowing over time.</p>
+                <p>In a rapidly digitizing world, the relevance of cultural institutions depends on
+                    their ability to cater to the changing needs and preferences of users and adapt
+                    to a dynamic cultural ecosystem. Building on Scott Page's (2008, 2011) research
+                    on the value of diversity in complex adaptive systems, it would be especially
+                    relevant for cultural institutions that are adopting networked models of
+                    organization to develop systems to account for the specific ways in which
+                    diversity is related to its main mission.</p>
+                <p>Measuring curatorial diversity will allow new
+                        explorations of the connections between cultural objects and the actors that
+                        make up a cultural network. The proposed methodology could be adapted to
+                        account for the curatorial diversity of future publications, providing
+                        managers, curators, and the public with measures to check whether
+                        institutions are offering programming. culture aligned with its diversity
+                        statements.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Brown D., Soto, A., Suárez, J.S., de la Rosa, J. Overview</author>: The Social
+                        Media Data Processing Pipeline. Chapter in The Sage Handbook of Social Media
+                        Research Methods. Sage, pp. 125-147.</bibl>
+                    <bibl><author>Budescu, D. V., &amp; Budescu, M. </author>(2012). How to measure diversity when
+                        you must. Psychological Methods, 17(2), 215-227.</bibl>
+                    <bibl><author>D’Ignazio, C., Klein, L. F. </author>(2020). Data feminism. The MIT Press.</bibl>
+                    <bibl><author>Page, S.</author> (2008). The Difference: How the Power of Diversity Creates Better
+                        Groups, Firms, Schools, and Societies. Princeton University Press,
+                        https://doi.org/10.1515/9781400830282</bibl>
+                    <bibl>
+                        <author>Page, S. </author>(2011). 
+                        <hi rend="italic">Diversity and
+                            complexity</hi>
+                        . Princeton University
+                            Press. https://doi.org/10.1515/9
+                        781400835140
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Suárez, J.S., McArthur, 
+                            B.,Soto-Corominas, A.</hi>. Cultural Networks and the Future of Cultural
+                            Analytics. Proceedings of the 2015 International Conference on Culture
+                            and Computing. Kyoto University. 
+                    </bibl>
+                    <bibl><author>Romansky, L., Garrod, M., Brown, K., Deo, K.</author> (2021). How to Measure
+                        Inclusion in the Workplace. Harvard Business Review. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

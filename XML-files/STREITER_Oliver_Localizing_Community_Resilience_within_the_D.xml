@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Localizing Community Resilience within the Digital
+                        Humanities: Examples from the Penghu Archipelago</title>
+                <author n="StreiterOliverSTREITER_Oliver_Localizing_Community_Resilience_within_the_D.xml"><persName n="StreiterOliver">
+                        <surname>Streiter</surname>
+                        <forename>Oliver</forename>
+                    </persName><affiliation>National University of Kaohsiung, Taiwan</affiliation><email>ostreiter@nuk.edu.tw</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ZhanYaqingSTREITER_Oliver_Localizing_Community_Resilience_within_the_D.xml"><persName n="ZhanYaqing">
+                        <surname>Zhan</surname>
+                        <forename>Ya-qing</forename>
+                    </persName><affiliation>University of Hamburg</affiliation><email>hanna.yaqing.zhan@uni-hamburg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GoudinYoannSTREITER_Oliver_Localizing_Community_Resilience_within_the_D.xml"><persName n="GoudinYoann">
+                        <surname>Goudin</surname>
+                        <forename>Yoann</forename>
+                    </persName><affiliation>National University of Kaohsiung, Taiwan</affiliation><email>yoanngoudin@yahoo.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The paper develops a formal model of community resilience based on the notion of
+                    socio-cognitive grammars and the analogy relations that rules of different
+                    grammars maintain at different levels. Examples are given based on our fieldwork
+                    on the Penghu archipelago. </p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <abstract>
+                <p>The paper develops a formal model of community resilience based on the notion of
+                    socio-cognitive grammars and the analogy relations that rules of different
+                    grammars maintain at different levels. Examples are given based on our fieldwork
+                    on the Penghu archipelago. </p>
+            </abstract>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Resilience</term>
+                    <term>socio-cognitive grammar</term>
+                    <term>Penghu</term>
+                    <term>analogy</term>
+                    <term>cultural operator</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>cultural analytics</term>
+                    <term>data modeling</term>
+                    <term>ethnographic analysis</term>
+                    <term>spatial &amp; spatio-temporal analysis</term>
+                    <term>modeling and visualization</term>
+                    <term>Anthropology</term>
+                    <term>Asian studies</term>
+                    <term>Cognitive sciences and psychology</term>
+                    <term>Cultural studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>The ongoing climate change and its consequences, such as
+                    the increase of atmospheric energy, the rise of the sea level, as well as the
+                    change of wind patterns and sea currents have triggered multiple responses in
+                    politics, societies and research. In academia, research started to shift from
+                    the technical conception of <hi rend="italic">vulnerability</hi>to a culturally rooted notion of <hi rend="italic">resilience </hi><hi rend="italic">(</hi>Agdar 2000, Berkes and Ross 2013). Part of this research
+                    tries to understand how local communities have in the past, through evolution
+                    and adaptation, developed, maintained and transmitted their <hi rend="italic">resilience </hi><hi rend="italic">(</hi>Bixia 2013, Streiter et al. 2021), and which role culture
+                    plays in this process. The aim of researching resilience-in-cultures is thus to
+                    understand the empowering role of culture in our transforming world and to
+                    potentially assist communities in a phase of accelerated transformation, for
+                    which the normal life-cycles of cultural adaptation are potentially too
+                    slow.</p>
+            <p>Community resilience, for which most resilient or
+                    endangered communities might themselves have no specific word, (Wairama et al. 2021), nor a designed committee or infrastructure, is hard to
+                    describe or quantify. For the operationalization of resilience, researchers in
+                    the past had to rely on their intuition and frequently fell back to ad-hoc
+                    observations of cultural traits which could be theoretically linked to
+                    resilience. The resilience of a community, however, can be apprehended neither
+                    from its material, social or cultural components, especially if these are
+                    depicted as isolated or static (Uddin et al. 2020). These components instead are wheels in
+                    a system that needs to be characterized first, in order to create appropriate
+                    etic data categories that allow for a comparison and analysis of
+                    culture-specific, emic phenomena in relation to resilience (Gómez-Baggethun 2012), doing so in a systematic and
+                    replicable way. We thus propose a model of resilience which lends to a
+                    methodology and a data collection method as well as  formalization, archiving,
+                    modeling and computing.</p>
+            <p>Resilience, as the source for beneficial transformation of communities, lives through
+                the dynamics and self-changing mechanisms provided from within a culture, cf. Folke
+                (2006). While previous approaches have seen culture as supportive of resilience, or
+                partially overlapping with resilience, we understand culture as a specific,
+                “culture-specific” framework of resilience. Resilience thus projects through its
+                culture-specific framework, a culture-specific implementation of resilience, into
+                and can be understood through observable cultural practices, such as classifying,
+                naming, monitoring, communication, recording history, predicting, preparing,
+                adapting to and learning from external pressures.</p>
+            <p>The proposal we develop here is based on our decade-long digital fieldwork on the
+                Penghu archipelago and the attempts to make sense of this data (Streiter and Goudin
+                2013) . Recently, we could show that data on the settlements of Penghu can be
+                modeled in terms of socio-cognitive grammars (Streiter et al. 2021). The rules,
+                which collectively define the grammar, are individually defined by a condition
+                expressed as environmental feature, a theme, that is a structure to be placed into
+                space, and the instruction, the prescribed placement. Through the materialization of
+                the rules, I.e. the placement of houses, gardens that follow these rules on Penghu,
+                the range of grammar rules can be localized in time and space.</p>
+            <figure>
+                <graphic url="Pictures/0e197b87b082957039d143d9f7423873.png"/>
+                <head>Figure 1: A rule specifying that  <hi rend="italic">U-shaped walled gardens, locally called
+                        “caizhai”, face the wind</hi></head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/c2e916fbb227e61bfd25890923ed7742.jpg"/>
+                <head>Figure 2: Localizing the materialization of rules, I.e. the placement of
+                    houses or gardens, through annotated and geo-referenced media files.</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/8f6d0c557469162e4af4f88947018375.jpg"/>
+                <head>Figure 3: Mapping the spatial range of Rule 4, gardens that face the
+                    wind.</head>
+            </figure>
+            <p>Stratificational variations of grammar rules exist at different levels, e.g.
+                community, island, and region, i.e. Rule 4 is a regional rule with a few exceptions
+                in a few communities. In addition to this vertical connection of grammars, we can
+                observe a horizontal isomorphism, e.g. through similarities found in neighboring
+                villages, plus a parallel isomorphism, e.g. for houses and temples within one
+                community. In our fieldwork we thus document a network of grammars for a great
+                variety of themes, e.g. houses, gardens, which is the foundation for experimenting,
+                evaluation, learning, exchange, adaptation and thus, as a network of potential
+                changes, for the resilience of a community.</p>
+            <figure>
+                <graphic url="Pictures/530c43f5711b9a8b82fce6b63f9ddce3.jpg"/>
+                <head>Magong, Shanshui</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/e5741bf233ae577adb9577c98f032473.jpg"/>
+                <head>Magong, Suogang</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/d3977da883d10549783d4d6793e80f99.jpg"/>
+                <head>Xiyu, Zhuwan</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/ab61d76609e5244d5129b0a1d3a23a0a.jpg"/>
+                <head>Xiyu, Hejie</head><lb/>
+                <head>Figure 4: Vertical isomorphism of grammars. The central generals of a)
+                    Shanshui and b) Suogang, two neighboring villages on the Pengnan peninsular, and
+                    of c) Zhuwan and d) Hejie, two neighboring villages on Xiyu Island.</head>
+            </figure>
+            <p>To trace the similarity of vertical, horizontal or
+                    parallel grammars through empiric data, one has to establish and compare the
+                    rules of these grammars. If uniformly formalized in if-then statements, the
+                    similarities among rules of different grammars can be described in terms of
+                    analogy, e.g. small wind -&gt; small wall vs. big wind -&gt; big wall. Analogies
+                    thus describe the transformation of socio-cognitive grammars in a formal,
+                    cognitive and computational way. In addition, we use the term <hi rend="italic">cultural operator</hi>to describe how rule transformations materialize with
+                    respect to their focus, scale and agency, and thus how they affect a
+                    society.</p>
+            <p>We currently distinguish cultural operators along three
+                    dimensions: The <hi rend="italic">focus</hi>, the <hi rend="italic">scale</hi>and the <hi rend="italic">agency</hi>. The <hi rend="italic">focus</hi>describes a cultural operator as either transfer, i.e.
+                    change of object or site, or adaptation, i.e. the change of method or tool. The
+                    scale refers to downsizing versus upscaling, i.e. the reduction or
+                    multiplication of the scale. The <hi rend="italic">agency</hi>distinguishes <hi rend="italic">recuperation</hi>, also known as coopting, i.e. governmental appropriation
+                    of a local practice, usually associated with upscaling, and <hi rend="italic">assimilation</hi>, i.e. the replacement of a local practice under social
+                    pressure. These three dimensions represent theoretically eight possible classes
+                    for cultural operators, with a very uneven statistical distribution. </p>
+            <table xml:id="d310e357">
+                <head>Figure 5: Possible analogy relations between practices of wind
+                    protection.</head>
+                <row>
+                    <cell>
+                        <p><hi rend="bold">Cultural
+                                Operator: </hi>Transfer</p>
+                        <p>Analogy:</p>
+                        <p><hi rend="italic">Site: </hi>House - Garden</p>
+                        <p><hi rend="italic">Method:</hi>Wall with doors and
+                                windows - Wall</p>
+                        <p><hi rend="italic">Theme: </hi>Wind and rain -
+                                Wind</p>
+                    </cell>
+                    <cell>
+                        <p>See Figure 6</p>
+                    </cell>
+                    <cell>
+                        <p><hi rend="bold">Cultural
+                                Operator: </hi>Upscaling &amp;
+                                Recuperation, Transfer, Adaptation</p>
+                        <p>Analogy:</p>
+                        <p><hi rend="italic">Site: </hi>Garden - Field</p>
+                        <p><hi rend="italic">Method:</hi>Wall - Rampart</p>
+                        <p><hi rend="italic">Theme:  </hi>Wind NE - Wind
+                                NE</p>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <p>See Figure 7</p>
+                    </cell>
+                    <cell>
+                        <p>See Figure 8</p>
+                    </cell>
+                    <cell>
+                        <p>See Figure 9</p>
+                    </cell>
+                </row>
+                <row>
+                    <cell>
+                        <p><hi rend="bold">Cultural
+                                Operator: </hi>Example Downsizing,
+                                Transfer, Adaptation</p>
+                        <p>Analogy:</p>
+                        <p><hi rend="italic">Site: </hi>Garden - Plant</p>
+                        <p><hi rend="italic">Method:</hi>Wall - Stones</p>
+                        <p><hi rend="italic">Theme: </hi>Wind NE - Wind
+                                NE</p>
+                    </cell>
+                    <cell>
+                        <p>See Figure 10</p>
+                    </cell>
+                    <cell>
+                        <p><hi rend="bold">Cultural
+                                Operator: </hi>Transfer,
+                                Adaptation</p>
+                        <p>Analogy:</p>
+                        <p><hi rend="italic">Site: </hi>Garden -
+                                Village</p>
+                        <p><hi rend="italic">Method:</hi>Wall - Wall with
+                                gates</p>
+                        <p><hi rend="italic">Theme: </hi>Wind NE - Wind
+                                NE</p>
+                    </cell>
+                </row>
+            </table>
+            <figure>
+                <graphic url="Pictures/e1e2263bb0fbff6d7cbe0d699d599090.jpg"/>
+                <head>Figure 6: The Japanese colonial government tried to upscale gardens to
+                    regularly shaped fields.</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/c8a96c386cb2540240d3769e4459335b.jpg"/>
+                <head>Figure 7: Broken houses are turned into gardens. Example from Xiaochi,
+                    Baisha.</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/32da32596db4cfc0e416d6a01952153c.jpg"/>
+                <head>Figure 8: Walled gardens facing the wind. Example from Jibei Island.</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/45c189fb0cca6e13f668667641efd699.jpg"/>
+                <head>Figure 9: Wind wall of Huxi village with gates for humans to pass.</head>
+            </figure>
+            <figure>
+                <graphic url="Pictures/109889228d7673f7ea9bf006c7a0a28b.jpg"/>
+                <head>Figure 10: A cabbage plant protected by two stones, Jibei Island.</head>
+            </figure>
+            <p>The resilience of a community, we thus propose, can be
+                    approached through the wealth of analogy relations that exist between the rules
+                    of socio-cognitive grammars of a local culture, cf. Elmqvist et. al (2003) and
+                    Leslie and McCabe (2013). However, not all cultural operators are equally valuable
+                    for a community. Especially a recuperation with upscaling might be received with
+                    criticism, by community members as by academic evaluations. A further evaluation
+                    of the contribution of cultural operators to community resilience will thus be
+                    required. Overall, our innovative approach provides resilience research with a cultural
+                    perspective that can benefit from the wealth of tools and techniques developed
+                    in the Digital Humanities. Discovering and analyzing cultural operations, e.g.
+                    in terms of analogies, helps to describe community resilience in a systematic
+                    way and thus to lay a solid foundation for data collection and analysis.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Adger, William Neil</author>
+                        
+                        (
+                        2000
+                        ):
+                         “Social and Ecological
+                            Resilience: Are They Related?”, 
+                        in: 
+                        <hi rend="italic">Progress in Human
+                            Geography</hi>
+                        
+                        24(3):347-64. doi:
+                            10.1191/030913200701540465.
+                    </bibl>
+                    <bibl>
+                        <author>Berkes, Fikret</author> / <author>Ross, Helen</author> 
+                        
+                        (
+                        2013
+                        ):
+                         “Community Resilience:
+                            Toward an Integrated Approach”, 
+                        in: 
+                        <hi rend="italic">Society and
+                            Natural Resources</hi>
+                        
+                        26(1):5-20. doi:
+                            10.1080/08941920.2012.736605.
+                    </bibl>
+                    <bibl>
+                        <author>Bixia, Chen</author> / <author>Yuei, Nakama</author> / <author>Takakazu, Urayama</author> 
+                        (
+                        2013:
+                        )
+                        . “Planted Forest and
+                            Diverse Cultures in Ecological Village Planning: A Case Study in Tarama
+                            Island, Okinawa Prefecture, Japan”, 
+                        in: 
+                        <hi rend="italic">Small-scale
+                            Forestry</hi>
+                        
+                        (2014) 13:333-347. doi:
+                            10.1007/s11842-013-9257-z
+                    </bibl>
+                    <bibl>
+                        <author>Elmqvist, Thomas</author> / <author>Folke, Carl</author> / <author>Nyström, Magnus</author> / <author>Peterson, Garry</author> / <author>Bengtsson, Jan</author> / <author>Walker, Brian</author> / <author>Norberg, Jon</author>  (2003
+                        ):
+                         “Response Diversity,
+                            Ecosystem Change, and Resilience”, 
+                        in: 
+                        <hi rend="italic">Frontiers in
+                            Ecology and the Environment</hi>
+                        
+                        1(9):488–94. doi:
+                            10.1890/1540-9295(2003)001[0488:RDECAR]2.0.CO;2.
+                    </bibl>
+                    <bibl>
+                        <author>Folke, Carl</author>
+                        
+                        (
+                        2006
+                        ):
+                         “Resilience: The
+                            Emergence of a Perspective for Social-Ecological Systems Analysis”, 
+                        in: 
+                        <hi rend="italic">Global
+                            Environmental Change</hi>
+                        
+                        16(3):253-67. doi:
+                            10.1016/j.gloenvcha.2006.04.002.
+                    </bibl>
+                    <bibl>
+                        <author>Gómez-Baggethun, Erik</author> / <author>Reyes-García, Victoria</author> / <author>Olsson, Per</author> / <author>Montes, Carlos</author> 
+                        (
+                        2012
+                        ):
+                         “Traditional Ecological
+                            Knowledge and Community Resilience to Environmental Extremes: A Case
+                            Study in Doñana, SW Spain”, 
+                        in: 
+                        <hi rend="italic">Global
+                            Environmental Change</hi>
+                        
+                        22(3):640-50. doi:
+                            10.1016/j.gloenvcha.2012.02.005.
+                    </bibl>
+                    <bibl>
+                        <author>Leslie, Paul</author> / <author>McCabe, Terrence</author> 
+                        (
+                        2013
+                        ):
+                         “Response Diversity and
+                            Resilience in Social-Ecological Systems.” 
+                        in: 
+                        <hi rend="italic">Current
+                            Anthropology</hi>
+                        
+                        54(2):114-43. doi:
+                            10.1086/669563.
+                    </bibl>
+                    <bibl>
+                        <author>Streiter, Oliver</author> / <author>Zhan, Hanna Ya-Qing</author> / <author>Goudin, Yoann</author> 
+                        
+                        (2021): “
+                        Penghu Settlements as
+                            Materialization of a Socio-Cognitive Grammar: Integrating 
+                        environmental conditions
+                            with cultural practices”, 
+                        in: 
+                        2021 Pacific
+                            Neighborhood Consortium Annual Conference and Joint Meetings (PNC),
+                            Taipei, Taiwan, 2021, pp. 1-15, doi:
+                            10.23919/PNC53575.2021.9672262.
+                    </bibl>
+                    <bibl>
+                        <author>Streiter, Oliver</author> / <author>Goudin, Yoann</author> 
+                         (2013): “The Tanghao on the Tombstones of
+                        Taiwan and Penghu: The Statal Recuperation of Tactics for the Creation of a
+                        National Space”, in: <hi rend="italic">Oriental Archive</hi> 81, pp 459-494. </bibl>
+                    <bibl>
+                        <author>Uddin, M. Salim</author> / <author>C. Emdad Haque</author> / <author>David Walker</author> / <author>Mahed Ul Islam Choudhury</author> ,
+                        (
+                        2020
+                        ):
+                         “Community Resilience
+                            to Cyclone and Storm Surge Disasters: Evidence from Coastal Communities
+                            of Bangladesh” 
+                        in: 
+                        <hi rend="italic">Journal of
+                            Environmental Management,</hi>
+                         2020 Jun 15;264:110457.
+                            doi: 10.1016/j.jenvman.2020.110457. Epub 2020 Mar 25. PMID:
+                            32224292.
+                    </bibl>
+                    <bibl>
+                        <author>Wairama, Karl</author> / <author>Monynna Sath</author> / <author>and Anthony Petera</author> , (
+                            2021
+                        ): 
+                        “Measuring Resilience :
+                            By Whom and for Whom ? A Case Study of People-Centred Resilience
+                            Indicators in New Zealand” 
+                        in: 
+                        <hi rend="italic">Disaster
+                            Prevention and Management</hi>
+                         Vol. 30 No. 4/5, pp.
+                            538-552. https://doi.org/10.1108/DPM-04-2021-0128
+                        doi:
+                            10.1108/DPM-04-2021-0128.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

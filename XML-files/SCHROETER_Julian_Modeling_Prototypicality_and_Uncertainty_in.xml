@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Modeling Prototypicality and Uncertainty in Genre
+                        Concepts</title>
+                <author n="SchroeterJulianSCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml"><persName ref="https://orcid.org/0000-0003-0168-2608" n="SchroeterJulian">
+                        <surname>Schroeter</surname>
+                        <forename>Julian</forename>
+                    </persName><affiliation>Ludwig-Maximilians-Universität München</affiliation><email>julian.schroeter@lmu.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster develops and discusses a new technique of modeling prototypicality in genre concepts based on the c@1-score as an uncertainty-based accuracy score and perspectival modeling within the framework of supervised machine learning. The technique is intended to provide better understanding of loosely ordered genres.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>prototype theory</term>
+                    <term>prototypicality</term>
+                    <term>perspectival modeling</term>
+                    <term>genre</term>
+                    <term>machine learning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>cultural analytics</term>
+                    <term>text mining and analysis</term>
+                    <term>Cultural studies</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Perspectival Modeling (Underwood 2016, 2019a, 2019b, 2020) is among the most powerful
+                methods for investigating the literary change of genres based on machine learning.
+                Concerning the semantic change of loosely ordered genres, further challenges for
+                perspectival modeling arise. This poster provides a new technique for modeling the
+                prototypicality (Rosch 1973, 1975, 1978, Taylor 2007; Hempfer 2010) of genre
+                concepts. Modeling prototypicality in this way is a principled strategy for
+                accessing the vagueness of conceptual boundaries.</p>
+            <p>The model uses a so-called <emph>
+                    c@1 score 
+                </emph>(Peñas / Rodrigo 2011), a variant of the accuracy score
+                    accounting for undecidability. Similar to the implementation from the Authorship
+                    verification task 2021<ref target="#SCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml_ftn1" n="1"/> and based on grid search, the boundaries of
+                    undecidability that lead to optimal c@1-accuracy for prediction are calculated.
+                    This strategy is integrated into the extraction of predictive probabilities in
+                    logistic regression models for genre classification within perspectival modeling
+                    as it has been developed by Underwood (2019b). These results are presented
+                    within different types of established and new visualizations. Furthermore, the
+                    results can be used for a more principled way of expressing conceptual vagueness
+                    in quantitative terms. While it uses two existing methods with perspectival
+                    modeling and c@1-score, the model presented in the poster is new to
+                    computational literary studies. Its strength lies in its dual function of making
+                    conceptual looseness interpretable in the way it has been conceived in literary
+                    theory and semantics from the 1960s on.</p>
+            <p>The analyses and visualizations are based on a large
+                    corpus of more than 700 German mid-length prose fiction from the 19th century.
+                    This corpus has been constructed since 2018 and it can be accessed on
+                    GitHub.<ref target="#SCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml_ftn0" n="2"/> The field of German novellas includes different genres
+                    such as the ›<emph>
+                    Novelle
+                </emph>‹ or ›<emph>
+                    Erzählung
+                </emph>‹ is a field of genres with conceptual boundaries that are
+                    rather controversial (Meyer 1987, 1998, Lukas 1998). Hence, the novella corpus
+                    provides an appropriate field for developing a model of prototypicality. Fig. 1
+                    shows the core results to be presented on the poster.</p>
+            <p><figure>
+                    <graphic url="Pictures/b819cd6ccda8b323d295c2ef1b2ecfdb.png"/>
+                    <head>Figure 1: For ›Novellen‹ (N) versus ›Erzählungen‹ (E): Prototypicality
+                        based on inverse predictive probability including c@1-boundary of
+                        undecidability (upper left) and including the year of first publication
+                        (upper right) showing also the position of G. Kellers novella »Romeo und
+                        Julia auf dem Dorfe«, published as a ›Erzählung‹ but canonized later as a
+                        ›Novelle‹; the c@1-score for the optimal boundary of undecidability is 0.70
+                        for ›Novellen‹ versus ›Erzählungen‹. Novels (R: ›Romane‹) versus fairy tales
+                        (M: ›Märchen‹) Prototypicality (lower left) and predictive probability
+                        covering temporal index (lower right). The predictive probability is
+                        calculated as the average predictive probability for 1000 iterated
+                        predictions after resampling. The c@1-score for the optimal boundary of
+                        undecidability is 0.89 for novels versus fairy tales. </head>
+                </figure></p>
+            <p>The upper and lower left plots approximate a popular visualization of prototypicality
+                    according to the <emph>
+                    prototype-as-exemplar approach 
+                </emph>(Taylor 2007, Hempfer 2010). The boundary of
+                    undecidability provides an approximation to the conceptual undecidability that
+                    can be assessed by comparing different genre pairs. The visualizations on the
+                    right include a temporal index and provide additional information on decreasing
+                    or increasing consolidation of genre semantics over time. Although both genre
+                    pairs have similar optimal boundaries, the boundary for novels vs. fairy tales
+                    generates clearcut zones (novels, fairy tales, and a region of undecidability),
+                    which is reflected by a very good c@1-accuracy score of .89 for novels vs.
+                    tales. In contrast, the picture remains more ambiguous for the distinctiveness
+                    between <emph>
+                    Novellen 
+                </emph>and <emph>
+                    Erzählungen
+                </emph>, which is reflected by a c@1 score of .70 for the optimal
+                    boundary of undecidability. Further visualizations on the poster will illustrate
+                    in detail the methods behind the model: A technique of bootstrapping based on
+                    randomized resampling (n= 1000) was used. To guarantee robustness, the location
+                    of each text regarding its predictive probability for genre classification
+                    averages over 1000 predictions independently of the training samples. The
+                    classification is based on 500 words selected by RFECV.<ref target="#SCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml_ftn4" n="3"/> However, the best techniques of feature selection,
+                    bootstrapping, resampling, choice of algorithms, and parameter optimization may
+                    be controversial and can be discussed based on the information to be
+                    complimented. Finally, different possible criteria for assigning genre labels
+                    such as first or later publication or categorization in current literary studies
+                    (Schröter 2019, Underwood 2019b, Calvo Tello 2021) can be discussed based on
+                    additional tabular information. The poster is intended to encourage scholars
+                    interested in the historicity of literary cultures to discuss the ›next
+                    generation‹ of modeling semantic change of literary genres.</p>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="SCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml_ftn1">
+                        <ref target="https://github.com/pan-webis-de/pan-code/tree/master/clef20/authorship-verification">https://github.com/pan-webis-de/pan-code/tree/master/clef20/authorship-verification</ref>
+                    </note><note n="2" xml:id="SCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml_ftn0">
+                        <ref target="https://github.com/julianschroeter/19CproseCorpus">https://github.com/julianschroeter/19CproseCorpus</ref>
+                    </note><note n="3" xml:id="SCHROETER_Julian_Modeling_Prototypicality_and_Uncertainty_in.xml_ftn4">
+                        <ref target="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFECV.html">https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFECV.html</ref>
+                        . 
+                        The pipeline is implemented at 
+                        <ref target="https://github.com/julianschroeter/PyNovellaHistory">https://github.com/julianschroeter/PyNovellaHistory</ref>
+                        .
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Calvo Tello, José</author> (2021): <hi rend="italic">The Novel
+                            in the Spanish Silver Age. A Digital Analysis of Genre Using Machine
+                            Learning</hi>. Bielefeld: Bielefeld University Press. </bibl>
+                    <bibl>
+                        <author>Hempfer, Klaus W.</author> (2010): Zum begrifflichen Status der
+                        Gattungsbegriffe: Von ›Klassen‹ zu ›Familienähnlichkeiten‹ und ›Prototypen‹.
+                            <hi rend="italic">Zeitschrift für französische Sprache und
+                            Literatur</hi> 120: 14–32. </bibl>
+                    <bibl>
+                        <author>Lukas, Wolfgang</author> (1998): Novellistik. In <hi rend="italic">Zwischen Restauration und Revolution 1815–1848</hi>. In
+                        Gerd Sautermeister (ed.): Hansers Sozialgeschichte der deutschen Literatur
+                        5. München: 251–80. </bibl>
+                    <bibl>
+                        <author>Meyer, Reinhart</author> (1987): <hi rend="italic">Novelle und
+                            Journal, I: Titel und Normen: Untersuchungen zur Terminologie der
+                            Journalprosa, zu ihren Tendenzen, Verhältnissen und Bedingungen</hi>.
+                        Stuttgart: Steiner. </bibl>
+                    <bibl>
+                        <author>Meyer, Reinhart</author> 1998. Novelle und Journal. In <hi rend="italic">Zwischen Restauration und Revolution 1815–1848</hi>. In
+                        Gerd Sautermeister (ed.): Hansers Sozialgeschichte der deutschen Literatur
+                        5. München: Hanser: 234–50. </bibl>
+                    <bibl>
+                        <author>Peñas, Anselmo</author> / <author>Alvaro Rodrigo</author>  (2011): A Simple
+                        Measure to Assess Non-response. <hi rend="italic">Proceedings of the 49th
+                            Annual Meeting of the Association for Computational Linguistics</hi>,
+                        1415–24. </bibl>
+                    <bibl>
+                        <author>Rosch, Eleanor</author> (1973): On the internal structure of
+                        perceptual and semantic categories. In Timothy E. Moore (ed): <hi rend="italic">Cognitive Development and the Acquisition of
+                        Language</hi>: New York: Academic Press: 111–44. </bibl>
+                    <bibl>
+                        <author>Meyer, Reinhart</author> (1975): Cognitive Representations of
+                        Semantic Categories. <hi rend="italic">Journal of Experimental Psychology:
+                            General</hi> 104 (3): 192–233. </bibl>
+                    <bibl>
+                        <author>Meyer, Reinhart</author> (1978): Principles of Categorization.
+                        In <hi rend="italic">Cognition and Categorization</hi>, 27–48. Hillsdale
+                        (NJ). </bibl>
+                    <bibl>
+                        <author>Schröter, Julian</author> (2019): Gattungsgeschichte und ihr
+                        Gattungsbegriff am Beispiel der Novellen. <hi rend="italic">Journal of
+                            Literary Theory</hi> 13 (2): 227–57. </bibl>
+                    <bibl>
+                        <author>Taylor, John R.</author> (2007): <hi rend="italic">Linguistic
+                            categorization</hi>. 3. ed., repr. Oxford textbooks in linguistics.
+                        Oxford: Oxford Univ. Press. </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2016): The Life-Cycle of Genres. <hi rend="italic">Journal of Cultural Analytics</hi> 1. </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2019a): Algorithmic Modeling. In <hi rend="italic">Fotis Jannidis, J. Flanders (eds.): The Shape of Data in
+                            Digital Humanities: Modeling Texts and Text Based Resources</hi>,
+                        250–63. London: Routledge. </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2019b): <hi rend="italic">Distant
+                            Horizons. Digital Evidence and Literary Change</hi>. Chicago, London:
+                        The University of Chicago Press. </bibl>
+                    <bibl>
+                        <author>Underwood, Ted</author> (2020): Machine Learning and Human
+                        Perspective. <hi rend="italic">PMLA</hi> 135 (1): 92–109. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

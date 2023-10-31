@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Improving publication processes of the Association for Digital Humanities in the German Speaking Areas (DHd) - The DHd Data Steward and the community-driven Task Force “DHd Abstracts”</title>
+                <author n="DebbelerAnkeHELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml"><persName ref="https://orcid.org/0000-0001-5864-8465" n="DebbelerAnke">
+                        <surname>Debbeler</surname>
+                        <forename>Anke</forename>
+                    </persName><affiliation>Data Cente for the Humanities (DCH), University of Cologne, Germany</affiliation><email>adebbel1@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HellingPatrickHELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml"><persName ref="https://orcid.org/0000-0003-4043-165X" n="HellingPatrick">
+                        <surname>Helling</surname>
+                        <forename>Patrick</forename>
+                    </persName><affiliation>Data Cente for the Humanities (DCH), University of Cologne, Germany</affiliation><email>patrick.helling@uni-koeln.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BorgesRebekkaHELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml"><persName ref="https://orcid.org/0000-0002-4651-5638" n="BorgesRebekka">
+                        <surname>Borges</surname>
+                        <forename>Rebekka</forename>
+                    </persName><affiliation>Rheinische Friedrich-Wilhelms-Universität Bonn, Germany</affiliation><email>borges@uni-bonn.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>In this paper we will present publication workflows developed by the DHd Data Steward for publishing conference papers of the DHd annual conferences and illustrate how the collaboration with the DHd community is an essential part of the improvement of the publication strategy within the DHd association. More precisely, we will introduce the DHd Task Force “DHd Abstracts”, which is working on improving the submission and publication processes community-driven.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Research Data Management</term>
+                    <term>RDM</term>
+                    <term>Publication</term>
+                    <term>Workflow</term>
+                    <term>DHd</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>digital access</term>
+                    <term>privacy</term>
+                    <term>and ethics analysis</term>
+                    <term>open access methods</term>
+                    <term>Library &amp; information science</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head> Introduction</head>
+                <p>Since 2012, the Association for Digital Humanities in the German Speaking Areas (DHd)
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn1" n="1"/> has represented the field of Digital Humanities (DH) in Germany, Austria, and Switzerland. With over 400 members, it is one of the largest DH associations worldwide.
+                </p>
+                <p>The DHd association has organized an annual DHd conference together with different local DH institutions since 2014.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn2" n="2"/> At each conference, an average of around 130 conference papers were presented in the following formats: lecture, panel, workshop, poster, and, since 2020, doctoral consortium. 
+                </p>
+                <p>Usually, after each conference, an individual Book of Abstracts (BoA) is produced script-based
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn3" n="3"/> and is published by the local organizers via the online storage service Zenodo
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn4" n="4"/> (see Burr 2017; Stolz 2017; Vogeler 2018; Sahle 2019; Schöch 2020; Geierhos 2022).
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn5" n="5"/> These BoAs represent an important showcase for the field of Digital Humanities (see Schöch 2020: V). Nevertheless, the collective publication of conference papers never allowed for individual citation and referencing of individual papers, nor could they be indexed in digital catalogs or used as research data. Potentials of an improved publication strategy as well as of improved scholarly analysis of conference papers have been already addressed by the DHd community (Cremer 2018; Andorfer et al. 2019; Steyer et al. 2020; Busch et al. 2022) and partially implemented in exemplary fashion (Andorfer 2019; Lordick 2020
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn6" n="6"/>).
+                </p>
+                <p>For improving the findability, accessibility, interoperability and reusability of the DHd conference papers in the sense of the FAIR-Principles (Wilkinson et al. 2016), the DHd association appointed a Data Steward.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn7" n="7"/> In this paper we will present publication workflows developed by the DHd Data Steward and illustrate how the collaboration with the DHd community is an essential part of the improvement of the publication strategy within the DHd association. More precisely, we will introduce the DHd Task Force “DHd Abstracts”, which is working on improving the submission and publication processes community-driven.
+                </p>
+            </div>
+            <div type="div1">
+                <head>DHd Data Steward</head>
+                <p>Central goals of the DHd Data Steward include publishing DHd conference papers as individual publications and making the underlying TEI-XML files, which are generated by the authors during the submission process through the DHConvalidator
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn8" n="8"/>, accessible in a standardized way for reuse (Helling et al. 2022; Borges et al. 2022). 
+                </p>
+                <p>To this end, workflows have been developed for pre-processing
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn9" n="9"/> the respective TEI-XML files of the individual DHd conferences and generating an individual PDF file
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn10" n="10"/> for each conference paper. In addition, these workflows make it possible to publish the conference papers automatically via Zenodo's REST API with rich metadata, which is extracted script-based directly from the TEI-XML files.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn11" n="11"/></p>
+                <p>With this strategy, 1071 papers of the DHd conferences 2014-2022 have been published as distinct publications in the DHd community on Zenodo
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn12" n="12"/> under a CC-BY 4.0 license and with individual Digital Object Identifiers (DOI). The published conference papers were indexed by the Digital Bibliography &amp; Library Project (DBLP)
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn13" n="13"/> and the Index of Digital Humanities Conferences.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn14" n="14"/> Additionally, an strategy for publishing and providing conference papers as reusable research data was developed: for each DHd conference, a GitHub repository was created to make all conference papers available in TEI-XML and PDF format with their metadata.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn15" n="15"/> In order to avoid data loss, each GitHub repository is also published via Zenodo and is archived
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn16" n="16"/> through the “cold archiving” processes (Rau, Helling and Barabucci 2022) of the Data Center for the Humanities (DCH)
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn17" n="17"/> at the University of Cologne.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn18" n="18"/></p>
+                <p>While these workflows are a step forward in improving the publication strategy of the DHd association, there are still major challenges to address.</p>
+            </div>
+            <div type="div1">
+                <head>Task Force “DHd Abstracts”</head>
+                <p>To distribute the responsibilities of the DHd Data Steward the DHd association has introduced the Task Force “DHd Abstracts” in 2022.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn19" n="19"/> It consists of various members of the DHd community and is particularly concerned with the evaluation of the existing submission and publication process and its documentation for submitters. 
+                </p>
+                <p>Due to inconsistencies in the TEI-XML files the local organizers of the DHd conferences need to clean the TEI-XML files extensively to transform these into a comprehensive BoA. Analyzing and evaluating these inconsistencies is currently the main challenge of the DHd Task Force and it especially requires the interregional exchange over locally generated knowledge during the organization of the DHd conferences. </p>
+                <p>The intent is to have a definite list of all possible mistakes in the TEI-XML files in order to develop strategies to prevent them in the future. For example, by creating a handout for submitters to reduce the respective inconsistencies in the TEI-XML files the Task Force aims to support the different institutions hosting the DHd conferences.</p>
+                <p>In addition, the whole submission process is evaluated and possible alternative tools improving the TEI-XML output, e.g., the FidusWriter (Gebhard 2022), are being tested. Furthermore, the Task Force is facing the problem of inconsistent affiliation details and is working on approaches to implement more authority data into the TEI-XML files.</p>
+                <p>The work of the Task Force is meant to address challenges and problems that affect the whole DHd community. Moreover, it opens up new possibilities to shape workflows that are part of the making of a community event, in this case the DHd conferences, in a way which involves the community of scholars themselves.</p>
+            </div>
+            <div type="div1">
+                <head>Concluding remarks</head>
+                <p>This contribution outlines how the original publication strategy of the annual DHd conferences was improved by the establishment of the DHd Data Steward. In addition, it describes the role of the community-driven Task Force in the improvement of both the submission processes and the publication strategy in the context of the DHd conferences. </p>
+                <p>In our talk, we will critically examine the workflows and processes for pre-processing and automated publication. Moreover, we will discuss further potentials for improving the whole submission process and plead for these tasks to be perceived and solved as a DH community task. As a matter of fact, with our paper we intend to share the strategies we developed with a broader DH community, in order to allow for their reuse. Indeed, they were already successfully reused in the contexts of different conferences in the German speaking areas, e.g., by the vDHd conference 2021
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn20" n="20"/> and the FORGE conference 2021.
+                    <ref target="#HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn21" n="21"/></p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn1">
+                        <ref target="https://dig-hum.de/">https://dig-hum.de/</ref>.
+                    </note><note n="2" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn2">
+                        With an exception in 2021 due to the SARS-CoV-2 pandemic.
+                    </note><note n="3" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn3">
+                        Scripts are usually based on <ref target="https://github.com/karindalziel/TEI-to-PDF">https://github.com/karindalziel/TEI-to-PDF</ref>, e.g., 
+                        <ref target="https://github.com/NinaSeemann/DHd2020-BoA">https://github.com/NinaSeemann/DHd2020-BoA</ref>.
+                    </note><note n="4" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn4">
+                        <ref target="https://zenodo.org/">https://zenodo.org/</ref>.
+                    </note><note n="5" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn5">
+                        Exceptions: In 2014 no BoA was published. In 2015 the BoA was published on the institutional website of the conference hosting institution (see Stiegler 2015).
+                    </note><note n="6" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn6">
+                        Due to cyberattack this resource is temporarily not available.
+                    </note><note n="7" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn7">
+                        <ref target="https://dig-hum.de/dhd-data-steward">https://dig-hum.de/dhd-data-steward</ref>.
+                    </note><note n="8" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn8">
+                        <ref target="https://github.com/ADHO/dhconvalidator">https://github.com/ADHO/dhconvalidator</ref>.
+                    </note><note n="9" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn9">
+                        <ref target="https://github.com/reborg789/zenodup">https://github.com/reborg789/zenodup</ref>.
+                    </note><note n="10" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn10">
+                        <ref target="https://github.com/PatrickHelling/DHd_BoA-separated">https://github.com/PatrickHelling/DHd_BoA-separated</ref>, based on 
+                        <ref target="https://github.com/karindalziel/TEI-to-PDF">https://github.com/karindalziel/TEI-to-PDF</ref>.
+                    </note><note n="11" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn11">
+                        <ref target="https://github.com/cceh/zenodup">https://github.com/cceh/zenodup</ref>.
+                    </note><note n="12" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn12">
+                        <ref target="https://zenodo.org/communities/dhd/?page=1&amp;size=20">https://zenodo.org/communities/dhd/?page=1&amp;size=20</ref>.
+                    </note><note n="13" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn13">
+                        <ref target="https://dblp.org/db/conf/dhd/index.html">https://dblp.org/db/conf/dhd/index.html</ref>.
+                    </note><note n="14" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn14">
+                        <ref target="https://dh-abstracts.library.cmu.edu/conference_series/30">https://dh-abstracts.library.cmu.edu/conference_series/30</ref><hi rend="underline">.</hi>
+                    </note><note n="15" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn15">
+                        <ref target="https://github.com/orgs/DHd-Verband/repositories">https://github.com/orgs/DHd-Verband/repositories</ref>.
+                    </note><note n="16" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn16">
+                        <ref target="https://dch.phil-fak.uni-koeln.de/bestaende/datensicherung">https://dch.phil-fak.uni-koeln.de/bestaende/datensicherung</ref>.
+                    </note><note n="17" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn17">
+                        <ref target="https://dch.phil-fak.uni-koeln.de/">https://dch.phil-fak.uni-koeln.de/</ref>.
+                    </note><note n="18" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn18">
+                        <ref target="https://www.uni-koeln.de/">https://www.uni-koeln.de/</ref>.
+                    </note><note n="19" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn19">
+                        The DHd Task Forces are a format, that allows to work on common challenges of the DHd community together with the DHd community.
+                    </note><note n="20" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn20">
+                        <ref target="https://vdhd2021.hypotheses.org/">https://vdhd2021.hypotheses.org/</ref>.
+                    </note><note n="21" xml:id="HELLING_Patrick_Improving_publication_processes_of_the_Assoc.xml_ftn21">
+                        <ref target="https://forge2021.uni-koeln.de/">https://forge2021.uni-koeln.de/</ref>.
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Andorfer, Peter</author> (2019): dhd-boas-app.
+                        <ref target="https://dhd-boas-app.acdh-dev.oeaw.ac.at/"> https://dhd-boas-app.acdh-dev.oeaw.ac.at/</ref> (last accessed: 19/04/2023).
+                    </bibl>
+                    <bibl>
+                        <author>Andorfer, Peter</author> / <author>Cremer, Fabian</author> / <author>Steyer, Timo</author>  (2019): “DHd 2019 Book of Abstracts Hackathon”, in: Book of Abstracts DHd 2019 Conference. Frankfurt am Main und Mainz. DOI:
+                        <ref target="http://doi.org/10.5281/zenodo.4622102">10.5281/zenodo.4622102</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Andorfer, Peter</author> / <author>Busch, Anna</author> / <author>Cremer, Fabian</author> / <author>Helling, Patrick</author> / <author>Henrich, Andreas</author> / <author>Henrich</author> / <author>Lordick, Harald</author> / <author>Mischke, Dennis</author> / <author>Steyer, Timo</author>  (2021): Bericht zur vDHd2021-Veranstaltung: Zukunftslabor DHd-Abstracts. DHd-Blog (blog). 
+                        <ref target="https://dhd-blog.org/?p=15980">https://dhd-blog.org/?p=15980</ref> (last accessed: 19/04/2023).
+                    </bibl>
+                    <bibl>
+                        <author>Borges, Rebekka</author> / <author>Debbeler, Anke</author> / <author>Helling, Patrick</author>  (2022): “Der DHd Data Steward - Maßnahmen zur Entwicklung einer nachhaltigen Datenstrategie für die Digital Humanities im deutschsprachigen Raum“, in: Book of Abstracts DHd 2022 Conference. Potsdam. DOI:
+                        <ref target="https://doi.org/10.5281/zenodo.6328017">10.5281/zenodo.6328017</ref>. 
+                    </bibl>
+                    <bibl>
+                        <author>Burr, Elisabeth</author> (ed.) (2017): DHd 2016 Modellierung - Vernetzung - Visualisierung. Die Digital Humanities als Fächerübergreifendes Forschungsparadigma. Konferenzabstracts. Leipzig. 
+                        <ref target="http://doi.org/10.5281/zenodo.3679331">DOI:10.5281/zenodo.3679331</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Busch, Anna</author> / <author>Cremer, Fabian</author> / <author>Lordick, Harald</author> / <author>Mischke, Dennis</author> / <author>Steyer, Timo</author>  (2022): “Strukturen und Impulse zur Weiterentwicklung der DHd-Abstracts”, in: Book of Abstracts DHd 2022 Conference. Potsdam. DOI:
+                        <ref target="https://doi.org/10.5281/zenodo.6328089">10.5281/zenodo.6328089</ref>. 
+                    </bibl>
+                    <bibl>
+                        <author>Cremer, Fabian</author> (2018): “Nun sag, wie hältst Du es mit dem Digitalen Publizieren, Digital Humanities?“. Digitale Redaktion (blog). 
+                        <ref target="https://editorial.hypotheses.org/113">https://editorial.hypotheses.org/113</ref> (last accessed: 19/04/2023).
+                    </bibl>
+                    <bibl>
+                        <author>Gebhard, Henning</author> (2022): Fidus Writer als Alternative zum DH ConValidator? Ein Prototyp“, in: Book of Abstracts DHd Conference 2022. Potsdam. DOI:
+                        <ref target="http://doi.org/10.5281/zenodo.6327991">10.5281/zenodo.6327991</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Geierhos, Michaela</author> (ed.) (2022): DH 2022 Kulturen des digitalen Gedächtnisses. Konferenzabstracts. Potsdam. DOI:
+                        <ref target="https://doi.org/10.5281/zenodo.6304590">10.5281/zenodo.6304590</ref>. 
+                    </bibl>
+                    <bibl>
+                        <author>Helling, Patrick</author> / <author>Debbeler, Anke</author> / <author>Borges, Rebekka</author>  (2022): “Konferenzbeiträge strategisch publizieren: Automatisierte Workflows zur individuellen Veröffentlichung von Konferenzbeiträgen am Beispiel des Verbands Digital Humanities im deutschsprachigen Raum e.V.“, in: O-Bib. Das Offene Bibliotheksjournal / Herausgeber VDB, 9(3): 1–17. DOI:
+                        <ref target="https://doi.org/10.5282/o-bib/5835">10.5282/o-bib/5835</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Lordick, Harald</author> (2020): DH(d) Konferenzbeiträge, Online: 
+                        <ref target="http://www.steinheim-institut.de/dhd/">http://www.steinheim-institut.de/dhd/</ref> (last accessed: 27/10/2022).
+                    </bibl>
+                    <bibl>
+                        <author>Rau, Felix</author> / <author>Helling, Patrick</author> / <author>Barabucci, Gioele</author>  (2022): “Pragmatic Research Data Management in the Humanities: Dark and Cold Archiving at the Data Center for the Humanities”, in: Book of Abstracts DH Conference 2022. Tokio. DOI:
+                        <ref target="https://doi.org/10.5281/zenodo.6967064">10.5281/zenodo.6967064</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Sahle, Patrick</author> (ed.) (2019): DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts. Frankfurt am Main. 
+                        <ref target="https://doi.org/10.5281/zenodo.2596095">DOI</ref>:
+                        <ref target="https://doi.org/10.5281/zenodo.2596095">10.5281/zenodo.2596095</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Schöch, Christof</author> (ed.) (2020): DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts. Paderborn. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.3666690">10.5281/zenodo.3666690</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Steyer, Timo</author> / <author>Andorfer, Peter</author> / <author>Cremer, Fabian</author>  (2020): “Abstract Enhancement. Potentiale der DHd-Konferenzabstracts als Daten/Publikation“, in: Book of Abstracts DHd 2020 Conference. Paderborn. DOI:
+                        <ref target="https://doi.org/10.5281/zenodo.4621706">10.5281/zenodo.4621706</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Stigler, Johannes </author>(ed.) (2015): DHd 2015 Von Daten zu Erkenntnissen: Digitale Geisteswissenschaften als Mittler zwischen Information und Interpretation. Konferenzabstracts. Graz, Online:
+                        <ref target="https://dhd2015.uni-graz.at/de/nachlese/book-of-abstracts/"> https://dhd2015.uni-graz.at/de/nachlese/book-of-abstracts/</ref> (last accessed: 19/04/2023).
+                    </bibl>
+                    <bibl>
+                        <author>Stolz, Michael</author> (ed.) (2017): DHd 2017 Digitale Nachhaltigkeit. Konferenzabstracts. Bern. DOI:
+                        <ref target="http://doi.org/10.5281/zenodo.3684825">10.5281/zenodo.3684825</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Vogeler, Georg</author> (ed.) (2018): DHd 2018 Kritik der digitalen Vernunft. Konferenzabstracts. Köln. DOI:
+                        <ref target="http://doi.org/10.5281/zenodo.3684897">10.5281/zenodo.3684897</ref>.
+                    </bibl>
+                    <bibl>
+                        <author>Wilkinson, Mark D.</author> / <author>Dumontier, Michel</author> / <author>Aalbersberg, IJsbrand Jan</author> / <author>Appleton, Gabrielle</author> / <author>Axton, Myles</author> / <author> Baak, Arie</author> / <author>Blomberg, Niklas</author> / <author>Boiten, Jan-Willem</author> / <author>da Silva Santos, Luiz Bonino</author> / <author>Bourne, Philip E.</author> / <author>Bouwman, Jildau</author> / <author>Brookes, Antony J.</author> / <author>Clark, Tim</author> / <author>Crosas, Mercè</author> / <author>Dillo, Ingrid</author> / <author> Dumon, Oliver</author> / <author>Edmunds, Scott</author> / <author> Evelo, Chris T.</author> / <author>Finkers, Richard</author> / <author>Gonzalez-Beltran, Alejandra</author> / <author>Gray, Alasdair J.G.</author> / <author>Groth, Paul, Goble, Carole</author> / <author>Grethe, Jeffrey S.</author> / <author>Heringa, Jaap</author> / <author> A.C’t Hoen, Peter</author> / <author>Hooft, Rob</author> / <author>Kuhn, Tobias</author> / <author>Kok, Ruben</author> / <author> Kok, Joost</author> / <author>Lusher, Scott J.</author> / <author>Martone, Maryann E.</author> / <author>Mons, Albert</author> / <author>Packer, Abel L.</author> / <author>Persson, Bengt</author> / <author>Rocca-Serra, Philippe</author> / <author>Roos, Marco</author> / <author>van Schaik, Rene</author> / <author>Sansone, Susanna-Assunta</author> / <author>Schultes, Erik</author> / <author>Sengstag, Thierry</author> / <author>Slater, Ted</author> / <author>Strawn, George</author> / <author>Swertz, Morris A.</author> / <author>Thompson, Mark</author> / <author>van der Lei, Johan</author> / <author>van Mulligen, Erik</author> / <author>Velterop, Jan</author> / <author>Waagmeester, Andrea</author> / <author>Wittenburg, Peter</author> / <author>Wolstencroft, Katherine</author> / <author>Zhao, Jun</author> / <author>Mons Barend</author>  (2016): “The FAIR Guiding Principles for scientific data management and stewardship” in: Scientific Data 3, Article number: 160018. DOI:
+                        <ref target="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

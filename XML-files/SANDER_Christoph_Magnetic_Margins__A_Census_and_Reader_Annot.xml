@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Magnetic Margins. A Census and Reader Annotations Database</title>
+                <author n="SanderChristophSANDER_Christoph_Magnetic_Margins__A_Census_and_Reader_Annot.xml"><persName ref="https://orcid.org/0000-0003-4452-0107" n="SanderChristoph">
+                        <surname>Sander</surname>
+                        <forename>Christoph</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Berlin, Germany</affiliation><email>raramagnetica@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="elHajjHassanSANDER_Christoph_Magnetic_Margins__A_Census_and_Reader_Annot.xml"><persName ref="https://orcid.org/0000-0001-6931-7709" n="elHajjHassan">
+                        <surname>el-Hajj</surname>
+                        <forename>Hassan</forename>
+                    </persName><affiliation>Max Planck Institute for the History of Science, Berlin, Germany; Berlin Institute for the Foundation of Learning and Data (BIFOLD)</affiliation><email>hhajj@mpiwg-berlin.mpg.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AdamouAlessandroSANDER_Christoph_Magnetic_Margins__A_Census_and_Reader_Annot.xml"><persName ref="https://orcid.org/0000-0002-9272-908X" n="AdamouAlessandro">
+                        <surname>Adamou</surname>
+                        <forename>Alessandro</forename>
+                    </persName><affiliation>Bibliotheca Hertziana – Max Planck Institute for Art History, Rome, Italy</affiliation><email>Alessandro.Adamou@biblhertz.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper presents a platform providing a digital census of copies of a limited number of printed editions and mapping their owners and readers’ annotations represented in an RDF framework. Its ResearchSpace instance, magnetic-margins.com, provides interactive statistical analyses of the data that is encoded predominantly using CIDOC-CRM and FRBRoo.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>reader annotations</term>
+                    <term>CIDOC-CRM</term>
+                    <term>ResearchSpace</term>
+                    <term>FRBRoo</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>annotation structures</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>data modeling</term>
+                    <term>digital libraries creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>scholarly editing and editions development</term>
+                    <term>analysis</term>
+                    <term>and methods</term>
+                    <term>Book and print history</term>
+                    <term>Computer science</term>
+                    <term>History of science</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Library catalogs (e.g. OPACs), and later the digitization of books as scans, were among the first digital means to facilitate research in the humanities. Ontologies such as CIDOC and FRBRoo consequently paid great or even exclusive attention to bibliographic records (Boot et al. 2021; Fenlon 2020; Golub / Liu 2021). Yet, one crucial historical and material quality of books tends to be neglected in existing databases: readers’ annotations. Unique copies were possessed at different times by different persons or institutions and readers and owners left their traces on the printed pages (see Fig. 1).</p>
+            <figure>
+                <graphic n="1001" width="15.920861111111112cm" height="15.920861111111112cm" url="Pictures/e13b01c21e5b6b903f02b246eedb449d.jpeg" rend="inline"/>
+                <head>Figure 1. Example page crop with seventeenth-century reader annotations (digitally highlighted in pink). Source: HAB Wolfenbüttel &lt;M: Nc 4° 46&gt;, 
+                    <ref target="http://diglib.hab.de/drucke/nc-4f-46/start.htm?image=00279">http://diglib.hab.de/drucke/nc-4f-46/start.htm?image=00279</ref></head>
+            </figure>
+            <p>These material sources and their spatiotemporal contexts are well known to book historians and have informed research for decades (Jardine / Grafton 1990; Jacquart / Burnett 2005; Jackson 2001; Sherman 2010; Orgel 2015; Acheson 2019; Grafton 2020; Chang / Grafton / Most 2021). And yet, this information is only rarely recorded as structured diachronic data in existing catalogs or databases.</p>
+            <p>This paper presents a platform providing a digital census of copies of a limited number of editions and mapping their owners and readers’ annotations represented in an RDF framework. Its ResearchSpace (Oldman / Tanase 2018) instance, 
+                <ref target="http://magnetic-margins.com/">magnetic-margins.com</ref>, is the first of its kind, as it comprises structured and semantic data on unique copies, now held all over the globe, going beyond the mere digital editing of readers’ annotations or the bibliographic collection of a corpus.
+            </p>
+            <figure>
+                <graphic n="1002" width="15.90498611111111cm" height="11.519958333333333cm" url="Pictures/fca0fada1578fb7f673cad9d85bb1947.png" rend="inline"/>
+                <head>Figure 2. A simplified ontology diagram (most relevant entities with CIDOC-CRM relations)</head>
+            </figure>
+            <p>Its cultural heritage data was gathered in a transnational collaboration where librarians provided provenance information on particular copies and surveyed these for readers’ annotations, such as marginalia or underlining. This constantly growing dataset, encoded predominantly using CIDOC-CRM and FRBRoo (see a simplification in Fig. 2), is now made publicly available and serves as a rich basis to conduct sophisticated statistical analyses to uncover the interests of readers in the past: which pages of one edition across hundreds of copies have past readers marked the most? Which topics are dealt with on this page or in this chapter? Answers to these questions, based on a large amount of data, involving also computational full text analyses in future stages of the project, allow us to draw conclusions about the impact and relevance of historical ideas to an unthought-of degree. Researchers are enabled to answer these questions interactively through user interfaces (see Fig. 3) and custom SPARQL queries. Thereby, they transcend the established formats of library catalogs and digitization repositories as much as past readers transgressed the borders of the printed book, by making these static and generic objects their unique and dynamic notebooks and records of their learning.</p>
+            <figure>
+                <graphic n="1003" width="15.90498611111111cm" height="14.726708333333333cm" url="Pictures/eadb2b78c085c695361eb276d2e290e9.jpeg" rend="inline"/>
+                <head>Figure 3. ResearchSpace UI view of an aggregated table and graph of reader annotations present in all copies of one edition</head>
+            </figure>
+            <p>The historical research for this project emerged within the Max Planck Research Group “Visualizing Science in Media Revolutions” (Bibliotheca Hertziana – Max Planck Institute for Art History, Rome) and takes both a history of science and media history perspective. The corpus focusses on an important topic of early modern natural science: the investigation of magnetic phenomena (Sander 2020). The chosen landmark publications in this field of study between 1500 and 1650 represent a historical scholarly discourse that is both complex and dynamic. The current data comprises 5 works, 13 corresponding editions and 769 copies with 9339 annotations, modeled as over 100,000 RDF triples. Magnetic Margins is embedded in a multidimensional DH research project 
+                <ref target="http://www.raramagnetica.de"><hi rend="italic">Rara Magnetica</hi></ref> (ongoing), comprising, among others, TEI-encoded editions and image databases.
+            </p>
+            <p>Transforming the established workflow (e.g., the migration from an extract-transform-load process upon a relational database to RDF-native curation), developing a formal thesaurus of reader annotations compliant with CIDOC-CRM and the Web Annotation Data Model, and extensively linking entities (with e.g. GND, VIAF, Wikidata or Getty AAT), are part of the evolution of this project and can easily be scaled and adapted for similar research projects. DH initiatives such as
+                <hi rend="italic"> The Future of Research in Early Modern Marginalia Studies</hi> (ongoing), 
+                <ref target="https://www.vesaliuscensus.com/"><hi rend="italic">The Vesalius Census</hi></ref> (ongoing), 
+                <ref target="https://archaeologyofreading.org"><hi rend="italic">The Archaeology of Reading in Early Modern Europe</hi></ref> (completed), and 
+                <ref target="https://sphaera.mpiwg-berlin.mpg.de/"><hi rend="italic">The Sphere</hi></ref> (ongoing) could ingest their data in accordance with the Magnetic Margins data model and sharing its platform, leading to a mutually beneficial collaboration and linking of large data sets of historical scholarship. A so integrated knowledge graph allows interpreting material evidence within a conceptual framework situated in the history of knowledge. Doing so means advancing an inclusive and transdisciplinary research agenda, bringing together perspectives of paleography, book history, history of ideas, data and computer science, and statistics.
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl><author>Acheson, Katherine O. </author>(ed.) (2019): 
+                        <hi rend="italic">Early modern English marginalia</hi>. (= Material readings in early modern culture) New York; London: Routledge, Taylor &amp; Francis Group.
+                    </bibl>
+                    <bibl><author>Boot, Peter et al. </author>(2021): 
+                        <hi rend="italic">Graph Data-Models and Semantic Web Technologies in Scholarly Digital Editing</hi>. Norderstedt: BoD.
+                    </bibl>
+                    <bibl><author>Chang, Ku-ming Kevin</author> / <author>Grafton, Anthony</author> / <author>Most, Glenn W. (eds.)</author> (2021): 
+                        <hi rend="italic">Impagination: Layout and Materiality of Writing and Publication: Interdisciplinary Approaches from East and West</hi>. Berlin: De Gruyter.
+                    </bibl>
+                    <bibl><author>Fenlon, Katrina </author>(2020): 
+                        <hi rend="italic">Modeling digital humanities collections as research objects</hi>. in: 
+                        <hi rend="italic">Proceedings of the 18th Joint Conference on Digital Libraries</hi> (= JCDL ’19). Champaign, Illinois: IEEE Press. 138–147. (= JCDL ’19). https://doi.org/10.1109/JCDL.2019.00029 [letzter Zugriff 29. Oktober 2022].
+                    </bibl>
+                    <bibl><author>Golub, Koraljka</author> / <author>Liu, Ying-Hsang (eds.)</author> (2021): 
+                        <hi rend="italic">Information and Knowledge Organisation in Digital Humanities: Global Perspectives</hi>. London: Routledge.
+                    </bibl>
+                    <bibl><author>Grafton, Anthony </author>(2020): 
+                        <hi rend="italic">Inky fingers: the making of books in early modern Europe</hi>. Cambridge, Mass.: The Belknap Press of Harvard University Press.
+                    </bibl>
+                    <bibl><author>Jackson, Heather Joanna </author>(2001): 
+                        <hi rend="italic">Marginalia: readers writing in books</hi>. New Haven: Yale University Press.
+                    </bibl>
+                    <bibl><author>Jacquart, Danielle</author> / <author>Burnett, Charles (eds.)</author> (2005): 
+                        <hi rend="italic">Scientia in margine: études sur les marginalia dans les manuscrits scientifiques du moyen âge à la renaissance</hi>. (= Hautes études médiévales et modernes 88) Genève: Droz.
+                    </bibl>
+                    <bibl><author>Jardine, Lisa</author> / <author>Grafton, Anthony</author> (1990): "„Studied for Action“: How Gabriel Harvey Read His Livy", in: 
+                        <hi rend="italic">Past &amp; Present</hi> (129): 30–78.
+                    </bibl>
+                    <bibl><author>Oldman, Dominic</author> / <author>Tanase, Diana</author> (2018): 
+                        <hi rend="italic">Reshaping the Knowledge Graph by Connecting Researchers, Data and Practices in ResearchSpace</hi>. in: Vrandečić, Denny / Bontcheva, Kalina / Suárez-Figueroa, Mari Carmen / Presutti, Valentina / Celino, Irene / Sabou, Marta / Kaffee, Lucie-Aimée / Simperl, Elena (eds.): 
+                        <hi rend="italic">The Semantic Web – ISWC 2018</hi> (= Lecture Notes in Computer Science). Cham: Springer International Publishing. 325–340. (= Lecture Notes in Computer Science).
+                    </bibl>
+                    <bibl><author>Orgel, Stephen </author>(2015): 
+                        <hi rend="italic">The reader in the book: a study of spaces and traces</hi>. (= Oxford textual perspectives) Oxford: Oxford University Press.
+                    </bibl>
+                    <bibl><author>Sander, Christoph </author>(2020): Magnes
+                        <hi rend="italic">: der Magnetstein und der Magnetismus in den Wissenschaften der Frühen Neuzeit</hi>. (= Mittellateinische Studien und Texte 53) Leiden; Boston: Brill.
+                    </bibl>
+                    <bibl><author>Sherman, William H. </author>(2010): 
+                        <hi rend="italic">Used Books. Marking Readers in Renaissance England</hi>. (= Material Texts) Philadelphia: University of Pennsylvania Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

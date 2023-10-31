@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>AI-Assisted Performance Analysis: Deep Learning for Live and Archival
+                    Theater</title>
+                <author n="RauMichaelJBROADWELL_Peter_AI_Assisted_Performance_Analysis__Deep_Learn.xml"><persName n="RauMichaelJ">
+                        <surname>Rau</surname>
+                        <forename>Michael J.</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>mjrau@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="BroadwellPeterBROADWELL_Peter_AI_Assisted_Performance_Analysis__Deep_Learn.xml"><persName ref="https://orcid.org/0000-0003-4371-9472" n="BroadwellPeter">
+                        <surname>Broadwell</surname>
+                        <forename>Peter</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>broadwell@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WilesSimonBROADWELL_Peter_AI_Assisted_Performance_Analysis__Deep_Learn.xml"><persName n="WilesSimon">
+                        <surname>Wiles</surname>
+                        <forename>Simon</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>sjwiles@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="AbrahamVijoyBROADWELL_Peter_AI_Assisted_Performance_Analysis__Deep_Learn.xml"><persName n="AbrahamVijoy">
+                        <surname>Abraham</surname>
+                        <forename>Vijoy</forename>
+                    </persName><affiliation>Stanford University, United States of America</affiliation><email>vijoy@stanford.edu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This project explores computational uses of pose analysis to investigate questions of directorial style and actorly interpretation in theatrical performances. The process involves developing methods to help performing arts scholars and professionals use pose-data models to capture movement from performances, as well as record, analyze, recreate and remix those movements.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>deep learning</term>
+                    <term>pose estimation</term>
+                    <term>performance analysis</term>
+                    <term>video augmentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>cultural analytics</term>
+                    <term>digital archiving</term>
+                    <term>virtual and augmented reality creation</term>
+                    <term>systems</term>
+                    <term>and analysis</term>
+                    <term>Film and cinema arts studies</term>
+                    <term>Performance Studies: Dance</term>
+                    <term>Theatre</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>This poster presents the motivations, methods and preliminary findings of an ongoing inquiry into the uses of deep learning-based pose estimation technologies for analyzing and augmenting archival and live theatrical performances. This work contributes to and builds upon the steadily increasing range of research uses of technologies for “distant viewing” of audiovisual materials (Arnold / Tilton 2019), including the detection, analysis and indexing of human poses and gesture (Impett / Moretti 2017) and the study of both the physical proclivities of theatrical performances (Escobar Varela 2021) and their digital archival traces (Bardiot 2021). Furthermore, by incorporating techniques and expressive modes first applied to choreography via motion-capture technologies (deLahunta 2016) as well as in the development of pioneering multimedia artworks in virtual reality (Krueger et al. 1985), this work has the potential both to document and to participate in the creation of new works of theater and performance art. </p>
+            <p>Pose estimation technology, powered by emergent
+                    deep-learning methods for inference of body positions and motions from standard
+                    visual-light camera images, unlocks for archival and live footage methods
+                    previously only available for use in constrained environments with expensive
+                    motion-capture suits and equipment. The overall goal of the AI-Assisted
+                    Performance Analysis project therefore is to develop a set of software tools and
+                    documented best practices for accomplishing the above while addressing
+                    previously unexplored research questions related to theatrical pose and
+                    gesture.</p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="5.531555555555555cm" url="Pictures/35fde47ad66caf734673467849e92c44.png" rend="inline"/>
+                <head><hi rend="bold">Figure 1: </hi>Visualization of detected figures, positions and
+                        orientations through pose-based inference via the monoloco software (https://github.com/vita-epfl/monoloco). </head>
+            </figure>
+            <p>The project thus far has focused upon a few specific research inquiries that involve
+                analyzing different aspects of archival videos and rehearsal footage through the
+                lens of pose estimation: </p>
+            <p>1. Using pose data to determine a “directorial signature,” finding and examining highly patterned relationships between the poses of actors in order to define the ways in which the director and performer create characterization and choreography. The oeuvre of recorded productions by the pioneering director Robert Wilson constitutes the core materials for this inquiry (Figure 1). </p>
+            <p>2. Applying pose estimation to a corpus of rehearsal videos filmed throughout the preparation of a new theatrical production, selecting scenes that have at least two or three actors interacting on stage, and tracing the evolution of the actors’ poses from the beginning of the rehearsal period through the final performance (Figure 2). </p>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="5.542138888888889cm" url="Pictures/852bedf14451d9b2a12422cfe06aa627.png" rend="inline"/>
+                <head><hi rend="bold">Figure 2: </hi>Pose estimation and monocular position estimation from rehearsal video of a student production. </head>
+            </figure>
+            <p>A longer-term goal of the project is to relate the output of the above experiments to
+                Henri Lefevre’s influential conception of rhythm-analysis (Lefevre 2004).
+                Specifically, we seek through the close and distant analysis of pose data streams to
+                operationalize Lefevre’s evocative philosophical definitions of rhythm as
+                multifarious repetition, interference of linear processes and cyclical processes,
+                and a trajectory of birth, growth, decline and conclusion.</p>
+            <p>The outcomes and findings of this ongoing work will be of particular significance to theater and performance studies and their growing footprint in the digital humanities, and also will have applications in video archive augmentation through the generation of supplemental metadata. </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Arnold, Taylor</author> / <author>Tilton, Lauren</author> 
+                        (2019): “Distant Viewing: Analyzing Large Visual
+                            Corpora”, in:
+                        <hi rend="italic">Digital Scholarship in the Humanities </hi>
+                        34, Supplement_1: i3–16.
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Bardiot, Clarisse</author>
+                         (2021):
+                        <hi rend="italic">Performing Arts and Digital
+                            Humanities: From Traces to Data</hi>.
+                         Hoboken: ISTE Ltd / John Wiley and Sons
+                            Inc.
+                    </bibl>
+                    <bibl>
+                        <author>deLahunta, Scott</author>
+                         (2016): “Motion Bank: A Broad Context for Choreographic Research”, in Bleeker, M. (ed.):
+                        <hi rend="italic">Transmission in Motion: The
+                            Technologizing of Dance</hi>
+                        . United Kingdom: Taylor and Francis 128–37.
+                    </bibl>
+                    <bibl>
+                        <author>Escobar Varela, Miguel</author>
+                         (2021):
+                        <hi rend="italic">Theater as Data: Computational
+                            Journeys into Theater Research</hi>
+                        . Ann Arbor, MI: University of Michigan
+                            Press.
+                    </bibl>
+                    <bibl>
+                        <author>Impett, Leonardo Laurence</author> / <author>Moretti, Franco</author> 
+                        (2017): “Totentanz. Operationalizing Aby
+                            Warburg’s Pathosformeln”, in:
+                        <hi rend="italic">New Left Review</hi>
+                        107: 68–97.
+                    </bibl>
+                    <bibl>
+                        <author>Krueger, Myron W.</author> / <author>Gionfriddo, Thomas</author> / <author>Hinrichsen, Katrin</author> 
+                        (1985): “VIDEOPLACE---an Artificial Reality”,
+                            in:
+                        <hi rend="italic">Proceedings of the SIGCHI
+                            Conference on Human Factors in Computing Systems - CHI ’85</hi>
+                        , San Francisco, California, United States: ACM
+                            Press 35–40.
+                    </bibl>
+                    <bibl>
+                        <author>Lefebvre, Henri</author>
+                        (2004):
+                        <hi rend="italic">Rhythmanalysis: Space, Time and Everyday Life. </hi>
+                        London: Continuum.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

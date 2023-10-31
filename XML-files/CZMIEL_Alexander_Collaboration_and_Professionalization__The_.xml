@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collaboration and Professionalization. The role of software and Research
+                    Software Engineers in the Digital Humanities.</title>
+                <author n="CzmielAlexanderCZMIEL_Alexander_Collaboration_and_Professionalization__The_.xml"><persName n="CzmielAlexander">
+                        <surname>Czmiel</surname>
+                        <forename>Alexander</forename>
+                    </persName><affiliation>Berlin-Brandenburg Academy of Sciences and Humanities</affiliation><email>czmiel@bbaw.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HennyKrahmerUlrikeCZMIEL_Alexander_Collaboration_and_Professionalization__The_.xml"><persName n="HennyKrahmerUlrike">
+                        <surname>Henny-Krahmer</surname>
+                        <forename>Ulrike</forename>
+                    </persName><affiliation>University of Rostock</affiliation><email>ulrike.henny-krahmer@uni-rostock.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="JettkaDanielCZMIEL_Alexander_Collaboration_and_Professionalization__The_.xml"><persName n="JettkaDaniel">
+                        <surname>Jettka</surname>
+                        <forename>Daniel</forename>
+                    </persName><affiliation>Paderborn University</affiliation><email>daniel.jettka@uni-paderborn.de</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The poster presents the results of a workshop to be held during the annual DHd conference in March 2023. The workshop addresses the question how to strengthen the role of software and research software engineers in DH and how openness and collaboration can lead to more professionalization.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>software</term>
+                    <term>software engineering</term>
+                    <term>professionalization</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>project design</term>
+                    <term>organization</term>
+                    <term>management</term>
+                    <term>software development</term>
+                    <term>systems</term>
+                    <term>analysis and methods</term>
+                    <term>Computer science</term>
+                    <term>Humanities computing</term>
+                    <term>Informatics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+
+            <p>Developing research software, in addition to applying digital methods, is an
+                important part of research activities in the Digital Humanities, but still mostly
+                takes place in a less professionalized form (see Schrade et al. 2018). It is true
+                that in some areas of DH it is possible to rely on existing software solutions
+                developed outside the DH itself, some of which are commercial, for certain tasks,
+                e.g., the Oxygen XML editor (SyncRO Soft SRL 2022) for editing XML files or the
+                Gephi software (Bastian et al. 2009) for visualizing network data. Often, however,
+                such general tools are not appropriate for answering humanities research questions
+                and projects, and more specialized tools are not available. This often leads digital
+                humanities researchers to become software engineers themselves or to work closely
+                together with research software engineers (RSE) to develop new research
+                software.</p>
+            <p>The nature and extent of software development in the humanities can vary greatly. In
+                the same way, the stake and importance that the activity "software engineering" has
+                for researchers in the DH can also vary greatly. The development of research
+                software can be part of an overall activity, e.g., when an entire project is carried
+                out by individuals, from the humanities research question to the operationalization
+                and technical implementation to the interpretation and processing and publication of
+                the results. However, software development can also become the main activity for
+                researchers, especially in larger teams working in division of labor, or when the
+                development of research software is the focus of a project. For those who are mainly
+                involved in the development of research software, the term Research Software
+                Engineer has become established.</p>
+            <p>Especially because software engineering in the context of research in the humanities
+                and in the DH is rarely carried out by software engineers or computer scientists
+                trained for this purpose, there is still much room and a lot of opportunities for
+                fostering professionalization in this area. The researchers themselves acquire the
+                basics of individual programming languages to develop software through courses or
+                additional training. For this additional competence and the additional work, which
+                results from the development of professional software, there is however only rarely
+                the deserved scientific acknowledgment from the scholarly community. Since neither
+                the knowledge of a stable and maintainable software architecture nor sufficient time
+                for tests or even adequate documentation is available, the software itself is in
+                need for improvement and not prepared for sustainable use. </p>
+            <p>Those situations and challenges will be discussed during a workshop at the annual DHd
+                conference taking place in March 2023. The goal of this contribution to the DH
+                conference is to structure, visualize, and present the outcome of the workshop as a
+                poster to aim to connect DH-RSEs on an international level as well and to raise the
+                awareness of this topic and increase professionalization through collaboration on
+                all levels. Professionalization becomes more important with the increasing
+                importance of software development in the research process and as a scientific
+                activity in general, including all areas of DH. It can be roughly described on three
+                levels:</p>
+            <div type="div3">
+                <head>1. Technical Professionalization</head>
+            </div>
+            <div>
+                <p>Technical professionalization primarily concerns the areas that are important in
+                    day-to-day software development work at the code and architecture level, e.g.,
+                    clean code (Martin 2009, Clean Code Developer 2022), versioning, documentation,
+                    testing, DevOps (Halstenberg et al. 2020), etc.</p>
+                <div type="div3">
+                    <head>2. Organizational Professionalization</head>
+                </div>
+                <div>
+                    <p>Organizational professionalization refers to all aspects of planning, project
+                        management, collaboration, and (self-)organization of software engineers.
+                        This includes, among other things, the formation of developer teams, the use
+                        of version management and ticket systems, methods of agile software
+                        development (Beck et al. 2001), but also software management plans (SMPs).
+                    </p>
+                </div>
+                <div type="div3">
+                    <head>3. Institutional Professionalization</head>
+                </div>
+                <div>
+                    <p>Institutional professionalization creates the framework for the other two
+                        areas by making software development part of DH curricula and improving
+                        training for RSEs in DH, but also by enabling career paths and collaboration
+                        opportunities. It is about providing resources and infrastructure for
+                        software development and anchoring the activity of an RSE in the academic
+                        field.</p>
+                    <p>The poster will present the state of discussion and approaches to solutions
+                        in these three areas.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Bastian, Mathieu</author> / <author>Heymann, Sebastien</author> / <author>Jacomy, Mathieu</author> 
+                        (2009): <hi rend="italic">Gephi: an open source software for exploring and
+                            manipulating networks.</hi> In International AAAI Conference on Web and
+                        Social Media. <ref target="https://gephi.org/publications/gephi-bastian-feb09.pdf">https://gephi.org/publications/gephi-bastian-feb09.pdf</ref>. </bibl>
+                    <bibl>
+                        <author>Beck, Kent</author> / <author>Beedle, Mike</author> / <author>van Bennekum, Arie</author> / <author>Cockburn, Alistair</author> / <author>Cunningham, Ward</author> / <author>Fowler, Martin</author> / <author>Grenning, James</author> / <author>Highsmith, Jim</author> / <author>Hunt, Andrew</author> / <author>Jeffries, Ron</author> / <author>Kern, Jon</author> / <author>Marick, Brian</author> / <author>Martin, Robert C.</author> / <author>Mellor, Steve</author> / <author>Schwaber, Ken</author> / <author>Sutherland, Jeff</author> / <author>Thomas, Dave</author>  (2001): <hi rend="italic">Manifest für Agile
+                            Softwareentwicklung</hi>. <ref target="http://agilemanifesto.org/iso/de/manifesto.html">http://agilemanifesto.org/iso/de/manifesto.html</ref>. Clean Code
+                        Developer. 2022. „Clean Code Developer.“ <ref target="https://clean-code-developer.de/">https://clean-code-developer.de/</ref>. </bibl>
+                    <bibl>
+                        <author>Goble, Carole</author> (2014): <hi rend="italic">Better
+                            Software, Better Research</hi>. Software Sustainability Institute. <ref target="https://www.software.ac.uk/resources/publications/better-software-better-research">https://www.software.ac.uk/resources/publications/better-software-better-research</ref>. </bibl>
+                    <bibl>
+                        <author>Halstenberg, Jürgen</author> / <author>Pfitzinger, Bernd</author> / <author>Jestädt, Thomas</author>  (2020): <hi rend="italic">DevOps: Ein Überblick</hi>.
+                        Wiesbaden: Springer. </bibl>
+                    <bibl>
+                        <author>Hettrick, Simon</author> (2020): <hi rend="italic">The growth
+                            and professionalisation of Research Software Engineering</hi>. <ref target="https://slides.com/simonhettrick/rse-professionalisation-cw20">https://slides.com/simonhettrick/rse-professionalisation-cw20</ref>. </bibl>
+                    <bibl>
+                        <author>Martin, Robert C.</author> (2009): Clean Code. Refactoring,
+                        Patterns, Testen und Techniken für sauberen Code. Frechen: mitp-Verlag. </bibl>
+                    <bibl>
+                        <author>Schrade, Torsten</author> / <author>Czmiel, Alexander</author> / <author>Druskat, Stephan</author> 
+                        (2018): <hi rend="italic">Research Software Engineering und Digital
+                            Humanities. Reflexion, Kartierung, Organisation</hi>. In DHd 2018. Book
+                        of Abstracts. <ref target="https://doi.org/10.5281/zenodo.4622564">https://doi.org/10.5281/zenodo.4622564</ref>. </bibl>
+                    <bibl>
+                        <author>SyncRO Soft SRL</author> (2022): <hi rend="italic">Oxygen XML
+                            Editor</hi>. <ref target="https://www.oxygenxml.com/xml_editor.html">https://www.oxygenxml.com/xml_editor.html</ref>. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

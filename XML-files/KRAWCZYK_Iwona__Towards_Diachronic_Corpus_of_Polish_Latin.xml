@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Towards Diachronic Corpus of Polish Latin</title>
+                <author n="MarszaekJagodaKRAWCZYK_Iwona__Towards_Diachronic_Corpus_of_Polish_Latin.xml"><persName ref="https://orcid.org/0000-0003-1694-544X" n="MarszaekJagoda">
+                        <surname>Marszałek</surname>
+                        <forename>Jagoda</forename>
+                    </persName><affiliation>Institute of Polish Language, Polish Academy of Sciences, Poland</affiliation><email>jagoda.marszalek@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NowakKrzysztofKRAWCZYK_Iwona__Towards_Diachronic_Corpus_of_Polish_Latin.xml"><persName ref="https://orcid.org/0000-0002-2968-5694" n="NowakKrzysztof">
+                        <surname>Nowak</surname>
+                        <forename>Krzysztof</forename>
+                    </persName><affiliation>Institute of Polish Language, Polish Academy of Sciences, Poland</affiliation><email>krzysztof.nowak@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KrawczykIwonaKRAWCZYK_Iwona__Towards_Diachronic_Corpus_of_Polish_Latin.xml"><persName ref="https://orcid.org/0000-0002-9455-2732" n="KrawczykIwona">
+                        <surname>Krawczyk</surname>
+                        <forename>Iwona</forename>
+                    </persName><affiliation>Institute of Polish Language, Polish Academy of Sciences, Poland</affiliation><email>iwona.krawczyk@ijp.pan.pl</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>This paper presents the results of a study evaluating the feasibility of automatic acquisition of small-scale diachronic Latin corpora for linguistic research. The study was conducted on a collection of Neo-Latin works composed by Polish authors, using tools for automatic segmentation (Kraken) and text recognition (Calamari OCR).</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Poster</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>diachronic corpora</term>
+                    <term>Neo-Latin</term>
+                    <term>OCR</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>image processing and analysis</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Humanities computing</term>
+                    <term>Linguistics</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Latin was for centuries an essential element of the Polish culture. From the beginning of the 11th century, it was the language of religious and lay communication in the Kingdom of Poland and as such provides an access to information concerning both state-wide events and policy making, and the daily life of individuals. During the Middle Ages, Latin kept playing essential role in diplomacy, administration and trade, but for a long time it was also the exclusive language of scientific writing, theological speculation or historiography. With Polish starting to take over some of its functions, the role of Latin has gradually diminished, but it remained the official language of the Polish-Lithuanian Commonwealth until 1795, when the Third Partition of Poland took place.</p>
+            <p>For decades, scholars have been voicing the need for critical editions and tools to facilitate research on Polish Latin. The written production of the Middle Ages and the early Renaissance is now roughly covered in 
+                <ref target="https://scriptores.pl/efontes/en/">the eFontes corpus</ref>. There also exist a number of minor text collections that focus on single authors or domains (e.g. 
+                <ref target="http://dantiscus.ibi.uw.edu.pl/?&amp;lang=pl&amp;lang=eng">Corpus of Ioannes Dantiscus’ Texts</ref>, 
+                <ref target="https://iura.uj.edu.pl/dlibra">IURA</ref>). However, they do not allow for an integrated access and as such are by no means amenable to distant reading methods or corpus study. Recent advances in automatic text recognition for historical texts (Weichselbaumer et al. 2020) and the availability of public recognition models trained on large and sufficiently varied datasets promise that this situation may improve in the years to come.
+            </p>
+            <p>In this paper, we present the preliminary results of our proof of concept study in which we assessed the feasibility of small-scale automatic acquisition of Latin diachronic corpus for linguistic research. By building a custom pipeline from open source components, we expect to identify major challenges such a project may face. We selected a set of works by Polish authors composed in Latin from the 1550 to 1800. For the sake of convenience, we divided the period into 5 parts covering 50 years and consisting of ca. 500 printed pages each. The texts were pre-selected on a basis of their availability in digital libraries. Apart from the date of writing and printing, we did not, however, control for domain or genre, except for a rough distinction between prose and poetry, as it correlates with text layout.</p>
+            <p>The images, either in PDF or PNG etc. format, were automatically processed with 
+                <ref target="https://github.com/4lex4/scantailor-advanced">scantailor</ref>. The region and line segmentation was handled using 
+                <ref target="https://kraken.re/master/index.html">kraken</ref>. As for the text recognition, we used the Calamari OCR (Wick et al. 2020) with the publicly available deep3_antiqua-hist model (Reul et al. 2021).
+            </p>
+            <p>The model turned out to produce by far the best results in our tests carried out on a dozen of manually proofread pages. The text required standardization as the model preserves the typographic conventions typical of early modern editions, but which are not relevant to corpus or lexicographic study. The resulting XML files along with corresponding images are presented in a 
+                <ref target="https://github.com/eeditiones/tei-publisher-app">TEI Publisher</ref> instance.
+            </p>
+            <p>Although not aimed at rigorous evaluation, our preliminary study showed that existing technologies can be easily combined to produce a corpus which is “good enough” for lexicography and general corpus queries. We also identified a number of challenges that need to be addressed the future. Majority of them have to do with the complex layout (e.g. decorative devices, combining various typesets on a single page etc.) and may require either manual intervention in the pre-processing phase or more precise text detection. In order to make informed decisions about choosing and refining OCR models, we will also need to proofread a subset of the texts we have retrieved and produce a ground truth we could use in subsequent evaluation. Finally, basing on our previous research (Wróbel et al. 2022), we will adapt lemmatization and part of speech models to cover early modern Latin.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Weichselbaumer, Nikolaus</author> / <author>Seuret, Mathias</author> / <author>Limbach, Saskia</author> / <author>Dong, Rui</author>  (2020): “New Approaches to OCR for Early Printed Books”, in: 
+                        <hi rend="italic">DigItalia</hi> 15, 2: 74–87.
+                    </bibl>
+                    <bibl>
+                        <author>Wick, Christoph</author> / <author>Reul, Christian</author> / <author>Puppe, Frank</author>  (2020): “Calamari - A High-Performance Tensorflow-based Deep Learning Package for Optical Character Recognition”, in: 
+                        <hi rend="italic">Digit</hi>
+                        <hi rend="italic">al</hi>
+                        <hi rend="italic"> Humanit</hi>
+                        <hi rend="italic">ies</hi>
+                        <hi rend="italic"> Q</hi>
+                        <hi rend="italic">uarterly</hi> 14, 2.
+                    </bibl>
+                    <bibl>
+                        <author>Reul, Christian</author> / <author>Wick, Christoph</author> / <author>Nöth, Maximilian</author> / <author>Büttner, Andreas</author> / <author>Wehner, Maximilian</author> / <author>Springmann, Uwe</author>  (2021): “Mixed Model OCR Training on Historical Latin Script for Out-of-the-Box Recognition and Finetuning”, in: 
+                        <hi rend="italic">The 6th International Workshop on Historical Document Imaging and Processing.</hi> New York: 7–12.
+                    </bibl>
+                    <bibl>
+                        <author>Wróbel, Krzysztof</author> /
+                        <author>Nowak, Krzysztof</author>
+                         (2022): “Transformer-based Part-of-Speech Tagging and Lemmatization for Latin”, in: 
+                        <hi rend="italic">Proceedings of the Second Workshop on Language Technologies for Historical and Ancient Languages</hi>. Marseille: 193–197.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

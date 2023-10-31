@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Age, Sex, and Diseases of Dead People - Integrating Anthropological Analysing Methods into DH Tools</title>
+                <author n="RichardsNinaRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName ref="https://orcid.org/0000-0002-4911-8451" n="RichardsNina">
+                        <surname>Richards</surname>
+                        <forename>Nina</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>nina.richards@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="EichertStefanRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName ref="https://orcid.org/0000-0002-5827-0797" n="EichertStefan">
+                        <surname>Eichert</surname>
+                        <forename>Stefan</forename>
+                    </persName><affiliation>Natural History Museum Vienna</affiliation><email>stefan.eichert@nhm-wien.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="WatzingerAlexanderRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName ref="https://orcid.org/0000-0003-2576-2266" n="WatzingerAlexander">
+                        <surname>Watzinger</surname>
+                        <forename>Alexander</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>Alexander.Watzinger@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="KoschicekKrombholzBernhardRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName ref="https://orcid.org/0000-0001-7608-7446" n="KoschicekKrombholzBernhard">
+                        <surname>Koschicek-Krombholz</surname>
+                        <forename>Bernhard</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>Bernhard.Koschicek-Krombholz@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="OlschnggerAndreasRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName n="OlschnggerAndreas">
+                        <surname>Olschnögger</surname>
+                        <forename>Andreas</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>Andreas.Olschnoegger@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HoffmannChristophRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName n="HoffmannChristoph">
+                        <surname>Hoffmann</surname>
+                        <forename>Christoph</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>Christoph.Hoffmann@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GrofurtnerMoritzRICHARDS_Nina_Age__Sex__and_Diseases_of_Dead_People___Integr.xml"><persName n="GrofurtnerMoritz">
+                        <surname>Großfurtner</surname>
+                        <forename>Moritz</forename>
+                    </persName><affiliation>Austrian Academy of Sciences, Austria</affiliation><email>Moritz.Grossfurtner@oeaw.ac.at</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The paper presents the implementation of various anthropological analyses such as sex, age at death, and body height estimations within the open source database application OpenAtlas and their usages as well as visualisations in thanatoarchaeological and Digital Humanities research projects.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Osteoarchaeology</term>
+                    <term>anthropology</term>
+                    <term>data visualisation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>data modeling</term>
+                    <term>database creation</term>
+                    <term>management</term>
+                    <term>and analysis</term>
+                    <term>Anthropology</term>
+                    <term>Archaeology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>OpenAtlas (<ref target="https://openatlas.eu/">https://openatlas.eu/</ref>), developed mainly at the Austrian Center of Digital Humanities and Cultural Heritage of the Austrian Academy of Sciences, is an open source database software suited to acquire, edit, and manage research data from various fields of humanities. It provides a user interface, which is accessible via any common browser. It allows for easy data entry, while the data is mapped in the background according to CIDOC CRM version 7.1.1 (<ref target="https://cidoc-crm.org/">https://cidoc-crm.org/</ref>). Therefore, using OpenAtlas takes care of today's requirements regarding data standards, data management and aims for FAIR principles (<ref target="https://www.go-fair.org/fair-principles/">https://www.go-fair.org/fair-principles/</ref>) against the background of current standards in Digital Humanities. The flexibility of OpenAtlas makes it particularly well suited for incorporating previously published archaeological and anthropological data.</p>
+            <p>In addition, OpenAtlas offers possibilities to link data entries with external references - such as GeoNames or Wikidata - which can be freely selected by the projects and can thus provide Linked Open Data.</p>
+            <p>Integrated map applications allow easy acquisition of geographic information and subsequently the creation of cemetery plots and distribution maps. Data created within the OpenAtlas system can further be used to create presentation sites for state-of-the-art dissemination.</p>
+            <p>One of the projects that use OpenAtlas as a backend is THANADOS - the Anthropological and Archaeological Database of Sepultures (<ref target="https://thanados.net/">https://thanados.net/</ref>). The web interface provides and visualises published information on anthropological and archaeological research on early medieval burial grounds as open data (430 burial grounds with almost 5,000 burials and over 10,000 finds) as well as related scientific analyses (e.g. 14C dating, stable isotopes). While THANADOS has so far primarily presented data on cemeteries of the early Middle Ages (Eichert 2021) within the borders of present-day Austria, the focus is now expanding to other periods and regions.</p>
+            <p>There is a great deal of interest in the archaeological-anthropological scientific community for interdisciplinary data that combines both disciplines. It allows the formulation of more profound statements about the day-to-day life of past communities. Even though OpenAtlas is well suited to be used with published archaeological and anthropological data, as well as being used during archaeological research, out-of-the-box use of the system for anthropological analyses was not possible.</p>
+            <p>The proposed paper wants to discuss the implementation of various anthropological analyses such as age at death estimation, sex determination, calculation of body heights and tracking of diseases on bones and teeth in OpenAtlas. Usually these are carried out according to predefined methods and include partly more complex calculations. When working on skeletons in the scope of biological anthropology, methods of the research community must be applied to enable anthropological age at death estimation (e.g. Lovejoy 1985, Miles 1963, Brothwell 1981, Buckberry / Chamberlain 2002, Schaefer et al.2009, Ubelaker 1989), sex determination (e.g. Ferembach et al. 1980), calculation of body height (e.g. Bach 1965, Breitinger 1938), and tracking of diseases on bones and teeth (e.g. Lukacs 1989, Brothwell 1981).</p>
+            <p>Open source applications for working with human remains from archaeological contexts have been lacking. Research facilities and institutes use their own databases with limited access for other researchers or rely on forms that have to be filled out by hand. The integration of the anthropological features into OpenAtlas makes it possible to</p>
+            <p>record anthropological data according to the specifications in the respective methods. A simple comparison between the results of the different disciplines is thus easily possible. The data obtained in this way can subsequently be made available to researchers and the interested public in an open-access manner within the framework of a web-application such as THANADOS.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        
+                        <author>Bach, Herbert</author>
+                        
+                        (
+                        1965
+                        ):
+                         “Zur Berechnung der Körperhöhe aus den langen Gliedmaßen weiblicher Skelette”, 
+                        in:
+                         Anthropologischer Anzeiger 29: 12-21. 
+                    </bibl>
+                    <bibl>
+                        <author>Breitinger, Emil</author>
+                        
+                        (
+                        1938
+                        ):
+                         “
+                        Zur Berechnung der Körperhöhe aus den langen Gliedmaßenknochen”, 
+                        in:
+                         Anthropologischer Anzeiger 14: 249-274.
+                    </bibl>
+                    <bibl>
+                        <author>Brothwell, Don R. </author>
+                        (
+                        1981
+                        ):
+                         Digging Up Bones. London: Natural History Museum Publications.
+                    </bibl>
+                    <bibl>
+                        <author>Buckberry Jo L.</author> / <author>Chamberlain Andrew T.</author> 
+                        (2002):
+                         “Age Estimation From the Auricular Surface of the Ilium: A Revised Method”, 
+                        in:
+                         American Journal of Physical Anthropology 119: 119-239.
+                    </bibl>
+                    <bibl>
+                        <author>Eichert, Stefan</author>
+                        
+                        (
+                        2021
+                        ):
+                         “Digital Mapping of Medieval Cemeteries: Case Study from Austria and Czechia”, 
+                        in:
+                         Journal of Computing and Cultural Heritage 14.1, Article 3: 1-15, 
+                        <ref target="https://doi.org/10.1145/3406535">https://doi.org/10.1145/3406535</ref>
+                        .
+                    </bibl>
+                    <bibl>
+                        <author>Ferembach, Denise</author> / <author>Schwidetzky, Ilse</author> / <author>Stloukal, Milan</author> 
+                        
+                        (
+                        1979
+                        ):
+                         “Empfehlungen für die Alters- und Geschlechtsdiagnose am Skelett”, 
+                        in:
+                         Homo 30: Appendix 1- 32.
+                    </bibl>
+                    <bibl>
+                        <author>Lovejoy, Claude O.</author>
+                         1985
+                        . “Dental Wear in the Libben Population: Its Functional Pattern and Role in the Determination of Adult Skeletal Age at Death”, 
+                        in:
+                         American Journal of Physical Anthropology 68: 47-56.
+                        
+                    </bibl>
+                    <bibl>
+                        <author>Lukacs, John R.</author>
+                         1989
+                        . “Dental Pathology: Methods of Reconstructing Dietary Patterns”, 
+                        in:
+                         Mehmet Yaşar İşcan and Kenneth A. R. Kennedy (eds.) 
+                        <hi rend="italic">Reconstruction of Life from the Skeleton.</hi>
+                         New York: Wiley-Liss 261-286.
+                    </bibl>
+                    <bibl>
+                        <author>Miles, Albert E. W.</author>
+                         1963
+                        . “Dentition in the assessment of individual age in skeletal material”, 
+                        i
+                        n: Don R. Brothwell (ed.): 
+                        <hi rend="italic">Dental Anthropology. Symposia Society for the Study of Human Biology Volume V</hi>
+                        . London: Pergamon Press 191–209.
+                    </bibl>
+                    <bibl>
+                        <author>Schaefer, Maureen</author> / <author>Black, Sue</author> / <author>Scheuer Luise</author> 
+                        
+                        (
+                        2009
+                        ):
+                        
+                        <hi rend="italic">Juvenile Osteology: A Laboratory and Field Manual</hi>
+                        . Amsterdam: Elsevier.
+                    </bibl>
+                    <bibl>
+                        <author>Ubelaker Douglas H. </author>
+                        (
+                        1989
+                        ):
+                         Human skeletal remains. Excavation, analysis, interpretation. Washington: Taraxacum.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Manu McFrench, from zero to hero: impact of using a generic handwriting model
+                    for smaller datasets</title>
+                <author n="ChaguAlixCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName ref="https://orcid.org/0000-0002-0136-4434" n="ChaguAlix">
+                        <surname>Chagué</surname>
+                        <forename>Alix</forename>
+                    </persName><affiliation>ALMAnaCH, Inria, France; Université de Montréal, Montréal,
+                        Canada</affiliation><email>alix.chague@inria.fr</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="ClriceThibaultCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName ref="https://orcid.org/0000-0003-1852-9204" n="ClriceThibault">
+                        <surname>Clérice</surname>
+                        <forename>Thibault</forename>
+                    </persName><affiliation>Centre Jean Mabillon, PSL-Ecole nationale des chartes, Paris,
+                        France; ALMAnaCH, Inria, France</affiliation><email>clerice.thibault@algorythme.net</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="NorindrJadeCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName n="NorindrJade">
+                        <surname>Norindr</surname>
+                        <forename>Jade</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>jade.norindr@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="HumeauMaximeCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName n="HumeauMaxime">
+                        <surname>Humeau</surname>
+                        <forename>Maxime</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>reybarca26@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DavouryBaudouinCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName n="DavouryBaudouin">
+                        <surname>Davoury</surname>
+                        <forename>Baudouin</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>davourybaudoin@gmail.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VanKoteElsaCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName n="VanKoteElsa">
+                        <surname>Van Kote</surname>
+                        <forename>Elsa</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>elsa.vk.pro@mailo.com</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MazoueAnasCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName n="MazoueAnas">
+                        <surname>Mazoue</surname>
+                        <forename>Anaïs</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>anais.mazoue@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FaureMargauxCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName ref="https://orcid.org/0000-0001-5815-9506" n="FaureMargaux">
+                        <surname>Faure</surname>
+                        <forename>Margaux</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>margaux.faure@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="DoatSolineCHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml"><persName n="DoatSoline">
+                        <surname>Doat</surname>
+                        <forename>Soline</forename>
+                    </persName><affiliation>CREMMA, Paris, France</affiliation><email>soline.doat@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>Manu McFrench is a handwritten text recognition (HTR) model dedicated to French texts from the modern and contemporary periods. It was trained using data generated through the CREMMA infrastructure and/or shared via the HTR-United catalog. We demonstrate its usefulness to reduce the costs of training such models for specific handwritings.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Handwritten Text Recognition</term>
+                    <term>ground truth</term>
+                    <term>generic model</term>
+                    <term>finetuning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>data publishing projects</term>
+                    <term>systems</term>
+                    <term>and methods</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Computer science</term>
+                    <term>History</term>
+                    <term>Literary studies</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <p>Since the mid-2010s, Handwritten Text Recognition (HTR)
+                has become an important opportunity for digital humanists and cultural institutions
+                to explore and retrieve textual information from handwritten documents. The creation
+                of software equipped with graphical user interfaces (GUI) like Transkribus
+                (Muehlberger et al. 2019) and Kraken-eScriptorium (Kiessling et al. 2019)
+                facilitates the annotation of ground truths (perfect transcriptions which can be
+                used for training models) which can later be exported in the form of pairs of images
+                and XML files (ALTO XML or PAGE XML) containing the text equivalent as well as the
+                location of the text on the image. The <hi rend="italic">Consortium pour la
+                    Reconnaissances d'Écritures Manuscrites des Matériaux Anciens</hi><ref target="#CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn1" n="1"/> (CREMMA) project was initiated in 2021 with the aim of funding a regional
+                server capable of supporting fast training of HTR models, for students and
+                researchers of the Paris region. It consisted in a starting grant of 42,000€
+                covering the cost of the hardware (graphic cards, servers, etc.) as well as an
+                evaluation grant dedicated to providing base models for the users of CREMMA
+                (8,000€), in particular for two languages: French and Latin, from the 9th to the
+                21st centuries. A postdoctoral position, CREMMAlab, provided the infrastructure with
+                complementary time for building a dataset (CREMMA Medieval (Pinche 2022)) and
+                expertise around transcribing medieval manuscripts. </p>
+            <p>Simultaneous to the creation of CREMMA, the HTR-United
+                (Chagué / Clérice 2022b) initiative offers a solution to facilitate conformity to
+                the FAIR principles <ref target="#CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn2" n="2"/> when HTR users create and share datasets of ground truth. It consists in
+                both a catalog of machine-actionable metadata on open datasets of HTR ground truth
+                and a toolkit to strengthen the control of the documentation as well as the validity
+                of the data. As of early November 2022, it comprehends 58 datasets, composed of
+                18,155 pairs of images and XML files, which represent over 41.5 millions of
+                characters, covering 13 languages and 6 scripts <ref target="#CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn3" n="3"/>. While designing HTR-United, we became aware of the importance of spending
+                part of the CREMMA budget in the creation of new corpora and models. </p>
+            <div type="div1">
+                <head>Manu McFrench and its datasets</head>
+                <p>As of November 2022, 9 CREMMA datasets are described
+                    in the HTR-United catalog: CREMMA Medii Aevi (Clérice et al. 2023), CREMMA
+                    Medieval (Pinche 2022), CREMMA Manuscrits du 17e, CREMMA Manuscrits du 18e,
+                    CREMMA Manuscrits du 19e, CREMMA Manuscrits du 20e, CREMMA-Wikipedia, CREMMA-AN
+                    Testament De Poilus and CREMMA Early Modern Books. They gather ground truth for,
+                    in order, Latin and Old French manuscripts from the medieval period, French
+                    manuscripts from the 17th, 18th, 19th, 20th and 21st centuries, French
+                    manuscripts from the Testament de Poilus corpus (Clavaud 2019) as well as early
+                    modern books (printed) in Latin and modern French. Put together, these datasets
+                    amount to 1,148 pairs of XML files and images, spanning over 1.3 million
+                    characters. These datasets were contributed by Thibault Clérice and Alix Chagué,
+                    as well as students from the Master programs of the École nationale des chartes
+                    (Paris) hired within the frame of CREMMA to execute transcription or alignment
+                    tasks. <ref target="#CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn4" n="4"/></p>
+                <p>The first version of a transcription model for French
+                    modern and contemporaneous texts (called "Manu McFrench") was trained with
+                    Kraken (Kiessling 2022) in June 2022. We used the data generated through CREMMA
+                    for the corresponding periods as well as datasets signaled in HTR-United (Chagué
+                    / Clérice 2022a) which shared the same transcription guidelines and were
+                    developed in eScriptorium. <ref target="#CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn5" n="5"/> The latest model, v3, has been trained using the materials shown in
+                    Table 1. The final model reaches a character recognition accuracy (CER) of
+                    90.56% on our development set (cf. Figure 1). </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="5.9831111111111115cm" url="Pictures/5333f56daf798b6a29b2494e08659298.png" rend="inline"/>
+                    <head><hi rend="bold">Table 1:</hi> Datasets used for Manu McFrench v3. Hands
+                    categories: Few means that at most there is less than 10 hands, Many means that
+                    there is nearly one hand per image. All datasets are described and available on
+                    HTR-United. </head>
+                </figure>
+                <figure>
+                    <graphic n="1002" width="11.928930555555555cm" height="7.952619444444444cm" url="Pictures/13b90e84be342a66fe6439ee13559da9.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 1: </hi>Training logs for Manu
+                    McFrench v3. </head>
+                </figure>
+            </div>
+            <div type="div1">
+                <head>Testing</head>
+                <p>We introduce two case studies to demonstrate how
+                    useful such models can be for the community of HTR users, specifically for
+                    project with low data yield or small budgets:</p>
+                <p>1) The <hi rend="italic">Recensement du Valais</hi>
+                    (Dubois et al. 2022/2022), produced through the Valais Time Machine and the Sion
+                    Archives, proposes a set of census forms from 1880. Generally, each form is
+                    filled by a single person, which means that the dataset has nearly as many hands
+                    as it has files. The dataset is composed, at the time of writing, of 396 images,
+                    of which around 103 are in German. Only the manuscript portion of each form was
+                    transcribed, adding up to a total of 23,394 lines (lines are very short: they
+                    are similar to a table cell). </p>
+                <p>2) The Peraire Ground Truth dataset (Chagué 2022) was
+                    produced using images of Lucien Peraire (1906-1997)'s handwritten diaries, held
+                    at the Bibliothèque Sébert, Espéranto-France (Paris), during an exploratory
+                    experimentation for the Digital Peraire project. The documents are all written
+                    in French and date from the second half of the 20th century. The dataset is made
+                    of 33 images containing a total of 1,059 lines associated to 4 images for test
+                    purposes.</p>
+                <p>To evaluate the impact of Manu McFrench, each dataset
+                    is cut in smaller subsets. The <hi rend="italic">Recensement du Valais</hi> is
+                    split in 8 subsets of a maximum of 50 images (around 3000 lines): each subset is
+                    composed of an equivalent amount of German and French (9 images in German, 41 in
+                    French), except for the single one we keep aside for test purposes (40% of
+                    German, 60% of French). The <hi rend="italic">Peraire</hi> dataset kept its
+                    testing dataset (4 images) and the rest of its 33 images were split in subset of
+                    size 7 (the last one being 5 images). We then train model such as each model is
+                    trained with the same parameters, <ref target="#CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn6" n="6"/> one using Manu McFrench for fine-tuning, the other without ("from
+                    scratch"). The training set are accumulated, so that subset 1 is used alone,
+                    subset 2 is used in addition of subset 1, etc.: in the end, the last trained
+                    model is composed of all training images. </p>
+                <p>Overall, the training yielded much better results with
+                    Manu McFrench, both from a scoring point of view (Figure 2) and a training time
+                    one (Figure 3). This shows both the importance of generic, big models, that can
+                    then be used by smaller project to accelerate and lower the costs of
+                    transcription.</p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="6.168319444444444cm" url="Pictures/4cffc1479426a602cac593e3e9683b21.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 2:</hi> Training time (in epochs) based on the amount of
+                    data and the use of a pre-trained model (Manu McFrench v3). For the Peraire
+                    dataset, accuracy scores without Manu McFrench stay at 0 with this
+                    configuration. </head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="14.224027777777778cm" height="7.205147222222222cm" url="Pictures/073c267733c340b19e852f43f61a2507.png" rend="inline"/>
+                    <head><hi rend="bold">Figure 3:</hi> Accuracy based on the amount of data and the use
+                    of a pre-trained model (Manu McFrench v3). </head>
+                </figure>
+                <p>During the DH2023 conference, we further introduce the
+                    CREMMA datasets and the strategies put in place to train the Manu McFrench
+                    model. We believe it is essential for the community to have access to similar
+                    robust and generic models: they can be costly to produce since they require a
+                    lot of ground truth and computation capacities, yet they are extremely effective
+                    in reducing the amount of ground truth later necessary to reach good
+                    performances when they can be fine-tuned on a specific handwriting.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn1">
+                     Consortium for handwritten text recognition on ancient
+                        materials.
+                </note><note n="2" xml:id="CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn2">
+                     Findable, Accessible, Interoperable, Reusable.
+                </note><note n="3" xml:id="CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn3">
+                     Not all projects provide fine-grained descriptive
+                        statistics about their datasets.
+                </note><note n="4" xml:id="CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn4">
+                         In some cases, we provided original transcriptions
+                            from in-house projects, which had to be proof-read and realigned with
+                            the original material.
+                    </note><note n="5" xml:id="CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn5">
+                         About this limitation, see the experiment by Pinche
+                            (2022), section 3.2.
+                    </note><note n="6" xml:id="CHAGU__Alix_Manu_McFrench__from_zero_to_hero__impact_of_usin.xml_ftn6">
+                         Parameters: unicode normalization: NFD; Data
+                            Augmentation; Batch size: 16; Learning Rate: 0.0001, Model architecture:
+                            [1,120,0,1 Cr3,13,32 Do0.1,2 Mp2,2 Cr3,13,32 Do0.1,2 Mp2,2 Cr3,9,64
+                            Do0.1,2 Mp2,2 Cr3,9,64 Do0.1,2 S1(1x0)1,3 Lbx200 Do0.1,2 Lbx200 Do0.1,2
+                            Lbx200 Do]. Other parameters are the defaults from Kraken 4.1.2: we
+                            expect the low lag value (5) to be responsible for the absence of good
+                            accuracy for <hi rend="italic">Peraire</hi>. 
+                    </note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Dubois, Alain</author> / <author>et al.</author> 
+                        (2022). 
+                        <hi rend="italic">Tables du recensement du Valais</hi>. <ref target="https://github.com/PonteIneptique/valais-recensement">https://github.com/PonteIneptique/valais-recensement</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Chagué, Alix. </author>
+                        (2022). 
+                        <hi rend="italic">Peraire Ground Truth</hi> (1.0.0). <ref target="https://doi.org/10.5281/zenodo.7185907">https://doi.org/10.5281/zenodo.7185907</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Chagué, Alix</author> / <author>Clérice, Thibault</author> 
+                        (2022a). 
+                        <hi rend="italic">HTR-United—Manu McFrench V1 (Manuscripts of Modern and
+                            Contemporaneous French)</hi>. <ref target="https://doi.org/10.5281/zenodo.6657809">https://doi.org/10.5281/zenodo.6657809</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Chagué, Alix</author> / <author>Clérice, Thibault</author> 
+                        (2022b, June 23). 
+                        <hi rend="italic">Sharing HTR datasets with standardized metadata: The
+                            HTR-United initiative</hi>. Documents anciens et reconnaissance
+                        automatique des écritures manuscrites. <ref target="https://inria.hal.science/hal-03703989">https://inria.hal.science/hal-03703989</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Chagué, Alix</author> / <author>et al.</author> 
+                        (2023). 
+                        <hi rend="italic">CREMMA WIKIPEDIA</hi> (1.0.3). <ref target="https://github.com/HTR-United/cremma-wikipedia">https://github.com/HTR-United/cremma-wikipedia</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        Clavaud, Florence 
+                        (2019, March 15). 
+                        <hi rend="italic">Testament de Poilus, une plateforme de transcription
+                            participative pour le grand public</hi>. Archives participatives : d’une
+                        logique de guichet à une logique de co-construction. <ref target="https://hal.science/hal-02076555">https://hal.science/hal-02076555</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Clérice, Thibault</author> / <author>Vlachou-Efstathiou, Malamatenia</author> / <author>Chagué, Alix</author> 
+                        (2023). 
+                        <hi rend="italic">CREMMA Medii Aevi: Literary Manuscript Text Recognition in
+                            Latin</hi> (No. 1). <hi rend="italic">9</hi>(1), Article 1. <ref target="https://doi.org/10.5334/johd.97">https://doi.org/10.5334/johd.97</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <hi rend="italic">CREMMA - A repository of 17th century manuscripts</hi>.
+                        (2022). [dataset]. HTR United. <ref target="https://github.com/HTR-United/CREMMA-MSS-17">https://github.com/HTR-United/CREMMA-MSS-17</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <hi rend="italic">CREMMA - A repository of 18th century manuscripts</hi>.
+                        (2022). [dataset]. HTR United. <ref target="https://github.com/HTR-United/CREMMA-MSS-18">https://github.com/HTR-United/CREMMA-MSS-18</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <hi rend="italic">CREMMA - A repository of 19th century manuscripts</hi>.
+                        (2022). [dataset]. HTR United. <ref target="https://github.com/HTR-United/CREMMA-MSS-19">https://github.com/HTR-United/CREMMA-MSS-19</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <hi rend="italic">CREMMA - A repository of 20th century manuscripts</hi>.
+                        (2021). [dataset]. HTR United. <ref target="https://github.com/HTR-United/CREMMA-MSS-20">https://github.com/HTR-United/CREMMA-MSS-20</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <hi rend="italic">CREMMA-AN-TestamentDePoilus</hi>. (2022). [dataset]. HTR
+                        United. <ref target="https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus">https://github.com/HTR-United/CREMMA-AN-TestamentDePoilus</ref>
+                        (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Kiessling, Benjamin. </author>
+                        (2022). 
+                        <hi rend="italic">The Kraken OCR system</hi> (4.1.2). <ref target="https://kraken.re/">https://kraken.re/</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Kiessling, Benjamin</author> / <author>Tissot, Robin</author> / <author>Stokes, Peter</author> / <author>Stökl Ben Ezra, Daniel</author> 
+                        (2019). eScriptorium: An Open Source Platform for Historical Document
+                            Analysis. 
+                        <hi rend="italic">2019 International Conference on Document Analysis and
+                            Recognition Workshops (ICDARW)</hi>, <hi rend="italic">2</hi>, 19–19.
+                            <ref target="https://doi.org/10.1109/ICDARW.2019.10032">https://doi.org/10.1109/ICDARW.2019.10032</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Muehlberger, Guenter</author> / <author>et al.</author> 
+                        (2019). Transforming scholarship in the archives through handwritten
+                            text recognition: Transkribus as a case study. 
+                        <hi rend="italic">Journal of Documentation</hi>, <hi rend="italic">75</hi>(5), 954–976. <ref target="https://doi.org/10.1108/JD-07-2018-0114">https://doi.org/10.1108/JD-07-2018-0114</ref> (27/04/2023) </bibl>
+                    <bibl>
+                        <author>Pinche, Ariane </author>
+                        (2023). 
+                        <hi rend="italic">Generic HTR Models for Medieval Manuscripts. The CREMMALab
+                            Project</hi>. <ref target="https://hal.science/hal-03837519">https://hal.science/hal-03837519</ref> (27/04/2023) </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

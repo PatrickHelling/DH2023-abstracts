@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Artificial Intelligence for the analysis of Cultural Heritage point clouds</title>
+                <author n="PaolantiMarinaPAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName ref="https://orcid.org/0000-0002-5523-7174" n="PaolantiMarina">
+                        <surname>Paolanti</surname>
+                        <forename>Marina</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>marina.paolanti@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="MatroneFrancescaPAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName ref="https://orcid.org/0000-0002-9160-1674" n="MatroneFrancesca">
+                        <surname>Matrone</surname>
+                        <forename>Francesca</forename>
+                    </persName><affiliation>Politecnico di Torino</affiliation><email>francesca.matrone@polito.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="UricchioTiberioPAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName n="UricchioTiberio">
+                        <surname>Uricchio</surname>
+                        <forename>Tiberio</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>tiberio.uricchio@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="GiovanolaBenedettaPAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName n="GiovanolaBenedetta">
+                        <surname>Giovanola</surname>
+                        <forename>Benedetta</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>benedetta.giovanola@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="FrontoniEmanuelePAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName ref="https://orcid.org/0000-0002-8893-9244" n="FrontoniEmanuele">
+                        <surname>Frontoni</surname>
+                        <forename>Emanuele</forename>
+                    </persName><affiliation>University of Macerata, Italy</affiliation><email>emanuele.frontoni@unimc.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="LinguaAndreaMariaPAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName ref="https://orcid.org/0000-0002-5930-2711" n="LinguaAndreaMaria">
+                        <surname>Lingua</surname>
+                        <forename>Andrea Maria</forename>
+                    </persName><affiliation>Politecnico di Torino</affiliation><email>andrea.lingua@polito.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="PierdiccaRobertoPAOLANTI_Marina_Artificial_Intelligence_for_the_analysis_of_.xml"><persName ref="https://orcid.org/0000-0002-9160-834X" n="PierdiccaRoberto">
+                        <surname>Pierdicca</surname>
+                        <forename>Roberto</forename>
+                    </persName><affiliation>Università Politecnica delle Marche</affiliation><email>r.pierdicca@staff.univpm.it</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The use of Artificial Intelligence techniques for the automatic recognition of architectural elements from point clouds can provide valuable support to facilitate preservation operations, and support many other activities related to Digital Cultural Heritage domain.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Long Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Artificial Intelligence</term>
+                    <term>Digital Cultural Heritage</term>
+                    <term>Point Clouds</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>data</term>
+                    <term>object</term>
+                    <term>and artefact preservation</term>
+                    <term>Computer science</term>
+                    <term>Cultural studies</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Motivation</head>
+                    <p>In Digital Cultural Heritage (DCH) domain, the ever-increasing availability of three-dimensional data, deriving from LiDAR (Light Detection And Ranging), MMSs (Mobile Mapping Systems) or UAVs (Unmanned Aerial Vehicles) platforms, provides the opportunity to rapidly generate detailed 3D scenes to support conservation, restoration, safeguarding and maintenance as well as activities of built heritage. Historical Building Information Modeling (HBIM) deals with the management of these manifold types of heritage data that allows to enrich the geometrical representation of the asset, thus creating a complete informative data collector [1], [2].</p>                
+                    <p>Achieving this result is not trivial, as HBIM models are generally based on scan-to-BIM processes that enable the generation of parametric 3D model from the point clouds [3]. These processes, although very reliable since they are done manually by domain experts, introduce two obstacles: firstly, they are very time-consuming, and then they rely on a large amount of data derived from an uncountable amount of information to describe a parametric object.</p>
+                    <p>The use of Artificial Intelligence (AI) techniques for the automatic recog- nition of architectural elements from point clouds can thus provide valuable support to expedite these processes. Moreover, Semantic segmentation of her- itage 3D data would help the community in better understanding and analysis of digital twins (digital twins), facilitate preservation operations, and support many other activities related to this field.</p>
+            </div>
+            <div type="div1">
+                <head>Related Work</head>
+                    <p>To date, there are many research papers in which Point Clouds are used for the recognition and reconstruction of geometries related to BIM models [7], and first attempts to apply this methods to DCH have been proposed in recent years. However, these studies are still limited, even if, accord- ing to [9], these methods had great potential to this regard. Deep Learning (DL) techniques are suitably adopted for directly handling the raw data of point clouds. without an intermediate processing that allows a more regular representation. An example is the work of Malinverni et al. [5] that exploited PointNet++ [11] to semantically segment 3D point clouds of CH dataset.</p>               
+            </div>
+            <div type="div1">
+                <head>Research Gap</head>
+                    <p> The lack of benchmark for semantic segmentation of CH point clouds has hindered the development of automatic classification solutions in this field. Our heritage 3D data and point clouds represent complex geometric structures with uncommon classes, thus preventing the simple implementation of already available methods developed in other fields or for other types of data. Cultural assets are in fact characterized by complex geometries, different even within the same class and describable only with a high level of detail, making consequently much more arduous to apply DL strategies to this domain. A newly dataset was specifically collected to deal with CH data and manually labelled by domain experts: ArCH dataset [6]. It includes datasets and classification results for better comparisons and insights into the strengths and weaknesses of different machine and deep learning approaches for semantic segmentation of the heritage point cloud, as well as promoting a form of crowdsourcing to enrich the already annotated database.</p>                
+            </div>
+            <div type="div1">
+                <head>Proposed Approach</head>
+                    <p> The specific goal of this project was to demonstrate the effectiveness of a DL framework specialized in point clouds semantic seg- mentation to tackle with CH-related point clouds. Inspired by the great results obtained in [12], which introduced a module called EdgeConv, that constructs a local neighborhood graph and applies convolution-like operations and developed a new DL model named DGCNN (Dynamic Graph Convolutional Neural Net- work), dynamically updates the graph, changing the set of k-nearest neighbors of a point from layer to layer of the network, we have made extension of the previous work and exploited the novelties offered by the DGCNN. Thus in [9] we proposed a modified version of DGCNN by adding relevant features such as normal and HSV encoded color. This improved version aimed at facilitating the management of DCH assets that have complex geometries, extremely vari- able and defined with a high level of detail. The lack of literature in this field is to be found in the need of a large scale well annotated dataset that limits the development of robust DL framework for processing CH point cloud data. This important issue prevents the research in this direction. In particular, classification and semantic segmentation is noticeably challenging in historical and classical architecture, due to the varieties and the complexity of CH goods, which make difficult the DNNs training. A first attempt to solve this obstacle is the use of Generative Networks (GANs) since their ability to generate novel suitable data as well as learning [10]. In CH field, encouraging results have also yielded by synthetic datasets as already done for urban point clouds [8].</p>                
+            </div>
+            <div type="div1">
+                <head>Significance of Our Approach</head>
+                    <p> This approach facilitates safeguard and cataloging operations (e.g., in case of disaster as earthquake or wars) and sup- port many other activities related to this sector. Moreover, we have started to pave the basis in the discussion on algorithmic decision-making (ADM) [4]. We considered fairness as one of the most prominent values in the Ethics and Artificial Intelligence (AI) debate and we have started to design an ethical framework specifically developed for CH domain.</p>                
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>1. <author>Bitelli, G., Dellapasqua, M., Girelli, V., Sanchini, E., Tini, M.</author>: 3d geomatics tech- niques for an integrated approach to cultural heritage knowledge: The case of san michele in acerboli’s church in santarcangelo di romagna. International Archives of the Photogrammetry, Remote Sensing &amp; Spatial Information Sciences 42 (2017).</bibl>
+                    <bibl>2. <author>Bruno, N., Roncella, R.</author>: A restoration oriented hbim system for cultural heritage documentation: the case study of parma cathedral. International Archives of the Photogrammetry, Remote Sensing &amp; Spatial Information Sciences 42(2) (2018).</bibl>
+                    <bibl>3. <author>Capone, M., Lanzara, E.</author>: Scan-to-bim vs 3d ideal model hbim: parametric tools to study domes geometry. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences 42, 219–226 (2019).</bibl>
+                    <bibl>4. <author>Giovanola, B., Tiribelli, S.</author>: Weapons of moral construction? on the value of fairness in algorithmic decision-making. Ethics and Information Technology 24(1), 1–13 (2022).</bibl>
+                    <bibl>5. <author> Malinverni, E.S., Pierdicca, R., Paolanti, M., Martini, M., Morbidoni, C., Matrone, F., Lingua, A.</author>: Deep learning for semantic segmentation of 3d point cloud. Inter- national Archives of the Photogrammetry, Remote Sensing &amp; Spatial Information Sciences (2019).</bibl>
+                    <bibl>6.<author> Matrone, F., Lingua, A., Pierdicca, R., Malinverni, E., Paolanti, M., Grilli, E., Remondino, F., Murtiyoso, A., Landes, T.</author>: A benchmark for large-scale heritage point cloud semantic segmentation. In: XXIV ISPRS Congress. vol. 43, pp. 1419– 1426 (2020).</bibl>
+                    <bibl>7. <author>Moyano, J., Leon, J., Nieto-Julian, J.E., Bruno, S.</author>: Semantic interpretation of architectural and archaeological geometries: Point cloud segmentation for hbim parameterisation. Automation in Construction 130, 103856 (2021).</bibl>
+                    <bibl>8. <author>Pierdicca, R., Mameli, M., Malinverni, E.S., Paolanti, M., Frontoni, E.</author>: Automatic generation of point cloud synthetic dataset for historical building representation. In: International Conference on Augmented Reality, Virtual Reality and Computer Graphics. pp. 203–219. Springer (2019).</bibl>
+                    <bibl>9. <author>Pierdicca, R., Paolanti, M., Matrone, F., Martini, M., Morbidoni, C., Malinverni, E.S., Frontoni, E., Lingua, A.M.</author>: Point cloud semantic segmentation using a deep learning framework for cultural heritage. Remote Sensing 12(6), 1005 (2020).</bibl>
+                    <bibl>10. <author>Pierdicca, R., Paolanti, M., Quattrini, R., Martini, M., Malinverni, E.S., Frontoni, E.</author>: Generative networks for point cloud generation in cultural heritage domain. In: ARQUEOLO´GICA 2.0 - 9th International Congress 3rd GEORES - GEOmatics and pREServation (2021). https://doi.org/10.4995/arqueologica9.2021.12101.</bibl>
+                    <bibl>11. <author>Qi, C.R., Yi, L., Su, H., Guibas, L.J.</author>: Pointnet++: Deep hierarchical feature learn- ing on point sets in a metric space. Advances in neural information processing systems 30 (2017)</bibl>
+                    <bibl>12. <author>Wang, Y., Sun, Y., Liu, Z., Sarma, S.E., Bronstein, M.M., Solomon, J.M.</author>: Dynamic graph cnn for learning on point clouds. Acm Transactions On Graphics (tog) 38(5), 1–12 (2019).</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>

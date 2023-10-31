@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>They're veGAN but they almost taste the same: generating
+                        simili-manuscripts with artificial intelligence</title>
+                <author n="CampsJeanBaptisteCAMPS_Jean_Baptiste_They_re_veGAN_but_they_almost_taste_the_.xml"><persName ref="https://orcid.org/0000-0003-0385-7037" n="CampsJeanBaptiste">
+                        <surname>Camps</surname>
+                        <forename>Jean-Baptiste</forename>
+                    </persName><affiliation>École nationale des chartes | Université PSL, France</affiliation><email>jean-baptiste.camps@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+                <author n="VidalGorneChahanCAMPS_Jean_Baptiste_They_re_veGAN_but_they_almost_taste_the_.xml"><persName ref="https://orcid.org/0000-0003-1567-6508" n="VidalGorneChahan">
+                        <surname>Vidal-Gorène</surname>
+                        <forename>Chahan</forename>
+                    </persName><affiliation>École nationale des chartes | Université PSL, France</affiliation><email>chahan.vidal-gorene@chartes.psl.eu</email></author><meeting><date from-iso="2023-07-10" to-iso="2023-07-14"/><title>Digital Humanities 2023. Collaboration as Opportunity</title><placeName>Graz</placeName></meeting>
+            </titleStmt>
+            
+            <publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung
+                    - Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                    Graz</orgName></publisher><date when="2023">2023</date><pubPlace>Graz</pubPlace><availability><licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+                    4.0</licence></availability></publicationStmt><seriesStmt><title>Digital Humanities 2023: Book of Abstracts</title><editor><persName ref="https://orcid.org/0000-0002-9256-0958"><forename>Walter</forename><surname>Scholger</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>walter.scholger@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-1726-1712"><forename>Georg</forename><surname>Vogeler</surname></persName><affiliation><orgName>University of Graz</orgName><placeName>Graz, Austria</placeName></affiliation><email>georg.vogeler@uni-graz.at</email></editor><editor><persName ref="https://orcid.org/0000-0002-3919-993X"><forename>Toma</forename><surname>Tasovac</surname></persName><affiliation><orgName>Belgrade Center for Digital Humanities</orgName><placeName>Belgrade, Serbia</placeName></affiliation><email>ttasovac@humanistika.org</email></editor><editor><persName ref="https://orcid.org/0000-0002-4593-059X"><forename>Anne</forename><surname>Baillot</surname></persName><affiliation><orgName>Le Mans Université</orgName><placeName>Le Mans, France</placeName></affiliation><email>anne.baillot@univ-lemans.fr</email></editor><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0009-0007-9019-8215"><forename>Elisabeth</forename><surname>Raunig</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0003-1438-3236"><forename>Martina</forename><surname>Scholger</surname></persName></respStmt><respStmt><resp>Data Management</resp><persName ref="https://orcid.org/0000-0001-9116-0402"><forename>Elisabeth</forename><surname>Steiner</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Johanna</forename><surname>Ofenauer</surname></persName></respStmt><respStmt><resp>Data Curation</resp><persName><forename>Christina</forename><surname>Burgstaller</surname></persName></respStmt><idno type="DOI">10.5281/zenodo.7961822</idno></seriesStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc><abstract><p>The aim of our research is to artificially generate fake historical manuscripts using GAN. At this stage, these experiments pursue two objectives: evaluating feasibility of generating realistic fake manuscripts under certain conditions of layout, script, or date, and creating artificial data to augment HTR training. Examples are taken from Classical Armenian and Old French.</p></abstract><langUsage><language ident="en">English</language></langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Short Presentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>GAN</term>
+                    <term>Artificial intelligence</term>
+                    <term>Artificial data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>artificial intelligence and machine learning</term>
+                    <term>manuscripts description</term>
+                    <term>representation</term>
+                    <term>and analysis</term>
+                    <term>optical character recognition and handwriting recognition</term>
+                    <term>Book and print history</term>
+                    <term>Philology</term>
+                    
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader><text>
+        <body>
+            <div type="div1">
+                <head>Introduction </head>
+                <p>The aim of our research is to artificially generate fake historical manuscripts
+                    using generative adversarial networks, better known as GANs (Goodfellow et al.
+                    2014). In this neural network architecture, a generator network is put in
+                    competition with a discriminator (e.g., the first one generates images that seem
+                    authentic, and the second tries to guess if they are or not).</p>
+                <p>At this stage, these experiments pursue two objectives: evaluating feasibility of
+                    generating realistic fake manuscripts under certain conditions of layout,
+                    script, or date, and creating artificial data for HTR training, as is done for
+                    printed materials with synthetic data (Etter et al. 2019). Ground truth creation
+                    is indeed a time consuming task, in particular for ancient languages for which
+                    we still lack specialists able to manually annotate documents. GAN appears as a
+                    relevant answer to this challenge, as they reach very convincing results in
+                    different scenarii. State-of-the-art results rely on a style-transfer approach
+                    (Karras, Laine, and Aila 2018), in which a generator try to map on a targeted
+                    dataset unsupervised learned features from an other. Such an approach has
+                    already been successfully applied to historical manuscripts to create realistic
+                    Latin manuscripts (Vögtlin et al. 2021) with very constrained styles in training
+                    (page-level), or for contemporary cursive hand-writings (Fogel et al. 2020)
+                    (line-level with a semi-supervised approach).</p>
+                <p>This short paper investigates the feasibility of the line-level approach for
+                    historical manuscripts.</p>
+            </div>
+            <div type="div1">
+                <head>Datasets </head>
+                <p>We focus on two different manuscript traditions. The first dataset is composed of
+                    8 Armenian manuscripts in a very regular <hi rend="italic">bolorgir</hi> script
+                    (Stone, Kouymjian, and Lehmann 2002; Vidal-Gorène and Decours-Perez 2021), from
+                    the 14th to the 18th century. Dataset composition is described in table 1. The
+                    Old French dataset is composed of data extracted from the <hi rend="smallcaps">cremma-medieval</hi> dataset (Pinche 2022), from which 6324 lines of a 13th
+                    century manuscript in <hi rend="italic">textualis</hi> Latin script were
+                    selected (ms. BnF, fr. 412). </p>
+                <table xml:id="d58e199">
+                    <head><hi rend="bold">Table 1.</hi> Composition of the Armenian dataset. The
+                        manuscript identifiers follow the ID system of the Index of Digitized
+                        Armenian Manuscripts (Vidal-Gorène, Sargsyan, and Van Elverdinghe
+                        2022)</head>
+                    <row role="label">
+                        <cell>Manuscript*</cell>
+                        <cell>Language</cell>
+                        <cell>Date</cell>
+                        <cell>Script</cell>
+                        <cell>Lines</cell>
+                    </row>
+                    <row>
+                        <cell>M1</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>1632-1633</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>512</cell>
+                    </row>
+                    <row>
+                        <cell>M6</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>16th</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>819</cell>
+                    </row>
+                    <row>
+                        <cell>M982</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>1460</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>3.035</cell>
+                    </row>
+                    <row>
+                        <cell>MAF52</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>15th-16th</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>954</cell>
+                    </row>
+                    <row>
+                        <cell>MAF54</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>16th</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>1.253</cell>
+                    </row>
+                    <row>
+                        <cell>MAF62</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>18th</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>522</cell>
+                    </row>
+                    <row>
+                        <cell>TBI122</cell>
+                        <cell>Classical Armenian</cell>
+                        <cell>17th</cell>
+                        <cell rend="italic">bolorgir</cell>
+                        <cell>1.209</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>8.304</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                </table>
+                <p>Data annotation has been made on eScriptorium (Kiessling et al. 2019) for Old
+                    French manuscripts and Calfa Vision (Vidal-Gorène et al. 2021) for Armenian
+                    manuscripts.</p>
+            </div>
+            <div type="div1">
+                <head>Method </head>
+                <p>We mainly follow the ScrabbleGAN approach (Fogel et al. 2020) and code <ref target="#CAMPS_Jean_Baptiste_They_re_veGAN_but_they_almost_taste_the_.xml_ftn1" n="1"/>, using a
+                    generator-discriminator combined with a HTR architecture to assist the
+                    discrimination process. Instead of training the GAN to generate characters that
+                    are joined to create a sentence (the “scrabble approach”), we investigate the
+                    relevance to focus on strokes, that are then combined to create characters and
+                    words. The choice of the stroke level is motivated by the nature of the scripts
+                    envisioned. Indeed, working at the character level, which might be very suitable
+                    for printed materials, could result in generated text with too neatly separated,
+                    or even artificially juxtaposed, letters, without the ligatures and stroke
+                    fusions that are encountered in manuscripts. The recogniser architecture has
+                    been reduced compared to the original paper, as we need less abstraction to
+                    distinguish the constituent strokes of the letters.</p>
+                <p><figure>
+                        <graphic url="Pictures/ade9442fdaee07a1e357d13019509a85.png"/>
+                        <head><hi rend="bold">Figure 1:</hi> Recogniser architecture, with 3 CNN
+                            layers less compared to the original paper. State-of-the-art recogniser
+                            generally include LSTM layers, but too high accuracy would lead here to
+                            a less realistic generation, as the recogniser would recognise the text
+                            even if image is heavily noisy.</head>
+                    </figure></p>
+                <p>Data originally consist in image and ALTO XML pairs. For these experiments, we
+                    have applied two <hi rend="italic">modi operandi</hi>: </p>
+                <list type="ordered">
+                    <item><hi rend="bold">with preprocessing</hi>: <list type="unordered">
+                            <item>binarisation of images;</item>
+                            <item>extraction of lines patch, basically generating a line image - txt
+                                pair, cropping the polygon of the line in a white bbox, with
+                                baseline adjustment;</item>
+                            <item>Chocomufin of text for Old French (Clérice and Pinche 2021)</item>
+                        </list></item>
+                    <item><hi rend="bold">without preprocessing</hi>: we only perform the line
+                        extraction step with baseline adjustment, keeping the mask of the line.
+                    </item>
+                </list>
+            </div>
+            <div type="div1">
+                <head>Results and
+                    discussion </head>
+                <p>Generated images are described below (fig. 2 and 3).</p>
+                <p>For Armenian, the artificial images, both binarized or non-preprocessed, are very
+                    convincing examples of <hi rend="italic">bolorgir</hi> script, and are fully
+                    legible for an expert (and hard to differentiate from an actual manuscript
+                    image). </p>
+                <p>For Old French, the results for the binarized version are less enticing, but
+                    nonetheless interesting. In particular, the model seems to insert a spurious
+                    character before or after each letter: e.g. the last word of the last line in
+                    fig. 2 – that should be <hi rend="italic">mengier</hi> – actually reads
+                    something as <hi rend="italic">mienigierie</hi>. This might be a way to simplify
+                    the work of the recogniser by signalling the end of individual characters. </p>
+                <p><figure>
+                        <graphic url="Pictures/71af8acc05a23b367eec48bc8b2aab17.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/b431a4e8115628a9784d180550d007aa.png"/>
+                    </figure></p>
+                <p><figure>
+                        <graphic url="Pictures/f26c84f8685e3b7824ca4b3b01d37b5a.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/6952b3d20805e454f5803ed1a8d9756e.png"/>
+                        <head><hi rend="bold">Figure 2:</hi> Examples of binarized GT and generated
+                            images for Classical Armenian and Old French</head>
+                    </figure></p>
+                <p>Generated color lines, both in Armenian and Old French, are even more convincing
+                    for the expert. The presence of the background and all variations of intensity
+                    in the ink reinforce the credibility of the images generated. This is an
+                    initially counter-intuitive result. The very wide variety of backgrounds
+                    (papyrus, parchment, paper ; colorimetry, etc.) nevertheless leads to a defect
+                    in the GAN which produces a result with a somewhat blurred appearance, with a
+                    slightly dripping color see fig. 3, images 2 and 5). Some of the very rare
+                    letters are also less well generated, and produce noise in the colorimetry of
+                    the line (see fig. 3, image 6). From a qualitative point of view, it is not
+                    possible to identify whether an Armenian line is true or not, except on the
+                    question of the abbreviative signs ( <hi rend="italic">badiw</hi>, horizontal
+                    line above the lines) drawn randomly (above unabbreviated words). This
+                    abbreviation sign is naturally considered as background and therefore generated
+                    randomly, because it is not present in the transcription provided. </p>
+                <p>It is interesting to note that the GANs also reproduce the presence of a black
+                    random mask around the text, mask initially generated during the extraction of
+                    the lines from the ALTO files. This may appear as noise, however it therefore
+                    multiplies the possible scenarios in the composition of the masks and may also
+                    be a mean of reinforcing the robustness of the recognition.</p>
+                <p><figure>
+                        <graphic url="Pictures/86b9c5f6b5147c4c144e463e0d3316ca.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/de14915aa90b9f103e9ccbe8d513e0bf.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/e9d9fb2f0d1e6e6e59cc6f31873f60d7.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/d799b4d2595b9783d7dae3f130ae9c67.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/de35e0fab9900ac6270e04fccc7b02c6.png"/>
+                    </figure><figure>
+                        <graphic url="Pictures/1ab262b52c2577ae09ee257223e3c4a9.png"/>
+                        <head><hi rend="bold">Figure 3:</hi> Examples of colour generated images for
+                            Classical Armenian and Old French</head>
+                    </figure></p>
+                <p>For now, the recogniser proves too efficient, recognising even images with no
+                    human-readable text, and preventing the generator from producing fully
+                    historically plausible images. As the recogniser is able to recognise the text
+                    even if lines are not realistic, the generator seems to be penalised and stops
+                    its attempts to create more realistic results.</p>
+                <p>At this stage, generated images with their corresponding transcription can
+                    already be used as a relevant data augmentation. We have led a very short
+                    experiment with the Armenian dataset. We have divided our dataset in 4 subsets :
+                    train (827 real lines), val (1 703 real lines), test in-domain (3 772 real
+                    lines) and test out-of-domain (2 002 lines) and have performed 4 trainings:</p>
+                <list type="ordered">
+                    <item>default: train set only</item>
+                    <item>default+gan250: train set + 250 generated lines</item>
+                    <item>default+gan500: train set + 500 generated lines</item>
+                    <item>default+gan1000: train set + 1.000 generated lines</item>
+                </list>
+                <p><figure>
+                        <graphic url="Pictures/654804a69a0190e88d205a00868438b9.jpg"/>
+                        <head><hi rend="bold">Figure 4:</hi> Val accuracy during training</head>
+                    </figure></p>
+                <p>For artificial data generation in Armenian, we have used text from chronicles
+                    really far from training real manuscripts (mainly Gospels). This addition of a
+                    new vocabulary and sentences is maybe the reason of the increase of HTR
+                    performance on out-of-domain tasks.</p>
+                <p>Training curves (Fig. 4) show that we significantly speed-up training with fake
+                    images, as we could have with a bigger training dataset. CER achieved by default
+                    model and default+gan500 model are respectively 6.13% and 5.63% on in-domain
+                    test, and 22.72% and 10.79% on out-of-domain test.</p>
+                <p>In this scenario of an under-resourced script, the data augmentation, in
+                    particular with out-of-domain words, therefore appears relevant. We have not
+                    been able to conduct similar experimentations at this stage for Old French, for
+                    which we have a large number of abbreviative signs that are very poorly covered,
+                    and therefore poorly generated by the GAN. The main advantage of the method
+                    seems to be the qualitative dimension of the data augmentation carried out,
+                    which is not just a simple and random transformation of the image. If the final
+                    accuracy reached is the same, the model with GAN converges faster – in terms of
+                    number of epochs – and demonstrates its relevance in a complete out-of-domain
+                    situation. A 100% GAN model, on the other hand, does not yet seem relevant.</p>
+            </div>
+            <div type="div1">
+                <head>Future research </head>
+                <p>Current experiments highlight the feasibility and the relevance of using GAN to
+                    create fake historical manuscripts. We show that state-of-the-art systems can be
+                    transferred to historical data, and intend in the future to reduce the
+                    recogniser abilities to increase image generation. We also plan to generate
+                    complete pages instead of single lines. The approach presented has the
+                    disadvantage of requiring an already well-balanced dataset to be able to
+                    generate all the characters in a relevant way. A complementary style transfer
+                    for poorly endowed characters might have its relevance.</p>
+                <p>For now, we do not, strictly speaking, offer a evaluation of the
+                    (pseudo-)authenticity of generated lines, which is by any means a question
+                    difficult to approach. Yet, the verisimilitude of the generated lines for the
+                    expert upon direct inspection, on one hand, and the improve in HTR performance
+                    (meaning that the HTR models found some measure of information of historical
+                    relevance in the generated lines), on the other, offer two complementary
+                    approaches to this evaluation. In the future, both approaches could be
+                    extended.</p>
+            </div>
+        </body>
+        <back>
+            <div type="notes"><note n="1" xml:id="CAMPS_Jean_Baptiste_They_re_veGAN_but_they_almost_taste_the_.xml_ftn1">https://github.com/amzn/convolutional-handwriting-gan</note></div><div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <author>Clérice, Thibault, and Ariane Pinche</author>. 2021.
+                        “Choco-Mufin, a tool for controlling characters used in OCR and HTR
+                        projects.” <ref target="https://doi.org/10.5281/zenodo.5356154">https://doi.org/10.5281/zenodo.5356154</ref>. </bibl>
+                    <bibl>
+                        <author>Etter, David, Stephen Rawls, Cameron Carpenter, and Gregory
+                            Sell</author>. 2019. “A Synthetic Recipe for Ocr.” In <hi rend="italic">2019
+                            International Conference on Document Analysis and Recognition
+                            (Icdar)</hi>, 864–69. IEEE. </bibl>
+                    <bibl>
+                        <author>Fogel, Sharon, Hadar Averbuch-Elor, Sarel Cohen, Shai Mazor,
+                            and Roee Litman</author>. 2020. “ScrabbleGAN: Semi-Supervised Varying Length
+                        Handwritten Text Generation.” arXiv. <ref target="https://doi.org/10.48550/ARXIV.2003.10557">https://doi.org/10.48550/ARXIV.2003.10557</ref>. </bibl>
+                    <bibl>
+                        <author>Goodfellow, Ian, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu,
+                            David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua
+                            Bengio</author>. 2014. “Generative Adversarial Networks.” In <hi rend="italic">Proceedings of Advances in Neural Information Processing
+                            Systems 27 (Nips 2014)</hi>. </bibl>
+                    <bibl>
+                        <author>Karras, Tero, Samuli Laine, and Timo Aila</author>. 2018. “A
+                        Style-Based Generator Architecture for Generative Adversarial Networks.”
+                        arXiv. <ref target="https://doi.org/10.48550/ARXIV.1812.04948">https://doi.org/10.48550/ARXIV.1812.04948</ref>. </bibl>
+                    <bibl>
+                        <author>Kiessling, Benjamin, Robin Tissot, Peter Stokes, and Daniel
+                            Stökl Ben Ezra</author>. 2019. “EScriptorium: An Open Source Platform for
+                        Historical Document Analysis.” In <hi rend="italic">2019 International
+                            Conference on Document Analysis and Recognition Workshops (Icdarw)</hi>,
+                        2:19–19. IEEE. </bibl>
+                    <bibl>
+                        <author>Pinche, Ariane</author>. 2022. “CREMMA Medieval, an Old French
+                        dataset for HTR and segmentation.” <ref target="https://doi.org/10.5281/zenodo.5617782">https://doi.org/10.5281/zenodo.5617782</ref>. </bibl>
+                    <bibl>
+                        <author>Stone, Michael E, Dickran Kouymjian, and Henning
+                            Lehmann</author>. 2002. <hi rend="italic">Album of Armenian
+                        Paleography</hi>. Aarhus University Press Aarhus. </bibl>
+                    <bibl>
+                        <author>Vidal-Gorène, Chahan, and Aliénor Decours-Perez</author>. 2021.
+                        “A Computational Approach of Armenian Paleography.” In <hi rend="italic">International Conference on Document Analysis and Recognition</hi>,
+                        295–305. Springer. </bibl>
+                    <bibl>
+                        <author>Vidal-Gorène, Chahan, Boris Dupin, Aliénor Decours-Perez,
+                            and Thomas Riccioli</author>. 2021. “A Modular and Automated Annotation
+                        Platform for Handwritings: Evaluation on Under-Resourced Languages.” In <hi rend="italic">International Conference on Document Analysis and
+                            Recognition</hi>, 507–22. Springer. </bibl>
+                    <bibl>
+                        <author>Vidal-Gorène, Chahan, Anush Sargsyan, and Emmanuel Van
+                            Elverdinghe</author>. 2022. “Index of Digitized Armenian Manuscripts.”
+                        Zenodo. <ref target="https://doi.org/10.5281/zenodo.6894290">https://doi.org/10.5281/zenodo.6894290</ref>. </bibl>
+                    <bibl>
+                        <author>Vögtlin, Lars, Manuel Drazyk, Vinaychandran Pondenkandath,
+                            Michele Alberti, and Rolf Ingold</author>. 2021. “Generating Synthetic
+                        Handwritten Historical Documents with OCR Constrained GANs.” In <hi rend="italic">2021 16th Iapr International Conference on Document
+                            Analysis and Recognition (Icdar)</hi>. Lausanne, Switzerland. </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text></TEI>
