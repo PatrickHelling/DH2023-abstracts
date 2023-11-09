@@ -36,7 +36,7 @@ All contributions and poster presentations are published on zenodo: https://zeno
 - description: individual short description of the publication
 - doi: persistent identifier of the publication on zenodo
 - keywords: self-given keywords by authors + conference_acronym
-- licence: standardized licence for DHd-contributions
+- license: standardized license for DHd-contributions
 - prereserve_doi: persistent identifier that was prereserved while uploading publication to zenodo
 - publication_date: date of publication of the original book of abstracts
 - related_identifier: DOI of the Book of Abstracts | If poster presentation: DOI of the poster presentation
@@ -61,7 +61,7 @@ All contributions and poster presentations are published on zenodo: https://zeno
 - description: generic description of the publication
 - doi: persistent identifier of the publication on zenodo
 - keywords: self-given keywords by authors + conference_acronym
-- licence: standardized licence for DHd-contributions
+- license: standardized license for DHd-contributions
 - prereserve_doi: persistent identifier that was prereserved while uploading publication to zenodo
 - publication_date: date of publication of the original book of abstracts
 - related_identifier: DOI of the contribution
