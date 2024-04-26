@@ -69,7 +69,3 @@ All contributions and poster presentations are published on zenodo: https://zeno
 - upload_type: type of upload
 - conceptdoi: persistent identifier of all versions of a publication (points to the earliest version)
 - files: files that are part of an individual publication
-- DHd2018: https://github.com/DHd-Verband/DHd-Abstracts-2018
-- DHd2019: https://github.com/DHd-Verband/DHd-Abstracts-2019
-- DHd2020: https://github.com/DHd-Verband/DHd-Abstracts-2020
-- DHd2022: https://github.com/DHd-Verband/DHd-Abstracts-2022
